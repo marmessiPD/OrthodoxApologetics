@@ -1,4 +1,5 @@
-import { ChevronRight, Compass, Crosshair, Star, Users } from 'lucide-react';
+import { ChevronRight, Compass, Crosshair, FileText, Star, Users } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { Link, useParams } from 'react-router';
 import { Badge } from '@/components/ui/badge';
 import { Difficulty, PageHeader, SectionTitle } from '@/components/app/Bits';
@@ -167,6 +168,11 @@ export function TopicPage() {
             </div>
             <Md size="sm">{topic.strategy}</Md>
           </div>
+          <Button asChild variant="outline" className="w-full">
+            <Link to={`/thema/${topic.id}/spickzettel`}>
+              <FileText /> Spickzettel (druckbar)
+            </Link>
+          </Button>
           {topic.keyOpponents?.length > 0 && (
             <div className="rounded-xl border bg-card p-4">
               <div className="mb-2 flex items-center gap-2 text-sm font-semibold">

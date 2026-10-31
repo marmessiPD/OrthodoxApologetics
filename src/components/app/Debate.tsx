@@ -144,6 +144,25 @@ export function DebateSimulator({ claim, initialNodeId }: { claim: Claim; initia
     setPath((p) => [...p, n]);
     setVisited((v) => new Set(v).add(n.id));
   };
+  // Tastatur: 1–9 wählt einen Einwand, ← / Backspace geht einen Zug zurück
+  useEffect(() => {
+    if (view !== 'chat') return;
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable) || e.metaKey || e.ctrlKey || e.altKey) return;
+      const k = parseInt(e.key, 10);
+      if (k >= 1 && k <= options.length) {
+        e.preventDefault();
+        choose(options[k - 1]);
+      } else if ((e.key === 'ArrowLeft' || e.key === 'Backspace') && path.length) {
+        e.preventDefault();
+        setPath((p) => p.slice(0, -1));
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  });
+
   const siblingsAt = (i: number) => (i === 0 ? claim.dialog : path[i - 1].followUps ?? []);
   const jumpTo = (id: string) => {
     const p = findPath(claim.dialog, id) ?? [];
@@ -208,7 +227,7 @@ export function DebateSimulator({ claim, initialNodeId }: { claim: Claim; initia
                   {path.length ? 'Was sagt dein Gegenüber als Nächstes?' : 'Womit kontert dein Gegenüber?'}
                 </div>
                 <div className="grid gap-2">
-                  {options.map((o) => {
+                  {options.map((o, oi) => {
                     const sub = countNodes(o.followUps);
                     return (
                       <button
@@ -222,6 +241,7 @@ export function DebateSimulator({ claim, initialNodeId }: { claim: Claim; initia
                         <span className="min-w-0 flex-1">
                           <span className="line-clamp-3 text-[14.5px] leading-snug">„{plain(o.objection)}"</span>
                           <span className="mt-1 flex flex-wrap items-center gap-x-2 text-[11.5px] text-muted-foreground">
+                            {oi < 9 && <kbd className="hidden rounded border bg-muted px-1 font-sans text-[10px] lg:inline">{oi + 1}</kbd>}
                             {o.objectionBy && <span>{o.objectionBy}</span>}
                             {o.targetsPremise ? <span>· Prämisse {o.targetsPremise}</span> : null}
                             {sub > 0 && <span>· {sub} weitere Züge</span>}

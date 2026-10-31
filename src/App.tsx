@@ -10,6 +10,7 @@ const People = lazy(() => import('@/pages/People').then((m) => ({ default: m.Peo
 const Person = lazy(() => import('@/pages/People').then((m) => ({ default: m.PersonPage })));
 const Bookmarks = lazy(() => import('@/pages/Bookmarks'));
 const About = lazy(() => import('@/pages/About'));
+const CheatSheet = lazy(() => import('@/pages/CheatSheet'));
 
 const router = createHashRouter([
   {
@@ -19,6 +20,7 @@ const router = createHashRouter([
       { path: 'themen', element: <TopicsPage /> },
       { path: 'kategorie/:categoryId', element: <CategoryPage /> },
       { path: 'thema/:topicId', element: <TopicPage /> },
+      { path: 'thema/:topicId/spickzettel', element: <CheatSheet /> },
       { path: 'thema/:topicId/:claimId', element: <ClaimPage /> },
       { path: 'konzil', element: <People /> },
       { path: 'konzil/:personId', element: <Person /> },

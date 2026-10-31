@@ -1,6 +1,6 @@
 import {
   AlertTriangle, BookOpen, Check, ChevronLeft, ChevronRight, Church, Copy, FlaskConical, HandHeart, Library, Link2, ListChecks,
-  MessageCircleQuestion, MessagesSquare, Scale, ScrollText, Swords, Users, Zap,
+  MessageCircleQuestion, MessagesSquare, Scale, ScrollText, Share2, Swords, Users, Zap,
 } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
@@ -154,7 +154,21 @@ export default function ClaimPage() {
       </div>
       <div className="flex items-start gap-3">
         <h1 className="flex-1 font-serif text-[24px] font-semibold leading-tight tracking-tight sm:text-[30px]">{plain(claim.title)}</h1>
-        <BookmarkButton refId={ref} className="mt-1" />
+        <div className="mt-1 flex gap-1.5">
+          <Button
+            variant="outline"
+            size="icon-sm"
+            aria-label="Teilen"
+            onClick={() => {
+              const url = window.location.href;
+              if (navigator.share) navigator.share({ title: plain(claim.title), url }).catch(() => {});
+              else navigator.clipboard?.writeText(url);
+            }}
+          >
+            <Share2 />
+          </Button>
+          <BookmarkButton refId={ref} />
+        </div>
       </div>
       <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
         <Difficulty level={claim.difficulty} />
