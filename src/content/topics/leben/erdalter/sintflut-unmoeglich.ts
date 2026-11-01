@@ -134,6 +134,24 @@ const claim: Claim = {
               id: 'warum-arche',
               objection: `Bei einer lokalen Flut hätte Noah einfach wegziehen können. Wozu dann eine Arche?`,
               answer: `Eine gute Frage. Die Arche ist mehr als ein Transportmittel: Sie ist Zeichen von Gericht und Rettung, Noah ist „Prediger der Gerechtigkeit" (2 Petr 2,5), und die Arche wird zum Vorbild der Kirche und der Taufe (1 Petr 3,20–21). Gottes Weg der Rettung wird sichtbar gemacht – nicht ein Umzug organisiert.`,
+              followUps: [
+                {
+                  id: 'tiere-auf-der-arche',
+                  objection: `Und die Tiere? Genesis 6 verlangt von „allen Tieren" je ein Paar. Bei einer lokalen Flut hätten die Tiere anderswo einfach überlebt – dann ist das ganze Tier-Programm sinnlos. Und bei einer globalen Flut passen Millionen Arten nicht in ein Holzschiff.`,
+                  objectionBy: 'Bill Nye',
+                  answer: `Der Einwand trifft beide Seiten – deshalb antworte ich ehrlich auf beide. Für die regionale Lesart gilt dasselbe wie bei „die ganze Erde": „Alle Tiere" meint aus Sicht des Erzählers die Tiere seines Lebensraums, vor allem Vieh und Kleintiere, die Noahs Familie nach der Flut brauchte. Der theologische Sinn steht in Gen 9,10: Gott schließt seinen Bund ausdrücklich auch mit den Tieren. Die Geschichte zeigt, dass Gottes Rettung die ganze Schöpfung umfasst – das ist ihr Punkt, nicht die Logistik.`,
+                  detail: `**Regional gelesen:** Der Text spricht in der Perspektive des Erzählers. Die Tiere, die Noah aufnimmt, sind die Tiere seiner Welt; „Vieh, Gewürm und Vögel" (Gen 7,14) entspricht den Gruppen, die ein Mensch des Alten Orients kannte. Longman und Walton lesen die universalen Formulierungen als bewusst gesteigerte Rhetorik, die die Größe des Gerichts ausdrückt.
+
+**Global gelesen (zur Fairness):** Vertreter einer weltweiten Flut argumentieren, Noah habe nicht Arten, sondern Grundtypen („Arten" im biblischen Sinn, hebräisch *mîn*) aufgenommen, aus denen sich die heutige Vielfalt rasch entwickelt habe. Das reduziert die Zahl erheblich, wirft aber eigene biologische Fragen auf.
+
+**Geistlicher Sinn:** Für die Väter ist die Arche, die reine und unreine Tiere birgt, ein Bild der Kirche, in der Menschen aus allen Völkern Rettung finden (vgl. die Vision des Petrus, Apg 10,11–15).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Genesis', ref: '9,9–10', quote: `Siehe, ich richte mit euch einen Bund auf und mit eurem Samen nach euch und mit allem lebendigen Getier bei euch, an Vögeln, an Vieh und an allen Tieren auf Erden bei euch.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    waltonLongman2018,
+                  ],
+                  questionsBack: [`Was ist für den Erzähler der Zweck der Tiere in der Arche – Artenschutz im modernen Sinn oder ein Zeichen, dass Gottes Bund die ganze Schöpfung umfasst (Gen 9,10)?`],
+                },
+              ],
             },
           ],
         },

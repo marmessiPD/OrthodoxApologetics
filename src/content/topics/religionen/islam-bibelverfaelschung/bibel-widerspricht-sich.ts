@@ -198,6 +198,56 @@ const claim: Claim = {
       sources: [
         { kind: 'bibel', work: 'Matthäus', ref: '1,17', quote: `Alle Glieder von Abraham bis auf David sind vierzehn Glieder. Von David bis auf die babylonische Gefangenschaft sind vierzehn Glieder. Von der babylonischen Gefangenschaft bis auf Christum sind vierzehn Glieder.`, translation: 'Luther 1912', status: 'verbatim' },
       ],
+      followUps: [
+        {
+          id: 'marialinie-notloesung',
+          objection: `Die „Linie Marias" ist eine Notlösung. Lukas schreibt eindeutig „Josef, ein Sohn Elis". Ihr erfindet Erklärungen, weil ihr den Fehler nicht zugeben wollt.`,
+          objectionBy: 'Paul Williams (Blogging Theology)',
+          answer: `Lukas schreibt genauer: Jesus war „wie man meinte, ein Sohn Josefs" (Lk 3,23) – er markiert selbst, dass die Vaterschaft Josefs nur rechtlich ist. Die Erklärung über die Leviratsehe stammt aus dem 3. Jahrhundert (Julius Africanus, bei Eusebius) und ist keine moderne Ausrede. Dass es zwei mögliche Erklärungen gibt, ist kein Widerspruch. Und denselben Maßstab legst du beim Koran an: Maria heißt dort „Schwester Aarons" (19:28) und „Tochter Imrans" (66:12) – und Muslime erklären das mit einer Redeweise (Sahih Muslim 2135). Das ist legitim. Dann ist es bei Lukas ebenso legitim.`,
+          detail: `Eusebius gibt in seiner Kirchengeschichte (I,7) den Brief des Julius Africanus an Aristides wieder, der die beiden Stammbäume mit einer Leviratsehe erklärt und sich dabei auf Überlieferungen der Verwandten Jesu beruft. Eine Erklärung, die so alt und so ausführlich ist, zeigt: Die Kirche hat die Spannung von Anfang an gesehen und offen behandelt – und den Text nicht angetastet.`,
+          sources: [
+            { kind: 'bibel', work: 'Lukas', ref: '3,23', quote: `Und Jesus ging in das dreißigste Jahr und ward gehalten für einen Sohn Josephs, welcher war ein Sohn Elis.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'kirchenvater', author: 'Eusebius von Caesarea (zitiert Julius Africanus)', work: 'Kirchengeschichte', ref: 'I,7', year: 'um 325', quote: `Africanus erklärt die abweichenden Stammbäume bei Matthäus und Lukas mit der Leviratsehe: ein leiblicher und ein gesetzlicher Vater.`, status: 'paraphrase' },
+            { kind: 'hadith', work: 'Sahih Muslim', ref: '2135', quote: `Mughira ibn Schu'ba wird in Nadschran gefragt, wie Maria „Schwester Aarons" heißen könne; der Prophet erklärt, man habe Menschen nach früheren Propheten und Frommen benannt.`, status: 'paraphrase', url: 'https://sunnah.com/muslim:2135' },
+          ],
+          questionsBack: [
+            `Wenn du für „Schwester Aarons" eine Erklärung akzeptierst – warum nicht für „wie man meinte, ein Sohn Josefs"?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'auferstehungsberichte',
+      objection: `Die Auferstehungsberichte widersprechen sich völlig: Wie viele Frauen gingen zum Grab? Ein Engel oder zwei? Saßen sie oder standen sie? Wer zuerst? Kein Gericht würde solche Zeugen akzeptieren.`,
+      objectionBy: 'Bart D. Ehrman, aufgegriffen von Shabir Ally',
+      answer: `Gerichte erleben genau das ständig: Unabhängige Zeugen unterscheiden sich in Nebensachen und stimmen im Kern überein – völlig gleichlautende Aussagen würden eher den Verdacht der Absprache wecken. Der Kern ist in allen vier Berichten gleich: Jesus wurde gekreuzigt und begraben, am ersten Tag der Woche fanden Frauen das Grab leer, eine Engelsbotschaft verkündete die Auferstehung, und Jesus erschien seinen Jüngern. Und für dich als Muslim besonders wichtig: Alle vier stimmen darin überein, dass Jesus *gestorben und begraben* wurde.`,
+      detail: `Historiker gehen mit antiken Quellen genauso um: Polybios und Livius schildern Hannibals Alpenüberquerung mit erheblichen Abweichungen in Route und Details – kein Historiker bezweifelt deshalb, dass sie stattfand. Viele scheinbare Widersprüche lösen sich, wenn man beachtet, dass die Evangelisten auswählen: Wer zwei Engel erwähnt, widerspricht nicht dem, der nur den Sprecher nennt.`,
+      questionsBack: [
+        `In welchem Punkt stimmen alle vier Berichte überein – und was bedeutet das für die Aussage des Korans, Jesus sei nicht gekreuzigt worden?`,
+      ],
+      followUps: [
+        {
+          id: 'legenden-nicht-augenzeugen',
+          objection: `Die Unterschiede zeigen, dass es keine Augenzeugenberichte sind, sondern Legenden, die beim Weitererzählen gewachsen sind.`,
+          objectionBy: 'Bart D. Ehrman',
+          answer: `Legenden würden anders aussehen: Sie glätten Unterschiede und machen Helden aus den Hauptpersonen. Die Evangelien dagegen lassen Frauen die ersten Zeugen sein – in einer Kultur, in der das Zeugnis von Frauen vor Gericht wenig galt; Josephus schreibt ausdrücklich, Frauen solle man als Zeugen nicht zulassen. Niemand, der eine Legende erfindet, wählt Zeugen, die seine Geschichte schwächen. Und das älteste Zeugnis, das Bekenntnis in 1 Kor 15,3–7, stammt nach den meisten Forschern aus den ersten Jahren nach Jesu Tod.`,
+          detail: `Das „Kriterium der Peinlichkeit" ist ein anerkanntes Werkzeug der historischen Jesusforschung, das auch Ehrman selbst verwendet: Was für die Erzähler unbequem war, wurde wahrscheinlich nicht erfunden. Die Frauen am Grab, die verängstigten und zweifelnden Jünger, Petrus' Verleugnung – all das passt nicht zu einer Heldenlegende.`,
+          sources: [
+            { kind: 'juedisch', author: 'Flavius Josephus', work: 'Jüdische Altertümer (Antiquitates)', ref: '4,219 (IV,8,15)', year: 'um 93/94', quote: `Das Zeugnis von Frauen soll nicht zugelassen werden, wegen der Leichtfertigkeit und Kühnheit ihres Geschlechts.`, status: 'paraphrase' },
+            { kind: 'bibel', work: '1. Korinther', ref: '15,3–5', quote: `Denn ich habe euch zuvörderst gegeben, was ich empfangen habe: dass Christus gestorben sei für unsre Sünden nach der Schrift, und dass er begraben sei, und dass er auferstanden sei am dritten Tage nach der Schrift, und dass er gesehen worden ist von Kephas, darnach von den Zwölfen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          voices: [
+            {
+              person: 'licona',
+              role: 'als Historiker der Auferstehungsfrage',
+              text: `Licona vergleicht die Evangelien mit antiken Biografien, etwa denen Plutarchs, der dieselben Ereignisse in verschiedenen Lebensbeschreibungen mit wechselnden Details erzählt. Solche Unterschiede gehören zu den literarischen Konventionen der Zeit – Verdichtung, Auswahl, Umstellung – und sprechen nicht gegen die Geschichtlichkeit des Kerns.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Michael R. Licona', work: 'Why Are There Differences in the Gospels? What We Can Learn from Ancient Biography', year: '2017', quote: `Viele Unterschiede in den Evangelien entsprechen den Kompositionstechniken antiker Biografen.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

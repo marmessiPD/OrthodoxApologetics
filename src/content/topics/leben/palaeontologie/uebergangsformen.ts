@@ -47,7 +47,7 @@ const claim: Claim = {
       role: 'als Paläontologe',
       text: `Bechly bestreitet nicht, dass es Fossilien mit intermediären Merkmalen gibt. Er weist aber darauf hin, dass ihre zeitliche Abfolge oft nicht der erwarteten Reihenfolge entspricht – wie bei den Zachełmie-Fährten, die älter sind als Tiktaalik – und dass große Umbauten in auffällig kurzen Zeitfenstern stattfanden. Sein Hauptpunkt ist das Tempo: Je kürzer das Fenster für einen umfassenden Bauplan-Umbau, desto weniger Generationen stehen für die nötigen genetischen Veränderungen zur Verfügung.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Günter Bechly', work: 'Beiträge zu Tetrapoden-Ursprung, Walen und abrupten Übergängen (evolutionnews.org; Vorträge)', status: 'unverified', note: 'Konkrete Fundstellen vor Zitierung heraussuchen.' },
+        { kind: 'fachliteratur', author: 'Günter Bechly, Stephen C. Meyer', work: '„The Fossil Record and Universal Common Ancestry", in: J. P. Moreland u. a. (Hg.), Theistic Evolution: A Scientific, Philosophical, and Theological Critique', ref: 'Kap. 10 (Zählung je nach Ausgabe abweichend)', year: '2017', status: 'paraphrase', note: 'Kapitel und Herausgeberschaft bestätigt; Bechlys Kernargument zu abrupten Ursprüngen. Ob die Einzelbeispiele (Zachełmie, Wale) dort behandelt werden, ist nicht am Original geprüft.' },
       ],
     },
     {

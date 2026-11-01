@@ -91,7 +91,7 @@ const claim: Claim = {
       role: 'als Paläontologe',
       text: `Bechly, selbst Fachmann für fossile Insekten, sieht in der kambrischen Explosion das bekannteste Beispiel eines allgemeinen Musters: Neue Baupläne erscheinen im Fossilbericht abrupt, gefolgt von langer Stabilität. Er verbindet diesen Befund mit dem populationsgenetischen Wartezeitproblem: Je kürzer das geologische Zeitfenster für einen großen Umbau, desto weniger Generationen stehen für die nötigen koordinierten genetischen Veränderungen zur Verfügung.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Günter Bechly', work: 'Beiträge zu abrupten Ursprüngen im Fossilbericht (evolutionnews.org; Vorträge)', status: 'unverified', note: 'Konkrete Fundstellen vor Zitierung heraussuchen.' },
+        { kind: 'fachliteratur', author: 'Günter Bechly, Stephen C. Meyer', work: '„The Fossil Record and Universal Common Ancestry", in: J. P. Moreland u. a. (Hg.), Theistic Evolution: A Scientific, Philosophical, and Theological Critique', ref: 'Kap. 10 (Zählung je nach Ausgabe abweichend)', year: '2017', status: 'paraphrase', note: 'Kapitel und Herausgeberschaft bestätigt; Bechlys Kernargument zu abrupten Ursprüngen. Die Verknüpfung mit dem Wartezeitproblem entfaltet Bechly auch in Hössjer, Bechly & Gauger, J. Theor. Biol. 524 (2021).' },
       ],
     },
     {

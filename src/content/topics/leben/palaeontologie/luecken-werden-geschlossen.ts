@@ -47,7 +47,7 @@ const claim: Claim = {
       role: 'als Paläontologe',
       text: `Bechly, der als Kurator viele neue fossile Arten beschrieben hat, kennt den Fortschritt der Paläontologie aus erster Hand. Gerade deshalb betont er, dass sich das Muster abrupter Ursprünge mit wachsender Datenmenge nicht verflüchtigt hat: Viele Großgruppen erscheinen plötzlich, oft in geologisch kurzer Zeit nach einer Umweltkrise, und verändern sich danach kaum. Er sieht darin ein durchgängiges Merkmal der Erdgeschichte, das mit dem populationsgenetischen Wartezeitproblem zusammen gedacht werden muss.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Günter Bechly', work: 'Beiträge zu „abrupten Ursprüngen" im Fossilbericht (evolutionnews.org; Vorträge)', status: 'unverified', note: 'Konkrete Fundstellen vor Zitierung heraussuchen.' },
+        { kind: 'fachliteratur', author: 'Günter Bechly, Stephen C. Meyer', work: '„The Fossil Record and Universal Common Ancestry", in: J. P. Moreland u. a. (Hg.), Theistic Evolution: A Scientific, Philosophical, and Theological Critique', ref: 'Kap. 10 (Zählung je nach Ausgabe abweichend)', year: '2017', status: 'paraphrase', note: 'Kapitel und Herausgeberschaft bestätigt; Bechlys Kernargument zu abrupten Ursprüngen. Einzelne Formulierungen nicht am Original geprüft.' },
       ],
     },
     {

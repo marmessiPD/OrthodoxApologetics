@@ -152,6 +152,27 @@ const claim: Claim = {
               objection: `Der Jünger starb freiwillig für Jesu Leben, nicht für Sünden. Das ist etwas anderes als die Sühne für die Schuld anderer.`,
               objectionBy: 'Yasir Qadhi',
               answer: `Dann gibst du zu, dass ein Unschuldiger freiwillig an die Stelle eines anderen treten darf, ohne dass Gott ungerecht ist. Damit fällt der Grundsatz „Stellvertretung ist an sich ungerecht". Die Frage ist nur noch, ob Gott eine solche Stellvertretung zur Rettung der Sünder wollte – und das bezeugt die ganze Schrift von Jes 53 bis Mk 10,45. Und noch etwas: Der Bericht stammt von Ibn ʿAbbas, der etwa 600 Jahre nach den Ereignissen lebte – woher wusste er es?`,
+              followUps: [
+                {
+                  id: 'shubbiha-ohne-ersatz',
+                  objection: `Ich muss gar keine Ersatzperson annehmen. Der Bericht des Ibn ʿAbbas ist kein Prophetenwort. *Shubbiha lahum* kann heißen: „Es erschien ihnen so." Jesus wurde vielleicht ans Kreuz gebracht, starb aber nicht – Gott rettete ihn lebend.`,
+                  objectionBy: 'Ali Ataie',
+                  answer: `Dann verlässt du die klassische Mehrheitsauslegung und übernimmst eine Ohnmachtstheorie, die vor allem aus der Ahmadiyya-Bewegung des 19. Jahrhunderts stammt. Historisch scheitert sie: Römische Henker waren Fachleute im Töten, und ein halbtoter, gegeißelter Mann hätte niemanden überzeugt, er sei der Sieger über den Tod. Und koranisch hast du ein neues Problem: Wenn Jesus ans Kreuz geschlagen wurde, dann haben sie ihn sehr wohl „gekreuzigt" – 4:157 sagt aber „sie haben ihn nicht gekreuzigt".`,
+                  detail: `Die Ohnmachts- oder Scheintodtheorie wurde schon im 19. Jahrhundert von dem liberalen Theologen David Friedrich Strauß widerlegt, der selbst nicht an die Auferstehung glaubte: Ein Mensch, der halbtot aus dem Grab gekrochen wäre und ärztliche Pflege gebraucht hätte, hätte bei seinen Jüngern höchstens Mitleid erweckt, nicht den Glauben an den Fürsten des Lebens. Die medizinische Literatur (z. B. Edwards u. a., Journal of the American Medical Association 1986) hält den Tod Jesu am Kreuz für gesichert. Innerislamisch ist die Deutung von *shubbiha lahum* seit jeher umstritten – manche moderne Ausleger (etwa Mahmoud Ayoub, Todd Lawson in der Darstellung der Auslegungsgeschichte) weisen darauf hin, dass der Vers offener ist als die Ersatztheorie. Das zeigt aber nur: Der Koran gibt keinen klaren Gegenbericht, sondern eine dunkle Andeutung – gegen einhellige Quellen des 1. Jahrhunderts.`,
+                  voices: [
+                    { person: 'licona', role: 'als Historiker', text: `Licona weist darauf hin, dass die Kreuzigung im Römischen Reich gerade dafür entworfen war, den Tod sicher und öffentlich herbeizuführen. Überlebende sind praktisch unbekannt; der einzige von Josephus berichtete Fall betrifft Männer, die nach kurzer Zeit auf Fürsprache abgenommen und ärztlich behandelt wurden – und selbst dann starben zwei von drei.` },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'William D. Edwards / Wesley J. Gabel / Floyd E. Hosmer', work: 'On the Physical Death of Jesus Christ', ref: 'Journal of the American Medical Association 255', year: '1986', status: 'paraphrase' },
+                    { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Vita (Lebensbeschreibung)', ref: '75 (§ 420–421)', year: 'ca. 95', status: 'paraphrase', note: 'Drei gekreuzigte Bekannte werden auf seine Bitte abgenommen; trotz ärztlicher Behandlung überlebt nur einer.' },
+                    { kind: 'fachliteratur', author: 'Todd Lawson', work: 'The Crucifixion and the Qur\'an: A Study in the History of Muslim Thought', year: '2009', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Jesus ans Kreuz geschlagen wurde – in welchem Sinn haben sie ihn dann „nicht gekreuzigt"?`,
+                    `Welcher muslimische Gelehrte vor dem 19. Jahrhundert vertrat, Jesus habe die Kreuzigung lebend überstanden?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -168,6 +189,27 @@ const claim: Claim = {
           objection: `Vielleicht bewahrten die Gnostiker trotzdem eine alte Erinnerung, die die Großkirche unterdrückte.`,
           objectionBy: 'Islamischer Apologet (Online-Debatte)',
           answer: `Dafür gibt es keinen Beleg. Die gnostischen Texte sind jünger als die Paulusbriefe und die Evangelien und setzen sie voraus; ihre Ersatzidee ist eine philosophische Folgerung aus ihrer Leibfeindlichkeit, keine historische Erinnerung. Die ältesten Quellen – Paulus um 50–55, Markus um 70 – sprechen alle von der Kreuzigung. Eine „verdrängte Erinnerung" ohne Quelle ist keine Geschichtswissenschaft.`,
+          followUps: [
+            {
+              id: 'nag-hammadi-petrus-apokalypse',
+              objection: `In Nag Hammadi fand man Texte wie die Petrus-Apokalypse und den Zweiten Logos des großen Seth. Dort lacht Jesus über die, die einen anderen kreuzigen. Es gab also Christen, die genau das glaubten, was der Koran sagt.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Lies diese Texte genau: Sie leugnen nicht, dass gekreuzigt wurde, sondern dass der wahre, geistige Christus litt. Gekreuzigt wird sein fleischlicher Leib oder ein anderer, während der „lebendige Jesus" darüber lacht – weil für die Gnostiker Materie und Leib verächtlich sind. Diese Texte stammen aus dem 3. Jahrhundert und lehren einen Jesus ohne echtes Menschsein. Der Jesus des Korans aber ist wahrer Mensch, geboren von Maria, der Speise aß (5:75). Mit diesen Zeugen beweist du nicht den Koran, sondern einen Jesus, den der Koran selbst ablehnen müsste.`,
+              detail: `Die Petrus-Apokalypse (Nag Hammadi Codex VII,3) beschreibt, wie Petrus sieht, dass einer gekreuzigt wird, während der „lebendige Jesus" froh und lachend über dem Kreuz steht; der Gekreuzigte sei nur sein fleischlicher Teil, der „Ersatz". Im Zweiten Logos des großen Seth (NHC VII,2) wird Simon von Kyrene erwähnt, und der Erlöser lacht über die Unwissenheit der Archonten. Beide Texte sind Ausdruck des gnostischen Doketismus („Scheinleib-Lehre"). Irenäus und Ignatius bekämpften diesen Doketismus schon um 110–180 – was zeigt, dass die Kirche die Kreuzigung des wirklichen Menschen Jesus von Anfang an bekannte. Ignatius schreibt gegen solche Lehrer, Jesus sei „wahrhaftig gekreuzigt worden und gestorben" (Brief an die Trallianer 9).`,
+              voices: [
+                { person: 'simon-gathercole', role: 'als Erforscher der apokryphen Evangelien', text: `Gathercole zeigt, dass die gnostischen Evangelien die kanonischen Schriften voraussetzen und umdeuten. Sie bewahren keine älteren Erinnerungen an Jesus, sondern spiegeln die philosophischen Interessen des 2. und 3. Jahrhunderts – besonders die Abwertung des Leibes, die mit dem jüdischen und christlichen Schöpfungsglauben unvereinbar ist.` },
+                { person: 'irenaeus', role: 'als Zeuge des 2. Jahrhunderts', text: `Irenäus beschreibt die Lehre des Basilides und anderer Gnostiker ausführlich und widerlegt sie: Wenn Christus nicht wirklich Fleisch annahm, dann hat er das Fleisch auch nicht gerettet. Für ihn ist die wirkliche Kreuzigung und Auferstehung des Leibes Jesu der Kern der apostolischen Überlieferung, die in den Kirchen von den Aposteln her bewahrt wird.` },
+              ],
+              sources: [
+                { kind: 'sonstiges', work: 'Apokalypse des Petrus (Nag Hammadi Codex VII,3)', ref: '81–82', year: '3. Jh.', status: 'paraphrase', note: 'Der „lebendige Jesus" lacht über dem Kreuz; gekreuzigt wird sein fleischlicher Teil.' },
+                { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Trallianer', ref: '9–10', year: 'ca. 110', status: 'paraphrase', note: 'Gegen die Lehre, Jesus habe nur zum Schein gelitten.' },
+              ],
+              questionsBack: [
+                `Glaubst du wie diese Texte, dass Jesus keinen echten menschlichen Leib hatte?`,
+                `Warum sollte ein Text aus dem 3. Jahrhundert mehr über Jesus wissen als Paulus, der Petrus persönlich kannte?`,
+              ],
+            },
+          ],
         },
       ],
     },
