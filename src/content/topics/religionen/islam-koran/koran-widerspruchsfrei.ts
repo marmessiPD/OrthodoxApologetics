@@ -113,6 +113,21 @@ const claim: Claim = {
           objection: `Dann gibst du zu, dass es kein Widerspruch ist.`,
           objectionBy: 'Mohammed Hijab',
           answer: `Es ist kein innerer Widerspruch im strengen Sinn, sondern eine historische Frage, die sich erklären lässt. Genau so behandle ich auch die Stellen, die Ahmed Deedat in der Bibel als Widersprüche anführte. Wenn du diese Großzügigkeit für den Koran beanspruchst, gewähre sie bitte auch der Bibel.`,
+          followUps: [
+            {
+              id: 'deedats-zahlenfehler-echt',
+              objection: `Deedats Bibelwidersprüche sind aber echte Fehler – zwei verschiedene Zahlen für dasselbe Alter, dieselben Ställe. Beim Koran geht es nur um Deutungsfragen. Das ist nicht vergleichbar.`,
+              objectionBy: 'Zakir Naik',
+              answer: `Die Zahlenunterschiede in Könige und Chronik sind Abschreibfehler – sie betreffen die *Überlieferung*, nicht das, was der Verfasser schrieb, und man erkennt sie durch Handschriftenvergleich. Auch beim Koran gibt es Unterschiede in der Überlieferung, die die Bedeutung berühren: In 1:4 liest die Lesart Hafs *māliki* („Besitzer" des Gerichtstages), die Lesart Warsch *maliki* („König"). Muslime erklären beides als gültig. Das ist ihr gutes Recht – aber dann sind Überlieferungsunterschiede kein Beweis gegen eine Schrift.`,
+              detail: `Der Unterschied zwischen „Fehler im Original" und „Variante in der Überlieferung" ist für beide Schriften wichtig. Christen behaupten die Irrtumslosigkeit der ursprünglichen Schrift, nicht jedes Abschreibers. Die islamische Lehre der kanonischen Lesarten (*qirāʾāt*) erklärt Varianten als von Anfang an offenbart. In beiden Fällen gilt: Man muss die Überlieferung prüfen, bevor man ein Urteil über den Text fällt.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 1 (al-Fatiha)', ref: '1:4', quote: `Dem Herrscher (bzw. König) am Tag des Gerichts.`, original: `māliki yawmi d-dīn (Hafs) / maliki yawmi d-dīn (Warsch)`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'paraphrase', url: 'https://quran.com/1/4' },
+              ],
+              questionsBack: [
+                `Wenn māliki und maliki beide gültig sind – warum soll dann ein Abschreibfehler in 2 Chr 22,2 die ganze Bibel diskreditieren?`,
+              ],
+            },
+          ],
         },
       ],
     },
