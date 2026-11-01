@@ -21,11 +21,11 @@
 
 | | |
 |---|---|
-| Themenfelder / Themenblöcke | 9 / 71 |
-| Behauptungen der Gegenseite | 321 |
-| Vorausgedachte Gesprächszüge (Dialogknoten) | 3.665 (bis zu 7 Ebenen tief) |
-| Stimmen im Konzil | 1.538 Beiträge von über 250 Verteidigern |
-| Quellen | 7.644 – davon 2.286 wörtlich, 5.279 sinngemäß, 79 „zu prüfen" |
+| Themenfelder / Themenblöcke | 9 / 97 |
+| Behauptungen der Gegenseite | 423 – jede mit mindestens 15 Gesprächszügen, 4 Ebenen Tiefe und 4 Konzilsstimmen |
+| Vorausgedachte Gesprächszüge (Dialogknoten) | 6.830 (bis zu 7 Ebenen tief) |
+| Stimmen im Konzil | 2.650 Beiträge von 296 Verteidigern |
+| Quellen | 12.620 – davon 3.561 wörtlich, 9.012 sinngemäß, 47 „zu prüfen" |
 
 ## Themenfelder
 
@@ -62,9 +62,9 @@ Der Workflow `.github/workflows/ci.yml` validiert die Inhalte, baut die App und 
 
 ## Nächste Schritte
 
-1. **Zitate prüfen:** [`VERIFIKATION.md`](VERIFIKATION.md) listet alle 79 Quellen mit Status „zu prüfen". Viele weitere Angaben (Hadith-Nummern, Seitenzahlen) sind ehrlich als „sinngemäß" markiert, weil sunnah.com, quran.com, doi.org u. a. in der Recherche-Umgebung nicht erreichbar waren.
+1. **Zitate prüfen:** [`VERIFIKATION.md`](VERIFIKATION.md) listet alle 47 Quellen mit Status „zu prüfen" sowie als Stichprobe die wörtlichen Zitate moderner Autoren ohne Link, die vor öffentlicher Verwendung am Original geprüft werden sollten. Viele weitere Angaben (Hadith-Nummern, Seitenzahlen) sind ehrlich als „sinngemäß" markiert, weil sunnah.com, quran.com, doi.org u. a. in der Recherche-Umgebung nicht erreichbar waren.
 2. **Theologische Durchsicht** der koptisch-orthodoxen Positionen (z. B. IVF, Sterbehilfe, Diakonissen) durch einen Priester oder Theologen der Kirche.
-3. **Veröffentlichen** über GitHub Pages (siehe unten) und auf den Geräten als App installieren.
+3. **Veröffentlichen** über GitHub Pages (siehe oben) und auf den Geräten als App installieren.
 
 ## Hinweis
 
