@@ -99,6 +99,24 @@ const claim: Claim = {
               objectionBy: 'Pashaura Singh (sinngemäß)',
               answer: `Auch der Sikhismus brauchte zehn menschliche Gurus, um Gottes Wort zu vermitteln – Gott offenbart sich also auch nach eurer Lehre durch Menschen. Das Evangelium sagt: Am Ende kam nicht ein weiterer Bote, sondern das Wort selbst (Hebr 1,1–2). Ein Vater kann Briefe schicken – oder selbst kommen. Liebe will Gegenwart. Und nur ein Gott, der unser Leben teilt, kann „Mitleiden haben mit unsrer Schwachheit" (Hebr 4,15).`,
               questionsBack: [`Wenn Gott durch menschliche Gurus sprechen kann – warum sollte er nicht selbst menschliche Natur annehmen können, ohne aufzuhören, Gott zu sein?`],
+              followUps: [
+                {
+                  id: 'granth-ist-lebendiger-guru',
+                  objection: `Bei uns ist das Wort selbst der lebendige Guru – der Guru Granth Sahib. Seit Guru Gobind Singh brauchen wir keinen menschlichen Mittler mehr. Das Wort genügt; ein Gottmensch ist überflüssig.`,
+                  objectionBy: 'Pashaura Singh (sinngemäß)',
+                  answer: `Ich achte die Ehrfurcht, mit der Sikhs das Wort Gottes behandeln. Aber das Evangelium sagt etwas Erstaunliches: „Das Wort ward Fleisch und wohnte unter uns" (Joh 1,14) – nicht Buch, sondern Person. Ein Buch kann trösten und lehren, aber es kann nicht mit dir leiden, für dich sterben und auferstehen. Bemerkenswert finde ich: Sikhs behandeln den Granth mit großer persönlicher Ehrfurcht – man trägt ihn unter einem Baldachin, bettet ihn zur Nacht. Das zeigt die tiefe Sehnsucht nach Gottes Gegenwart. Christen glauben, dass diese Sehnsucht in Christus erfüllt ist.`,
+                  detail: `Der Sikhismus hat eine tiefe Theologie des Wortes (*shabad*, *gurbani*): Gott offenbart sich durch das göttliche Wort, das die Gurus empfingen. Christen können hier viel Gemeinsames entdecken – auch für sie ist Gottes Wort „lebendig und kräftig" (Hebr 4,12). Der Unterschied liegt im Johannesprolog: Der ewige Logos, durch den alles geschaffen ist, hat Fleisch angenommen. Für Kyrill von Alexandrien ist das der Kern des Heils: Weil das Wort Fleisch wurde, kann unser Fleisch am Leben Gottes teilhaben – in der Eucharistie empfangen Christen nicht nur Worte über Gott, sondern den lebendigmachenden Leib des Wortes selbst.`,
+                  voices: [
+                    { person: 'kyrill-alexandrien', role: 'als Lehrer der Menschwerdung', text: `Kyrill betont, dass der Logos sich das Fleisch so zu eigen gemacht hat, dass es „lebendigmachendes Fleisch" wurde. Darum ist die Eucharistie für ihn Teilhabe am Leben des menschgewordenen Wortes – mehr als Belehrung, nämlich Vereinigung.`, sources: [
+                      { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium', ref: 'zu Joh 6', year: 'ca. 425–428', status: 'paraphrase', quote: `Das Fleisch des Logos ist lebendigmachend, weil es das eigene Fleisch des Lebens selbst ist.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '1,14', quote: `Und das Wort ward Fleisch und wohnte unter uns, und wir sahen seine Herrlichkeit, eine Herrlichkeit als des eingeborenen Sohnes vom Vater, voller Gnade und Wahrheit.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Gottes Wort so lebendig ist, dass ihr ihm wie einer Person begegnet – warum sollte es undenkbar sein, dass es Person geworden ist?`],
+                },
+              ],
             },
           ],
         },
@@ -115,6 +133,32 @@ const claim: Claim = {
           objection: `Gott ist souverän. Er schuldet niemandem eine Rechtfertigung für seine Gnade.`,
           objectionBy: 'Pashaura Singh (sinngemäß)',
           answer: `Das stimmt: Gott schuldet uns nichts. Aber Gottes Gnade ist nicht willkürlich, sondern im Einklang mit seiner Heiligkeit und Gerechtigkeit – sonst wäre er wie ein Richter, der einen Mörder freispricht, als wäre nichts geschehen. Das Kreuz offenbart beides zugleich: die vollkommene Barmherzigkeit und die vollkommene Gerechtigkeit Gottes (vgl. den Claim „Karma ist gerechter als Gnade").`,
+          followUps: [
+            {
+              id: 'hukam-statt-suehne',
+              objection: `Alles geschieht nach Gottes *Hukam*, seinem Willen und seiner Ordnung. Wer sich dem Hukam fügt, wird frei. Ein Sühnetod ist dafür überflüssig – Gott verlangt Hingabe, kein Opfer.`,
+              objectionBy: 'Nikky-Guninder Kaur Singh (sinngemäß)',
+              answer: `Die Hingabe an Gottes Willen ist auch für Christen das Herz des Glaubens – Jesus betete in Gethsemane: „Nicht mein, sondern dein Wille geschehe" (Lk 22,42). Aber die ehrliche Frage ist: Wer fügt sich wirklich ganz? Ich jedenfalls nicht. Christus ist der eine Mensch, der sich Gottes Willen vollkommen hingegeben hat – bis zum Tod –, und er tut es für uns und in uns. Das Kreuz ist kein Opfer, das Gott braucht, sondern die vollkommene Hingabe, die wir nicht leisten können.`,
+              detail: `Die erste Strophe des Japji endet mit dem Gedanken, dass der Mensch frei wird, indem er im Hukam, im Willen Gottes, wandelt. Das ist eine tiefe und schöne Einsicht. Christen sehen in Jesus Christus die Verwirklichung genau dieses Ideals: Er „ward gehorsam bis zum Tode, ja zum Tode am Kreuz" (Phil 2,8). In der Taufe werden wir mit ihm vereint, damit sein Gehorsam unser Leben verwandelt. So wird aus dem Ideal der Hingabe, an dem wir scheitern, eine geschenkte Wirklichkeit.`,
+              sources: [
+                { kind: 'oestlich', work: 'Guru Granth Sahib, Japji 1', ref: 'Ang 1', original: 'hukami rajāī calaṇā nānak likhiā nāli', quote: `Im Hukam seines Willens zu wandeln, o Nanak – das ist (dem Menschen) aufgeschrieben.`, translation: 'eigene Übersetzung', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Lukas', ref: '22,42', quote: `Vater, willst du, so nimm diesen Kelch von mir; doch nicht mein, sondern dein Wille geschehe!`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'haumai-statt-suende',
+                  objection: `Unser Problem heißt nicht „Sünde", sondern *Haumai* – die Ich-Verhaftung. Sie wird durch *Nam Simran*, das beständige Gedenken des göttlichen Namens, überwunden. Dafür braucht es keinen Erlöser.`,
+                  objectionBy: 'Pashaura Singh (sinngemäß)',
+                  answer: `Die Diagnose ist der christlichen sehr nahe: Auch die Väter sehen im Stolz, dem Kreisen um das eigene Ich, die Wurzel aller Sünden. Aber kann das Ich sich selbst überwinden? Interessant ist: Auch im Sikhismus geschieht das Gedenken des Namens durch *gur prasad* – durch die Gnade des Gurus, wie es am Ende des Mul Mantar heißt. Ihr bekennt also selbst, dass der Mensch Gnade braucht. Das Evangelium sagt, wie diese Gnade zu uns gekommen ist: in einer Person, die sich selbst erniedrigte, um unser Ich zu heilen.`,
+                  detail: `Die christliche Tradition kennt eine dem Nam Simran verwandte Praxis: das Jesusgebet, das beständige Anrufen des Namens Jesu, das die Wüstenväter Ägyptens pflegten. Der Unterschied liegt nicht in der Praxis, sondern darin, wessen Name angerufen wird und was dieser Name bedeutet: „Jesus" heißt „Gott rettet" (Mt 1,21). Das Ich wird nicht durch Willensanstrengung zum Schweigen gebracht, sondern durch die Liebe dessen geheilt, der zuerst geliebt hat.`,
+                  sources: [
+                    { kind: 'oestlich', work: 'Guru Granth Sahib, Mul Mantar', ref: 'Ang 1', original: 'gur prasādi', quote: `(Erkannt) durch die Gnade des Gurus.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn die Überwindung des Haumai durch Gnade geschieht – was genau ist diese Gnade, und woher kommt sie?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -129,6 +173,16 @@ const claim: Claim = {
           objection: `Eure Kirchen in Indien haben Kastendenken aber auch geduldet.`,
           objectionBy: 'Pashaura Singh (sinngemäß)',
           answer: `Das ist leider wahr, und es widerspricht dem Evangelium (Jak 2,1–4). Ehrlicherweise haben auch viele Sikh-Gemeinschaften bis heute mit Kastendenken zu kämpfen – etwa die Entstehung eigener Gemeinden von Dalit-Sikhs zeigt das. Das Versagen von Anhängern widerlegt in beiden Fällen nicht die Lehre. Die Frage bleibt: Ist Jesus der, der er zu sein beanspruchte?`,
+          followUps: [
+            {
+              id: 'guru-tegh-bahadur',
+              objection: `Unsere Gurus sind für die Freiheit anderer gestorben: Guru Tegh Bahadur ließ sich 1675 hinrichten, weil er Hindus gegen Zwangsbekehrung verteidigte. Auch wir kennen Selbsthingabe für andere – dazu brauchen wir keinen Gottmenschen am Kreuz.`,
+              objectionBy: 'Nikky-Guninder Kaur Singh (sinngemäß)',
+              answer: `Das Martyrium Guru Tegh Bahadurs für die Gewissensfreiheit anderer verdient tiefe Achtung – ein Mensch, der für den Glauben fremder Menschen stirbt, ist ein großes Zeugnis. Christen kennen solche Märtyrer ebenfalls, bis zu den Kopten unserer Tage. Aber der Unterschied liegt nicht im Mut, sondern in der Person: Wenn ein Mensch für andere stirbt, ist das edel; wenn Gott selbst in Christus für seine Feinde stirbt und den Tod besiegt, ist das Erlösung. Ein Märtyrer bezeugt die Wahrheit – Christus ist die Wahrheit, die bezeugt wird.`,
+              detail: `Das Neue Testament unterscheidet sorgfältig zwischen dem Tod der Zeugen (griechisch *martyres*) und dem Tod Christi. Stephanus stirbt im Blick auf Christus (Apg 7,55–60); Christus stirbt „für unsere Sünden" (1 Kor 15,3). Die koptische Kirche ehrt ihre Märtyrer so sehr, dass sie ihren Kalender mit der „Ära der Märtyrer" (284 n. Chr.) beginnen lässt – aber sie betet nicht zu ihnen als Erlösern, sondern bittet um ihre Fürbitte bei dem einen Erlöser.`,
+              questionsBack: [`Kann der Tod eines Menschen, so edel er ist, den Tod selbst besiegen?`],
+            },
+          ],
         },
       ],
     },
@@ -143,8 +197,42 @@ const claim: Claim = {
           objection: `Auch Guru Nanak hatte eine Offenbarung, als er im Fluss Vein verschwand und drei Tage später zurückkehrte. Warum zählt seine Erfahrung weniger?`,
           objectionBy: 'Nikky-Guninder Kaur Singh (sinngemäß)',
           answer: `Ich achte Guru Nanaks Gotteserfahrung und seine Hingabe. Aber persönliche Offenbarungserlebnisse lassen sich von außen nicht prüfen – das gilt für jede Tradition. Das Christentum verweist auf öffentliche Ereignisse: den Tod Jesu unter Pontius Pilatus und die Begegnungen vieler Zeugen mit dem Auferstandenen. Und Jesus beanspruchte, der einzige Weg zum Vater zu sein (Joh 14,6) – wer beide ehren will, muss diese Aussage prüfen.`,
+          followUps: [
+            {
+              id: 'nanak-gegen-ritual',
+              objection: `Guru Nanak hat leere Rituale, Priester und Bilderverehrung scharf kritisiert. Eure Sakramente, Ikonen und Priester sind genau der Ritualismus, gegen den er aufstand.`,
+              objectionBy: 'Pashaura Singh (sinngemäß)',
+              answer: `Leere Rituale haben auch die Propheten und Jesus kritisiert: „Dies Volk naht sich zu mir mit seinem Munde … aber ihr Herz ist ferne von mir" (Mt 15,8). Darin stimme ich Guru Nanak zu. Aber die Sakramente sind keine menschlichen Erfindungen, sondern Gaben, die Christus selbst gestiftet hat: „Tut dies zu meinem Gedächtnis." Und der Mensch ist Leib und Seele – darum braucht Glaube auch Zeichen. Auch der Sikhismus kennt Amrit-Weihe, Ardas, Langar und die fünf Ks. Leibhaftige Religion ist nicht Ritualismus, sondern menschlich.`,
+              detail: `Die orthodoxe Kirche lehrt, dass die Sakramente nicht mechanisch wirken, sondern Begegnung mit Christus im Glauben sind. Ikonen werden nicht angebetet, sondern verehrt; die Ehre geht auf das Urbild über, wie schon Basilius der Große sagte (Über den Heiligen Geist 18,45). Der Grund für Ikonen ist gerade die Menschwerdung: Weil Gott ein sichtbares Gesicht angenommen hat, darf man ihn darstellen.
+
+Guru Nanaks Kritik richtete sich gegen Heuchelei und gegen Rituale, die das Herz nicht verändern. Diese Kritik können Christen teilen – sie trifft auch christliche Gewohnheitsfrömmigkeit. Aber sie trifft nicht die Gaben, durch die Christus selbst sich schenkt.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '15,8', quote: `Dies Volk naht sich zu mir mit seinem Munde und ehrt mich mit seinen Lippen; aber ihr Herz ist ferne von mir.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Ist die Amrit-Weihe für dich ein leeres Ritual – oder ein Zeichen, durch das Gott wirkt? Warum sollte das bei der Taufe anders sein?`],
+            },
+          ],
         },
       ],
+    },
+    {
+      id: 'ik-onkar-gegen-trinitaet',
+      objection: `*Ik Onkar* – Gott ist Einer. Darin ist der Sikhismus klar und kompromisslos monotheistisch, wie der Islam. Eure Dreieinigkeit klingt dagegen nach drei Göttern.`,
+      objectionBy: 'Pashaura Singh (sinngemäß)',
+      answer: `Christen bekennen ebenso kompromisslos: „Wir glauben an den einen Gott." Die Dreieinigkeit heißt nicht drei Götter, sondern ein Gott, ein Wesen in drei Personen – Vater, Sohn und Heiliger Geist. Interessant ist, dass der Mul Mantar Gott *karta purakh* nennt, die schöpferische Person. Auch ihr bekennt also einen persönlichen Gott. Die Dreieinigkeit beantwortet eine Frage, die sich daraus ergibt: Wenn Gott Liebe ist, wen liebte er vor der Schöpfung? In Gott selbst gibt es ewige Gemeinschaft der Liebe.`,
+      detail: `Gregor von Nazianz, „der Theologe", fasst die kirchliche Lehre so: Die Gottheit ist ungeteilt in den unterschiedenen Personen – wie drei Sonnen, die ineinander sind und ein einziges Licht ausstrahlen. Es gibt keinen Rang, keine Trennung, keine Vermischung. Das Bekenntnis von Nizäa und Konstantinopel, das die koptische Kirche in jeder Liturgie spricht, beginnt mit dem Wort „ein".
+
+Für das Gespräch mit Sikhs ist hilfreich: Der Sikhismus betont, dass Gott sowohl *nirgun* (ohne Eigenschaften, jenseits aller Begriffe) als auch *sargun* (mit Eigenschaften, in der Schöpfung gegenwärtig) ist. Er kennt also selbst die Spannung zwischen Gottes Unbegreiflichkeit und seiner Nähe. Die Dreieinigkeit ist die christliche Antwort darauf, wie der unbegreifliche Gott wirklich nahe sein kann, ohne aufzuhören, der eine Gott zu sein.`,
+      voices: [
+        { person: 'gregor-nazianz', role: 'als Lehrer der Dreieinigkeit', text: `Gregor betont in seinen Theologischen Reden, dass die Christen einen Gott verehren: Die Gottheit ist eine, ungeteilt in den drei Personen, und jede ist ganz Gott. Die Dreiheit zerteilt die Einheit nicht, und die Einheit vermischt die Personen nicht.`, sources: [
+          { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Fünfte Theologische Rede (Rede 31)', ref: '14', year: '380', status: 'paraphrase', quote: `Für uns gibt es einen Gott; die Gottheit ist ungeteilt in den Unterschiedenen, wie in drei Sonnen, die einander umschließen, ein einziges Licht.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'oestlich', work: 'Guru Granth Sahib, Mul Mantar', ref: 'Ang 1', original: 'ik oankār … karatā purakhu', quote: `Ein Gott … die schöpferische Person.`, translation: 'eigene Übersetzung', status: 'paraphrase' },
+        { kind: 'konzil', work: 'Nizäno-Konstantinopolitanisches Glaubensbekenntnis', year: '381', quote: `Wir glauben an den einen Gott, den Vater, den Allmächtigen …`, status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn Gott Liebe ist – wen liebte er, bevor irgendetwas geschaffen war?`],
     },
   ],
   questionsToAsk: [
