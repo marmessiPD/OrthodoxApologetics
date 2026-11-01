@@ -208,6 +208,93 @@ Johannes ist chalcedonensischer Theologe; in der Christologie formuliert er ande
         { kind: 'gegner', work: 'Heidelberger Katechismus', ref: 'Frage 98', year: '1563', quote: `Sollen Bilder in den Kirchen als „Bücher der Laien" geduldet werden? Nein, denn wir sollen nicht klüger sein als Gott, der seine Christenheit nicht durch stumme Götzen, sondern durch die lebendige Predigt seines Wortes unterwiesen haben will.`, status: 'paraphrase' },
       ],
     },
+    {
+      id: 'im-geist-und-in-der-wahrheit',
+      objection: `„Joh 4,24: ‚Gott ist Geist, und die ihn anbeten, die müssen ihn im Geist und in der Wahrheit anbeten.' Und 2 Kor 5,7: ‚Wir wandeln im Glauben und nicht im Schauen.' Sichtbare Hilfsmittel ziehen die Anbetung vom Geist ins Sinnliche herab."`,
+      objectionBy: 'Johannes Calvin (historisch) / John MacArthur',
+      answer: `Im Johannesevangelium ist „die Wahrheit" keine körperlose Idee, sondern eine Person: der fleischgewordene Logos (Joh 14,6). Derselbe Johannes schreibt: „Das Wort ward Fleisch … und wir sahen seine Herrlichkeit" (1,14), und: „Was wir gesehen haben mit unsern Augen, was wir beschaut haben und unsre Hände betastet haben" (1 Joh 1,1). Jesus sagt: „Wer mich sieht, der sieht den Vater" (Joh 14,9). Anbetung im Geist schließt den Leib nicht aus – sonst müsstest du auch das Abendmahl, die Taufe und sogar die gedruckte Bibel aus Papier und Tinte verbannen.`,
+      detail: `Joh 4,21–24 stellt nicht Geist gegen Materie, sondern die neue Anbetung „im Geist und in der Wahrheit" gegen die Bindung an Garizim oder Jerusalem: Die Stunde kommt, in der der Vater überall angebetet wird – durch Christus, den wahren Tempel (Joh 2,21). 2 Kor 5,7 spricht vom Leben vor der Wiederkunft, in dem wir den verherrlichten Herrn noch nicht von Angesicht schauen – nicht von einem Verbot sichtbarer Zeichen.
+
+Die orthodoxe Bildtheologie antwortet mit der Menschwerdung: Weil der unsichtbare Gott sichtbar wurde, darf das Sichtbare dargestellt werden. Johannes von Damaskus formulierte im 8. Jahrhundert, er verehre nicht die Materie, sondern den Schöpfer der Materie, der um seinetwillen Materie wurde. (Hinweis: Johannes von Damaskus gehört zur chalcedonensischen Tradition; die koptische Kirche teilt seine Bildtheologie in der Sache, nicht seine Christologie-Formeln.)`,
+      voices: [
+        {
+          person: 'johannes-damaskus',
+          role: 'als Verteidiger der Bilder im Bilderstreit (chalcedonensischer Theologe – zitiert für die Bildtheologie)',
+          text: `Johannes von Damaskus argumentiert, dass im Alten Bund der unsichtbare Gott nicht abgebildet werden konnte; seit aber Gott im Fleisch gesehen wurde und mit Menschen umging, darf man das Sichtbare an Gott darstellen. Er unterscheidet scharf zwischen Anbetung (*latreia*), die allein Gott gebührt, und Verehrung (*proskynēsis*), die Bildern, Heiligen und heiligen Dingen erwiesen wird – und betont, dass er nicht die Materie anbetet, sondern ihren Schöpfer.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Drei Reden gegen die Verleumder der heiligen Bilder', ref: 'I,16', year: 'um 730', quote: `Ich bete nicht die Materie an, sondern den Schöpfer der Materie, der um meinetwillen Materie wurde, in der Materie Wohnung nahm und durch die Materie mein Heil wirkte.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: '1. Johannes', ref: '1,1', quote: `Das da von Anfang war, das wir gehört haben, das wir gesehen haben mit unsern Augen, das wir beschaut haben und unsre Hände betastet haben, vom Wort des Lebens.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Johannes', ref: '14,9', quote: `Wer mich sieht, der sieht den Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn Anbetung „im Geist" alles Sichtbare ausschließt – warum hat Christus Brot, Wein und Wasser zu Zeichen seiner Gnade gemacht?`,
+        `Ist die Bibel, die du in der Hand hältst, nicht auch Materie, die du mit Ehrfurcht behandelst?`,
+      ],
+      followUps: [
+        {
+          id: 'verehrung-pflicht-anathema',
+          objection: `„Gegen christliche Kunst habe ich nichts. Das Problem ist die *Verehrung*: Küssen, Weihrauch, Niederwerfen. Und Nizäa II verflucht sogar jeden, der Bilder nicht verehrt – eine im ersten Jahrtausend umstrittene Praxis wird zur Glaubenspflicht."`,
+          objectionBy: 'Gavin Ortlund',
+          answer: `Die koptische Kirche hat Nizäa II nicht angenommen – und spricht über Protestanten, die keine Ikonen verehren, kein Anathema aus. Ihre Praxis ist gelebte Liebe, keine Drohung. Und die Verehrung selbst erklärt Basilius der Große schon im 4. Jahrhundert: „Die Ehre des Bildes geht auf das Urbild über." Du kennst das aus deinem Alltag: Wer das Foto seiner verstorbenen Mutter küsst, betet kein Papier an. Viele Protestanten legen ihre Bibel nie auf den Boden und behandeln sie mit Ehrfurcht – ohne das Buch anzubeten.`,
+          detail: `Basilius gebraucht den Satz in *Über den Heiligen Geist* (18,45) ursprünglich trinitarisch: Wie die Ehre, die dem Bild des Kaisers erwiesen wird, auf den Kaiser übergeht, so ist der Sohn das vollkommene Bild des Vaters, und wer den Sohn ehrt, ehrt den Vater. Die Ikonentheologie hat dieses Prinzip später auf die heiligen Bilder angewendet – mit Recht, denn es beschreibt allgemein, wie Ehre durch ein Abbild hindurch zur Person gelangt.
+
+Ehrlich ist festzuhalten: Die Formen der Ikonenverehrung haben sich im Lauf der Jahrhunderte entfaltet, und es gab in der frühen Kirche auch bildkritische Stimmen (vgl. den Knoten zu Elvira und Epiphanius). Die koptische Kirche zwingt niemandem Gesten auf; sie lehrt, dass alle Ehre der Heiligen Gott verherrlicht, „der wunderbar ist in seinen Heiligen".`,
+          voices: [
+            {
+              person: 'basilius',
+              role: 'als Theologe des Bildbegriffs',
+              text: `Basilius erklärt am Beispiel des Kaiserbildes, dass die Ehre, die einem Bild erwiesen wird, nicht beim Holz oder der Farbe stehen bleibt, sondern auf den Dargestellten übergeht. Es gibt deshalb nicht zwei Kaiser, wenn man Kaiser und Bild ehrt, und nicht zwei Götter, wenn man Vater und Sohn anbetet. Das Bild führt zur Person hin, statt sie zu ersetzen.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Über den Heiligen Geist (De Spiritu Sancto)', ref: '18,45', year: 'um 375', quote: `Die Ehre des Bildes geht auf das Urbild über.`, original: `ἡ τῆς εἰκόνος τιμὴ ἐπὶ τὸ πρωτότυπον διαβαίνει`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Bei Basilius im trinitarischen Zusammenhang (Kaiserbild); später zum Grundsatz der Bildtheologie geworden.' },
+              ],
+            },
+          ],
+          questionsBack: [
+            `Wenn du das Foto eines geliebten Menschen küsst – wem gilt der Kuss?`,
+          ],
+          followUps: [
+            {
+              id: 'wundertaetige-ikonen-aberglaube',
+              objection: `„Theologisch klingt das sauber. Aber in der Praxis schreiben einfache Gläubige ‚wundertätigen' Ikonen magische Kräfte zu, erwarten Heilung vom Bild selbst. Das ist praktischer Götzendienst, egal was eure Theologen sagen."`,
+              objectionBy: 'James White',
+              answer: `Aberglaube gibt es – auch unter Protestanten, die eine Bibel als Glücksbringer ins Auto legen oder auf eine „Salbung" des Predigers hoffen. Die Antwort auf Missbrauch ist Lehre, nicht Abschaffung. Und dass Gott durch Dinge wirkt, die mit seinen Heiligen verbunden sind, ist biblisch: Ein Toter wurde lebendig, als er die Gebeine Elisas berührte (2 Kön 13,21); Kranke wurden gesund durch Tücher, die Paulus berührt hatte (Apg 19,11–12). Die Kraft kommt nie vom Holz oder Stoff, sondern von Gott, der durch seine Heiligen verherrlicht wird – das muss die Kirche immer wieder lehren.`,
+              detail: `Apg 19,11 betont ausdrücklich: „Gott wirkte nicht geringe Taten durch die Hände des Paulus." Der Urheber ist Gott. Genau so versteht die koptische Kirche Wunder im Zusammenhang mit Ikonen oder Reliquien: als Zeichen der Gemeinschaft der Heiligen und der Treue Gottes, nicht als Eigenkraft eines Gegenstandes.
+
+Seelsorgerlich gilt: Wo ein Gläubiger das Bild mit Gott verwechselt, muss der Priester korrigieren – so wie Hiskia die eherne Schlange zerschlug, als man ihr räucherte (2 Kön 18,4). Aber Hiskia zerschlug nicht die Bundeslade mit den Cherubim. Der Missbrauch eines Zeichens hebt nicht den rechten Gebrauch aller Zeichen auf.`,
+              sources: [
+                { kind: 'bibel', work: '2. Könige', ref: '13,21', quote: `Und es begab sich, daß sie einen Mann begruben; da sie aber die Kriegsleute sahen, warfen sie den Mann in Elisas Grab. Und da er hinabkam und die Gebeine Elisas anrührte, ward er lebendig und trat auf seine Füße.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '19,11–12', quote: `Und Gott wirkte nicht geringe Taten durch die Hände des Paulus, also daß sie auch von seiner Haut die Schweißtüchlein und Koller über die Kranken hielten und die Seuchen von ihnen wichen und die bösen Geister von ihnen ausfuhren.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `War die Heilung durch die Tücher des Paulus Aberglaube – oder ein Werk Gottes durch seinen Apostel?`,
+              ],
+              followUps: [
+                {
+                  id: 'unendlicher-gott-verkleinert',
+                  objection: `„Jedes Bild verkleinert den unendlichen Gott. Was Menschen von Gott malen, ist immer Lüge. Man darf nur malen, was man mit Augen sieht – Geschichten, Landschaften, aber nicht Gott."`,
+                  objectionBy: 'Johannes Calvin (historisch)',
+                  answer: `Dann gehen wir ein Stück gemeinsam: Calvin selbst erlaubt Bilder von sichtbaren Dingen und Ereignissen. Genau das sind Ikonen: Bilder des **sichtbar gewordenen** Sohnes und der Heiligen, keine Versuche, das unsichtbare göttliche Wesen zu malen. Christus ist „das Ebenbild des unsichtbaren Gottes" (Kol 1,15) – er wurde mit Augen gesehen, also darf man ihn malen. Wer sagt, man dürfe Christus nicht abbilden, sagt im Grunde, er sei nicht wirklich sichtbar Mensch geworden.`,
+                  detail: `In der *Institutio* (I,11,12) erkennt Calvin an, dass Malen und Bildhauen Gaben Gottes sind, und erlaubt die Darstellung von Geschichten und sichtbaren Dingen, verbietet aber Bilder Gottes und Bilder in Kirchen zur Verehrung. Die orthodoxe Antwort lautet: Christus ist nicht nur „Geschichte", sondern die sichtbar gewordene Person des Sohnes; sein Bild verkleinert Gott nicht, sondern bekennt, dass Gott sich selbst so klein gemacht hat (Phil 2,7).
+
+Die Ikonographie folgt dabei strengen Regeln: Sie malt nicht das unsichtbare Wesen Gottes, sondern Christus, die Gottesgebärerin, Engel (wie sie in der Schrift erschienen sind) und Heilige. Ihre Stilisierung – flach, ohne Zentralperspektive, mit Goldgrund – soll gerade nicht naturalistisch „abbilden", sondern auf die verklärte Wirklichkeit verweisen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Johannes Calvin', work: 'Institutio Christianae Religionis', ref: 'I,11,12', year: '1559', quote: `Calvin erlaubt Bildhauerei und Malerei als Gaben Gottes, doch nur für Dinge, die man mit Augen sehen kann – Geschichten und Gestalten –, nicht für die Majestät Gottes.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Kolosser', ref: '1,15', quote: `… welcher ist das Ebenbild des unsichtbaren Gottes, der Erstgeborene vor allen Kreaturen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wurde Christus mit Augen gesehen? Wenn ja – warum darf man nicht malen, was die Apostel sahen?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn Ex 20,4 jedes Bild verbietet – warum befahl Gott dann die Cherubim auf der Bundeslade (Ex 25,18)?`,

@@ -158,6 +158,25 @@ const claim: Claim = {
           objectionBy: 'Postkolonialer Kritiker',
           answer: `Es gab diese Verflechtung, und sie war oft schändlich. Aber es gab auch Missionare, die die Einheimischen gegen die Kolonisatoren verteidigten – wie Bartolomé de las Casas. Und vor allem: Das Christentum in Afrika ist älter als jeder Kolonialismus. Die ägyptische Kirche geht auf den Evangelisten Markus zurück; Athanasius weihte im 4. Jahrhundert Frumentius zum ersten Bischof Äthiopiens. Afrikanisches Christentum ist eine der ältesten Formen des Christentums überhaupt – keine europäische Importware.`,
           detail: `Siehe den Claim „Das Christentum hat Kolonialismus und Unterdrückung gerechtfertigt". Die äthiopisch-orthodoxe Kirche, eine Schwesterkirche der koptischen, ist seit dem 4. Jahrhundert die Kirche eines afrikanischen Königreichs, das nie dauerhaft kolonisiert wurde. Las Casas trat 1550/51 in der Disputation von Valladolid für die Menschenwürde der Ureinwohner Amerikas ein.`,
+          followUps: [
+            {
+              id: 'las-casas-afrikaner',
+              objection: `Ausgerechnet Las Casas! Der hat doch vorgeschlagen, statt der Indios afrikanische Sklaven nach Amerika zu bringen. Euer Held hat den atlantischen Sklavenhandel mitbefeuert.`,
+              objectionBy: 'Postkolonialer Historiker',
+              answer: `Das stimmt, und es ist gut, dass du es ansprichst. Las Casas hat in jungen Jahren tatsächlich die Einfuhr afrikanischer Sklaven empfohlen, um die Ureinwohner zu schonen. Später hat er das bitter bereut und in seiner *Geschichte Westindiens* geschrieben, die Versklavung der Afrikaner sei ebenso ungerecht wie die der Indios. Gerade das zeigt, wie das Evangelium wirkt: Es überführt auch die eigenen Leute – Las Casas wurde durch dieselben Maßstäbe korrigiert, mit denen er die Konquistadoren angeklagt hatte.`,
+              detail: `Las Casas' Reue findet sich in der *Historia de las Indias* (Buch III), die er gegen Ende seines Lebens verfasste. Historiker betonen zudem, dass der Sklavenhandel bereits vor seinem Vorschlag in Gang war; seine Rolle wird in der populären Darstellung oft übertrieben. Ehrlich bleibt: Auch große Christen haben Fehler gemacht. Der Maßstab, an dem man sie misst, ist Christus – und dieser Maßstab hat Las Casas am Ende selbst verurteilt.`,
+              voices: [
+                {
+                  person: 'las-casas',
+                  role: 'als Anwalt der Ureinwohner Amerikas',
+                  text: `Las Casas, zunächst selbst Kolonist mit indianischen Zwangsarbeitern, gab nach seiner Bekehrung um 1514 seinen Besitz auf und verbrachte sein Leben mit dem Kampf für die Ureinwohner. Er argumentierte, dass alle Völker vernunftbegabte Menschen nach Gottes Bild seien und das Evangelium nur durch Überzeugung, nie durch Gewalt verbreitet werden dürfe. Seine späte Selbstkritik zur Versklavung der Afrikaner zeigt, dass er diesen Maßstab ernst nahm – auch gegen sich selbst.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Bartolomé de las Casas', work: 'Historia de las Indias', ref: 'Buch III', year: 'um 1527–1561', quote: `Las Casas bereut, die Einfuhr afrikanischer Sklaven empfohlen zu haben; ihre Versklavung sei ebenso ungerecht wie die der Indios.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -181,6 +200,84 @@ const claim: Claim = {
               objectionBy: 'Historischer Kritiker',
               answer: `Das ist leider oft wahr, und ich verteidige es nicht. Die koptische Kirche hat das übrigens selbst erlitten: Nach 451 verfolgten byzantinische Christen die Kopten, um ihnen ein anderes Bekenntnis aufzuzwingen. Die Lehre daraus ist nicht, dass das Evangelium Unterdrückung lehrt, sondern dass die Verschmelzung von Kirche und Staatsmacht das Evangelium verdirbt. Jesus hat es gesagt: „Mein Reich ist nicht von dieser Welt."`,
               detail: `Die byzantinische Verfolgung der Kopten erreichte unter dem Patriarchen und Präfekten Kyros (arabisch al-Muqawqis) in den 630er-Jahren einen Höhepunkt; der koptische Papst Benjamin I. lebte jahrelang im Verborgenen. Diese Erfahrung macht die koptische Kirche zu einer glaubwürdigen Stimme gegen jede Instrumentalisierung des Glaubens durch Macht.`,
+              followUps: [
+                {
+                  id: 'hypatia',
+                  objection: `Und in Alexandrien? Ein christlicher Mob hat 415 die Philosophin Hypatia aus ihrem Wagen gezerrt und in einer Kirche grausam ermordet – unter eurem Patriarchen Kyrill, den ihr als Heiligen verehrt. Da habt ihr Religion als Machtinstrument in Reinform.`,
+                  objectionBy: 'Carl Sagan (Cosmos) / Film „Agora" (2009)',
+                  answer: `Der Mord an Hypatia war ein entsetzliches Verbrechen, begangen von Christen, und es gibt nichts daran zu beschönigen. Schon der christliche Kirchenhistoriker Sokrates schrieb wenige Jahrzehnte später, nichts sei dem Geist des Christentums fremder als solche Morde. Ob Kyrill die Tat angestiftet hat, ist unter Historikern umstritten; keine zeitgenössische Quelle sagt, dass er sie befahl, aber das politische Klima in Alexandrien trug er mit. Die Kirche verehrt Kyrill für seine Verteidigung des Glaubens an Christus, nicht für die Kirchenpolitik seiner Zeit – Heilige sind keine fehlerlosen Menschen.`,
+                  detail: `Sokrates Scholastikos (*Kirchengeschichte* VII,15) berichtet, ein Lektor namens Petrus habe die Täter angeführt; die Tat habe Kyrill und der ganzen alexandrinischen Kirche großen Schaden zugefügt. Der koptische Bischof Johannes von Nikiu (7. Jh.) stellt Hypatia dagegen feindselig dar – auch das muss man ehrlich zur Kenntnis nehmen. Populäre Darstellungen (Sagans *Cosmos*, der Film *Agora*) verbinden den Mord oft fälschlich mit der Zerstörung der großen Bibliothek, die zu dieser Zeit längst nicht mehr existierte, und machen aus Hypatia eine Märtyrerin der Wissenschaft gegen den Glauben – das Bild ist historisch vereinfacht (siehe Edward Watts, *Hypatia*, 2017).
+
+Für das Gespräch: Erst das Unrecht klar benennen, dann die Fakten ordnen. Eine Kirche, die ihre Schuld nicht zugeben kann, macht sich unglaubwürdig.`,
+                  voices: [
+                    {
+                      person: 'sokrates-scholastikos',
+                      role: 'als christlicher Historiker des 5. Jahrhunderts',
+                      text: `Sokrates, ein Laie aus Konstantinopel, schreibt über den Mord an Hypatia mit deutlicher Missbilligung. Er rühmt ihre Bildung und Besonnenheit und urteilt, die Tat habe der alexandrinischen Kirche Schande gebracht, denn Mord, Gewalt und dergleichen seien dem Christentum völlig fremd. Damit ist er ein frühes Zeugnis dafür, dass Christen diese Tat schon damals am Evangelium gemessen und verurteilt haben.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Sokrates Scholastikos', work: 'Kirchengeschichte (Historia ecclesiastica)', ref: 'VII,15', year: 'um 440', quote: `Diese Tat brachte Kyrill und der ganzen alexandrinischen Kirche nicht geringe Schande; denn nichts ist dem Geist des Christentums fremder als Morde, Kämpfe und dergleichen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Woran misst du, dass dieser Mord ein Verbrechen war – und ist das nicht derselbe Maßstab, mit dem schon Sokrates ihn als unchristlich verurteilte?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'priester-erfindet-suende',
+      objection: `Der Priester herrscht durch die Erfindung der Sünde. Er macht den Menschen krank an Schuld, um sich dann als Arzt unentbehrlich zu machen. Das ist der eigentliche Machtmechanismus des Christentums – subtiler als jedes Schwert.`,
+      objectionBy: 'Friedrich Nietzsche (Der Antichrist, 1888)',
+      answer: `Schuld ist keine Erfindung von Priestern – jeder Mensch, auch ein Atheist, kennt das Gewissen, das ihn anklagt, wenn er einen anderen verletzt hat. Das Christentum erfindet die Krankheit nicht, sondern bietet Heilung an. Und die Vergebung gehört nicht dem Priester, sondern Gott; der Priester selbst muss beichten wie jeder andere. Wo Geistliche Schuld benutzen, um Menschen abhängig zu machen, ist das genau der Machtmissbrauch, den Jesus an den religiösen Führern seiner Zeit gegeißelt hat (Mt 23,4).`,
+      detail: `Nietzsche formuliert den Satz im *Antichrist* (§ 49). In der koptisch-orthodoxen Praxis ist die Beichte ein Sakrament der Heilung: Der Beichtvater ist geistlicher Arzt, nicht Richter; das Ziel ist die Freiheit der Kinder Gottes (Gal 5,1), nicht lebenslange Abhängigkeit. Die Wüstenväter warnten scharf davor, Menschen zu beherrschen: Ein Altvater soll „Vorbild sein, nicht Gesetzgeber". Ehrlich bleibt: Es gibt geistlichen Missbrauch, auch in orthodoxen Kirchen – ihn zu benennen ist Treue zum Evangelium.`,
+      sources: [
+        { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Der Antichrist', ref: '§ 49', year: '1888', quote: `Der Priester herrscht durch die Erfindung der Sünde.`, status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '23,4', quote: `Sie binden aber schwere und unerträgliche Bürden und legen sie den Menschen auf den Hals; aber sie selbst wollen dieselben nicht mit einem Finger regen.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Hast du jemals Schuld empfunden, ohne dass ein Priester dir das eingeredet hätte?`,
+      ],
+      followUps: [
+        {
+          id: 'foucault-pastoralmacht',
+          objection: `Michel Foucault hat es genauer beschrieben: Die Beichte ist eine „Pastoralmacht", eine Technik, die das Innerste des Menschen ans Licht zerrt, um ihn zu lenken. Der moderne Überwachungsstaat hat sie nur übernommen.`,
+          objectionBy: 'Michel Foucault (Sexualität und Wahrheit I, 1976)',
+          answer: `Foucault beschreibt in derselben Weise Medizin, Psychiatrie, Schule und Therapie – jede Beziehung, in der ein Mensch sich einem anderen öffnet, wird bei ihm zur Machttechnik. Das trifft also nicht spezifisch die Beichte, sondern jede Form von Fürsorge. Und es wirft eine Frage auf: Wenn alles Macht ist, woher nimmt Foucault den Maßstab, Macht zu kritisieren? In der orthodoxen Praxis ist die Beichte freiwillig, der Beichtvater wird frei gewählt, und das Ziel ist, dass der Mensch frei wird – nicht, dass er gelenkt wird.`,
+          detail: `Foucault entwickelte das Konzept der „Pastoralmacht" u. a. in *Der Wille zum Wissen* (Sexualität und Wahrheit I, 1976) und in den Vorlesungen „Omnes et singulatim" (1979). Seine Analysen sind anregend, aber sie haben ein bekanntes Problem: Wenn jede Wahrheit nur Effekt von Macht ist, gilt das auch für Foucaults eigene Analyse. Christen können zugestehen, dass geistliche Autorität missbraucht werden kann – gerade deshalb kennt die Tradition Regeln: Beichtgeheimnis, Freiwilligkeit, Rechenschaft der Geistlichen vor ihrem Bischof.`,
+          sources: [
+            { kind: 'gegner', author: 'Michel Foucault', work: 'Der Wille zum Wissen (Sexualität und Wahrheit I)', year: '1976', quote: `Foucault deutet die christliche Beichte als Machttechnik, die das Innere des Menschen zur Sprache zwingt und ihn so formbar macht.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'missbrauch-kirche',
+              objection: `Und die Wirklichkeit gibt Foucault recht: Die Missbrauchsskandale in Kirchen weltweit zeigen, was geschieht, wenn Geistliche unkontrollierte Macht über Gewissen und Körper haben.`,
+              objectionBy: 'Investigativer Journalist / Kirchenkritiker',
+              answer: `Missbrauch durch Geistliche ist ein entsetzliches Verbrechen und ein doppelter Verrat – an den Opfern und an Christus. Die Opfer verdienen zuerst Gehör, Schutz und Gerechtigkeit, nicht Apologetik. Jesus hat über solche Täter das härteste Wort gesprochen, das er kannte: Es wäre besser, man hängte ihm einen Mühlstein um den Hals (Lk 17,2). Missbrauch gibt es leider in allen Institutionen mit Macht über Abhängige – in Schulen, Sportverbänden, Heimen. Die Antwort ist nicht weniger Glaube, sondern Rechenschaft, Transparenz und Konsequenzen, die das Evangelium selbst verlangt.`,
+              detail: `Die Kanones der Alten Kirche sehen für schwere Vergehen von Geistlichen die Absetzung vor; Paulus verlangt, dass Älteste, die sündigen, „vor allen" zurechtgewiesen werden (1 Tim 5,20). Für das Gespräch gilt: Nicht relativieren („anderswo ist es auch so") als erstes Wort, sondern Mitgefühl und klare Verurteilung. Der Vergleich mit anderen Institutionen gehört erst in einen zweiten Schritt – um zu zeigen, dass das Problem Macht ohne Kontrolle ist, nicht der Glaube an Gott.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '17,2', quote: `Es wäre ihm besser, daß man einen Mühlstein an seinen Hals hängte und würfe ihn ins Meer, denn daß er dieser Kleinen einen ärgert.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '1. Timotheus', ref: '5,20', quote: `Die da sündigen, die strafe vor allen, auf daß sich auch die andern fürchten.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'vertuschung-beweist',
+                  objection: `Das Schlimmste war nicht der Missbrauch, sondern die Vertuschung. Bischöfe haben Täter versetzt, um den Ruf der Kirche zu schützen. Das zeigt: Am Ende geht es der Institution um Macht, nicht um Menschen.`,
+                  objectionBy: 'Investigativer Journalist',
+                  answer: `Ja – die Vertuschung war ein eigenes, schweres Unrecht, und wo Kirchen es begangen haben, haben sie gegen Christus gehandelt. Jesus sagt: „Nichts ist verborgen, das nicht offenbar werde" (Lk 8,17). Eine Kirche, die ihren Ruf über die Opfer stellt, hat ihren Herrn verraten. Aber Vertuschung ist ein Muster jeder Institution, die sich selbst schützen will – Rundfunkanstalten, Sportverbände, Regierungen. Was daraus folgt, ist eine Anklage gegen menschliche Machtgier, die das Evangelium selbst erhebt, nicht ein Argument gegen Gott.`,
+                  detail: `Bekannte säkulare Beispiele sind der Fall Jimmy Savile bei der BBC (Untersuchungsbericht von Dame Janet Smith, 2016) und der Fall Larry Nassar im US-Turnverband. Das relativiert kirchliche Schuld nicht, sondern zeigt die Struktur: Institutionen neigen dazu, sich zu schützen. Die biblische Tradition ist hier radikal selbstkritisch – die Propheten klagten Priester und Könige Israels an, und Jesus richtete seine schärfsten Worte gegen religiöse Führer. Christen sollten die Ersten sein, die Aufklärung fordern.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '8,17', quote: `Denn nichts ist verborgen, das nicht offenbar werde, auch nichts Heimliches, das nicht kund werde und an den Tag komme.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn Vertuschung ein Muster aller mächtigen Institutionen ist – zeigt das ein Problem des Glaubens oder ein Problem des menschlichen Herzens, von dem die Bibel spricht?`,
+                  ],
+                },
+              ],
             },
           ],
         },

@@ -131,6 +131,39 @@ const claim: Claim = {
           objection: `Die Radiokarbonmethode ist objektiv. Sie entscheidet die Frage gegen die konventionelle Chronologie.`,
           objectionBy: 'Israel Finkelstein',
           answer: `Die Messungen sind objektiv, ihre Zuordnung zu Schichten und die Kalibrierung im 10./9. Jahrhundert sind es nicht ganz: Die Kalibrierungskurve ist in diesem Zeitraum flach, sodass Unterschiede von einigen Jahrzehnten schwer aufzulösen sind. Deshalb kommen seriöse Teams mit denselben Methoden zu unterschiedlichen Ergebnissen. Der ehrliche Stand ist: offen.`,
+          followUps: [
+            {
+              id: 'offen-ist-kein-beleg',
+              objection: `„Offen" heißt aber auch: Ihr habt keinen positiven Beleg für Salomos Bauten. Wer etwas behauptet, muss es beweisen – nicht der Skeptiker.`,
+              objectionBy: 'Israel Finkelstein',
+              answer: `Einverstanden, und deshalb behaupte ich hier bewusst wenig: Ich sage nicht „die Tore sind salomonisch bewiesen", sondern „sie sind kein Beweis gegen Salomo". Die Behauptung, die du widerlegen wolltest, war ja „David und Salomo sind Legenden". Dafür reicht ein strittiges Datierungsproblem nicht. Für die Existenz der Dynastie haben wir einen positiven Beleg (Tel Dan); für die Größe des Reiches nur einen Text, der nach den Maßstäben antiker Hofberichte gelesen werden muss.`,
+              detail: `Wichtig für dich im Gespräch: Trenne drei Fragen sauber. **(1)** Existierten David und Salomo? – Für die Dynastie ja, außerbiblisch belegt. **(2)** Gab es im 10. Jahrhundert ein judäisches Gemeinwesen mit Bauvermögen? – Qeiyafa und die Debatte um Geser sprechen dafür, beweisen es aber nicht endgültig. **(3)** War es ein Großreich mit enormem Reichtum? – Hier ist der archäologische Befund dünn, und das darfst du offen sagen. Wer die drei Fragen vermischt, verliert die Debatte – auf beiden Seiten.`,
+              questionsBack: [`Welche der drei Fragen meinst du genau: Existenz, frühes Gemeinwesen oder Großreich?`],
+              followUps: [
+                {
+                  id: 'dever-gold-maerchen',
+                  objection: `Ich bin kein Minimalist – ich halte einen frühen Staat im 10. Jahrhundert für plausibel. Aber 666 Talente Gold im Jahr, goldene Schilde, Elfenbeinthron: Das ist orientalisches Märchen, keine Geschichte.`,
+                  objectionBy: 'William Dever',
+                  answer: `Dass Dever einen frühen Staat für plausibel hält, ist bereits ein starkes Zugeständnis gegen die Legendenthese. Bei den Goldmengen ist Vorsicht angebracht – Zahlen in antiken Hofberichten können runden und überhöhen. Aber „unmöglich" sind sie nicht: Kitchen hat darauf hingewiesen, dass Pharao Osorkon I. kurz nach Schoschenks Palästinafeldzug Tempelstiftungen in Gold und Silber von gewaltigem Umfang verzeichnete – Reichtum dieser Größenordnung gab es in der Region. Ob die biblischen Zahlen exakt sind, ist eine offene Frage; dass sie Märchen sein müssen, folgt nicht.`,
+                  detail: `Kitchen („Where Did Solomon's Gold Go?", Biblical Archaeology Review 1989) verband die Stiftungsinschriften Osorkons I. mit der Plünderung Jerusalems durch Schoschenk (1 Kön 14,25–26) – eine Hypothese, keine bewiesene Tatsache. Ehrlich ist: Für Salomos Gold gibt es keinen archäologischen Fund. Der Laie sollte deshalb nicht mit Goldmengen argumentieren, sondern mit dem Grundsatz: Ein Text, der den König zugleich als Götzendiener und Fronherrn kritisiert (1 Kön 11; 12,4), ist keine reine Prunkpropaganda.`,
+                  voices: [
+                    {
+                      person: 'kitchen',
+                      role: 'als Ägyptologe',
+                      text: `Kitchen vergleicht die biblischen Angaben zu Salomos Reichtum mit ägyptischen und mesopotamischen Königsinschriften. Er argumentiert, dass die Größenordnungen für einen Herrscher, der Handelswege zwischen Ägypten, Arabien und Syrien kontrollierte, nicht aus dem Rahmen fallen, und verweist auf die außergewöhnlichen Edelmetallstiftungen Osorkons I. um 920 v. Chr.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'Where Did Solomon\'s Gold Go? Biblical Archaeology Review 15/3', year: '1989', quote: `Die Edelmetallstiftungen Osorkons I. zeigen, dass Reichtum in der Größenordnung der salomonischen Angaben in der Region existierte; möglicherweise stammte ein Teil aus Schoschenks Beute.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'William G. Dever', work: 'What Did the Biblical Writers Know and When Did They Know It?', year: '2001', quote: `Dever hält einen frühen judäischen Staat im 10. Jahrhundert für archäologisch plausibel, lehnt aber das Bild eines glanzvollen Großreichs ab.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Könige', ref: '12,4', quote: `Dein Vater hat unser Joch zu hart gemacht.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Kritik an Salomos Fronpolitik im biblischen Text selbst.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -145,6 +178,54 @@ const claim: Claim = {
           objection: `Für die späteren Könige gab es Archive. Für David nicht – da beginnt die Fiktion.`,
           objectionBy: 'Niels Peter Lemche',
           answer: `Dann müsste man erklären, warum ein Fiktionsautor seinen Nationalhelden als Ehebrecher und Mörder darstellt und das Reich unter seinem Enkel zerfallen lässt. Die Samuelbücher tragen die Züge einer Hofgeschichtsschreibung, die Davids Thronanspruch verteidigt und zugleich seine Schuld nicht verschweigt. Und die Tel-Dan-Stele bestätigt gerade den Anfang dieser Dynastie, nicht erst ihre spätere Phase.`,
+        },
+      ],
+    },
+    {
+      id: 'schoschenk-ohne-jerusalem',
+      objection: `Die Bibel sagt, Pharao Schischak sei gegen Jerusalem gezogen (1 Kön 14,25). Aber in Schoschenks Ortsliste in Karnak fehlt Jerusalem. Sein Ziel war das nördliche Hochland – Juda war ihm offenbar zu unbedeutend.`,
+      objectionBy: 'Israel Finkelstein',
+      answer: `Zunächst ist die Liste ein Volltreffer für die Bibel: Ein ägyptischer Pharao namens Schischak/Schoschenk zieht im 5. Jahr Rehabeams, also um 925 v. Chr., nach Palästina – genau das bezeugt Karnak. Dass Jerusalem fehlt, passt zum biblischen Bericht: Rehabeam zahlte Tribut und lieferte die Tempelschätze aus (1 Kön 14,26); eine Stadt, die sich freikauft, wird nicht als erobert aufgelistet. Außerdem ist die Liste stark beschädigt – viele Namen sind unlesbar.`,
+      detail: `Die Ortsliste am Bubastidentor in Karnak nennt über 150 Namen, darunter Orte im Negev, in der Schefela und im Norden (z. B. Megiddo, wo auch ein Stelenfragment Schoschenks gefunden wurde). Finkelstein deutet die Liste als Feldzug gegen ein Gemeinwesen im Benjamin-Plateau oder im Norden. Ehrlich ist: Was die Liste über Juda aussagt, ist umstritten. Unstrittig ist der Synchronismus selbst – er gehört zu den Ankern der gesamten Chronologie der Königszeit.`,
+      sources: [
+        { kind: 'bibel', work: '1. Könige', ref: '14,25–26', quote: `Im fünften Jahr des Königs Rehabeam zog Sisak, der König in Ägypten, herauf gegen Jerusalem und nahm die Schätze aus dem Hause des HERRN und aus dem Hause des Königs.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'sonstiges', work: 'Ortsliste Schoschenks I. am Bubastidentor, Karnak', year: 'ca. 925 v. Chr.', quote: `Liste eroberter bzw. unterworfener Orte in Palästina; zahlreiche Namen beschädigt.`, status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'The Third Intermediate Period in Egypt (1100–650 BC)', year: '1973, 3. Aufl. 1996', quote: `Schoschenks Feldzug als fester Synchronismus zwischen ägyptischer und israelitischer Chronologie.`, status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'synchronismus-spaet',
+          objection: `Ein korrekter Synchronismus zeigt nur, dass spätere Schreiber irgendeine alte Notiz hatten. Über David und Salomo sagt das nichts.`,
+          objectionBy: 'Niels Peter Lemche',
+          answer: `Es sagt aber etwas über dein eigenes Argument: Du hast gesagt, für David gab es keine Archive, erst für die späteren Könige. Wenn die Schreiber schon für das Jahr 925 präzise Informationen hatten – fünf Jahre nach Salomos Tod –, dann reicht die Überlieferung bis unmittelbar an Salomo heran. Die Grenze zwischen „Archiv" und „Fiktion" liegt dann nicht dort, wo du sie ziehst.`,
+          followUps: [
+            {
+              id: 'keine-schreiber-im-10-jh',
+              objection: `Im Juda des 10. Jahrhunderts gab es praktisch keine Schriftkultur. Hebräische Inschriften tauchen erst im 9. und 8. Jahrhundert in nennenswerter Zahl auf. Wer hätte da Hofannalen führen sollen?`,
+              objectionBy: 'Israel Finkelstein',
+              answer: `Es gab wenig, aber nicht nichts: der Bauernkalender von Geser (10. Jh.), das Abecedarium von Tel Zayit und das Ostrakon von Khirbet Qeiyafa (um 1000 v. Chr.) zeigen, dass in der Region geschrieben wurde. Ein kleiner Hof braucht nur wenige Schreiber, und Papyrus und Leder verrotten im Bergland. Ich gestehe zu: Breite Schriftlichkeit kam später. Aber für Listen, Verträge und Annalen genügte eine kleine Schreiberelite – so war es überall im Alten Orient.`,
+              voices: [
+                {
+                  person: 'alan-millard',
+                  role: 'als Epigraphiker',
+                  text: `Millard hat wiederholt darauf hingewiesen, dass Schreiben im Levanteraum der Eisenzeit weiter verbreitet war, als es die erhaltenen Funde vermuten lassen: Die meisten Texte wurden auf vergänglichen Materialien wie Papyrus und Leder geschrieben, die im Klima des Berglands nicht überdauern. Erhalten sind fast nur Inschriften auf Stein und Ton – ein verzerrter Ausschnitt.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Alan R. Millard', work: 'Reading and Writing in the Time of Jesus', year: '2000', quote: `Grundsatz: Das Überleben von Schriftzeugnissen hängt vom Material ab; das Fehlen erhaltener Texte ist kein Beweis für das Fehlen von Schriftlichkeit.`, status: 'paraphrase', note: 'Das Buch behandelt vor allem die römische Zeit; das methodische Argument wendet Millard auch auf die Eisenzeit an.' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'qeiyafa-ostrakon-unklar',
+                  objection: `Das Qeiyafa-Ostrakon ist in einer frühalphabetischen Schrift geschrieben; ob die Sprache Hebräisch ist, lässt sich nicht sicher sagen. Ihr macht daraus ein judäisches Hofarchiv.`,
+                  objectionBy: 'Christopher Rollston',
+                  answer: `Richtig – die Sprache des Ostrakons ist umstritten, und ich mache daraus kein Hofarchiv. Mein Punkt ist bescheidener: Um 1000 v. Chr. wurde im judäischen Hügelland geschrieben, in einer befestigten Stadt mit geplanter Architektur. Das widerlegt die These, schriftliche Überlieferung aus dieser Zeit sei undenkbar. Ob die Samuelbücher auf solche frühen Notizen zurückgehen, bleibt eine Frage der Wahrscheinlichkeit, nicht des Beweises.`,
+                  detail: `Hier ist Fairness dein stärkstes Mittel: Die Minimalisten behaupteten nicht „wir wissen nicht, ob es Schreiber gab", sondern „es kann keine gegeben haben". Gegen diese starke These genügen wenige, sicher datierte Schriftfunde. Für die Gegenthese – „die Samuelbücher beruhen auf zeitgenössischen Aufzeichnungen" – reichen sie allein nicht; da kommen innere Kriterien hinzu (ungeschminkte Darstellung, Thronfolgeapologie, Ortskenntnis).`,
+                  questionsBack: [`Wie viele Schreiber braucht ein kleiner Königshof, um Listen und Annalen zu führen?`, `Warum sollten sich Papyrusarchive im Bergland Judas erhalten haben, wenn sie es fast nirgends in der Levante taten?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

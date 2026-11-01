@@ -175,6 +175,85 @@ Tertullian ist keine Lehrautorität; aber wenn selbst er das Totengebet als selb
       objectionBy: 'James White',
       answer: `Die Gefallenen hatten gesündigt, waren aber für Gottes Gesetz in den Kampf gezogen; Judas betete in der Hoffnung auf die Auferstehung um ihre Vergebung. Entscheidend ist: Juden beteten vor Christus für die Toten – auch wer das Buch nicht als kanonisch annimmt, hat hier ein historisches Zeugnis. Jesus kritisierte viele Bräuche seiner Zeit (Mk 7), dieses aber nie. Und das Judentum betet bis heute im Kaddisch für seine Verstorbenen.`,
     },
+    {
+      id: 'daheim-beim-herrn',
+      objection: `„Paulus sagt: Aus dem Leib auszuwandern heißt, ‚daheim zu sein bei dem Herrn' (2 Kor 5,8), und bei Christus zu sein ist ‚viel besser' (Phil 1,23). Die entschlafenen Gläubigen sind im Frieden. Wofür willst du da noch beten?"`,
+      objectionBy: 'R. C. Sproul / Johannes Calvin (historisch)',
+      answer: `Genau das glauben wir: Die im Glauben Entschlafenen sind bei Christus in Ruhe. Darum bittet die koptische Liturgie nicht um Rettung aus einer Qual, sondern: Gedenke ihrer, Herr, und lass sie ruhen „im Schoß Abrahams, Isaaks und Jakobs, im Paradies der Wonne". Unser Gebet ist Ausdruck der Liebe, die mit dem Tod nicht endet – denn weder Tod noch Leben kann uns von der Liebe Gottes in Christus scheiden (Röm 8,38–39), und vor Gott „leben sie ihm alle" (Lk 20,38). Wir sind ein Leib mit ihnen; Glieder eines Leibes beten füreinander.`,
+      detail: `Das Gebet für die Entschlafenen setzt nicht voraus, dass sie leiden, sondern dass sie **leben** und mit uns in der Gemeinschaft des einen Leibes Christi stehen. Wir bitten um Gottes Erbarmen für sie am Tag des Gerichts (vgl. 2 Tim 1,18), um Vergebung der Sünden aus Schwachheit, um Ruhe und Wachstum in der Erkenntnis Gottes.
+
+In der koptischen Basilius-Liturgie gedenkt der Priester der Entschlafenen mit der Bitte, Gott möge ihren Seelen Ruhe schenken im Paradies der Freude, im Land der Lebenden, wo Schmerz, Trauer und Seufzen geflohen sind. Das ist Hoffnung, keine Angst – und es deckt sich mit dem, was Paulus über das „viel bessere" Sein bei Christus sagt.`,
+      sources: [
+        { kind: 'bibel', work: 'Lukas', ref: '20,38', quote: `Gott aber ist nicht der Toten, sondern der Lebendigen Gott; denn sie leben ihm alle.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Römer', ref: '8,38–39', quote: `Denn ich bin gewiß, daß weder Tod noch Leben … mag uns scheiden von der Liebe Gottes, die in Christo Jesu ist, unserm HERRN.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'liturgie', work: 'Koptische Basilius-Liturgie (Gedächtnis der Entschlafenen)', quote: `Bitte, Gott möge den Seelen der Entschlafenen Ruhe schenken im Schoß Abrahams, Isaaks und Jakobs, im Paradies der Freude, an dem Ort, von dem Schmerz, Trauer und Seufzen geflohen sind.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Hört die Liebe zwischen Gliedern des Leibes Christi mit dem Tod auf? Wenn nein – warum sollte das Gebet aufhören?`,
+      ],
+      followUps: [
+        {
+          id: 'kein-nt-beispiel',
+          objection: `„Das ist schöne Frömmigkeit, aber zeig mir ein Gebot oder ein sicheres Beispiel im NT. Gefühle sind kein Schriftbeweis."`,
+          objectionBy: 'James White',
+          answer: `Neben 2 Tim 1,18 haben wir ein starkes historisches Argument: Die Apostel lebten in einem Judentum, das für die Toten betete (2 Makk 12,43–45) – und das NT verurteilt diese Praxis nirgends. Die ältesten christlichen Zeugnisse zeigen sie dann selbstverständlich: Die Grabinschrift des Bischofs Aberkios von Hierapolis (um 200) bittet: „Wer dies versteht und gleich gesinnt ist, bete für Aberkios." Tertullian (um 211) erwähnt die jährlichen Gaben für die Verstorbenen an ihrem Todestag. Wenn die Apostel diese Praxis abschaffen wollten, müssten wir im 2. Jahrhundert eine Spur davon finden – wir finden das Gegenteil.`,
+          detail: `Die Aberkios-Inschrift aus Phrygien gehört zu den ältesten christlichen Inschriften überhaupt. Der Verstorbene beschreibt in verhüllter Sprache den Glauben (der „Fisch" aus der Quelle, Brot und Wein) und schließt mit der Bitte um Gebet. Tertullian (*Über den Kranz* 3) nennt die Opfer für die Verstorbenen am Jahrestag als Überlieferung, die zwar nicht in der Schrift steht, aber von allen gehalten wird.
+
+Ehrlich bleibt: Ein ausdrückliches Gebot im NT gibt es nicht. Aber Sola Scriptura verlangt für jede Praxis ein ausdrückliches Gebot nur, wenn man es so will – die Christen des 2. Jahrhunderts, die den Aposteln am nächsten standen, sahen keinen Widerspruch zur Schrift.`,
+          sources: [
+            { kind: 'sonstiges', work: 'Grabinschrift des Aberkios von Hierapolis (Phrygien)', year: 'um 200', quote: `Wer dies versteht und gleich gesinnt ist, bete für Aberkios.`, status: 'paraphrase', note: 'Eine der ältesten christlichen Inschriften; teilweise im Original erhalten (Vatikanische Museen).' },
+            { kind: 'kirchenvater', author: 'Tertullian', work: 'Über den Kranz (De corona)', ref: '3', year: 'um 211', quote: `Wir bringen Opfer für die Verstorbenen an ihrem Jahrestag dar – eine Überlieferung, die von allen gehalten wird.`, status: 'paraphrase', note: 'Tertullian als Zeuge der Praxis, nicht als Lehrautorität.' },
+          ],
+          followUps: [
+            {
+              id: 'nur-volksfroemmigkeit',
+              objection: `„Grabinschriften zeigen Volksfrömmigkeit, nicht apostolische Lehre. Das Volk tat auch viel Abergläubisches."`,
+              objectionBy: 'Gavin Ortlund',
+              answer: `Es ist nicht nur Volksfrömmigkeit, sondern **Liturgie**: Alle alten Liturgien – die koptische Basilius- und Kyrillus-Liturgie, die syrische Jakobus-Liturgie, die byzantinischen Liturgien und selbst der römische Messkanon – beten in der Eucharistie für die Entschlafenen. Kirchen, die seit dem 5. Jahrhundert getrennt sind, stimmen darin überein. Chrysostomus sagt ausdrücklich: Nicht umsonst haben die Apostel angeordnet, bei den heiligen Mysterien der Verstorbenen zu gedenken.`,
+              voices: [
+                {
+                  person: 'chrysostomus',
+                  role: 'als Prediger und Liturge',
+                  text: `Chrysostomus ermutigt die Trauernden, ihren Verstorbenen durch Gebet, Almosen und das Gedächtnis in der Eucharistie beizustehen. Er beruft sich darauf, dass die Apostel diese Erinnerung bei den schauervollen Mysterien angeordnet hätten, weil sie wussten, dass den Entschlafenen daraus großer Gewinn erwächst.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über den Philipperbrief', ref: '3,4', year: 'um 400', quote: `Nicht umsonst haben die Apostel angeordnet, dass bei den furchtbaren Mysterien der Entschlafenen gedacht wird; sie wussten, dass ihnen daraus viel Gewinn und Nutzen erwächst.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wie erklärst du, dass Kopten, Syrer, Armenier, Byzantiner und Lateiner – seit Jahrhunderten getrennt – alle in der Eucharistie für die Verstorbenen beten?`,
+              ],
+              followUps: [
+                {
+                  id: 'tuer-zum-ablass',
+                  objection: `„Damit öffnet ihr die Tür zum Ablasshandel: Wenn Gebete den Toten helfen, warum dann nicht auch bezahlte Messen? Genau so begann das Geschäft mit der Angst, gegen das Luther aufstand."`,
+                  objectionBy: 'John MacArthur',
+                  answer: `Die koptische Kirche hat nie Ablässe, nie ein Fegefeuer, nie einen „Schatz der Verdienste" gekannt, aus dem man Strafen abkaufen könnte. Das Gebet für die Entschlafenen ist ein freies Geschenk der Liebe, keine Ware. Gnade zu kaufen verurteilt schon Petrus: „Daß du verdammt werdest mit deinem Gelde, darum daß du meinst, Gottes Gabe werde durch Geld erlangt" (Apg 8,20). Luthers Protest richtete sich gegen ein spätmittelalterliches westliches System – nicht gegen das Gebet, das die Kirche seit dem 2. Jahrhundert kennt.`,
+                  detail: `Ehrlich: Auch in der koptischen Praxis gibt es Spenden im Gedenken an Verstorbene. Sie sind aber **Almosen für die Armen** in ihrem Namen (vgl. Tob 4,7–11; Chrysostomus empfiehlt Almosen für die Verstorbenen), kein Preis für eine Leistung des Priesters. Wo Gemeinden hier unklar werden, ist Korrektur nötig.
+
+Der Unterschied zum Ablass liegt in der Theologie: Der Ablass setzt das Fegefeuer als Ort zeitlicher Sündenstrafen und die Verwaltung eines kirchlichen Gnadenschatzes voraus. Beides lehnt die koptische Kirche ab. Ihr Gebet ist Fürbitte in der Liebe – so wie du für einen lebenden Freund betest, ohne dafür zu bezahlen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '8,20', quote: `Petrus aber sprach zu ihm: Daß du verdammt werdest mit deinem Gelde, darum daß du meinst, Gottes Gabe werde durch Geld erlangt!`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Hat die Möglichkeit, für Lebende gegen Geld „beten zu lassen", jemals dazu geführt, dass du das Gebet für Lebende abgeschafft hast?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'misstrauen-gegen-gottes-guete',
+          objection: `„Wenn es ihnen bei Christus ‚viel besser' geht, ist euer Beten eigentlich Misstrauen gegen Gottes Güte."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Ist es Misstrauen, wenn wir beten „Dein Reich komme", obwohl es gewiss kommt? Oder „Ja, komm, Herr Jesu!" (Offb 22,20), obwohl er es verheißen hat? Gebet ist nicht Misstrauen, sondern Teilnahme an dem, was Gott tun will. Sogar die Seelen der Märtyrer unter dem Altar beten und rufen zu Gott (Offb 6,9–10) – im Himmel ist das Gebet nicht Zweifel, sondern Liebe.`,
+          sources: [
+            { kind: 'bibel', work: 'Offenbarung', ref: '6,9–10', quote: `Und da es das fünfte Siegel auftat, sah ich unter dem Altar die Seelen derer, die erwürgt waren um des Wortes Gottes willen … und sie schrieen mit großer Stimme und sprachen: HERR, du Heiliger und Wahrhaftiger, wie lange richtest du nicht …`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum bittet Paulus für Onesiphorus um Erbarmen „an jenem Tage" (2 Tim 1,18)?`,

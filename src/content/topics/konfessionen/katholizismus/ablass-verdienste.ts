@@ -122,6 +122,78 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'kol-1-24-ergaenzen',
+      objection: `„Kol 1,24: ‚Ich erstatte an meinem Fleisch, was noch mangelt an Trübsalen in Christo, für seinen Leib, welcher ist die Gemeinde.' Die Leiden der Heiligen kommen anderen zugute – das ist der Kirchenschatz."`,
+      objectionBy: 'Jimmy Akin',
+      answer: `Paulus spricht von seinen Leiden im apostolischen Dienst, durch die das Evangelium zu den Heiden kommt und die Gemeinde gestärkt wird: „Haben wir Trübsal, so geschieht es euch zu Trost und Heil" (2 Kor 1,6). Christus leidet in seinem Leib, der Kirche, mit – das ist Gemeinschaft in der Sendung. Von einem Überschuss an Verdiensten, der als Erlass zeitlicher Strafen zugewendet wird, sagt der Vers nichts.`,
+      detail: `Den Vätern war wichtig, dass Kol 1,24 nicht einen Mangel an der Wirksamkeit des Kreuzes meint. Chrysostomus erklärt, Christus leide noch in seinen Gliedern; was „fehlt", ist nicht die Erlösung, sondern das Mitleiden der Kirche bis zum Ende. Die Leiden der Apostel und Märtyrer nützen anderen durch ihr Zeugnis, ihre Liebe und ihre Fürbitte – nicht durch eine übertragbare Rechnung.`,
+      sources: [
+        { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Kolosserbrief', ref: '4 (zu Kol 1,24)', year: 'um 399', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'binden-und-loesen',
+          objection: `„Christus hat der Kirche die Schlüssel gegeben: Was ihr löst, ist im Himmel gelöst (Mt 16,19; 18,18). Ablässe sind einfach die Ausübung dieser Löse-Vollmacht."`,
+          objectionBy: 'Trent Horn',
+          answer: `Die Kirche hat die Vollmacht zu binden und zu lösen – sie übt sie in der Beichte und in der Bußdisziplin aus: Der koptische Priester spricht die Lossprechung (Joh 20,23) und kann Bußauflagen auferlegen oder erleichtern. Das betrifft Sünden und kirchliche Bußen in diesem Leben. Eine Verfügung über nachtodliche Strafen aus einem Schatz fremder Verdienste geht über das hinaus, was die Schrift und die Alte Kirche mit den Schlüsseln verbanden.`,
+          followUps: [
+            {
+              id: 'heilige-litten-mehr',
+              objection: `„Maria und die Märtyrer haben viel mehr gelitten, als ihre eigenen Sünden verdient hätten. Dieses Leiden geht nicht verloren – Gott wendet es in der Solidarität des Leibes anderen zu."`,
+              objectionBy: 'Katholischer Theologe',
+              answer: `Jesus sagt: „Wenn ihr alles getan habt, was euch befohlen ist, so sprecht: Wir sind unnütze Knechte; wir haben getan, was wir zu tun schuldig waren" (Lk 17,10). Vor Gott hat niemand einen Überschuss. Das Leiden der Märtyrer ist eine Gabe der Liebe, kein Guthaben. Die koptische Kirche ehrt die Märtyrer wie kaum eine andere und bittet um ihre Fürbitte – das ist die biblische Form der Solidarität: Gebet, nicht Übertragung von Verdiensten.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '17,10', quote: `Also auch ihr; wenn ihr alles getan habt, was euch befohlen ist, so sprecht: Wir sind unnütze Knechte; wir haben getan, was wir zu tun schuldig waren.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'fuerbitte-wirkt-durch-heiligkeit',
+                  objection: `„Aber auch eure Fürbitte der Heiligen wirkt doch wegen ihrer Heiligkeit: ‚Des Gerechten Gebet vermag viel' (Jak 5,16). Das ist der Sache nach dasselbe wie Verdienst."`,
+                  objectionBy: 'Katholischer Theologe',
+                  answer: `Da sind wir näher beieinander, als man denkt, und das darf man sagen: Heiligkeit gibt dem Gebet Freimut (*parrhēsia*). Aber Fürbitte bleibt Bitte an Gottes freies Erbarmen – Gott bleibt frei in seiner Antwort. Ein Kirchenschatz, aus dem die Kirche vollkommene oder teilweise Ablässe „mit Autorität zuwendet", funktioniert anders: als ein Gut, über das verfügt wird. Der Unterschied ist der zwischen Bitten und Verfügen.`,
+                  questionsBack: [`Kann die Kirche Gott durch einen Ablass zu etwas verpflichten – oder bittet sie ihn nur?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'protestantische-polemik',
+      objection: `„Du übernimmst einfach die Polemik der Reformatoren. Selbst Luther hat in seinen 95 Thesen die Ablässe nicht grundsätzlich verworfen – These 71 verflucht sogar, wer gegen die Wahrheit der apostolischen Ablässe redet."`,
+      objectionBy: 'Katholischer Apologet',
+      answer: `Unsere Kritik ist nicht protestantisch. Die koptische Kirche kannte nie Ablässe – lange vor Luther, und ohne sein „allein durch den Glauben". Wir urteilen von der Alten Kirche her: Die Väter des ersten Jahrtausends kennen Gebet für die Toten und kirchliche Bußerleichterung, aber keinen Schatz überschüssiger Verdienste. Dass Luther 1517 selbst noch Ablässe verteidigte, zeigt nur, wie fest die Lehre im spätmittelalterlichen Westen verankert war – nicht, dass sie apostolisch ist.`,
+      followUps: [
+        {
+          id: 'nur-muetterliche-fuerbitte',
+          objection: `„Ein Ablass ist heute nichts anderes als die mütterliche Fürbitte der Kirche verbunden mit einer Ermutigung zur Frömmigkeit – so hat es Paul VI. 1967 in ‚Indulgentiarum doctrina' erklärt."`,
+          objectionBy: 'Katholischer Theologe',
+          answer: `Paul VI. hat die Praxis gründlich gereinigt und die Angaben in Tagen und Jahren abgeschafft – das erkennen wir an. Aber der Kern bleibt: Nach katholischer Lehre teilt die Kirche als Dienerin der Erlösung den Schatz der Genugtuungen Christi und der Heiligen **mit Autorität** aus und wendet ihn zu (KKK 1471). Für Lebende ist das mehr als Fürbitte. Genau diese autoritative Zuwendung finden wir in der Alten Kirche nicht.`,
+          sources: [
+            { kind: 'gegner', author: 'Paul VI.', work: 'Apostolische Konstitution Indulgentiarum doctrina', year: '1. Januar 1967', status: 'paraphrase' },
+            { kind: 'gegner', work: 'Katechismus der Katholischen Kirche', ref: 'Nr. 1471', year: '1992/1997', status: 'paraphrase', note: 'Definition des Ablasses als Nachlass zeitlicher Strafen, den die Kirche als Dienerin der Erlösung aus dem Schatz der Genugtuungen autoritativ austeilt.' },
+          ],
+          followUps: [
+            {
+              id: 'synchorochartia',
+              objection: `„Auch der Osten hatte Ablässe: Griechische Patriarchate stellten in osmanischer Zeit Absolutionsbriefe (*synchorochartia*) aus – sogar gegen Bezahlung."`,
+              objectionBy: 'Erick Ybarra',
+              answer: `Das ist historisch richtig und sollte ehrlich zugegeben werden: Einzelne griechische Patriarchate, besonders Jerusalem, gaben in der Türkenzeit solche Briefe aus – unter finanziellem Druck und wohl unter westlichem Einfluss; orthodoxe Theologen haben die Praxis selbst kritisiert. Sie war nie Dogma und nie Praxis der koptischen Kirche. Missbräuche im Osten rechtfertigen die Lehre nicht – so wenig wie Tetzel die katholische Lehre widerlegt.`,
+              followUps: [
+                {
+                  id: 'koptische-busswerke',
+                  objection: `„Euer Beichtvater erlegt auch Bußwerke auf – Fasten, Metanien – und kann sie erlassen. Wenn das legitim ist, warum dann nicht Ablässe?"`,
+                  objectionBy: 'Katholischer Apologet',
+                  answer: `Ja, der Beichtvater kann Bußen auflegen, mildern oder umwandeln – wie die Bischöfe zu Cyprians Zeit. Das ist pastorale Arznei im Leben, gebunden an die persönliche Umkehr und die geistliche Begleitung. Ablass in diesem engen Sinn – Erleichterung kirchlicher Buße – kennen wir also. Was wir nicht kennen, ist die Theorie eines Schatzes, aus dem Strafen für die Zeit nach dem Tod abgemessen und zugewendet werden. Dort, nicht bei der Bußpraxis, liegt der Unterschied.`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wie passt Lk 17,10 („wir haben getan, was wir zu tun schuldig waren") zu „überschüssigen" Verdiensten?`,

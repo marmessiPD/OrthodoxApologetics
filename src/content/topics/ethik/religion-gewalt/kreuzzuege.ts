@@ -122,6 +122,28 @@ const claim: Claim = {
       objection: `1204 haben die Kreuzfahrer sogar das christliche Konstantinopel geplündert, Kirchen entweiht, Nonnen vergewaltigt. Das zeigt, dass es nie um Glauben ging, sondern um Beute.`,
       objectionBy: 'Christopher Hitchens',
       answer: `Da hast du recht – 1204 ist eine Schande, und gerade orthodoxe Christen empfinden das bis heute. Papst Innozenz III. hatte den Angriff auf Christen verboten und die Plünderung danach scharf verurteilt; Papst Johannes Paul II. hat 2001 in Athen um Vergebung gebeten. Der Vierte Kreuzzug zeigt, wie eine Bewegung, die sich religiös verstand, in Gier und Machtpolitik entgleisen konnte. Ehrliche Geschichtsschreibung benennt das – und es bestätigt: Wo Christen töten und plündern, verraten sie ihren Herrn.`,
+      followUps: [
+        {
+          id: 'rheinland-pogrome-1096',
+          objection: `Und bevor sie überhaupt Muslime trafen, haben die Kreuzfahrer 1096 in Speyer, Worms, Mainz und Köln Tausende Juden ermordet. Das war der Auftakt des europäischen Antisemitismus – im Namen des Kreuzes.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Ja, die Rheinland-Pogrome von 1096 sind ein furchtbares Verbrechen, und Christen müssen sie ohne Ausflüchte benennen. Bandenführer wie Graf Emicho von Leiningen ermordeten ganze Gemeinden. Zugleich zeigen die Quellen, dass sie damit gegen die Kirche handelten: Bischof Johannes von Speyer stellte die Juden unter seinen Schutz und ließ Mörder bestrafen, andere Bischöfe versuchten es vergeblich. Beim Zweiten Kreuzzug 1146 reiste Bernhard von Clairvaux eigens ins Rheinland, um einen Mönch zum Schweigen zu bringen, der zum Judenmord aufrief.`,
+          detail: `Die jüdischen Chroniken jener Zeit (etwa Salomo bar Simson) berichten von Bischöfen, die Juden in ihren Palästen versteckten, aber oft von der Menge überrannt wurden. Das entlastet die Christenheit nicht: Antijüdische Predigt, Verschwörungsglaube und Gier bereiteten den Boden. Aber das Neue Testament bietet keinen Grund für solche Gewalt – Paulus sagt über Israel: „Sie sind Geliebte um der Väter willen" (Röm 11,28).`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Jonathan Riley-Smith', work: '„The First Crusade and the Persecution of the Jews", Studies in Church History 21', year: '1984', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Römer', ref: '11,28–29', quote: `Aber nach der Wahl sind sie Geliebte um der Väter willen. Denn Gottes Gaben und Berufung können ihn nicht gereuen.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'bernhard-zeugen-doktrin',
+              objection: `Bernhard hat die Juden doch nur geschützt, weil sie nach Augustinus als „Zeugen" in Elend und Zerstreuung überleben sollten. Das war keine Liebe, sondern eine Theologie der Demütigung.`,
+              objectionBy: 'Hector Avalos',
+              answer: `Da ist etwas Wahres dran: Die augustinische „Zeugen-Lehre" schützte jüdisches Leben, sah es aber zugleich in einer Rolle der Erniedrigung – das ist kein Ruhmesblatt. Ich verteidige sie nicht. Aber der Maßstab, an dem auch Bernhard zu messen ist, geht weiter: Jesus gebietet, sogar den Feind zu lieben (Mt 5,44), und Paulus nennt die Juden „Geliebte". Gemessen daran war die mittelalterliche Haltung zu wenig – aber der Mord, gegen den Bernhard einschritt, war ihr Gegenteil.`,
+              detail: `Diese Ehrlichkeit macht dich glaubwürdig: Christliche Theologie hat gegenüber dem Judentum über Jahrhunderte schwere Fehler gemacht, die bis in die Katastrophe des 20. Jahrhunderts nachwirkten. Viele Kirchen haben das seit 1945 bekannt. Die richtige Antwort ist nicht, die Geschichte zu verteidigen, sondern zu zeigen, dass die Quellen des Glaubens – die Schrift und Christus selbst, ein Jude – der Judenfeindschaft den Boden entziehen.`,
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'muslimisches-trauma',
@@ -134,6 +156,31 @@ const claim: Claim = {
           objection: `Du verharmlost die Kreuzzüge, um das Christentum reinzuwaschen. Das ist Geschichtsrevisionismus.`,
           objectionBy: 'Amin Maalouf',
           answer: `Ich will nichts verharmlosen: Die Pogrome, das Massaker von Jerusalem, die Plünderung Konstantinopels und der Albigenserkreuzzug sind Unrecht. Ich will nur, dass wir die Geschichte vollständig erzählen – mit der Vorgeschichte der Eroberungen und mit den Gräueln. Der Historiker John Dickson sagt: Christen müssen sowohl die Melodie als auch das schlechte Spiel ernst nehmen. Meine Verteidigung gilt nicht den Kreuzzügen, sondern Jesus, an dessen Maßstab sie scheitern.`,
+          followUps: [
+            {
+              id: 'kopten-und-kreuzzuege',
+              objection: `Und deine eigene Kirche? Die Kreuzfahrer betrachteten die Kopten als Ketzer, verweigerten ihnen den Zugang zu Jerusalem – und nach jedem Angriff auf Ägypten bezahlten die Kopten die Rechnung. Die Kreuzzüge waren auch für euch eine Katastrophe.`,
+              objectionBy: 'Amin Maalouf',
+              answer: `Das stimmt, und es ist ein wichtiger Teil der Geschichte, den westliche Darstellungen oft vergessen. Die lateinischen Herrscher in Jerusalem behandelten die Kopten als Schismatiker, und nach den Kreuzzugsangriffen auf Ägypten – etwa bei Damiette 1218–1221 – kam es zu Repressalien gegen die einheimischen Christen. Die koptische Kirche hat die Kreuzzüge nie unterstützt. Das zeigt gerade: Die Kreuzzüge waren kein Projekt „des Christentums", sondern einer bestimmten westlichen Christenheit – und ihre Leidtragenden waren auch Christen.`,
+              detail: `Für Kopten ist das Erbe der Kreuzzüge zweischneidig: Bis heute werden sie von Extremisten als „Kreuzfahrer" beschimpft, obwohl ihre Vorfahren selbst unter den Kreuzfahrern litten und seit dem 7. Jahrhundert ununterbrochen in Ägypten leben. Der koptische Weg war nie das Schwert, sondern das Martyrium und das treue Ausharren.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Otto F. A. Meinardus', work: 'Two Thousand Years of Coptic Christianity', year: '1999', status: 'paraphrase', note: 'Zur Lage der Kopten während der Kreuzzugszeit.' },
+              ],
+              followUps: [
+                {
+                  id: 'koptischer-weg-vergebung',
+                  objection: `Schöne Worte. Aber welche Religion zeigt denn in der Praxis, dass sie Gewalt anders beantwortet als mit Gewalt?`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Die koptische Kirche hat es in unserer Zeit vor den Augen der Welt gezeigt. Als 2015 einundzwanzig Männer in Libyen enthauptet wurden, sprachen ihre Familien öffentlich Worte der Vergebung. Nach dem Anschlag auf die Markuskathedrale in Alexandria am Palmsonntag 2017 sagte die Witwe eines getöteten Wächters im Fernsehen zu den Tätern, sie sei nicht zornig auf sie und bete, dass Gott ihnen vergebe. Das ist nicht die Antwort einer Religion, die Gewalt hervorbringt, sondern eine, die sie überwindet.`,
+                  detail: `Solche Zeugnisse sind kein Argument, das die Kreuzzüge entschuldigt. Aber sie zeigen, was geschieht, wenn Christen Christus ernst nehmen: „Liebet eure Feinde; segnet, die euch fluchen" (Mt 5,44). Das ist die Melodie, an der jede christliche Gewalt als Missklang erkennbar wird.`,
+                  sources: [
+                    { kind: 'koptisch', work: 'Synaxarium der koptischen Kirche: Gedenken der 21 Märtyrer von Libyen', year: '2015', status: 'paraphrase', note: 'Gedenktag am 8. Amschir (15. Februar).' },
+                    { kind: 'sonstiges', work: 'Fernsehinterview der Witwe von Naseem Faheem (Wächter an der Markuskathedrale Alexandria)', year: '2017', status: 'paraphrase', note: 'Vielfach berichtet nach den Palmsonntagsanschlägen vom 9. April 2017.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -142,6 +189,41 @@ const claim: Claim = {
       objection: `„Deus lo vult – Gott will es!" Das war der Schlachtruf von Clermont. Wenn Christen glauben, dass Gott einen Krieg will, kennen sie keine Grenzen mehr.`,
       objectionBy: 'Sam Harris',
       answer: `Gerade deshalb ist es so wichtig, was Gott *tatsächlich* in Christus offenbart hat: Der Sohn Gottes ließ sich lieber kreuzigen, als sich mit dem Schwert verteidigen zu lassen. Schon im Mittelalter gab es Christen, die das sahen: Franz von Assisi ging 1219 während des Kreuzzugs vor Damiette in Ägypten unbewaffnet zu Sultan al-Kamil, um mit ihm über den Glauben zu sprechen. Wer behauptet, Gott wolle einen Krieg zur Verbreitung oder Verteidigung des Glaubens, muss sich an Christus messen lassen – und scheitert.`,
+      followUps: [
+        {
+          id: 'schwert-mt-10-lk-22',
+          objection: `Jesus selbst sagt: „Ich bin nicht gekommen, Frieden zu bringen, sondern das Schwert" (Mt 10,34), und in Lk 22,36 befiehlt er seinen Jüngern, Schwerter zu kaufen. Der heilige Krieg ist im Neuen Testament angelegt.`,
+          objectionBy: 'Hector Avalos',
+          answer: `Lies die nächsten Verse: In Mt 10,35–36 erklärt Jesus, was er meint – Spaltung in Familien, weil sich manche für ihn entscheiden und andere nicht. Das Schwert ist das der Trennung, nicht der Gewalt. In Lk 22 sagt er bei zwei Schwertern „Es ist genug" (22,38) – offensichtlich keine Ausrüstung für einen Feldzug –, und als Petrus wenige Stunden später zuschlägt, heilt Jesus den Verletzten und sagt: „Stecke dein Schwert an seinen Ort; denn wer das Schwert nimmt, der soll durchs Schwert umkommen" (Mt 26,52).`,
+          detail: `Die Kirche der ersten drei Jahrhunderte hat diese Worte so verstanden: Christen nahmen nicht an Gewalt zur Verbreitung des Glaubens teil, und viele Väter (Tertullian, Origenes) lehnten selbst den Kriegsdienst ab. Die Ostkirche hat nie eine Theologie des verdienstlichen heiligen Krieges entwickelt; Basilius verlangte sogar von Soldaten, die im Krieg getötet hatten, eine Zeit der Buße. Die Kreuzzugstheologie ist eine späte, westliche Entwicklung – keine Folge des Neuen Testaments.`,
+          sources: [
+            { kind: 'bibel', work: 'Matthäus', ref: '26,52', quote: `Stecke dein Schwert an seinen Ort; denn wer das Schwert nimmt, der soll durchs Schwert umkommen.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Lukas', ref: '22,38', quote: `Sie sprachen aber: Herr, siehe, hier sind zwei Schwerter. Er aber sprach zu ihnen: Es ist genug.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'dann-pazifismus-heuchelei',
+              objection: `Dann sei konsequent: Wenn das Christentum gewaltfrei ist, ist jede Kirche heuchlerisch, die Soldaten segnet und Armeen ihres Landes unterstützt – auch deine.`,
+              objectionBy: 'Hector Avalos',
+              answer: `Es gibt einen wichtigen Unterschied zwischen dem heiligen Krieg und der Verteidigung von Menschen. Ein heiliger Krieg erklärt das Töten zum gottgefälligen, verdienstvollen Werk für den Glauben – das lehnt die orthodoxe Tradition ab. Die Verteidigung Wehrloser durch eine rechtmäßige Obrigkeit (Röm 13,4) kann notwendig sein, bleibt aber immer tragisch: Darum verlangte Basilius von Soldaten, die getötet hatten, eine Zeit des Fernbleibens von der Kommunion. Die Ostkirche segnet Menschen, die schützen – nicht das Töten.`,
+              detail: `Diese Spannung ist in der orthodoxen Tradition bewusst offen gehalten: Der Krieg wird nie „gerecht" im Sinne von „gut", sondern bestenfalls ein kleineres Übel. Ausführlich: Claim „Pazifismus oder gerechter Krieg?".`,
+              voices: [
+                { person: 'basilius', role: 'als Kanonist', text: `Basilius schreibt im 13. Kanon seines Briefes an Amphilochius, die Väter hätten das Töten im Krieg nicht als Mord gewertet, doch es sei gut, solchen, deren Hände nicht rein seien, für drei Jahre die Kommunion zu versagen. Damit hält er fest: Auch notwendige Gewalt befleckt und verlangt Umkehr.` },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'albigenser-beziers',
+      objection: `Und der Albigenserkreuzzug: Christen gegen Christen in Südfrankreich. In Béziers 1209 soll der päpstliche Legat gesagt haben: „Tötet sie alle, Gott wird die Seinen erkennen." Das ist die Logik des Glaubenskriegs in einem Satz.`,
+      objectionBy: 'Christopher Hitchens',
+      answer: `Das Massaker von Béziers hat stattgefunden, und es ist ein Verbrechen. Der berühmte Satz ist allerdings historisch unsicher: Er stammt aus einer Wundererzählung des Zisterziensers Caesarius von Heisterbach, geschrieben rund zwanzig Jahre später, und schon er leitet ihn mit „er soll gesagt haben" ein. Benutze ihn also nicht als Tatsache. An der Schuld ändert das nichts: Ein Kreuzzug gegen andersgläubige Christen ist eine Perversion des Evangeliums.`,
+      detail: `Der Albigenserkreuzzug (1209–1229) richtete sich gegen die Katharer, eine dualistische Bewegung, und wurde rasch zu einem Eroberungskrieg des nordfranzösischen Adels. Er zeigt, wohin die Verbindung von kirchlichem Wahrheitsanspruch und staatlicher Gewalt im mittelalterlichen Westen führen konnte. Die koptische Tradition hat diese Verbindung nie gekannt: Sie war fast immer Minderheit und lebte vom Zeugnis, nicht vom Schwert. Ehrlichkeit bei unsicheren Zitaten – auch bei solchen, die gegen uns verwendet werden – ist Teil unserer Glaubwürdigkeit.`,
+      sources: [
+        { kind: 'sonstiges', author: 'Caesarius von Heisterbach', work: 'Dialogus miraculorum', ref: 'V,21', year: 'um 1220–1235', quote: `Arnald Amalrich soll gesagt haben: Tötet sie, denn der Herr kennt die Seinen.`, original: 'Caedite eos. Novit enim Dominus qui sunt eius.', status: 'paraphrase', note: 'Caesarius leitet den Satz mit „dixisse fertur" („soll gesagt haben") ein; die Historizität ist unsicher.' },
+      ],
     },
   ],
   questionsToAsk: [
