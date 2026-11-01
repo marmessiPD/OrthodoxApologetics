@@ -166,6 +166,40 @@ const claim: Claim = {
           objectionBy: 'Kritischer Soziologe',
           targetsPremise: 1,
           answer: `Ein fairer Punkt. Deshalb stütze ich Aussagen über Wohlbefinden und Moral auf Individualdaten und Längsschnittstudien, nicht auf Länderranglisten. Die Wachstumszahlen benutze ich nur, um die Behauptung zu widerlegen, Religion sterbe zwangsläufig aus – nicht als Beweis für ihre Wahrheit.`,
+          followUps: [
+            {
+              id: 'gluecksvorteil-nur-norm',
+              objection: `Auch die Individualdaten helfen dir nicht: Stavrova und Kollegen zeigten 2013, dass Religiöse vor allem dort glücklicher sind, wo Religiosität gesellschaftliche Norm ist. In säkularen Ländern schrumpft der Vorteil. Es geht um soziale Anpassung, nicht um Gott.`,
+              objectionBy: 'Phil Zuckerman (gestützt auf Stavrova, Fetchenhauer & Schlösser 2013)',
+              answer: `Das ist ein ernstzunehmender Befund, und ich gebe zu: Soziale Einbettung erklärt einen Teil des Zusammenhangs. Aber der Vorteil verschwindet in säkularen Ländern nicht einfach, sondern wird kleiner, und Längsschnittstudien zum Gottesdienstbesuch finden Zusammenhänge mit geringerer Sterblichkeit, weniger Depression und weniger Suizid über viele Kontexte hinweg. Vor allem: Mein Glaube hängt nicht daran, dass er glücklich macht. Ob etwas wahr ist, entscheidet keine Glücksumfrage – in beide Richtungen.`,
+              detail: `Die Studie (Stavrova, Fetchenhauer & Schlösser, *Social Science Research* 2013) wertete Daten aus vielen Ländern aus und fand, dass die Lebenszufriedenheit Religiöser stark vom religiösen Klima des Landes abhängt. Das passt zu der Beobachtung, dass Gemeinschaft ein zentraler Faktor ist. Die Global Flourishing Study (2025) misst breiter als nur Zufriedenheit – auch Sinn, Charakter und Beziehungen – und fand regelmäßigen Gottesdienstbesuch in vielen der 22 Länder mit höherem „Flourishing" verbunden; die Autoren betonen, dass Kausalität erst in den Folgewellen geprüft werden kann.`,
+              sources: [
+                { kind: 'gegner', author: 'Olga Stavrova, Detlef Fetchenhauer, Thomas Schlösser', work: '„Why are religious people happy? The effect of the social norm of religiosity across countries", Social Science Research 42 (1)', year: '2013', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'sportverein-reicht',
+                  objection: `Dann ist es eben nur Gemeinschaft. Ein Sportverein oder ein Chor tut dasselbe – ohne Metaphysik.`,
+                  objectionBy: 'Phil Zuckerman',
+                  answer: `Gemeinschaft ist wichtig, und Chöre und Vereine sind etwas Gutes. Aber in den Studien von VanderWeele und Kollegen bleiben die Zusammenhänge des Gottesdienstbesuchs mit Gesundheit und Wohlbefinden auch dann bestehen, wenn man soziale Unterstützung berücksichtigt – soziale Kontakte erklären nur einen Teil. Glaube bietet mehr als Geselligkeit: Hoffnung über den Tod hinaus, Vergebung, Sinn im Leiden, einen Grund zur Dankbarkeit. Kein Fußballverein tröstet am Sterbebett mit der Auferstehung.`,
+                  detail: `VanderWeele unterscheidet mehrere Wege, auf denen gemeinschaftliche religiöse Praxis wirken kann: soziale Unterstützung, gesünderes Verhalten, Optimismus und Hoffnung, Sinn und Lebenszweck, Selbstkontrolle, Vergebung. Nur ein Teil davon ist „Vereinsleben". Für das Gespräch: Du musst nicht bestreiten, dass auch säkulare Gemeinschaften Menschen guttun. Dein Punkt ist, dass die Behauptung „Religion bringt nichts, was man nicht auch ohne sie hätte" von den Daten nicht gedeckt ist – und dass die Wahrheitsfrage davon ohnehin unabhängig bleibt.`,
+                  voices: [
+                    {
+                      person: 'vanderweele',
+                      role: 'als Epidemiologe und Leiter des Human Flourishing Program, Harvard',
+                      text: `VanderWeele hat in mehreren Arbeiten untersucht, ob die Zusammenhänge zwischen Gottesdienstbesuch und Gesundheit durch soziale Unterstützung allein erklärt werden. Seine Ergebnisse deuten darauf hin, dass soziale Unterstützung nur einen Teil erklärt; Faktoren wie Sinn, Hoffnung und Vergebung tragen ebenfalls bei. Er betont, dass gemeinschaftliche Praxis stärker mit Gesundheit verbunden ist als private Spiritualität allein.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Tyler J. VanderWeele', work: '„Religious Communities and Human Flourishing", Current Directions in Psychological Science 26 (5)', year: '2017', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Was sagt dein Sportverein einer Mutter am Grab ihres Kindes?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -180,6 +214,22 @@ const claim: Claim = {
           objection: `Sie spenden doch nur für ihre eigene Kirche.`,
           objectionBy: 'Skeptiker',
           answer: `Putnam und Campbell fanden in *American Grace* (2010), dass religiös aktive Amerikaner nicht nur für ihre Gemeinden, sondern auch für weltliche Zwecke mehr spenden und sich häufiger in nicht-religiösen Organisationen engagieren als Nichtreligiöse. Gemeinschaft im Glauben scheint Gemeinsinn insgesamt zu stärken.`,
+          followUps: [
+            {
+              id: 'moral-angeboren',
+              objection: `Moral braucht keine Religion. Schon Babys zeigen ein Gespür für Fairness (Paul Bloom), und Kooperation ist evolutionär entstanden. Atheisten sind genauso anständig.`,
+              objectionBy: 'Sam Harris',
+              answer: `Dem stimme ich zu: Atheisten können sehr anständige Menschen sein, und jeder Mensch hat ein Gewissen – das sagt schon Paulus (Röm 2,14–15). Die Frage ist nicht, ob man ohne Glauben Gutes **erkennen** oder **tun** kann, sondern was moralische Pflichten **begründet**. Ein evolutionär entstandenes Gefühl erklärt, warum wir Fairness mögen – nicht, warum wir zu Fairness verpflichtet sind, auch wenn es uns schadet.`,
+              detail: `Paul Bloom selbst unterscheidet zwischen einem angeborenen moralischen Grundgespür und der reifen Moral, die durch Vernunft, Kultur und Erziehung entsteht – und er zeigt, dass Babys auch Vorlieben für die eigene Gruppe haben. Die angeborene Ausstattung ist also ambivalent. Die christliche Sicht erklärt beides: Der Mensch ist nach Gottes Bild geschaffen und trägt das Gesetz im Herzen, aber er ist auch gefallen und neigt zum Bösen. Die vollständige Debatte findet sich im Themenblock „Moral und Gott".`,
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '2,14–15', quote: `Denn so die Heiden, die das Gesetz nicht haben, doch von Natur tun des Gesetzes Werk, … beweisen sie, des Gesetzes Werk sei geschrieben in ihren Herzen.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase', note: 'Gekürzt; vor wörtlicher Verwendung abgleichen.' },
+                { kind: 'gegner', author: 'Paul Bloom', work: 'Just Babies: The Origins of Good and Evil', year: '2013', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Warum solltest du fair sein, wenn Unfairness dir nützt und niemand es merkt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -194,7 +244,57 @@ const claim: Claim = {
           objection: `Also gibst du zu: Religion ist nur Trost für Menschen ohne Wohlstand.`,
           objectionBy: 'Karl Marx (sinngemäß)',
           answer: `Nein. Ein bloßer Trost würde nicht verlangen, das Kreuz auf sich zu nehmen, die Feinde zu lieben und den Besitz zu teilen (Lk 9,23). Der Glaube gründet auf einer historischen Behauptung – der Auferstehung Jesu –, die man prüfen kann. Dass er Menschen in Not trägt, ist eine Frucht, nicht sein Fundament.`,
+          followUps: [
+            {
+              id: 'sinn-selbst-geben',
+              objection: `Säkulare Menschen haben auch Sinn: Familie, Arbeit, Kunst, Natur. Sinn gibt man sich selbst – dafür braucht niemand einen Gott.`,
+              objectionBy: 'Phil Zuckerman (Living the Secular Life, 2014)',
+              answer: `Viele säkulare Menschen erleben ihr Leben als sinnvoll, und das soll man nicht kleinreden. Aber selbst gegebener Sinn ist zerbrechlich: Er hängt an dem, was mir gerade wichtig ist, und endet spätestens mit mir. Die Frage ist, ob mein Leben Sinn **hat** – auch wenn ich krank, vergessen oder gescheitert bin. Interessant ist, dass die Global Flourishing Study gerade beim Erleben von Sinn und Bedeutung in wohlhabenden, säkularen Gesellschaften eher schwächere Werte fand.`,
+              detail: `C. S. Lewis beschreibt eine Sehnsucht, die keine irdische Erfüllung stillt: „Wenn ich in mir ein Verlangen finde, das keine Erfahrung in dieser Welt befriedigen kann, ist die wahrscheinlichste Erklärung, dass ich für eine andere Welt geschaffen bin" (sinngemäß, *Mere Christianity*, Buch III, Kap. 10). Augustinus sagt es als Gebet: „Unruhig ist unser Herz, bis es ruht in dir" (Confessiones I,1). Das ist kein Beweis, aber eine Deutung menschlicher Erfahrung, die der säkulare Selbstentwurf nur schwer einholt. Für das Gespräch: Frage, was Sinn **trägt**, wenn das, worauf man ihn baut – Gesundheit, Arbeit, Beziehungen –, wegbricht.`,
+              voices: [
+                {
+                  person: 'cs-lewis',
+                  role: 'als Apologet der Sehnsucht',
+                  text: `Lewis argumentiert in *Mere Christianity*, dass natürliche Bedürfnisse auf reale Erfüllungen hinweisen – Hunger auf Nahrung, Durst auf Wasser. Die tiefe menschliche Sehnsucht nach einem Glück, das keine irdische Erfahrung ganz stillt, deutet er als Hinweis darauf, dass der Mensch für Gott geschaffen ist.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Mere Christianity', ref: 'Buch III, Kap. 10 („Hope")', year: '1952', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Confessiones', ref: 'I,1,1', year: 'um 400', quote: `Unruhig ist unser Herz, bis es ruht in dir.`, original: 'inquietum est cor nostrum, donec requiescat in te', translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Was trägt den Sinn deines Lebens, wenn Gesundheit, Arbeit und Beziehungen wegbrechen?`,
+              ],
+            },
+          ],
         },
+      ],
+    },
+    {
+      id: 'aufklaerung-nicht-religion',
+      objection: `Der Fortschritt der Menschheit – weniger Armut, weniger Gewalt, längere Lebenserwartung, Menschenrechte – verdanken wir Vernunft, Wissenschaft und Humanismus, nicht der Religion. Je säkularer die Welt wurde, desto besser wurde sie.`,
+      objectionBy: 'Steven Pinker (Enlightenment Now, 2018)',
+      answer: `Der Fortschritt ist real, und Pinkers Daten dazu sind beeindruckend. Aber die Geschichte ist nicht so sauber getrennt: Die Abschaffung der Sklaverei wurde maßgeblich von Christen wie William Wilberforce getragen, das Krankenhaus für alle geht auf Basilius zurück, und die Idee der gleichen Würde jedes Menschen hat biblische Wurzeln. Zugleich hat das 20. Jahrhundert gezeigt, was ausdrücklich gottlose Regime anrichten können. Vernunft und Glaube sind keine Gegner – die Universitäten und die moderne Naturwissenschaft entstanden in christlicher Kultur.`,
+      detail: `Rodney Stark hat in *For the Glory of God* (2003) und *The Victory of Reason* (2005) argumentiert, dass christliche Überzeugungen – ein rationaler Schöpfer, eine geordnete Welt, die gleiche Würde aller – die Wissenschaft, die Kritik an der Sklaverei und die Entwicklung von Freiheitsrechten gefördert haben. Man muss nicht jede seiner Thesen übernehmen; aber die einfache Erzählung „Religion = Dunkelheit, Säkularität = Licht" hält der historischen Forschung nicht stand. Ehrlich bleibt: Auch Christen haben Unrecht gerechtfertigt – etwa Sklaverei –, und die Kritik daran kam ebenfalls aus christlichen Gründen.`,
+      voices: [
+        {
+          person: 'rodney-stark',
+          role: 'als Religionssoziologe und Historiker',
+          text: `Stark zeigt in *The Rise of Christianity* (1996), wie die frühen Christen durch Krankenpflege während der Seuchen, die Aufwertung von Frauen und die Sorge für Arme und Ausgesetzte in der antiken Welt auffielen und wuchsen. In späteren Werken argumentiert er, dass die christliche Theologie mit ihrem Glauben an einen vernünftigen Gott und eine geordnete Schöpfung den Boden für Wissenschaft und Freiheit bereitete.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Rodney Stark', work: 'For the Glory of God: How Monotheism Led to Reformations, Science, Witch-Hunts, and the End of Slavery', year: '2003', status: 'paraphrase' },
+            { kind: 'fachliteratur', author: 'Rodney Stark', work: 'The Rise of Christianity', year: '1996', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Steven Pinker', work: 'Enlightenment Now: The Case for Reason, Science, Humanism, and Progress', year: '2018', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wer hat die Abschaffung der Sklaverei im britischen Empire politisch durchgesetzt – und aus welchen Gründen?`,
+        `Waren die ausdrücklich atheistischen Staaten des 20. Jahrhunderts humaner?`,
       ],
     },
   ],
