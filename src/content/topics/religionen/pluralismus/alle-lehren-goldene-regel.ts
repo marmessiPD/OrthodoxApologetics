@@ -109,6 +109,26 @@ const claim: Claim = {
               objection: `Säkulare Humanisten sind auch ohne Gott gute Menschen.`,
               objectionBy: 'Karen Armstrong (sinngemäß)',
               answer: `Natürlich – das bestreite ich nicht. Die Bibel sagt selbst, dass das Sittengesetz allen ins Herz geschrieben ist. Die Frage ist nicht, ob Atheisten gut handeln können, sondern worauf Gut und Böse letztlich gründen. Siehe dazu den Claim „Man kann auch ohne Gott ein guter Mensch sein".`,
+              followUps: [
+                {
+                  id: 'wissenschaft-begruendet-moral',
+                  objection: `Moral braucht keinen Gott. Sie lässt sich wissenschaftlich begründen: Gut ist, was das Wohlergehen bewusster Wesen fördert. Das ist eine Tatsachenfrage, die Neurowissenschaft und Psychologie beantworten können.`,
+                  objectionBy: 'Sam Harris (The Moral Landscape)',
+                  answer: `Die Wissenschaft kann sehr gut sagen, was Wohlergehen fördert. Aber warum **soll** ich das Wohlergehen aller fördern – auch auf meine Kosten, auch das von Fremden und Feinden? Das setzt du als Grundsatz einfach voraus. Genau hier liegt die Lücke zwischen Sein und Sollen. Interessanterweise hat C. S. Lewis gezeigt, dass alle großen Kulturen ein solches objektives Sittengesetz kennen – mit der Goldenen Regel im Zentrum. Die Frage ist, woher es seine Verbindlichkeit hat.`,
+                  detail: `Lewis hat im Anhang von *Die Abschaffung des Menschen* Belege aus babylonischen, ägyptischen, chinesischen, indischen, griechischen, nordischen und biblischen Quellen zusammengestellt: Pflichten gegen Eltern und Kinder, Gerechtigkeit, Wahrhaftigkeit, Barmherzigkeit. Er nannte dieses gemeinsame Sittengesetz das „Tao". Sein Punkt: Die breite Übereinstimmung, die der Pluralist als Beweis für die Gleichheit der Religionen anführt, ist in Wahrheit ein Hinweis auf eine objektive moralische Ordnung – und eine solche Ordnung verlangt nach einem Grund.
+
+Harris' Vorschlag ist ehrenwert, aber sein Grundsatz („Wohlergehen ist gut") ist kein wissenschaftliches Ergebnis, sondern eine moralische Voraussetzung. Ohne Gott bleibt offen, warum dieser Grundsatz mich verpflichtet, wenn mein eigenes Wohlergehen dagegen spricht.`,
+                  voices: [
+                    { person: 'cs-lewis', role: 'als Literaturwissenschaftler und Apologet', text: `Lewis argumentiert, dass es ein allen Kulturen gemeinsames Sittengesetz gibt, das man nicht aus Instinkten oder Nützlichkeit ableiten kann, weil wir mit ihm gerade unsere Instinkte beurteilen. Wer es „wissenschaftlich" neu begründen will, setzt es heimlich schon voraus.`, sources: [
+                      { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Abolition of Man (dt. Die Abschaffung des Menschen)', ref: 'Anhang „Illustrations of the Tao"', year: '1943', status: 'paraphrase', quote: `Sammlung moralischer Grundsätze aus vielen Kulturen als Beleg für ein objektives, allen gemeinsames Sittengesetz.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sam Harris', work: 'The Moral Landscape: How Science Can Determine Human Values', year: '2010', status: 'paraphrase', quote: `Moralische Fragen seien Fragen nach dem Wohlergehen bewusster Wesen und damit wissenschaftlich beantwortbar.` },
+                  ],
+                  questionsBack: [`Welches Experiment zeigt, dass ich das Wohlergehen eines Fremden über mein eigenes stellen soll?`],
+                },
+              ],
             },
           ],
         },
@@ -135,6 +155,22 @@ const claim: Claim = {
               objection: `Dann ist das Christentum am Ende doch nur eine Variante unter vielen.`,
               objectionBy: 'Karen Armstrong (sinngemäß)',
               answer: `In der Ethik gibt es viele Überschneidungen. Im Kern – dass Gott Mensch wurde, für seine Feinde starb, auferstand und Sünden vergibt – gibt es keine Parallele. Das Christentum ist nicht in erster Linie ein guter Rat, sondern eine gute Nachricht. Ratschläge gibt es in vielen Religionen; eine Rettung für die, die an allen Ratschlägen scheitern, ist das Evangelium.`,
+              followUps: [
+                {
+                  id: 'mitgefuehl-ist-kern',
+                  objection: `Der Kern aller Religionen ist Mitgefühl. Darum habe ich die „Charta für Mitgefühl" angestoßen. Lehren über Inkarnation oder Auferstehung sind sekundär – die Praxis des Mitgefühls ist das Eigentliche.`,
+                  objectionBy: 'Karen Armstrong',
+                  answer: `Die Charta ist ein schönes Anliegen, und Christen sollten Mitgefühl vorleben. Aber die These ist selektiv: Im Advaita ist der Kern die Erkenntnis der Identität mit Brahman, im Islam die Einheit Gottes und die Hingabe an ihn, im Theravada das Erlöschen des Durstes. Jede Religion bestimmt ihren Kern selbst. Und das Christentum sagt: Mitgefühl ist nicht nur unsere Aufgabe, sondern Gottes Wesen – er hat sich in Christus unserer erbarmt, als wir es am wenigsten verdienten (Röm 5,8). Das ist keine Nebensache, sondern die Quelle.`,
+                  detail: `Das Wort „Barmherzigkeit" ist in der Bibel zuerst eine Eigenschaft Gottes: „Barmherzig und gnädig ist der HERR" (Ps 103,8). Die menschliche Barmherzigkeit ist Antwort: „Seid barmherzig, wie auch euer Vater barmherzig ist" (Lk 6,36). Wer die Lehre streicht, behält einen Appell, aber verliert die Kraft. Das Problem der Menschheit ist nicht, dass wir nicht wüssten, dass Mitgefühl gut ist – sondern dass wir es nicht durchhalten. Darum braucht es mehr als eine Charta: Vergebung und ein neues Herz (Ez 36,26).
+
+Die koptische Liturgie beginnt und endet mit dem Ruf um Erbarmen: „Kyrie eleison". Das ist die Haltung, aus der christliches Mitgefühl kommt – von Menschen, die selbst Erbarmen empfangen haben.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Karen Armstrong', work: 'Twelve Steps to a Compassionate Life; Charter for Compassion', year: '2009/2010', status: 'paraphrase', quote: `Mitgefühl als gemeinsamer Kern aller großen religiösen Traditionen.` },
+                    { kind: 'bibel', work: 'Römer', ref: '5,8', quote: `Darum preiset Gott seine Liebe gegen uns, daß Christus für uns gestorben ist, da wir noch Sünder waren.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Mitgefühl der Kern ist – was tust du an dem Tag, an dem du es nicht aufbringst? Woher kommt dann die Vergebung?`],
+                },
+              ],
             },
           ],
         },
@@ -151,6 +187,19 @@ const claim: Claim = {
           objection: `Gott bewertet doch das ehrliche Bemühen, nicht die Perfektion.`,
           objectionBy: 'Hans Küng (sinngemäß)',
           answer: `Dann wird der Maßstab gesenkt – aber das Unrecht, das wir anderen angetan haben, bleibt wirklich und verlangt nach Gerechtigkeit für die Opfer. Gnade nimmt beides ernst: Gott vergibt umsonst und verwandelt den Menschen; unser Bemühen ist dann Antwort und Mitwirkung, nicht Bezahlung. Und wie Gott jeden Einzelnen richtet, überlassen wir ihm (siehe „Was ist mit denen, die nie von Jesus gehört haben?").`,
+          followUps: [
+            {
+              id: 'aufrichtiger-hindu-heuchlerischer-christ',
+              objection: `Gott schaut doch aufs Herz. Ein aufrichtiger Hindu, der die Goldene Regel lebt, ist ihm sicher lieber als ein heuchlerischer Christ, der nur die richtigen Lehren aufsagt.`,
+              objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+              answer: `Ja, Gott sieht das Herz an (1 Sam 16,7), und Jesus hat niemanden schärfer kritisiert als religiöse Heuchler (Mt 23). Ein Christ, der nur Formeln aufsagt, hat keinen Grund, sich über andere zu erheben. Aber was ist ein aufrichtiges Herz? Im Gleichnis Jesu ist es nicht der Fromme, der seine guten Taten aufzählt, sondern der Zöllner, der betet: „Gott, sei mir Sünder gnädig!" (Lk 18,13). Aufrichtigkeit erkennt ihr eigenes Versagen und sucht Erbarmen – und genau das bietet das Evangelium an.`,
+              detail: `Die Frage stellt zwei Karikaturen gegenüber – den edlen Andersgläubigen und den heuchlerischen Christen. Fair verglichen werden müssten der aufrichtige Hindu und der aufrichtige Christ. Über das Herz einzelner Menschen urteilt die orthodoxe Kirche nicht. Aber sie sagt: Niemand wird dadurch gerettet, dass er aufrichtiger ist als ein anderer, sondern durch die Barmherzigkeit Gottes in Christus. Wer das Evangelium hört, ist eingeladen, diese Barmherzigkeit bewusst zu empfangen.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '18,13', quote: `Und der Zöllner stand von ferne, wollte auch seine Augen nicht aufheben gen Himmel, sondern schlug an seine Brust und sprach: Gott, sei mir Sünder gnädig!`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Ist ein wirklich aufrichtiges Herz eines, das sich für gut hält – oder eines, das um Erbarmen bittet?`],
+            },
+          ],
         },
       ],
     },
@@ -165,8 +214,44 @@ const claim: Claim = {
           objection: `Wäre es nicht friedlicher, die Dogmen ganz aufzugeben und nur noch die gemeinsame Ethik zu leben?`,
           objectionBy: 'Karen Armstrong (sinngemäß)',
           answer: `Dogmen sind nicht die Feinde des Friedens. Das christliche Dogma, dass jeder Mensch Gottes Ebenbild ist und dass Christus für seine Feinde starb, ist die stärkste Grundlage für Frieden, die ich kenne. Ohne Wahrheitsgrund hängt die Ethik in der Luft. Die koptischen Familien, die 2015 den Mördern ihrer Söhne vergaben, taten das nicht trotz ihres Glaubens, sondern wegen ihres Glaubens an den gekreuzigten und auferstandenen Christus.`,
+          followUps: [
+            {
+              id: 'kein-religionsfriede-ohne-dialog',
+              objection: `Hans Küng hat es auf den Punkt gebracht: Kein Weltfriede ohne Religionsfriede, kein Religionsfriede ohne Dialog. Dialog funktioniert nur, wenn man seine Wahrheitsansprüche zurückstellt.`,
+              objectionBy: 'Hans Küng (sinngemäß, Projekt Weltethos)',
+              answer: `Den ersten beiden Sätzen stimme ich zu. Aber Küng selbst hat seine Wahrheitsansprüche nicht aufgegeben – er blieb christlicher Theologe. Dialog setzt zwei voraus, die etwas zu sagen haben. Wenn ich meine Überzeugung verschweige, rede ich nicht ehrlich mit dir, sondern spiele dir etwas vor. Echter Frieden entsteht, wenn Menschen mit tiefen Überzeugungen einander achten, nicht, wenn sie so tun, als hätten sie keine.`,
+              detail: `Küngs Projekt Weltethos wollte ausdrücklich einen ethischen Minimalkonsens, keine Einheitsreligion. Das ist ein wichtiger Unterschied: Man kann gemeinsam für Gewaltlosigkeit, Gerechtigkeit, Wahrhaftigkeit und Partnerschaft eintreten, ohne zu behaupten, dass die Lehren über Gott gleichgültig seien.
+
+Die koptische Kirche lebt diesen Dialog seit Jahrhunderten im Alltag – mit muslimischen Nachbarn, Kollegen und Freunden –, ohne ihr Bekenntnis zu verbergen. Gerade diese Klarheit macht Vertrauen möglich: Der andere weiß, mit wem er spricht.`,
+              sources: [
+                { kind: 'gegner', author: 'Hans Küng', work: 'Projekt Weltethos', year: '1990', status: 'paraphrase', quote: `Kein Friede unter den Nationen ohne Frieden unter den Religionen; kein Friede unter den Religionen ohne Dialog zwischen den Religionen.` },
+              ],
+              questionsBack: [`Wäre ein Dialog, in dem keiner sagt, was er für wahr hält, überhaupt ein Dialog?`],
+            },
+          ],
         },
       ],
+    },
+    {
+      id: 'bibel-auch-gewalt',
+      objection: `Eure Bibel enthält neben der Goldenen Regel auch Steinigung, Landnahme und Bann. Die Goldene Regel ist bei euch nicht konsequenter verankert als anderswo – ihr sucht euch nur die schönen Stellen aus.`,
+      objectionBy: 'Sam Harris (Letter to a Christian Nation)',
+      answer: `Die schweren Texte des Alten Testaments muss man ernst nehmen und im Zusammenhang lesen: Sie gehören in eine bestimmte Epoche der Geschichte Israels und sind keine zeitlosen Befehle an Christen. Für die Kirche ist Christus der Schlüssel zur ganzen Schrift. Er selbst sagt: „Ihr habt gehört … ich aber sage euch: Liebet eure Feinde" (Mt 5,43–44). Das ist kein Herauspicken, sondern die Lesart, die Jesus selbst vorgegeben hat – und die alexandrinische Tradition hat sie von Anfang an gepflegt.`,
+      detail: `Die Väter aus Alexandrien lasen das Alte Testament wörtlich **und** geistlich. Origenes deutete in seinen Homilien über das Buch Josua die Kriege Israels auf den inneren Kampf gegen die Laster: Die Feinde, die ausgerottet werden sollen, sind Stolz, Habgier und Zorn in der eigenen Seele. Man muss Origenes nicht in allem folgen, aber die Richtung ist klar: Christen haben diese Texte nie als Auftrag zur Gewalt gegen Andersgläubige verstanden, wenn sie Christus treu waren.
+
+Paul Copan hat die historischen Fragen ausführlich untersucht: die Sprache altorientalischer Kriegsberichte mit ihren Übertreibungen, den begrenzten Charakter der Gebote und die Einordnung der Rechtstexte in ihre Zeit. Für die Laien-Antwort genügt: Die Goldene Regel ist im Christentum nicht eine schöne Stelle unter vielen, sondern Jesus nennt sie „das Gesetz und die Propheten" (Mt 7,12) – die Zusammenfassung der ganzen Schrift.`,
+      voices: [
+        { person: 'origenes', role: 'als alexandrinischer Ausleger', text: `Origenes liest die Kriegserzählungen des Buches Josua geistlich: Jesus (griechisch derselbe Name wie Josua) führt die Seele in das verheißene Land und besiegt die inneren Feinde. Seine Auslegung ist ein frühes Zeugnis dafür, dass die Kirche diese Texte nicht als Aufruf zur Gewalt verstand. Origenes wird hier als Ausleger, nicht als Lehrautorität zitiert.`, sources: [
+          { kind: 'kirchenvater', author: 'Origenes', work: 'Homilien über das Buch Josua', year: 'ca. 240', status: 'paraphrase', quote: `Die Kriege Josuas als Bild für den geistlichen Kampf der Seele gegen die Laster.` },
+        ] },
+        { person: 'paul-copan', role: 'als Religionsphilosoph', text: `Copan untersucht die schwierigen Texte des Alten Testaments im Kontext des Alten Orients. Er zeigt, dass viele Kriegsberichte mit typischer Übertreibungsrhetorik arbeiten, dass die Gebote zeitlich und örtlich begrenzt waren und dass das mosaische Recht gegenüber seiner Umwelt in vielem humanisierend wirkte.`, sources: [
+          { kind: 'fachliteratur', author: 'Paul Copan', work: 'Is God a Moral Monster? Making Sense of the Old Testament God', year: '2011', status: 'paraphrase', quote: `Die schweren Texte des Alten Testaments im altorientalischen Kontext gelesen.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Matthäus', ref: '7,12', quote: `Alles nun, was ihr wollt, daß euch die Leute tun sollen, das tut ihr ihnen; das ist das Gesetz und die Propheten.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn Jesus selbst sagt, die Goldene Regel sei die Summe von Gesetz und Propheten – wer pickt hier heraus: der, der Jesus folgt, oder der, der alte Texte gegen ihn ausspielt?`],
     },
   ],
   questionsToAsk: [

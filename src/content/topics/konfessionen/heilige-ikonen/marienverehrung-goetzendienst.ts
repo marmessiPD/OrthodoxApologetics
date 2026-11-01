@@ -176,6 +176,110 @@ Kyrill ehrt Maria, weil er Christus ehrt. Der Titel ist kein Lobpreis einer Göt
       objectionBy: 'Wayne Grudem',
       answer: `Darin stimmen wir überein: Maria bedurfte der Erlösung durch ihren Sohn; die koptische Kirche lehrt keine unbefleckte Empfängnis. Sie ist die Erstlingsfrucht der Erlösten, keine Göttin. Ihre Größe ist ganz Gnade – der Engel nennt sie *kecharitōmenē*, „die Begnadete" (Lk 1,28), und sie selbst sagt: „Er hat große Dinge an mir getan" (1,49). Wir ehren, was Gott an ihr getan hat. Wir ehren sie, weil Gott sie zuerst geehrt hat.`,
     },
+    {
+      id: 'fruehe-vaeter-schweigen',
+      objection: `„Die frühesten Väter – Ignatius, Justin, Irenäus – sagen über Maria fast nichts. Die Marienverehrung explodiert erst nach Konstantin und dem Konzil von Ephesus. Das ist spätere Entwicklung, keine apostolische Überlieferung."`,
+      objectionBy: 'Gavin Ortlund',
+      answer: `Gerade das 2. Jahrhundert ist erstaunlich reich: Justin (um 160) und Irenäus (um 180) stellen Maria als **neue Eva** neben Christus, den neuen Adam: Durch den Ungehorsam einer Jungfrau kam der Tod, durch den Gehorsam einer Jungfrau kam das Leben. Irenäus schreibt, der Knoten des Ungehorsams Evas sei durch den Gehorsam Marias gelöst worden. Ignatius (um 110) zählt die Jungfräulichkeit Marias zu den Geheimnissen, die „laut verkündet" werden. Und die Schrift selbst prophezeit: „Von nun an werden mich selig preisen alle Kindeskinder" (Lk 1,48).`,
+      detail: `Die Eva-Maria-Typologie ist eine der ältesten theologischen Deutungen nach dem NT. Justin entfaltet sie im *Dialog mit Tryphon* (100), Irenäus in *Adversus Haereses* (III,22,4; V,19,1). Sie gibt Maria eine aktive Rolle in der Heilsgeschichte: Ihr freies „Mir geschehe" (Lk 1,38) ist die Antwort auf Evas Ungehorsam. Irenäus nennt Maria sogar die „Fürsprecherin" (*advocata*) Evas.
+
+Damit ist nicht gesagt, dass alle späteren Formen der Marienfrömmigkeit im 2. Jahrhundert schon vorhanden waren – das wäre unehrlich. Aber die Wurzel ist da: eine heilsgeschichtliche Würde Marias, die über die eines bloßen „Werkzeugs" weit hinausgeht.`,
+      voices: [
+        {
+          person: 'irenaeus',
+          role: 'als Theologe der Heilsgeschichte (Rekapitulation)',
+          text: `Irenäus deutet die ganze Heilsgeschichte als „Rekapitulation": Christus geht den Weg Adams noch einmal, aber im Gehorsam. Parallel dazu stellt er Maria der Eva gegenüber: Was die Jungfrau Eva durch Unglauben gebunden hat, das hat die Jungfrau Maria durch Glauben gelöst. Für Irenäus ist Maria „Ursache des Heils" für sich und das ganze Menschengeschlecht geworden, weil sie gehorsam war.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien (Adversus Haereses)', ref: 'III,22,4', year: 'um 180', quote: `Der Knoten des Ungehorsams Evas wurde durch den Gehorsam Marias gelöst; denn was die Jungfrau Eva durch Unglauben band, das löste die Jungfrau Maria durch den Glauben.`, status: 'paraphrase' },
+          ],
+        },
+        {
+          person: 'justin',
+          role: 'als frühester Zeuge der Eva-Maria-Typologie',
+          text: `Justin erklärt, dass der Sohn Gottes durch die Jungfrau Mensch wurde, damit der Ungehorsam, der von der Schlange ausging, auf demselben Weg aufgehoben werde, auf dem er begann: Eva empfing als Jungfrau das Wort der Schlange und gebar Ungehorsam und Tod; Maria empfing Glauben und Freude, als der Engel ihr die frohe Botschaft brachte.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Dialog mit dem Juden Tryphon', ref: '100', year: 'um 160', quote: `Eva, eine unberührte Jungfrau, empfing das Wort der Schlange und gebar Ungehorsam und Tod; die Jungfrau Maria aber empfing Glauben und Freude, als der Engel Gabriel ihr die frohe Botschaft brachte.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Lukas', ref: '1,48', quote: `Denn er hat seine elende Magd angesehen. Siehe, von nun an werden mich selig preisen alle Kindeskinder.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Epheser', ref: '19,1', year: 'um 110', quote: `Dem Fürsten dieser Welt blieben verborgen die Jungfräulichkeit Marias und ihre Niederkunft, ebenso der Tod des Herrn – drei laut zu verkündende Geheimnisse.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wer erfüllt heute Lk 1,48 – „alle Kindeskinder werden mich selig preisen" – und wie oft tust du es?`,
+        `Warum stellen Justin und Irenäus schon im 2. Jahrhundert Maria als neue Eva neben Christus, wenn ihre Rolle unbedeutend war?`,
+      ],
+      followUps: [
+        {
+          id: 'typologie-keine-anrufung',
+          objection: `„Neue Eva ist Typologie, keine Anrufung. Zwischen ‚Maria ist ein Vorbild des Glaubens' und ‚Heilige Gottesgebärerin, bitte für uns' liegt ein Abgrund – und für das Zweite gibt es keine frühen Belege."`,
+          objectionBy: 'James White',
+          answer: `Die Typologie begründet ihre einzigartige Stellung; die Bitte um ihr Gebet folgt aus der Gemeinschaft der Heiligen, die wir ohnehin bekennen: Die Vollendeten leben bei Gott (Lk 20,38), sie umgeben uns als „Wolke von Zeugen" (Hebr 12,1), und ihre Gebete steigen vor Gott auf (Offb 5,8). Was frühe Belege betrifft, bin ich ehrlich: Das älteste Mariengebet „Unter deinen Schutz" auf einem ägyptischen Papyrus ist in seiner Datierung umstritten (3. bis 8. Jh.); sicher ist sein liturgischer Gebrauch im 5. Jahrhundert. Im 4. Jahrhundert besingt Ephräm der Syrer Maria in zahlreichen Hymnen – fern vom Kaiserhof.`,
+          detail: `Für die Datierung von P. Rylands 470 („Sub tuum praesidium") gilt: Der Papyrologe E. Lobel dachte an das 3. Jahrhundert, der Herausgeber C. H. Roberts an das 4. (mit Fragezeichen), H. Förster und andere an deutlich spätere Zeit. Unabhängig davon ist der Hymnus im georgischen Jerusalemer Gesangbuch (Iadgari) für das 5. Jahrhundert bezeugt. Wer das 3. Jahrhundert als gesichert behauptet, verliert die Debatte – also: ehrlich bleiben.
+
+Für den Gedanken der Fürbitte ist das frühe Zeugnis ohnehin breiter: Gebete zu Märtyrern in Inschriften des 3. Jahrhunderts, die Überzeugung von Perpetua (203), dass ihr Gebet ihrem verstorbenen Bruder hilft, und die Selbstverständlichkeit, mit der das 4. Jahrhundert die Fürbitte der Heiligen voraussetzt.`,
+          voices: [
+            {
+              person: 'ephraem',
+              role: 'als Hymnendichter der syrischen Kirche',
+              text: `Ephräm der Syrer (gest. 373) besingt Maria in seinen Hymnen auf die Geburt Christi mit überschwänglicher Liebe: Sie trug den, der die Welt trägt; sie ist Mutter und Jungfrau zugleich. Seine Dichtung entstand in der syrischsprachigen Kirche, unabhängig von der griechischen Reichstheologie – ein Zeichen, dass die Marienverehrung kein Produkt des Kaiserhofs ist, sondern im Glauben der ganzen Kirche wurzelt.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Ephräm der Syrer', work: 'Hymnen auf die Geburt Christi (Hymni de Nativitate)', year: '4. Jh.', quote: `Lobpreis Marias als Jungfrau und Mutter, die den trug, der alles trägt, und die durch Gnade zur Mutter ihres Schöpfers wurde.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Offenbarung', ref: '5,8', quote: `… und die vierundzwanzig Ältesten fielen nieder vor dem Lamm und hatten ein jeglicher Harfen und goldene Schalen voll Räuchwerk, das sind die Gebete der Heiligen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'vierhundert-jahre-zu-spaet',
+              objection: `„Das ist dann aber 300 bis 400 Jahre nach Christus. Zu spät, um apostolisch zu sein."`,
+              objectionBy: 'John MacArthur',
+              answer: `Mit diesem Maßstab verlierst du mehr als wir: Die erste vollständige Liste der 27 NT-Bücher stammt von Athanasius (367), die Begriffe „eines Wesens" (325) und die volle Gottheit des Geistes im Bekenntnis (381) ebenfalls aus dem 4. Jahrhundert. Das erste datierbare schriftliche Zeugnis einer Praxis ist nicht ihr Ursprung. Entscheidend ist: Die Verehrung der Gottesgebärerin findet sich bei Kopten, Syrern, Armeniern, Äthiopiern, Byzantinern und Lateinern zugleich – Kirchen ohne gemeinsames Zentrum, die einander nichts nachmachen mussten.`,
+              questionsBack: [
+                `Lehnst du den NT-Kanon ab, weil seine erste vollständige Liste aus dem Jahr 367 stammt?`,
+              ],
+              followUps: [
+                {
+                  id: 'hoeher-als-cherubim',
+                  objection: `„Selig preisen – meinetwegen. Aber eure Theotokien übertreiben maßlos: ‚Höher als die Cherubim, herrlicher als die Seraphim'. Kein Geschöpf steht über den Engeln Gottes!"`,
+                  objectionBy: 'Gavin Ortlund',
+                  answer: `Diese Vergleiche sind durch und durch christologisch. Die Cherubim tragen den Thron Gottes – Gott „thront über den Cherubim" (Ps 80,2). Maria aber trug Gott selbst in ihrem Leib und auf ihren Armen. Ihre Größe kommt nicht aus ihrer Natur, sondern aus dem, den sie getragen hat. Die Theotokien besingen sie mit Bildern des Alten Testaments: die Bundeslade, der goldene Krug mit dem Manna (Hebr 9,4), der brennende Dornbusch, der nicht verbrannte (Ex 3,2), der grünende Stab Aarons – lauter Bilder für die Menschwerdung. Wer diese Lieder singt, bekennt Christus.`,
+                  detail: `Die koptische Psalmodie (Tasbeha) enthält für jeden Wochentag eine Theotokia, besonders im Monat Kiahk vor Weihnachten. Tadros Y. Malaty hat gezeigt, wie konsequent diese Texte jedes Marienbild auf die Inkarnation hin auslegen: Der Dornbusch brennt, ohne zu verbrennen – so trug Maria das göttliche Feuer, ohne verzehrt zu werden. Das Manna im goldenen Krug ist Christus, das Brot des Lebens (Joh 6,51).
+
+Auch das NT selbst ehrt Maria mit Worten des Geistes: Elisabeth ruft „voll des heiligen Geistes": „Gebenedeit bist du unter den Weibern … Und woher kommt mir das, daß die Mutter meines HERRN zu mir kommt?" (Lk 1,41–43). Die Kirche wiederholt, was der Geist zuerst gesagt hat.`,
+                  voices: [
+                    {
+                      person: 'tadros-malaty',
+                      role: 'als koptischer Patristiker und Ausleger der Theotokien',
+                      text: `Malaty erklärt, dass die koptische Marienfrömmigkeit von den alttestamentlichen Symbolen lebt, die die Väter auf die Menschwerdung bezogen: Lade, Leuchter, Krug, Dornbusch, verschlossene Pforte. Jede Ehre, die Maria erwiesen wird, verweist auf Christus; die Kirche ehrt Maria, weil sie den Sohn Gottes geboren hat, und nicht unabhängig von ihm.`,
+                      sources: [
+                        { kind: 'koptisch', author: 'Tadros Y. Malaty', work: 'St. Mary in the Orthodox Concept', quote: `Die alttestamentlichen Bilder der Theotokien sind christologisch; die Kirche ehrt Maria wegen Christus.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '1,41–43', quote: `… und Elisabeth ward des heiligen Geistes voll und rief laut und sprach: Gebenedeit bist du unter den Weibern, und gebenedeit ist die Frucht deines Leibes! Und woher kommt mir das, daß die Mutter meines HERRN zu mir kommt?`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Psalm', ref: '80,2', quote: `Du Hirte Israels, höre, der du Joseph hütest wie der Schafe! Erscheine, der du sitzest über den Cherubim!`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wer ist größer: der Thron, auf dem Gott sitzt, oder die Mutter, in deren Leib Gott Mensch wurde?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'lk-1-48-genuegt-seligpreisen',
+          objection: `„Lk 1,48 erfüllen wir, indem wir Maria ‚selig' nennen und ihr Vorbild würdigen – dazu braucht es weder Feste noch Lieder noch Gebete."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Dann frage ich freundlich: Wann hast du Maria zuletzt selig gepriesen? Die koptische Kirche tut es jeden Tag in der Psalmodie, ein ganzer Monat (Kiahk) ist ihrem Lob vor Weihnachten gewidmet. Und das Vorbild dafür steht in der Bibel: Elisabeth pries Maria „voll des heiligen Geistes" laut und überschwänglich (Lk 1,41–42). Wenn der Heilige Geist Maria durch Elisabeth so ehrt, dürfen wir es auch.`,
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist Jesus Gott? Ist Maria seine Mutter? Was folgt daraus?`,
