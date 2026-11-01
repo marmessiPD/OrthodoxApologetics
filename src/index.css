@@ -1,0 +1,207 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------ */
+/*  Design-Tokens – koptisches Karminrot & Gold auf warmem Grund       */
+/* ------------------------------------------------------------------ */
+:root {
+  --background: #faf8f5;
+  --foreground: #1c1714;
+  --card: #ffffff;
+  --card-foreground: #1c1714;
+  --popover: #ffffff;
+  --muted: #f3efe9;
+  --muted-foreground: #6d635b;
+  --border: #e8e1d7;
+  --input: #e2dacf;
+  --primary: #7a1f2b;
+  --primary-foreground: #fff8f3;
+  --primary-soft: #f8e9ea;
+  --gold: #a87623;
+  --gold-soft: #f7ecd5;
+  --ring: #7a1f2b;
+  --success: #15803d;
+  --success-soft: #e5f4ea;
+  --info: #1d4ed8;
+  --info-soft: #e6edfb;
+  --warning: #b45309;
+  --warning-soft: #fbf0dc;
+  --opponent: #eef0f3;
+  --opponent-foreground: #1f2933;
+
+  --cat-religionen: #0f766e;
+  --cat-konfessionen: #7a1f2b;
+  --cat-sonder: #c2410c;
+  --cat-philosophie: #6d28d9;
+  --cat-ethik: #be123c;
+  --cat-kosmos: #3730a3;
+  --cat-leben: #15803d;
+  --cat-mensch: #0369a1;
+  --cat-geschichte: #a16207;
+
+  --radius: 0.9rem;
+}
+
+.dark {
+  --background: #121015;
+  --foreground: #eee9e3;
+  --card: #1a171d;
+  --card-foreground: #eee9e3;
+  --popover: #1d1a21;
+  --muted: #232027;
+  --muted-foreground: #a69d95;
+  --border: #2f2a34;
+  --input: #3a343f;
+  --primary: #e36b7b;
+  --primary-foreground: #1b0c10;
+  --primary-soft: #33171d;
+  --gold: #e3b75e;
+  --gold-soft: #2e2516;
+  --ring: #e36b7b;
+  --success: #4ade80;
+  --success-soft: #11291a;
+  --info: #7aa2f7;
+  --info-soft: #172038;
+  --warning: #f2b45a;
+  --warning-soft: #2e2212;
+  --opponent: #24262c;
+  --opponent-foreground: #e4e7eb;
+
+  --cat-religionen: #2dd4bf;
+  --cat-konfessionen: #f08b98;
+  --cat-sonder: #fb923c;
+  --cat-philosophie: #a78bfa;
+  --cat-ethik: #fb7185;
+  --cat-kosmos: #818cf8;
+  --cat-leben: #4ade80;
+  --cat-mensch: #38bdf8;
+  --cat-geschichte: #facc15;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-opponent: var(--opponent);
+  --color-opponent-foreground: var(--opponent-foreground);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Literata Variable', Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--primary) 22%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Prose (Markdown-Inhalte) */
+.prose-apologia {
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-links: var(--primary);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-counters: var(--muted-foreground);
+  --tw-prose-bullets: var(--gold);
+  --tw-prose-hr: var(--border);
+  --tw-prose-quotes: var(--foreground);
+  --tw-prose-quote-borders: var(--gold);
+  --tw-prose-captions: var(--muted-foreground);
+  --tw-prose-code: var(--foreground);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+}
+.prose-apologia blockquote {
+  font-family: var(--font-serif);
+  font-style: normal;
+  font-weight: 400;
+}
+.prose-apologia blockquote p:first-of-type::before,
+.prose-apologia blockquote p:last-of-type::after {
+  content: none;
+}
+
+/* Kategorie-Akzente */
+.cat-religionen { --cat: var(--cat-religionen); }
+.cat-konfessionen { --cat: var(--cat-konfessionen); }
+.cat-sonder { --cat: var(--cat-sonder); }
+.cat-philosophie { --cat: var(--cat-philosophie); }
+.cat-ethik { --cat: var(--cat-ethik); }
+.cat-kosmos { --cat: var(--cat-kosmos); }
+.cat-leben { --cat: var(--cat-leben); }
+.cat-mensch { --cat: var(--cat-mensch); }
+.cat-geschichte { --cat: var(--cat-geschichte); }
+.text-cat { color: var(--cat); }
+.bg-cat-soft { background: color-mix(in srgb, var(--cat) 12%, transparent); }
+.border-cat { border-color: color-mix(in srgb, var(--cat) 35%, transparent); }
+
+/* Dezentes koptisches Flechtmuster für Hero-Flächen */
+.coptic-pattern {
+  background-image: radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--gold) 28%, transparent) 1px, transparent 0);
+  background-size: 18px 18px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+@keyframes fade-in { from { opacity: 0 } to { opacity: 1 } }
+@keyframes pop-in { from { opacity: 0; transform: translate(-50%, 6px) scale(0.98) } to { opacity: 1; transform: translate(-50%, 0) scale(1) } }
+@keyframes expand { from { height: 0 } to { height: var(--radix-accordion-content-height) } }
+@keyframes collapse { from { height: var(--radix-accordion-content-height) } to { height: 0 } }
+
+@media print {
+  aside, header.sticky, nav.fixed { display: none !important; }
+  .lg\:pl-\[272px\] { padding-left: 0 !important; }
+  body { background: white; color: black; }
+  main { padding: 0 !important; max-width: none !important; }
+}

@@ -505,3 +505,183 @@ Autoren dürfen weitere Claims ergänzen, aber keine IDs umbenennen.
 - `finsteres-mittelalter-flache-erde` – „Im finsteren Mittelalter glaubten Christen an die flache Erde."
 - `konstantin-verfaelschte` – „Konstantin hat das Christentum verfälscht und zur Staatsreligion gemacht."
 - `reinkarnation-553-gestrichen` – „Die Kirche hat 553 die Reinkarnation aus der Bibel gestrichen."
+
+---
+
+# Erweiterung (Welle 2) – neue Themenblöcke
+
+## Paket B1 – Islam III: Hadith, Gewalt, Frauen
+
+### `religionen/islam-hadith-sira` – Hadith und Sira · Gruppe „Islam" · order 8 · icon `scroll-text`
+- `isnad-wissenschaftlich-gesichert` ★ – „Die Hadithe sind durch die Isnad-Wissenschaft zuverlässig gesichert."
+- `quranisten-nur-koran` – „Wir brauchen die Hadithe nicht – der Koran allein genügt (Quranisten)."
+- `sira-vorbildlicher-charakter` – „Mohammeds Leben ist das vollkommene Vorbild für alle Zeiten (33:21)."
+- `orientalisten-vorurteil` – „Goldziher, Schacht und die Revisionisten sind voreingenommene Orientalisten."
+
+### `religionen/islam-gewalt-scharia` – Dschihad, Gewalt und Scharia · Gruppe „Islam" · order 9 · icon `swords`
+- `islam-heisst-frieden` – „Islam bedeutet Frieden."
+- `dschihad-innerer-kampf` – „Dschihad bedeutet vor allem den inneren Kampf."
+- `schwertverse-kontext` ★ – „Die Schwertverse (9:5, 9:29) gelten nur im historischen Kontext."
+- `scharia-gerecht` – „Die Scharia ist eine gerechte Ordnung (Apostasie, Hudud-Strafen)."
+- `bibel-gewalttaetiger` – „Die Bibel ist gewalttätiger als der Koran."
+
+### `religionen/islam-frauen-familie` – Frauen, Ehe und Familie im Islam · Gruppe „Islam" · order 10 · icon `users`
+- `islam-befreite-frau` – „Der Islam hat die Frau befreit und ihr Rechte gegeben."
+- `aischa-alter` – „Aischas Heiratsalter war damals normal."
+- `polygamie-gerecht` – „Die Polygamie ist im Islam gerecht geregelt (4:3)."
+- `vers-4-34` – „Sure 4:34 erlaubt kein Schlagen der Frau."
+
+## Paket B2 – Islam IV & Judentum II
+
+### `religionen/islam-stroemungen` – Schia, Ahmadiyya, Sufismus · Gruppe „Islam" · order 11 · icon `git-fork`
+- `schia-imamat` – „Ali und die Imame sind die rechtmäßigen Nachfolger Mohammeds (Schia)."
+- `ahmadiyya-jesus-kaschmir` – „Jesus überlebte das Kreuz und starb in Kaschmir (Ahmadiyya)."
+- `sufismus-mystik` – „Die Sufis kennen Gott durch innere Erfahrung – das ist dasselbe wie christliche Mystik."
+- `islam-schnellstwachsend` – „Der Islam ist die am schnellsten wachsende Religion – das beweist seine Wahrheit."
+
+### `religionen/islam-heil-gottesbild` – Heil und Gottesbild im Islam · Gruppe „Islam" · order 12 · icon `moon-star`
+- `allah-barmherziger` – „Allah ist barmherziger als der christliche Gott, der ein Blutopfer braucht."
+- `heil-durch-werke-gerecht` ★ – „Im Islam wird man durch Glauben und gute Taten gerettet – das ist gerecht."
+- `islam-einfacher-vernuenftiger` – „Der Islam ist einfacher und vernünftiger als das Christentum (Fitra)."
+- `allah-liebt-die-guten` – „Allah liebt die, die Gutes tun – bedingungslose Liebe ist sinnlos."
+
+### `religionen/islam-eschatologie` – Endzeit und Paradies im Islam · Gruppe „Islam" · order 13 · icon `sunset`
+- `jesus-kommt-als-muslim` – „Jesus wird als Muslim wiederkommen, das Kreuz zerbrechen und das Schwein töten."
+- `mahdi-dajjal` – „Der Mahdi und der Daddschal zeigen, dass der Islam die Endzeit am genauesten kennt."
+- `paradies-islam` – „Das islamische Paradies ist die vollkommene Belohnung."
+
+### `religionen/judentum-dialog` – Judentum, Kirche und Geschichte · Gruppe „Judentum" · order 2 · icon `scroll`
+- `nt-antisemitisch` ★ – „Das Neue Testament ist antisemitisch – es hat jahrhundertelange Verfolgung verursacht."
+- `jesus-juedischer-reformer` – „Jesus war ein jüdischer Reformer, nie ein göttlicher Messias (Klausner, Vermes)."
+- `juden-lehnten-ab` – „Wenn Jesus der Messias wäre, hätten die Juden ihn erkannt."
+- `zwei-wege-bund` – „Israel hat seinen eigenen Bund – Juden brauchen Jesus nicht."
+
+## Paket B3 – Weitere Religionen & Sondergemeinschaften II
+
+### `religionen/weitere-religionen-2` – Zoroastrismus, Jainismus, Ahnenkulte, Satanismus · Gruppe „Weitere Religionen" · order 2 · icon `flame`
+- `zoroastrismus-kopiert` – „Engel, Teufel, Gericht und Auferstehung stammen aus dem Zoroastrismus."
+- `jainismus-ahimsa` – „Der Jainismus mit Ahimsa und ohne Schöpfergott ist ethisch überlegen."
+- `ahnenverehrung-wie-heilige` – „Ahnenverehrung (Shinto, afrikanische Religionen) ist dasselbe wie Heiligenverehrung."
+- `afrika-religion-der-kolonialherren` – „Das Christentum ist in Afrika die Religion der Kolonialherren."
+- `satanismus-selbstbestimmung` – „Satanismus ist nur Selbstbestimmung und Rationalismus (LaVey, Satanic Temple)."
+
+### `sondergemeinschaften/weitere-sondergemeinschaften` – Weitere Sondergemeinschaften · Gruppe „Weitere Sondergemeinschaften" · order 1 · icon `shield-alert`
+- `neuapostolische-kirche` – „Die Stammapostel der Neuapostolischen Kirche setzen das Apostelamt fort."
+- `adventisten-ellen-white` – „Ellen G. White war eine Prophetin; 1844 begann das Untersuchungsgericht."
+- `christliche-wissenschaft` – „Krankheit ist eine Illusion des sterblichen Geistes (Christian Science)."
+- `scientology` – „Scientology befreit den Menschen und ist mit dem Christentum vereinbar."
+- `vereinigungskirche` – „Sun Myung Moon vollendet die Mission, an der Jesus gescheitert ist."
+
+## Paket B4 – Konfessionen II
+
+### `konfessionen/moenchtum-reliquien` – Mönchtum, Reliquien und Segnungen · Gruppe „Protestantismus" · order 6 · icon `church`
+- `moenchtum-weltflucht` ★ – „Mönchtum ist unbiblische Weltflucht."
+- `reliquien-aberglaube` – „Reliquien und Heiligenwunder sind Aberglaube."
+- `weihwasser-oel-magie` – „Weihwasser, geweihtes Öl und Segnungen sind Magie."
+- `bischofs-zoelibat` – „Der Zölibat der Bischöfe ist unbiblisch (1 Tim 3,2)."
+
+### `konfessionen/reformation` – Reformation und Kirche · Gruppe „Protestantismus" · order 7 · icon `book-open`
+- `reformation-noetig` – „Die Reformation war nötig – Luther hat das Evangelium wiederentdeckt."
+- `imputierte-gerechtigkeit` – „Rechtfertigung ist ein rein forensischer Akt – Christi Gerechtigkeit wird uns nur zugerechnet."
+- `beziehung-statt-religion` – „Christsein ist eine persönliche Beziehung zu Jesus, keine Religion mit Kirche."
+- `kirchenvaeter-irrelevant` – „Die Kirchenväter sind nur Menschen – ihre Meinung ist für uns nicht verbindlich."
+
+### `konfessionen/orthodoxie-oekumene` – Orthodoxie und Ökumene · Gruppe „Orthodoxie & Ökumene" · order 1 · icon `merge`
+- `nur-byzantinische-orthodoxie` – „Nur die östlich-orthodoxe (chalcedonensische) Kirche ist die wahre orthodoxe Kirche."
+- `sieben-konzilien-verbindlich` – „Die sieben ökumenischen Konzilien sind für alle verbindlich."
+- `kopten-spalteten-451` – „Die Kopten haben 451 die Kirche gespalten."
+- `alle-kirchen-gleich` – „Konfessionen sind egal – Hauptsache, man glaubt an Jesus."
+
+## Paket B5 – Philosophie II
+
+### `philosophie/gottes-eigenschaften` – Gottes Eigenschaften · Gruppe „Atheismus & Gottesbeweise" · order 3 · icon `crown`
+- `stein-paradox` – „Kann Gott einen Stein erschaffen, den er nicht heben kann?"
+- `allwissenheit-unveraenderlichkeit` – „Allwissenheit und Unveränderlichkeit widersprechen sich."
+- `zeitloser-gott-handelt-nicht` – „Ein zeitloser Gott kann nicht handeln oder erschaffen."
+- `koerperloser-geist-inkohaerent` – „Ein körperloser Geist ist ein inkohärenter Begriff."
+- `warum-schoepfung` ★ – „Ein vollkommener Gott braucht nichts – warum hätte er die Welt erschaffen?"
+
+### `philosophie/religioese-sprache` – Religiöse Sprache und Falsifikation · Gruppe „Erkenntnistheorie" · order 2 · icon `message-square`
+- `gaertner-parabel` – „Gott ist wie Flews unsichtbarer Gärtner – eine unfalsifizierbare Hypothese."
+- `religioese-saetze-sinnlos` – „Religiöse Sätze sind kognitiv sinnlos (Ayer)."
+- `glaube-als-sprachspiel` – „Religion ist nur ein Sprachspiel ohne Wahrheitsanspruch."
+
+### `philosophie/tod-seele-auferstehung` – Tod, Seele und Auferstehung · Gruppe „Sinn & Existenz" · order 2 · icon `hourglass`
+- `nach-dem-tod-nichts` ★ – „Nach dem Tod ist nichts – das Bewusstsein erlischt."
+- `leibliche-auferstehung-unmoeglich` – „Die leibliche Auferstehung ist unmöglich – die Atome werden wiederverwertet."
+- `ewiges-leben-langweilig` – „Ewiges Leben wäre unerträglich langweilig (Bernard Williams)."
+- `wiedersehen-selbsttaeuschung` – „Der Glaube an ein Wiedersehen ist tröstliche Selbsttäuschung."
+
+### `philosophie/sehnsucht-schoenheit-wette` – Sehnsucht, Schönheit und Pascals Wette · Gruppe „Sinn & Existenz" · order 3 · icon `heart`
+- `pascals-wette` – „Pascals Wette ist ein feiges und irrationales Argument."
+- `sehnsucht-beweist-nichts` – „Die Sehnsucht nach Gott beweist nichts (gegen C. S. Lewis)."
+- `schoenheit-evolutionaer` – „Schönheit ist nur ein evolutionäres Signal."
+
+## Paket B6 – Ethik II & Bibel und Naturkunde
+
+### `ethik/vergebung-gerechtigkeit` – Vergebung und Gerechtigkeit · Gruppe „Moral & Gott" · order 2 · icon `scale`
+- `vergebung-ungerecht` ★ – „Wenn ein Mörder bereut und in den Himmel kommt, ist das ungerecht gegenüber den Opfern."
+- `guter-atheist-hoelle` – „Ein guter Atheist kommt in die Hölle, ein bekehrter Verbrecher in den Himmel – das ist absurd."
+- `feindesliebe-naiv` – „Feindesliebe ist naiv und gefährlich."
+
+### `ethik/umwelt-tiere-krieg` – Umwelt, Tiere, Krieg und Besitz · Gruppe „Christentum & Gesellschaft" · order 2 · icon `leaf`
+- `christentum-umweltkrise` – „Das Christentum ist schuld an der Umweltkrise (Lynn White)."
+- `speziesismus` – „Das Christentum macht Tiere zu Sachen – das ist Speziesismus (Peter Singer)."
+- `pazifismus-gerechter-krieg` – „Jesus verbietet jede Gewalt – Christen dürfen niemals kämpfen."
+- `jesus-sozialist` – „Jesus war Sozialist – das Christentum verlangt Gütergemeinschaft (Apg 2)."
+
+### `kosmos/bibel-naturkunde` – Bibel und Naturkunde · Gruppe „Bibel & Naturkunde" · order 1 · icon `telescope`
+- `bibel-flache-erde-firmament` ★ – „Die Bibel lehrt eine flache Erde unter einer festen Himmelskuppel."
+- `stern-von-betlehem` – „Der Stern von Betlehem ist ein Mythos."
+- `finsternis-kreuzigung` – „Eine Sonnenfinsternis bei der Kreuzigung ist unmöglich – zu Passa ist Vollmond."
+- `josua-sonnenstillstand` – „Josuas Sonnenstillstand ist physikalisch unmöglich."
+
+## Paket B7 – Leben & Mensch II
+
+### `leben/natur-grausamkeit-design` – Grausamkeit der Natur und Design · Gruppe „Evolutionsbiologie" · order 2 · icon `bug`
+- `parasiten-grausames-design` – „Parasiten wie die Schlupfwespe zeigen: Kein guter Gott hat das entworfen (Darwin)."
+- `aussterben-99-prozent` – „99 % aller Arten sind ausgestorben – das widerlegt einen planenden Schöpfer."
+- `krankheitserreger-design` – „Wenn Viren und Bakterien entworfen sind, ist der Designer böse."
+
+### `leben/fitness-der-umwelt` – Die Feinabstimmung der Chemie · Gruppe „Chemie & Biochemie" · order 2 · icon `droplets`
+- `wasser-kohlenstoff-zufall` – „Die einzigartigen Eigenschaften von Wasser und Kohlenstoff sind Zufall."
+- `licht-passt-zufall` – „Dass das Sonnenlicht genau für Photosynthese und Sehen passt, ist Zufall."
+- `alternative-biochemie` – „Leben könnte genauso gut auf Silizium oder Ammoniak beruhen."
+
+### `mensch/ursprung-der-sprache` – Ursprung der Sprache · Gruppe „Evolutionäre Psychologie & Anthropologie" · order 2 · icon `languages`
+- `sprache-graduell` – „Sprache entstand graduell aus Tierlauten."
+- `babel-mythos` – „Der Turmbau zu Babel ist ein Mythos – Sprachen entwickelten sich natürlich."
+- `tiere-haben-sprache` – „Menschenaffen und Papageien zeigen, dass Tiere auch Sprache haben."
+
+### `mensch/glaube-alltag-gesundheit` – Glaube, Therapie und Gesundheit · Gruppe „Psychologie" · order 2 · icon `heart-pulse`
+- `glaube-statt-therapie` – „Wer richtig glaubt, braucht keine Psychotherapie – oder umgekehrt: Therapie ersetzt die Seelsorge."
+- `fasten-ungesund` – „Das koptische Fasten ist ungesund."
+- `gebet-selbstgespraech` – „Gebet ist nur ein psychologisches Selbstgespräch."
+
+## Paket B8 – Geschichte II
+
+### `geschichte/nt-archaeologie` – Neues Testament und Archäologie · Gruppe „Historischer Jesus" · order 2 · icon `pickaxe`
+- `nazareth-existierte-nicht` – „Nazareth existierte zur Zeit Jesu nicht."
+- `zensus-quirinius` ★ – „Der Zensus des Quirinius (Lk 2) ist ein historischer Fehler."
+- `kindermord-erfunden` – „Der Kindermord von Betlehem ist erfunden."
+- `pilatus-falsch-dargestellt` – „Die Evangelien stellen Pilatus falsch dar."
+- `grabtuch-turin` – „Das Turiner Grabtuch ist eine mittelalterliche Fälschung."
+
+### `geschichte/fruehes-christentum-vielfalt` – Frühes Christentum: Einheit oder Vielfalt? · Gruppe „Kirchengeschichte & Mythen" · order 2 · icon `git-fork`
+- `viele-christentuemer-bauer` ★ – „Es gab viele gleichberechtigte Christentümer – die Orthodoxie war nur der Sieger (Bauer, Ehrman)."
+- `christentum-durch-gewalt-verbreitet` – „Das Christentum verbreitete sich nur durch Staatsmacht und Gewalt."
+- `maria-magdalena-apostelin` – „Die Kirche hat Maria Magdalena und die Frauen aus der Geschichte getilgt."
+- `aramaeisch-uebersetzung` – „Jesus sprach Aramäisch – die griechischen Evangelien sind schon eine verfälschende Übersetzung."
+
+### `geschichte/koptische-kirche` – Die koptische Kirche in Geschichte und Gegenwart · Gruppe „Kirchengeschichte & Mythen" · order 3 · icon `church`
+- `kopten-begruessten-araber` ★ – „Die Kopten haben die Araber 641 als Befreier begrüßt – der Islam brachte ihnen Toleranz."
+- `dhimmi-gerecht` – „Der Dhimmi-Status war ein gerechter Schutzvertrag."
+- `koptische-kirche-sekte` – „Die koptische Kirche ist eine abgespaltene, unbedeutende Sekte."
+- `maertyrerkult` – „Die koptische Märtyrerverehrung ist ein Todeskult."
+- `mokattam-legende` – „Das Mokattam-Wunder ist eine fromme Legende."
+
+---
+
+# Vertiefung (Welle 2) – alle bestehenden Claims
+
+Pakete D1–D17 entsprechen den Paketen A1–A17: Jeder Claim, der das Ziel aus CONTENT_GUIDE §10 noch nicht erreicht, wird vertieft und seine Quellen werden geprüft. Stand vor der Vertiefung: `npm run depth` zeigt 62 Claims am Ziel, 259 darunter.

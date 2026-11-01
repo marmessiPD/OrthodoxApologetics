@@ -173,3 +173,24 @@ Behebe alle Fehler; Warnungen (zu wenige Stimmen, zu flacher Dialog) möglichst 
 - [ ] Steelman ist wirklich stark; Zugeständnisse sind ehrlich.
 - [ ] Antworten sind für einen Laien sofort sprechbar.
 - [ ] `npm run check` für deine Topics ohne Fehler.
+
+## 10. Vertiefung und Quellenprüfung (Welle 2)
+
+**Ziel für JEDEN Claim:** mindestens **15 Dialogknoten**, **Tiefe ≥ 4** und **≥ 4 Einstiegs-Einwände**. Prüfen mit:
+
+```bash
+npm run depth -- <kategorie>/<topic-id> [...]
+```
+
+**So wird vertieft:**
+- Lies die Claim-Datei einmal, dann füge mit dem **Edit-Werkzeug** neue Knoten ein – als neue Einstiege am Ende von `dialog: [...]` oder als `followUps` an bestehenden Knoten. **Nicht die ganze Datei neu schreiben** (spart Kontext und vermeidet Verluste).
+- Bestehende IDs und Inhalte bleiben erhalten; neue IDs sind kebab-case und innerhalb des Claims eindeutig.
+- Neue Einwände müssen **echte, starke Gegenzüge** führender Vertreter sein (mit `objectionBy`), nicht Wiederholungen. Denke: Was sagt der Experte, nachdem er unsere Antwort gehört hat? Dann noch eine Ebene tiefer.
+- Jede neue Antwort mit `detail`, wo sinnvoll mit `voices` (passende Personen in ihrem Fachgebiet) und `sources`; `questionsBack` an den entscheidenden Stellen.
+- Wo es fehlt, ergänze auch `questionsToAsk`, `avoid`, `concessions` – ebenfalls per Edit.
+
+**Quellenprüfung im selben Durchgang:**
+- Suche in deinen Dateien nach `status: 'unverified'` und prüfe diese Angaben per **WebSearch** (das Suchbudget ist begrenzt und wird mit anderen Agenten geteilt – priorisiere: 1. `unverified`, 2. als `verbatim` markierte Zitate moderner Autoren, 3. Hadith-/Talmud-/Väter-Fundstellen).
+- Bestätigt → Status auf `verbatim` (nur bei bestätigtem Wortlaut) bzw. `paraphrase` setzen, Fundstelle korrigieren, `note` aktualisieren. Widerlegt → korrigieren oder entfernen. Nicht prüfbar → so lassen.
+- WebFetch auf viele Domains (sunnah.com, quran.com, wikipedia.org, doi.org …) ist evtl. gesperrt; dann nur WebSearch verwenden, keine weiteren Fetch-Versuche auf gesperrte Hosts.
+- Am Ende `npm run check -- <topics>` (0 Fehler) und `npm run depth -- <topics>` (alle ✓).

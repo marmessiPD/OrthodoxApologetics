@@ -26,6 +26,7 @@ export const categories: Category[] = [
       'Evangelikale Sonderlehren',
       'Katholizismus',
       'Christologie & Konzilien',
+      'Orthodoxie & Ökumene',
       'Liberale Theologie',
     ],
   },
@@ -35,7 +36,7 @@ export const categories: Category[] = [
     subtitle: 'Zeugen Jehovas, Mormonen, Antitrinitarier, New Age, Gnosis',
     icon: 'shield-alert',
     accent: 'cat-sonder',
-    groups: ['Zeugen Jehovas', 'Mormonen', 'Antitrinitarier', 'Esoterik & New Age', 'Gnosis & Geheimlehren', 'Okkultismus & Neuheidentum'],
+    groups: ['Zeugen Jehovas', 'Mormonen', 'Antitrinitarier', 'Weitere Sondergemeinschaften', 'Esoterik & New Age', 'Gnosis & Geheimlehren', 'Okkultismus & Neuheidentum'],
   },
   {
     id: 'philosophie',
@@ -74,7 +75,7 @@ export const categories: Category[] = [
     subtitle: 'Urknall, Feinabstimmung, Multiversum, Quanten, Gödel, KI',
     icon: 'orbit',
     accent: 'cat-kosmos',
-    groups: ['Kosmologie', 'Astrophysik & Astrobiologie', 'Physik', 'Mathematik & Logik', 'Informatik & Künstliche Intelligenz'],
+    groups: ['Kosmologie', 'Astrophysik & Astrobiologie', 'Bibel & Naturkunde', 'Physik', 'Mathematik & Logik', 'Informatik & Künstliche Intelligenz'],
   },
   {
     id: 'leben',

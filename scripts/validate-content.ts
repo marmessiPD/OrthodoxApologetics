@@ -180,6 +180,21 @@ async function main() {
     if (!t.claims?.length) warn(where, 'Topic ohne Claims');
   }
 
+  // Querverweise prüfen (nur bei Gesamtprüfung sinnvoll)
+  if (!only.length) {
+    const refs = new Set<string>();
+    topics.forEach(({ topic }) => topic.claims?.forEach((c) => c && refs.add(`${topic.id}/${c.id}`)));
+    let broken = 0;
+    for (const { topic } of topics)
+      for (const c of topic.claims ?? [])
+        for (const r of c?.related ?? [])
+          if (!refs.has(r) && !topicIds.has(r)) {
+            broken++;
+            if (showStats) warn(`${topic.id}/${c.id}`, `Querverweis ins Leere: "${r}"`);
+          }
+    if (broken) console.log(`ℹ ${broken} Querverweise zeigen (noch) ins Leere${showStats ? '' : ' – Details mit --stats'}.`);
+  }
+
   if (warnings.length) console.log(warnings.join('\n'));
   if (errors.length) console.log(errors.join('\n'));
 
