@@ -1,4 +1,4 @@
-import { use } from 'react';
+import { use, useSyncExternalStore } from 'react';
 import type { Category, CategoryId, Claim, DialogNode, Person, Source, Topic, Voice } from '@/content/schema';
 import { categories } from '@/content/categories';
 import { people as basePeople } from '@/content/people';
@@ -103,8 +103,33 @@ function catIndex(id: CategoryId) {
   return categories.findIndex((c) => c.id === id);
 }
 
+/* Ladefortschritt (für die Fortschrittsanzeige) */
+const progress = { loaded: 0, total: Object.keys(loaders).length };
+const progressSubs = new Set<() => void>();
+let progressSnap = { ...progress };
+function tick() {
+  progress.loaded++;
+  progressSnap = { ...progress };
+  progressSubs.forEach((s) => s());
+}
+export function useLoadProgress() {
+  return useSyncExternalStore(
+    (cb) => (progressSubs.add(cb), () => progressSubs.delete(cb)),
+    () => progressSnap,
+  );
+}
+
 async function loadKB(): Promise<KB> {
-  const mods = await Promise.all(Object.values(loaders).map((l) => l().catch(() => null)));
+  const mods = await Promise.all(
+    Object.values(loaders).map((l) =>
+      l()
+        .catch((e) => {
+          console.warn('Themenblock konnte nicht geladen werden:', e);
+          return null;
+        })
+        .finally(tick),
+    ),
+  );
   const topics = mods
     .map((m) => m?.default)
     .filter((t): t is Topic => !!t && !!t.id && Array.isArray(t.claims))
@@ -169,8 +194,23 @@ async function loadKB(): Promise<KB> {
 }
 
 let kbPromise: Promise<KB> | null = null;
+let kbValue: KB | null = null;
+const kbSubs = new Set<() => void>();
 export function getKB() {
-  return (kbPromise ??= loadKB());
+  return (kbPromise ??= loadKB().then((kb) => {
+    kbValue = kb;
+    kbSubs.forEach((s) => s());
+    return kb;
+  }));
+}
+
+/** Nicht-blockierender Zugriff: null, solange die Datenbank lädt. */
+export function useKBMaybe(): KB | null {
+  getKB();
+  return useSyncExternalStore(
+    (cb) => (kbSubs.add(cb), () => kbSubs.delete(cb)),
+    () => kbValue,
+  );
 }
 
 /** Suspense-Hook: liefert die geladene Wissensdatenbank. */

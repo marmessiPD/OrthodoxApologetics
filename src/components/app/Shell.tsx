@@ -3,7 +3,8 @@ import { NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router';
 import { Suspense } from 'react';
 import { Button } from '@/components/ui/button';
 import { Kbd } from '@/components/ui/misc';
-import { useKB } from '@/lib/content';
+import { useKBMaybe } from '@/lib/content';
+import { categories } from '@/content/categories';
 import { DynIcon } from '@/lib/icons';
 import { useTheme } from '@/lib/storage';
 import { cn } from '@/lib/utils';
@@ -29,7 +30,7 @@ const mainNav = [
 ];
 
 function Sidebar() {
-  const kb = useKB();
+  const kb = useKBMaybe();
   return (
     <aside className="fixed inset-y-0 left-0 z-30 hidden w-[272px] flex-col border-r bg-card/60 backdrop-blur lg:flex">
       <NavLink to="/" className="flex items-center gap-3 px-5 pb-4 pt-5">
@@ -58,7 +59,7 @@ function Sidebar() {
         </ul>
         <div className="mb-1 mt-6 px-3 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">Themenfelder</div>
         <ul className="space-y-0.5">
-          {kb.categories.map((c) => (
+          {categories.map((c) => (
             <li key={c.id}>
               <NavLink
                 to={`/kategorie/${c.id}`}
@@ -66,7 +67,7 @@ function Sidebar() {
               >
                 <DynIcon name={c.icon} className="size-4 text-cat" />
                 <span className="flex-1 truncate">{c.title}</span>
-                <span className="text-[11px] tabular-nums text-muted-foreground">{kb.stats.byCategory[c.id]?.claims ?? 0}</span>
+                <span className="text-[11px] tabular-nums text-muted-foreground">{kb ? (kb.stats.byCategory[c.id]?.claims ?? 0) : ''}</span>
               </NavLink>
             </li>
           ))}
@@ -157,7 +158,9 @@ export function Shell() {
         </main>
       </div>
       <BottomNav />
-      <SearchCommand />
+      <Suspense fallback={null}>
+        <SearchCommand />
+      </Suspense>
       <ScrollRestoration getKey={(l) => l.pathname} />
     </div>
   );

@@ -1,12 +1,13 @@
 import { ArrowRight, History, MessagesSquare, Search, ShieldQuestion, Sparkles, Zap } from 'lucide-react';
-import { useMemo, useState } from 'react';
+import { Suspense, useMemo, useState } from 'react';
 import { Link } from 'react-router';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { Difficulty, SectionTitle } from '@/components/app/Bits';
 import { LogoMark } from '@/components/app/Logo';
 import { openSearch } from '@/components/app/Search';
-import { useKB } from '@/lib/content';
+import { useKB, useKBMaybe, type KB } from '@/lib/content';
+import { PageSkeleton } from '@/components/app/Loading';
 import { DynIcon } from '@/lib/icons';
 import { runSearch, useSearchIndex } from '@/lib/search';
 import { useRecent } from '@/lib/storage';
@@ -23,8 +24,7 @@ const FEATURED = [
   'christologie-chalcedon/kopten-sind-monophysiten',
 ];
 
-function LiveSearch() {
-  const kb = useKB();
+function LiveSearch({ kb }: { kb: KB }) {
   const index = useSearchIndex(kb);
   const [q, setQ] = useState('');
   const hits = useMemo(() => runSearch(index, q, { types: ['node', 'claim'], limit: 6 }), [index, q]);
@@ -65,7 +65,59 @@ function LiveSearch() {
   );
 }
 
+function LiveSearchPlaceholder() {
+  return (
+    <div className="flex h-14 items-center gap-2 rounded-2xl border bg-card px-4 text-[16px] text-muted-foreground shadow-sm">
+      <Search className="size-5 shrink-0" />
+      <span className="animate-pulse">Wissensdatenbank wird geladen …</span>
+    </div>
+  );
+}
+
+function Hero() {
+  const kb = useKBMaybe();
+  return (
+    <section className="relative overflow-hidden rounded-3xl border bg-card">
+      <div className="coptic-pattern absolute inset-0 opacity-60" />
+      <div className="absolute -right-16 -top-16 size-64 rounded-full bg-primary/10 blur-3xl" />
+      <div className="relative px-5 py-8 sm:px-10 sm:py-12">
+        <div className="flex items-center gap-3">
+          <LogoMark className="size-11 rounded-2xl" />
+          <Badge variant="gold" className="text-[11px]">
+            Koptisch-orthodox
+          </Badge>
+        </div>
+        <h1 className="mt-5 max-w-2xl font-serif text-[32px] font-semibold leading-[1.1] tracking-tight sm:text-5xl">
+          Bereit zur Antwort – <span className="text-primary">auf jedes Argument.</span>
+        </h1>
+        <p className="mt-4 max-w-2xl text-[15.5px] leading-relaxed text-muted-foreground">
+          {kb
+            ? `${kb.stats.claims.toLocaleString('de-DE')} Behauptungen der Gegenseite, ${kb.stats.nodes.toLocaleString('de-DE')} vorausgedachte Gesprächszüge und die Stimmen von ${kb.stats.people} Verteidigern des Glaubens – vom Apostel Paulus über Athanasius bis James Tour.`
+            : 'Hunderte Behauptungen der Gegenseite, tausende vorausgedachte Gesprächszüge und die Stimmen der großen Verteidiger des Glaubens – vom Apostel Paulus über Athanasius bis James Tour.'}
+        </p>
+        <div className="mt-6 max-w-2xl">
+          {kb ? <LiveSearch kb={kb} /> : <LiveSearchPlaceholder />}
+          <p className="mt-2 flex items-center gap-1.5 text-[12px] text-muted-foreground">
+            <Zap className="size-3.5 text-gold" /> Live-Modus: Stichworte tippen und sofort die passende Antwort im Gesprächsverlauf finden.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
+  return (
+    <div className="space-y-10">
+      <Hero />
+      <Suspense fallback={<PageSkeleton />}>
+        <HomeBody />
+      </Suspense>
+    </div>
+  );
+}
+
+function HomeBody() {
   const kb = useKB();
   const { recent } = useRecent();
   const featured = FEATURED.map((r) => kb.claimByRef.get(r)).filter(Boolean);
@@ -74,33 +126,6 @@ export default function Home() {
 
   return (
     <div className="space-y-10">
-      {/* Hero */}
-      <section className="relative overflow-hidden rounded-3xl border bg-card">
-        <div className="coptic-pattern absolute inset-0 opacity-60" />
-        <div className="absolute -right-16 -top-16 size-64 rounded-full bg-primary/10 blur-3xl" />
-        <div className="relative px-5 py-8 sm:px-10 sm:py-12">
-          <div className="flex items-center gap-3">
-            <LogoMark className="size-11 rounded-2xl" />
-            <Badge variant="gold" className="text-[11px]">
-              Koptisch-orthodox
-            </Badge>
-          </div>
-          <h1 className="mt-5 max-w-2xl font-serif text-[32px] font-semibold leading-[1.1] tracking-tight sm:text-5xl">
-            Bereit zur Antwort – <span className="text-primary">auf jedes Argument.</span>
-          </h1>
-          <p className="mt-4 max-w-2xl text-[15.5px] leading-relaxed text-muted-foreground">
-            {kb.stats.claims.toLocaleString('de-DE')} Behauptungen der Gegenseite, {kb.stats.nodes.toLocaleString('de-DE')} vorausgedachte Gesprächszüge und die Stimmen von{' '}
-            {kb.stats.people} Verteidigern des Glaubens – vom Apostel Paulus über Athanasius bis James Tour.
-          </p>
-          <div className="mt-6 max-w-2xl">
-            <LiveSearch />
-            <p className="mt-2 flex items-center gap-1.5 text-[12px] text-muted-foreground">
-              <Zap className="size-3.5 text-gold" /> Live-Modus: Stichworte tippen und sofort die passende Antwort im Gesprächsverlauf finden.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Schnellstart */}
       {fallbackFeatured.length > 0 && (
         <section>
