@@ -167,6 +167,88 @@ const claim: Claim = {
               objection: `Einheit ist eine Frage des Integrationsgrads. Schon wenige verbleibende Bahnen genügen für ausreichende Integration.`,
               objectionBy: 'Patricia Churchland',
               answer: `Dann wäre Personsein eine Frage des Grades – mehr oder weniger Ich, je nach Faserzahl. Aber mein Erleben, ein Subjekt zu sein, ist kein Mehr-oder-Weniger: Entweder erlebe ich, oder ich erlebe nicht. Eine Theorie, die das Ich in Prozentpunkten misst, erklärt nicht, was es heißt, *jemand* zu sein. Ethisch wäre sie zudem gefährlich: Wer weniger integriert ist, wäre weniger Person.`,
+              followUps: [
+                {
+                  id: 'phi-integrierte-information',
+                  objection: `Genau das macht die Integrierte-Informations-Theorie: Sie misst Bewusstsein als Größe Φ, den Grad, in dem ein System Information integriert. Bewusstsein ist graduell – bei Menschen viel, bei Tieren weniger, bei getrennten Hemisphären verteilt. Das ist Wissenschaft, keine Seelenmetaphysik.`,
+                  objectionBy: 'Christof Koch',
+                  answer: `Die Theorie ist ernst gemeint, aber hoch umstritten: 2023 haben über hundert Bewusstseinsforscher in einem offenen Brief sogar bezweifelt, dass sie als empirisch prüfbare Theorie gelten kann. Und sie hat merkwürdige Folgen: Nach ihr hätten auch einfache, aber stark vernetzte Gitterstrukturen ein Bewusstsein. Das zeigt eher, wie schwer es ist, das Erleben aus physikalischen Größen abzuleiten – Koch selbst betont, dass Bewusstsein nach IIT gerade nicht durch Berechnung allein entsteht.`,
+                  detail: `Die IIT wurde von Giulio Tononi entwickelt und von Christof Koch populär vertreten („The Feeling of Life Itself", 2019). Sie geht vom Erleben aus und fragt, welche physische Struktur ihm entsprechen müsste – das ist bemerkenswert, weil sie die Erste-Person-Perspektive ernster nimmt als ältere Theorien. Kritiker (u. a. ein offener Brief von Fleming u. a., 2023) bemängeln, dass ihre Kernannahmen kaum testbar seien und sie panpsychistisch anmutende Konsequenzen habe.
+
+Für das Gespräch genügt: Wer sich auf IIT beruft, beruft sich nicht auf gesicherten Konsens, sondern auf eine der umstrittensten Theorien des Feldes. Und auch IIT erklärt nicht, *warum* integrierte Information überhaupt erlebt wird – sie postuliert es. Das ist das „schwere Problem des Bewusstseins" (David Chalmers), das bis heute ungelöst ist.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Christof Koch', work: 'The Feeling of Life Itself: Why Consciousness Is Widespread but Can\'t Be Computed', year: '2019', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'S. M. Fleming u. a. (124 Unterzeichner)', work: 'The Integrated Information Theory of Consciousness as Pseudoscience (offener Brief, Preprint PsyArXiv)', year: '2023', status: 'paraphrase', note: 'Der Brief löste eine heftige Gegenreaktion aus; viele Forscher hielten das Etikett „Pseudowissenschaft" für überzogen. Fair darstellen: umstritten, nicht widerlegt.' },
+                  ],
+                  questionsBack: [`Erklärt Φ, warum Information überhaupt *erlebt* wird – oder setzt die Theorie das voraus?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'eine-haelfte-glaubt',
+      objection: `Ramachandran berichtete von einem Split-Brain-Patienten, dessen linke Hirnhälfte auf die Frage nach Gott „ja" anzeigte, die rechte „nein". Was passiert mit ihm nach dem Tod? Kommt eine Hälfte in den Himmel und die andere in die Hölle?`,
+      objectionBy: 'V. S. Ramachandran',
+      answer: `Das ist eine gute Pointe für einen Vortrag – mehr nicht: Es handelt sich um eine Anekdote aus einem Konferenzvortrag, nicht um eine veröffentlichte Studie. Die rechte Hemisphäre hat bei den meisten Menschen nur sehr begrenzte Sprachfähigkeit; ein Fingerzeig auf „ja" oder „nein" ist kein Glaubensbekenntnis. Und Gott richtet nicht Hirnhälften, sondern Personen – er kennt das ganze Leben und das Herz eines Menschen, auch dort, wo dieser sich selbst nicht ausdrücken kann.`,
+      detail: `Ramachandran erzählte die Geschichte u. a. auf der Konferenz „Beyond Belief" (Salk Institute, 2006) als humorvolle Herausforderung. Sie ist nach unserem Kenntnisstand nicht in einer Fachzeitschrift dokumentiert. Man sollte sie deshalb weder als Beleg noch als Widerlegung behandeln.
+
+Inhaltlich zeigt sie dasselbe wie die anderen Split-Brain-Befunde: Der *Ausdruck* von Überzeugungen hängt an Kanälen, die durch die Operation getrennt sein können. Ein Glaube, der Vertrauen, Lebensausrichtung und Beziehung umfasst, lässt sich nicht an einer Karte mit „ja/nein" ablesen.`,
+      sources: [
+        { kind: 'gegner', author: 'V. S. Ramachandran', work: 'Vortrag auf der Konferenz „Beyond Belief: Science, Religion, Reason and Survival" (Salk Institute, La Jolla)', year: '2006', status: 'paraphrase', note: 'Mündliche Anekdote, keine begutachtete Veröffentlichung.' },
+      ],
+      questionsBack: [`Wurde dieser Fall irgendwo wissenschaftlich dokumentiert – und wie misst man mit einem Fingerzeig, ob jemand glaubt?`],
+      followUps: [
+        {
+          id: 'demenz-veraendert-glauben',
+          objection: `Lassen wir die Anekdote. Aber bei frontotemporaler Demenz oder nach Schlaganfällen verlieren manche Menschen ihre Religiosität, andere werden plötzlich hyperreligiös. Ändere das Gehirn, und du änderst den Glauben. Was bleibt da von der Seele?`,
+          objectionBy: 'Patricia Churchland',
+          answer: `Das stimmt, und ich bestreite es nicht: Hirnerkrankungen können verändern, wie ein Mensch denkt, fühlt und glaubt – auch seinen Glauben. Für Christen ist das keine Überraschung, denn die Seele wirkt durch den Leib, und ein krankes Organ behindert ihren Ausdruck. Aber der Mensch mit Demenz bleibt vor Gott dieselbe Person, geliebt und gekannt. Die Kirche trägt seinen Glauben mit, so wie sie den Glauben eines getauften Kindes trägt.`,
+          detail: `Gregor von Nyssa formulierte bereits im 4. Jahrhundert, dass Verletzungen der Hirnhäute das Denken stören, weil das Werkzeug beschädigt ist, nicht weil der Geist selbst zerstört wäre (De hominis opificio 12). Die Neurologie bestätigt die Abhängigkeit – sie entscheidet aber nicht zwischen „Werkzeug" und „Identität".
+
+Pastoral wichtig: Eine Demenzerkrankung ist kein Glaubensabfall. Angehörige brauchen die Zusage, dass Gott den Menschen nicht nach seinem letzten Hirnzustand beurteilt. Die koptische Kirche betet für die Kranken in jeder Liturgie und spendet die Krankensalbung (Jak 5,14–15) – auch Menschen, die sich nicht mehr äußern können.`,
+          sources: [
+            { kind: 'bibel', work: 'Jakobus', ref: '5,14–15', quote: `Ist jemand krank, der rufe zu sich die Ältesten von der Gemeinde und lasse sie über sich beten und salben mit Öl in dem Namen des HERRN. Und das Gebet des Glaubens wird dem Kranken helfen, und der HERR wird ihn aufrichten.`, status: 'paraphrase', note: 'Wortlaut nach Luther 1912, nicht am Druck geprüft.' },
+          ],
+          followUps: [
+            {
+              id: 'hirnlotterie',
+              objection: `Dann wird dein Himmel zur Hirnlotterie: Wer das Pech hat, am Ende seines Lebens einen Tumor im falschen Areal zu bekommen, verliert seinen Glauben und damit sein Heil.`,
+              objectionBy: 'Sam Harris',
+              answer: `Nein – das wäre eine sehr mechanische Vorstellung von Gericht, die die Kirche nicht lehrt. Gott beurteilt nicht einen Momentzustand, sondern das ganze Leben und das Herz eines Menschen, und er kennt jede Ursache, auch jede Krankheit. „Der Mensch sieht, was vor Augen ist; der HERR aber sieht das Herz an" (1 Sam 16,7). Wer krankheitsbedingt nicht mehr glauben *kann*, hat den Glauben nicht verworfen.`,
+              detail: `Christliche Ethik hat immer zwischen schuldhaftem und unverschuldetem Verhalten unterschieden: Unwissenheit, Zwang und Krankheit mindern oder heben Verantwortung auf (vgl. Lk 12,47–48; 23,34). Diese Unterscheidung gilt erst recht für das Gericht Gottes, der nicht nach äußeren Merkmalen urteilt.
+
+Die Rückfrage an den Gegner: Auch säkulares Recht kennt Schuldunfähigkeit wegen Krankheit – und niemand schließt daraus, dass es Verantwortung nicht gibt.`,
+              sources: [
+                { kind: 'bibel', work: '1. Samuel', ref: '16,7', status: 'paraphrase', quote: `Ein Mensch sieht, was vor Augen ist; der HERR aber sieht das Herz an.` },
+              ],
+              followUps: [
+                {
+                  id: 'seele-erklaert-nichts',
+                  objection: `Dann frage ich dich: Wozu brauchst du die Seele überhaupt noch? Alles, was wir an einem Menschen beobachten – Gedächtnis, Persönlichkeit, Glaube –, hängt vom Gehirn ab. Die Seele erklärt nichts, was das Gehirn nicht schon erklärt.`,
+                  objectionBy: 'Patricia Churchland',
+                  answer: `Die Seele ist keine Konkurrenzhypothese zum Gehirn für einzelne Leistungen. Sie erklärt etwas anderes: dass es überhaupt *jemanden* gibt, der erlebt; dass ich trotz vollständigem Austausch meiner Atome über die Jahre derselbe bleibe; dass ich Gründe einsehen und Verantwortung tragen kann. Und die christliche Hoffnung ist ohnehin nicht eine körperlose Seele, sondern die Auferstehung des ganzen Menschen. Dass die Person vom Leib abhängt, bekennen wir im Credo selbst.`,
+                  detail: `Die patristische Anthropologie ist ganzheitlich: Der Mensch ist eine Einheit aus Seele und Leib, und die Seele ist die lebendige, vernünftige Form dieses Leibes, nicht ein „Gespenst in der Maschine". Darum erwarten Christen „die Auferstehung der Toten und das Leben der kommenden Welt" (Nizäno-Konstantinopolitanum).
+
+Vorsicht bei Gegenbelegen: Es gibt Fallsammlungen zu „terminaler Luzidität" – Menschen mit schwerer Demenz, die kurz vor dem Tod plötzlich wieder klar und erkennend sind (z. B. Nahm u. a. 2012). Das Phänomen ist noch wenig erforscht, die Berichte sind überwiegend rückblickend und anekdotisch. Man sollte es nicht als Beweis für die Seele anführen, darf aber erwähnen, dass die Neurowissenschaft hier selbst offene Fragen hat.`,
+                  voices: [
+                    {
+                      person: 'moreland',
+                      role: 'als Philosoph der personalen Identität',
+                      text: `J. P. Moreland argumentiert, dass personale Identität über die Zeit ein Kernphänomen ist, das der Materialismus schlecht erklärt: Die Teile des Körpers wechseln ständig, und psychologische Merkmale verändern sich – trotzdem bleibt das Subjekt, das all das erlebt, ein und dasselbe. Für Moreland ist die Seele genau dieses beharrende, einheitliche Subjekt, nicht eine zusätzliche Maschine zur Erzeugung von Verhalten.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'J. P. Moreland', work: 'The Soul: How We Know It\'s Real and Why It Matters', year: '2014', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'M. Nahm, B. Greyson, E. W. Kelly, E. Haraldsson', work: 'Terminal lucidity: A review and a case collection', ref: 'Archives of Gerontology and Geriatrics 55 (2012), 138–142', year: '2012', status: 'paraphrase', note: 'Fallsammlung, keine kontrollierte Studie – nur als offene Forschungsfrage erwähnen.' },
+                  ],
+                  questionsBack: [`Wenn alle meine Atome in zehn Jahren ausgetauscht sind – bin ich dann noch derselbe? Und was genau bleibt dabei gleich?`],
+                },
+              ],
             },
           ],
         },

@@ -103,6 +103,20 @@ const claim: Claim = {
               objectionBy: 'Gesprächspartner',
               answer: `Dann ist auch „unbedeutend" nur eine menschliche Bewertung – und sie kann die christliche Bewertung nicht widerlegen. Du kannst nicht zugleich sagen „Werte sind menschengemacht" und „objektiv sind wir unbedeutend". Und wenn Werte nur gemacht sind, warum sollte die Würde eines Menschen gelten, dem die Mehrheit sie abspricht?`,
               detail: `Ausführlich im Themenblock „Moral ohne Gott?".`,
+              followUps: [
+                {
+                  id: 'kosmische-demut-vs-arroganz',
+                  objection: `Die kosmische Perspektive lehrt Demut. Und ihr Christen glaubt, der Schöpfer von zwei Billionen Galaxien kümmere sich persönlich um euer Gebet. Arroganter geht es kaum.`,
+                  objectionBy: 'Neil deGrasse Tyson',
+                  answer: `Das Christentum lehrt beides zugleich: Demut und Würde. „Du bist Staub" (1 Mo 3,19) – und: „Was ist der Mensch, dass du seiner gedenkst?" (Ps 8,5). Dieser Psalm stellt genau deine Frage, unter dem Sternenhimmel, vor 3000 Jahren – und beantwortet sie nicht mit Stolz, sondern mit Staunen über Gottes Zuwendung. Arrogant wäre es, sich selbst Bedeutung zuzuschreiben. Demütig ist es, Bedeutung als Geschenk zu empfangen.`,
+                  detail: `Pascal hat die Spannung unübertroffen formuliert: Der Mensch ist nur ein Schilfrohr, das schwächste der Natur – aber ein denkendes Schilfrohr. Ein Dunsthauch, ein Wassertropfen genügt, ihn zu töten; doch wenn das Universum ihn zermalmte, wäre der Mensch noch edler als das, was ihn tötet, denn er weiß, dass er stirbt, und das Universum weiß nichts davon. Größe im Raum und Größe im Geist sind verschiedene Ordnungen. In der koptischen Frömmigkeit gehören Demut (die Agpeya beginnt fast jede Hore mit dem Kyrie eleison) und das Bewusstsein, geliebtes Kind Gottes zu sein, untrennbar zusammen.`,
+                  voices: [
+                    { person: 'pascal', role: 'als Mathematiker und Denker', text: `Pascal unterscheidet drei Ordnungen: die der Körper, die des Geistes und die der Liebe. Alle Körper zusammen, das Firmament, die Sterne, die Erde, wiegen nicht den geringsten Geist auf, denn der Geist erkennt das alles, die Körper erkennen nichts. Die räumliche Kleinheit des Menschen ist deshalb kein Argument gegen seine Würde – sie verwechselt die Ordnungen.` },
+                  ],
+                  sources: [{ kind: 'fachliteratur', author: 'Blaise Pascal', work: 'Pensées', ref: 'Fragment 347 (Brunschvicg) / 200 (Lafuma)', year: '1670 (postum)', quote: `Der Mensch ist nur ein Schilfrohr, das schwächste der Natur; aber er ist ein denkendes Schilfrohr.`, original: `L'homme n'est qu'un roseau, le plus faible de la nature; mais c'est un roseau pensant.`, translation: 'eigene Übersetzung', status: 'verbatim' }],
+                  questionsBack: [`Ist es arrogant, Bedeutung als Geschenk zu empfangen – oder eher, sie sich selbst zuzuschreiben?`],
+                },
+              ],
             },
           ],
         },

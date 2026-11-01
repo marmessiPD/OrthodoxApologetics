@@ -102,6 +102,28 @@ const claim: Claim = {
               objection: `„Genetischer Fehlschluss" ist eine Ausrede. Die Bräuche – Baum, Geschenke, Lichter – sind heidnisch.`,
               objectionBy: 'Populäre Religionskritik',
               answer: `Der Christbaum ist ein Brauch des 16. Jahrhunderts aus dem deutschen Raum, Geschenke knüpfen an die Weisen und an den hl. Nikolaus an. Manche Volksbräuche haben vorchristliche Wurzeln, das gebe ich zu – aber sie sind kulturelle Verpackung, nicht der Kern des Festes. In der koptischen Kirche besteht Weihnachten aus 43 Tagen Fasten, den Lobgesängen des Monats Koiak und der Mitternachtsliturgie – da ist nichts Heidnisches zu finden.`,
+              followUps: [
+                {
+                  id: 'jeremia-10-baum',
+                  objection: `Die Bibel selbst verbietet den Christbaum: Jeremia 10 beschreibt, wie man einen Baum im Wald fällt, ihn mit Silber und Gold schmückt und mit Nägeln befestigt, damit er nicht wackelt. Das ist der Weihnachtsbaum!`,
+                  objectionBy: 'Populäre Religionskritik (auch manche christliche Gruppen)',
+                  answer: `Lies den Abschnitt weiter: Der Handwerker schnitzt aus dem Holz ein Bild, überzieht es mit Silber und Gold, und dann heißt es, diese Götzen „können nicht reden" und „man muss sie tragen" (Jer 10,5). Es geht um ein geschnitztes Götterbild, nicht um einen geschmückten Baum. Jeremia warnt vor der Anbetung von Holzfiguren – und niemand betet einen Christbaum an. Der Vers wird erst durch Herausreißen aus dem Zusammenhang zum Weihnachtsverbot.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Jeremia', ref: '10,3–5', quote: `Man haut im Walde einen Baum, und der Werkmeister macht sie mit dem Beil; und schmückt sie mit Silber und Gold … Es sind ja nichts als Säulen, gedrechselt, und können nicht reden; so muss man sie auch tragen, denn sie können nicht gehen.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wer betet in Jeremia 10 das Holzbild an – und wer betet heute einen Christbaum an?`],
+                },
+              ],
+            },
+            {
+              id: 'berechnung-auch-spekulativ',
+              objection: `Die Berechnungshypothese ist genauso spekulativ. Die Idee, Propheten stürben am Tag ihrer Empfängnis, ist ein rabbinisches Motiv, das erst spät belegt ist.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Das gebe ich zu: Auch die Berechnungshypothese ist eine Hypothese, und das Motiv des „vollkommenen Lebensalters" ist in den Quellen nicht so früh belegt, wie man es sich wünschen würde. Gesichert ist aber, dass Christen schon um 200 den 25. März als Todestag Jesu ansetzten (Tertullian) und dass Augustinus später Empfängnis und Tod auf denselben Tag legte. Mein Punkt ist bescheiden: Es gibt eine plausible innerchristliche Erklärung – also ist „heidnisch" kein Befund, sondern eine von zwei Deutungen.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Tertullian', work: 'Gegen die Juden (Adversus Iudaeos)', ref: '8', year: 'ca. 200', quote: `Das Leiden Christi wird auf den 25. März (achter Tag vor den Kalenden des April) datiert.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Andrew McGowan', work: 'How December 25 Became Christmas. Bible Review 18/6', year: '2002', quote: `Beide Hypothesen haben Stärken und Schwächen; die Berechnungshypothese verdient Beachtung.`, status: 'paraphrase' },
+              ],
             },
           ],
         },
@@ -118,6 +140,36 @@ const claim: Claim = {
           objection: `Also gibst du zu: Den echten Geburtstag kennt niemand. Weihnachten ist erfunden.`,
           objectionBy: 'Populäre Religionskritik',
           answer: `Das Datum ist unbekannt – das Ereignis nicht. Es ist völlig normal, ein reales Ereignis an einem festgelegten Tag zu feiern, auch wenn der genaue Tag unsicher ist. Erfunden wäre Weihnachten nur, wenn Jesus nicht geboren worden wäre.`,
+          followUps: [
+            {
+              id: 'hirten-im-winter',
+              objection: `Lukas widerlegt den Dezember selbst: Hirten, die nachts auf dem Feld ihre Herden hüten – im Winter in Judäa? Das ist unmöglich.`,
+              objectionBy: 'Populäre Religionskritik',
+              answer: `Zuerst: Die Kirche behauptet nicht, dass Jesus historisch im Dezember geboren wurde – das Fest feiert die Menschwerdung, nicht einen Geburtsschein. Aber „unmöglich" ist es auch nicht: Die Winter um Bethlehem sind mild genug, dass Herden in geschützten Lagen draußen bleiben konnten, und Alfred Edersheim verwies auf die Mischna, nach der Tiere aus der Gegend zwischen Jerusalem und Migdal Eder als Opfertiere galten – Herden, die offenbar ganzjährig dort weideten. Das ist ein Plausibilitätsargument, kein Beweis.`,
+              voices: [
+                {
+                  person: 'edersheim',
+                  role: 'als Kenner des Judentums zur Zeit Jesu',
+                  text: `Edersheim deutet die Hirten von Bethlehem im Licht der Mischna: In der Gegend um Migdal Eder („Herdenturm", vgl. Gen 35,21; Mi 4,8) weideten Herden, deren Tiere für die Tempelopfer bestimmt waren. Er hielt es deshalb für möglich, dass diese Herden das ganze Jahr über im Freien blieben, und sah darin eine sinnvolle Verbindung: Die ersten Zeugen der Geburt des Lammes Gottes hüteten Opferlämmer.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Alfred Edersheim', work: 'The Life and Times of Jesus the Messiah', ref: 'Buch II, Kap. 6', year: '1883', quote: `Die Herden bei Migdal Eder als Tempelherden, die auch im Winter im Freien weideten (unter Berufung auf Mischna Schekalim 7,4).`, status: 'paraphrase', note: 'Edersheims Deutung ist eine Hypothese; die Mischna-Stelle spricht von Tieren, die zwischen Jerusalem und Migdal Eder gefunden werden.' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'natalis-invicti-gleicher-tag',
+                  objection: `Aber im selben Kalender von 354 steht am 25. Dezember „Natalis Invicti", der Geburtstag des Unbesiegten. Und die Väter nennen Christus die „Sonne der Gerechtigkeit". Das ist doch Sonnenkult im christlichen Gewand.`,
+                  objectionBy: "Tim O'Neill",
+                  answer: `Beide Einträge stehen tatsächlich im Chronographen von 354 – aber welche Feier zuerst da war, lässt sich aus dieser Quelle nicht entscheiden; vorher ist ein Sol-Fest am 25. Dezember nicht belegt. Und die Sonnensymbolik ist biblisch, nicht heidnisch: „Euch aber, die ihr meinen Namen fürchtet, soll aufgehen die Sonne der Gerechtigkeit" (Mal 3,20). Christen haben dieses Bild bewusst gegen die Sonnenverehrung gestellt: Augustinus mahnte, nicht die Sonne zu feiern, sondern den, der die Sonne gemacht hat. Ein Bild umzudeuten ist das Gegenteil davon, eine Gottheit zu übernehmen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Maleachi', ref: '3,20 (Luther: 4,2)', quote: `Euch aber, die ihr meinen Namen fürchtet, soll aufgehen die Sonne der Gerechtigkeit und Heil unter ihren Flügeln.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Welche Quelle vor 354 belegt ein Sonnenfest am 25. Dezember – und woher weißt du, dass das Christfest jünger ist als der Natalis Invicti?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -136,6 +188,30 @@ const claim: Claim = {
           objection: `Beda ist ein zuverlässiger Zeuge. Wenn er sagt, der Name stammt von einer Göttin, dann wurde das Fest nach ihr benannt.`,
           objectionBy: 'Dan McClellan',
           answer: `Mag sein, dass der Monatsname auf eine Göttin zurückgeht – Beda sagt, der Monat hieß so, und das christliche Fest übernahm den Monatsnamen. Das ist wie bei unseren Wochentagen: „Donnerstag" kommt von Donar, und trotzdem betet niemand Donar an, wenn er donnerstags zur Kirche geht. Der Name ist angelsächsisch, das Fest ist jüdisch-christlich und viel älter.`,
+          followUps: [
+            {
+              id: 'ostara-hase',
+              objection: `Jacob Grimm hat gezeigt, dass die germanische Ostara eine Frühlingsgöttin war – und der Hase war ihr heiliges Tier. Deshalb bringt der Osterhase die Eier.`,
+              objectionBy: 'Populäre Religionskritik',
+              answer: `Grimm hat „Ostara" 1835 aus dem Wort selbst und Bedas Notiz erschlossen – eine Rekonstruktion, keine antike Quelle. Eine Verbindung zwischen dieser Göttin und dem Hasen findet sich in keiner alten Quelle; sie stammt aus dem 19. Jahrhundert. Der Osterhase taucht erstmals 1682 in einer medizinischen Abhandlung des Georg Franck von Franckenau auf, als Volksbrauch im Südwesten Deutschlands. Ein Brauch des 17. Jahrhunderts macht ein Fest des 2. Jahrhunderts nicht heidnisch.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Jacob Grimm', work: 'Deutsche Mythologie', year: '1835', quote: `Erschließt aus Bedas Eostre und dem deutschen Wort „Ostern" eine germanische Göttin Ostara.`, status: 'paraphrase' },
+                { kind: 'sonstiges', author: 'Georg Franck von Franckenau', work: 'De ovis paschalibus (Über die Ostereier)', year: '1682', quote: `Frühe Erwähnung des Brauchs, dass der Osterhase die Eier bringe.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'sonntag-sonnentag',
+                  objection: `Und euer Sonntag ist der Tag der Sonne. Konstantin machte 321 den „ehrwürdigen Tag der Sonne" zum Ruhetag. Das Christentum ist bis in den Wochenrhythmus Sonnenkult.`,
+                  objectionBy: 'Populäre Religionskritik',
+                  answer: `Christen versammelten sich am „ersten Tag der Woche" (Apg 20,7; 1 Kor 16,2) und nannten ihn „Herrentag" (Offb 1,10) – Jahrhunderte vor Konstantin, als Tag der Auferstehung. Justin erklärt um 155 dem Kaiser, warum Christen sich am „Tag der Sonne", wie ihr ihn nennt, versammeln: weil Gott an diesem Tag die Schöpfung begann und Christus auferstand. Er benutzt den heidnischen Namen, um verstanden zu werden. Im Koptischen, Griechischen und in vielen Sprachen heißt der Tag bis heute „Tag des Herrn" (Kyriakē).`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '67', year: 'ca. 155', quote: `Am Tag, den man Sonntag nennt, versammeln sich alle; denn es ist der erste Tag, an dem Gott die Welt schuf, und an diesem Tag ist Jesus Christus von den Toten auferstanden.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Offenbarung', ref: '1,10', quote: `Ich war im Geist an des Herrn Tag.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

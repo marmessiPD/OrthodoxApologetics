@@ -133,6 +133,34 @@ const claim: Claim = {
               questionsBack: [
                 `Welche Befundlage würde dich bei einer Heilung zumindest an der Placebo-Erklärung zweifeln lassen?`,
               ],
+              followUps: [
+                {
+                  id: 'anekdoten-keine-evidenz',
+                  objection: `Ohne Kontrollgruppe und Verblindung bleiben das Anekdoten – egal wie gut die Röntgenbilder sind. In der evidenzbasierten Medizin stehen Fallberichte ganz unten in der Hierarchie.`,
+                  objectionBy: 'Edzard Ernst',
+                  answer: `Für die Frage „Wirkt ein Medikament?" hast du völlig recht. Aber ein Wunder ist keine wiederholbare Therapie, sondern ein **einzelnes Ereignis** – und einzelne Ereignisse prüft man mit Dokumentation, nicht mit Randomisierung. Übrigens beruht auch das Wissen über Spontanremissionen, auf das du dich berufst, fast ausschließlich auf Fallberichten. Wer Fallberichte grundsätzlich verwirft, verliert auch seine eigene Gegenerklärung.`,
+                  detail: `Die Evidenzhierarchie (Metaanalysen oben, Fallberichte unten) dient der Bewertung von **Behandlungen**: Wirkt Mittel X besser als Placebo? Für die Frage, ob ein bestimmtes Ereignis stattgefunden hat und ob es natürlich erklärbar ist, sind gut dokumentierte Einzelfälle mit Vorher-nachher-Befunden das angemessene Werkzeug – ähnlich wie in der Rechtsmedizin oder bei der Erstbeschreibung seltener Krankheiten. Die klassische Übersicht zur spontanen Krebsregression (Everson & Cole 1966) ist selbst eine Sammlung von Fallberichten.
+
+Die Religionswissenschaftlerin Candy Gunther Brown hat genau diese methodische Frage untersucht: Man kann Heilungsberichte nicht wie Medikamente testen, aber man kann medizinische Vorher-nachher-Befunde sammeln, unabhängig prüfen lassen und kritisch bewerten.`,
+                  voices: [
+                    {
+                      person: 'candy-gunther-brown',
+                      role: 'als Religionswissenschaftlerin, Indiana University',
+                      text: `Brown diskutiert in *Testing Prayer: Science and Healing* (2012), welche Methoden für die Untersuchung von Heilungsgebeten taugen. Sie kritisiert sowohl leichtgläubige Zeugnisse als auch die Vorstellung, nur randomisierte Studien könnten etwas zeigen, und plädiert für medizinisch dokumentierte Fallstudien und prospektive Messungen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Candy Gunther Brown', work: 'Testing Prayer: Science and Healing', year: '2012', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Tilden C. Everson & Warren H. Cole', work: 'Spontaneous Regression of Cancer', year: '1966', status: 'paraphrase', note: 'Standardwerk; sammelt rund 176 Fallberichte spontaner Krebsregression.' },
+                  ],
+                  questionsBack: [
+                    `Woher weißt du von Spontanremissionen – aus randomisierten Studien oder aus Fallberichten?`,
+                    `Wie würdest du ein einmaliges Ereignis randomisieren?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -149,6 +177,18 @@ const claim: Claim = {
           id: 'timing-zufall',
           objection: `Bei Millionen Gebeten trifft das Timing eben manchmal zufällig.`,
           answer: `Bei einem einzelnen Merkmal ja. Entscheidend ist die Kombination: organische Krankheit **und** plötzlich **und** vollständig **und** dauerhaft **und** im Moment des Gebets. Jedes Merkmal senkt die Zufallswahrscheinlichkeit weiter. Außerdem behauptet niemand, jede Genesung nach einem Gebet sei ein Wunder – es geht um wenige, sehr gut dokumentierte Fälle.`,
+          followUps: [
+            {
+              id: 'treffer-zaehlen',
+              objection: `Das ist klassischer Bestätigungsfehler: Ihr zählt die Treffer und vergesst die Millionen Gebete, die nicht erhört wurden. Hätte man auch die Fehlschläge dokumentiert, bliebe nichts übrig.`,
+              objectionBy: 'Michael Shermer',
+              answer: `Für die Behauptung „Gebet heilt zuverlässig" wäre das ein vernichtender Einwand – aber die behaupte ich nicht. Gott ist kein Automat, und die meisten Kranken werden nicht wunderbar geheilt; das sagt die Kirche offen. Mein Punkt ist ein anderer: Wenn auch nur **ein** Fall gut dokumentiert und natürlich unerklärlich ist, ist die These „Wunder gibt es nicht" in Frage gestellt. Fehlschläge an anderer Stelle ändern nichts daran, ob dieser eine Fall geschehen ist.`,
+              detail: `Ein Vergleich: Dass die meisten Lottoscheine verlieren, beweist nicht, dass ein bestimmter Gewinner gelogen hat – man prüft den Gewinnschein. Genauso prüft man bei einer behaupteten Heilung die Befunde vor und nach dem Ereignis. Die Bestätigungsfehler-Kritik ist berechtigt gegenüber Gemeinden, die nur Erfolgsgeschichten erzählen; deshalb gehören zu einer ehrlichen Wunderprüfung auch die vielen verworfenen Fälle (in Lourdes die große Mehrheit der Dossiers).`,
+              questionsBack: [
+                `Widerlegt die Zahl der Nieten, dass ein bestimmtes Los gewonnen hat?`,
+              ],
+            },
+          ],
         },
       ],
     },
