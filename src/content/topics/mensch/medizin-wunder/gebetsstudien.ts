@@ -207,6 +207,74 @@ const claim: Claim = {
               objection: `Browns Studie hatte 24 Teilnehmer, keine Kontrollgruppe und keine Verblindung. Suggestion kann Hör- und Sehtests beeinflussen.`,
               objectionBy: 'Methodenkritik',
               answer: `Alles richtig – es ist eine Pilotstudie, und die Autoren sagen das selbst. Sie ist ein Hinweis, kein Beweis, und verdient kontrollierte Wiederholung. Meine Argumentation ruht nicht auf ihr. Sie zeigt nur, dass „Gebetsstudien zeigen keine Wirkung" eine Verallgemeinerung aus einer ganz bestimmten, untypischen Gebetsform ist.`,
+              followUps: [
+                {
+                  id: 'gesundheit-nur-confounding',
+                  objection: `Und die Gesundheitsvorteile religiöser Menschen sind Confounding: Gesündere gehen eher in die Kirche, nicht umgekehrt. Kranke bleiben zu Hause.`,
+                  objectionBy: 'Richard Sloan',
+                  answer: `Diesen Einwand haben die Forscher ernst genommen. In der Nurses' Health Study (VanderWeele u. a.) wurden rund 74.000 Frauen über 16 Jahre begleitet; der frühere Gesundheitszustand, Rauchen, Gewicht und andere Faktoren wurden berücksichtigt. Frauen, die mehr als einmal pro Woche einen Gottesdienst besuchten, hatten ein um etwa ein Drittel geringeres Sterberisiko. Sensitivitätsanalysen zeigen, wie stark ein unbekannter Störfaktor sein müsste, um das wegzuerklären.`,
+                  detail: `Wichtig: Diese Studien messen die **eigene religiöse Praxis**, nicht die Wirkung von Fürbitte für andere – und sie beweisen nicht Gott. Sie widerlegen aber die Behauptung, Glaube sei gesundheitlich wertlos oder schädlich. Harold Koenig hat in seinen Übersichtswerken Tausende Studien ausgewertet; die Mehrheit zeigt positive Zusammenhänge zwischen Religiosität und psychischer wie körperlicher Gesundheit. Ehrlich: Kausalität ist bei Beobachtungsstudien nie endgültig gesichert, und es gibt auch belastende Formen von Religiosität (z. B. Angst vor einem strafenden Gott).`,
+                  voices: [
+                    {
+                      person: 'vanderweele',
+                      role: 'als Epidemiologe, Harvard T. H. Chan School of Public Health',
+                      text: `VanderWeele hat mit Kollegen in großen prospektiven Kohorten (u. a. Nurses' Health Study) gezeigt, dass regelmäßiger Gottesdienstbesuch mit geringerer Sterblichkeit, weniger Depression und weniger Suiziden verbunden ist – auch nach Kontrolle zahlreicher Störfaktoren. Er betont, dass dies Zusammenhänge der gemeinschaftlichen religiösen Praxis betrifft, nicht private Spiritualität allein.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Shanshan Li, Meir J. Stampfer, David R. Williams, Tyler J. VanderWeele', work: '„Association of Religious Service Attendance With Mortality Among Women", JAMA Internal Medicine 176 (6)', ref: '777–785', year: '2016', status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'koenig',
+                      role: 'als Psychiater und Gesundheitsforscher, Duke University',
+                      text: `Koenig hat im *Handbook of Religion and Health* (mit McCullough, Larson, später VanderWeele) die Forschungslage systematisch zusammengefasst. Er unterscheidet klar zwischen der gut untersuchten Wirkung eigener Religiosität und der methodisch kaum fassbaren Fernwirkung von Fürbitte.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Harold G. Koenig, Tyler J. VanderWeele, John R. Peteet', work: 'Handbook of Religion and Health', year: '3. Aufl. 2023', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wie stark müsste ein unbekannter Störfaktor sein, um einen Effekt dieser Größe zu erklären – und welcher sollte das sein?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'galton-monarchen',
+      objection: `Schon Francis Galton zeigte 1872: Monarchen, für die ganz England jeden Sonntag betet, leben nicht länger als andere Wohlhabende. Wenn Gebet wirkte, müsste man das sehen.`,
+      objectionBy: 'Richard Dawkins (nach Francis Galton)',
+      targetsPremise: 2,
+      answer: `Galtons Aufsatz war zur Hälfte Provokation und methodisch grob – Monarchen hatten andere Lebensumstände, Ärzte und Risiken als Vergleichsgruppen. Vor allem aber verspricht die Bibel nirgends, dass Menschen, für die viele beten, länger leben. Das Gebet für den König bat um eine gerechte, friedliche Herrschaft (1 Tim 2,1–2), nicht um eine statistische Lebensverlängerung.`,
+      detail: `Galton, Darwins Vetter und Begründer der Eugenik, veröffentlichte „Statistical Inquiries into the Efficacy of Prayer" 1872 in der *Fortnightly Review*. Der Aufsatz ist ein frühes Beispiel dafür, Gebet wie eine Arznei zu behandeln. Das Missverständnis liegt im Modell: Gebet ist nach christlichem Verständnis Bitte an eine Person, die frei und weise antwortet – nicht ein Mechanismus, der proportional zur Zahl der Betenden wirkt.`,
+      sources: [
+        { kind: 'gegner', author: 'Francis Galton', work: '„Statistical Inquiries into the Efficacy of Prayer", Fortnightly Review 12', year: '1872', status: 'paraphrase' },
+        { kind: 'bibel', work: '1. Timotheus', ref: '2,1–2', quote: `So ermahne ich nun, daß man vor allen Dingen zuerst tue Bitte, Gebet, Fürbitte und Danksagung für alle Menschen, für die Könige und für alle Obrigkeit, auf daß wir ein geruhiges und stilles Leben führen mögen in aller Gottseligkeit und Ehrbarkeit.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'jesus-verspricht-erhoerung',
+          objection: `Aber Jesus verspricht doch ausdrücklich: „Alles, was ihr bittet in eurem Gebet, glaubet nur, daß ihr's empfangen werdet, so wird's euch werden" (Mk 11,24). Das ist eine überprüfbare Zusage – und sie trifft nicht ein.`,
+          objectionBy: 'Victor Stenger',
+          answer: `Man muss solche Verse im Zusammenhang der ganzen Schrift lesen: Bitten „in meinem Namen" (Joh 14,13) heißt im Sinn und Willen Jesu bitten; Johannes schreibt ausdrücklich: „wenn wir etwas bitten **nach seinem Willen**, so hört er uns" (1 Joh 5,14). Jesus selbst betete in Gethsemane, der Kelch möge vorübergehen – „doch nicht wie ich will, sondern wie du willst" (Mt 26,39). Wenn sogar die Bitte des Sohnes nicht nach dem Wortlaut erfüllt wurde, war die Zusage nie ein Blankoscheck.`,
+          detail: `Die Väter lesen diese Verse als Einladung zu kühnem Vertrauen, nicht als Garantie beliebiger Wünsche. Jakobus warnt sogar: „Ihr bittet und nehmet nicht, darum daß ihr übel bittet" (Jak 4,3). Paulus bat dreimal um Befreiung von seinem „Pfahl im Fleisch" und erhielt die Antwort: „Laß dir an meiner Gnade genügen" (2 Kor 12,9). Erhörung heißt in der Bibel: Gott antwortet – manchmal mit Ja, manchmal mit Nein, manchmal mit etwas Besserem.`,
+          sources: [
+            { kind: 'bibel', work: '1. Johannes', ref: '5,14', quote: `Und das ist die Freudigkeit, die wir haben zu ihm, daß, so wir etwas bitten nach seinem Willen, so hört er uns.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Matthäus', ref: '26,39', quote: `Mein Vater, ist's möglich, so gehe dieser Kelch von mir; doch nicht wie ich will, sondern wie du willst!`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'ja-nein-warte-leer',
+              objection: `„Ja, nein oder warte" – damit ist jedes Ergebnis mit Gebet vereinbar. Eine Hypothese, die nichts ausschließt, ist leer.`,
+              objectionBy: 'Victor Stenger / Richard Dawkins',
+              answer: `Das Gebet ist keine **Hypothese** über Ergebnisse, sondern die Beziehung zu einer Person. Auch die Bitte eines Kindes an seine Eltern ist mit jedem Ergebnis „vereinbar" – und trotzdem ist es nicht leer, dass Eltern zuhören und antworten. Ob es diesen Gott gibt, prüft man nicht am Gebet, sondern an anderen Gründen: an der Existenz und Ordnung der Welt, am Gewissen und vor allem an der Auferstehung Jesu. Dort ist der Glaube sehr wohl angreifbar (1 Kor 15,14).`,
+              detail: `Der Einwand verwechselt zwei Ebenen: (1) die Frage, ob Gott existiert und sich offenbart hat – sie ist mit historischen und philosophischen Argumenten prüfbar; (2) die Frage, wie Gott im Einzelfall auf Bitten antwortet – sie folgt aus seiner Weisheit und Freiheit und ist darum nicht vorhersagbar wie ein Naturgesetz. Wer (2) nicht testen kann, hat (1) damit nicht widerlegt. Gläubige berichten zudem, dass Gebet sie selbst verändert: Es lehrt Vertrauen, Geduld, Dank und Nächstenliebe – Früchte, die man im Leben sehen kann.`,
+              questionsBack: [
+                `Ist die Beziehung zu deinen Eltern leer, weil sie dir nicht jeden Wunsch erfüllt haben?`,
+                `An welchem Punkt ist der christliche Glaube nach Paulus angreifbar – und hast du ihn dort geprüft?`,
+              ],
             },
           ],
         },

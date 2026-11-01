@@ -197,6 +197,40 @@ const claim: Claim = {
           objection: `Dann ist eben das Christentum an sich intolerant.`,
           objectionBy: 'Richard Dawkins',
           answer: `Die Kirche der ersten Jahrhunderte lehrte das Gegenteil: Tertullian schrieb, Religion dürfe nicht erzwungen werden, Laktanz, sie werde durch Sterben verteidigt, nicht durch Töten. Zwang kam auf, als Kirche und Staatsmacht sich verbanden – und widersprach dem Wort Jesu an Petrus: „Stecke dein Schwert an seinen Ort." Die koptische Kirche, die über Jahrhunderte Verfolgte war, weiß, auf welcher Seite des Schwertes das Evangelium steht.`,
+          followUps: [
+            {
+              id: 'augustinus-compelle',
+              objection: `Tertullian und Laktanz schrieben als verfolgte Minderheit. Kaum hatten Christen Macht, klang es anders: Augustinus rechtfertigte mit „Nötige sie hereinzukommen" (Lk 14,23) staatlichen Zwang gegen die Donatisten.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Das stimmt, und es war eine verhängnisvolle Wende, die später zur Rechtfertigung von Zwang herangezogen wurde. Aber gerade das zeigt das Muster: Nicht das Evangelium änderte sich, sondern die Lage der Kirche – mit der Macht kam die Versuchung. Und es gab auch in der Zeit der Macht Gegenstimmen: Athanasius schrieb, es sei die Art des Erlösers, nicht zu zwingen, sondern zu überzeugen. Der Maßstab bleibt Christus, nicht die Kirchengeschichte.`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als verfolgter Bischof unter kaiserlichem Druck',
+                  text: `Athanasius, der selbst fünfmal von Kaisern verbannt wurde, kritisiert in seiner Geschichte der Arianer den Einsatz staatlicher Gewalt in Glaubensfragen: Die Wahrheit werde nicht mit Schwertern und Soldaten verkündet, sondern durch Überzeugung; Zwang sei ein Kennzeichen der Häresie, nicht der Frömmigkeit.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Geschichte der Arianer (Historia Arianorum)', ref: '33; 67', year: 'ca. 357', quote: `Es ist Sache der Frömmigkeit, nicht zu zwingen, sondern zu überzeugen; der Herr selbst habe niemanden gezwungen.`, status: 'paraphrase', note: 'Abschnittsangaben als Orientierung.' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Augustinus', work: 'Briefe', ref: 'Ep. 93; Ep. 185', year: 'ca. 408; 417', quote: `Rechtfertigung staatlicher Zwangsmaßnahmen gegen die Donatisten unter Berufung auf Lk 14,23.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'athanasius-selbst-gewalt',
+                  objection: `Ausgerechnet Athanasius! Ihm wurde vorgeworfen, seine Anhänger hätten die Melitianer verprügeln lassen – ein Papyrus aus dem Jahr 335 belegt das. Heuchelei.`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Ein fairer Einwand: Der Papyrus London 1914 berichtet von Übergriffen von Anhängern des Athanasius auf Melitianer, und Historiker nehmen das ernst. Andere Vorwürfe gegen ihn – etwa der angebliche Mord an Arsenios, der dann lebend vor der Synode erschien – waren erfunden. Ich verehre Athanasius als Lehrer der Kirche, aber ich muss nicht jedes Handeln seiner Anhänger verteidigen. Ein richtiges Prinzip wird nicht falsch, weil Menschen – auch Heilige und ihr Umfeld – dahinter zurückbleiben.`,
+                  detail: `Hier ist Ehrlichkeit besonders wichtig, weil es um einen Heiligen der eigenen Kirche geht. Die koptische Kirche verehrt Athanasius wegen seines Bekenntnisses zur Gottheit Christi, nicht wegen moralischer Fehlerlosigkeit in jeder Auseinandersetzung. Die Synode von Tyrus (335) war zugleich politisch gegen ihn gesteuert; die Quellenlage ist parteiisch auf beiden Seiten. Das Unrecht an den Melitianern bleibt Unrecht.`,
+                  sources: [
+                    { kind: 'sonstiges', work: 'Papyrus London 1914 (ed. H. I. Bell, Jews and Christians in Egypt)', year: '335; Edition 1924', quote: `Brief eines melitianischen Mönchs über Gewalt von Anhängern des Athanasius gegen Melitianer in Alexandrien.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Widerlegt das Versagen eines Menschen das Prinzip, das er lehrte – oder zeigt es, wie nötig das Prinzip ist?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
