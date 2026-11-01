@@ -162,6 +162,34 @@ const claim: Claim = {
               questionsBack: [
                 `Wenn du nicht weißt, welche Maschine du bist – woher weißt du dann, dass du eine bist?`,
               ],
+              followUps: [
+                {
+                  id: 'seltsame-schleife',
+                  objection: `Gödel zeigt sogar, wie Bewusstsein aus Mechanik entsteht: Ein formales System kann sich über Codierung auf sich selbst beziehen. Das Ich ist genau so eine „seltsame Schleife" – ein selbstreferentielles Muster im Gehirn, kein Geist von außen.`,
+                  objectionBy: 'Douglas Hofstadter (Gödel, Escher, Bach, 1979; I Am a Strange Loop, 2007)',
+                  answer: `Ein schönes Bild – aber eine Analogie, kein Mechanismus. Ein Gödelsatz „spricht über sich selbst" nur **unter einer Deutung**, die ein Mathematiker vornimmt: Für die Maschine ist er eine Zeichenkette wie jede andere. Selbstbezug in einem Code setzt also schon einen Geist voraus, der Bedeutung zuschreibt. Und warum sich eine Rückkopplungsschleife **anfühlen** sollte wie etwas, erklärt das Bild nicht: Thermostate haben auch Rückkopplung.`,
+                  detail: `Hofstadter ist einer der brillantesten Vermittler Gödels; man sollte ihn mit Respekt behandeln. Aber sein Programm verschiebt das Problem: Die Gödelisierung funktioniert, weil **wir** Zahlen als Codes für Sätze lesen. Die Bedeutung („Dieser Satz ist unbeweisbar") existiert nicht in den Zahlen selbst, sondern in der Interpretation. Hier setzt John Lucas an: Der Mathematiker kann sich gleichsam „über" jedes System stellen, das ihn darstellen soll, und dessen Gödelsatz als wahr erkennen.
+
+Hofstadter selbst hat in späteren Interviews eingeräumt, dass das Rätsel des Bewusstseins nicht gelöst ist. Für deine Debatte genügt: Selbstbezug ist eine notwendige, aber offenkundig keine hinreichende Bedingung für ein Ich.`,
+                  voices: [
+                    {
+                      person: 'john-lucas',
+                      role: 'als Philosoph (Oxford), Urheber des Gödel-Arguments gegen den Mechanismus',
+                      text: `Lucas argumentierte in „Minds, Machines and Gödel" (1961): Für jede Maschine, die als Modell des menschlichen Geistes vorgeschlagen wird, kann der Mensch einen Satz angeben, den die Maschine nicht beweisen kann, den er selbst aber als wahr erkennt. Lucas räumte ein, dass das Argument voraussetzt, dass der Geist widerspruchsfrei ist, und verteidigte es über Jahrzehnte gegen Einwände – als „dialektisches" Argument, das den Mechanisten herausfordert, sein Modell zu benennen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'J. R. Lucas', work: '„Minds, Machines and Gödel", Philosophy 36', year: '1961', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Douglas R. Hofstadter', work: 'I Am a Strange Loop', year: '2007', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wer liest die Gödelnummer als Satz über sich selbst – die Maschine oder der Mathematiker?`,
+                    `Hat ein Thermostat mit Rückkopplung schon ein bisschen Ich?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -170,6 +198,31 @@ const claim: Claim = {
           objection: `Menschen glauben ständig Widersprüchliches. Also gelten Gödels Voraussetzungen für sie gar nicht.`,
           objectionBy: 'Paul Benacerraf',
           answer: `Unsere Meinungen sind oft widersprüchlich – aber Mathematiker können Fehler erkennen und korrigieren. Und für jedes konkret genannte widerspruchsfreie System, etwa die Peano-Arithmetik, erkennen wir den Gödelsatz als wahr, weil wir wissen, warum das System widerspruchsfrei ist (wir kennen sein Standardmodell). Die Frage ist, ob dieses Erkennen selbst mechanisch ist – das bleibt offen.`,
+          followUps: [
+            {
+              id: 'physik-ist-berechenbar',
+              objection: `Das Gehirn ist ein physikalisches System, und die Physik ist berechenbar (Church-Turing-Deutsch-Prinzip). Also ist alles, was das Gehirn tut, prinzipiell von einem Computer simulierbar. Fertig.`,
+              objectionBy: 'Max Tegmark / Ray Kurzweil',
+              answer: `Das ist ein Zirkel: Dass **alles** am menschlichen Denken physikalisch und berechenbar ist, ist genau die strittige These – du setzt sie als Prämisse ein. Dass die bekannte Physik berechenbar ist, ist zudem eine Vermutung (Deutsch formuliert es als Prinzip, nicht als Beweis). Und selbst eine perfekte Simulation des Gehirns wäre so wenig ein Geist, wie die Simulation eines Gewitters nass ist.`,
+              detail: `Hier hilft die Unterscheidung zwischen **Verhalten** und **Erleben**: Eine Simulation kann Ausgaben reproduzieren; ob sie dabei etwas versteht oder erlebt, folgt daraus nicht (Searles chinesisches Zimmer). Gödels Disjunktion zeigt zusätzlich: Wenn der Geist eine Maschine ist, dann eine, die ihre eigene Beschreibung nie mit Gewissheit kennen kann. Die Behauptung „Der Geist ist berechenbar" ist also bestenfalls eine Hoffnung, kein Ergebnis.`,
+              questionsBack: [
+                `Ist die Aussage „Alles Denken ist berechenbar" selbst ein Ergebnis der Physik – oder eine philosophische Voraussetzung?`,
+              ],
+              followUps: [
+                {
+                  id: 'orch-or-widerlegt',
+                  objection: `Penroses Ausweg – nichtberechenbare Quantenprozesse in den Mikrotubuli (Orch-OR, mit Hameroff) – ist doch widerlegt. Ich habe 2000 selbst gezeigt, dass die Dekohärenz im warmen Gehirn viel zu schnell ist.`,
+                  objectionBy: 'Max Tegmark',
+                  answer: `Ich verteidige Orch-OR nicht; es ist eine spekulative Hypothese, und Tegmarks Dekohärenz-Rechnung ist ein ernster Einwand (Hameroffs Gruppe bestreitet die Annahmen). Aber mein Argument hängt daran nicht: Ob das Denken mechanisch ist, entscheidet sich an Bewusstsein, Bedeutung und mathematischer Einsicht – nicht an einer bestimmten Theorie über Quanteneffekte im Gehirn. Penroses Physik kann falsch sein, während seine Frage richtig bleibt.`,
+                  detail: `Wichtig für dich: Verknüpfe den Glauben nie mit einer bestimmten neurowissenschaftlichen Hypothese. Die christliche Sicht vom Menschen als Einheit von Leib und vernunftbegabter Seele hängt nicht davon ab, wo im Gehirn sich der Geist „zeigt". Die Väter betonten die Einheit des Menschen; die Seele ist kein Bauteil, das man unter dem Mikroskop findet, sondern das Prinzip, das den Leib zu einem lebendigen, erkennenden Menschen macht.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Max Tegmark', work: '„Importance of quantum decoherence in brain processes", Physical Review E 61', year: '2000', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Roger Penrose', work: 'Shadows of the Mind', year: '1994', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -184,6 +237,18 @@ const claim: Claim = {
           objection: `Wenn Maschinen Gödel-Grenzen haben und Menschen vielleicht auch, gibt es keinen Unterschied.`,
           answer: `Vielleicht nicht in der reinen Beweiskraft – das ist die offene Disjunktion. Der Unterschied, auf den es mir ankommt, liegt woanders: Bewusstsein, Bedeutung und Verstehen. Dazu siehe die Debatte über KI und Bewusstsein. Gödel ist dafür nur ein Baustein, nicht das Fundament.`,
           detail: `Siehe Themenblock „Informatik und Künstliche Intelligenz", Claim „KI wird Bewusstsein entwickeln".`,
+          followUps: [
+            {
+              id: 'ki-entdeckt-neue-mathematik',
+              objection: `Warte ein paar Jahre: KI wird neue Sätze beweisen, die kein Mensch versteht. Dann ist der Mythos vom besonderen mathematischen Geist erledigt.`,
+              objectionBy: 'Ray Kurzweil',
+              answer: `Gut möglich, dass KI neue Sätze findet – und ich würde mich darüber freuen. Aber bedenke, was das hieße: Es gäbe mathematische Wahrheiten, die schon **vor** ihrer Entdeckung wahr waren und die eine Maschine „findet". Das stützt den Realismus über Mathematik, nicht den Materialismus. Ob die Maschine dabei etwas **versteht**, bleibt offen – und einen Beweis, den niemand versteht, müssen am Ende Menschen prüfen und deuten.`,
+              detail: `Schon heute werden computergestützte Beweise (Vierfarbensatz 1976, Keplersche Vermutung, Hales 1998/2014) eingesetzt; formale Beweisprüfer wie Lean bestätigen Beweise maschinell. Das ist ein Triumph menschlicher Werkzeugbaukunst – so wie das Teleskop ein Triumph der Astronomie ist. Gödel bleibt davon unberührt: Jede KI arbeitet als festes System (oder als Folge fester Systeme) und unterliegt dessen Grenzen. Die Frage nach Bewusstsein und Bedeutung ist eine andere als die nach Rechenleistung.`,
+              questionsBack: [
+                `Wenn eine KI einen Satz entdeckt – war er vorher schon wahr? Und wer hat ihn wahr gemacht?`,
+              ],
+            },
+          ],
         },
       ],
     },

@@ -163,6 +163,70 @@ const claim: Claim = {
           objection: `Vielleicht teilte Jesus als Mensch einfach die Annahmen seiner Zeit. Er war kein Bibelwissenschaftler.`,
           objectionBy: 'Bart Ehrman',
           answer: `Für Christen ist Jesus der menschgewordene Logos; seine Lehre ist wahr. Die Orthodoxie unterscheidet zwischen dem, was er bewusst lehrt, und Fragen, die er nicht berührt. Hier lehrt er ausdrücklich, dass Moses Schriften von ihm zeugen – das ist eine theologische Kernaussage, keine Nebenbemerkung. Wer sie als Irrtum erklärt, kritisiert nicht nur die Tradition, sondern Christus selbst; das sollte man offen benennen.`,
+          followUps: [
+            {
+              id: 'jesus-wusste-stunde-nicht',
+              objection: `Jesus sagt selbst, dass er Tag und Stunde nicht kennt (Mk 13,32). Wenn sein Wissen begrenzt war, warum nicht auch bei der Frage, wer den Pentateuch schrieb?`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Weil Nichtwissen und Falschlehren zwei verschiedene Dinge sind. In Mk 13,32 kennzeichnet Jesus ausdrücklich, was er nicht sagt – er lehrt keinen falschen Termin. Bei Mose dagegen lehrt er positiv, dass dessen Schriften von ihm zeugen. Die Väter haben Mk 13,32 gründlich bedacht: Athanasius deutet das Nichtwissen auf die angenommene menschliche Natur und die Heilsordnung, nicht als Irrtum des einen Herrn.`,
+              detail: `Für die koptische Christologie ist wichtig: Christus ist eine Person, die fleischgewordene Natur des Gott-Logos. Wenn er etwas lehrt, lehrt der Logos. Dass er „nach seiner Menschheit" Begrenzungen annahm – Hunger, Müdigkeit, Nichtwissen-Wollen um der Heilsordnung willen –, heißt nicht, dass er Irrtümer verkündete. Wichtig ist auch die Bescheidenheit: Jesus lehrt einen echten mosaischen Ursprung, nicht eine bestimmte Theorie über jede einzelne Zeile.`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als Ausleger von Mk 13,32',
+                  text: `Athanasius behandelt in seinen Reden gegen die Arianer ausführlich das Wort vom Nichtwissen der Stunde. Er deutet es als Aussage, die dem Logos „nach dem Fleisch" zukommt, das er um unseretwillen angenommen hat; als Gott kennt er alles. Das Nichtwissen ist für ihn keine Fehlbarkeit der Lehre, sondern Teil der freiwilligen Selbsterniedrigung.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'III,42–46', year: 'ca. 340', quote: `Das Nichtwissen der Stunde wird dem Fleisch zugeschrieben, das der Logos annahm; als Logos weiß er alles.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '13,32', quote: `Von dem Tage aber und der Stunde weiß niemand, auch die Engel nicht im Himmel, auch der Sohn nicht, sondern allein der Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'p-nachexilisch',
+      objection: `Seit Wellhausen ist klar: Die Priesterschrift mit ihrer Kultzentralisation und Priesterhierarchie gehört in die Zeit nach dem Exil. Damit ist ein großer Teil des Pentateuch Jahrhunderte nach Mose entstanden.`,
+      objectionBy: 'Konrad Schmid',
+      answer: `Gerade diese Datierung ist sprachlich unter Druck geraten. Avi Hurvitz hat gezeigt, dass die priesterlichen Texte klassisches biblisches Hebräisch zeigen, nicht das späte Hebräisch von Chronik, Esra und Nehemia. Selbst Richard Elliott Friedman, ein Verfechter der Quellenscheidung, datiert P vorexilisch. Und auf den Silberamuletten von Ketef Hinnom, um 600 v. Chr., steht der Priestersegen aus Num 6 – ein Text, den die Kritik P zuordnet, war also vor dem Exil in Jerusalem in Gebrauch.`,
+      sources: [
+        { kind: 'fachliteratur', author: 'Avi Hurvitz', work: 'A Linguistic Study of the Relationship between the Priestly Source and the Book of Ezekiel', year: '1982', quote: `Die Sprache der Priesterschrift gehört zum klassischen, vorexilischen Hebräisch.`, status: 'paraphrase' },
+        { kind: 'sonstiges', work: 'Silberamulette von Ketef Hinnom (Israel Museum)', year: 'ca. 600 v. Chr.', quote: `Fassung des Priestersegens: „Der HERR segne dich und behüte dich; der HERR lasse sein Angesicht leuchten …"`, status: 'paraphrase', note: 'Älteste bekannte Textzeugen eines Bibeltextes (vgl. Num 6,24–26); Lesung durch neue Bildgebung (Barkay u. a. 2004) gesichert.' },
+      ],
+      followUps: [
+        {
+          id: 'sprachdatierung-unsicher',
+          objection: `Die sprachliche Datierung ist selbst umstritten. Ian Young und Robert Rezetko haben gezeigt, dass spätere Autoren klassisches Hebräisch schreiben konnten. Hurvitz beweist gar nichts.`,
+          objectionBy: 'Kipp Davis',
+          answer: `Wenn das stimmt, trifft es beide Seiten: Dann sind auch die sprachlichen Kriterien, mit denen Texte spät datiert werden, unsicher. Man kann nicht Hurvitz verwerfen und gleichzeitig Wellhausens Sprachbeobachtungen behalten. Die ehrliche Folge wäre: Die Datierung des Pentateuch ist weit offener, als Lehrbücher suggerieren – und das ist genau mein Punkt.`,
+          sources: [
+            { kind: 'gegner', author: 'Ian Young, Robert Rezetko, Martin Ehrensvärd', work: 'Linguistic Dating of Biblical Texts', year: '2008', quote: `Sprachliche Merkmale erlauben keine sichere Datierung biblischer Texte; frühes und spätes Hebräisch sind eher Stile als Epochen.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ketef-nur-segensformel',
+              objection: `Ketef Hinnom zeigt nur, dass eine liturgische Segensformel kursierte. Daraus folgt nicht, dass die Priesterschrift als Buch existierte.`,
+              objectionBy: 'Joel Baden',
+              answer: `Einverstanden – drei Verse beweisen kein Buch. Aber sie zeigen, dass priesterliches Gut, das nach Wellhausen erst nach dem Exil entstand, vorher in Jerusalem im Gebrauch war. Zusammen mit der Sprache wird ein rein nachexilisches P schwer haltbar. Wie alt die Überlieferung darüber hinaus ist, entscheiden die Amulette nicht.`,
+              followUps: [
+                {
+                  id: 'mose-konnte-nicht-hebraeisch-schreiben',
+                  objection: `Zur Zeit Moses gab es noch gar keine hebräische Schrift. Das hebräische Alphabet entwickelt sich erst im 10. Jahrhundert. Wie hätte Mose eine Tora schreiben sollen?`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Alphabetschrift ist viel älter: Die protosinaitischen Inschriften von Serabit el-Chadim im Sinai, geschrieben von semitischen Arbeitern im ägyptischen Bergbau, stammen aus dem frühen 2. Jahrtausend v. Chr. Ein am ägyptischen Hof erzogener Mann (Apg 7,22) konnte zudem Hieratisch. Natürlich wurde der Text später in jüngere Schrift und Sprachform übertragen – so wie man heute Luther 1545 in moderner Rechtschreibung druckt. Das ist Überlieferung, keine Erfindung.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Orly Goldwasser', work: 'How the Alphabet Was Born from Hieroglyphs. Biblical Archaeology Review 36/2', year: '2010', quote: `Das Alphabet wurde von kanaanäischen Arbeitern in den Türkisminen von Serabit el-Chadim aus Hieroglyphen entwickelt.`, status: 'paraphrase', note: 'Goldwasser ist Ägyptologin und keine Apologetin.' },
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '7,22', quote: `Und Mose ward gelehrt in aller Weisheit der Ägypter und war mächtig in Werken und Worten.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn semitische Arbeiter im Sinai im 2. Jahrtausend alphabetisch schreiben konnten – warum nicht ein am Hof erzogener Hebräer?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

@@ -142,6 +142,92 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'aus-zwei-wie-eutyches',
+      objection: `„Dioskur sagte in Chalcedon: ‚Aus zwei Naturen nehme ich an, zwei nehme ich nicht an.' Das ist genau die Formel des Eutyches: zwei Naturen vor der Einigung, eine danach. Dioskur und Eutyches sind dasselbe."`,
+      objectionBy: 'Byzantinisch-orthodoxer Theologe',
+      answer: `Das Problem des Eutyches war nicht die Formel „eine Natur nach der Einigung" – die stammt von Kyrill –, sondern dass er bestritt, dass Christi Leib uns wesensgleich ist. Auf der Synode von Konstantinopel 448 gab er zu, das bis dahin nie gesagt zu haben, und räumte es erst unter Druck ein. Dioskur dagegen bekannte Christus als uns wesensgleich, aus Gottheit und Menschheit, ohne Vermischung und ohne Verwandlung. Eine Formel zu teilen heißt nicht, ihren Missbrauch zu teilen.`,
+      detail: `Die Akten der Synode von 448 wurden in der ersten Sitzung von Chalcedon verlesen. Sie zeigen, dass Eutyches die Wesensgleichheit des Leibes Christi mit uns nur zögernd zugab. Genau dies – die Verkürzung der wahren Menschheit – verwirft die koptische Kirche mit der ganzen Tradition. Dioskurs Formel „aus zwei Naturen" ist die Kyrills: Der eine Christus ist aus Gottheit und Menschheit, die in der Einigung in ihrer Wirklichkeit bleiben.`,
+      sources: [
+        { kind: 'fachliteratur', author: 'Richard Price / Michael Gaddis (Übers.)', work: 'The Acts of the Council of Chalcedon, Bd. 1 (1. Sitzung mit den verlesenen Akten der Synode von Konstantinopel 448)', year: '2005', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'aus-zwei-zeitlich',
+          objection: `„‚Aus zwei Naturen' setzt voraus, dass es die zwei Naturen vor der Einigung gab – also hätte die Menschheit Christi vorher existiert. Entweder ist das absurd oder eutychianisch: zwei vorher, eine nachher."`,
+          objectionBy: 'Katholischer Theologe',
+          answer: `„Aus zwei" heißt nicht, dass die Menschheit vorher für sich existierte. Es heißt: Der eine Christus ist aus Gottheit und Menschheit gebildet, die in der Einigung wirklich bleiben – so wie ein Mensch aus Seele und Leib besteht, ohne dass Seele und Leib vorher getrennt existiert hätten. Kyrill gebraucht genau dieses Bild. Die Menschheit Christi entsteht im Augenblick der Einigung im Schoß der Jungfrau.`,
+          voices: [
+            {
+              person: 'kyrill-alexandrien',
+              role: 'als Lehrer der Einigung',
+              text: `Kyrill erklärt in seinem Brief an Akakios von Melitene, dass wir in der Betrachtung erkennen, aus welchen Wirklichkeiten der eine Sohn besteht – aus Gottheit und Menschheit –, dass wir ihn aber nach der Einigung nicht in zwei zerteilen. Der Vergleich mit Seele und Leib zeigt: Aus zweien entsteht einer, ohne dass die beiden ineinander verwandelt werden.`,
+              sources: [{ kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Brief 40 an Akakios von Melitene', year: 'um 433', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'warum-in-zwei-ablehnen',
+              objection: `„Wenn ‚aus zwei' ohne Vermischung gemeint ist – warum lehnt ihr dann ‚in zwei Naturen' ab? Das ist doch dasselbe."`,
+              objectionBy: 'Byzantinisch-orthodoxer Theologe',
+              answer: `Historisch war „in zwei Naturen" die Losung der antiochenischen Partei um Theodoret, und zusammen mit Leos Satz „jede Gestalt wirkt, was ihr eigen ist" klang sie für Alexandriner nach zwei handelnden Subjekten. Bezeichnend: Der erste Entwurf der Definition in Chalcedon sagte „aus zwei Naturen" und wurde erst auf Druck der römischen Legaten und des Kaisers geändert. Heute erkennen beide Kirchenfamilien an, dass beide Formeln rechtgläubig verstanden werden können – wenn „in zwei" keine Trennung und „eine Natur" keine Vermischung meint.`,
+              voices: [
+                {
+                  person: 'v-c-samuel',
+                  role: 'als Historiker des Konzils von Chalcedon',
+                  text: `V. C. Samuel zeigt in seiner Untersuchung des Konzils, dass die Änderung des Definitionsentwurfs von „aus zwei" zu „in zwei Naturen" unter politischem Druck geschah und dass die Gegner des Konzils darin nicht eine Verteidigung gegen Eutyches, sondern ein Zugeständnis an die antiochenische Theologie sahen.`,
+                  sources: [{ kind: 'fachliteratur', author: 'V. C. Samuel', work: 'The Council of Chalcedon Re-Examined', year: '1977', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'dioskur-hochmuetig',
+                  objection: `„Selbst wenn seine Lehre rechtgläubig war: Dioskur war herrisch und machtbewusst. Zur Heiligkeit gehört mehr als die richtige Formel."`,
+                  objectionBy: 'Katholischer Kirchenhistoriker',
+                  answer: `Dass Dioskur hart auftreten konnte, muss man nicht bestreiten – und die Quellen über ihn sind auf beiden Seiten parteiisch. Die koptische Kirche verehrt ihn als Bekenner: Er ging lieber in die Verbannung nach Gangra, wo er 454 starb, als ein Bekenntnis zu unterschreiben, das er für gefährlich hielt. Heilige sind nicht sündlos – Paulus und Barnabas stritten heftig (Apg 15,39), Petrus wurde von Paulus öffentlich zurechtgewiesen (Gal 2,11).`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'leo-latrocinium',
+      objection: `„Papst Leo selbst nannte Ephesus 449 ein *latrocinium*, eine Räubersynode. Ein Konzil, das der Papst verwirft, ist ungültig – damit ist die Sache entschieden."`,
+      objectionBy: 'Erick Ybarra',
+      answer: `Der Ausdruck stammt aus Leos Brief an Kaiserin Pulcheria (451) – also vom Urheber des Tomus, der in Ephesus nicht verlesen wurde; ein neutraler Richter war er nicht. Wichtiger noch: Die koptische Kirche zählt Ephesus 449 gar nicht zu den ökumenischen Konzilien – sie anerkennt nur Nizäa, Konstantinopel und Ephesus 431. Wer Dioskurs Glauben verteidigt, muss nicht jedes Vorgehen von 449 rechtfertigen.`,
+      sources: [
+        { kind: 'gegner', author: 'Leo I. von Rom', work: 'Brief 95 an Kaiserin Pulcheria', year: '451', status: 'paraphrase', note: 'Hier bezeichnet Leo die Synode von 449 als „latrocinium".' },
+      ],
+      followUps: [
+        {
+          id: 'dann-war-absetzung-gerecht',
+          objection: `„Du gibst also zu, dass 449 fehlerhaft war. Dann war die Absetzung Dioskurs in Chalcedon gerecht."`,
+          objectionBy: 'Katholischer Kirchenhistoriker',
+          answer: `Verfahrensfehler von 449 gestehe ich zu. Aber auch Chalcedon hatte solche: Die dritte Sitzung, in der Dioskur abgesetzt wurde, fand ohne die kaiserlichen Kommissare und in seiner Abwesenheit statt. Abgesetzt wurde er aus disziplinarischen Gründen – und doch wurde daraus später eine Glaubensspaltung gemacht. Beide Synoden zeigen, wie kaiserliche Kirchenpolitik das kirchliche Leben verzerrte. Die Lehre daraus: Glaubensfragen nach dem Glauben beurteilen, nicht nach Siegern und Verlierern.`,
+          followUps: [
+            {
+              id: 'aegyptischer-nationalismus',
+              objection: `„In Wahrheit war die Ablehnung Chalcedons ägyptischer Nationalismus gegen Byzanz. Die Theologie war nur ein Vorwand."`,
+              objectionBy: 'Byzantinischer Historiker (ältere Forschung)',
+              answer: `Diese These war im 19. und frühen 20. Jahrhundert verbreitet, wurde aber vom Althistoriker A. H. M. Jones gründlich kritisiert: Die Quellen zeigen echte religiöse Motive, keine verkappten Nationalbewegungen. Zudem waren die Gegner Chalcedons keineswegs nur Ägypter: Syrer, Armenier und griechischsprachige Theologen wie Severus von Antiochien gehörten dazu, und Dioskur selbst schrieb Griechisch.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'A. H. M. Jones', work: '„Were Ancient Heresies National or Social Movements in Disguise?", Journal of Theological Studies NS 10', year: '1959', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'warum-dioskur-heute',
+                  objection: `„Warum sollte ein heutiger Kopte überhaupt einen Bischof des 5. Jahrhunderts verteidigen?"`,
+                  objectionBy: 'Evangelischer Freund',
+                  answer: `Weil der Vorwurf „Dioskur war Häretiker" bis heute benutzt wird, um zu sagen, die Kopten seien Monophysiten außerhalb der Kirche. Wer die Fakten kennt, kann zeigen, dass der koptische Glaube der Glaube Kyrills und der ungeteilten Kirche ist. Und Dioskur lehrt einen Grundsatz, der in jedem Streit hilft: Person, Verfahren und Lehre unterscheiden – und lieber ins Exil gehen, als den Glauben zu verwässern.`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche christologische Irrlehre wird Dioskur im Urteil von Chalcedon konkret vorgeworfen?`,
