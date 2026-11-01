@@ -212,6 +212,81 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'wer-mich-sieht',
+      objection: `Jesus selbst sagt: „Ich und der Vater sind eins" (Joh 10,30) und „Wer mich sieht, der sieht den Vater" (Joh 14,9). Philippus wollte den Vater sehen – Jesus sagt: Du siehst ihn doch, hier stehe ich. Deutlicher kann man nicht sagen, dass Jesus der Vater ist.`,
+      objectionBy: 'David K. Bernard',
+      answer: `Lies genau: „Ich und der Vater **sind** eins" – Plural, „wir sind" (esmen). Und „eins" steht im Neutrum (hen), also „eine Sache", nicht „eine Person" (heis). Wer den Sohn sieht, sieht den Vater, weil der Sohn sein vollkommenes Ebenbild ist (Hebr 1,3; Kol 1,15) – nicht weil er der Vater ist. Im selben Gespräch sagt Jesus: „Ich gehe zum Vater" (14,12.28) und „Ich will den Vater bitten, und er wird euch einen anderen Beistand geben" (14,16). Man geht nicht zu sich selbst und bittet sich selbst.`,
+      detail: `Schon Hippolyt von Rom antwortete um 200 dem Modalisten Noëtus mit genau diesem Vers: Jesus sagte nicht „Ich und der Vater **bin** eins", sondern „**sind** eins"; das „sind" wird nicht von einer Person gesagt, sondern von zwei Personen und einer Macht. Athanasius erklärt Joh 14,9 mit dem Bild vom Licht und seinem Glanz: Wer den Glanz sieht, sieht das Licht – und doch ist der Glanz nicht die Quelle, sondern aus ihr. Für die koptische Kirche ist das der Kern: Der Sohn ist „Licht vom Licht", eines Wesens mit dem Vater und doch von ihm unterschieden.`,
+      voices: [
+        {
+          person: 'hippolyt-rom',
+          role: 'als früher Gegner des Modalismus',
+          text: `Hippolyt setzt sich mit Noëtus auseinander, der lehrte, der Vater selbst sei geboren worden und habe gelitten. Er nimmt dessen Lieblingsverse – darunter Joh 10,30 – und zeigt am Wortlaut, dass sie zwei voraussetzen: „Wir sind" ist kein Ausdruck für einen Einzigen. Die Einheit von Vater und Sohn liegt für Hippolyt in der einen Macht und dem einen Willen, nicht in der Aufhebung der Unterscheidung.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Hippolyt von Rom', work: 'Gegen Noëtus (Contra Noetum)', ref: '7', year: 'um 200–210', status: 'paraphrase' },
+          ],
+        },
+        {
+          person: 'athanasius',
+          role: 'als Ausleger von Joh 10,30 und 14,9',
+          text: `Athanasius weist beide Abwege zurück: Die Arianer machen den Sohn zu einem Geschöpf, Sabellius macht Vater und Sohn zu einem. Beides verfehlt Joh 10,30. Der Sohn ist „im Vater und der Vater im Sohn" wie der Glanz im Licht – ungetrennt, aber nicht derselbe. Darum sieht, wer den Sohn sieht, den Vater: nicht weil es nur einen gäbe, sondern weil der Sohn das ganze Wesen des Vaters in sich trägt.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'III,3–6', year: 'um 339–345', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '10,30', status: 'paraphrase', original: 'ἐγὼ καὶ ὁ πατὴρ ἕν ἐσμεν', quote: `Ich und der Vater sind eins.` },
+      ],
+      questionsBack: [
+        `Warum sagt Jesus „wir sind eins" und nicht „ich bin der Vater"?`,
+        `Wen bittet Jesus in Joh 14,16 – und wen sendet dieser?`,
+      ],
+      followUps: [
+        {
+          id: 'paraklet-ist-jesus',
+          objection: `Der „andere Beistand" ist Jesus selbst in anderer Gestalt: „Ich will euch nicht als Waisen lassen, ich komme zu euch" (Joh 14,18). Und Paulus sagt: „Der Herr ist der Geist" (2 Kor 3,17). Sohn und Geist sind derselbe – nur zwei Offenbarungsweisen.`,
+          objectionBy: 'David K. Bernard',
+          answer: `Jesus sagt „ein **anderer** (allos) Beistand" – er selbst ist der erste Beistand (1 Joh 2,1). Der Geist „wird nicht von sich selbst reden", „er wird mich verherrlichen, denn von dem Meinen wird er nehmen" (Joh 16,13–14). Wer verherrlicht sich selbst, indem er „von dem Seinen nimmt" und es weitergibt? Dass Jesus im Geist zu den Jüngern kommt, zeigt die Einheit der Wirksamkeit, nicht die Gleichheit der Hypostasen. Und 2 Kor 3,17 erklärt Ex 34,34 („wenn Mose zum HERRN hineinging"): Der „HERR" dort ist der Geist – das beweist die Gottheit des Geistes, nicht dass er der Sohn ist.`,
+          sources: [
+            { kind: 'bibel', work: '2. Korinther', ref: '13,13', quote: `Die Gnade unsers HERRN Jesu Christi und die Liebe Gottes und die Gemeinschaft des heiligen Geistes sei mit euch allen!`, translation: 'Luther 1912', status: 'verbatim', note: 'In manchen Ausgaben 13,14.' },
+          ],
+          questionsBack: [
+            `Wenn der Geist Jesus selbst ist – wie kann er dann „von dem Meinen nehmen" und Jesus verherrlichen (Joh 16,14)?`,
+          ],
+          followUps: [
+            {
+              id: 'fuelle-der-gottheit',
+              objection: `In Christus „wohnt die ganze Fülle der Gottheit leibhaftig" (Kol 2,9). Die **ganze** Fülle! Wenn alles in ihm ist, bleibt für einen Vater und einen Geist daneben nichts mehr übrig.`,
+              objectionBy: 'David K. Bernard',
+              answer: `Die ganze Fülle der Gottheit wohnt in Christus, weil er eines Wesens mit dem Vater ist – das bekennen wir mit dir. Aber Fülle heißt nicht, dass es außer ihm niemanden gibt: Jesus sagt, „der Vater ist in mir und ich bin im Vater" (Joh 14,10). In sich selbst kann man so nicht „sein" – dieses gegenseitige Innewohnen setzt zwei voraus, die einander ganz durchdringen. Darum ist der Vater nicht „daneben", sondern im Sohn, und der Sohn im Vater – ein Gott, nicht zwei Hälften.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Ausleger des Johannesevangeliums',
+                  text: `Kyrill erklärt Joh 14,10 mit der Wesensgleichheit: Der Vater ist im Sohn und der Sohn im Vater, weil sie dieselbe Gottheit haben – nicht wie ein Gefäß ein anderes enthält, sondern so, dass der eine im anderen ganz erkannt wird. Er wehrt damit zugleich die Arianer ab, die den Sohn vom Wesen des Vaters trennen, und die Sabellianer, die beide zu einer einzigen Person verschmelzen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium (zu 14,10)', year: 'um 425–428', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'name-des-vaters-jesus',
+                  objection: `Jesus sagt: „Ich bin gekommen im Namen meines Vaters" (Joh 5,43), und er betet: „Bewahre sie in deinem Namen, den du mir gegeben hast" (Joh 17,11). Der Name des Vaters ist Jesus. Darum taufen wir im Namen Jesu – das ist der Name von Vater, Sohn und Geist.`,
+                  objectionBy: 'David K. Bernard',
+                  answer: `„Im Namen von jemandem kommen" heißt in der Bibel: in seiner Vollmacht kommen – „Gelobt sei, der da kommt im Namen des HERRN" (Ps 118,26). Und Joh 17,11 sagt gerade: Der Vater **gab** dem Sohn seinen Namen. Wer etwas gibt, ist nicht der, der empfängt. Der Name, den der Vater dem Sohn gibt, ist der Gottesname selbst – „Herr", vor dem sich jedes Knie beugt (Phil 2,9–11). Dass Vater und Sohn denselben göttlichen Namen tragen, zeigt, dass beide wahrhaft Gott sind, nicht dass sie eine einzige Person sind. Darum tauft die Kirche, wie Jesus befahl, „auf den Namen des Vaters und des Sohnes und des Heiligen Geistes" – ein Name, drei Hypostasen.`,
+                  questionsBack: [
+                    `Wenn der Vater dem Sohn seinen Namen „gegeben hat" (Joh 17,11) – wer ist der Geber und wer der Empfänger?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Mit wem sprach Jesus in Joh 17 – mit sich selbst?`,

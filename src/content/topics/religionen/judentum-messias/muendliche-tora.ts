@@ -109,6 +109,21 @@ const claim: Claim = {
               objection: `Menachot 29b zeigt gerade, dass Akibas Lehre „Halacha an Mose vom Sinai" ist – Mose wird am Ende getröstet. Die Überlieferung ist ungebrochen.`,
               objectionBy: 'Michael Skobac',
               answer: `Ja, die Geschichte endet tröstlich. Ihre Schönheit liegt gerade darin, dass sie Kontinuität bekennt und zugleich offen zugibt, dass die spätere Auslegung weit über das hinausging, was Mose selbst wiedererkannte. Genau das ist mein Punkt: Die rabbinische Überlieferung ist Auslegung, die sich auf Sinai beruft. Auch die Kirche kennt Entfaltung – aber sie führt ihre Auslegung auf die Apostel zurück, die sie vom Messias empfingen, durch den Gott „zuletzt geredet hat" (Hebr 1,1–2).`,
+              followUps: [
+                {
+                  id: 'nicht-im-himmel',
+                  objection: `„Sie ist nicht im Himmel" (Dtn 30,12). Der Talmud lehrt am Ofen des Achnai: Selbst eine Himmelsstimme kann die Mehrheit der Weisen nicht überstimmen, und Gott lacht und sagt: „Meine Kinder haben mich besiegt" (bBava Mezia 59b). Die Halacha liegt bei den Weisen – kein Prophet und auch kein Jesus kann sie an sich reißen.`,
+                  objectionBy: 'Michael Skobac',
+                  answer: `Eine der schönsten Geschichten des Talmuds – und sie zeigt ehrlich, worauf die rabbinische Autorität ruht: auf der Mehrheit der Weisen, notfalls sogar gegen den Himmel. Aber die Tora selbst hat für einen bestimmten Fall vorgesorgt: Gott verheißt einen Propheten wie Mose und sagt: „Wer auf meine Worte nicht hören wird, die er in meinem Namen redet, von dem will ich es fordern" (Dtn 18,19). Wenn Gott diesen Propheten sendet, kann keine Mehrheit ihn überstimmen. Und Dtn 30,12–14 sagt, das Wort ist „nahe, in deinem Mund und in deinem Herzen" – Paulus liest das vom Messias, der zu uns gekommen ist (Röm 10,6–8).`,
+                  sources: [
+                    { kind: 'juedisch', work: 'Babylonischer Talmud, Bava Mezia', ref: '59b', quote: `Rabbi Josua stand auf und sagte: „Sie ist nicht im Himmel" (Dtn 30,12) … Rabbi Natan traf Elija und fragte: Was tat der Heilige, gepriesen sei er, in dieser Stunde? Er sagte: Er lächelte und sprach: Meine Kinder haben mich besiegt, meine Kinder haben mich besiegt.`, status: 'paraphrase', url: 'https://www.sefaria.org/Bava_Metzia.59b' },
+                    { kind: 'bibel', work: 'Deuteronomium', ref: '18,18–19', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Gott selbst den Propheten wie Mose sendet und sagt „auf ihn sollt ihr hören" – kann dann eine Mehrheit der Weisen ihn überstimmen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -134,6 +149,21 @@ const claim: Claim = {
               questionsBack: [
                 `Wer ist der Prophet wie Mose, auf den Israel nach Dtn 18,15 hören soll?`,
               ],
+              followUps: [
+                {
+                  id: 'kusari-prinzip',
+                  objection: `Das Kusari-Argument: Kein Volk hätte je eine Geschichte akzeptiert, nach der seine eigenen Vorfahren zu Millionen eine Offenbarung erlebten, wenn das nicht stimmte. Euer Christentum ruht auf ein paar Zeugen, unser Glaube auf einem ganzen Volk.`,
+                  objectionBy: 'Michael Skobac',
+                  answer: `Ich bestreite den Sinai nicht – ich glaube ihn mit dir. Aber das Argument beweist bestenfalls, dass Gott am Sinai sprach; es beweist nicht, dass jede spätere Halacha dort gegeben wurde – das bezeugt kein Volk. Und das Zeugnis für Jesu Auferstehung ist nicht „ein paar Zeugen": Paulus nennt um 55 n. Chr. über fünfhundert Zeugen, „von denen die meisten noch leben" (1 Kor 15,6) – eine öffentliche Einladung zur Nachprüfung, in derselben Generation, in Jerusalem, unter Juden. Wer öffentliche Zeugenschaft als Kriterium nimmt, muss es auf beide anwenden.`,
+                  detail: `Das Argument geht auf Jehuda ha-Levis „Kusari" (12. Jh.) zurück und wird heute vor allem in der jüdischen Gegenmission vertreten. Es hat seine Stärke, aber auch Grenzen: Es setzt voraus, dass die Erzählung von Anfang an als nationale Erfahrung überliefert wurde – genau das ist historisch schwer zu prüfen. Für Christen ist wichtig: Das Argument nicht lächerlich machen, denn es verteidigt eine Offenbarung, an die wir selbst glauben. Der Streitpunkt ist nicht der Sinai, sondern die Vollmacht über seine Auslegung.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,6', quote: `Danach ist er gesehen worden von mehr denn fünfhundert Brüdern auf einmal, deren noch viele leben, etliche aber sind entschlafen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Beweist der Sinai, dass Gott sprach – oder auch, dass jede Halacha der Mischna dort gegeben wurde?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -153,6 +183,28 @@ const claim: Claim = {
           questionsBack: [
             `Wenn auch die mündliche Tora Streit und verschiedene Schulen kennt – warum soll Streit gegen die Verständlichkeit der Schrift sprechen?`,
           ],
+          followUps: [
+            {
+              id: 'pharisaeer-volk',
+              objection: `Im 1. Jahrhundert waren die Pharisäer die Lehrer des Volkes – Josephus bezeugt es. Die Sadduzäer, die die mündliche Tora ablehnten, sind mit dem Tempel verschwunden. Die Geschichte hat entschieden, welche Überlieferung die echte war.`,
+              objectionBy: 'Stuart Federow',
+              answer: `Josephus bezeugt den großen Einfluss der Pharisäer, das stimmt. Und Jesus stand ihnen in vielem am nächsten: Auferstehung, Engel, Gebet, Liebe zur Tora. Aber „die Geschichte hat entschieden" ist kein theologisches Argument – sonst müsste man auch andere historische Sieger für wahr halten. Bemerkenswert ist: Viele Pharisäer schlossen sich der Jesusbewegung an (Apg 15,5), und ihr bekanntester Vertreter, Paulus, nannte sich noch als Apostel „ein Pharisäer, eines Pharisäers Sohn" (Apg 23,6).`,
+              sources: [
+                { kind: 'juedisch', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: 'XVIII,15', year: 'um 94', status: 'paraphrase', quote: `Die Pharisäer haben großen Einfluss beim Volk; alles, was Gebete und Gottesdienst betrifft, geschieht nach ihrer Auslegung.` },
+              ],
+              followUps: [
+                {
+                  id: 'apostelkonzil-verrat',
+                  objection: `Ja – und gerade diese gläubigen Pharisäer verlangten, dass die Heiden beschnitten werden und die Tora halten (Apg 15,5). Sie wurden überstimmt. Das Christentum hat seine eigenen pharisäischen Wurzeln verraten.`,
+                  objectionBy: 'Tovia Singer',
+                  answer: `Überstimmt wurden sie von Juden: von Petrus und von Jakobus, dem Bruder Jesu, der selbst als besonders toratreu galt. Und die Entscheidung entspricht im Kern dem, was auch die Halacha lehrt: Nichtjuden müssen nicht Juden werden, um vor Gott gerecht zu sein; sie halten grundlegende Gebote (Apg 15,20; vgl. die noachidischen Gebote, bSanhedrin 56a). Das ist kein Verrat am pharisäischen Erbe, sondern eine Entscheidung, die viele Rabbinen in der Sache teilen würden. Neu war nur, dass Nichtjuden durch den Messias voll zu Gottes Volk gehören.`,
+                  questionsBack: [
+                    `Verlangt die Halacha von einem gerechten Nichtjuden, dass er sich beschneiden lässt und die ganze Tora hält?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -169,6 +221,22 @@ const claim: Claim = {
           answer: `Ein interessanter und fairer Hinweis. Nach Mischna Nedarim 9,1 erlaubte Rabbi Elieser, ein Gelübde wegen der Ehre der Eltern aufzulösen; die Weisen widersprachen zunächst und stimmten ihm später zu. Das zeigt: Die Praxis, die Jesus kritisierte, gab es, und die rabbinische Entwicklung bewegte sich später in die Richtung, die Jesus forderte. Jesus stand also mitten in einer innerjüdischen Debatte – als jüdischer Lehrer, nicht als Außenseiter.`,
           sources: [
             { kind: 'juedisch', work: 'Mischna, Nedarim', ref: '9,1', quote: `Rabbi Elieser sagt: Man eröffnet einem Menschen (die Auflösung seines Gelübdes) wegen der Ehre seines Vaters und seiner Mutter; die Weisen verbieten es … Die Weisen stimmten Rabbi Elieser in einer Sache zwischen einem Menschen und seinem Vater und seiner Mutter zu.`, status: 'paraphrase', url: 'https://www.sefaria.org/Mishnah_Nedarim.9.1' },
+          ],
+          followUps: [
+            {
+              id: 'ich-aber-sage-euch',
+              objection: `Und dieses „Ich aber sage euch"? Jeder Rabbi beruft sich auf seine Lehrer und auf die Schrift. Wer sich über Mose stellt, ist kein jüdischer Lehrer, sondern ein Anmaßender.`,
+              objectionBy: 'Shmuley Boteach',
+              answer: `Genau das ist die entscheidende Beobachtung – und du siehst es richtig: Jesus zitiert keine Lehrer, sondern spricht aus eigener Vollmacht, und er stellt die Nachfolge seiner Person in den Mittelpunkt. Damit bleibt nur zweierlei: Entweder ist er anmaßend – oder er ist der Prophet wie Mose, ja mehr als das. Ein „netter Rabbi unter vielen" ist er nach seinen eigenen Worten jedenfalls nicht. Darum führt jede Diskussion über die Überlieferung am Ende zu der Frage: Wer ist dieser Mann? Und die wird an der Auferstehung entschieden.`,
+              detail: `Der jüdische Gelehrte Jacob Neusner hat in seinem Buch „A Rabbi Talks with Jesus" (1993) genau diesen Punkt gesehen: Als Jude, der die Bergpredigt ernsthaft hört, stellt er fest, dass Jesus nicht nur die Tora auslegt, sondern sich selbst an die Stelle setzt, die der Tora und letztlich Gott zukommt – und darum folgt er ihm nicht. Papst Benedikt XVI. hat Neusners Ehrlichkeit ausdrücklich gewürdigt. Für dich ist das wertvoll: Ein redlicher jüdischer Gesprächspartner erkennt, dass Jesus Göttliches beansprucht – die Frage ist dann nicht mehr, *was* er beanspruchte, sondern *ob es wahr ist*.`,
+              sources: [
+                { kind: 'gegner', author: 'Jacob Neusner', work: 'A Rabbi Talks with Jesus', year: '1993', status: 'paraphrase', note: 'Neusner (1932–2016), jüdischer Religionswissenschaftler, lehnt Jesu Anspruch ab, erkennt aber an, dass Jesus sich an die Stelle der Tora setzt.' },
+                { kind: 'bibel', work: 'Matthäus', ref: '7,28–29', status: 'paraphrase', quote: `Das Volk entsetzte sich über seine Lehre, denn er lehrte gewaltig und nicht wie die Schriftgelehrten.` },
+              ],
+              questionsBack: [
+                `Wenn Jesus nicht wie die Schriftgelehrten, sondern aus eigener Vollmacht lehrte – welche Möglichkeiten bleiben dann außer „Anmaßung" oder „der verheißene Prophet"?`,
+              ],
+            },
           ],
         },
       ],

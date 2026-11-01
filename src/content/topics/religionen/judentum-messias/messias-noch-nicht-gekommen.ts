@@ -231,6 +231,78 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'andere-praetendenten',
+      objection: `Im 1. Jahrhundert traten viele auf: Theudas, Judas der Galiläer, der „Ägypter", später Bar Kochba, den sogar Rabbi Akiva für den Messias hielt. Dein Zeitfenster beweist bestenfalls, dass damals Messiasfieber herrschte – nicht, dass Jesus der Richtige war.`,
+      objectionBy: 'Michael Skobac',
+      answer: `Gerade dieser Vergleich hilft mir. Theudas und Judas der Galiläer starben, ihre Bewegungen zerfielen (Apg 5,36–37; Josephus). Bar Kochba trat erst 132 auf – nach der Zerstörung – und fiel 135; spätere Rabbinen nannten ihn „Bar Koziba", Sohn der Lüge. Das Zeitfenster sagt nicht allein, wer der Messias ist – es sagt, **wann** er kommen musste. Unter denen, die in diesem Fenster auftraten, ist nur einer, dessen Bewegung nach seinem Tod nicht zerfiel, sondern mit der Botschaft von seiner Auferstehung den Gott Israels zu den Völkern trug.`,
+      detail: `Schon Gamaliel, ein angesehener Pharisäer, formulierte im Hohen Rat genau dieses Kriterium: Theudas und Judas der Galiläer seien umgekommen und ihre Anhänger zerstreut worden; wenn die Sache der Apostel von Menschen sei, werde sie ebenso zerfallen, wenn sie aber von Gott sei, könne man sie nicht vernichten (Apg 5,34–39). Josephus bestätigt Theudas (Altertümer XX,97–98) und Judas den Galiläer (Altertümer XVIII,4–10; XX,102). Zu Bar Kochba überliefert der Jerusalemer Talmud, dass Rabbi Akiva ihn mit Num 24,17 („ein Stern geht auf aus Jakob") als König Messias begrüßte – und dass Rabbi Jochanan ben Torta widersprach: „Akiva, Gras wird aus deinen Kinnbacken wachsen, und der Sohn Davids wird noch nicht gekommen sein" (jTaanit 4,5 / 68d).`,
+      voices: [
+        {
+          person: 'lukas',
+          role: 'als Historiker der Urgemeinde',
+          text: `Lukas überliefert die Rede Gamaliels nicht als christliches Argument, sondern als Urteil eines führenden jüdischen Lehrers: Messianische Bewegungen, die von Menschen stammen, zerfallen mit dem Tod ihres Führers. Für Lukas ist das Fortbestehen und Wachsen der Jesusbewegung nach der Kreuzigung – bezeugt von Zeugen der Auferstehung – genau der Test, den Gamaliel genannt hatte.`,
+          sources: [
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '5,34–39', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'juedisch', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: 'XX,97–98', year: 'um 94', status: 'paraphrase', quote: `Theudas gab sich als Prophet aus und versprach, den Jordan zu teilen; der Statthalter Fadus ließ ihn töten.` },
+        { kind: 'juedisch', work: 'Jerusalemer Talmud, Taanit', ref: '4,5 (68d)', status: 'paraphrase', quote: `Rabbi Akiva sagte, als er Bar Kosiba sah: Dies ist der König Messias. Rabbi Jochanan ben Torta sagte zu ihm: Akiva, Gras wird aus deinen Kinnbacken wachsen, und der Sohn Davids wird noch nicht gekommen sein.` },
+      ],
+      questionsBack: [
+        `Welcher andere Messiasanwärter dieses Zeitfensters hat eine Bewegung hinterlassen, die nach seinem Tod den Gott Israels zu den Völkern brachte?`,
+      ],
+      followUps: [
+        {
+          id: 'hingerichtet-gescheitert',
+          objection: `Ein hingerichteter Messias ist ein gescheiterter Messias – genau wie alle anderen. Der Messias soll siegen, Israel sammeln und den Tempel bauen, nicht von den Römern gekreuzigt werden.`,
+          objectionBy: 'Tovia Singer',
+          answer: `Aber dann widersprichst du Daniel selbst: In 9,26 wird der Gesalbte „ausgerottet und hat nichts" – vor der Zerstörung. Daniel erwartet also, dass der Gesalbte getötet wird, bevor das Heiligtum fällt. Auch Jes 53 beschreibt einen Knecht, der „aus dem Land der Lebenden weggerissen" wird und danach „Nachkommen sehen und lange leben" wird (53,8.10). Ein Tod, auf den Leben folgt – das ist kein Scheitern, das ist die Ordnung, die die Propheten selbst vorgeben.`,
+          sources: [
+            { kind: 'bibel', work: 'Jesaja', ref: '53,8.10', status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Wenn Daniel einen Gesalbten ankündigt, der vor der Zerstörung „ausgerottet" wird – warum ist dann gerade die Hinrichtung ein Gegenbeweis?`,
+          ],
+          followUps: [
+            {
+              id: 'wachstum-beweist-nichts',
+              objection: `Dass eine Religion wächst, beweist gar nichts. Der Islam ist gewachsen, die Mormonen wachsen. Größe ist kein Kriterium für Wahrheit.`,
+              objectionBy: 'Michael Skobac',
+              answer: `Einverstanden – Größe allein beweist nichts. Mein Punkt ist ein anderer: Die Propheten kündigen an, dass durch den Knecht Gottes die **Völker den Gott Israels** erkennen werden (Jes 49,6; Sach 8,23; Mal 1,11). Genau das ist geschehen – nicht irgendein Gott, sondern der Gott Abrahams, Isaaks und Jakobs, mit Israels Schrift. Und der Grund, warum diese Bewegung nach der Kreuzigung nicht zerfiel, ist das Zeugnis von der Auferstehung. Darüber sollten wir reden.`,
+              detail: `Bemerkenswert ist, dass sogar Maimonides diesen Befund anerkennt – in einem Abschnitt, der in vielen gedruckten Ausgaben wegen der Zensur fehlte: Die Worte Jesu von Nazareth und des Ismaeliten (Mohammed), der nach ihm kam, hätten nur dazu gedient, dem König Messias den Weg zu bereiten; durch sie sei die Welt voll geworden vom Reden über den Messias, die Tora und die Gebote, bis zu den fernen Inseln und vielen Völkern (Mischne Tora, Hilchot Melachim 11,4, unzensierte Fassung).`,
+              voices: [
+                {
+                  person: 'michael-brown',
+                  role: 'als messianisch-jüdischer Apologet',
+                  text: `Brown verweist darauf, dass Maimonides selbst in der unzensierten Fassung von Hilchot Melachim 11,4 einräumt, dass durch Jesus die Völker mit den Schriften Israels, der Messiashoffnung und den Geboten bekannt wurden. Er zieht daraus nicht den Schluss, Maimonides sei heimlich Jesus-gläubig gewesen, sondern stellt die Frage: Welcher Messiasanwärter hat sonst getan, was die Propheten vom Knecht erwarten – das Licht für die Völker zu sein?`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Michael L. Brown', work: 'Answering Jewish Objections to Jesus, Bd. 1–3', year: '2000–2003', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'juedisch', author: 'Moses Maimonides', work: 'Mischne Tora, Hilchot Melachim', ref: '11,4 (unzensierte Fassung)', year: 'um 1180', status: 'paraphrase', quote: `Alle Worte Jesu von Nazareth und dieses Ismaeliten, der nach ihm kam, dienten nur dazu, dem König Messias den Weg zu bereiten … und die Welt ist voll geworden von den Worten über den Messias, die Tora und die Gebote.` },
+              ],
+              followUps: [
+                {
+                  id: 'rambam-verurteilt-jesus',
+                  objection: `Zitiere Maimonides bitte vollständig: Im selben Abschnitt sagt er, Jesus habe sich für den Messias gehalten, sei hingerichtet worden, habe Israel ins Schwert geführt und die Tora verändert. Das ist ein Urteil gegen Jesus, kein Zeugnis für ihn.`,
+                  objectionBy: 'Stuart Federow',
+                  answer: `Du hast recht, und das sage ich offen: Maimonides beurteilt Jesus hart, und ich nehme ihn nicht als Zeugen für Jesu Messianität. Ich nehme ihn als Zeugen für eine Tatsache, die er selbst nicht bestreiten konnte: dass durch Jesus die Völker die Schrift Israels und die Hoffnung auf den Messias kennengelernt haben – und dass er darin Gottes Vorsehung sah. Ob Jesus darüber hinaus der Messias ist, entscheidet sich nicht an Maimonides, sondern an der Frage, ob Gott ihn von den Toten auferweckt hat.`,
+                  detail: `Diese Ehrlichkeit ist wichtig: Wer nur die halbe Stelle zitiert, verliert das Vertrauen des Gegenübers. Vollständig zitiert, ist der Abschnitt trotzdem bemerkenswert. Maimonides hält fest, dass die Völker durch das Christentum (und den Islam) mit den Worten der Tora vertraut wurden, und deutet das heilsgeschichtlich. Christen sehen hier die Erfüllung von Jes 49,6: „Ich habe dich zum Licht der Nationen gemacht, dass mein Heil reiche bis an die Enden der Erde." Gleichzeitig bleibt die Last der Geschichte: Maimonides schrieb in einer Welt, in der Juden unter christlicher und muslimischer Herrschaft gelitten hatten. Diesen Schmerz sollst du anerkennen, nicht wegdiskutieren.`,
+                  questionsBack: [
+                    `Wenn Maimonides in der Verbreitung der Tora unter den Völkern durch Jesus Gottes Vorsehung sah – was sagt das über die Bedeutung dieses Mannes?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wer wurde nach Dan 9,26 vor der Zerstörung von Stadt und Heiligtum „ausgerottet"?`,

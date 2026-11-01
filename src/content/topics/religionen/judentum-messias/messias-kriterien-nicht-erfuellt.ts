@@ -161,7 +161,7 @@ Das Neue Testament verschweigt die unerfüllten Erwartungen nicht: Die Jünger f
               objectionBy: 'Stuart Federow',
               answer: `Einverstanden: Typologie allein beweist nichts – deshalb stütze ich mich zuerst auf die direkten Texte (Jes 53, Sach 12,10, Dan 9,26). Aber das Muster ist keine christliche Erfindung: Der Midrasch selbst sagt, der letzte Erlöser werde sein wie der erste – Mose offenbarte sich, verbarg sich und erschien wieder; so werde sich auch der Messias offenbaren, verborgen werden und wiederkommen.`,
               sources: [
-                { kind: 'juedisch', work: 'Midrasch Rut Rabba', ref: '5,6', quote: `Wie der erste Erlöser, so der letzte Erlöser: Der erste offenbarte sich ihnen und wurde dann vor ihnen verborgen … so wird sich auch der letzte Erlöser ihnen offenbaren und dann vor ihnen verborgen werden.`, status: 'unverified', note: 'Inhalt vielfach zitiert (vgl. auch Bamidbar Rabba 11,2; Pesikta Rabbati 15); Wortlaut und Zählung vor Verwendung an einer Ausgabe prüfen.' },
+                { kind: 'juedisch', work: 'Midrasch Rut Rabba', ref: '5,6', quote: `Wie der erste Erlöser, so der letzte Erlöser: Der erste offenbarte sich ihnen und wurde dann vor ihnen verborgen … so wird sich auch der letzte Erlöser ihnen offenbaren und dann vor ihnen verborgen werden.`, status: 'paraphrase', note: 'Geprüft (Soncino-Übersetzung, Ruth Rabbah 5,6): Rabbi Berechja im Namen Rabbi Levis – der künftige Erlöser wird wie der erste (Mose) sein; wie dieser sich offenbarte und dann verborgen wurde, so auch der künftige. Parallelen: Bamidbar Rabba 11,2; Pesikta Rabbati 15. Wortlaut hier sinngemäß.' },
               ],
               followUps: [
                 {

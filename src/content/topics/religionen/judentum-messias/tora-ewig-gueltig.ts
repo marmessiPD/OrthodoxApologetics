@@ -47,7 +47,7 @@ const claim: Claim = {
       { kind: 'juedisch', work: 'Babylonischer Talmud, Berachot', ref: '26b', quote: `Die Gebete wurden entsprechend den täglichen Opfern eingesetzt.`, status: 'paraphrase', url: 'https://www.sefaria.org/Berakhot.26b' },
       { kind: 'juedisch', work: 'Avot de-Rabbi Natan (Fassung A)', ref: '4', quote: `Rabbi Josua sah den zerstörten Tempel und klagte: Der Ort, an dem Israels Schuld gesühnt wurde, ist verwüstet! Rabban Jochanan ben Sakkai sagte: Mein Sohn, gräme dich nicht; wir haben eine andere Sühne, die ihr gleichkommt – die Werke der Barmherzigkeit, denn es heißt: „Ich habe Gefallen an Liebe und nicht am Opfer" (Hos 6,6).`, status: 'paraphrase' },
       { kind: 'juedisch', work: 'Babylonischer Talmud, Sanhedrin', ref: '56a–b', quote: `Die Rabbinen lehrten: Sieben Gebote wurden den Söhnen Noachs gegeben: Rechtspflege, Verbot der Gotteslästerung, des Götzendienstes, der Unzucht, des Blutvergießens, des Raubes und des Gliedes vom lebenden Tier.`, status: 'paraphrase', url: 'https://www.sefaria.org/Sanhedrin.56a' },
-      { kind: 'juedisch', work: 'Midrasch Wajikra Rabba', ref: '13,3', quote: `„Eine Tora wird von mir ausgehen" (Jes 51,4) – eine Erneuerung der Tora wird von mir ausgehen.`, status: 'unverified', note: 'Aggadische Aussage; Wortlaut und Deutung vor Verwendung prüfen. Nicht als „Beweis" überziehen.' },
+      { kind: 'juedisch', work: 'Midrasch Wajikra Rabba', ref: '13,3', quote: `Rabbi Avin bar Kahana sagte: Der Heilige, gepriesen sei er, sprach: „Eine Tora wird von mir ausgehen" (Jes 51,4) – eine Erneuerung der Tora wird von mir ausgehen.`, original: 'תורה חדשה מאתי תצא', status: 'paraphrase', note: 'Geprüft (Sefaria-Übersetzung; jüdische Sekundärliteratur): Stelle und Zuschreibung an Rabbi Avin bar Kahana bestätigt. Kontext: die Speisegesetze beim endzeitlichen Mahl (Behemot und Leviatan). Aggadisch; jüdische Ausleger verstehen sie meist als neue Einsicht in dieselbe Tora, nicht als Abschaffung. Nicht als „Beweis" überziehen.' },
     ],
   },
   quickAnswer: `Jesus hat die Tora nicht abgeschafft, sondern erfüllt (Mt 5,17), und Paulus sagt: „Wir richten das Gesetz auf" (Röm 3,31). Die Hebräische Bibel selbst kündigt einen neuen Bund an, „nicht wie der Bund mit euren Vätern" (Jer 31,31–32). „Ewig" (olam) heißt im Hebräischen oft „auf unabsehbare Zeit" – sogar die Rabbinen lesen „für immer" in Ex 21,6 als „bis zum Jobeljahr". Und seit 70 n. Chr. kann auch das Judentum Opfer, Priesterdienst und den Versöhnungstag nach Lev 16 nicht mehr halten – die Frage ist also nicht, ob sich etwas geändert hat, sondern wer die Vollmacht dazu hat.`,
@@ -127,6 +127,32 @@ const claim: Claim = {
               objection: `Gott vergibt dem Umkehrenden auch ohne Blut: Ninive (Jona 3), David (Ps 51), „Er hat dir gesagt, Mensch, was gut ist" (Mi 6,8). Blut ist keine Bedingung für Gottes Gnade.`,
               objectionBy: 'Tovia Singer',
               answer: `Gottes Erbarmen mit dem Umkehrenden ist wirklich – das glauben wir auch. Aber es geschieht im Rahmen einer Sühne, die Gott selbst bereitstellt: David betet in Ps 51 um ein reines Herz und schließt doch mit „dann wird man Stiere auf deinem Altar opfern" (51,21). Gnade ohne Opfer im Einzelfall verneint die Sühne nicht, sondern weist auf die Sühne hin, die Gott selbst schafft. Darüber sollten wir eigens sprechen – das ist die Frage nach dem stellvertretenden Leiden.`,
+              followUps: [
+                {
+                  id: 'mehlopfer-lev-5',
+                  objection: `Die Tora selbst kennt Sühne ohne Blut: Wer arm ist, bringt ein Zehntel Efa Feinmehl als Sündopfer, „und der Priester soll ihm Sühne schaffen" (Lev 5,11–13). Also ist Blut keine Bedingung.`,
+                  objectionBy: 'Tovia Singer',
+                  answer: `Ein guter Hinweis – aber lies weiter: Der Priester verbrennt das Mehl „auf dem Altar, auf den Feueropfern des HERRN" (5,12). Das Mehlopfer des ganz Armen wird mit den blutigen Opfern auf dem Altar vereinigt; es ist eine barmherzige Ausnahme innerhalb des Opfersystems, nicht seine Ersetzung. Und es gilt nur für bestimmte Vergehen (5,1–4). Die Ausnahme bestätigt die Regel von Lev 17,11 – und sie setzt einen Altar voraus, den es seit 70 n. Chr. nicht mehr gibt.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Levitikus', ref: '5,11–13', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Levitikus', ref: '17,11', quote: `Denn des Leibes Leben ist im Blut, und ich habe es euch auf den Altar gegeben, daß eure Seelen damit versöhnt werden. Denn das Blut ist die Versöhnung, weil das Leben in ihm ist.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'jom-kippur-suehnt-selbst',
+                      objection: `Die Mischna lehrt: Der Versöhnungstag selbst sühnt – für Vergehen zwischen Mensch und Gott; für Vergehen gegen den Nächsten erst, wenn man ihn versöhnt hat (Mischna Joma 8,9). Wir brauchen keinen Tempel und keinen gekreuzigten Messias.`,
+                      objectionBy: 'Stuart Federow',
+                      answer: `Ich achte diese Lehre – sie verbindet Umkehr und Versöhnung mit dem Nächsten, wie Jesus es auch tut (Mt 5,23–24). Aber die Tora bindet die Sühne des Versöhnungstages an den Hohenpriester, das Blut im Allerheiligsten und den Bock für Asasel (Lev 16,14–16.30–34). Dass der Tag „von selbst" sühnt, ist eine rabbinische Neudeutung nach dem Verlust des Tempels. Genau darum geht es: Auch ihr habt erlebt, dass sich die Gestalt des Gottesdienstes geändert hat. Wir sagen nur: Gott selbst hat für diesen Fall vorgesorgt – im Messias, der vor der Zerstörung kam.`,
+                      sources: [
+                        { kind: 'juedisch', work: 'Mischna, Joma', ref: '8,9', quote: `Für Übertretungen zwischen Mensch und Gott sühnt der Versöhnungstag; für Übertretungen zwischen Mensch und seinem Nächsten sühnt der Versöhnungstag nicht, bis er seinen Nächsten besänftigt hat.`, status: 'paraphrase', url: 'https://www.sefaria.org/Mishnah_Yoma.8.9' },
+                      ],
+                      questionsBack: [
+                        `Wo sagt die Tora selbst, dass der Versöhnungstag ohne Hohenpriester und ohne Blut im Allerheiligsten sühnt?`,
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -177,6 +203,21 @@ const claim: Claim = {
               questionsBack: [
                 `Was ist am neuen Bund „nicht wie" der Sinaibund, wenn sich gar nichts ändert?`,
               ],
+              followUps: [
+                {
+                  id: 'kein-prophet-wie-mose',
+                  objection: `Die Tora sagt selbst: „Es stand hinfort kein Prophet in Israel auf wie Mose" (Dtn 34,10). Niemand hat die Autorität Moses – auch dein Jesus nicht. Ein Prophet nach Mose darf die Tora nur einschärfen, nie verändern.`,
+                  objectionBy: 'Stuart Federow',
+                  answer: `Dtn 34,10 blickt zurück – und genau darum blieb die Erwartung offen: Gott hatte einen Propheten „wie Mose" verheißen (Dtn 18,15–18), und bis zum Abschluss der Tora war er nicht gekommen. Deshalb fragten die Priester Johannes den Täufer: „Bist du der Prophet?" (Joh 1,21). Und Maimonides selbst schreibt, der König Messias werde ein großer Prophet sein, der Mose nahekommt (Hilchot Teschuva 9,2). Wenn der Messias Mose nahekommt, ist die Frage nach seiner Vollmacht über die Auslegung der Tora keine christliche Anmaßung, sondern die Frage, wer er ist.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Deuteronomium', ref: '18,15', quote: `Einen Propheten wie mich wird der HERR, dein Gott, dir erwecken aus dir und aus deinen Brüdern; dem sollt ihr gehorchen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'juedisch', author: 'Moses Maimonides', work: 'Mischne Tora, Hilchot Teschuva', ref: '9,2', year: 'um 1180', status: 'paraphrase', quote: `Der König, der aus den Nachkommen Davids erstehen wird, … wird ein großer Prophet sein, nahe an Mose, unserem Lehrer.` },
+                  ],
+                  questionsBack: [
+                    `Wer ist der Prophet „wie Mose", auf den ihr hören sollt (Dtn 18,15) – und warum wartete Israel noch zur Zeit Johannes' des Täufers auf ihn?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -193,6 +234,21 @@ const claim: Claim = {
           objection: `Hebr 8,13 nennt den Bund „veraltet". Das ist Ersetzungstheologie: Die Kirche ersetzt Israel. Genau diese Lehre hat Jahrhunderte des Judenhasses gerechtfertigt.`,
           objectionBy: 'Michael Skobac',
           answer: `Hebr 8,13 spricht von der Bundesordnung mit Tempel, Priestertum und Opfern – die mit 70 n. Chr. für alle endete. Die Lehre, Gott habe das jüdische Volk verworfen und durch die Kirche ersetzt, widerspricht Paulus: „Hat Gott sein Volk verstoßen? Das sei ferne!" (Röm 11,1), „Gottes Gaben und Berufung können ihn nicht gereuen" (Röm 11,29). Die koptische Kirche lehrt nicht, dass Gott Israel verworfen hat. Der neue Bund wurde Israel verheißen und zuerst unter Juden verwirklicht.`,
+          followUps: [
+            {
+              id: 'zwei-bund-theorie',
+              objection: `Wenn Gott Israel nicht verworfen hat und unser Bund unwiderruflich ist – warum soll ich dann an Jesus glauben? Viele Kirchen sagen heute: Juden haben ihren Bund, Christen den ihren. Lass uns doch einfach jeder auf seinem Weg bleiben.`,
+              objectionBy: 'Shmuley Boteach',
+              answer: `Ich schätze diese Großzügigkeit, aber ich wäre unehrlich, wenn ich sie übernähme. Paulus, der Israels unwiderrufliche Berufung lehrt (Röm 11,29), betet im selben Brief: „Meines Herzens Wunsch und Gebet zu Gott für Israel ist, dass sie gerettet werden" (Röm 10,1). Ich biete dir nichts Fremdes an – keinen Gott der Heiden, sondern den Messias Israels, einen Sohn Davids, den deine eigenen Propheten ankündigten. Wenn er es ist, dann gehört er zuerst dir.`,
+              detail: `Die koptisch-orthodoxe Kirche vertritt keine Zwei-Bund-Theologie: Christus ist der eine Mittler (1 Tim 2,5), zuerst für Israel, dann für die Völker (Röm 1,16). Zugleich lehrt sie keine Verwerfung Israels und keinen Zwang. Das Zeugnis gegenüber Juden geschieht in Liebe, Demut und im Bewusstsein der Schuld, die Christen auf sich geladen haben. Paulus beschreibt die Haltung: „große Traurigkeit und unaufhörlichen Schmerz" um sein Volk (Röm 9,2), keine Überlegenheit.`,
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '10,1', quote: `Liebe Brüder, meines Herzens Wunsch ist, und ich flehe auch zu Gott für Israel, daß sie selig werden.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn Jesus wirklich der Messias Israels wäre – wäre es dann Liebe oder Gleichgültigkeit, dir das zu verschweigen?`,
+              ],
+            },
+          ],
         },
       ],
     },

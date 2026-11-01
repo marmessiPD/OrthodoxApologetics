@@ -202,6 +202,89 @@ const claim: Claim = {
           sources: [
             { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Epheser', ref: '19,1', year: 'um 110', status: 'paraphrase', quote: `Die Jungfrauschaft Marias, ihr Gebären und der Tod des Herrn blieben dem Fürsten dieser Welt verborgen.` },
           ],
+          followUps: [
+            {
+              id: 'sohn-der-maria-spott',
+              objection: `„Sohn der Maria" in Mk 6,3 ist einfach eine Redeweise – oder sogar ein Schimpfwort der Nachbarn. Daraus eine Jungfrauengeburt abzuleiten, ist Wunschdenken.`,
+              objectionBy: 'Shmuley Boteach',
+              answer: `Genau das ist der Punkt: Ein Jude wurde normalerweise nach dem Vater benannt. Wenn die Nachbarn in Nazareth Jesus „Sohn der Maria" nennen, deutet das darauf hin, dass über seine Herkunft geredet wurde. Auch Joh 8,41 („Wir sind nicht aus Unzucht geboren") und der spätere Vorwurf bei Kelsos, Maria sei von einem Soldaten namens Panthera schwanger gewesen, setzen voraus: Jesus galt schon früh nicht als natürlicher Sohn Josefs. Die Gegner erklärten die ungewöhnliche Geburt anders – aber sie bestritten nicht, dass sie ungewöhnlich war.`,
+              detail: `Das ist ein historisches Indiz, kein Beweis – aber ein starkes: Die Christen hätten sich keine Geschichte ausgedacht, die ihren Herrn dem Verdacht der Unehelichkeit aussetzt. Origenes setzt sich um 248 ausführlich mit diesem Vorwurf des Kelsos auseinander und hält fest, dass selbst die Verleumdung die Tatsache bestätigt, dass Jesus nicht von Josef gezeugt wurde. Die Christen kannten diesen Vorwurf also und hielten trotzdem an ihrem Bericht fest, statt Jesus einfach zum Sohn Josefs zu erklären.`,
+              voices: [
+                {
+                  person: 'origenes',
+                  role: 'als Apologet gegen Kelsos',
+                  text: `Origenes zitiert den „Juden" des Kelsos, der behauptet, Maria sei des Ehebruchs mit einem Soldaten Panthera überführt worden. Er antwortet nüchtern: Die Erfinder dieser Geschichte konnten die ungewöhnliche Empfängnis nicht leugnen und erfanden darum einen anderen Vater. Dann führt er Jes 7,14 an und argumentiert, dass ein „Zeichen", das Gott dem Haus Davids anbietet, mehr sein muss als eine gewöhnliche Geburt.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Origenes', work: 'Gegen Kelsos (Contra Celsum)', ref: 'I,28; I,32–35', year: 'um 248', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '6,3', status: 'paraphrase', quote: `Ist er nicht der Zimmermann, der Sohn der Maria?` },
+                { kind: 'bibel', work: 'Johannes', ref: '8,41', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Warum hätten Christen eine Geschichte erfinden sollen, die ihren Herrn dem Verdacht der Unehelichkeit aussetzt?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'septuaginta-christlich',
+      objection: `Die „Septuaginta", auf die du dich berufst, ist ein christliches Dokument. Die 72 Ältesten übersetzten nur die fünf Bücher Mose. Was wir heute als griechischen Jesaja haben, stammt aus christlichen Handschriften – das „parthenos" können Christen eingesetzt haben.`,
+      objectionBy: 'Tovia Singer',
+      answer: `Richtig ist: Der Aristeasbrief spricht nur von der Tora. Aber der griechische Jesaja ist trotzdem eine jüdische Übersetzung – die Forschung datiert ihn in das 2. Jahrhundert v. Chr., lange vor Jesus. Und es gibt keine einzige Handschrift, die in Jes 7,14 etwas anderes als „parthenos" liest. Vor allem: Als Tryphon um 160 mit Justin stritt, warf er den Christen nicht vor, den Text geändert zu haben – er bestand darauf, man müsse „neanis" lesen. Beide kannten also denselben Text mit „parthenos".`,
+      detail: `Die Datierung des griechischen Jesaja in die Mitte des 2. Jahrhunderts v. Chr. geht auf die Standarduntersuchung von Isac Leo Seeligmann (1948) zurück und ist in der Septuaginta-Forschung weithin anerkannt. Dass die meisten erhaltenen Vollhandschriften christlich überliefert sind, gilt für fast alle antiken Texte – auch für Philo und Josephus, deren jüdische Herkunft niemand bezweifelt. Ein Fälschungsvorwurf braucht Belege: eine abweichende Handschrift, ein antikes jüdisches Zeugnis. Beides fehlt. Im Gegenteil: Irenäus und Justin berichten übereinstimmend, dass erst die jüngeren jüdischen Übersetzungen (Aquila, Theodotion) „neanis" einführten.`,
+      voices: [
+        {
+          person: 'justin',
+          role: 'als Zeuge des jüdisch-christlichen Streitgesprächs um 160',
+          text: `Im Dialog mit Tryphon ist bemerkenswert, worüber gestritten wird: Tryphon wirft Justin nicht vor, die Christen hätten „parthenos" eingeschmuggelt. Er hält dagegen, die Schrift sage „Siehe, die junge Frau" und beziehe sich auf Hiskia. Justin wiederum hält den jüdischen Lehrern vor, die Übersetzung der Alten zu verwerfen. Beide Seiten setzen also den griechischen Text mit „parthenos" als gegeben voraus.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Dialog mit dem Juden Tryphon', ref: '43; 67; 71', year: 'um 160', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'fachliteratur', author: 'Isac Leo Seeligmann', work: 'The Septuagint Version of Isaiah: A Discussion of Its Problems', year: '1948', status: 'paraphrase', note: 'Standardwerk zur Datierung und Übersetzungsweise des griechischen Jesaja (Mitte 2. Jh. v. Chr.).' },
+      ],
+      questionsBack: [
+        `Kannst du eine einzige griechische Handschrift nennen, die in Jes 7,14 nicht „parthenos" liest?`,
+        `Warum hat Tryphon den Christen keine Fälschung vorgeworfen, sondern eine andere Lesart verlangt?`,
+      ],
+      followUps: [
+        {
+          id: 'uebersetzung-keine-autoritaet',
+          objection: `Selbst wenn: Eine Übersetzung ist keine Offenbarung. Gott sprach Hebräisch zu Jesaja. Wenn das Hebräische „junge Frau" sagt, ist das griechische „Jungfrau" eine Interpretation – und Matthäus baut seine Lehre auf eine Interpretation.`,
+          objectionBy: 'Michael Skobac',
+          answer: `Einverstanden: Maßstab ist das Hebräische. Aber jede Übersetzung ist eine Interpretation – auch „junge Frau". Die Frage ist, ob das Hebräische „Jungfrau" zulässt. Und das tut es: Almah bezeichnet in der Bibel nie eine verheiratete Frau, und die Rebekka von Gen 24,43 war Jungfrau. Matthäus erfindet also keinen Sinn, den das Hebräische ausschließt; er liest den Vers im Licht des ganzen Abschnitts Jes 7–11 und des Ereignisses, das er bezeugt.`,
+          questionsBack: [
+            `Schließt das hebräische Wort almah eine Jungfrau aus – oder nur ein bestimmtes Fachwort?`,
+          ],
+          followUps: [
+            {
+              id: 'zeichen-unpruefbar',
+              objection: `Ein Zeichen muss man sehen können. Eine Jungfrauengeburt kann niemand überprüfen – nicht Ahas, nicht das Haus David, niemand. Was ist das für ein Zeichen?`,
+              objectionBy: 'Michael Skobac',
+              answer: `Das Zeichen ist nicht nur die Empfängnis, sondern das Kind selbst: „Immanuel – Gott mit uns". Ob dieses Kind wirklich der ist, als der es angekündigt wird, zeigt sich an seinem Leben, seinem Tod und vor allem an seiner Auferstehung – sie ist öffentlich bezeugt und hat die Welt verändert. Auch die Zeichen Jesajas wurden erst im Nachhinein in ihrer ganzen Bedeutung erkannt. Darum stützen Christen die Jungfrauengeburt nicht auf einen Wortstreit, sondern auf die Person, die so geboren wurde.`,
+              detail: `Für die koptische Kirche ist die Jungfrauengeburt kein isoliertes Mirakel, sondern Teil des einen Geheimnisses der Menschwerdung: Der ewige Logos nimmt aus der Jungfrau Fleisch an, ohne dass ein menschlicher Vater beteiligt ist – der Sohn Gottes wird nicht zu einem Menschen hinzugefügt, sondern wird selbst Mensch. Darum bekennt die Liturgie Maria als Theotokos. Für das Gespräch mit einem Rabbiner heißt das: Die Jungfrauengeburt steht und fällt nicht mit Jes 7,14 allein, sondern mit der Frage, wer Jesus ist – und die wird an der Auferstehung entschieden.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Lehrer der Menschwerdung',
+                  text: `Für Kyrill liegt das eigentliche Wunder von Jes 7,14 im Namen „Immanuel": Gott selbst ist mit uns, weil der Logos aus der Jungfrau Fleisch geworden ist. Die Geburt aus der Jungfrau ist das angemessene Zeichen für diese Person – ein Anfang, der nicht aus menschlicher Zeugung kommt, für einen, der nicht erst bei seiner Geburt zu existieren begann.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zu Jesaja (zu 7,14)', year: 'vor 429', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn Jesus von den Toten auferstanden ist – wäre dann eine Jungfrauengeburt noch unglaubwürdig?`,
+              ],
+            },
+          ],
         },
       ],
     },

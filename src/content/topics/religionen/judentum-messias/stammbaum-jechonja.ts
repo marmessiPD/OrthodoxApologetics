@@ -46,8 +46,8 @@ const claim: Claim = {
     summary: `Die rabbinische Tradition selbst bezeugt, dass der Beschluss über Jechonja nicht endgültig war. Im Babylonischen Talmud lehrt Rabbi Jochanan, das Exil sühne alles, und verweist auf Jechonja: Zuerst heißt es „schreibt diesen Mann kinderlos auf", nach dem Exil aber „die Söhne Jechonjas: Assir, Schealtiël, sein Sohn". Midraschim (Pesikta de-Rav Kahana, Wajikra Rabba) erzählen von Jechonjas Umkehr im Gefängnis und der Aufhebung des Beschlusses. Der Targum zu 1 Chr 3,24 deutet Anani, einen Nachkommen Serubbabels, als den „König Messias, der offenbart werden wird".`,
     detail: `Historisch-kritische Exegeten halten die beiden Stammbäume meist für unabhängige, theologisch gestaltete Konstruktionen; auch innerhalb der Hebräischen Bibel sind die Angaben zu Serubbabel nicht einheitlich (Sohn Schealtiëls in Esra 3,2 und Hag 1,1; Sohn Pedajas in 1 Chr 3,19). Ein heutiger Messiaskandidat könnte seine davidische Abstammung nach dem Verlust der Geschlechterregister im Jahr 70 n. Chr. kaum nachweisen; die Mischna erwartet, dass Elija einst strittige Abstammungsfragen kläre (Edujot 8,7).`,
     sources: [
-      { kind: 'juedisch', work: 'Babylonischer Talmud, Sanhedrin', ref: '37b–38a', quote: `Rabbi Jochanan sagte: Das Exil sühnt alles. Denn es heißt: „Schreibt diesen Mann kinderlos auf" – nachdem er aber ins Exil gegangen war, heißt es: „Und die Söhne Jechonjas: Assir, Schealtiël, sein Sohn."`, status: 'paraphrase', url: 'https://www.sefaria.org/Sanhedrin.37b', note: 'Folio vor Verwendung prüfen (37b/38a).' },
-      { kind: 'juedisch', work: 'Pesikta de-Rav Kahana (Piska „Schuva")', ref: '24 (bzw. 25), 11', quote: `Groß ist die Umkehr, denn sie hebt einen Beschluss auf: Über Jechonja war beschlossen „schreibt ihn kinderlos auf" – doch als er umkehrte, wurde der Beschluss aufgehoben.`, status: 'unverified', note: 'Zählung je nach Ausgabe verschieden; Wortlaut prüfen. Vgl. Wajikra Rabba 19,6.' },
+      { kind: 'juedisch', work: 'Babylonischer Talmud, Sanhedrin', ref: '37b–38a', quote: `Rabbi Jochanan sagte: Das Exil sühnt alles. Denn es heißt: „Schreibt diesen Mann kinderlos auf" – nachdem er aber ins Exil gegangen war, heißt es: „Und die Söhne Jechonjas: Assir, Schealtiël, sein Sohn."`, status: 'paraphrase', url: 'https://www.sefaria.org/Sanhedrin.37b', note: 'Geprüft: Rabbi Jochanans Satz und die Folgerung aus 1 Chr 3,17 stehen bSanhedrin 37b–38a; dort auch die Deutung des Namens „Assir" (seine Mutter habe ihn im Gefängnis empfangen). Im Talmud ist strittig, ob das Exil ganz oder nur teilweise sühnt – nicht als einhellige Lehre darstellen.' },
+      { kind: 'juedisch', work: 'Pesikta de-Rav Kahana (Piska „Schuva")', ref: 'Piska 24 (in manchen Ausgaben 25), Abschnitt zur Kraft der Umkehr', quote: `Groß ist die Umkehr, denn sie hebt einen Beschluss auf: Über Jechonja war beschlossen „schreibt ihn kinderlos auf" – doch als er umkehrte, wurde der Beschluss aufgehoben.`, status: 'paraphrase', note: 'Geprüft (Jewish Encyclopedia, Art. „Aḥa b. Papa"; Übersetzung der Yeshivat Har Etzion): Die Pesikta beweist an Jechonja (Jer 22,30), dass Umkehr einen himmlischen Beschluss (und einen Schwur) aufhebt. Die Zuschreibung schwankt (R. Abba bzw. Aḥa/Abba bar Papa), die Abschnittszählung je nach Ausgabe; Wortlaut hier sinngemäß. Parallele zu Jechonjas Umkehr im Gefängnis und Gottes Vergebung: Wajikra Rabba 19,6.' },
       { kind: 'juedisch', work: 'Targum zu den Chronikbüchern', ref: '1 Chr 3,24', quote: `… und Anani – das ist der König Messias, der offenbart werden wird.`, status: 'paraphrase', note: 'Anani ist nach 1 Chr 3,17–24 ein Nachkomme Jechonjas über Serubbabel.' },
       { kind: 'juedisch', work: 'Mischna, Edujot', ref: '8,7', quote: `Elija kommt nicht, um für unrein oder rein zu erklären, zu entfernen oder heranzuführen, sondern um zu entfernen, die mit Gewalt herangeführt wurden, und heranzuführen, die mit Gewalt entfernt wurden.`, status: 'paraphrase', url: 'https://www.sefaria.org/Mishnah_Eduyot.8.7' },
     ],
@@ -124,6 +124,21 @@ const claim: Claim = {
               objection: `Gut – dann ist der Fluch aufgehoben. Aber dann brauchst du die Jungfrauengeburt nicht, und Jesus ist trotzdem nicht Josefs leiblicher Sohn, also kein Davidide.`,
               objectionBy: 'Tovia Singer',
               answer: `Einverstanden: Der Fluch ist dann nicht mehr das Problem, und es bleibt nur die Frage, ob Jesus Davids Sohn ist. Antwort: rechtlich durch Josef, der ihn annahm und ihm den Namen gab (Mt 1,25), und leiblich durch Maria (Lk 1,32; Röm 1,3), wie schon Ignatius um 110 und Justin um 160 bezeugen. In ihm treffen sich beide Linien.`,
+              followUps: [
+                {
+                  id: 'maria-levitin',
+                  objection: `Maria eine Davidin? Lukas selbst nennt sie eine Verwandte Elisabeths, und Elisabeth stammt „von den Töchtern Aarons" (Lk 1,5.36). Dann war Maria Levitin, nicht aus Juda. Euer eigenes Evangelium widerlegt euch.`,
+                  objectionBy: 'Tovia Singer',
+                  answer: `„Verwandte" (syngenis) sagt nicht, auf welchem Weg – Verwandtschaft konnte über die Mutter laufen, und Ehen zwischen Juda und Levi gab es von Anfang an: Aaron selbst heiratete Elischeba, die Schwester Nachschons, des Fürsten von Juda (Ex 6,23; Num 1,7). Dass Maria mit einer Priesterfamilie verwandt war, schließt ihre davidische Herkunft also nicht aus. Und Lukas lässt den Engel zu Maria – nicht zu Josef – sagen, Gott werde ihrem Sohn „den Thron seines Vaters David" geben (1,32). Paulus schreibt um 57, Jesus sei „aus dem Samen Davids nach dem Fleisch" (Röm 1,3) – leiblich, nicht nur rechtlich.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Exodus', ref: '6,23', status: 'paraphrase', quote: `Aaron nahm Elischeba, die Tochter Amminadabs, die Schwester Nachschons, zur Frau.` },
+                    { kind: 'bibel', work: 'Römer', ref: '1,3', status: 'paraphrase', quote: `… seinem Sohn, der geboren ist aus dem Samen Davids nach dem Fleisch.` },
+                  ],
+                  questionsBack: [
+                    `Wenn schon Aaron eine Frau aus Juda heiratete – warum soll eine Verwandtschaft zwischen Maria und Elisabeth Marias davidische Herkunft ausschließen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -152,6 +167,20 @@ const claim: Claim = {
               questionsBack: [
                 `Wenn Jesu davidische Abstammung so offensichtlich falsch war – warum bestritt sie im 1. Jahrhundert niemand?`,
               ],
+              followUps: [
+                {
+                  id: 'nur-anhaenger-behaupten',
+                  objection: `„Niemand bestritt es" – das wissen wir nur aus christlichen Quellen. Seine Anhänger nannten ihn „Sohn Davids", weil sie ihn für den Messias hielten. Das ist Theologie, keine Genealogie.`,
+                  objectionBy: 'Stuart Federow',
+                  answer: `Es gibt ein bemerkenswertes Zeugnis, das nicht aus Theologie stammt: Der Geschichtsschreiber Hegesippus (2. Jh.), überliefert bei Eusebius, berichtet, dass Kaiser Domitian die Enkel des Judas, eines Bruders Jesu, verhören ließ – weil sie dem Geschlecht Davids angehörten und Rom jeden Davididen als möglichen Thronanwärter fürchtete. Man fand nur arme Bauern mit schwieligen Händen und ließ sie frei. Die Familie Jesu galt also auch für Außenstehende als davidisch. Und Paulus setzt die davidische Herkunft um 57 n. Chr. als bekannt voraus (Röm 1,3), ohne sie verteidigen zu müssen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (nach Hegesippus)', work: 'Kirchengeschichte', ref: 'III,19–20', year: 'um 325', status: 'paraphrase', quote: `Domitian ließ die Enkel des Judas, der dem Fleisch nach ein Bruder des Herrn genannt wurde, vorführen, weil sie aus dem Geschlecht Davids stammten … er fand sie arm und ließ sie frei.` },
+                  ],
+                  questionsBack: [
+                    `Warum hätte ein römischer Kaiser die Verwandten Jesu als Davididen verhören lassen, wenn diese Abstammung eine bloße christliche Behauptung war?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -174,6 +203,20 @@ const claim: Claim = {
               objection: `Lukas nennt aber auch Schealtiël und Serubbabel (Lk 3,27). Also läuft auch sein Stammbaum durch Jechonjas Familie – das Problem bleibt.`,
               objectionBy: 'Tovia Singer',
               answer: `Das können verschiedene Personen mit häufigen Namen sein, oder eine Verbindung durch Leviratsehe oder Annahme – die Hebräische Bibel selbst ist bei Serubbabel nicht einheitlich: Sohn Schealtiëls in Esra 3,2, Sohn Pedajas in 1 Chr 3,19. Vor allem aber: Nach deinen eigenen Quellen ist der Beschluss über Jechonja aufgehoben, und der Targum erwartet den Messias aus Serubbabels Linie. Die Erwähnung Serubbabels ist also nach jüdischer Tradition kein Ausschlussgrund.`,
+              followUps: [
+                {
+                  id: 'frauen-im-stammbaum',
+                  objection: `Warum nennt Matthäus ausgerechnet Tamar, Rahab, Rut und Batseba? Er wusste von Gerüchten über Marias uneheliche Schwangerschaft und wollte sie mit anrüchigen Vorfahrinnen entschärfen. Das ist Schadensbegrenzung, kein Stammbaum.`,
+                  objectionBy: 'Shmuley Boteach',
+                  answer: `Dass Matthäus die Umstände der Geburt Jesu im Blick hat, gestehe ich gern zu – er verschweigt nichts, er stellt sich dem. Aber die vier Frauen verbindet noch mehr: Drei von ihnen waren Nichtjüdinnen (Tamar und Rahab Kanaaniterinnen, Rut Moabiterin), Batseba die Frau eines Hethiters. Sie zeigen, dass Gott durch unerwartete Wege handelt und dass der Messias Israels auch der Völker wegen kommt. Und die jüdische Tradition ehrt sie selbst: Rut ist die Ahnfrau Davids, und der Talmud nennt Rahab Ahnfrau von Propheten und Priestern (bMegilla 14b).`,
+                  sources: [
+                    { kind: 'juedisch', work: 'Babylonischer Talmud, Megilla', ref: '14b', status: 'paraphrase', quote: `Acht Propheten, die zugleich Priester waren, stammten von Rahab ab.`, url: 'https://www.sefaria.org/Megillah.14b' },
+                  ],
+                  questionsBack: [
+                    `Wenn die Tradition Rut als Ahnfrau Davids und Rahab als Ahnfrau von Propheten ehrt – warum sollen sie im Stammbaum des Messias anstößig sein?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -192,6 +235,20 @@ const claim: Claim = {
           answer: `Damit gibst du zu, dass ein künftiger Kandidat seine davidische Abstammung nach dem Verlust der Register im Jahr 70 n. Chr. nicht nachweisen könnte – die Mischna erwartet ja, dass Elija Abstammungsfragen klärt (Edujot 8,7). Jesus dagegen trat auf, als die Register noch existierten, und niemand bestritt seine Herkunft aus Davids Haus. Und der Vorläufer im Geist Elijas, Johannes der Täufer, hat auf ihn gezeigt (Mal 3,23; Mt 11,14).`,
           sources: [
             { kind: 'juedisch', work: 'Mischna, Edujot', ref: '8,7', status: 'paraphrase', quote: `Elija wird kommen, um die mit Gewalt Entfernten heranzuführen und die mit Gewalt Herangeführten zu entfernen.`, url: 'https://www.sefaria.org/Mishnah_Eduyot.8.7' },
+          ],
+          followUps: [
+            {
+              id: 'taten-statt-listen',
+              objection: `Der Messias muss seine Abstammung nicht mit Listen beweisen. Maimonides sagt: Wenn ein König aus dem Haus David aufsteht, die Tora lernt, Israel zu ihr zurückführt und die Kriege des HERRN führt, gilt er als möglicher Messias; baut er den Tempel und sammelt die Verstreuten, ist er es sicher. Die Taten entscheiden.`,
+              objectionBy: 'Michael Skobac',
+              answer: `Beachte, womit Maimonides beginnt: „ein König aus dem Haus David". Die davidische Herkunft ist bei ihm Voraussetzung, nicht Nebensache – und genau die kann nach 70 n. Chr. niemand mehr belegen. Jesus trat auf, als sie noch prüfbar war, und galt als Sohn Davids. Was die Taten angeht: Die Christen erwarten den Tempelbau im Vollsinn und die Sammlung Israels bei seiner Wiederkunft; bei seinem ersten Kommen hat er getan, was die Propheten vom leidenden Knecht sagen – und die Völker zum Gott Israels geführt.`,
+              sources: [
+                { kind: 'juedisch', author: 'Moses Maimonides', work: 'Mischne Tora, Hilchot Melachim', ref: '11,4', year: 'um 1180', status: 'paraphrase', quote: `Wenn ein König aus dem Haus David aufsteht, der sich in die Tora vertieft … und die Kriege des HERRN führt, so gilt er als vermutlicher Messias. Hat er Erfolg, baut das Heiligtum an seinem Ort und sammelt die Verstreuten Israels, so ist er gewiss der Messias.` },
+              ],
+              questionsBack: [
+                `Wie soll ein heutiger Kandidat Maimonides' erste Bedingung – „aus dem Haus David" – erfüllen, wenn die Register seit 70 n. Chr. verloren sind?`,
+              ],
+            },
           ],
         },
       ],

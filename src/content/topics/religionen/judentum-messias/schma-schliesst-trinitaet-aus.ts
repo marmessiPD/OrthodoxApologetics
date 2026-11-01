@@ -46,7 +46,7 @@ const claim: Claim = {
       { kind: 'fachliteratur', author: 'Daniel Boyarin', work: 'The Jewish Gospels: The Story of the Jewish Christ', year: '2012', status: 'paraphrase', quote: `Die Vorstellung einer zweiten göttlichen Gestalt neben dem Alten an Tagen – eines göttlichen Menschensohns – war im Judentum vor Jesus vorhanden; viele Juden konnten Jesus deshalb als solche Gestalt verstehen.`, note: 'Boyarin ist orthodox-jüdischer Talmudforscher (Berkeley), kein Christ.' },
       { kind: 'fachliteratur', author: 'Daniel Boyarin', work: 'The Gospel of the Memra: Jewish Binitarianism and the Prologue to John', ref: 'Harvard Theological Review 94', year: '2001', status: 'paraphrase' },
       { kind: 'juedisch', work: 'Babylonischer Talmud, Chagiga', ref: '15a', quote: `Acher sah Metatron sitzen und sprach: Vielleicht gibt es – Gott behüte – zwei Mächte (schte reschujot).`, status: 'paraphrase', url: 'https://www.sefaria.org/Chagigah.15a' },
-      { kind: 'juedisch', work: 'Tosafot zu bSanhedrin 63b; Rema zu Schulchan Aruch, Orach Chajim 156,1', status: 'unverified', quote: `Den Noachiden (Nichtjuden) ist „Schittuf" – die Verehrung Gottes zusammen mit etwas anderem – nicht verboten.`, note: 'Fundstellen und genaue Reichweite vor Verwendung prüfen; die Auslegung ist unter jüdischen Autoritäten umstritten.' },
+      { kind: 'juedisch', work: 'Tosafot zu bSanhedrin 63b (Parallele bBechorot 2b); Rema (Mosche Isserles) zu Schulchan Aruch, Orach Chajim 156,1', status: 'paraphrase', quote: `Den Noachiden (Nichtjuden) ist „Schittuf" – die Verehrung Gottes zusammen mit etwas anderem – nicht verboten.`, note: 'Geprüft: Der Begriff „Schittuf" geht auf diese Tosafot zurück (Anlass: Eide von Nichtjuden, die neben Gott andere mitnennen); Rema zu OC 156 kodifiziert die Nachsicht. Die Reichweite ist umstritten: Manche Autoritäten lesen nur eine Erlaubnis im Eidesrecht (so u. a. der Chazon Isch), andere eine allgemeine Duldung für Nichtjuden. Für Juden selbst ist Schittuf nach allen Meinungen verboten. Nicht als „jüdische Anerkennung der Trinität" überziehen.' },
     ],
   },
   quickAnswer: `Ich glaube das Schma auch – Jesus hat es zitiert, und unser Bekenntnis beginnt mit „Wir glauben an den einen Gott". Die Trinität lehrt nicht drei Götter, sondern einen Gott in drei Hypostasen. Und die Hebräische Bibel selbst zeigt Unterscheidungen innerhalb des einen JHWH: den Engel des HERRN, der als Gott spricht; JHWH, der „vom HERRN aus dem Himmel" Feuer regnen lässt (Gen 19,24); „Der HERR sprach zu meinem Herrn" (Ps 110,1). Sogar Rabbinen mussten später gegen Juden kämpfen, die von „zwei Mächten im Himmel" sprachen.`,
@@ -202,6 +202,82 @@ const claim: Claim = {
           answer: `Dtn 13 warnt vor „anderen Göttern, die du nicht kanntest". Christen verkünden keinen anderen Gott als den Gott Abrahams, Isaaks und Jakobs; Jesus betet zum Gott Israels und offenbart sich als dessen ewiges Wort. Entfaltung ist nicht Widerspruch: Schon die Tora selbst kennt fortschreitende Offenbarung – „mit meinem Namen JHWH habe ich mich ihnen nicht zu erkennen gegeben" (Ex 6,3).`,
           questionsBack: [
             `Wenn Gott sich den Vätern noch nicht mit dem Namen JHWH offenbarte (Ex 6,3) – war die Offenbarung an Mose dann ein Widerspruch zu Abraham?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'anbetung-jesu-avoda-sara',
+      objection: `Selbst die mildeste Halacha – die Lehre vom „Schittuf" – sagt nur, dass Nichtjuden für eine solche Verehrung nicht bestraft werden. Für einen Juden ist die Anbetung eines Menschen Avoda Sara, Götzendienst, für den man sich lieber töten lassen muss. Du verlangst von mir, das zu tun, wofür meine Vorfahren gestorben sind.`,
+      objectionBy: 'Shmuley Boteach',
+      answer: `Ich verstehe, wie schwer das wiegt, und ich verlange nichts leichtfertig. Aber die entscheidende Frage ist nicht die halachische Einordnung, sondern eine Tatsachenfrage: Ist Jesus die Selbstoffenbarung des Gottes Israels – oder nicht? Ist er es nicht, wäre seine Anbetung tatsächlich falsch. Ist er es, dann ist sie Anbetung des einen Gottes. Und der Tanach selbst kennt eine Gestalt, der „alle Völker dienen" werden: den Menschensohn, der mit den Wolken des Himmels kommt und ewige Herrschaft erhält (Dan 7,13–14).`,
+      detail: `Das aramäische Verb in Dan 7,14 („jiflechun", dienen) wird im biblischen Aramäisch sonst für den Dienst an Gott bzw. an Göttern gebraucht (Dan 3,12.14.17.18.28; 6,17.21; vgl. Esr 7,24 für den Tempeldienst). Und das „Kommen mit den Wolken" ist in der Hebräischen Bibel ein Vorrecht Gottes selbst (Ps 104,3; Jes 19,1). Darum entbrannte gerade an Dan 7 die rabbinische Debatte um „zwei Mächte": Der Talmud berichtet, Rabbi Akiva habe die „Throne" (Plural) in Dan 7,9 gedeutet als „einer für ihn und einer für David" – worauf Rabbi Jose der Galiläer ihn zurechtwies: „Akiva, wie lange noch machst du die Schechina profan?" (bChagiga 14a; bSanhedrin 38b). Der Messias auf einem Thron neben Gott – diese Vorstellung war einem der größten Rabbinen nicht fremd.`,
+      sources: [
+        { kind: 'bibel', work: 'Daniel', ref: '7,13–14', quote: `Ich sah in diesem Gesicht des Nachts, und siehe, es kam einer in des Himmels Wolken wie eines Menschen Sohn bis zu dem Alten und ward vor ihn gebracht. Der gab ihm Gewalt, Ehre und Reich, daß ihm alle Völker, Leute und Zungen dienen sollten.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'juedisch', work: 'Babylonischer Talmud, Chagiga', ref: '14a (Parallele Sanhedrin 38b)', quote: `Einer (der Throne) für ihn und einer für David – so Rabbi Akiva. Rabbi Jose der Galiläer sagte zu ihm: Akiva, wie lange noch machst du die Schechina profan?`, status: 'paraphrase', url: 'https://www.sefaria.org/Chagigah.14a' },
+      ],
+      questionsBack: [
+        `Wenn alle Völker dem Menschensohn „dienen" (Dan 7,14) – mit demselben Verb, das Daniel für den Dienst an Gott gebraucht –, wer ist dann dieser Menschensohn?`,
+      ],
+      followUps: [
+        {
+          id: 'menschensohn-volk',
+          objection: `Daniel deutet die Vision selbst: Der Menschensohn ist „das Volk der Heiligen des Höchsten" (7,18.27). Es ist ein Symbol für Israel, wie die Tiere Symbole für Reiche sind. Kein göttlicher Messias.`,
+          objectionBy: 'Tovia Singer',
+          answer: `Das ist eine ernsthafte Deutung, und die Verbindung zum Volk der Heiligen ist echt. Aber in der Vision ist die Gestalt ein Einzelner, der „wie ein Mensch" mit den Wolken kommt – ein Vorrecht Gottes – und vor den Alten an Tagen geführt wird. So wie die Tiere für Reiche stehen und doch Könige meinen (7,17: „vier Könige"), steht der Menschensohn für das Reich der Heiligen und ist doch ihr König. Genau so lasen ihn Juden der Zeit Jesu (1 Henoch 37–71; 4 Esra 13) – und Rabbi Akiva setzte ihn auf einen Thron.`,
+          questionsBack: [
+            `Wenn die vier Tiere zugleich vier Könige sind (7,17) – warum sollte der Menschensohn dann nicht zugleich der König des heiligen Volkes sein?`,
+          ],
+          followUps: [
+            {
+              id: 'geist-nur-kraft',
+              objection: `Selbst wenn du eine zweite Gestalt findest: Warum drei? Der „Ruach ha-Kodesch" ist im Judentum Gottes Kraft und Inspiration, keine Person. Eure dritte Person kommt im Tanach schlicht nicht vor.`,
+              objectionBy: 'Stuart Federow',
+              answer: `Ich gebe zu: Die Personalität des Geistes wird erst im Neuen Testament deutlich. Aber der Tanach legt die Spur: Der Geist wird „betrübt" (Jes 63,10), er ist überall gegenwärtig wie Gott selbst (Ps 139,7), und in Jes 48,16 heißt es: „Der Herr HERR hat mich gesandt und sein Geist." Eine bloße Kraft kann man nicht betrüben. Im Neuen Testament spricht der Geist, lehrt, tritt ein, und Petrus sagt: Wer den Heiligen Geist belügt, belügt Gott (Apg 5,3–4).`,
+              voices: [
+                {
+                  person: 'didymus',
+                  role: 'als alexandrinischer Lehrer über den Heiligen Geist',
+                  text: `Didymus der Blinde, Leiter der Katechetenschule von Alexandrien, zeigt in seiner Schrift über den Heiligen Geist, dass die Schrift dem Geist Werke zuschreibt, die nur Gott tun kann: heiligen, lebendig machen, erfüllen, ohne selbst erfüllt zu werden. Ein Geschöpf oder eine unpersönliche Kraft könnte nicht in vielen zugleich wohnen und sie heiligen. Darum gehört der Geist auf die Seite des Schöpfers, nicht der Schöpfung.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Didymus der Blinde', work: 'Über den Heiligen Geist (De Spiritu Sancto)', year: 'um 360–375', status: 'paraphrase' },
+                  ],
+                },
+                {
+                  person: 'athanasius',
+                  role: 'in den Briefen an Serapion',
+                  text: `Athanasius argumentiert, dass die Dreiheit unteilbar ist: Wo der Vater wirkt, wirkt er durch den Sohn im Geist. Wer den Geist zum Geschöpf macht, zerreißt die Einheit Gottes, statt sie zu schützen. Der Geist ist nicht eine Kraft, die Gott „hat", sondern Gott, der in uns wohnt.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Briefe an Serapion über den Heiligen Geist', ref: 'I,14; I,28', year: 'um 359–361', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Jesaja', ref: '63,10', quote: `Aber sie erbitterten und entrüsteten seinen heiligen Geist.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'hypostase-griechisch',
+                  objection: `„Hypostase", „Usia", „Wesensgleichheit" – das ist griechische Philosophie, die Mose nie gekannt hat. Ihr habt den Gott Israels in Platons Begriffe gegossen. Das Schma braucht keine Metaphysik.`,
+                  objectionBy: 'Shmuley Boteach',
+                  answer: `Die Begriffe sind Werkzeuge, kein neuer Glaube: Sie sollen biblische Aussagen gegen Missverständnisse schützen – dass Jesus nur ein Geschöpf sei oder dass Vater und Sohn bloß Masken seien. Und das Judentum hat dasselbe getan: Maimonides' Formel, Gott sei „jachid" ohne jede Zusammensetzung, ist aristotelische Philosophie – auch Mose kannte sie nicht. Wenn Maimonides griechische Begriffe benutzen darf, um das Schma zu erklären, dürfen es Athanasius und Kyrill auch.`,
+                  detail: `Athanasius verteidigte das nicht-biblische Wort „homoousios" (wesensgleich) genau so: Die Väter von Nizäa hätten zuerst biblische Ausdrücke vorgeschlagen („aus Gott", „wahre Kraft und Bild des Vaters"), doch die Arianer hätten jeden davon in ihrem Sinn umgedeutet. Darum hätten die Bischöfe den Sinn der Schrift in ein Wort gefasst, das sich nicht umdeuten ließ. Das Wort „Hypostase" selbst steht übrigens schon im Neuen Testament: Der Sohn ist „der Abdruck seiner Hypostase" (Hebr 1,3).`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Verteidiger des Nizänums',
+                      text: `Athanasius erklärt in seiner Schrift über die Beschlüsse von Nizäa, dass die Bischöfe nicht über die Schrift hinausgehen wollten, sondern ihren Sinn sichern mussten, weil die Arianer biblische Formeln zweideutig gebrauchten. Ein neues Wort wurde gewählt, um einen alten Glauben unmissverständlich auszusprechen.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Beschlüsse der Synode von Nizäa (De Decretis)', ref: '19–21', year: 'um 350', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Ist Maimonides' „jachid ohne jede Zusammensetzung" nicht ebenfalls griechische Philosophie – und warum ist sie dann erlaubt?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

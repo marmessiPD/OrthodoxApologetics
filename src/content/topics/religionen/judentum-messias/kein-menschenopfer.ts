@@ -193,6 +193,76 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'keine-erbsuende',
+      objection: `Das Judentum kennt keine Erbsünde. Jeden Morgen beten wir: „Mein Gott, die Seele, die du mir gegeben hast, ist rein." Und Gott sagt zu Kain: „Die Sünde lauert vor der Tür, du aber herrsche über sie" (Gen 4,7). Der Mensch kann das Gute wählen. Wozu brauchen wir einen gekreuzigten Erlöser?`,
+      objectionBy: 'Tovia Singer',
+      answer: `Hier sind wir uns näher, als du denkst: Die koptische Kirche lehrt nicht, dass jedes Kind die persönliche Schuld Adams trägt. Die Seele ist gut geschaffen, und der Mensch hat einen freien Willen. Was wir von Adam erben, ist der Tod und die Verderbnis, die Neigung zur Sünde – und das sagt auch der Tanach: „Das Trachten des menschlichen Herzens ist böse von Jugend auf" (Gen 8,21), „Es ist kein Mensch auf Erden so gerecht, dass er Gutes tue und nicht sündige" (Pred 7,20). Und Kain, dem Gen 4,7 gesagt wird, er solle herrschen – hat er geherrscht? Der nächste Vers ist ein Mord.`,
+      detail: `Athanasius beschreibt das Problem nicht in erster Linie juristisch, sondern als Krankheit: Der Mensch, aus dem Nichts geschaffen und durch die Teilhabe am Logos lebendig, fiel durch die Übertretung zurück in Verderbnis und Tod. Umkehr allein könnte die Übertretung bereuen, aber nicht die Verderbnis der Natur heilen – so wie Reue einen Kranken nicht gesund macht. Darum musste der Logos selbst Fleisch annehmen, den Tod in seinem Leib durchschreiten und die Natur von innen erneuern (De Incarnatione 6–10). Für das Gespräch mit einem Rabbiner heißt das: Es geht nicht darum, Umkehr kleinzureden – sie ist unverzichtbar –, sondern darum, dass Gott mehr schenken will als Vergebung: Leben, das den Tod besiegt (Jes 25,8; Hos 13,14).`,
+      voices: [
+        {
+          person: 'athanasius',
+          role: 'als Lehrer der Menschwerdung',
+          text: `Für Athanasius hätte Gott nach dem Fall einfach Umkehr verlangen können, wenn es nur um eine Verfehlung gegangen wäre. Aber der Mensch war der Verderbnis verfallen, die seiner Natur anhaftete. Umkehr hält die Sünde nicht auf und ruft die Natur nicht aus der Verderbnis zurück. Nur der Logos, durch den der Mensch geschaffen wurde, konnte ihn neu schaffen – indem er einen Leib annahm, der sterben konnte, und den Tod so von innen überwand.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '7–9', year: 'ca. 318', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'juedisch', work: 'Siddur, Morgengebet („Elohai neschama")', status: 'paraphrase', quote: `Mein Gott, die Seele, die du in mich gelegt hast, ist rein.`, note: 'Vgl. bBerachot 60b.' },
+        { kind: 'bibel', work: 'Genesis', ref: '8,21', quote: `… denn das Dichten des menschlichen Herzens ist böse von Jugend auf.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn jeder Mensch das Gute wählen kann – kennst du einen einzigen, der es immer gewählt hat (Pred 7,20; 1 Kön 8,46)?`,
+        `Kann Umkehr den Tod aufheben – oder nur die Schuld bereuen?`,
+      ],
+      followUps: [
+        {
+          id: 'jezer-ha-ra-gut',
+          objection: `Ihr dämonisiert die menschliche Natur. Der Midrasch sagt sogar: „Siehe, es war sehr gut" – das ist der böse Trieb, denn ohne ihn würde niemand ein Haus bauen, heiraten oder Kinder zeugen (Bereschit Rabba 9,7). Der Mensch ist nicht verdorben, er ist im Werden.`,
+          objectionBy: 'Shmuley Boteach',
+          answer: `Ein schöner Midrasch – und die orthodoxe Kirche würde ihm in vielem zustimmen: Die menschliche Natur ist gut geschaffen, und auch die Kräfte des Begehrens sind an sich gut; sie müssen geordnet, nicht vernichtet werden. Wir sehen den Menschen ebenfalls „im Werden" – berufen, Gott ähnlich zu werden. Der Unterschied: Wir glauben nicht, dass der Mensch diesen Weg aus eigener Kraft vollendet, solange der Tod über ihm steht. Darum ist Gott Mensch geworden, „damit wir vergöttlicht würden" (Athanasius) – nicht um die Natur zu verdammen, sondern um sie zu heilen.`,
+          sources: [
+            { kind: 'juedisch', work: 'Midrasch Bereschit Rabba', ref: '9,7', status: 'paraphrase', quote: `„Siehe, es war sehr gut" – das ist der böse Trieb. Ist denn der böse Trieb sehr gut? Ja, denn ohne den bösen Trieb würde kein Mensch ein Haus bauen, eine Frau nehmen und Kinder zeugen.` },
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '54,3', year: 'ca. 318', status: 'paraphrase', quote: `Er wurde Mensch, damit wir vergöttlicht würden.` },
+          ],
+          followUps: [
+            {
+              id: 'tod-nicht-besiegt',
+              objection: `„Den Tod besiegt"? Jesus ist gestorben, und seitdem sterben die Menschen genauso wie vorher – Christen eingeschlossen. Was genau hat er besiegt? Die Welt ist nicht erlöst.`,
+              objectionBy: 'Stuart Federow',
+              answer: `Der Sieg hat begonnen, nicht schon die Vollendung: Christus ist als „Erstling der Entschlafenen" auferstanden (1 Kor 15,20), die allgemeine Auferstehung folgt bei seiner Wiederkunft – die Hoffnung, die auch Daniel bezeugt (Dan 12,2) und die die Mischna zum Glaubensgrund macht (Sanhedrin 10,1). Christen sterben noch, aber der Tod hat seinen „Stachel" verloren (1 Kor 15,55): Die Märtyrer der koptischen Kirche gingen in den Tod wie zu einem Fest. Und vor allem: Der Anfang ist geschehen – ein Mensch ist aus dem Grab gekommen und stirbt nicht mehr.`,
+              sources: [
+                { kind: 'juedisch', work: 'Mischna, Sanhedrin', ref: '10,1', status: 'paraphrase', quote: `Ganz Israel hat Anteil an der kommenden Welt … Diese aber haben keinen Anteil: wer sagt, die Auferstehung der Toten sei nicht aus der Tora.`, url: 'https://www.sefaria.org/Mishnah_Sanhedrin.10.1' },
+              ],
+              followUps: [
+                {
+                  id: 'auferstehung-nur-am-ende',
+                  objection: `Im Judentum ist die Auferstehung ein Ereignis am Ende der Tage, für alle zugleich. Dass ein Einzelner mitten in der Geschichte aufersteht und alle anderen warten müssen, kennt kein Jude. Das ist eine christliche Neuerfindung, um den Tod eures Messias zu erklären.`,
+                  objectionBy: 'Tovia Singer',
+                  answer: `Gerade das ist das stärkste Argument für die Auferstehung Jesu: Kein Jude des 1. Jahrhunderts erwartete sie so – also hat sie auch niemand so erfunden. Jesu jüdische Jünger hätten nach seinem Tod sagen können, er sei als Märtyrer bei Gott, wie die Makkabäer. Stattdessen sagten sie etwas Unerwartetes: Die Auferstehung des Endes hat in einem Menschen schon begonnen. Und der Tanach bereitet es vor: Der Knecht wird „aus dem Land der Lebenden weggerissen" und wird danach „Nachkommen sehen und lange leben" (Jes 53,8.10).`,
+                  detail: `N. T. Wright hat in „The Resurrection of the Son of God" (2003) gezeigt, dass das frühchristliche Auferstehungsbekenntnis eine auffällige „Mutation" innerhalb der jüdischen Hoffnung darstellt: Die Auferstehung wird nicht mehr nur am Ende für alle erwartet, sondern ist in einem Einzelnen vorweggenommen – und zwar leiblich, nicht als Geist oder Vision. Eine solche Verschiebung erfindet eine jüdische Gruppe nicht aus dem Nichts; sie erklärt sich am besten durch ein Ereignis, das sie dazu zwang. Für dich: Der Einwand des Rabbiners bestätigt die Ungewöhnlichkeit der christlichen Botschaft – und Ungewöhnliches verlangt nach einer Erklärung.`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Historiker der Auferstehungshoffnung',
+                      text: `Wright untersucht die jüdischen Vorstellungen vom Leben nach dem Tod im Zweiten Tempel und hält fest: Die Auferstehung war eine Hoffnung für das Ende, für das ganze Gottesvolk. Dass die ersten Christen – alle Juden – von der Auferstehung eines einzelnen Messias mitten in der Geschichte sprachen, ist eine Neuerung, die sich nicht aus der Tradition ableiten lässt. Die historisch beste Erklärung ist für Wright, dass das leere Grab und die Begegnungen mit dem Auferstandenen tatsächlich stattfanden.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn kein Jude die Auferstehung eines einzelnen Messias vor dem Ende erwartete – warum verkündeten Jesu jüdische Jünger dann genau das, und zwar unter Lebensgefahr?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Spricht Ez 18 über gerichtliche Bestrafung gegen den Willen des Betroffenen – oder über freiwillige Hingabe?`,

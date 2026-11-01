@@ -123,6 +123,27 @@ const claim: Claim = {
               questionsBack: [
                 `Wenn Hebr 1,10 nur Gottes Plan meint – warum sagt der Brief ausdrücklich „von dem Sohn aber" (1,8) und reiht den Schöpfungspsalm an?`,
               ],
+              followUps: [
+                {
+                  id: 'logos-nur-plan',
+                  objection: `Joh 1,1 sagt nicht, dass eine zweite Person existierte. „Logos" ist Gottes Wort, sein Plan, sein Ausdruck – wie in Gen 1, wo Gott spricht. Und „theos" ohne Artikel heißt „göttlich": Der Plan Gottes war göttlicher Natur. Personal wird dieses Wort erst bei der Geburt Jesu.`,
+                  objectionBy: 'Anthony Buzzard',
+                  answer: `Der Text sagt mehr: Das Wort war „bei Gott" (pros ton theon) – eine Beziehung, kein bloßer Gedanke –, und Vers 2 betont mit „dieser" (houtos) eine bestimmte Gestalt: „Dieser war im Anfang bei Gott." Durch ihn ist „alles geworden" (1,3), er ist „in die Welt gekommen" (1,9–11) und „Fleisch geworden" (1,14). Ein Plan kommt nicht in sein Eigentum, und die Seinen nehmen ihn nicht auf. Grammatisch betont das artikellose „theos" vor dem Verb die Qualität: Was Gott war, das war das Wort – nicht „ein Gott" und nicht bloß „göttlich" im abgeschwächten Sinn; dafür hätte Johannes „theios" schreiben können.`,
+                  voices: [
+                    {
+                      person: 'wallace',
+                      role: 'als Grammatiker des neutestamentlichen Griechisch',
+                      text: `Wallace erklärt, dass ein artikelloses Prädikatsnomen vor dem Verb in Joh 1,1c am natürlichsten qualitativ zu verstehen ist: Das Wort hatte alle Eigenschaften Gottes, ohne mit der Person des Vaters identisch zu sein. Hätte Johannes „ho theos ēn ho logos" geschrieben, hätte er Vater und Wort gleichgesetzt (Modalismus); hätte er „theios" geschrieben, hätte er nur Ähnlichkeit ausgesagt. Die gewählte Form hält beides fest: Unterscheidung und volle Gottheit.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Daniel B. Wallace', work: 'Greek Grammar Beyond the Basics', year: '1996', status: 'paraphrase', note: 'Abschnitt zu artikellosen Prädikatsnomina (Colwell-Regel) und Joh 1,1.' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wie kann ein Plan „in die Welt kommen" und von den Seinen „nicht aufgenommen" werden (Joh 1,10–11)?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +162,32 @@ const claim: Claim = {
           answer: `Die Erhöhung betrifft den Menschgewordenen: Phil 2,9 („darum hat ihn Gott erhöht") folgt auf 2,6–8 – er war „in Gestalt Gottes" und nahm Knechtsgestalt an. Apg 2,36 und Röm 1,4 sprechen von der öffentlichen Einsetzung, nicht vom Ursprung. Und im Judentum saß niemand auf Gottes Thron: Engel stehen vor ihm (Dan 7,10). Als Rabbi Akiba meinte, einer der Throne in Dan 7,9 sei für David, wurde er zurechtgewiesen: „Wie lange willst du die Schechina entweihen?" (bChagiga 14a). Neben Gott zu thronen hieß, an seiner einzigartigen Herrschaft teilzuhaben.`,
           sources: [
             { kind: 'juedisch', work: 'Babylonischer Talmud, Chagiga', ref: '14a', quote: `Rabbi Akiba sagte: Einer (der Throne) für ihn und einer für David. Da sagte Rabbi Jose der Galiläer zu ihm: Akiba, wie lange willst du die Schechina entweihen?`, status: 'paraphrase', url: 'https://www.sefaria.org/Chagigah.14a', note: 'Parallele in bSanhedrin 38b.' },
+          ],
+          followUps: [
+            {
+              id: 'phil-2-adam',
+              objection: `Phil 2,6 ist Adam-Christologie, wie James Dunn gezeigt hat: Adam war im Bild Gottes und griff nach der Gleichheit mit Gott; Jesus, der zweite Adam, griff nicht danach. „Gestalt Gottes" heißt „Bild Gottes" – das trifft auf jeden Menschen zu. Von Präexistenz steht da nichts.`,
+              objectionBy: 'Dale Tuggy',
+              answer: `Der Text passt nicht auf Adam: Adam wurde nicht „den Menschen gleich" (2,7) – er war es von Anfang an. Jesus dagegen „entäußerte sich selbst", nahm Knechtsgestalt an und „wurde den Menschen gleich": Er trat in das Menschsein ein, kam also von woanders her. Paulus sagt dasselbe in 2 Kor 8,9: „Er, der reich war, wurde arm um euretwillen." Und das Ziel des Hymnus ist unmissverständlich: Vor Jesus beugt sich „jedes Knie", und jede Zunge bekennt ihn als Herrn (2,10–11) – das ist Jes 45,23, wo JHWH schwört: „Mir soll sich jedes Knie beugen", in einem Kapitel, das jeden anderen Gott ausschließt.`,
+              detail: `Selbst James Dunn, auf den sich Unitarier hier berufen, hat seine Adam-Deutung später vorsichtiger formuliert, und die Mehrheit der Philipper-Forschung liest den Hymnus weiterhin als Aussage über die Präexistenz. Entscheidend ist die Logik des Hymnus: Er beschreibt einen Weg von oben nach unten (Gestalt Gottes – Knechtsgestalt – Tod am Kreuz) und wieder nach oben (Erhöhung – Name über allen Namen – Anbetung). Bauckham hat gezeigt, dass die Anwendung von Jes 45,23 auf Jesus bedeutet: Der Name, den Gott ihm gibt, ist der Gottesname selbst, „Herr" (Kyrios = JHWH), und die Anbetung, die JHWH allein zusteht, gilt nun auch ihm – „zur Ehre Gottes, des Vaters".`,
+              voices: [
+                {
+                  person: 'bauckham',
+                  role: 'als Neutestamentler zur Christologie der göttlichen Identität',
+                  text: `Bauckham liest Phil 2,9–11 im Licht von Jes 45: Dort ist JHWH der einzige Gott, Schöpfer und Retter, vor dem sich alle Welt beugen wird. Dass Paulus genau diesen Text auf Jesus überträgt, heißt nicht, dass Jesus ein zweiter Gott neben JHWH wird, sondern dass er in die einzigartige Identität des einen Gottes hineingehört. Gerade der strenge jüdische Monotheismus von Jes 45 macht diese Übertragung so bemerkenswert.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the God of Israel', year: '2008', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Jesaja', ref: '45,22–23', quote: `Denn ich bin Gott, und keiner mehr. Ich schwöre bei mir selbst, und ein Wort der Gerechtigkeit geht aus meinem Munde, dabei soll es bleiben: Mir sollen sich alle Kniee beugen, und alle Zungen schwören.`, status: 'paraphrase', note: 'Wortlaut in Anlehnung an Luther 1912.' },
+                { kind: 'gegner', author: 'James D. G. Dunn', work: 'Christology in the Making', year: '1980; 2. Aufl. 1989', status: 'paraphrase', note: 'Dunn (1939–2020) war kein Unitarier; seine Adam-Deutung von Phil 2 wird von Unitariern aufgegriffen.' },
+              ],
+              questionsBack: [
+                `Wann wurde Adam „den Menschen gleich" – und wie kann jemand Mensch werden, der vorher nicht existierte?`,
+              ],
+            },
           ],
         },
       ],
@@ -181,7 +228,78 @@ const claim: Claim = {
           objection: `Juden des Zweiten Tempels verehrten auch Mittlergestalten – Engel, Mose, den Menschensohn in den Bilderreden Henochs. Die Verehrung Jesu sprengt den jüdischen Monotheismus nicht.`,
           objectionBy: 'Dale Tuggy',
           answer: `Teilweise richtig: In den Bilderreden Henochs (1 Hen 48; 62) huldigen Könige dem Menschensohn, der auf dem „Thron der Herrlichkeit" sitzt – das zeigt, dass jüdisches Denken eine Gestalt innerhalb der göttlichen Herrschaft denken konnte; Bauckham deutet diese Gestalt genau so. Aber Hurtado zeigt: Kultische Verehrung – Gebete, Hymnen, Anrufung des Namens, Taufe auf den Namen – erhielt im antiken Judentum keine Mittlergestalt außer Gott. Bei Jesus geschah genau das, und zwar in den ersten Jahren und in jüdischen Gemeinden.`,
+          followUps: [
+            {
+              id: 'bevollmaechtigter-agent',
+              objection: `Hurtado beschreibt die Verehrung Jesu selbst als „binitarisch" – aber sie geschieht „zur Ehre Gottes, des Vaters" (Phil 2,11). Jesus wird als Gottes bevollmächtigter Stellvertreter verehrt; die Verehrung endet beim Vater. Ein Gesandter, der den Sender repräsentiert, ist nicht der Sender.`,
+              objectionBy: 'Dale Tuggy',
+              answer: `Das jüdische Botenprinzip erklärt, dass ein Gesandter mit Vollmacht spricht – es erklärt nicht, dass man zu ihm betet, Hymnen auf ihn singt und seinen Namen anruft, wie man JHWH anruft (Röm 10,13 nach Joel 3,5). Genau diese Verehrung verweigert der Engel, der doch Gottes Bote ist: „Tu es nicht … bete Gott an!" (Offb 22,9). Und dass die Ehre des Sohnes zur Ehre des Vaters wird, ist kein unitarischer, sondern ein trinitarischer Gedanke: „Wer den Sohn nicht ehrt, der ehrt den Vater nicht" (Joh 5,23). Der Sohn ist nicht Konkurrent des Vaters, sondern sein ewiges Wort.`,
+              voices: [
+                {
+                  person: 'hurtado',
+                  role: 'als Historiker der frühchristlichen Verehrung',
+                  text: `Hurtado betont, dass die frühchristliche Verehrung Jesu den Vater nie verdrängt: Gebete richten sich an Gott „durch" Jesus und zugleich an Jesus selbst. Er spricht deshalb von einer „binitarischen" Form des Monotheismus. Aber er hält fest, dass diese Verehrung im Judentum ohne Vorbild ist: Keine Engelsgestalt, kein Patriarch, kein Messiaskandidat erhielt kultische Anrufung. Die Gegenwart Jesu im Gottesdienst der Gemeinde ist eine Neuerung, die eine Erklärung verlangt – und die bloße Gesandtenrolle liefert sie nicht.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Zu welchem anderen Gesandten Gottes hat die frühe Gemeinde gebetet und Hymnen gesungen?`,
+              ],
+              followUps: [
+                {
+                  id: 'zwei-goetter-dilemma',
+                  objection: `Dann bleibt das logische Problem: Wenn der Vater Gott ist und Jesus Gott ist und Jesus nicht der Vater ist, dann sind es zwei Götter. Oder „ist Gott" heißt bei euch zweierlei – dann redet ihr in Rätseln. Die Trinität scheitert an elementarer Logik.`,
+                  objectionBy: 'Dale Tuggy',
+                  answer: `Das Dilemma setzt voraus, dass „ist Gott" in beiden Sätzen „ist identisch mit dem einen Gott (als Person)" heißt. So bekennt es die Kirche aber nicht: „Der Sohn ist Gott" sagt, dass er das eine göttliche Wesen ganz besitzt – nicht dass er die Person des Vaters ist. Es gibt nur ein göttliches Wesen, nicht zwei Exemplare einer Gattung; darum sind es nicht zwei Götter. Gregor von Nyssa hat genau diesen Einwand schon im 4. Jahrhundert beantwortet. Ob du das Geheimnis voll begreifst, ist eine andere Frage als ob es widersprüchlich ist – und einen formalen Widerspruch hat noch niemand nachgewiesen.`,
+                  detail: `Gregor von Nyssa erklärt in „An Ablabius, dass es nicht drei Götter sind", warum man bei Gott nicht wie bei Menschen zählt: Petrus, Jakobus und Johannes sind drei Menschen, weil jeder sein eigenes, getrenntes Wirken hat. Beim Vater, Sohn und Geist aber gibt es nur ein einziges Wirken: Alles geht vom Vater aus, schreitet durch den Sohn fort und wird im Heiligen Geist vollendet. Darum ist die Gottheit eine. Analytische Religionsphilosophen (z. B. Brian Leftow, William Hasker, Michael Rea) haben in den letzten Jahrzehnten verschiedene widerspruchsfreie Modelle vorgelegt. Für dich im Gespräch genügt: Die Kirche hat nie behauptet, „drei = eins" in derselben Hinsicht, sondern „ein Wesen, drei Hypostasen".`,
+                  voices: [
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Philosoph der Dreieinigkeit',
+                      text: `Gregor von Nyssa nimmt den Vorwurf der „drei Götter" ernst und antwortet: Das Wort „Gott" bezeichnet bei der Dreieinigkeit nicht drei Individuen einer Art, sondern das eine göttliche Wesen und Wirken, das in Vater, Sohn und Geist ungeteilt ist. Weil kein Wirken des Vaters ohne den Sohn und den Geist geschieht, gibt es keine drei Götter, sondern einen Gott.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'An Ablabius: Dass es nicht drei Götter sind (Ad Ablabium)', year: 'um 375–390', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Dale Tuggy', work: 'What Is the Trinity? Thinking about the Father, Son, and Holy Spirit', year: '2017', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Bekennt die Kirche, dass der Sohn der Vater ist – oder dass er dasselbe göttliche Wesen besitzt? Wo genau liegt dann der formale Widerspruch?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
+      ],
+    },
+    {
+      id: 'mein-gott-auferstanden',
+      objection: `Noch nach der Auferstehung sagt Jesus: „Ich fahre auf zu meinem Vater und eurem Vater, zu meinem Gott und eurem Gott" (Joh 20,17), und vom Himmel her spricht er in einem einzigen Vers viermal von „meinem Gott" (Offb 3,12). Gott hat keinen Gott. Wer einen Gott hat, ist nicht Gott.`,
+      objectionBy: 'Anthony Buzzard',
+      answer: `Jesus ist wahrer Mensch geblieben – auch nach der Auferstehung. Als Mensch hat er einen Gott, betet, gehorcht. Aber beachte: Er sagt nicht „unserem Vater", sondern „meinem Vater und eurem Vater" – er unterscheidet seine Sohnschaft von unserer. Und im selben Kapitel, nur elf Verse später, kniet Thomas vor ihm und sagt: „Mein Herr und mein Gott!" (20,28) – und Jesus weist ihn nicht zurecht, sondern preist die selig, die so glauben (20,29). Johannes hat beides absichtlich nebeneinandergestellt.`,
+      detail: `Gregor von Nazianz erklärt die Stelle so: Der Vater ist „Gott" des Sohnes nicht in Bezug auf das ewige Wort, sondern in Bezug auf die angenommene Menschheit; „Vater" aber ist er dem Wort von Natur aus. Darum kann Jesus beides sagen – „mein Vater" als ewiger Sohn, „mein Gott" als Mensch, der unsere Natur angenommen hat. Kyrill von Alexandrien betont, dass der Sohn sich mit der Menschheit auch deren Stellung vor Gott zu eigen gemacht hat, damit wir in ihm zu Söhnen werden. Der Ausdruck „mein Gott" ist also nicht ein Beweis gegen die Gottheit Christi, sondern ein Zeugnis seiner echten Menschwerdung.`,
+      voices: [
+        {
+          person: 'gregor-nazianz',
+          role: 'als „der Theologe" der Dreieinigkeit',
+          text: `Gregor unterscheidet in seiner Rede über den Sohn die Aussagen, die dem ewigen Wort zukommen, von denen, die dem Menschgewordenen zukommen. Der Vater sei Gott nicht des Wortes, sondern des Sichtbaren – denn wie könnte er Gott dessen sein, der im eigentlichen Sinn Gott ist? –, Vater aber nicht des Sichtbaren, sondern des Wortes. Beide Aussagen gelten dem einen Christus, aber in verschiedener Hinsicht.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Vierte Theologische Rede (Oratio 30)', ref: '8', year: '380', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '20,17', status: 'paraphrase', quote: `Ich fahre auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.` },
+        { kind: 'bibel', work: 'Johannes', ref: '20,28–29', quote: `Thomas antwortete und sprach zu ihm: Mein Herr und mein Gott! Spricht Jesus zu ihm: Dieweil du mich gesehen hast, Thomas, so glaubest du. Selig sind, die nicht sehen und doch glauben!`, status: 'paraphrase', note: 'Wortlaut in Anlehnung an Luther 1912.' },
+      ],
+      questionsBack: [
+        `Warum lässt Johannes nur elf Verse nach „mein Gott und euer Gott" Thomas sagen „Mein Herr und mein Gott" – ohne dass Jesus widerspricht?`,
+        `Warum sagt Jesus „mein Vater und euer Vater" statt einfach „unser Vater"?`,
       ],
     },
   ],

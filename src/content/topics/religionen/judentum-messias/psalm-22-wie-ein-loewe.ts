@@ -44,11 +44,11 @@ const claim: Claim = {
   },
   opposingView: {
     summary: `In der Fachwelt ist Ps 22,17 einer der meistdiskutierten Verse der Hebräischen Bibel. Viele Exegeten – jüdische wie christliche – halten „ka'ari" für schwierig, weil das Verb fehlt; andere verteidigen es als poetische Ellipse. Für eine Verbform sprechen die Septuaginta, die Lesung von 5/6HevPs und die alten Übersetzungen; welches Verb ursprünglich gemeint war („graben", „binden", „durchbohren", „verkürzen"), ist offen. Ein Konsens, dass der Vers ursprünglich „durchbohrt" lautete, besteht nicht.`,
-    detail: `Ehrlich ist auch: Das Neue Testament zitiert Ps 22,17 nicht ausdrücklich. Die Evangelien zitieren V. 2 (Mk 15,34; Mt 27,46), V. 19 (Joh 19,24) und spielen auf V. 8–9 an (Mt 27,39.43). Der Hebräerbrief zitiert V. 23 (Hebr 2,12). Die Masora (ein mittelalterliches Verzeichnis, Ochla we-Ochla) soll vermerken, dass „ka'ari" zweimal vorkommt (Jes 38,13; Ps 22,17), und zwar „in zwei verschiedenen Bedeutungen" – das wird von christlichen Apologeten angeführt, ist aber vor Verwendung an der Quelle zu prüfen.`,
+    detail: `Ehrlich ist auch: Das Neue Testament zitiert Ps 22,17 nicht ausdrücklich. Die Evangelien zitieren V. 2 (Mk 15,34; Mt 27,46), V. 19 (Joh 19,24) und spielen auf V. 8–9 an (Mt 27,39.43). Der Hebräerbrief zitiert V. 23 (Hebr 2,12). Die Masora zu Jes 38,13 vermerkt (nach Keil/Delitzsch und der Rabbinerbibel des Jakob ben Chajim), dass „ka'ari" zweimal vorkommt (Jes 38,13; Ps 22,17), und zwar „in zwei Bedeutungen" (be-tre lischne). Christliche Apologeten führen das gern an. Es zeigt aber nur, dass die Masoreten einen Unterschied zwischen beiden Stellen bemerkten – nicht, welche Bedeutung sie in Ps 22,17 annahmen; jüdische Ausleger verstehen die Notiz als Hinweis auf zwei Gebrauchsweisen von „wie ein Löwe".`,
     sources: [
       { kind: 'gegner', author: 'Jewish Publication Society', work: 'Tanakh: The Holy Scriptures (NJPS)', ref: 'Ps 22,17', year: '1985', quote: `Like lions [they maul] my hands and feet.`, original: 'Like lions [they maul] my hands and feet.', status: 'verbatim', note: 'Die eckigen Klammern markieren ein ergänztes Verb.' },
       { kind: 'fachliteratur', author: 'Emanuel Tov', work: 'Textual Criticism of the Hebrew Bible', year: '1992; 3. Aufl. 2012', status: 'paraphrase', quote: `Standardwerk eines israelischen Textkritikers zur Methode, den masoretischen Text mit Qumran, Septuaginta und anderen Zeugen zu vergleichen.` },
-      { kind: 'juedisch', work: 'Masora (Ochla we-Ochla)', status: 'unverified', quote: `„ka'ari" kommt zweimal mit zwei verschiedenen Bedeutungen vor.`, note: 'Häufig von Apologeten zitiert; Fundstelle in der Ausgabe von S. Frensdorff vor Verwendung prüfen.' },
+      { kind: 'juedisch', work: 'Masora zu Jesaja 38,13 (Rabbinerbibel des Jakob ben Chajim, 1524/25)', ref: 'Jes 38,13; Ps 22,17', status: 'paraphrase', quote: `„ka'ari" kommt zweimal vor (Jes 38,13; Ps 22,17), und zwar in zwei Bedeutungen.`, original: 'בתרי לישני', note: 'Geprüft: Keil/Delitzsch (Kommentar zu Ps 22,17) führen die Masora zu Jes 38,13 an; die Randnotiz „be-tre lischne" (in zwei Bedeutungen) steht in der Rabbinerbibel des Jakob ben Chajim. Die früher genannte Zuordnung zu „Ochla we-Ochla" ist nicht gesichert. Was „zwei Bedeutungen" konkret meint, ist umstritten – nicht als Beweis für „durchbohrt" überziehen.' },
     ],
   },
   quickAnswer: `Ja, der masoretische Text liest „wie ein Löwe". Aber die älteste hebräische Handschrift dieses Verses aus Nachal Chever liest eine Verbform, die jüdische Septuaginta übersetzte lange vor Jesus „sie gruben", und selbst die jüdischen Übersetzer Aquila und Symmachus lasen ein Verb. „Wie ein Löwe meine Hände und Füße" hat dagegen kein Verb – jüdische Übersetzungen müssen eins ergänzen. Vor allem: Psalm 22 hängt nicht an einem Wort – Verlassenheit, Spott, Durst, verloste Kleider und die Umkehr der Völker beschreiben das Kreuz auch ohne V. 17.`,
@@ -185,6 +185,82 @@ const claim: Claim = {
           objection: `Wenn die Masoreten so treu sind – warum folgst du dann nicht ihrem Text?`,
           objectionBy: 'Tovia Singer',
           answer: `Treue heißt nicht, dass kein einziger Buchstabe je abweicht. Die Masoreten selbst haben an Hunderten von Stellen vermerkt, dass anders zu lesen als geschrieben ist (Ketiv und Qere). Die Textkritik vergleicht deshalb die ältesten Zeugen miteinander – das tun auch jüdische Forscher wie der israelische Textkritiker Emanuel Tov. In den allermeisten Fällen folge ich dem masoretischen Text gern; an dieser Stelle sprechen ältere Zeugen für eine andere Lesart.`,
+          followUps: [
+            {
+              id: 'masora-zwei-bedeutungen',
+              objection: `Missionare zitieren gern die Masora, „ka'ari" komme „in zwei Bedeutungen" vor – als hätten die Masoreten „durchbohrt" gemeint. Unsinn: In Jes 38,13 heißt es „wie ein Löwe zerbricht er alle meine Knochen", in Ps 22 steht es ohne Verb. Zwei Gebrauchsweisen von „wie ein Löwe" – mehr sagt die Notiz nicht.`,
+              objectionBy: 'Tovia Singer',
+              answer: `Das ist eine faire Lesart, und ich baue nicht auf diese Randnotiz. Sie steht tatsächlich in der Masora zu Jes 38,13: „ka'ari" zweimal, „in zwei Bedeutungen". Was genau gemeint ist, sagt sie nicht. Sie zeigt nur, dass schon die Masoreten an Ps 22,17 etwas Ungewöhnliches bemerkten. Mein Argument steht auf den alten Zeugen – Septuaginta, Nachal Chever, Aquila, Symmachus – und auf dem ganzen Psalm, nicht auf einer mehrdeutigen Notiz.`,
+              sources: [
+                { kind: 'juedisch', work: 'Masora zu Jesaja 38,13 (Rabbinerbibel des Jakob ben Chajim, 1524/25)', status: 'paraphrase', original: 'בתרי לישני', quote: `„ka'ari" – zweimal, in zwei Bedeutungen.`, note: 'Nach Keil/Delitzsch zu Ps 22,17; Bedeutung der Notiz umstritten.' },
+              ],
+              questionsBack: [
+                `Wenn beide Stellen einfach „wie ein Löwe" bedeuten – warum vermerken die Masoreten dann ausdrücklich zwei Bedeutungen?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'psalm-handelt-von-israel',
+      objection: `Psalm 22 spricht von Israel im Exil. Raschi deutet ihn so, der Midrasch bezieht ihn auf Esther. Der „Wurm und kein Mensch" (V. 7) ist Israel – Jesaja nennt Israel ausdrücklich „Wurm Jakob" (Jes 41,14). Wo steht hier ein Messias?`,
+      objectionBy: 'Michael Skobac',
+      answer: `Die Parallele zu Jes 41,14 ist gut, das gestehe ich zu. Aber im Psalm unterscheidet sich der Beter ausdrücklich von Israel: Er ruft „ihr Nachkommen Jakobs, verherrlicht ihn" (V. 24) und verkündet Gottes Namen „meinen Brüdern" in der Gemeinde (V. 23). Er spricht von seiner eigenen Geburt, „vom Mutterleib an" (V. 10–11). Und deine eigene Tradition kennt die messianische Lesart: Die Pesikta Rabbati bezieht Verse aus Ps 22 auf das Leiden des Messias Ephraim.`,
+      detail: `In Pesikta Rabbati (Piska 36–37) wird der leidende „Ephraim, Messias unserer Gerechtigkeit" angeredet, der für die Sünden der Kinder Israels gelitten hat; dabei werden Worte aus Ps 22 – „meine Kraft ist vertrocknet wie eine Scherbe, und meine Zunge klebt an meinem Gaumen" (V. 16) – auf seine Leiden bezogen. Die Jüdistin Rivka Ulmer hat diese Stellen eigens untersucht. Pesikta Rabbati ist eine späte Sammlung (Endgestalt wohl 6.–9. Jahrhundert, mit älterem Material) und aggadisch, nicht verbindlich. Sie beweist nicht, dass Ps 22 von Jesus handelt – aber sie zeigt, dass die messianische Lesart keine christliche Erfindung ist, sondern auch in der jüdischen Auslegung lebte.`,
+      voices: [
+        {
+          person: 'michael-rydelnik',
+          role: 'als Erforscher der messianischen Auslegungsgeschichte',
+          text: `Rydelnik zeigt, dass viele Texte, die heute im Judentum fast nur kollektiv gelesen werden, in älteren jüdischen Quellen auch messianisch verstanden wurden. Für ihn ist Pesikta Rabbati ein Beispiel: Dort spricht der leidende Messias Ephraim mit Worten aus Ps 22. Rydelnik folgert, dass die Spannung zwischen einem leidenden und einem herrschenden Messias im Judentum selbst bemerkt wurde – und dass Jesus beide Linien in einer Person vereint.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Michael Rydelnik', work: 'The Messianic Hope: Is the Hebrew Bible Really Messianic?', year: '2010', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'juedisch', work: 'Pesikta Rabbati', ref: 'Piska 36–37', status: 'paraphrase', quote: `Ephraim, Messias unserer Gerechtigkeit … weil du für die Sünden unserer Kinder gelitten hast … „meine Kraft ist vertrocknet wie eine Scherbe" (Ps 22,16).`, note: 'Spätes aggadisches Werk (Endgestalt wohl 6.–9. Jh., mit älterem Material). Inhalt durch die Fachliteratur bestätigt; Wortlaut nach Ausgabe (Friedmann) bzw. Übersetzung (Braude) prüfen.' },
+        { kind: 'fachliteratur', author: 'Rivka Ulmer', work: 'Psalm 22 in Pesiqta Rabbati: The Suffering of the Jewish Messiah and Jesus, in: Zev Garber (Hg.), The Jewish Jesus', year: '2011', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn der Beter Israel ist – wer sind dann die „Nachkommen Jakobs", die er in V. 24 zum Lob aufruft?`,
+      ],
+      followUps: [
+        {
+          id: 'pesikta-spaet-aggada',
+          objection: `Pesikta Rabbati ist ein mittelalterlicher Midrasch, Aggada, keine Halacha. Kein Jude ist an solche Predigten gebunden. Du pickst dir heraus, was dir passt.`,
+          objectionBy: 'Tovia Singer',
+          answer: `Einverstanden: Aggada ist nicht bindend, und ich mache daraus keinen Beweis für Jesus. Ich führe sie für eine kleinere Behauptung an: Die messianische Deutung von Ps 22 ist kein christlicher Fremdkörper, sondern kam auch jüdischen Predigern in den Sinn. Wenn du sagst, „wo steht hier ein Messias?", dann zeigt die Pesikta: Jüdische Lehrer haben ihn hier gesehen.`,
+          followUps: [
+            {
+              id: 'messias-verlassen',
+              objection: `Und dein Messias ruft: „Mein Gott, warum hast du mich verlassen?" Wenn Jesus Gott ist – verlässt Gott sich selbst? Ein göttlicher Messias, der verzweifelt, widerlegt sich selbst.`,
+              objectionBy: 'Tovia Singer',
+              answer: `Jesus betet am Kreuz den Anfang von Psalm 22 – und wer im Judentum den Anfang eines Psalms anstimmt, ruft den ganzen Psalm auf, der mit Rettung endet: „Du hast mich erhört" (V. 22) und mit der Umkehr der Völker. Das ist kein Verzweifeln, sondern Gebet. Und Jesus spricht als wahrer Mensch: Der ewige Sohn hat sich die menschliche Lage der Gottverlassenheit zu eigen gemacht, die wir durch die Sünde verdient haben – nicht weil die Dreieinigkeit zerbrach, sondern damit wir nicht mehr verlassen sind.`,
+              detail: `Die koptische Kirche folgt hier Kyrill von Alexandrien: Der Logos leidet nicht in seiner göttlichen Natur, sondern „in seinem eigenen Fleisch" – das Leiden gehört wirklich ihm, weil das Fleisch wirklich seines ist. Der Ruf „Warum hast du mich verlassen?" ist darum kein Riss in Gott, sondern der Schrei der Menschheit, die der Sohn angenommen hat. Athanasius sagt ähnlich: Der Herr spricht nach seiner Menschheit, um unsere Not auf sich zu nehmen. Für das Gespräch mit einem Rabbiner reicht oft der erste Punkt: Ein Jude, der sterbend Psalm 22 betet, bekennt sich zu dem Gott, der den Leidenden am Ende rettet.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Lehrer der einen fleischgewordenen Natur des Gott-Logos',
+                  text: `Kyrill hält daran fest, dass der Gott-Logos „leidensunfähig gelitten" hat: Er leidet in dem Fleisch, das er sich zu eigen gemacht hat, ohne dass seine Gottheit sich verändert. Darum dürfen die Worte der Verlassenheit nicht einem bloßen Menschen neben dem Logos zugeschrieben werden – wie bei Nestorius –, sondern dem einen Christus, der als Mensch unsere Gottferne durchlitten hat, um sie zu überwinden.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Dass Christus einer ist (Quod unus sit Christus)', year: 'um 437', status: 'paraphrase' },
+                  ],
+                },
+                {
+                  person: 'athanasius',
+                  role: 'als Ausleger der Menschwerdung',
+                  text: `Athanasius erklärt die Worte Christi, die Furcht, Not oder Verlassenheit ausdrücken, als Worte, die er „menschlich" spricht, weil er wirklich Mensch geworden ist. Er nimmt unsere Schwächen auf sich, um sie von innen zu heilen. Wer daraus schließt, der Sohn sei nicht Gott, übersieht, dass derselbe, der so spricht, auch Tote auferweckt und selbst aufersteht.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'III,54–57', year: 'um 340', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn ein frommer Jude im Sterben den Anfang von Psalm 22 betet – ist das Verzweiflung oder Vertrauen auf den Gott, der den Psalm mit Rettung beendet?`,
+              ],
+            },
+          ],
         },
       ],
     },
