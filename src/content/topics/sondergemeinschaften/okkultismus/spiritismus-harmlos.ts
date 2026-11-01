@@ -141,6 +141,24 @@ const claim: Claim = {
               objection: `Und eure Marienerscheinungen, etwa in Zeitoun 1968? Das ist doch auch Kontakt mit dem Jenseits.`,
               objectionBy: 'Kritiker',
               answer: `Wenn Gott eine Erscheinung schenkt, liegt die Initiative bei ihm – niemand hat sie herbeigerufen, kein Ritual erzwungen. Die Kirche prüft solche Ereignisse sorgfältig, und ihr Inhalt führt zu Christus, zu Buße und Gebet, nicht zu Neugier und neuen Lehren. Das ist das Gegenteil von Spiritismus, wo Menschen versuchen, über die Grenze zu greifen.`,
+              followUps: [
+                {
+                  id: 'lichtgestalt-pruefen',
+                  objection: `Euer eigener Antonius warnte doch, dass Dämonen als Lichtgestalten erscheinen. Woher wisst ihr, dass eine Marienerscheinung nicht genauso eine Täuschung ist wie das, was im Medium spricht?`,
+                  objectionBy: 'Skeptiker / Spiritisten',
+                  answer: `Eine berechtigte Frage – und genau deshalb prüft die Kirche, statt einfach zu glauben. Antonius gibt die Kriterien: Was von Gott kommt, bringt Ruhe, Demut und Freude und führt zu Christus; was vom Feind kommt, bringt Unruhe, Furcht, Stolz und Neugier. Man prüft auch den Inhalt: Bringt die Erscheinung neue Lehren oder Botschaften über die Zukunft? Oder ruft sie zu Gebet, Buße und zur Kirche? Eine Erscheinung, die man nicht gesucht und nicht beschworen hat und die keine neue Offenbarung bringt, sondern zu Christus führt, unterscheidet sich grundlegend von einer Sitzung, in der Geister auf Bestellung sprechen.`,
+                  detail: `Die koptische Kirche ist bei Erscheinungen zurückhaltend: Sie sind nie Glaubensgrundlage, die Offenbarung in Christus ist abgeschlossen. Was die Kirche über Zeitoun (1968–1971) bezeugte, war gerade, dass die Erscheinungen nicht sprachen, keine Botschaften brachten und Menschen verschiedener Religionen ins Gebet führten. Der Unterschied zum Spiritismus liegt also nicht darin, dass das eine übernatürlich wäre und das andere nicht, sondern in Initiative, Inhalt und Frucht – genau die Maßstäbe, die Antonius lehrte. Ausführlicher: Claim zu Zeitoun im Themenblock Medizin und Wunder.`,
+                  voices: [
+                    {
+                      person: 'antonius',
+                      role: 'als Lehrer der Unterscheidung der Geister',
+                      text: `Antonius lehrt nach dem Bericht des Athanasius, dass die Gegenwart der Heiligen ruhig und sanft ist und Freude, Mut und Liebe zu Gott in die Seele bringt, während die Dämonen Verwirrung, Lärm und Furcht verbreiten und Gedanken des Stolzes eingeben. Wer eine Erscheinung sieht, soll ruhig fragen: Wer bist du? Und er soll Christus anrufen – das Gute bleibt, das Böse weicht.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '35–43', quote: `Regeln zur Unterscheidung der Geister: Frieden und Freude als Zeichen des Guten, Unruhe und Furcht als Zeichen des Bösen.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Hat die Erscheinung, von der du sprichst, neue Lehren und Zukunftsbotschaften gebracht – oder Menschen zu Gebet und Umkehr geführt?`],
+                },
+              ],
             },
           ],
         },

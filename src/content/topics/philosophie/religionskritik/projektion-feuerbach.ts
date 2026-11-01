@@ -163,6 +163,25 @@ const claim: Claim = {
               objectionBy: 'Moderner Religionskritiker',
               answer: `Völlig richtig – und genau das ist mein Punkt. Aus Einzelfällen von Wunschdenken folgt weder, dass Atheismus falsch ist, noch, dass Glaube falsch ist. Wenn wir die Psychologie beider Seiten beiseitelassen, bleibt die eigentliche Frage: Welche Gründe gibt es für oder gegen Gott? Darüber spreche ich gern.`,
               detail: `Das ist der strategische Kern dieses ganzen Themenblocks: Psychologisierung neutralisiert sich selbst. Wer sie einsetzt, muss sie auch gegen sich gelten lassen. Danach kann das Gespräch zu den Argumenten zurückkehren – Kosmologie, Feinabstimmung, Moral, Bewusstsein, Auferstehung.`,
+              followUps: [
+                {
+                  id: 'vitz-ebenso-spekulativ',
+                  objection: `Und Paul Vitz' „Vaterhypothese" – Atheisten hätten oft abwesende oder schwache Väter – ist genauso spekulativ wie Freud. Mit Hume, Nietzsche, Freud und Sartre ein paar Biografien zusammenzusuchen, ist keine Wissenschaft.`,
+                  objectionBy: 'Atheistischer Kritiker',
+                  answer: `Einverstanden – und Vitz selbst sagt das im Wesentlichen auch. Er legt seine Hypothese nicht als Beweis gegen den Atheismus vor, sondern als Spiegel: Wenn man Freuds Methode ernst nimmt, lässt sie sich mindestens ebenso plausibel auf den Unglauben anwenden. Das Ergebnis ist ein Patt, und genau dieses Patt ist die Pointe. Psychologie entscheidet die Gottesfrage in keine Richtung.`,
+                  detail: `Vitz (*Faith of the Fatherless: The Psychology of Atheism*, 1999) untersucht Biografien prominenter Atheisten (u. a. Nietzsche, Hume, Russell, Sartre, Camus, Freud) und findet häufig den frühen Verlust oder das Versagen des Vaters; als Kontrast nennt er gläubige Zeitgenossen wie Pascal, Kierkegaard oder Chesterton. Er bezeichnet seine These ausdrücklich als Gegenstück zu Freud, nicht als allgemeines Gesetz. Für das Gespräch heißt das: Diese These nie als persönlichen Angriff verwenden, sondern nur, um zu zeigen, dass Psychologisierung in beide Richtungen schneidet.`,
+                  voices: [
+                    {
+                      person: 'vitz',
+                      role: 'als Psychologe (New York University)',
+                      text: `Vitz, selbst als junger Mann Atheist, stellt fest, dass sein eigener Unglaube weniger aus Argumenten als aus sozialen und persönlichen Motiven kam. Er schlägt vor, Freuds Projektionsthese umzudrehen: Wenn der Glaube ein Wunsch nach einem Vater sein kann, kann der Unglaube ein Wunsch nach der Abwesenheit eines enttäuschenden Vaters sein. Beides zeigt nur, dass Psychologie die Wahrheitsfrage nicht entscheidet.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Paul C. Vitz', work: 'Faith of the Fatherless: The Psychology of Atheism', year: '1999', quote: `Die Theorie des „defekten Vaters" wendet Freuds Methode auf den Atheismus an; sie ist als Gegenstück gedacht, nicht als Beweis.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -183,6 +202,100 @@ const claim: Claim = {
           detail: `Das Bild der Kirche als Krankenhaus findet sich bei Johannes Chrysostomus und ist in der orthodoxen Seelsorge zentral. Siehe auch den Claim „Religion erzeugt krankhafte Schuldgefühle" (Themenblock Psychologie). Zugeständnis und Unterscheidung zugleich sind hier die stärkste Antwort.`,
           sources: [
             { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über die Buße (De paenitentia, CPG 4333)', year: '386–387', quote: `Die Kirche ist ein Krankenhaus für die Seelen, kein Gerichtssaal; hier wird die Sünde geheilt, nicht nur verurteilt.`, status: 'paraphrase', note: 'Werk geprüft: Der Gegensatz „Krankenhaus, nicht Gerichtshof“ steht in den Bußhomilien (engl. G. G. Christo, On Repentance and Almsgiving, FOC 96, 1998). Homilie-Nummer und genauer Wortlaut nicht gesichert – sinngemäß zitieren.' },
+          ],
+          followUps: [
+            {
+              id: 'nietzsche-sklavenmoral',
+              objection: `Das ist kein Missbrauch, das ist das Programm. Das Christentum ist Sklavenmoral: Es hat Demut, Mitleid und Schwäche zu Tugenden erklärt, damit die Schwachen die Starken klein halten können. Es ist der Aufstand des Ressentiments gegen alles Vornehme und Lebensbejahende.`,
+              objectionBy: 'Friedrich Nietzsche (Zur Genealogie der Moral; Der Antichrist)',
+              answer: `Nietzsche hat richtig gesehen, dass das Christentum die Werte der Antike umgestürzt hat – das bestätigen heute auch säkulare Historiker. Aber christliche Demut ist nicht Selbstverachtung, sondern die Freiheit, sich nicht mehr selbst beweisen zu müssen. Christus wurde nicht aus Schwäche Diener, sondern aus Stärke: Er, der „in göttlicher Gestalt war", entäußerte sich selbst (Phil 2,6–7). Und die Frage ist, welche Welt wir wollen: eine, in der die Schwachen geschützt werden, oder eine, in der die Starken herrschen. Nietzsche war ehrlich genug, das Zweite zu wählen.`,
+              detail: `In *Zur Genealogie der Moral* (1887) beschreibt Nietzsche den „Sklavenaufstand in der Moral", der mit den Juden und Christen begonnen habe; im *Antichrist* (1888) nennt er das Christentum die Religion des Mitleidens, die das Schwache erhält. Der Historiker Tom Holland (*Dominion*, 2019) bestätigt Nietzsches Diagnose der Umwertung – und zieht den umgekehrten Schluss: Unsere Empörung über Unterdrückung ist selbst ein christliches Erbe.
+
+Die orthodoxe Tradition kennt die Demut als Weg zur Freiheit: Die Wüstenväter waren keine Duckmäuser, sondern widerstanden Kaisern und Patriarchen (Antonius schrieb an Kaiser Konstantin; Athanasius ging fünfmal ins Exil). Siehe den Claim „Gott ist tot" im Themenblock Sinn und Existenz.`,
+              sources: [
+                { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Zur Genealogie der Moral', ref: 'Erste Abhandlung, Abschnitte 7 und 10', year: '1887', quote: `Nietzsche beschreibt den „Sklavenaufstand in der Moral", in dem das Ressentiment selbst schöpferisch wird und die Werte der Vornehmen umwertet.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Philipper', ref: '2,6–7', quote: `… welcher, ob er wohl in göttlicher Gestalt war, hielt er's nicht für einen Raub, Gott gleich sein, sondern entäußerte sich selbst und nahm Knechtsgestalt an …`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn Mitleid mit den Schwachen Sklavenmoral ist – möchtest du in einer Welt leben, die diese Moral abgeschafft hat?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'agentendetektor',
+      objection: `Die moderne Kognitionswissenschaft hat Feuerbach bestätigt: Unser Gehirn hat einen überempfindlichen „Agentendetektor". Lieber zehnmal einen Löwen im Gebüsch vermuten, wo keiner ist, als einmal den echten übersehen. Götter sind das Nebenprodukt dieses Mechanismus – wir sehen Absicht, wo nur Zufall ist.`,
+      objectionBy: 'Daniel Dennett (Breaking the Spell, 2006) / Pascal Boyer',
+      answer: `Das ist die modernste Form der Projektionsthese, und sie ist interessanter als Feuerbach. Aber sie hat dasselbe Problem: Sie erklärt, *wie* Menschen zum Glauben kommen könnten, nicht *ob* er falsch ist. Justin Barrett, einer der Begründer dieser Forschung und selbst Christ, betont, dass die kognitive Religionswissenschaft die Wahrheitsfrage gar nicht entscheiden kann. Und der „Agentendetektor" reagiert auf raschelnde Büsche – nicht auf die Frage, warum es überhaupt ein Universum mit Naturgesetzen gibt. Die klassischen Gottesargumente sind keine Reflexe, sondern Schlussfolgerungen.`,
+      detail: `Die kognitive Religionswissenschaft (Boyer, *Religion Explained*, 2001; Barrett, *Why Would Anyone Believe in God?*, 2004) zeigt, dass Kinder spontan zu einem Glauben an absichtsvolle Gestaltung neigen. Barrett zieht daraus den Schluss, dass Glaube „natürlich" ist – was nichts über seine Wahrheit sagt, in beide Richtungen. Wäre der christliche Gott real und hätte den Menschen auf Gemeinschaft mit sich hin geschaffen, wäre genau eine solche natürliche Offenheit zu erwarten (Röm 1,19–20; Augustinus: „Unruhig ist unser Herz, bis es ruht in dir"). Siehe den Claim „Religion ist ein evolutionäres Nebenprodukt" (Themenblock Kognitive Religionswissenschaft).`,
+      voices: [
+        {
+          person: 'justin-barrett',
+          role: 'als Kognitionswissenschaftler',
+          text: `Barrett gehört zu den Pionieren der kognitiven Religionswissenschaft und hat den Begriff des „hyperaktiven Agentendetektors" geprägt. Er betont, dass die Erklärung der kognitiven Grundlagen des Glaubens dessen Wahrheit weder beweist noch widerlegt: Auch unser Glaube an andere Personen oder an die Außenwelt beruht auf natürlichen kognitiven Mechanismen, ohne dadurch falsch zu werden.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Justin L. Barrett', work: 'Why Would Anyone Believe in God?', year: '2004', quote: `Dass religiöser Glaube aus natürlichen kognitiven Mechanismen hervorgeht, sagt nichts darüber aus, ob er wahr ist.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Daniel C. Dennett', work: 'Breaking the Spell: Religion as a Natural Phenomenon', year: '2006', quote: `Dennett deutet Religion als natürliches Phänomen, das u. a. aus einer überaktiven Neigung entsteht, hinter Ereignissen handelnde Wesen zu vermuten.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welcher Mechanismus des Agentendetektors führt zu dem Schluss, dass ein Universum mit einem Anfang eine Ursache braucht?`,
+        `Wenn ein natürlicher Ursprung eine Überzeugung entwertet – was ist dann mit deinem Vertrauen in die Logik?`,
+      ],
+      followUps: [
+        {
+          id: 'evolutionaere-entlarvung',
+          objection: `Doch, es entlarvt ihn: Wenn eine Überzeugung durch einen Prozess entstanden ist, der auf Überleben und nicht auf Wahrheit ausgerichtet war, haben wir keinen Grund, ihr zu trauen. Das ist ein evolutionäres Entlarvungsargument.`,
+          objectionBy: 'Daniel Dennett / Guy Kahane',
+          answer: `Dann pass auf, dass das Messer nicht dich selbst schneidet. Wenn Evolution auf Überleben statt auf Wahrheit ausgerichtet ist, gilt das für *alle* unsere Denkvermögen – auch für die, mit denen du Naturwissenschaft und Philosophie betreibst und den Naturalismus begründest. Alvin Plantinga hat genau das gezeigt: Wer Naturalismus und ungelenkte Evolution zusammen annimmt, untergräbt das Vertrauen in die eigene Vernunft. Der Theist hat dieses Problem nicht: Wenn Gott uns zur Erkenntnis geschaffen hat, ist zu erwarten, dass unser Verstand die Wahrheit erfassen kann.`,
+          detail: `Plantinga entwickelt das „Evolutionary Argument against Naturalism" in *Warrant and Proper Function* (1993, Kap. 12) und *Where the Conflict Really Lies* (2011): Die Wahrscheinlichkeit, dass unsere kognitiven Fähigkeiten zuverlässig sind, ist unter Naturalismus plus Evolution niedrig oder unbestimmbar; wer das sieht, hat einen Grund, an allen seinen Überzeugungen zu zweifeln – auch am Naturalismus selbst.
+
+Darwin selbst äußerte in einem Brief an William Graham (3. Juli 1881) den „schrecklichen Zweifel", ob die Überzeugungen eines aus niederen Tieren entwickelten Geistes überhaupt Vertrauen verdienen.`,
+          voices: [
+            {
+              person: 'plantinga',
+              role: 'als Erkenntnistheoretiker',
+              text: `Plantinga argumentiert, dass die natürliche Selektion Verhalten belohnt, nicht wahre Überzeugungen als solche. Unter der Annahme, dass kein Gott die Evolution lenkt, gibt es daher keinen guten Grund, die Zuverlässigkeit unseres Denkens für hoch zu halten. Der Konflikt besteht deshalb nicht zwischen Wissenschaft und Glauben, sondern zwischen Wissenschaft und Naturalismus.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies: Science, Religion, and Naturalism', year: '2011', quote: `Wer Naturalismus und Evolution zugleich annimmt, hat einen Grund, an der Zuverlässigkeit seiner eigenen kognitiven Fähigkeiten zu zweifeln – und damit auch am Naturalismus.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          followUps: [
+            {
+              id: 'wahrheit-hilft-ueberleben',
+              objection: `Unsinn. Wahre Überzeugungen helfen beim Überleben: Wer glaubt, dass der Abgrund tief ist, fällt nicht hinein. Also selektiert die Evolution sehr wohl auf Wahrheit.`,
+              objectionBy: 'Naturalistischer Philosoph',
+              answer: `Für Überzeugungen über Abgründe und Löwen – vielleicht. Aber nicht für abstrakte Fragen wie Metaphysik, Kosmologie oder die Gottesfrage, die für das Überleben in der Steinzeit keine Rolle spielten. Und selbst naturalistische Neurowissenschaftler sind vorsichtig: Patricia Churchland schreibt, die Hauptaufgabe des Nervensystems sei, den Körper so zu bewegen, dass er überlebt – „die Wahrheit, was immer sie ist, kommt dabei zuletzt". Wenn das stimmt, ist dein Vertrauen in deine philosophischen Schlüsse ebenso entlarvt wie mein Glaube.`,
+              detail: `Churchlands Satz steht in „Epistemology in the Age of Neuroscience" (*Journal of Philosophy* 84, 1987, S. 548). Auch der Kognitionswissenschaftler Donald Hoffman (*The Case Against Reality*, 2019) argumentiert, dass Evolution Wahrnehmungen begünstigt, die nützlich, nicht wahr sind. Das Problem ist also nicht christliche Erfindung, sondern wird innerhalb des Naturalismus diskutiert.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Patricia S. Churchland', work: 'Epistemology in the Age of Neuroscience', ref: 'Journal of Philosophy 84 (1987), S. 548', year: '1987', quote: `Die Hauptaufgabe des Nervensystems ist es, die Körperteile dorthin zu bringen, wo sie sein sollen, damit der Organismus überlebt … Die Wahrheit, was immer sie ist, kommt dabei entschieden zuletzt.`, original: `Truth, whatever that is, definitely takes the hindmost.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'theismus-zirkulaer',
+                  objection: `Und du bist zirkulär: Du benutzt deinen Verstand, um zu beweisen, dass Gott deinem Verstand Zuverlässigkeit garantiert. Das ist ein Kreis.`,
+                  objectionBy: 'Daniel Dennett (sinngemäß)',
+                  answer: `Jeder Standpunkt beginnt damit, seinen Verstand zu benutzen – auch deiner. Es gibt keinen Ort außerhalb der Vernunft, von dem aus man sie neutral prüfen könnte. William Alston hat gezeigt, dass diese „erkenntnistheoretische Zirkularität" bei allen grundlegenden Erkenntnisquellen unvermeidlich ist – bei Wahrnehmung, Gedächtnis und Logik. Die Frage ist daher nicht, wer einen Kreis vermeidet, sondern welches Weltbild das Vertrauen in die Vernunft *stimmig* macht. Im Theismus passt es ins Bild; im Naturalismus steht es unter Verdacht.`,
+                  detail: `Alston (*The Reliability of Sense Perception*, 1993) argumentiert, dass man die Zuverlässigkeit der Sinneswahrnehmung nicht begründen kann, ohne irgendwo auf Wahrnehmung zurückzugreifen. Das macht Wahrnehmung nicht wertlos, sondern zeigt, dass jedes Denken mit einem Grundvertrauen beginnt. Die christliche Tradition kennt dieses Vertrauen als Teil der Schöpfung: Der Mensch ist nach dem Bild des Logos geschaffen (Athanasius, *De Incarnatione* 3), also zur Vernunft und zur Erkenntnis der Wahrheit bestimmt.`,
+                  voices: [
+                    {
+                      person: 'william-alston',
+                      role: 'als Erkenntnistheoretiker',
+                      text: `Alston zeigt, dass jede grundlegende Erkenntnisquelle nur mithilfe ihrer selbst als zuverlässig erwiesen werden kann. Wer dem Theisten Zirkularität vorwirft, muss denselben Vorwurf gegen das eigene Vertrauen in Wahrnehmung und Vernunft gelten lassen. Rational ist es daher, den grundlegenden Erkenntnisquellen zu trauen, solange keine starken Gründe dagegen sprechen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'William P. Alston', work: 'The Reliability of Sense Perception', year: '1993', quote: `Die Zuverlässigkeit grundlegender Erkenntnisquellen lässt sich nicht ohne erkenntnistheoretische Zirkularität begründen; das gilt für alle, nicht nur für den Theisten.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

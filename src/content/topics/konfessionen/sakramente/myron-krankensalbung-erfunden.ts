@@ -177,6 +177,103 @@ Entscheidend ist seine Parallele zur Eucharistie: Nach der Anrufung des Geistes 
         { kind: 'gegner', author: 'Johannes Calvin', work: 'Unterricht in der christlichen Religion (Institutio)', ref: 'IV,19,18–21', year: '1559', quote: `Calvin lehnt die Letzte Ölung als Sakrament ab: Die Heilungsgabe von Jak 5 sei eine zeitlich begrenzte Gabe gewesen; die römische Praxis sei bloßes Schauspiel.`, status: 'paraphrase' },
       ],
     },
+    {
+      id: 'salbung-beim-glaeubigwerden',
+      objection: `„2 Kor 1,21–22 und 1 Joh 2,20: Gott hat uns gesalbt und versiegelt und den Geist als Pfand gegeben – im Moment des Gläubigwerdens, ohne Öl und ohne Bischof. Eine eigene ‚Myronsalbung' kennt die frühe Kirche nicht; das ist spätere Ritualisierung."`,
+      objectionBy: 'Wayne Grudem',
+      answer: `Die frühe Kirche hat diese Salbung sehr konkret verstanden. Theophilus von Antiochien schreibt um 180 einem Heiden: „Wir heißen Christen, weil wir mit dem Öl Gottes gesalbt sind." Tertullian (um 200) beschreibt, wie die Neugetauften nach dem Bad „mit gesegnetem Öl gesalbt" werden und danach die Handauflegung zur Herabrufung des Geistes empfangen. Die Jerusalemer Katechesen (4. Jh.) widmen dem heiligen Myron eine eigene Unterweisung. Von Antiochien über Karthago bis Jerusalem dasselbe Bild – das ist keine späte Erfindung.`,
+      detail: `Paulus verbindet in 2 Kor 1,21–22 drei Begriffe: salben (*chriein*), versiegeln (*sphragizesthai*) und das Pfand des Geistes geben. Genau diese Begriffe prägen die alte Taufliturgie: Das „Siegel der Gabe des Heiligen Geistes" ist bis heute die Spendeformel des Myron in den östlichen Kirchen.
+
+Die Quellen der ersten Jahrhunderte:
+- **Theophilus von Antiochien**, *An Autolykos* I,12 (um 180): Der Name „Christ" kommt von der Salbung mit dem Öl Gottes.
+- **Tertullian**, *Über die Taufe* 7–8 (um 200): Nach der Taufe Salbung mit gesegnetem Öl, dann Handauflegung mit Anrufung des Geistes.
+- **Traditio Apostolica** (3./4. Jh., traditionell Hippolyt zugeschrieben): Salbung durch den Presbyter, Handauflegung und Salbung durch den Bischof.
+- **Mystagogische Katechesen** 3 (Jerusalem, spätes 4. Jh.): eigene Katechese über das Myron.
+
+Ehrlich bleibt: Die Riten unterscheiden sich im Detail zwischen den Regionen, und die Zählung als eigenes „Sakrament" kam später. Aber die Salbung als Gabe des Geistes nach der Taufe ist früh und breit bezeugt.`,
+      voices: [
+        {
+          person: 'kyrill-jerusalem',
+          role: 'als Mystagoge der Neugetauften (Verfasserschaft der Mystagogischen Katechesen umstritten)',
+          text: `Die Mystagogischen Katechesen erklären den Neugetauften, dass sie „Christen" heißen, weil sie mit dem Chrisma gesalbt wurden, so wie Christus nach seiner Taufe im Jordan vom Geist gesalbt wurde. Das Myron sei nach der Anrufung des Geistes nicht mehr bloßes Salböl, sondern Gabe Christi, die durch die Gegenwart des Geistes wirkt – vergleichbar dem eucharistischen Brot, das nach der Epiklese nicht mehr gewöhnliches Brot ist.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Jerusalem (zugeschrieben)', work: 'Mystagogische Katechesen', ref: '3,1–3', year: 'spätes 4. Jh.', quote: `Wie das Brot der Eucharistie nach der Anrufung des Heiligen Geistes nicht mehr gewöhnliches Brot ist, so ist auch dieses heilige Myron nach der Anrufung nicht mehr bloßes oder gewöhnliches Öl, sondern Gabe Christi, die durch die Gegenwart des Heiligen Geistes wirksam wird.`, status: 'paraphrase', note: 'Verfasserschaft umstritten (Kyrill oder Johannes von Jerusalem).' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'kirchenvater', author: 'Theophilus von Antiochien', work: 'An Autolykos (Ad Autolycum)', ref: 'I,12', year: 'um 180', quote: `Wir werden Christen genannt, weil wir mit dem Öl Gottes gesalbt sind.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Tertullian', work: 'Über die Taufe (De baptismo)', ref: '7–8', year: 'um 200', quote: `Nach dem Bad werden wir mit gesegnetem Öl gesalbt, nach der alten Ordnung, nach der man zum Priestertum gesalbt wurde; danach wird die Hand aufgelegt und durch Segnung der Heilige Geist herabgerufen.`, status: 'paraphrase', note: 'Tertullian wird als Zeuge der Praxis zitiert, nicht als Lehrautorität.' },
+        { kind: 'bibel', work: '2. Korinther', ref: '1,21–22', quote: `Gott ist's aber, der uns befestigt samt euch in Christum und uns gesalbt und versiegelt und in unsre Herzen das Pfand, den Geist, gegeben hat.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Warum sagt ein Bischof um 180, Christen hießen so, weil sie „mit dem Öl Gottes gesalbt" sind, wenn es keine Salbung gab?`,
+        `Woher stammt deiner Meinung nach die überall gleiche Praxis der Salbung nach der Taufe in Syrien, Afrika und Palästina?`,
+      ],
+      followUps: [
+        {
+          id: 'theophilus-wortspiel',
+          objection: `„Theophilus spielt nur mit Worten: Christos – chriō. Ein Wortspiel beweist kein Sakrament."`,
+          objectionBy: 'James White',
+          answer: `Ein Wortspiel funktioniert nur, wenn der Leser die Praxis kennt oder sie ihm erklärt wird – Theophilus argumentiert gegenüber einem Heiden mit etwas, das Christen *tun*. Und er steht nicht allein: Tertullian, die Traditio Apostolica und die Jerusalemer Katechesen beschreiben die konkrete Salbung mit Öl nach der Taufe. Wenn unabhängige Zeugen in verschiedenen Regionen dasselbe berichten, ist das kein Wortspiel mehr, sondern ein historischer Befund.`,
+          followUps: [
+            {
+              id: 'luther-babylonische-gefangenschaft',
+              objection: `„Luther hat in ‚Von der babylonischen Gefangenschaft der Kirche' gezeigt: Firmung und Ölung haben keine göttliche Verheißung mit eingesetztem Zeichen. Als frommen Brauch kann man sie behalten – aber nicht als Sakrament."`,
+              objectionBy: 'Martin Luther (historisch)',
+              answer: `Interessant ist, wie Luther in derselben Schrift rechnet: Zuerst erklärt er, es gebe nicht sieben, sondern vorerst drei Sakramente – Taufe, Buße und Brot. Am Ende bleiben nur zwei übrig, weil der Buße das sichtbare Zeichen fehle. Die Zahl hängt also an seiner Definition – nicht an der Schrift. Die Schrift fragt nicht nach einer Liste, sondern danach, ob Gott durch diese Handlungen wirkt. Und das bezeugt sie: Durch die Handauflegung der Apostel empfingen die Getauften den Geist (Apg 8,17; 19,6), und durch die Salbung der Ältesten werden dem Kranken „die Sünden vergeben" (Jak 5,15).`,
+              detail: `In *De captivitate Babylonica ecclesiae praeludium* (1520) setzt Luther als Maßstab an, ein Sakrament müsse eine von Christus selbst gegebene Verheißung mit einem eingesetzten Zeichen haben. Daran misst er die sieben und behält zuletzt nur Taufe und Abendmahl. Die Beichte schätzt er weiterhin hoch – ohne sie „Sakrament" zu nennen.
+
+Die orthodoxe Kirche spricht lieber von **Mysterien** und hat lange keine feste Zahl gekannt; die Siebenzahl ist eine spätere Zusammenfassung (das räumen wir offen ein). Entscheidend ist nicht die Liste, sondern dass Christus in seiner Kirche durch sichtbare Handlungen und das Gebet der Kirche unsichtbare Gnade schenkt. Wer die Definition eng genug zieht, kann jede Zahl begründen – Zwingli kam mit einer noch engeren Sicht auf gar kein Gnadenmittel im eigentlichen Sinn mehr.`,
+              sources: [
+                { kind: 'gegner', author: 'Martin Luther', work: 'Von der babylonischen Gefangenschaft der Kirche (De captivitate Babylonica ecclesiae)', year: '1520', quote: `Luther bestreitet die Siebenzahl, nimmt zunächst drei Sakramente an (Taufe, Buße, Brot) und kommt am Ende zu dem Schluss, im strengen Sinn seien es nur zwei, da der Buße das sichtbare, von Gott eingesetzte Zeichen fehle.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '19,6', quote: `Und da Paulus die Hände auf sie legte, kam der heilige Geist auf sie, und sie redeten mit Zungen und weissagten.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn Luther in derselben Schrift erst drei und dann zwei Sakramente zählt – woher kommt die Zahl: aus der Bibel oder aus der Definition?`,
+              ],
+              followUps: [
+                {
+                  id: 'gnade-durch-oel-magie',
+                  objection: `„Gnade durch Öl ist Magie. Gott wirkt durch sein Wort und den Glauben, nicht durch Substanzen, die ein Priester segnet."`,
+                  objectionBy: 'John MacArthur',
+                  answer: `Dann müsstest du auch die Bibel der Magie verdächtigen: Naaman wird im Jordan rein (2 Kön 5,14), Jesus heilt mit Speichel und Erde (Joh 9,6–7), Kranke werden durch Tücher des Paulus gesund (Apg 19,12), die Frau durch die Berührung des Gewandes Jesu (Mk 5,27–30). Gott gebraucht Materie, weil er sie geschaffen hat und im Sohn selbst Fleisch geworden ist. Magie will Gott zwingen; ein Mysterium empfängt im Gebet, was Gott verheißen hat. Jakobus nennt es ausdrücklich „das Gebet des Glaubens" (Jak 5,15).`,
+                  detail: `Der Vorwurf der Magie verkennt den Charakter der Mysterien. Das Myron wird nicht durch eine Zauberformel wirksam, sondern durch die Epiklese – die Bitte der Kirche an den Vater, den Heiligen Geist zu senden. Der Geist wirkt frei; die Kirche bittet im Vertrauen auf Christi Verheißung.
+
+Hinter dem Einwand steht oft ein unbewusster Dualismus zwischen „Geist" und „Materie", der der Bibel fremd ist: Gott sah alles an, was er gemacht hatte, „und siehe, es war sehr gut" (Gen 1,31). In der Menschwerdung hat der Logos Materie angenommen und geheiligt. Darum heiligt Gott den Menschen nicht an seinem Leib vorbei, sondern durch Wasser, Öl, Brot und Wein – so wie er uns in einem Leib erlöst hat.`,
+                  voices: [
+                    {
+                      person: 'habib-girgis',
+                      role: 'als koptischer Katechet der Sakramente',
+                      text: `Habib Girgis erklärt in seiner Darstellung der sieben Mysterien, dass das Myron das Siegel der Gabe des Heiligen Geistes ist und mit Taufe und Eucharistie eine Einheit bildet. Er betont, dass die Wirkung nicht vom Öl als solchem kommt, sondern vom Heiligen Geist, der durch das Gebet der Kirche und das von Christus gegebene Zeichen wirkt.`,
+                      sources: [
+                        { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', quote: `Das Myron als Siegel der Gabe des Heiligen Geistes; seine Wirkung kommt vom Geist, der durch das Gebet der Kirche wirkt, nicht vom Stoff als solchem.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '9,6–7', quote: `Da er solches gesagt, spützte er auf die Erde und machte einen Kot aus dem Speichel und schmierte den Kot auf des Blinden Augen und sprach zu ihm: Gehe hin zu dem Teich Siloah … und kam sehend.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Jakobus', ref: '5,15', quote: `Und das Gebet des Glaubens wird dem Kranken helfen, und der HERR wird ihn aufrichten; und so er hat Sünden getan, werden sie ihm vergeben sein.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `War die Heilung Naamans im Jordan Magie oder Gehorsam gegenüber Gottes Wort?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'warum-nur-patriarch',
+          objection: `„Und warum darf nur euer Patriarch das Myron weihen? Das ist Klerikalismus – der Geist braucht keine Zentrale."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Es geht um Einheit, nicht um Macht. Als in Samaria Menschen getauft worden waren, sandten die Apostel in Jerusalem Petrus und Johannes, die ihnen die Hände auflegten, damit sie den Geist empfingen (Apg 8,14–17). So wurden die Neugetauften sichtbar mit der apostolischen Kirche verbunden. Das eine Myron, das der Patriarch gemeinsam mit den Bischöfen weiht und das jeder Priester bei jeder Taufe verwendet, verbindet jeden koptischen Christen weltweit mit dieser einen Kirche – vom Dorf in Oberägypten bis zur Gemeinde in Wien.`,
+          sources: [
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '8,14–17', quote: `Da aber die Apostel hörten zu Jerusalem, daß Samarien das Wort Gottes angenommen hatte, sandten sie zu ihnen Petrus und Johannes … Da legten sie die Hände auf sie, und sie empfingen den heiligen Geist.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Was empfingen die getauften Samariter in Apg 8,17, das sie vorher nicht hatten?`,

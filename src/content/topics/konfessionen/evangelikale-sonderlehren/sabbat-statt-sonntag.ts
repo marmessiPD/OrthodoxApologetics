@@ -160,6 +160,86 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'papst-hat-geaendert',
+      objection: `„Die katholische Kirche gibt selbst zu, dass sie den Sabbat aus eigener Vollmacht auf den Sonntag verlegt hat – das steht in ihren Katechismen. Daniel hat es vorausgesagt: Er ‚wird sich unterstehen, Zeit und Gesetz zu ändern' (Dan 7,25)."`,
+      objectionBy: 'Doug Batchelor / Ellen G. White',
+      answer: `Einige katholische Kontroverskatechismen des 19. und 20. Jahrhunderts haben das behauptet – als Argument gegen das protestantische „allein die Schrift". Historisch ist es falsch: Der Sonntag ist lange vor jeder päpstlichen Autorität bezeugt – in der Didache, bei Ignatius von Antiochien, im Barnabasbrief und bei Justin. Und die koptische Kirche, die nie unter dem Papst von Rom stand, feiert den Sonntag seit ihren Anfängen. Rom hat ihr nichts „verordnet".`,
+      detail: `Die Deutung von Dan 7,25 auf das Papsttum gehört zur historistischen Auslegung der Adventisten und ist keine allgemein christliche Lesart. Das stärkste Gegenargument ist die Ostkirche: Alexandrien, Antiochien und Jerusalem standen in Liturgie und Kalender unabhängig von Rom – und alle feierten den Herrentag. Eine von Rom erfundene Neuerung hätte sich nicht gleichzeitig und widerspruchslos in den unabhängigen Kirchen des Ostens durchgesetzt.`,
+      questionsBack: [`Wenn Rom den Sonntag eingeführt hat – warum feierten ihn dann auch Kirchen wie die koptische, die Rom nie unterstanden?`],
+      followUps: [
+        {
+          id: 'barnabas-justin-antijuedisch',
+          objection: `„Barnabas und Justin waren antijüdisch eingestellt. Der Sonntag entstand aus dem Wunsch, sich vom Judentum abzugrenzen – das hat Bacchiocchi in ‚From Sabbath to Sunday' gezeigt."`,
+          objectionBy: 'Samuele Bacchiocchi',
+          answer: `Beide nennen ausdrücklich den Grund, und der ist die Auferstehung: Barnabas schreibt, man feiere den achten Tag in Freude, „an dem auch Jesus von den Toten auferstand" (Barn 15,9). Justin erklärt, man versammle sich am Sonntag, weil Gott an diesem ersten Tag die Welt schuf und Jesus Christus an demselben Tag von den Toten auferstand (1 Apol 67). Bacchiocchis These wurde in der Forschung breit diskutiert und vielfach kritisiert, etwa in dem Sammelband „From Sabbath to Lord's Day" (1982).`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '67', year: 'um 155', status: 'paraphrase', quote: `Am Sonntag halten wir alle gemeinsam die Zusammenkunft, weil dies der erste Tag ist, an dem Gott die Welt schuf, und weil Jesus Christus, unser Erlöser, an diesem Tag von den Toten auferstanden ist.` },
+            { kind: 'kirchenvater', work: 'Barnabasbrief', ref: '15,9', year: 'um 130', status: 'paraphrase', quote: `Darum begehen wir auch den achten Tag in Freude, an dem auch Jesus von den Toten auferstand.` },
+            { kind: 'fachliteratur', author: 'D. A. Carson (Hg.)', work: 'From Sabbath to Lord’s Day: A Biblical, Historical, and Theological Investigation', year: '1982', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'apg-20-7-samstagabend',
+              objection: `„Apg 20,7 – ‚am ersten Tag der Woche, da die Jünger zusammenkamen, das Brot zu brechen' – war nach jüdischer Zählung der Samstagabend, und es war ein einmaliges Abschiedstreffen, kein wöchentlicher Gottesdienst."`,
+              objectionBy: 'Adventistischer Lehrer',
+              answer: `Selbst wenn es der Samstagabend war: Dann versammelte sich die Gemeinde bewusst **nach** dem Sabbat, zu Beginn des ersten Tages, um das Brot zu brechen. Paulus wartete in Troas sieben Tage (20,6), um bei dieser Versammlung dabei zu sein. Und in 1 Kor 16,2 ordnet Paulus für Korinth und Galatien an, „an jeglichem ersten Tag der Woche" etwas zurückzulegen – ein regelmäßiger wöchentlicher Rhythmus.`,
+              followUps: [
+                {
+                  id: '1-kor-16-2-zuhause',
+                  objection: `„In 1 Kor 16,2 heißt es ‚bei sich selbst' (*par heautō*) – also zu Hause. Das ist private Buchhaltung, kein Gottesdienst."`,
+                  objectionBy: 'Adventistischer Gesprächspartner',
+                  answer: `Möglich – aber warum dann gerade der erste Tag der Woche? Die Anordnung zeigt, dass dieser Tag schon etwa 25 Jahre nach der Auferstehung in Korinth und Galatien eine besondere Bedeutung hatte. Allein entscheidet der Vers nichts; zusammen mit Apg 20,7, Offb 1,10 („am Tag des Herrn"), der Didache und Ignatius ergibt sich aber ein einheitliches Bild: Die Kirche versammelte sich von Anfang an am Tag der Auferstehung.`,
+                  detail: `Argumentiere hier kumulativ, nicht mit einem einzelnen „Beweisvers". Gestehe offen zu, dass das Neue Testament kein ausdrückliches Gebot „Haltet den Sonntag" enthält. Die Kirche hat den Herrentag als apostolische Überlieferung empfangen – ein gutes Beispiel dafür, dass Schrift und Tradition zusammengehören.`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'ewiger-bund',
+      objection: `„Ex 31,16–17: Der Sabbat ist ein ‚ewiger Bund' und ein ‚ewiges Zeichen'. Was Gott ewig nennt, schafft er nicht ab."`,
+      objectionBy: 'Adventistischer Evangelist',
+      answer: `Dasselbe hebräische „ewig" (*le'olam*) steht auch bei der Beschneidung (Gen 17,13), beim Passa (Ex 12,14) und beim levitischen Priestertum (Ex 40,15) – und diese halten auch Adventisten nicht. Zudem sagt Ex 31,17 ausdrücklich: Er ist ein Zeichen „zwischen mir und den Kindern Israel". „Ewig" erfüllt sich in Christus: Die Beschneidung wird zur Beschneidung des Herzens, das Passa zum Lamm Gottes, der Sabbat zur Ruhe in Christus.`,
+      sources: [
+        { kind: 'bibel', work: '2. Mose', ref: '31,16–17', quote: `Darum sollen die Kinder Israel den Sabbat halten, dass sie ihn auch bei ihren Nachkommen halten zum ewigen Bund. Er ist ein ewiges Zeichen zwischen mir und den Kindern Israel.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: '1. Mose', ref: '17,13', quote: `Und also soll mein Bund an eurem Fleisch sein zum ewigen Bund.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'hebr-4-sabbatruhe',
+          objection: `„Hebr 4,9 sagt doch: ‚Es ist noch eine Ruhe (*sabbatismos*) vorhanden dem Volke Gottes.' Die Sabbatfeier bleibt für die Christen!"`,
+          objectionBy: 'Adventistischer Theologe',
+          answer: `Lies den Zusammenhang: Es geht um die Ruhe, die Josua nicht geben konnte (4,8) – obwohl Israel unter Josua den Wochensabbat hielt. Also meint Hebr 4 eine andere Ruhe: Man tritt „heute" durch den Glauben in sie ein (4,3.7), und wer in sie eingegangen ist, „ruht auch von seinen Werken" (4,10). Das ist die Ruhe in Christus und ihre Vollendung in der Ewigkeit. Justin sagte dem Juden Tryphon: Das neue Gesetz will, dass ihr beständig Sabbat haltet – indem ihr von der Sünde ablasst.`,
+          sources: [
+            { kind: 'bibel', work: 'Hebräer', ref: '4,8–10', quote: `Denn so Josua sie hätte zur Ruhe gebracht, würde er nicht hernach von einem andern Tage gesagt haben. Darum ist noch eine Ruhe vorhanden dem Volke Gottes. Denn wer zu seiner Ruhe gekommen ist, der ruht auch von seinen Werken.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Dialog mit dem Juden Tryphon', ref: '12,3', year: 'um 160', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'jeder-tag-kein-tag',
+              objection: `„Wenn für euch jeder Tag Sabbat ist, haltet ihr in Wahrheit gar keinen Tag. Das ist Gesetzlosigkeit."`,
+              objectionBy: 'Adventistischer Gesprächspartner',
+              answer: `Keineswegs. Die koptische Kirche hat eine sehr klare Ordnung der Zeit: Sonntag mit der göttlichen Liturgie, an dem nicht gefastet wird; Mittwoch und Freitag als Fasttage; der Samstag als Festtag; dazu das Stundengebet der Agpeya und rund 200 Fastentage im Jahr. Das ist keine Gesetzlosigkeit, sondern eine geheiligte Zeitordnung. Paulus mahnt zugleich, einander wegen der Tage nicht zu richten (Röm 14,5–6).`,
+              followUps: [
+                {
+                  id: 'ellen-white-vision',
+                  objection: `„Ellen G. White hat in einer Vision das himmlische Heiligtum gesehen, und das vierte Gebot war von einem Lichtschein umgeben. Gott hat den Sabbat durch prophetische Offenbarung bestätigt."`,
+                  objectionBy: 'Adventistischer Evangelist',
+                  answer: `Ich will Ellen White nicht verspotten; sie war eine ernsthafte, fromme Frau. Aber eine Vision des 19. Jahrhunderts kann nicht entscheiden, was weder die Schrift ausdrücklich lehrt noch die apostolische Kirche geübt hat. Paulus sagt: Selbst ein Engel vom Himmel darf kein anderes Evangelium bringen (Gal 1,8). Der Prüfstein ist die Kirche, die den Aposteln am nächsten war – und sie feierte den Herrentag.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Ellen G. White', work: 'Early Writings (Frühe Schriften)', year: '1882 (Visionen ab 1844/1847)', status: 'paraphrase', note: 'Enthält die Vision vom himmlischen Heiligtum mit dem hervorgehobenen Sabbatgebot.' },
+                  ],
+                  questionsBack: [`Wenn die Kirche 1800 Jahre lang den Sonntag gefeiert hat – war sie dann die ganze Zeit vom Geist Gottes verlassen, bis eine Vision im 19. Jahrhundert die Wahrheit wiederherstellte?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wie verstehst du „Sabbate … welches ist der Schatten" in Kol 2,16–17?`,

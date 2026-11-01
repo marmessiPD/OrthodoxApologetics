@@ -30,7 +30,7 @@ const claim: Claim = {
     sources: [
       { kind: 'kirchenvater', author: 'Clemens von Alexandrien', work: 'Stromata', ref: 'VI,6', year: 'ca. 200', quote: `Der Herr und die Apostel haben auch in der Unterwelt das Evangelium verkündet, damit die, die vor seinem Kommen nach dem Gesetz oder nach der Philosophie gerecht gelebt hatten, glauben konnten.`, status: 'paraphrase', note: 'Theologische Erwägung des Clemens, kein Dogma.' },
       { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '46', original: 'καὶ οἱ μετὰ λόγου βιώσαντες Χριστιανοί εἰσι, κἂν ἄθεοι ἐνομίσθησαν', quote: `Die mit dem Logos gelebt haben, sind Christen, auch wenn sie für gottlos gehalten wurden.`, status: 'verbatim', translation: 'eigene Übersetzung' },
-      { kind: 'fachliteratur', author: 'Kallistos Ware (zugeschrieben; auch Alexei Chomjakow u. a. zugeschrieben)', work: 'The Orthodox Church', quote: `Wir wissen, wo die Kirche ist; wir können nicht sicher sagen, wo sie nicht ist.`, status: 'unverified', note: 'Verbreiteter orthodoxer Grundsatz; genaue Herkunft und Wortlaut konnten nicht verifiziert werden – nur als sinngemäßen Grundsatz verwenden.' },
+      { kind: 'fachliteratur', author: 'Kallistos Ware (zugeschrieben; auch Alexei Chomjakow u. a. zugeschrieben)', work: 'The Orthodox Church', quote: `Wir wissen, wo die Kirche ist; wir können nicht sicher sagen, wo sie nicht ist.`, status: 'unverified', note: 'Verbreiteter orthodoxer Grundsatz; genaue Herkunft und Wortlaut konnten nicht verifiziert werden (erneute Websuche 2026 ohne Beleg in Wares „The Orthodox Church" oder bei Chomjakow/Evdokimov) – nur als sinngemäßen Grundsatz verwenden.' },
       { kind: 'konzil', work: 'Nizäno-Konstantinopolitanisches Glaubensbekenntnis', year: '381', quote: `…und wird wiederkommen in Herrlichkeit, zu richten die Lebenden und die Toten.`, status: 'verbatim' },
     ],
   },
@@ -114,7 +114,7 @@ const claim: Claim = {
 
 Wichtig für das Gespräch: Der Pluralismus vermeidet die „Vereinnahmung" nicht, er verschiebt sie. Er sagt allen Religionen, dass sie sich über ihren eigenen Kern irren – über Inkarnation, Koran, Nirvana –, und dass erst der Pluralist versteht, was sie eigentlich meinen.`,
                   sources: [
-                    { kind: 'gegner', author: 'John Hick', work: 'God Has Many Names', year: '1980', status: 'paraphrase', quote: `Kritik am Inklusivismus: Die Rede vom „anonymen Christen" sei eine gönnerhafte Vereinnahmung der anderen Religionen.` },
+                    { kind: 'gegner', author: 'John Hick', work: 'Schriften zur Religionstheologie (u. a. God Has Many Names, 1980; Problems of Religious Pluralism, 1985)', status: 'paraphrase', quote: `Kritik am Inklusivismus: Die Rede vom „anonymen Christen" sei eine gönnerhafte Vereinnahmung der anderen Religionen.`, note: 'Hick äußert diese Kritik in mehreren Schriften; keine genaue Seitenangabe.' },
                   ],
                   questionsBack: [`Ist es weniger vereinnahmend, allen Religionen zu sagen, sie seien bloß „Antworten auf das Reale"?`],
                 },
@@ -205,7 +205,7 @@ Die Kirche Alexandriens ist selbst ein Beispiel: Nach der Überlieferung brachte
               answer: `Gott ist frei – aber wir sind an das gebunden, was er uns gegeben hat. Ein Arzt kann in einem Notfall auch ohne Krankenhaus helfen; trotzdem baut niemand die Krankenhäuser ab. Die Taufe ist kein Aufwand, sondern ein Geschenk: neue Geburt, Vereinigung mit Christus, die Gabe des Heiligen Geistes. Wer dieses Geschenk kennt und es ablehnt, ist in einer ganz anderen Lage als jemand, der nie davon hören konnte.`,
               detail: `Jesus sagt: „Es sei denn, dass jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen" (Joh 3,5). Die Kirche nimmt das sehr ernst – deshalb tauft sie auch Kinder. Gleichzeitig kennt sie seit alter Zeit die „Bluttaufe" der Märtyrer, die vor ihrer Taufe für Christus starben. Das zeigt: Die Sakramente sind die sicheren, von Christus gestifteten Wege, aber Gott selbst bleibt nicht kleiner als seine Gaben. Die Gewissheit, die die Kirche schenkt, ist unermesslich wertvoll – gerade deshalb gibt sie sie weiter.`,
               sources: [
-                { kind: 'bibel', work: 'Johannes', ref: '3,5', quote: `Jesus antwortete: Wahrlich, wahrlich ich sage dir: Es sei denn, daß jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Johannes', ref: '3,5', quote: `Wahrlich, wahrlich ich sage dir: Es sei denn, dass jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen.`, status: 'paraphrase' },
               ],
               questionsBack: [`Würdest du ein Rettungsboot für überflüssig halten, nur weil manche Schiffbrüchige auch auf andere Weise ans Ufer gelangen?`],
             },
