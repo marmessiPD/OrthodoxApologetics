@@ -221,6 +221,109 @@ Hieronymus zeigt also beides: einen ernsthaften Gelehrtenstreit – und die Bere
           objection: `„Judit enthält grobe historische Fehler: Nebukadnezar als König der Assyrer, der in Ninive regiert. Ein inspiriertes Buch irrt nicht."`,
           objectionBy: 'Norman Geisler',
           answer: `Ehrlich: Als Geschichtsschreibung gelesen ist Judit problematisch. Viele Ausleger – auch orthodoxe und katholische – verstehen das Buch als lehrhafte Erzählung, die bewusst Epochen mischt: „Nebukadnezar, König der Assyrer in Ninive" ist für einen jüdischen Leser ein Signal wie „es war einmal". Inspiration verlangt nicht, dass jedes Buch eine Chronik ist; auch beim Buch Hiob oder bei Gleichnissen fragt niemand nach dem Geburtsregister.`,
+          followUps: [
+            {
+              id: 'judit-dammbruch',
+              objection: `„Damit öffnest du die Tür zum Liberalismus: Wenn Judit ‚lehrhafte Erzählung' sein darf, dann auch Jona, Daniel oder die Auferstehungsberichte."`,
+              objectionBy: 'Norman Geisler / John MacArthur',
+              answer: `Nein – die Gattung bestimmt der Text selbst, nicht unser Geschmack. Die Evangelien geben sich als Augenzeugenbericht (Lk 1,1–4; 1 Kor 15,3–8), Judit gibt sich mit offen widersprüchlichen Herrscherangaben als Erzählung zu erkennen. Auch Protestanten lesen Hiob und das Hohelied nicht als Chronik, ohne deshalb die Auferstehung zu bezweifeln. Und die Väter lasen die Schrift seit Alexandria immer im wörtlichen **und** geistlichen Sinn – ohne je die Heilsereignisse in Frage zu stellen.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '1,1–3', quote: `Sintemal sich's viele unterwunden haben, Bericht zu geben von den Geschichten, so unter uns ergangen sind, wie uns das gegeben haben, die es von Anfang selbst gesehen und Diener des Worts gewesen sind: habe ich's auch für gut angesehen, nachdem ich's alles von Anbeginn mit Fleiß erkundet habe, daß ich's dir, mein guter Theophilus, in Ordnung schriebe.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'zeugnis-des-geistes',
+      objection: `„Die Schrift beglaubigt sich selbst durch das innere Zeugnis des Heiligen Geistes. Wer Gottes Wort liest, schmeckt seine Majestät, wie man Süßes von Bitterem unterscheidet. Die Apokryphen haben diese Majestät nicht – das merkt jeder geistliche Leser."`,
+      objectionBy: 'Johannes Calvin (historisch)',
+      answer: `Das innere Zeugnis des Geistes ist kostbar für den Glauben – aber als Kanonkriterium versagt es. Martin Luther, vom selben Geist erfüllt, nannte den Jakobusbrief „eine rechte stroherne Epistel" und stellte Hebräer, Jakobus, Judas und Offenbarung ans Ende seines Neuen Testaments. Wenn das innere Empfinden über den Kanon entscheidet, hat jeder Leser seinen eigenen. Die Väter, die den Geist ebenso hatten, zitierten Tobit, Weisheit und Sirach als Schrift.`,
+      detail: `Calvin entwickelt das *testimonium Spiritus Sancti internum* in der *Institutio* I,7: Die Schrift brauche keine Bestätigung durch die Kirche, sie bezeuge sich selbst. Für die Gewissheit des einzelnen Gläubigen ist das ein schöner Gedanke, den auch orthodoxe Christen kennen: Der Geist öffnet das Herz für das Wort (Lk 24,45).
+
+Als **Abgrenzungskriterium** für 66 statt 73 Bücher taugt es aber nicht:
+- Luther und Calvin kamen mit demselben „Zeugnis" zu verschiedenen Urteilen über Jakobus und die Offenbarung.
+- Viele Christen „schmecken" im Buch Ester (in dem Gott nie genannt wird) oder in den Geschlechtsregistern der Chronik keine besondere Majestät – und doch gehören sie zum Kanon.
+- Polykarp (um 110) zitiert Tobit, Clemens von Rom (um 96) erzählt Judit nach, Cyprian zitiert Weisheit und Sirach als Schrift: Auch sie hatten den Geist.
+
+Der Kanon ist darum eine Gabe, die die Kirche **empfangen und bezeugt** hat – nicht ein Ergebnis individueller Geschmacksproben.`,
+      voices: [
+        {
+          person: 'cyprian',
+          role: 'als Bischof von Karthago und Zeuge der afrikanischen Kirche im 3. Jahrhundert',
+          text: `Cyprian führt in seinen Schriften Weisheit, Sirach und Tobit wie selbstverständlich neben den Propheten als göttliche Schrift an – etwa in seiner Schrift über Werke und Almosen. Das zeigt, was die Kirche lange vor jeder Konzilsentscheidung im Gottesdienst las und als Gottes Wort empfing.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Cyprian von Karthago', work: 'Über Werke und Almosen (De opere et eleemosynis)', ref: '5', year: 'um 253', quote: `Cyprian führt Tob 12,8–9 („Almosen errettet vom Tod") als Wort der göttlichen Schrift an.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Johannes Calvin', work: 'Institutio Christianae Religionis', ref: 'I,7,2–5', year: '1559', quote: `Die Schrift trägt ihre Glaubwürdigkeit in sich selbst; ihre Gewissheit gründet nicht im Urteil der Kirche, sondern im inneren Zeugnis des Heiligen Geistes.`, status: 'paraphrase' },
+        { kind: 'gegner', author: 'Martin Luther', work: 'Vorrede auf das Neue Testament', year: '1522', quote: `… darum ist Sankt Jakobs Epistel eine rechte stroherne Epistel gegen sie, denn sie doch keine evangelische Art an ihr hat.`, status: 'verbatim', note: 'In späteren Ausgaben ließ Luther diesen Satz weg; an seiner Abwertung des Jakobusbriefs (Vorrede auf die Episteln Jakobi und Judä) hielt er fest.' },
+      ],
+      questionsBack: [
+        `Wenn der Geist jedem Leser den Kanon bezeugt – warum kamen Luther und Calvin beim Jakobusbrief zu verschiedenen Urteilen?`,
+        `Welche „Majestät" schmeckst du im Buch Ester, die du in der Weisheit Salomos nicht schmeckst?`,
+      ],
+      followUps: [
+        {
+          id: 'kruger-drei-merkmale',
+          objection: `„Das ist eine Karikatur des reformierten Modells. Ein selbstbeglaubigender Kanon zeigt sich an drei Merkmalen: göttliche Qualitäten, apostolisch-prophetischer Ursprung und die Rezeption durch die Gemeinde als Ganzes. Die Apokryphen haben keinen prophetischen Ursprung – das gaben selbst jüdische Quellen zu."`,
+          objectionBy: 'Michael Kruger',
+          answer: `Das dritte Merkmal nehme ich gern auf: **Rezeption durch die Gemeinde als Ganzes.** Welche Gemeinde hat das AT gelesen? Die Kirche des 4. und 5. Jahrhunderts – Hippo 393, Karthago 397 –, die koptische, äthiopische, syrische, armenische und griechische Kirche: Alle lesen diese Bücher als Schrift, bis heute. Und „prophetischer Ursprung" ist auch bei Ester oder Chronik nicht durch einen namentlichen Propheten belegt. Konsequent angewandt spricht dein eigenes Modell eher für den weiteren Kanon.`,
+          detail: `Michael Kruger (*Canon Revisited*, 2012) hat das reformierte Kanonverständnis differenziert verteidigt: Der Kanon sei nicht von der Kirche geschaffen, sondern von ihr *erkannt*; dabei wirkten göttliche Eigenschaften, apostolische Herkunft und gemeinsame Rezeption zusammen. Das ist ein ernstzunehmendes Modell – und es kommt der orthodoxen Sicht näher, als viele denken, denn auch wir sagen: Die Kirche *erkennt* den Kanon, sie erfindet ihn nicht.
+
+Der Streitpunkt ist, **wessen Rezeption** zählt. Für das AT verweisen Protestanten auf die Synagoge nach der Tempelzerstörung; die Orthodoxie auf die Kirche Christi, die von Anfang an mit der griechischen Bibel lebte. Die Synode von Karthago (397) zählt in ihrem Kanonverzeichnis Tobit, Judit, zwei Makkabäerbücher und „fünf Bücher Salomos" (einschließlich Weisheit und Sirach) auf – und in derselben Liste die 27 Bücher des Neuen Testaments.`,
+          voices: [
+            {
+              person: 'athanasius',
+              role: 'als Zeuge der kirchlichen Lesepraxis',
+              text: `Selbst Athanasius, der in seinem 39. Osterfestbrief die Weisheit, Sirach, Tobit und Judit nicht in die Kanonliste aufnahm, ordnete sie ausdrücklich als von den Vätern bestimmte Bücher ein, die den Neugetauften zur Unterweisung vorgelesen werden sollen – im Unterschied zu den häretischen „Apokryphen", die er scharf verwirft. Die Kirche hat diese Bücher also nie wie fremde Literatur behandelt.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', quote: `Andere Bücher, nicht kanonisiert, aber von den Vätern bestimmt, um denen vorgelesen zu werden, die neu hinzukommen und im Wort der Frömmigkeit unterwiesen werden wollen.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Michael J. Kruger', work: 'Canon Revisited: Establishing the Origins and Authority of the New Testament Books', year: '2012', quote: `Der Kanon ist selbstbeglaubigend; erkannt wird er an göttlichen Qualitäten, apostolischem Ursprung und der gemeinsamen Rezeption durch die Kirche.`, status: 'paraphrase', note: 'Krugers Modell bezieht sich vor allem auf das NT.' },
+            { kind: 'konzil', author: 'Synode von Karthago', work: 'Kanonverzeichnis (Kanon 47 bzw. 36 je nach Zählung)', year: '397', quote: `Aufzählung der kanonischen Schriften, darunter Tobit, Judit, zwei Bücher der Makkabäer und fünf Bücher Salomos, sowie die 27 Bücher des Neuen Testaments.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'karthago-regional',
+              objection: `„Karthago war eine afrikanische Regionalsynode unter Augustins Einfluss. Hieronymus, der beste Hebraist seiner Zeit, sah es anders. Rezeption heißt nicht: eine Provinzsynode stimmt ab."`,
+              objectionBy: 'James White',
+              answer: `Einverstanden, Karthago ist regional – aber dann sei konsequent: Dieselbe Liste bezeugt auch deine 27 NT-Bücher. Du kannst ihr NT nicht als Zeugnis der Rezeption nehmen und ihr AT als Provinzentscheidung abtun. Und Hieronymus? Er übersetzte Tobit und Judit dennoch und schrieb später (zu den Zusätzen im Buch Daniel), er habe in seiner Vorrede nur wiedergegeben, was die Juden gegen uns einwenden – nicht sein eigenes Urteil. Die Kirche folgte am Ende nicht seinem hebräischen Vorbehalt, sondern ihrer Lesepraxis.`,
+              detail: `Wichtig ist hier die Ehrlichkeit nach beiden Seiten: Hieronymus hat tatsächlich die *hebraica veritas* bevorzugt und die zusätzlichen Bücher in seinen Vorreden abgewertet; das darfst du zugeben. In seiner Verteidigung gegen Rufinus (*Apologia adversus Rufinum* II,33) betont er jedoch, er habe dort die Auffassung der Juden referiert. Augustinus (*De doctrina christiana* II,8,13) zählt die Bücher dagegen klar zum Kanon und begründet das mit dem Gebrauch der Kirchen.
+
+Für die koptische Kirche ist entscheidend: Die alexandrinische Kirche lebte von Anfang an mit der Septuaginta, die in Alexandria entstanden war. Ihre Gottesdienste, Väter und Übersetzungen ins Koptische umfassen diese Bücher.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Hieronymus', work: 'Apologie gegen Rufinus (Apologia adversus Rufinum)', ref: 'II,33', year: 'um 402', quote: `Hieronymus erklärt mit Blick auf die Zusätze zu Daniel (Susanna, Bel und der Drache), er habe in seiner Vorrede nicht seine eigene Meinung, sondern die Einwände der Juden wiedergegeben.`, status: 'paraphrase', note: 'Die Stelle betrifft unmittelbar die Daniel-Zusätze; nicht überdehnen.' },
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Über die christliche Lehre (De doctrina christiana)', ref: 'II,8,13', year: 'um 397', quote: `Aufzählung der kanonischen Bücher einschließlich Tobit, Judit, der Makkabäer, Weisheit und Sirach, gestützt auf das Urteil der meisten Kirchen.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Auf welche Liste der Alten Kirche stützt du deinen NT-Kanon – und warum gilt dieselbe Liste für das AT nicht?`,
+              ],
+              followUps: [
+                {
+                  id: 'patt-zweitrangig',
+                  objection: `„Dann steht es eben unentschieden: Väter auf beiden Seiten. Lass uns das Thema als zweitrangig behandeln – es berührt nicht das Evangelium."`,
+                  objectionBy: 'Gavin Ortlund',
+                  answer: `Einverstanden, dass der Kanonrand nicht über dein Heil entscheidet – darüber sollten wir uns nicht entzweien. Aber bemerke, was das „Unentschieden" bedeutet: Sola Scriptura kann nicht einmal den Umfang der eigenen Schrift aus der Schrift bestimmen. Jede Antwort – deine wie meine – beruft sich auf die Rezeption einer Gemeinschaft. Dann ist die eigentliche Frage nicht „Bibel oder Tradition?", sondern: **Welcher Gemeinschaft vertraust du die Bibel an** – der alten apostolischen Kirche oder den Reformatoren des 16. Jahrhunderts?`,
+                  detail: `Gavin Ortlund plädiert für theologische Triage: Erstrangige, zweitrangige und drittrangige Lehren sollten unterschieden werden. Das ist ein guter, brüderlicher Ansatz – auch die Orthodoxie unterscheidet zwischen Dogma und theologischer Meinung. Beim Kanon gibt es zudem echte innerorthodoxe Unterschiede am Rand (etwa beim 3. Makkabäerbuch oder beim äthiopischen Henoch).
+
+Doch die Triage hat eine Kehrseite: Wer zugibt, dass die Grenze nur durch kirchliche Rezeption erkennbar ist, hat das Grundprinzip der Orthodoxie bereits anerkannt. Die koptische Kirche liest die deuterokanonischen Bücher in ihren Gottesdiensten und hat sie nie aus ihrer Bibel getilgt – sie folgt damit der Kirche, die das Neue Testament geschrieben, gesammelt und überliefert hat.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Gavin Ortlund', work: 'Finding the Right Hills to Die On: The Case for Theological Triage', year: '2020', quote: `Plädoyer dafür, Lehren nach ihrer Bedeutung für das Evangelium zu gewichten und nicht jeden Streitpunkt zur Trennungsfrage zu machen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn die Kanongrenze nur durch die Rezeption der Kirche erkennbar ist – warum nicht auch die Auslegung der Taufe oder der Eucharistie?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

@@ -127,6 +127,17 @@ const claim: Claim = {
               objectionBy: 'HLT-Missionare',
               answer: `Ja, und ich bitte um Weisheit. Jakobus spricht von Weisheit in Anfechtungen (1,2–4). Zur göttlichen Weisheit gehört, Behauptungen sorgfältig zu prüfen: „Ein Unverständiger glaubt alles; aber ein Kluger merkt auf seinen Gang" (Spr 14,15). Weisheit führt mich zur Schrift und zu den Fakten – nicht weg von ihnen.`,
               sources: [{ kind: 'bibel', work: 'Sprüche', ref: '14,15', quote: `Ein Unverständiger glaubt alles; aber ein Kluger merkt auf seinen Gang.`, translation: 'Luther 1912', status: 'verbatim' }],
+              followUps: [
+                {
+                  id: 'smith-jak-1-5-antwort',
+                  objection: `Genau das hat Joseph Smith 1820 getan: Er las Jak 1,5, ging in den Wald und bat Gott um Weisheit – und Gott antwortete ihm mit der ersten Vision. Warum sollte Gott dir nicht genauso antworten?`,
+                  objectionBy: 'HLT-Missionare (Köstliche Perle, JS–LG 1,11–17)',
+                  answer: `Dann prüfen wir die Antwort, wie die Bibel es verlangt. Die Botschaft der Vision lautete, alle Kirchen seien im Irrtum und ihre Bekenntnisse ein Greuel (JS–LG 1,19). Jesus aber versprach, dass die Pforten der Hölle seine Kirche nicht überwältigen (Mt 16,18), und Paulus warnt: „Wenn auch wir oder ein Engel vom Himmel euch würde Evangelium predigen anders, als wir euch gepredigt haben, der sei verflucht" (Gal 1,8). Eine Erscheinung, die dem Wort Christi widerspricht, besteht diese Prüfung nicht – wie hell sie auch war.`,
+                  detail: `Auffällig ist, dass Paulus in Gal 1,8 gerade den Fall einer Engelserscheinung nennt: Selbst die eindrucksvollste übernatürliche Erfahrung steht unter dem Maßstab des apostolischen Evangeliums. Das ist kein Misstrauen gegenüber Gott, sondern Gehorsam gegenüber seinem schon gegebenen Wort. Die ägyptischen Väter lehrten dasselbe: Antonius riet, jede Erscheinung zu fragen, wer sie sei, und auf den Namen Christi zu achten.`,
+                  sources: [{ kind: 'bibel', work: 'Galater', ref: '1,8', quote: `Aber so auch wir oder ein Engel vom Himmel euch würde Evangelium predigen anders, denn das wir euch gepredigt haben, der sei verflucht.`, translation: 'Luther 1912', status: 'verbatim' }],
+                  questionsBack: [`Wenn ein Engel vom Himmel eine Botschaft bringt, die dem Evangelium der Apostel widerspricht – wem soll ich nach Gal 1,8 glauben?`],
+                },
+              ],
             },
           ],
         },
@@ -143,6 +154,17 @@ const claim: Claim = {
           objection: `Eure historischen Belege für die Auferstehung sind auch nicht zwingend. Auch ihr glaubt gegen Einwände.`,
           objectionBy: 'HLT-Apologeten',
           answer: `Kein historisches Argument ist ein mathematischer Beweis. Aber es gibt einen Unterschied zwischen Belegen, die **für** eine Sache sprechen, und Belegen, die **gegen** sie sprechen. Für die Auferstehung sprechen frühe, unabhängige Quellen und Fakten, die selbst skeptische Historiker anerkennen. Gegen die Geschichtlichkeit des Buches Mormon sprechen Archäologie und Genetik, und selbst die HLT-Kirche räumt die asiatische Herkunft der Ureinwohner ein. Diese Asymmetrie ist entscheidend.`,
+          followUps: [
+            {
+              id: 'wissenschaft-aendert-sich',
+              objection: `Die Wissenschaft ändert sich ständig. Was heute als „widerlegt" gilt, ist morgen bestätigt – siehe die Gerste. Das Zeugnis des Geistes steht über menschlichem Wissen.`,
+              objectionBy: 'Terryl L. Givens / HLT-Mitglieder',
+              answer: `Einzelne Befunde ändern sich, ja – und ich werde jeden neuen Fund ehrlich anerkennen. Aber manche Ergebnisse sind sehr robust: Die Hieroglyphen sind entziffert, und die Papyri des Buches Abraham sind erhalten und übersetzt. Das wird sich nicht mehr ändern. Und wenn das Zeugnis grundsätzlich über allen Belegen steht, dann ist es nicht mehr prüfbar – dann könnte auch der Muslim, der Hindu und der Zeuge Jehovas sein Zeugnis über alle Belege stellen.`,
+              detail: `Der christliche Glaube hat sich nie gegen die Geschichtswissenschaft immunisiert. Paulus machte ihn bewusst angreifbar: „Ist Christus nicht auferstanden, so ist unser Predigen vergeblich" (1 Kor 15,14). Wer sagt, kein möglicher Befund könne sein Zeugnis erschüttern, sagt in Wahrheit, dass sein Zeugnis mit der wirklichen Welt nichts zu tun hat. Das ist nicht demütiger Glaube, sondern ein Rückzug aus der Prüfbarkeit.`,
+              sources: [{ kind: 'bibel', work: '1. Korinther', ref: '15,14', quote: `Ist aber Christus nicht auferstanden, so ist unsre Predigt vergeblich, so ist auch euer Glaube vergeblich.`, translation: 'Luther 1912', status: 'verbatim' }],
+              questionsBack: [`Gibt es irgendeinen Befund, der dich überzeugen würde, dass das Buch Mormon nicht historisch ist?`],
+            },
+          ],
         },
       ],
     },
@@ -152,6 +174,51 @@ const claim: Claim = {
       objectionBy: 'HLT-Mitglieder',
       answer: `Paulus sagt: „Der Satan verstellt sich zum Engel des Lichts" (2 Kor 11,14). Die ägyptischen Wüstenväter haben das erfahren: Cassian erzählt von einem frommen Mönch, der einem leuchtenden „Engel" vertraute und daran zugrunde ging. Frieden ist eine Frucht des Geistes – aber nicht jedes Friedensgefühl ist der Geist. Darum prüfen wir am Wort Gottes, nicht am Gefühl.`,
       questionsBack: [`Wie würdest du einen falschen Frieden von einem echten unterscheiden, wenn nicht an der Schrift?`],
+      followUps: [
+        {
+          id: 'antonius-unterscheidung-gefuehl',
+          objection: `Aber euer eigener Antonius lehrte doch, die Geister am Gefühl zu unterscheiden: Die Gegenwart der Heiligen bringt Ruhe und Freude, die der Dämonen Verwirrung und Angst. Genau das ist unser Kriterium!`,
+          objectionBy: 'HLT-Apologeten mit Verweis auf das Leben des Antonius',
+          answer: `Athanasius berichtet das tatsächlich (Leben des Antonius 35–37) – ein schöner Punkt. Aber Antonius wandte diese Regel auf Erscheinungen an, nicht auf neue Lehren. Und dieselbe Lebensbeschreibung erzählt, dass Antonius die Arianer und Meletianer schroff abwies, weil ihre **Lehre** falsch war – kein Gefühl konnte das ändern. Für Antonius bewährte sich der Geist am Bekenntnis zu Christus, dem ewigen Sohn, „nicht einem Geschöpf". Wer Antonius als Zeugen anruft, muss auch seinen Glauben übernehmen.`,
+          detail: `Die ägyptische Wüstentradition ist die Wiege der „Unterscheidung der Geister" (*diakrisis*). Ihr Kern: Gefühle sind Hinweise, aber trügerisch; der Mönch prüft sie im Gehorsam gegenüber dem geistlichen Vater, an der Schrift und am Glauben der Kirche. Cassian nennt die Unterscheidung die Mutter aller Tugenden und erzählt warnend von Mönchen, die ihren eigenen Eingebungen folgten und in die Irre gingen. Das ist das Gegenteil des Satzes: „Ich habe es gespürt, also ist es wahr."`,
+          voices: [
+            {
+              person: 'antonius',
+              role: 'als Vater der Unterscheidung der Geister',
+              text: `Antonius lehrt nach dem Bericht des Athanasius, dass die Erscheinung heiliger Wesen ruhig und sanft ist und Freude und Mut in die Seele bringt, während die Dämonen mit Lärm, Unruhe und Furcht kommen. Doch er fügt Prüfsteine hinzu: Man soll die Erscheinung fragen, wer sie sei, und sich durch das Zeichen des Kreuzes und den Glauben an Christus schützen. Gegen Ende seines Lebens kam er eigens nach Alexandrien, um öffentlich gegen die Arianer zu zeugen, die den Sohn ein Geschöpf nannten.`,
+              sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '35–37; 68–69', quote: `Regeln zur Unterscheidung der Geister; Antonius weist Meletianer und Arianer ab und bezeugt in Alexandrien, dass der Sohn nicht Geschöpf ist.`, status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'mormonen-vom-teufel-getaeuscht',
+              objection: `Willst du damit sagen, dass Millionen aufrichtiger Mormonen, die Frieden gespürt und ein gutes Leben geführt haben, vom Teufel getäuscht wurden? Das ist lieblos.`,
+              objectionBy: 'HLT-Mitglieder',
+              answer: `Nein, das sage ich nicht. Ein aufrichtiger Mensch kann sich irren, ohne dass man ihn verteufeln muss – das gilt für dich wie für mich. Dein Frieden kann echte Freude über Gebet, Familie und Gemeinschaft sein; Gott wirkt auch dort Gutes, wo Menschen nicht die ganze Wahrheit kennen. Meine Frage betrifft nicht dein Herz, sondern ein Buch: Ist es eine antike Chronik, wie es behauptet? Darüber entscheidet nicht dein oder mein Gefühl.`,
+              detail: `Hier ist der pastorale Ton entscheidend. Die koptische Tradition überlässt das Urteil über das Herz eines Menschen Gott allein. Wir können klar über Lehren urteilen und zugleich demütig über Personen schweigen. Hilfreich ist, die eigene Verletzlichkeit zuzugeben: Auch Christen haben schon starke Gefühle gehabt, die sich später als Täuschung erwiesen. Gerade darum brauchen wir alle einen Maßstab außerhalb unserer selbst.`,
+              questionsBack: [`Hast du selbst schon einmal etwas sicher gespürt, das sich später als falsch herausstellte?`],
+              followUps: [
+                {
+                  id: 'bibel-auch-nur-gefuehl',
+                  objection: `Und woher weißt du, dass deine Bibel wahr ist? Doch auch nur, weil deine Kirche es sagt oder weil du es fühlst. Das ist genauso zirkulär.`,
+                  objectionBy: 'HLT-Apologeten',
+                  answer: `Ich beginne nicht mit der Inspiration, sondern mit der Geschichte: Die Evangelien und Paulusbriefe sind antike Dokumente, die man wie andere antike Quellen prüft – Handschriften, Datierung, Orte, Personen. Diese Prüfung zeigt: Sie stammen aus der Zeit der Augenzeugen und berichten von Jesu Tod und seinen Erscheinungen. Von dort aus kommt man zu Jesus selbst, und er bestätigt die Schrift und gründet die Kirche. Das ist ein Weg mit überprüfbaren Schritten, kein Kreis.`,
+                  detail: `Die frühe Glaubensformel in 1 Kor 15,3–8 ist nach Ansicht der meisten Historiker – auch skeptischer – wenige Jahre nach der Kreuzigung entstanden. Orte wie der Teich Betesda (Joh 5,2) oder der Pilatus-Stein bestätigen die Welt der Evangelien. Beim Buch Mormon gibt es diesen ersten Schritt nicht: kein antikes Manuskript, keinen Ort, keine Person, die man unabhängig prüfen kann. Darum bleibt dort nur das Gefühl als Grundlage – bei der Bibel ist es die Bestätigung, nicht das Fundament.`,
+                  voices: [
+                    {
+                      person: 'habermas',
+                      role: 'als Historiker der Auferstehung',
+                      text: `Habermas hat die Fachliteratur zur Auferstehung über Jahrzehnte ausgewertet und eine Reihe von „Minimalfakten" herausgearbeitet, die auch die meisten kritischen Forscher anerkennen: Jesu Tod durch Kreuzigung, die Überzeugung der Jünger, ihn lebend gesehen zu haben, die Bekehrung des Paulus und des Jakobus, die frühe Verkündigung. Diese Methode setzt die Inspiration der Bibel nicht voraus, sondern behandelt die Texte als historische Quellen.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Gary R. Habermas / Michael R. Licona', work: 'The Case for the Resurrection of Jesus', year: '2004', quote: `Minimalfakten-Methode: historische Argumentation ohne Voraussetzung der Inspiration.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Kannst du einen Ort, eine Person oder eine Handschrift nennen, mit der man das Buch Mormon unabhängig von einem Gebetszeugnis prüfen kann?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

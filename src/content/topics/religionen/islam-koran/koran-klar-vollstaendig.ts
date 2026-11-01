@@ -132,6 +132,43 @@ const claim: Claim = {
           objection: `Die fünf Gebete werden doch angedeutet: 11:114, 17:78 und 30:17–18 nennen zusammen alle Zeiten.`,
           objectionBy: 'verbreitete Erklärung',
           answer: `Man kann diese Verse so zusammenlesen – aber nur, weil man die Fünfzahl schon aus der Sunna kennt. Koraniten, die nur den Koran gelten lassen, kommen aus denselben Versen auf zwei oder drei Gebete. Das zeigt: Der Koran allein legt die Praxis nicht eindeutig fest. Und die Hadithsammlungen entstanden rund zweihundert Jahre nach Mohammed.`,
+          followUps: [
+            {
+              id: 'isnad-system-streng',
+              objection: `Die Hadithe sind durch das Isnad-System geprüft – jede Überliefererkette wurde Glied für Glied untersucht. Das ist die strengste historische Methode, die es je gab.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Die Isnad-Kritik ist eine beeindruckende Leistung, das erkenne ich an. Aber sie zeigt zugleich das Ausmaß des Problems: Nach der Überlieferung wählte al-Bukhari seine Sammlung aus Hunderttausenden umlaufender Berichte aus – weil so viele erfunden waren. Wenn schon im 9. Jahrhundert massenhaft gefälscht wurde, ist ein Abstand von zweihundert Jahren eine ernste Hürde. Die Evangelien entstanden dagegen 30 bis 60 Jahre nach Jesus – zu Lebzeiten von Augenzeugen.`,
+              detail: `Ich will die Hadithwissenschaft nicht herabsetzen; sie ist ein ehrlicher Versuch, Wahres von Erfundenem zu scheiden. Aber wer die Evangelien wegen eines Abstands von wenigen Jahrzehnten für unzuverlässig erklärt, muss denselben Maßstab an Quellen anlegen, die zwei Jahrhunderte später gesammelt wurden – und auf denen die gesamte islamische Gebetspraxis beruht.`,
+              questionsBack: [
+                `Wenn Bukhari aus Hunderttausenden Berichten nur wenige Tausend auswählte – was sagt das über die Menge der Fälschungen in seiner Zeit?`,
+              ],
+              followUps: [
+                {
+                  id: 'evangelien-ohne-isnad',
+                  objection: `Die Evangelien haben überhaupt keine Überliefererkette. Nicht einmal die Namen der Autoren stehen im Text. Nach Hadith-Maßstäben wären sie völlig wertlos.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Eine Überliefererkette braucht man, wenn zwischen Ereignis und Niederschrift viele Generationen liegen. Die Evangelien wurden innerhalb der Lebenszeit der Zeugen geschrieben – von Aposteln oder ihren unmittelbaren Begleitern. Und es gibt sehr wohl eine Kette: Irenäus (um 180) berichtet, er habe als junger Mann Polykarp gehört, der vom Apostel Johannes und anderen Augenzeugen gelernt hatte. Das sind zwei Glieder bis zu den Aposteln – kürzer als fast jeder Isnad bei al-Bukhari.`,
+                  detail: `Irenäus schreibt in seinem Brief an Florinus (bei Eusebius, Kirchengeschichte V,20,5–7), er erinnere sich, wo Polykarp saß, wenn er lehrte, und wie er von seinem Umgang mit Johannes und den anderen erzählte, „die den Herrn gesehen hatten". In Adversus Haereses III,3,4 nennt er Polykarp einen Schüler der Apostel. Nach Hadith-Kriterien wäre das eine außergewöhnlich kurze, hochrangige Kette (*isnād ʿālī*).`,
+                  voices: [
+                    {
+                      person: 'irenaeus',
+                      role: 'als Glied der Überlieferungskette',
+                      text: `Irenäus betont gegen die Gnostiker, dass die Kirche ihre Lehre öffentlich von den Aposteln über eine bekannte Folge von Lehrern empfangen hat. Er selbst ist das beste Beispiel: Als Jugendlicher hörte er Polykarp von Smyrna, der wiederum Johannes und andere Augenzeugen gekannt hatte. Für Irenäus ist diese lebendige Kette die Bürgschaft dafür, dass die vier Evangelien das echte Zeugnis der Apostel sind.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'III,3,4', year: 'um 180', quote: `Polykarp wurde nicht nur von Aposteln belehrt und verkehrte mit vielen, die den Herrn gesehen hatten, sondern wurde auch von Aposteln als Bischof in Smyrna eingesetzt.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (zitiert Irenäus, Brief an Florinus)', work: 'Kirchengeschichte', ref: 'V,20,5–7', year: 'um 325', quote: `Irenäus erinnert sich, wie Polykarp von seinem Umgang mit Johannes und den anderen erzählte, die den Herrn gesehen hatten.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wie viele Glieder hat ein typischer Isnad bei al-Bukhari bis zum Propheten – und wie viele hat die Kette Irenäus – Polykarp – Johannes?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -149,6 +186,69 @@ const claim: Claim = {
           answer: `Zum Teil, ja. Aber die Rechtsschulen unterscheiden sich in der Auslegung konkreter Koranverse – etwa zur rituellen Waschung (5:6) oder zu Ehe und Erbrecht. Und auch christliche Spaltungen hatten oft politische Gründe. Mein Punkt ist bescheiden: Weder Bibel noch Koran werden ohne Auslegungsgemeinschaft einheitlich verstanden. Darum ist „Klarheit" kein Beweis für göttliche Herkunft.`,
           sources: [
             { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:6', quote: `… so wascht euch das Gesicht und die Hände bis zu den Ellenbogen und streicht euch über den Kopf und (wascht) die Füße bis zu den Knöcheln.`, original: `wa-msaḥū bi-ruʾūsikum wa-arjulakum`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/5/6', note: 'Je nach Lesart (arjulakum / arjulikum) waschen (Sunniten) oder bestreichen (Zwölferschiiten) der Füße.' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'religion-vervollkommnet-5-3',
+      objection: `5:3 sagt: „Heute habe Ich euch eure Religion vervollkommnet." Der Islam kam fertig vom Himmel. Das Christentum brauchte Jahrhunderte und Konzilien, um seine Lehren überhaupt erst zu formulieren.`,
+      objectionBy: 'Zakir Naik',
+      answer: `Die Konzilien haben den Glauben nicht erfunden, sondern gegen Irrlehren verteidigt, was die Kirche schon glaubte – Athanasius verteidigte in Nizäa die Gottheit Christi, die die Christen längst in Gebet und Taufe bekannten. Und auch der Islam hat seine Lehre über Jahrhunderte entfaltet: Ob der Koran erschaffen oder unerschaffen ist, wurde im 9. Jahrhundert so heftig umstritten, dass der Kalif al-Ma'mun Gelehrte verhören ließ (die *Miḥna*). Die Lehren von Abrogation, Isma oder den Eigenschaften Gottes wurden ebenfalls erst später systematisch ausgearbeitet.`,
+      detail: `Jede Offenbarungsreligion muss die Folgen ihrer Offenbarung in neuen Fragen durchdenken. Das ist kein Zeichen von Unvollständigkeit, sondern von Lebendigkeit. Wer dem Christentum seine Konzilien vorwirft, müsste dem Islam seine *kalām*-Debatten, die Entstehung der Rechtsschulen und die Ausarbeitung des Glaubensbekenntnisses durch al-Asch'ari und al-Maturidi ebenso vorwerfen.`,
+      sources: [
+        { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:3', quote: `Heute habe Ich euch eure Religion vervollkommnet und Meine Gunst an euch vollendet.`, original: `al-yawma akmaltu lakum dīnakum`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/3' },
+      ],
+      questionsBack: [
+        `Wenn der Islam fertig vom Himmel kam – warum stritten muslimische Gelehrte zwei Jahrhunderte später darüber, ob der Koran erschaffen ist?`,
+      ],
+      followUps: [
+        {
+          id: 'unerschaffenes-wort',
+          objection: `Die Miḥna war Politik der Mu'tazila. Die Ahl as-Sunna haben immer gelehrt, dass der Koran das unerschaffene Wort Allahs ist – Ahmad ibn Hanbal hat dafür gelitten.`,
+          objectionBy: 'Yasir Qadhi',
+          answer: `Ich ehre die Standhaftigkeit Ahmad ibn Hanbals – sie erinnert an Athanasius, der für Nizäa fünfmal ins Exil ging. Aber beachte, was ihr damit lehrt: Gottes Wort ist ewig und unerschaffen, und doch ist es in der Zeit hörbar geworden. Genau das sagt das Evangelium über Christus: „Im Anfang war das Wort, und das Wort war bei Gott, und Gott war das Wort … Und das Wort ward Fleisch" (Joh 1,1.14). Der Koran nennt Jesus selbst „Sein Wort" (4:171). Ist Gottes Wort erschaffen oder unerschaffen?`,
+          detail: `Diese Frage stellte schon der hl. Johannes von Damaskus (8. Jh.) muslimischen Gesprächspartnern: Wenn Christus nach dem Koran Wort und Geist Gottes ist und Gottes Wort ewig ist, dann ist Christus nicht ein Geschöpf. Wer Gott sein Wort und seinen Geist abspricht, „verstümmelt" ihn – darum nannte Johannes die Muslime, die Christen „Beigeseller" nannten, ihrerseits „Verstümmler Gottes". Die Frage ist bis heute das stärkste Brückenargument vom Koran zum Evangelium.`,
+          voices: [
+            {
+              person: 'johannes-damaskus',
+              role: 'als erster großer christlicher Gesprächspartner des Islam',
+              text: `Johannes von Damaskus, der am Hof der Umayyaden aufwuchs, beschreibt im 100. Kapitel seiner Schrift über die Häresien die Lehre der „Ismaeliten". Er greift den koranischen Titel Jesu als „Wort und Geist Gottes" auf und fragt, ob Gottes Wort und Geist in Gott seien oder außerhalb. Sind sie in Gott, ist Christus göttlich; sind sie es nicht, hätte Gott einmal ohne Wort und Geist existiert – was kein Muslim lehren würde.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'De haeresibus (Über die Häresien)', ref: 'Kap. 100', year: 'um 743', quote: `Weil ihr sagt, Christus sei Wort und Geist Gottes – wie könnt ihr uns Beigeseller nennen? Wer Gott Wort und Geist abspricht, verstümmelt ihn.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Johannes', ref: '1,1.14', quote: `Im Anfang war das Wort, und das Wort war bei Gott, und Gott war das Wort … Und das Wort ward Fleisch und wohnte unter uns.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Ist Gottes Wort erschaffen oder unerschaffen – und wenn Jesus nach 4:171 „Sein Wort" ist, was folgt daraus?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nur-arabisch-ist-koran',
+      objection: `Der Koran ist nur im Arabischen der Koran. Übersetzungen sind bloß Bedeutungswiedergaben. So bleibt der Text klar und unverändert – anders als eure Bibel, die nur in Übersetzungen existiert.`,
+      objectionBy: 'Zakir Naik',
+      answer: `Dann ist der „klare" Koran für die große Mehrheit der Muslime, die kein Arabisch sprechen, nur über Übersetzer und Lehrer zugänglich – und selbst viele Araber verstehen das klassische Arabisch des Korans nicht ohne Kommentar. Die Bibel liegt übrigens sehr wohl in ihren Ursprachen vor: Hebräisch, Aramäisch, Griechisch. Und das Evangelium wollte von Anfang an in jede Sprache: An Pfingsten hörte jeder die Apostel „in seiner eigenen Sprache" (Apg 2,8). Darum gibt es koptische, syrische und äthiopische Evangelien seit der Antike.`,
+      detail: `Christen sehen in der Übersetzbarkeit des Evangeliums keine Schwäche, sondern einen Ausdruck der Menschwerdung: Gott spricht die Sprache der Menschen, zu denen er kommt. Lamin Sanneh hat gezeigt, wie gerade die Übersetzung der Bibel in Volkssprachen Kulturen gestärkt hat. Die koptische Kirche hat die Schrift früh in die Sprache des ägyptischen Volkes übertragen – das Koptische – und betet bis heute in ihr.`,
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '2,8', quote: `Wie hören wir denn ein jeglicher seine Sprache, darin wir geboren sind?`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wie viele Muslime weltweit verstehen das klassische Arabisch des Korans ohne Übersetzung oder Kommentar?`,
+      ],
+      followUps: [
+        {
+          id: 'viele-bibeluebersetzungen',
+          objection: `Übersetzungen verfälschen. Deshalb habt ihr so viele verschiedene Bibeln – jede sagt etwas anderes.`,
+          objectionBy: 'Ahmed Deedat',
+          answer: `Verschiedene Übersetzungen sind keine verschiedenen Bibeln: Sie übersetzen denselben hebräischen und griechischen Text mit unterschiedlichen Schwerpunkten – wörtlicher oder freier. Bei Koranübersetzungen ist es genauso: Paret, Bubenheim/Elyas und Khoury im Deutschen oder Pickthall, Yusuf Ali und Hilali/Khan im Englischen unterscheiden sich teils deutlich, etwa bei 4:34. Niemand schließt daraus, es gebe verschiedene Korane.`,
+          detail: `Der Vergleich mehrerer Übersetzungen ist für den Laien sogar hilfreich: Wo sie übereinstimmen, ist der Sinn sicher; wo sie abweichen, lohnt der Blick in einen Kommentar oder den Urtext. Das gilt für beide Schriften gleichermaßen.`,
+          questionsBack: [
+            `Gibt es verschiedene Korane, weil Paret und Bubenheim 4:34 unterschiedlich übersetzen?`,
           ],
         },
       ],

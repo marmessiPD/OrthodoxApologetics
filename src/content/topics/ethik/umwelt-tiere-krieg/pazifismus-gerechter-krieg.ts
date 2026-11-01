@@ -191,7 +191,8 @@ const claim: Claim = {
     {
       id: 'pazifisten-ernster',
       objection: `Gandhi, die Mennoniten und Martin Luther King nehmen Jesus ernster als die Kirchen, die Waffen segnen.`,
-      answer: `Ihr Zeugnis verdient tiefen Respekt, und Christen sollten Gewaltlosigkeit, wo immer möglich, vorziehen. Die prophetische Vision ist eine Welt ohne Krieg (Jes 2,4), und die koptische Kirche ehrt Mönche und Märtyrer, die nie eine Waffe trugen. Aber ein Staat, der auf jede Verteidigung verzichtet, liefert die Wehrlosen ihren Mördern aus. Dietrich Bonhoeffer, der lange zum Pazifismus neigte, kam unter Hitler zu dem Schluss, dass man dem Rad in die Speichen fallen müsse.`,
+      answer: `Ihr Zeugnis verdient tiefen Respekt, und Christen sollten Gewaltlosigkeit, wo immer möglich, vorziehen. Die prophetische Vision ist eine Welt ohne Krieg (Jes 2,4), und die koptische Kirche ehrt Mönche und Märtyrer, die nie eine Waffe trugen. Aber ein Staat, der auf jede Verteidigung verzichtet, liefert die Wehrlosen ihren Mördern aus. Dietrich Bonhoeffer, der lange zum Pazifismus neigte, schrieb schon 1933, die Kirche müsse nicht nur die Opfer unter dem Rad verbinden, sondern dem Rad selbst in die Speichen fallen – und schloss sich später dem Widerstand an.`,
+      sources: [{ kind: 'fachliteratur', author: 'Dietrich Bonhoeffer', work: '„Die Kirche vor der Judenfrage"', year: '1933', quote: `Die Kirche habe nicht nur die Opfer unter dem Rad zu verbinden, sondern dem Rad selbst in die Speichen zu fallen.`, status: 'paraphrase' }],
       followUps: [
         {
           id: 'gewaltfreiheit-funktioniert',

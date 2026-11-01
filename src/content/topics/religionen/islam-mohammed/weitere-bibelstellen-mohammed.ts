@@ -102,7 +102,41 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Der Bericht stammt von ʿAbdallah ibn ʿAmr, der jüdische Schriften gelesen haben soll, und er wendet Worte aus Jes 42 auf Muhammad an. Das zeigt, dass frühe Muslime diese Stelle so lasen – nicht, dass Jesaja Muhammad meinte. Das NT hat dieselbe Stelle sechs Jahrhunderte früher auf Jesus bezogen. Und die Beschreibung „er wird nicht schreien, das zerstoßene Rohr nicht zerbrechen" passt auf den Jesus, der sich ohne Widerstand gefangen nehmen ließ (Mt 26,52–53).`,
           sources: [
-            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: 'Buch des Handels, Bericht des ʿAbdallah ibn ʿAmr über die Beschreibung des Propheten in der Tora', quote: `„O Prophet, Wir haben dich als Zeugen, Freudenboten und Warner gesandt … du bist nicht grob und nicht hart und schreist nicht auf den Märkten …"`, translation: 'sinngemäß', status: 'unverified', note: 'Häufig als Bukhari 2125 (vgl. 4838) zitiert – Nummer und Wortlaut vor Verwendung prüfen.' },
+            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '2125 (Buch des Handels, Kapitel über das laute Rufen auf dem Markt; vgl. 4838)', quote: `„O Prophet, Wir haben dich als Zeugen, Freudenboten und Warner gesandt … du bist nicht grob und nicht hart und schreist nicht auf den Märkten …"`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/bukhari:2125', note: 'Nummer nach sunnah.com-Zählung geprüft (2026): ʿAtaʾ ibn Yasar fragt ʿAbdallah ibn ʿAmr nach der Beschreibung des Propheten in der Tora; Parallele 4838 (Tafsir zu Sure 48). Ibn Hajar vermerkt, dass in einer verwandten Kette statt ʿAbdallah ibn ʿAmr der Konvertit ʿAbdallah ibn Salam genannt wird.' },
+          ],
+          followUps: [
+            {
+              id: 'jesus-richtete-kein-recht-auf',
+              objection: `Jes 42,4 sagt: „Er wird nicht verzagen noch zusammenbrechen, bis er auf Erden das Recht aufrichte." Jesus wurde nach eurer Lehre gekreuzigt und richtete kein Recht auf Erden auf. Muhammad dagegen errichtete eine Gesellschaft der Gerechtigkeit.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Matthäus zitiert Jes 42,1–4 ausdrücklich für Jesus – und zwar genau, um seine sanfte, heilende Art zu beschreiben, als er befahl, ihn nicht bekannt zu machen (Mt 12,15–21). Das „Recht für die Völker" kommt nach Jesaja nicht durch Eroberung, sondern durch den Knecht, der „zum Bund für das Volk und zum Licht der Heiden" wird (42,6) und „die Augen der Blinden öffnet" (42,7). Das geschah, als das Evangelium vom Gekreuzigten und Auferstandenen zu allen Völkern ging – ohne ein Schwert. Und Jes 42,1 – „Ich habe meinen Geist auf ihn gelegt … an dem meine Seele Wohlgefallen hat" – klingt bei Jesu Taufe auf (Mt 3,16–17).`,
+              detail: `Die Gottesknechtslieder (Jes 42; 49; 50; 53) beschreiben einen Knecht, der durch Leiden zum Ziel kommt: Er „verzagt nicht", obwohl er geschlagen wird (50,6–7), und er wird „erhöht", nachdem er „um unsrer Missetat willen verwundet" wurde (52,13–53,5). Das Kreuz ist darum nicht das Scheitern des Knechts, sondern der Weg, auf dem er das Recht aufrichtet. Im Gespräch: Lies Jes 42,1–7 und Mt 12,15–21 nebeneinander. Respektvoll bleiben: Muslime sehen in Muhammads Gemeinwesen in Medina einen Ausdruck göttlicher Gerechtigkeit; der Punkt ist nicht, das zu verspotten, sondern zu zeigen, dass Jesaja einen anderen Weg beschreibt.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '12,15–21', quote: `… und er bedrohte sie, daß sie ihn nicht meldeten, auf daß erfüllet würde, was gesagt ist durch den Propheten Jesaja, der da spricht: „Siehe, das ist mein Knecht, den ich erwählt habe … er wird nicht zanken noch schreien … das zerstoßene Rohr wird er nicht zerbrechen …"`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                { kind: 'bibel', work: 'Jesaja', ref: '42,6–7', quote: `Ich, der HERR, habe dich gerufen mit Gerechtigkeit … und habe dich zum Bund unter das Volk gegeben, zum Licht der Heiden, daß du sollst öffnen die Augen der Blinden …`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `Auf wen bezieht Matthäus Jes 42 – und in welcher Situation?`,
+                `Bringt der Knecht in Jes 42 das Recht durch Krieg oder als „Licht der Heiden", der Blinden die Augen öffnet?`,
+              ],
+              followUps: [
+                {
+                  id: 'tempelreinigung-laut',
+                  objection: `„Er wird nicht schreien und nicht laut sein" – aber Jesus trieb mit einer Peitsche die Händler aus dem Tempel, stieß Tische um und beschimpfte die Pharisäer als „Schlangen" und „Heuchler". Das passt nicht zu Jes 42,2.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Jes 42,2 meint, dass der Knecht sich nicht selbst laut anpreist und nicht wie ein Eroberer auf den Straßen seine Macht ausruft – genau deshalb zitiert Matthäus den Vers dort, wo Jesus verbietet, ihn bekannt zu machen (Mt 12,16). Die Tempelreinigung ist Eifer für Gottes Haus (Joh 2,17; Ps 69,10), kein Feldzug: Kein Mensch wurde verletzt oder getötet. Und die scharfen Worte gegen die religiöse Führung stehen in der Tradition der Propheten. Wer den Maßstab „nicht laut, das geknickte Rohr nicht zerbrechen" anlegt, muss ihn dann auch fair auf die Feldzüge in Muhammads Leben anwenden.`,
+                  detail: `Hier ist Taktgefühl gefragt: Es geht nicht darum, Muhammad herabzusetzen, sondern den Maßstab gleich anzuwenden. Jesus wies Gewalt zu seiner Verteidigung ausdrücklich zurück („Stecke dein Schwert an seinen Ort", Mt 26,52) und heilte sogar den Knecht, dem Petrus das Ohr abgeschlagen hatte (Lk 22,51). Muslimische Gelehrte begründen die Kriege Muhammads als Verteidigung und Errichtung eines gerechten Gemeinwesens; das ist ihre Sicht, die du respektvoll anhören solltest. Aber Jes 42 beschreibt einen Knecht, der das Recht gerade ohne Gewalt bringt – und das passt auf den, der am Kreuz für seine Feinde betete (Lk 23,34).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '2,17', quote: `Seine Jünger aber gedachten daran, daß geschrieben steht: „Der Eifer um dein Haus hat mich gefressen."`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Lukas', ref: '22,51', quote: `Jesus aber antwortete und sprach: Lasset sie doch so ferne machen! Und er rührte sein Ohr an und heilte ihn.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wurde bei der Tempelreinigung ein Mensch verletzt oder getötet?`,
+                    `Wenn wir Jes 42,3 („das geknickte Rohr wird er nicht zerbrechen") als Maßstab nehmen – auf wen passt er besser?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -129,6 +163,23 @@ const claim: Claim = {
       objection: `Dtn 33,2: „Er ist hervorgebrochen vom Berg Paran und gekommen mit Zehntausenden von Heiligen." Muhammad zog 630 mit 10.000 Gefährten in Mekka ein. Das ist eine exakte Erfüllung.`,
       objectionBy: 'Ahmed Deedat',
       answer: `Der Vers spricht vom HERRN, der von Sinai, Seir und Paran kam – in der Vergangenheitsform – und „zu seiner Rechten ist ein feuriges Gesetz an sie". Zwei Verse später: „Mose hat uns das Gesetz geboten" (33,4). Es geht um die Gesetzgebung am Sinai. Die „Heiligen" sind die himmlischen Heerscharen (die griechische Übersetzung spricht von Engeln). Und „Zehntausende" (*rivᵉvôt*) ist eine runde Zahl für eine unzählbare Menge, keine Truppenstärke.`,
+      followUps: [
+        {
+          id: 'sinai-seir-paran-drei-offenbarungen',
+          objection: `Dtn 33,2 nennt drei Orte: Sinai für Mose und die Tora, Seir für Jesus und das Evangelium, Paran für Muhammad und den Koran. Das ist die Abfolge der drei großen Offenbarungen – schon frühe muslimische Gelehrte haben das so gelesen.`,
+              objectionBy: 'Zakir Naik',
+          answer: `Seir ist nach der Bibel das Gebirge Edoms, südöstlich des Toten Meeres (Gen 36,8) – nicht Galiläa oder Judäa, wo Jesus wirkte. Die drei Ortsnamen stehen in hebräischer Parallelismus-Poesie und beschreiben ein einziges Ereignis: Gottes Kommen vom Süden her bei der Gesetzgebung. Dieselben Orte erscheinen in anderen alten Liedern für dieselbe Gotteserscheinung: „HERR, da du von Seir auszogst und einhergingst vom Felde Edoms … die Berge zerflossen vor dem HERRN, der Sinai" (Ri 5,4–5; vgl. Ps 68,8–9; Hab 3,3).`,
+          detail: `Die Deutung auf drei Offenbarungen findet sich tatsächlich bei muslimischen Autoren des Mittelalters (u. a. in der Polemik von Ibn Qutaiba und später bei Ibn Taimiyya). Sie ist ein Beispiel für typologische Auslegung von außen, nicht für den Wortsinn. Im Hebräischen sind die Verben parallel: „Der HERR **kam** vom Sinai, **strahlte** ihnen auf von Seir, **erschien** vom Berg Paran" – drei Bilder für den einen Aufgang Gottes wie die Sonne. Und der Vers ist Vergangenheit, kein Zukunftsorakel. Für das Gespräch: Zeige auf einer Karte, wo Seir liegt.`,
+          sources: [
+            { kind: 'bibel', work: 'Richter', ref: '5,4–5', quote: `HERR, da du von Seir auszogst und einhergingst vom Felde Edoms, da erzitterte die Erde, der Himmel troff, und die Wolken troffen von Wasser. Die Berge ergossen sich vor dem HERRN, der Sinai vor dem HERRN, dem Gott Israels.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Wortlaut an Luther 1912 angelehnt.' },
+            { kind: 'bibel', work: 'Genesis', ref: '36,8', quote: `Also wohnte Esau auf dem Gebirge Seir. Und Esau ist der Edom.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wo liegt Seir nach Gen 36,8 – und wo hat Jesus gewirkt?`,
+            `Warum nennen Ri 5,4–5 und Ps 68 dieselben Orte für dasselbe vergangene Ereignis?`,
+          ],
+        },
+      ],
     },
     {
       id: 'jes-21-7-kamelreiter',
@@ -141,12 +192,45 @@ const claim: Claim = {
       objection: `Jesus sagt: „Das Reich Gottes wird von euch genommen und einem Volk gegeben werden, das seine Früchte bringt" (Mt 21,43). Das andere Volk sind die Araber, die Nachkommen Ismaels.`,
       objectionBy: 'Zakir Naik',
       answer: `Im Vers davor sagt Jesus, wer der entscheidende Stein ist: „Der Stein, den die Bauleute verworfen haben, der ist zum Eckstein geworden" (21,42) – er selbst. Das neue „Volk" ist die Gemeinschaft derer, die auf ihn gebaut sind, aus Juden und Heiden; Petrus nennt sie „das heilige Volk" (1 Petr 2,9). Das Gleichnis gipfelt im Tod des Sohnes (21,37–39) – den der Islam gerade bestreitet.`,
+      followUps: [
+        {
+          id: 'ismael-grosses-volk',
+          objection: `Gott verheißt Ismael ausdrücklich: „Ich will ihn zum großen Volk machen" (Gen 21,18; vgl. 17,20). Das ist das Volk, dem das Reich gegeben wird – die Nachkommen Ismaels.`,
+          objectionBy: 'Zakir Naik',
+          answer: `Die Verheißung an Ismael ist echt, und Christen ehren sie: Gott segnet ihn, macht ihn fruchtbar und lässt zwölf Fürsten von ihm abstammen (Gen 17,20). Aber im selben Vers heißt es weiter: „Meinen Bund aber will ich aufrichten mit Isaak" (17,21). Und in Mt 21,43 wird das neue Volk nicht durch Abstammung bestimmt, sondern durch Frucht: „einem Volk, das seine Früchte bringt". Jesus spricht nicht über Ismaels Nachkommen, sondern über die Führer seines eigenen Volkes, die den Sohn verwerfen – „sie merkten, dass er von ihnen redete" (21,45).`,
+          detail: `Die Unterscheidung zwischen Segen und Bund ist in Gen 17 zentral: Ismael erhält den Segen der Volkwerdung, Isaak den Bund, durch den „alle Völker auf Erden gesegnet werden" (Gen 22,18). Paulus deutet diesen Samen auf Christus (Gal 3,16). Im Gleichnis vom Weinberg (Mt 21,33–46) übergibt der Herr den Weinberg „anderen Weingärtnern" – den Aposteln, die selbst Juden waren, und der Kirche aus Juden und Heiden. Respektvoll formuliert: Die Bibel spricht mit Wärme über Ismael (Gen 21,17–20: „Gott war mit dem Knaben"), aber sie verbindet die Heilsgeschichte nicht mit seiner Linie.`,
+          sources: [
+            { kind: 'bibel', work: 'Genesis', ref: '17,20–21', quote: `Dazu um Ismael habe ich dich auch erhört. Siehe, ich habe ihn gesegnet und will ihn fruchtbar machen und mehren gar sehr. Zwölf Fürsten wird er zeugen, und ich will ihn zum großen Volk machen. Aber meinen Bund will ich aufrichten mit Isaak.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+            { kind: 'bibel', work: 'Matthäus', ref: '21,45', quote: `Und da die Hohenpriester und Pharisäer seine Gleichnisse hörten, verstanden sie, daß er von ihnen redete.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Von wem merkten die Hohenpriester und Pharisäer in Mt 21,45, dass Jesus redete?`,
+            `Mit wem richtet Gott nach Gen 17,21 seinen Bund auf?`,
+          ],
+        },
+      ],
     },
     {
       id: 'joh-1-21-der-prophet',
       objection: `Die Juden fragten Johannes: „Bist du Christus? Bist du Elia? Bist du der Prophet?" (Joh 1,20–21). Der Prophet ist also eine dritte Person neben dem Messias – Muhammad.`,
       objectionBy: 'Ahmed Deedat',
       answer: `Die Frage zeigt, dass die Erwartungen im Volk unklar waren: Manche hielten den Propheten und den Messias für verschiedene Gestalten (Joh 7,40–41). Das Evangelium beantwortet die Frage: Nach der Speisung sagen die Leute „Das ist wahrlich der Prophet" (6,14), und Petrus bezieht Dtn 18 ausdrücklich auf Jesus (Apg 3,22). Ein Johannesevangelium, das 600 Jahre vorher Muhammad als „den Propheten" ankündigt, aber an anderer Stelle Jesus so nennt, wäre ein seltsamer Zeuge.`,
+      followUps: [
+        {
+          id: 'johannes-elia-widerspruch',
+          objection: `Eure Bibel widerspricht sich doch selbst: Johannes sagt „Ich bin nicht Elia" (Joh 1,21), Jesus sagt „Er ist Elia, der da kommen soll" (Mt 11,14). Wenn sie schon da widersprüchlich ist, warum soll ich eurer Deutung von „dem Propheten" trauen?`,
+          objectionBy: 'Ahmed Deedat',
+          answer: `Die Fragesteller in Joh 1 wollten wissen, ob Johannes der leiblich wiedergekehrte Elia sei – das verneint er zu Recht. Jesus sagt etwas anderes: Johannes erfüllt die Aufgabe, die Maleachi dem kommenden Elia zuschreibt (Mal 3,23–24). Lukas erklärt das schon vor der Geburt des Johannes: Er wird gehen „im Geist und in der Kraft Elias" (Lk 1,17). Und Jesus selbst fügt hinzu: „wenn ihr's annehmen wollt" (Mt 11,14) – also eine Deutung der Rolle, keine Identität der Person.`,
+          detail: `Das ist ein gutes Beispiel, wie scheinbare Widersprüche verschwinden, wenn man beide Aussagen im Zusammenhang liest: „Ich bin nicht Elia" (nicht der wiedergekommene Prophet in Person) und „er ist Elia" (er erfüllt Elias angekündigte Rolle) beziehen sich auf verschiedene Hinsichten. Für das Gespräch: Dieselbe Regel – Hinsicht und Zusammenhang beachten – wenden Muslime auch auf scheinbare Spannungen im Koran an. Fairness verlangt, sie auch der Bibel zuzugestehen.`,
+          sources: [
+            { kind: 'bibel', work: 'Lukas', ref: '1,17', quote: `Und er wird vor ihm hergehen im Geist und Kraft des Elia …`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Matthäus', ref: '11,14', quote: `Und (so ihr's wollt annehmen) er ist Elia, der da soll zukünftig sein.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wendest du bei scheinbaren Spannungen im Koran auch die Regel „Zusammenhang und Hinsicht beachten" an? Warum nicht bei der Bibel?`,
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
