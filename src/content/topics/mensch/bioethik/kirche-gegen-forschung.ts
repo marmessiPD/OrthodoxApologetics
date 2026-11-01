@@ -135,6 +135,21 @@ const claim: Claim = {
               id: 'embryonenadoption',
               objection: `Embryonenadoption? Das klingt absurd.`,
               answer: `Es ist schlicht die Rettung eines existierenden menschlichen Lebens: Ein anderes Paar nimmt den eingefrorenen Embryo an, die Frau trägt ihn aus. In den USA gibt es solche Programme seit den 1990er-Jahren, und so geborene Kinder leben heute. Absurd ist eher, dass wir Menschen in Tiefkühltanks lagern und dann darüber streiten, wozu man sie verbrauchen darf.`,
+              followUps: [
+                {
+                  id: 'adoption-loest-nichts',
+                  objection: `Die meisten Paare wollen ihre Embryonen gar nicht an Fremde abgeben, und weltweit lagern Hunderttausende. Embryonenadoption ist ein Tropfen auf den heißen Stein – und normalisiert die Überproduktion sogar.`,
+                  objectionBy: 'Reproduktionsmediziner',
+                  answer: `Das ist ein fairer Punkt, und er führt zur eigentlichen Lösung: **keine** überzähligen Embryonen erzeugen. Das ist medizinisch möglich – man befruchtet nur so viele Eizellen, wie man übertragen will, oder friert unbefruchtete Eizellen ein. Deutschland hat mit dem Embryonenschutzgesetz (1990) jahrzehntelang gezeigt, dass Kinderwunschbehandlung mit strengen Grenzen funktioniert. Die Embryonenadoption ist eine Notlösung für ein Problem, das wir selbst geschaffen haben.`,
+                  detail: `Das deutsche Embryonenschutzgesetz verbietet, mehr Eizellen zu befruchten, als innerhalb eines Zyklus übertragen werden sollen (höchstens drei), und untersagt verbrauchende Embryonenforschung. In der Praxis wird es unterschiedlich ausgelegt, und Reproduktionsmediziner kritisieren es als zu streng – aber es beweist, dass die Grenze nicht utopisch ist. Für Paare in der Kinderwunschbehandlung ist wichtig: Sie verdienen keine Vorwürfe, sondern Begleitung und ehrliche Information über die Entscheidungen, die auf sie zukommen. Die Kirche begleitet sie seelsorgerlich und weist auch auf Adoption hin.`,
+                  sources: [
+                    { kind: 'sonstiges', work: 'Gesetz zum Schutz von Embryonen (Embryonenschutzgesetz – ESchG)', ref: '§ 1 Abs. 1 Nr. 3 und 5', year: '1990', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn das Problem die überzähligen Embryonen sind – warum erzeugen wir sie dann?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -162,6 +177,31 @@ const claim: Claim = {
               objectionBy: 'Gedankenexperiment aus der Bioethik',
               targetsPremise: 2,
               answer: `Wen ich in einer Notlage rette, sagt nichts darüber, wer ein Mensch ist. Die meisten würden auch ihr eigenes Kind vor zwei fremden Kindern retten – ohne dass die fremden Kinder deshalb keine Menschen wären. Zudem: Retten ist nicht Töten. Aus der Wahl, wen ich zuerst rette, folgt kein Recht, die anderen zu zerstören.`,
+              followUps: [
+                {
+                  id: 'speziesismus',
+                  objection: `Ehrlich gesagt: Ein früher Embryo hat kein Bewusstsein, keine Interessen, keinen Schmerz – weniger als ein Schwein. Ihm wegen seiner Zugehörigkeit zur Spezies Homo sapiens einen Sonderwert zu geben, ist Speziesismus.`,
+                  objectionBy: 'Peter Singer',
+                  answer: `Der Wert eines Menschen hängt nicht an seinen **momentanen Fähigkeiten**, sondern an dem, **was** er ist. Ein Schlafender, ein Komapatient und ein Neugeborenes haben im Moment auch kein Selbstbewusstsein – und doch haben sie Würde. Der Embryo ist kein „potenzieller Mensch", sondern ein Mensch mit Potenzial: derselbe Organismus, der du einmal warst. Wer Würde an Fähigkeiten knüpft, muss erklären, warum nicht auch Neugeborene und Schwerstbehinderte sie verlieren – und Singer zieht diese Konsequenz tatsächlich.`,
+                  detail: `Philosophen nennen das die **Substanz-Sicht** der Person: Ein Mensch ist ein lebendiges Wesen einer vernünftigen Natur, das sich von innen heraus entwickelt – vom Embryo zum Erwachsenen bleibt es dasselbe Individuum. Fähigkeiten wie Denken und Fühlen sind Ausdruck dieser Natur, nicht ihre Voraussetzung. Die Gegenposition (Wert = aktuelle Fähigkeiten) macht Würde graduell: Wer mehr kann, ist mehr wert. Damit verlöre die Gleichheit aller Menschen ihre Grundlage.
+
+Christlich gesprochen: Die Würde des Menschen gründet in Gottes Bild und Gottes Liebe (Gen 1,27), nicht in seiner Leistung. Darum hat die Kirche seit der Didache das ungeborene Kind geschützt – und darum stand sie an der Seite der Schwächsten, als die Antike Kinder aussetzte.`,
+                  voices: [
+                    {
+                      person: 'francis-beckwith',
+                      role: 'als Rechtsphilosoph und Bioethiker',
+                      text: `Beckwith verteidigt in *Defending Life* (2007) die Substanz-Sicht: Der Embryo ist von der Empfängnis an ein vollständiges menschliches Lebewesen, das sich selbst entwickelt. Unterschiede in Größe, Entwicklungsstand, Aufenthaltsort und Abhängigkeit begründen keinen Unterschied im Wert. Er zeigt, dass Positionen, die Würde an Bewusstsein oder Wünsche knüpfen, konsequent zu Ergebnissen führen, die auch ihre Vertreter erschrecken.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Francis J. Beckwith', work: 'Defending Life: A Moral and Legal Case Against Abortion Choice', year: '2007', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Hast du im Tiefschlaf deine Würde verloren?`,
+                    `Wenn Würde an Fähigkeiten hängt – ist dann ein Professor mehr wert als ein Kind mit Down-Syndrom?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -184,6 +224,34 @@ const claim: Claim = {
               objection: `Aber das ist liberale Eugenik – freiwillig, nicht staatlich wie im 20. Jahrhundert.`,
               objectionBy: 'Nicholas Agar / John Harris',
               answer: `Selbst der säkulare Philosoph Jürgen Habermas hält das nicht für harmlos: Ein genetisch „entworfener" Mensch kann sich nicht mehr als unverfügbar, als nicht von anderen gemacht verstehen – das beschädigt seine Freiheit. Und „freiwillig" bleibt es nicht lange, wenn Versicherungen, Konkurrenz und gesellschaftliche Erwartungen Druck machen.`,
+              followUps: [
+                {
+                  id: 'down-syndrom-frauen-entscheiden',
+                  objection: `Wenn Frauen sich nach einer Down-Syndrom-Diagnose gegen das Kind entscheiden, ist das ihre persönliche Entscheidung in einer schweren Lage. Wer das „Selektion" nennt, setzt Frauen moralisch unter Druck.`,
+                  objectionBy: 'Säkulare Bioethik / Pro-Choice-Position',
+                  answer: `Ich verurteile keine Frau in dieser Lage – sie steht vor einer Nachricht, die ihr den Boden unter den Füßen wegzieht, und verdient Mitgefühl. Meine Kritik gilt einem **System**, das Screening als Routine anbietet, die Diagnose oft mit dem Hinweis auf Abbruch verbindet und zu wenig über das tatsächliche Leben mit Down-Syndrom und über Hilfen informiert. Wenn in manchen Ländern fast keine Kinder mit Down-Syndrom mehr geboren werden, ist das keine Summe freier Einzelentscheidungen, sondern eine gesellschaftliche Botschaft.`,
+                  detail: `Menschen mit Down-Syndrom berichten in Befragungen mehrheitlich, dass sie mit ihrem Leben zufrieden sind (Skotko u. a., American Journal of Medical Genetics 2011). Der Arzt, der 1959 die Trisomie 21 als Ursache des Down-Syndroms entdeckte, Jérôme Lejeune, setzte sich danach sein Leben lang für diese Kinder ein – und war entsetzt, dass seine Entdeckung zur Grundlage ihrer Aussortierung wurde.
+
+Die christliche Antwort ist konkret: Begleitung schwangerer Frauen, Kontakt zu Familien mit Kindern mit Down-Syndrom, finanzielle und praktische Hilfe, Gemeinden, die diese Kinder willkommen heißen. In der koptischen Kirche gibt es Dienste und Einrichtungen für Menschen mit Behinderung – ein Zeugnis, dass jedes Leben willkommen ist.`,
+                  voices: [
+                    {
+                      person: 'lejeune',
+                      role: 'als Genetiker, Entdecker der Trisomie 21',
+                      text: `Lejeune beschrieb 1959 mit Kollegen das überzählige Chromosom 21 als Ursache des Down-Syndroms. Er hoffte, seine Entdeckung würde zur Heilung führen, und widmete sich der Behandlung und Begleitung von Kindern mit Trisomie 21. Als die Pränataldiagnostik zunehmend zur Abtreibung dieser Kinder genutzt wurde, trat er öffentlich für ihren Schutz ein – auch um den Preis seiner wissenschaftlichen Karriere.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Jérôme Lejeune, Marthe Gautier, Raymond Turpin', work: '„Étude des chromosomes somatiques de neuf enfants mongoliens", Comptes rendus de l\'Académie des Sciences 248', year: '1959', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Brian G. Skotko, Susan P. Levine, Richard Goldstein', work: '„Self-perceptions from people with Down syndrome", American Journal of Medical Genetics Part A 155', year: '2011', status: 'paraphrase', note: 'Befragung in den USA; die große Mehrheit gab an, mit ihrem Leben zufrieden zu sein.' },
+                  ],
+                  questionsBack: [
+                    `Welche Informationen über das Leben mit Down-Syndrom bekommen Eltern bei der Diagnose – und welche Hilfe?`,
+                    `Was sagt es Menschen mit Down-Syndrom, wenn ihre Geburt als vermeidbarer Fehler gilt?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -200,6 +268,21 @@ const claim: Claim = {
           objection: `Die Kirche stand doch schon bei Galilei auf der falschen Seite – immer gegen den Fortschritt.`,
           objectionBy: 'Verbreitetes Argument',
           answer: `Der Fall Galilei ist komplizierter, als die Legende erzählt (siehe den eigenen Themenblock). Vor allem aber verwechselst du zwei Fragen: Bei Galilei ging es um eine Tatsachenfrage der Astronomie; hier geht es um die moralische Frage, was man mit Menschen tun darf. Und viele Pioniere der Wissenschaft waren gläubige Christen – von Mendel, dem Begründer der Genetik, bis zu Lejeune.`,
+          followUps: [
+            {
+              id: 'impfung-narkose-widerstand',
+              objection: `Christen haben auch gegen die Pockenimpfung und gegen die Narkose bei der Geburt protestiert – „Unter Schmerzen sollst du Kinder gebären". Heute nennt ihr eure Einwände Ethik, damals nannte man sie Glauben.`,
+              objectionBy: 'Steven Pinker / Michael Shermer (sinngemäß)',
+              answer: `Einzelne Geistliche haben das getan, ja – aber das Bild ist schief. Der Puritanerprediger Cotton Mather setzte 1721 in Boston gegen heftigen Widerstand die Pockenimpfung (Inokulation) durch, und James Young Simpson, der 1847 die Chloroform-Narkose einführte, war ein frommer Christ. Der angeblich breite kirchliche Widerstand gegen die Narkose ist nach heutiger Forschung weitgehend eine Legende des 19. Jahrhunderts. Und vor allem: Impfung und Narkose **heilen und lindern** – Embryonenforschung **tötet**, um zu heilen. Das ist der Unterschied.`,
+              detail: `Die These vom ewigen „Krieg zwischen Wissenschaft und Religion" stammt wesentlich aus Büchern des 19. Jahrhunderts (John William Draper, Andrew Dickson White), die heute von Wissenschaftshistorikern als einseitig gelten (Ronald Numbers, *Galileo Goes to Jail and Other Myths about Science and Religion*, 2009). Die Kirche hat die Medizin über Jahrhunderte getragen: Krankenhäuser, Pflegeorden, Missionsspitäler. Ihre heutigen Grenzen betreffen nicht das Forschen, sondern das Verbrauchen von Menschen. Das ist dieselbe Grenze, die die Medizin nach Nürnberg und Tuskegee selbst gezogen hat.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Ronald L. Numbers (Hg.)', work: 'Galileo Goes to Jail and Other Myths about Science and Religion', year: '2009', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welches Heilmittel lehnt die Kirche ab, für dessen Herstellung kein Mensch getötet werden muss?`,
+              ],
+            },
+          ],
         },
       ],
     },

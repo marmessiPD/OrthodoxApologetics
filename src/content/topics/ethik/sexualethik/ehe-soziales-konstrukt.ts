@@ -104,6 +104,18 @@ const claim: Claim = {
               objection: `Aber das kirchliche Scheidungsverbot hat Frauen jahrhundertelang in gewalttätigen Ehen gefangen gehalten.`,
               objectionBy: 'Simone de Beauvoir',
               answer: `Wo das geschah, war es ein schweres Unrecht. Die Ehe ist kein Freibrief für Gewalt, und niemand muss mit einem Partner zusammenleben, der ihn an Leib oder Seele bedroht – auch die koptische Kirche erlaubt in solchen Fällen die Trennung und schützt die Bedrohten. Das Ideal der unauflöslichen Ehe ist ein Versprechen der Treue, kein Gefängnis. Der Missbrauch eines Ideals widerlegt nicht das Ideal.`,
+              followUps: [
+                {
+                  id: 'koptische-scheidungspraxis',
+                  objection: `Gerade die koptische Kirche ist dafür bekannt: In Ägypten können Kopten kaum geschieden werden. Manche wechseln die Konfession oder sogar die Religion, nur um aus einer zerrütteten Ehe herauszukommen. Das ist kein Schutz der Ehe, das ist ein Gefängnis.`,
+                  objectionBy: 'Simone de Beauvoir',
+                  answer: `Das ist ein echtes und schmerzhaftes Problem, das auch innerhalb der koptischen Kirche offen diskutiert wird. Die Kirche hält mit Jesus an der Unauflöslichkeit der Ehe fest und erkennt als Scheidungsgrund vor allem den Ehebruch an (Mt 19,9); sie kennt aber auch die Feststellung, dass eine Ehe von Anfang an ungültig war, und die Trennung bei Gewalt. In Ägypten wird seit Jahren um ein neues Personenstandsrecht für Christen gerungen, das weitere Gründe berücksichtigen soll. Wo Menschen – besonders Frauen – in Gewalt oder Verlassenheit festgehalten werden, muss die Kirche barmherzige und gerechte Wege finden.`,
+                  detail: `Für dein Gespräch: Verteidige nicht jede Verwaltungspraxis. Unterscheide zwischen dem Ideal, das Jesus selbst gegen die leichte Scheidung seiner Zeit verteidigte (Mt 19,3–9) – damals ein Schutz für Frauen, die Männer mit einem Scheidebrief verstoßen konnten –, und der konkreten kirchlichen Praxis, die immer neu geprüft werden muss. Die Väter kannten diese Spannung: Die Kirche hält das Gebot hoch und behandelt die Gefallenen und Verletzten nach dem Maß der Barmherzigkeit (*oikonomia*).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '19,3–9', status: 'paraphrase', note: 'Jesus gegen die leichtfertige Scheidung „aus irgendeinem Grund".' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -120,6 +132,27 @@ const claim: Claim = {
           objection: `Das Kinder-Argument funktioniert nicht: Unfruchtbare oder ältere Paare dürfen auch heiraten, obwohl sie keine Kinder bekommen.`,
           objectionBy: 'Stephanie Coontz',
           answer: `Die Ehe ist eine Verbindung von der *Art*, die auf Kinder hin offen ist – die leibliche Einheit von Mann und Frau –, auch wenn im Einzelfall keine Kinder kommen. Eine Fußballmannschaft, die nie ein Tor schießt, bleibt eine Mannschaft. Und die Bibel kennt gerade unfruchtbare Paare, deren Ehe vollgültig ist – Abraham und Sara, Elkana und Hanna, Zacharias und Elisabeth. Die Ehe ist mehr als Fortpflanzung, aber ihr Wesen ist auf die Einheit von Mann und Frau bezogen, die neues Leben schenken kann.`,
+          followUps: [
+            {
+              id: 'ehe-auf-organe-reduziert',
+              objection: `Dann reduzierst du die Ehe auf Geschlechtsorgane. Liebe, Fürsorge, Lebensgemeinschaft – das alles zählt nichts, nur die Biologie?`,
+              objectionBy: 'Stephanie Coontz',
+              answer: `Im Gegenteil: Die Ehe ist eine umfassende Verbindung der ganzen Person – Herz, Wille, Leben **und** Leib. Gerade weil sie den Leib einschließt, ist sie mehr als eine enge Freundschaft. Die leibliche Vereinigung von Mann und Frau ist die einzige, in der zwei Menschen biologisch wirklich „ein Fleisch" werden, eine gemeinsame Handlung, die auf neues Leben hin offen ist. Liebe und Fürsorge gehören selbstverständlich dazu – aber sie gibt es auch in Freundschaften, die niemand Ehe nennt.`,
+              detail: `Sherif Girgis, Ryan T. Anderson und Robert P. George haben diese „umfassende" (*conjugal*) Sicht der Ehe in *What Is Marriage?* (2012) ausgearbeitet und von einer „revisionistischen" Sicht unterschieden, für die Ehe vor allem eine emotionale Bindung ist. Wenn Ehe nur emotional definiert wird, lassen sich ihre klassischen Merkmale – Ausschließlichkeit, Dauer, Zahl zwei – kaum noch begründen. Jesus selbst begründet die Ehe mit dem Leib: „Die zwei werden ein Fleisch sein" (Mt 19,5).`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Sherif Girgis; Ryan T. Anderson; Robert P. George', work: 'What Is Marriage? Man and Woman: A Defense', year: '2012', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'homosexuelle-paare-adoptieren',
+                  objection: `Gleichgeschlechtliche Paare ziehen aber Kinder groß – Adoptivkinder, Pflegekinder, Kinder aus früheren Beziehungen. Damit erfüllen sie doch genau den Zweck, den du der Ehe zuschreibst.`,
+                  objectionBy: 'Dan Savage',
+                  answer: `Die Liebe und Fürsorge, die viele gleichgeschlechtliche Paare Kindern schenken, ist echt, und ich will sie nicht kleinreden. Aber die Frage ist, was die Ehe als Institution schützt: das Band zwischen einem Kind und der Mutter und dem Vater, von denen es stammt. Adoption ist ein großartiger Weg, ein Kind zu retten, das dieses Band verloren hat – sie ist die Antwort auf einen Verlust, nicht das Modell, nach dem man eine Institution definiert. Ein Kind, das bei zwei Müttern aufwächst, hat trotzdem einen Vater, den es vermisst oder sucht.`,
+                  detail: `Gerade Menschen, die durch Samenspende entstanden sind, berichten oft von einem tiefen Wunsch, ihren biologischen Vater zu kennen; viele Länder haben deshalb die anonyme Samenspende abgeschafft. Das zeigt, dass Abstammung für Kinder keine Nebensache ist. Christen sollten diese Frage behutsam ansprechen: Sie betrifft reale Familien, die Respekt verdienen, und Kinder, die nichts für die Entscheidungen der Erwachsenen können.`,
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -131,12 +164,68 @@ const claim: Claim = {
       sources: [
         { kind: 'sonstiges', work: 'UN-Übereinkommen über die Rechte des Kindes', ref: 'Art. 7 Abs. 1', year: '1989', quote: `Das Kind hat … soweit möglich das Recht, seine Eltern zu kennen und von ihnen betreut zu werden.`, status: 'paraphrase' },
       ],
+      followUps: [
+        {
+          id: 'fachgesellschaften-kein-unterschied',
+          objection: `Die amerikanische Kinderärztevereinigung und andere Fachgesellschaften sagen klar: Kinder gleichgeschlechtlicher Eltern entwickeln sich genauso gut. Die Studien, die anderes behaupten, wie die von Regnerus, sind widerlegt.`,
+          objectionBy: 'Dan Savage',
+          answer: `Ich stütze mich nicht auf Regnerus – seine Studie ist methodisch stark kritisiert worden, und wer sie als Trumpf benutzt, verliert die Debatte. Ehrlich ist: Viele Studien in beide Richtungen beruhen auf kleinen, nicht repräsentativen Stichproben, und das Thema ist politisch aufgeladen. Was dagegen gut belegt ist, ist ein allgemeinerer Befund der Familienforschung: Kinder gedeihen im Durchschnitt am besten, wenn sie mit ihren beiden leiblichen, miteinander verheirateten Eltern in einer stabilen Beziehung aufwachsen. Daraus folgt kein Urteil über einzelne Familien – wohl aber ein Grund, diese Konstellation öffentlich zu schützen.`,
+          detail: `Die Soziologin Sara McLanahan (Princeton) und Gary Sandefur zeigten in *Growing Up with a Single Parent* (1994), dass Kinder, die nicht mit beiden leiblichen Eltern aufwachsen, im Durchschnitt mit größeren Schwierigkeiten zu kämpfen haben – unabhängig von Rasse und Bildung der Eltern, wenn auch teilweise durch Einkommen erklärbar. McLanahan war keine konservative Aktivistin, sondern begann ihre Forschung als alleinerziehende Mutter mit der Erwartung, das Gegenteil zu finden. Für dein Gespräch: Bleib bei diesem allgemeinen, gut belegten Befund und vermeide zugespitzte Behauptungen über gleichgeschlechtliche Eltern.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Sara McLanahan; Gary Sandefur', work: 'Growing Up with a Single Parent: What Hurts, What Helps', year: '1994', status: 'paraphrase' },
+            { kind: 'wissenschaft', author: 'Mark Regnerus', work: '„How different are the adult children of parents who have same-sex relationships?", Social Science Research 41(4)', year: '2012', status: 'paraphrase', note: 'Methodisch stark umstritten – nicht als Beleg verwenden.' },
+          ],
+          followUps: [
+            {
+              id: 'alleinerziehende-abgewertet',
+              objection: `Damit wertest du alle Alleinerziehenden, Patchwork- und Adoptivfamilien ab. Meine Mutter hat mich allein großgezogen, und ich bin nicht „beschädigt".`,
+              objectionBy: 'Stephanie Coontz',
+              answer: `Nein, und es tut mir leid, wenn es so klang. Deine Mutter hat etwas Großes geleistet, und viele Alleinerziehende tragen eine Last, für die sie Bewunderung verdienen, nicht Belehrung. Durchschnittswerte sagen nichts über einen einzelnen Menschen. Es geht nicht um Schuld, sondern um das, was Kindern fehlt, wenn ein Elternteil fehlt – den Schmerz kennst du vielleicht selbst. Die Bibel stellt Witwen und Waisen unter Gottes besonderen Schutz (Ps 68,6), und die koptische Kirche ist seit jeher für ihre Fürsorge für Waisen bekannt.`,
+              detail: `Seelsorgerlicher Hinweis: In Gesprächen über Familie sitzen dir fast immer Menschen gegenüber, die Scheidung, Verlust oder Einsamkeit erlebt haben. Sprich über Ideale nie so, dass Menschen sich verurteilt fühlen, deren Leben anders verlaufen ist. Die Kirche ist die Familie derer, deren Familien zerbrochen sind – „ein Vater der Waisen und ein Richter der Witwen ist Gott in seiner heiligen Wohnung".`,
+              sources: [
+                { kind: 'bibel', work: 'Psalmen', ref: '68,6', quote: `Ein Vater der Waisen und ein Richter der Witwen ist Gott in seiner heiligen Wohnung.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'ehe-gefaengnis-liebe',
       objection: `Liebe braucht keinen Vertrag. Die Ehe macht aus Liebe eine Pflicht – und tötet damit, was sie schützen will.`,
       objectionBy: 'Simone de Beauvoir',
       answer: `Kierkegaard hat genau das Gegenteil beobachtet: Erst wenn die Liebe zur Pflicht geworden ist, ist sie gegen Veränderung gesichert. Gefühle kommen und gehen; ein Versprechen trägt durch die Zeiten, in denen die Gefühle schwach sind. Wer verspricht, sagt: „Ich will dich lieben, auch wenn ich es einmal nicht spüre." Das ist nicht der Tod der Liebe, sondern ihre reifste Form – so wie Gott uns treu bleibt, auch wenn wir untreu sind (2 Tim 2,13).`,
+      followUps: [
+        {
+          id: 'polyamorie-monogamish',
+          objection: `Warum überhaupt nur zwei? Wenn Liebe gut ist, ist mehr Liebe besser. Viele Paare leben glücklich „monogamish" oder polyamor – Exklusivität ist eine kulturelle Besitzvorstellung.`,
+          objectionBy: 'Dan Savage',
+          answer: `Exklusivität ist kein Besitzdenken, sondern die Form der vollständigen Hingabe: Wer sich einem Menschen ganz schenkt, kann sich nicht zugleich einem anderen ganz schenken. Eifersucht ist darum nicht bloß kulturell, sondern das Gespür dafür, dass etwas Einzigartiges geteilt wird. Und auch säkulare Forschung bestätigt den Wert der Einehe: Der Anthropologe Joseph Henrich und Kollegen zeigten 2012, dass Gesellschaften mit normativer Monogamie weniger Kriminalität und Gewalt unter Männern aufweisen und Frauen und Kinder besser schützen als polygame Gesellschaften.`,
+          detail: `Henrich, Boyd und Richerson („The puzzle of monogamous marriage", *Philosophical Transactions of the Royal Society B*, 2012) erklären die Ausbreitung der Einehe als kulturelle Evolution: Gesellschaften, in denen nicht wenige Männer viele Frauen haben, produzieren viele ungebundene junge Männer, mehr Konkurrenz, mehr Gewalt und eine geringere Investition in Kinder. Das Christentum hat die Einehe nicht erfunden, aber es hat sie – gegen die Doppelmoral der Antike – für Männer und Frauen gleich verbindlich gemacht.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Joseph Henrich; Robert Boyd; Peter J. Richerson', work: '„The puzzle of monogamous marriage", Philosophical Transactions of the Royal Society B 367', year: '2012', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'henrich-also-konstrukt',
+              objection: `Henrich erklärt die Monogamie als Produkt kultureller Evolution. Also ist sie eben doch ein soziales Konstrukt – genau meine These!`,
+              objectionBy: 'Stephanie Coontz',
+              answer: `„Gesellschaftlich ausgebildet" heißt nicht „beliebig". Auch die Sprache ist kulturell entstanden, und trotzdem ist es nicht beliebig, ob wir sprechen können. Henrichs Befund zeigt ja gerade, dass die Einehe dem menschlichen Gedeihen dient – besonders dem der Schwächeren. Christen sagen: Das ist kein Zufall. Jesus begründet die Ehe nicht mit einer Kultur, sondern mit der Schöpfung: „Von Anfang an hat er sie geschaffen als Mann und Frau" (Mt 19,4). Wenn Kulturen entdecken, dass die Einehe ihnen guttut, entdecken sie etwas über die Natur des Menschen, die Gott geschaffen hat.`,
+              detail: `Das ist ein allgemeines Muster der christlichen Naturrechtslehre: Gottes Gebote entsprechen der Natur, die er geschaffen hat, und darum zeigen sich ihre Früchte auch in der Erfahrung. Paulus sagt, die Heiden täten „von Natur des Gesetzes Werk" (Röm 2,14). Die Frage ist also nicht „Natur oder Kultur?", sondern ob eine Kultur die Natur des Menschen trifft oder verfehlt.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'wem-schadet-homoehe',
+      objection: `Wem schadet es denn, wenn zwei Männer oder zwei Frauen heiraten? Deine Ehe wird dadurch nicht schlechter. Ihr wollt nur anderen eure Religion aufzwingen.`,
+      objectionBy: 'Dan Savage',
+      answer: `Zunächst: Ich will niemandem den Glauben aufzwingen, und gleichgeschlechtliche Paare sind meine Nachbarn, Kollegen und Freunde, die ich respektiere. Die Frage ist aber nicht, ob meine eigene Ehe schlechter wird, sondern was die Gesellschaft öffentlich unter Ehe versteht. Wird Ehe als Bund zweier Erwachsener aus Liebe definiert, rückt die Frage nach den Kindern und ihrem Recht auf Vater und Mutter aus dem Zentrum. Diese Veränderung betrifft alle – auch die Art, wie künftige Generationen Ehe überhaupt verstehen.`,
+      detail: `Wichtig für dein Gespräch: Unterscheide zwischen dem Sakrament der Ehe, das die koptische Kirche nur zwischen Mann und Frau spendet, und der Frage des Zivilrechts in einem pluralistischen Staat. Christen dürfen sich in einer Demokratie für ihre Überzeugung einsetzen, wie alle anderen auch – mit Argumenten, nicht mit Verachtung. Und sie müssen dabei klar sein, dass ihr Einsatz für die Ehe nie ein Einsatz gegen Menschen ist.`,
+      questionsBack: [
+        `Wenn Ehe nur noch die verbindliche Liebe von Erwachsenen bedeutet – mit welcher Begründung beschränkst du sie dann auf zwei Personen?`,
+      ],
     },
   ],
   questionsToAsk: [

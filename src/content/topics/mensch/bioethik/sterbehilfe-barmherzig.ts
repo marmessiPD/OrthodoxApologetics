@@ -80,7 +80,7 @@ const claim: Claim = {
       text: `Saunders, Krankenschwester, Sozialarbeiterin und Ärztin, eröffnete 1967 in London das St Christopher's Hospice. Sie entwickelte das Konzept des „totalen Schmerzes": Sterbende leiden nicht nur körperlich, sondern auch seelisch, sozial und spirituell, und jede dieser Dimensionen verdient Behandlung. Sie war überzeugt, dass die Bitte um Sterbehilfe meist verstummt, wenn Schmerzen gelindert und Ängste ernst genommen werden. Ihr wird der Satz zugeschrieben, ein Mensch sei wichtig, weil er er selbst ist – bis zum letzten Augenblick seines Lebens.`,
       sources: [
         { kind: 'fachliteratur', author: 'Cicely Saunders', work: 'Selected Writings 1958–2004', year: '2006', status: 'paraphrase' },
-        { kind: 'sonstiges', author: 'Cicely Saunders (zugeschrieben)', work: 'Sinnspruch der Hospizbewegung', quote: `Du bist wichtig, weil du du bist, und du bist bis zum letzten Augenblick deines Lebens wichtig.`, status: 'unverified', note: 'Weit verbreitet und ihr zugeschrieben; genaue Fundstelle nicht gesichert.' },
+        { kind: 'sonstiges', author: 'Cicely Saunders (zugeschrieben)', work: 'Sinnspruch der Hospizbewegung', quote: `Du bist wichtig, weil du du bist, und du bist bis zum letzten Augenblick deines Lebens wichtig.`, status: 'unverified', note: 'Weit verbreitet und ihr zugeschrieben (engl. „You matter because you are you, and you matter to the end of your life"); Websuche 2026 fand keine gesicherte Primärquelle, der Wortlaut variiert („to the last moment of your life"). Nur als zugeschriebenen Leitsatz verwenden.' },
       ],
     },
     {

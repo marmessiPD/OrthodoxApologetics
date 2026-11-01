@@ -33,7 +33,7 @@ const claim: Claim = {
 - **Hippolyt** (Danielkommentar 4,23) nennt in einem Teil der Überlieferung den 25. Dezember; die Echtheit der Stelle ist umstritten.
 - **Ostern:** Osterfeststreit im 2. Jahrhundert (Polykarp und Anicet um 155; Victor von Rom um 190, Eusebius KG V,23–25); Meliton von Sardes, „Vom Passa" (um 165).`,
     sources: [
-      { kind: 'fachliteratur', author: 'Steven E. Hijmans', work: 'Sol Invictus, the Winter Solstice, and the Origins of Christmas. Mouseion, Ser. III, Bd. 3', year: '2003', quote: `Für ein bedeutendes Sol-Fest am 25. Dezember vor dem Kalender von 354 gibt es keine Belege; Aurelians Sonnenspiele fanden im Oktober statt.`, status: 'paraphrase' },
+      { kind: 'fachliteratur', author: 'Steven E. Hijmans', work: 'Sol Invictus, the Winter Solstice, and the Origins of Christmas. Mouseion, Ser. III, Bd. 3', ref: 'S. 377–398', year: '2003', quote: `Für ein bedeutendes Sol-Fest am 25. Dezember vor dem Kalender von 354 gibt es keine Belege; Aurelians Sonnenspiele fanden im Oktober statt.`, status: 'paraphrase', url: 'https://doi.org/10.1353/mou.2003.0038', note: 'Bibliografische Angaben (Band, Seiten, DOI) per Websuche bestätigt; Inhalt nach Sekundärberichten, Volltext nicht eingesehen.' },
       { kind: 'fachliteratur', author: 'Thomas J. Talley', work: 'The Origins of the Liturgical Year', year: '1986', quote: `Die Daten 25. Dezember und 6. Januar lassen sich aus der Berechnung des Todes- bzw. Empfängnistages Jesu herleiten.`, status: 'paraphrase' },
       { kind: 'fachliteratur', author: 'Andrew McGowan', work: 'How December 25 Became Christmas. Bible Review 18/6', year: '2002', quote: `Darstellung beider Hypothesen; die Berechnungshypothese sei ernst zu nehmen.`, status: 'paraphrase' },
       { kind: 'gegner', author: 'Hermann Usener', work: 'Religionsgeschichtliche Untersuchungen I: Das Weihnachtsfest', year: '1889', quote: `Das Weihnachtsfest sei als christliche Antwort auf das Fest des Sonnengottes entstanden.`, status: 'paraphrase' },
@@ -175,7 +175,7 @@ const claim: Claim = {
   ],
   furtherReading: [
     { kind: 'fachliteratur', author: 'Thomas J. Talley', work: 'The Origins of the Liturgical Year', year: '1986', status: 'paraphrase' },
-    { kind: 'fachliteratur', author: 'Steven E. Hijmans', work: 'Sol Invictus, the Winter Solstice, and the Origins of Christmas', year: '2003', status: 'paraphrase' },
+    { kind: 'fachliteratur', author: 'Steven E. Hijmans', work: 'Sol Invictus, the Winter Solstice, and the Origins of Christmas. Mouseion III/3', ref: 'S. 377–398', year: '2003', status: 'paraphrase', url: 'https://doi.org/10.1353/mou.2003.0038' },
     { kind: 'kirchenvater', author: 'Meliton von Sardes', work: 'Vom Passa (Peri Pascha)', year: 'ca. 165', status: 'paraphrase' },
   ],
   difficulty: 1,

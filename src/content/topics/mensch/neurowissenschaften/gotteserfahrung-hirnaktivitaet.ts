@@ -202,6 +202,75 @@ Für das Gespräch: Erkläre den Unterschied zwischen **Erfahrungsargument** (Ic
           objection: `Also gibst du zu, dass religiöse Erfahrungen nichts beweisen.`,
           objectionBy: 'Michael Shermer',
           answer: `Sie haben Beweisgewicht – wie jede Wahrnehmung –, aber sie sind korrigierbar und nicht das Fundament. Swinburne nennt das das Prinzip der Glaubwürdigkeit: Was uns erscheint, dürfen wir für wirklich halten, solange keine Gegengründe vorliegen. Ein Hirnkorrelat ist kein solcher Gegengrund. Christlicher Glaube verbindet Erfahrung mit Geschichte und Vernunft.`,
+          followUps: [
+            {
+              id: 'aliens-und-krishna',
+              objection: `Dein Prinzip der Glaubwürdigkeit beweist zu viel. Dann musst du auch Entführungen durch Außerirdische, Begegnungen mit Krishna und Erscheinungen von Hausgeistern für real halten – die Betroffenen sind genauso überzeugt.`,
+              objectionBy: 'Susan Blackmore',
+              answer: `Nein, denn das Prinzip gilt nur, solange keine Gegengründe vorliegen – und für Entführungserlebnisse gibt es einen gut belegten Gegengrund: Schlafparalyse mit Halluzinationen beim Aufwachen, die du selbst untersucht hast. Für religiöse Erfahrung insgesamt gibt es keinen solchen allgemeinen Gegengrund, nur für bestimmte Fälle. Und Christen müssen nicht jede religiöse Erfahrung anderer für Täuschung halten: Paulus sagt, Gott sei keinem Menschen fern. Strittig ist die Deutung, nicht, dass Menschen etwas erleben.`,
+              detail: `Swinburne formuliert das Prinzip der Glaubwürdigkeit (*principle of credulity*) ausdrücklich mit Einschränkungen: Eine Erfahrung verliert ihr Gewicht, wenn der Erfahrende unzuverlässig ist, die Umstände erfahrungsgemäß zu Täuschungen führen, starke Gründe gegen die Existenz des Gegenstandes sprechen oder die Erfahrung sich anders vollständig erklären lässt. Diese Gegengründe sind für jeden Einzelfall zu prüfen.
+
+Für Entführungsberichte: Blackmore hat gezeigt, dass viele typische Merkmale (Lähmung, Gegenwartsgefühl, Druck auf der Brust, Gestalten im Raum) den Merkmalen der Schlafparalyse entsprechen. Das ist ein spezifischer Gegengrund – und ein redlicher Christ akzeptiert ihn.
+
+William Alston hat in „Perceiving God" ausführlich begründet, warum die christliche Gotteserfahrung als „doxastische Praxis" ähnlich behandelt werden darf wie die Sinneswahrnehmung: Sie ist nicht unfehlbar, aber in einer Gemeinschaft mit Prüfkriterien eingebettet.`,
+              sources: [
+                { kind: 'gegner', author: 'Susan Blackmore', work: 'Abduction by aliens or sleep paralysis?', ref: 'Skeptical Inquirer 22/3 (1998)', year: '1998', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', ref: 'Kap. 13', year: '2. Aufl. 2004', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'William P. Alston', work: 'Perceiving God: The Epistemology of Religious Experience', year: '1991', status: 'paraphrase' },
+              ],
+              questionsBack: [`Welchen konkreten Gegengrund hast du für die Erfahrung eines Christen, der im Gebet Frieden und Vergebung erlebt und dessen Leben sich dauerhaft zum Guten verändert?`],
+              followUps: [
+                {
+                  id: 'schlafparalyse-daemonen',
+                  objection: `Dieselbe Schlafparalyse erklärt auch die nächtlichen „Dämonen", „bösen Gegenwarten" und Visionen in euren Heiligenlegenden. Euer Gegengrund trifft also auch eure eigenen Quellen.`,
+                  objectionBy: 'Susan Blackmore',
+                  answer: `Für manche Berichte mag das zutreffen – das gebe ich offen zu, und die Kirche hat selbst nie verlangt, jede Vision für echt zu halten. Aber ein Gegengrund für eine *Art* von Erlebnis ist keiner für alle: Die Bekehrung des Paulus geschah am helllichten Tag, unterwegs, mit Begleitern, und veränderte sein ganzes Leben. Und die christliche Tradition hat diese Unterscheidung selbst schon vor 1700 Jahren vorgenommen: Antonius lehrte seine Mönche, Erscheinungen nach ihren Früchten zu prüfen, nicht nach ihrer Lebhaftigkeit.`,
+                  detail: `Nach der Vita Antonii (Athanasius, Kap. 35–37) erkennt man die Herkunft einer Erscheinung an ihrer Wirkung: Was von Gott kommt, bringt Ruhe, Freude, Mut und Liebe zu Gott und den Menschen; was vom Bösen kommt, bringt Verwirrung, Furcht, Unruhe und Niedergeschlagenheit. Das Kriterium ist also nicht das Erlebnis selbst, sondern seine geistliche Frucht.
+
+Wichtig für das Gespräch: Die Existenz von Schlafparalyse widerlegt nicht die christliche Lehre über geistige Wirklichkeiten; sie zeigt nur, dass man nicht jedes nächtliche Erlebnis geistlich deuten soll. Siehe auch ‚psychiatrie/daemonen-sind-krankheiten'.`,
+                  voices: [
+                    {
+                      person: 'antonius',
+                      role: 'als Vater der Mönche und Lehrer der Unterscheidung der Geister',
+                      text: `Der hl. Antonius warnt nach dem Bericht des Athanasius seine Mönche davor, sich von Erscheinungen beeindrucken zu lassen. Entscheidend sei, was eine Erfahrung in der Seele bewirkt: Die Gegenwart der Heiligen ist still und sanft und erfüllt mit Freude und Zuversicht; das Wirken der Dämonen kommt mit Lärm und Getöse und erzeugt Furcht und Verwirrung. Antonius rät, nicht nach Visionen zu streben, sondern nach einem reinen, demütigen Herzen.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Das Leben des Antonius (Vita Antonii)', ref: 'Kap. 35–37', year: 'ca. 360', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nelson-rem-einbruch',
+      objection: `Der Neurologe Kevin Nelson hat gezeigt, dass viele spirituelle Erlebnisse – Lichter, Außerkörpererfahrungen, Gegenwartsgefühle – auf Einbrüche des REM-Schlafs in den Wachzustand zurückgehen. Menschen mit Nahtoderfahrungen hatten häufiger solche REM-Intrusionen. Das spirituelle „Tor" im Gehirn ist ein Schalter zwischen Schlaf und Wachen.`,
+      objectionBy: 'Kevin Nelson',
+      answer: `Nelsons Befund ist interessant und ich nehme ihn ernst: Bestimmte Erlebnisformen hängen offenbar mit der Regulation von Schlaf und Wachheit zusammen. Aber erstens war es ein Zusammenhang in einer kleinen Stichprobe, keine vollständige Erklärung – andere Forscher fanden ihn nicht in gleicher Stärke. Zweitens zeigt ein Mechanismus, *wie* ein Erlebnis vermittelt wird, nicht, *ob* es etwas Wirkliches erfasst. Und drittens beruht christlicher Glaube nicht auf Lichtern und Tunneln, sondern auf Christus.`,
+      detail: `Nelson u. a. (Neurology 2006) verglichen 55 Personen mit Nahtoderfahrung mit einer Kontrollgruppe und fanden bei Ersteren häufiger Berichte über REM-Intrusion (z. B. Schlafparalyse, hypnagoge Halluzinationen). In „The Spiritual Doorway in the Brain" (2011) weitet Nelson das zu einer allgemeinen Theorie spiritueller Erfahrung aus. Kritiker wandten ein, die Kontrollgruppe sei nicht gut vergleichbar gewesen und die Daten seien retrospektive Selbstauskünfte.
+
+Für das Gespräch ist die Kernunterscheidung wichtig: Mechanismus ist nicht Wahrheitsurteil. Auch das Sehen hat einen Mechanismus – und die Kenntnis der Sehbahn beweist nicht, dass es keine Bäume gibt.`,
+      sources: [
+        { kind: 'gegner', author: 'Kevin Nelson', work: 'The Spiritual Doorway in the Brain: A Neurologist\'s Search for the God Experience', year: '2011', status: 'paraphrase' },
+        { kind: 'wissenschaft', author: 'K. R. Nelson, M. Mattingly, S. A. Lee, F. A. Schmitt', work: 'Does the arousal system contribute to near death experience?', ref: 'Neurology 66 (2006), 1003–1009', year: '2006', status: 'paraphrase' },
+      ],
+      questionsBack: [`Wenn wir den Mechanismus des Sehens kennen – folgt daraus, dass wir nichts Wirkliches sehen?`],
+      followUps: [
+        {
+          id: 'askese-erzeugt-visionen',
+          objection: `Und schau dir eure Mönche an: Fasten, Schlafentzug, nächtelanges Gebet in der Wüste – das sind genau die Bedingungen, unter denen das Gehirn Halluzinationen produziert. Eure Wüstenväter haben ihre Visionen selbst erzeugt.`,
+          objectionBy: 'Michael Shermer',
+          answer: `Dass Fasten und Schlafmangel die Wahrnehmung verändern können, wussten die Wüstenväter selbst – und deshalb waren sie Visionen gegenüber äußerst misstrauisch. Das Ziel der Askese war nie, Erscheinungen zu erzeugen, sondern ein demütiges, liebendes Herz. Johannes Cassian nennt die Unterscheidung (*discretio*) die wichtigste Tugend des Mönchs und berichtet von Mönchen, die durch die Gier nach Visionen in die Irre gingen. Deine Kritik trifft also eine Fehlform, die die Tradition selbst verurteilt hat.`,
+          detail: `Cassian lässt in den „Unterredungen mit den Vätern" (Collationes II) Abba Moses ausführen, dass weder strenges Fasten noch Nachtwachen noch Einsamkeit an sich vor dem Fall schützen, sondern allein die Unterscheidung, die maßvoll zwischen den Extremen hindurchführt. Er nennt Beispiele von Mönchen, die sich auf Visionen und eigene Eingebungen verließen und dadurch zu Fall kamen.
+
+Die koptische Tradition hat diese Nüchternheit bewahrt: Wer im Kloster von Visionen berichtet, wird zuerst zum Beichtvater geschickt, nicht bewundert. Fasten dient der Herrschaft über die Leidenschaften und der Solidarität mit den Armen, nicht dem Erzeugen außergewöhnlicher Zustände. Das gilt auch für die rund 200 Fastentage der koptischen Kirche, die von Familien und Berufstätigen gehalten werden, nicht von Visionssuchern.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Johannes Cassian', work: 'Unterredungen mit den Vätern (Collationes)', ref: 'II (Abba Moses über die Unterscheidung)', year: 'ca. 420–429', status: 'paraphrase' },
+          ],
+          questionsBack: [`Warum hätten die Wüstenväter vor Visionen gewarnt, wenn es ihnen darum ging, sie zu erzeugen?`],
         },
       ],
     },

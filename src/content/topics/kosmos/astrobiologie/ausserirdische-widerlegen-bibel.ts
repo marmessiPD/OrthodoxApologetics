@@ -127,6 +127,15 @@ const claim: Claim = {
                 },
               ],
             },
+            {
+              id: 'unerloeste-aliens-ungerecht',
+              objection: `Wenn es gefallene Außerirdische gibt, für die Christus nicht gestorben ist, dann wäre dein Gott ungerecht: Er rettet eine Spezies und lässt die anderen verloren gehen.`,
+              objectionBy: 'Paul Davies (zugespitzt)',
+              answer: `Dieser Einwand stapelt vier Annahmen aufeinander: dass es Außerirdische gibt, dass sie moralisch verantwortliche Wesen sind, dass sie gefallen sind und dass Gott keinen Weg zu ihnen hat. Keine davon wissen wir. Was wir wissen, ist, wie Gott sich in Christus gezeigt hat: als einer, der dem Verlorenen nachgeht, bis er es findet. Auf dieser Grundlage darf man Abraham folgen: „Sollte der Richter aller Welt nicht gerecht richten?" (Gen 18,25).`,
+              detail: `Aus einer Kette unbekannter Annahmen lässt sich kein Vorwurf der Ungerechtigkeit ableiten. Die Kirche lehrt, dass Gott „will, dass alle Menschen gerettet werden" (1 Tim 2,4) – über andere Geschöpfe schweigt die Offenbarung. Wer den Einwand bringt, muss zugestehen, dass er von einem rein hypothetischen Szenario auf eine Eigenschaft Gottes schließt, die der Offenbarung in Christus widerspricht. Gelassenheit ist hier die ehrliche Antwort.`,
+              sources: [{ kind: 'bibel', work: '1. Mose', ref: '18,25', quote: `Sollte der Richter aller Welt nicht gerecht richten?`, status: 'paraphrase' }],
+              questionsBack: [`Wie viele unbekannte Annahmen braucht dein Szenario – und was bleibt von dem Vorwurf übrig, wenn eine davon falsch ist?`],
+            },
           ],
         },
       ],
@@ -173,6 +182,20 @@ const claim: Claim = {
           objectionBy: 'Astrobiologe',
           answer: `Dann würde es zeigen, dass die Naturgesetze in erstaunlichem Maß lebensfreundlich sind – also mehr Feinabstimmung, nicht weniger. „Häufig" heißt nicht „ungelenkt". Und den chemischen Weg zum ersten Leben müsste man trotzdem erst finden – derzeit ist er völlig unklar.`,
           detail: `Siehe die Themenblöcke „Der Ursprung des Lebens" und „Die Feinabstimmung des Universums".`,
+          followUps: [
+            {
+              id: 'zutaten-ueberall',
+              objection: `Die Zutaten sind überall: Auf dem Saturnmond Enceladus gibt es einen Ozean unter dem Eis, hydrothermale Aktivität, organische Moleküle und sogar Phosphate. Wo alle Zutaten vorhanden sind, entsteht Leben früher oder später von selbst.`,
+              objectionBy: 'Astrobiologe',
+              answer: `Enceladus ist ein großartiges Forschungsziel, und die Funde sind beeindruckend. Aber Zutaten sind kein Rezept. Eine Küche voller Mehl, Eier und Zucker backt keinen Kuchen; ein Ozean voller organischer Moleküle baut keine Zelle. Der schwierige Teil ist nicht, Bausteine zu finden, sondern sie zu funktionierenden, informationstragenden Systemen zusammenzusetzen – und genau dafür gibt es bis heute keinen bekannten ungelenkten Weg.`,
+              detail: `Die Raumsonde Cassini fand in den Fontänen von Enceladus Wasser, Salze, organische Verbindungen und Hinweise auf hydrothermale Prozesse; 2023 wurden auch Phosphate nachgewiesen (Postberg u. a., *Nature*). Das macht den Mond zu einem der aussichtsreichsten Orte für die Suche nach Leben. Der Synthesechemiker James Tour weist darauf hin, dass die Ursprungs-des-Lebens-Forschung nicht an fehlenden Rohstoffen scheitert, sondern an der Organisation: an der richtigen Reihenfolge, Reinheit, Händigkeit und Information.`,
+              voices: [
+                { person: 'james-tour', role: 'als synthetischer Chemiker', text: `Tour betont, dass ein Haufen der richtigen Moleküle noch keine Zelle ist. Selbst im bestausgestatteten Labor gelingt es nicht, aus Bausteinen funktionierendes Leben zusammenzusetzen; unter präbiotischen Bedingungen – ohne Chemiker, die reinigen, schützen und in der richtigen Reihenfolge zugeben – ist das Problem noch größer. Das Vorhandensein von Zutaten erklärt nicht die Entstehung von Information.` },
+              ],
+              sources: [{ kind: 'wissenschaft', author: 'Frank Postberg u. a.', work: '„Detection of phosphates originating from Enceladus’s ocean", Nature 618', year: '2023', quote: `In Eiskörnern aus den Fontänen von Enceladus wurden Phosphate nachgewiesen, die aus dem unterirdischen Ozean stammen.`, status: 'paraphrase' }],
+              questionsBack: [`Backt eine Küche voller Zutaten von selbst einen Kuchen? Was fehlt zwischen Bausteinen und Zelle?`],
+            },
+          ],
         },
       ],
     },
@@ -181,6 +204,30 @@ const claim: Claim = {
       objection: `Wenn es niemanden sonst gibt – das Fermi-Paradox –, dann ist das Universum eine absurde Verschwendung. Und wenn es viele gibt, ist der Mensch unbedeutend. Beides spricht gegen die Bibel.`,
       objectionBy: 'Gesprächspartner',
       answer: `Das ist ein Argument, das in beide Richtungen „funktioniert" – und deshalb nichts beweist. Gibt es kein weiteres Leben, passt das zur Seltenheit der Bedingungen (Feinabstimmung, seltene Erde). Gibt es viel Leben, zeigt es die Großzügigkeit des Schöpfers. Größe und Alter des Universums sind zudem Voraussetzungen für Leben, keine Verschwendung.`,
+      followUps: [
+        {
+          id: 'unheimliches-schweigen',
+          objection: `Seit über sechzig Jahren lauscht SETI – und hört nichts. Das „unheimliche Schweigen" legt nahe, dass Intelligenz extrem selten ist: ein unwahrscheinlicher Zufall der Evolution, kein Ziel. Das ist ein Problem für jede Religion, die den Menschen als beabsichtigt ansieht.`,
+          objectionBy: 'Paul Davies',
+          answer: `Dass etwas selten ist, heißt nicht, dass es zufällig ist – ein Meisterwerk ist auch selten. Im Gegenteil: Wenn Intelligenz extrem unwahrscheinlich ist, muss der Naturalismus erklären, warum sie hier dennoch entstanden ist. Unter der Annahme eines Schöpfers, der erkennende Geschöpfe will, ist unsere Existenz erwartbar; unter blindem Zufall ist sie ein extremer Glücksfall. Das Schweigen spricht also nicht gegen die Absicht, sondern verschärft die Frage, die nur die Absicht gut beantwortet.`,
+          detail: `Davies nennt in *The Eerie Silence* (2010) verschiedene mögliche Gründe für das Schweigen: Intelligenz könnte selten sein, Zivilisationen könnten kurzlebig sein, oder wir suchen falsch. Er bleibt dabei ein nachdenklicher Agnostiker, der die Frage nach Sinn ernst nimmt. Für das Gespräch: Beide Ausgänge – viel oder wenig Leben – sind mit dem christlichen Glauben vereinbar; aber „sehr selten" ist für den Naturalismus keineswegs bequemer.`,
+          sources: [{ kind: 'gegner', author: 'Paul Davies', work: 'The Eerie Silence: Renewing Our Search for Alien Intelligence', year: '2010', quote: `Das Ausbleiben von Signalen nach Jahrzehnten der Suche könne darauf hindeuten, dass Intelligenz im Universum sehr selten ist – oder dass wir falsch suchen.`, status: 'paraphrase' }],
+          questionsBack: [`Wenn Intelligenz extrem unwahrscheinlich ist – unter welcher Hypothese ist unsere Existenz dann besser erklärt?`],
+          followUps: [
+            {
+              id: 'conway-morris-konvergenz',
+              objection: `Euer eigenes Lager ist sich nicht einig. Der Christ Simon Conway Morris sagt, die Evolution laufe auf Intelligenz zu – dann müsste es überall Intelligenz geben. Andere Christen sagen, die Erde sei einzigartig. Was denn nun?`,
+              objectionBy: 'Sean Carroll',
+              answer: `Dass Christen über eine offene empirische Frage verschiedener Meinung sind, ist ein Zeichen von Ehrlichkeit, nicht von Schwäche – Naturalisten sind sich da genauso uneinig. Interessant ist aber, was beide christlichen Positionen verbindet: Conway Morris sagt, die Naturgesetze und die Biochemie seien so beschaffen, dass Evolution immer wieder zu denselben Lösungen findet – bis hin zu Intelligenz. Das ist selbst eine Form von Zielgerichtetheit in der Natur. Ob Intelligenz also häufig ist (weil die Gesetze darauf angelegt sind) oder selten (weil die Bedingungen so eng sind) – in beiden Fällen weist der Befund über den blinden Zufall hinaus.`,
+              voices: [
+                { person: 'conway-morris', role: 'als Paläontologe und Evolutionsbiologe', text: `Conway Morris dokumentiert in *Life’s Solution* (2003) zahlreiche Fälle von Konvergenz: Linsenaugen, Echoortung, Intelligenz und Werkzeuggebrauch sind in der Evolution mehrfach unabhängig entstanden. Er folgert, dass der Raum möglicher Lebensformen stark eingeschränkt ist und die Evolution vorhersagbarer ist, als oft angenommen. Für ihn passt das zu einer Schöpfung, in der Gottes Absicht in die Struktur der Natur eingeschrieben ist.` },
+              ],
+              sources: [{ kind: 'wissenschaft', author: 'Simon Conway Morris', work: 'Life’s Solution: Inevitable Humans in a Lonely Universe', year: '2003', quote: `Konvergente Evolution zeige, dass bestimmte Lösungen – bis hin zu Intelligenz – nahezu unvermeidlich seien, sofern die Bedingungen für Leben gegeben sind.`, status: 'paraphrase' }],
+              questionsBack: [`Wenn die Naturgesetze so angelegt sind, dass Evolution immer wieder auf Intelligenz zuläuft – ist das blinder Zufall oder eine eingebaute Richtung?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

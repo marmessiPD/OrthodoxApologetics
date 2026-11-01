@@ -134,7 +134,7 @@ const claim: Claim = {
                 {
                   id: 'isis-lactans-theotokos',
                   objection: `Und eure koptische Kirche hat das ägyptische Erbe nur umetikettiert: Isis mit dem Horuskind an der Brust wurde zur Gottesmutter mit dem Jesuskind. Das sieht man doch auf den Ikonen!`,
-                  objectionBy: "Tim O'Neill",
+                  objectionBy: 'Acharya S',
                   answer: `Hier muss man ehrlich unterscheiden: Dass frühchristliche Künstler in Ägypten die Bildsprache ihrer Umwelt benutzten – auch das Motiv der stillenden Mutter –, halten viele Kunsthistoriker für plausibel, und ich bestreite es nicht. Aber Bildform ist nicht Glaubensinhalt. Die Kopten sprachen auch weiter die Sprache der Pharaonen, in griechischen Buchstaben geschrieben – und verkündeten darin das Evangelium. Isis ist eine Göttin, die einen Gott gebiert; die Theotokos ist eine menschliche Frau, aus der der ewige Logos Fleisch annimmt. Das Konzil von Ephesus (431) spricht über die Menschwerdung, nicht über eine Muttergöttin.`,
                   detail: `Für die koptische Kirche ist das kein peinliches Geheimnis, sondern ein Zeichen der Inkulturation: Wie Paulus griechische Begriffe nutzte (Apg 17,28), übernahm die ägyptische Kirche künstlerische Formen ihrer Kultur und füllte sie mit neuem Inhalt. Das Ankh-Zeichen lebte etwa als koptisches Kreuz (*crux ansata*) weiter. Gleichzeitig kämpften Alexandriner wie Athanasius und Schenute entschieden gegen den Kult der alten Götter – die Kirche wusste genau, wo die Grenze verlief. Ehrlich bleibt: Manche Christen der Spätantike haben die Grenze im Volksglauben verwischt; die Lehre der Kirche nie.`,
                   voices: [
@@ -169,6 +169,39 @@ const claim: Claim = {
           objection: `Die Menschen der Antike verstanden Jesus eben wie einen Vegetationsgott, der im Frühjahr wiederkommt – Ostern liegt ja nicht zufällig im Frühling.`,
           objectionBy: 'Robert M. Price',
           answer: `Ostern liegt im Frühling, weil das Passafest im Frühling liegt – und Jesus am Passa starb. Die frühen Christen feierten seine Auferstehung nicht als Naturzyklus, sondern wöchentlich am Herrentag und jährlich am Pascha, in Verbindung mit dem Auszug aus Ägypten. Niemand sagte, Christus sterbe jedes Jahr neu; im Gegenteil: „Er stirbt hinfort nicht" (Röm 6,9).`,
+          followUps: [
+            {
+              id: 'taufe-mysterien-tod',
+              objection: `Gerade Römer 6 verrät die Herkunft: Mit Christus sterben und zu neuem Leben auferstehen – das ist die Sprache der Mysterienweihen, in denen der Eingeweihte das Schicksal seines Gottes teilt.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Paulus' Taufsprache hat jüdische Wurzeln: Er deutet die Taufe vom Durchzug durch das Meer her – „sie sind alle auf Mose getauft … im Meer" (1 Kor 10,1–2) – und vom Tod und der Auferstehung eines konkreten Menschen, den er selbst gesehen haben will. Die Belege für eine Weihe als „Tod und Wiedergeburt" in den Mysterien stammen überwiegend aus dem 2. Jahrhundert und später. Ronald Nash hat gezeigt, dass die Parallelen oft erst durch christliche Begriffe in die Beschreibung der Mysterien hineinkamen.`,
+              voices: [
+                {
+                  person: 'ronald-nash',
+                  role: 'als Kritiker der Mysterien-These',
+                  text: `Nash weist darauf hin, dass viele Darstellungen der Mysterienkulte christliche Begriffe wie „Taufe", „Erlöser" oder „Wiedergeburt" verwenden, um vage und späte Quellen zu beschreiben – und dann über die Ähnlichkeit staunen. Er betont den Unterschied zwischen einem einmaligen geschichtlichen Ereignis, auf das sich die Taufe bezieht, und mythischen Zyklen, die keinen Ort in der Geschichte haben.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Ronald H. Nash', work: 'The Gospel and the Greeks. Did the New Testament Borrow from Pagan Thought?', year: '1992, 2. Aufl. 2003', quote: `Die Parallelen entstehen oft erst durch christliche Terminologie in der Beschreibung später heidnischer Quellen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '10,1–2', quote: `Unsere Väter sind alle unter der Wolke gewesen und sind alle durchs Meer gegangen und sind alle unter Mose getauft, mit der Wolke und mit dem Meer.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'apuleius-freiwilliger-tod',
+                  objection: `Apuleius nennt die Isisweihe ausdrücklich einen „freiwilligen Tod" und eine Wiedergeburt. Das ist exakt paulinische Sprache.`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Apuleius schrieb seine „Metamorphosen" um 170 n. Chr. – über hundert Jahre nach dem Römerbrief. Wenn es eine Abhängigkeit gibt, ist sie in dieser Richtung nicht belegt. Und der Inhalt unterscheidet sich: Lucius kauft sich teuer in eine private Weihe ein, Isis ist weder gestorben noch auferstanden, und es geht um Schutz und Glück im Leben. Die christliche Taufe ist kostenlos, öffentlich und bezieht sich auf den Tod eines Menschen unter Pontius Pilatus. Die Metapher „Tod und neues Leben" ist so naheliegend, dass sie keine Entlehnung braucht.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Apuleius', work: 'Metamorphosen (Der goldene Esel)', ref: 'XI,21; XI,23–24', year: 'ca. 170', quote: `Die Weihe wird als freiwilliger Tod (voluntaria mors) und als Wiedergeburt durch die Gnade der Göttin beschrieben.`, original: `ad instar voluntariae mortis`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie kann ein Text von 170 n. Chr. die Quelle für einen Brief aus dem Jahr 57 sein?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -183,6 +216,36 @@ const claim: Claim = {
           objection: `Späte Quellen können ältere Praxis widerspiegeln. Du kannst nicht ausschließen, dass der Kult schon früher so gefeiert wurde.`,
           objectionBy: 'Richard Carrier',
           answer: `Ausschließen kann ich es nicht – aber du kannst es auch nicht voraussetzen, denn es ist genau das, was zu beweisen wäre. Wenn ein Motiv erst nach dem Christentum belegt ist, kann der Einfluss ebenso gut in die andere Richtung gegangen sein; manche Forscher halten genau das für möglich, weil die Kulte im 4. Jahrhundert mit dem Christentum konkurrierten. Historisch arbeitet man mit belegten Daten, nicht mit vermuteten.`,
+          followUps: [
+            {
+              id: 'justin-gibt-parallelen-zu',
+              objection: `Selbst Justin der Märtyrer gibt die Parallelen zu: Er schreibt, die Christen behaupteten nichts anderes als die Heiden von den Söhnen des Zeus – und erklärt die Ähnlichkeiten damit, dass Dämonen Christus im Voraus nachgeäfft hätten. Die Väter wussten also Bescheid.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Justin benutzt die Vergleiche als Brücke für heidnische Leser: Ihr haltet die Geschichten über eure Göttersöhne nicht für absurd – also verurteilt uns nicht für unseren Glauben. Im selben Atemzug betont er, dass diese Geschichten unmoralisch und mythisch sind, das Evangelium dagegen geschichtlich und prophetisch angekündigt. Seine Dämonen-These zeigt, dass er Ähnlichkeiten bemerkte, nicht dass Christen entlehnten – er kannte die Kulte aus eigener Anschauung und hielt sie für etwas völlig anderes.`,
+              voices: [
+                {
+                  person: 'justin',
+                  role: 'als Apologet gegenüber dem Kaiser',
+                  text: `Justin argumentiert in seiner Ersten Apologie zweigleisig: Einerseits stellt er fest, dass die Heiden ähnliche Dinge von ihren Göttersöhnen erzählen, um den Vorwurf der Absurdität abzuwehren. Andererseits besteht er darauf, dass die Christen allein einen Gekreuzigten verkünden, der von Propheten Jahrhunderte vorher angekündigt wurde, und dass die Mythen keine Wahrheit, sondern Täuschung enthalten.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '21–23; 54', year: 'ca. 155', quote: `Vergleich mit den Göttersöhnen als Argument gegen den Absurditätsvorwurf; die Mythen seien Nachahmungen der Dämonen, die die Prophetien missverstanden.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'mithras-brot-wasser',
+                  objection: `Justin gibt sogar zu, dass die Mithrasanhänger einen Ritus mit Brot und einem Becher Wasser feierten – eine heidnische Eucharistie!`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Das schreibt Justin um 155 n. Chr. (1 Apol 66) – das ist ein Beleg für den Mithraskult des 2. Jahrhunderts. Die christliche Eucharistie ist aber rund hundert Jahre früher bezeugt: Paulus überliefert um 55 n. Chr. die Abendmahlsworte als Tradition, die er selbst schon empfangen hat (1 Kor 11,23–25). Und sie wurzelt sichtbar im jüdischen Passamahl – Brot, Becher, Bund, Gedächtnis. Wenn hier jemand von jemandem übernommen hat, spricht die Chronologie nicht für die Christen als Nehmende.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '66', year: 'ca. 155', quote: `In den Mithrasmysterien würden Brot und ein Becher Wasser mit bestimmten Formeln vorgesetzt – nach Justin eine dämonische Nachahmung.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '11,23', quote: `Ich habe es von dem Herrn empfangen, das ich euch gegeben habe.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
