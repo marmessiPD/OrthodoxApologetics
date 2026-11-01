@@ -130,6 +130,21 @@ const claim: Claim = {
               sources: [
                 { kind: 'fachliteratur', author: 'Ernst-Wolfgang Böckenförde', work: 'Die Entstehung des Staates als Vorgang der Säkularisation', year: '1967', quote: `Der freiheitliche, säkularisierte Staat lebt von Voraussetzungen, die er selbst nicht garantieren kann.`, status: 'verbatim' },
               ],
+              followUps: [
+                {
+                  id: 'experiment-gelingt',
+                  objection: `Das Experiment läuft schon seit Generationen, und es gelingt: Skandinavien ist seit Jahrzehnten weitgehend säkular und trotzdem friedlich, vertrauensvoll und solidarisch. Böckenförde war zu pessimistisch.`,
+                  objectionBy: 'Phil Zuckerman',
+                  answer: `Zwei, drei Generationen sind für die Geschichte einer Kultur kurz – ein Erbe kann lange tragen, bevor man merkt, dass niemand mehr einzahlt. Ich wünsche Skandinavien von Herzen, dass seine Stärken bleiben. Aber Böckenfördes Punkt ist nicht, dass alles sofort zusammenbricht, sondern dass der Staat die Quellen von Vertrauen und Gemeinsinn nicht selbst erzeugen kann. Und ob die Würde jedes Menschen auch ohne den Gedanken der Gottebenbildlichkeit überzeugend begründet bleibt, ist eine philosophische Frage, die Wohlstandsdaten nicht beantworten.`,
+                  detail: `Tom Holland, selbst lange kein Kirchgänger, beschreibt in *Dominion*, wie tief Werte wie Mitleid mit den Schwachen, Gleichheit aller Menschen und Vergebung im Christentum wurzeln – so tief, dass säkulare Europäer sie für „natürlich" halten. Auch Jürgen Habermas hat (2004 im Gespräch mit Joseph Ratzinger) betont, dass der säkulare Staat gut daran tut, die normativen Quellen der Religion nicht zu verachten. Für dein Gespräch gilt: Keine Untergangsszenarien malen, sondern die Frage stellen, woraus sich Würde und Solidarität auf Dauer speisen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Jürgen Habermas & Joseph Ratzinger', work: 'Dialektik der Säkularisierung. Über Vernunft und Religion', year: '2005 (Gespräch 2004)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Woraus begründest du die gleiche Würde eines schwerbehinderten Menschen – und wird diese Begründung auch deine Enkel überzeugen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
