@@ -140,6 +140,17 @@ const claim: Claim = {
           objectionBy: 'Graham Oppy / Sean Carroll',
           answer: `Nichts in der Physik deutet darauf hin: Die Werte der Konstanten und die Anfangsbedingungen wirken gerade nicht notwendig. Der einzige ernsthafte Versuch, alles notwendig zu machen, ist Tegmarks „mathematisches Universum" – mit der Folge, dass alle denkbaren Strukturen existieren und man nicht mehr erklären kann, warum wir eine geordnete Welt erleben.`,
           detail: `Die ausführliche Debatte um Kontingenz und Notwendigkeit gehört zum Kontingenzargument (Leibniz).`,
+          followUps: [
+            {
+              id: 'tegmark-alle-strukturen-existieren',
+              objection: `Genau: Im Level-IV-Multiversum existiert jede mathematische Struktur physikalisch. Dann ist nichts kontingent – unser Universum existiert, weil alle existieren. Keine Auswahl, kein Schöpfer, keine offene Warum-Frage.`,
+              objectionBy: 'Max Tegmark',
+              answer: `Das ist kühn, hat aber drei Probleme. Erstens setzt es voraus, dass mathematische Existenz dasselbe ist wie physikalische Existenz – eine unbewiesene metaphysische Gleichsetzung. Zweitens ist es grundsätzlich nicht prüfbar. Drittens untergräbt es sich selbst: Unter allen Strukturen, die Beobachter enthalten, müssten chaotische, unordentliche Welten die überwältigende Mehrheit sein. Dass wir in einer Welt mit wenigen, eleganten, über Milliarden Jahre stabilen Gesetzen leben, wäre dann ein extremer Zufall – genau das Rätsel, das die Hypothese lösen sollte.`,
+              detail: `Tegmark vertritt die „Hypothese des mathematischen Universums" (*Our Mathematical Universe*, 2014): Die äußere Realität *ist* eine mathematische Struktur. Kritiker – auch säkulare – verweisen auf das Maßproblem: Ohne ein Wahrscheinlichkeitsmaß über alle Strukturen sagt die Hypothese nichts vorher; mit einem Maß müsste man begründen, warum gerade dieses gilt. Außerdem ist unklar, wie eine abstrakte Struktur Bewusstsein, Zeiterleben und Kausalität „hat". Christlich gesehen ist die mathematische Ordnung der Welt kein Ersatz für den Logos, sondern sein Abdruck.`,
+              sources: [{ kind: 'gegner', author: 'Max Tegmark', work: 'Our Mathematical Universe: My Quest for the Ultimate Nature of Reality', year: '2014', quote: `Unsere physikalische Wirklichkeit sei nicht nur durch Mathematik beschrieben, sondern sei eine mathematische Struktur; alle mathematischen Strukturen existierten auch physikalisch (Level-IV-Multiversum).`, status: 'paraphrase' }],
+              questionsBack: [`Wenn alle Strukturen existieren – warum leben wir dann in einer so geordneten statt in einer der unzähligen chaotischen Welten mit Beobachtern?`],
+            },
+          ],
         },
       ],
     },

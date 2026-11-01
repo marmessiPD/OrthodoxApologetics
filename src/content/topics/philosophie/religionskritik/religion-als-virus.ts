@@ -146,6 +146,34 @@ const claim: Claim = {
           objectionBy: 'Richard Dawkins',
           answer: `Wäre ich 1950 in der Sowjetunion geboren, wäre ich wahrscheinlich Atheist und Marxist gewesen. Hätte ich im Mittelalter gelebt, hätte ich die Erde für den Mittelpunkt des Universums gehalten. Daraus folgt nicht, dass Atheismus oder Astronomie falsch sind. Die Herkunft einer Überzeugung entscheidet nicht über ihre Wahrheit – das ist der genetische Fehlschluss. Entscheidend ist, ob ich meine Überzeugung prüfe.`,
           detail: `Das Argument trifft außerdem eine Gruppe nicht: Konvertiten. In Ländern, in denen der Übertritt zum Christentum gefährlich ist, kommen Menschen dennoch zum Glauben – oft unter hohem persönlichen Preis. Und die Kopten in Ägypten halten seit Jahrhunderten unter sozialem Druck an ihrem Glauben fest, wo der Übertritt zur Mehrheitsreligion viele Vorteile brächte.`,
+          followUps: [
+            {
+              id: 'aussenseiter-test',
+              objection: `Dann mach den Außenseiter-Test: Prüfe dein Christentum mit derselben Skepsis, mit der du den Islam, den Hinduismus oder Scientology prüfst. Ich wette, es fällt durch.`,
+              objectionBy: 'Alex O\'Connor / John Loftus',
+              answer: `Einverstanden – das ist ein fairer Maßstab, und ich nehme ihn an. Ich frage beim Islam: Was sind die historischen Grundlagen, wie zuverlässig sind die Quellen, was sagen unabhängige Zeugen? Dieselben Fragen stelle ich an das Christentum: Wie früh sind die Quellen über Jesu Tod und Auferstehung, was sagen auch skeptische Historiker, welche Erklärung passt am besten? Das Christentum hat einen Vorteil, den viele Religionen nicht haben: Es steht und fällt mit einem öffentlichen historischen Ereignis (1 Kor 15,14–17). Das kann man prüfen – und ich lade dich ein, es mit mir zu tun.`,
+              detail: `Der „Outsider Test for Faith" stammt von dem ehemaligen Prediger John W. Loftus (*The Outsider Test for Faith*, 2013). Er hat einen berechtigten Kern: Man sollte nicht mit zweierlei Maß messen. Er setzt aber voraus, dass jede Religion gleich schlecht begründet ist – genau das muss erst geprüft werden. Für die Prüfung des Christentums siehe den Themenblock „Die Auferstehung Jesu" und die Claims zur Zuverlässigkeit der Evangelien.`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '15,14', quote: `Ist aber Christus nicht auferstanden, so ist unsere Predigt vergeblich, so ist auch euer Glaube vergeblich.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'ein-gott-weiter',
+                  objection: `Wir sind doch alle Atheisten, was die meisten Götter angeht – Zeus, Thor, Amun-Re. Ich gehe nur einen Gott weiter als du.`,
+                  objectionBy: 'Richard Dawkins (The God Delusion, Kap. 2)',
+                  answer: `Der Satz ist witzig, aber er vergleicht Ungleiches. Zeus und Thor sind Wesen *innerhalb* der Welt – mächtige Figuren mit Körper, Geburt und Familienstreit. Der Gott der Bibel ist der Grund, *warum es überhaupt eine Welt gibt*, nicht ein Wesen neben anderen. Wer Zeus ablehnt, hat einen mythologischen Bewohner des Kosmos abgelehnt; wer Gott ablehnt, muss erklären, warum es das Sein überhaupt gibt. Das ist keine Frage von „einer Zahl mehr", sondern eine ganz andere Frage.`,
+                  detail: `Dawkins übernimmt die Pointe in *The God Delusion* (2006, Kap. 2) von einem verbreiteten Spruch. Philosophen wie David Bentley Hart (*The Experience of God*, 2013) und Edward Feser betonen, dass der Gott des klassischen Theismus kein „Wesen unter Wesen" ist, sondern das Sein selbst, aus dem alles Endliche hervorgeht. Auch die Kirchenväter grenzten den biblischen Gott scharf von den heidnischen Göttern ab: Athanasius' *Contra Gentes* kritisiert die Götter der Griechen und Ägypter gerade als Geschöpfe, die man fälschlich anbetet.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Richard Dawkins', work: 'The God Delusion', ref: 'Kap. 2', year: '2006', quote: `Wir sind alle Atheisten in Bezug auf die meisten Götter, an die Menschen je geglaubt haben; manche von uns gehen nur einen Gott weiter.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '8–29', year: 'ca. 335', quote: `Die heidnischen Götter sind Geschöpfe und Erdichtungen, die man an die Stelle des einen Schöpfers gesetzt hat.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Erklärt die Ablehnung von Zeus, warum es überhaupt etwas gibt und nicht nichts?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -169,6 +197,82 @@ const claim: Claim = {
               objectionBy: 'Populärer Atheismus',
               answer: `Der „Neue Atheismus" hat Bestseller, Konferenzen, Slogans, Busplakate und Leitfiguren – er verbreitet sich durchaus wie ein Ideenpaket. Und wer behauptet, Religion sei ein Virus und es gebe nur Materie, vertritt eine positive Weltanschauung (Naturalismus), nicht nur ein Fehlen. Das ist nicht schlimm – aber dann gelten für ihn dieselben Maßstäbe der Begründung.`,
               detail: `Siehe den Claim „Die Beweislast liegt bei dir – Atheismus ist nur fehlender Glaube". Die Unterscheidung zwischen „Ich glaube nicht an Gott" (Agnostizismus/schwacher Atheismus) und „Es gibt keinen Gott, und Religion ist ein Virus" (starke Thesen) ist im Gespräch hilfreich.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'viren-des-geistes-symptome',
+      objection: `In meinem Aufsatz „Viruses of the Mind" habe ich die Symptome beschrieben: tiefe innere Gewissheit ohne Belege; die Überzeugung, dass Glaube gerade dann verdienstvoll ist, wenn Belege fehlen; Geheimnis als Tugend; Intoleranz gegenüber konkurrierenden Glaubenssystemen; Weitergabe von Eltern an Kinder. Wer diese Symptome hat, ist infiziert.`,
+      objectionBy: 'Richard Dawkins („Viruses of the Mind", 1993)',
+      answer: `Prüfen wir die Liste: tiefe Gewissheit, Intoleranz gegenüber Konkurrenten, Weitergabe an die nächste Generation – das trifft auf fast jede stark vertretene Weltanschauung zu, auch auf einen leidenschaftlichen Atheismus. Eine Diagnose, die nicht zwischen wahr und falsch unterscheidet, ist keine Diagnose. Und den Punkt „Glaube gegen Belege" bestreite ich: Biblischer Glaube ist Vertrauen auf der Grundlage von Zeugnis. Der Molekularbiophysiker und Theologe Alister McGrath hat genau das gegen Dawkins eingewandt.`,
+      detail: `Dawkins' Essay erschien 1993 in dem Sammelband *Dennett and His Critics* (hg. von Bo Dahlbom). McGrath, der in Oxford in Molekularbiophysik promoviert wurde und als junger Mann Atheist war, antwortete in *Dawkins' God: Genes, Memes and the Meaning of Life* (2004): Dawkins' Glaubensdefinition („blindes Vertrauen ohne Belege") entspreche keiner ernsthaften christlichen Theologie, von Clemens von Alexandrien bis Thomas von Aquin.`,
+      voices: [
+        {
+          person: 'mcgrath',
+          role: 'als Naturwissenschaftler und Theologe',
+          text: `McGrath zeigt, dass die Memetik weder empirisch belegt noch methodisch brauchbar ist und dass ihre Anwendung auf Religion beliebig bleibt: Man könnte mit demselben Recht den Atheismus als Mem beschreiben. Er kritisiert vor allem Dawkins' Definition des Glaubens als „Vertrauen ohne Belege" – kein bedeutender christlicher Denker habe den Glauben so verstanden. Glaube sei vielmehr begründetes Vertrauen, vergleichbar dem Vertrauen in eine wissenschaftliche Theorie, die man nicht vollständig beweisen kann.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Alister E. McGrath', work: 'Dawkins\' God: Genes, Memes and the Meaning of Life', year: '2004', quote: `Dawkins' Definition des Glaubens als blindes Vertrauen ohne Belege entspricht keiner ernsthaften christlichen Theologie; die Memetik ist als Erklärung religiöser Überzeugungen weder empirisch gestützt noch methodisch tragfähig.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Richard Dawkins', work: 'Viruses of the Mind (in: Bo Dahlbom [Hg.], Dennett and His Critics)', year: '1993', quote: `Dawkins listet „Symptome" einer Infektion durch einen Glaubensvirus auf, u. a. tiefe Gewissheit ohne Belege, Verehrung des Geheimnisses und Intoleranz gegenüber rivalisierenden Glaubenssystemen.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn tiefe Gewissheit und Intoleranz gegenüber Rivalen Symptome einer Infektion sind – wie steht es dann mit einem Atheismus, der Religion als Virus bezeichnet?`,
+      ],
+      followUps: [
+        {
+          id: 'kontraintuitive-konzepte',
+          objection: `Die Kognitionswissenschaft erklärt, warum religiöse Ideen so ansteckend sind: Sie sind „minimal kontraintuitiv" – ein Wesen, das wie ein Mensch denkt, aber unsichtbar ist. Solche Konzepte merkt man sich leicht und erzählt sie weiter, ob sie wahr sind oder nicht.`,
+          objectionBy: 'Pascal Boyer (Religion Explained, 2001)',
+          answer: `Das erklärt Gespenstergeschichten gut. Aber das christliche Glaubensbekenntnis ist alles andere als ein eingängiges, bequemes Konzept: ein Gott in drei Personen, ein gekreuzigter Messias, Feindesliebe, Fasten, Keuschheit, Martyrium. „Den Juden ein Ärgernis und den Griechen eine Torheit" (1 Kor 1,23). Ein Mem, das auf Verbreitung optimiert wäre, hätte sich anders entwickelt. Und das frühe Christentum wuchs nachweislich durch etwas sehr Konkretes: Die Christen pflegten in den Seuchen des 2. und 3. Jahrhunderts die Kranken, auch die heidnischen.`,
+          detail: `Der Religionssoziologe Rodney Stark (*The Rise of Christianity*, 1996) zeigt, dass das Christentum in den ersten drei Jahrhunderten durch persönliche Netzwerke, die Aufwertung von Frauen und die Krankenpflege während der Epidemien (Antoninische Pest, Pest des Cyprian) wuchs. Dionysius von Alexandrien beschreibt in einem Osterbrief, wie Christen während der Seuche in Alexandrien die Kranken pflegten und selbst daran starben, während die Heiden ihre Angehörigen auf die Straße warfen (bei Eusebius, *Kirchengeschichte* VII,22).`,
+          voices: [
+            {
+              person: 'dionysius-alexandrien',
+              role: 'als Patriarch von Alexandrien während der Seuche',
+              text: `Dionysius, Papst von Alexandrien im 3. Jahrhundert, schildert, wie die Christen während einer verheerenden Seuche einander und auch Fremde pflegten, die Toten bestatteten und dabei oft selbst starben. Die Heiden dagegen hätten Erkrankte verstoßen und die Toten unbestattet liegen lassen. Für Dionysius war dieser Dienst nicht Strategie, sondern gelebtes Evangelium – und er wurde zu einem Grund, warum Menschen sich dem Glauben zuwandten.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Dionysius von Alexandrien (bei Eusebius)', work: 'Osterbrief, überliefert in Eusebius, Kirchengeschichte', ref: 'VII,22', year: 'um 260', quote: `Die meisten unserer Brüder schonten sich in überströmender Liebe nicht, pflegten die Kranken und starben mit ihnen; die Heiden dagegen stießen die Erkrankten von sich.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          followUps: [
+            {
+              id: 'stark-bestaetigt-soziologie',
+              objection: `Damit hast du die Meme-Theorie bestätigt: Das Christentum hat sich aus sozialen Gründen ausgebreitet – Netzwerke, Krankenpflege, Geburtenraten. Wahrheit spielt in Starks Erklärung keine Rolle.`,
+              objectionBy: 'Daniel Dennett',
+              answer: `Soziale Faktoren erklären die Ausbreitung *jeder* Idee, auch der Naturwissenschaft: Auch die Relativitätstheorie hat sich über Netzwerke, Lehrstühle und Zeitschriften verbreitet. Daraus folgt nichts über ihre Wahrheit. Entscheidend ist der Anfang: Das Christentum begann nicht mit einer eingängigen Idee, sondern mit der Behauptung von Augenzeugen, Jesus sei nach seiner Kreuzigung lebendig erschienen (1 Kor 15,3–8). Diese Behauptung kann man historisch prüfen – und das ist eine andere Art von Frage als die nach Verbreitungsmechanismen.`,
+              detail: `Paulus zitiert in 1 Kor 15,3–8 eine Glaubensformel, die nach Mehrheit der Forscher, auch skeptischer, wenige Jahre nach der Kreuzigung entstand, und verweist auf über fünfhundert Zeugen, „deren noch viele leben". Das ist eine Einladung zur Überprüfung, kein Mem-Mechanismus. Siehe den Themenblock „Die Auferstehung Jesu".`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '15,6', quote: `Danach ist er gesehen worden von mehr denn fünfhundert Brüdern auf einmal, deren noch viele leben, etliche aber sind entschlafen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'geruechte-sabbatai',
+                  objection: `Augenzeugenberichte verbreiten sich wie Gerüchte. Sabbatai Zwi im 17. Jahrhundert hatte Hunderttausende begeisterte Anhänger, die Wunder bezeugten. Gruppen glauben, was sie glauben wollen.`,
+                  objectionBy: 'Bart D. Ehrman / Alex O\'Connor',
+                  answer: `Sabbatai Zwi ist ein gutes Vergleichsbeispiel – und es spricht für das Christentum. Als Sabbatai 1666 unter Zwang zum Islam übertrat, brach die Bewegung weitgehend zusammen; nur ein kleiner Rest blieb. Genau das erwartet man bei einem gescheiterten Messias. Jesus scheiterte aus Sicht seiner Zeit noch drastischer: Er wurde gekreuzigt, ein Zeichen des Fluches (Dtn 21,23). Die Bewegung hätte enden müssen – stattdessen begann sie erst, mit Jüngern, die vorher geflohen waren und nun bereit waren, für ihr Zeugnis zu sterben. Das verlangt eine Erklärung, und Gerüchte allein liefern sie nicht.`,
+                  detail: `Der Historiker Gershom Scholem hat die Geschichte Sabbatai Zwis ausführlich erforscht (*Sabbatai Zwi. Der mystische Messias*, 1957/1973). Der Vergleich zeigt: Messiasbewegungen brachen in der Regel zusammen, wenn ihr Anführer starb oder scheiterte (vgl. auch Gamaliel in Apg 5,36–39 über Theudas und Judas den Galiläer). Das Christentum ist die auffällige Ausnahme. N. T. Wright argumentiert, dass nur die Überzeugung der Jünger, Jesus leibhaftig auferstanden gesehen zu haben, diese Ausnahme erklärt.`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Historiker des frühen Christentums',
+                      text: `Wright zeigt, dass im Judentum des ersten Jahrhunderts mehrere Messiasbewegungen mit dem Tod ihres Anführers endeten; niemand behauptete danach, der Hingerichtete sei auferstanden. Dass die Jünger Jesu genau das taten – und zwar in einer Form, die jüdische Erwartungen sprengte –, erklärt sich nach Wright historisch am besten durch das leere Grab und die Begegnungen mit dem Auferstandenen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', quote: `Messiasbewegungen endeten im ersten Jahrhundert mit dem Tod ihres Anführers; die Entstehung des Auferstehungsglaubens der Jünger erklärt sich am besten durch leeres Grab und Erscheinungen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '5,38–39', quote: `Ist der Rat oder das Werk aus den Menschen, so wird's untergehen; ist's aber aus Gott, so könnet ihr's nicht dämpfen …`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
             },
           ],
         },
