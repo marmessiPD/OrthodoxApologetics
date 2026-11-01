@@ -198,6 +198,93 @@ const claim: Claim = {
           objectionBy: 'verbreiteter Einwand',
           answer: `Gerüchte entstehen schnell – aber sie verdrängen nicht den historischen Kern, solange Zeugen leben und widersprechen können. Die Jerusalemer Gemeinde mit Petrus und Jakobus existierte bis in die 60er Jahre mitten unter Menschen, die die Ereignisse erlebt hatten. Und das älteste Bekenntnis (1 Kor 15,3–7) geht nach den meisten Forschern auf die ersten Jahre nach der Kreuzigung zurück.`,
           detail: `Siehe Claim „Die Auferstehung ist eine Legende, die sich über Jahrzehnte entwickelte" (Topic „Die Auferstehung Jesu").`,
+          followUps: [
+            {
+              id: 'kindheitsevangelien-legenden',
+              objection: `Die apokryphen Kindheitsevangelien zeigen doch, wie schnell fromme Legenden über Jesus entstanden. Warum sollten die kanonischen Evangelien davon frei sein?`,
+              objectionBy: 'Paul Williams (Blogging Theology)',
+              answer: `Der Vergleich zeigt gerade den Unterschied: Die Kindheitsevangelien aus dem 2. Jahrhundert und später sind voller fantastischer Wunder ohne Sinn, die kanonischen Evangelien dagegen nüchtern und in ihrer Zeit verankert. Und bedenke: Einige Erzählungen des Korans haben auffallende Parallelen genau in diesen späteren Texten – Jesus formt Vögel aus Ton und lässt sie fliegen (3:49; 5:110) wie im Kindheitsevangelium nach Thomas, und Jesus spricht in der Wiege (19:29–33) wie im arabischen Kindheitsevangelium. Wenn späte Legenden disqualifizieren, trifft das den Koran stärker als die Evangelien.`,
+              detail: `Das Kindheitsevangelium nach Thomas (wohl 2. Jh.) erzählt, wie der fünfjährige Jesus am Sabbat zwölf Spatzen aus Lehm formt und sie auf sein Wort davonfliegen. Das arabische Kindheitsevangelium (in seiner erhaltenen Form später, mit syrischen Vorstufen) beginnt mit einem Wort Jesu in der Wiege. Muslime deuten solche Parallelen oft so, dass der Koran wahre Ereignisse bestätigt, die in den Apokryphen bewahrt blieben. Dann muss man aber zugeben, dass diese Apokryphen neben Wahrem auch Legenden enthalten – und dass die kanonischen Evangelien gerade *nicht* zu dieser Gattung gehören.`,
+              voices: [
+                {
+                  person: 'gabriel-reynolds',
+                  role: 'als Islamwissenschaftler, der den Koran mit früheren Traditionen vergleicht',
+                  text: `Reynolds zeigt in seinem Kommentar, dass der Koran an vielen Stellen mit jüdischen und christlichen Überlieferungen im Gespräch steht, darunter auch mit apokryphen Erzählungen über Jesu Kindheit. Er wertet das nicht als Plagiat, sondern als Hinweis darauf, dass der Koran ein Publikum voraussetzt, das diese Geschichten kannte – und sie in eigener Deutung aufnimmt.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Gabriel Said Reynolds', work: 'The Qur\'an and the Bible: Text and Commentary', year: '2018', quote: `Der Koran nimmt Erzählungen auf, die aus jüdischen und christlichen, auch apokryphen Überlieferungen bekannt sind.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'koran', work: 'Sure 3 (Al \'Imran)', ref: '3:49', quote: `Ich erschaffe euch aus Lehm etwas, das wie ein Vogel aussieht, dann hauche ich hinein, und es wird mit Allahs Erlaubnis ein Vogel.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/3/49' },
+                { kind: 'sonstiges', work: 'Kindheitsevangelium nach Thomas', ref: '2', year: 'wohl 2. Jh.', quote: `Der fünfjährige Jesus formt am Sabbat zwölf Spatzen aus Lehm; auf sein Wort fliegen sie davon.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wenn Erzählungen aus den Kindheitsevangelien Legenden sind – wie beurteilst du dann die Vogel-Erzählung in 3:49?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nicht-herabgesandt-dritte-person',
+      objection: `Ein Gotteswort muss von Gott herabgesandt sein – in Gottes eigener Rede, wie der Koran. Die Evangelien reden in der dritten Person *über* Jesus und Gott. Schon die Form zeigt: Das ist Menschenwort.`,
+      objectionBy: 'Ali Ataie',
+      answer: `Das ist die islamische Definition von Offenbarung – und selbst der Koran erfüllt sie nicht durchgehend: Sure 1 ist ein Gebet von Menschen an Gott, und Sure 112 sagt: „Sprich: *Er* ist Allah, ein Einziger" – Gott in der dritten Person. Im christlichen Verständnis ist die höchste Offenbarung kein Diktat, sondern eine Person: „Nachdem vorzeiten Gott manchmal und mancherleiweise geredet hat … hat er am letzten in diesen Tagen zu uns geredet durch den Sohn" (Hebr 1,1–2). Die Evangelien bezeugen diesen Sohn – darum erzählen sie von ihm.`,
+      detail: `Johannes sagt ausdrücklich, wozu sein Evangelium geschrieben ist: „dass ihr glaubet, Jesus sei Christus, der Sohn Gottes, und dass ihr durch den Glauben das Leben habet in seinem Namen" (Joh 20,31). Die Form des Berichts entspricht dem Inhalt: Wenn Gott in einem Menschen gehandelt hat, ist der treue Bericht über diesen Menschen die angemessene Form der Offenbarung. Die koptische Kirche ehrt das Evangelium in der Liturgie mit Kerzen, Weihrauch und dem Ruf „Steht auf in Gottesfurcht und hört das heilige Evangelium" – weil in ihm Christus selbst spricht.`,
+      sources: [
+        { kind: 'bibel', work: 'Hebräer', ref: '1,1–2', quote: `Nachdem vorzeiten Gott manchmal und mancherleiweise geredet hat zu den Vätern durch die Propheten, hat er am letzten in diesen Tagen zu uns geredet durch den Sohn.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'koran', work: 'Sure 112 (al-Ikhlas)', ref: '112:1', quote: `Sag: Er ist Allah, ein Einziger.`, original: `qul huwa llāhu aḥad`, translation: 'Bubenheim/Elyas', status: 'verbatim', url: 'https://quran.com/112/1' },
+      ],
+      questionsBack: [
+        `Ist Sure 1 – „Dich allein beten wir an" – Gottes Rede in der ersten Person oder ein Gebet von Menschen?`,
+      ],
+      followUps: [
+        {
+          id: 'warum-vier-versionen',
+          objection: `Wenn Gott sich offenbart – warum braucht er dann vier verschiedene Versionen? Ein Gott, eine Botschaft, ein Buch!`,
+          objectionBy: 'Ahmed Deedat',
+          answer: `Vier Zeugen sind stärker als einer: Schon die Tora verlangt für eine Sache „zwei oder drei Zeugen" (Dtn 19,15). Die Evangelien sind vier Zeugnisse desselben Evangeliums aus verschiedenen Blickwinkeln – darum sprach Irenäus vom „viergestaltigen Evangelium". Und der Koran erzählt die Geschichte Moses ebenfalls mehrfach, mit unterschiedlichen Details (etwa in den Suren 7, 20, 26 und 28). Muslime sehen darin Reichtum, nicht Widerspruch. Dasselbe gilt für die Evangelien.`,
+          detail: `Gerade die Unterschiede zwischen den Evangelien sprechen gegen eine Absprache oder Fälschung: Eine Kirche, die ein einheitliches Bild erzwingen wollte, hätte die vier Berichte zu einem verschmolzen. Genau das tat Tatian mit dem Diatessaron (um 170) – doch die Kirche hielt an den vier eigenständigen Evangelien fest. Sie nahm lieber Spannungen in Kauf, als die Zeugen zu glätten.`,
+          sources: [
+            { kind: 'bibel', work: '5. Mose (Deuteronomium)', ref: '19,15', quote: `In dem Munde zweier oder dreier Zeugen soll die Sache bestehen.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'III,11,8', year: 'um 180', quote: `Das Wort hat uns das Evangelium viergestaltig gegeben, zusammengehalten von einem Geist.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nt-nennt-sich-nicht-schrift',
+      objection: `2 Timotheus 3,16 („Alle Schrift, von Gott eingegeben") bezieht sich nur auf das Alte Testament. Das Neue Testament behauptet nirgends, selbst Heilige Schrift zu sein. Erst die Kirche hat es später dazu gemacht.`,
+      objectionBy: 'Shabir Ally',
+      answer: `Das Neue Testament zeigt den Übergang schon selbst: 2 Petr 3,16 stellt die Briefe des Paulus neben „die anderen Schriften", und 1 Tim 5,18 zitiert unter der Einleitung „die Schrift sagt" zuerst Dtn 25,4 und dann ein Jesuswort, das in Lk 10,7 steht. Jesus versprach den Aposteln den Geist, der sie „an alles erinnern" wird, was er gesagt hat (Joh 14,26). Die Kirche hat die Schriften nicht zu Schrift *gemacht*, sondern erkannt, was sie von Anfang an waren.`,
+      detail: `Schon die Apostolischen Väter (Klemens von Rom, Ignatius, Polykarp) zitieren die Evangelien und Paulusbriefe mit Autorität; um 150 beschreibt Justin, dass im sonntäglichen Gottesdienst die „Erinnerungen der Apostel" neben den Propheten gelesen werden (1 Apol 67). Das alles liegt Jahrhunderte vor Mohammed.`,
+      sources: [
+        { kind: 'bibel', work: '2. Petrus', ref: '3,15–16', quote: `… wie auch unser lieber Bruder Paulus nach der Weisheit, die ihm gegeben ist, euch geschrieben hat … welche verdrehen die Ungelehrigen und Leichtfertigen, wie auch die andern Schriften, zu ihrer eigenen Verdammnis.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: '1. Timotheus', ref: '5,18', quote: `Denn es spricht die Schrift: „Du sollst dem Ochsen nicht das Maul verbinden, der da drischt", und: „Ein Arbeiter ist seines Lohnes wert."`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: '1. Apologie', ref: '67', year: 'um 155', quote: `Am Sonntag werden die Erinnerungen der Apostel oder die Schriften der Propheten vorgelesen, solange es die Zeit erlaubt.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn schon 1 Tim 5,18 ein Wort aus dem Lukasevangelium „Schrift" nennt – wann genau soll die Kirche das NT „später" zur Schrift gemacht haben?`,
+      ],
+      followUps: [
+        {
+          id: 'pastoralbriefe-pseudonym',
+          objection: `2 Petrus und 1 Timotheus gelten bei den meisten kritischen Forschern als pseudonym, also nicht von Petrus und Paulus. Damit fallen deine Belege weg.`,
+          objectionBy: 'Paul Williams (Blogging Theology), nach Bart Ehrman',
+          answer: `Die Verfasserschaft wird diskutiert, und es gibt ernsthafte Forscher auf beiden Seiten. Aber selbst bei der spätesten kritischen Datierung stammen diese Briefe aus dem frühen 2. Jahrhundert – und zeigen dann, dass Christen *spätestens* zu dieser Zeit apostolische Schriften als Heilige Schrift behandelten. Das ist rund 500 Jahre vor dem Koran. Für die Frage, welches Buch die Christen zur Zeit Mohammeds als Injil hatten, ändert die Verfasserfrage nichts.`,
+          detail: `Michael Kruger hat gezeigt, dass das Bewusstsein, eigene autoritative Schriften zu besitzen, im frühen Christentum nicht erst durch kirchliche Beschlüsse entstand, sondern von Anfang an mit der Autorität der Apostel verbunden war. Die Kanonlisten des 4. Jahrhunderts – am klarsten der 39. Osterfestbrief des hl. Athanasius (367) – bestätigen einen längst gelebten Gebrauch.`,
+          voices: [
+            {
+              person: 'michael-kruger',
+              role: 'als Kanonforscher',
+              text: `Kruger argumentiert, dass der neutestamentliche Kanon kein spätes Produkt kirchlicher Machtpolitik ist. Die Schriften trugen von Anfang an die Autorität der Apostel in sich und wurden in den Gemeinden entsprechend gelesen; die späteren Listen erkannten an, was sich längst durchgesetzt hatte.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Michael J. Kruger', work: 'Canon Revisited: Establishing the Origins and Authority of the New Testament Books', year: '2012', quote: `Der Kanon entstand nicht durch spätere Beschlüsse, sondern aus der von Anfang an anerkannten apostolischen Autorität der Schriften.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

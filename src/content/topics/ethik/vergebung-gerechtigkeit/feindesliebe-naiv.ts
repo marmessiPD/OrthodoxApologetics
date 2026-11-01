@@ -71,7 +71,7 @@ const claim: Claim = {
     {
       person: 'everett-worthington',
       role: 'als Vergebungsforscher',
-      text: `Der Psychologe Everett Worthington hat die Vergebung jahrzehntelang empirisch erforscht und ein Modell entwickelt, das in vielen Studien geprüft wurde. Vergebung im Sinne eines inneren Loslassens von Rachewünschen ist mit geringerer Depressivität, weniger Angst und besserer körperlicher Gesundheit verbunden – Vergebung ist dabei nicht Verdrängung oder Vergessen. Worthington erlebte selbst, wie seine Mutter ermordet wurde, und rang darum, diesem Täter zu vergeben.`,
+      text: `Der Psychologe Everett Worthington hat die Vergebung jahrzehntelang empirisch erforscht und ein Modell entwickelt, das in vielen Studien geprüft wurde. Vergebung im Sinne eines inneren Loslassens von Rachewünschen ist mit geringerer Depressivität, weniger Angst und besserer körperlicher Gesundheit verbunden – Vergebung ist dabei nicht Verdrängung oder Vergessen. Worthingtons eigene Mutter wurde bei einem Einbruch ermordet; er hat beschrieben, wie er selbst darum rang, dem Täter zu vergeben.`,
       sources: [{ kind: 'wissenschaft', author: 'Everett L. Worthington Jr.', work: 'Forgiving and Reconciling: Bridges to Wholeness and Hope', year: '2003', status: 'paraphrase' }],
     },
   ],

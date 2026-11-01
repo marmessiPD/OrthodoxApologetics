@@ -119,6 +119,14 @@ const claim: Claim = {
           objection: `Kein römischer Präfekt hätte dreimal die Unschuld eines Angeklagten erklärt und ihn dann doch hingerichtet. Das ist theologische Konstruktion.`,
           objectionBy: 'John Dominic Crossan',
           answer: `Die Unschulderklärungen sind theologisch bedeutsam, ja – Lukas will zeigen, dass Jesus kein Aufrührer war. Aber dass ein Statthalter einen Mann opfert, den er für ungefährlich hält, um Unruhe und eine Beschwerde zu vermeiden, ist politisch alltäglich. Für Pilatus war ein galiläischer Wanderprediger wenig wert, der Friede zum Passafest und seine Karriere dagegen viel.`,
+          followUps: [
+            {
+              id: 'markus-schmeichelt-rom',
+              objection: `Markus schrieb nach Neros Verfolgung in Rom. Er musste die Römer schonen, wenn die Christen überleben wollten.`,
+              objectionBy: 'S. G. F. Brandon',
+              answer: `Dann wäre Markus ein schlechter Schmeichler: Bei ihm geißeln, verspotten und kreuzigen römische Soldaten Jesus, und die Kreuzigung selbst war die römische Strafe für Aufruhr – das ließ sich nicht verbergen. Ausgerechnet ein römischer Hauptmann spricht das Bekenntnis „Wahrlich, dieser Mensch ist Gottes Sohn gewesen" (Mk 15,39). Und die Christen wurden von Rom ohnehin weiter verfolgt; eine Schonung des Pilatus hätte ihnen nichts eingebracht.`,
+            },
+          ],
         },
       ],
     },

@@ -240,6 +240,21 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'ez-18-umkehr-ohne-opfer',
+      objection: `Eure eigene Bibel lehrt Vergebung ohne Opfer: „Wenn sich der Gottlose bekehrt von allen seinen Sünden … so soll er leben und nicht sterben; es soll aller seiner Übertretungen nicht gedacht werden" (Ez 18,21–22). Kein Blut, kein Kreuz – nur Umkehr. Das ist die Botschaft aller Propheten und des Islam.`,
+      objectionBy: 'Jamal Badawi',
+      answer: `Hesekiel spricht zu Israel innerhalb des Bundes, zu dem der Opferdienst und der Große Versöhnungstag gehörten (Lev 16). Umkehr ist die Bedingung, von der Hesekiel spricht – das Mittel der Versöhnung hat Gott selbst im Bund gestiftet. Darum sieht derselbe Hesekiel im neuen Tempel wieder Sündopfer „zur Versöhnung für das Haus Israel" (Ez 45,17). Und er verheißt, dass Gott selbst ein neues Herz und einen neuen Geist geben wird (Ez 36,26) – Umkehr allein schafft das nicht.`,
+      detail: `Die Propheten kritisieren Opfer ohne Umkehr (Jes 1,11–17; Am 5,21–24), nie die von Gott gestiftete Versöhnung an sich. Das Neue Testament liest das ganze Opfersystem als Hinweis auf Christus (Hebr 9–10): Was die Tieropfer andeuteten, erfüllt sich im Opfer des Sohnes. Umkehr und Versöhnung gehören also zusammen wie Hand und Gabe: Die Umkehr ist die ausgestreckte Hand, die Versöhnung ist das Geschenk, das Gott hineinlegt. Für das Gespräch hilfreich ist auch Hesekiels Verheißung des neuen Herzens: Der Islam traut dem Menschen zu, sich aus eigener Kraft zu bessern; Hesekiel sagt, dass Gott selbst das steinerne Herz herausnehmen muss – das geschieht durch den Geist, den der gekreuzigte und auferstandene Christus sendet.`,
+      sources: [
+        { kind: 'bibel', work: 'Hesekiel', ref: '18,21–22', quote: `Wo sich aber der Gottlose bekehrt von allen seinen Sünden, die er getan hat, und hält alle meine Rechte und tut recht und wohl, so soll er leben und nicht sterben. Es soll aller seiner Übertretungen, so er begangen hat, nicht gedacht werden.`, translation: 'nach Luther 1912', status: 'paraphrase', note: 'Wortlaut an Luther 1912 angelehnt, nicht wörtlich geprüft.' },
+        { kind: 'bibel', work: 'Hesekiel', ref: '36,26', quote: `Und ich will euch ein neues Herz und einen neuen Geist in euch geben und will das steinerne Herz aus eurem Fleisch wegnehmen und euch ein fleischernes Herz geben.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Kannte das Israel Hesekiels Vergebung ohne den Versöhnungstag und die Opfer des Bundes?`,
+        `Wer gibt nach Ez 36,26 das neue Herz – der Mensch durch seine Umkehr oder Gott selbst?`,
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn ein Richter einen Mörder ohne jede Konsequenz freilässt – nennst du das Barmherzigkeit oder Ungerechtigkeit?`,

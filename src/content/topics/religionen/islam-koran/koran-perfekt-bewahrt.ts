@@ -150,7 +150,7 @@ const claim: Claim = {
           answer: `Ibn Mas'ud war nicht irgendwer: Nach Bukhari 4999 empfahl der Prophet, den Koran von vier Männern zu lernen – Ibn Mas'ud wird als Erster genannt, Ubayy ibn Ka'b als Vierter. Wenn einer dieser vier sich im Umfang des Korans vom späteren Standard unterschied, dann gab es unter den besten Kennern keine vollständige Einigkeit. Und nach späteren Berichten weigerte sich Ibn Mas'ud, sein Exemplar zur Verbrennung herauszugeben.`,
           sources: [
             { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4999', quote: `Lernt den Koran von vier: von Abdallah ibn Mas'ud, Salim, Mu'adh und Ubayy ibn Ka'b.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4999' },
-            { kind: 'hadith', work: 'Jami\' at-Tirmidhi', ref: '3104', quote: `Bericht über Ibn Mas'uds Unmut, dass Zaid ibn Thabit mit der Abschrift betraut wurde, und seine Aufforderung, die eigenen Exemplare zu behalten.`, status: 'unverified', note: 'Nummer nach verbreiteter Zählung; Wortlaut vor Verwendung prüfen.' },
+            { kind: 'hadith', work: 'Jami\' at-Tirmidhi', ref: '3104', quote: `Bericht über Ibn Mas'uds Unmut, dass Zaid ibn Thabit mit der Abschrift betraut wurde, und seine Aufforderung, die eigenen Exemplare zu behalten.`, status: 'paraphrase', url: 'https://sunnah.com/tirmidhi:3104', note: 'Nummer bestätigt (Kapitel Tafsir); Ibn Mas\'ud klagt, er werde von der Abschrift ausgeschlossen, während Zaid damals noch „in den Lenden eines Ungläubigen" gewesen sei; az-Zuhri fügt hinzu, angesehene Gefährten hätten seine Haltung missbilligt. Darussalam: sahih.' },
           ],
           followUps: [
             {

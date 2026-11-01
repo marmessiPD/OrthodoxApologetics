@@ -225,6 +225,39 @@ const claim: Claim = {
           objection: `Aber die moderne Bibelwissenschaft ist sich doch einig.`,
           objectionBy: 'Joel Baden',
           answer: `Nicht mehr: Seit den 1970er-Jahren haben Forscher wie Rolf Rendtorff, Erhard Blum und Konrad Schmid das klassische Modell grundlegend in Frage gestellt; ob es einen durchgehenden Jahwisten gab, ist offen. Und selbst mehrere Quellen bedeuten nicht automatisch Widerspruch. Siehe auch den Claim zur Urkundenhypothese.`,
+          followUps: [
+            {
+              id: 'priesterschrift-bleibt',
+              objection: `Der Jahwist ist umstritten, zugegeben. Aber dass Genesis 1 zur Priesterschrift gehört, ist in fast allen Modellen Konsens – in Europa wie in Amerika. Zwei verschiedene Hände bleiben also.`,
+              objectionBy: 'Joel Baden',
+              answer: `Das stimmt: Die Zuordnung von Genesis 1 zu einer priesterlichen Tradition ist der stabilste Teil der Quellenkritik, das gestehe ich zu. Aber auch dann bleibt die entscheidende Frage: Warum stellte jemand, der beide Texte kannte, sie direkt hintereinander – mit einer Überschrift (Gen 2,4), die den zweiten ausdrücklich als Fortsetzung des ersten markiert? Wer mit Quellen rechnet, muss den Redaktor ernst nehmen, und der sah keinen Widerspruch.`,
+              detail: `**Konzession:** Ob man Genesis 1 einer Priesterschrift zuschreibt oder nicht – für die Frage des Widerspruchs ist das zweitrangig. Auch ein Text aus zwei Händen kann ein kohärentes Ganzes bilden, wenn er bewusst komponiert wurde.
+
+**Die Toledot-Formel:** „Dies sind die Toledot …" gliedert die Genesis in rund zehn Abschnitte. Sie leitet jeweils über zu dem, was aus dem Genannten hervorging. Wer Gen 2,4 an dieser Stelle setzte, wollte offensichtlich, dass Gen 2 als „was aus Himmel und Erde wurde" gelesen wird – also als Fortsetzung, nicht als Konkurrenz.
+
+**Jüdische Leser:** Die rabbinische Tradition hat Genesis 1 und 2 stets als Einheit gelesen und die Unterschiede als bedeutsame Nuancen ausgelegt – lange vor jeder christlichen Apologetik.`,
+              sources: [{ kind: 'gegner', author: 'Joel S. Baden', work: 'The Composition of the Pentateuch: Renewing the Documentary Hypothesis', year: '2012', quote: `Baden verteidigt ein erneuertes Quellenmodell mit unabhängigen, durchgehenden Erzählfäden und einem Kompilator, der sie möglichst vollständig bewahren wollte.`, status: 'paraphrase' }],
+              questionsBack: [`Warum hätte ein Kompilator, der möglichst alles bewahren wollte, zwei Texte direkt hintereinandergestellt, wenn er sie für unvereinbar hielt?`],
+              followUps: [
+                {
+                  id: 'zwei-menschenbilder',
+                  objection: `Es geht nicht nur um Reihenfolgen. Die beiden Kapitel haben verschiedene Menschenbilder: In Genesis 1 ist der Mensch Gottes Ebenbild und Herrscher – königliche Ideologie. In Genesis 2 ist er ein aus Staub geformter Gärtner, der den Boden bearbeitet. Das sind zwei Theologien.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Zwei Akzente, ja – zwei unvereinbare Theologien, nein. Der Mensch ist beides: von königlicher Würde als Bild Gottes und demütig aus Staub, abhängig von Gottes Odem. Gerade diese Spannung macht das biblische Menschenbild so tief – Ps 8 vereint beides: „Was ist der Mensch, dass du seiner gedenkst? … mit Ehre und Schmuck hast du ihn gekrönt." Die koptische Liturgie betet bis heute mit beiden Kapiteln zugleich.`,
+                  detail: `**Würde und Demut:** Genesis 1 betont die Stellung des Menschen in der Schöpfung (Bild Gottes, Auftrag zur Herrschaft); Genesis 2 betont seine Herkunft und Abhängigkeit (Staub, Odem Gottes, Garten als Gabe). Ein Text ohne den anderen wäre einseitig: Würde ohne Demut führt zu Hochmut, Demut ohne Würde zur Verachtung des Menschen.
+
+**Die Väter:** Gregor von Nyssa und die alexandrinische Tradition beschreiben den Menschen als „Grenzwesen" zwischen geistiger und materieller Welt – genau die Verbindung, die Gen 1 und 2 gemeinsam ausdrücken.
+
+**Die Liturgie:** In der Anaphora des heiligen Gregorius, die in der koptischen Kirche gefeiert wird, wendet sich der Priester an Christus und dankt ihm, dass er den Menschen geschaffen, ihm das Paradies der Wonne geschenkt und ihn mit seinem Bild geehrt hat. Hier fließen beide Kapitel ganz selbstverständlich zusammen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Psalmen', ref: '8,5–6', quote: `Was ist der Mensch, daß du seiner gedenkst, und des Menschen Kind, daß du dich seiner annimmst? Du hast ihn wenig niedriger gemacht denn Gott, und mit Ehre und Schmuck hast du ihn gekrönt.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'liturgie', work: 'Anaphora des heiligen Gregorius (koptische Liturgie)', quote: `Dank an Christus, der den Menschen erschaffen, ihn in das Paradies der Wonne gesetzt und ihm die Erkenntnis seiner Gottheit geschenkt hat.`, status: 'paraphrase', note: 'Sinngemäße Wiedergabe des Schöpfungsteils der Gregorius-Anaphora; Wortlaut je nach Übersetzung verschieden.' },
+                  ],
+                  questionsBack: [`Schließen sich königliche Würde und Herkunft aus dem Staub aus – oder beschreiben sie gemeinsam, was ein Mensch ist?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -238,6 +271,24 @@ const claim: Claim = {
           id: 'jesus-beweist-nichts',
           objection: `Dass Jesus beide zitiert, beweist nicht, dass sie zusammenpassen.`,
           answer: `Es zeigt zumindest, dass die frühesten und kundigsten Leser keinen Widerspruch sahen – sie lasen beide Kapitel als eine Schrift mit einer Lehre über Mann und Frau. Die Beweislast liegt bei dem, der einen echten Widerspruch behauptet: dass beide Texte dasselbe im selben Sinn verneinen und bejahen.`,
+          followUps: [
+            {
+              id: 'jesus-mensch-seiner-zeit',
+              objection: `Jesus war ein Jude des ersten Jahrhunderts und argumentierte innerhalb der Annahmen seiner Zeit. Dass er Genesis zitiert, sagt nichts über die Entstehung oder Einheit der Texte – er benutzt sie einfach für seine Ehelehre.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Mein Punkt ist bescheidener, als du denkst: Jesus liest Gen 1,27 und Gen 2,24 als *eine* Lehre über die Ehe – also als theologische Einheit, nicht als widerstreitende Quellen. Über Verfasserfragen hat er sich nicht geäußert. Ob man seine Auslegung als bloße Zeitgebundenheit abtun darf, hängt allerdings davon ab, wer Jesus ist. Für die Kirche ist er der menschgewordene Logos, durch den die Welt geschaffen wurde – und das ist eine eigene Debatte, die wir gern führen können.`,
+              detail: `**Zwei Ebenen trennen:**
+1. **Historisch-literarisch:** Schon im ersten Jahrhundert wurden Genesis 1 und 2 als zusammengehörige Schrift gelesen – das belegt Jesu Argument unabhängig davon, wie man seine Person beurteilt.
+2. **Christologisch:** Die Frage, ob Jesus sich in seinem Schriftgebrauch einfach den Annahmen seiner Zeit „anpasste", hängt am Verständnis seiner Person. Die koptische Kirche bekennt mit dem hl. Kyrill, dass der Logos selbst Mensch wurde – ohne Vermischung und ohne Trennung. Der, der Genesis auslegt, ist nach christlichem Glauben der, von dem Genesis spricht (Joh 1,1–3).
+
+**Für das Gespräch:** Bleib zunächst auf Ebene 1. Wenn dein Gegenüber auf Ebene 2 wechselt, sag offen: „Jetzt sprechen wir über die Gottheit Christi – gern, aber das ist eine andere Frage als die nach Genesis 1 und 2."`,
+              sources: [
+                mt194,
+                { kind: 'bibel', work: 'Johannes', ref: '1,3', quote: `Alle Dinge sind durch dasselbe gemacht, und ohne dasselbe ist nichts gemacht, was gemacht ist.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Unabhängig davon, wer Jesus war: Lasen Juden des ersten Jahrhunderts Genesis 1 und 2 als widersprüchliche Quellen oder als eine Schrift?`],
+            },
+          ],
         },
       ],
     },

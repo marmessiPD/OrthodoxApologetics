@@ -33,7 +33,7 @@ const claim: Claim = {
     sources: [
       { kind: 'gegner', author: 'Alex Rosenberg', work: 'The Atheist\'s Guide to Reality', year: '2011', ref: 'Kap. 1', status: 'paraphrase', quote: 'Szientismus ist die Überzeugung, dass die Methoden der Wissenschaft die einzig verlässlichen Wege zu Wissen über irgendetwas sind.' },
       { kind: 'gegner', author: 'Stephen Hawking & Leonard Mlodinow', work: 'The Grand Design', year: '2010', ref: 'Kap. 1', quote: `Traditionally these are questions for philosophy, but philosophy is dead. Philosophy has not kept up with modern developments in science, particularly physics.`, status: 'verbatim' },
-      { kind: 'fachliteratur', author: 'A. J. Ayer', work: 'Gespräch mit Bryan Magee über den logischen Positivismus (BBC-Reihe „Men of Ideas"; Buchfassung 1978/79)', status: 'paraphrase', quote: 'Auf die Frage nach den Hauptmängeln des logischen Positivismus antwortete Ayer sinngemäß, der wichtigste Mangel sei gewesen, dass fast alles daran falsch war.', note: 'Vielfach zitiert; die genaue Fundstelle (Folge/Buchseite) und der Wortlaut sollten vor wörtlicher Verwendung geprüft werden.' },
+      { kind: 'fachliteratur', author: 'A. J. Ayer', work: 'Gespräch mit Bryan Magee über den logischen Positivismus, in: Bryan Magee, Men of Ideas (BBC-Fernsehreihe und Buch, London)', year: '1978', ref: 'S. 131', status: 'paraphrase', quote: 'Auf die Frage nach den Hauptmängeln des logischen Positivismus antwortete Ayer, der wichtigste Mangel sei wohl gewesen, dass „fast alles daran falsch" war.', original: '„… nearly all of it was false."', note: 'Quellenprüfung Nov. 2026: Fundstelle (Magee, Men of Ideas, 1978, S. 131) und die Kernwendung „nearly all of it was false" sind in der Fachliteratur belegt (u. a. Royal Institute of Philosophy Supplement zu Ayers Language, Truth and Logic, Cambridge University Press). Den vollständigen Satz nicht als wörtlich ausgeben; Ayer fügte hinzu, er halte am allgemeinen Ansatz weiterhin fest.' },
       { kind: 'fachliteratur', author: 'Peter B. Medawar', work: 'The Limits of Science', year: '1984', status: 'paraphrase', quote: 'Es gibt Fragen – nach dem Ursprung, dem Sinn und dem Ziel aller Dinge –, die die Wissenschaft nicht beantworten kann.', note: 'Medawar war Nobelpreisträger (1960) und kein Christ.' },
     ],
   },
@@ -165,7 +165,7 @@ const claim: Claim = {
       objection: `„Der logische Positivismus hat gezeigt: Metaphysische und religiöse Aussagen sind sinnlos, weil sie nicht empirisch verifizierbar sind."`,
       objectionBy: 'A. J. Ayer (Language, Truth and Logic, 1936)',
       targetsPremise: 1,
-      answer: `Das Verifikationsprinzip – nur empirisch verifizierbare Sätze sind sinnvoll – ist selbst nicht empirisch verifizierbar und damit nach seinem eigenen Maßstab sinnlos. Daran ist der logische Positivismus gescheitert; heute vertritt ihn kaum ein Philosoph. Ayer selbst soll später auf die Frage nach den Mängeln der Bewegung gesagt haben, das Hauptproblem sei gewesen, dass fast alles daran falsch war.`,
+      answer: `Das Verifikationsprinzip – nur empirisch verifizierbare Sätze sind sinnvoll – ist selbst nicht empirisch verifizierbar und damit nach seinem eigenen Maßstab sinnlos. Daran ist der logische Positivismus gescheitert; heute vertritt ihn kaum ein Philosoph. Ayer selbst sagte 1978 im Gespräch mit Bryan Magee auf die Frage nach den Mängeln der Bewegung, der wichtigste sei wohl gewesen, dass „fast alles daran falsch" war.`,
       followUps: [
         {
           id: 'popper-falsifizierbarkeit',
@@ -185,7 +185,7 @@ const claim: Claim = {
   avoid: [
     `Die Wissenschaft abwerten („Wissenschaftler irren sich ständig"). Christen sollten Wissenschaft lieben (Ps 111,2).`,
     `„Die Wissenschaft ist auch nur ein Glaube." – Das verwischt wichtige Unterschiede und klingt relativistisch.`,
-    `Das Ayer-Zitat als exakt wörtlich mit genauer Fundstelle ausgeben, solange sie nicht geprüft ist.`,
+    `Das Ayer-Zitat über die belegte Kernwendung („nearly all of it was false", Magee, Men of Ideas, 1978, S. 131) hinaus als wörtlich ausgeben – und verschweigen, dass Ayer am allgemeinen empiristischen Ansatz festhielt.`,
   ],
   concessions: [
     `Die Naturwissenschaft ist die zuverlässigste Methode zur Erkenntnis messbarer Naturvorgänge; ihre Erfolge sind gewaltig.`,
