@@ -175,6 +175,75 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'atkins-warum-fragen',
+      objection: `„Es gibt keinen Grund anzunehmen, dass die Wissenschaft nicht jeden Aspekt der Existenz erfassen kann. Fragen wie ‚Warum sind wir hier?' oder ‚Wozu gibt es das Universum?' sind keine tiefen Fragen, sondern Scheinfragen. Was die Wissenschaft nicht beantworten kann, ist schlicht keine sinnvolle Frage."`,
+      objectionBy: 'Peter Atkins („The Limitless Power of Science", 1995)',
+      answer: `Dass Fragen nach Sinn und Zweck *sinnlos* seien, ist keine wissenschaftliche Entdeckung, sondern eine philosophische Festlegung – und eine, nach der kein Mensch lebt, auch kein Wissenschaftler. Außerdem beruht die Wissenschaft selbst auf Annahmen, die sie nicht beweisen kann: dass Logik und Mathematik gelten, dass die Natur gleichförmig ist, dass es eine Außenwelt und andere Personen gibt und dass Forscher ehrlich berichten *sollen*. Diese Liste hielt William Lane Craig Atkins 1998 in einer Debatte entgegen.`,
+      detail: `Atkins formulierte in seinem Essay „The Limitless Power of Science" (in: John Cornwell, Hg., *Nature's Imagination*, 1995) die starke These, die Wissenschaft könne alle Aspekte der Existenz erfassen. In der Debatte mit Craig (Atlanta 1998, Moderation: William F. Buckley Jr.) nannte Craig Wahrheiten, die die Wissenschaft voraussetzt, aber nicht begründen kann: logische und mathematische Wahrheiten, metaphysische Wahrheiten (etwa, dass die Vergangenheit real ist), ethische und ästhetische Urteile – und schließlich die Wissenschaft selbst, die auf nicht beweisbaren Voraussetzungen ruht.`,
+      sources: [
+        { kind: 'gegner', author: 'Peter W. Atkins', work: '„The Limitless Power of Science", in: John Cornwell (Hg.), Nature\'s Imagination: The Frontiers of Scientific Vision', year: '1995', status: 'paraphrase', quote: 'Es gebe keinen Grund anzunehmen, dass die Wissenschaft nicht jeden Aspekt der Existenz behandeln könne.' },
+        { kind: 'fachliteratur', author: 'William Lane Craig & Peter W. Atkins', work: 'Debatte „What Is the Evidence for/against the Existence of God?", Atlanta (Moderation: William F. Buckley Jr.)', year: '1998', status: 'paraphrase' },
+      ],
+      questionsBack: [`Mit welchem Experiment hast du festgestellt, dass Fragen nach dem Sinn sinnlos sind?`],
+      followUps: [
+        {
+          id: 'voraussetzungen-durch-erfolg',
+          objection: `„Diese Voraussetzungen sind kein Glaube. Sie haben sich durch den Erfolg der Wissenschaft bewährt: Die Natur hat sich bisher gleichförmig verhalten, also wird sie es auch weiter tun."`,
+          objectionBy: 'Peter Atkins',
+          answer: `„Bisher gleichförmig, also auch künftig" ist genau der Induktionsschluss, der begründet werden soll. Wer die Gleichförmigkeit der Natur mit ihrer bisherigen Gleichförmigkeit begründet, argumentiert im Kreis – das hat schon David Hume gezeigt. Das heißt nicht, dass die Annahme falsch ist; es heißt, dass sie ein Vertrauen ist, das die Wissenschaft mitbringt, nicht eines, das sie erzeugt. Der Glaube an einen vernünftigen, treuen Schöpfer gibt diesem Vertrauen einen Grund: „Solange die Erde steht, soll nicht aufhören Same und Ernte" (Gen 8,22).`,
+          detail: `Wissenschaftshistoriker wie Peter Harrison haben gezeigt, wie eng die Entstehung der neuzeitlichen Naturwissenschaft mit theologischen Überzeugungen verbunden war: Eine von einem freien Gott geschaffene Welt ist nicht notwendig so, wie wir sie uns denken – darum muss man *hinschauen* und experimentieren, statt sie aus Prinzipien abzuleiten. Und weil der Schöpfer vernünftig und treu ist, darf man Ordnung erwarten.`,
+          voices: [
+            {
+              person: 'peter-harrison',
+              role: 'als Wissenschaftshistoriker',
+              text: `Harrison untersucht, wie sich die Begriffe „Wissenschaft" und „Religion" historisch entwickelt haben. Er zeigt, dass Pioniere der experimentellen Methode ihre Arbeit theologisch begründeten: Die Kontingenz der Schöpfung verlangte Beobachtung, und die gefallene Natur des Menschen verlangte Methoden, die die Irrtümer des Einzelnen korrigieren.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Fall of Man and the Foundations of Science', year: '2007', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Territories of Science and Religion', year: '2015', status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'David Hume', work: 'An Enquiry Concerning Human Understanding', year: '1748', ref: 'Abschnitt IV', status: 'paraphrase', quote: 'Schlüsse aus Erfahrung setzen voraus, dass die Zukunft der Vergangenheit gleicht; dies lässt sich nicht durch Erfahrung beweisen, ohne im Kreis zu gehen.' },
+          ],
+          followUps: [
+            {
+              id: 'wissenschaft-auch-ohne-christentum',
+              objection: `„Die historische Herkunft ist egal. Wissenschaft gab es auch bei den Griechen, in China und in der islamischen Welt. Man braucht kein Christentum, um zu forschen."`,
+              objectionBy: 'Jerry Coyne / Alex Rosenberg',
+              answer: `Einverstanden – und man sollte das fair sagen: Griechen, Chinesen und Gelehrte der islamischen Welt haben Großes geleistet, und auch Atheisten forschen hervorragend. Die Frage ist nicht, wer forschen *kann*, sondern welches Weltbild die Voraussetzungen der Forschung *erklärt*. Dass ein Atheist der Gleichförmigkeit der Natur und seiner Vernunft vertraut, ist richtig – aber sein Weltbild gibt dafür keinen Grund an. Der Theist hat einen.`,
+              detail: `Hier sollte man nicht übertreiben: Die These, die Wissenschaft sei „nur im Christentum" möglich gewesen, ist historisch zu stark. Haltbar ist: Der Glaube an einen rationalen, freien Schöpfer hat die neuzeitliche Naturwissenschaft entscheidend motiviert (Kepler, Boyle, Newton, Faraday, Maxwell), und er erklärt bis heute, warum die Welt verständlich und unsere Vernunft auf sie abgestimmt ist.`,
+              followUps: [
+                {
+                  id: 'theologie-kein-wissen',
+                  objection: `„Schön und gut – aber nenne mir eine einzige Tatsache, die die Theologie je entdeckt hat. Die Wissenschaft hat uns Antibiotika und Mondlandungen gegeben, die Theologie nichts."`,
+                  objectionBy: 'Alex Rosenberg / Peter Atkins',
+                  answer: `Die Theologie ist keine Konkurrenzphysik; sie fragt nach anderem – wie die Geschichtswissenschaft, die Mathematik oder die Ethik, die auch ohne Labor zu Wissen kommen. Und sie hat Begriffe hervorgebracht, von denen wir alle leben: Der Begriff der *Person* als unverwechselbares, beziehungsfähiges Ich wurde in den Debatten über Dreieinigkeit und Menschwerdung im 4. und 5. Jahrhundert geschärft – mit Folgen bis zur Idee der Menschenwürde. Antibiotika retten Leben; aber die Überzeugung, dass *jedes* Leben, auch das schwache, gerettet werden soll, stammt nicht aus dem Reagenzglas.`,
+                  detail: `Die Kappadokier (Basilius, Gregor von Nazianz, Gregor von Nyssa) unterschieden zwischen *ousia* (Wesen) und *hypostasis* (Person); Kyrill von Alexandrien betonte die eine Hypostase des fleischgewordenen Logos. Daraus erwuchs ein Personbegriff, der nicht in Eigenschaften oder Funktionen aufgeht. Die frühen Christen gründeten zudem die ersten öffentlichen Krankenhäuser (Basilius' Basilias in Caesarea, um 370). Wissen über Gott ist allerdings nicht in erster Linie Laborwissen, sondern Erkenntnis einer Person, die sich in der Geschichte gezeigt hat.`,
+                  questionsBack: [`Ist die Überzeugung, dass jeder Mensch gleiche Würde hat, ein Ergebnis der Naturwissenschaft?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'nur-wissenschaft-korrigiert-sich',
+          objection: `„Der entscheidende Unterschied: Die Wissenschaft korrigiert sich selbst. Intuition, Offenbarung und Tradition haben keinen Fehlerkorrekturmechanismus – deshalb sind sie keine Wege zu Wissen."`,
+          objectionBy: 'Matt Dillahunty',
+          answer: `Selbstkorrektur gibt es auch außerhalb der Naturwissenschaft: Mathematiker prüfen Beweise, Historiker streiten über Quellen, Gerichte verhören Zeugen, Philosophen widerlegen einander seit 2500 Jahren. Auch die Kirche hat Lehren geprüft und Irrlehren zurückgewiesen – auf den Konzilien von Nizäa, Konstantinopel und Ephesus wurde öffentlich argumentiert. Und die Selbstkorrektur der Wissenschaft beruht auf moralischen Normen – Ehrlichkeit, Transparenz, Kritikfähigkeit –, die selbst keine wissenschaftlichen Ergebnisse sind.`,
+          followUps: [
+            {
+              id: 'religionen-konvergieren-nicht',
+              objection: `„Aber die Wissenschaft konvergiert: Physiker in Tokio und Boston kommen zu denselben Ergebnissen. Religionen konvergieren nie – das zeigt, dass sie kein Wissen haben."`,
+              objectionBy: 'Matt Dillahunty',
+              answer: `Konsens ist ein Hinweis, aber kein Kriterium für Wahrheit: Um 1900 bestand ein breiter Konsens über den Äther. Auch in der Philosophie gibt es kaum Konsens – über Willensfreiheit, Bewusstsein oder Ethik –, und trotzdem sind diese Fragen nicht sinnlos. Fragen, die die ganze Person betreffen und Konsequenzen für das Leben haben, sind schwerer zu entscheiden als die Messung einer Halbwertszeit. Und es gibt durchaus Konvergenz: Fast alle Kulturen kennen ein Sittengesetz, und die Gottesfrage stellt sich überall.`,
+              questionsBack: [`Ist eine Frage sinnlos, nur weil Menschen sich über die Antwort nicht einig sind – etwa die Frage nach der Willensfreiheit?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist der Satz „Nur die Wissenschaft liefert Wissen" selbst wissenschaftlich bewiesen?`,

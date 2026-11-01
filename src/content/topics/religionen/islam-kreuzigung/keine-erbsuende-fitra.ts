@@ -88,6 +88,22 @@ const claim: Claim = {
               objection: `Dann kommen ungetaufte Kinder in die Hölle? Augustinus hat das gelehrt.`,
               objectionBy: 'Zakir Naik',
               answer: `Die koptische Kirche lehrt das nicht. Sie kennt auch keinen „Limbus". Sie vertraut ungetaufte Kinder der Barmherzigkeit Gottes an, der „will, daß allen Menschen geholfen werde" (1 Tim 2,4). Augustinus ist für uns nur mit Einschränkung eine Autorität – und gerade in diesem Punkt folgen wir ihm nicht.`,
+              followUps: [
+                {
+                  id: 'kindertaufe-dann-ueberfluessig',
+                  objection: `Wenn Gott ungetaufte Kinder ohnehin barmherzig behandelt, ist die Kindertaufe überflüssig. Dann tauft sie doch, wenn sie selbst entscheiden können.`,
+                  objectionBy: 'Shabir Ally',
+                  answer: `Die Taufe ist nicht nur eine Rettung vor der Hölle, sondern ein Geschenk: neue Geburt aus Wasser und Geist (Joh 3,5), Eingliederung in den Leib Christi, die Gabe des Heiligen Geistes in der Myronsalbung und der Zugang zur Eucharistie. Eltern enthalten ihren Kindern das Gute nicht vor, bis sie „selbst entscheiden" – sie geben ihnen Nahrung, Sprache und Liebe, lange bevor das Kind fragen kann. Auch im Alten Bund empfingen Kinder das Bundeszeichen am achten Tag, und Paulus vergleicht die Taufe mit der Beschneidung (Kol 2,11–12).`,
+                  detail: `Die Apostelgeschichte berichtet von der Taufe ganzer „Häuser" (Apg 16,15.33; 1 Kor 1,16), und Petrus sagt: „Euch und euren Kindern gilt die Verheißung" (Apg 2,39). Origenes (3. Jh.) bezeichnet die Kindertaufe als Überlieferung von den Aposteln. Die koptische Kirche tauft Kinder durch dreimaliges Untertauchen und spendet ihnen sogleich die Myronsalbung und die Kommunion. Im Gespräch mit Muslimen kannst du auch auf die eigene Praxis verweisen: Viele Muslime sprechen dem Neugeborenen den Gebetsruf ins Ohr und geben ihm so von Anfang an den Glauben mit – niemand wartet, bis das Kind „selbst entscheidet".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Kolosser', ref: '2,11–12', quote: `… in welchem ihr auch beschnitten seid mit der Beschneidung ohne Hände … indem ihr mit ihm begraben seid durch die Taufe.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                    { kind: 'kirchenvater', author: 'Origenes', work: 'Kommentar zum Römerbrief', ref: 'V,9', year: 'ca. 246', status: 'paraphrase', note: 'Die Kirche habe von den Aposteln die Überlieferung empfangen, auch Kindern die Taufe zu spenden. Origenes ist für die Apologetik zitierbar, nicht als Lehrautorität.' },
+                  ],
+                  questionsBack: [
+                    `Wartest du mit dem Unterricht im Glauben, bis dein Kind selbst entscheiden kann – oder gibst du ihm das Beste, das du hast, von Anfang an?`,
+                  ],
+                },
+              ],
             },
           ],
         },

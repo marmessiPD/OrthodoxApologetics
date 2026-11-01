@@ -86,7 +86,7 @@ const claim: Claim = {
       objection: `*Stauros* heißt im Griechischen einfach „aufrechter Pfahl". Das Kreuz ist eine spätere Erfindung.`,
       objectionBy: 'Zeugen Jehovas',
       answer: `*Stauros* kann einen Pfahl bezeichnen – aber zur Zeit Jesu war es das Wort für die römische Kreuzigung, und Rom benutzte meist einen Querbalken, den der Verurteilte trug. Thomas spricht von Nägelmalen (Plural) in Jesu Händen, die Inschrift hing über seinem Kopf, und Christen beschrieben die Kreuzesform schon im 2. Jahrhundert. Übrigens: Auch Wachtturm-Veröffentlichungen zeigten bis etwa 1931 ein Kreuz-und-Krone-Symbol.`,
-      sources: [{ kind: 'gegner', work: 'The Watch Tower (Titelblatt)', ref: 'bis Anfang der 1930er-Jahre', quote: `Das Titelblatt trug ein Kreuz-und-Krone-Emblem; die Pfahl-Lehre wurde unter Rutherford in den 1930er-Jahren eingeführt.`, status: 'unverified', note: 'Genaues Datum der Entfernung (meist mit 1931 angegeben) vor Verwendung prüfen.' }],
+      sources: [{ kind: 'gegner', work: 'Zion\'s Watch Tower / The Watch Tower (Titelblatt)', ref: 'ab 1891 bis Oktober 1931', quote: `Das Titelblatt der Zeitschrift trug jahrzehntelang ein Kreuz-und-Krone-Emblem; im Oktober 1931 verschwand es. Die Lehre vom „Marterpfahl" wurde unter Rutherford in den 1930er-Jahren eingeführt (Buch „Riches", 1936).`, status: 'paraphrase', note: 'Dass das Emblem im Oktober 1931 vom Titelblatt verschwand, ist gut belegt; die Quellen nennen teils die Ausgabe vom 1., teils die vom 15. Oktober 1931 – im Gespräch daher „bis 1931" sagen. Auch der Beginn wird unterschiedlich angegeben (1881 bzw. 1891).' }],
       followUps: [
         {
           id: 'kreuz-heidnisch',
@@ -101,6 +101,20 @@ const claim: Claim = {
               answer: `Das Kreuz ist nicht einfach die Waffe eines Mörders, sondern der Ort, an dem Christus den Tod besiegt hat. Paulus sagt: „Es sei aber ferne von mir, mich zu rühmen, denn allein von dem Kreuz unsers HERRN Jesu Christi" (Gal 6,14); „das Wort vom Kreuz ist … uns, die wir selig werden, eine Gotteskraft" (1 Kor 1,18). Wir beten nicht Holz an, sondern ehren das Zeichen seines Sieges – wie Paulus es tat.`,
               sources: [{ kind: 'bibel', work: 'Galater', ref: '6,14', quote: `Es sei aber ferne von mir, mich zu rühmen, denn allein von dem Kreuz unsers HERRN Jesu Christi, durch welchen mir die Welt gekreuzigt ist und ich der Welt.`, translation: 'Luther 1912', status: 'verbatim' }],
               questionsBack: [`Warum rühmt sich Paulus des Kreuzes, wenn es nur eine Mordwaffe ist?`],
+              followUps: [
+                {
+                  id: 'kreuz-goetzendienst',
+                  objection: `Wer sich vor einem Kreuz verneigt oder es küsst, treibt Götzendienst. „Du sollst dir kein Bildnis machen … bete sie nicht an" (Ex 20,4–5).`,
+                  objectionBy: 'Zeugen Jehovas (Broschüre „Was lehrt die Bibel wirklich?")',
+                  answer: `Ex 20 verbietet, Bilder als Götter anzubeten. Derselbe Gott befahl wenige Kapitel später, goldene Cherubim auf die Bundeslade zu setzen (Ex 25,18–20) und eine eherne Schlange aufzurichten, auf die die Gebissenen schauen sollten (Num 21,8–9) – und Jesus deutet genau diese Schlange auf seine Erhöhung am Kreuz (Joh 3,14). Verehrung eines Zeichens ist nicht Anbetung: Wir beten allein Gott an; das Kreuz ehren wir, weil es auf ihn verweist.`,
+                  detail: `Die Unterscheidung zwischen Anbetung (die allein Gott gebührt) und Verehrung (Ehrerbietung gegenüber Personen und Dingen, die zu Gott gehören) kennt auch die Wachtturm-Literatur, wenn sie *proskyneō* in Hebr 1,6 mit „huldigen" übersetzt. Als die eherne Schlange später selbst angebetet wurde, ließ Hiskia sie zerschlagen (2 Kön 18,4) – Missbrauch hebt den rechten Gebrauch nicht auf, er verlangt Unterscheidung. In der koptischen Kirche segnet der Priester mit dem Handkreuz, und viele Kopten tragen ein kleines Kreuz auf dem Handgelenk tätowiert – als Bekenntnis, nicht als Amulett.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '3,14–15', quote: `Und wie Mose in der Wüste eine Schlange erhöht hat, also muß des Menschen Sohn erhöht werden, auf daß alle, die an ihn glauben, nicht verloren werden, sondern das ewige Leben haben.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '2. Mose', ref: '25,18', quote: `Und du sollst zwei Cherubim machen von getriebenem Golde zu beiden Enden des Gnadenstuhls.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Hat Gott mit den Cherubim auf der Bundeslade und der ehernen Schlange sein eigenes Bilderverbot gebrochen?`],
+                },
+              ],
             },
           ],
         },
@@ -138,6 +152,20 @@ const claim: Claim = {
               objectionBy: 'Zeugen Jehovas',
               answer: `„Schlaf" ist ein Bild für den Leib, der wie schlafend daliegt und auferweckt wird – und für die Vorläufigkeit des Todes. Aber Paulus nennt das Sterben „Gewinn" und „viel besser" (Phil 1,21.23). Wäre Sterben bewusstloses Nichtsein, wäre es nicht „viel besser" als ein Leben im Dienst Christi – es wäre schlicht nichts.`,
               questionsBack: [`Warum sollte bewusstloses Nichtsein für Paulus „viel besser" sein, als weiter für Christus zu wirken?`],
+              followUps: [
+                {
+                  id: 'offb-6-bildsprache',
+                  objection: `Offb 6,9–10 ist Bildsprache – auch Abels Blut „schreit" (Gen 4,10), ohne dass Blut ein Bewusstsein hat. Und Lk 16 mit dem reichen Mann ist ein Gleichnis, keine Beschreibung des Jenseits.`,
+                  objectionBy: 'Zeugen Jehovas',
+                  answer: `Auch Bilder müssen etwas Wahres abbilden – und dieses Bild zeigt Seelen, die nach dem Tod rufen, Antwort erhalten und weiße Kleider bekommen (6,11). Dazu kommt ein nüchterner Bericht: Auf dem Berg der Verklärung **reden** Mose und Elia mit Jesus über seinen bevorstehenden Tod (Lk 9,30–31) – Mose war seit Jahrhunderten gestorben. Und Jesus verspricht: „Wer an mich glaubt, der wird leben, ob er gleich stürbe" (Joh 11,25). Ein Gleichnis wie Lk 16 baut zudem auf einer Vorstellung auf, die Jesus nirgends korrigiert.`,
+                  detail: `Einzelne Stellen kann man als Bildsprache lesen – entscheidend ist das Gesamtbild: Mt 10,28 (Seele nicht tötbar), Lk 23,43 (heute im Paradies), Phil 1,23 (abscheiden und bei Christus sein), 2 Kor 5,8 („außer dem Leibe wallen und daheim sein bei dem Herrn"), Hebr 12,23 (die „Geister der vollendeten Gerechten"), Offb 6,9–11. Die Kirche betet darum in der Liturgie für die Entschlafenen und mit den Heiligen – sie sind nicht nicht-existent, sondern lebendig bei Christus, auch wenn die leibliche Auferstehung noch aussteht.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '9,30–31', quote: `Und siehe, zwei Männer redeten mit ihm, welche waren Mose und Elia; die erschienen in Klarheit und redeten von dem Ausgang, welchen er sollte erfüllen zu Jerusalem.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '2. Korinther', ref: '5,8', quote: `Wir sind aber getrost und haben vielmehr Lust, außer dem Leibe zu wallen und daheim zu sein bei dem HERRN.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Mose nach seinem Tod nicht mehr existierte – wer hat dann auf dem Berg der Verklärung mit Jesus geredet?`],
+                },
+              ],
             },
           ],
         },
@@ -161,6 +189,46 @@ const claim: Claim = {
               objectionBy: 'Zeugen Jehovas',
               answer: `Das stimmt, Stott äußerte das vorsichtig, und unter Protestanten wird die Frage diskutiert. Aber Stott glaubte an die Gottheit Christi, die Trinität und ein bewusstes Sein nach dem Tod – also nicht eure Gesamtlehre. Die koptische Kirche lehrt mit den Vätern die ewige Strafe. Und sie verkündet zugleich: Gott „will, dass allen Menschen geholfen werde" (1 Tim 2,4); die Hölle ist die von Gott respektierte, endgültige Ablehnung seiner Liebe.`,
               sources: [{ kind: 'fachliteratur', author: 'David L. Edwards / John Stott', work: 'Essentials: A Liberal-Evangelical Dialogue', year: '1988', quote: `Stott äußert vorsichtig („tentatively") Sympathie für die Vernichtungslehre.`, status: 'paraphrase' }],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nur-144000-himmel',
+      objection: `In den Himmel kommen ohnehin nur 144.000 gesalbte Christen, die mit Christus regieren (Offb 7,4; 14,1–3). Alle anderen Treuen leben ewig im Paradies auf der Erde. Darum brauchen wir keine unsterbliche Seele, die in den Himmel fliegt.`,
+      objectionBy: 'Zeugen Jehovas (Was lehrt die Bibel wirklich?, Kap. 7–8)',
+      answer: `Offb 7,4–8 zählt die 144.000 ausdrücklich als je 12.000 aus jedem der zwölf **Stämme Israels** auf – wer die Zahl wörtlich nimmt, muss auch das wörtlich nehmen. Gleich danach sieht Johannes „eine große Schar, die niemand zählen konnte, aus allen Nationen … **vor dem Thron** und vor dem Lamm" (7,9). Das Neue Testament kennt keine zwei Klassen von Christen mit zwei Hoffnungen: „ein Leib und ein Geist, wie ihr auch berufen seid auf einerlei Hoffnung eurer Berufung" (Eph 4,4).`,
+      detail: `Die Deutung der „großen Volksmenge" als eigene, irdische Klasse neben den 144.000 legte Rutherford 1935 fest; seither nehmen bei der jährlichen Gedächtnismahlfeier nur die wenigen „Gesalbten" von Brot und Wein, alle anderen schauen zu. Jesus aber sagt allen, die ihm folgen: „Nehmet, esset … trinket alle daraus" (Mt 26,26–27) und „Wer mein Fleisch isset und trinket mein Blut, der hat das ewige Leben" (Joh 6,54). Für die koptische Kirche ist die Eucharistie Leben für jeden Getauften, nicht Vorrecht einer Elite.`,
+      sources: [
+        { kind: 'bibel', work: 'Offenbarung', ref: '7,9', quote: `Darnach sah ich, und siehe, eine große Schar, welche niemand zählen konnte, aus allen Heiden und Völkern und Sprachen, vor dem Stuhl stehend und vor dem Lamm, angetan mit weißen Kleidern und Palmen in ihren Händen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Epheser', ref: '4,4', quote: `ein Leib und ein Geist, wie ihr auch berufen seid auf einerlei Hoffnung eurer Berufung.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn die Zahl 144.000 wörtlich ist – sind dann alle 144.000 jüdische Männer aus den zwölf Stämmen, die „sich mit Weibern nicht befleckt haben" (Offb 14,4)?`],
+      followUps: [
+        {
+          id: 'grosse-volksmenge-erde',
+          objection: `Die große Volksmenge steht „vor" dem Thron – das heißt in Gottes Gunst, aber auf der Erde. Sie ist die „irdische Klasse", die Harmagedon überlebt.`,
+          objectionBy: 'Der Wachtturm',
+          answer: `Lies weiter: „Sie dienen ihm Tag und Nacht **in seinem Tempel**" (7,15). Das griechische Wort ist *naos*, das innere Heiligtum – in der Offenbarung ist es im Himmel (11,19; 14,17; 15,5). Und in Offb 19,1 hört Johannes „eine Stimme großer Scharen **im Himmel**", die Halleluja singt. Die Engel stehen ebenfalls „um den Thron" (7,11) – niemand verlegt sie deshalb auf die Erde.`,
+          detail: `Die Wachtturm-Auslegung verlegt die große Volksmenge in den „irdischen Vorhof" eines geistigen Tempels. Johannes verwendet aber nicht *hieron* (den ganzen Tempelbezirk mit seinen Vorhöfen), sondern *naos*, das Heiligtum selbst. Die Offenbarung verwendet für den irdischen Vorhof ein anderes Bild (11,2: der Vorhof „außerhalb des Tempels" wird den Heiden gegeben).`,
+          sources: [
+            { kind: 'bibel', work: 'Offenbarung', ref: '7,15', quote: `Darum sind sie vor dem Stuhl Gottes und dienen ihm Tag und Nacht in seinem Tempel.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Offenbarung', ref: '19,1', quote: `Darnach hörte ich eine Stimme großer Scharen im Himmel, die sprachen: Halleluja!`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'sanftmuetige-erben-erde',
+              objection: `Aber Jesus sagt: „Die Sanftmütigen werden das Erdreich besitzen" (Mt 5,5), und Ps 37,29: „Die Gerechten erben das Land und bleiben ewiglich darin." Die Erde ist der Ort der ewigen Hoffnung, nicht der Himmel.`,
+              objectionBy: 'Zeugen Jehovas',
+              answer: `Da sind wir näher beieinander, als du denkst: Auch die Kirche erwartet „einen neuen Himmel und eine neue Erde" (Offb 21,1), auf der Gott **bei den Menschen** wohnt (21,3) – mit auferstandenen Leibern. Der Unterschied ist: Diese Hoffnung gilt **allen** Erlösten gemeinsam, Himmel und Erde werden vereint. Abraham, den ihr zur „irdischen Klasse" zählt, wartete nach Hebr 11,16 auf „ein besseres, nämlich ein himmlisches" Vaterland – Himmel und Erde sind in der Vollendung kein Gegensatz.`,
+              detail: `Die Väter sprechen von der Verklärung der ganzen Schöpfung: Röm 8,21 – „auch die Kreatur wird frei werden vom Dienst des vergänglichen Wesens zu der herrlichen Freiheit der Kinder Gottes". Irenäus betont gegen die Gnostiker gerade die Erneuerung der Erde (Gegen die Häresien V,32–36). Die biblische Hoffnung ist also weder eine körperlose Seelenexistenz im Himmel noch eine Zwei-Klassen-Ordnung, sondern Auferstehung und neue Schöpfung für das ganze Volk Gottes. Die unsterbliche Seele ist der Zwischenzustand bis dahin, nicht das Ziel.`,
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '11,16', quote: `Nun aber begehren sie eines bessern, nämlich eines himmlischen. Darum schämt sich Gott ihrer nicht, zu heißen ihr Gott; denn er hat ihnen eine Stadt zubereitet.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Offenbarung', ref: '21,3', quote: `Siehe da, die Hütte Gottes bei den Menschen! und er wird bei ihnen wohnen, und sie werden sein Volk sein.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien', ref: 'V,32–36', quote: `Die Erneuerung der Schöpfung und das Erbe der Gerechten auf der erneuerten Erde.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Auf welches Vaterland wartete Abraham nach Hebr 11,16 – und gehört er dann zur „himmlischen" oder zur „irdischen Klasse"?`],
             },
           ],
         },
