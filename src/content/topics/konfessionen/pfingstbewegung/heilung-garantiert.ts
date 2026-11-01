@@ -149,6 +149,94 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'jak-5-15-gebet-des-glaubens',
+      objection: `„Jak 5,15: ‚Das Gebet des Glaubens wird dem Kranken helfen, und der Herr wird ihn aufrichten.' Da steht ‚wird', nicht ‚kann'. Das ist eine Verheißung ohne Bedingung."`,
+      objectionBy: 'Kenneth E. Hagin',
+      answer: `Wir nehmen Jak 5 so ernst, dass die koptische Kirche daraus ein Sakrament feiert: die **Krankensalbung** durch die Priester (das „Gebet der Lampe" mit sieben Gebeten). Jakobus spricht vom Gebet der **Ältesten**, nicht vom Glaubensmaß des Kranken. „Aufrichten" (*egerei*) und „helfen/retten" (*sōsei*) umfassen Leib und Seele – im selben Satz: „hat er Sünden getan, so werden sie ihm vergeben sein". Die letzte Erfüllung ist die Auferstehung, für die Jakobus dasselbe Verb gebraucht wie die Evangelien für Christus.`,
+      detail: `Derselbe Jakobus spricht im gleichen Kapitel von der Geduld der Propheten und Hiobs im Leiden (Jak 5,7–11). Er kennt also Leiden, das nicht sofort weggenommen wird. Jak 5,15 ist eine wirkliche Verheißung: Gott antwortet immer auf das Gebet der Kirche – mit Heilung, mit Kraft im Leiden, mit Vergebung oder mit einem seligen Heimgang.`,
+      sources: [
+        { kind: 'bibel', work: 'Jakobus', ref: '5,14–15', quote: `Ist jemand krank, der rufe zu sich die Ältesten von der Gemeinde, dass sie über ihm beten und salben ihn mit Öl in dem Namen des Herrn. Und das Gebet des Glaubens wird dem Kranken helfen, und der Herr wird ihn aufrichten; und so er hat Sünden getan, werden sie ihm vergeben sein.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'trophimus-krank-zurueckgelassen',
+          objection: `„Wenn ihr ein Heilungssakrament habt – warum bleiben dann die meisten Gesalbten krank? Eure niedrige Erwartung ist das Problem. Wir dürfen uns nie mit weniger zufriedengeben."`,
+          objectionBy: 'Bill Johnson',
+          answer: `Wir erwarten Heilung und erleben sie – die koptische Kirche ist voller Heilungsberichte. Aber das Neue Testament zeigt, dass selbst die Apostel nicht jeden geheilt sahen: Paulus schreibt: „Trophimus ließ ich zu Milet krank" (2 Tim 4,20); Epaphroditus war „todkrank" und Gott erbarmte sich erst nach langer Zeit (Phil 2,27); Timotheus soll wegen seines Magens etwas Wein nehmen (1 Tim 5,23). Wer das Ergebnis zum Maßstab des Glaubens macht, müsste Paulus Kleinglauben vorwerfen.`,
+          sources: [
+            { kind: 'bibel', work: '2. Timotheus', ref: '4,20', quote: `Trophimus aber ließ ich zu Milet krank.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'trophimus-hatte-keinen-glauben',
+              objection: `„Vielleicht hatte Trophimus eben nicht genug Glauben."`,
+              objectionBy: 'Wort-des-Glaubens-Lehrer',
+              answer: `Der Text sagt davon kein Wort – diese Schuldzuweisung wird erfunden, um das System zu retten. Genau diese Logik weist Jesus beim Blindgeborenen zurück: „Es hat weder dieser gesündigt noch seine Eltern" (Joh 9,3). Und Hiobs Freunde, die sein Leiden mit seiner Schuld erklärten, wurden von Gott getadelt: „Ihr habt nicht recht von mir geredet wie mein Knecht Hiob" (Hi 42,7).`,
+              followUps: [
+                {
+                  id: 'hiob-durch-furcht',
+                  objection: `„Hiob hat sein Unglück selbst angezogen – durch Furcht: ‚Was ich gefürchtet habe, ist über mich gekommen' (Hi 3,25). Negatives Bekenntnis öffnet dem Satan die Tür."`,
+                  objectionBy: 'Kenneth Copeland',
+                  answer: `Gott selbst widerspricht dieser Deutung: Er nennt Hiob „schlecht und recht, gottesfürchtig und meidet das Böse" (Hi 1,8) und sagt nach dem ersten Unglück zum Satan: „Du hast mich bewogen, dass ich ihn ohne Ursache verderbt habe" (2,3). „Ohne Ursache" – das heißt: nicht wegen Hiobs Furcht oder Schuld. Hi 3,25 ist die Klage eines Leidenden, keine Erklärung für die Ursache des Leidens.`,
+                  detail: `Wer Hiob die Schuld gibt, stellt sich auf die Seite der Freunde, die Gott am Ende zurechtweist. Das Buch Hiob ist die biblische Antwort auf jede Theologie, die Leiden automatisch als Folge von Sünde oder Unglauben deutet. Pastoral heißt das: Einem Kranken nie sagen, er sei selbst schuld, weil er nicht genug geglaubt oder „negativ bekannt" habe.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Hiob', ref: '2,3', quote: `Hast du nicht achtgehabt auf meinen Knecht Hiob? … und hält noch fest an seiner Frömmigkeit; du aber hast mich bewogen, dass ich ihn ohne Ursache verderbt habe.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Hiob', ref: '42,7', quote: `Ihr habt nicht recht von mir geredet wie mein Knecht Hiob.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Gott sagt, er habe Hiob „ohne Ursache" leiden lassen – woher nimmst du dann die Ursache „Furcht"?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'krankheit-immer-vom-teufel',
+      objection: `„Apg 10,38: Jesus ‚machte gesund alle, die vom Teufel überwältigt waren'. Krankheit ist immer Werk des Teufels. Jesus hat nie gesagt, dass eine Krankheit Gottes Wille sei."`,
+      objectionBy: 'Bill Johnson',
+      answer: `Manche Krankheit hat dämonische Ursachen (Lk 13,16) – aber nicht jede. Über den Blindgeborenen sagt Jesus: „… sondern dass die Werke Gottes offenbar würden an ihm" (Joh 9,3), und über Lazarus: „Die Krankheit ist nicht zum Tode, sondern zur Ehre Gottes" (Joh 11,4). Paulus predigte den Galatern zuerst „in Schwachheit des Fleisches" (Gal 4,13). Gott verursacht das Böse nicht, aber er lässt es zu und kann es zum Guten wenden (Röm 8,28).`,
+      detail: `Die Väter unterscheiden zwischen Gottes eigentlichem Willen (Wohlgefallen) und seiner Zulassung (*synchōrēsis*). Krankheit ist nicht Gottes ursprünglicher Plan, sondern Folge des Falls; dennoch kann Gott sie zur Läuterung, zur Demut oder zum Zeugnis gebrauchen. Diese Unterscheidung bewahrt vor zwei Fehlern: Gott zum Urheber des Leids zu machen – oder zu behaupten, alles Leid sei bloß Folge mangelnden Glaubens.`,
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '11,4', quote: `Die Krankheit ist nicht zum Tode, sondern zur Ehre Gottes, dass der Sohn Gottes dadurch geehrt werde.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Darlegung des orthodoxen Glaubens (Expositio fidei)', ref: 'II,29', year: '8. Jh.', status: 'paraphrase', note: 'Unterscheidung von Gottes vorausgehendem Willen und seiner Zulassung (Prüfung, Läuterung).' },
+      ],
+      followUps: [
+        {
+          id: 'dann-gegen-gottes-willen-beten',
+          objection: `„Wenn Gott Krankheit gebrauchen kann, dann kämpft man ja gegen Gottes Willen, wenn man um Heilung betet. Das ist absurd."`,
+          objectionBy: 'Bill Johnson',
+          answer: `Nicht absurd, sondern biblisch: Paulus bat dreimal um Befreiung von seinem Pfahl – und erhielt die Antwort: „Lass dir an meiner Gnade genügen" (2 Kor 12,8–9). Jesus betete in Gethsemane: „Ist's möglich, so gehe dieser Kelch von mir; doch nicht wie ich will, sondern wie du willst" (Mt 26,39). Wir beten mutig um Heilung und vertrauen Gott die Antwort an. Das ist nicht Kampf gegen Gott, sondern Gebet zu ihm.`,
+          followUps: [
+            {
+              id: 'wenn-es-dein-wille-ist-toetet-glauben',
+              objection: `„‚Wenn es dein Wille ist' zerstört den Glauben. Jesus betete das nur einmal – für das Kreuz. Für Heilung kennen wir Gottes Willen."`,
+              objectionBy: 'Wort-des-Glaubens-Lehrer',
+              answer: `Die Apostel lehren die Kirche, genau so zu beten: „Und das ist die Freudigkeit, die wir haben zu ihm, dass, so wir etwas bitten **nach seinem Willen**, so hört er uns" (1 Joh 5,14). Jakobus mahnt: „Ihr solltet sagen: So der Herr will und wir leben" (Jak 4,15). Sich Gottes Willen zu unterwerfen, ist nicht das Gegenteil des Glaubens, sondern sein Herz – das Vaterunser beginnt damit: „Dein Wille geschehe."`,
+              sources: [
+                { kind: 'bibel', work: '1. Johannes', ref: '5,14', quote: `Und das ist die Freudigkeit, die wir haben zu ihm, dass, so wir etwas bitten nach seinem Willen, so hört er uns.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'warum-dann-erwartungsvoll-beten',
+                  objection: `„Wozu dann noch erwartungsvoll beten? Ihr senkt nur die Erwartung und nennt es Demut."`,
+                  objectionBy: 'Charismatischer Gebetsleiter',
+                  answer: `Die Heiligen der Kirche beteten mit brennender Erwartung – und starben doch selbst an Krankheiten. Papst Kyrillos VI., dem unzählige Heilungen zugeschrieben werden, war in seinen letzten Lebensjahren selbst krank und starb 1971; Papst Schenuda III. trug jahrelang schwere Krankheit. Erwartungsvoll beten heißt: Gottes Güte erwarten, nicht ein bestimmtes Ergebnis vorschreiben. Für den Christen ist auch das Sterben im Glauben ein Sieg: „Christus ist mein Leben, und Sterben ist mein Gewinn" (Phil 1,21).`,
+                  voices: [
+                    {
+                      person: 'kyrillos-vi',
+                      role: 'als Beter und Wundertäter des 20. Jahrhunderts',
+                      text: `Papst Kyrillos VI. feierte fast täglich die Liturgie und wurde von Tausenden um Gebet für Kranke gebeten; viele Heilungen werden ihm zugeschrieben. Zugleich lebte er selbst in Krankheit und Schwachheit, ohne dies als Mangel an Glauben zu deuten. Sein Leben zeigt die koptische Haltung: kühnes Vertrauen auf Gottes Wirken und demütige Annahme seines Willens.`,
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum ließ Paulus Trophimus krank in Milet zurück (2 Tim 4,20)?`,

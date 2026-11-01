@@ -283,7 +283,7 @@ Das heißt nicht, dass Menschen mit gleichgeschlechtlicher Neigung weniger Würd
 Ehrlich bleibt: Europäische und amerikanische Christen haben die Ham-Deutung benutzt, um Sklaverei und Rassentrennung zu rechtfertigen. Das muss man klar benennen, ohne es der Schrift anzulasten.`,
       sources: [
         { kind: 'bibel', work: 'Genesis', ref: '9,25', quote: `Verflucht sei Kanaan und sei ein Knecht aller Knechte unter seinen Brüdern!`, translation: 'Luther 1912', status: 'verbatim' },
-        { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,26', quote: `Und er hat gemacht, dass von einem Blut aller Menschen Geschlechter auf dem ganzen Erdboden wohnen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,26', quote: `Und er hat gemacht, daß von einem Blut aller Menschen Geschlechter auf dem ganzen Erdboden wohnen.`, translation: 'Luther 1912', status: 'verbatim' },
         { kind: 'fachliteratur', author: 'David M. Goldenberg', work: 'The Curse of Ham: Race and Slavery in Early Judaism, Christianity, and Islam', year: '2003', quote: `Die Verbindung von Hams Fluch mit dunkler Hautfarbe entstand erst in nachbiblischer Zeit und findet sich im biblischen Text selbst nicht.`, status: 'paraphrase' },
         { kind: 'gegner', author: 'Ibram X. Kendi', work: 'Stamped from the Beginning', year: '2016', status: 'paraphrase', note: 'Kendi zeichnet die Rolle christlicher Theologen in der Geschichte rassistischer Ideen nach.' },
       ],

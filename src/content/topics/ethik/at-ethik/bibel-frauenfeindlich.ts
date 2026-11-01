@@ -118,6 +118,38 @@ In der koptischen Tradition wird die Frau zudem im Stand der geweihten Frauen un
               sources: [
                 { kind: 'koptisch', work: 'Synaxarium der koptischen Kirche', quote: `Lebensbeschreibungen der hl. Demiana, der hl. Marina und weiterer heiliger Frauen.`, status: 'paraphrase', note: 'Hagiographische Überlieferung.' },
               ],
+              followUps: [
+                {
+                  id: 'gott-maennlich-daly',
+                  objection: `Das Grundproblem liegt tiefer: Euer Gott ist „Vater", „König", „Herr", sein Sohn ein Mann. „Wenn Gott männlich ist, dann ist der Mann Gott." Solange ihr so von Gott redet, bleibt jede Frau ein Mensch zweiter Ordnung.`,
+                  objectionBy: 'Mary Daly',
+                  answer: `Die Kirche hat nie gelehrt, dass Gott männlich ist. Gregor von Nazianz verspottet schon im 4. Jahrhundert die Vorstellung, Gott sei ein Mann, weil er „Vater" heißt: Die Namen bezeichnen Beziehungen, nicht ein Geschlecht. Die Schrift spricht von Gott auch wie von einer Mutter, die ihr Kind nicht vergisst (Jes 49,15) und tröstet (Jes 66,13), und Jesus vergleicht sich mit einer Henne, die ihre Küken sammelt (Mt 23,37). Dass der Logos als Mann Mensch wurde, macht Männer nicht göttlicher – er nahm die **menschliche** Natur an, die Mann und Frau gemeinsam haben.`,
+                  detail: `Der Vatername steht für Ursprung, Fürsorge und Beziehung zum Sohn – nicht für Geschlechtlichkeit. Gott ist Geist (Joh 4,24) und jenseits von männlich und weiblich; beide Geschlechter sind gemeinsam sein Bild (Gen 1,27). Die Väter betonten: Was Christus nicht angenommen hat, ist nicht geheilt (Gregor von Nazianz, Brief 101). Er hat die ganze menschliche Natur angenommen – darum sind Frauen in ihm ebenso geheilt und vergöttlicht wie Männer.
+
+Zugleich solltest du ehrlich bleiben: Die Kirche behält die Namen „Vater, Sohn und Heiliger Geist" bei, weil Christus sie uns so gegeben hat (Mt 28,19). Das ist kein Machtinstrument, sondern Treue zur Offenbarung. Dass Menschen daraus Männerherrschaft gemacht haben, ist ein Missbrauch der Sprache, nicht ihr Sinn.`,
+                  voices: [
+                    { person: 'gregor-nazianz', role: 'als „der Theologe" der Trinität', text: `Gregor weist in seiner fünften Theologischen Rede die Unterstellung zurück, man halte Gott für männlich, nur weil er Gott und Vater genannt wird. Die Namen der Trinität bezeichnen für ihn Beziehungen – Ungezeugtsein, Zeugung, Hervorgang –, nicht körperliche Eigenschaften. Wer Gott körperlich denkt, denkt nicht über Gott nach.` },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Mary Daly', work: 'Beyond God the Father: Toward a Philosophy of Women\'s Liberation', year: '1973', quote: `Wenn Gott männlich ist, dann ist der Mann Gott.`, original: 'If God is male, then the male is God.', status: 'verbatim', note: 'Einer der bekanntesten Sätze der feministischen Theologie; Daly verließ später die Kirche.' },
+                    { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Fünfte Theologische Rede (Oratio 31)', ref: '7', year: '380', quote: `Vielleicht hältst du unseren Gott für männlich, weil er Gott und Vater genannt wird … – das wäre ein Denken in Körpern, nicht über Gott.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Jesaja', ref: '49,15', quote: `Kann auch ein Weib ihres Kindleins vergessen, daß sie sich nicht erbarme über den Sohn ihres Leibes? Und ob sie desselben vergäße, so will ich doch dein nicht vergessen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Matthäus', ref: '23,37', quote: `Wie oft habe ich deine Kinder versammeln wollen, wie eine Henne versammelt ihre Küchlein unter ihre Flügel.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'maennliche-sprache-maennliche-macht',
+                      objection: `Schön gesagt – aber in der Praxis stehen am Altar nur Männer, gebetet wird zu „Vater" und „Herr", und die Frauen der Bibel werden aus der Erinnerung gedrängt. Sprache schafft Wirklichkeit.`,
+                      objectionBy: 'Elisabeth Schüssler Fiorenza',
+                      answer: `Der Vorwurf, Frauen seien aus der Erinnerung gedrängt worden, trifft die koptische Kirche gerade nicht: Ihr Synaxarium und ihre Liturgie feiern Maria, Demiana, Marina, Katharina, Verena und viele andere Frauen namentlich – oft ausdrücklich als Lehrerinnen und Märtyrerinnen. Dass das Priesteramt Männern vorbehalten ist, folgt nicht aus einer geringeren Würde der Frau, sondern aus dem sakramentalen Verständnis des Priesters als Ikone Christi des Bräutigams. Darüber kann man streiten – aber es ist eine theologische Begründung, keine Abwertung.`,
+                      detail: `Schüssler Fiorenza hat mit *In Memory of Her* (1983) zu Recht darauf hingewiesen, dass die Rolle der Frauen in der frühen Jesusbewegung oft übersehen wurde. Vieles davon kann ein orthodoxer Christ dankbar aufnehmen: Frauen begleiteten Jesus, finanzierten seine Mission (Lk 8,1–3), standen unter dem Kreuz, als die Männer geflohen waren, und waren die ersten Zeuginnen der Auferstehung. Die Ostkirche nennt Maria Magdalena darum „apostelgleich". Die Frage nach dem Priestertum wird eigens behandelt (Claim „Keine Priesterinnen").`,
+                      sources: [
+                        { kind: 'gegner', author: 'Elisabeth Schüssler Fiorenza', work: 'In Memory of Her: A Feminist Theological Reconstruction of Christian Origins', year: '1983', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +173,21 @@ In der koptischen Tradition wird die Frau zudem im Stand der geweihten Frauen un
               objectionBy: 'Christopher Hitchens',
               answer: `Erstens beginnt der Text mit gegenseitiger Unterordnung (Eph 5,21). Zweitens wird die Rolle des Mannes nicht als Herrschaft, sondern als Selbsthingabe bis zum Tod definiert (5,25) – das ist der härtere Auftrag. Drittens bedeutet Ordnung nicht Minderwertigkeit: Christus wurde dem Vater gehorsam bis zum Kreuz (Phil 2,8) und ist doch gleichen Wesens mit ihm. Und klar: Wer „Unterordnung" als Rechtfertigung für Gewalt missbraucht, sündigt – die Kirche duldet das nicht.`,
               detail: `Zum Vergleich die antike Hauslehre: Bei Aristoteles herrscht der Mann über die Frau „politisch", weil das Männliche von Natur zum Führen geeigneter sei (Politik I). Die Pflichten liegen bei den Untergebenen. Paulus dreht die Richtung: Die schwerste Pflicht liegt beim Mann – zu lieben, wie Christus, der sein Leben gab.`,
+              followUps: [
+                {
+                  id: 'gerettet-durch-kindergebaeren',
+                  objection: `Und dann 1 Tim 2,15: Die Frau „wird selig werden durch Kinderzeugen". Männer werden durch Glauben gerettet, Frauen durch Gebären? Deutlicher kann man Frauen nicht auf ihre Gebärmutter reduzieren.`,
+                  objectionBy: 'Hector Avalos',
+                  answer: `Das ist einer der schwierigsten Verse des Neuen Testaments, und ich gebe zu, dass seine genaue Bedeutung umstritten ist. Klar ist aber: Er kann nicht heißen, dass Frauen durch eine Leistung gerettet werden – der Satz geht weiter: „wenn sie bleiben im Glauben und in der Liebe und in der Heiligung". Viele Ausleger lesen ihn im Licht von Gen 3,15: Durch „das Gebären" – die Geburt des Messias aus einer Frau – kommt das Heil. Die Frau, die in Eden zuerst getäuscht wurde, wird gerade zum Weg, durch den der Erlöser kommt.`,
+                  detail: `Im Griechischen steht *dia tēs teknogonias* – mit Artikel, „durch **die** Kindesgeburt". Das hat schon manche Väter an die Geburt Christi aus der Jungfrau denken lassen; andere deuten es als Bewahrung durch die Gefahren der Geburt hindurch. Keine dieser Lesarten macht Mutterschaft zur Heilsbedingung: Paulus selbst empfiehlt Frauen die Ehelosigkeit um des Reiches willen (1 Kor 7,34), und die Kirche verehrt zahllose jungfräuliche Heilige.
+
+Die koptische Tradition sieht in Maria die „neue Eva": Was durch eine Frau in Unordnung geriet, wird durch eine Frau zum Tor des Heils. Das ist das Gegenteil einer Abwertung – es ist die höchste Würde, die die Theologie einem Menschen zuspricht.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Timotheus', ref: '2,15', quote: `Sie wird aber selig werden durch Kinderzeugen, so sie bleiben im Glauben und in der Liebe und in der Heiligung samt der Zucht.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien (Adversus Haereses)', ref: 'III,22,4', year: 'um 180', quote: `Der Knoten des Ungehorsams Evas wurde durch den Gehorsam Marias gelöst.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -165,6 +212,38 @@ Zum Vergleich: Die Mittelassyrischen Gesetze (§ 55) bestimmten, dass der Vater 
           objection: `Du nennst alles Harte einfach „Einschränkung". Damit kannst du jedes Gesetz verteidigen. Das ist moralische Beliebigkeit.`,
           objectionBy: 'Hector Avalos',
           answer: `Nein, das ist ein überprüfbarer Vergleich: Ich lege die Tora neben Hammurabi und die Mittelassyrischen Gesetze und frage, in welche Richtung sie weist. Bei Opferschutz, Sklavenflucht und Verletzungen weist sie messbar in Richtung Menschenwürde. Und das Ziel ist ausdrücklich nicht die Tora als letztes Wort, sondern Christus: „Hier ist kein Mann noch Weib" (Gal 3,28). Christen halten nicht das mosaische Zivilrecht für ihr Gesetzbuch.`,
+          followUps: [
+            {
+              id: 'eifersuchtsordal-num-5',
+              objection: `Dann erklär mir Num 5: Ein eifersüchtiger Mann schleppt seine Frau zum Priester, sie muss „bitteres Wasser" trinken, und wenn ihr Bauch anschwillt, ist sie schuldig. Manche Übersetzungen lesen sogar eine herbeigeführte Fehlgeburt heraus. Ein Hexenprozess in der Bibel.`,
+              objectionBy: 'Sam Harris',
+              answer: `Vergleich es mit der Umwelt: Im Codex Hammurabi (§ 132) musste eine verdächtigte Frau in den Fluss springen – überlebte sie nicht, galt sie als schuldig. Num 5 ersetzt das durch ein harmloses Getränk aus Wasser und Staub; physisch passiert ihr nichts, die Entscheidung bleibt Gott vorbehalten, und der Mann darf nicht selbst Hand anlegen. Faktisch schützte das Verfahren die Frau vor der Willkür eines eifersüchtigen Ehemanns. Und eine Schwangerschaft wird im Text gar nicht erwähnt – die Lesart „Fehlgeburt" ist eine umstrittene Interpretation einer dunklen Formulierung.`,
+              detail: `Der Ritus endet mit einer bemerkenswerten Bestimmung: Ist die Frau unschuldig, „soll sie Samen empfangen können" (Num 5,28) – sie wird öffentlich rehabilitiert, und der Verdacht ist erledigt. Die rabbinische Tradition (Mischna Sota 9,9) berichtet, dass Rabbi Jochanan ben Sakkai das Ritual im 1. Jahrhundert abschaffte, weil die Männer selbst nicht mehr treu waren – mit Verweis auf Hos 4,14.
+
+Für die Debatte: Gib zu, dass das Verfahren aus moderner Sicht befremdlich ist. Aber die Frage war, ob die Tora Frauen gegenüber ihrer Umwelt **schlechter** oder **besser** stellt – und hier stellt sie sie besser.`,
+              sources: [
+                { kind: 'bibel', work: '4. Mose (Numeri)', ref: '5,11–31', status: 'paraphrase' },
+                { kind: 'fachliteratur', work: 'Codex Hammurabi', ref: '§ 132', quote: `Wird eine Ehefrau verdächtigt, ohne ertappt zu sein, soll sie für ihren Mann in den Fluss springen.`, status: 'paraphrase' },
+                { kind: 'juedisch', work: 'Mischna Sota', ref: '9,9', quote: `Als die Ehebrecher zahlreich wurden, hörte das bittere Wasser auf; Rabbi Jochanan ben Sakkai schaffte es ab.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'ordal-nur-fuer-frauen',
+                  objection: `Und warum gibt es kein Ordal für untreue Männer? Das zeigt doch, wessen Eifersucht zählt und wessen nicht.`,
+                  objectionBy: 'Hector Avalos',
+                  answer: `Da hast du einen Punkt, und ich gebe ihn zu: Das Verfahren ist einseitig, weil es in einer patriarchalen Gesellschaft angesiedelt ist. Aber die Schrift selbst korrigiert diese Einseitigkeit: Hosea lässt Gott sagen, er werde die Töchter nicht strafen, wenn die Männer selbst zu Huren gehen (Hos 4,14). Und Jesus dreht die Szene bei der Ehebrecherin um: Er verlangt, dass der ohne Sünde den ersten Stein werfe – und die Männer gehen (Joh 8,7–9).`,
+                  detail: `Im Neuen Testament wird die eheliche Treuepflicht ausdrücklich für beide gleich gemacht: Der Mann hat keine Macht über seinen Leib, sondern die Frau, und umgekehrt (1 Kor 7,4). Johannes Chrysostomus hat genau diesen Punkt gegen die Doppelmoral des römischen Rechts gewandt, das männlichen Ehebruch kaum ahndete. Die Bewegung der Schrift läuft von der Einseitigkeit zur Gegenseitigkeit.`,
+                  voices: [
+                    { person: 'chrysostomus', role: 'als Prediger der gleichen Treuepflicht', text: `Chrysostomus kritisiert, dass die weltlichen Gesetze Männer für Ehebruch kaum belangen. Vor Gott, betont er, gelte dasselbe Gesetz für Mann und Frau; Untreue des Mannes sei ebenso Ehebruch wie die der Frau.` },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Hosea', ref: '4,14', quote: `Darum soll's auch nicht wundern, wenn eure Töchter und Bräute zu Huren werden; denn ihr haltet's selbst mit den Huren.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '7,4', quote: `Das Weib ist ihres Leibes nicht mächtig, sondern der Mann. Desgleichen der Mann ist seines Leibes nicht mächtig, sondern das Weib.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -183,6 +262,19 @@ Zum Vergleich: Die Mittelassyrischen Gesetze (§ 55) bestimmten, dass der Vater 
           objection: `Rodney Stark ist umstritten. Seine Zahlen über das Geschlechterverhältnis sind spekulativ.`,
           objectionBy: 'Bart Ehrman',
           answer: `Einzelne Zahlen Starks sind tatsächlich Schätzungen, und das gebe ich zu. Aber die Kernpunkte hängen nicht an ihnen: Die Ablehnung der Kindesaussetzung, die gleiche Treuepflicht und die Versorgung der Witwen sind in den Primärquellen klar belegt – von der Didache bis zu den Klagen heidnischer Kritiker, das Christentum sei eine Religion von „Weibern und Sklaven".`,
+          followUps: [
+            {
+              id: 'coverture-christliche-laender',
+              objection: `In christlichen Ländern durften verheiratete Frauen bis ins 19. Jahrhundert kein eigenes Vermögen besitzen, nicht wählen, nicht studieren. Das war die Realität des „christlichen Abendlands".`,
+              objectionBy: 'Steven Pinker',
+              answer: `Das stimmt, und es war Unrecht. Aber das englische *coverture*-Recht stammt aus dem germanisch-feudalen Gewohnheitsrecht, nicht aus der Bibel – die tüchtige Frau in Spr 31 kauft Felder und treibt Handel, Lydia ist Unternehmerin (Apg 16,14), Phöbe Patronin einer Gemeinde. Und die erste Frauenrechtsbewegung kam großenteils aus christlichen Kreisen: Die Versammlung von Seneca Falls 1848 tagte in einer methodistischen Kapelle, viele Pionierinnen waren Quäkerinnen und Abolitionistinnen, die ihre Forderungen biblisch begründeten.`,
+              detail: `Säkulare Aufklärer waren in der Frauenfrage keineswegs durchweg fortschrittlich: Rousseau wollte die Erziehung der Frau ganz auf den Mann ausrichten (*Émile*, Buch V). Umgekehrt haben christliche Frauen wie Sarah Grimké ihre Kritik an der Unterdrückung der Frau ausdrücklich mit der gemeinsamen Gottebenbildlichkeit begründet. Ehrlich bleibt: Kirchen haben die rechtliche Unterordnung der Frau lange mitgetragen. Der Maßstab, an dem man sie heute kritisiert – gleiche Würde von Mann und Frau –, stammt aber aus Gen 1,27 und Gal 3,28.`,
+              sources: [
+                { kind: 'bibel', work: 'Sprüche', ref: '31,16', quote: `Sie denkt nach einem Acker und kauft ihn, und pflanzt einen Weinberg von den Früchten ihrer Hände.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'sonstiges', author: 'Sarah Grimké', work: 'Letters on the Equality of the Sexes and the Condition of Woman', year: '1838', status: 'paraphrase', note: 'Quäkerin und Abolitionistin; begründet die Gleichheit der Geschlechter aus der Schrift.' },
+              ],
+            },
+          ],
         },
       ],
     },

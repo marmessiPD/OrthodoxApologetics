@@ -209,6 +209,78 @@ Die Kirchenordnung ist vor allem in koptischer (sahidischer), arabischer und ät
         },
       ],
     },
+    {
+      id: 'kol-2-12-durch-glauben',
+      objection: `„Kol 2,12: ‚mit ihm begraben in der Taufe; in welchem ihr auch seid auferstanden **durch den Glauben**, den Gott wirkt'. Die Taufe wirkt durch den Glauben des Täuflings. Ein Säugling kann nicht glauben – also ist seine Taufe leer."`,
+      objectionBy: 'Wayne Grudem / John MacArthur',
+      answer: `Kol 2,11–12 ist in Wahrheit der stärkste Text **für** die Kindertaufe: Paulus nennt die Taufe ausdrücklich die „Beschneidung, die ohne Hände geschieht", die „Beschneidung Christi". Die Beschneidung aber empfingen Kinder am achten Tag – bevor sie glauben konnten. Und der Glaube, von dem Paulus spricht, ist „der Glaube an die Wirkung Gottes" (*pistis tēs energeias tou theou*): Es geht um Gottes Handeln, nicht um die intellektuelle Leistung des Täuflings. Johannes der Täufer hüpfte schon im Mutterleib vor Freude über Christus (Lk 1,41.44) – auch Ungeborene können für Gottes Geist empfänglich sein.`,
+      detail: `Die Verbindung von Taufe und Beschneidung in Kol 2,11–12 ist exegetisch kaum zu bestreiten: Paulus spricht von einer Beschneidung, die „ohne Hände" geschieht, und erklärt sie im nächsten Halbsatz mit dem Begrabenwerden in der Taufe. Die Beschneidung war das Zeichen, durch das ein Kind in den Bund Gottes aufgenommen wurde – nicht als Ergebnis seiner Entscheidung, sondern als Gabe an die Kinder des Bundesvolkes (Gen 17,12).
+
+Die koptische Kirche tauft Säuglinge im Glauben der Kirche, der Eltern und Paten, die für das Kind die Absage an den Satan und das Glaubensbekenntnis sprechen, und erzieht es dann zu einem persönlichen Glauben. So wie der Gelähmte durch den Glauben seiner Träger geheilt wurde (Mk 2,5: „Da aber Jesus *ihren* Glauben sah"), so trägt die Kirche das Kind zu Christus.`,
+      sources: [
+        { kind: 'bibel', work: 'Kolosser', ref: '2,11–12', quote: `… in welchem ihr auch beschnitten seid mit der Beschneidung ohne Hände, durch Ablegung des sündlichen Leibes im Fleisch, nämlich mit der Beschneidung Christi, indem ihr mit ihm begraben seid durch die Taufe; in welchem ihr auch seid auferstanden durch den Glauben, den Gott wirkt …`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Markus', ref: '2,5', quote: `Da aber Jesus ihren Glauben sah, sprach er zu dem Gichtbrüchigen: Mein Sohn, deine Sünden sind dir vergeben.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn die Taufe die „Beschneidung Christi" ist – warum sollten die Kinder des Neuen Bundes weniger empfangen als die Kinder des Alten?`,
+        `Konnte Johannes der Täufer im Mutterleib „glauben"? Und doch wurde er vom Geist erfüllt (Lk 1,15).`,
+      ],
+      followUps: [
+        {
+          id: 'nur-jungen-beschnitten',
+          objection: `„Kol 2 sagt nicht, dass die Taufe die Beschneidung *ersetzt*. Und selbst wenn: Beschnitten wurden nur Jungen. Konsequent müsstet ihr dann nur Jungen taufen."`,
+          objectionBy: 'James White',
+          answer: `Die Analogie betrifft das Prinzip, nicht jedes Detail: Die Kinder des Bundesvolkes empfangen das Zeichen des Bundes. Im Neuen Bund wird das Zeichen weiter, nicht enger: „Hier ist kein Jude noch Grieche … hier ist kein Mann noch Weib" – und zwar ausdrücklich im Zusammenhang der Taufe: „Wie viel euer getauft sind, die haben Christum angezogen" (Gal 3,27–28). Der Neue Bund schließt Frauen und Heiden ein – es wäre seltsam, wenn er ausgerechnet die Kinder ausschlösse, die im Alten Bund dazugehörten.`,
+          sources: [
+            { kind: 'bibel', work: 'Galater', ref: '3,27–28', quote: `Denn wie viel euer getauft sind, die haben Christum angezogen. Hier ist kein Jude noch Grieche, hier ist kein Knecht noch Freier, hier ist kein Mann noch Weib; denn ihr seid allzumal einer in Christo Jesu.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'apg-2-39-nachkommen',
+              objection: `„Apg 2,39 – ‚euer und eurer Kinder ist diese Verheißung' – meint Nachkommen im Allgemeinen, und Petrus schränkt sofort ein: ‚so viele der Herr herzurufen wird'. Das sind nur die Gerufenen, nicht automatisch Säuglinge."`,
+              objectionBy: 'Wayne Grudem',
+              answer: `Petrus spricht zu Juden, für die es selbstverständlich war, dass Kinder zum Bund gehören und sein Zeichen empfangen. Hätte er sie nun ausschließen wollen, hätte er das ausdrücklich sagen müssen – eine solche Revolution hätte Streit ausgelöst wie die Frage der Heidenbeschneidung (Apg 15). Doch im ganzen NT gibt es keinen einzigen Streit darüber, ob die Kinder der Gläubigen noch dazugehören. Dieses Schweigen spricht für Kontinuität. Und „so viele der Herr herzurufen wird" bezieht sich auf „alle, die ferne sind" – die Heiden –, nicht auf eine Einschränkung der Kinder.`,
+              detail: `Joachim Jeremias (*Die Kindertaufe in den ersten vier Jahrhunderten*, 1958) argumentierte, dass die Formel „er und sein ganzes Haus" (Apg 16,15.33; 1 Kor 1,16) im jüdischen und frühchristlichen Sprachgebrauch Kinder einschließt, und dass die frühe Kirche die Kinder christlicher Eltern von Anfang an taufte. Kurt Aland widersprach ihm (*Die Säuglingstaufe im Neuen Testament und in der alten Kirche*, 1961), und Jeremias antwortete (*Nochmals: Die Anfänge der Kindertaufe*, 1962).
+
+Ehrlich gesagt: Diese Forschungsdebatte ist nicht endgültig entschieden. Aber auch nach Aland ist die Kindertaufe spätestens um 200 sicher bezeugt – und keine einzige frühe Quelle nennt sie eine Neuerung.`,
+              voices: [
+                {
+                  person: 'joachim-jeremias',
+                  role: 'als lutherischer Neutestamentler und Judaist',
+                  text: `Jeremias untersuchte den jüdischen Hintergrund der Haus-Formel und der Proselytentaufe, bei der auch Kinder mit getauft wurden. Er kam zu dem Ergebnis, dass die Urkirche die Kinder christlicher Eltern in die Taufe einbezog und dass die Kindertaufe keine spätere Erfindung ist, sondern an die Bundespraxis Israels anknüpft.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Joachim Jeremias', work: 'Die Kindertaufe in den ersten vier Jahrhunderten', year: '1958', quote: `Die Haus-Formel schließt nach jüdischem und urchristlichem Sprachgebrauch die Kinder ein; die Urkirche hat die Kinder christlicher Eltern getauft.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '2,38–39', quote: `Tut Buße, und lasse sich ein jeglicher taufen auf den Namen Jesu Christi zur Vergebung der Sünden, so werdet ihr empfangen die Gabe des heiligen Geistes. Denn euer und eurer Kinder ist diese Verheißung und aller, die ferne sind, welche Gott, unser Herr, herzurufen wird.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'aland-widerlegt-jeremias',
+                  objection: `„Kurt Aland hat Jeremias überzeugend widerlegt: Vor 200 gibt es kein sicheres Zeugnis. Deine Kontinuitätsthese ist Wunschdenken."`,
+                  objectionBy: 'Kurt Aland / Everett Ferguson',
+                  answer: `Aland hat gezeigt, dass *ausdrückliche* Zeugnisse erst um 200 einsetzen – das gebe ich zu. Aber beachte, was um 200 passiert: Die Kindertaufe taucht in Nordafrika (Tertullian), Rom (Hippolyt-Tradition) und Ägypten bzw. Palästina (Origenes) gleichzeitig auf – als etablierte Praxis, nicht als Neuerung. Origenes nennt sie eine Überlieferung von den Aposteln. Um 253 beriet eine afrikanische Synode unter Cyprian nicht darüber, *ob* man Kinder tauft, sondern ob man bis zum achten Tag warten müsse – und verneinte das. Eine Praxis, die so verbreitet und unbestritten ist, entsteht nicht in einer Generation unbemerkt.`,
+                  detail: `Origenes schreibt in seinem Römerbriefkommentar (V,9), die Kirche habe von den Aposteln die Überlieferung empfangen, auch den kleinen Kindern die Taufe zu spenden. Cyprian beantwortet in seinem Brief an Fidus (Ep. 64) im Namen einer Synode die Frage, ob man Neugeborene schon vor dem achten Tag taufen dürfe – mit Ja. Nirgends in den Quellen findet sich ein Protest, die Kindertaufe sei eine Neuerung; selbst Tertullian, der zum Aufschub rät, bestreitet ihre Gültigkeit nicht.
+
+Wer behauptet, die Kirche habe zwischen 100 und 200 die apostolische Glaubenstaufe überall und spurlos durch die Kindertaufe ersetzt, muss eine Revolution ohne Revolutionäre annehmen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Origenes', work: 'Kommentar zum Römerbrief', ref: 'V,9', year: 'um 246', quote: `Die Kirche hat von den Aposteln die Überlieferung empfangen, auch den kleinen Kindern die Taufe zu spenden.`, status: 'paraphrase', note: 'Nur in der lateinischen Übersetzung Rufins erhalten.' },
+                    { kind: 'kirchenvater', author: 'Cyprian von Karthago', work: 'Brief 64 (an Fidus)', year: 'um 253', quote: `Die Synode lehnt es ab, mit der Taufe der Neugeborenen bis zum achten Tag zu warten; Gottes Gnade sei keinem Menschen, auch keinem Kind, zu verweigern.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Kurt Aland', work: 'Die Säuglingstaufe im Neuen Testament und in der alten Kirche', year: '1961', quote: `Ausdrückliche, sichere Zeugnisse für die Säuglingstaufe beginnen erst um 200.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn die Kindertaufe eine Neuerung war – wer hat sie eingeführt, und warum hat niemand protestiert?`,
+                    `Warum diskutierte Cyprians Synode nur über den achten Tag und nicht über die Kindertaufe selbst?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn Mk 16,16 auch für Säuglinge gilt – sind dann alle Säuglinge verdammt, weil sie nicht glauben können?`,

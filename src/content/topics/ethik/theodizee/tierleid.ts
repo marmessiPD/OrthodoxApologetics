@@ -118,6 +118,27 @@ const claim: Claim = {
               objectionBy: 'Tierethiker',
               answer: `Einverstanden – bei Säugetieren und Vögeln ist bewusstes Schmerzempfinden sehr wahrscheinlich, und das nehme ich ernst. Dann greifen die anderen Überlegungen: die Schutzfunktion des Schmerzes, die Gesetzmäßigkeit einer Welt mit biologischem Leben, die Hoffnung auf die Befreiung der Schöpfung. Und es folgt eine Aufgabe für Christen: Sie sollten bei Tierschutz und Barmherzigkeit gegenüber Tieren vorangehen, nicht hinterherhinken.`,
               detail: `Die orthodoxe Tradition kennt viele Heilige mit besonderer Nähe zu Tieren; Isaak der Syrer betete auch für die Tiere. Wer Tierleid als Argument gegen Gott vorbringt, hat oft ein tiefes moralisches Empfinden – das sollte man anerkennen und als Gemeinsamkeit nutzen.`,
+              followUps: [
+                {
+                  id: 'ausmass-zu-gross',
+                  objection: `Selbst wenn jede deiner Überlegungen etwas erklärt: Das Ausmaß bleibt unerklärt. Hunderte Millionen Jahre, über 99 Prozent aller Arten ausgestorben, Billionen Tiere, die langsam verhungern oder gefressen werden. Keine Summe von Teilerklärungen deckt diese Größenordnung.`,
+                  objectionBy: 'Paul Draper / William Rowe',
+                  answer: `Das Ausmaß ist erschütternd, und ich will es nicht kleinrechnen. Michael Murray beansprucht auch nicht, es vollständig zu erklären, sondern zu zeigen, dass es mit einem guten Gott nicht unvereinbar ist. Ein Gedanke von ihm: Eine Welt, die sich gesetzmäßig von Chaos zu Ordnung entwickelt, statt in einem einzigen Wunderakt fertig dazustehen, könnte selbst ein großes Gut sein – und Gesetzmäßigkeit über Jahrmillionen bringt zwangsläufig große Zahlen mit sich. Ob das ausreicht, bleibt eine Abwägung; ich gebe zu, dass hier die schwerste offene Stelle jeder Theodizee liegt.`,
+                  detail: `Murray (*Nature Red in Tooth and Claw*, 2008, bes. Kap. 6) diskutiert die „Chaos-zu-Ordnung"-Erklärung als eine von mehreren Causa-Dei-Überlegungen. Er argumentiert, dass ein Universum, das sich durch eigene, von Gott verliehene Gesetzmäßigkeit entfaltet, einen Wert besitzt, der verloren ginge, wenn Gott es Augenblick für Augenblick wundersam formen würde.
+
+Methodisch wichtig: Draper vergleicht Theismus und Gleichgültigkeitshypothese nur anhand des Leids. Eine faire Gesamtabwägung muss auch die Existenz des Universums, seine Feinabstimmung, Bewusstsein, Moral und die Auferstehung Jesu einbeziehen (siehe Claim „Das evidentielle Problem des Übels").`,
+                  voices: [
+                    {
+                      person: 'michael-murray',
+                      role: 'als Religionsphilosoph des Tierleids',
+                      text: `Murray hält keine einzelne Erklärung für ausreichend, wohl aber ihre Kombination: die Schutzfunktion des Schmerzes, die Unterschiede im Erleben verschiedener Tierarten, den Wert einer gesetzmäßigen Natur und den Wert einer Schöpfung, die sich von Chaos zu Ordnung entfaltet. Sein Ziel ist bescheiden und gerade deshalb stark: zu zeigen, dass ein vernünftiger Mensch Tierleid und Gottes Güte zusammen denken kann.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Michael J. Murray', work: 'Nature Red in Tooth and Claw: Theism and the Problem of Animal Suffering', year: '2008', quote: `Eine Schöpfung, die sich gesetzmäßig von Chaos zu Ordnung entfaltet, könnte ein eigenes Gut darstellen, das die damit verbundenen Übel aufwiegt.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -143,6 +164,29 @@ const claim: Claim = {
               objectionBy: 'Philosophischer Kritiker',
               answer: `Auch der Petrusbrief kennt diese Ungeduld: „Der HERR verzieht nicht die Verheißung, wie es etliche für einen Verzug achten; sondern er hat Geduld mit uns und will nicht, daß jemand verloren werde" (2 Petr 3,9). Gottes Aufschub hat einen Grund: Raum für Umkehr und Freiheit. Die neue Schöpfung ist die Vollendung einer Geschichte mit freien Geschöpfen; wer sie vorzieht, beendet diese Geschichte. Ich gebe zu: Das beantwortet nicht jedes Warum. Aber es zeigt, dass der Aufschub nicht Gleichgültigkeit sein muss.`,
               detail: `Dieselbe Struktur findet sich beim Einwand „Warum nicht gleich den Himmel?" (siehe den Claim zum logischen Problem des Übels): Die Vollendung setzt die Geschichte voraus, die zu ihr führt.`,
+              followUps: [
+                {
+                  id: 'tiere-kollateralschaden',
+                  objection: `Dieses Argument funktioniert vielleicht für Menschen, die Freiheit und Umkehr haben. Aber die Tiere haben nichts davon. Für sie ist die menschliche Heilsgeschichte nur ein Grund, Jahrmillionen länger gefressen zu werden. Sie sind Kollateralschaden in einem Drama, an dem sie nicht teilnehmen.`,
+                  objectionBy: 'Alex O\'Connor',
+                  answer: `Das ist ein ernster Punkt, und ich verstehe, warum er dich bewegt. Paulus sieht es aber anders: Die Tiere stehen nicht außerhalb des Dramas. Die Schöpfung wurde „auf Hoffnung" unterworfen und wird befreit werden „zu der herrlichen Freiheit der Kinder Gottes" (Röm 8,20–21). Für Athanasius hat der Logos durch die Menschwerdung Materie selbst angenommen – nicht nur Seelen –, um die ganze Schöpfung zu erneuern. Das Schicksal der Tiere hängt am Schicksal des Menschen, aber nicht als Abfallprodukt, sondern als Mitbetroffene, die mitbefreit werden.`,
+                  detail: `Die orthodoxe Sicht ist kosmisch: Der Mensch ist als Priester der Schöpfung gedacht, der die sichtbare Welt zu Gott hin führt. Sein Versagen betrifft die ganze Schöpfung, seine Erlösung in Christus ebenso. Das ist keine Erklärung jedes Tierleids, aber es widerspricht der Vorstellung, Tiere seien für Gott bloße Kulisse. Gott verweist Jona ausdrücklich auch auf die vielen Tiere Ninives als Grund seines Erbarmens (Jona 4,11).`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Theologe der Menschwerdung',
+                      text: `Für Athanasius ist der Logos derjenige, durch den die ganze Schöpfung ins Dasein gerufen wurde und der sie zusammenhält. In der Menschwerdung nimmt er einen Leib aus dieser Schöpfung an, um sie von innen her vom Verderben zu befreien. Damit ist die materielle Welt – zu der die Tiere gehören – nicht Abfall der Erlösung, sondern ihr Schauplatz und ihr Mitempfänger.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '1; 8', year: 'ca. 318', quote: `Die Erneuerung der Schöpfung geschieht durch denselben Logos, der sie am Anfang geschaffen hat; er nahm einen Leib aus unserer Welt an, um sie vom Verderben zu befreien.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Römer', ref: '8,20–21', quote: `Sintemal die Kreatur unterworfen ist der Eitelkeit ohne ihren Willen, sondern um deswillen, der sie unterworfen hat, auf Hoffnung. Denn auch die Kreatur wird frei werden vom Dienst des vergänglichen Wesens zu der herrlichen Freiheit der Kinder Gottes.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Jona', ref: '4,11', quote: `Gott fragt Jona, ob er sich nicht über Ninive erbarmen solle, die große Stadt mit mehr als 120.000 Menschen – „dazu auch viele Tiere".`, status: 'paraphrase' },
+                  ],
+                },
+              ],
               sources: [
                 { kind: 'bibel', work: '2. Petrus', ref: '3,9', quote: `Der HERR verzieht nicht die Verheißung, wie es etliche für einen Verzug achten; sondern er hat Geduld mit uns und will nicht, daß jemand verloren werde, sondern daß sich jedermann zur Buße kehre.`, translation: 'Luther 1912', status: 'verbatim' },
               ],
@@ -164,6 +208,35 @@ const claim: Claim = {
           objectionBy: 'Säkularer Kritiker',
           answer: `Für die Frage, ob Tierleid und Gott *logisch* vereinbar sind, genügt eine Möglichkeit, und innerhalb des christlichen Weltbilds ist diese nicht absurd. Aber ich muss mich nicht darauf stützen: Die Schutzfunktion des Schmerzes, die Gesetzmäßigkeit der Natur und die Hoffnung auf Befreiung der Schöpfung tragen auch ohne diese Hypothese.`,
           detail: `Gute Apologetik setzt nicht alles auf eine einzige, angreifbare Hypothese. Mehrere unabhängige Überlegungen zusammen sind belastbarer.`,
+          followUps: [
+            {
+              id: 'warnschmerz-reicht-mild',
+              objection: `Als Warnsignal hätte ein milder Schmerz gereicht. Wozu muss eine Gazelle bei lebendigem Leib zerrissen werden? In der Minute, in der ich diesen Satz sage, werden Tausende Tiere lebendig gefressen. Das übersteigt jedes Maß.`,
+              objectionBy: 'Richard Dawkins (River Out of Eden, 1995)',
+              answer: `Das Bild ist erschütternd, und ich will es nicht schönreden. Zwei Dinge sind aber bemerkenswert: Erstens schützt ein Schmerz nur dann wirksam, wenn er stark genug ist, um Verhalten zu ändern – zu schwache Warnsignale werden ignoriert. Zweitens kennt die Physiologie die stressbedingte Schmerzdämpfung: Im Moment höchster Gefahr schüttet der Körper Stoffe aus, die Schmerz stark mindern. David Livingstone, der von einem Löwen angefallen wurde, berichtete, er habe dabei weder Schmerz noch Angst gefühlt. Das löst nicht alles, aber das Bild des bewusst durchlittenen Grauens ist oft zu einfach.`,
+              detail: `Livingstone schildert den Angriff in *Missionary Travels and Researches in South Africa* (1857): Der Schock habe eine Art Betäubung bewirkt, ohne Schmerzgefühl und ohne Schrecken; er vermutete darin eine barmherzige Einrichtung des Schöpfers. Die moderne Forschung bestätigt grundsätzlich, dass akute Gefahr körpereigene Opioide freisetzt (stressinduzierte Analgesie). Man sollte das nicht überdehnen – nicht jedes Tier stirbt schnell –, aber es relativiert die Annahme, jeder Raub sei eine Folter im vollen Bewusstsein.`,
+              sources: [
+                { kind: 'gegner', author: 'Richard Dawkins', work: 'River Out of Eden', ref: 'Kap. 4 („God\'s Utility Function")', year: '1995', quote: `Das Gesamtmaß des Leidens in der Natur pro Jahr übersteigt alle erträgliche Vorstellung; während er diesen Satz schreibe, würden Tausende Tiere lebendig gefressen.`, status: 'paraphrase' },
+                { kind: 'sonstiges', author: 'David Livingstone', work: 'Missionary Travels and Researches in South Africa', ref: 'Kap. 1', year: '1857', quote: `Livingstone berichtet, der Schock des Löwenangriffs habe eine Art Betäubung bewirkt, in der er weder Schmerz noch Schrecken empfand.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'blinde-gleichgueltigkeit',
+                  objection: `Das Universum hat genau die Eigenschaften, die man erwarten würde, wenn es im Grunde keinen Plan, keinen Zweck, kein Böse und kein Gut gibt – nichts als blinde, erbarmungslose Gleichgültigkeit.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Dann achte darauf, was du gerade gesagt hast: „kein Böse und kein Gut". Wenn das stimmt, ist das Tierleid nicht *schlecht*, sondern nur ein Ereignis – und dein Einwand gegen Gott verliert seine Kraft. Deine Empörung über das Leid der Gazelle setzt voraus, dass dieses Leid wirklich böse ist. Ich teile diese Empörung, und ich glaube, sie ist berechtigt – gerade weil es einen Maßstab gibt, an dem gemessen das Leid ein Übel ist. Der Gott der Bibel teilt sie auch: Er erbarmt sich über das Vieh (Ps 36,7; Jona 4,11).`,
+                  detail: `Dawkins' Satz (*River Out of Eden*, Kap. 4) ist ehrlich und konsequent. Er zeigt aber das Dilemma des Naturalisten im Problem des Übels: Entweder ist das Leid objektiv schlecht – dann braucht man einen Maßstab jenseits der blinden Natur – oder es ist nur Natur – dann gibt es kein „Problem des Übels", sondern nur ein Unbehagen. Der Christ kann das Leid der Tiere als echtes Übel ernst nehmen und zugleich auf seine Überwindung hoffen. Dieser Gedanke darf nie als Trick verwendet werden: Wer am Tierleid leidet, hat ein gutes Herz, und das sollte man ihm sagen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Richard Dawkins', work: 'River Out of Eden', ref: 'Kap. 4', year: '1995', quote: `Das Universum, das wir beobachten, hat genau die Eigenschaften, die wir erwarten sollten, wenn es im Grunde keinen Plan, keinen Zweck, kein Böse und kein Gut gibt, nichts als blinde, erbarmungslose Gleichgültigkeit.`, original: `The universe we observe has precisely the properties we should expect if there is, at bottom, no design, no purpose, no evil and no good, nothing but blind, pitiless indifference.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Psalm', ref: '36,7', quote: `HERR, du hilfst Menschen und Vieh.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn es „kein Böse und kein Gut" gibt – was genau ist dann falsch am Leid der Tiere?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -180,6 +253,18 @@ const claim: Claim = {
           objectionBy: 'Skeptiker',
           answer: `Teilweise stimmt das – ich gebe zu, dass wir hier wenig wissen. Aber das gilt in beide Richtungen: Du weißt auch nicht, dass es keinen gibt. Ich halte mich an das, was offenbart ist: Gott erbarmt sich aller seiner Werke (Ps 145,9), und die ganze Schöpfung wartet auf Befreiung. Mehr behaupte ich nicht.`,
           detail: `Bescheidenheit ist hier die überzeugendste Haltung. Das Tierleid bleibt eine offene Wunde in jeder Weltanschauung – im Naturalismus hat es allerdings überhaupt keinen Sinn und keine Hoffnung.`,
+          followUps: [
+            {
+              id: 'anthropozentrisch',
+              objection: `Selbst C. S. Lewis meinte, höchstens Haustiere könnten über ihre Beziehung zum Menschen an der Erlösung teilhaben. Die Milliarden wilder Tiere bleiben draußen. Eure Theologie ist durch und durch menschenzentriert.`,
+              objectionBy: 'Tierethiker (mit Bezug auf Lewis, The Problem of Pain, Kap. 9)',
+              answer: `Lewis hat das ausdrücklich als vorsichtige Vermutung formuliert, nicht als Lehre – und er ist für die koptische Kirche keine Autorität. Die Schrift ist weiter als seine Spekulation: Gott „erfüllt alles, was lebt, mit Wohlgefallen" (Ps 145,16), er gibt den jungen Raben ihr Futter (Ps 147,9), und die Versöhnung in Christus betrifft „alles, es sei auf Erden oder im Himmel" (Kol 1,20). Der Mensch steht im Zentrum der Heilsgeschichte, aber als Priester der Schöpfung, nicht als ihr einziger Nutznießer.`,
+              detail: `Die Väter, besonders in der Wüstentradition, haben die Tiere als Mitgeschöpfe erlebt; Isaak der Syrer betete für sie. Eine Theologie, die nur den Menschen sieht, ist nicht orthodox, sondern verkürzt. Ehrlich bleibt: Wie genau Tiere an der neuen Schöpfung teilhaben, sagt die Schrift nicht.`,
+              sources: [
+                { kind: 'bibel', work: 'Kolosser', ref: '1,20', quote: `… und alles durch ihn versöhnt würde zu ihm selbst, es sei auf Erden oder im Himmel, damit daß er Frieden machte durch das Blut an seinem Kreuz, durch sich selbst.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },

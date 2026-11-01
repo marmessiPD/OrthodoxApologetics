@@ -64,7 +64,7 @@ const claim: Claim = {
       text: `Origenes wird oft als „Kronzeuge" der Reinkarnation genannt. Tatsächlich spekulierte er über eine Präexistenz der Seelen vor dieser Welt – was die Kirche später verwarf. Aber die Wanderung einer Seele durch immer neue irdische Leiber lehnte er ausdrücklich ab. In seinem Matthäuskommentar erklärt er gerade zur Frage nach Elia und Johannes, dass nicht die Seele Elias in Johannes kam, sondern sein Geist und seine Kraft – und dass die Lehre von der Seelenwanderung der Lehre der Kirche fremd sei.`,
       sources: [
         { kind: 'kirchenvater', author: 'Origenes', work: 'Matthäuskommentar', ref: 'XIII,1–2', quote: `Ablehnung der Seelenwanderung bei der Auslegung von Mt 17,10–13.`, status: 'paraphrase' },
-        { kind: 'kirchenvater', author: 'Origenes', work: 'Gegen Kelsos (Contra Celsum)', quote: `Origenes weist die platonische Seelenwanderung als unvereinbar mit der christlichen Lehre zurück.`, status: 'unverified', note: 'Genaue Stelle vor Zitat prüfen.' },
+        { kind: 'kirchenvater', author: 'Origenes', work: 'Gegen Kelsos (Contra Celsum)', ref: 'III,75; V,29', quote: `Origenes stellt der Lehre von der Seelenwanderung (*metensōmatōsis*) die christliche Auferstehungshoffnung entgegen und weist sie zurück.`, status: 'paraphrase', note: 'Stellenangabe nach der Fachliteratur (u. a. J. Young, Oxford, zu Origenes und der Metensomatose); die Forschung diskutiert, wie weit Origenes Bilder dieser Lehre umdeutet. Die deutlichste Ablehnung steht im Matthäuskommentar XIII,1.' },
       ],
     },
     {
@@ -149,6 +149,15 @@ const claim: Claim = {
       answer: `Karma erklärt das Leid eines Kindes damit, dass es in einem früheren Leben selbst schuld war – das ist keine Gerechtigkeit, sondern eine Anklage gegen das Opfer, an die sich niemand erinnert. Jesus weist genau diese Logik zurück (Joh 9,3). Das Evangelium antwortet auf Leid nicht mit Schuldzuweisung, sondern mit einem Gott, der selbst leidet, heilt und am Ende alle Tränen abwischt.`,
       followUps: [
         {
+          id: 'gal-6-7-saat-ernte',
+          objection: `Paulus lehrt doch selbst das Karma-Gesetz: „Was der Mensch sät, das wird er ernten" (Gal 6,7). Das ist dasselbe Prinzip wie im Osten.`,
+          objectionBy: 'Esoterische Autoren',
+          answer: `Lies den nächsten Vers: „Wer auf sein Fleisch sät, der wird vom Fleisch das Verderben ernten; wer aber auf den Geist sät, der wird von dem Geist das ewige Leben ernten" (6,8). Paulus spricht von Folgen in diesem Leben und vom Gericht Gottes, nicht von einem unpersönlichen Gesetz, das durch viele Leben wirkt. Und derselbe Paulus verkündet, was es im Karma nicht gibt: Gnade, die die Schuld vergibt, statt sie abzutragen – „aus Gnade seid ihr selig geworden" (Eph 2,8).`,
+          detail: `Das Prinzip von Saat und Ernte kennt die ganze Bibel als Weisheit (Spr 22,8; Hos 8,7). Aber es steht unter dem persönlichen Gott, der richtet und begnadigt. Der Unterschied ist entscheidend: Karma ist ein unpersönliches Gesetz, dem auch die Götter unterworfen sind, und es kennt keine Vergebung, nur Abtragen. Im Evangelium nimmt Christus selbst die Last auf sich – darum kann der Schächer am Kreuz „heute" im Paradies sein (Lk 23,43), ohne ein einziges weiteres Leben zur Abtragung seiner Taten.`,
+          sources: [{ kind: 'bibel', work: 'Galater', ref: '6,7–8', quote: `Irret euch nicht! Gott läßt sich nicht spotten. Denn was der Mensch sät, das wird er ernten. Wer auf sein Fleisch sät, der wird von dem Fleisch das Verderben ernten; wer aber auf den Geist sät, der wird von dem Geist das ewige Leben ernten.`, translation: 'Luther 1912', status: 'verbatim' }],
+          questionsBack: [`Wie viele Leben hätte der Schächer am Kreuz nach dem Karma-Gesetz noch gebraucht – und was sagt Jesus ihm stattdessen?`],
+        },
+        {
           id: 'stevenson-faelle',
           objection: `Ian Stevenson von der University of Virginia hat Hunderte Fälle von Kindern dokumentiert, die sich an frühere Leben erinnerten – mit überprüfbaren Details.`,
           objectionBy: 'Ian Stevenson / Jim B. Tucker',
@@ -161,6 +170,62 @@ const claim: Claim = {
               objectionBy: 'Rückführungstherapeuten',
               answer: `Hypnose erhöht nachweislich die Anfälligkeit für Suggestion und falsche Erinnerungen; die Gedächtnisforscherin Elizabeth Loftus hat gezeigt, wie leicht sich Erinnerungen erzeugen lassen. Im berühmten Fall „Bridey Murphy" (1950er-Jahre) ließen sich die „irischen" Details auf die Kindheit der Frau in Amerika zurückführen. Lebendige Bilder sind kein Beleg für ein früheres Leben.`,
               sources: [{ kind: 'wissenschaft', author: 'Elizabeth F. Loftus', work: 'The Reality of Repressed Memories', ref: 'American Psychologist 48 (1993), 518–537', year: '1993', quote: `Falsche Erinnerungen lassen sich durch Suggestion erzeugen.`, status: 'paraphrase' }],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'wiedergeburt-joh-3',
+      objection: `Jesus lehrte ausdrücklich die Wiedergeburt: „Es sei denn, dass jemand von neuem geboren werde, so kann er das Reich Gottes nicht sehen" (Joh 3,3). Die Kirche hat das später nur geistlich umgedeutet.`,
+      objectionBy: 'Edgar Cayce / Esoterik-Literatur',
+      answer: `Das griechische *anōthen* heißt „von oben" und „von neuem". Nikodemus versteht es genau so wörtlich-leiblich, wie du – „Kann er auch wiederum in seiner Mutter Leib gehen und geboren werden?" (3,4) –, und Jesus korrigiert ihn: „aus Wasser und Geist" geboren werden (3,5), „was vom Geist geboren wird, das ist Geist" (3,6). Gemeint ist eine neue Geburt durch Gott in **diesem** Leben – in der Taufe –, nicht ein neuer Körper nach dem Tod.`,
+      detail: `Die koptische Kirche liest Joh 3,5 seit jeher als Wort über die Taufe: Der Täufling wird dreimal untergetaucht und als neuer Mensch aus dem Wasser gehoben, dann mit dem heiligen Myron gesalbt. Kyrill von Alexandrien erklärt in seinem Johanneskommentar, dass der Geist den Menschen im Wasser neu gestaltet und zum Kind Gottes macht. Das Johannesevangelium selbst hat die Wendung schon im Prolog vorbereitet: Kinder Gottes sind die, „welche nicht von dem Geblüt noch von dem Willen des Fleisches … sondern von Gott geboren sind" (1,13).`,
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '3,4–6', quote: `Nikodemus spricht zu ihm: Wie kann ein Mensch geboren werden, wenn er alt ist? Kann er auch wiederum in seiner Mutter Leib gehen und geboren werden? Jesus antwortete: … Es sei denn, daß jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen. Was vom Fleisch geboren wird, das ist Fleisch; und was vom Geist geboren wird, das ist Geist.`, original: `ἐὰν μή τις γεννηθῇ ἄνωθεν`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium', ref: 'zu Joh 3,5', quote: `Der Geist gestaltet den Menschen im Wasser der Taufe neu und macht ihn zum Kind Gottes.`, status: 'paraphrase' },
+      ],
+      questionsBack: [`Wenn Jesus eine leibliche Wiedergeburt meinte – warum korrigiert er dann gerade Nikodemus, der genau das verstanden hatte?`],
+      followUps: [
+        {
+          id: 'gnostiker-glaubten-reinkarnation',
+          objection: `Aber viele frühe Christen glaubten an Reinkarnation – die Pistis Sophia lehrt sie ausdrücklich, und die Karpokratianer auch. Die Kirche hat diese Strömung später unterdrückt.`,
+          objectionBy: 'Reinkarnationsautoren / Theosophie',
+          answer: `Es stimmt: Einige gnostische Gruppen lehrten Seelenwanderung – Irenäus berichtet das von den Karpokratianern, und die Pistis Sophia (3. Jh.) kennt sie ebenfalls. Aber genau das zeigt das Gegenteil dessen, was du schließt: Die Kirche kannte die Lehre und lehnte sie ab, weil sie zum gnostischen System gehörte, nicht zum apostolischen Glauben. Irenäus, Tertullian, Origenes und Gregor von Nyssa haben sie ausdrücklich widerlegt – und zwar Jahrhunderte vor 553.`,
+          detail: `Irenäus beschreibt in Gegen die Häresien I,25,4, dass die Karpokratianer lehrten, die Seele müsse durch immer neue Leiber wandern, bis sie alles erfahren habe. Das ist ein Zeugnis aus dem 2. Jahrhundert für die Lehre – und für ihre Ablehnung. Der Glaube der Kirche war von Anfang an Auferstehungsglaube: „ich glaube an die Auferstehung des Fleisches" steht bereits in den frühesten Taufbekenntnissen.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien', ref: 'I,25,4; II,33', quote: `Die Karpokratianer lehren eine Wanderung der Seelen durch Leiber; Irenäus widerlegt die Seelenwanderung.`, status: 'paraphrase' },
+            { kind: 'gegner', work: 'Pistis Sophia', year: '3. Jh.', quote: `Gnostische Schrift, die eine Rückkehr von Seelen in neue Leiber kennt.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'mehr-chancen-gnaedig',
+              objection: `Reinkarnation ist doch gnädiger als euer Modell: Statt einer einzigen Chance und dann ewiger Hölle bekommt jeder so viele Leben, wie er braucht, um zu lernen.`,
+              objectionBy: 'Westliche Esoterik / Shirley MacLaine',
+              answer: `Im Hinduismus und Buddhismus gilt der Kreislauf der Wiedergeburten (*samsara*) gerade nicht als Geschenk, sondern als Leiden, aus dem man befreit werden will. Und Gnade ist etwas anderes als viele Versuche: Gnade heißt, dass mir geschenkt wird, was ich nicht verdienen kann. Gott ist geduldig – „er will nicht, dass jemand verloren werde, sondern dass sich jedermann zur Buße kehre" (2 Petr 3,9) –, aber er rettet nicht dadurch, dass er uns endlos weiterüben lässt, sondern dadurch, dass er selbst in Christus kommt.`,
+              detail: `Die koptische Kirche betet in jeder Liturgie für die Entschlafenen und vertraut sie der Barmherzigkeit Gottes an – sie maßt sich kein Urteil über das ewige Schicksal Einzelner an. Hebr 9,27 bleibt der Rahmen: „Dem Menschen ist gesetzt, einmal zu sterben, danach aber das Gericht." Dieses „einmal" macht jedes Leben unendlich kostbar: Es ist nicht Durchgangsstation, sondern der Ort, an dem Gott mir begegnet.`,
+              sources: [
+                { kind: 'bibel', work: '2. Petrus', ref: '3,9', quote: `Der HERR verzieht nicht die Verheißung, wie es etliche für einen Verzug achten; sondern er hat Geduld mit uns und will nicht, daß jemand verloren werde, sondern daß sich jedermann zur Buße kehre.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Hebräer', ref: '9,27', quote: `Und wie den Menschen ist gesetzt, einmal zu sterben, darnach aber das Gericht.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'westliche-reinkarnation-wachstum',
+                  objection: `Die westliche Reinkarnationslehre ist eben anders als die östliche: Es geht nicht um Strafe, sondern um Seelenwachstum. Jedes Leben ist eine Schule, und die Seele entwickelt sich weiter.`,
+                  objectionBy: 'Theosophie / Rudolf Steiner / New Age',
+                  answer: `Dann frage ich: Wer wächst da eigentlich? Wenn ich mich an kein früheres Leben erinnere, keinen Leib, keine Beziehungen und keine Geschichte mit ihm teile – in welchem Sinn war das **ich**? Leibniz fragte schon: Was nützte es jemandem, König von China zu werden, wenn er dabei vergessen müsste, wer er war? Das wäre, als würde er vernichtet und ein anderer an seiner Stelle geschaffen. Die Auferstehung dagegen verspricht, dass **ich** – derselbe Mensch mit meiner Geschichte und meinen Lieben – verwandelt werde.`,
+                  detail: `Die westliche Fortschrittsversion der Reinkarnation ist eine Erfindung des 19. Jahrhunderts: Sie verbindet indische Begriffe mit dem europäischen Glauben an ständige Höherentwicklung. In der Bhagavad Gita oder bei Buddha findet sich diese optimistische „Schule der Seele" so nicht. Und sie bleibt ein Weg der Selbsterlösung: Am Ende muss ich mich durch unzählige Leben selbst vervollkommnen. Das Evangelium verkündet, dass Gott uns in Christus vollendet – als Personen, die er bei ihrem Namen kennt (Jes 43,1).`,
+                  voices: [
+                    {
+                      person: 'leibniz',
+                      role: 'als Philosoph der personalen Identität',
+                      text: `Leibniz argumentiert in seiner „Metaphysischen Abhandlung", dass Unsterblichkeit ohne Erinnerung wertlos wäre: Wer König von China würde, unter der Bedingung, zu vergessen, wer er gewesen ist, hätte davon nichts – es wäre dasselbe, als würde er vernichtet und zugleich ein König in China geschaffen. Für eine echte Fortdauer der Person brauche es Erinnerung und Selbstbewusstsein, die die moralische Identität tragen.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Metaphysische Abhandlung (Discours de métaphysique)', ref: '§ 34', year: '1686', quote: `Das Beispiel vom König von China: Fortdauer ohne Erinnerung käme einer Vernichtung gleich.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Wenn du dich an keines deiner früheren Leben erinnerst – in welchem Sinn warst du das?`],
+                },
+              ],
             },
           ],
         },
