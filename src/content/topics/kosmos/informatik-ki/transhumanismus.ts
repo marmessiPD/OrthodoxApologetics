@@ -248,6 +248,31 @@ const claim: Claim = {
                 `Was sagt die Pflicht, „das beste Kind" zu wählen, einem Menschen mit Down-Syndrom über seinen Wert?`,
                 `Liebst du dein Kind, weil es deine Kriterien erfüllt – oder weil es dein Kind ist?`,
               ],
+              followUps: [
+                {
+                  id: 'therapie-enhancement-grenze',
+                  objection: `Die Grenze zwischen Therapie und Verbesserung ist willkürlich. Impfungen „verbessern" das Immunsystem, Brillen die Augen. Wenn du Krankheiten verhindern darfst, darfst du auch Intelligenz steigern – die natürliche Lotterie ist ungerecht genug.`,
+                  objectionBy: 'John Harris (Enhancing Evolution, 2007)',
+                  answer: `Unscharfe Grenzen sind keine fehlenden Grenzen – zwischen Tag und Nacht gibt es auch eine Dämmerung. Die Impfung schützt eine **normale** Funktion vor Schaden; die Brille stellt sie wieder her. Beide dienen dem Wohl **dieses** Menschen, wie er ist. Das Projekt, den Menschen nach einem Idealbild neu zu entwerfen, hat ein anderes Ziel – und einen anderen Auftraggeber: Nicht der Betroffene bestimmt, sondern Eltern, Märkte oder Staaten, die festlegen, was „besser" ist.`,
+                  detail: `Christen müssen nicht jede Verbesserung ablehnen: Bildung, Training, Medizin und Technik sind gute Gaben. Die entscheidende Frage ist dreifach: (1) **Wer** wird verändert – ein einwilligender Erwachsener oder ein Kind, das nicht gefragt werden kann (Keimbahn)? (2) **Wozu** – Heilung und Dienst oder Konkurrenzvorteil und Status? (3) **Um welchen Preis** – werden Embryonen verbraucht, Menschen mit Behinderung abgewertet, Ungleichheit verschärft? Die natürliche Lotterie ist tatsächlich oft hart; die christliche Antwort ist Solidarität mit den Benachteiligten, nicht ihre Vermeidung. Basilius gründete sein Krankenhaus nicht für die „Besten", sondern für Aussätzige.`,
+                  voices: [
+                    {
+                      person: 'basilius',
+                      role: 'als Kirchenvater und Gründer der Basilias',
+                      text: `Basilius der Große errichtete um 370 vor Caesarea eine ganze Stadt der Barmherzigkeit (die „Basilias") mit Krankenhaus, Herberge und Pflegestätten für Aussätzige, die er nach Berichten seiner Zeitgenossen selbst pflegte. Für ihn ist die Heilkunst eine Gabe Gottes, die dem Leidenden dient – sie misst den Wert des Menschen nicht an seiner Leistungsfähigkeit.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Rede 43 (Grabrede auf Basilius)', ref: '63', year: '381/382', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'John Harris', work: 'Enhancing Evolution: The Ethical Case for Making Better People', year: '2007', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wer entscheidet, was „besser" ist – und was geschieht mit denen, die nicht „verbessert" wurden?`,
+                  ],
+                },
+              ],
             },
           ],
         },

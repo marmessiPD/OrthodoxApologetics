@@ -129,6 +129,21 @@ const claim: Claim = {
                   sources: [
                     { kind: 'wissenschaft', author: 'Robert C. Berwick, Noam Chomsky', work: 'Why Only Us: Language and Evolution', year: '2016', status: 'paraphrase' },
                   ],
+                  followUps: [
+                    {
+                      id: 'chomsky-ist-naturalist',
+                      objection: `Du missbrauchst Chomsky. Er ist Naturalist und hält Sprache für ein biologisches Organ wie das Auge. Und Paul Bloom und ich haben gezeigt, dass Sprache wie jedes komplexe Organ durch natürliche Selektion schrittweise entstanden sein kann.`,
+                      objectionBy: 'Steven Pinker',
+                      answer: `Fair – Chomsky ist kein Christ, und ich nehme ihn nur für den empirischen Befund in Anspruch, nicht für seine Weltanschauung. Aber gerade dass du und Chomsky euch über die Entstehung der Sprache grundsätzlich uneinig seid – schrittweise Selektion gegen plötzliches Auftreten ohne echte Vorstufen –, zeigt: Die Frage ist offen. Wer sagt, die Evolution habe die menschliche Sprache „längst erklärt", geht über den Stand der Forschung hinaus.`,
+                      detail: `Pinker und Bloom („Natural language and natural selection", 1990) argumentierten, die Sprachfähigkeit sei eine komplexe Anpassung und daher durch Selektion zu erklären. Berwick und Chomsky (2016) halten dagegen, dass die Kernoperation („Merge") nicht in kleinen Schritten entstehen kann – man hat sie oder hat sie nicht – und dass Tierkommunikation keine echte Vorstufe davon ist. Ein Konsens existiert nicht.
+
+Für Christen ist wichtig, nicht zu viel zu behaupten: Eine Lücke im Wissen ist kein Gottesbeweis. Der stärkere Punkt ist philosophisch: Sprache ist bei Menschen Ausdruck einer Vernunft, die Begriffe bildet, Wahrheit von Irrtum unterscheidet und nach dem Sinn des Ganzen fragt. Die Bibel verbindet das mit dem *Logos* – „Im Anfang war das Wort" (Joh 1,1) – und sieht im sprechenden, denkenden Menschen ein Abbild des Schöpfers, der „sprach, und es geschah".`,
+                      sources: [
+                        { kind: 'gegner', author: 'Steven Pinker, Paul Bloom', work: 'Natural language and natural selection', ref: 'Behavioral and Brain Sciences 13 (1990), 707–784', year: '1990', status: 'paraphrase' },
+                      ],
+                      questionsBack: [`Wenn zwei der bekanntesten Sprachforscher sich über den Ursprung der Sprache grundsätzlich uneinig sind – woher nimmst du die Gewissheit, dass er rein biologisch erklärt ist?`],
+                    },
+                  ],
                 },
               ],
             },
@@ -177,6 +192,55 @@ const claim: Claim = {
           objection: `Also gibst du zu, dass die Bibel selbst schwankt.`,
           objectionBy: 'Richard Dawkins',
           answer: `Die Weisheitsliteratur spielt bewusst Perspektiven durch – das ist ihre literarische Form, keine Unentschiedenheit. Kohelet endet mit dem Fazit: „Fürchte Gott und halte seine Gebote; denn das gehört allen Menschen zu" (Pred 12,13). Ein Text, der das Leben ohne Gott ehrlich durchdenkt und dann zu Gott führt, ist eher eine Stärke der Bibel.`,
+          followUps: [
+            {
+              id: 'dna-schimpanse',
+              objection: `Lassen wir die Bibel. Die Genetik spricht klar: Wir teilen rund 98–99 Prozent unserer DNA-Sequenz mit Schimpansen. Wir sind Menschenaffen, nicht mehr.`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Die Ähnlichkeit ist real – je nach Zählweise rund 96 bis 99 Prozent. Aber sie misst Baustoffe, nicht das, was daraus entsteht: Dieselben Buchstaben ergeben einen Einkaufszettel oder Shakespeare. Die Bibel sagt selbst, dass der Mensch aus dem „Staub der Erde" gebildet ist (Gen 2,7) – gemeinsames Material mit der übrigen Schöpfung ist also zu erwarten. Was ihn unterscheidet, ist nicht ein Gen, sondern der „Odem des Lebens", die vernunftbegabte Seele.`,
+              detail: `Zu den Zahlen: Die oft genannten ~98,8 % beziehen sich auf Einzelbasen-Unterschiede in direkt vergleichbaren Abschnitten; berücksichtigt man Einfügungen und Löschungen, liegt die Übereinstimmung niedriger (rund 96 %). Diese Zahlen sind solide und sollten nicht bestritten werden. Viele Unterschiede liegen in regulatorischen Bereichen, die steuern, wann und wie stark Gene aktiv sind – kleine genetische Unterschiede können große Wirkungen haben.
+
+Theologisch: Die koptisch-orthodoxe Kirche legt sich auf biologische Mechanismen nicht dogmatisch fest; verbindlich ist, dass Gott den Menschen nach seinem Bild mit vernunftbegabter Seele geschaffen hat und dass Adam und Eva reale Personen sind. Die Gottebenbildlichkeit ist keine messbare DNA-Eigenschaft, sondern eine Berufung und Fähigkeit zur Gemeinschaft mit Gott. Athanasius sieht den Menschen gerade dadurch ausgezeichnet, dass er am Logos Anteil hat und darum „logikos", vernunftbegabt, ist.`,
+              sources: [
+                { kind: 'bibel', work: '1. Mose (Genesis)', ref: '2,7', quote: `Und Gott der HERR machte den Menschen aus einem Erdenkloß, und er blies ihm ein den lebendigen Odem in seine Nase. Und also ward der Mensch eine lebendige Seele.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '3', status: 'paraphrase', quote: `Gott schuf die Menschen nicht einfach wie alle vernunftlosen Lebewesen auf Erden, sondern nach seinem Bild und gab ihnen Anteil an der Kraft seines eigenen Logos.` },
+              ],
+              followUps: [
+                {
+                  id: 'wann-kam-die-seele',
+                  objection: `Dann erklär mir: Wenn der menschliche Körper eine Abstammungsgeschichte hat, wann kam die Seele dazu? Gab es ein erstes Wesen mit Seele, dessen Eltern keine hatten? Das ist absurd.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `Das ist eine ernste Frage, und Christen geben darauf unterschiedliche Antworten – ich will dir nichts vormachen. Verbindlich ist für mich: Gott hat Adam und Eva als reale Personen mit vernunftbegabter Seele geschaffen, durch einen besonderen schöpferischen Akt. Absurd ist das nur, wenn man schon voraussetzt, dass es keinen Gott gibt, der handeln kann. Und die Gegenfrage ist mindestens so schwer: Wie wird aus Materie, die nicht denkt, ein Wesen, das über Wahrheit, Gut und Böse und über Gott nachdenkt?`,
+                  detail: `Was dogmatisch feststeht und was offen ist:
+- **Fest (koptisch-orthodox):** Gott schuf aus dem Nichts; der Mensch ist nach Gottes Bild mit vernunftbegabter Seele geschaffen; Adam und Eva sind reale Personen; der Sündenfall ist real.
+- **Offen:** Erdalter und biologische Mechanismen. Die Väter lasen Genesis unterschiedlich – Basilius eher wörtlich, Augustinus und die Alexandriner auch geistlich.
+
+Einige christliche Wissenschaftler haben Modelle vorgeschlagen, wie ein reales erstes Menschenpaar und genetische Befunde zusammenpassen könnten, etwa S. Joshua Swamidass mit dem Modell des „genealogischen Adam" (2019). Solche Modelle sind Diskussionsbeiträge, nicht kirchliche Lehre; die Hauptlinie dieser App ist kritisch gegenüber einem ungelenkten, materialistischen Darwinismus.
+
+Für das Gespräch genügt: Die Frage „Wann kam die Seele?" setzt voraus, dass Seele ein Stoff ist, der irgendwann „dazukommt". In der patristischen Sicht (z. B. Gregor von Nyssa, De hominis opificio 29) entstehen Leib und Seele beim Menschen gleichzeitig – die Seele ist die lebendige, vernünftige Form des Menschen, keine Zutat.`,
+                  voices: [
+                    {
+                      person: 'joshua-swamidass',
+                      role: 'als Computerbiologe (Diskussionsmodell, keine kirchliche Lehre)',
+                      text: `S. Joshua Swamidass argumentiert in „The Genealogical Adam and Eve", dass die genetischen Daten über eine größere Ursprungspopulation nicht ausschließen, dass ein reales Paar Adam und Eva vor einigen tausend Jahren zu genealogischen Vorfahren aller heute lebenden Menschen wurde. Er unterscheidet dabei strikt zwischen genetischer und genealogischer Abstammung und betont, dass sein Modell eine wissenschaftliche Verträglichkeitsprüfung ist, keine theologische Festlegung.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'S. Joshua Swamidass', work: 'The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry', year: '2019', status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Kirchenvater der Anthropologie',
+                      text: `Gregor von Nyssa lehnt in „Über die Erschaffung des Menschen" sowohl die Vorstellung ab, die Seele existiere vor dem Leib, als auch die, sie komme erst später hinzu. Leib und Seele des Menschen haben für ihn einen gemeinsamen Anfang; die Seele ist von Anfang an im Werden des Menschen gegenwärtig und gestaltet es, so wie die Anlage einer Pflanze schon im Samen liegt.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Über die Erschaffung des Menschen (De hominis opificio)', ref: 'Kap. 28–29', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Wie erklärst du – ohne Seele, ohne Gott –, dass ein Teil der Materie anfängt, nach dem Sinn der Materie zu fragen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -203,6 +267,22 @@ const claim: Claim = {
               objection: `Ich habe nur den Missbrauch des Begriffs durch religiöse Bioethiker kritisiert. Autonomie und die Vermeidung von Leid reichen als Grundlage völlig aus.`,
               objectionBy: 'Steven Pinker',
               answer: `Autonomie als Grundlage hat eine gefährliche Lücke: Wer keine Autonomie hat – Neugeborene, Menschen mit schwerer geistiger Behinderung oder fortgeschrittener Demenz –, fällt durch das Raster. Die Gottebenbildlichkeit gilt dagegen jedem Menschen, unabhängig davon, was er kann. Genau deshalb ist sie die stärkere Grundlage für die Würde der Schwächsten.`,
+              followUps: [
+                {
+                  id: 'churchland-braintrust',
+                  objection: `Moral braucht weder Gott noch Würde-Metaphysik. Sie wurzelt in der Neurobiologie der Fürsorge: Säugetiere kümmern sich um ihren Nachwuchs, Oxytocin und Vasopressin binden sie aneinander, und beim Menschen weitet sich diese Fürsorge auf Verwandte, Freunde und schließlich Fremde aus. Das ist die Grundlage unserer Werte.`,
+                  objectionBy: 'Patricia Churchland',
+                  answer: `Churchland beschreibt gut, *woher* unsere Fähigkeit zur Fürsorge kommt – und Christen haben keinen Grund, das zu bestreiten. Aber Beschreibung ist nicht Begründung: Aus „wir kümmern uns um die Unseren" folgt nicht, dass wir uns um den kümmern *sollen*, der uns nichts nützt – das schwerstbehinderte Kind, den Fremden, den Feind. Gerade dort, wo die Biologie der Bindung endet, beginnt die Frage nach der Würde.`,
+                  detail: `Churchland räumt in „Braintrust" (2011) selbst ein, dass sich aus der Neurobiologie kein eindeutiger Regelkatalog ableiten lässt; moralische Normen entstehen für sie aus Fürsorge, Problemlösen und sozialen Praktiken. Das ist eine plausible Beschreibung der *Entstehung* moralischer Neigungen – aber sie lässt offen, warum die Ausweitung der Fürsorge auf alle Menschen verpflichtend sein sollte und nicht nur eine von mehreren möglichen Entwicklungen.
+
+Die biblische Antwort lautet: Jeder Mensch ist geliebt, weil Gott ihn nach seinem Bild geschaffen hat, und Christus identifiziert sich ausdrücklich mit den Geringsten (Mt 25,40). Dieser Grund hängt nicht an Bindungshormonen und reicht deshalb dorthin, wohin unsere Biologie nicht reicht.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Patricia S. Churchland', work: 'Braintrust: What Neuroscience Tells Us about Morality', year: '2011', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Matthäus', ref: '25,40', quote: `Wahrlich ich sage euch: Was ihr getan habt einem unter diesen meinen geringsten Brüdern, das habt ihr mir getan.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Moral aus Bindung erwächst – was schulden wir dann dem Menschen, an den uns gar nichts bindet?`],
+                },
+              ],
             },
           ],
         },

@@ -164,6 +164,73 @@ const claim: Claim = {
           objectionBy: 'Bertrand Russell',
           answer: `Die christliche Hoffnung gründet auf einem historischen Ereignis: der Auferstehung Christi, die Paulus „Erstling" der neuen Schöpfung nennt (1 Kor 15,20). Ob sie stattgefunden hat, ist eine historische Frage, die man prüfen kann – und die Belege dafür sind erstaunlich stark.`,
           detail: `Siehe den Themenblock „Die Auferstehung Jesu".`,
+          followUps: [
+            {
+              id: 'auferstehung-und-entropie',
+              objection: `Selbst wenn ein Mann in Jerusalem auferstanden wäre – was hat das mit dem Wärmetod des Kosmos zu tun? Der zweite Hauptsatz gilt für das ganze Universum. Am Ende zerfallen sogar die Protonen, Schwarze Löcher verdampfen, und es bleibt ein kaltes, leeres Nichts.`,
+              objectionBy: 'Brian Greene',
+              answer: `Die Auferstehung ist kein privates Wunder, sondern nach christlichem Verständnis der Anfang einer verwandelten Materie: ein Leib, der nicht mehr stirbt. Wenn das geschehen ist, dann ist der Urheber der Naturgesetze nicht an den Zerfall gebunden, den diese Gesetze beschreiben. Paulus sagt, die ganze Schöpfung werde „frei werden von der Knechtschaft des vergänglichen Wesens" (Röm 8,21). Die Physik sagt, was geschieht, wenn nichts von außen eingreift – die christliche Hoffnung sagt, dass der Schöpfer eingreifen wird.`,
+              detail: `Der Physiker und anglikanische Priester John Polkinghorne hat das sorgfältig durchdacht: Die neue Schöpfung ist keine zweite Schöpfung aus dem Nichts, sondern eine Verwandlung der alten – Kontinuität und Diskontinuität zugleich, wie beim Auferstehungsleib Christi, der seine Wundmale trägt und doch nicht mehr stirbt. Greenes nüchterne Beschreibung des kosmischen Endes in *Until the End of Time* ist physikalisch korrekt; sie beschreibt die Zukunft eines Universums, das sich selbst überlassen bleibt. Ob es sich selbst überlassen bleibt, ist keine physikalische Frage.`,
+              voices: [
+                { person: 'polkinghorne', role: 'als theoretischer Physiker und Theologe', text: `Polkinghorne betont, dass die wissenschaftliche Prognose des kosmischen Endes ernst zu nehmen ist; eine rein evolutionäre Hoffnung, das Universum werde sich von selbst vollenden, sei damit erledigt. Christliche Hoffnung beruhe allein auf der Treue Gottes. Die Auferstehung Christi sei das Unterpfand dafür, dass Gott die Materie nicht aufgibt, sondern verwandelt – „neue Schöpfung aus der alten".` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '8,19–21', quote: `Die Schöpfung wartet sehnsüchtig auf die Offenbarung der Kinder Gottes … denn auch die Schöpfung selbst wird frei werden von der Knechtschaft der Vergänglichkeit.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'John Polkinghorne', work: 'The God of Hope and the End of the World', year: '2002', quote: `Die neue Schöpfung sei keine Schöpfung aus dem Nichts, sondern eine Verwandlung der alten; Grund der Hoffnung sei allein die Treue Gottes, bezeugt in der Auferstehung Christi.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Beschreibt der zweite Hauptsatz, was geschehen *muss* – oder was geschieht, wenn niemand eingreift?`],
+              followUps: [
+                {
+                  id: 'jenseitshoffnung-weltflucht',
+                  objection: `Genau diese Jenseitshoffnung entwertet die einzige Welt, die wir haben. Wer auf eine neue Schöpfung wartet, hat keinen Grund, sich um diese zu kümmern. Der Humanismus nimmt das Diesseits ernster.`,
+                  objectionBy: 'Neil deGrasse Tyson',
+                  answer: `Die orthodoxe Hoffnung ist keine Flucht *aus* der Materie, sondern die Hoffnung auf ihre Verklärung. Gott hat die Welt „sehr gut" genannt, er ist selbst Fleisch geworden, und wir bekennen die Auferstehung des *Leibes*. Wer glaubt, dass Gott diese Welt verwandeln und nicht wegwerfen wird, hat den stärksten Grund, sie zu achten. Und historisch haben gerade Menschen mit Ewigkeitshoffnung Krankenhäuser gebaut, Sklaven befreit und Kranke gepflegt – oft unter Einsatz ihres Lebens.`,
+                  detail: `C. S. Lewis bemerkte, dass gerade die Christen, die am meisten an die kommende Welt dachten, am meisten für diese getan haben; erst als Christen aufhörten, an die andere Welt zu denken, seien sie in dieser so wirkungslos geworden. In der koptischen Tradition gehören Weltachtung und Ewigkeitshoffnung zusammen: Die Liturgie bittet für die Früchte der Erde, die Wasser des Flusses und das Wetter – nicht obwohl, sondern weil man auf das Reich Gottes hofft.`,
+                  voices: [
+                    { person: 'cs-lewis', role: 'als Schriftsteller und Apologet', text: `Lewis argumentiert in *Pardon, ich bin Christ* (Mere Christianity, Buch III, Kap. 10), dass die Hoffnung auf den Himmel nicht Weltflucht bedeute. Wer nach dem Himmel strebe, bekomme die Erde „dazu"; wer nur die Erde wolle, verliere beides. Die Geschichte zeige, dass Christen, die an die kommende Welt glaubten, am meisten für diese Welt getan hätten.` },
+                  ],
+                  sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Mere Christianity', ref: 'Buch III, Kap. 10 („Hope")', year: '1952', quote: `Wer den Himmel anstrebt, bekommt die Erde dazu; wer nur die Erde anstrebt, bekommt keines von beiden.`, status: 'paraphrase' }],
+                  questionsBack: [`Wer hat historisch die ersten Krankenhäuser für Arme und Fremde gebaut – Menschen mit oder ohne Ewigkeitshoffnung?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'abgestimmt-auf-schwarze-loecher',
+      objection: `Wenn das Universum auf irgendetwas fein abgestimmt ist, dann auf Sterne und Schwarze Löcher, nicht auf Leben. Lee Smolin schlägt sogar eine kosmische natürliche Selektion vor: Universen pflanzen sich durch Schwarze Löcher fort, und unsere Konstanten maximieren deren Zahl. Leben ist nur ein Nebenprodukt.`,
+      objectionBy: 'Lee Smolin / Sean Carroll',
+      answer: `Smolins Hypothese ist originell, weil sie prüfbar ist – und gerade deshalb unter Druck: Sie sagte unter anderem eine Obergrenze für die Masse von Neutronensternen voraus, die durch spätere Messungen schwerer Neutronensterne von etwa zwei Sonnenmassen vielen Fachleuten als verletzt gilt. Außerdem setzt sie Universen voraus, die sich fortpflanzen und dabei ihre Konstanten nur leicht verändern – ein ziemlich fein eingestellter Mechanismus. Und selbst wenn die Konstanten Sterne begünstigen: Sterne sind gerade die Voraussetzung für Leben. Das widerspricht der Feinabstimmung auf Leben nicht, es gehört zu ihr.`,
+      detail: `Smolin (*The Life of the Cosmos*, 1997) nahm an, dass in jedem Schwarzen Loch ein neues Universum mit leicht veränderten Konstanten entsteht; über viele Generationen würden Universen „ausgewählt", die viele Schwarze Löcher bilden. Er formulierte bewusst falsifizierbare Vorhersagen, etwa dass Neutronensterne nicht schwerer als etwa 1,6 Sonnenmassen sein könnten. Seit 2010 wurden Neutronensterne mit rund zwei Sonnenmassen gemessen; viele werten das als ernstes Problem für die Hypothese. Das ehrt Smolin als Wissenschaftler – aber es zeigt auch, dass die „Ersatzerklärung" für die Feinabstimmung nicht trägt.`,
+      sources: [{ kind: 'gegner', author: 'Lee Smolin', work: 'The Life of the Cosmos', year: '1997', quote: `Universen könnten sich über Schwarze Löcher fortpflanzen; die Konstanten wären dann durch eine Art natürliche Selektion auf maximale Produktion Schwarzer Löcher eingestellt.`, status: 'paraphrase' }],
+      questionsBack: [`Woher kommt ein Mechanismus, in dem Universen sich fortpflanzen und ihre Konstanten dabei nur leicht verändern?`],
+      followUps: [
+        {
+          id: 'leben-nur-winziger-bruchteil',
+          objection: `Schau dir die Zahlen an: Mehr als 99,9999 Prozent des Universums sind leer, kalt oder tödlich. Wenn Leben das Ziel wäre, müsste das Universum vor Leben strotzen. Stattdessen ist Leben – soweit wir wissen – ein Staubkorn in einem leeren Ozean.`,
+          objectionBy: 'Sean Carroll',
+          answer: `Der Zweck eines Gebäudes bemisst sich nicht daran, welcher Anteil seines Volumens von Menschen besetzt ist – eine Kathedrale besteht zum größten Teil aus Luft. Die Größe und Leere sind physikalisch die Bedingung dafür, dass es Leben überhaupt gibt: Ein Universum, das alt genug für Kohlenstoff ist, muss so groß sein (Dicke 1961). Und die Feinabstimmung behauptet nicht, das Universum sei optimal auf möglichst *viel* Leben eingestellt, sondern dass Leben überhaupt möglich ist – das ist bei fast allen anderen Konstanten nicht der Fall.`,
+          detail: `Man kann den Spieß umdrehen: Die Weite des Alls ist zugleich die Bedingung dafür, dass wir die Geschichte des Universums *sehen* können. Weil Licht Zeit braucht, ist der Blick in die Tiefe ein Blick in die Vergangenheit – bis zur Hintergrundstrahlung, 380.000 Jahre nach dem Anfang. Ein kleines, volles Universum wäre nicht nur lebensfeindlich, sondern auch ein Universum ohne Geschichtsbuch.`,
+          questionsBack: [`Misst du den Zweck einer Kathedrale am Anteil ihres Volumens, den Menschen einnehmen?`],
+          followUps: [
+            {
+              id: 'ehre-gottes-ausrede',
+              objection: `Und wenn alles nicht passt, heißt es: „Die Himmel erzählen die Ehre Gottes." Mit „zu Gottes Ehre" kann man jede Verschwendung rechtfertigen. Das ist keine Erklärung, das ist Poesie.`,
+              objectionBy: 'Neil deGrasse Tyson',
+              answer: `Es ist Poesie – aber eine mit Inhalt. Der Psalm sagt nicht „Alles ist für den Menschen da", sondern dass die Schöpfung einen Wert hat, der über unseren Nutzen hinausgeht. Genau diese Erfahrung beschreibst du selbst, wenn du von der Ehrfurcht vor dem Kosmos sprichst. Die Weite, die uns klein macht, ist dieselbe, die uns staunen lässt. Wenn das Universum ein Werk ist, ist dieses Staunen angemessen; wenn es ein Zufall ist, ist es eine Illusion – und dann musst du erklären, warum du es trotzdem verkündest.`,
+              detail: `Tyson spricht oft vom „kosmischen Staunen" und davon, dass wir mit dem Universum verbunden sind, weil unsere Atome in Sternen entstanden sind. Das ist eine fast religiöse Sprache. Die christliche Tradition hat dafür einen Namen: Die Schöpfung verweist auf ihren Schöpfer, ohne selbst göttlich zu sein (Ps 19,2; Röm 1,20). Basilius nannte die Welt eine „Schule vernünftiger Seelen", in der man Gott erkennen lernt.`,
+              voices: [
+                { person: 'basilius', role: 'als Ausleger der Schöpfung', text: `Basilius beschreibt in den *Hexaemeron*-Homilien die Welt als Schule und Lehrstätte, in der die vernünftigen Seelen Gott erkennen lernen. Die Größe und Schönheit der Schöpfung sollen den Menschen nicht erdrücken, sondern zum Schöpfer hinführen – ihr Sinn liegt nicht im Nutzen allein, sondern im Lobpreis.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Psalm', ref: '19,2', quote: `Die Himmel erzählen die Ehre Gottes, und die Feste verkündigt seiner Hände Werk.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Hexaemeron', ref: 'Homilie I,6', year: 'ca. 370', quote: `Die Welt ist eine Schule vernünftiger Seelen und eine Lehrstätte der Gotteserkenntnis.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Wenn das Universum ein Zufall ist – ist dein kosmisches Staunen dann eine angemessene Reaktion oder eine Illusion?`],
+            },
+          ],
         },
       ],
     },

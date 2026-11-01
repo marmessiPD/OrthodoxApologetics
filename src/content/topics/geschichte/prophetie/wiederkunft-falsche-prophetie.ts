@@ -140,6 +140,31 @@ const claim: Claim = {
           objection: `Und Mt 10,23? „Ihr werdet mit den Städten Israels nicht zu Ende kommen, bis der Menschensohn kommt." Das ist Schweitzers Schlüsselvers.`,
           objectionBy: 'Albert Schweitzer',
           answer: `Das ist ein schwieriger Vers, das gebe ich zu. Zwei ernsthafte Deutungen: Entweder meint „kommen" wie in Dan 7 das Kommen des Menschensohnes zur Rechtfertigung und zum Gericht, sichtbar im Jahr 70. Oder Jesus sagt, dass die Mission an Israel nie abgeschlossen sein wird, bevor er wiederkommt – die Jünger sollen also nicht meinen, sie müssten erst alle Städte erreichen. Beide Lesarten passen zum Kontext der Verfolgung (10,16–23).`,
+          followUps: [
+            {
+              id: 'mt-zwei-deutungen-ausweichen',
+              objection: `Zwei Deutungen anzubieten heißt: keine zu haben. Der schlichte Sinn ist Schweitzers – Jesus erwartete das Ende, bevor die Jünger durch Galiläa durch waren.`,
+              objectionBy: 'Dale Allison',
+              answer: `Dann frag, wie Matthäus selbst den Vers verstand – er schrieb nach Jesu Tod und ließ ihn stehen. Am Ende seines Evangeliums sagt der Auferstandene: „Mir ist gegeben alle Gewalt im Himmel und auf Erden" (Mt 28,18) – eine deutliche Anspielung auf Dan 7,14, wo dem Menschensohn alle Macht gegeben wird. Für Matthäus hat das „Kommen" des Menschensohnes zur Inthronisation mit Ostern begonnen. Das ist keine nachträgliche Ausrede, sondern die Lesart des Evangelisten, der den Vers überliefert.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '28,18', quote: `Mir ist gegeben alle Gewalt im Himmel und auf Erden.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Daniel', ref: '7,14', quote: `Der gab ihm Gewalt, Ehre und Reich, dass ihm alle Völker, Leute und Zungen dienen sollten.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'R. T. France', work: 'The Gospel of Matthew (NICNT)', year: '2007', quote: `Mt 10,23 im Licht von Dan 7 als Kommen des Menschensohnes zur Herrschaft, nicht als Weltende gedeutet.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'matthaeus-hoffte-noch',
+                  objection: `Matthäus ließ den Vers stehen, weil er selbst noch ein baldiges Ende erwartete – nur eben in seiner eigenen Generation.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Dagegen spricht sein eigenes Evangelium: Er rechnet mit der Verkündigung „in der ganzen Welt, allen Völkern" (Mt 24,14) und schließt mit dem Auftrag, alle Völker zu Jüngern zu machen, „bis an der Welt Ende" (28,19–20). Mehr noch: Er überliefert gleich mehrere Gleichnisse über die *Verzögerung* – der Knecht, der sagt „mein Herr kommt noch lange nicht" (24,48), der Bräutigam, der lange ausbleibt (25,5), der Herr, der „nach langer Zeit" zurückkommt (25,19). Wer ein sofortiges Ende erwartet, schreibt keine Gleichnisse über lange Wartezeiten.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '25,19', quote: `Über eine lange Zeit kam der Herr dieser Knechte und hielt Rechenschaft mit ihnen.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Warum sollte ein Evangelist, der das Ende in Kürze erwartet, drei Gleichnisse über einen lange ausbleibenden Herrn erzählen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -157,6 +182,26 @@ const claim: Claim = {
           objection: `Wenn Jesus Tag und Stunde nicht kannte, war er nicht allwissend – also nicht Gott.`,
           objectionBy: 'Bart Ehrman',
           answer: `Athanasius und Kyrill haben genau diese Frage beantwortet: Der eine Christus sagt das nach seiner Menschheit. Wie er nach seiner Menschheit hungert, müde wird und stirbt, so nimmt er auch die Begrenztheit menschlichen Wissens in der Heilsordnung an. Das zeigt nicht, dass er nicht Gott ist, sondern dass er wirklich Mensch geworden ist (Phil 2,7). Wer das Nichtwissen als Argument gegen seine Gottheit nimmt, muss auch sein Sterben so deuten – genau das ist der Kern des Glaubens: Gott ist Mensch geworden.`,
+          followUps: [
+            {
+              id: 'zwei-bewusstseine',
+              objection: `Dann hat Christus zwei Bewusstseine – eines weiß, eines weiß nicht. Das ist genau die Spaltung in zwei Personen, die eure Kirche bei Nestorius verurteilt.`,
+              objectionBy: 'Dale Tuggy',
+              answer: `Nein – und hier ist die koptische Christologie stark. Kyrill besteht darauf, dass es nur *einen* Handelnden gibt: den fleischgewordenen Logos. Er hat sich das Fleisch mit all seinen Begrenzungen wirklich zu eigen gemacht, sodass man von dem Einen sagen kann, er hungert, schläft und „weiß nicht" – nach seiner Menschheit und um der Heilsordnung willen. Das ist keine Spaltung in zwei Personen, sondern ein Geheimnis der Einung: ohne Vermischung und ohne Trennung, wie es die Liturgie bekennt.`,
+              detail: `Für das Gespräch genügt die Unterscheidung zwischen **Person** (wer handelt – der eine Logos) und **Natur** (wodurch er handelt – göttlich und menschlich, geeint). Ein Widerspruch läge nur vor, wenn dieselbe Person *in derselben Hinsicht* wüsste und nicht wüsste. Kyrill sagt: in verschiedener Hinsicht. Ob man das für einleuchtend hält, ist eine philosophische Frage – inkohärent ist es nicht. Für die Prophetiefrage entscheidend: Jesus lehrt kein falsches Datum, er lehnt es ausdrücklich ab, eines zu nennen.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Lehrer der einen fleischgewordenen Natur',
+                  text: `Kyrill deutet das Wort vom Nichtwissen der Stunde als Aussage, die der eine Sohn sich in der Heilsordnung zu eigen macht, weil er wahrhaft Mensch geworden ist. Er warnt davor, die Aussagen über Christus auf zwei Subjekte zu verteilen: Es ist derselbe Logos, der als Gott alles weiß und der sich das Maß des menschlichen Lebens zu eigen gemacht hat.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Thesaurus über die heilige und wesensgleiche Dreieinigkeit', ref: 'Abschnitt zu Mk 13,32', year: 'ca. 425', quote: `Das Nichtwissen wird dem Sohn um der Heilsordnung willen nach seiner Menschheit zugeschrieben, nicht als Mangel seiner Gottheit.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Zweiter Brief an Nestorius', year: '430', quote: `Der Logos hat sich das Fleisch hypostatisch geeint; es ist ein und derselbe Christus, nicht zwei.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -171,6 +216,18 @@ const claim: Claim = {
           objection: `Selbst der christliche Forscher Dale Allison sagt, Jesus habe ein baldiges Ende erwartet. Das ist keine atheistische Erfindung.`,
           objectionBy: 'Dale Allison',
           answer: `Das ist richtig, und Allisons Ehrlichkeit verdient Respekt. Aber es ist eine Position unter mehreren; andere Forscher wie N. T. Wright und R. T. France lesen dieselben Texte anders. Und Jesu eigene Worte kündigen eine Zwischenzeit an: Das Evangelium muss zuerst allen Völkern verkündigt werden (Mk 13,10), Jerusalem bleibt „zertreten, bis der Heiden Zeit erfüllt wird" (Lk 21,24). Wer nur eine Woche bis zum Weltende erwartet, entwirft kein Programm für alle Völker.`,
+          followUps: [
+            {
+              id: 'mk-13-10-nachtrag',
+              objection: `Mk 13,10 und Lk 21,24 sind Zusätze der Evangelisten, die die Heidenmission rechtfertigen sollten. Der historische Jesus erwartete das Ende sofort.`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Dann wird die Methode zirkulär: Jeder Vers, der gegen die Naherwartungsthese spricht, wird als später Zusatz gestrichen, und am Ende bleibt nur, was die These stützt. Außerdem lehren Gleichnisse, die fast alle Forscher für echt halten, eine Zeit des Wachsens: das Senfkorn, das zum Baum wird, der Sauerteig, der langsam durchsäuert, die Saat, die von selbst wächst (Mk 4,26–32; Mt 13,33). Wer so vom Reich spricht, rechnet nicht mit dem Weltende nächste Woche.`,
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '4,26–29', quote: `Gleichnis von der Saat, die von selbst wächst – erst den Halm, danach die Ähre, danach den vollen Weizen.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Nach welchem Kriterium entscheidest du, welche Worte Jesu echt sind – und würde das Kriterium auch dann gelten, wenn es deine These schwächt?`],
+            },
+          ],
         },
       ],
     },

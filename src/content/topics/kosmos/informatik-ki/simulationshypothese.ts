@@ -221,7 +221,7 @@ const claim: Claim = {
               objection: `Kippings Ergebnis hängt an seinen Annahmen. Mit anderen Ausgangswahrscheinlichkeiten kommt man auf 99 % Simulation.`,
               objectionBy: 'Nick Bostrom',
               answer: `Genau – und das ist der Punkt. Wenn das Ergebnis vollständig davon abhängt, welche unbeweisbaren Ausgangswahrscheinlichkeiten man wählt, dann ist „wir leben wahrscheinlich in einer Simulation" kein Ergebnis, sondern eine Projektion der eigenen Annahmen. Bostrom selbst ist hier vorsichtiger als seine Fans: Er hält jedes der drei Hörner seines Trilemmas für ernsthaft möglich.`,
-              detail: `Bostrom hat in Interviews betont, dass er nicht behauptet, wir seien wahrscheinlich simuliert, sondern nur, dass mindestens eine der drei Möglichkeiten zutrifft (Aussterben, Desinteresse an Simulationen oder Simulation). Diese Zurückhaltung kannst du würdigen – sie entzieht den Schlagzeilen von Musk und anderen den Boden.`,
+              detail: `Bostroms Aufsatz schließt nicht mit „wir sind wahrscheinlich simuliert", sondern mit einer Disjunktion: Mindestens eine der drei Möglichkeiten trifft zu (Aussterben vor dem posthumanen Stadium, Desinteresse an Ahnensimulationen oder Simulation). Angesichts unseres Unwissens hält er es für vernünftig, die Zuversicht grob gleichmäßig auf die drei Möglichkeiten zu verteilen. Diese Zurückhaltung kannst du würdigen – sie entzieht den Schlagzeilen von Musk und anderen den Boden.`,
               sources: [
                 { kind: 'gegner', author: 'Nick Bostrom', work: '„Are You Living in a Computer Simulation?", Philosophical Quarterly 53', ref: '243–255', year: '2003', status: 'paraphrase', note: 'Schlussfolgerung des Aufsatzes ist eine Disjunktion, keine Wahrscheinlichkeitsaussage für die Simulation allein.' },
               ],
@@ -244,6 +244,45 @@ const claim: Claim = {
           objection: `Egal – beides ist unprüfbar. Simulation und Gott sind gleich spekulativ.`,
           objectionBy: 'Sabine Hossenfelder (sinngemäß)',
           answer: `Nicht ganz: Das Christentum macht historisch prüfbare Aussagen – vor allem über die Auferstehung Jesu, die man mit den Methoden der Geschichtswissenschaft untersuchen kann. Die Simulationshypothese bietet nichts Vergleichbares. Und die philosophischen Gründe für einen notwendigen Schöpfer (Kontingenz, Anfang, Ordnung) stehen auf eigenen Füßen.`,
+          followUps: [
+            {
+              id: 'gitter-test',
+              objection: `Die Simulation ist sehr wohl testbar: Physiker haben vorgeschlagen, nach Spuren eines Rechengitters zu suchen – etwa in der Richtungsverteilung hochenergetischer kosmischer Strahlung (Beane, Davoudi, Savage 2012).`,
+              objectionBy: 'Max Tegmark / Silas Beane (sinngemäß)',
+              answer: `Ein interessanter Vorschlag – aber selbst ein positiver Befund würde nur zeigen, dass die Raumzeit auf kleinster Skala **diskret** ist. Das könnte ebenso eine Eigenschaft der Natur sein (manche Ansätze zur Quantengravitation erwarten so etwas) wie ein Programmierartefakt. Ein Gitter beweist keinen Programmierer. Bisher wurde zudem nichts dergleichen gefunden.`,
+              detail: `Die Arbeit von Beane, Davoudi und Savage untersucht, welche Spuren eine Gitter-Simulation der Quantenchromodynamik hinterließe, und schlägt Tests vor. Das ist seriöse Physik – aber sie testet „diskretes Gitter: ja/nein", nicht „Simulation: ja/nein". Hier zeigt sich wieder: Die Simulationshypothese kann jede Beobachtung aufnehmen (ein ausreichend guter Simulator würde Artefakte vermeiden) – sie ist kaum falsifizierbar. Das Christentum dagegen hängt an einem konkreten historischen Ereignis, der Auferstehung (1 Kor 15,14).`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Silas R. Beane, Zohreh Davoudi, Martin J. Savage', work: '„Constraints on the Universe as a Numerical Simulation", European Physical Journal A 50', ref: 'arXiv:1210.1847', year: '2012 (veröff. 2014)', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welcher Befund würde die Simulationshypothese widerlegen – wenn ein guter Simulator jede Spur verwischen kann?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'moral-egal-npc',
+      objection: `Wenn wir in einer Simulation leben, ist Moral letztlich ein Spiel. Die anderen sind vielleicht nur Hintergrundfiguren (NPCs). Was zählt, ist, dass die Simulation interessant bleibt – sonst schaltet man sie ab.`,
+      objectionBy: 'Robin Hanson (sinngemäß, „How to Live in a Simulation", 2001)',
+      answer: `Das widerspricht der eigenen Voraussetzung: Bostroms Argument funktioniert nur, wenn simulierte Menschen **bewusst** sind. Dann leiden die Menschen, die du verletzt, wirklich. Eine Simulation hebt die Moral nicht auf – sie macht sie nur abhängig vom Geschmack eines Programmierers. Das ist der eigentliche Verlust: Gut wäre, was den Zuschauern gefällt.`,
+      detail: `Robin Hanson hat 2001 überlegt, wie man in einer Simulation „klug" lebt – etwa, indem man interessant bleibt und sich in die Nähe wichtiger Personen begibt, damit die Simulation einen nicht „einspart". Das zeigt, wohin die Hypothese ethisch führt: zu einer Moral der Selbstinszenierung. Das Christentum sagt das Gegenteil: Der Wert eines Menschen hängt nicht davon ab, ob er interessant ist, sondern davon, dass Gott ihn nach seinem Bild geschaffen hat und liebt – auch den Unscheinbarsten (Mt 25,40).`,
+      sources: [
+        { kind: 'gegner', author: 'Robin Hanson', work: '„How to Live in a Simulation", Journal of Evolution and Technology 7', year: '2001', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '25,40', quote: `Was ihr getan habt einem unter diesen meinen geringsten Brüdern, das habt ihr mir getan.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn die simulierten Menschen bewusst sind – warum sollte ihr Leid weniger zählen?`,
+        `Wäre etwas gut, nur weil es den Programmierer unterhält?`,
+      ],
+      followUps: [
+        {
+          id: 'moral-auch-ohne-gott-real',
+          objection: `Moral braucht weder Gott noch Basisrealität: Leid ist schlecht, egal auf welcher Ebene. Das reicht.`,
+          objectionBy: 'Sam Harris (sinngemäß, The Moral Landscape)',
+          answer: `Dass Leid schlecht ist, sehen wir beide – und ich freue mich über die Gemeinsamkeit. Aber warum ist es **objektiv** schlecht und nicht nur unangenehm für den Betroffenen? Warum habe **ich** eine Pflicht, fremdes Leid zu lindern, wenn es mir selbst nützt, es zu ignorieren? In einer Welt aus bloßen Daten – simuliert oder nicht – gibt es Zustände, aber keine Pflichten. Pflichten setzen einen Maßstab voraus, der über den Zuständen steht.`,
+          detail: `Diese Debatte wird ausführlich im Themenblock „Moral und Gott" geführt. Hier genügt der Hinweis: Die Simulationshypothese verschärft die Frage, statt sie zu beantworten. Wenn selbst die Naturgesetze nur Code eines Programmierers sind, ist auch die „Schlechtigkeit des Leids" nur eine Einstellung im Programm – es sei denn, es gibt einen Maßstab, der über allen Ebenen steht.`,
         },
       ],
     },

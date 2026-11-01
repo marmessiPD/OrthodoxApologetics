@@ -136,6 +136,26 @@ const claim: Claim = {
               questionsBack: [
                 `Wo genau soll die Grenze liegen – und mit welchem Argument verteidigst du sie gegen die nächste Ausweitung?`,
               ],
+              followUps: [
+                {
+                  id: 'singer-konsequent',
+                  objection: `Ich gebe offen zu: Die Grenze bei Einwilligungsfähigen ist nicht zwingend. Ein Neugeborenes mit schwerster Behinderung hat noch kein Selbstbewusstsein und keine Zukunftswünsche; in solchen Fällen kann Tötung aus Mitleid gerechtfertigt sein. Das ist kein Dammbruch, sondern Konsequenz.`,
+                  objectionBy: 'Peter Singer (Praktische Ethik; Rethinking Life and Death)',
+                  answer: `Danke für die Ehrlichkeit – sie zeigt, dass die schiefe Ebene keine Panikmache ist, sondern in der Logik selbst liegt. Wenn der Wert eines Menschen an **Fähigkeiten** hängt (Selbstbewusstsein, Wünsche, Lebensqualität), dann verlieren ihn alle, die diese Fähigkeiten noch nicht, nicht mehr oder nie haben: Säuglinge, Demenzkranke, Schwerstbehinderte. Die christliche Antwort ist die einzige stabile Grenze: Würde wird nicht verdient, sondern geschenkt – jeder Mensch ist Ebenbild Gottes, gleich was er kann.`,
+                  detail: `Die Entwicklung in den Niederlanden zeigt, dass diese Logik real wirkt: Seit 2005 regelt das „Groningen-Protokoll" die Lebensbeendigung bei schwerstkranken Neugeborenen; seit 2024 ist die Regelung auf Kinder zwischen 1 und 12 Jahren erweitert. Nach dem Jahresbericht der Kontrollkommissionen (RTE) für 2024 wurden 9.958 Fälle gemeldet (5,8 % aller Todesfälle; 2023: 9.068 bzw. 5,4 %); die Meldungen wegen psychiatrischer Erkrankungen stiegen von 138 auf 219, der Anteil der Demenzfälle von 3,7 % auf 4,3 %.
+
+Wichtig für den Ton: Eltern eines schwerstkranken Kindes stehen vor unvorstellbarem Schmerz. Die christliche Antwort ist nicht Verurteilung, sondern Begleitung: Kinderpalliativmedizin, Kinderhospize, Seelsorge, Hilfe für Geschwister. Die Kirche verlangt keine sinnlose Übertherapie – sie verbietet nur das gezielte Töten.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Peter Singer', work: 'Practical Ethics', ref: 'Kap. 7', year: '3. Aufl. 2011', status: 'paraphrase' },
+                    { kind: 'sonstiges', work: 'Regionale Kontrollkommissionen für Sterbehilfe (RTE), Niederlande: Jaarverslag 2024', year: '2025', status: 'paraphrase', note: 'Per Websuche geprüft (2026): 9.958 Meldungen (5,8 % aller Todesfälle), 2023: 9.068 (5,4 %); psychiatrische Erkrankungen 219 (2023: 138); Demenz 4,3 % (2023: 3,7 %). Für 2025 meldete ANP rund 10.300 Fälle.' },
+                    { kind: 'bibel', work: 'Psalm', ref: '139,13–16', quote: `Du hast mich gebildet im Mutterleibe … Deine Augen sahen mich, da ich noch unbereitet war.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Würde an Fähigkeiten hängt – ab welchem IQ, welchem Gedächtnis, welcher Lebensqualität verliert ein Mensch sie?`,
+                    `Wer schützt die Menschen, die nicht mehr für sich selbst sprechen können?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -152,6 +172,23 @@ const claim: Claim = {
           objection: `Palliative Sedierung ist doch nur verkappte Euthanasie.`,
           objectionBy: 'Befürworter aktiver Sterbehilfe',
           answer: `Der Unterschied liegt in Ziel und Mittel: Bei der Sedierung ist das Ziel die Linderung, die Dosis richtet sich nach den Symptomen, und der Tod tritt durch die Grunderkrankung ein. Bei der Euthanasie ist der Tod das Ziel, und die Dosis ist so gewählt, dass sie tötet. Dieses Prinzip der Doppelwirkung unterscheidet auch sonst in der Medizin zwischen beabsichtigter Wirkung und in Kauf genommener Nebenwirkung.`,
+          followUps: [
+            {
+              id: 'wach-abschied-nehmen',
+              objection: `Und wenn eine Patientin nicht schlafend, sondern wach und bei klarem Verstand gehen will – im Kreis ihrer Familie, zu einem selbst gewählten Zeitpunkt? Die Sedierung nimmt ihr genau das.`,
+              objectionBy: 'Udo Schüklenk',
+              answer: `Das ist ein berührender Wunsch, und ich nehme ihn ernst. Gute Palliativmedizin ermöglicht meist genau das: wache Zeit für Abschied, Versöhnung und Segen, weil Schmerzen und Atemnot gelindert werden. Sedierung ist kein Entweder-oder, sondern kann vorübergehend und angepasst erfolgen. Aber der Wunsch, den Zeitpunkt selbst zu bestimmen, rechtfertigt nicht, dass ein Arzt tötet – und er verändert für alle anderen Kranken die Frage, ob sie noch bleiben dürfen.`,
+              detail: `Ehrlich: Es gibt Menschen, denen das Warten auf den Tod unerträglich erscheint, und Christen sollten nicht so tun, als wäre das leicht. Die Kirche hat für diese Zeit einen reichen Schatz: die Krankensalbung (Jak 5,14), die heilige Kommunion als Wegzehrung, das Gebet der Familie, die Beichte und Versöhnung. Die koptische Tradition erzählt von Heiligen, die ihr Sterben bewusst annahmen und die Umstehenden segneten – Sterben als letzter Akt des Lebens, nicht als technisch terminierter Vorgang.
+
+Hinzu kommt: Der Wunsch nach Kontrolle ist nach den Oregon-Berichten der häufigste Grund für assistierten Suizid. Auf Kontrollverlust antwortet man am besten mit Beziehung: Wer sicher weiß, dass er nicht allein gelassen wird, dass sein Wille zu Behandlungsgrenzen respektiert wird und dass Schmerzen gelindert werden, verliert oft die Angst vor dem Sterben.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Oregon Health Authority: Death with Dignity Act Annual Reports', status: 'paraphrase', note: 'Häufigste genannte Gründe: Verlust der Autonomie, nachlassende Fähigkeit zu Aktivitäten, die das Leben lebenswert machen, Würdeverlust.' },
+              ],
+              questionsBack: [
+                `Was bräuchte sie, um keine Angst mehr vor dem Kontrollverlust zu haben – eine Spritze oder die Gewissheit, nicht allein zu sein?`,
+              ],
+            },
+          ],
         },
         {
           id: 'tiere-erloesen',
@@ -172,6 +209,22 @@ const claim: Claim = {
           objection: `Der hippokratische Eid ist zweieinhalbtausend Jahre alt. Medizinethik entwickelt sich weiter.`,
           objectionBy: 'Moderne Bioethik',
           answer: `Manche Einzelheiten des Eides sind zeitgebunden, sein Kern nicht: Der Arzt heilt und lindert, er tötet nicht. Gerade dieser Grundsatz macht es möglich, dass ein Patient sich einem Arzt ohne Angst anvertraut. Der Weltärztebund hat ihn 2019 ausdrücklich bekräftigt.`,
+          followUps: [
+            {
+              id: 'gewissensfreiheit-aerzte',
+              objection: `Niemand zwingt einen Arzt mitzumachen. Wer es ablehnt, lässt es. Ihr könnt eure Überzeugung leben, ohne sie anderen vorzuschreiben.`,
+              objectionBy: 'Udo Schüklenk',
+              answer: `In der Praxis gerät gerade diese Freiheit unter Druck. In Ontario müssen Ärzte, die nicht mitwirken, Patienten wirksam an einen Kollegen überweisen; das Berufungsgericht hat diese Pflicht 2019 bestätigt. In British Columbia verlor ein christlich geprägtes Hospiz (Delta Hospice Society) 2021 seine staatliche Finanzierung, weil es in seinen Räumen keine Sterbehilfe zulassen wollte. Wo Töten als Gesundheitsleistung gilt, wird die Weigerung zum Problem.`,
+              detail: `Schüklenk selbst hat argumentiert, dass Ärzte, die legale Leistungen aus Gewissensgründen verweigern, sich einen anderen Beruf suchen sollten – das zeigt, dass „Niemand wird gezwungen" keine sichere Zusage ist. Für die Debatte: Es geht nicht darum, anderen den eigenen Glauben aufzuzwingen, sondern darum, ob Ärzte, Pflegekräfte und Hospize das Recht behalten, nicht an einer Tötung mitzuwirken. Eine Gesellschaft, die Vielfalt ernst nimmt, sollte Orte schützen, an denen Sterbende sicher sein können, dass niemand ihren Tod herbeiführt.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Christian Medical and Dental Society of Canada v. College of Physicians and Surgeons of Ontario, 2019 ONCA 393', year: '2019', status: 'paraphrase', note: 'Das Berufungsgericht Ontario bestätigte die Pflicht zur „effective referral".' },
+                { kind: 'gegner', author: 'Udo Schüklenk & Ricardo Smalling', work: '„Why medical professionals have no moral claim to conscientious objection accommodation in liberal democracies", Journal of Medical Ethics 43', year: '2017', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Darf es in deiner Gesellschaft ein Hospiz geben, in dem garantiert niemand getötet wird?`,
+              ],
+            },
+          ],
         },
       ],
     },

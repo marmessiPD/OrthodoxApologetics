@@ -140,6 +140,113 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'kanon-der-sieger',
+      objection: `„Welche Bücher in die Bibel kamen, haben die politischen Sieger entschieden – spätestens unter Konstantin. Andere Evangelien wie das Thomasevangelium wurden unterdrückt."`,
+      objectionBy: 'John Shelby Spong / Marcus Borg',
+      answer: `Das Konzil von Nizäa hat überhaupt nicht über den Kanon entschieden – das ist eine moderne Legende. Den Kern des Neuen Testaments – die vier Evangelien und die Paulusbriefe – erkannte die Kirche schon im 2. Jahrhundert an: Irenäus spricht um 180 von genau vier Evangelien. Und die erste Liste mit genau den 27 Büchern des Neuen Testaments stammt von einem koptischen Papst: Athanasius in seinem 39. Osterfestbrief (367). Das Thomasevangelium ist jünger und von den synoptischen Evangelien abhängig.`,
+      voices: [
+        {
+          person: 'simon-gathercole',
+          role: 'als Erforscher des Thomasevangeliums',
+          text: `Gathercole zeigt in seiner Untersuchung, dass das Thomasevangelium an mehreren Stellen Formulierungen enthält, die typisch für die Redaktion des Matthäus und Lukas sind. Es setzt die synoptischen Evangelien also voraus und gehört eher ins 2. Jahrhundert. Als unabhängige, frühere Quelle über Jesus ist es nicht zu gebrauchen.`,
+          sources: [{ kind: 'fachliteratur', author: 'Simon Gathercole', work: 'The Composition of the Gospel of Thomas: Original Language and Influences', year: '2012', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'III,11,8', year: 'um 180', status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'athanasius-hat-ausgewaehlt',
+          objection: `„Dann hat eben Athanasius, ein mächtiger Bischof, seine Liste durchgesetzt."`,
+          objectionBy: 'Liberaler Theologe',
+          answer: `Athanasius sagt ausdrücklich, er zähle die Bücher auf, die „überliefert und als göttlich geglaubt" werden – er verzeichnet, was die Kirchen empfangen haben, er erfindet nichts. Er unterscheidet sogar sorgfältig davon nützliche Lesebücher wie die Didache und den Hirten des Hermas. Kriterien waren apostolischer Ursprung, Übereinstimmung mit der Glaubensregel und der Gebrauch in der ganzen Kirche.`,
+          followUps: [
+            {
+              id: 'kirche-hat-gewaehlt-also-menschlich',
+              objection: `„Wenn die Kirche den Kanon festgelegt hat, dann ist die Bibel eben ein menschliches Produkt der Kirche."`,
+              objectionBy: 'Liberaler Theologe',
+              answer: `Die Kirche hat den Kanon erkannt, nicht erschaffen – wie ein Goldschmied Gold erkennt, aber nicht herstellt. Für die orthodoxe Kirche gehören Schrift und Kirche zusammen: Derselbe Geist, der die Verfasser inspirierte, führte die Kirche in die Wahrheit (Joh 16,13) und ließ sie die inspirierten Bücher erkennen. Dass Gottes Wort durch Menschen empfangen und weitergegeben wird, macht es nicht zu bloßem Menschenwort. Athanasius nennt die kanonischen Bücher „Quellen des Heils".`,
+              followUps: [
+                {
+                  id: 'inspiration-zirkulaer',
+                  objection: `„Euer Beweis ist zirkulär: Die Bibel sagt in 2 Tim 3,16, sie sei von Gott eingegeben – also ist sie es."`,
+                  objectionBy: 'Liberaler Religionsphilosoph',
+                  answer: `So argumentieren wir nicht. Der Weg ist eine Spirale, kein Kreis: Die Evangelien sind als historische Quellen ernst zu nehmen; aus ihnen ergibt sich die Auferstehung Jesu als bestbegründete Erklärung der Daten; der Auferstandene bestätigt die Schrift Israels als Gottes Wort (Mt 5,18; Joh 10,35) und sendet die Apostel mit seiner Vollmacht. Die Autorität der Schrift ruht also auf Christus – nicht auf einem Vers, der sich selbst bestätigt.`,
+                  voices: [
+                    {
+                      person: 'swinburne',
+                      role: 'als Religionsphilosoph der Offenbarung',
+                      text: `Swinburne argumentiert, dass ein guter Gott, der eine Beziehung zu den Menschen will, wahrscheinlich eine Offenbarung gibt – und dass man eine echte Offenbarung an Kennzeichen erkennen kann: an einem bestätigenden Wunder (vor allem der Auferstehung), an innerer Plausibilität und daran, dass eine Kirche sie bewahrt und auslegt. Schrift und Kirche stützen sich dabei gegenseitig.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Richard Swinburne', work: 'Revelation: From Metaphor to Analogy', year: '1992, 2. Aufl. 2007', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'altorientalische-vorlagen',
+      objection: `„Die Bibel hat aus ihrer Umwelt abgeschrieben: die Sintflut aus dem Gilgamesch-Epos, die Schöpfung aus dem Enuma Elisch, die Gesetze aus dem Codex Hammurapi. Das sind menschliche Kulturprodukte."`,
+      objectionBy: 'Liberaler Religionswissenschaftler',
+      answer: `Ähnlichkeiten zeigen, dass die Bibel in ihre Welt hineinspricht und deren Formen benutzt – das ist zu erwarten. Entscheidend sind die Unterschiede: In Gen 1 erschafft der eine Gott durch sein Wort, ohne Götterkampf; Sonne und Mond sind bloße Lampen, keine Götter; der Mensch ist Gottes Bild, nicht Sklave der Götter. Die Flut hat eine sittliche Ursache und endet mit einem Bund. Inspiration heißt nicht, dass Gott im luftleeren Raum diktierte, sondern dass er durch Menschen ihrer Zeit sprach.`,
+      voices: [
+        {
+          person: 'john-walton',
+          role: 'als Alttestamentler und Kenner des Alten Orients',
+          text: `Walton zeigt, dass die Bibel die Denkweise des Alten Orients teilt, sie aber an entscheidenden Stellen umformt: Gottes Schöpfung ist geordnet und gut, er braucht keine Nahrung und keine Diener, und der Mensch ist zur Gemeinschaft mit Gott bestimmt. Der Vergleich mit den Nachbarkulturen hilft, die biblische Botschaft schärfer zu sehen – er löst sie nicht in Umweltmythen auf.`,
+          sources: [{ kind: 'fachliteratur', author: 'John H. Walton', work: 'Ancient Near Eastern Thought and the Old Testament', year: '2006', status: 'paraphrase' }],
+        },
+      ],
+      followUps: [
+        {
+          id: 'monotheismus-entwickelt',
+          objection: `„Israels Monotheismus hat sich erst aus dem Polytheismus entwickelt. In Kuntillet Adschrud fand man Inschriften ‚JHWH und seine Aschera'. Die Bibel spiegelt eine menschliche Religionsentwicklung."`,
+          objectionBy: 'Liberaler Alttestamentler (vgl. Mark S. Smith)',
+          answer: `Die Bibel verschweigt das nicht – sie dokumentiert selbst, wie oft Israel fremden Göttern und der Aschera diente, und wie die Propheten dagegen kämpften (1 Kön 18; 2 Kön 23,4–7; Jer 44). Die Funde der Volksreligion bestätigen also die Klagen der Propheten, sie widerlegen ihre Botschaft nicht. Man muss unterscheiden zwischen dem, was viele Israeliten taten, und dem, was Gott durch Mose und die Propheten verkündete.`,
+          sources: [
+            { kind: 'bibel', work: '2. Könige', ref: '23,4–6', quote: `Und der König gebot … dass sie sollten aus dem Tempel des HERRN tun alle Geräte, die dem Baal und dem Hain (der Aschera) … gemacht waren.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'offenbarung-nicht-feststellbar',
+              objection: `„Selbst wenn es Gott gäbe – wir könnten eine Offenbarung nie von menschlichem religiösem Genie unterscheiden."`,
+              objectionBy: 'Liberaler Religionsphilosoph',
+              answer: `Es gibt Kriterien: bestätigende Zeichen (vor allem die Auferstehung Jesu), erfüllte Verheißungen, innere Stimmigkeit über Jahrhunderte und viele Verfasser hinweg, sittliche Kraft und eine Gemeinschaft, die das Wort bewahrt. Alvin Plantinga hat zudem gezeigt, dass der Glaube an die Schrift auch durch das innere Zeugnis des Geistes gerechtfertigt sein kann – so wie wir anderen Personen vertrauen, ohne jeden Satz zu beweisen.`,
+              voices: [
+                {
+                  person: 'plantinga',
+                  role: 'als Erkenntnistheoretiker',
+                  text: `Plantinga argumentiert, dass christlicher Glaube – einschließlich des Vertrauens in die Schrift als Gottes Wort – gerechtfertigt sein kann, wenn er durch ein verlässliches, von Gott gegebenes Erkenntnisvermögen entsteht, das er mit der Tradition das innere Zeugnis des Heiligen Geistes nennt. Wenn das Christentum wahr ist, ist dieser Glaube sehr wahrscheinlich gerechtfertigt; die Einwände der Bibelkritik setzen meist schon voraus, dass es falsch ist.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Warranted Christian Belief', year: '2000', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'inspiration-als-diktat',
+                  objection: `„Dann glaubst du an ein Diktat: Die biblischen Verfasser waren Gottes Schreibmaschinen."`,
+                  objectionBy: 'John Shelby Spong',
+                  answer: `Nein. Die orthodoxe Lehre ist synergetisch: Der Geist inspirierte wirkliche menschliche Verfasser mit ihrer Sprache, ihrem Stil und ihrer Recherche – Lukas forschte „alles von Anfang an sorgfältig" nach (Lk 1,3). Chrysostomus spricht von Gottes „Herablassung" (*synkatabasis*): Gott passt sein Wort der menschlichen Schwachheit an, wie ein Vater mit seinem Kind spricht. Göttliches und Menschliches wirken zusammen, ohne dass das eine das andere aufhebt.`,
+                  voices: [
+                    {
+                      person: 'chrysostomus',
+                      role: 'als Ausleger der Schrift',
+                      text: `Chrysostomus erklärt immer wieder, dass die Schrift in menschlicher Sprache redet, weil Gott sich zu uns herablässt. Wenn sie etwa von Gottes „Gehen" im Garten spricht, ist das eine Anpassung an unser Fassungsvermögen. Diese Herablassung ist kein Mangel, sondern ein Zeichen von Gottes Menschenliebe – sie bereitet die Menschwerdung vor, in der Gott selbst Mensch wird.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zur Genesis', ref: 'u. a. Homilie 17', year: 'um 388', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn die Bibel nur menschliche Erfahrung ist – wovon ist sie dann Erfahrung?`,

@@ -117,6 +117,19 @@ const claim: Claim = {
               objection: `Die Christen haben das doch nur getan, um Mitglieder zu werben. Das war Marketing.`,
               objectionBy: 'Christopher Hitchens',
               answer: `Wer pflegt Pestkranke als Marketing, wenn er dabei selbst stirbt? Dionysius von Alexandrien berichtet, dass viele Christen bei der Pflege starben – Presbyter, Diakone und Laien. Ihr Motiv war Mt 25: Christus begegnet im Kranken. Dass diese Liebe Menschen anzog, ist wahr – aber das ist keine Strategie, sondern die natürliche Folge echter Liebe. Julian selbst versuchte es mit Strategie und scheiterte.`,
+              followUps: [
+                {
+                  id: 'julian-brief-faelschung',
+                  objection: `Dein Julian-Brief an Arsakios ist umstritten – der Historiker Peter van Nuffelen hält ihn für eine spätere christliche Fälschung. Du baust auf Propaganda.`,
+                  objectionBy: 'Christopher Hitchens',
+                  answer: `Gut, dass du das ansprichst – die Echtheit von Brief 22 ist tatsächlich umstritten, das sollte man offen sagen. Andere Forscher verteidigen sie mit Parallelen in Julians unbestrittenen Schriften: Auch in Brief 20 und im *Misopogon* klagt er, die Heiden vernachlässigten ihre Armen. Und das Zeugnis steht nicht allein: Der heidnische Satiriker Lukian von Samosata spottet um 165 darüber, dass die Christen einander im Gefängnis versorgen, ihr Geld teilen und sich alle als Brüder betrachten. Ein Spötter bestätigt hier unfreiwillig, was die Christen über sich sagten.`,
+                  detail: `Für dein Gespräch heißt das: Verwende den Arsakios-Brief mit dem Hinweis auf die Debatte, und stütze dich zusätzlich auf unabhängige Quellen – Lukians *Über das Lebensende des Peregrinus* (Kap. 12–13), die Berichte über die Pest unter Kaiser Gallienus bei Dionysius von Alexandrien (bei Eusebius, *Kirchengeschichte* VII,22) und die Vita Cyprians des Diakons Pontius. Zusammen ergeben sie ein Bild, das nicht an einem einzigen Dokument hängt.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Lukian von Samosata', work: 'Über das Lebensende des Peregrinus (De morte Peregrini)', ref: '12–13', year: 'um 165', quote: `Die Christen versorgten den gefangenen Peregrinus mit allem, verachteten den Besitz, hielten ihn für Gemeingut und betrachteten einander alle als Brüder.`, status: 'paraphrase', note: 'Lukian war ein spöttischer Kritiker der Christen.' },
+                    { kind: 'kirchenvater', author: 'Dionysius von Alexandrien', work: 'Osterbrief, überliefert bei Eusebius, Kirchengeschichte', ref: 'VII,22', year: 'um 260', status: 'paraphrase', note: 'Bericht über die Krankenpflege der Christen während der Pest.' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -133,6 +146,28 @@ const claim: Claim = {
           objection: `Holland ist kein Theologe, und selbst er sagt, das Christentum habe viel Unheil angerichtet.`,
           objectionBy: 'Christopher Hitchens',
           answer: `Genau deshalb ist sein Urteil so stark: Ein Historiker ohne apologetische Absicht kommt nach jahrelanger Forschung zu dem Schluss, dass die westlichen Grundwerte zutiefst christlich geprägt sind. Und er beschönigt die dunklen Seiten nicht – ich auch nicht. Meine These ist nicht, dass Christen nur Gutes getan haben, sondern dass die Maßstäbe, mit denen wir heute Gutes und Böses unterscheiden – auch das Böse, das Christen getan haben –, zu einem großen Teil aus dem Evangelium stammen.`,
+          followUps: [
+            {
+              id: 'stoiker-universalismus',
+              objection: `Die Gleichheit aller Menschen haben schon die Stoiker gelehrt: Seneca schrieb, Sklaven seien Menschen wie wir, und „der Mensch ist dem Menschen etwas Heiliges". Das Christentum hat nur abgeschrieben.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `Die Stoiker hatten edle Gedanken, und die Kirchenväter haben sie geschätzt. Aber sie blieben Gedanken einer gebildeten Elite, ohne die Praxis zu verändern: Derselbe Seneca schreibt in *Über den Zorn* ganz selbstverständlich, man ertränke schwache und missgebildete Neugeborene – das sei Vernunft, nicht Zorn. Die Stoa hat weder die Kindesaussetzung noch die Gladiatorenspiele beendet. Das Christentum hat die Würde des Schwächsten zur Praxis einer ganzen Gemeinschaft gemacht – mit Findelkindern, Witwen, Kranken und Sklaven.`,
+              detail: `Der entscheidende Unterschied liegt im Grund der Würde: Für die Stoa teilen Menschen die göttliche Vernunft – wer weniger Vernunft hat, hat auch weniger Anteil. Für das Christentum ist jeder Mensch als Ebenbild Gottes geschaffen und von Christus geliebt, gerade der Schwache, Kranke, Kleine. Darum hat Basilius in Caesarea ein ganzes „Armenviertel" mit Krankenhaus gebaut, und darum nahmen Christen ausgesetzte Kinder auf.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Seneca', work: 'Über den Zorn (De ira)', ref: 'I,15,2', year: 'um 41', quote: `Missgeburten löschen wir aus, auch Kinder, wenn sie schwach und missgestaltet geboren werden, ertränken wir; es ist nicht Zorn, sondern Vernunft, das Untaugliche vom Gesunden zu trennen.`, original: 'portentosos fetus extinguimus, liberos quoque, si debiles monstrosique editi sunt, mergimus', status: 'paraphrase' },
+                { kind: 'sonstiges', author: 'Seneca', work: 'Briefe an Lucilius', ref: '95,33', year: 'um 64', quote: `Der Mensch ist dem Menschen etwas Heiliges.`, original: 'homo, sacra res homini', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'findelhaeuser-sterblichkeit',
+                  objection: `Und die christlichen Findelhäuser? Im 18. Jahrhundert starben dort die meisten Kinder. Das war keine Barmherzigkeit, sondern ein Massengrab mit Kreuz darüber.`,
+                  objectionBy: 'Christopher Hitchens',
+                  answer: `Die Sterblichkeit in vielen Findelhäusern der frühen Neuzeit war tatsächlich erschreckend hoch – vor allem wegen Überfüllung, Seuchen und fehlender Ammen, in einer Zeit ohne Hygiene und Säuglingsmedizin. Das ist eine bittere Wahrheit. Aber die Alternative war nicht ein liebevolles Zuhause, sondern das Aussetzen auf der Straße oder den Tod. Die Findelhäuser entstanden, weil Christen die Überzeugung hatten, dass jedes Kind gerettet werden muss – und dieselbe Überzeugung trieb später die Reformen an, die die Sterblichkeit senkten.`,
+                  detail: `Das ist ein gutes Beispiel für den Unterschied zwischen Motiv und Mitteln: Die Mittel waren oft unzulänglich, das Motiv war das richtige. Fortschritte in der Kinderfürsorge des 19. Jahrhunderts – etwa durch Thomas Barnardo in London oder die Arbeit katholischer und evangelischer Orden – kamen ebenfalls aus christlicher Motivation.`,
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -150,6 +185,30 @@ const claim: Claim = {
           sources: [
             { kind: 'gegner', author: 'Peter Singer', work: 'Practical Ethics', ref: 'Kap. 7', year: '3. Aufl. 2011', quote: `Singer bestreitet, dass die bloße Zugehörigkeit zur Spezies Mensch einen besonderen Lebenswert begründet, und hält in bestimmten Fällen die Tötung schwerbehinderter Neugeborener für vertretbar.`, status: 'paraphrase', note: 'Singer argumentiert ausdrücklich gegen die „Heiligkeit des menschlichen Lebens" der christlichen Tradition.' },
           ],
+          followUps: [
+            {
+              id: 'harari-menschenrechte-fiktion',
+              objection: `Seien wir ehrlich: Menschenrechte sind wie Götter, Nationen und Geld eine gemeinsame Fiktion. Biologisch gibt es keine Rechte. Aber Fiktionen sind nützlich, solange viele an sie glauben – dafür brauchen wir keinen Gott.`,
+              objectionBy: 'Yuval Noah Harari',
+              answer: `Ich schätze die Klarheit: Du gibst zu, dass Menschenrechte im naturalistischen Weltbild nicht wirklich existieren. Aber dann stellt sich die entscheidende Frage: Was geschieht, wenn eine andere Fiktion mehr Anhänger gewinnt – Rasse, Klasse, Nation? Das 20. Jahrhundert hat gezeigt, wie schnell eine Fiktion durch eine andere ersetzt werden kann. Christen behaupten etwas anderes: Die Würde des Menschen ist keine Erfindung, sondern eine Wirklichkeit – er ist Gottes Ebenbild, ob die Mehrheit das glaubt oder nicht.`,
+              detail: `Harari schreibt in *Eine kurze Geschichte der Menschheit* (2011), außerhalb der gemeinsamen Vorstellungskraft der Menschen gebe es keine Götter, keine Nationen, kein Geld, keine Menschenrechte, keine Gesetze und keine Gerechtigkeit; die Gleichheit der Menschen sei eine christlich geprägte Vorstellung ohne biologische Grundlage. Er ist damit ehrlicher als viele, die die Menschenrechte für „selbstverständlich" halten. Die Frage an ihn ist: Wenn Würde nur eine Geschichte ist – woran soll sich eine verfolgte Minderheit halten, wenn die Mehrheit eine andere Geschichte erzählt?`,
+              sources: [
+                { kind: 'gegner', author: 'Yuval Noah Harari', work: 'Sapiens: A Brief History of Humankind (dt. Eine kurze Geschichte der Menschheit)', ref: 'Kap. 2 und 6', year: '2011', quote: `Außerhalb der gemeinsamen Vorstellung der Menschen gebe es keine Götter, keine Nationen, kein Geld, keine Menschenrechte, keine Gesetze und keine Gerechtigkeit.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'fiktion-funktioniert',
+                  objection: `Fiktionen funktionieren erstaunlich gut. Geld ist auch eine Fiktion, und die Weltwirtschaft läuft. Solange genug Menschen an Menschenrechte glauben, sind sie wirksam.`,
+                  objectionBy: 'Yuval Noah Harari',
+                  answer: `Geld funktioniert, solange alle mitspielen – und stürzt in einer Inflation ins Bodenlose, sobald das Vertrauen schwindet. Genau das ist bei einer Würde, die nur auf Zustimmung beruht, die Gefahr. Die Menschen, die Menschenrechte am dringendsten brauchen, sind die, an deren Würde die Mehrheit gerade **nicht** glaubt: Sklaven, Juden im Dritten Reich, Christen unter dem IS, Ungeborene, Sterbende. Eine Würde, die von Mehrheiten abhängt, schützt genau diese Menschen nicht.`,
+                  detail: `Die koptische Geschichte zeigt das eindrücklich: Eine Minderheit, die über Jahrhunderte an ihrer Würde vor Gott festhielt, auch wenn Herrscher und Mehrheiten sie anders behandelten. Die Märtyrer haben nicht für eine nützliche Fiktion ihr Leben gegeben. Wer Würde für eine Fiktion hält, kann sie würdigen – aber er kann sie nicht gegen die Mehrheit verteidigen.`,
+                  questionsBack: [
+                    `Wenn die Würde eines Menschen davon abhängt, dass andere an sie glauben – hatten die Opfer des Holocaust dann 1942 keine Würde?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -158,6 +217,36 @@ const claim: Claim = {
       objection: `Das Christentum hat die Wissenschaft behindert: Galilei, Bruno, der Widerstand gegen Darwin.`,
       objectionBy: 'Richard Dawkins',
       answer: `Der Fall Galilei war ein Unrecht, aber er ist eine Ausnahme, kein Muster – dazu gibt es ein eigenes Thema. Wissenschaftshistoriker wie Peter Harrison zeigen, dass die Vorstellung eines ewigen Krieges zwischen Wissenschaft und Glauben eine Konstruktion des 19. Jahrhunderts ist. Die moderne Naturwissenschaft entstand im christlichen Europa, oft in kirchlichen Universitäten, getragen von Menschen wie Kepler, Boyle, Newton, Pascal, Faraday, Maxwell, Mendel und Lemaître, die die Welt erforschten, weil sie sie als vernünftige Schöpfung eines vernünftigen Gottes verstanden.`,
+      followUps: [
+        {
+          id: 'alexandria-hypatia',
+          objection: `Christen haben die Bibliothek von Alexandria zerstört und die Philosophin Hypatia ermordet – damit begann das finstere Mittelalter. Und das alles unter eurem koptischen Patriarchen Kyrill.`,
+          objectionBy: 'Carl Sagan',
+          answer: `Hier muss man Mythos und Geschichte trennen. Die große Bibliothek verfiel über Jahrhunderte – Caesars Brand 48 v. Chr., Kriege unter Aurelian im 3. Jahrhundert; bei der Zerstörung des Serapeion-Tempels 391 berichten die antiken Quellen von Götterbildern, nicht von einer verbrannten Bibliothek. Die Ermordung Hypatias 415 durch einen christlichen Mob dagegen ist ein Verbrechen, das nichts beschönigt – und der christliche Historiker Sokrates Scholastikos verurteilte es damals scharf als Schande für die Kirche von Alexandria.`,
+          detail: `Das Bild vom „finsteren Mittelalter", in dem die Kirche die Wissenschaft erstickt habe, gilt unter Wissenschaftshistorikern als überholt; James Hannam hat in *God's Philosophers* (2009) gezeigt, wie im Mittelalter Universitäten, Naturphilosophie und Technik entstanden. Alexandria selbst blieb bis ins 6. Jahrhundert ein Zentrum der Gelehrsamkeit – der christliche Philosoph Johannes Philoponos entwickelte dort Ansätze der Impetustheorie. Ehrlich bleibt: Hypatias Tod zeigt, wohin religiöse Parteienkämpfe in einer Stadt führen konnten.`,
+          voices: [
+            { person: 'sokrates-scholastikos', role: 'als zeitgenössischer Kirchenhistoriker', text: `Sokrates berichtet in seiner *Kirchengeschichte* (VII,15), Hypatia sei wegen ihrer Bildung und Besonnenheit hoch geachtet gewesen; ein Mob unter Führung eines Lektors namens Petrus habe sie ermordet. Er urteilt, die Tat habe Kyrill und der alexandrinischen Kirche große Schande gebracht, denn nichts sei dem Geist des Christentums fremder als Morde und Kämpfe.` },
+            { person: 'james-hannam', role: 'als Wissenschaftshistoriker', text: `Hannam zeigt, dass die mittelalterliche Kirche Bildung, Universitäten und Naturforschung förderte und dass viele Grundlagen der wissenschaftlichen Revolution im Mittelalter gelegt wurden. Der Mythos vom „finsteren Mittelalter" stamme großenteils aus der Polemik der Aufklärung und des 19. Jahrhunderts.` },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Sokrates Scholastikos', work: 'Kirchengeschichte', ref: 'VII,15', year: 'um 440', quote: `Diese Tat brachte Kyrill und der Kirche von Alexandria nicht geringe Schande; denn nichts ist dem Geist des Christentums fremder als Morde, Kämpfe und dergleichen.`, status: 'paraphrase' },
+            { kind: 'fachliteratur', author: 'James Hannam', work: 'God\'s Philosophers: How the Medieval World Laid the Foundations of Modern Science', year: '2009', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'kyrill-schuld-hypatia',
+              objection: `Kyrill war der Drahtzieher. Er hatte zuvor Juden vertreiben lassen und befand sich im Machtkampf mit dem Präfekten Orestes, dessen Beraterin Hypatia war. Ihr verehrt einen Mann, an dessen Händen Blut klebt.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `Kyrills Rolle in den Konflikten Alexandrias war nicht friedfertig, und das darf man nicht beschönigen. Aber dass er den Mord angeordnet habe, belegt keine zeitgenössische Quelle: Sokrates spricht von einem Mob und einer Schande für die Kirche, nicht von einem Befehl; der direkte Vorwurf stammt vom heidnischen Philosophen Damaskios, ein Jahrhundert später und aus erklärter Feindschaft. Der Historiker Edward Watts sieht den Mord als Folge eines eskalierten politischen Konflikts. Die Kirche verehrt Kyrill als Lehrer des Glaubens an den menschgewordenen Gott – nicht jede Handlung seines Lebens. Heilige sind keine fehlerlosen Menschen.`,
+              detail: `Das ist für Kopten ein sensibler Punkt, bei dem Ehrlichkeit besonders wichtig ist: Kyrills Theologie (die Einheit Christi, die Theotokos) ist für die ganze Christenheit grundlegend geworden. Seine Kirchenpolitik war hart und wird auch von christlichen Historikern kritisch gesehen. Du kannst beides sagen, ohne die Heiligkeit seines Glaubenszeugnisses oder die Schuld der Täter zu relativieren: Mord ist Mord, und Christus hat seinen Jüngern das Schwert verwehrt.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Edward J. Watts', work: 'Hypatia: The Life and Legend of an Ancient Philosopher', year: '2017', status: 'paraphrase' },
+                { kind: 'gegner', author: 'Damaskios', work: 'Leben des Isidor (Vita Isidori), Fragmente in der Suda', year: '6. Jh.', status: 'paraphrase', note: 'Heidnischer Neuplatoniker; macht Kyrill direkt verantwortlich.' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

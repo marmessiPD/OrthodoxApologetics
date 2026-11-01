@@ -107,6 +107,16 @@ const claim: Claim = {
                   objectionBy: 'Gesprächspartner',
                   answer: `Mein Glaube hängt nicht an der Einzigartigkeit der Erde. Wenn wir anderswo Leben finden, zeigt das, dass Gott großzügig geschaffen hat. Mein Argument lautet nicht „Wir sind allein, also Gott", sondern: Wo immer Leben existiert, braucht es eine seltene, fein abgestimmte Kombination von Bedingungen – und das passt zu einem Schöpfer.`,
                   detail: `Siehe den Claim „Außerirdisches Leben würde die Bibel widerlegen".`,
+                  followUps: [
+                    {
+                      id: 'mit-allem-vereinbar-astro',
+                      objection: `Siehst du? Sind wir allein, ist das Design. Gibt es Leben überall, ist Gott eben großzügig. Euer Glaube ist mit jedem Befund vereinbar – und damit sagt er über die Welt nichts.`,
+                      objectionBy: 'Neil deGrasse Tyson',
+                      answer: `Du musst zwei Ebenen unterscheiden. Der christliche Glaube ist keine Hypothese über die Zahl bewohnter Planeten – er gründet auf Gottes Offenbarung in Christus und kann an der Auferstehung historisch geprüft werden. Einzelne Argumente dagegen sind sehr wohl riskant: Die These von Gonzalez und Richards sagt eine Korrelation von Bewohnbarkeit und Messbarkeit voraus, die an Daten scheitern könnte. Und übrigens: Auch der Naturalismus ist mit beiden Befunden vereinbar – Leben selten oder häufig. Dann taugt die Frage für keine Seite als Entscheidung.`,
+                      detail: `Ein häufiger Fehler in Gesprächen ist, den Glauben insgesamt an eine einzelne empirische Frage zu binden („Wenn es Außerirdische gibt, ist die Bibel falsch") – das tun manche Christen, und es ist unklug. Besser: Den Glauben an seinem Fundament verteidigen und einzelne Argumente als das behandeln, was sie sind – mehr oder weniger starke Indizien, deren Gewicht von den Daten abhängt.`,
+                      questionsBack: [`Welcher Befund über außerirdisches Leben würde den Naturalismus widerlegen? Wenn keiner – warum verlangst du das dann vom Christentum?`],
+                    },
+                  ],
                 },
               ],
             },
@@ -125,6 +135,30 @@ const claim: Claim = {
           objection: `Und der „Jupiter-Schutzschild" ist widerlegt – Simulationen zeigen, dass Jupiter in manchen Szenarien sogar mehr Einschläge verursacht.`,
           objectionBy: 'Planetenforschung (Horner & Jones 2008)',
           answer: `Das ist ein fairer Punkt; das Bild ist gemischt, und ich verzichte gern auf dieses Argument. Ebenso wurde die Mond-Stabilisierung durch neuere Simulationen relativiert. Die Gesamtthese hängt nicht an einem einzelnen Faktor, sondern an der Kombination vieler.`,
+          followUps: [
+            {
+              id: 'faktoren-geraten',
+              objection: `Die ganze „Rare Earth"-Rechnung ist Zahlenmystik: Man multipliziert Dutzende geschätzte Wahrscheinlichkeiten und bekommt eine winzige Zahl heraus. Mit anderen Schätzungen kommt man auf Millionen bewohnter Welten. Das ist keine Wissenschaft, das ist Wahl der Eingangswerte.`,
+              objectionBy: 'Sean Carroll',
+              answer: `Das gestehe ich zu: Viele Faktoren sind unsicher, und deshalb nenne ich keine Zahl. Aber dasselbe gilt für die Drake-Gleichung in die andere Richtung – die optimistischen Schätzungen sind genauso geraten. Mein Punkt ist bescheidener und robuster: Je mehr wir über Planeten lernen, desto mehr Bedingungen für langfristig stabiles, komplexes Leben entdecken wir. Die Liste wird länger, nicht kürzer. Und das stärkere Argument ist ohnehin nicht die Seltenheit, sondern die Korrelation von Bewohnbarkeit und Erforschbarkeit.`,
+              detail: `Ehrlich: Die Astrobiologie kennt bislang genau einen bewohnten Planeten. Ob komplexes Leben selten oder häufig ist, ist offen, und Christen sollten hier keine Gewissheit vortäuschen. Was sich aber sagen lässt: Die frühe Erwartung, erdähnliche Welten seien überall, ist durch die Exoplanetenforschung differenzierter geworden – die meisten gefundenen Systeme sehen ganz anders aus als unseres (heiße Jupiter, eng gepackte Systeme um Rote Zwerge, exzentrische Bahnen).`,
+              questionsBack: [`Sind die optimistischen Eingangswerte der Drake-Gleichung besser begründet als die pessimistischen?`],
+              followUps: [
+                {
+                  id: 'rote-zwerge-trappist',
+                  objection: `Rote Zwerge machen rund drei Viertel aller Sterne aus, und viele haben erdgroße Planeten in der habitablen Zone – Proxima Centauri b, die sieben Planeten von TRAPPIST-1. Da gibt es Milliarden Kandidaten allein in unserer Galaxie.`,
+                  objectionBy: 'Exoplanetenforschung (populäre Darstellung)',
+                  answer: `Das sind spannende Kandidaten – aber sie haben bekannte Probleme. Die habitable Zone liegt bei Roten Zwergen so nah am Stern, dass die Planeten meist gebunden rotieren: eine Seite ewiger Tag, die andere ewige Nacht. Vor allem sind junge Rote Zwerge sehr aktiv; heftige Strahlungsausbrüche können Atmosphären abtragen. Das James-Webb-Teleskop hat bei TRAPPIST-1 b und c keine dichten Atmosphären gefunden. Ob die äußeren Planeten eine haben, ist offen – ich warte gespannt auf die Daten.`,
+                  detail: `Messungen der Wärmeabstrahlung mit dem JWST (2023) sprechen dafür, dass TRAPPIST-1 b keine nennenswerte Atmosphäre besitzt und TRAPPIST-1 c keine dichte, kohlendioxidreiche. Das widerlegt nicht die Möglichkeit von Leben um Rote Zwerge, zeigt aber: „In der habitablen Zone" heißt noch lange nicht „bewohnbar". Für das Gespräch gilt: Bleib bei den aktuellen Daten, behaupte keine Gewissheit, und lass offen, was offen ist.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Thomas P. Greene u. a.', work: '„Thermal emission from the Earth-sized exoplanet TRAPPIST-1 b using JWST", Nature 618', year: '2023', quote: `Die gemessene Tagseitentemperatur passt zu einem Planeten ohne nennenswerte Atmosphäre.`, status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Sebastian Zieba u. a.', work: '„No thick carbon dioxide atmosphere on the rocky exoplanet TRAPPIST-1 c", Nature 620', year: '2023', quote: `Eine dichte, kohlendioxidreiche Atmosphäre ist für TRAPPIST-1 c ausgeschlossen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Was zeigen die JWST-Messungen bisher über die Atmosphären der TRAPPIST-1-Planeten?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
