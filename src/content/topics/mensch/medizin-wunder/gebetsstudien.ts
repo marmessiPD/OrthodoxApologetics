@@ -130,6 +130,29 @@ const claim: Claim = {
               questionsBack: [
                 `Würdest du einem Freund misstrauen, der sich weigert, auf Kommando vor Zuschauern Gefälligkeiten zu erweisen?`,
               ],
+              followUps: [
+                {
+                  id: 'unsichtbar-gleich-nicht-existent',
+                  objection: `Dann ist dein Gott für die Wissenschaft prinzipiell unsichtbar. Was keinen messbaren Unterschied macht, ist von etwas Nichtexistentem nicht zu unterscheiden.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Dass etwas sich nicht in einer randomisierten Studie zeigt, heißt nicht, dass es keinen Unterschied macht. Die Liebe deiner Mutter, die Ermordung Caesars, das Bewusstsein anderer Menschen – nichts davon lässt sich randomisieren, und doch ist es real und erkennbar. Der christliche Glaube behauptet sehr wohl Unterschiede: eine geordnete, erkennbare Welt, ein historisches Ereignis (die Auferstehung), verwandelte Leben. Er bestreitet nur, dass Gott sich wie ein Medikament dosieren lässt.`,
+                  detail: `Die Forderung, nur Messbares sei wirklich, ist selbst keine messbare Aussage – sie widerlegt sich als Grundsatz. Wissenschaft ist das beste Werkzeug für wiederholbare, kontrollierbare Vorgänge; für Personen, Gründe, Geschichte und Werte brauchen wir andere Erkenntniswege. Gott ist nach christlichem Verständnis keine Kraft in der Natur, sondern ihr personaler Grund. Man begegnet ihm, wie man Personen begegnet: in Vertrauen, Zeugnis und Erfahrung – und man prüft die Gründe, ob dieses Vertrauen berechtigt ist.`,
+                  voices: [
+                    {
+                      person: 'cs-lewis',
+                      role: 'als Apologet',
+                      text: `Lewis vergleicht in „The Efficacy of Prayer" (1959) das Gebet mit Bitten unter Menschen: Ob ein Freund meine Bitte erfüllt, kann ich nicht durch ein Experiment herausfinden, in dem ich ihn heimlich teste, ohne die Beziehung zu zerstören. Gebet ist für ihn keine Technik, sondern eine Bitte an eine Person, die frei antwortet.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'C. S. Lewis', work: '„The Efficacy of Prayer", in: The World\'s Last Night and Other Essays', year: '1959/1960', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Mit welcher randomisierten Studie hast du bewiesen, dass deine Freunde dich mögen?`,
+                    `Ist der Satz „Nur Messbares ist wirklich" selbst messbar?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -138,6 +161,18 @@ const claim: Claim = {
           objection: `Und wer sicher wusste, dass für ihn gebetet wird, hatte sogar mehr Komplikationen – 59 Prozent. Gebet schadet!`,
           objectionBy: 'Medienberichte zu STEP',
           answer: `Die Autoren selbst hielten einen Zufallsbefund für möglich; eine Erklärung könnte auch Stress sein („Bin ich so krank, dass man ein Gebetsteam braucht?"). Es gibt keine Theorie, nach der Gebet schadet, und der Befund wurde nicht repliziert. Ein einzelnes Nebenergebnis taugt weder als Beweis gegen noch für Gebet.`,
+          followUps: [
+            {
+              id: 'templeton-finanziert',
+              objection: `Und das Beste: Die Studie wurde von der religionsfreundlichen Templeton-Stiftung finanziert. Wenn selbst die nichts findet …`,
+              objectionBy: 'Michael Shermer',
+              answer: `Das spricht für die Redlichkeit der Forschung: Ein religionsnaher Geldgeber hat eine Studie finanziert und das negative Ergebnis veröffentlicht. So sollte Wissenschaft sein. Aber es ändert nichts an der Frage, **was** gemessen wurde – nämlich eine standardisierte Fürbitte von Fremden als Zusatzdosis. Ein negatives Ergebnis für dieses Modell ist kein negatives Ergebnis für Gott.`,
+              detail: `Interessant ist, dass viele Theologen schon vor der Studie gewarnt hatten, dass ein solches Design nichts über Gott aussagen kann. Die Studie (Benson u. a., *American Heart Journal* 2006) ist methodisch solide für das, was sie misst; man sollte sie respektieren und nicht kleinreden. Ehrlichkeit gegenüber unbequemen Ergebnissen ist selbst ein christlicher Wert (Eph 4,25).`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Herbert Benson u. a.', work: '„Study of the Therapeutic Effects of Intercessory Prayer (STEP) in cardiac bypass patients", American Heart Journal 151 (4)', ref: '934–942', year: '2006', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

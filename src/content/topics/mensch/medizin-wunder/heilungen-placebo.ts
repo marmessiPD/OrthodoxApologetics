@@ -230,6 +230,68 @@ Die Religionswissenschaftlerin Candy Gunther Brown hat genau diese methodische F
           objection: `Jeder genau untersuchte Fall löst sich am Ende in Luft auf.`,
           objectionBy: 'Joe Nickell',
           answer: `Das stimmt nicht. Die Ärztekommission in Lourdes hat in über hundert Jahren tausende Dossiers geprüft und die allermeisten verworfen – aber eine kleine Zahl nach jahrelanger Untersuchung als medizinisch unerklärlich eingestuft. Dazu mehr im Claim „Es gibt keine medizinisch belegten Wunder".`,
+          followUps: [
+            {
+              id: 'lourdes-grundrate',
+              objection: `Rund 70 anerkannte Heilungen in über 160 Jahren – bei Hunderten Millionen Pilgern. Das liegt weit unter der Rate, mit der sich Krebs spontan zurückbildet. Lourdes beweist eher, dass dort **nichts** Besonderes passiert.`,
+              objectionBy: 'Joe Nickell / Michael Shermer',
+              answer: `Der Vergleich hinkt: Die rund 70 Fälle sind nicht alle Besserungen, sondern nur die, die extrem strenge Kriterien erfüllen – schwere organische Krankheit, Befunde vorher und nachher, plötzliche, vollständige und dauerhafte Heilung ohne wirksame Behandlung, jahrelange Nachbeobachtung. Spontanremissionen verlaufen dagegen meist langsam und betreffen bestimmte Tumorarten. Und die meisten Pilger kommen gar nicht zur Heilung, sondern zum Gebet, viele Heilungen werden nie gemeldet. Die Zahl zeigt die Strenge der Prüfung, nicht die Häufigkeit von Heilungen.`,
+              detail: `Das Medizinische Büro von Lourdes hat seit 1883 über 7.000 Dossiers angelegt; nur ein Bruchteil wurde an das internationale Ärztekomitee weitergeleitet und noch weniger als „medizinisch unerklärlich" eingestuft – erst danach kann der zuständige Bischof eine Heilung als Wunder anerkennen. Wer die Strenge der Kriterien kritisiert, sollte nicht gleichzeitig die geringe Zahl der Anerkennungen gegen Lourdes wenden: Beides zusammen zeigt eine vorsichtige, nicht eine leichtgläubige Prüfung. Ehrlich bleibt: Statistisch beweisen lässt sich mit Lourdes nichts – die Beweiskraft liegt in einzelnen, gut dokumentierten Fällen.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Sanctuaire Notre-Dame de Lourdes: Bureau des Constatations Médicales – Verfahren und Liste der anerkannten Heilungen', status: 'paraphrase', note: 'Zahl der anerkannten Heilungen bewusst gerundet („rund 70"); die Liste wird fortgeschrieben.' },
+              ],
+              questionsBack: [
+                `Würdest du einer Kommission eher trauen, die fast alles anerkennt – oder einer, die fast alles verwirft?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'mosambik-studie',
+      objection: `Die vielzitierte Mosambik-Studie von Candy Gunther Brown (2010) war unkontrolliert, unter Feldbedingungen und von Gläubigen durchgeführt. Seh- und Hörtests sind subjektiv – Suggestion erklärt die Besserungen problemlos.`,
+      objectionBy: 'Steven Novella',
+      answer: `Die Einwände sind berechtigt, und die Autoren benennen sie selbst: Es war eine kleine, vorläufige Studie ohne Kontrollgruppe. Aber sie maß mit Audiometer und Sehtafel **vor und unmittelbar nach** dem Gebet, und die Verbesserungen bei Menschen mit schweren Hör- und Sehstörungen waren deutlich größer als die Effekte, die man aus Studien zu Suggestion und Hypnose kennt. Die Autoren folgern nur: Das verdient weitere Forschung. Mehr behaupte ich auch nicht.`,
+      detail: `Die Studie (Brown, Mory, Williams, McClymond, *Southern Medical Journal* 2010) untersuchte Gebete in ländlichen Gegenden Mosambiks. Für die Debatte gilt: Präsentiere sie ehrlich als **Hinweis**, nicht als Beweis. Ihr eigentlicher Wert liegt darin zu zeigen, dass man Heilungsberichte überhaupt mit medizinischen Messungen begleiten kann – und dass die Ergebnisse nicht trivial sind.`,
+      voices: [
+        {
+          person: 'candy-gunther-brown',
+          role: 'als Religionswissenschaftlerin und Mitautorin der Studie',
+          text: `Brown betont, dass ihre Studie keinen Gott „beweist", sondern eine empirische Frage offenlegt: Wenn messbare Besserungen schwerer Hör- und Sehstörungen nach Gebeten auftreten, die über bekannte Suggestionseffekte hinausgehen, muss man sie erklären, statt sie wegzudefinieren. Sie fordert größere, besser kontrollierte Studien.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Candy Gunther Brown, Stephen C. Mory, Rebecca Williams, Michael J. McClymond', work: '„Study of the Therapeutic Effects of Proximal Intercessory Prayer (STEPP) on Auditory and Visual Impairments in Rural Mozambique", Southern Medical Journal 103 (9)', year: '2010', status: 'paraphrase' },
+          ],
+        },
+      ],
+      questionsBack: [
+        `Welche Effektgröße würde dich veranlassen, eine größere Studie für sinnvoll zu halten?`,
+      ],
+      followUps: [
+        {
+          id: 'keine-nachfolgestudie',
+          objection: `Wenn der Effekt echt wäre, gäbe es längst eine große, kontrollierte Nachfolgestudie. Dass es keine gibt, spricht Bände.`,
+          objectionBy: 'Edzard Ernst',
+          answer: `Es spricht vor allem über Forschungsförderung: Wer finanziert eine Studie über Heilungsgebete in Mosambik? Zudem ist die Kontrollgruppe ethisch und praktisch schwierig – soll man Kranken das Gebet verweigern? Ich gebe aber offen zu: Solange keine größeren Studien vorliegen, ist die Mosambik-Studie ein Hinweis, kein Fundament. Mein Fundament ist ein anderes.`,
+          followUps: [
+            {
+              id: 'dann-nichts-behaupten',
+              objection: `Dann behaupte gar nichts, bis die Daten da sind. Außergewöhnliche Behauptungen brauchen außergewöhnliche Belege.`,
+              objectionBy: 'Michael Shermer (nach Carl Sagan)',
+              answer: `Ich behaupte nur, was die Daten tragen: dass es gut dokumentierte Einzelfälle gibt, die medizinisch unerklärt sind, und dass die These „Wunder sind unmöglich" eine philosophische Vorannahme ist, kein Befund. Ob etwas „außergewöhnlich" ist, hängt davon ab, ob es Gott gibt – und dafür gibt es eigene Gründe. Der Kern des christlichen Glaubens hängt zudem nicht an Heilungsstatistiken, sondern an einem historischen Ereignis: der Auferstehung Jesu.`,
+              detail: `Der Satz „Außergewöhnliche Behauptungen erfordern außergewöhnliche Belege" klingt einleuchtend, ist aber unscharf: Außergewöhnlich relativ zu welchem Weltbild? Für einen Naturalisten ist jedes Wunder außergewöhnlich, für einen Theisten ist ein gelegentliches Eingreifen Gottes erwartbar. Die faire Regel lautet: Belege müssen umso stärker sein, je unwahrscheinlicher die Behauptung **im Licht aller Gründe** ist – und dazu gehören auch die Gründe für Gottes Existenz. Craig Keener hat in *Miracles* (2011) gezeigt, dass Hunderte Millionen Menschen weltweit von Heilungserfahrungen berichten; viele sind erklärbar, aber die schiere Menge und manche gut belegten Fälle verdienen ernsthafte Prüfung.`,
+              voices: [
+                {
+                  person: 'keener',
+                  role: 'als Neutestamentler und Historiker',
+                  text: `Keener sammelt in *Miracles: The Credibility of the New Testament Accounts* (2011) Heilungsberichte aus vielen Kulturen, teils mit medizinischer Dokumentation. Er räumt ein, dass viele Fälle natürlich erklärbar sind, argumentiert aber, dass Humes Annahme einer „einheitlichen Erfahrung gegen Wunder" angesichts der Fülle von Augenzeugenberichten nicht haltbar ist.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Miracles: The Credibility of the New Testament Accounts', year: '2011', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

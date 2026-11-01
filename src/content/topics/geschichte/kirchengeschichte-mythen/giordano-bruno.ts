@@ -93,6 +93,18 @@ const claim: Claim = {
               objection: `Hilary Gatti hat gezeigt, dass Brunos Naturphilosophie viel wichtiger war, als Yates meinte.`,
               objectionBy: 'Hilary Gatti',
               answer: `Gatti betont zu Recht Brunos Bedeutung für die Ideengeschichte, und ich verschweige ihre Position nicht. Aber auch sie macht aus ihm keinen empirischen Forscher – er beobachtete nicht, rechnete nicht und verband seine Kosmologie mit Magie und Weltseele. Mein Punkt bleibt: Eine Hinrichtung für irgendeine Überzeugung ist Unrecht. Nur das Etikett „für die Wissenschaft" stimmt nicht.`,
+              followUps: [
+                {
+                  id: 'kopernikaner-bruno-1616',
+                  objection: `Bruno verteidigte Kopernikus schon 1584 im „Aschermittwochsmahl". Und nur sechzehn Jahre nach seinem Tod setzte Rom Kopernikus auf den Index. Der Zusammenhang ist doch offensichtlich.`,
+                  objectionBy: 'Neil deGrasse Tyson',
+                  answer: `Bruno verteidigte Kopernikus tatsächlich – allerdings mit hermetisch-mystischen Argumenten, die selbst Kopernikaner wie Kepler befremdeten. Während seines Prozesses (1592–1600) war das heliozentrische System kirchlich nicht verurteilt; das Dekret von 1616 entstand im Streit um Galilei, nicht um Bruno. Dass die Entscheidung von 1616 ein Fehler war, gebe ich offen zu – das behandeln wir beim Fall Galilei. Aber man kann einen späteren Fehler nicht rückwirkend zum Grund einer früheren Verurteilung machen, deren Anklagepunkte wir kennen.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Giordano Bruno', work: 'La cena de le ceneri (Das Aschermittwochsmahl)', year: '1584', quote: `Verteidigung des kopernikanischen Systems im Rahmen einer naturphilosophisch-hermetischen Weltdeutung.`, status: 'paraphrase' },
+                    { kind: 'sonstiges', work: 'Dekret der Indexkongregation', year: '5. März 1616', quote: `Kopernikus' De revolutionibus wird „bis zur Korrektur" (donec corrigatur) suspendiert.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -110,7 +122,31 @@ const claim: Claim = {
           objectionBy: 'Populäre Darstellung',
           answer: `Der Vatikan hat sich zum 400. Jahrestag im Jahr 2000 von der Hinrichtung distanziert und sie bedauert, Brunos Lehren aber nicht übernommen – was niemand erwarten kann, da er die Dreieinigkeit und die Gottheit Christi leugnete. Man kann die Gewalt bedauern, ohne die Lehre gutzuheißen. Genau das ist die richtige Haltung.`,
           sources: [
-            { kind: 'sonstiges', author: 'Kardinalstaatssekretär Angelo Sodano', work: 'Schreiben zum 400. Jahrestag der Hinrichtung Brunos', year: '2000', quote: `Die Hinrichtung wird als trauriges Kapitel bedauert; eine Rehabilitierung der Lehren Brunos erfolgt nicht.`, status: 'unverified', note: 'Genauen Wortlaut und Fundstelle vor Verwendung prüfen.' },
+            { kind: 'sonstiges', author: 'Kardinalstaatssekretär Angelo Sodano', work: 'Schreiben zum 400. Jahrestag der Hinrichtung Brunos, an den Dekan der Päpstlichen Theologischen Fakultät Süditaliens (zum Kongress in Neapel, 17.–18. Februar 2000)', ref: '14. Februar 2000', year: '2000', quote: `Brunos grausamer Tod wird als trauriges Kapitel bedauert; zugleich wird den damaligen Richtern zugutegehalten, sie hätten der Wahrheit dienen und sein Leben retten wollen. Eine Rehabilitierung der Lehren Brunos erfolgt nicht.`, status: 'paraphrase', url: 'https://www.vatican.va/roman_curia/secretariat_state/documents/rc_seg-st_doc_20000217_sodano-letter_fr.html', note: 'Existenz, Datum, Adressat und Grundtenor per Websuche bestätigt (Vatikan-Website, französische Fassung; Bulletin des Presseamts vom 17.2.2000). Wortlaut nicht im Original eingesehen – daher nur sinngemäß.' },
+          ],
+          followUps: [
+            {
+              id: 'sodano-verteidigt-richter',
+              objection: `Schöne „Distanzierung": Sodano hat die Inquisitoren in demselben Schreiben sogar in Schutz genommen – sie hätten der Wahrheit dienen und Brunos Leben retten wollen. Das ist keine Entschuldigung, das ist Schönfärberei.`,
+              objectionBy: "Tim O'Neill",
+              answer: `Da hast du einen Punkt, und ich teile deine Kritik. Das Schreiben bedauert den Tod, verteidigt aber die Absichten der Richter – das überzeugt mich nicht. Keine gute Absicht rechtfertigt, einen Menschen wegen seiner Überzeugungen lebendig zu verbrennen. Als orthodoxer Christ messe ich das nicht an der Kirchenpolitik irgendeines Jahrhunderts, sondern an Christus, der Petrus das Schwert wegstecken ließ (Mt 26,52). Gemessen daran war Brunos Hinrichtung schlicht Sünde.`,
+              detail: `Wichtig für dich: Du verteidigst nicht die römische Inquisition. Die koptische Kirche hatte nie eine Inquisition und war seit dem 5. Jahrhundert überwiegend selbst Minderheit. Dein Argument im Bruno-Fall ist ein historisches (wofür wurde er verurteilt?), kein moralisches Plädoyer für seine Richter. Wer beides trennt, gewinnt Glaubwürdigkeit.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '26,52', quote: `Da sprach Jesus zu ihm: Stecke dein Schwert an seinen Ort! denn wer das Schwert nimmt, der soll durchs Schwert umkommen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'orthodoxe-auch-scheiterhaufen',
+                  objection: `Eure Orthodoxie ist nicht besser: Byzanz verbrannte um 1118 den Bogomilen Basileios auf dem Hippodrom, und Russland verbrannte 1682 den Altgläubigen Awwakum. Das ist dieselbe Logik.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Das stimmt, und ich verteidige es nicht: Beides war Unrecht. Wo immer sich Kirche mit Staatsmacht verband – im Westen wie im Osten –, wurde Gewalt gegen Abweichler gerechtfertigt. Die Lehre daraus ist nicht, dass das Evangelium Gewalt fordert, sondern dass Macht den Glauben verdirbt, wenn Christen zum Schwert greifen. Die Märtyrer der ersten drei Jahrhunderte – und die koptischen Märtyrer bis heute – zeigen, wie das Evangelium aussieht, wenn es nicht von Macht getragen wird.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Anna Komnene', work: 'Alexias', ref: 'XV,8–10', year: 'ca. 1148', quote: `Bericht über die Verurteilung und Verbrennung des Bogomilenführers Basileios unter Kaiser Alexios I.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Folgt die Gewalt aus der Lehre Jesu – oder aus der Verbindung von Kirche und Staatsgewalt, die du in säkularen Diktaturen ebenso findest?`],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -126,6 +162,27 @@ const claim: Claim = {
           objection: `Nikolaus von Kues wurde nur verschont, weil er Kardinal war.`,
           objectionBy: 'Populäre Darstellung',
           answer: `Sein Rang mag geholfen haben. Aber sein Werk wurde gedruckt und gelesen, ebenso wie später der englische Protestant Thomas Digges, der 1576 ein unendliches Sternenall beschrieb. Die Vorstellung vieler Welten wurde im christlichen Raum über Jahrhunderte diskutiert. Bruno wurde nicht für diese Idee allein verurteilt, sondern für ein Bündel von Lehren, die den Kern des Glaubens bestritten.`,
+          followUps: [
+            {
+              id: 'paris-1277-nur-allmacht',
+              objection: `Die Pariser Verurteilung von 1277 sollte nur Gottes Allmacht schützen, nicht die Forschungsfreiheit. Duhems These, damit habe die moderne Wissenschaft begonnen, ist längst überholt.`,
+              objectionBy: "Tim O'Neill",
+              answer: `Einverstanden: Bischof Tempier ging es um Gottes Allmacht, und Pierre Duhems These war überzogen. Aber die Wirkung war real: Weil man nun nicht mehr sagen durfte, Gott *könne* keine anderen Welten oder kein Vakuum schaffen, diskutierten Pariser Gelehrte wie Johannes Buridan und Nikolaus von Oresme Hypothesen jenseits des Aristoteles – etwa eine sich drehende Erde. Das widerlegt zumindest die Behauptung, die Idee vieler Welten sei im christlichen Denken undenkbar gewesen.`,
+              voices: [
+                {
+                  person: 'peter-harrison',
+                  role: 'als Wissenschaftshistoriker',
+                  text: `Harrison warnt vor beiden Vereinfachungen: vor der Konfliktthese ebenso wie vor der apologetischen Gegenlegende, das Christentum habe die Wissenschaft „erfunden". Er zeigt, dass theologische Annahmen – etwa über Gottes Freiheit und die Kontingenz der Schöpfung – die Naturforschung auf vielfältige Weise geprägt haben, ohne dass man eine einfache Ursache-Wirkungs-Linie ziehen könnte.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Territories of Science and Religion', year: '2015', quote: `Die Kategorien „Wissenschaft" und „Religion" sind neuzeitliche Konstrukte; ihre Geschichte ist verwickelter als Konflikt- oder Harmoniethese.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Edward Grant', work: 'The Foundations of Modern Science in the Middle Ages', year: '1996', quote: `Die Verurteilung von 1277 regte Gedankenexperimente über Möglichkeiten an, die Aristoteles ausgeschlossen hatte.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

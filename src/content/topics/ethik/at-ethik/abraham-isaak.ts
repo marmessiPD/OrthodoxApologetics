@@ -219,7 +219,7 @@ Wichtig ist, was Kierkegaard *nicht* sagt: Er leitet daraus keine Erlaubnis für
               detail: `Die Erzählung endet mit der Klage: Die Töchter Israels beweinen jedes Jahr die Tochter Jiftachs (Ri 11,40) – der Text stellt sie als Opfer, nicht als Vorbild dar. Johannes Chrysostomus deutet die Geschichte als Warnung vor unbedachten Gelübden: Gott habe das Geschehen zugelassen, damit spätere Generationen nie wieder so etwas geloben.`,
               sources: [
                 { kind: 'bibel', work: 'Richter', ref: '21,25', quote: `Zu der Zeit war kein König in Israel; ein jeglicher tat, was ihn recht deuchte.`, translation: 'Luther 1912', status: 'verbatim' },
-                { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über die Bildsäulen (De statuis)', ref: 'Homilie 14', year: '387', quote: `Gott ließ das Opfer der Tochter Jiftachs zu, damit niemand nach ihm mehr solche Gelübde ablege.`, status: 'paraphrase', note: 'Sinngemäß; Abschnittsangabe vor wörtlicher Verwendung prüfen.' },
+                { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über die Bildsäulen (De statuis)', ref: 'Homilie 14', year: '387', quote: `Gott ließ das Opfer der Tochter Jiftachs zu, damit niemand nach ihm mehr solche Gelübde ablege.`, status: 'paraphrase', note: 'Geprüft (WebSearch 11/2026): Homilie XIV über die Bildsäulen (über Eide); Chrysostomus kontrastiert dort Jiftach mit Isaak, bei dem Gott das Opfer ausdrücklich verhinderte – ein Zeichen, dass er an solchen Opfern keinen Gefallen hat. Wortlaut nach BKV/NPNF prüfen.' },
               ],
             },
           ],

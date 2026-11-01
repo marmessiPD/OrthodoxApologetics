@@ -110,6 +110,21 @@ const claim: Claim = {
       questionsBack: [`Welcher epileptische Anfall wird von den Umstehenden mit-erlebt?`],
       followUps: [
         {
+          id: 'dewhurst-bekehrung-durch-anfall',
+          objection: `Dass Anfälle Bekehrungen auslösen können, ist dokumentiert: Dewhurst und Beard beschrieben 1970 Patienten mit Temporallappen-Epilepsie, die nach Anfällen plötzlich religiös wurden. Genau das ist Paulus passiert.`,
+          objectionBy: 'Robert Sapolsky',
+          answer: `Die Fallserie gibt es, und ich nehme sie ernst. Aber sie zeigt auch die Unterschiede: Es waren wenige Einzelfälle, die Bekehrungen waren teils flüchtig oder wechselten mehrfach die Richtung und standen oft im Zusammenhang mit seelischen Ausnahmezuständen nach Anfallsserien. Paulus dagegen entwickelte aus seinem Erlebnis eine durchdachte, an der Schrift begründete Theologie, die er über Jahrzehnte klar und beständig vertrat – unter Verfolgung, Schiffbruch und Gefängnis.`,
+          detail: `Dewhurst und Beard (1970) beschrieben eine kleine Zahl von Patienten mit plötzlicher religiöser Bekehrung im Zusammenhang mit Temporallappen-Epilepsie. Es handelt sich um eine Fallserie, keine Häufigkeitsstudie; aus ihr lässt sich weder ableiten, wie oft so etwas vorkommt, noch dass religiöse Bekehrungen im Allgemeinen neurologisch verursacht sind.
+
+Der Vergleich mit Paulus scheitert an mehreren Punkten: Bei Paulus fehlen Berichte über weitere Anfälle oder Bewusstseinsstörungen in seinem langen, gut dokumentierten Wirken; seine Bekehrung verband sich mit einer gründlichen Neuinterpretation der jüdischen Schrift (Röm, Gal), die er mit Gegnern argumentativ ausfocht; und seine Haltung blieb über rund 30 Jahre konsistent.
+
+Und noch einmal: Selbst wenn ein neurologisches Ereignis beteiligt gewesen wäre, wäre damit nicht entschieden, ob Paulus den Auferstandenen gesehen hat. Gott kann auch durch leibliche Vorgänge handeln.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'K. Dewhurst, A. W. Beard', work: 'Sudden religious conversions in temporal lobe epilepsy', ref: 'British Journal of Psychiatry 117 (1970), 497–507', year: '1970', status: 'paraphrase' },
+          ],
+          questionsBack: [`Welcher der Patienten von Dewhurst und Beard hat danach dreißig Jahre lang eine in sich stimmige Theologie entwickelt und Gemeinden in drei Ländern gegründet?`],
+        },
+        {
           id: 'begleiter-legende',
           objection: `Die Begleiter sind Teil der Legende. Lukas schmückt aus – und die drei Berichte widersprechen sich sogar: Einmal hören sie die Stimme, einmal nicht.`,
           objectionBy: 'Evan D. Murray',
@@ -183,6 +198,69 @@ const claim: Claim = {
               objectionBy: 'Michael Shermer',
               answer: `Weil manche Erfahrungen durch unabhängige Tatsachen gestützt werden – etwa die Auferstehungserscheinungen durch Gruppenerfahrungen, die Bekehrung von Gegnern und das leere Grab. Skepsis gegenüber manchen Behauptungen ist kein Grund für Skepsis gegenüber allen. Auch in der Wissenschaft sind manche Messungen Artefakte – deshalb verwirft man nicht alle Messungen.`,
               detail: `Siehe ‚psychiatrie/auferstehung-trauerhalluzination'.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'schizotypie-schamanen',
+      objection: `Religionsstifter, Schamanen und Propheten sind typischerweise schizotypische Persönlichkeiten: magisches Denken, ungewöhnliche Wahrnehmungen, eigenartiges Verhalten – nicht voll psychotisch, aber nahe dran. Jede Kultur hat für solche Menschen eine Nische geschaffen, und die Bibel ist voll davon.`,
+      objectionBy: 'Robert Sapolsky',
+      answer: `Das ist eine anregende Vorlesungsthese, aber keine Studie – über biblische Propheten gibt es keine Persönlichkeitstests. Schizotypie ist zudem kein Urteil über Wahrheit, sondern eine Persönlichkeitsdimension, die auch bei vielen Künstlern und Kreativen vorkommt. Und vor allem: Die Bibel selbst kennt den Unterschied zwischen einem Propheten und einem verwirrten Menschen und hat Prüfkriterien dafür. Wer alle Propheten in einen Topf wirft, übersieht, dass Israel selbst unterschieden hat.`,
+      detail: `Sapolsky entwickelte diese These in seiner Stanford-Vorlesung „Biology of Religiosity" (2010) im Rahmen seines Kurses zur menschlichen Verhaltensbiologie. Er spricht ausdrücklich von Spekulation über eine mögliche Verbindung zwischen schizotypischen Merkmalen und religiöser Führungsrolle.
+
+Wichtig für die Haltung: Christen sollten nicht so argumentieren, als sei es ein Makel, eine ungewöhnliche Persönlichkeit oder eine psychische Erkrankung zu haben. Viele Gläubige leben mit psychischen Erkrankungen, und Gott begegnet ihnen ebenso wie anderen. Der Punkt ist ein anderer: Die *Wahrheit* einer prophetischen Botschaft wird nicht durch das Persönlichkeitsprofil des Boten entschieden, sondern durch Prüfung – Erfüllung, Übereinstimmung mit Gottes Offenbarung, Frucht.`,
+      sources: [
+        { kind: 'gegner', author: 'Robert M. Sapolsky', work: 'Vorlesung „Biology of Religiosity" (Human Behavioral Biology, Stanford University)', year: '2010', status: 'paraphrase' },
+      ],
+      questionsBack: [`Nach welchen Kriterien hast du bei Jesaja, Jeremia oder Paulus Schizotypie festgestellt – außer dass sie von Gott sprachen?`],
+      followUps: [
+        {
+          id: 'hesekiel-zeichenhandlungen',
+          objection: `Dann nimm Hesekiel: Er lag 390 Tage auf der linken Seite, sollte Brot auf Menschenkot backen, verstummte, hatte bizarre Visionen von Rädern voller Augen. Selbst Karl Jaspers diagnostizierte bei ihm eine Schizophrenie.`,
+          objectionBy: 'Robert Sapolsky',
+          answer: `Hesekiels Handlungen sind angekündigte und gedeutete Zeichenhandlungen – öffentliches Straßentheater über die kommende Belagerung Jerusalems, jedes Mal mit Erklärung. Und gerade die Szene mit dem Brot zeigt intakte Realitätsprüfung: Hesekiel widerspricht, weil das ihn unrein machen würde, und die Anweisung wird geändert (Ez 4,14–15). Sein Buch ist streng gegliedert und präzise datiert. Jaspers' Ferndiagnose von 1947 ist genau die Art Pathographie, die heute als methodisch unhaltbar gilt – und Jaspers selbst betonte, sie sage nichts über den Wert seiner Botschaft.`,
+          detail: `Zeichenhandlungen sind ein bekanntes Stilmittel der Propheten: Jeremia trägt ein Joch (Jer 27–28), Jesaja geht barfuß (Jes 20), Hosea gibt seinen Kindern Namen mit Botschaft (Hos 1). Sie sind bewusst gewählte, öffentlich erklärte Darstellungen, keine unkontrollierten Symptome.
+
+Bei Hesekiel kommt hinzu: Die Datierungen (Ez 1,1–2; 8,1; 20,1 usw.) folgen einem konsistenten System nach den Jahren der Verbannung König Jojachins; die Visionen sind literarisch hoch strukturiert (etwa die Tempelvision Kap. 40–48 mit genauen Maßen). Das ist nicht das Bild eines zerfallenden Denkens.
+
+Zu Jaspers: Der Psychiater und Philosoph Karl Jaspers veröffentlichte 1947 eine pathographische Studie über Hesekiel. Er gehörte zugleich zu denen, die darauf bestanden, dass eine Pathographie den geistigen Gehalt eines Werkes weder erklärt noch entwertet.`,
+          sources: [
+            { kind: 'bibel', work: 'Hesekiel', ref: '4,12–15', status: 'paraphrase', quote: `Ich aber sprach: Ach Herr HERR, siehe, meine Seele ist noch nie unrein geworden … Er aber sprach zu mir: Siehe, ich will dir Kuhmist für Menschenmist zulassen.` },
+            { kind: 'fachliteratur', author: 'Karl Jaspers', work: 'Der Prophet Ezechiel. Eine pathographische Studie (in: Festschrift für Kurt Schneider)', year: '1947', status: 'paraphrase', note: 'Retrospektive Pathographie; Jaspers betont selbst die Grenzen solcher Deutungen für die Bewertung des Inhalts. Bibliografische Details nicht am Original geprüft.' },
+          ],
+          followUps: [
+            {
+              id: 'meschugga-unterscheidung',
+              objection: `Die Antike konnte eben noch nicht zwischen Prophetie und Wahnsinn unterscheiden. Was ihr Prophetie nennt, nennen wir heute Psychose.`,
+              objectionBy: 'Evan D. Murray',
+              answer: `Doch, sie konnte es – und die Bibel zeigt es selbst. Als ein Prophetenschüler zu Jehu kommt, fragen die Offiziere: „Warum ist dieser Verrückte zu dir gekommen?" – im Hebräischen steht *meschugga* (2 Kön 9,11). Jeremia zitiert einen Brief, der „jeden Verrückten, der sich als Prophet aufspielt" einsperren lassen will (Jer 29,26). Israel kannte also die Möglichkeit, dass jemand verwirrt ist, und hielt sie ausdrücklich von echter Prophetie getrennt – mit Prüfkriterien wie Erfüllung und Übereinstimmung mit Gottes Wort (Dtn 13; 18).`,
+              detail: `Das hebräische *meschugga* (vgl. das jiddische und umgangssprachlich deutsche „meschugge") zeigt, dass der Vorwurf der Verrücktheit gegen Propheten im Alten Testament bekannt war und als Vorwurf gemeint war. Die biblischen Texte überliefern ihn ehrlich, so wie das Neue Testament den Vorwurf gegen Jesus („er ist von Sinnen", Mk 3,21) und Paulus („du rasest", Apg 26,24) überliefert.
+
+Hinzu kommt das Kriterium der falschen Propheten: Dtn 18,21–22 nennt die Nicht-Erfüllung als Kennzeichen, Dtn 13,2–4 die Abweichung vom Bund mit Gott, auch wenn Zeichen geschehen. Eine Gemeinschaft, die solche Kriterien formuliert, hat zwischen göttlichem Wort, menschlicher Täuschung und Krankheit unterschieden.`,
+              sources: [
+                { kind: 'bibel', work: '2. Könige', ref: '9,11', status: 'paraphrase', quote: `Steht es wohl? Warum ist dieser Rasende zu dir gekommen?`, original: `הַמְשֻׁגָּע (ha-meschuggaʿ)` },
+                { kind: 'bibel', work: 'Jeremia', ref: '29,26', status: 'paraphrase', quote: `… dass ihr sollt Aufseher sein im Hause des HERRN über alle Wahnsinnigen und Weissager, dass du sie in den Kerker und Stock legest.`, original: `לְכָל־אִישׁ מְשֻׁגָּע וּמִתְנַבֵּא (le-chol isch meschuggaʿ u-mitnabbe)` },
+              ],
+              followUps: [
+                {
+                  id: 'kultur-formt-stimmen',
+                  objection: `Aber die Kulturanthropologie zeigt: Wie Menschen Stimmen erleben, hängt von ihrer Kultur ab. In religiösen Kulturen deutet man Stimmen als Gott, in säkularen als Krankheit. Prophetie war die kulturelle Nische für Menschen, die wir heute behandeln würden.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Dass Kultur das Erleben prägt, stimmt – die Anthropologin Tanya Luhrmann hat das eindrucksvoll gezeigt. Aber ihre Forschung zeigt auch das Gegenteil deiner These: Gläubige, die im Gebet „Gottes Stimme" erfahren, beschreiben das meist als leise, seltene, kontrollierbare und tröstliche Eindrücke – ganz anders als die häufigen, aufdringlichen, oft quälenden Stimmen bei einer Psychose. Und wer psychotisch erkrankt ist, braucht Behandlung und Mitgefühl, gleich in welcher Kultur. Beides zu verwechseln, schadet Gläubigen und Kranken.`,
+                  detail: `Luhrmann u. a. (2015) verglichen Menschen mit Psychose in den USA, Indien und Ghana: Die Stimmen wurden in den USA häufiger als gewalttätig und feindselig erlebt, in Indien und Ghana öfter als vertraute oder auch hilfreiche Stimmen. Kultur beeinflusst also den Charakter der Erfahrung – das ist eine wichtige Erkenntnis für die Behandlung.
+
+In „When God Talks Back" (2012) untersuchte Luhrmann evangelikale Christen, die üben, im Gebet auf Gott zu hören. Sie beschreibt diese Erfahrungen als erlernte Aufmerksamkeitspraxis, die sich deutlich von psychotischen Stimmen unterscheidet. Luhrmann selbst trifft keine Aussage darüber, ob Gott tatsächlich spricht – sie zeigt aber, dass „religiöse Stimme = Psychose" eine Fehlgleichung ist.
+
+Pastoral wichtig: Wenn jemand Stimmen hört, die ihn quälen, bedrohen oder zu Schaden anleiten, ist ärztliche und psychiatrische Hilfe angezeigt – das widerspricht dem Glauben nicht. Die koptische Kirche ehrt den Arzt (Sir 38,1–15) und betet zugleich für die Kranken.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'T. M. Luhrmann, R. Padmavati, H. Tharoor, A. Osei', work: 'Differences in voice-hearing experiences of people with psychosis in the USA, India and Ghana: Interview-based study', ref: 'British Journal of Psychiatry 206 (2015), 41–44', year: '2015', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Tanya M. Luhrmann', work: 'When God Talks Back: Understanding the American Evangelical Relationship with God', year: '2012', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn Gläubige ihre Gebetserfahrungen als leise, selten und tröstlich beschreiben – warum sollte man sie mit quälenden psychotischen Stimmen gleichsetzen?`],
+                },
+              ],
             },
           ],
         },
