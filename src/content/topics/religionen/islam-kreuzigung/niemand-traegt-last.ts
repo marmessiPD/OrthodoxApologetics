@@ -205,7 +205,23 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Das ist die Erklärung von an-Nawawi und anderen, und ich respektiere sie – ich will den Hadith nicht verzerren. Aber auch bei dieser Deutung bleibt: Die islamische Tradition hat die Sprache der „Auslösung" (*fikāk*/*fidāʾ*) für das Heil verwendet. Mein Punkt ist nicht, dass der Islam die christliche Sühnelehre enthält, sondern dass er Stellvertretung nicht grundsätzlich für undenkbar hält.`,
           sources: [
-            { kind: 'hadith', work: 'Sahih Muslim', ref: '2767', quote: `Am Tag der Auferstehung wird Allah jedem Muslim einen Juden oder Christen übergeben und sagen: Das ist deine Auslösung vom Feuer.`, translation: 'sinngemäß', status: 'paraphrase', note: 'Nummer nach sunnah.com-Zählung vor Verwendung prüfen. An-Nawawi deutet: Jeder Mensch hat einen Platz im Paradies und einen in der Hölle; die Ungläubigen nehmen ihre eigenen Höllenplätze ein.' },
+            { kind: 'hadith', work: 'Sahih Muslim', ref: '2767 (Kitab at-Tauba; sunnah.com 2767a)', quote: `Am Tag der Auferstehung wird Allah jedem Muslim einen Juden oder Christen übergeben und sagen: Das ist deine Auslösung vom Feuer.`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/muslim:2767', note: 'Nummer nach sunnah.com-Zählung geprüft (2026); von Dorar als ṣaḥīḥ bewertet. Die Parallelfassung 2767b lautet sinngemäß: Kein Muslim stirbt, ohne dass Allah an seiner Stelle einen Juden oder Christen ins Feuer bringt. An-Nawawi deutet: Jeder Mensch hat einen Platz im Paradies und einen in der Hölle; die Ungläubigen nehmen ihre eigenen Höllenplätze ein.' },
+          ],
+          followUps: [
+            {
+              id: 'fuersprache-nur-mit-erlaubnis',
+              objection: `Die Fürsprache (šafāʿa) geschieht nur mit Allahs Erlaubnis und nur für Gläubige, die ohnehin glauben. Das ist keine Stellvertretung, bei der einer die Strafe eines anderen trägt.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Einverstanden: Fürsprache geschieht nach dem Koran nur mit Gottes Erlaubnis (2:255) – und auch das Kreuz geschieht nicht gegen, sondern nach dem Willen des Vaters. Mein Punkt ist ein anderer: Wenn das Eintreten Muhammads das Schicksal anderer am Jüngsten Tag verändert, dann kann 6:164 nicht heißen, dass das Handeln einer Person nie einer anderen zugutekommen darf. 6:164 schließt aus, dass jemand *gegen seinen Willen* für fremde Schuld bestraft wird – das lehrt die Kirche auch. Es schließt nicht aus, dass Gott selbst freiwillig eintritt.`,
+              detail: `Die Fürsprache-Überlieferung (u. a. Bukhari 4476) beschreibt, wie Muhammad sich vor seinem Herrn niederwirft und gebeten wird: „Bitte, es wird dir gewährt; tritt ein, deine Fürsprache wird angenommen" – und daraufhin werden Menschen aus dem Feuer geholt. Das ist im islamischen Verständnis keine Sühne, aber es ist ein Handeln für andere mit heilsentscheidender Wirkung. Für das Gespräch: Gestehe offen zu, dass Fürsprache und Sühne nicht dasselbe sind. Der Punkt ist nur, dass der Grundsatz „Jeder nur für sich" im Islam nicht absolut gilt – und dass deshalb die Frage nicht lautet „Darf es Stellvertretung geben?", sondern „Wer kann und darf für uns eintreten?". Die christliche Antwort: Nur der, der selbst ohne Sünde ist und zugleich Gott – weil nur er den Tod von innen besiegen kann.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:255', quote: `Wer ist es, der bei Ihm Fürsprache einlegen könnte, außer mit Seiner Erlaubnis?`, original: `man dhā lladhī yashfaʿu ʿindahū illā bi-idhnih`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/2/255' },
+              ],
+              questionsBack: [
+                `Werden nach der Fürsprache-Überlieferung Menschen aus dem Feuer geholt, weil ein anderer für sie eintritt?`,
+                `Wenn das möglich ist – warum soll es ungerecht sein, dass Gott selbst für die Menschen eintritt?`,
+              ],
+            },
           ],
         },
       ],
@@ -215,6 +231,38 @@ const claim: Claim = {
       objection: `Menschenopfer sind heidnisch; Gott hat sie in der Tora verboten (Dtn 12,31). Ein Gott, der den Tod eines Menschen als Opfer verlangt, ist wie die Götzen der Kanaaniter.`,
       objectionBy: 'Hamza Tzortzis',
       answer: `Beim heidnischen Menschenopfer opfern Menschen einen anderen Menschen, um einen Gott gnädig zu stimmen. Am Kreuz ist es umgekehrt: Gott selbst gibt sich in seinem Sohn für die Menschen hin. Nicht wir besänftigen Gott, sondern Gott versöhnt uns mit sich (2 Kor 5,19). Jesus ist nicht Opfer eines Rituals, sondern Priester und Opfergabe in einem, der „sich selbst ohne allen Fehl durch den ewigen Geist Gott geopfert hat" (Hebr 9,14).`,
+      followUps: [
+        {
+          id: 'gott-bezahlt-sich-selbst',
+          objection: `Dann ist es noch absurder: Gott opfert sich selbst, um sich selbst zu besänftigen, und bezahlt sich selbst eine Schuld. Das ist ein Kreisgeschäft ohne Sinn.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Es geht nicht um ein Geschäft, bei dem Gott „bezahlt" werden muss, sondern um die Heilung dessen, was die Sünde angerichtet hat: Tod und Verderben. Athanasius erklärt: Der Mensch war durch die Sünde dem Tod verfallen, und Reue allein konnte die Verderbnis der Natur nicht aufheben. Darum nahm das ewige Wort einen sterblichen Leib an, trat für alle in den Tod ein und besiegte ihn von innen durch die Auferstehung. Wer einem anderen eine Schuld vergibt, trägt den Schaden selbst – das ist kein Kreisgeschäft, sondern Liebe.`,
+          detail: `Die koptische Tradition betont, im Anschluss an Athanasius und Kyrill, weniger das Bild eines zornigen Vaters, der besänftigt werden muss, als das Bild des Arztes und des Siegers: Christus „hat durch den Tod die Macht genommen dem, der des Todes Gewalt hatte" (Hebr 2,14). Gleichzeitig ist das Kreuz auch Opfer und Sühne (Röm 3,25; 1 Joh 2,2) – aber ein Opfer, das Gott *gibt*, nicht eines, das Menschen ihm darbringen müssen. Vater, Sohn und Geist haben einen Willen: Der Vater „gab" den Sohn (Joh 3,16), und der Sohn „gab sich selbst" (Gal 2,20). Im Alltag kennt jeder das Prinzip: Wer einem anderen eine Beleidigung, einen Schaden oder eine Schuld wirklich vergibt, nimmt die Last auf sich, statt sie zurückzugeben.`,
+          voices: [
+            { person: 'athanasius', role: 'als Lehrer der Menschwerdung', text: `Athanasius stellt in „Über die Menschwerdung" die Frage, ob Gott nicht einfach Reue verlangen könnte. Seine Antwort: Reue hält den Menschen vom weiteren Sündigen ab, aber sie ruft ihn nicht aus der Verderbnis zurück, in die er gefallen ist. Darum musste das Wort selbst, durch das alles geschaffen ist, kommen, um das Verderbliche zur Unverderblichkeit zu erneuern und den Tod für alle zu besiegen.` },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '7–9', year: 'ca. 318–335', status: 'paraphrase', note: 'Reue genügt nicht, um die Verderbnis der Natur zu heilen; der Logos nimmt einen sterblichen Leib an, um den Tod für alle zu überwinden.' },
+            { kind: 'bibel', work: 'Hebräer', ref: '2,14', quote: `… auf daß er durch den Tod die Macht nähme dem, der des Todes Gewalt hatte, das ist dem Teufel.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wenn dir jemand großen Schaden zufügt und du ihm vergibst – wer trägt dann den Schaden?`,
+          ],
+          followUps: [
+            {
+              id: 'warum-so-grausam',
+              objection: `Selbst wenn Gott die Schuld selbst tragen wollte: Warum musste es so blutig und grausam sein? Ein allmächtiger Gott hätte einen sanfteren Weg wählen können.`,
+              objectionBy: 'Hamza Tzortzis',
+              answer: `Weil der Tod, den die Sünde gebracht hat, grausam ist – und Christus ist nicht an seinem Rand stehen geblieben, sondern ganz hineingegangen, bis in den schändlichsten Tod. So gibt es kein menschliches Leiden mehr, in dem Gott nicht schon gewesen ist. Athanasius sagt außerdem: Christus starb öffentlich, nicht heimlich im Bett, damit niemand bezweifeln konnte, dass er wirklich tot war – und die Auferstehung dann umso offenkundiger den Sieg über den Tod zeigt.`,
+              detail: `Athanasius beantwortet in „Über die Menschwerdung" (21–25) genau diese Frage: Warum nicht ein ehrenvoller, privater Tod? Weil der Sieger über den Tod jeden Tod annehmen musste, den seine Feinde ihm zufügten, auch den schmachvollsten – so wie ein Ringer, der jeden Gegner besiegt, den man ihm stellt. Und er starb am Kreuz mit ausgebreiteten Armen, um mit der einen Hand das alte Volk, mit der anderen die Heiden zu sich zu ziehen (vgl. Joh 12,32). Für das Gespräch: Die Grausamkeit des Kreuzes zeigt zweierlei – den Ernst der Sünde und die Tiefe der Liebe. Gott verharmlost das Böse nicht, und er überlässt uns nicht damit.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '21–25', year: 'ca. 318–335', status: 'paraphrase', note: 'Warum ein öffentlicher Tod und warum gerade das Kreuz.' },
+                { kind: 'bibel', work: 'Johannes', ref: '12,32', quote: `Und ich, wenn ich erhöht werde von der Erde, so will ich sie alle zu mir ziehen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

@@ -102,6 +102,20 @@ const claim: Claim = {
           objection: `Die meisten dieser „40 Augen" sind einfache Pigmentflecken oder Grubenaugen. Echte Kameraaugen sind nur wenige Male entstanden.`,
           objectionBy: 'Nathan Lents',
           answer: `Richtig, und das macht die Sache nicht einfacher: Gerade die komplexen Kameraaugen von Wirbeltieren und Kopffüßern sind unabhängig entstanden – mit Linsenproteinen, die in beiden Gruppen aus ganz verschiedenen Ausgangsproteinen rekrutiert wurden. Zugleich werden beide Augentypen von verwandten Steuergenen (Pax6) angestoßen – ein gemeinsamer „Werkzeugkasten", dessen Ursprung selbst zu erklären ist.`,
+          followUps: [
+            {
+              id: 'nilsson-pelger-auge',
+              objection: `Und dass Augen schnell entstehen können, ist berechnet: Nilsson und Pelger zeigten 1994, dass aus einem flachen lichtempfindlichen Fleck in weniger als 400.000 Generationen ein Linsenauge werden kann – eine „pessimistische" Schätzung. In geologischen Zeiträumen ist das ein Wimpernschlag.`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Das Modell ist geistreich, aber man muss lesen, was es voraussetzt: Es beginnt mit einem fertigen Fleck lichtempfindlicher Zellen – samt Opsinen, der ganzen Signalkaskade der Phototransduktion, Nervenverbindungen und einem Gehirn, das Signale verarbeitet. Dann berechnet es, wie sich die **Form** des Gewebes in Ein-Prozent-Schritten zu einem Becher und einer Linse verändern könnte, unter der Annahme, dass jeder Schritt vorteilhaft ist und die nötige Variation bereitsteht. Das ist eine Geometrie-Rechnung, kein genetisches Modell – die biochemisch schwierigen Teile stecken in der Ausgangsannahme.`,
+              sources: [
+                { kind: 'gegner', author: 'Dan-E. Nilsson, Susanne Pelger', work: '„A pessimistic estimate of the time required for an eye to evolve", Proceedings of the Royal Society B 256', year: '1994', status: 'paraphrase', quote: `Unter den Modellannahmen könnte sich aus einem flachen lichtempfindlichen Gewebefleck in weniger als 364.000 Generationen ein Linsenauge bilden.` },
+              ],
+              questionsBack: [
+                `Woher kommen im Modell von Nilsson und Pelger die Opsine, die Phototransduktion und die Nervenverschaltung?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -125,6 +139,19 @@ const claim: Claim = {
               objection: `Konvergenz widerlegt die gemeinsame Abstammung nicht.`,
               objectionBy: 'Jerry Coyne',
               answer: `Einverstanden – darum geht es mir auch nicht. Es geht um die Frage, wie leicht komplexe Lösungen durch einen ungerichteten Prozess entstehen. Konvergenz zeigt, dass der Weg dorthin offenbar nicht beliebig, sondern stark kanalisiert ist. Das ist eine Beobachtung, die gut zu einer geordneten Schöpfung passt – ob man nun gemeinsame Abstammung annimmt oder nicht.`,
+              followUps: [
+                {
+                  id: 'molekulare-konvergenz-ueberschaetzt',
+                  objection: `Übrigens war die Behauptung massenhafter molekularer Konvergenz bei Fledermäusen und Delfinen übertrieben: Die genomweite Studie von Parker und Kollegen 2013 hielt den Nachprüfungen nicht stand – Thomas & Hahn und Zou & Zhang zeigten 2015, dass das Signal nicht über dem Zufallsrauschen liegt. Molekulare Konvergenz ist selten.`,
+                  objectionBy: 'Dennis Venema',
+                  answer: `Das stimmt, und ich nehme die Korrektur an: Die genomweiten Konvergenz-Behauptungen von 2013 waren überzogen; der Prestin-Befund selbst gilt weiterhin als belegt. Aber bedenke die Folge: Wenn molekulare Konvergenz selten ist, dann entstanden die konvergenten **Organe** – Echoortung, Kameraaugen, Flügel – meist auf genetisch verschiedenen Wegen. Jede dieser Neuerungen muss dann unabhängig erklärt werden. Seltene molekulare Konvergenz macht das Konvergenz-Argument nicht schwächer, sondern verdoppelt die Erklärungslast.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Joe Parker u. a.', work: '„Genome-wide signatures of convergent evolution in echolocating mammals", Nature 502', year: '2013', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Gregg W. C. Thomas, Matthew W. Hahn', work: '„Determining the null model for detecting adaptive convergence from genomic data: a case study using echolocating mammals", Molecular Biology and Evolution 32', year: '2015', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Zhengting Zou, Jianzhi Zhang', work: '„No genome-wide protein sequence convergence for echolocation", Molecular Biology and Evolution 32', year: '2015', status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +168,50 @@ const claim: Claim = {
           objection: `Beides stimmt teilweise. Experimente zeigen Kontingenz und Wiederholbarkeit: Im Lenski-Experiment entwickelte nur eine von zwölf Populationen Cit+, aber alle wurden auf ähnliche Weise fitter.`,
           objectionBy: 'Jonathan Losos',
           answer: `Das ist eine faire und differenzierte Antwort. Sie zeigt aber, dass „Zufall" und „Selektion" keine Erklärung für alles sind: Wo Neuerungen selten und von glücklichen Vorbedingungen abhängig sind, ist die Frage nach ihrer Wahrscheinlichkeit legitim; wo Ergebnisse sich wiederholen, ist die Frage nach der zugrunde liegenden Ordnung legitim. Beide Fragen führen über die Biologie hinaus.`,
+          followUps: [
+            {
+              id: 'anolis-ekomorphe',
+              objection: `Ein Paradebeispiel für Wiederholbarkeit sind die Anolis-Eidechsen der Karibik: Auf Kuba, Hispaniola, Jamaika und Puerto Rico entstanden unabhängig voneinander dieselben „Ökomorphe" – Stammbewohner, Zweigbewohner, Kronenbewohner. Gleiche Umwelt, gleiche Selektion, gleiche Lösung. Dafür braucht man keinen Gott.`,
+              objectionBy: 'Jonathan Losos',
+              answer: `Die Anolis-Forschung ist großartig, und sie zeigt gut, was Selektion kann: Beinlänge, Haftlamellen, Körpergröße und Färbung innerhalb eines vorhandenen Bauplans an verschiedene Lebensräume anpassen. Das ist Konvergenz auf der Ebene vorhandener Variation – also genau der Bereich, den niemand bestreitet. Über die Frage, wie neue komplexe Organe und Baupläne entstehen, sagt sie wenig. Und um Gott ging es mir nicht als Lückenfüller, sondern als Grund dafür, dass die Welt so geordnet ist, dass Leben sich überhaupt so zuverlässig anpassen kann.`,
+              sources: [
+                { kind: 'gegner', author: 'Jonathan B. Losos', work: 'Improbable Destinies: Fate, Chance, and the Future of Evolution', year: '2017', status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'design-sollte-module-mischen',
+      objection: `Wenn ein Designer bewährte Lösungen wiederverwendet, warum baut er Flügel bei Vögeln, Fledermäusen und Flugsauriern dann auf ganz verschiedene Weise – Federn hier, Hautmembran dort, mal mit dem vierten, mal mit allen Fingern? Ein Ingenieur würde das beste Modul überall einsetzen. Stattdessen folgt jede Lösung dem Stammbaum der jeweiligen Gruppe. Genau das erwartet die Evolution – nicht Design.`,
+      objectionBy: 'Nick Matzke',
+      answer: `Ein kluger Einwand. Aber Design verlangt nicht, dass überall dasselbe Modul steckt: Auch menschliche Ingenieure lösen dasselbe Problem für verschiedene Plattformen unterschiedlich und passen Lösungen an die vorhandene Architektur an. Und Konvergenz zeigt ja gerade das Gegenteil eines reinen Baummusters: dieselbe Idee – Kameraauge, Echoortung, Flug – in nicht verwandten Gruppen. Dass sich die Ausführung an die jeweilige Gruppe anpasst, ist mit gemeinsamer Abstammung gut vereinbar, die viele Design-Befürworter wie Behe gar nicht bestreiten. Die Design-Frage betrifft den Ursprung der Funktion, nicht das Verwandtschaftsmuster.`,
+      followUps: [
+        {
+          id: 'ewert-abhaengigkeitsgraph',
+          objection: `Und Winston Ewerts „Abhängigkeitsgraph", nach dem Genfamilien wie Software-Bibliotheken über Arten verteilt seien, erschien in einem hauseigenen ID-Journal und wurde von Phylogenetikern kritisiert. Der Baum bleibt das bessere Modell.`,
+          objectionBy: 'Joshua Swamidass',
+          answer: `Ewerts Modell ist ein interessanter Versuch, Design-Wiederverwendung prüfbar zu machen, aber ich hänge mein Argument nicht daran – es ist umstritten und in BIO-Complexity erschienen, das sollte man offen sagen. Mein Punkt braucht kein alternatives Verwandtschaftsmodell: Selbst wenn der Baum das Muster am besten beschreibt, bleibt die Frage, wie die wiederholt auftretenden komplexen Lösungen entstanden. Konvergenz ist ein Befund über die **Erreichbarkeit** von Funktionen, nicht über die Form des Stammbaums.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Winston Ewert', work: '„The dependency graph of life", BIO-Complexity', year: '2018', status: 'paraphrase', note: 'ID-nahes Journal; das Modell ist in der Fachwelt umstritten.' },
+          ],
+        },
+        {
+          id: 'id-sagt-muster-nicht-voraus',
+          objection: `Dann sagt Design über das Muster des Lebens überhaupt nichts voraus – alles passt. Das ist das Gegenteil einer wissenschaftlichen Theorie.`,
+          objectionBy: 'Jerry Coyne',
+          answer: `Design ist keine Theorie über Verwandtschaftsmuster, so wie die Archäologie keine Theorie über die Reihenfolge von Tonscherben ist. Sie trifft eine Aussage darüber, welche Art von Ursache bestimmte Wirkungen hervorbringen kann: hochspezifische, vielteilige Funktion und codierte Information. Diese Aussage ist prüfbar – etwa indem man zeigt, dass ungelenkte Prozesse solche Strukturen nachweislich erzeugen. Für das Muster der Verwandtschaft ist gemeinsame Abstammung zuständig; für den Ursprung der Information braucht es eine Ursache, die Information erzeugen kann.`,
+          voices: [
+            {
+              person: 'conway-morris',
+              role: 'als Paläontologe',
+              text: `Conway Morris, selbst kein ID-Vertreter, hält gemeinsame Abstammung für gesichert und sieht in der Allgegenwart der Konvergenz einen Hinweis darauf, dass der Raum der biologischen Möglichkeiten tief strukturiert ist – als würde die Evolution auf vorgegebene „Inseln" der Funktion zusteuern. Für ihn passt das zu einer Schöpfung, deren Ordnung auf intelligente Wesen hin angelegt ist.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Simon Conway Morris', work: "Life's Solution: Inevitable Humans in a Lonely Universe", year: '2003', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

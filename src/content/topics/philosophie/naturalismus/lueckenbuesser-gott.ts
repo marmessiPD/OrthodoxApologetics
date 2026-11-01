@@ -198,6 +198,14 @@ const claim: Claim = {
       questionsBack: [`Wenn die Welt tatsächlich einen Schöpfer hätte – sollte die Wissenschaft das dann grundsätzlich nicht herausfinden dürfen?`],
       followUps: [
         {
+          id: 'kitzmiller-gericht',
+          objection: `„Das ist längst entschieden: Im Prozess Kitzmiller gegen Dover (2005) hat ein US-Bundesgericht festgestellt, dass Intelligent Design keine Wissenschaft, sondern verkappter Kreationismus ist."`,
+          objectionBy: 'Jerry Coyne / Kenneth Miller',
+          answer: `Ein Gericht entscheidet, was an öffentlichen Schulen gelehrt werden darf – nicht, was wahr ist, und nicht, was Wissenschaft ist. Über solche Fragen urteilen Argumente, keine Richter. Zudem geht es mir hier gar nicht um ein biologisches Design-Argument: Das Kontingenz- und das kosmologische Argument sind philosophische Argumente, die schon Athanasius, Philoponos und Leibniz vertraten. Und Christen sind sich über Intelligent Design selbst nicht einig – es gibt gläubige Biologen, die die Evolution als Gottes Werkzeug sehen.`,
+          detail: `Das Urteil von Richter John E. Jones III (Dezember 2005) betraf den Lehrplan eines Schulbezirks in Pennsylvania und die US-Verfassung (Trennung von Staat und Religion). Für die philosophische Frage, ob die Welt einen Schöpfer hat, ist es nicht einschlägig. Fair bleibt: Die Mehrheit der Biologen lehnt Intelligent Design als wissenschaftliche Theorie ab; wer es vertritt, muss sich auf die Fachdebatte einlassen (siehe „Intelligent Design ist keine Wissenschaft").`,
+          questionsBack: [`Entscheiden Gerichte über die Wahrheit philosophischer Argumente?`],
+        },
+        {
           id: 'bilanz-hundert-zu-null',
           objection: `„Die Bilanz ist eindeutig: Jedes Rätsel, das je gelöst wurde, hatte eine natürliche Lösung. Hundert zu null. Induktiv ist es also hochwahrscheinlich, dass auch die verbleibenden Rätsel natürlich gelöst werden."`,
           objectionBy: 'Jerry Coyne (Faith vs. Fact, 2015)',
