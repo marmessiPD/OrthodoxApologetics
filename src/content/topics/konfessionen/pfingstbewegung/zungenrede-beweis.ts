@@ -153,6 +153,101 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'mk-16-17-neue-zungen',
+      objection: `„Jesus selbst sagt in Mk 16,17: ‚Die Zeichen aber, die da folgen werden denen, die da glauben, sind die: … mit neuen Zungen reden.' Das ist eine Verheißung für alle Gläubigen."`,
+      objectionBy: 'Pfingstprediger',
+      answer: `In derselben Liste stehen: Schlangen aufheben und Tödliches trinken (Mk 16,18). Niemand macht daraus einen Prüfstein der Geistestaufe. Die Zeichen „folgen den Glaubenden" als Gemeinschaft – sie begleiten die Verkündigung der Kirche (16,20), nicht jeden Einzelnen als Pflichtnachweis. Die Kirche hat solche Zeichen immer erlebt, aber nie verlangt, dass jeder Christ sie vorweist.`,
+      detail: `Verzichte hier auf das textkritische Argument, Mk 16,9–20 fehle in den ältesten Handschriften (Sinaiticus, Vaticanus): Die koptische Kirche liest den Abschnitt als kanonisch, und ein Pfingstler wird das Argument als Ausweichen empfinden. Stärker ist der Text selbst: Vers 20 sagt, der Herr „bekräftigte das Wort durch mitfolgende Zeichen" – die Zeichen dienen der Verkündigung, sie sind kein Zertifikat für den einzelnen Gläubigen.`,
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '16,17–20', quote: `Die Zeichen aber, die da folgen werden denen, die da glauben, sind die: In meinem Namen werden sie Teufel austreiben, mit neuen Zungen reden, Schlangen vertreiben, und so sie etwas Tödliches trinken, wird's ihnen nicht schaden … und der Herr wirkte mit ihnen und bekräftigte das Wort durch mitfolgende Zeichen.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [`Wenn Mk 16,17 jeden Einzelnen zur Zungenrede verpflichtet – gilt dann Vers 18 (Schlangen, Gift) auch für jeden?`],
+      followUps: [
+        {
+          id: 'apg-2-4-alle-redeten',
+          objection: `„Apg 2,4: ‚Sie wurden **alle** voll des heiligen Geistes und fingen an zu predigen mit andern Zungen.' Alle – nicht einige."`,
+          objectionBy: 'Stanley M. Horton',
+          answer: `Zu Pfingsten waren die Zungen verständliche Fremdsprachen: „Wir hören sie mit unsern Zungen die großen Taten Gottes reden" (2,11). Es war ein Zeichen für die Völker – die Umkehrung von Babel – und gehört zum einmaligen Gründungsereignis, wie das Brausen und die Feuerzungen (2,2–3), die auch niemand bei jeder Geistestaufe verlangt. Und die 3000, die am selben Tag getauft wurden und den Geist empfingen (2,38–41), reden nach dem Bericht nicht in Zungen.`,
+          voices: [
+            {
+              person: 'kyrill-jerusalem',
+              role: 'als Katechet der Jerusalemer Kirche',
+              text: `Kyrill erklärt in seinen Katechesen über den Heiligen Geist, dass die Apostel zu Pfingsten in den wirklichen Sprachen der anwesenden Völker redeten – der Galiläer Petrus und Andreas sprachen Persisch und Medisch. Für ihn ist das Wunder ein Zeichen, dass das Evangelium allen Völkern gilt.`,
+              sources: [{ kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Katechesen', ref: '17 (über den Heiligen Geist)', year: 'um 350', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'engelszungen',
+              objection: `„Nicht jede Zungenrede ist eine menschliche Sprache. Paulus spricht von ‚Menschen- und Engelszungen' (1 Kor 13,1). Unsere Gebetssprache kann eine himmlische Sprache sein."`,
+              objectionBy: 'Charismatischer Lehrer',
+              answer: `Paulus spricht dort hypothetisch – „wenn ich … redete" – und kommt zu dem Schluss, dass alles ohne Liebe nur „tönendes Erz" ist. Selbst wenn es Engelszungen gibt, macht das sie nicht zum notwendigen Beweis der Geistestaufe. Sprachwissenschaftler wie William Samarin haben zudem gezeigt, dass heutige Glossolalie in der Regel keine Sprachstruktur hat – das bestreitet nicht, dass sie ein ehrliches Gebet sein kann, aber es ist etwas anderes als das Pfingstwunder der Apostelgeschichte.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'William J. Samarin', work: 'Tongues of Men and Angels: The Religious Language of Pentecostalism', year: '1972', status: 'paraphrase', note: 'Linguistische Feldstudie; Samarin beschreibt Glossolalie als sprachähnliche, aber nicht sprachliche Lautäußerung.' },
+              ],
+              followUps: [
+                {
+                  id: 'linguisten-urteilen-nicht',
+                  objection: `„Linguisten können eine geistliche Gabe nicht beurteilen. Das ist Unglaube im Gewand der Wissenschaft."`,
+                  objectionBy: 'Pfingstpastor',
+                  answer: `Richtig – ob Gott in einem Gebet wirkt, kann kein Linguist messen. Aber wenn behauptet wird, es handle sich um wirkliche Sprachen wie in Apg 2, dann ist das prüfbar. Die frühe Pfingstbewegung erwartete das: Charles Parham und andere glaubten, Missionare würden fremde Sprachen ohne Lernen sprechen; manche reisten mit dieser Erwartung aus und wurden enttäuscht. Daraus wurde später die Lehre von der „Gebetssprache". Das ist kein Spott, sondern ein Grund, die eigenen Kategorien ehrlich zu prüfen.`,
+                  detail: `Der Pfingsthistoriker Gary B. McGee hat diese Episode der frühen Bewegung sorgfältig dokumentiert. Paulus gibt das bleibende Kriterium: „Lasset es alles geschehen zur Besserung" (1 Kor 14,26). Wo Zungengebet in Demut und Liebe geschieht, verurteilen wir es nicht – wir bestreiten nur, dass es das Kennzeichen des Geistbesitzes ist.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Gary B. McGee', work: '„Shortcut to Language Preparation? Radical Evangelicals, Missions, and the Gift of Tongues", International Bulletin of Missionary Research 25', year: '2001', status: 'paraphrase', note: 'McGee war selbst Historiker an einer Hochschule der Assemblies of God.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'geist-mit-euch-nicht-auf-euch',
+      objection: `„Ihr Kopten seid als Säuglinge getauft und habt nie die Geistestaufe empfangen. Apg 8 zeigt es: Die Samariter glaubten und waren getauft – und hatten den Geist trotzdem noch nicht. Es gibt eine zweite Erfahrung nach der Bekehrung."`,
+      objectionBy: 'Pfingstprediger',
+      answer: `Apg 8 ist gerade unser Text! Die Samariter empfingen den Geist, als die Apostel ihnen die Hände auflegten (8,17) – eine von der Wassertaufe unterschiedene Gabe des Geistes. Genau das feiert die koptische Kirche im Sakrament der **Myronsalbung**, das unmittelbar nach der Taufe gespendet wird. Wir stimmen also zu, dass es eine besondere Geistesgabe gibt – sie wird aber durch die Kirche gegeben, und ihr Kennzeichen ist nicht die Zungenrede, sondern die Frucht des Geistes (Gal 5,22).`,
+      detail: `Auch Apg 19,6 verbindet den Geistempfang mit der Handauflegung des Apostels nach der Taufe. Paulus spricht von Salbung und Versiegelung: „Gott ist's aber, der uns befestigt samt euch in Christum und uns gesalbt und versiegelt und in unsre Herzen das Pfand, den Geist, gegeben hat" (2 Kor 1,21–22). Die Myronsalbung ist die kirchliche Gestalt dieser apostolischen Handauflegung.`,
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '8,14–17', quote: `Da legten sie die Hände auf sie, und sie empfingen den heiligen Geist.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: '2. Korinther', ref: '1,21–22', quote: `Gott ist's aber, der uns befestigt samt euch in Christum und uns gesalbt und versiegelt und in unsre Herzen das Pfand, den Geist, gegeben hat.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'myron-nur-ritual',
+          objection: `„Ein Ölritual ist doch keine echte Erfahrung der Kraft Gottes. Bei uns spürt man den Geist."`,
+          objectionBy: 'Charismatischer Lehrer',
+          answer: `Auch die Handauflegung der Apostel war eine sichtbare, leibliche Handlung – und durch sie kam der Geist (Apg 8,18). Johannes schreibt den Christen: „Ihr habt die Salbung (*chrisma*) von dem, der heilig ist" (1 Joh 2,20.27). Kyrill von Jerusalem erklärt den Neugetauften: Das heilige Myron ist nach der Anrufung nicht mehr bloßes Öl, sondern Gabe Christi und des Heiligen Geistes. Ob man etwas „spürt", entscheidet nicht darüber, ob Gott gehandelt hat.`,
+          voices: [
+            {
+              person: 'kyrill-jerusalem',
+              role: 'als Lehrer der Mysterien',
+              text: `In der dritten mystagogischen Katechese vergleicht Kyrill das Myron mit dem eucharistischen Brot: Wie das Brot nach der Anrufung des Geistes nicht mehr gewöhnliches Brot ist, so ist auch das heilige Salböl nicht mehr gewöhnliches Öl, sondern Gnadengabe Christi, die durch die Gegenwart des Geistes wirksam wird.`,
+              sources: [{ kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Mystagogische Katechesen', ref: '3,3', year: 'um 350 (Zuschreibung z. T. an Johannes von Jerusalem)', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'warum-keine-kraft',
+              objection: `„Wenn ihr den Geist als Säuglinge empfangen habt – warum sieht man dann bei so vielen Kopten keine Kraft und kein Feuer?"`,
+              objectionBy: 'Pfingstevangelist',
+              answer: `Eine ehrliche Frage. Paulus schreibt Timotheus: „Erwecke die Gabe Gottes, die in dir ist" (2 Tim 1,6) – eine empfangene Gabe kann schlummern und muss angefacht werden, durch Buße, Gebet, Fasten und die Sakramente. Und die Kraft, die Jesus verheißt, ist zuerst Kraft zum Zeugnis: „Ihr werdet die Kraft des heiligen Geistes empfangen … und werdet meine Zeugen sein" (Apg 1,8). Diese Kraft haben koptische Christen in Jahrhunderten der Bedrängnis bis zum Martyrium gezeigt – etwa die 21 Märtyrer von Libyen 2015, die mit dem Namen Jesu auf den Lippen starben.`,
+              followUps: [
+                {
+                  id: 'meine-erfahrung',
+                  objection: `„Ich habe es selbst erlebt: Ich habe in Zungen geredet und Gottes Gegenwart wie nie zuvor gespürt. Meine Erfahrung kannst du mir nicht absprechen."`,
+                  objectionBy: 'Charismatischer Jugendleiter',
+                  answer: `Ich spreche dir deine Begegnung mit Gott nicht ab – ich freue mich, wenn du Gott näher gekommen bist. Die Frage ist nur die Deutung: War diese Erfahrung der eine, notwendige Beweis der Geistestaufe, den alle anderen Christen auch haben müssen? Erfahrungen sind kostbar, aber sie brauchen die Unterscheidung durch Schrift und Kirche. Viele Heilige hatten den Geist in Fülle, ohne je in Zungen zu reden.`,
+                  detail: `Pastoral wichtig: Werte die Erfahrung deines Gegenübers nicht ab. Biete ihm stattdessen den größeren Rahmen an: die Fülle des geistlichen Lebens in der Kirche, die Frucht des Geistes (Gal 5,22–23) und das Wort Jesu: „An ihren Früchten sollt ihr sie erkennen" (Mt 7,16). Eine Erfahrung, die zu Demut, Liebe und Treue führt, trägt das Siegel des Geistes – unabhängig von ihrer äußeren Form.`,
+                  questionsBack: [`Hat deine Erfahrung dich demütiger gemacht – oder dazu verleitet, auf Christen ohne diese Erfahrung herabzusehen?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche Antwort erwartet Paulus auf seine Frage: „Reden sie alle mit Zungen?" (1 Kor 12,30)?`,

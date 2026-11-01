@@ -186,6 +186,90 @@ Das ist die orthodoxe Synergie in einem Bild: Gott ist immer da, die Gnade geht 
         },
       ],
     },
+    {
+      id: 'roem-4-5-gottlose',
+      objection: `„Röm 4,5: ‚Dem aber, der nicht mit Werken umgeht, glaubt aber an den, der die Gottlosen gerecht macht, dem wird sein Glaube gerechnet zur Gerechtigkeit.' Nicht der Fromme, sondern der Gottlose wird gerechtfertigt – ohne Werke. Klarer geht es nicht."`,
+      objectionBy: 'Martin Luther / James White',
+      answer: `Ein herrlicher Vers – und wir glauben ihn: Gott rechtfertigt den Gottlosen aus Gnade, nicht weil er sich etwas verdient hätte. Aber lies V. 4 mit: Gemeint sind Werke, die Gott zum Schuldner machen – „nicht aus Gnade, sondern aus Pflicht". Solche Werke lehnt die koptische Kirche genauso ab. Derselbe Paulus sagt aber zwei Kapitel vorher, Gott werde „geben einem jeglichen nach seinen Werken: Preis und Ehre … denen, die mit Geduld in guten Werken trachten nach dem ewigen Leben" (Röm 2,6–7). Paulus kennt beides: den Anfang aus reiner Gnade und das Gericht nach den Werken.`,
+      detail: `Röm 4 handelt vom **Eintritt** in den Bund: Abraham wurde gerechtfertigt, *bevor* er beschnitten wurde (4,9–12) – also nicht durch das Bundeszeichen des mosaischen Gesetzes. Der Gegenbegriff zu „Glaube" ist hier das Werk als Lohnanspruch (4,4).
+
+Die orthodoxe Lehre unterschreibt das: Niemand kann sich die Gnade der Taufe, der Vergebung oder der Gotteskindschaft verdienen. Aber Paulus bleibt nicht bei Röm 4 stehen. Röm 2,6–16, 2 Kor 5,10 und Gal 6,7–9 sprechen von einem Gericht nach dem, was wir getan haben – an Christen gerichtet. Die Werke, die dort zählen, sind keine Lohnansprüche, sondern Frucht der Gnade, die in uns wirkt (Phil 2,12–13).`,
+      sources: [
+        { kind: 'bibel', work: 'Römer', ref: '4,4–5', quote: `Dem aber, der mit Werken umgeht, wird der Lohn nicht aus Gnade zugerechnet, sondern aus Pflicht. Dem aber, der nicht mit Werken umgeht, glaubt aber an den, der die Gottlosen gerecht macht, dem wird sein Glaube gerechnet zur Gerechtigkeit.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Römer', ref: '2,6–7', quote: `… welcher geben wird einem jeglichen nach seinen Werken: Preis und Ehre und unvergängliches Wesen denen, die mit Geduld in guten Werken trachten nach dem ewigen Leben …`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wie passt für dich Röm 4,5 zu Röm 2,6–7 – im selben Brief, vom selben Apostel?`,
+      ],
+      followUps: [
+        {
+          id: 'roem-2-hypothetisch',
+          objection: `„Röm 2 ist hypothetisch: Paulus zeigt, was gälte, *wenn* jemand das Gesetz vollkommen hielte – und kommt in Röm 3,20 zum Schluss, dass das niemand tut. Gericht nach Werken bedeutet für alle Verdammnis; nur Christi Gerechtigkeit rettet."`,
+          objectionBy: 'Michael Horton',
+          answer: `Das ist eine verbreitete reformierte Lesart, aber der Text widerspricht ihr: In Röm 2,14–15.26–29 spricht Paulus von Heiden, denen das Gesetz „ins Herz geschrieben" ist und deren „Beschneidung des Herzens im Geist" geschieht – das ist die Sprache des Neuen Bundes (Jer 31,33; Ez 36,26–27), also von Christen. Und 2 Kor 5,10 ist nicht hypothetisch: „Wir müssen alle offenbar werden vor dem Richterstuhl Christi, auf daß ein jeglicher empfange, nach dem er gehandelt hat bei Leibesleben, es sei gut oder böse." Das schreibt Paulus an Gläubige über sich und sie.`,
+          detail: `Viele Exegeten – auch protestantische wie N. T. Wright und schon C. E. B. Cranfield in Teilen – lesen Röm 2,7.10.14–16.26–29 nicht als bloße Hypothese, sondern als Hinweis auf das, was der Geist in den Gläubigen wirkt. Wright fasst es so zusammen: Die gegenwärtige Rechtfertigung aus Glauben nimmt das künftige Urteil vorweg, das auf der Grundlage des ganzen gelebten Lebens ergeht.
+
+Damit trifft sich die neuere Exegese mit den Vätern: Chrysostomus liest die „Täter des Gesetzes" in Röm 2,13 als Menschen, die durch die Gnade zum Tun befähigt werden. Werke sind nicht der Grund, auf den hin Gott uns annimmt, aber sie sind der Inhalt des Lebens, über das Christus urteilt (Mt 25,31–46).`,
+          voices: [
+            {
+              person: 'nt-wright',
+              role: 'als Neutestamentler (Paulusforschung)',
+              text: `Wright betont, dass Paulus von einem doppelten Moment der Rechtfertigung spricht: Die gegenwärtige Rechtfertigung aus Glauben erklärt jetzt, was das endgültige Urteil am Ende bestätigen wird – und dieses Urteil ergeht gemäß dem ganzen Leben, das der Geist im Glaubenden hervorgebracht hat (Röm 2,6–16; 8,1–13). Auch wenn Wright Protestant ist und nicht alle orthodoxen Schlüsse zieht, widerspricht seine Exegese der Vorstellung, Werke seien für das Endgericht bedeutungslos.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'N. T. Wright', work: 'Justification: God’s Plan and Paul’s Vision', year: '2009', quote: `Die gegenwärtige Rechtfertigung nimmt das künftige Urteil vorweg, das auf der Grundlage des ganzen gelebten Lebens gesprochen wird.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: '2. Korinther', ref: '5,10', quote: `Denn wir müssen alle offenbar werden vor dem Richterstuhl Christi, auf daß ein jeglicher empfange, nach dem er gehandelt hat bei Leibesleben, es sei gut oder böse.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'werke-nur-beweis',
+              objection: `„Einverstanden, es gibt ein Gericht nach Werken. Aber die Werke sind dort nur der *Beweis*, dass jemand zu Christus gehört – nicht die Bedingung des Heils. Gerettet allein durch Glauben, gerichtet nach den Werken als Beweis."`,
+              objectionBy: 'James White',
+              answer: `Dann sind wir uns näher, als du denkst – denn auch für uns sind Werke kein Verdienst. Aber prüfe die Unterscheidung: Wenn ohne diese Werke niemand das Heil erlangt – „die Heiligung, ohne welche wird niemand den Herrn sehen" (Hebr 12,14) –, dann sind sie **notwendig**, auch wenn sie nicht verdienstlich sind. Eine notwendige Bedingung ist kein Lohnanspruch. Übrigens streiten Protestanten darüber selbst: Georg Major lehrte im 16. Jahrhundert, gute Werke seien zur Seligkeit nötig; Nikolaus von Amsdorf antwortete, sie seien zur Seligkeit sogar schädlich. Die Konkordienformel verwarf beide Sätze.`,
+              detail: `Der **majoristische Streit** (1550er-Jahre) zeigt, wie schwer sich die lutherische Theologie mit der Frage tat. Major formulierte: Gute Werke sind zur Seligkeit nötig. Amsdorf veröffentlichte 1559 eine Schrift mit der These, gute Werke seien zur Seligkeit schädlich. Die Konkordienformel (1577, Art. IV) lehnte beide Formeln ab und lehrte, gute Werke seien nötig als Frucht des Glaubens und aus Gehorsam, aber nicht zur Seligkeit.
+
+Das reformierte Westminster-Bekenntnis (Kap. 16) nennt gute Werke „Früchte und Beweise eines wahren und lebendigen Glaubens". Die koptische Kirche sagt: Werke sind die Frucht der Gnade, *mit der wir mitwirken*, und als solche gehören sie zum Weg des Heils – nicht als Preis, sondern als Leben in Christus. Die Grenze zwischen „notwendigem Beweis" und „notwendiger Bedingung" ist dünner, als die Polemik vermuten lässt.`,
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '12,14', quote: `Jaget nach dem Frieden gegen jedermann und der Heiligung, ohne welche wird niemand den HERRN sehen.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'gegner', work: 'Konkordienformel (Formula Concordiae)', ref: 'Art. IV (Von guten Werken)', year: '1577', quote: `Verwerfung sowohl der Formel „gute Werke sind nötig zur Seligkeit" als auch der Formel „gute Werke sind schädlich zur Seligkeit"; gute Werke seien nötig als Frucht des Glaubens, nicht als Ursache des Heils.`, status: 'paraphrase' },
+                { kind: 'gegner', work: 'Westminster-Bekenntnis', ref: 'Kap. 16,2', year: '1647', quote: `Gute Werke, in Gehorsam gegen Gottes Gebote getan, sind die Früchte und Beweise eines wahren und lebendigen Glaubens.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Kann jemand ohne Heiligung den Herrn sehen (Hebr 12,14)? Wenn nein – was unterscheidet „notwendig" noch von „Bedingung"?`,
+                `Warum mussten Lutheraner im 16. Jahrhundert ausdrücklich den Satz verwerfen, gute Werke seien zur Seligkeit schädlich?`,
+              ],
+              followUps: [
+                {
+                  id: 'roem-8-1-urteil-gefallen',
+                  objection: `„Der Unterschied bleibt: Bei uns ist das Urteil des Endgerichts schon gefallen – ‚So ist nun nichts Verdammliches an denen, die in Christo Jesu sind' (Röm 8,1). Bei euch bleibt das Urteil offen bis zum Schluss."`,
+                  objectionBy: 'Michael Horton',
+                  answer: `Röm 8,1 ist uns teuer: Wer in Christus ist, steht nicht unter Verdammnis – das glauben wir jetzt, nicht erst am Ende. Aber achte auf die Bedingung: „an denen, die **in Christo Jesu** sind". In ihm bleiben ist entscheidend (Joh 15,6). Und im selben Kapitel, an dieselben Brüder: „Denn wo ihr nach dem Fleisch lebet, so werdet ihr sterben müssen; wo ihr aber durch den Geist des Fleisches Geschäfte tötet, so werdet ihr leben" (Röm 8,13). Das Urteil ist nicht offen wie eine Lotterie – es ist gewiss für jeden, der in Christus bleibt.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Römer', ref: '8,13', quote: `Denn wo ihr nach dem Fleisch lebet, so werdet ihr sterben müssen; wo ihr aber durch den Geist des Fleisches Geschäfte tötet, so werdet ihr leben.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Johannes', ref: '15,6', quote: `Wer nicht in mir bleibt, der wird weggeworfen wie eine Rebe und verdorrt …`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `An wen richtet Paulus Röm 8,13 – an Ungläubige oder an die „lieben Brüder" (8,12)?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'lohnstufen-1-kor-3',
+          objection: `„Das Gericht nach Werken betrifft nur die Belohnungsstufen im Himmel, nicht das Heil selbst. 1 Kor 3,15: Wessen Werk verbrennt, der leidet Schaden, ‚er selbst aber wird selig werden, so doch wie durchs Feuer'."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `1 Kor 3 spricht von Lehrern und ihrem Bau auf dem Fundament Christus – Paulus und Apollos (3,5–10). Für sie gilt: Schlechtes Bauen kann Lohn kosten, ohne dass der Bauende verloren geht. Aber derselbe Brief sagt drei Kapitel weiter, und zwar an die Gemeinde: „Wisset ihr nicht, daß die Ungerechten werden das Reich Gottes nicht ererben?" (1 Kor 6,9–10). Und Gal 5,21: „Die solches tun, werden das Reich Gottes nicht erben." Da geht es nicht um Lohnstufen, sondern um das Erbe selbst.`,
+          sources: [
+            { kind: 'bibel', work: '1. Korinther', ref: '6,9–11', quote: `Wisset ihr nicht, daß die Ungerechten werden das Reich Gottes nicht ererben? … Und solche sind euer etliche gewesen; aber ihr seid abgewaschen, ihr seid geheiligt, ihr seid gerecht geworden durch den Namen des HERRN Jesu und durch den Geist unsres Gottes.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn Werke für das Heil keine Rolle spielen – warum fragt Jesus im Gericht (Mt 25) ausschließlich nach Werken der Barmherzigkeit?`,

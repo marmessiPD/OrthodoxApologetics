@@ -174,6 +174,36 @@ const claim: Claim = {
           targetsPremise: 1,
           answer: `Vielleicht tut Gott das unzählige Male – wir sehen nur die Fälle, in denen es nicht geschah, nie die verhinderten. Wenn Gott aber jedes schwere Unrecht unbemerkt verhinderte, gäbe es keine Welt, in der Taten wirklich zählen. Wo genau die Grenze liegt, kann ich nicht sagen – und ich gebe zu, dass das schmerzt. Aber Gott hat nicht weggeschaut: Er hat selbst als Unschuldiger gelitten, und er wird richten.`,
           detail: `Ehrlichkeit ist hier wichtiger als Brillanz: Wir kennen Gottes Gründe im Einzelfall nicht. Das ist kein Ausweichen, sondern die nüchterne Grenze unseres Wissens. Wer behauptet, er wisse genau, warum Gott ein bestimmtes Verbrechen nicht verhinderte, maßt sich Hiobs Freunde-Wissen an.`,
+          followUps: [
+            {
+              id: 'bibel-gott-griff-ein',
+              objection: `Aber der Gott der Bibel greift doch ständig ein: Er teilt das Meer, speist Tausende, weckt Tote auf. Wenn er das damals konnte und wollte – warum schweigt er heute in Auschwitz, in Darfur, im Kinderkrankenhaus? Gerade die Bibel macht sein heutiges Schweigen unerklärlich.`,
+              objectionBy: 'Bart D. Ehrman (God\'s Problem, 2008)',
+              answer: `Das ist Ehrmans persönlichster Einwand, und er verdient eine ehrliche Antwort. Auch in der Bibel sind Wunder die Ausnahme: Israel lag 400 Jahre in Ägypten, bevor das Meer sich teilte; die Psalmen und Hiob klagen über Gottes Schweigen; Johannes der Täufer wurde im Gefängnis enthauptet, ohne Rettung. Die Wunder Jesu sind Zeichen des kommenden Reiches, nicht die Abschaffung der jetzigen Welt. Die Bibel kennt also beides: den eingreifenden und den schweigenden Gott – und sie lehrt, ihn in beidem zu suchen.`,
+              detail: `Ehrman beschreibt in *God's Problem* (2008), wie er seinen Glauben verlor, weil er die biblischen Antworten auf das Leid nicht mehr für ausreichend hielt. Er nimmt die Bibel dabei ernst – auch ihre Klage. Genau dort liegt die Antwort: Die Bibel selbst ist das Buch, das am lautesten fragt „Wie lange, HERR?" (Ps 13,2) und „Mein Gott, warum hast du mich verlassen?" (Ps 22,2; Mk 15,34). Christen müssen Gottes Schweigen nicht wegerklären; sie dürfen es mit den Psalmen vor Gott tragen.
+
+Die koptische Kirche kennt dieses Schweigen aus ihrer eigenen Geschichte: Jahrhunderte der Verfolgung ohne spektakuläre Rettung, und doch blieb sie – weil ihr Glaube nicht auf ständigem Eingreifen ruht, sondern auf dem Kreuz und der Auferstehung.`,
+              sources: [
+                { kind: 'gegner', author: 'Bart D. Ehrman', work: 'God\'s Problem: How the Bible Fails to Answer Our Most Important Question – Why We Suffer', year: '2008', quote: `Ehrman schildert, wie die Frage nach dem Leid ihn vom Glauben wegführte: Die Antworten der Bibel genügten ihm angesichts des Ausmaßes an Leid nicht mehr.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Psalm', ref: '13,2', quote: `HERR, wie lange willst du mein so gar vergessen? Wie lange verbirgst du dein Antlitz vor mir?`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn die Bibel selbst Gottes Schweigen beklagt – ist das nicht eher ein Zeichen ihrer Ehrlichkeit als ein Beweis gegen Gott?`,
+              ],
+              followUps: [
+                {
+                  id: 'willkuer-hilft-einem',
+                  objection: `Dann ist dein Gott willkürlich: Den einen heilt er nach einem Gebet, den anderen lässt er sterben. Das ist ein Herrscher, der Günstlinge auswählt – schlimmer, als wenn er gar nicht eingriffe.`,
+                  objectionBy: 'Bart D. Ehrman / Alex O\'Connor',
+                  answer: `Am Teich Betesda lagen viele Kranke, und Jesus heilte einen (Joh 5,3–9). Das wirkt willkürlich, solange man annimmt, diese Welt sei das Ganze. Aber die Heilungen sind Vorzeichen, nicht Verteilung von Gunst: Am Ende steht die Auferstehung aller, und dann wird keiner übergangen. Und ich gebe zu: Ich weiß nicht, warum Gott in einem Fall eingreift und im anderen nicht. Willkürlich wäre er, wenn er die Übergangenen vergäße – das Evangelium sagt das Gegenteil.`,
+                  detail: `Seelsorglich ist diese Frage sehr ernst, weil sie oft von Menschen kommt, die für jemanden gebetet haben, der trotzdem starb. Dann ist zuerst Mitgefühl dran. Die Kirche hat nie gelehrt, dass Heilung ein Lohn für Frömmigkeit ist; viele der größten Heiligen waren schwer krank (Paulus, 2 Kor 12,7–9; der hl. Abba Moses, Papst Kyrill VI. in seinen letzten Jahren). Siehe den Claim „Unerhörte Gebete zeigen, dass niemand zuhört".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '5,3.5', quote: `… in welchen lagen viele Kranke, Blinde, Lahme, Dürre; die warteten, wann sich das Wasser bewegte. … Es war aber ein Mensch daselbst, achtunddreißig Jahre krank gelegen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -218,6 +248,42 @@ const claim: Claim = {
           objectionBy: 'Bart Ehrman',
           answer: `Das ist der ehrliche Kern der Debatte, und da müssen wir abwägen. Ich bringe nicht nur Syllogismen, sondern auch eine Person: Jesus von Nazareth, der selbst unschuldig gelitten hat und – dafür gibt es starke historische Gründe – auferstanden ist. Wenn er auferstanden ist, dann hat das Leid nicht das letzte Wort. Und bemerkenswert ist: Viele, die am tiefsten gelitten haben, haben Gott im Leid nicht verloren, sondern gefunden.`,
           detail: `Ehrman verlor seinen Glauben am Problem des Leids (God's Problem, 2008); seine Ehrlichkeit verdient Respekt. Zugleich bezeugen unzählige Leidende – von den Märtyrern der koptischen Kirche bis zu Menschen in Krankenhäusern und Flüchtlingslagern – das Gegenteil. Leid ist ein Grund zum Zweifel und zugleich der Ort, an dem viele Menschen Gott begegnen. Siehe auch den Themenblock „Die Auferstehung Jesu".`,
+          followUps: [
+            {
+              id: 'wiesel-nacht',
+              objection: `Elie Wiesel hat in Auschwitz gesehen, wie ein Kind am Galgen langsam starb, und dort seinen Glauben verloren: Diese Flammen haben seinen Gott für immer verzehrt. Wer bist du, ihm zu widersprechen?`,
+              objectionBy: 'Bart D. Ehrman (mit Bezug auf Elie Wiesel, „Die Nacht")',
+              answer: `Ich widerspreche Wiesel nicht – vor seinem Zeugnis schweigt man zuerst. Aber in genau dieser Szene fragt jemand hinter ihm: „Wo ist Gott?", und Wiesel hört in sich die Antwort: „Hier hängt er, an diesem Galgen." Für Wiesel war das der Tod seines Kinderglaubens. Christen hören darin auch das Geheimnis des Kreuzes: Gott ist nicht der Zuschauer auf der Tribüne, sondern der Gehenkte. Das löst das Leid nicht auf, aber es verändert, wo wir Gott suchen.`,
+              detail: `Wiesels *Die Nacht* (frz. 1958) gehört zu den erschütterndsten Zeugnissen des 20. Jahrhunderts. Man darf es nicht christlich vereinnahmen; Wiesel blieb Jude, mit Gott ringend. Jürgen Moltmann hat in *Der gekreuzigte Gott* (1972) diese Szene christologisch gedeutet.
+
+Die koptische Theologie hat dafür ein festes Fundament: Mit dem hl. Kyrill bekennt sie im 12. Anathematismus, dass der Logos Gottes „im Fleisch gelitten hat". Der Gott der Christen hat die Folter, die Verlassenheit und den Tod nicht von außen betrachtet, sondern von innen erlitten. Diese Antwort ist keine Erklärung des Leids – aber eine Gemeinschaft im Leid.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Lehrer des leidenden Logos',
+                  text: `Kyrill besteht gegen Nestorius darauf, dass der, der am Kreuz litt, nicht ein Mensch neben Gott war, sondern der Logos selbst in seinem eigenen Fleisch – „leidensunfähig in seiner Gottheit, leidend im Fleisch". Darum kann die Kirche sagen: Gott hat gelitten. Für die Theodizee heißt das: Der Christ verweist nicht auf einen fernen Gott, der Leid zulässt, sondern auf den Gott, der es selbst getragen hat.`,
+                  sources: [
+                    { kind: 'konzil', author: 'Kyrill von Alexandrien', work: 'Zwölf Anathematismen (Dritter Brief an Nestorius)', ref: 'Anathematismus 12', year: '430', quote: `Wer nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat, im Fleisch gekreuzigt wurde und im Fleisch den Tod gekostet hat, der sei ausgeschlossen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'sonstiges', author: 'Elie Wiesel', work: 'Die Nacht (La Nuit)', year: '1958', quote: `Hinter mir fragte jemand: „Wo ist Gott?" – und in mir hörte ich eine Stimme antworten: „Hier hängt er, an diesem Galgen."`, status: 'paraphrase', note: 'Wiesel meinte damit den Tod seines Glaubens; die christologische Deutung (Moltmann) ist eine Aneignung, die man als solche kennzeichnen sollte.' },
+              ],
+              followUps: [
+                {
+                  id: 'vertroestung-jenseits',
+                  objection: `Ein mitleidender Gott und ein Jenseits als Ausgleich – das ist Vertröstung. Es lähmt den Kampf gegen das Leid hier und jetzt. Die Religion ist das Seufzen der bedrängten Kreatur, und ihr verkauft es als Antwort.`,
+                  objectionBy: 'Karl Marx (Rezeption)',
+                  answer: `Wenn Hoffnung lähmen würde, müssten die Christen die passivsten Menschen der Geschichte sein. Das Gegenteil ist der Fall: Die ersten Krankenhäuser (Basilius' Basilias um 370), die Abschaffung der Sklaverei (Wilberforce), die Bürgerrechtsbewegung (Martin Luther King) und die Hospizbewegung (Cicely Saunders) kamen aus genau dieser Hoffnung. Wer weiß, dass das Leid nicht das letzte Wort hat, kann sich ihm stellen, ohne zu verzweifeln.`,
+                  detail: `Marx' berühmter Satz (Einleitung zur *Kritik der Hegelschen Rechtsphilosophie*, 1844) ist differenzierter, als er oft zitiert wird: Er nennt Religion zugleich „Ausdruck des wirklichen Elendes" und „Protestation gegen das wirkliche Elend". Christen können zugeben, dass Religion missbraucht wurde, um Unrecht zu verewigen. Aber das Evangelium selbst stellt die Mächtigen unter das Gericht (Lk 1,52) und verlangt, den Hungrigen zu speisen (Mt 25,35). Siehe den Claim „Religion ist das Opium des Volkes".`,
+                  sources: [
+                    { kind: 'gegner', author: 'Karl Marx', work: 'Zur Kritik der Hegelschen Rechtsphilosophie. Einleitung', ref: 'MEW 1, S. 378', year: '1844', quote: `Das religiöse Elend ist in einem der Ausdruck des wirklichen Elendes und in einem die Protestation gegen das wirkliche Elend. Die Religion ist der Seufzer der bedrängten Kreatur, das Gemüt einer herzlosen Welt, wie sie der Geist geistloser Zustände ist. Sie ist das Opium des Volkes.`, status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

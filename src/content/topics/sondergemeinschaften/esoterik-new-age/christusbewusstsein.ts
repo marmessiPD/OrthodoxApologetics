@@ -160,6 +160,74 @@ const claim: Claim = {
               objectionBy: 'Praktizierende',
               answer: `Ich nehme deine Erfahrung ernst – Stille, Frieden und Weite sind real. Die Frage ist die Deutung: Ist das Göttliche „in dir" als dein wahres Selbst, oder ist es der lebendige Gott, der dir begegnen will? Sundar Singh suchte jahrelang in Meditation und fand Frieden erst, als ihm Christus als Person begegnete. Und die Väter lehren: Nicht jedes Licht ist Gott (2 Kor 11,14) – darum braucht Erfahrung Unterscheidung.`,
               questionsBack: [`Hat das, was du in der Meditation erfährst, einen Namen, einen Willen und eine Liebe zu dir?`],
+              followUps: [
+                {
+                  id: 'eckhart-gottesgeburt',
+                  objection: `Eure eigenen Mystiker sagen dasselbe: Meister Eckhart sprach von der „Gottesgeburt in der Seele" und vom „Seelenfünklein", das ungeschaffen sei. Die Mystik aller Religionen trifft sich im selben Punkt – nur die Dogmen trennen.`,
+                  objectionBy: 'Eckhart Tolle / Willigis Jäger (zugespitzt)',
+                  answer: `Eckhart ist ein schwieriger Zeuge: Er sprach kühn und paradox, und 1329 wurden mehrere seiner Sätze – darunter genau die vom „Ungeschaffenen" in der Seele – vom Papst verurteilt; Eckhart selbst hatte sich vorher dem Urteil der Kirche unterworfen. Was immer er meinte: Er lebte im Gebet, in den Sakramenten und im Bekenntnis zu Christus als dem einzigen Sohn. Die Gottesgeburt war für ihn Gnade an einem Geschöpf, kein Erwachen zur eigenen Göttlichkeit. Und die ältere ostkirchliche Mystik ist eindeutig: Vereinigung mit Gott ja – aber der Mensch bleibt Geschöpf.`,
+                  detail: `Die ägyptische Wüstentradition kennt eine tiefe Mystik des Herzens – Makarius der Große spricht davon, dass Christus im Herzen wohnt und es mit Licht erfüllt. Doch diese Mystik ist durch und durch personal: Ein „Ich" ruft zu einem „Du" („Herr Jesus Christus, erbarme dich meiner"). Mystische Erfahrungen verschiedener Religionen ähneln sich in der Sprache der Stille und des Lichts; das beweist nicht, dass sie denselben Inhalt haben. Wer sie „im Kern gleich" nennt, setzt bereits voraus, was er beweisen will.`,
+                  sources: [
+                    { kind: 'sonstiges', work: 'Bulle „In agro dominico" (Papst Johannes XXII.)', year: '1329', quote: `Verurteilung von 28 Sätzen Meister Eckharts, teils als häretisch, teils als verdächtig.`, status: 'paraphrase', note: 'Katholische Entscheidung; hier nur als historisches Faktum angeführt.' },
+                  ],
+                  questionsBack: [`Wenn alle Mystiker dasselbe erfahren – warum betet der koptische Mönch zu Jesus Christus und nicht zu einem namenlosen Selbst?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'kurs-in-wundern',
+      objection: `„Ein Kurs in Wundern" wurde von Jesus selbst diktiert – über die Psychologin Helen Schucman. Er lehrt: Sünde ist eine Illusion, die Welt ist ein Traum der Trennung, und Vergebung heißt erkennen, dass in Wirklichkeit nichts geschehen ist. Das ist das wahre Christusbewusstsein.`,
+      objectionBy: 'A Course in Miracles (1976) / Marianne Williamson',
+      answer: `Die Bibel gibt uns einen Prüfstein für jede Botschaft, die sich auf Jesus beruft: „Prüfet die Geister … ein jeglicher Geist, der da bekennt, dass Jesus Christus ist in das Fleisch gekommen, der ist von Gott" (1 Joh 4,1–2). Der „Kurs" erklärt die Welt und den Leib für Illusion und das Kreuz nicht als Sühne. Der Jesus der Evangelien sagt das Gegenteil: „Des Menschen Sohn ist gekommen, … dass er sein Leben gebe zur Erlösung für viele" (Mk 10,45), „Das ist mein Blut … für viele vergossen" (Mk 14,24). Zwei Botschaften, die sich widersprechen, können nicht vom selben Jesus stammen.`,
+      detail: `Die Evangelien sind Quellen des 1. Jahrhunderts aus dem Umfeld der Augenzeugen; der „Kurs" ist eine innere Stimme, die eine New Yorker Psychologin in den Jahren 1965–1972 niederschrieb. Schucman selbst stand dem Text nach Berichten ihres Umfelds zeitlebens zwiespältig gegenüber. Historisch gesehen gibt es keinen Grund, eine moderne Eingebung über die ältesten Zeugnisse zu stellen. Theologisch ist der „Kurs" eine moderne Form des Doketismus: Was nicht wirklich ist – Leib, Welt, Leiden –, muss auch nicht wirklich erlöst werden.`,
+      sources: [
+        { kind: 'gegner', author: 'Helen Schucman (Niederschrift)', work: 'A Course in Miracles (dt. Ein Kurs in Wundern)', year: '1976', quote: `Die Welt der Trennung als Illusion; Sünde als Irrtum, der nicht wirklich ist; die Kreuzigung nicht als Sühneopfer verstanden.`, status: 'paraphrase' },
+        { kind: 'bibel', work: 'Markus', ref: '10,45', quote: `Denn auch des Menschen Sohn ist nicht gekommen, daß er sich dienen lasse, sondern daß er diene und gebe sein Leben zur Bezahlung für viele.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn der Jesus des „Kurses" das Gegenteil von dem lehrt, was der Jesus der Evangelien sagt – welcher von beiden ist der wirkliche?`],
+      followUps: [
+        {
+          id: 'suende-illusion-befreit',
+          objection: `Aber die Lehre, dass Sünde eine Illusion ist, befreit! Die Kirchen haben Menschen mit Schuldgefühlen kleingehalten. Der „Kurs" heilt diese Schuld.`,
+          objectionBy: 'Marianne Williamson / Gary Renard',
+          answer: `Ich verstehe die Sehnsucht – viele Menschen sind durch harte Predigten verletzt worden, und das tut mir leid. Aber sag einem Kind, das missbraucht wurde, oder einer Familie, die im Krieg alles verlor, das Böse sei nicht wirklich geschehen. Das ist keine Heilung, sondern eine zweite Verletzung. Echte Vergebung setzt voraus, dass etwas Wirkliches geschehen ist – und gerade darum ist sie so befreiend. Die koptische Liturgie spricht unablässig von Gottes Menschenliebe (*philanthrōpia*): Gott vergibt nicht, indem er so tut, als sei nichts gewesen, sondern indem er die Last selbst trägt.`,
+          detail: `Die Kirche lehrt nicht, Schuldgefühle zu kultivieren, sondern Buße als Heimkehr: Der verlorene Sohn gesteht seine Schuld, und der Vater läuft ihm entgegen (Lk 15,20–24). Die koptische Beichtpraxis ist auf Heilung angelegt – der Beichtvater ist Arzt, nicht Richter. Eine Weltanschauung, in der Böses nur Illusion ist, nimmt nicht nur dem Täter die Schuld, sondern auch dem Opfer das Recht, Unrecht Unrecht zu nennen.`,
+          sources: [{ kind: 'bibel', work: '1. Johannes', ref: '1,8–9', quote: `So wir sagen, wir haben keine Sünde, so verführen wir uns selbst, und die Wahrheit ist nicht in uns. So wir aber unsre Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt und reinigt uns von aller Untugend.`, translation: 'Luther 1912', status: 'verbatim' }],
+          questionsBack: [`Würdest du einem Menschen, dem schweres Unrecht angetan wurde, sagen, es sei in Wirklichkeit nichts geschehen?`],
+          followUps: [
+            {
+              id: 'liebe-straft-nicht',
+              objection: `Ein Gott der reinen Liebe braucht kein Opfer und keine Sühne. Die Idee, dass Blut fließen muss, damit Gott vergibt, ist primitives Stammesdenken.`,
+              objectionBy: 'Deepak Chopra / New-Age-Autoren',
+              answer: `Eine Liebe, der das Böse gleichgültig ist, wäre keine Liebe, sondern Gleichgültigkeit. Die Frage ist nicht, ob Gott vergeben **will** – das will er –, sondern was die Sünde angerichtet hat: Tod und Verderben, die den Menschen zerstören. Athanasius erklärt: Gott konnte sein Geschöpf nicht dem Untergang überlassen; darum nahm der Logos selbst einen sterblichen Leib an, um den Tod von innen her zu besiegen. Das Kreuz ist nicht Gottes Preis, den ein Dritter zahlen muss, sondern Gottes eigene Hingabe.`,
+              detail: `In *Über die Menschwerdung* beschreibt Athanasius das „Dilemma" Gottes: Der Mensch, aus dem Nichts geschaffen, sank durch die Sünde zurück in Verderbnis und Tod. Es wäre Gottes unwürdig gewesen, sein Werk untergehen zu lassen – aber auch, sein Wort über den Tod einfach aufzuheben. Darum hat der Unsterbliche den Tod auf sich genommen, um ihn zu vernichten und uns die Unvergänglichkeit zu schenken. Die alexandrinische Tradition sieht im Kreuz deshalb vor allem Sieg und Heilung – nicht einen zornigen Gott, der besänftigt werden muss.`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als Lehrer der Menschwerdung',
+                  text: `Athanasius stellt in *De Incarnatione* dar, dass der Logos einen Leib annahm, der sterben konnte, damit er an Stelle aller den Tod erleide und durch seine Auferstehung allen die Unvergänglichkeit schenke. Der Tod Christi ist für ihn nicht Bestrafung durch einen fremden Willen, sondern das freiwillige Werk des Sohnes, der den Tod gerade dadurch entmachtet, dass er ihn auf sich nimmt.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung (De Incarnatione)', ref: '6–9', quote: `Gott konnte das Geschöpf nicht dem Verderben überlassen; der Logos nahm einen sterblichen Leib an, um den Tod für alle zu überwinden.`, status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'kosmischer-kindesmissbrauch',
+                  objection: `Ein Vater, der seinen eigenen Sohn foltern und töten lässt, um besänftigt zu werden – das ist „göttlicher Kindesmissbrauch". Kein liebender Vater täte so etwas.`,
+                  objectionBy: 'Verbreiteter Einwand gegen die Sühnelehre (auch von New-Age-Autoren aufgegriffen)',
+                  answer: `Der Einwand trifft ein Zerrbild, nicht den christlichen Glauben. Der Sohn ist kein wehrloses Kind, das ein fremder Wille opfert, sondern der ewige Gott selbst, eines Wesens mit dem Vater: „Niemand nimmt es von mir, sondern ich lasse es von mir selber" (Joh 10,18). „Gott war in Christus und versöhnte die Welt mit ihm selber" (2 Kor 5,19). Am Kreuz leidet nicht ein Opfer **für** einen grausamen Gott – dort leidet Gott selbst in seinem fleischgewordenen Sohn **für** uns.`,
+                  detail: `Hier zeigt sich, warum die Trinitätslehre und die Christologie Kyrills nicht abstrakt sind: Wer Jesus zu einem bloßen Menschen oder erleuchteten Meister macht, landet tatsächlich bei einem Gott, der einen Dritten leiden lässt. Wer bekennt, dass der Sohn Marias der ewige Sohn Gottes ist, sieht im Kreuz die äußerste Selbsthingabe Gottes. Die koptische Kirche singt in der Karwoche: „Dein ist die Kraft und die Herrlichkeit" – zum Gekreuzigten. Das ist nicht Verherrlichung von Gewalt, sondern das Bekenntnis, dass die Liebe stärker ist als der Tod.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '10,18', quote: `Niemand nimmt es von mir, sondern ich lasse es von mir selber. Ich habe es Macht zu lassen und habe es Macht wieder zu nehmen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '2. Korinther', ref: '5,19', quote: `Denn Gott war in Christo und versöhnte die Welt mit ihm selber und rechnete ihnen ihre Sünden nicht zu.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'liturgie', work: 'Koptische Karwoche (Pascha-Woche), Hymnus „Thok te ti gom"', quote: `„Dein ist die Kraft und die Herrlichkeit und der Segen und die Macht in Ewigkeit" – gesungen zum leidenden Herrn.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn der Sohn selbst Gott ist und sein Leben freiwillig gibt – wer missbraucht dann wen?`],
+                },
+              ],
             },
           ],
         },

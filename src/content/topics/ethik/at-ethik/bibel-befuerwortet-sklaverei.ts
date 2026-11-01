@@ -190,7 +190,26 @@ Das Emblem der Bewegung – ein knieender Sklave in Ketten mit der Inschrift „
               sources: [
                 { kind: 'sonstiges', author: 'Papst Paul III.', work: 'Sublimis Deus', year: '1537', quote: `Die Indianer und alle anderen Völker sind wahre Menschen; sie dürfen ihrer Freiheit und ihres Besitzes nicht beraubt werden, auch wenn sie nicht Christen sind.`, status: 'paraphrase' },
               ],
-            },
+followUps: [
+{
+  id: 'augustinus-strafe-fuer-suende',
+  objection: `Selbst euer Augustinus sagt, Sklaverei sei eine gerechte Strafe Gottes für die Sünde. Das ist keine „Saat der Befreiung", das ist theologische Rechtfertigung.`,
+  objectionBy: 'Hector Avalos',
+  answer: `Augustinus sagt in *Vom Gottesstaat* XIX,15 tatsächlich, die Sklaverei sei eine Folge der Sünde – aber im selben Kapitel sagt er auch, dass Gott den vernunftbegabten Menschen **nicht** zum Herrn über Menschen geschaffen hat, sondern nur über die Tiere; „von Natur aus" sei niemand Sklave. Damit widerspricht er Aristoteles' Lehre vom „Sklaven von Natur" frontal. Dass er daraus keine politische Forderung ableitete, ist ein echtes Versäumnis – Gregor von Nyssa zog zur selben Zeit die Konsequenz.`,
+  detail: `Für die Ideengeschichte ist der Unterschied enorm: Bei Aristoteles (*Politik* I) gibt es Menschen, die von Natur zum Dienen bestimmt sind – Sklaverei ist dann gerecht und dauerhaft. Bei Augustinus ist sie ein Zustand der gefallenen Welt, der der ursprünglichen Schöpfungsordnung **widerspricht**. Was der Sünde entspringt, ist nicht gottgewollt, sondern zu überwinden – genau dieser Gedanke wurde später zum Hebel der Abolitionisten.
+
+Ehrlich bleibt: Augustinus mahnt Sklaven zur Geduld und Herren zur Milde, nicht zur Freilassung. Er ist hier Kind seiner Zeit. Die koptische Kirche liest ihn ohnehin nicht als Lehrautorität; das stärkere patristische Zeugnis ist Gregor von Nyssa.`,
+  voices: [
+    { person: 'augustinus', role: 'als Theologe der Schöpfungsordnung', text: `Augustinus unterscheidet die Ordnung der Natur, in der Gott den Menschen nur über die vernunftlosen Geschöpfe gesetzt hat, von der Ordnung der gefallenen Welt, in der Menschen einander unterjochen. Die ersten Gerechten seien darum Hirten von Herden gewesen, nicht Könige über Menschen. Sklaverei ist für ihn kein Naturrecht, sondern ein Zeichen der Sünde.` },
+    { person: 'kyle-harper', role: 'als Althistoriker', text: `Harper zeigt in *Slavery in the Late Roman World*, dass die spätantike Sklaverei massiv und wirtschaftlich zentral war. Umso bemerkenswerter ist, dass christliche Autoren sie theologisch entnaturalisierten – auch wenn die praktischen Folgen Jahrhunderte brauchten.` },
+  ],
+  sources: [
+    { kind: 'kirchenvater', author: 'Augustinus', work: 'Vom Gottesstaat (De civitate Dei)', ref: 'XIX,15', year: 'um 426', quote: `Gott wollte, dass der vernunftbegabte Mensch nur über die vernunftlosen Geschöpfe herrsche – nicht der Mensch über den Menschen. Von Natur, in der Gott den Menschen zuerst schuf, ist niemand Sklave eines Menschen oder der Sünde.`, status: 'paraphrase' },
+    { kind: 'fachliteratur', author: 'Aristoteles', work: 'Politik', ref: 'I,4–6', quote: `Es gebe Menschen, die von Natur Sklaven seien, und für sie sei das Dienen nützlich und gerecht.`, status: 'paraphrase' },
+  ],
+},
+],
+},
           ],
         },
       ],
@@ -221,7 +240,83 @@ Das Emblem der Bewegung – ein knieender Sklave in Ketten mit der Inschrift „
       objection: `Wenn die Bibel bei der einfachsten moralischen Frage – Sklaverei – falsch lag, warum sollte ich ihr bei Sexualität glauben?`,
       objectionBy: 'Dan Savage',
       answer: `Die Prämisse stimmt nicht: Die Bibel hat Sklaverei nie als Ideal gelehrt, sondern als Zustand einer gefallenen Welt reguliert und zugleich die Prinzipien gelegt, die sie überwinden. Bei Ehe und Sexualität ist es genau umgekehrt: Dort beruft sich Jesus ausdrücklich auf den Schöpfungsanfang (Mt 19,4–6) – also auf Gottes Ideal, nicht auf ein Zugeständnis an die Härte des Herzens. Die beiden Fragen haben eine entgegengesetzte Struktur.`,
+followUps: [
+{
+  id: 'trajektorie-auch-fuer-homosexualitaet',
+  objection: `Ihr argumentiert mit einer „Entwicklungslinie": Die Bibel weise über die Sklaverei hinaus. Genau diese Logik wenden progressive Christen auf Homosexualität an. Ihr könnt sie nicht nur dann benutzen, wenn sie euch passt.`,
+  objectionBy: 'Dan Savage',
+  answer: `Die Frage ist berechtigt – und sie wurde gründlich untersucht. Der Neutestamentler William Webb hat genau diese „Erlösungsbewegungs"-Methode ausgearbeitet und an Sklaverei, Frauen und Homosexualität getestet. Sein Ergebnis: Bei der Sklaverei bewegt sich die Schrift gegenüber ihrer Umwelt hin zu mehr Freiheit; bei gleichgeschlechtlicher Sexualität ist sie dagegen von Anfang an **strenger** als ihre Umwelt und bleibt es bis ins Neue Testament. Eine Linie, die nicht existiert, kann man nicht verlängern.`,
+  detail: `Der Test ist überprüfbar: Man vergleicht, wie ein Text sich zu seiner Umgebung verhält, und fragt, ob das Neue Testament die Bewegung fortsetzt.
+
+- **Sklaverei:** Asylrecht für Flüchtige (Dtn 23,16), Todesstrafe für Menschenraub (Ex 21,16), Freilassung nach Verletzung (Ex 21,26–27); im NT „weder Sklave noch Freier" (Gal 3,28) und Philemon als „geliebter Bruder". Die Linie zeigt nach vorn.
+- **Gleichgeschlechtliche Praxis:** Griechenland und Rom duldeten sie weitgehend in bestimmten Formen; Lev 18,22 und Röm 1,26–27 urteilen dagegen grundsätzlich und ohne Unterscheidung nach Status. Das NT lockert hier nichts, sondern begründet mit der Schöpfung (Mt 19,4–6).
+
+Das heißt nicht, dass Menschen mit gleichgeschlechtlicher Neigung weniger Würde hätten – im Gegenteil: Die Kirche muss sie lieben und begleiten. Aber die Methode, auf die du dich berufst, führt nicht zu dem Ergebnis, das du dir erhoffst.`,
+  sources: [
+    { kind: 'fachliteratur', author: 'William J. Webb', work: 'Slaves, Women & Homosexuals: Exploring the Hermeneutics of Cultural Analysis', year: '2001', quote: `Die „Erlösungsbewegungs"-Hermeneutik zeige bei Sklaverei und Frauenrollen eine befreiende Tendenz gegenüber der Umwelt, bei Homosexualität dagegen keine – hier sei die Schrift durchgängig restriktiver als ihre Kultur.`, status: 'paraphrase' },
+  ],
+  questionsBack: [
+    `Wo genau siehst du in der Schrift eine Bewegung, die gleichgeschlechtliche Praxis zunehmend bejaht – mit Vers und Kontext?`,
+  ],
+  followUps: [
+    {
+      id: 'webb-ist-befangen',
+      objection: `Webb ist ein evangelikaler Theologe – natürlich findet er, was er sucht.`,
+      objectionBy: 'Matthew Vines',
+      answer: `Dann prüf das Ergebnis, nicht die Person. Auch Fachleute, die die biblischen Aussagen selbst für überholt halten, geben zu, dass Paulus gleichgeschlechtliche Beziehungen ablehnte: Der Neutestamentler Luke Timothy Johnson etwa sagt offen, dass er dem Text hier widerspricht – nicht, dass der Text etwas anderes meint. Die Uneinigkeit liegt heute meist nicht darin, was die Bibel sagt, sondern ob man ihr folgen will.`,
+      detail: `Das ist für dein Gespräch eine wichtige Unterscheidung: Viele revisionistische Exegeten argumentieren nicht mehr, die Texte seien missverstanden, sondern sie seien an dieser Stelle durch Erfahrung überholt. Das ist eine ehrlichere Position – aber sie ist dann keine „Entwicklungslinie der Schrift" mehr, sondern eine Entscheidung gegen die Schrift. Auf diese Ebene solltest du das Gespräch freundlich bringen: Es geht um Autorität, nicht um Philologie. Ausführlich: Claim „Homosexualität und Bibel".`,
+      sources: [
+        { kind: 'gegner', author: 'Luke Timothy Johnson', work: '„Homosexuality & the Church: Scripture & Experience", Commonweal', year: '2007', quote: `Johnson hält die einschlägigen Schriftstellen für eindeutig ablehnend, stellt ihnen aber die Erfahrung als Autorität entgegen.`, status: 'paraphrase', note: 'Johnson ist katholischer Neutestamentler und befürwortet gleichgeschlechtliche Partnerschaften – sein exegetisches Zugeständnis wiegt daher schwer.' },
+      ],
     },
+  ],
+},
+],
+},
+{
+  id: 'fluch-hams-rassismus',
+  objection: `Das Christentum hat die Rassenideologie erst möglich gemacht. Mit dem „Fluch Hams" haben Theologen jahrhundertelang erklärt, warum Schwarze zum Dienen bestimmt seien.`,
+  objectionBy: 'Ibram X. Kendi',
+  answer: `Dass dieser Missbrauch geschah, ist wahr und beschämend. Aber er steht nicht im Text: In Gen 9,25 wird **Kanaan** verflucht, nicht Ham, und von Hautfarbe ist nirgends die Rede. Die rassistische Deutung ist eine späte Erfindung, die der Judaist David Goldenberg in *The Curse of Ham* (2003) Schritt für Schritt nachgezeichnet hat. Wer sie benutzte, musste die Bibel verbiegen, nicht befolgen.`,
+  detail: `Das Neue Testament steht der Rassenideologie diametral entgegen: Gott hat „aus einem Blut" alle Völker gemacht (Apg 17,26), und einer der ersten Nichtjuden, die getauft werden, ist ein afrikanischer Hofbeamter aus Kusch (Apg 8,26–39). Die koptische und die äthiopische Kirche gehören zu den ältesten Kirchen der Welt – das Christentum war in Afrika, lange bevor es in Nordeuropa war.
+
+Ehrlich bleibt: Europäische und amerikanische Christen haben die Ham-Deutung benutzt, um Sklaverei und Rassentrennung zu rechtfertigen. Das muss man klar benennen, ohne es der Schrift anzulasten.`,
+  sources: [
+    { kind: 'bibel', work: 'Genesis', ref: '9,25', quote: `Verflucht sei Kanaan und sei ein Knecht aller Knechte unter seinen Brüdern!`, translation: 'Luther 1912', status: 'verbatim' },
+    { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,26', quote: `Und er hat gemacht, dass von einem Blut aller Menschen Geschlechter auf dem ganzen Erdboden wohnen.`, translation: 'Luther 1912', status: 'verbatim' },
+    { kind: 'fachliteratur', author: 'David M. Goldenberg', work: 'The Curse of Ham: Race and Slavery in Early Judaism, Christianity, and Islam', year: '2003', quote: `Die Verbindung von Hams Fluch mit dunkler Hautfarbe entstand erst in nachbiblischer Zeit und findet sich im biblischen Text selbst nicht.`, status: 'paraphrase' },
+    { kind: 'gegner', author: 'Ibram X. Kendi', work: 'Stamped from the Beginning', year: '2016', status: 'paraphrase', note: 'Kendi zeichnet die Rolle christlicher Theologen in der Geschichte rassistischer Ideen nach.' },
+  ],
+  followUps: [
+    {
+      id: 'virginia-taufe-befreit-nicht',
+      objection: `Christen haben es aber geglaubt und in Gesetze gegossen. Virginia beschloss 1667 ausdrücklich, dass die Taufe einen Sklaven nicht frei macht. Die Kirche war Teil des Systems.`,
+      objectionBy: 'Ibram X. Kendi',
+      answer: `Das Gesetz von 1667 gibt es, und es ist ein Dokument der Schande. Aber schau, warum es nötig war: Die Kolonie musste per Gesetz **verbieten**, dass die Taufe Folgen hat, weil viele – auch Sklaven selbst – aus dem Evangelium schlossen, ein getaufter Bruder könne nicht Eigentum sein. Die Sklavenhalter mussten das Christentum gesetzlich entschärfen, um ihr System zu schützen.`,
+      detail: `Ähnlich verhielt es sich mit den Verboten, Sklaven lesen zu lehren: Man fürchtete, sie würden in der Bibel den Exodus und die Propheten entdecken. Die sogenannte „Sklavenbibel" von 1807 ließ gezielt Passagen wie Ex 1–14 weg. Das System musste die Bibel zensieren – ein seltsames Verhalten, wenn sie angeblich auf seiner Seite stand.`,
+      sources: [
+        { kind: 'sonstiges', work: 'Gesetz der Kolonie Virginia über die Taufe von Sklaven', year: '1667', quote: `Die Taufe ändere nichts am Stand eines Menschen hinsichtlich seiner Knechtschaft oder Freiheit.`, status: 'paraphrase' },
+        { kind: 'sonstiges', work: '„Parts of the Holy Bible, selected for the use of the Negro Slaves, in the British West-India Islands" (sog. Sklavenbibel)', year: '1807', status: 'paraphrase', note: 'Ließ große Teile der Schrift, u. a. die Exodus-Erzählung, weg.' },
+      ],
+      followUps: [
+        {
+          id: 'mission-als-unterdrueckung',
+          objection: `Dann war die Missionierung der Sklaven eben ein Werkzeug der Kontrolle: „Gehorcht euren Herren" – genau das wollten die Pflanzer hören.`,
+          objectionBy: 'Ibram X. Kendi',
+          answer: `Manche Pflanzer wollten das hören – aber die Versklavten haben etwas ganz anderes gehört. Sie sangen vom Exodus („Go Down, Moses"), gründeten eigene Kirchen und machten den Glauben zur Kraftquelle ihres Widerstands. Frederick Douglass, selbst entflohener Sklave, unterschied scharf zwischen der „Sklavenhalter-Religion" seines Landes und dem Christentum Christi, das er liebte. Die Opfer des Systems haben das Evangelium nicht als Fessel erkannt, sondern als Schlüssel.`,
+          detail: `Auch die Bürgerrechtsbewegung des 20. Jahrhunderts wurde aus den schwarzen Kirchen heraus getragen; Martin Luther King Jr. begründete die gleiche Würde aller ausdrücklich mit der Gottebenbildlichkeit und der Tradition der Propheten. Wer das Christentum nur als Herrschaftsinstrument sieht, spricht den Versklavten selbst ab, ihren Glauben verstanden zu haben.`,
+          voices: [
+            { person: 'martin-luther-king', role: 'als Pastor und Bürgerrechtler', text: `King berief sich im *Brief aus dem Gefängnis von Birmingham* (1963) auf Augustinus und Thomas von Aquin: Ein ungerechtes Gesetz sei eines, das nicht im ewigen und natürlichen Gesetz wurzele und die menschliche Persönlichkeit herabwürdige. Rassentrennung sei darum nicht nur politisch falsch, sondern Sünde.` },
+          ],
+          sources: [
+            { kind: 'sonstiges', author: 'Frederick Douglass', work: 'Narrative of the Life of Frederick Douglass, an American Slave', ref: 'Anhang', year: '1845', quote: `Zwischen dem Christentum dieses Landes und dem Christentum Christi sehe er den größtmöglichen Unterschied; er liebe das reine, friedfertige, unparteiische Christentum Christi und hasse die verdorbene, sklavenhaltende Religion seines Landes.`, status: 'paraphrase' },
+            { kind: 'sonstiges', author: 'Martin Luther King Jr.', work: 'Letter from Birmingham Jail', year: '1963', status: 'paraphrase' },
+          ],
+        },
+      ],
+    },
+  ],
+},
   ],
   questionsToAsk: [
     `Welches andere antike Gesetzbuch bestraft Menschenraub mit dem Tod und verbietet, entlaufene Sklaven auszuliefern?`,
