@@ -38,7 +38,7 @@ const claim: Claim = {
 - **Ehrlicher Gesamtstand:** Gödel beweist weder Gott noch die Seele. Er widerlegt aber den Formalismus und macht die These „Der Geist ist nur ein Algorithmus" zu einer metaphysischen Vermutung mit Kosten, nicht zu einem gesicherten Ergebnis.`,
     sources: [
       { kind: 'wissenschaft', author: 'Kurt Gödel', work: 'Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I', ref: 'Monatshefte für Mathematik und Physik 38 (1931), 173–198', year: '1931', status: 'paraphrase' },
-      { kind: 'wissenschaft', author: 'Kurt Gödel', work: 'Some basic theorems on the foundations of mathematics and their implications (Gibbs Lecture)', ref: 'Collected Works III, S. 310', year: '1951', quote: `Entweder ist die Mathematik in dem Sinn unvervollständigbar, dass ihre evidenten Axiome nie in einer endlichen Regel erfasst werden können – das heißt, der menschliche Geist übertrifft (selbst im Bereich der reinen Mathematik) unendlich die Fähigkeiten jeder endlichen Maschine –, oder es gibt absolut unlösbare diophantische Probleme; wobei nicht ausgeschlossen ist, dass beide Glieder wahr sind.`, status: 'paraphrase', note: 'Sinngetreue Wiedergabe von „Gödels Disjunktion"; vor wörtlichem englischem Zitat am Original prüfen.' },
+      { kind: 'wissenschaft', author: 'Kurt Gödel', work: 'Some basic theorems on the foundations of mathematics and their implications (Gibbs Lecture)', ref: 'Collected Works III, S. 310', year: '1951', quote: `Entweder ist die Mathematik in dem Sinn unvervollständigbar, dass ihre evidenten Axiome nie in einer endlichen Regel erfasst werden können – das heißt, der menschliche Geist übertrifft (selbst im Bereich der reinen Mathematik) unendlich die Fähigkeiten jeder endlichen Maschine –, oder es gibt absolut unlösbare diophantische Probleme; wobei nicht ausgeschlossen ist, dass beide Glieder wahr sind.`, original: `Either mathematics is incompletable in this sense, that its evident axioms can never be comprised in a finite rule, that is to say, the human mind (even within the realm of pure mathematics) infinitely surpasses the powers of any finite machine, or else there exist absolutely unsolvable diophantine problems of the type specified …`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Per Websuche geprüft (2026): Wortlaut und Fundstelle (Gibbs Lecture vom 26.12.1951, Collected Works III, S. 304–323, hier S. 310) bestätigt. Gödel fügt in Klammern hinzu, dass auch beide Glieder wahr sein können; er selbst hielt das erste für wahrscheinlicher.' },
       { kind: 'gegner', author: 'Solomon Feferman', work: 'Penrose\'s Gödelian Argument', ref: 'Psyche 2 (1995)', status: 'paraphrase' },
       { kind: 'gegner', author: 'Torkel Franzén', work: 'Gödel\'s Theorem: An Incomplete Guide to Its Use and Abuse', year: '2005', quote: `Franzén dokumentiert zahlreiche Fehlanwendungen der Unvollständigkeitssätze in Theologie, Philosophie und Populärliteratur.`, status: 'paraphrase' },
       { kind: 'fachliteratur', author: 'Leon Horsten & Philip Welch (Hg.)', work: 'Gödel\'s Disjunction: The Scope and Limits of Mathematical Knowledge', year: '2016', status: 'paraphrase' },
@@ -170,7 +170,7 @@ const claim: Claim = {
                   answer: `Ein schönes Bild – aber eine Analogie, kein Mechanismus. Ein Gödelsatz „spricht über sich selbst" nur **unter einer Deutung**, die ein Mathematiker vornimmt: Für die Maschine ist er eine Zeichenkette wie jede andere. Selbstbezug in einem Code setzt also schon einen Geist voraus, der Bedeutung zuschreibt. Und warum sich eine Rückkopplungsschleife **anfühlen** sollte wie etwas, erklärt das Bild nicht: Thermostate haben auch Rückkopplung.`,
                   detail: `Hofstadter ist einer der brillantesten Vermittler Gödels; man sollte ihn mit Respekt behandeln. Aber sein Programm verschiebt das Problem: Die Gödelisierung funktioniert, weil **wir** Zahlen als Codes für Sätze lesen. Die Bedeutung („Dieser Satz ist unbeweisbar") existiert nicht in den Zahlen selbst, sondern in der Interpretation. Hier setzt John Lucas an: Der Mathematiker kann sich gleichsam „über" jedes System stellen, das ihn darstellen soll, und dessen Gödelsatz als wahr erkennen.
 
-Hofstadter selbst hat in späteren Interviews eingeräumt, dass das Rätsel des Bewusstseins nicht gelöst ist. Für deine Debatte genügt: Selbstbezug ist eine notwendige, aber offenkundig keine hinreichende Bedingung für ein Ich.`,
+Für deine Debatte genügt: Selbstbezug ist eine notwendige, aber offenkundig keine hinreichende Bedingung für ein Ich.`,
                   voices: [
                     {
                       person: 'john-lucas',
@@ -264,6 +264,25 @@ Hofstadter selbst hat in späteren Interviews eingeräumt, dass das Rätsel des 
           answer: `Benzmüller und Woltzenlogel Paleo haben Gödels Beweis 2014 mit automatischen Beweisern geprüft: Die Logik ist gültig relativ zu den Axiomen; zugleich zeigte sich, dass Gödels ursprüngliche Fassung ein Problem hatte und die verbesserte Fassung (Dana Scott) einen „Modalkollaps" nach sich zieht. Ehrlich gesagt: Der Beweis ist logisch gültig, aber seine Prämissen sind umstritten – wie bei jedem ontologischen Argument.`,
           sources: [
             { kind: 'wissenschaft', author: 'Christoph Benzmüller & Bruno Woltzenlogel Paleo', work: 'Automating Gödel\'s Ontological Proof of God\'s Existence with Higher-order Automated Theorem Provers', ref: 'ECAI 2014', year: '2014', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ontologische-parodie',
+              objection: `Mit derselben Logik kann man alles beweisen: Ersetze „positive Eigenschaften" durch andere Axiome, und du bekommst ein maximal böses Wesen. Ein Beweis, der sich so parodieren lässt, beweist nichts.`,
+              objectionBy: 'Graham Oppy',
+              answer: `Parodien zeigen, dass die Last auf den **Prämissen** liegt – das gebe ich offen zu. Aber sie sind nicht symmetrisch: Gödels Axiome definieren „positiv" so, dass positive Eigenschaften keine Privationen sind und miteinander verträglich bleiben; „maximal böse" ist dagegen ein Bündel von Mängeln, das sich selbst untergräbt (Macht ohne Güte ist bei den Vätern eine Verarmung des Seins). Darum spreche ich mit Gödels Beweis nur von einem logisch interessanten Argument, nicht von einem Knockout.`,
+              detail: `Die Väter – etwa Athanasius und Basilius – verstehen das Böse als Mangel an Gutem, nicht als eigenständige Substanz. Das ist ein Grund, warum die „Parodie" des maximal bösen Wesens nicht spiegelbildlich funktioniert. Trotzdem: Ontologische Argumente überzeugen fast nur Menschen, die die Prämissen schon für plausibel halten. In einer Debatte mit einem Mathematiker sind Gödels Disjunktion und die Frage nach der Natur mathematischer Wahrheit die stärkeren Themen.`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als Kirchenvater',
+                  text: `Athanasius lehrt in *Contra Gentes*, dass das Böse kein eigenes Sein hat: Es ist das, was nicht ist – die Abwendung der Seele vom Guten. Gott allein ist der wahrhaft Seiende und Gute. Darum ist ein „vollkommen böses Wesen" kein Gegenstück zu Gott, sondern ein Widerspruch in sich.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Contra Gentes', ref: '4–7', year: 'um 335', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

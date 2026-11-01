@@ -133,6 +133,21 @@ Nur Kategorie 1 hat Beweiskraft im strengen Sinn. Wer das offen sagt, gewinnt Gl
               objection: `Ihre Erklärungen widersprechen sich: Bei Matthäus wohnen Josef und Maria in Bethlehem, bei Lukas reisen sie aus Nazareth an. Das zeigt die Erfindung.`,
               objectionBy: 'Bart Ehrman',
               answer: `Matthäus sagt nicht, wo das Paar vor der Geburt wohnte; er beginnt in Bethlehem. Die Erzählungen setzen unterschiedliche Schwerpunkte, sind aber nicht unvereinbar. Wichtiger: Sie stimmen in den Kernpunkten überein – Bethlehem, Nazareth, Maria, Josef, Abstammung von David, Zeit des Herodes, jungfräuliche Empfängnis. Gemeinsame Kerne in unabhängigen Erzählungen deuten auf ältere Tradition, nicht auf Erfindung.`,
+              followUps: [
+                {
+                  id: 'quirinius-zensus',
+                  objection: `Und Lukas' Zensus ist nachweislich falsch: Quirinius führte die Schätzung in Judäa 6 n. Chr. durch, Herodes starb 4 v. Chr. Lukas brauchte einen Grund, Jesus nach Bethlehem zu bringen – und erfand ihn.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Das ist eine echte historische Schwierigkeit, die ich nicht kleinrede. Es gibt Lösungsvorschläge – etwa, dass Lk 2,2 grammatisch auch „vor der Statthalterschaft des Quirinius" heißen kann, oder dass Quirinius schon früher eine Funktion im Osten hatte –, aber keiner ist allgemein anerkannt. Entscheidend für unsere Frage ist: Bethlehem hängt nicht an Lukas allein. Matthäus bezeugt es unabhängig und ohne Zensus. Selbst wenn Lukas sich in der Begründung irrte, wäre der Geburtsort damit nicht widerlegt.`,
+                  detail: `Fair bleiben: Viele Historiker halten Lk 2,1–5 für einen Irrtum oder eine Konstruktion. Konservative Forscher (z. B. Darrell Bock, Kommentar zu Lukas) diskutieren die Alternativen ausführlich, räumen aber ein, dass die Frage offen ist. Ein Laie sollte daher nicht behaupten, der Zensus sei „bewiesen", sondern zeigen, dass die Bethlehem-Tradition auf zwei unabhängigen Zeugen ruht. Bemerkenswert ist auch Joh 7,42: Die Gegner Jesu werfen ihm vor, aus Galiläa statt aus Bethlehem zu kommen – der Evangelist lässt den Einwand stehen, als wüssten seine Leser die Antwort.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '2,2', quote: `Und diese Schätzung war die allererste und geschah zur Zeit, da Kyrenius Landpfleger in Syrien war.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Darrell L. Bock', work: 'Luke 1:1–9:50 (Baker Exegetical Commentary)', ref: 'Exkurs zum Zensus', year: '1994', quote: `Diskussion der Lösungsvorschläge zum Zensus des Quirinius; die Frage bleibt offen.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Jesus, Interrupted', year: '2009', quote: `Der Zensus unter Quirinius passe nicht in die Zeit des Herodes; Lukas habe ihn benutzt, um Jesus nach Bethlehem zu bringen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn Lukas Bethlehem erfunden hätte – woher hat Matthäus es, der Lukas nicht kennt und eine ganz andere Geschichte erzählt?`],
+                },
+              ],
             },
           ],
         },

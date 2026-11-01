@@ -110,6 +110,40 @@ const claim: Claim = {
               objection: `Eltern haben kein Recht, ihren Kindern schädliche Ideen einzupflanzen – so wenig, wie sie ihnen die Zähne ausschlagen dürfen.`,
               objectionBy: 'Nicholas Humphrey',
               answer: `Das setzt voraus, dass religiöse Erziehung schädlich ist – die Daten sagen im Durchschnitt das Gegenteil. Und wer soll entscheiden, welche Weltanschauungen Kindern „schaden"? Der Staat? Die Geschichte kennt Staaten, die Kindern den Glauben austreiben wollten, etwa in der Sowjetunion – mit verheerenden Folgen. Deshalb schützen die UN-Kinderrechtskonvention und die Europäische Menschenrechtskonvention ausdrücklich das Recht der Eltern, ihre Kinder gemäß ihren Überzeugungen zu erziehen.`,
+              followUps: [
+                {
+                  id: 'kindertaufe-ohne-zustimmung',
+                  objection: `Nehmen wir die Kindertaufe: Da wird über den Kopf eines Säuglings hinweg eine religiöse Zugehörigkeit festgelegt, der er nie zugestimmt hat. Warum nicht warten, bis er selbst entscheiden kann?`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Eltern entscheiden ständig für ihre Kinder, bevor diese zustimmen können: Name, Sprache, Staatsangehörigkeit, Impfungen, Schule. Keiner dieser Schritte nimmt dem Kind die spätere Freiheit, und die Taufe tut es auch nicht. Für die koptische Kirche ist sie ein Geschenk – so wie ein Kind nicht gefragt wird, ob es in eine Familie geboren werden will, wird es in die Familie Gottes aufgenommen. Ob es dieses Geschenk als Erwachsener annimmt, bleibt seine freie Antwort.`,
+                  detail: `Die Kirche tauft Kinder seit frühester Zeit: Das Neue Testament berichtet von der Taufe ganzer „Häuser" (Apg 16,15.33; 1 Kor 1,16), und Petrus sagt, die Verheißung gelte „euch und euren Kindern" (Apg 2,39). Origenes bezeugt die Kindertaufe als apostolische Überlieferung (Römerbriefkommentar V,9). Theologisch steht dahinter: Das Heil ist zuerst Gottes Gabe, nicht menschliche Leistung – gerade das Kind, das noch nichts leisten kann, zeigt das.
+
+Die Zustimmung des Kindes ist nicht ausgeschaltet, sondern aufgeschoben: Orthodoxer Glaube ist Synergie, und jedes getaufte Kind muss den Glauben persönlich ergreifen. Der Einwand verwechselt eine Zugehörigkeit, die man später bejahen oder ablehnen kann, mit einem Zwang.
+
+Siehe auch ‚sakramente/taufe-nur-symbol-keine-kindertaufe'.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '2,38–39', status: 'paraphrase', quote: `Tut Buße und lasse sich ein jeglicher taufen … denn euer und eurer Kinder ist diese Verheißung.` },
+                    { kind: 'kirchenvater', author: 'Origenes', work: 'Kommentar zum Römerbrief', ref: 'V,9', status: 'paraphrase', quote: `Die Kirche hat von den Aposteln die Überlieferung empfangen, auch den kleinen Kindern die Taufe zu spenden.`, note: 'Erhalten in der lateinischen Übersetzung Rufins.' },
+                  ],
+                  questionsBack: [`Entscheidest du nicht auch für dein Kind, in welcher Sprache und mit welchen Werten es aufwächst – ohne es zu fragen?`],
+                  followUps: [
+                    {
+                      id: 'sozialer-druck-gemeinschaft',
+                      objection: `Theoretisch ist es freiwillig. Praktisch verliert in engen religiösen Gemeinschaften, wer austritt, Familie, Freunde und Heimat. Das ist kein Geschenk, das ist eine Falle.`,
+                      objectionBy: 'Michael Shermer',
+                      answer: `Das ist ein ernster Punkt, und ich gebe zu: Sozialer Druck existiert, auch unter Christen, und er ist falsch, wenn er Menschen zum Bleiben zwingt. Die Kirche wendet keine Gewalt an und bestraft niemanden, der geht; Christus ließ den reichen Jüngling gehen und blickte ihn dabei liebevoll an (Mk 10,21–22). Für eine koptische Familie heißt das: Liebe bleibt bestehen, auch wenn ein Kind einen anderen Weg geht. Genau daran misst sich, ob ein Glaube frei ist.`,
+                      detail: `Ehrliche Unterscheidung:
+- **Zwang** (Strafe, Gewalt, Drohung, Gesetze gegen Glaubenswechsel) widerspricht dem Evangelium. Kopten wissen aus eigener Geschichte, was es heißt, unter Druck zur Aufgabe des Glaubens gedrängt zu werden – sie haben deshalb allen Grund, die Freiheit des Gewissens hochzuhalten.
+- **Bindung** (Liebe, Gemeinschaft, gemeinsame Feste) ist kein Zwang, auch wenn ihr Verlust schmerzt. Das gilt für jede enge Gemeinschaft, auch für politische oder weltanschauliche.
+
+Pastoral: Eltern, deren Kind sich vom Glauben abwendet, sollen nach dem Vorbild des Vaters im Gleichnis (Lk 15,11–32) handeln – nicht festhalten, sondern warten, beten und die Tür offen halten.`,
+                      sources: [
+                        { kind: 'bibel', work: 'Markus', ref: '10,21–22', status: 'paraphrase', quote: `Jesus sah ihn an und liebte ihn … Er aber ging traurig davon.` },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -133,6 +167,34 @@ const claim: Claim = {
               objection: `Und? Hast du deinen Glauben geprüft?`,
               objectionBy: 'Michael Shermer',
               answer: `Ja – und gern zeige ich dir meine Gründe: warum es überhaupt ein Universum mit einem Anfang gibt, warum es für Leben feinabgestimmt ist, warum wir objektive moralische Verpflichtungen kennen und warum die historischen Fakten um Jesu Tod und Auferstehung am besten durch die Auferstehung erklärt werden. Darüber können wir sprechen – ganz unabhängig davon, wo ich geboren bin.`,
+              followUps: [
+                {
+                  id: 'motiviertes-denken',
+                  objection: `Das glaubst du nur. Das Gehirn bildet zuerst Überzeugungen und sucht dann die passenden Gründe – ich nenne das „belief-dependent realism". Deine Argumente sind die nachträgliche Verteidigung deines Kinderglaubens.`,
+                  objectionBy: 'Michael Shermer',
+                  answer: `Motiviertes Denken gibt es – bei allen Menschen. Deshalb trifft deine These dich genauso: Auch dein Skeptizismus könnte die nachträgliche Verteidigung einer früheren Prägung sein. Wenn die These stimmt, entwertet sie also keine Seite, sondern zwingt beide, die Argumente selbst zu prüfen. Und mein Glaube ist überprüfbar angelegt: Paulus sagt, wenn Christus nicht auferstanden ist, ist der Glaube nichtig (1 Kor 15,17). Ich nenne dir gern, was meine Meinung ändern würde.`,
+                  detail: `Shermer beschreibt in „The Believing Brain" (2011), wie das Gehirn Muster und Akteure erkennt und dann Erklärungen nachliefert. Das ist ein brauchbares Modell menschlicher Fehleranfälligkeit – aber kein Wahrheitskriterium. Es gilt symmetrisch.
+
+Der Psychologe Paul Vitz hat das Gegenstück untersucht: Er zeigt an Biografien prominenter Atheisten (Nietzsche, Freud, Russell, Sartre u. a.) auffällig häufig einen abwesenden, schwachen oder verstorbenen Vater und schlägt eine psychologische Erklärung des Unglaubens vor. Vitz selbst betont, dass auch diese Erklärung nichts über die Wahrheit sagt – sie zeigt nur, dass sich psychologische Ableitungen in beide Richtungen konstruieren lassen. Darum: Weg von der Psychologie, hin zu den Gründen.
+
+Ein guter Test für eigenes motiviertes Denken: Kann ich die stärkste Fassung der Gegenposition so wiedergeben, dass der Gegner zustimmt? Und kann ich benennen, welcher Befund mich umstimmen würde (etwa der Nachweis, dass Jesu Leichnam im Grab blieb)?`,
+                  voices: [
+                    {
+                      person: 'vitz',
+                      role: 'als Psychologe',
+                      text: `Paul Vitz argumentiert in „Faith of the Fatherless", dass psychologische Erklärungen des Glaubens, wie Freud sie gab, mit gleichem Recht auf den Unglauben angewendet werden können: Wer Gott als Projektion eines Vaterwunsches deutet, muss sich fragen lassen, ob nicht auch die Ablehnung Gottes eine Projektion enttäuschter Vatererfahrungen sein könnte. Sein Punkt ist nicht, Atheisten zu pathologisieren, sondern zu zeigen, dass Psychologie die Wahrheitsfrage nicht entscheiden kann.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Paul C. Vitz', work: 'Faith of the Fatherless: The Psychology of Atheism', year: '1999', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Michael Shermer', work: 'The Believing Brain: From Ghosts and Gods to Politics and Conspiracies', year: '2011', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,17', quote: `Ist Christus aber nicht auferstanden, so ist euer Glaube eitel, so seid ihr noch in euren Sünden.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Welcher Befund würde dich davon überzeugen, dass es Gott gibt – und welcher mich vom Gegenteil? Wollen wir über diese Befunde reden?`],
+                },
+              ],
             },
           ],
         },
@@ -169,6 +231,34 @@ const claim: Claim = {
               objection: `Das ist ein Argument ad populum – viele glauben es, also ist es wahr.`,
               objectionBy: 'Richard Dawkins',
               answer: `Nein. Ich sage nicht: „Viele glauben es, also ist es wahr." Ich sage: Ein Glaube, der die kritische Prüfung vieler kompetenter Erwachsener übersteht, ist kein kindlicher Restglaube wie der Weihnachtsmann. Das beweist nicht seine Wahrheit – aber es widerlegt die Behauptung, er bestehe nur, weil Kinder leichtgläubig sind.`,
+              followUps: [
+                {
+                  id: 'promiskuitive-teleologie',
+                  objection: `Kelemen hat gezeigt: Kinder sind „promiskuitive Teleologen". Sie meinen, Steine seien spitz, damit Tiere sich daran kratzen können. Wissenschaftliche Bildung korrigiert das. Der Schöpfergott ist derselbe Kinderfehler im Großformat.`,
+                  objectionBy: 'Paul Bloom',
+                  answer: `Kinder übertreiben das Zweckdenken im Einzelnen – das stimmt. Aber Kelemens eigene Folgestudie zeigt, dass selbst promovierte Physiker und Chemiker unter Zeitdruck teleologischen Erklärungen zustimmen: Die Intuition verschwindet nicht durch Bildung. Das beweist weder Gott noch widerlegt es ihn. Ob das Universum als Ganzes einen Urheber hat, entscheidet sich nicht an kindlichen Fehlurteilen über Steine, sondern an Gründen – etwa an seinem Anfang und seiner Feinabstimmung.`,
+                  detail: `Wichtig ist der Unterschied zwischen **Übergeneralisierung** und **Fehlfunktion**: Kinder übertragen auch Grammatikregeln zu weit („gehte" statt „ging") – daraus folgt nicht, dass es keine Grammatik gibt. Ebenso folgt aus übertriebenem Zweckdenken im Detail nicht, dass die Frage nach einem Urheber des Ganzen unsinnig ist.
+
+Kelemen, Rottman und Seston (2013) fanden, dass Naturwissenschaftler unter Zeitdruck häufiger falsche teleologische Aussagen akzeptierten als ohne Zeitdruck; sie deuten Zweckdenken als kognitive Grundeinstellung, die durch Bildung nur überlagert wird. Für die Debatte heißt das: Die Intuition ist universell und tief – ob sie im Ganzen auf Wirklichkeit trifft, muss mit Argumenten geklärt werden, nicht mit dem Verweis auf ihre Kindlichkeit.
+
+Justin Barrett und Olivera Petrovich deuten die Befunde so, dass Menschen eine natürliche Offenheit für den Gedanken eines Schöpfers haben – was mit Röm 1,20 gut zusammenpasst.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Deborah Kelemen', work: `Are children „intuitive theists"? Reasoning about purpose and design in nature`, ref: 'Psychological Science 15 (2004), 295–301', year: '2004', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'D. Kelemen, J. Rottman, R. Seston', work: 'Professional physical scientists display tenacious teleological tendencies: Purpose-based reasoning as a cognitive default', ref: 'Journal of Experimental Psychology: General 142 (2013), 1074–1083', year: '2013', status: 'paraphrase' },
+                  ],
+                  voices: [
+                    {
+                      person: 'justin-barrett',
+                      role: 'als Kognitionswissenschaftler',
+                      text: `Justin Barrett betont in „Born Believers", dass die natürliche Neigung von Kindern, hinter der Welt einen absichtsvollen Urheber zu vermuten, weder Beweis noch Widerlegung ist. Natürliche kognitive Neigungen sind in der Regel verlässlich, wenn auch nicht unfehlbar; wer sie pauschal als Fehler abtut, müsste das für viele andere Grundüberzeugungen ebenfalls tun, etwa für den Glauben an andere Personen mit eigenem Geist.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Justin L. Barrett', work: 'Born Believers: The Science of Children\'s Religious Belief', year: '2012', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Wenn Physiker unter Zeitdruck teleologisch denken – ist dann auch die Physik ein Kinderfehler? Oder müssen wir einfach die Gründe prüfen?`],
+                },
+              ],
             },
           ],
         },
