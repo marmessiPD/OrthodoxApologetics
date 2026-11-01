@@ -54,9 +54,9 @@ const claim: Claim = {
       role: 'als Wissenschaftskommunikator mit Schwerpunkt Paläoanthropologie',
       text: `Luskin hat die Fachliteratur zur menschlichen Herkunft ausgewertet und betont, dass viele Paläoanthropologen den Übergang von den Australopithecinen zur Gattung Homo als abrupt beschreiben. Homo habilis sei als Bindeglied umstritten, und die Australopithecinen seien eher affenähnlich als menschenähnlich gewesen. Sein Fazit: Der Fossilbericht zeige eher eine deutliche Kluft zwischen Australopithecus und Homo als eine glatte Übergangsreihe.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Casey Luskin', work: '„Missing Transitions: Human Origins and the Fossil Record", in: A. Gauger, D. Axe, C. Luskin, Science and Human Origins', year: '2012', status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'Casey Luskin', work: '„Human Origins and the Fossil Record", in: A. Gauger, D. Axe, C. Luskin, Science and Human Origins', ref: 'Kap. 3', year: '2012', status: 'paraphrase', note: 'Kapitelzuordnung per Verlags- und Rezensionsangaben bestätigt. Eine erweiterte Fassung erschien als „Missing Transitions: Human Origins and the Fossil Record" in: J. P. Moreland u. a. (Hg.), Theistic Evolution (2017).' },
         { kind: 'wissenschaft', author: 'John Hawks, Keith Hunley, Sang-Hee Lee, Milford Wolpoff', work: '„Population bottlenecks and Pleistocene human evolution", Molecular Biology and Evolution 17 (1)', ref: 'S. 2–22', year: '2000', status: 'paraphrase', quote: `Die Entstehung von Homo sapiens (im weiten Sinn, beginnend mit Homo erectus) sei mit deutlichen anatomischen Veränderungen verbunden, die auf ein punktuelles Ereignis und einen Populationsengpass hindeuten.`, note: 'Die Autoren sind Evolutionsbiologen; Luskin zieht ihre Arbeit für die Abruptheit des Übergangs heran.' },
-        { kind: 'fachliteratur', author: 'Ernst Mayr', work: 'What Makes Biology Unique?', year: '2004', status: 'unverified', note: 'Mayr soll von einer großen, nicht überbrückten Lücke zwischen Australopithecus und den frühesten Homo-Fossilien gesprochen haben; Wortlaut und Seite vor Verwendung prüfen.' },
+        { kind: 'gegner', author: 'Ernst Mayr', work: 'What Makes Biology Unique? Considerations on the Autonomy of a Scientific Discipline', year: '2004', status: 'paraphrase', quote: `Die frühesten Homo-Fossilien (Homo rudolfensis, Homo erectus) sind von Australopithecus durch eine große, nicht überbrückte Lücke getrennt; mangels Bindeglieder müsse man auf eine historische Erzählung zurückgreifen.`, original: `… are separated from Australopithecus by a large, unbridged gap.`, note: 'Wortlaut dieses Satzteils durch mehrere übereinstimmende Sekundärzitate bestätigt; die oft genannte Seitenzahl (S. 198) ist nicht am Original geprüft. Mayr war entschiedener Evolutionsbiologe – er beschreibt eine Lücke im Befund, nicht einen Zweifel an der Evolution.' },
       ],
     },
     {
@@ -110,6 +110,20 @@ const claim: Claim = {
               objection: `Dmanisi zeigt die enorme Variabilität früher Homo. Wenn eine Population so variabel war, gibt es keine Lücke – nur eine variable, sich wandelnde Linie.`,
               objectionBy: 'Donald Prothero',
               answer: `Dmanisi zeigt tatsächlich, dass verschiedene als eigene Arten beschriebene frühe Homo-Formen womöglich zu einer einzigen variablen Linie gehören. Das kann man aber auch umgekehrt lesen: Es reduziert die Zahl der vermeintlichen Zwischenstufen innerhalb von Homo. Den Übergang von Australopithecus zu Homo überbrückt es nicht – es zeigt vor allem, wie unsicher die Einordnung von Einzelfunden ist.`,
+              followUps: [
+                {
+                  id: 'ledi-geraru-kiefer',
+                  objection: `Seit 2015 haben wir den Unterkiefer von Ledi-Geraru, rund 2,8 Millionen Jahre alt, mit Merkmalen früher Homo. Die Gattung Homo reicht damit fast bis zu den späten Australopithecinen zurück. Die angebliche Lücke ist geschlossen.`,
+                  objectionBy: 'John Hawks',
+                  answer: `Ein wichtiger Fund – aber es ist ein Unterkieferfragment mit Zähnen. Die eigentliche Frage beim Übergang zu Homo erectus betrifft den ganzen Körperbau: lange Beine, schmales Becken, Ausdauerlaufen, veränderte Proportionen und ein größeres Gehirn. Dafür braucht man Skelettfunde, und gerade aus dem Zeitraum zwischen etwa 2,8 und 2 Millionen Jahren sind sie spärlich. Ein Kiefer kann ein frühes Datum für bestimmte Zahnmerkmale belegen – den Umbau des Körpers belegt er nicht.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Brian Villmoare u. a.', work: '„Early Homo at 2.8 Ma from Ledi-Geraru, Afar, Ethiopia", Science 347', year: '2015', status: 'paraphrase', quote: `Ein rund 2,8 Millionen Jahre alter Unterkiefer (LD 350-1) zeigt eine Kombination aus ursprünglichen und für Homo typischen Merkmalen.` },
+                  ],
+                  questionsBack: [
+                    `Welche Skelettfunde aus der Zeit vor zwei Millionen Jahren zeigen den Übergang im Körperbau zu Homo erectus?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -126,6 +140,17 @@ const claim: Claim = {
           objection: `Genau so ein Mosaik sagt die Evolution voraus.`,
           objectionBy: 'Jerry Coyne',
           answer: `Ein Mosaik ist auch mit einer eigenständigen Art aufrecht gehender Menschenaffen vereinbar, die ausgestorben ist. Für den christlichen Glauben ist das kein Problem: Nichts in der Schrift verbietet ausgestorbene zweibeinige Primaten. Die Frage, wann und wie das Bild Gottes in die Welt kam, entscheidet sich nicht an einem Becken.`,
+          followUps: [
+            {
+              id: 'sediba-zwischenform',
+              objection: `Australopithecus sediba, 2010 von Lee Berger beschrieben, ist genau die Zwischenform: australopithecinenartiges Gehirn, aber menschenähnliche Hand, Becken und Zähne. Das Mosaik zwischen Australopithecus und Homo liegt auf dem Tisch.`,
+              objectionBy: 'Donald Prothero',
+              answer: `Sediba ist ein faszinierendes Mosaik – aber seine Datierung von knapp zwei Millionen Jahren macht ihn jünger als die frühesten Homo-Funde wie Ledi-Geraru. Er kann also kaum der Vorfahre von Homo sein; viele Fachleute halten ihn für einen Seitenzweig. Das zeigt, was der Fossilbericht der Homininen häufig liefert: Merkmalskombinationen, die in verschiedenen Linien auftauchen, ohne dass sich eine klare Ahnenreihe ergibt.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Lee R. Berger u. a.', work: '„Australopithecus sediba: a new species of Homo-like australopith from South Africa", Science 328', year: '2010', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -142,6 +167,24 @@ const claim: Claim = {
           answer: `Ehrlich: Ich kann sie im Fossilbericht nicht mit dem Lineal ziehen, und das muss ich auch nicht. Die Seele hinterlässt keine Knochen; Hinweise auf sie sind indirekt – Symbole, Sprache, Sorge um die Toten. Die Theologie sagt, **dass** es eine Schwelle gibt – personale Gottesbeziehung –, nicht, an welchem Fossil man sie ablesen kann. Unsicherheit über die Grenze ist kein Beweis, dass es keine gibt.`,
           questionsBack: [
             `Ist für dich die Unschärfe einer Grenze ein Beweis, dass es keinen Unterschied gibt – wie zwischen Tag und Nacht in der Dämmerung?`,
+          ],
+          followUps: [
+            {
+              id: 'seele-unsichtbar-unwiderlegbar',
+              objection: `Also ist deine Seele unsichtbar und hinterlässt keine Spuren. Dann ist sie empirisch leer – eine Behauptung, die sich nie überprüfen lässt.`,
+              objectionBy: 'Jerry Coyne',
+              answer: `Nicht jede Wahrheit ist eine Messgröße – auch nicht die Gültigkeit der Logik oder der Wert eines Menschenlebens. Aber die Seele ist nicht spurlos: Ihre Wirkungen zeigen sich in symbolischem Denken, rekursiver Sprache, Mathematik, Kunst und Gottesverehrung – also in genau den Fähigkeiten, die wir im archäologischen Befund als Zeichen des Menschseins lesen. Die Theologie sagt allerdings nicht, dass die Gottebenbildlichkeit ein Knochenmerkmal ist; sie ist eine Beziehung und eine Berufung, die sich in Vernunft und Freiheit ausdrückt.`,
+              voices: [
+                {
+                  person: 'gregor-nyssa',
+                  role: 'als Kirchenvater',
+                  text: `Gregor betont, dass die Gottebenbildlichkeit nicht in der äußeren Gestalt liegt, sondern in Vernunft, Freiheit und der Fähigkeit zur Tugend. Der aufrechte Gang und die Hände dienen nach ihm dem Geist – sie sind Werkzeuge der Vernunft, nicht ihr Ursprung.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Über die Erschaffung des Menschen (De hominis opificio)', ref: 'Kap. 5 und 8', year: '379', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -160,6 +203,65 @@ const claim: Claim = {
           objection: `Dann lebte Adam vor über einer halben Million Jahren – lange vor allem, was die Genesis beschreibt: Ackerbau, Städte, Metallbearbeitung.`,
           objectionBy: 'Jerry Coyne',
           answer: `Das ist eine echte Spannung, die ich nicht verschweige. Es gibt verschiedene christliche Antworten: Craig liest Gen 1–11 als Erzählung realer Ereignisse in symbolisch geprägter Form; Swamidass hält Adam jung und erklärt die Abstammung aller Menschen genealogisch. Die koptische Kirche hat kein Datum festgelegt. Verbindlich ist, dass Adam eine reale Person ist – siehe den Claim zu Adam und Eva.`,
+          followUps: [
+            {
+              id: 'genealogischer-adam-option',
+              objection: `Es gibt einen Ausweg, den du nicht ausschließen musst: Nach meinem genealogischen Modell könnten Adam und Eva vor etwa 6.000 bis 10.000 Jahren gelebt haben und trotzdem genealogische Vorfahren aller heute lebenden Menschen sein – neben anderen Menschen außerhalb des Gartens.`,
+              objectionBy: 'Joshua Swamidass',
+              answer: `Das Modell ist mathematisch ernst zu nehmen, und ich respektiere den Versuch, Schrift und Daten zusammenzubringen. Aus koptischer Sicht müssen allerdings einige Fragen geklärt werden: Wie verhalten sich die Menschen „außerhalb des Gartens" zur Gottebenbildlichkeit und zur Solidarität aller Menschen mit Adam, von der Röm 5,12 spricht? Die Tradition liest Adam als ersten Menschen und Stammvater aller. Das Modell ist eine diskutierte Option, keine kirchlich rezipierte Lehre – man darf es fair vorstellen, ohne es zur Grundlage zu machen.`,
+              voices: [
+                {
+                  person: 'joshua-swamidass',
+                  role: 'als Computerbiologe',
+                  text: `Swamidass stützt sich auf Arbeiten zur genealogischen Vorfahrenschaft (Rohde, Olson und Chang 2004), nach denen der jüngste gemeinsame genealogische Vorfahr aller heute lebenden Menschen nur wenige Jahrtausende zurückliegen dürfte. Er unterscheidet strikt zwischen genetischer und genealogischer Abstammung und hält ein de-novo-erschaffenes Paar Adam und Eva als universale genealogische Vorfahren für mit den Daten vereinbar.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'S. Joshua Swamidass', work: 'The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry', year: '2019', status: 'paraphrase' },
+                  ],
+                },
+                {
+                  person: 'athanasius',
+                  role: 'als Kirchenvater',
+                  text: `Für Athanasius hängt das Heil daran, dass der Logos die ganze Menschennatur annahm, die in Adam gefallen war. Jedes Modell der Menschheitsgeschichte muss daher festhalten, dass alle Menschen an dieser einen Natur teilhaben, die Christus geheilt hat.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '8–10', year: 'ca. 318', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '5,12', status: 'paraphrase', quote: `Durch einen Menschen ist die Sünde in die Welt gekommen und durch die Sünde der Tod, und so ist der Tod zu allen Menschen durchgedrungen.` },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'jebel-irhoud-mosaik',
+      objection: `Jebel Irhoud in Marokko zeigt Homo sapiens vor rund 315.000 Jahren – mit modernem Gesicht, aber noch länglichem, altertümlichem Hirnschädel. Unsere Art entstand mosaikartig über Hunderttausende Jahre in ganz Afrika. Da gibt es keinen Moment, an dem plötzlich „Adam" auftaucht.`,
+      objectionBy: 'Chris Stringer',
+      answer: `Die Funde sind wichtig, und ich bestreite das hohe Alter nicht. Sie passen aber gut zu christlichen Modellen, die Adam weit vor dem Auftreten der heutigen Schädelform ansetzen: William Lane Craig etwa sieht in Adam einen Vertreter von Homo heidelbergensis, den gemeinsamen Vorfahren von Neandertalern, Denisovanern und modernen Menschen. Dann ist das mosaikartige Herausbilden der heutigen Anatomie eine Geschichte **innerhalb** der Menschheit, nicht ihr Anfang. Die Schrift beschreibt die Erschaffung des Menschen, nicht die Entstehung einer bestimmten Schädelform.`,
+      voices: [
+        {
+          person: 'craig',
+          role: 'als Philosoph und Theologe',
+          text: `Craig argumentiert, dass die Fähigkeiten, die man mit Gottebenbildlichkeit verbindet – abstraktes Denken, Sprache, symbolisches Verhalten –, bereits bei den gemeinsamen Vorfahren von Neandertalern und modernen Menschen erkennbar sind. Er datiert Adam und Eva deshalb vor mindestens 750.000 Jahren und liest Gen 1–11 als Erzählung über reale Ereignisse in bildhafter Form.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'William Lane Craig', work: 'In Quest of the Historical Adam: A Biblical and Scientific Exploration', year: '2021', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'wissenschaft', author: 'Jean-Jacques Hublin u. a.', work: '„New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens", Nature 546', year: '2017', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'neandertaler-kunst',
+          objection: `Dann musst du auch Neandertaler als Ebenbilder Gottes anerkennen. Höhlenmalereien in Spanien sind über 64.000 Jahre alt – älter als moderne Menschen in Europa. Neandertaler hatten Symbole, Schmuck, Bestattungen.`,
+          objectionBy: 'John Hawks',
+          answer: `Das ist für mich kein Problem, sondern eine stimmige Folgerung: Wer zur Menschheit gehört, eine vernunftbegabte Seele hat und mit modernen Menschen fruchtbare Nachkommen zeugte – was die Genetik für Neandertaler zeigt –, stammt nach christlichem Verständnis von Adam ab und trägt Gottes Bild. Fair bleiben: Die Datierung der spanischen Höhlenkunst auf über 64.000 Jahre wird von anderen Fachleuten bestritten. Aber selbst wenn sie zutrifft, bestätigt sie nur, dass Neandertaler Menschen waren.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Dirk L. Hoffmann u. a.', work: '„U-Th dating of carbonate crusts reveals Neandertal origin of Iberian cave art", Science 359', year: '2018', status: 'paraphrase', note: 'Datierung umstritten; Kritiker bezweifeln die Methode an diesen Proben.' },
+          ],
         },
       ],
     },

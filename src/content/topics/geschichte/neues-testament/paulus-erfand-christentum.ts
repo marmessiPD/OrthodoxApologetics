@@ -120,6 +120,39 @@ const claim: Claim = {
               questionsBack: [
                 `Warum sollte eine Gruppe des späten 2. Jahrhunderts mehr über das Verhältnis von Jakobus und Paulus wissen als Paulus' eigener Brief aus den 50er Jahren?`,
               ],
+              followUps: [
+                {
+                  id: 'pseudoklementinen-simon-magus',
+                  objection: `In den Pseudoklementinen wird Paulus als „feindlicher Mensch" bekämpft, und hinter dem Erzschurken Simon Magus, mit dem Petrus streitet, steckt offensichtlich Paulus. Ferdinand Christian Baur hat es schon im 19. Jahrhundert gesehen: Das frühe Christentum war ein Kampf zwischen petrinischer und paulinischer Partei.`,
+                  objectionBy: 'Robert Eisenman / F. C. Baur (Tübinger Schule)',
+                  answer: `Die Pseudoklementinen sind ein Roman aus dem 3./4. Jahrhundert, in dem eine judenchristliche Sondergruppe ihre Sicht verarbeitet – keine Quelle für die Zeit der Apostel. Baurs Tübinger Modell ist in seiner Grundannahme längst aufgegeben: Er musste die Apostelgeschichte und viele Briefe ins 2. Jahrhundert datieren, damit es passte. Die frühesten Zeugnisse nach Paulus ehren Petrus und Paulus **gemeinsam**: Der 1. Clemensbrief (um 96) stellt beide als Vorbilder der Standhaftigkeit nebeneinander, Ignatius nennt sie in einem Atemzug, und der 2. Petrusbrief spricht von „unserem lieben Bruder Paulus".`,
+                  detail: `**Die Pseudoklementinen:** Homilien und Rekognitionen, in ihrer heutigen Form aus dem 4. Jahrhundert, mit älteren Quellenschichten (u. a. der „Brief des Petrus an Jakobus", in dem vor dem „feindlichen Menschen" gewarnt wird). Sie zeigen, dass es später judenchristliche Gruppen mit antipaulinischer Tendenz gab – was niemand bestreitet.
+
+**Baur und die Tübinger Schule (1840er):** Baur deutete die Geschichte des Urchristentums hegelianisch als Gegensatz (Petrinismus – Paulinismus) und Synthese (frühkatholische Kirche). Die Spätdatierungen, die das Modell verlangte, haben sich nicht gehalten; J. B. Lightfoot zeigte mit der Echtheit der Ignatiusbriefe, dass um 110 schon eine geeinte Kirche bestand.
+
+**Die frühen Zeugen:**
+- 1 Clem 5,3–7 (Rom, um 96): Petrus und Paulus als „edelste Säulen".
+- Ignatius, Römerbrief 4,3 (um 110): „Nicht wie Petrus und Paulus befehle ich euch."
+- 2 Petr 3,15–16: Paulus als „lieber Bruder", dessen Briefe neben den „übrigen Schriften" stehen.`,
+                  voices: [
+                    {
+                      person: 'clemens-rom',
+                      role: 'als Zeuge der römischen Gemeinde um 96',
+                      text: `Clemens schreibt im Namen der römischen Gemeinde, in der Petrus und Paulus gewirkt hatten und gestorben waren. Er stellt beide nebeneinander als die „größten und gerechtesten Säulen", die bis zum Tod kämpften. Von einer Feindschaft zwischen einer Petrus- und einer Paulus-Partei weiß die Gemeinde, die beide persönlich kannte, nichts.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Clemens von Rom', work: '1. Clemensbrief', ref: '5,2–7', year: 'ca. 96', status: 'paraphrase', quote: `Petrus und Paulus als Säulen der Kirche und Vorbilder der Standhaftigkeit bis zum Martyrium.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'sonstiges', work: 'Pseudoklementinen, Brief des Petrus an Jakobus (Epistula Petri)', ref: '2,3', year: '3./4. Jh. (ältere Schichten umstritten)', quote: `Warnung vor der gesetzlosen und törichten Lehre des „feindlichen Menschen".`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Römer', ref: '4,3', year: 'ca. 110', quote: `Nicht wie Petrus und Paulus befehle ich euch; jene waren Apostel, ich ein Verurteilter.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '2. Petrus', ref: '3,15–16', quote: `… wie auch unser lieber Bruder Paulus nach der Weisheit, die ihm gegeben ist, euch geschrieben hat …`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Ferdinand Christian Baur', work: 'Paulus, der Apostel Jesu Christi', year: '1845', quote: `Baur deutet das Urchristentum als Gegensatz zwischen petrinischem Judenchristentum und paulinischem Heidenchristentum.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum ehrt die römische Gemeinde, die Petrus und Paulus persönlich kannte, um 96 beide gemeinsam, wenn sie Todfeinde waren?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -146,6 +179,52 @@ const claim: Claim = {
           objection: `In 1 Kor 7,12 schreibt Paulus sogar: „sage ich, nicht der Herr". Er stellt seine eigene Autorität neben die von Jesus – genau so entsteht eine neue Religion.`,
           objectionBy: 'Shabir Ally',
           answer: `Das Gegenteil: Paulus unterscheidet sorgfältig zwischen einem überlieferten Herrenwort (7,10: „nicht ich, sondern der Herr") und seinem eigenen apostolischen Rat für eine Situation, zu der Jesus nichts gesagt hatte (Ehen mit Ungläubigen). Wer Jesusworte erfinden wollte, hätte einfach eines erfunden. Diese Unterscheidung zeigt, wie ehrfürchtig Paulus die Jesusüberlieferung behandelte – er fügte ihr nichts hinzu.`,
+          followUps: [
+            {
+              id: 'vom-herrn-empfangen-vision',
+              objection: `Paulus sagt selbst, er habe die Abendmahlsworte „von dem Herrn empfangen" (1 Kor 11,23) – also durch Offenbarung, nicht von Menschen. Sein ganzes Jesuswissen stammt aus Visionen und Schriftauslegung. Der Jesus des Paulus ist ein himmlisches Wesen, keine erinnerte Person.`,
+              objectionBy: 'Robert M. Price / Richard Carrier',
+              answer: `„Empfangen – weitergegeben" (parelabon – paredōka) ist die Fachsprache für Überlieferung von Mensch zu Mensch; Paulus verwendet dieselben Wörter in 1 Kor 15,3 für das Credo, das er nachweislich von anderen hatte. „Vom Herrn" bezeichnet den **Ursprung** der Überlieferung – Jesus selbst –, nicht den Weg. Und die Abendmahlsworte sind fest in der Geschichte verankert: „in der Nacht, da er verraten ward". Sie stimmen bis in Einzelheiten mit Lukas überein und weitgehend mit Markus – unabhängig voneinander überliefert. Visionen erzeugen keine so übereinstimmenden Wortlaute.`,
+              detail: `**Die Formel:** Griechisch parelabon apo tou kyriou – „ich habe empfangen vom Herrn her". Das jüdische Gegenstück ist qibbel min … masar le… („empfangen von … weitergeben an …"), wie es die Mischna für die Kette der Überlieferung von Mose bis zu den Rabbinen gebraucht (Avot 1,1). Der Anfangspunkt der Kette wird genannt, nicht jeder Zwischenschritt.
+
+**Der Vergleich:**
+- 1 Kor 11,24–25: „Das ist mein Leib, der für euch gebrochen wird … Dieser Kelch ist das neue Testament in meinem Blut."
+- Lk 22,19–20: „Das ist mein Leib, der für euch gegeben wird … Das ist der Kelch, das neue Testament in meinem Blut."
+- Mk 14,22–24: „Das ist mein Leib … Das ist mein Blut des neuen Testaments."
+
+Paulus und Lukas teilen die Wendungen „für euch", „zu meinem Gedächtnis" und „neues Testament (Bund)" – ein Hinweis auf eine gemeinsame, geprägte Überlieferung.`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '11,23–25', quote: `Ich habe es von dem HERRN empfangen, das ich euch gegeben habe. Denn der HERR Jesus in der Nacht, da er verraten ward, nahm er das Brot … Desselbengleichen auch den Kelch nach dem Abendmahl und sprach: Dieser Kelch ist das neue Testament in meinem Blut …`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                { kind: 'juedisch', work: 'Mischna, Avot (Sprüche der Väter)', ref: '1,1', year: 'redigiert um 200', quote: `Mose empfing die Tora vom Sinai und überlieferte sie Josua, Josua den Ältesten, die Ältesten den Propheten …`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wenn „empfangen" in 1 Kor 11 Vision heißt – was heißt dann dasselbe Wort in 1 Kor 15,3, wo Paulus das Credo der Jerusalemer weitergibt?`,
+              ],
+              followUps: [
+                {
+                  id: 'abendmahl-mysterienkult',
+                  objection: `Das Abendmahl selbst verrät heidnischen Ursprung: Den Leib eines Gottes essen und sein Blut trinken – für Juden, denen schon Blutgenuss verboten war, unvorstellbar. Das stammt aus den Mysterienkulten, die Paulus aus Tarsus kannte, nicht von einem galiläischen Juden.`,
+                  objectionBy: 'Hyam Maccoby',
+                  answer: `Gerade die Sprache des Abendmahls ist durch und durch jüdisch: das Pessachmahl als Rahmen, der „Bund in meinem Blut" als Echo auf Ex 24,8 („Das ist das Blut des Bundes") und die Verheißung des „neuen Bundes" in Jer 31,31. Paulus selbst grenzt das Herrenmahl scharf von heidnischen Kultmählern ab: „Ihr könnt nicht zugleich des Herrn Kelch trinken und der Dämonen Kelch" (1 Kor 10,21). Die angeblichen Mysterienparallelen – etwa ein Mithrasmahl – sind überwiegend später und dürftig belegt. Und Markus überliefert dieselben Worte unabhängig von Paulus.`,
+                  detail: `**Jüdischer Rahmen:** Das letzte Mahl wird in allen Quellen mit dem Pessach verbunden. Die Deutung von Brot und Kelch auf Jesu Tod knüpft an die Bundesschließung am Sinai (Ex 24,8) und an Jesajas Gottesknecht an, der „für viele" stirbt (Jes 53,12; vgl. Mk 14,24).
+
+**Mysterienparallelen:** Die Belege für sakramentale Mahlzeiten im Mithraskult stammen vor allem aus dem 2.–4. Jahrhundert; Justin der Märtyrer (um 150) kennt eine Brot-und-Wasser-Zeremonie bei den Mithrasanhängern und hält sie für eine Nachahmung. Eine Abhängigkeit des Paulus von einem Kult, der in Tarsus im 1. Jahrhundert nicht nachgewiesen ist, bleibt Spekulation.
+
+**Ehrlich:** Die Vorstellung, Christi Leib und Blut zu empfangen, war für jüdische Ohren tatsächlich anstößig – das zeigt Joh 6,52.60. Aber gerade diese Anstößigkeit spricht gegen eine spätere, werbewirksame Erfindung und für eine Überlieferung, die man trotz des Anstoßes bewahrte. Für die koptisch-orthodoxe Kirche ist die Eucharistie der wahre Leib und das wahre Blut Christi – in Kontinuität mit dem, was der Herr selbst eingesetzt hat.`,
+                  sources: [
+                    { kind: 'bibel', work: '2. Mose (Exodus)', ref: '24,8', quote: `Da nahm Mose das Blut und besprengte das Volk damit und sprach: Sehet, das ist das Blut des Bundes, den der HERR mit euch macht …`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '10,21', quote: `Ihr könnt nicht zugleich trinken des HERRN Kelch und der Teufel Kelch; ihr könnt nicht zugleich teilhaftig sein des Tisches des HERRN und des Tisches der Teufel.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: '1. Apologie', ref: '66,4', year: 'ca. 150–155', quote: `Justin erwähnt, dass in den Mysterien des Mithras Brot und ein Becher Wasser mit bestimmten Sprüchen gereicht würden, und deutet dies als Nachahmung.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Hyam Maccoby', work: 'The Mythmaker: Paul and the Invention of Christianity', year: '1986', quote: `Maccoby leitet das Abendmahl aus hellenistischen Mysterienvorstellungen ab, die Paulus eingeführt habe.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum sollte Paulus ein heidnisches Kultmahl übernehmen und im selben Brief die Teilnahme an heidnischen Kultmählern verbieten?`,
+                    `Woher hat Markus, unabhängig von Paulus, dieselben Abendmahlsworte?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -175,7 +254,87 @@ const claim: Claim = {
                 { kind: 'bibel', work: 'Jakobus', ref: '2,24', quote: `So sehet ihr nun, daß der Mensch durch die Werke gerecht wird, nicht durch den Glauben allein.`, translation: 'Luther 1912', status: 'verbatim' },
                 { kind: 'bibel', work: 'Römer', ref: '3,28', quote: `So halten wir nun dafür, daß der Mensch gerecht werde ohne des Gesetzes Werke, allein durch den Glauben.`, original: `λογιζόμεθα γὰρ δικαιοῦσθαι πίστει ἄνθρωπον χωρὶς ἔργων νόμου (ohne „allein")`, translation: 'Luther 1912', status: 'verbatim', note: '„Allein" ist Luthers Zusatz; im Griechischen fehlt es.' },
               ],
+              followUps: [
+                {
+                  id: 'apg-21-reinigungsritus',
+                  objection: `Apg 21 zeigt, wer in Jerusalem das Sagen hatte: Jakobus zwang Paulus, ein Reinigungsopfer im Tempel auf sich zu nehmen, um zu beweisen, dass er das Gesetz hält. Paulus beugte sich – entweder aus Heuchelei oder weil er unterlegen war.`,
+                  objectionBy: 'James Tabor / Shabir Ally',
+                  answer: `Lies weiter: Im selben Gespräch bestätigt Jakobus ausdrücklich den Beschluss, dass von den Heidenchristen keine Beschneidung und kein Gesetzesgehorsam verlangt wird (Apg 21,25). In der Kernfrage – Heiden werden ohne Beschneidung Christen – waren Jakobus und Paulus also einig. Dass Paulus als Jude jüdische Bräuche mittrug, entspricht seinem eigenen Grundsatz: „Den Juden bin ich geworden wie ein Jude" (1 Kor 9,20). Er bekämpfte nie, dass Juden die Tora halten, sondern dass man sie Heiden als Heilsbedingung auferlegt.`,
+                  detail: `**Apg 21,20–26 im Zusammenhang:** Die Jerusalemer Ältesten berichten von Gerüchten, Paulus lehre die Juden in der Diaspora, Mose zu verlassen. Um sie zu entkräften, soll Paulus vier Männer bei der Auslösung eines Nasiräatsgelübdes begleiten. Paulus willigt ein – weil die Gerüchte falsch waren: Er hatte selbst ein Gelübde abgelegt (Apg 18,18) und Timotheus, Sohn einer jüdischen Mutter, beschneiden lassen (Apg 16,3).
+
+**Paulus' Prinzip (1 Kor 9,19–23):** Freiheit gegenüber allen, um möglichst viele zu gewinnen – den Juden wie ein Jude, den Gesetzlosen wie ein Gesetzloser, „obwohl ich nicht ohne Gesetz Gottes bin, sondern im Gesetz Christi". Das ist keine Heuchelei, sondern missionarische Rücksicht, die er offen formuliert.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '21,25', quote: `Denn den Gläubigen aus den Heiden haben wir geschrieben und beschlossen, daß sie der keines halten sollen, sondern nur sich bewahren vor Götzenopfer, vor Blut, vor Ersticktem und vor Hurerei.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '9,20', quote: `Den Juden bin ich geworden wie ein Jude, auf daß ich die Juden gewinne.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Jakobus Paulus' Lehre ablehnte – warum bestätigt er im selben Gespräch, dass Heidenchristen das Gesetz nicht halten müssen?`,
+                  ],
+                },
+              ],
             },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'paulus-engel-christologie',
+      objection: `Paulus hielt Jesus nicht für Gott, sondern für einen erhöhten Engel: Die Galater nahmen ihn auf „wie einen Engel Gottes, wie Christus Jesus" (Gal 4,14). Im Judentum gab es viele göttliche Wesen – Engel, den Logos, den Menschensohn. Erst die späteren Konzilien haben daraus einen Gott gleichen Wesens gemacht.`,
+      objectionBy: 'Bart Ehrman („How Jesus Became God") / Dan McClellan',
+      answer: `Gal 4,14 ist eine Steigerung, keine Gleichsetzung: „wie einen Engel – ja, wie Christus selbst". Viel aufschlussreicher ist, was Paulus tatsächlich tut: Er überträgt Texte, die im AT von JHWH allein sprechen, auf Jesus. „Vor mir sollen sich alle Knie beugen" (Jes 45,23) wird in Phil 2,10–11 zum Bekenntnis „Jesus Christus ist der Herr"; das Schma Israel wird in 1 Kor 8,6 auf „einen Gott, den Vater" und „einen Herrn, Jesus Christus" ausgelegt. Und das in Briefen der 50er Jahre – nicht bei späteren Konzilien.`,
+      detail: `**Christologischer Monotheismus (Bauckham):** In 1 Kor 8,6 nimmt Paulus die Worte des Schma („Der HERR, unser Gott, ist ein HERR", Dtn 6,4) und teilt sie auf: „ein Gott, der Vater, von dem alle Dinge sind … und ein Herr, Jesus Christus, durch den alle Dinge sind". Jesus wird **in** die Identität des einen Gottes einbezogen – als Mittler der Schöpfung –, ohne den Monotheismus aufzugeben.
+
+**Engel?** Paulus nennt Jesus nirgends einen Engel. Der Hebräerbrief, aus demselben frühen Umfeld, grenzt den Sohn ausdrücklich von den Engeln ab (Hebr 1,4–14). Ehrman räumt selbst ein, dass Paulus Jesus für ein präexistentes göttliches Wesen hielt.
+
+**Nizäa als Klärung:** Aus koptisch-orthodoxer Sicht hat das Konzil von Nizäa (325) keinen neuen Glauben geschaffen, sondern gegen Arius festgehalten, was die Kirche seit den Aposteln anbetete. Athanasius argumentierte gerade so: Die Kirche betet Christus an und tauft in seinem Namen – also kann er kein Geschöpf sein.`,
+      voices: [
+        {
+          person: 'bauckham',
+          role: 'als Erforscher der frühen Christologie',
+          text: `Bauckham zeigt, dass das Judentum der Zeit den einen Gott durch seine einzigartige Identität bestimmte: als Schöpfer aller Dinge und Herrscher über alles. Die frühen Christen bezogen Jesus genau in diese Identität ein – sie schrieben ihm die Schöpfungsmittlerschaft und die Herrschaft über alles zu. Das ist die höchste denkbare Christologie, und sie steht schon bei Paulus.`,
+          sources: [{ kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the God of Israel', year: '2008', status: 'paraphrase', quote: `Christologischer Monotheismus: Jesus wird in die einzigartige Identität des Gottes Israels einbezogen.` }],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: '1. Korinther', ref: '8,6', quote: `… so haben wir doch nur einen Gott, den Vater, von welchem alle Dinge sind und wir zu ihm; und einen HERRN, Jesus Christus, durch welchen alle Dinge sind und wir durch ihn.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Jesaja', ref: '45,23', quote: `Mir sollen sich alle Kniee beugen und alle Zungen schwören.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+        { kind: 'gegner', author: 'Bart D. Ehrman', work: 'How Jesus Became God', year: '2014', quote: `Ehrman deutet die paulinische Christologie als Vorstellung von Christus als präexistentem, engelartigem Gottwesen, das erhöht wurde.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welcher Jude hätte das Schma Israel auf einen Engel ausgelegt?`,
+        `Warum überträgt Paulus Jes 45,23, wo Gott sagt „Ich bin Gott und keiner mehr", auf Jesus?`,
+      ],
+      followUps: [
+        {
+          id: 'goettlich-ist-spektrum',
+          objection: `„Göttlich" war im antiken Judentum ein Spektrum: Philo nennt den Logos einen „zweiten Gott", Mose wird in Ex 7,1 „Gott" für den Pharao genannt, und die Psalmen sprechen von „Göttern" in Gottes Rat. Dass Paulus Jesus hoch einordnet, macht ihn nicht zum Gott im Sinn von Nizäa.`,
+          objectionBy: 'Dan McClellan',
+          answer: `Das Entscheidende ist nicht die Wortwahl, sondern die **Verehrung**. Larry Hurtado hat gezeigt: Kein Engel, kein Logos, kein Mose erhielt im Judentum Gebet, Hymnen, Taufe in seinem Namen oder ein kultisches Mahl. Jesus erhielt all das – in den frühesten Gemeinden, unter Juden. Die Johannesoffenbarung zeigt, wie scharf die Grenze war: Der Engel weist die Anbetung zurück – „Bete Gott an!" (Offb 22,9) –, während das Lamm zusammen mit Gott angebetet wird (Offb 5,13). Diese Grenze haben die ersten Christen nicht verwischt, sondern bewusst mit Jesus überschritten.`,
+          detail: `**Hurtados Befund – das „binitarische Verehrungsmuster":**
+1. Gebet zu Jesus und im Namen Jesu (1 Kor 1,2; 16,22 „Maranatha").
+2. Hymnen auf Christus (Phil 2,6–11; Kol 1,15–20).
+3. Taufe „auf den Namen Jesu" (Apg 2,38; Röm 6,3).
+4. Das Herrenmahl als kultisches Mahl des Herrn (1 Kor 10,21; 11,20).
+5. Anrufung seines Namens („die den Namen unseres Herrn Jesus Christus anrufen", 1 Kor 1,2 – eine Wendung, die im AT JHWH gilt, Joel 3,5).
+
+**Zu Philo:** Philo kann den Logos in einem exegetischen Zusammenhang „zweiten Gott" nennen, aber er bete ihn nicht an, und kein jüdischer Gottesdienst richtete sich an den Logos. Ex 7,1 ist eine funktionale Redeweise („Ich habe dich zum Gott für den Pharao gesetzt"), keine Kultaussage.
+
+**Ehrlich:** Die spätere Begrifflichkeit – Wesen (usia), Hypostase – stammt aus dem 4. Jahrhundert. Aber sie formuliert, was die Anbetung schon voraussetzte.`,
+          voices: [
+            {
+              person: 'hurtado',
+              role: 'als Historiker der frühchristlichen Christusverehrung',
+              text: `Hurtado hat in mehreren großen Studien gezeigt, dass die Verehrung Jesu nicht schrittweise im heidnischen Umfeld entstand, sondern explosionsartig und früh in jüdisch geprägten Gemeinden. Das Muster – Gebet, Hymnen, Anrufung, Taufe und Mahl im Namen Jesu – ist im Judentum ohne Parallele und lässt sich nur aus der Überzeugung erklären, Gott selbst wolle, dass Jesus so verehrt werde.`,
+              sources: [{ kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', status: 'paraphrase', quote: `Frühe, jüdisch geprägte Christusverehrung in einem binitarischen Muster.` }],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Offenbarung', ref: '22,8–9', quote: `… fiel ich nieder, anzubeten zu den Füßen des Engels … Und er spricht zu mir: Siehe zu, tu es nicht! denn ich bin dein Mitknecht … Bete Gott an!`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Offenbarung', ref: '5,13', quote: `Dem, der auf dem Stuhl sitzt, und dem Lamm sei Lob und Ehre und Preis und Gewalt von Ewigkeit zu Ewigkeit!`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'sonstiges', author: 'Philo von Alexandrien', work: 'Quaestiones in Genesin', ref: '2,62', year: 'ca. 40', quote: `Philo bezeichnet den Logos in einem exegetischen Zusammenhang als „zweiten Gott", nach dessen Bild der Mensch geschaffen sei.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Nenne einen Engel oder eine göttliche Mittlergestalt, zu der Juden im 1. Jahrhundert beteten und in deren Namen sie tauften.`,
           ],
         },
       ],

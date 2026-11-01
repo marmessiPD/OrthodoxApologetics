@@ -94,6 +94,32 @@ Und Sahih al-Bukhari 3358 überliefert, dass Abraham dreimal die Unwahrheit sagt
               objectionBy: 'Ahmed Deedat',
               answer: `Gott *erlaubte* es nicht – er verurteilte es: Nathan konfrontiert David, das Kind stirbt, sein Haus wird vom Schwert heimgesucht (2 Sam 12). Die Bibel erzählt Sünde als Sünde. Und Lot wird in der Bibel nicht als Prophet, der eine Offenbarung bringt, dargestellt, sondern als Gerechter, der in Sodom lebte. Die Frage ist nicht, ob Menschen fallen, sondern ob Gott sie richtet und wieder aufrichtet.`,
               detail: `Der Koran selbst spielt in 38:21–25 auf eine Episode an, nach der David um Vergebung bat; viele klassische Ausleger verbinden sie mit der Geschichte um Urias Frau, andere lehnen das wegen der Isma ab. Die Spannung zwischen Text und Dogma ist in der islamischen Tradition selbst sichtbar.`,
+              followUps: [
+                {
+                  id: 'wozu-solche-geschichten',
+                  objection: `Aber warum sollte Gott solche schmutzigen Geschichten überhaupt in sein heiliges Buch aufnehmen? Welchen Nutzen hat es, von Ehebruch und Inzest zu lesen?`,
+                  objectionBy: 'Zakir Naik',
+                  answer: `Weil Gott nicht für Helden schreibt, sondern für Sünder, die umkehren sollen. Aus Davids Fall entstand Psalm 51: „Gott, sei mir gnädig nach deiner Güte … Schaffe in mir, Gott, ein reines Herz." Die koptische Kirche betet diesen Psalm in *jeder* Gebetsstunde der Agpeya – seit Jahrhunderten lernen Millionen Menschen von David, wie echte Buße aussieht. Paulus sagt: „Es ist uns zur Warnung geschrieben" (1 Kor 10,11). Eine Schrift, die die Sünde ihrer Größten nicht verschweigt, lehrt Demut und Hoffnung zugleich.`,
+                  detail: `Hier zeigt sich auch ein historisches Argument: Nationale Heldenepen verherrlichen ihre Könige. Die Schrift Israels dagegen klagt ihre größten Könige an – David, Salomo, Ahab. Das spricht für ihre Wahrhaftigkeit, nicht dagegen: Niemand erfindet die Schande seines Nationalhelden. Für den hl. Athanasius sind die Psalmen ein „Spiegel der Seele": Wer betet, findet darin seine eigenen Regungen – auch die der Reue.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Lehrer des Psalmengebets',
+                      text: `In seinem Brief an Marcellinus über die Psalmen erklärt Athanasius, dass die Psalmen dem Betenden wie ein Spiegel seine eigene Seele zeigen. Wer gesündigt hat, findet in den Bußpsalmen die Worte der Umkehr, die ihm selbst fehlen. Die Geschichte Davids ist darum kein Ärgernis, sondern eine Schule der Buße für die ganze Kirche.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Brief an Marcellinus über die Auslegung der Psalmen (Epistula ad Marcellinum)', year: 'um 360', quote: `Die Psalmen sind wie ein Spiegel, in dem der Betende die Regungen seiner eigenen Seele erkennt.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Psalm', ref: '51,3.12', quote: `Gott, sei mir gnädig nach deiner Güte und tilge meine Sünden nach deiner großen Barmherzigkeit … Schaffe in mir, Gott, ein reines Herz und gib mir einen neuen, gewissen Geist.`, translation: 'Luther 1912', status: 'verbatim', note: 'In der Agpeya (LXX-Zählung) Psalm 50.' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '10,11', quote: `Solches alles widerfuhr ihnen zum Vorbilde; es ist aber geschrieben uns zur Warnung.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Welches Buch der Antike kennst du, das die Sünden des eigenen Nationalhelden so offen erzählt – und warum würde jemand so etwas erfinden?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -116,6 +142,21 @@ Und Sahih al-Bukhari 3358 überliefert, dass Abraham dreimal die Unwahrheit sagt
           sources: [
             { kind: 'bibel', work: '1. Mose (Genesis)', ref: '20,12', quote: `Auch ist sie wahrhaftig meine Schwester; denn sie ist meines Vaters Tochter, aber nicht meiner Mutter Tochter, und ist mein Weib geworden.`, translation: 'Luther 1912', status: 'verbatim' },
           ],
+          followUps: [
+            {
+              id: 'bibel-tadelt-abraham-nicht',
+              objection: `Aber die Bibel tadelt Abraham nicht einmal. Sie erzählt sogar, wie er durch die Geschichte reich wird – Schafe, Rinder, Knechte (Gen 12,16). Das ist moralisch verwerflich.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Die Bibel urteilt oft durch die Erzählung selbst. Schau, wer Abraham zurechtweist: der heidnische Pharao – „Warum hast du mir das getan?" (Gen 12,18) –, später Abimelech mit derselben Frage (Gen 20,9). Der Prophet steht beschämt vor einem Heiden, der moralischer handelt als er. Deutlicher kann eine Erzählung kaum tadeln. Und nicht Abrahams List rettet Sara, sondern Gottes Eingreifen.`,
+              detail: `Das ist eine typische Erzählweise der Bibel: Sie kommentiert nicht jedes Fehlverhalten, sondern lässt den Leser die Folgen sehen. Aus Ägypten kommt Hagar, die ägyptische Magd (Gen 16,1) – und mit ihr der Konflikt, der Abrahams Haus lange belastet. Der Glaube Abrahams wird gerade dadurch groß, dass Gott seine Verheißung trotz Abrahams Schwäche hält. Der Koran erzählt ebenfalls oft ohne ausdrückliche Bewertung – etwa die Täuschung der Brüder Josefs gegenüber ihrem Vater (12:16–18).`,
+              sources: [
+                { kind: 'bibel', work: '1. Mose (Genesis)', ref: '12,18', quote: `Da rief Pharao Abram zu sich und sprach zu ihm: Warum hast du mir das getan? Warum sagtest du mir's nicht, dass sie dein Weib wäre?`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wenn ein heidnischer König den Propheten zurechtweist – ist das Billigung oder Beschämung?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -137,6 +178,37 @@ Und Sahih al-Bukhari 3358 überliefert, dass Abraham dreimal die Unwahrheit sagt
             { kind: 'koran', work: 'Sure 19 (Maryam)', ref: '19:19', quote: `Ich bin nur der Gesandte deines Herrn, um dir einen reinen Knaben zu schenken.`, original: `li-ahaba laki ghulāman zakiyyā`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/19/19' },
             { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3431', quote: `Kein Kind wird geboren, ohne dass der Satan es bei der Geburt berührt, sodass es schreit – außer Maria und ihrem Sohn.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3431' },
           ],
+          followUps: [
+            {
+              id: 'suendlos-heisst-nicht-gott',
+              objection: `Sündlosigkeit macht niemanden zu Gott. Engel sündigen auch nicht, und nach demselben Hadith wurde auch Maria vor dem Satan geschützt. Ist Maria dann auch göttlich?`,
+              objectionBy: 'Shabir Ally',
+              answer: `Richtig – Sündlosigkeit allein beweist keine Gottheit. Aber sie steht bei Jesus nicht allein: Im Evangelium vergibt er Sünden, nimmt Anbetung an und beansprucht, der Richter der Welt zu sein. Und selbst der Koran gibt ihm Titel, die er keinem anderen gibt: „Wort von Ihm" (*kalimatuhu*) und „Geist von Ihm" (*rūḥun minhu*, 4:171), „der Messias", geboren ohne Vater, erhoben zu Gott, wiederkommend. Die Frage an dich: Warum ist der eine Mensch, der im Koran keine eigene Sünde bekennt, Jesus – und nicht Mohammed?`,
+              detail: `Maria ehrt die koptische Kirche als Theotokos, als „Gottesgebärerin", die über alle Heiligen erhoben ist – aber sie betet sie nicht als Gott an. Der Unterschied zu Jesus liegt nicht allein in der Reinheit, sondern in dem, was die Schrift über seine Person sagt: Er ist das Wort, das im Anfang bei Gott war und Fleisch wurde (Joh 1,1.14). Der Koran berührt diesen Kern mit dem Titel *kalimatu llāh*, deutet ihn aber anders.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 4 (an-Nisa\')', ref: '4:171', quote: `Der Messias, Jesus, Sohn der Maria, ist nur der Gesandte Allahs und Sein Wort, das Er Maria entbot, und ein Geist von Ihm.`, original: `innamā l-masīḥu ʿīsā bnu maryama rasūlu llāhi wa-kalimatuhu alqāhā ilā maryama wa-rūḥun minhu`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/4/171' },
+              ],
+              questionsBack: [
+                `Welchen anderen Propheten nennt der Koran „Wort Allahs" und „Geist von Ihm"?`,
+              ],
+              followUps: [
+                {
+                  id: 'mohammed-auch-isma',
+                  objection: `Nach der Lehre der Isma war auch Mohammed sündlos. Jesus ist hier nichts Besonderes.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Das ist eine Lehre der späteren Dogmatik – der Koran selbst klingt anders: Mohammed soll um Vergebung für „deine Sünde" bitten (47:19); Allah vergibt ihm „deine frühere und spätere Sünde" (48:2); Sure 80 beginnt mit einem Tadel, weil er sich von einem Blinden abwandte (80:1–10); und 9:43 sagt: „Allah hat dir verziehen – warum hast du ihnen erlaubt …?" Ich sage das nicht, um Mohammed herabzusetzen, sondern weil der Text es so sagt. Von Jesus berichtet der Koran nichts Vergleichbares.`,
+                  detail: `Muslimische Gelehrte haben diese Verse unterschiedlich gedeutet (z. B. als „Unterlassen des Besseren" oder als Lehre für die Gemeinde). Das ist legitim – aber es zeigt, dass die Isma eine Deutung *gegen* den Wortlaut braucht. Wer das für den Koran in Anspruch nimmt, kann der Bibel nicht vorwerfen, ihre Propheten als Menschen mit Sünden darzustellen.`,
+                  sources: [
+                    { kind: 'koran', work: 'Sure 80 (\'Abasa)', ref: '80:1–2', quote: `Er runzelte die Stirn und wandte sich ab, weil der Blinde zu ihm kam.`, original: `ʿabasa wa-tawallā an jāʾahu l-aʿmā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/80/1-2' },
+                    { kind: 'koran', work: 'Sure 9 (at-Tauba)', ref: '9:43', quote: `Allah verzeihe dir! Warum hast du ihnen erlaubt (zurückzubleiben), bevor dir klar wurde, wer die Wahrheit sagte?`, original: `ʿafā llāhu ʿanka li-ma adhinta lahum`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/9/43' },
+                  ],
+                  questionsBack: [
+                    `Wenn 48:2 von Mohammeds „früherer und späterer Sünde" spricht – wo sagt der Koran so etwas über Jesus?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -147,6 +219,51 @@ Und Sahih al-Bukhari 3358 überliefert, dass Abraham dreimal die Unwahrheit sagt
       answer: `Die Bibel nennt Noah gerecht und untadelig in seiner Zeit (Gen 6,9) – und berichtet zugleich, dass er nach der Flut vom Wein betrunken wurde. Sie verurteilt nicht ihn, sondern die Respektlosigkeit Hams. Die Geschichte zeigt, dass selbst der Gerechte, durch den Gott die Menschheit rettete, schwach ist. Auch der Koran lässt Noah um Vergebung bitten (71:28).`,
       sources: [
         { kind: 'koran', work: 'Sure 71 (Nuh)', ref: '71:28', quote: `Mein Herr, vergib mir und meinen Eltern …`, original: `rabbi ghfir lī wa-li-wālidayya`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/71/28' },
+      ],
+      followUps: [
+        {
+          id: 'jesus-trinkt-wein',
+          objection: `Und Jesus trinkt nicht nur Wein, er macht sogar Wein aus Wasser (Joh 2)! Ein Prophet, der Alkohol verteilt – das kann nicht von Gott sein.`,
+          objectionBy: 'Zakir Naik',
+          answer: `Die Bibel unterscheidet zwischen Wein und Trunkenheit: Wein ist eine Gabe, „dass er des Menschen Herz erfreue" (Ps 104,15), Trunkenheit dagegen ist Sünde (Eph 5,18; Spr 20,1). Auch der Koran hält Wein nicht für in sich böse: Er verheißt im Paradies „Ströme von Wein, köstlich für die Trinkenden" (47:15), und das Verbot kam nach islamischer Überlieferung erst schrittweise – 4:43 untersagt nur, *betrunken* zum Gebet zu kommen, setzt also voraus, dass Muslime damals noch Wein tranken.`,
+          detail: `Die klassische islamische Lehre von der stufenweisen Offenbarung des Weinverbots (2:219 → 4:43 → 5:90) zeigt: Auch nach islamischem Verständnis war Weingenuss für Propheten und Gläubige nicht immer verboten. Die Hochzeit zu Kana ist im Johannesevangelium das erste „Zeichen" Jesu: Er verwandelt das Wasser der jüdischen Reinigungskrüge in Wein der messianischen Freude (vgl. Jes 25,6). Die koptische Kirche feiert in der Eucharistie Wein, der durch die Herabkunft des Heiligen Geistes zum wahren Blut Christi wird.`,
+          sources: [
+            { kind: 'bibel', work: 'Psalm', ref: '104,15', quote: `… und dass der Wein erfreue des Menschen Herz …`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Epheser', ref: '5,18', quote: `Und saufet euch nicht voll Weins, daraus ein unordentlich Wesen folgt, sondern werdet voll Geistes.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'koran', work: 'Sure 47 (Muhammad)', ref: '47:15', quote: `… und Ströme von Wein, köstlich für die Trinkenden …`, original: `wa-anhārun min khamrin ladhdhatin li-sh-shāribīn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/47/15' },
+            { kind: 'koran', work: 'Sure 4 (an-Nisa\')', ref: '4:43', quote: `O die ihr glaubt, nähert euch nicht dem Gebet, während ihr trunken seid, bis ihr wisst, was ihr sagt.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/4/43' },
+          ],
+          questionsBack: [
+            `Wenn Wein in sich böse wäre – warum verheißt der Koran Ströme davon im Paradies?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'salomo-goetzendienst',
+      objection: `Die Bibel behauptet, Salomo habe am Ende Götzen gedient (1 Kön 11,4–8). Der Koran stellt richtig: „Nicht Salomo war ungläubig, sondern die Teufel" (2:102). Hier korrigiert der Koran die Verleumdung eines Propheten durch die Bibel.`,
+      objectionBy: 'Ali Ataie',
+      answer: `Schau in den Zusammenhang von 2:102: Es geht um Zauberei, die die Teufel „zur Zeit der Herrschaft Salomos" lehrten – also um Legenden, Salomo sei ein Magier gewesen. Diese Legenden stehen nicht in der Bibel, sondern in späteren jüdischen und volkstümlichen Überlieferungen. Der Koran weist eine Zauberei-Legende zurück, nicht 1 Kön 11. Und auch der Koran kennt eine Prüfung Salomos, nach der er umkehrte (38:34).`,
+      detail: `1 Kön 11 schildert, wie Salomos ausländische Frauen „sein Herz fremden Göttern zuneigten" – als Erfüllung der Warnung in Dtn 17,17, ein König solle nicht viele Frauen nehmen. Die Folge ist die Teilung des Reiches (1 Kön 11,11–13). Nehemia greift das später als Warnung auf (Neh 13,26). Die Bibel ehrt Salomo für seine Weisheit und den Tempelbau und verschweigt zugleich nicht seinen Fall – so wie sie es bei David tut. Die Vorstellung von Salomo als Herr der Dämonen und Magier findet sich dagegen etwa im „Testament Salomos" (frühchristlich-jüdische Pseudepigraphie) und in volkstümlichen Erzählungen.`,
+      sources: [
+        { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:102', quote: `Und sie folgten dem, was die Teufel unter der Herrschaft Salomos vortrugen. Doch nicht Salomo war ungläubig, sondern die Teufel waren ungläubig, indem sie die Menschen die Zauberei lehrten.`, original: `wa-mā kafara sulaymānu wa-lākinna sh-shayāṭīna kafarū yuʿallimūna n-nāsa s-siḥr`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/2/102' },
+        { kind: 'koran', work: 'Sure 38 (Sad)', ref: '38:34', quote: `Und Wir hatten ja Salomo der Prüfung unterzogen und auf seinen Thron einen Körper gesetzt; hierauf wandte er sich (Allah) reuig zu.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/38/34' },
+        { kind: 'bibel', work: '1. Könige', ref: '11,4', quote: `Und da er nun alt war, neigten seine Weiber sein Herz fremden Göttern nach.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wo in der Bibel steht, dass Salomo Zauberei lehrte – worauf 2:102 antwortet?`,
+      ],
+      followUps: [
+        {
+          id: 'gott-erwaehlt-keinen-goetzendiener',
+          objection: `Ein Mann, den Gott mit Weisheit und Prophetie beschenkt, fällt am Ende in Götzendienst? Das macht Gottes Erwählung lächerlich.`,
+          objectionBy: 'Zakir Naik',
+          answer: `Es macht nicht Gottes Erwählung lächerlich, sondern zeigt, dass selbst die größte Gabe nicht vor dem Fall schützt, wenn das Herz sich abwendet. Genau deshalb steht die Geschichte da: als Warnung für jeden Gläubigen, auch für Könige und Gelehrte. Gott bleibt treu und gerecht – er straft Salomos Untreue, hält aber seine Verheißung an David. Und noch einmal: Eine Schrift, die die Schande ihres prächtigsten Königs erzählt, ist schwer als Propaganda zu erklären.`,
+          detail: `Im Alten Testament ist Salomo vor allem König und Weiser, nicht Prophet im Sinn eines Offenbarungsträgers wie Mose oder Jesaja. Die islamische Kategorie „Prophet" (nabī) ist weiter gefasst als die biblische. Wer die Bibel nach der islamischen Isma-Lehre beurteilt, legt einen fremden Maßstab an – einen Maßstab, den, wie gezeigt, auch der Koran selbst nicht durchhält.`,
+          sources: [
+            { kind: 'bibel', work: 'Nehemia', ref: '13,26', quote: `Hat nicht Salomo, der König Israels, daran gesündigt? … und doch machten ihn die ausländischen Weiber zur Sünde.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+        },
       ],
     },
   ],

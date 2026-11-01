@@ -126,6 +126,26 @@ const claim: Claim = {
               id: 'sechs-tage-kapitulation',
               objection: `Die Bibel lehrt sechs Tage. Wer das umdeutet, kapituliert vor der Wissenschaft.`,
               answer: `Origenes im 3. und Augustinus im 5. Jahrhundert lasen die Tage nicht als gewöhnliche Tage – aus Gründen des Textes, lange vor jeder Radiometrie. Mehr dazu im Claim „Die Erde ist 4,5 Milliarden Jahre alt".`,
+              followUps: [
+                {
+                  id: 'glaube-unfalsifizierbar',
+                  objection: `Dann frage ich: Was *könnte* eure Bibel eigentlich noch falsch machen? Wenn jede wissenschaftliche Entdeckung nur eine „Auslegung" widerlegt, ist euer Glaube gegen jede Tatsache immun – also unfalsifizierbar.`,
+                  objectionBy: 'Bill Nye',
+                  answer: `Eine faire Frage – und die Antwort ist: Der christliche Glaube ist an seinem Zentrum sehr wohl angreifbar. Paulus schreibt: „Ist aber Christus nicht auferstanden, so ist unsre Predigt vergeblich, so ist auch euer Glaube vergeblich" (1 Kor 15,14). Der Glaube steht und fällt mit einem historischen Ereignis, nicht mit dem Alter von Gesteinen. Die Kirche hat nie behauptet, ihr Heil hänge an einer Erdalter-Zahl – wohl aber am leeren Grab.`,
+                  detail: `**Unterscheide Kern und Auslegung:**
+- **Kern** (an Geschichte gebunden): Menschwerdung, Kreuzigung unter Pontius Pilatus, Auferstehung am dritten Tag. Hier macht der Glaube Aussagen, die historisch prüfbar sind – Paulus nennt sogar lebende Zeugen (1 Kor 15,5–8).
+- **Auslegungsfragen** (in der Kirche offen): Länge der Schöpfungstage, Umfang der Flut, biologische Mechanismen.
+
+**Warum das kein Ausweichen ist:** Schon vor jeder modernen Wissenschaft hat die Kirche diese Unterscheidung getroffen – die Väter lasen die Schöpfungstage verschieden, aber keiner relativierte die Auferstehung. Ein Glaube, der sein Zentrum der Prüfung aussetzt, ist das Gegenteil eines immunisierten Glaubens.
+
+Siehe den Themenblock zur Auferstehung für die historischen Argumente.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,14', quote: `Ist aber Christus nicht auferstanden, so ist unsre Predigt vergeblich, so ist auch euer Glaube vergeblich.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,6', quote: `Danach ist er gesehen worden von mehr denn fünfhundert Brüdern auf einmal, deren noch viele leben, etliche aber sind entschlafen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Paulus den ganzen Glauben an die Auferstehung bindet – ist das ein immunisierter oder ein angreifbarer Glaube?`],
+                },
+              ],
             },
           ],
         },

@@ -74,7 +74,7 @@ const claim: Claim = {
       role: 'als Mathematiker und Wissenschaftsphilosoph',
       text: `Lennox betont immer wieder, dass Gott kein Konkurrent naturwissenschaftlicher Erklärungen ist. Sein bekanntes Bild: Wer erklärt, wie ein Ford-Motor nach den Gesetzen der Verbrennung funktioniert, hat damit nicht bewiesen, dass es Henry Ford nicht gab – Mechanismus und Urheber sind Erklärungen auf verschiedenen Ebenen. Gott sei nicht der Gott der Lücken, sondern der Gott des ganzen Geschehens: der Teile, die wir verstehen, ebenso wie der Teile, die wir nicht verstehen. Je mehr die Wissenschaft entdecke, desto mehr Grund habe man, den Schöpfer zu bewundern.`,
       sources: [
-        { kind: 'fachliteratur', author: 'John C. Lennox', work: 'God\'s Undertaker: Has Science Buried God?', year: '2009', ref: 'Kap. 3', status: 'paraphrase', quote: 'Gott ist keine Alternative zur Wissenschaft als Erklärung und daher nicht bloß ein Gott der Lücken, sondern der Grund aller Erklärung; Bild vom Ford-Motor.', note: 'Die Formel „God of the whole show" wird Lennox in Vortragsberichten zugeschrieben; der genaue Wortlaut im Buch sollte vor Verwendung geprüft werden.' },
+        { kind: 'fachliteratur', author: 'John C. Lennox', work: 'God\'s Undertaker: Has Science Buried God?', year: '2009', status: 'paraphrase', quote: 'Gott ist keine Alternative zur Wissenschaft als Erklärung und daher nicht bloß ein Gott der Lücken, sondern der Grund aller Erklärung; Bild vom Ford-Motor.', note: 'Quellenprüfung Nov. 2026: Der Schlussgedanke des Buchs (Gott sei keine Alternative zur Wissenschaft als Erklärung und darum nicht bloß ein Lückengott, sondern Grund aller Erklärung) wird in Sekundärquellen übereinstimmend zitiert. Die Formel „God of the whole show" ist in Vortragsberichten belegt (u. a. iForum der Karls-Universität Prag, 2014), im Buchtext aber nicht verifiziert – nur sinngemäß verwenden.' },
       ],
     },
     {
@@ -182,6 +182,70 @@ const claim: Claim = {
           objection: `„Das ist kein Glaube, sondern eine gut begründete Extrapolation aus dem bisherigen Erfolg der Wissenschaft."`,
           objectionBy: 'Sean Carroll',
           answer: `Der bisherige Erfolg betrifft Erklärungen *innerhalb* der Natur – wie ein Ding aus einem anderen folgt. Daraus folgt nicht, dass auch die Natur als Ganze erklärt werden kann, ohne über sie hinauszugehen. Und nicht alle Probleme werden mit mehr Wissen kleiner: Die Frage nach dem Ursprung des Lebens ist mit jeder Entdeckung der zellulären Komplexität schwieriger geworden, und beim Bewusstsein musste Christof Koch 2023 zugeben, dass die erhoffte neuronale Signatur ausgeblieben ist.`,
+        },
+      ],
+    },
+    {
+      id: 'methodischer-naturalismus-regel',
+      objection: `„Wissenschaft arbeitet per Definition mit natürlichen Ursachen. Übernatürliche Erklärungen sind nicht falsch, sondern schlicht außerhalb der Wissenschaft. Jeder Schluss auf Gott ist deshalb automatisch keine Wissenschaft – Punkt."`,
+      objectionBy: 'Eugenie Scott / Robert Pennock',
+      answer: `Als Arbeitsregel im Labor ist das vernünftig: Wer eine Krankheit erforscht, sucht natürliche Ursachen. Aber wenn man es zur unumstößlichen Definition macht, entsteht ein seltsames Ergebnis: Selbst wenn die Welt tatsächlich einen Schöpfer hätte, dürfte die Wissenschaft es niemals feststellen. Dann ist sie kein Verfahren mehr, die Wahrheit zu finden, sondern ein Spiel mit Regeln, die eine Antwort von vornherein ausschließen. Im Übrigen brauche ich keine Wissenschaftsetikette: Das Kontingenzargument ist Philosophie, und Philosophie ist eine legitime Form des Wissens.`,
+      detail: `Die Unterscheidung zwischen **methodischem** Naturalismus (eine Forschungsregel) und **metaphysischem** Naturalismus (nur Natur existiert) ist wichtig – viele gläubige Wissenschaftler arbeiten methodisch naturalistisch. Problematisch wird es, wenn die Regel als Argument für den metaphysischen Naturalismus benutzt wird. Der Wissenschaftsphilosoph Larry Laudan hat zudem gezeigt, dass es kein allgemein anerkanntes Kriterium gibt, das Wissenschaft von Nicht-Wissenschaft sauber trennt. Und Archäologie, Kriminalistik oder die Suche nach außerirdischer Intelligenz (SETI) schließen ganz selbstverständlich auf intelligente Ursachen.`,
+      sources: [
+        { kind: 'gegner', author: 'Robert T. Pennock', work: 'Tower of Babel: The Evidence against the New Creationism', year: '1999', status: 'paraphrase', quote: 'Wissenschaft sei methodisch naturalistisch; übernatürliche Hypothesen seien prinzipiell nicht prüfbar.' },
+        { kind: 'fachliteratur', author: 'Larry Laudan', work: '„The Demise of the Demarcation Problem", in: R. S. Cohen & L. Laudan (Hg.), Physics, Philosophy and Psychoanalysis', year: '1983', status: 'paraphrase', quote: 'Es gebe kein tragfähiges Kriterium, das Wissenschaft eindeutig von Nicht-Wissenschaft abgrenzt.', note: 'Laudan ist kein Verteidiger des Theismus; sein Punkt ist wissenschaftstheoretisch.' },
+      ],
+      questionsBack: [`Wenn die Welt tatsächlich einen Schöpfer hätte – sollte die Wissenschaft das dann grundsätzlich nicht herausfinden dürfen?`],
+      followUps: [
+        {
+          id: 'bilanz-hundert-zu-null',
+          objection: `„Die Bilanz ist eindeutig: Jedes Rätsel, das je gelöst wurde, hatte eine natürliche Lösung. Hundert zu null. Induktiv ist es also hochwahrscheinlich, dass auch die verbleibenden Rätsel natürlich gelöst werden."`,
+          objectionBy: 'Jerry Coyne (Faith vs. Fact, 2015)',
+          answer: `Die Bilanz ist weniger eindeutig, als sie klingt – denn was die Naturwissenschaft erklärt, ist per Definition natürlich; die Zählung ist also eingebaut. Außerdem ging die Wissenschaft nicht immer in Richtung Naturalismus: Viele Physiker des 20. Jahrhunderts erwarteten ein ewiges Universum und mussten widerwillig einen Anfang anerkennen. Arthur Eddington schrieb 1931, die Vorstellung eines Anfangs sei ihm philosophisch „zuwider" – die Daten setzten sich trotzdem durch.`,
+          detail: `Die Urknall-Kosmologie wurde vom belgischen Priester und Physiker Georges Lemaître vorgeschlagen und stieß zunächst auf Widerstand, gerade weil sie an eine Schöpfung erinnerte; den Namen „Big Bang" prägte Fred Hoyle, ein Verfechter des ewigen Steady-State-Universums, 1949 eher spöttisch in einer BBC-Sendung. Das zeigt: Die Entwicklung der Kosmologie verlief nicht als gerader Siegeszug des Naturalismus.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Arthur S. Eddington', work: '„The End of the World (from the Standpoint of Mathematical Physics)", Nature 127', year: '1931', quote: `Philosophisch ist mir die Vorstellung eines Anfangs der gegenwärtigen Ordnung der Natur zuwider.`, original: 'Philosophically, the notion of a beginning of the present order of Nature is repugnant to me.', translation: 'eigene Übersetzung', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'urknall-akzeptiert-trotzdem',
+              objection: `„Na und? Die Wissenschaftler haben den Urknall akzeptiert, als die Belege kamen. Das zeigt doch gerade, dass die Wissenschaft den Daten folgt – und der Urknall beweist keinen Gott."`,
+              objectionBy: 'Lawrence Krauss / Sean Carroll',
+              answer: `Genau – und um nichts anderes bitte ich: den Belegen folgen, auch wenn sie unbequem sind. Der Urknall allein beweist keinen Gott, das stimmt; aber er hat eine naturalistische Erwartung (ein ewiges Universum) widerlegt und eine Erwartung der Schrift bestätigt: dass die Welt einen Anfang hat. Lemaître selbst war hier vorbildlich ehrlich: Er warnte davor, seine Theorie als physikalischen Schöpfungsbeweis auszugeben – sein Glaube brauchte keine Lücke und keine Theorie als Stütze.`,
+              detail: `Als Papst Pius XII. 1951 die neue Kosmologie mit der Schöpfung in Verbindung brachte, war Lemaître besorgt und plädierte dafür, Physik und Theologie nicht zu vermischen; in späteren Ansprachen äußerte sich der Papst zurückhaltender. Für das Gespräch heißt das: Das kosmologische Argument stützt sich nicht auf „Die Physik weiß es nicht", sondern auf das, was die Physik herausgefunden hat – und deutet es philosophisch.`,
+              voices: [
+                {
+                  person: 'lemaitre',
+                  role: 'als Kosmologe und Priester',
+                  text: `Lemaître entwickelte das Modell eines expandierenden Universums mit einem Anfang, dem „Uratom". Er hielt Wissenschaft und Glauben auseinander: Der Glaube an den Schöpfer brauche keine physikalische Theorie, und keine physikalische Theorie dürfe zum Dogma gemacht werden. Gerade diese Nüchternheit macht ihn zum Gegenbild eines Lückenbüßer-Denkens.`,
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gott-erklaert-alles-nichts',
+          objection: `„Gott erklärt alles – und damit nichts. Jede denkbare Beobachtung ist mit ‚Gott hat es so gewollt' vereinbar. Eine Erklärung, die nichts ausschließt, ist wertlos."`,
+          objectionBy: 'Richard Dawkins',
+          answer: `Der Theismus schließt durchaus etwas aus: Ein guter, vernünftiger Schöpfer lässt eine geordnete, gesetzmäßige, mathematisch verständliche Welt erwarten, in der bewusste, moralische Personen entstehen können – kein Chaos ohne Regelmäßigkeiten. Genau eine solche Welt finden wir, und das ist keine Selbstverständlichkeit. Umgekehrt ist „Es ist eben natürlich passiert" mindestens ebenso dehnbar wie „Gott hat es gewollt".`,
+          detail: `Swinburne argumentiert, dass der Theismus bestimmte Daten wahrscheinlicher macht als ihr Fehlen: die Existenz eines Universums, seine Gesetzmäßigkeit, die Feinabstimmung, Bewusstsein, moralisches Bewusstsein und Gelegenheiten zu verantwortlichem Handeln. Polkinghorne betont die „unvernünftige Wirksamkeit der Mathematik": Dass das Universum in der Sprache der Mathematik lesbar ist, passt zu einer Welt, die aus dem Logos stammt.`,
+          voices: [
+            {
+              person: 'polkinghorne',
+              role: 'als theoretischer Physiker und Theologe',
+              text: `Polkinghorne verweist darauf, dass die Physik ständig die Erfahrung macht, dass schöne, abstrakte Mathematik die Struktur der Natur trifft. Für ihn ist diese tiefe Verständlichkeit der Welt kein Zufall, sondern ein Hinweis auf einen Geist hinter dem Universum – eine Erklärung, die die Wissenschaft voraussetzt, aber nicht selbst liefern kann.`,
+              sources: [{ kind: 'fachliteratur', author: 'John Polkinghorne', work: 'Belief in God in an Age of Science', year: '1998', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'was-wuerde-widerlegen',
+              objection: `„Dann nenn mir eine konkrete Beobachtung, die deinen Glauben widerlegen würde."`,
+              objectionBy: "Alex O'Connor",
+              answer: `Gern: Würde man zeigen, dass Jesus nicht auferstanden ist, wäre das Christentum nach Paulus' eigenem Maßstab erledigt (1 Kor 15,14–17). Gäbe es keine objektiven moralischen Wahrheiten, verlöre das moralische Argument seine Grundlage. Wäre das Universum ewig, gesetzlos oder lebensfeindlich, fielen wichtige Hinweise weg. Mein Glaube ist also nicht gegen jede mögliche Erfahrung immun – er setzt sich bestimmten Tatsachen aus.`,
+              questionsBack: [`Und welche Beobachtung würde deinen Naturalismus widerlegen?`],
+            },
+          ],
         },
       ],
     },

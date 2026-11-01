@@ -94,6 +94,23 @@ const claim: Claim = {
               objection: `Wenn Jesus alle Sünden bezahlt hat, können Christen ja sündigen, wie sie wollen. Das ist moralisch verheerend.`,
               objectionBy: 'Zakir Naik',
               answer: `Paulus kannte den Einwand: „Sollen wir denn in der Sünde beharren …? Das sei ferne!" (Röm 6,1–2). Die koptische Kirche lehrt kein „einmal glauben, dann egal": Das Heil wird empfangen durch Glauben, Taufe, Buße und ein Leben in der Kirche, in dem die Gnade mit unserem freien Willen zusammenwirkt. Wer das Kreuz wirklich annimmt, stirbt der Sünde, statt sie zu lieben.`,
+              followUps: [
+                {
+                  id: 'moerder-auf-dem-sterbebett',
+                  objection: `Dann kann ein Mörder auf dem Sterbebett bereuen und kommt in den Himmel – sein Opfer aber, wenn es kein Christ war, nicht. Wo bleibt da die Gerechtigkeit für die Opfer?`,
+                  objectionBy: 'Zakir Naik',
+                  answer: `Echte Umkehr ist möglich bis zum letzten Atemzug – der Schächer am Kreuz zeigt es (Lk 23,43). Aber Gerechtigkeit wird dabei nicht übergangen: Die Schuld des Mörders wird nicht ignoriert, sondern von Christus getragen, und Gott richtet über das Opfer nach seiner eigenen Gerechtigkeit und Barmherzigkeit, nicht nach der Tat des Mörders. Und beachte: Dein Einwand trifft den Islam genauso. Nach einem bekannten Hadith vergab Allah einem Mann, der hundert Menschen getötet hatte, weil er bereute und sich auf den Weg zur Umkehr machte.`,
+                  detail: `Der Hadith vom Mann, der 99 und dann 100 Menschen tötete, steht in den Sahih-Sammlungen (Bukhari 3470; Muslim 2766): Er fragt einen Gelehrten, ob es für ihn noch Umkehr gibt, wandert in ein Land der Frommen und stirbt unterwegs; die Engel der Barmherzigkeit nehmen ihn auf. Muslime lesen das als Zeugnis für Allahs grenzenlose Vergebung (vgl. 39:53). Damit ist klar: Beide Religionen kennen Vergebung für schwerste Schuld. Der Unterschied liegt im *Wie*: Im Islam vergibt Allah durch einen Akt seines Willens; im Evangelium vergibt Gott, indem er die Schuld selbst trägt – so dass Barmherzigkeit und Gerechtigkeit sich „küssen" (Ps 85,11). Die koptische Kirche betont dabei, dass wahre Reue Wiedergutmachung sucht, wo sie möglich ist (Lk 19,8).`,
+                  sources: [
+                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3470 (vgl. Sahih Muslim 2766)', quote: `Unter den Kindern Israels war ein Mann, der neunundneunzig Menschen getötet hatte … Die Engel der Barmherzigkeit nahmen ihn auf.`, translation: 'sinngemäß zusammengefasst', status: 'paraphrase', url: 'https://sunnah.com/bukhari:3470' },
+                    { kind: 'bibel', work: 'Lukas', ref: '23,43', quote: `Wahrlich, ich sage dir: Heute wirst du mit mir im Paradiese sein.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Vergibt Allah nach dem Hadith von dem Mann, der hundert Menschen tötete, auch schwerste Schuld? Wo bleibt dort die Gerechtigkeit für die Opfer?`,
+                    `Was ist gerechter: Schuld durch bloßen Willensakt zu erlassen – oder sie selbst zu tragen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -110,6 +127,44 @@ const claim: Claim = {
           objection: `Jesaja 53 handelt vom Volk Israel, nicht von Jesus. Das sagen die jüdischen Gelehrten.`,
           objectionBy: 'Muslimischer Apologet unter Berufung auf Rabbi Tovia Singer',
           answer: `Viele mittelalterliche und moderne jüdische Ausleger deuten Jes 53 auf Israel; aber es gibt auch alte jüdische Auslegungen, die den Text auf den Messias beziehen (etwa im Targum zu Jes 52,13). Im Text leidet der Knecht „um der Missetat meines Volks willen" (53,8) – er ist vom Volk unterschieden – und er ist ohne Unrecht (53,9). Das passt auf keinen Fall auf ein sündiges Volk. Mehr dazu im Thema „Jesaja 53 ist Israel".`,
+          followUps: [
+            {
+              id: 'knecht-heisst-israel',
+              objection: `Jesaja nennt Israel ausdrücklich „mein Knecht" (Jes 41,8; 44,1; 49,3). Der Knecht in Kapitel 53 ist also derselbe: das leidende Volk Israel unter den Völkern.`,
+              objectionBy: 'Muslimischer Apologet unter Berufung auf Rabbi Tovia Singer',
+              answer: `Jesaja unterscheidet selbst zwei Knechte. Der Knecht Israel ist blind und taub (42,19) und sündig (43,24). Der andere Knecht soll „Jakob zu ihm bekehren und Israel zu ihm sammeln" (49,5–6) – er kann also nicht Israel sein, sondern handelt *an* Israel. Er heißt in 49,3 „Israel", weil er als einzelner verkörpert, was das Volk sein sollte. Und von diesem Knecht heißt es: Er hat „kein Unrecht getan, und kein Betrug war in seinem Mund" (53,9) – das sagt Jesaja nirgends vom Volk.`,
+              detail: `Michael Brown und Michael Rydelnik haben gezeigt, dass die messianische Deutung von Jes 52,13–53,12 im Judentum alt ist: Der Targum Jonathan bezieht 52,13 auf „meinen Knecht, den Messias"; spätere rabbinische Texte (u. a. im Talmud, Sanhedrin 98b, und im Midrasch) bringen den leidenden Messias mit diesem Kapitel in Verbindung. Raschi (11. Jh.) machte die Kollektivdeutung auf Israel populär. Für das Gespräch mit Muslimen ist ein Punkt besonders stark: Jesaja beschreibt einen Gerechten, der für die Sünden anderer leidet und dadurch „viele gerecht macht" (53,11). Selbst wenn man an Israel dächte, bliebe das Prinzip der stellvertretenden Sühne biblisch – genau das, was 6:164 angeblich ausschließt.`,
+              voices: [
+                { person: 'michael-brown', role: 'als messianisch-jüdischer Gelehrter', text: `Brown betont, dass Jesaja den Knecht vom Volk unterscheidet: Der Knecht leidet „für die Übertretung meines Volkes" (53,8), das Volk dagegen bekennt: „Wir gingen alle in die Irre wie Schafe" (53,6). Wer ist hier „wir", und wer ist „er"? Das „Wir" ist das Volk; „er" ist der Gerechte, der die Schuld trägt.` },
+                { person: 'michael-rydelnik', role: 'als messianischer Ausleger der Hebräischen Bibel', text: `Rydelnik zeigt, dass die messianische Lesart von Jes 53 keine christliche Erfindung ist, sondern in älteren jüdischen Quellen bezeugt ist; erst im Mittelalter setzte sich – auch in Auseinandersetzung mit dem Christentum – die Deutung auf das Volk durch.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Jesaja', ref: '49,5–6', quote: `Und nun spricht der HERR, der mich von Mutterleib an zu seinem Knechte bereitet hat, daß ich soll Jakob zu ihm bekehren, auf daß Israel nicht weggerafft werde …`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                { kind: 'juedisch', work: 'Targum Jonathan zu Jesaja', ref: '52,13', quote: `Siehe, mein Knecht, der Messias, wird Erfolg haben …`, translation: 'sinngemäß', status: 'paraphrase', note: 'Der Targum deutet den Knecht messianisch, deutet das Leiden aber weitgehend um.' },
+                { kind: 'fachliteratur', author: 'Michael L. Brown', work: 'Answering Jewish Objections to Jesus, Bd. 3: Messianic Prophecy Objections', year: '2003', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wie kann der Knecht in Jes 49,5–6 Israel zu Gott zurückführen, wenn er selbst Israel ist?`,
+                `Von welchem Volk sagt die Schrift, es habe „kein Unrecht getan, und kein Betrug war in seinem Mund"?`,
+              ],
+              followUps: [
+                {
+                  id: 'jesus-nicht-stumm-keine-nachkommen',
+                  objection: `Jesus passt gar nicht: Jesaja sagt, der Knecht tue seinen Mund nicht auf (53,7) – Jesus redete vor Pilatus. Und der Knecht werde „Nachkommen sehen und lange leben" (53,10) – Jesus hatte keine Kinder und starb jung.`,
+                  objectionBy: 'Shabir Ally',
+                  answer: `Vor seinen Anklägern verteidigte sich Jesus nicht: „Er aber schwieg still und antwortete nichts" (Mk 14,61; 15,5) – genau das Bild vom Lamm, das zur Schlachtbank geführt wird. Und lies 53,10 im Zusammenhang: Der Knecht wird getötet, begraben (53,8–9) – und *danach* „sieht er Nachkommen und lebt lange". Das setzt ein Leben nach dem Tod voraus, also Auferstehung. „Nachkommen" (*zeraʿ*) wird in der Schrift auch geistlich gebraucht; die Nachkommen des Knechts sind die „vielen", die er gerecht macht (53,11).`,
+                  detail: `Jes 53,8: „Er ist aus dem Lande der Lebendigen weggerissen." 53,9: „Man gab ihm sein Grab bei den Gottlosen." 53,10–12: Nach diesem Tod „wird er Samen haben und in die Länge leben", „er wird das Licht sehen" (so die Qumran-Rolle 1QIsaᵃ und die Septuaginta in 53,11) und „mit den Starken den Raub teilen". Eine Person, die stirbt, begraben wird und danach lange lebt und Nachkommen sieht – das ist die Struktur von Karfreitag und Ostern. Für einen Laien reicht: Der Text beschreibt Tod *und* Leben danach. Wer ihn auf Israel bezieht, muss beides erklären.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Jesaja', ref: '53,7', quote: `Da er gestraft und gemartert ward, tat er seinen Mund nicht auf wie ein Lamm, das zur Schlachtbank geführt wird.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Markus', ref: '14,61', quote: `Er aber schwieg still und antwortete nichts.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wie kann jemand, der nach Jes 53,8–9 getötet und begraben wird, danach „lange leben" – wenn nicht durch Auferstehung?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

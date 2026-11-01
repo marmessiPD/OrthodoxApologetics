@@ -173,6 +173,29 @@ const claim: Claim = {
               id: 'bibel-dehnbar',
               objection: `Dann ist eure Bibel beliebig dehnbar.`,
               answer: `Nicht beliebig: Die regionale Lesart stützt sich auf den Sprachgebrauch der Bibel selbst (Gen 41,57; Dtn 2,25; 1 Kön 10,24) – nicht auf moderne Bedürfnisse. Und schon Augustinus mahnte, Schriftauslegung nicht gegen gesichertes Naturwissen zu stellen.`,
+              followUps: [
+                {
+                  id: 'autor-meinte-ganze-welt',
+                  objection: `Ehrlich gesagt: Der antike Autor hat sehr wohl eine weltweite Flut gemeint – so wie die mesopotamischen Flutmythen. Eure regionale Flut ist eine moderne Harmonisierung, um die Bibel vor der Geologie zu retten. Lasst den Text doch einfach sagen, was er sagt.`,
+                  objectionBy: 'Peter Enns',
+                  answer: `Da steckt Wahres drin: Der Erzähler dachte nicht in den Kategorien unseres Globus, sondern in denen seiner bekannten Welt – und ich unterstelle ihm keine moderne Geografie. Aber genau das ist der Punkt: „Die ganze Erde" war für ihn die Welt, die er kannte und überblickte. Die inspirierte Botschaft liegt nicht in einer Aussage über Kontinente, die er nicht kannte, sondern in Gericht, Gnade und Neubeginn. Den Text sagen lassen, was er sagt, heißt: ihn in seiner Welt hören.`,
+                  detail: `**Enns' Anliegen** (*The Bible Tells Me So*, 2014; *Inspiration and Incarnation*, 2005): Die Bibel spreche in der Vorstellungswelt des Alten Orients; man solle sie nicht in moderne Wissenschaft übersetzen. Das ist ein berechtigter Einspruch gegen eine zu glatte Harmonisierung.
+
+**Walton als Brücke:** John Walton argumentiert, dass antike Texte in ihrer „kognitiven Umwelt" gelesen werden müssen. Gerade wer das ernst nimmt, sieht: Der Erzähler beschreibt ein reales Ereignis in der Sprache und Perspektive seiner Welt – mit universalen Formulierungen, die die Größe des Gerichts ausdrücken. Das ist weder moderne Harmonisierung noch Mythos im Sinn von Erfindung.
+
+**Koptisch-orthodox:** Die Kirche liest die Schrift mit wörtlichem und geistlichem Sinn. Der wörtliche Sinn ist das, was der inspirierte Autor sagen wollte – nicht eine Aussage über moderne Geologie. Die Geschichtlichkeit der Flut wird bekannt, ihr geografischer Umfang ist nicht festgelegt.`,
+                  voices: [
+                    {
+                      person: 'john-walton',
+                      role: 'als Alttestamentler (altorientalischer Kontext)',
+                      text: `Walton betont, dass die Bibel *für* uns, aber nicht *an* uns geschrieben wurde. Wer sie verstehen will, muss die Denkweise ihrer ersten Hörer rekonstruieren. In *The Lost World of the Flood* (mit Tremper Longman) liest er die Flutgeschichte als Bericht über ein reales Ereignis, das mit der in der Antike üblichen hyperbolischen, universalisierenden Sprache theologisch gedeutet wird.`,
+                      sources: [waltonLongman2018],
+                    },
+                  ],
+                  sources: [{ kind: 'gegner', author: 'Peter Enns', work: 'The Bible Tells Me So: Why Defending Scripture Has Made Us Unable to Read It', year: '2014', quote: `Enns plädiert dafür, die biblischen Texte in ihrer antiken Vorstellungswelt zu lesen, statt sie mit moderner Wissenschaft zu harmonisieren.`, status: 'paraphrase' }],
+                  questionsBack: [`Was war für einen Erzähler im Alten Orient „die ganze Erde" – und warum sollte er eine Aussage über Kontinente machen, die er nicht kannte?`],
+                },
+              ],
             },
           ],
         },
@@ -189,6 +212,46 @@ const claim: Claim = {
           objection: `„Gemeinsame Erinnerung" ist reine Spekulation.`,
           answer: `Es ist eine begründete Hypothese: Die Sumerische Königsliste teilt die Geschichte in „vor" und „nach der Flut", Mesopotamien behandelte sie also als reales Ereignis; Flutablagerungen in mehreren mesopotamischen Städten belegen große lokale Überschwemmungen. Ich behaupte Plausibilität, keinen Beweis.`,
           sources: [sumerKoenigsliste],
+          followUps: [
+            {
+              id: 'flutschichten-verschieden-alt',
+              objection: `Die Flutschichten in Ur, Kisch und Schuruppak stammen aus verschiedenen Jahrhunderten. Woolley hat 1929 voreilig „Noahs Flut" ausgerufen. Es gab nicht *die* Flut, sondern viele kleine.`,
+              objectionBy: 'Donald Prothero',
+              answer: `Das stimmt, und ich übernehme Woolleys Überschwang nicht. Mesopotamien war eine Flussebene, die immer wieder überschwemmt wurde. Gerade das macht plausibel, dass sich eine besonders verheerende Flut als Epochengrenze ins Gedächtnis einbrannte – eine Flutschicht in Schuruppak, der Stadt des mesopotamischen Fluthelden, wird oft an den Übergang zur frühdynastischen Zeit gesetzt. Aber ich sage bewusst: plausibel, nicht bewiesen.`,
+              detail: `**Die Befunde:** Leonard Woolley fand 1929 in Ur eine mächtige Schwemmschicht und deutete sie als Spur der biblischen Flut. Spätere Grabungen zeigten, dass Flutschichten in Ur, Kisch, Schuruppak und anderen Orten verschiedenen Zeiten angehören und nicht ein einziges Ereignis belegen.
+
+**Was daraus folgt:**
+- Eine einzige, das ganze Zweistromland zugleich bedeckende Flut ist archäologisch nicht nachgewiesen.
+- Die Region kannte wiederholt große Überschwemmungen; eine davon kann als „die Flut" in Erinnerung geblieben sein.
+- Die mesopotamische Literatur verbindet den Fluthelden (Ziusudra/Utnapischtim) mit Schuruppak.
+
+Kenneth Kitchen betont, dass die Abfolge „Schöpfung – frühe Menschheit – Flut – Neubeginn" in mesopotamischen und biblischen Texten gemeinsam ist; die Flut war dort ein fester Bezugspunkt der Geschichte.`,
+              voices: [
+                {
+                  person: 'kitchen',
+                  role: 'als Altorientalist',
+                  text: `Kitchen ordnet die biblische Urgeschichte in eine altorientalische Gattung ein, die auch die Sumerische Königsliste und das Atrahasis-Epos kennen: eine Folge von frühen Generationen, eine große Flut, danach eine neue Ära. Dass dieselbe Struktur in unabhängigen Traditionen auftaucht, deutet er als Hinweis auf gemeinsame Erinnerung – bei völlig unterschiedlicher theologischer Deutung.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'On the Reliability of the Old Testament', ref: 'Kap. 9', year: '2003', status: 'paraphrase' }],
+                },
+              ],
+              questionsBack: [`Wenn Mesopotamien immer wieder Fluten erlebte – warum wurde dann gerade *eine* Flut zur Epochengrenze in der Königsliste?`],
+              followUps: [
+                {
+                  id: 'koenigsliste-mythisch',
+                  objection: `Die Sumerische Königsliste gibt Königen vor der Flut Regierungszeiten von Zehntausenden Jahren. Ein so offensichtlich mythisches Dokument kannst du nicht als Geschichtsquelle verwenden.`,
+                  objectionBy: 'Francesca Stavrakopoulou',
+                  answer: `Natürlich nicht als Chronik im modernen Sinn – die Zahlen vor der Flut sind legendär, das bestreite ich nicht. Aber die Liste mischt Legende und Geschichte: Einige der frühen Könige nach der Flut, etwa Enmebaragesi von Kisch, sind durch eigene Inschriften als reale Herrscher belegt. Entscheidend ist, *wie* die Mesopotamier dachten: Sie behandelten die Flut als Grenze zwischen zwei Epochen ihrer Geschichte. Mehr behaupte ich nicht.`,
+                  detail: `**Legende und Geschichte:** Antike Königslisten verbinden oft historische Erinnerung mit idealisierten Zahlen. Bei der Sumerischen Königsliste ist das deutlich: riesige Regierungszeiten vor der Flut, kürzere danach, und in der frühdynastischen Zeit Namen, die durch Inschriften bestätigt sind (Enmebaragesi von Kisch gilt als frühester durch zeitgenössische Inschriften belegter Herrscher der Liste).
+
+**Der faire Schluss:** „Mythisch" im altorientalischen Sinn heißt nicht automatisch „ohne historischen Anlass". Die Liste beweist keine bestimmte Flut, zeigt aber, dass „die Flut" in Mesopotamien als reales Epochenereignis galt.
+
+**Die biblischen Zahlen:** Auch die hohen Lebensalter in Gen 5 sind deutlich niedriger als die sumerischen Regierungszeiten und folgen einer eigenen Logik. Christen lesen sie unterschiedlich – wörtlich oder symbolisch; ein Dogma gibt es nicht.`,
+                  sources: [sumerKoenigsliste],
+                  questionsBack: [`Wenn spätere Könige derselben Liste durch Inschriften als real belegt sind – folgt aus den legendären Zahlen, dass die Flut als Epochengrenze erfunden ist?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -202,6 +265,19 @@ const claim: Claim = {
           objection: `Aber 2. Petrus 3,6 sagt, die damalige Welt (kosmos) sei untergegangen.`,
           answer: `Derselbe Brief nennt sie kurz zuvor „die Welt der Gottlosen" (2 Petr 2,5) – gemeint ist die Menschenwelt, über die das Gericht kam. „Kosmos" bezeichnet im NT oft die Menschheit (vgl. Joh 3,16).`,
           sources: [{ kind: 'bibel', work: '2. Petrus', ref: '2,5', quote: `… und hat nicht verschont die vorige Welt, sondern bewahrte Noah, den Prediger der Gerechtigkeit, … und führte die Sintflut über die Welt der Gottlosen.`, translation: 'Luther 1912', status: 'paraphrase' }],
+          followUps: [
+            {
+              id: 'feuergericht-parallele',
+              objection: `Petrus stellt die Flut direkt neben das kommende Weltgericht durch Feuer (2 Petr 3,5–7). Wenn das Endgericht die ganze Erde betrifft, muss auch die Flut die ganze Erde betroffen haben – sonst hinkt der Vergleich.`,
+              objectionBy: 'Ken Ham (Junge-Erde-Position)',
+              answer: `Das ist das stärkste neutestamentliche Argument für eine globale Flut – ich nehme es ernst. Aber ein Vergleich verlangt nicht, dass beide Seiten in jeder Hinsicht gleich sind. Petrus vergleicht die *Wirklichkeit* und *Plötzlichkeit* des Gerichts gegen Spötter, die sagen, alles bleibe, wie es war (2 Petr 3,4). Die Flut traf die damalige Welt der Gottlosen; das Endgericht wird alles betreffen. Der Punkt ist: Gott hat schon einmal gerichtet, also wird er wieder richten.`,
+              detail: `**Der Zusammenhang:** In 2 Petr 3,3–4 spotten Menschen: „Wo ist die Verheißung seiner Zukunft? … es bleibt alles, wie es von Anfang der Kreatur gewesen ist." Petrus antwortet, sie übersähen absichtlich, dass Gott die damalige Welt durch Wasser gerichtet hat. Das Argument zielt auf die Behauptung, Gott greife nie ein – nicht auf die geografische Ausdehnung.
+
+**Fair bleiben:** Vertreter einer weltweiten Flut lesen die Parallele als Hinweis auf gleichen Umfang. Das ist eine mögliche Auslegung, und die Kirchenväter dachten überwiegend so. Weil die koptische Kirche den Umfang nicht festlegt, kannst du beide Lesarten respektvoll nebeneinanderstehen lassen und den gemeinsamen Kern betonen: Die Flut war real, und das Gericht wird kommen.`,
+              sources: [{ kind: 'bibel', work: '2. Petrus', ref: '3,6–7', quote: `Dennoch ward zu der Zeit die Welt durch dieselben mit der Sintflut verderbt. Also auch der Himmel jetzund und die Erde werden durch sein Wort gespart, daß sie zum Feuer behalten werden am Tage des Gerichts und der Verdammnis der gottlosen Menschen.`, translation: 'Luther 1912', status: 'paraphrase' }],
+              questionsBack: [`Worauf antwortet Petrus in 2 Petr 3,3–4 – auf eine Frage nach der Ausdehnung der Flut oder auf den Spott, Gott greife nie ins Weltgeschehen ein?`],
+            },
+          ],
         },
       ],
     },

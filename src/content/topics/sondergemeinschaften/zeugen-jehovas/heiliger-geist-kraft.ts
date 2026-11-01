@@ -136,6 +136,28 @@ const claim: Claim = {
               objectionBy: 'Zeugen Jehovas',
               answer: `Jesus tauft „auf **den Namen** (Singular) des Vaters und des Sohnes und des Heiligen Geistes" (Mt 28,19) – der Geist teilt den einen Namen. Auch der Engel in Ri 13,18 nennt seinen Namen nicht; namenlos ist nicht dasselbe wie unpersönlich. Und würdest du jemanden „auf den Namen" einer Person, einer zweiten Person und der Elektrizität taufen?`,
               questionsBack: [`Warum steht der Geist in der Taufformel gleichrangig neben Vater und Sohn, wenn er nur eine Kraft ist?`],
+              followUps: [
+                {
+                  id: 'mt-28-19-eingefuegt',
+                  objection: `Die Taufformel in Mt 28,19 ist eine spätere Einfügung. Eusebius von Caesarea zitiert den Vers mehrfach nur als „Macht zu Jüngern alle Völker **in meinem Namen**". Die Apostel tauften auch nur „auf den Namen Jesu" (Apg 2,38).`,
+                  objectionBy: 'Biblische Unitarier (u. a. im Umfeld von Anthony Buzzard), nach F. C. Conybeare',
+                  answer: `Jede griechische Handschrift, die das Ende des Matthäusevangeliums enthält, und alle alten Übersetzungen haben die dreigliedrige Formel – es gibt keine einzige Textzeugin für die Kurzform. Die Didache, um 100 und damit über 200 Jahre vor Eusebius, schreibt die Taufe „auf den Namen des Vaters und des Sohnes und des Heiligen Geistes" vor. Eusebius' Kurzform ist eine freie Anspielung in Predigtsprache; nach 325 zitiert er selbst die volle Formel. Und „auf den Namen Jesu" in der Apostelgeschichte kennzeichnet die christliche Taufe gegenüber der Johannestaufe (Apg 19,3–5), ist aber keine Gegenformel.`,
+                  detail: `Die Hypothese geht auf den Orientalisten F. C. Conybeare (1901) zurück. Die Textkritik hat sie nicht übernommen: In den kritischen Ausgaben (Nestle-Aland, UBS) ist zu Mt 28,19 keine Handschrift ohne die dreigliedrige Formel verzeichnet; Varianten betreffen nur Kleinigkeiten wie die Zeitform des Partizips „taufend". Kirchenväter zitieren frei und kürzen, vor allem in apologetischen Werken; ein freies Zitat wiegt nicht gegen die gesamte Handschriftenüberlieferung. Selbst wenn man die Formel beiseiteließe, bliebe 2 Kor 13,13 – ein Paulustext aus den 50er-Jahren, den niemand für eingefügt hält.`,
+                  voices: [
+                    {
+                      person: 'metzger',
+                      role: 'als Textkritiker',
+                      text: `Metzger hat die Methode der Textkritik für ein breites Publikum dargestellt: Über eine Lesart entscheiden Alter, Verbreitung und Qualität der Handschriften, nicht die Frage, welche Lesart einer Lehre besser passt. Gemessen daran hat die Kurzform von Mt 28,19 keine handschriftliche Basis – sie existiert nur als freies Zitat bei einem Kirchenvater, während die dreigliedrige Formel in allen griechischen Handschriften und alten Übersetzungen steht, die die Stelle enthalten.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Bruce M. Metzger / Bart D. Ehrman', work: 'The Text of the New Testament: Its Transmission, Corruption, and Restoration', year: '4. Aufl. 2005', quote: `Kriterien der Textkritik: äußere Bezeugung durch Handschriften vor innerer Wahrscheinlichkeit.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', work: 'Didache', ref: '7,1', year: 'um 100', quote: `Tauft auf den Namen des Vaters und des Sohnes und des Heiligen Geistes in lebendigem Wasser.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Demonstratio Evangelica', ref: 'III,6–7', quote: `Freie Wiedergabe des Missionsbefehls: „Macht zu Jüngern alle Völker in meinem Namen."`, status: 'paraphrase', note: 'Auf diese Stellen stützt sich die Einfügungshypothese; später zitiert Eusebius die volle dreigliedrige Formel.' },
+                  ],
+                  questionsBack: [`Kannst du eine einzige griechische Handschrift von Matthäus 28 nennen, die die Kurzform hat?`],
+                },
+              ],
             },
           ],
         },
@@ -164,6 +186,67 @@ const claim: Claim = {
               objectionBy: 'Zeugen Jehovas',
               answer: `Entfaltung ist nicht Erfindung. Die Daten liegen alle im Neuen Testament: Der Geist redet, will, wird belogen und gelästert, steht in der Taufformel neben Vater und Sohn. Die Kirche hat diese Daten später in Begriffe gefasst – so wie ihr eure Lehre über Jehova auch in Begriffe fasst, die so nicht in der Bibel stehen („leitende Körperschaft", „wirksame Kraft").`,
               questionsBack: [`Steht das Wort „wirksame Kraft" für den Geist irgendwo im hebräischen oder griechischen Text?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'kein-gebet-zum-geist',
+      objection: `Zeig mir ein einziges Gebet zum Heiligen Geist in der Bibel. Jesus lehrte: „Unser Vater im Himmel." Niemand in der Schrift betet den Geist an. Eure Agpeya-Gebete an den Geist sind unbiblisch.`,
+      objectionBy: 'Zeugen Jehovas (Einsichten über die Heilige Schrift)',
+      answer: `Das Neue Testament zeigt den Geist als den, **in** dem wir beten: „Betet im Heiligen Geist" (Jud 20), „der Geist selbst vertritt uns" (Röm 8,26). Er ist nicht ausgeschlossen, sondern mitten im Gebet. Und die Taufe auf den einen Namen von Vater, Sohn und Geist (Mt 28,19) und der Segen „Gemeinschaft des Heiligen Geistes" (2 Kor 13,13) stellen ihn auf die Seite Gottes, nicht der Geschöpfe. Übrigens: Stephanus betete zu Jesus („Herr Jesus, nimm meinen Geist auf", Apg 7,59) – das lehnt ihr auch ab, obwohl es dasteht.`,
+      detail: `Das Argument „kein ausdrückliches Gebet = keine Person" beweist zu viel: Auch zum Sohn gibt es nur wenige ausdrückliche Gebete (Apg 7,59; 1 Kor 16,22 „Maranatha"; Offb 22,20), und doch sind sie da. Die Schrift beschreibt die Rollen: Wir beten zum Vater, durch den Sohn, im Geist (Eph 2,18). Die Kirche hat aus der gemeinsamen Ehre in Taufe und Segen die gemeinsame Anbetung abgeleitet – „der mit dem Vater und dem Sohn zugleich angebetet und verherrlicht wird" (381). Basilius verteidigte genau diese Praxis: Die Doxologie der Kirche war älter als der Streit.`,
+      sources: [
+        { kind: 'bibel', work: 'Judas', ref: '20', quote: `Ihr aber, meine Lieben, erbauet euch auf euren allerheiligsten Glauben durch den heiligen Geist und betet.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Epheser', ref: '2,18', quote: `Denn durch ihn haben wir den Zugang alle beide in einem Geiste zum Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '7,59', quote: `Und sie steinigten Stephanus, der anrief und sprach: HERR Jesu, nimm meinen Geist auf!`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn nur das gilt, was ausdrücklich als Gebet in der Bibel steht – warum betest du dann nicht wie Stephanus zu Jesus?`],
+      followUps: [
+        {
+          id: 'geist-redet-nicht-selbst',
+          objection: `Selbst Jesus sagt: Der Geist „wird nicht von sich selbst reden, sondern was er hören wird, das wird er reden" (Joh 16,13). Wer nichts aus sich selbst hat, ist kein eigenständiges Wesen, sondern ein Kanal.`,
+          objectionBy: 'Zeugen Jehovas',
+          answer: `Dasselbe sagt Jesus von sich: „Der Sohn kann nichts von sich selber tun" (Joh 5,19) und „Meine Lehre ist nicht mein" (Joh 7,16). Wenn das den Geist zur Kraft macht, macht es auch den Sohn zur Kraft. Der Satz beschreibt nicht Unpersönlichkeit, sondern vollkommene Einheit des Wollens: Der Geist hört, nimmt, verkündet und verherrlicht (Joh 16,13–14) – vier personale Tätigkeiten in einem Satz.`,
+          detail: `Athanasius verwendet in den Briefen an Serapion genau diese Parallele: Wie der Sohn sich zum Vater verhält, so verhält sich der Geist zum Sohn – nicht als dessen Geschöpf, sondern in der Einheit des einen Wirkens. „Hören" ist zudem ein Verb, das nur von einem Bewusstsein ausgesagt werden kann: Eine Kraft „hört" nicht, sie wird angewandt.`,
+          sources: [
+            { kind: 'bibel', work: 'Johannes', ref: '5,19', quote: `Der Sohn kann nichts von sich selber tun, sondern was er sieht den Vater tun.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [`Ist der Sohn eine Kraft, weil er „nichts von sich selber tun" kann (Joh 5,19)?`],
+          followUps: [
+            {
+              id: 'geist-ist-gottes-gegenwart',
+              objection: `Gut, der Geist ist nicht nur Energie – er ist Gottes eigene Gegenwart, sein Sinn und Wirken, so wie der Geist eines Menschen zu ihm gehört (1 Kor 2,11). Aber deshalb ist er keine dritte Person neben Gott.`,
+              objectionBy: 'Anthony Buzzard (biblischer Unitarismus)',
+              answer: `Das ist schon ein großer Schritt weg von der „wirksamen Kraft". Aber die Schrift unterscheidet den Geist klar vom Vater: Der Vater **sendet** ihn (Joh 14,26), er **geht vom Vater aus** (Joh 15,26), er **tritt beim Vater für uns ein** (Röm 8,26–27), und Gott „weiß, was des Geistes Sinn ist" (8,27). Man tritt nicht bei sich selbst für jemanden ein. Bei der Taufe Jesu stehen Vater (Stimme), Sohn (im Jordan) und Geist (wie eine Taube) nebeneinander (Mt 3,16–17).`,
+              detail: `Das Bild aus 1 Kor 2,11 („wie der Geist des Menschen weiß, was im Menschen ist") zeigt, dass der Geist **innerhalb** Gottes ist und Gottes Tiefen kennt – also nicht ein Geschöpf und nicht außerhalb Gottes steht. Es zeigt aber nicht, dass er keine eigene Hypostase hat; Paulus verwendet ein Vergleichsbild. Genau diese Spannung – ganz Gott und doch vom Vater unterschieden – hält das Bekenntnis von 381 fest: Der Geist ist Herr, geht vom Vater aus (ohne Filioque) und wird **mit** Vater und Sohn angebetet. Gregor von Nazianz nennt den Geist „Gott" und zugleich unterschieden durch das Ausgehen, wie der Sohn durch das Gezeugtsein unterschieden ist.`,
+              voices: [
+                {
+                  person: 'gregor-nazianz',
+                  role: 'zur Unterscheidung der Hypostasen',
+                  text: `Gregor unterscheidet die drei allein durch ihre Ursprungsbeziehungen: Der Vater ist ungezeugt, der Sohn gezeugt, der Geist geht aus. Darin liegt keine Rangfolge des Wesens, sondern die Eigenart jeder Hypostase. Wer den Geist nur als Gottes „Inneres" fasst, kann nicht erklären, warum die Schrift ihn senden, eintreten und reden lässt – Tätigkeiten, die eine Unterscheidung voraussetzen.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Oratio 31 (Über den Heiligen Geist)', ref: '8–9', quote: `Ungezeugtsein, Gezeugtsein, Ausgehen als unterscheidende Eigentümlichkeiten.`, status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '8,27', quote: `Der aber die Herzen erforscht, der weiß, was des Geistes Sinn sei; denn er vertritt die Heiligen nach dem, das Gott gefällt.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Johannes', ref: '15,26', quote: `Wenn aber der Tröster kommen wird, welchen ich euch senden werde vom Vater, der Geist der Wahrheit, der vom Vater ausgeht, der wird zeugen von mir.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'drei-ist-unlogisch-geist',
+                  objection: `Dann habt ihr drei, die jeder Gott sind – Vater, Sohn und Geist. Das sind drei Götter, egal wie ihr es nennt. Jehova ist einer (Dtn 6,4).`,
+                  objectionBy: 'Zeugen Jehovas',
+                  answer: `Wir bekennen mit Dtn 6,4 genau **einen** Gott – ein Wesen, eine Gottheit, einen Willen, ein Wirken. Drei Götter wären drei Wesen mit drei Willen; das lehren wir nicht. Vater, Sohn und Geist sind nicht drei Teile und nicht drei Götter, sondern der eine Gott in drei Hypostasen. Das ist schwer zu begreifen – aber es ist kein Widerspruch, weil „ein" und „drei" sich auf Verschiedenes beziehen: ein Wesen, drei Hypostasen.`,
+                  detail: `Der Einwand verwechselt die Ebenen. Ein Widerspruch läge vor, wenn wir sagten: ein Gott und drei Götter, oder eine Person und drei Personen. Die koptische Liturgie beginnt jedes Gebet „Im Namen des Vaters und des Sohnes und des Heiligen Geistes, des **einen** Gottes. Amen." Dass der Mensch Gottes inneres Leben nicht restlos versteht, ist zu erwarten – nach der Wachtturm-Lehre ist ja auch Gottes Ewigkeit ohne Anfang für uns unbegreiflich. Ausführlich: siehe den Claim zur Trinität im Themenblock Antitrinitarier.`,
+                  sources: [
+                    { kind: 'bibel', work: '5. Mose', ref: '6,4', quote: `Höre, Israel, der HERR, unser Gott, ist ein einiger HERR.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'liturgie', work: 'Koptische Gebetseröffnung (Agpeya, Liturgie)', quote: `Im Namen des Vaters und des Sohnes und des Heiligen Geistes, des einen Gottes. Amen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wo genau liegt der logische Widerspruch, wenn „ein" sich auf das Wesen und „drei" auf die Hypostasen bezieht?`],
+                },
+              ],
             },
           ],
         },

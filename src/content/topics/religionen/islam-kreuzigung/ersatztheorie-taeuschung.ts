@@ -228,6 +228,24 @@ const claim: Claim = {
           objection: `Jesus war besonders: Allah sagt, Er habe die Kinder Israels von ihm abgehalten (5:110). Das ist eine Verheißung des Schutzes.`,
           objectionBy: 'Mohammed Hijab',
           answer: `Die Evangelien berichten tatsächlich, dass Jesus seinen Feinden mehrfach entging, „weil seine Stunde noch nicht gekommen war" (Lk 4,29–30; Joh 7,30; 8,59). Aber als seine Stunde kam, gab er sein Leben freiwillig (Joh 10,18). Und selbst wenn 5:110 einen Schutz meint: Gott hätte ihn retten können, ohne alle Anwesenden zu täuschen – etwa durch eine sichtbare Entrückung vor aller Augen.`,
+          followUps: [
+            {
+              id: 'sunnat-allah-rettung',
+              objection: `Es ist Allahs Weise (*sunnat Allah*), seine großen Gesandten zu retten: Abraham aus dem Feuer, Mose vor Pharao, Muhammad in der Höhle. Die Rettung Jesu vor dem Kreuz passt genau in dieses Muster.`,
+              objectionBy: 'Zakir Naik',
+              answer: `Gottes größte Rettung in der Bibel ist nicht die Bewahrung *vor* dem Tod, sondern die Rettung *durch* den Tod hindurch: Josef wird verkauft und wird zum Retter seiner Brüder, Jona kommt aus dem Bauch des Fisches, und Jesus selbst nennt das „Zeichen des Jona" als das einzige Zeichen für seine Generation (Mt 12,39–40). Ein Gott, der den Tod besiegt, ist größer als einer, der ihm nur ausweicht. Und der Koran lässt Jesus selbst sagen: „Friede sei über mir am Tag, da ich geboren wurde, am Tag, da ich sterbe, und am Tag, da ich lebendig auferweckt werde" (19:33).`,
+              detail: `19:33 ist für das Gespräch wertvoll: Die Reihenfolge Geburt – Tod – Auferweckung entspricht genau dem christlichen Bekenntnis. Muslimische Ausleger beziehen den „Tag, da ich sterbe" meist auf einen Tod nach der Wiederkunft. Das ist möglich, aber nicht der nächstliegende Sinn – denselben Satz sagt der Koran über Johannes den Täufer (19:15), und dort versteht man ihn selbstverständlich von seinem irdischen Tod. Zum Muster der Rettung: Auch Muhammad wurde nach islamischer Überlieferung nicht vor jedem Leid bewahrt (Verwundung bei Uhud). Das Muster beweist also nicht, dass Gott Jesus vor dem Kreuz bewahren *musste*.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 19 (Maryam)', ref: '19:33', quote: `Und Friede sei über mir am Tag, da ich geboren wurde, am Tag, da ich sterbe, und am Tag, da ich wieder zum Leben auferweckt werde.`, original: `wa-s-salāmu ʿalayya yawma wulidtu wa-yawma amūtu wa-yawma ubʿathu ḥayyā`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/19/33' },
+                { kind: 'koran', work: 'Sure 19 (Maryam)', ref: '19:15', quote: `Und Friede sei über ihm am Tag, da er geboren wurde, am Tag, da er stirbt, und am Tag, da er wieder zum Leben auferweckt wird.`, original: `wa-salāmun ʿalaihi yawma wulida wa-yawma yamūtu wa-yawma yubʿathu ḥayyā`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/19/15' },
+                { kind: 'bibel', work: 'Matthäus', ref: '12,39–40', quote: `… es wird ihr kein Zeichen gegeben werden denn das Zeichen des Propheten Jona. Denn gleichwie Jona war drei Tage und drei Nächte in des Walfisches Bauch, also wird des Menschen Sohn drei Tage und drei Nächte mitten in der Erde sein.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wann starb Johannes der Täufer nach 19:15 – und warum soll derselbe Satz bei Jesus etwas anderes bedeuten?`,
+                `Was ist größer: dem Tod auszuweichen oder ihn zu besiegen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -236,6 +254,25 @@ const claim: Claim = {
       objection: `Der Koran sagt: „Diejenigen, die darüber uneins sind, sind im Zweifel darüber; sie haben kein Wissen davon, sondern folgen nur Vermutungen" (4:157). Das beschreibt genau die Christen.`,
       objectionBy: 'Ahmed Deedat',
       answer: `Die ersten Christen waren gerade nicht im Zweifel – sie starben für ihr Zeugnis, dass der Gekreuzigte auferstanden ist. Der einzige „Zweifel" der Antike kam von gnostischen Randgruppen. Wenn jemand „Vermutungen folgt", dann sind es die späteren Ersatzerzählungen, die einander widersprechen und auf keinen Augenzeugen zurückgehen.`,
+      followUps: [
+        {
+          id: 'wunder-nicht-widerlegbar',
+          objection: `Ihr glaubt doch selbst an Wunder. Wenn Gott einen Toten auferwecken kann, kann er auch einem anderen das Aussehen Jesu geben. Ein Historiker kann ein Wunder weder beweisen noch widerlegen – also kann er auch die Ersatztheorie nicht widerlegen.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Einverstanden: Gott kann Wunder wirken, und die Geschichtswissenschaft kann das nicht ausschließen. Aber vergleiche die beiden Wunder. Die Auferstehung *erklärt* die Spuren: das leere Grab, die Erscheinungen, die Bekehrung von Skeptikern wie Jakobus und Paulus. Die Ersatztheorie dagegen ist ein Wunder, das alle Spuren *irreführend* macht – Gott selbst hätte falsche Beweise erzeugt. Wer so argumentiert, kann jede Tatsache der Geschichte bestreiten, auch die Überlieferung des Korans, die auf dem Zeugnis vieler Augen und Ohren beruht.`,
+          detail: `Fachr ad-Din ar-Razi hat diesen Einwand selbst formuliert: Wenn Gott einem Menschen das Aussehen eines anderen geben kann, dann könnte man niemals sicher sein, dass der Mensch, den man sieht, wirklich der ist, der er zu sein scheint – auch nicht Muhammad selbst; und die Massenüberlieferung (*tawātur*), auf der die Gewissheit über den Koran ruht, würde erschüttert. Ar-Razi hielt an der Ersatztheorie fest, nannte das Problem aber offen. Philosophisch gesprochen: Eine Hypothese, nach der Gott die gesamte Beweislage täuschend gestaltet hat, ist nicht falsifizierbar – und gerade deshalb historisch wertlos. Sie ähnelt der Behauptung, die Welt sei vor fünf Minuten mit allen Erinnerungen erschaffen worden.`,
+          voices: [
+            { person: 'david-wood', role: 'als Islamkritiker und Apologet', text: `Wood betont in Debatten, dass die Ersatztheorie Gott zum Urheber der größten Täuschung der Geschichte macht: Die Jünger, die Mutter Jesu und Millionen Christen wären durch Gottes eigenes Handeln in die Irre geführt worden. Ein Gott, der so handelt, untergräbt die Verlässlichkeit jeder Offenbarung – auch der koranischen.` },
+          ],
+          sources: [
+            { kind: 'hadith', author: 'Fachr ad-Din ar-Razi', work: 'Mafātīḥ al-Ġaib (at-Tafsīr al-kabīr)', ref: 'zu 3:55 und 4:157', year: 'vor 1210', status: 'paraphrase', note: 'Ar-Razi diskutiert, dass die Ersatztheorie die Gewissheit der Sinneswahrnehmung und der Massenüberlieferung (tawātur) erschüttern würde.' },
+          ],
+          questionsBack: [
+            `Wenn Gott einmal allen Augenzeugen ein falsches Bild gab – wie kannst du sicher sein, dass er es nicht auch bei anderen Überlieferungen tat?`,
+            `Welches Wunder erklärt die historischen Spuren – und welches macht sie wertlos?`,
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

@@ -32,7 +32,7 @@ const claim: Claim = {
     summary: `Das „Rasiermesser" ist nach Wilhelm von Ockham (um 1287–1347) benannt, einem Franziskaner und Theologen. Er formulierte etwa: „Eine Vielheit ist niemals ohne Notwendigkeit anzunehmen" (*numquam ponenda est pluralitas sine necessitate*); die bekannte Fassung „Entia non sunt multiplicanda praeter necessitatem" stammt erst von John Punch (1639). In der Wissenschaftstheorie gilt Sparsamkeit als nützliche Faustregel für die Wahl zwischen *gleich erklärungsstarken* Theorien, nicht als Wahrheitskriterium. Man unterscheidet zudem ontologische Sparsamkeit (wenige Arten von Dingen) und theoretische Einfachheit (wenige unerklärte Grundannahmen). Die berühmte Laplace-Anekdote ist erst Jahrzehnte später und in wechselndem Wortlaut überliefert; sie bezog sich, wenn sie zutrifft, wohl auf Newtons Annahme göttlicher Bahnkorrekturen.`,
     sources: [
       { kind: 'fachliteratur', author: 'Wilhelm von Ockham', work: 'Ordinatio (Sentenzenkommentar)', ref: 'I, d. 30, q. 1', status: 'paraphrase', quote: 'Nichts ist ohne angegebenen Grund anzunehmen, es sei denn, es ist durch sich bekannt, durch Erfahrung erkannt oder durch die Autorität der Heiligen Schrift bewiesen.', original: 'nihil debet poni sine ratione assignata nisi sit per se notum vel per experientiam cognitum vel per auctoritatem Scripturae Sacrae probatum', note: 'Lateinischer Wortlaut nach gängiger Zitierung; vor wörtlicher Verwendung prüfen.' },
-      { kind: 'gegner', author: 'Pierre-Simon Laplace (zugeschrieben)', work: 'Anekdote: Antwort an Napoleon', quote: `Sire, je n'avais pas besoin de cette hypothèse-là.`, status: 'unverified', note: 'Erst Jahrzehnte später überliefert (u. a. bei Augustus De Morgan, A Budget of Paradoxes, 1872); Datum, Wortlaut und Sinn sind unsicher. Nicht als gesichertes Zitat verwenden.' },
+      { kind: 'gegner', author: 'Pierre-Simon Laplace (zugeschrieben)', work: 'Anekdote: Antwort an Napoleon', quote: `Sire, je n'avais pas besoin de cette hypothèse-là.`, status: 'unverified', note: 'Quellenprüfung Nov. 2026: Der berühmte Wortlaut ist erst Jahrzehnte später gedruckt überliefert, v. a. bei Augustus De Morgan, A Budget of Paradoxes (1872). Ein zeitgenössischer Bericht – William Herschels Tagebuchnotiz über ein Gespräch mit Napoleon und Laplace in Malmaison (1802) – gibt den Inhalt anders wieder: Laplace habe Bau und Erhaltung des Weltsystems auf eine Kette natürlicher Ursachen zurückgeführt. Datum, Wortlaut und Sinn des Bonmots bleiben unsicher; nicht als gesichertes Zitat verwenden.' },
       { kind: 'gegner', author: 'Stephen Hawking & Leonard Mlodinow', work: 'The Grand Design', year: '2010', quote: `It is not necessary to invoke God to light the blue touch paper and set the universe going.`, status: 'verbatim' },
     ],
   },
@@ -178,6 +178,83 @@ const claim: Claim = {
       objection: `„Egal, woran Ockham glaubte – das Prinzip gilt unabhängig von seinem Erfinder."`,
       objectionBy: 'Alex O\'Connor',
       answer: `Völlig richtig – ein Prinzip ist nicht deshalb wahr oder falsch, weil sein Urheber Christ war. Aber dann wollen wir es auch richtig anwenden: Es ist eine Entscheidungshilfe zwischen gleich guten Erklärungen, keine Waffe, die alles abschneidet, was einem nicht passt. Ockham selbst ließ Erfahrung und Offenbarung als Gründe gelten. Die Frage bleibt also: Erklärt die Welt sich selbst – oder braucht sie Gott?`,
+    },
+    {
+      id: 'aether-phlogiston-gott',
+      objection: `„Die Wissenschaftsgeschichte ist ein Friedhof überflüssiger Wesenheiten: Phlogiston, Äther, Lebenskraft. Jedes Mal hat das Rasiermesser sie entfernt, weil die Erklärung ohne sie auskam. Gott ist einfach der letzte Äther."`,
+      objectionBy: 'Sean Carroll / Daniel Dennett',
+      answer: `Äther und Phlogiston wurden gestrichen, weil eine *bessere Erklärung* dieselben Daten abdeckte: Die Relativitätstheorie erklärte die Lichtausbreitung ohne Äther, die Oxidationschemie die Verbrennung ohne Phlogiston. Gott ist aber nicht als Ursache einzelner physikalischer Vorgänge eingeführt, sondern als Grund dafür, dass es überhaupt eine Welt mit Gesetzen gibt, die verständlich ist und bewusste Wesen hervorbringt. Für *diese* Daten hat die Physik keine Ersatzerklärung – sie setzt sie voraus.`,
+      detail: `Bemerkenswert ist, dass das Rasiermesser in der heutigen Kosmologie eher gegen manche naturalistischen Modelle spricht: Um die Feinabstimmung ohne Gott zu erklären, nehmen viele Physiker eine riesige, womöglich unendliche Zahl unbeobachtbarer Universen an. Wer Gott wegen fehlender Sparsamkeit streicht, aber unzählige Welten akzeptiert, wendet das Rasiermesser ungleich an.`,
+      questionsBack: [`Welche Theorie erklärt die Existenz und Verständlichkeit der Naturgesetze so, wie die Oxidationschemie die Verbrennung erklärt?`],
+      followUps: [
+        {
+          id: 'multiversum-folgt-aus-physik',
+          objection: `„Das Multiversum wird nicht erfunden, um Gott zu vermeiden. Es folgt aus gut motivierten Theorien wie der ewigen Inflation. Wenn eine einfache Theorie viele Universen vorhersagt, ist das kein Verstoß gegen Ockham – Ockham zählt Annahmen, nicht Universen."`,
+          objectionBy: 'Sean Carroll',
+          answer: `Das ist ein fairer Punkt: Für manche Physiker ist das Multiversum eine Folge ihrer Theorien, kein Fluchtweg. Aber diese Theorien sind unbestätigt, und namhafte Kosmologen wie George Ellis und Paul Steinhardt kritisieren sie scharf. Zudem verschiebt das Multiversum die Frage nur: Auch der Mechanismus, der Universen erzeugt, braucht passende Gesetze und Anfangsbedingungen. Und es erzeugt ein eigenes Problem, das du selbst ernst nimmst – die Boltzmann-Gehirne.`,
+          detail: `Robin Collins argumentiert, dass ein „Universengenerator" (etwa ein Inflationsfeld mit Stringlandschaft) selbst nur unter sehr speziellen Gesetzen funktioniert – die Feinabstimmung wird verlagert, nicht beseitigt. Ellis betont, dass Universen jenseits unseres Horizonts prinzipiell nicht beobachtbar sind, und fragt, ob eine solche Hypothese noch Physik ist.`,
+          voices: [
+            {
+              person: 'robin-collins',
+              role: 'als Philosoph der Feinabstimmung',
+              text: `Collins zeigt, dass gängige Multiversum-Modelle ihrerseits eine Reihe passender Zutaten brauchen: ein Feld, das Inflation antreibt, Mechanismen, die verschiedene Konstanten erzeugen, und Gesetze, die stabile Materie ermöglichen. Damit steht der Naturalist erneut vor der Frage, warum gerade diese lebensermöglichenden Grundgesetze gelten.`,
+              sources: [{ kind: 'fachliteratur', author: 'Robin Collins', work: '„The Teleological Argument: An Exploration of the Fine-Tuning of the Universe", in: The Blackwell Companion to Natural Theology', year: '2009', status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'wissenschaft', author: 'George F. R. Ellis', work: '„Does the Multiverse Really Exist?", Scientific American 305', year: '2011', status: 'paraphrase', quote: 'Multiversum-Hypothesen seien prinzipiell nicht durch Beobachtung prüfbar.' },
+          ],
+          followUps: [
+            {
+              id: 'boltzmann-gehirne-constraint',
+              objection: `„Boltzmann-Gehirne sind ein Problem für *bestimmte* kosmologische Modelle – genau deshalb verwerfen wir diese Modelle. Das ist eine Randbedingung für gute Physik, keine Widerlegung des Naturalismus."`,
+              objectionBy: 'Sean Carroll („Why Boltzmann Brains Are Bad", 2017)',
+              answer: `Achte darauf, *warum* du diese Modelle verwirfst: nicht, weil eine Messung ihnen widerspricht, sondern weil sie dazu führen würden, dass du deinem eigenen Denken nicht mehr trauen kannst – du nennst sie „kognitiv instabil". Das ist genau das Prinzip, das Plantinga gegen den Naturalismus anwendet: Ein Weltbild darf das Vertrauen in die Vernunft nicht untergraben, mit der man es begründet. Du gibst dem Prinzip also recht – die Frage ist nur, welches Weltbild es am besten erfüllt.`,
+              detail: `Carroll argumentiert, dass Theorien, in denen zufällig fluktuierende „Boltzmann-Gehirne" mit falschen Erinnerungen die typischen Beobachter wären, sich selbst untergraben: Wenn sie wahr wären, hätten wir keinen Grund, unseren Daten (einschließlich der Daten, auf denen die Theorie beruht) zu trauen. Das ist ein bemerkenswertes Zugeständnis: Die Verlässlichkeit unserer Vernunft ist ein Kriterium für Theoriewahl. Siehe „Die Evolution hat uns verlässliche Vernunft gegeben".`,
+              sources: [{ kind: 'gegner', author: 'Sean M. Carroll', work: '„Why Boltzmann Brains Are Bad" (Preprint; Buchbeitrag in Current Controversies in Philosophy of Science, 2020)', year: '2017', status: 'paraphrase', quote: 'Kosmologische Modelle, in denen Boltzmann-Gehirne dominieren, seien „kognitiv instabil" und daher zu verwerfen.' }],
+              followUps: [
+                {
+                  id: 'vernunft-gleichstand',
+                  objection: `„Dann steht es in diesem Punkt eben unentschieden: Wir beide setzen voraus, dass unsere Vernunft verlässlich ist. Das ist kein Vorteil für den Theismus."`,
+                  objectionBy: 'Graham Oppy',
+                  answer: `Kein Gleichstand: Im Theismus folgt die Verlässlichkeit der Vernunft aus dem Weltbild – der Mensch ist nach dem Bild des Logos geschaffen, der die Welt geordnet hat. Im Naturalismus ist sie eine *zusätzliche* Annahme, die das Weltbild nicht erwarten lässt und die man, wie die Boltzmann-Debatte zeigt, eigens absichern muss. Und genau hier greift Ockham: Ein Weltbild, das eine wichtige Grundannahme selbst erklärt, ist sparsamer als eines, das sie als unerklärten Zusatz mitführen muss.`,
+                  voices: [
+                    {
+                      person: 'plantinga',
+                      role: 'als Erkenntnistheoretiker',
+                      text: `Plantinga argumentiert, dass der Naturalist, der die Evolution annimmt, einen „Unterminierer" für die Verlässlichkeit seiner Vernunft hat, den er mit seinen eigenen Mitteln nicht beseitigen kann. Der Theist hat dagegen einen positiven Grund für die Verlässlichkeit: Gott hat den Menschen nach seinem Bild geschaffen, mit der Fähigkeit, die Wahrheit zu erkennen.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies: Science, Religion, and Naturalism', year: '2011', ref: 'Kap. 10', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Welche Annahme deines Weltbilds erklärt, warum ein Gehirn aus Teilchen die Wahrheit über Teilchen erkennen kann?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'harman-moral-ueberfluessig',
+          objection: `„Das Rasiermesser schneidet auch eure objektiven moralischen Tatsachen weg. Um zu erklären, warum jemand eine Grausamkeit als falsch empfindet, brauche ich nur Psychologie und Evolution – keine moralische Tatsache. Was zur Erklärung nicht gebraucht wird, streichen wir."`,
+          objectionBy: 'Gilbert Harman (The Nature of Morality, 1977) / Daniel Dennett',
+          answer: `Dann streicht das Rasiermesser auch die Normen des Denkens. „Du *solltest* die besser begründete Theorie glauben" ist ebenfalls keine Tatsache, die man zur Erklärung von Beobachtungen braucht – trotzdem setzt jedes wissenschaftliche Argument sie voraus. Wer moralische Tatsachen streicht, weil sie keine Kausalrolle spielen, muss auch erkenntnistheoretische Tatsachen streichen – und sägt den Ast ab, auf dem auch das Rasiermesser sitzt.`,
+          detail: `Harmans Argument ist eines der stärksten gegen den Moralrealismus. Die Antwort mit den „Gefährten im Schuldigsein" (companions in guilt) hat Terence Cuneo in *The Normative Web* (2007) ausgearbeitet: Epistemische Gründe („Es ist rational, X zu glauben") sind genauso normativ wie moralische. Wer die einen behält, hat keinen prinzipiellen Grund, die anderen zu streichen.`,
+          sources: [
+            { kind: 'gegner', author: 'Gilbert Harman', work: 'The Nature of Morality: An Introduction to Ethics', year: '1977', status: 'paraphrase', quote: 'Moralische Tatsachen würden zur Erklärung unserer Beobachtungen nicht benötigt – im Unterschied zu physikalischen Tatsachen.' },
+            { kind: 'fachliteratur', author: 'Terence Cuneo', work: 'The Normative Web: An Argument for Moral Realism', year: '2007', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'irrtumstheorie-moral',
+              objection: `„Dann beiße ich in den sauren Apfel: Moralische Urteile sind allesamt falsch – eine nützliche Fiktion, die die Evolution uns eingepflanzt hat. Das nennt man Irrtumstheorie, und sie ist konsequent."`,
+              objectionBy: 'Richard Joyce (The Myth of Morality, 2001)',
+              answer: `Konsequent ist sie – aber du müsstest dann auch sagen, dass Völkermord nicht wirklich falsch ist und dass dein Einsatz gegen religiösen Fanatismus auf einer Fiktion beruht. Kaum jemand kann so leben, und auch du lebst nicht so. Wenn ein Argument zu dem Ergebnis führt, dass Grausamkeit an Kindern nicht wirklich böse ist, haben wir mehr Grund, an einer Prämisse dieses Arguments zu zweifeln als an der Bosheit der Grausamkeit.`,
+              detail: `Joyce argumentiert, dass moralische Urteile kategorische Forderungen enthalten, die in einer naturalistischen Welt keine Grundlage haben – deshalb seien sie systematisch falsch. Das ist ehrlicher als ein Naturalismus, der sich Moral ohne Fundament „leiht". Der Christ stimmt Joyce darin zu, dass kategorische Pflichten einen Grund jenseits der bloßen Natur brauchen – er zieht nur den umgekehrten Schluss.`,
+              sources: [{ kind: 'gegner', author: 'Richard Joyce', work: 'The Myth of Morality', year: '2001', status: 'paraphrase', quote: 'Moralische Urteile seien systematisch falsch (Irrtumstheorie), weil es keine kategorischen Gründe in einer naturalistischen Welt gebe.' }],
+              questionsBack: [`Bist du dir sicherer, dass deine Prämissen stimmen, als dass das Quälen eines Kindes zum Vergnügen wirklich falsch ist?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

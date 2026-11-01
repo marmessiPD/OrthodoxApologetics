@@ -112,6 +112,28 @@ const claim: Claim = {
           objection: `Ob Tiktaalik Vorfahr ist oder nicht – es gibt Fisch-Tetrapoden in Hülle und Fülle: Acanthostega, Ichthyostega, Panderichthys. Die Merkmale wandeln sich Schritt für Schritt.`,
           objectionBy: 'Richard Dawkins',
           answer: `Ja, Mosaikformen sind real, das bestreite ich nicht. Sie zeigen, dass es Lebewesen mit Merkmalskombinationen gab. Sie zeigen nicht, wie die genetischen Veränderungen für Lunge, Gliedmaßen und neue Atmungs- und Kreislaufregulation entstanden und ob das in der verfügbaren Zeit möglich war. Die Fossilien beantworten die Frage nach dem Was, nicht nach dem Wie.`,
+          followUps: [
+            {
+              id: 'hox-flossen-finger',
+              objection: `Die Entwicklungsgenetik zeigt, wie es ging: Finger und Flossenstrahlen haben eine gemeinsame Entwicklungsgeschichte, gesteuert von denselben Hox-Genen – das hat Shubins Labor 2016 in Nature gezeigt. Die Werkzeuge für Gliedmaßen waren im Fisch schon da und wurden nur umprogrammiert.`,
+              objectionBy: 'Neil Shubin',
+              answer: `Das ist eindrucksvolle Forschung, und sie bestätigt etwas Wichtiges: Die Werkzeugkiste war schon da. Genau das verschiebt aber die Frage: Woher kamen die Hox-Gene und die genregulatorischen Netzwerke, die Körperpläne steuern? Eric Davidson, einer der führenden Entwicklungsbiologen, betonte, dass die Kernschaltkreise dieser Netzwerke extrem empfindlich gegen Veränderungen sind – Mutationen dort sind fast immer katastrophal. Umprogrammieren ist leichter gesagt als getan, wenn das Programm keine Fehler verzeiht.`,
+              voices: [
+                {
+                  person: 'stephen-meyer',
+                  role: 'als Wissenschaftsphilosoph',
+                  text: `Meyer stützt sich auf Davidsons Arbeiten zu entwicklungsgenetischen Regelnetzwerken: Ihre zentralen Schaltkreise sind hierarchisch organisiert und so eng verknüpft, dass Veränderungen an ihnen in der Regel zum Abbruch der Entwicklung führen. Für neue Baupläne bräuchte es aber genau solche Veränderungen – ein Dilemma, das Meyer als zentrales Problem der Makroevolution beschreibt.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Stephen C. Meyer', work: "Darwin's Doubt", ref: 'Kap. 13', year: '2013', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Eric H. Davidson, Douglas H. Erwin', work: '„Gene regulatory networks and the evolution of animal body plans", Science 311', year: '2006', status: 'paraphrase', note: 'Davidson und Erwin sind keine ID-Vertreter; sie schlagen eigene Erklärungsansätze vor.' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'wissenschaft', author: 'Tetsuya Nakamura, Andrew R. Gehrke, Justin Lemberg, Julie Szymaszek, Neil H. Shubin', work: '„Digits and fin rays share common developmental histories", Nature 537', year: '2016', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -139,6 +161,17 @@ const claim: Claim = {
               objection: `Dein „Zeitproblem" ist nur ein Gefühl. Zehn Millionen Jahre sind enorm viel.`,
               objectionBy: 'Donald Prothero',
               answer: `Es ist eine quantitative Frage: Bei Generationszeiten von mehreren Jahren sind das vielleicht eine bis zwei Millionen Generationen. Für nur zwei koordinierte Mutationen errechneten Durrett & Schmidt beim Menschen rund 216 Millionen Jahre. Mir ist kein publiziertes populationsgenetisches Modell bekannt, das den Wal-Umbau in dieser Zeit als plausibel zeigt. Wenn du eines kennst, schaue ich es mir gern an. Siehe das Wartezeitproblem.`,
+              followUps: [
+                {
+                  id: 'hinterbeine-shh',
+                  objection: `Vieles am Wal-Umbau war entwicklungsgenetisch einfach: Thewissen und Kollegen haben gezeigt, dass der Verlust der Hinterbeine bei Delfinen auf das Ausbleiben des Sonic-Hedgehog-Signals in der Gliedmaßenknospe zurückgeht. Ein Schalter – und die Beine verschwinden. So schnell kann das gehen.`,
+                  objectionBy: 'Donald Prothero',
+                  answer: `Ein schönes Ergebnis – aber es betrifft einen **Verlust**. Beine verschwinden zu lassen, ist entwicklungsgenetisch leicht: Man schaltet ein Signal ab. Der eigentliche Umbau zum Wal verlangte Zugewinne: die Verlagerung der Nasenöffnung zum Blasloch, Barten bei den Bartenwalen, Echoortung bei den Zahnwalen, Wärmetauscher in Flossen und Fluke, Säugen unter Wasser. Für diese konstruktiven Neuerungen gibt es keine Ein-Schalter-Erklärung – und für sie stellt sich die Zeitfrage.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'J. G. M. Thewissen u. a.', work: '„Developmental basis for hind-limb loss in dolphins and origin of the cetacean bodyplan", PNAS 103 (22)', year: '2006', status: 'paraphrase', quote: `Bei Delfinembryonen wird die Hinterbeinknospe angelegt, bildet sich aber zurück; das Sonic-Hedgehog-Signal fehlt.` },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -161,6 +194,17 @@ const claim: Claim = {
           sources: [
             { kind: 'wissenschaft', author: 'Richard O. Prum, Alan H. Brush', work: '„The evolutionary origin and diversification of feathers", The Quarterly Review of Biology 77', ref: 'S. 261–295', year: '2002', status: 'paraphrase' },
           ],
+          followUps: [
+            {
+              id: 'federn-signalwege',
+              objection: `Federn und Schuppen nutzen dieselben Signalwege – Sonic Hedgehog, BMP und andere –, und Entwicklungsbiologen können durch Eingriffe in diese Signale bei Hühnern Schuppen teilweise in federartige Anhänge verwandeln. Die Feder ist eine abgewandelte Hautbildung, kein Wunder.`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Dass Federn und Schuppen gemeinsame Entwicklungssignale nutzen, bestreite ich nicht – das ist gute Biologie. Aber ein federartiger Auswuchs ist noch keine Flugfeder: Die hat einen asymmetrischen Schaft, Äste mit Hakenstrahlen und Bogenstrahlen, die wie ein Klettverschluss ineinandergreifen, und sie funktioniert nur zusammen mit Muskeln, Nerven, Skelett und Verhalten des Fliegens. Die Experimente zeigen, dass ein Teil des Programms zugänglich ist – nicht, wie das integrierte Flugsystem entstand.`,
+              questionsBack: [
+                `Welcher Schritt zwischen einfachem Filament und Flugfeder mit Hakenstrahlen ist experimentell gezeigt worden?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -177,6 +221,17 @@ const claim: Claim = {
           answer: `Ich gebe zu, dass es Fossilien mit intermediären Merkmalen gibt. Die Debatte ist damit aber nicht vorbei, denn sie betrifft nicht die Existenz von Formen, sondern den Mechanismus und das Tempo ihrer Entstehung – und die Frage, ob ungelenkte Prozesse die nötige Information hervorbringen konnten. Darüber sagen Knochen allein nichts.`,
           questionsBack: [
             `Welche genetischen Veränderungen waren für den Übergang vom Land- zum Meeressäuger nötig – und wie lange dauert ihre Entstehung?`,
+          ],
+          followUps: [
+            {
+              id: 'gingerich-raten',
+              objection: `Und das Tempo ist gar kein Problem: Gingerich hat 1983 in Science gezeigt, dass die Veränderungsraten, die wir in heutigen Populationen messen, um Größenordnungen schneller sind als die Raten im Fossilbericht. Die Fossilien verlangen also nichts, was die Mikroevolution nicht leisten kann.`,
+              objectionBy: 'Jerry Coyne',
+              answer: `Gingerichs Befund ist richtig und wichtig – aber er misst **quantitative** Veränderungen: Körpergröße, Zahnlänge, Proportionen. Solche Merkmale verschieben sich tatsächlich schnell, weil sie auf vorhandener Variation vieler Gene beruhen. Die Frage nach dem Tempo betrifft dagegen **neue** Strukturen und Funktionen, für die es keine vorhandene Variation gibt, sondern neue genetische Information braucht. Dass ein Schnabel in wenigen Generationen breiter wird, sagt nichts darüber, wie schnell ein Blasloch oder ein neues Hörsystem entsteht.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Philip D. Gingerich', work: '„Rates of evolution: effects of time and temporal scaling", Science 222', year: '1983', status: 'paraphrase', quote: `Kurzfristig gemessene Evolutionsraten sind viel höher als langfristige; die Rate hängt stark vom Messintervall ab.` },
+              ],
+            },
           ],
         },
       ],
