@@ -193,7 +193,7 @@ const claim: Claim = {
   ],
   furtherReading: [
     { kind: 'fachliteratur', author: 'Alexander Schmemann', work: 'For the Life of the World', year: '1963', status: 'paraphrase' },
-    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab.)', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab. al-Ifḫāristiyā: ʿAšāʾ ar-Rabb)', status: 'paraphrase' },
     { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: '1. Apologie, Kap. 65–67', year: 'um 155', status: 'paraphrase', note: 'Die älteste ausführliche Beschreibung des christlichen Gottesdienstes.' },
   ],
   difficulty: 1,

@@ -187,6 +187,85 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'leichtglaeubigkeit-ueberdehnt',
+      objection: `„Swinburnes Prinzip der Leichtgläubigkeit beweist zu viel. Danach wäre auch gerechtfertigt, wer erlebt, von Außerirdischen entführt worden zu sein, oder wer Feen und Geister sieht. Ein Prinzip, das all das rechtfertigt, taugt nichts."`,
+      objectionBy: 'Michael Martin (Atheism: A Philosophical Justification, 1990)',
+      answer: `Das Prinzip gilt nur, solange keine besonderen Gegengründe vorliegen – und genau die gibt es bei solchen Fällen: Viele „Entführungserlebnisse" entstehen in der Schlafparalyse, einem gut erforschten Zustand zwischen Schlaf und Wachen; Feen als körperliche Wesen müssten Spuren hinterlassen, die man nie findet. Bei der Erfahrung Gottes fehlen diese Gegengründe: Sie tritt bei nüchternen, gesunden Menschen in allen Lebenslagen auf, und Gott ist kein Körper, der Spuren im Wald hinterlassen müsste. Das Prinzip ist also nicht beliebig, sondern prüfbar.`,
+      detail: `Swinburne nennt ausdrücklich Bedingungen, unter denen das Prinzip außer Kraft gesetzt wird: (1) der Wahrnehmende ist unzuverlässig oder unter Drogeneinfluss, (2) ähnliche Wahrnehmungen haben sich unter vergleichbaren Umständen als falsch erwiesen, (3) es gibt starke Gründe, dass der Gegenstand nicht existiert, (4) die Erfahrung lässt sich vollständig anders erklären, ohne dass der Gegenstand beteiligt ist. Wer religiöse Erfahrung ausschließen will, muss zeigen, dass einer dieser Gegengründe *generell* vorliegt – und das ist bei der Vielzahl und Vielfalt der Berichte schwer.`,
+      sources: [
+        { kind: 'gegner', author: 'Michael Martin', work: 'Atheism: A Philosophical Justification', year: '1990', status: 'paraphrase', quote: 'Kritik an Swinburnes Prinzip der Leichtgläubigkeit; Vorschlag eines „negativen Prinzips der Leichtgläubigkeit".' },
+      ],
+      questionsBack: [`Welcher der bekannten Gegengründe – Drogen, Krankheit, nachgewiesene Täuschung – liegt bei einer nüchternen Mutter vor, die im Gebet Gottes Frieden erfährt?`],
+      followUps: [
+        {
+          id: 'negatives-prinzip',
+          objection: `„Dann gilt auch das negative Prinzip: Wenn ich unter günstigen Bedingungen nach Gott suche und ihn nicht erfahre, ist das ein Beleg, dass er nicht da ist. Und Millionen Menschen erfahren ihn nicht."`,
+          objectionBy: 'Michael Martin',
+          answer: `Nichtwahrnehmen ist nur dann ein Beleg für Nichtvorhandensein, wenn man unter den gegebenen Umständen eine Wahrnehmung *erwarten* müsste. Wenn ich in einem leeren Zimmer keinen Tisch sehe, ist da keiner. Aber wenn ich in einem großen Wald keinen bestimmten Vogel höre, folgt daraus nicht, dass es ihn nicht gibt – erst recht nicht, wenn der „Vogel" eine Person ist, die selbst entscheidet, wann sie sich zeigt. Das negative Prinzip setzt voraus, dass Gott sich wie ein Gegenstand auf Abruf verhalten müsste.`,
+          detail: `Swinburne hat auf Martins Einwand geantwortet: Die positive und die negative Wahrnehmung sind nicht symmetrisch. Dass jemand etwas *nicht* sieht, ist nur unter Bedingungen aussagekräftig, unter denen er es sicher sehen würde. Für einen personalen Gott, der Menschen zu verschiedenen Zeiten und auf verschiedene Weise begegnet, lassen sich solche Bedingungen nicht angeben.`,
+          followUps: [
+            {
+              id: 'kopf-ich-gewinne',
+              objection: `„Praktisch für dich: Wenn jemand Gott erfährt, zählt es als Beleg; wenn nicht, zählt es nicht. Kopf – ich gewinne, Zahl – du verlierst."`,
+              objectionBy: "Alex O'Connor",
+              answer: `Ganz so einseitig ist es nicht. Ich gebe zu: Wenn *niemand* je Gott erfahren hätte, spräche das gegen ihn. Und auch einzelne Erfahrungen können entkräftet werden – durch Krankheit, Widerspruch zur öffentlichen Offenbarung in Christus oder schlechte Früchte. Die Lage, die wir tatsächlich vorfinden – viele erfahren Gott, manche nicht, zu verschiedenen Zeiten –, passt aber genau zu einem personalen Gott, der frei handelt. Ein Gott, der sich wie ein Naturgesetz verhielte, wäre nicht der Gott der Bibel.`,
+              followUps: [
+                {
+                  id: 'soziale-funktion-ekstase',
+                  objection: `„Die Religionsethnologie erklärt solche Erfahrungen soziologisch: Ekstatische Erlebnisse treten oft bei Randgruppen auf und verschaffen ihnen Ansehen und Einfluss. Wer religiöse Erfahrungen hat, gewinnt soziale Macht – das erklärt sie ohne Gott."`,
+                  objectionBy: 'Evan Fales (unter Berufung auf I. M. Lewis, Ecstatic Religion)',
+                  answer: `Dass Erfahrungen soziale Folgen haben, sagt nichts darüber, ob sie wahr sind – auch wissenschaftliche Entdeckungen bringen Ansehen, und niemand hält sie deshalb für Einbildung. Zudem passt die Erklärung schlecht auf die christliche Mystik: Der hl. Antonius zog sich in die Wüste zurück, *weg* von Macht und Ansehen; die Wüstenväter fürchteten Ehre als geistliche Gefahr. Wer Erfahrungen zum Machtgewinn nutzte, wurde in der Tradition gerade daran als Getäuschter erkannt.`,
+                  detail: `Fales hat in der Zeitschrift *Religious Studies* (1996) argumentiert, dass sozialwissenschaftliche Erklärungen mystischer Erfahrungen ihre Glaubwürdigkeit untergraben. Die Antwort: Eine funktionale Erklärung (Wozu dient eine Überzeugung?) ist keine Widerlegung ihres Inhalts. Die koptische Wüstentradition liefert eher ein Gegenbeispiel: Ihre Heiligen flohen Ruhm und Einfluss und lehrten, Visionen mit größtem Misstrauen zu begegnen, wenn sie Hochmut nähren.`,
+                  voices: [
+                    {
+                      person: 'antonius',
+                      role: 'als Vater der Mönche',
+                      text: `Nach der Vita des Athanasius verließ Antonius Besitz und Ansehen und suchte in der ägyptischen Wüste die Einsamkeit. Er lehrte seine Schüler, Erscheinungen an ihren Früchten zu prüfen: Was von Gott kommt, bringt Ruhe, Demut und Freude; was Unruhe, Furcht und Selbstgefälligkeit erzeugt, kommt nicht von Gott. Ruhm suchte er nicht – er floh vor den Besuchermengen immer tiefer in die Wüste.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '35–37; 49', year: 'um 357', status: 'paraphrase', quote: 'Unterscheidung der Geister nach ihren Wirkungen; Rückzug in die „innere Wüste" vor den Besuchern.' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Evan Fales', work: '„Scientific Explanations of Mystical Experiences", Religious Studies', year: '1996', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'I. M. Lewis', work: 'Ecstatic Religion: An Anthropological Study of Spirit Possession and Shamanism', year: '1971', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'harris-meditation-ohne-gott',
+          objection: `„Ich habe durch Meditation tiefe spirituelle Erfahrungen gemacht – das Verschwinden des Ich, grenzenlosen Frieden. Ganz ohne Gott. Solche Erfahrungen sind real, aber sie zeigen eher, dass es kein Selbst gibt, als dass es einen Gott gibt."`,
+          objectionBy: 'Sam Harris (Waking Up, 2014)',
+          answer: `Ich schätze Harris' Ehrlichkeit: Er gibt zu, dass es tiefe spirituelle Erfahrungen gibt, und widerspricht damit dem platten Materialismus. Aber die Erfahrung allein legt ihre Deutung nicht fest. Das Erleben von Stille und Weite kann ebenso als Begegnung mit dem Grund allen Seins gedeutet werden. Und die Behauptung „Es gibt kein Selbst" berichtet ein *Selbst*, das meditiert, sich erinnert und darüber ein Buch schreibt. Die christliche Mystik kennt die Stille auch – aber sie mündet in die Begegnung mit einer Person, die liebt.`,
+          detail: `In der koptischen Tradition ist das Gebet kein Technik-Erlebnis, sondern Beziehung: Matta el-Meskeen (Matthäus der Arme), Abt des Makariusklosters, beschreibt in seinem Werk über das orthodoxe Gebetsleben das Gebet als Gemeinschaft mit dem lebendigen Gott, in der der Mensch nicht ausgelöscht, sondern verwandelt wird. Das Ziel ist nicht das Verschwinden der Person, sondern ihre Vollendung in der Liebe – „nicht mehr ich lebe, sondern Christus lebt in mir" (Gal 2,20), gesagt von einem, der sehr wohl noch „ich" sagt.`,
+          voices: [
+            {
+              person: 'matta-el-meskeen',
+              role: 'als koptischer Mönchsvater und Lehrer des Gebets',
+              text: `Matta el-Meskeen beschreibt das Gebet als Weg der Hingabe an Gott, der durch Stille, Reue und Liebe führt. Die innere Ruhe ist für ihn nicht Selbstzweck, sondern Raum für die Begegnung mit Christus. Er warnt davor, Erfahrungen um ihrer selbst willen zu suchen; entscheidend sei die Verwandlung des ganzen Menschen in Demut und Liebe.`,
+              sources: [{ kind: 'koptisch', author: 'Matta el-Meskeen (Matthäus der Arme)', work: 'Orthodox Prayer Life: The Interior Way (engl. Ausgabe)', year: '2003', status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Sam Harris', work: 'Waking Up: A Guide to Spirituality Without Religion', year: '2014', status: 'paraphrase', quote: 'Spirituelle Erfahrungen seien real und wertvoll, aber ohne religiöse Deutung zu verstehen; das Selbst sei eine Illusion.' },
+          ],
+          questionsBack: [`Wer erinnert sich an die Erfahrung, dass es kein Selbst gibt, und schreibt darüber?`],
+          followUps: [
+            {
+              id: 'newberg-scheitellappen',
+              objection: `„Die Hirnforschung zeigt, was dabei passiert: Bei meditierenden Mönchen und betenden Nonnen sinkt die Aktivität im Scheitellappen, der unser Körperschema erzeugt. Das ‚Einssein' ist ein messbarer Hirnzustand – kein Kontakt zu Gott."`,
+              objectionBy: 'Sam Harris (unter Berufung auf Andrew Newberg)',
+              answer: `Dass Beten und Meditieren mit Hirnaktivität einhergehen, ist genau das, was man erwarten muss – der Mensch betet ja nicht ohne sein Gehirn. Auch wenn du einen Apfel siehst, kann man das im Scanner messen; daraus folgt nicht, dass der Apfel eine Einbildung ist. Der Hirnbefund beschreibt, *wie* die Erfahrung im Körper verläuft, nicht, *ob* sie etwas Wirkliches erfasst. Bezeichnenderweise zieht Newberg selbst diesen Schluss nicht.`,
+              detail: `Andrew Newberg und Eugene d'Aquili untersuchten mit bildgebenden Verfahren meditierende buddhistische Mönche und betende Franziskanerinnen (*Why God Won't Go Away*, 2001). Sie fanden u. a. veränderte Aktivität in Arealen der Raumorientierung. Die Autoren betonen, dass ihre Befunde die Wirklichkeit des Erlebten weder beweisen noch widerlegen. Siehe auch „Gotteserfahrungen sind nur Hirnaktivität".`,
+              sources: [{ kind: 'wissenschaft', author: 'Andrew Newberg, Eugene d\'Aquili & Vince Rause', work: 'Why God Won\'t Go Away: Brain Science and the Biology of Belief', year: '2001', status: 'paraphrase' }],
+              questionsBack: [`Beweist ein Hirnscan beim Anblick eines Apfels, dass der Apfel nicht existiert?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum sollte gerade religiöse Erfahrung anders behandelt werden als Sinneswahrnehmung oder Erinnerung?`,

@@ -93,7 +93,7 @@ const claim: Claim = {
       role: 'als Lehrer des orthodoxen Gebetslebens',
       text: `Vater Matta el-Meskeen schreibt in seinem Buch über das orthodoxe Gebetsleben, dass feste Gebetszeiten kein Gegensatz zum Gebet des Herzens sind, sondern sein Gerüst. Der Mensch ist wankelmütig; an manchen Tagen findet er keine Worte. Dann tragen ihn die Psalmen und die Gebete der Kirche, bis das Herz wieder entflammt. Ziel ist das „unablässige Gebet" (1 Thess 5,17): Die festen Stunden sind wie Holzscheite, die das Feuer im Herzen den ganzen Tag über nähren.`,
       sources: [
-        { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Das orthodoxe Gebetsleben (Orthodox Prayer Life)', quote: `Feste Gebetszeiten und Psalmen als Gerüst für das Gebet des Herzens und als Weg zum unablässigen Gebet.`, status: 'paraphrase' },
+        { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Das orthodoxe Gebetsleben (arab. Ḥayāt aṣ-ṣalāh al-urṯūḏuksiyya, 1952, erw. 1968; engl. Orthodox Prayer Life)', quote: `Feste Gebetszeiten und Psalmen als Gerüst für das Gebet des Herzens und als Weg zum unablässigen Gebet.`, status: 'paraphrase' },
       ],
     },
   ],
@@ -210,7 +210,7 @@ const claim: Claim = {
   furtherReading: [
     { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Die Spiritualität des Fastens', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'Alexander Schmemann', work: 'Great Lent: Journey to Pascha', year: '1969', status: 'paraphrase' },
-    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Das orthodoxe Gebetsleben (Orthodox Prayer Life)', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Das orthodoxe Gebetsleben (arab. Ḥayāt aṣ-ṣalāh al-urṯūḏuksiyya, 1952, erw. 1968; engl. Orthodox Prayer Life)', status: 'paraphrase' },
     { kind: 'liturgie', work: 'Die Agpeya – das koptische Stundengebet', status: 'paraphrase', note: 'Auch auf Deutsch erhältlich.' },
   ],
   difficulty: 1,

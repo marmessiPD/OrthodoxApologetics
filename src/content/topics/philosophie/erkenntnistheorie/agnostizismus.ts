@@ -73,7 +73,7 @@ const claim: Claim = {
       role: 'als Apologet für die Unentschiedenen',
       text: `Pascal schrieb seine „Gedanken" vor allem für gebildete Zweifler seiner Zeit. Ihn erschütterte weniger der Unglaube als die Gleichgültigkeit: Dass Menschen in einer Frage, bei der es um sie selbst, um ihre Ewigkeit, um alles geht, sorglos bleiben, nannte er erstaunlich. Seine berühmte „Wette" ist kein Gottesbeweis, sondern ein Weckruf an den, der meint, die Gründe hielten sich die Waage: Man kann nicht neutral bleiben – „wir sind eingeschifft". Pascal riet dem Unentschiedenen nicht, sich einen Glauben einzureden, sondern zu suchen, die Gründe zu prüfen und das Herz zu öffnen.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Blaise Pascal', work: 'Pensées (Gedanken)', ref: 'Fragment 418 (Lafuma; Brunschvicg 233)', quote: `Man muss wetten. Das ist nicht freiwillig, Sie sind eingeschifft.`, original: 'Il faut parier. Cela n\'est pas volontaire, vous êtes embarqué.', translation: 'eigene Übersetzung', status: 'paraphrase', note: 'Wortlaut bekannt; Fragmentnummer je nach Ausgabe.' },
+        { kind: 'fachliteratur', author: 'Blaise Pascal', work: 'Pensées (Gedanken)', ref: 'Fragment 418 (Lafuma; Brunschvicg 233)', quote: `Man muss wetten. Das ist nicht freiwillig, Sie sind eingeschifft.`, original: 'Il faut parier. Cela n\'est pas volontaire, vous êtes embarqué.', translation: 'eigene Übersetzung', status: 'verbatim', note: 'Quellenprüfung Nov. 2026: Zuordnung Lafuma 418 / Brunschvicg 233 (Wettargument) in der Fachliteratur bestätigt.' },
         { kind: 'fachliteratur', author: 'Blaise Pascal', work: 'Pensées (Gedanken)', ref: 'Fragment 427 (Lafuma; Brunschvicg 194)', status: 'paraphrase', quote: 'Die Gleichgültigkeit in einer Sache, bei der es um uns selbst, um unsere Ewigkeit, um alles geht, erstaunt und erschreckt mich.' },
       ],
     },
@@ -189,6 +189,69 @@ const claim: Claim = {
       objectionBy: 'Thomas Henry Huxley (sinngemäß)',
       answer: `Eine schöne Ironie: Die Kirche hat die Gnostiker selbst bekämpft – Irenäus, Clemens von Alexandrien und andere –, gerade weil sie geheimes Wissen für Eingeweihte beanspruchten. Das Christentum beruft sich dagegen nicht auf Geheimwissen, sondern auf öffentlich bezeugte Ereignisse, die „nicht im Winkel geschehen" sind (Apg 26,26). Clemens nannte den reifen Christen den „wahren Gnostiker": einen, dessen Erkenntnis aus dem Glauben wächst und sich in der Liebe vollendet.`,
       detail: `Siehe „Jesus lehrte geheimes Wissen für Eingeweihte".`,
+    },
+    {
+      id: 'expertendissens',
+      objection: `„Schau dir die Fachleute an: Religionsphilosophen, die ihr Leben lang die Argumente studiert haben, sind sich uneinig – Plantinga und Swinburne auf der einen, Oppy und Draper auf der anderen Seite. Wenn gleich kluge, gleich informierte Menschen zu entgegengesetzten Ergebnissen kommen, verlangt die intellektuelle Redlichkeit, sich des Urteils zu enthalten."`,
+      objectionBy: 'Richard Feldman („Reasonable Religious Disagreements", 2007) / Alex O\'Connor',
+      answer: `Dieses Prinzip widerlegt sich selbst: Auch über die Frage, wie man mit Meinungsverschiedenheiten umgehen soll, sind die Fachleute uneinig. Nach deinem Prinzip müsstest du dich also auch über dein Prinzip des Urteils enthalten. Außerdem wendet es niemand konsequent an: Unter Philosophen gibt es Streit über die Existenz der Außenwelt, über Moral und über Willensfreiheit – trotzdem enthältst du dich nicht des Urteils darüber, ob Grausamkeit falsch ist. Und echte „Gleichstellung" ist selten: Menschen haben unterschiedliche Erfahrungen und Belege, auch persönliche.`,
+      detail: `In der Erkenntnistheorie heißt die Position, man müsse bei Uneinigkeit unter Gleichrangigen sein Urteil zurücknehmen, *Konziliationismus* (u. a. Richard Feldman, David Christensen). Ihre bekannteste Schwierigkeit ist die Selbstunterminierung, die u. a. Adam Elga („How to Disagree About How to Disagree", 2010) diskutiert hat. Plantinga verteidigte schon 1995 gegen den Vorwurf der Arroganz, dass man bei sorgfältiger Prüfung an einer Überzeugung festhalten darf, auch wenn andere sie nicht teilen – sonst müsste man fast jede philosophische, politische und moralische Überzeugung aufgeben, auch die des Kritikers.`,
+      voices: [
+        {
+          person: 'plantinga',
+          role: 'als Erkenntnistheoretiker',
+          text: `Plantinga argumentiert, dass die bloße Tatsache, dass kluge und aufrichtige Menschen anderer Meinung sind, keinen allgemeinen Grund liefert, die eigene sorgfältig geprüfte Überzeugung aufzugeben. Wer das verlangt, steht selbst unter dem Maßstab, den er aufstellt: Auch seine Forderung wird von klugen Menschen bestritten.`,
+          sources: [{ kind: 'fachliteratur', author: 'Alvin Plantinga', work: '„Pluralism: A Defense of Religious Exclusivism", in: Thomas D. Senor (Hg.), The Rationality of Belief and the Plurality of Faith', year: '1995', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Richard Feldman', work: '„Reasonable Religious Disagreements", in: Louise Antony (Hg.), Philosophers without Gods', year: '2007', status: 'paraphrase', quote: 'Bei Uneinigkeit unter epistemisch Gleichgestellten sei Urteilsenthaltung die vernünftige Reaktion.' },
+        { kind: 'fachliteratur', author: 'Adam Elga', work: '„How to Disagree About How to Disagree", in: R. Feldman & T. Warfield (Hg.), Disagreement', year: '2010', status: 'paraphrase', quote: 'Konziliatorische Prinzipien untergraben sich selbst, wenn sie auf Meinungsverschiedenheiten über sie selbst angewandt werden.' },
+      ],
+      questionsBack: [`Enthältst du dich auch des Urteils darüber, ob Sklaverei Unrecht ist, weil manche Philosophen der Vergangenheit anderer Meinung waren?`],
+      followUps: [
+        {
+          id: 'wenigstens-weniger-sicher',
+          objection: `„Gut, vielleicht nicht völlige Enthaltung. Aber du solltest wenigstens deutlich weniger sicher sein, als du tust."`,
+          objectionBy: 'Richard Feldman',
+          answer: `Das nehme ich gern an: Demut ist angebracht, und ich will meine Gründe offenlegen, statt mich auf Gewissheit zu berufen. Weniger Selbstsicherheit heißt aber nicht Enthaltung. Ich kann eine Überzeugung mit angemessenem Vertrauen halten, mich prüfen lassen und trotzdem danach leben. Christlicher Glaube ist ohnehin nicht in erster Linie Gewissheit über eine These, sondern Vertrauen in eine Person – und Vertrauen wächst, wenn man sich darauf einlässt.`,
+          followUps: [
+            {
+              id: 'leben-auf-unsicherheit',
+              objection: `„Dann verstehe ich nicht, wie du dein ganzes Leben – Gebet, Fasten, Gottesdienst, Moral – auf etwas setzen kannst, dessen du nicht sicher bist."`,
+              objectionBy: "Alex O'Connor",
+              answer: `Genau so, wie jeder Mensch die großen Entscheidungen seines Lebens trifft: Niemand heiratet, wählt einen Beruf oder bekommt Kinder erst, wenn er mathematische Gewissheit hat. Pascal sagte: „Man muss wetten … Ihr seid eingeschifft" – auch Nicht-Entscheiden ist eine Entscheidung. Kierkegaard zeigte, dass die wichtigsten Wahrheiten nicht von außen betrachtet, sondern gelebt und angeeignet werden müssen. Das ist nicht irrational, sondern menschlich.`,
+              detail: `Kierkegaard unterscheidet zwischen der objektiven Annäherung an eine Wahrheit (die nie abgeschlossen ist) und der leidenschaftlichen Aneignung, durch die ein Mensch sein Leben auf sie gründet. Für ihn ist das kein Sprung ins Absurde *gegen* die Vernunft, sondern die Einsicht, dass existenzielle Fragen nicht durch ewiges Abwarten beantwortet werden. Für die orthodoxe Tradition wichtig: Der Glaube ist kein einsamer Sprung, sondern Eintritt in das Leben der Kirche, in dem Erkenntnis durch Gebet, Sakramente und Liebe wächst.`,
+              voices: [
+                {
+                  person: 'kierkegaard',
+                  role: 'als Denker der Existenz',
+                  text: `Kierkegaard kritisiert den Gedanken, man könne die Frage des Glaubens durch unendliches Sammeln historischer und philosophischer Belege entscheiden, ohne selbst Stellung zu beziehen. Wer immer nur abwartet, hat sich bereits entschieden – für ein Leben ohne Hingabe. Die Wahrheit, die das Leben trägt, muss angeeignet werden.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Søren Kierkegaard', work: 'Abschließende unwissenschaftliche Nachschrift zu den Philosophischen Brocken', year: '1846', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'ehe-beruht-auf-belegen',
+                  objection: `„Der Vergleich hinkt: Wer heiratet, kennt seinen Partner – er hat ihn gesehen, mit ihm gesprochen, Belege für seinen Charakter gesammelt. Für Gott hast du nichts Vergleichbares."`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Doch, es gibt Belege – die Argumente für einen Schöpfer, das Zeugnis über Jesus und seine Auferstehung, die Erfahrung unzähliger Menschen. Aber du hast recht, dass Kennen mehr ist als Belege sammeln: Auch einen Menschen lernt man erst richtig kennen, wenn man sich auf ihn einlässt. Genau das lädt die Schrift ein zu tun: „Schmecket und sehet, wie freundlich der HERR ist" (Ps 34,9). Vertrauen beginnt mit Gründen und wird im gelebten Leben zur Erkenntnis.`,
+                  sources: [{ kind: 'bibel', work: 'Psalm', ref: '34,9', status: 'paraphrase', quote: 'Schmecket und sehet, wie freundlich der HERR ist. Wohl dem, der auf ihn traut!' }],
+                  questionsBack: [`Hast du deinen besten Freund kennengelernt, indem du ihn aus der Ferne beobachtet hast – oder indem du dich auf ihn eingelassen hast?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'russell-nicht-genug-belege',
+          objection: `„Ich halte es mit Bertrand Russell: Gefragt, was er sagen würde, wenn er nach dem Tod Gott gegenüberstünde, antwortete er: ‚Nicht genug Belege, Gott! Nicht genug Belege!'"`,
+          objectionBy: 'Bertrand Russell (anekdotisch überliefert)',
+          answer: `Die Antwort ist witzig – aber sie setzt voraus, dass Gott sich nie gezeigt hat. Das Christentum behauptet das Gegenteil: Gott ist in Jesus Christus Mensch geworden, hat gelebt, gelehrt, ist gestorben und auferstanden – vor Zeugen, an einem bestimmten Ort, zu einer bestimmten Zeit. Die eigentliche Frage ist also nicht, ob Gott genug gezeigt hat, sondern ob wir uns die Mühe gemacht haben, das Gezeigte zu prüfen. Wer sagt „nicht genug Belege", sollte sagen können, welche er geprüft hat.`,
+          detail: `Die Anekdote geht auf einen Bericht des Schriftstellers Leo Rosten über ein Gespräch mit Russell zurück; sie ist also mündlich überliefert und nicht in Russells eigenen Schriften belegt. Sie gibt aber Russells Haltung treffend wieder. Siehe auch „Wenn Gott existiert, warum zeigt er sich nicht eindeutig?".`,
+          sources: [{ kind: 'gegner', author: 'Leo Rosten (über Bertrand Russell)', work: '„Bertrand Russell and God: A Memoir", Saturday Review', year: '1974', status: 'unverified', quote: 'Russell habe auf die Frage, was er Gott nach dem Tod sagen würde, geantwortet: „Nicht genug Belege, Gott!"', note: 'Mündlich überlieferte Anekdote, nur über Rosten bezeugt. Titel und Jahr des Rosten-Berichts konnten bei der Quellenprüfung (Nov. 2026) nicht mehr per Websuche bestätigt werden – vor Verwendung prüfen; die Anekdote nur als „überliefert" anführen.' }],
+        },
+      ],
     },
   ],
   questionsToAsk: [

@@ -104,6 +104,42 @@ const claim: Claim = {
               sources: [
                 { kind: 'koran', work: 'Sure 16 (an-Nahl)', ref: '16:103', quote: `Und Wir wissen wohl, dass sie sagen: „Es lehrt ihn nur ein Mensch." Die Sprache dessen, auf den sie anspielen, ist fremd; dies aber ist klare arabische Sprache.`, original: `innamā yuʿallimuhu basharun`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/16/103' },
               ],
+              followUps: [
+                {
+                  id: 'unterschiede-sind-korrekturen',
+                  objection: `Wenn der Koran abgeschrieben hätte, warum unterscheidet er sich dann in so vielen Details von Bibel und Midrasch? Er *korrigiert* die früheren Berichte – das spricht für einen göttlichen Autor, nicht für einen Kopisten.`,
+                  objectionBy: 'Hamza Andreas Tzortzis',
+                  answer: `Abweichungen sind genau das, was man erwartet, wenn Geschichten mündlich weitererzählt und in ein neues theologisches Gesamtbild eingefügt werden – niemand behauptet ein wörtliches Abschreiben. Ob eine Abweichung eine „Korrektur" ist, müsste man unabhängig zeigen. Manche Abweichungen sehen eher nach Verschmelzung verschiedener Stoffe aus: So erscheint Haman im Koran als Minister des Pharao, der einen hohen Turm bauen soll (28:38; 40:36–37) – in der Bibel ist Haman ein persischer Beamter aus dem Buch Ester, Jahrhunderte nach Mose, und der Turmbau erinnert an Babel.`,
+                  detail: `Muslimische Apologeten haben versucht, einen ägyptischen Namen „Haman" in Hieroglyphen nachzuweisen; diese Deutung ist in der Ägyptologie nicht anerkannt. Gabriel Said Reynolds zeigt, dass der Koran biblische Gestalten oft in einem typologischen Muster erzählt: Der Prophet wird verworfen, die Ungläubigen werden bestraft, der Gesandte gerettet. Die Unterschiede zur Bibel erklären sich weithin aus diesem Muster – also aus der Theologie des Korans, nicht aus besserem historischem Wissen.`,
+                  voices: [
+                    {
+                      person: 'gabriel-reynolds',
+                      role: 'als Islamwissenschaftler zur Bibel im Koran',
+                      text: `Reynolds liest den Koran im Gespräch mit Bibel, Midrasch und syrisch-christlicher Literatur. Er zeigt, dass der Koran biblische Stoffe nicht nacherzählt, sondern in Anspielungen aufgreift und neu deutet – mit einer eigenen „Prophetologie". Die Unterschiede zur Bibel sind deshalb meist homiletisch, nicht historisch zu erklären.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Gabriel Said Reynolds', work: 'The Qur\'an and Its Biblical Subtext', year: '2010', quote: `Der Koran greift biblische und nachbiblische Stoffe auf und deutet sie homiletisch neu.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'koran', work: 'Sure 28 (al-Qasas)', ref: '28:38', quote: `Und Pharao sagte: … So entfache mir, Haman, ein Feuer über dem Lehm und mache mir einen Hochbau, vielleicht steige ich zum Gott Moses empor.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/28/38' },
+                    { kind: 'bibel', work: 'Ester', ref: '3,1', quote: `Nach diesen Geschichten machte der König Ahasveros Haman groß, den Sohn Hammedathas, den Agagiter.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Woran erkennst du, ob eine Abweichung eine göttliche Korrektur ist – und nicht eine Verschmelzung verschiedener Geschichten?`,
+                  ],
+                },
+              ],
+            },
+            {
+              id: 'waraqa-starb-frueh',
+              objection: `Waraqa starb kurz nach der ersten Offenbarung – das steht im selben Hadith (Sahih al-Bukhari 3). Er kann gar nicht Mohammeds Quelle gewesen sein.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Einverstanden – ich behaupte nicht, Waraqa sei „die Quelle" gewesen. Mein Punkt ist ein anderer: Biblische und nachbiblische Erzählstoffe waren in Mohammeds Umfeld lebendig. Waraqa ist nur ein Zeichen dafür. Dazu kommen die jüdischen Stämme Medinas (Qainuqa', Nadir, Quraiza), die christliche Delegation aus Nadschran, die Handelsreisen nach Syrien, die Christen Abessiniens, zu denen die ersten Muslime flohen. Erzählstoffe brauchen keinen einzelnen Lehrer, sondern ein Umfeld – und das war vorhanden.`,
+              detail: `Auffällig ist, dass die Erzählungen über Jesus und Maria im Koran besonders der syrischen und äthiopischen Christenheit nahestehen (Kindheitslegenden, Marienfrömmigkeit), während viele Prophetengeschichten Motive aus Midrasch und Talmud zeigen. Das passt zu einem Umfeld, in dem Juden und Christen verschiedener Prägung präsent waren.`,
+              sources: [
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3', quote: `… doch es dauerte nicht lange, bis Waraqa starb, und die Offenbarung setzte eine Zeit lang aus.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3' },
+              ],
             },
           ],
         },
@@ -120,6 +156,22 @@ const claim: Claim = {
           objection: `Vielleicht stand es in der ursprünglichen Tora und ist nur in der Mischna erhalten geblieben.`,
           objectionBy: 'verbreitete muslimische Erklärung',
           answer: `Dafür gibt es keinen Beleg – keine Handschrift, keine Übersetzung, keine jüdische Tradition kennt diesen Satz als Torawort. Die Mischna selbst zeigt, wie er entstand: als Auslegung eines grammatischen Details. Wer behauptet, er stand ursprünglich in der Tora, nimmt eine Verfälschung an, um eine Abhängigkeit zu vermeiden – ohne jeden Beweis.`,
+          followUps: [
+            {
+              id: 'muendliche-tora',
+              objection: `Die Juden glauben doch selbst an eine mündliche Tora, die Mose am Sinai empfing und die in der Mischna aufgeschrieben wurde. Dann ist der Satz eben Teil dieser mündlichen Offenbarung – und der Koran bestätigt ihn zu Recht.`,
+              objectionBy: 'Ali Ataie',
+              answer: `Ein interessanter Zug – aber die Mischna selbst stellt den Satz nicht als Sinai-Überlieferung dar, sondern leitet ihn als Auslegung aus dem Plural „Blute" in Gen 4,10 ab. Und wenn du die rabbinische mündliche Tora als göttliche Offenbarung anerkennst, die der Koran bestätigt, dann gibst du dem Talmud eine Autorität, die kein muslimischer Gelehrter ihm zugesteht. Damit wird das Problem nicht kleiner, sondern größer.`,
+              detail: `Der Zusammenhang in Mischna Sanhedrin 4,5 ist die Ermahnung an Zeugen in Kapitalprozessen: Wer ein einziges Leben zerstört, dem wird es angerechnet, als hätte er eine ganze Welt zerstört. Die Begründung ist exegetisch („Blute" deines Bruders – sein Blut und das Blut seiner Nachkommen). Dass der Koran dieselbe Folgerung im Anschluss an die Kain-und-Abel-Geschichte bringt, zeigt die Nähe zu dieser rabbinischen Tradition.`,
+              sources: [
+                { kind: 'juedisch', work: 'Mischna Sanhedrin', ref: '4,5', year: 'um 200', quote: `Darum wurde der Mensch einzeln erschaffen: um zu lehren, dass jeder, der ein Leben aus Israel vernichtet, so angesehen wird, als hätte er eine ganze Welt vernichtet.`, status: 'paraphrase', note: 'Einige Handschriften ohne „aus Israel".' },
+                { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:32', quote: `Aus diesem Grund haben Wir den Kindern Israels vorgeschrieben: Wer einen Menschen tötet … so ist es, als ob er alle Menschen getötet hätte.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/32' },
+              ],
+              questionsBack: [
+                `Erkennst du die Mischna als Offenbarung an – und wenn nicht, wie kommt ihre Auslegung als göttliche Vorschrift in den Koran?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -129,6 +181,18 @@ const claim: Claim = {
       objectionBy: 'Mohammed Hijab',
       answer: `Es gibt Parallelen zwischen der Bibel und altorientalischer Literatur – aber die biblischen Texte sind meist gleich alt oder bearbeiten die Motive bewusst kritisch, etwa gegen den Polytheismus. Zwei Unterschiede sind entscheidend: Die Bibel beansprucht nicht, Wort für Wort vom Himmel diktiert zu sein. Und die Parallelen des Korans führen zu *späteren* Legenden und Auslegungen – zu Texten, die selbst schon auf der Bibel aufbauen.`,
       detail: `Siehe Claim „Die Genesis ist von babylonischen Mythen abgeschrieben" im Topic „Schöpfung und Genesis".`,
+      followUps: [
+        {
+          id: 'genesis-spaet-redigiert',
+          objection: `Die Bibelwissenschaft sagt aber, Genesis wurde im babylonischen Exil redigiert – also lange nach Gilgamesch. Die Bibel hat dann genauso spätere Vorlagen bearbeitet wie der Koran.`,
+          objectionBy: 'Paul Williams (Blogging Theology)',
+          answer: `Selbst wenn man diese Datierung annimmt: Die Flutüberlieferung des alten Orients (Atrahasis, Gilgamesch) ist weit älter, und Genesis setzt sich mit ihr kritisch auseinander – ein Gott statt vieler, eine moralische Ursache statt göttlicher Laune über den Lärm der Menschen. Vor allem aber: Christen haben kein Problem damit, dass menschliche Verfasser Quellen benutzten – Lukas sagt es selbst (Lk 1,1–4). Ein Problem entsteht erst für eine Lehre, nach der jedes Wort unvermittelt und unerschaffen von Gott stammt. Das ist die islamische Lehre vom Koran, nicht die christliche von der Bibel.`,
+          detail: `Die christliche Inspirationslehre ist „inkarnatorisch": Gott spricht durch menschliche Autoren mit ihrer Sprache, ihren Quellen und ihrem Stil. Deshalb ist Quellenbenutzung kein Einwand gegen die Bibel. Die klassische sunnitische Lehre dagegen versteht den Koran als ewiges, unerschaffenes Wort Gottes, das wörtlich herabgesandt wurde. Für diese Lehre sind Parallelen zu späten rabbinischen und apokryphen Texten erklärungsbedürftig – darum ist der Vergleich nicht symmetrisch.`,
+          questionsBack: [
+            `Behauptet die Bibel von sich, ohne menschliche Vermittlung Wort für Wort herabgesandt zu sein – wie der Koran es tut?`,
+          ],
+        },
+      ],
     },
     {
       id: 'dhul-qarnain-kyros',
@@ -144,6 +208,50 @@ const claim: Claim = {
           objection: `Die syrische Alexanderlegende wird um 630 datiert – also gleichzeitig mit dem Koran. Vielleicht hat sie vom Koran abgeschrieben.`,
           objectionBy: 'Mohammed Hijab',
           answer: `Das ist eine berechtigte Frage, und die Forschung diskutiert sie. Aber die Alexanderlegende ist ein christlich-syrischer Text, der in einen politischen Zusammenhang am byzantinischen Hof (Herakleios) passt und Motive älterer Alexander-Überlieferungen verarbeitet. Dass ein syrischer Christ um 630 aus einer gerade entstehenden arabischen Rezitation schöpfte, ist deutlich unwahrscheinlicher als der umgekehrte Weg über mündliche Erzählung.`,
+          followUps: [
+            {
+              id: 'alexander-war-heide',
+              objection: `Alexander war ein heidnischer Polytheist, der sich als Sohn des Ammon verehren ließ. Der Koran lobt Dhu l-Qarnain als frommen Gottesdiener. Also kann er nicht Alexander sein.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Genau das spricht *für* die Abhängigkeit: Der historische Alexander war Heide – aber der Alexander der christlich-syrischen Legende ist ein frommer Verehrer des einen Gottes, der zu Gott betet und von ihm geführt wird. Der Dhu l-Qarnain des Korans entspricht also nicht dem historischen, sondern dem legendarischen Alexander. Und der Beiname „der Zweigehörnte" passt zu Alexander, der auf Münzen mit den Widderhörnern des Ammon dargestellt wurde.`,
+              detail: `Das Argument „Alexander war Heide" setzt voraus, dass der Koran historisch genau über Alexander berichtet. Gerade die Übereinstimmung mit einer *frommen Legende* über Alexander – einschließlich der Hörner, der Reise zum Sonnenuntergang und des Tores gegen Gog und Magog – zeigt, woher der Stoff stammt. Kevin van Bladel hat die Parallelen Punkt für Punkt nachgewiesen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Kevin van Bladel', work: 'The Alexander Legend in the Qur\'an 18:83–102', year: '2008', quote: `In der syrischen Legende ist Alexander ein frommer Diener Gottes; die koranische Erzählung folgt ihr in zahlreichen Einzelheiten.`, status: 'paraphrase', note: 'Beitrag in: G. S. Reynolds (Hg.), The Qur\'an in Its Historical Context (2008).' },
+              ],
+              questionsBack: [
+                `Wenn Dhu l-Qarnain fromm ist, der historische Alexander aber Heide war – welchem Alexander gleicht er dann: dem der Geschichte oder dem der syrischen Legende?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'siebenschlaefer',
+      objection: `Die Geschichte der Leute der Höhle (18:9–26) ist ein Zeichen göttlichen Wissens. Die Juden in Medina fragten Mohammed danach, um ihn zu prüfen – und er bestand die Prüfung.`,
+      objectionBy: 'Zakir Naik',
+      answer: `Die Legende von den Siebenschläfern von Ephesus war in der christlichen Welt weit verbreitet, lange vor Mohammed: Jakob von Sarug (gest. 521) verfasste darüber eine syrische Predigt, und Gregor von Tours überlieferte sie im 6. Jahrhundert auf Latein. Der Koran spiegelt sogar die Unsicherheit der verschiedenen Fassungen über ihre Zahl wider: „drei, ihr Hund der vierte … fünf … sieben" (18:22). Eine bekannte christliche Legende wiederzugeben, ist kein Beweis für göttliches Wissen.`,
+      detail: `In der christlichen Legende fliehen junge Christen vor der Verfolgung unter Kaiser Decius (um 250) in eine Höhle bei Ephesus, schlafen dort fast zwei Jahrhunderte und erwachen unter Theodosius II. – ihr Erwachen gilt als Zeichen für die leibliche Auferstehung. Die Geschichte wird in der Kirche bis heute als Heiligenlegende erzählt; sie ist erbaulich, aber kein Teil der Heiligen Schrift.`,
+      sources: [
+        { kind: 'koran', work: 'Sure 18 (al-Kahf)', ref: '18:22', quote: `Sie werden sagen: Es waren drei, der vierte von ihnen war ihr Hund. Und sie sagen: fünf, der sechste war ihr Hund – ein Raten ins Ungewisse. Und sie sagen: sieben, und der achte war ihr Hund.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/18/22' },
+        { kind: 'kirchenvater', author: 'Jakob von Sarug', work: 'Memra über die Jünglinge von Ephesus', year: 'frühes 6. Jh.', quote: `Syrische Versdichtung über die Siebenschläfer von Ephesus.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn die Geschichte in Syrien und Gallien schon im 6. Jahrhundert erzählt wurde – warum soll ihre Kenntnis in Arabien ein Wunder sein?`,
+      ],
+      followUps: [
+        {
+          id: 'siebenschlaefer-wahr',
+          objection: `Und wenn die Geschichte wahr ist? Gott kann eine wahre Begebenheit bestätigen, die auch die Christen kannten.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Dann sieh, wen der Koran da lobt: „Jünglinge, die an ihren Herrn glaubten, und Wir mehrten ihre Rechtleitung" (18:13). Das waren nach der Legende Christen des 3. Jahrhunderts, die unter Decius lieber flohen, als den Götzen zu opfern – Christen, die Christus anbeteten und deren Erwachen die Auferstehung des Leibes bezeugen sollte. Wenn der Koran sie als Rechtgeleitete ehrt, dann ehrt er den Glauben der Kirche des 3. Jahrhunderts. Wo bleibt dann die These, die Christen hätten ihren Glauben längst verfälscht?`,
+          detail: `Dieser Zug verbindet die Quellenfrage mit dem Islamischen Dilemma: Entweder ist die Legende eine christliche Erzählung, die der Koran aufnimmt – dann stammt der Stoff aus menschlicher Überlieferung. Oder sie ist wahr – dann waren Christen um 250, die Christus als Herrn anbeteten, nach dem Koran Gläubige. Beides ist für die These eines früh verfälschten Christentums unbequem. Sprich das freundlich und fragend an, nicht triumphierend.`,
+          sources: [
+            { kind: 'koran', work: 'Sure 18 (al-Kahf)', ref: '18:13', quote: `Es waren Jünglinge, die an ihren Herrn glaubten, und Wir mehrten ihre Rechtleitung.`, original: `innahum fityatun āmanū bi-rabbihim wa-zidnāhum hudā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/18/13' },
+          ],
+          questionsBack: [
+            `Welchen Glauben hatten die christlichen Jünglinge unter Decius – und warum nennt der Koran sie rechtgeleitet?`,
+          ],
         },
       ],
     },

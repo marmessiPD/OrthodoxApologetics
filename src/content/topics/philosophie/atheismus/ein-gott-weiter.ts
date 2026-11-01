@@ -186,7 +186,7 @@ const claim: Claim = {
               objection: `„Aber schau dir an, wie dieser Gott im Alten Testament auftritt: eifersüchtig, zornig, parteiisch für ein Volk. ‚Ich bin ein eifersüchtiger Gott.' Das ist Zeus mit besserem Marketing."`,
               objectionBy: 'Richard Dawkins (The God Delusion, Kap. 2)',
               answer: `Die „Eifersucht" Gottes ist Bundessprache aus dem Bild der Ehe – Hosea und Jeremia verwenden es ausdrücklich: Gott liebt sein Volk wie ein Bräutigam und will es nicht mit Götzen teilen. Das ist nicht die Laune eines Olympiers, der auf andere Götter neidisch ist, sondern der Anspruch, dass der Mensch nicht Geschöpfe anbetet. Und die Erwählung Israels war von Anfang an auf alle Völker gerichtet: „In dir sollen gesegnet werden alle Geschlechter auf Erden" (Gen 12,3).`,
-              detail: `Für die schweren Texte des Alten Testaments (Landnahme, Gerichtsworte) siehe „Der Gott des Alten Testaments ist ein Monster". Hier genügt: Der Vergleich mit Zeus trifft nur, wenn man die menschlichen Bilder (Zorn, Eifersucht, Reue) wörtlich als Gefühlsschwankungen eines endlichen Wesens liest. Genau das hat die Kirche nie getan.`,
+              detail: `Für die schweren Texte des Alten Testaments (Landnahme, Gerichtsworte) siehe „Der Gott des Alten Testaments ist ein eifersüchtiges, rachsüchtiges Monster". Hier genügt: Der Vergleich mit Zeus trifft nur, wenn man die menschlichen Bilder (Zorn, Eifersucht, Reue) wörtlich als Gefühlsschwankungen eines endlichen Wesens liest. Genau das hat die Kirche nie getan.`,
               followUps: [
                 {
                   id: 'metapher-nach-belieben',
@@ -234,7 +234,7 @@ const claim: Claim = {
               objection: `„Aber ein Mechanismus, der ständig Fehlalarme produziert, ist gerade *nicht* zuverlässig. Wenn dein Gottesglaube aus diesem Mechanismus stammt, hast du keinen Grund, ihm zu trauen."`,
               objectionBy: 'Daniel Dennett',
               answer: `Der Agenten-Detektor liefert schnelle Vermutungen über Wesen in der Umgebung – das Rascheln im Gebüsch. Der Glaube an einen zeitlosen Schöpfer des Universums entsteht nicht durch Rascheln, sondern durch Nachdenken, Argumente und geschichtliche Zeugnisse. Außerdem verwerfen wir unsere Wahrnehmung von Personen nicht, nur weil sie manchmal irrt. Und wer evolutionäre Herkunft als Grund des Misstrauens nimmt, muss erklären, warum dann seine eigene Vernunft – ebenfalls Produkt der Evolution – vertrauenswürdig sein soll.`,
-              detail: `Hier berührt das Gespräch Plantingas evolutionäres Argument gegen den Naturalismus: Wenn unsere kognitiven Fähigkeiten nur auf Überleben, nicht auf Wahrheit selektiert wären, hätte der Naturalist ein Problem mit allen seinen Überzeugungen – auch mit dem Naturalismus. Siehe „Unsere Vernunft ist durch Evolution entstanden und zuverlässig".`,
+              detail: `Hier berührt das Gespräch Plantingas evolutionäres Argument gegen den Naturalismus: Wenn unsere kognitiven Fähigkeiten nur auf Überleben, nicht auf Wahrheit selektiert wären, hätte der Naturalist ein Problem mit allen seinen Überzeugungen – auch mit dem Naturalismus. Siehe „Die Evolution hat uns verlässliche Vernunft gegeben".`,
               questionsBack: [`Wenn evolutionäre Herkunft eine Überzeugung entwertet: Warum gilt das nicht für deine eigene Vernunft?`],
             },
           ],

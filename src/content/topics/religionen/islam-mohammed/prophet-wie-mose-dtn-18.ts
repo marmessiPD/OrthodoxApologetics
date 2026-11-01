@@ -89,6 +89,26 @@ const claim: Claim = {
               objection: `Von Ismael heißt es, er werde „all seinen Brüdern gegenüber wohnen" (Gen 16,12; 25,18). Die Bibel nennt die Israeliten also ausdrücklich Ismaels Brüder.`,
               objectionBy: 'Zakir Naik',
               answer: `In Gen 16,12 und 25,18 sind die „Brüder" Ismaels die Söhne Abrahams und deren Nachkommen – eine Beschreibung seines Wohnorts, nicht eine Definition für Dtn 18. Die Frage ist nicht, ob Israel und Ismael verwandt sind, sondern wen Mose in Dtn 18 mit „aus deiner Mitte, aus deinen Brüdern" meint, wenn er zu Israel spricht. Und dort ist der Bund klar: „Meinen Bund aber will ich aufrichten mit Isaak" (Gen 17,21) – Ismael wird gesegnet (17,20), aber die Bundeslinie und die Propheten kommen durch Isaak.`,
+              followUps: [
+                {
+                  id: 'in-18-18-fehlt-aus-deiner-mitte',
+                  objection: `Achte auf den Unterschied: In 18,15 spricht Mose „aus deiner Mitte", aber in 18,18 spricht Gott nur „aus ihren Brüdern" – ohne „aus deiner Mitte". Gottes eigene Worte schließen also gerade nicht auf Israel ein.`,
+                  objectionBy: 'Ahmed Deedat',
+                  answer: `Schau in den hebräischen Text: Auch 18,18 sagt *mi-qerev ʾaḥêhem* – „aus der **Mitte** ihrer Brüder". Das Wort *qerev* („Mitte, Inneres") steht in beiden Versen. Und genau dieselbe Formel steht ein Kapitel vorher beim König: „Du sollst aus der Mitte deiner Brüder einen König über dich setzen; du darfst nicht einen Fremden über dich setzen, der nicht dein Bruder ist" (Dtn 17,15). Niemand liest daraus, Israels König solle ein Ismaelit sein.`,
+                  detail: `Dtn 18,15: *nāvîʾ mi-qirbᵉkā mē-ʾaḥêkā* – „einen Propheten aus deiner Mitte, aus deinen Brüdern". Dtn 18,18: *nāvîʾ ʾāqîm lāhem mi-qerev ʾaḥêhem kāmôkā* – „einen Propheten will ich ihnen erwecken aus der Mitte ihrer Brüder, wie du". Viele englische Übersetzungen geben *mi-qerev* in 18,18 nur mit „from among" wieder; daraus entstand das Missverständnis, die „Mitte" fehle. Dtn 17,15 zeigt, wie das Deuteronomium diese Sprache verwendet: „Brüder" sind Israeliten im Gegensatz zum „Fremden" (*nokrî*). Für das Gespräch: Bitte dein Gegenüber, den hebräischen Text oder eine wörtliche Übersetzung (Elberfelder) nebeneinanderzulegen.`,
+                  voices: [
+                    { person: 'michael-brown', role: 'als Hebraist', text: `Brown weist darauf hin, dass das Deuteronomium „deine Brüder" konsequent für Mit-Israeliten verwendet – beim König (17,15), beim Leviten (18,2.7), beim Schuldenerlass (15,3.7) – und den „Fremden" ausdrücklich davon abgrenzt. Eine Deutung auf ein anderes Volk widerspricht dem Sprachgebrauch des ganzen Buches.` },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Deuteronomium (5. Mose)', ref: '18,18', quote: `Ich will ihnen einen Propheten, wie du bist, erwecken aus ihren Brüdern und meine Worte in seinen Mund geben; der soll zu ihnen reden alles, was ich ihm gebieten werde.`, original: `נָבִיא אָקִים לָהֶם מִקֶּרֶב אֲחֵיהֶם כָּמוֹךָ`, translation: 'Luther 1912', status: 'verbatim', note: 'Luther übersetzt mi-qerev hier knapp mit „aus"; wörtlich: „aus der Mitte ihrer Brüder".' },
+                    { kind: 'bibel', work: 'Deuteronomium (5. Mose)', ref: '17,15', quote: `… so sollst du den zum König über dich setzen, den der HERR, dein Gott, erwählen wird. Du sollst aber aus deinen Brüdern einen zum König über dich setzen. Du kannst nicht irgend einen Fremden, der nicht dein Bruder ist, über dich setzen.`, original: `מִקֶּרֶב אַחֶיךָ תָּשִׂים עָלֶיךָ מֶלֶךְ`, translation: 'Luther 1912', status: 'paraphrase', note: 'Wortlaut an Luther 1912 angelehnt.' },
+                  ],
+                  questionsBack: [
+                    `Steht in Dtn 18,18 im Hebräischen *mi-qerev* („aus der Mitte") – ja oder nein?`,
+                    `Wenn „aus der Mitte deiner Brüder" in Dtn 17,15 einen Israeliten meint – warum soll dieselbe Formel ein Kapitel später einen Araber meinen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -105,6 +125,23 @@ const claim: Claim = {
           objection: `Aber Mose war Herrscher und Gesetzgeber eines Volkes – Jesus hatte nie politische Macht. Muhammad schon.`,
           objectionBy: 'Jamal Badawi',
           answer: `Auch Mose wurde zunächst von seinem Volk verworfen: „Wer hat dich zum Obersten oder Richter über uns gesetzt?" (Ex 2,14; vgl. Apg 7,35), und Israel wollte sich einen anderen Führer wählen (Num 14,4). Jesus gibt ein neues Gebot (Joh 13,34), legt die Tora mit eigener Vollmacht aus (Mt 5,21–48) und herrscht als König, dessen Reich „nicht von dieser Welt" ist (Joh 18,36) und der wiederkommt, um zu richten (Mt 25,31). Politische Macht war nie das biblische Kriterium.`,
+          followUps: [
+            {
+              id: 'jesus-kein-gesetzgeber',
+              objection: `Mose brachte ein Gesetz, eine Scharia. Jesus sagte, er sei nicht gekommen, das Gesetz aufzulösen – er brachte kein neues Gesetz. Muhammad brachte wie Mose eine vollständige Scharia. Das ist die eigentliche Ähnlichkeit.`,
+              objectionBy: 'Jamal Badawi',
+              answer: `Das Zentrum des Mose-Amtes ist nicht ein Gesetzbuch, sondern der Bund: Mose war der Mittler des Bundes am Sinai, besiegelt mit Blut (Ex 24,8: „Das ist das Blut des Bundes"). Jesus nimmt genau diese Worte beim letzten Abendmahl auf: „Das ist mein Blut des neuen Bundes" (Mk 14,24; Lk 22,20) – die Erfüllung der Verheißung eines neuen Bundes (Jer 31,31–34). Und er spricht als Gesetzgeber mit eigener Vollmacht: „Ihr habt gehört, dass gesagt ist … Ich aber sage euch" (Mt 5,21–48). Kein Prophet nach Mose hat so gesprochen.`,
+              detail: `Der Hebräerbrief entfaltet den Vergleich ausdrücklich: Mose war „treu in Gottes ganzem Haus als Diener", Christus aber „als Sohn über sein Haus" (Hebr 3,5–6); er ist „Mittler eines besseren Bundes" (Hebr 8,6). Matthäus stellt Jesus bewusst als neuen Mose dar: Bewahrung vor dem Kindermord, Aufenthalt in Ägypten, vierzig Tage in der Wüste, Lehre auf dem Berg. Die Bergpredigt ist dabei nicht weniger, sondern mehr als ein Gesetz – sie zielt auf das Herz (Mt 5,28) und erfüllt Jeremias Verheißung: „Ich will mein Gesetz in ihr Herz schreiben" (Jer 31,33).`,
+              sources: [
+                { kind: 'bibel', work: 'Exodus (2. Mose)', ref: '24,8', quote: `Da nahm Mose das Blut und besprengte das Volk damit und sprach: Sehet, das ist das Blut des Bundes, den der HERR mit euch macht über allen diesen Worten.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Jeremia', ref: '31,31.33', quote: `Siehe, es kommt die Zeit, spricht der HERR, da will ich mit dem Hause Israel und mit dem Hause Juda einen neuen Bund machen … Ich will mein Gesetz in ihr Herz geben und in ihren Sinn schreiben.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `Wer war nach der Tora Mittler des Bundes mit Blut – und wer spricht beim letzten Abendmahl vom „Blut des neuen Bundes"?`,
+                `Welcher Prophet nach Mose sagt „Ich aber sage euch" und stellt sein Wort neben die Tora?`,
+              ],
+            },
+          ],
         },
       ],
     },

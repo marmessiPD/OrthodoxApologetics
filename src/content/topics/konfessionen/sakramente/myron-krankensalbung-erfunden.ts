@@ -88,7 +88,7 @@ Entscheidend ist seine Parallele zur Eucharistie: Nach der Anrufung des Geistes 
       role: 'als Katechet der sieben Sakramente',
       text: `Der hl. Habib Girgis erklärt in seinem Buch über die sieben Sakramente die Myronsalbung als „Siegel der Gabe des Heiligen Geistes", die den Getauften stärkt, heiligt und zum Tempel des Geistes macht (1 Kor 6,19). Er betont, dass in der koptischen Kirche Taufe, Myron und Eucharistie eine Einheit bilden: Das Kind wird getauft, gesalbt und empfängt sofort die Kommunion. Die Krankensalbung beschreibt er als Sakrament der Barmherzigkeit für Leib und Seele, das auf Jak 5 gründet und nicht auf die Sterbestunde beschränkt ist.`,
       sources: [
-        { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', quote: `Myron als Siegel der Gabe des Heiligen Geistes; Einheit von Taufe, Myron und Eucharistie; Krankensalbung für Leib und Seele nach Jak 5.`, status: 'paraphrase' },
+        { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', quote: `Myron als Siegel der Gabe des Heiligen Geistes; Einheit von Taufe, Myron und Eucharistie; Krankensalbung für Leib und Seele nach Jak 5.`, status: 'paraphrase' },
       ],
     },
   ],
@@ -195,7 +195,7 @@ Entscheidend ist seine Parallele zur Eucharistie: Nach der Anrufung des Geistes 
     `Der Übergang von der Handauflegung (Apg 8) zur Salbung mit Öl ist eine Entwicklung der frühen Jahrhunderte, auch wenn das NT bereits von „Salbung" spricht.`,
   ],
   furtherReading: [
-    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', status: 'paraphrase' },
     { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Mystagogische Katechesen (bes. Katechese 3)', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'Alexander Schmemann', work: 'Of Water and the Spirit: A Liturgical Study of Baptism', year: '1974', status: 'paraphrase' },
   ],

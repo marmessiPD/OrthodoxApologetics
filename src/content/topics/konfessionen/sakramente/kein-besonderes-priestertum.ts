@@ -204,7 +204,7 @@ Bemerkenswert: Clemens schreibt dies zu einer Zeit, in der der Apostel Johannes 
   ],
   furtherReading: [
     { kind: 'kirchenvater', author: 'Clemens von Rom', work: '1. Clemensbrief', year: 'um 96', status: 'paraphrase', note: 'Kapitel 40–44.' },
-    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', status: 'paraphrase' },
     { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Über das Priestertum (De sacerdotio)', year: 'um 386', status: 'paraphrase' },
   ],
   difficulty: 2,

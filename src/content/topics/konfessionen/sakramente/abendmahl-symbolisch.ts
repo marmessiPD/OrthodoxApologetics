@@ -50,7 +50,7 @@ const claim: Claim = {
       { kind: 'kirchenvater', author: 'Tertullian', work: 'Über die Auferstehung des Fleisches (De resurrectione carnis)', ref: '8', quote: `Das Fleisch nährt sich von Leib und Blut Christi, damit auch die Seele von Gott gesättigt werde.`, translation: 'eigene Übersetzung (nach ANF)', status: 'verbatim', note: 'Tertullian apologetisch zitiert, nicht als Lehrautorität.' },
       { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Matthäusevangelium', ref: 'Homilie 82,4', quote: `Wie viele sagen jetzt: Ich möchte seine Gestalt sehen, sein Aussehen, seine Kleider, seine Schuhe. Siehe, du siehst ihn, du berührst ihn, du isst ihn.`, translation: 'eigene Übersetzung (nach NPNF I/10)', status: 'verbatim' },
       { kind: 'gegner', author: 'Martin Luther', work: 'Der Kleine Katechismus', ref: 'Das Sakrament des Altars', year: '1529', quote: `Was ist das Sakrament des Altars? Antwort: Es ist der wahre Leib und Blut unsers Herrn Jesu Christi, unter dem Brot und Wein uns Christen zu essen und zu trinken von Christo selbst eingesetzt.`, translation: 'Original', status: 'verbatim' },
-      { kind: 'fachliteratur', author: 'J. N. D. Kelly', work: 'Early Christian Doctrines', year: '1958 (5. Aufl. 1977)', quote: `Die Eucharistielehre war, das muss man von vornherein verstehen, im Allgemeinen fraglos realistisch, d. h. das geweihte Brot und der geweihte Wein wurden als Leib und Blut des Erlösers angesehen, behandelt und bezeichnet.`, original: `Eucharistic teaching, it should be understood at the outset, was in general unquestioningly realist, i.e. the consecrated bread and wine were taken to be, and were treated and designated as, the Saviour's body and blood.`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Kapitel über die vornizänische Eucharistielehre.' },
+      { kind: 'fachliteratur', author: 'J. N. D. Kelly', work: 'Early Christian Doctrines', year: '1958 (5. Aufl. 1977)', quote: `Die Eucharistielehre war, das muss man von vornherein verstehen, im Allgemeinen fraglos realistisch, d. h. das geweihte Brot und der geweihte Wein wurden als Leib und Blut des Erlösers angesehen, behandelt und bezeichnet.`, original: `Eucharistic teaching, it should be understood at the outset, was in general unquestioningly realist, i.e. the consecrated bread and wine were taken to be, and were treated and designated as, the Saviour's body and blood.`, translation: 'eigene Übersetzung', status: 'verbatim', ref: 'Kap. 8 (vornizänische Eucharistielehre), S. 440 der 5. Aufl.', note: 'Wortlaut und Seitenzahl (S. 440) in mehreren unabhängigen Zitaten übereinstimmend belegt (Websuche Nov. 2026); bei anderen Auflagen kann die Seite abweichen.' },
     ],
   },
   quickAnswer: `Als Jesus in Joh 6 sagte „Wer mein Fleisch isst und mein Blut trinkt, hat das ewige Leben", gingen viele Jünger weg – und er rief sie nicht mit „Ich meinte es nur symbolisch" zurück. Beim Abendmahl sagte er: „Das ist mein Leib … das ist mein Blut des Bundes, vergossen zur Vergebung der Sünden." Paulus sagt, wer unwürdig isst, wird „schuldig am Leib und Blut des Herrn" (1 Kor 11,27) – an einem Symbol kann man nicht schuldig werden. Und alle frühen Christen, von Ignatius (um 110) bis Kyrill, glaubten an den wahren Leib und das wahre Blut. Selbst Luther hielt daran fest.`,
@@ -135,7 +135,7 @@ Diese Lehre steht im Zentrum der koptischen Liturgie: Das Bekenntnis vor der Kom
 
 Er betont, dass die Eucharistie die Kirche **macht**: Wer an dem einen Brot teilhat, wird ein Leib (1 Kor 10,17). Ein bloßes Gedächtnismahl könnte das nicht leisten.`,
       sources: [
-        { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab.)', quote: `Die Eucharistie als Teilnahme an Tod und Auferstehung Christi und als das Geschehen, das die Kirche zum einen Leib macht.`, status: 'paraphrase' },
+        { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab. al-Ifḫāristiyā: ʿAšāʾ ar-Rabb)', quote: `Die Eucharistie als Teilnahme an Tod und Auferstehung Christi und als das Geschehen, das die Kirche zum einen Leib macht.`, status: 'paraphrase' },
       ],
     },
     {
@@ -335,7 +335,7 @@ Er betont, dass die Eucharistie die Kirche **macht**: Wer an dem einen Brot teil
     `Wie Christus im Sakrament gegenwärtig ist, bleibt ein Geheimnis; die Kirche bekennt das Dass, nicht ein philosophisches Wie.`,
   ],
   furtherReading: [
-    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab.)', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Die Eucharistie – das Mahl des Herrn (arab. al-Ifḫāristiyā: ʿAšāʾ ar-Rabb)', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'Alexander Schmemann', work: 'For the Life of the World', year: '1963', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'J. N. D. Kelly', work: 'Early Christian Doctrines', year: '1958 (5. Aufl. 1977)', status: 'paraphrase', note: 'Kapitel zu Eucharistie und Sakramenten.' },
     { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Mystagogische Katechesen', status: 'paraphrase', note: 'Kurz, gut lesbar, für Neugetaufte geschrieben.' },

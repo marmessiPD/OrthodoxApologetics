@@ -76,7 +76,7 @@ Bemerkenswert: Für Justin sind persönlicher Glaube und Wiedergeburt in der Tau
       role: 'als Katechet der sieben Sakramente',
       text: `In seinem Lehrbuch über die sieben Sakramente der Kirche erklärt der hl. Habib Girgis die Taufe als Tür zu allen anderen Sakramenten: In ihr stirbt der alte Mensch und wird der neue geboren (Röm 6,3–4), sie schenkt die Vergebung der Sünden und macht zum Glied am Leib Christi. Gerade weil er die Kopten gegen die Einflüsse fremder Missionen stärken wollte, betonte er, dass die Kirche den persönlichen Glauben nicht gering schätzt – er wird in der Taufe bekannt und muss im Leben wachsen.`,
       sources: [
-        { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', quote: `Die Taufe als Tür der Sakramente: Tod des alten und Geburt des neuen Menschen, Vergebung der Sünden, Eingliederung in den Leib Christi.`, status: 'paraphrase' },
+        { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', quote: `Die Taufe als Tür der Sakramente: Tod des alten und Geburt des neuen Menschen, Vergebung der Sünden, Eingliederung in den Leib Christi.`, status: 'paraphrase' },
       ],
     },
   ],
@@ -179,7 +179,7 @@ Bemerkenswert: Für Justin sind persönlicher Glaube und Wiedergeburt in der Tau
     `Gott hat die Verkündigung von Evangelisten wie Billy Graham sichtbar gesegnet; viele Menschen kamen dadurch zum Glauben.`,
   ],
   furtherReading: [
-    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', status: 'paraphrase' },
     { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Vergleichende Theologie', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'Iain H. Murray', work: 'The Invitation System', year: '1967', status: 'paraphrase', note: 'Reformierte Kritik am Altarruf – zeigt, dass die Entscheidungstheologie auch unter Protestanten umstritten ist.' },
   ],

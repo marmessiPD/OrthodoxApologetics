@@ -174,6 +174,26 @@ const claim: Claim = {
               objection: `Dann wählst du dir einfach aus, wann die Väter verbindlich sind.`,
               answer: `Nein, das Kriterium ist alt: Vinzenz von Lérins nannte im Jahr 434 als Maßstab, was „überall, immer und von allen" geglaubt wurde. Die Länge der Schöpfungstage besteht diesen Test nicht – die Väter waren uneins. Die Schöpfung aus dem Nichts besteht ihn.`,
               sources: [vinzenz],
+              followUps: [
+                {
+                  id: 'junge-erde-besteht-vinzenz',
+                  objection: `Dann wende Vinzenz konsequent an: Die Länge der Tage war umstritten, gut. Aber dass die Welt nur einige tausend Jahre alt ist, glaubten praktisch alle Väter – überall, immer, von allen. Nach deinem eigenen Kriterium gehört die junge Erde zum Väterkonsens.`,
+                  objectionBy: 'Terry Mortenson',
+                  answer: `Ein scharfer Einwand – aber Vinzenz spricht von dem, was als *Glaube* überliefert wurde, nicht von allem, was die Väter gemeinsam *annahmen*. Sonst wären auch das geozentrische Weltbild und die vier Elemente Dogma, denn auch die teilten fast alle. Das Weltalter war für die Väter eine Frage der Chronologie, über die sie sogar untereinander rechneten und stritten – die Septuaginta ergab andere Zahlen als der hebräische Text. Kein Konzil und kein Glaubensbekenntnis hat je ein Weltalter festgelegt.`,
+                  detail: `**Glaube vs. gemeinsame Annahme:** Das Commonitorium des Vinzenz will die *katholische (allgemeine) Glaubenslehre* von Irrlehren unterscheiden. Es ist kein Instrument, um jedes gemeinsame Wissen einer Epoche zu kanonisieren. Sonst müsste man auch die antike Kosmologie, die Lehre von den vier Elementen oder die Urzeugung zum Glaubensgut zählen.
+
+**Uneinigkeit in der Chronologie:** Die Väter verwendeten verschiedene Zeitrechnungen. Nach der Septuaginta lag die Schöpfung etwa 5.500 Jahre vor Christus (so u. a. in der byzantinischen Weltära 5509 v. Chr.); andere Rechnungen kamen zu anderen Zahlen. Schon das zeigt, dass es sich um gelehrte Berechnung, nicht um eine überlieferte Glaubensaussage handelte.
+
+**Was die Bekenntnisse sagen:** Das Nizäno-Konstantinopolitanum bekennt Gott als „Schöpfer des Himmels und der Erde, alles Sichtbaren und Unsichtbaren" – und schweigt über das Wann. Die koptische Kirche folgt dem: Die Schöpfung ist Dogma, das Weltalter nicht.
+
+**Respekt:** Junge-Erde-Christen haben das Recht, die Chronologie der Väter für richtig zu halten. Sie haben nur nicht das Recht, sie anderen als Glaubenssatz aufzuerlegen.`,
+                  sources: [
+                    vinzenz,
+                    { kind: 'konzil', work: 'Nizäno-Konstantinopolitanisches Glaubensbekenntnis', ref: '381', quote: `Wir glauben an den einen Gott, den Vater, den Allmächtigen, Schöpfer des Himmels und der Erde, alles Sichtbaren und Unsichtbaren.`, original: 'ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn alles, was fast alle Väter annahmen, zum Glauben gehörte – müssten dann nicht auch das geozentrische Weltbild und die vier Elemente Dogma sein?`],
+                },
+              ],
             },
           ],
         },
@@ -204,6 +224,34 @@ const claim: Claim = {
                   sources: [{ kind: 'koptisch', author: 'Tadros Y. Malaty', work: 'The School of Alexandria', status: 'paraphrase' }],
                 },
               ],
+              followUps: [
+                {
+                  id: 'geistlicher-sinn-vorkritisch',
+                  objection: `Der „geistliche Sinn" der Alexandriner ist eine vorkritische Methode. Die historisch-kritische Exegese hat gezeigt, was die Texte ursprünglich bedeuteten – und Christus in Genesis hineinzulesen, ist schlicht ein Anachronismus.`,
+                  objectionBy: 'Peter Enns',
+                  answer: `Die historische Frage nach dem ursprünglichen Sinn ist wertvoll – auch die Kirche sucht den Wortsinn, wie Augustinus' Titel „über den Wortsinn" zeigt. Aber der christologische Sinn ist nicht später hinzuerfunden: Schon das Neue Testament liest Genesis auf Christus hin – Johannes beginnt mit „Im Anfang war das Wort", Paulus nennt Christus den „letzten Adam" (1 Kor 15,45). Für Christen bilden die Schriften einen Kanon mit einer Mitte. Wer Genesis als Teil dieser Bibel liest, liest sie mit ihrem Ziel.`,
+                  detail: `**Zwei Ebenen, kein Gegensatz:**
+- **Ursprünglicher Sinn:** Was bedeutete der Text für seine ersten Hörer? Hier leistet die historische Forschung viel, und die Väter fragten ähnlich – Origenes war der größte Textkritiker seiner Zeit (Hexapla), Kyrill legte die Geschichte stets zuerst wörtlich aus.
+- **Kanonischer und christologischer Sinn:** Was bedeutet der Text als Teil der ganzen Schrift, deren Mitte Christus ist? Diese Frage stellt schon das Neue Testament (Lk 24,27: „er fing an von Mose und allen Propheten und legte ihnen alle Schriften aus, die von ihm gesagt waren").
+
+**Enns selbst** sieht übrigens im apostolischen Umgang mit dem Alten Testament (in *Inspiration and Incarnation*) ein Vorbild dafür, die Schrift christologisch zu lesen – er betont nur, dass das eine andere Lesart ist als die historische.
+
+**Koptisch:** Die Kirche liest die Schrift in der Liturgie. Wenn in der Osternacht und zu den Festen Genesis gelesen wird, steht sie neben dem Evangelium – die Kirche hört das Alte im Licht des Neuen.`,
+                  voices: [
+                    {
+                      person: 'kyrill-alexandrien',
+                      role: 'als Ausleger der Genesis (Glaphyra)',
+                      text: `Kyrill legt in den *Glaphyra* die Erzählungen der Genesis zuerst als wirkliche Geschichte aus und zeigt dann, wie sie auf das Geheimnis Christi vorausweisen. Für ihn ist das keine Willkür, sondern folgt aus der Einheit der Schrift, deren Urheber derselbe Geist ist: Das Gesetz ist ein Schatten des Kommenden, und Christus ist sein Ziel.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Glaphyra in Genesim', status: 'paraphrase', quote: `Die Erzählungen der Genesis sind wirkliche Geschichte und zugleich Vorausbilder des Geheimnisses Christi.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,45', quote: `Wie es geschrieben steht: Der erste Mensch, Adam, „ward zu einer lebendigen Seele", und der letzte Adam zum Geist, der da lebendig macht.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Lukas', ref: '24,27', quote: `Und fing an von Mose und allen Propheten und legte ihnen alle Schriften aus, die von ihm gesagt waren.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Ist es ein Anachronismus, wenn das Neue Testament selbst Genesis auf Christus hin liest – oder gehört diese Lesart zum Kanon, den Christen bekennen?`],
+                },
+              ],
             },
           ],
         },
@@ -220,6 +268,52 @@ const claim: Claim = {
           id: 'warum-vertrauen',
           objection: `Wenn sie sich in der Naturkunde irrten, warum sollte man ihnen in der Theologie trauen?`,
           answer: `Ihre Autorität liegt in der treuen Weitergabe des apostolischen Glaubens, geprüft auf den Konzilien von Nizäa, Konstantinopel und Ephesus – nicht in der Naturwissenschaft. Man vertraut einem Arzt in der Medizin, auch wenn er in Astronomie irrt.`,
+          followUps: [
+            {
+              id: 'adam-genetik-enns',
+              objection: `Aber gerade euer „realer Adam" hängt an antikem Wissen. Die Populationsgenetik zeigt, dass die Menschheit nie auf ein einziges Paar zurückging – die Population war immer mindestens einige tausend Individuen groß. Hier ist die Theologie der Väter direkt von der Wissenschaft überholt.`,
+              objectionBy: 'Peter Enns',
+              answer: `Hier muss man genau unterscheiden: Die Populationsgenetik misst die genetische Vielfalt, also wie viele Menschen zu unserem Erbgut beigetragen haben – nicht, wer unsere genealogischen Vorfahren sind. Der Genetiker Joshua Swamidass hat gezeigt, dass ein von Gott geschaffenes Paar vor einigen tausend Jahren Vorfahre aller heute lebenden Menschen sein kann, ohne den genetischen Daten zu widersprechen. Andere, etwa William Lane Craig, setzen Adam viel früher an. Das sind Vorschläge, kein Dogma – aber sie zeigen: „Wissenschaftlich unmöglich" ist zu viel gesagt.`,
+              detail: `**Enns' Position:** In *The Evolution of Adam* (2012) argumentiert Enns, Genesis und Paulus seien in ihrem antiken Kontext zu lesen; ein historischer erster Mensch sei mit der Genetik nicht vereinbar, Paulus' Adam sei eine Gestalt seines jüdischen Denkens.
+
+**Genetische vs. genealogische Abstammung:** Weil jeder Mensch zwei Eltern, vier Großeltern usw. hat, wachsen genealogische Stammbäume extrem schnell zusammen. Schon wenige tausend Jahre zurück sind Menschen, die überhaupt Nachkommen haben, oft Vorfahren *aller* heute Lebenden – obwohl sie zu unserem Erbgut kaum noch etwas beigetragen haben. Swamidass (*The Genealogical Adam and Eve*, 2019) baut darauf ein Modell, in dem Adam und Eva real und Stammeltern aller Menschen sind.
+
+**Andere Modelle:** William Lane Craig (*In Quest of the Historical Adam*, 2021) setzt Adam und Eva als Stammpaar vor mehreren hunderttausend Jahren an, in einer Zeit, in der genetische Engpässe schwer auszuschließen sind.
+
+**Koptisch:** Die Kirche bindet sich an kein naturwissenschaftliches Modell. Verbindlich ist: Adam und Eva sind reale Personen, der Fall ist real, alle Menschen bedürfen der Erlösung in Christus. Modelle sind daran zu messen, ob sie das wahren. Ausführlich im Themenblock Genetik.`,
+              voices: [
+                {
+                  person: 'joshua-swamidass',
+                  role: 'als Genetiker und Computerbiologe',
+                  text: `Swamidass zeigt mit genealogischen Simulationen, dass die genetischen Befunde (große Populationsgröße, gemeinsame Abstammung mit anderen Primaten) mit einem realen Paar vereinbar sind, das vor einigen tausend Jahren lebte und genealogischer Vorfahre aller Menschen wurde. Er betont, dass sein Modell keine Glaubenslehre ersetzen, sondern einen Konflikt auflösen soll, der auf einer Verwechslung von Genetik und Genealogie beruht.`,
+                  sources: [{ kind: 'fachliteratur', author: 'S. Joshua Swamidass', work: 'The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry', year: '2019', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Peter Enns', work: 'The Evolution of Adam: What the Bible Does and Doesn\'t Say about Human Origins', year: '2012', quote: `Enns argumentiert, ein historischer erster Mensch sei mit der Genetik nicht vereinbar; Paulus' Adam sei im Rahmen seines antiken jüdischen Denkens zu verstehen.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'William Lane Craig', work: 'In Quest of the Historical Adam: A Biblical and Scientific Exploration', year: '2021', status: 'paraphrase' },
+              ],
+              questionsBack: [`Misst die Populationsgenetik, wer unsere genealogischen Vorfahren sind – oder nur, wie viele Menschen zu unserem Erbgut beigetragen haben?`],
+              followUps: [
+                {
+                  id: 'menschen-ausserhalb-des-gartens',
+                  objection: `Swamidass' Modell braucht Menschen außerhalb des Gartens, die nicht von Adam abstammen. Das widerspricht doch Apostelgeschichte 17,26 – „aus einem Blut" – und der ganzen Vorstellung, dass Adam der erste Mensch war.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Das ist die ernsteste Anfrage an das Modell, und ich verteidige es nicht als Kirchenlehre. Aber Apg 17,26 ist im genealogischen Modell erfüllt: Alle heute lebenden Menschen stammen von Adam ab. Und schon die Genesis selbst wirft die Frage auf, wer Kains Frau war und vor wem er sich fürchtete (Gen 4,14–17) – die Väter antworteten meist mit Geschwisterehen. Die Kirche hat hier Spielraum; festgehalten wird, dass alle Menschen an Adams Erbe teilhaben und der Erlösung in Christus bedürfen.`,
+                  detail: `**Was das Modell behauptet:** Adam und Eva wurden von Gott geschaffen und in den Garten gesetzt; ihre Nachkommen vermischten sich später mit Menschen außerhalb, sodass schließlich alle Menschen von ihnen abstammen. Ob man diese anderen Menschen theologisch als „Menschen im vollen Sinn" (mit Gottebenbildlichkeit) betrachtet, ist eine offene Frage, die Swamidass selbst bewusst offen lässt.
+
+**Kritik ernst nehmen:** Viele Theologen, auch orthodoxe, sehen das Modell kritisch, weil es die Einzigartigkeit Adams als des ersten Menschen schwächen könnte. Diese Kritik ist legitim.
+
+**Die Grenze für einen koptischen Christen:** Ein Modell ist dann annehmbar, wenn es wahrt, dass (1) Adam und Eva reale Personen sind, (2) der Fall ein reales Ereignis ist, (3) alle Menschen dessen Folgen erben und (4) alle in Christus Erlösung finden. Über naturwissenschaftliche Details hat die Kirche nicht entschieden – deshalb darfst du solche Modelle als Möglichkeiten nennen, nicht als Lehre.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,26', quote: `Und hat gemacht, daß von einem Blut aller Menschen Geschlechter auf dem ganzen Erdboden wohnen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Genesis', ref: '4,14', quote: `… so wird mir's gehen, daß mich totschlage, wer mich findet.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn alle heute lebenden Menschen genealogisch von Adam abstammen – in welchem Sinn wäre Apg 17,26 dann nicht erfüllt?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -234,6 +328,31 @@ const claim: Claim = {
           objection: `Adam real, aber die Tage nicht wörtlich – das ist inkonsequent.`,
           answer: `Nicht, wenn man nach der Gattung fragt: Genesis 1 ist ein feierlich gegliederter Text (Tage 1–3 bereiten Räume, Tage 4–6 füllen sie); ab Gen 2,4 folgen Erzählungen mit Toledot-Überschriften wie in der Patriarchengeschichte. Das Neue Testament behandelt Adam als geschichtliche Person (Röm 5,12–14; Lk 3,38). Mehr dazu im Themenblock Genetik.`,
           sources: [{ kind: 'bibel', work: 'Römer', ref: '5,14', quote: `Doch herrschte der Tod von Adam an bis auf Mose auch über die, die nicht gesündigt haben mit gleicher Übertretung wie Adam, welcher ist ein Bild des, der zukünftig war.`, translation: 'Luther 1912', status: 'paraphrase' }],
+          followUps: [
+            {
+              id: 'paulus-adam-literarisch',
+              objection: `Paulus behandelt Adam so, wie ein Jude seiner Zeit es eben tat – so wie man über Jona spricht. Sein Argument über Sünde und Gnade funktioniert auch, wenn Adam eine literarische Gestalt ist. Ihr hängt euer Heil unnötig an eine historische Behauptung.`,
+              objectionBy: 'Peter Enns',
+              answer: `Paulus' Parallele lebt gerade von zwei wirklichen Taten: „Wie nun durch eines Menschen Ungehorsam viele Sünder geworden sind, so werden auch durch eines Gehorsam viele Gerechte" (Röm 5,19). Christi Gehorsam am Kreuz ist ein geschichtliches Ereignis; wird Adams Ungehorsam zur bloßen Erzählung, verliert der Vergleich seine Hälfte. Die Väter – Irenäus mit seiner „Rekapitulation", Athanasius mit seiner Lehre von Fall und Menschwerdung – haben ihre ganze Heilslehre auf diese Entsprechung gebaut.`,
+              detail: `**Römer 5,12–19:** Paulus vergleicht zweimal „einen Menschen" mit „einem Menschen", eine Übertretung mit einer gerechten Tat. Das ist mehr als eine Illustration: Er erklärt, wie die Lage der Menschheit (Tod, Sünde) entstanden ist und wie sie in Christus überwunden wird.
+
+**Irenäus' Rekapitulation:** Christus „fasst in sich zusammen" (*recapitulatio*), was in Adam verloren ging; er durchläuft das menschliche Leben, um es von innen zu heilen. Der Ungehorsam an einem Baum wird durch den Gehorsam am Holz des Kreuzes aufgehoben (Adv. Haer. V,19,1; vgl. III,18,1). Diese Theologie setzt einen realen Anfang voraus.
+
+**Athanasius:** In *De Incarnatione* beschreibt er, wie der Mensch durch die Abwendung von Gott in die Verwesung fiel und der Logos Mensch wurde, um ihn zu erneuern – eine Geschichte von Fall und Wiederherstellung.
+
+**Koptisch:** Die Kirche bekennt Adam und Eva als reale Personen und den Fall als reales Ereignis. Das ist kein Detail, sondern Teil des Heilsverständnisses, das Papst Schenuda III. in *Das Heil im orthodoxen Verständnis* entfaltet.`,
+              voices: [
+                {
+                  person: 'irenaeus',
+                  role: 'als Theologe der Rekapitulation',
+                  text: `Irenäus lehrt, dass der Sohn Gottes, als er Mensch wurde, die lange Geschichte der Menschheit in sich „rekapitulierte", damit wir, was wir in Adam verloren hatten – Bild und Gleichnis Gottes –, in Christus wiedererlangen. Wie durch den Ungehorsam eines Menschen viele zu Sündern wurden, so wurden durch den Gehorsam eines Menschen viele gerecht. Für Irenäus ist die Entsprechung zwischen Adam und Christus das Rückgrat der Heilsgeschichte.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'III,18,1; V,19,1', quote: `Christus hat die lange Reihe der Menschen in sich zusammengefasst, damit wir, was wir in Adam verloren hatten, in Christus wiedererlangen.`, status: 'paraphrase' }],
+                },
+              ],
+              sources: [{ kind: 'bibel', work: 'Römer', ref: '5,19', quote: `Denn gleichwie durch eines Menschen Ungehorsam viele Sünder geworden sind, also auch durch eines Gehorsam werden viele Gerechte.`, translation: 'Luther 1912', status: 'verbatim' }],
+              questionsBack: [`Wenn Christi Gehorsam eine geschichtliche Tat ist – was wird aus Paulus' Vergleich, wenn Adams Ungehorsam keine war?`],
+            },
+          ],
         },
       ],
     },

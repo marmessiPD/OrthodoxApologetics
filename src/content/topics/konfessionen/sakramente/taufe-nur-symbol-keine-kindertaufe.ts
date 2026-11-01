@@ -229,7 +229,7 @@ Die Kirchenordnung ist vor allem in koptischer (sahidischer), arabischer und ät
     `Der baptistische Ernst, dass Glaube persönlich gelebt werden muss, ist berechtigt – getaufte Kinder brauchen echte Erziehung im Glauben.`,
   ],
   furtherReading: [
-    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche', status: 'paraphrase' },
+    { kind: 'koptisch', author: 'Hl. Habib Girgis', work: 'Die sieben Sakramente der Kirche (arab. Asrār al-kanīsa as-sabʿa)', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'Joachim Jeremias', work: 'Die Kindertaufe in den ersten vier Jahrhunderten', year: '1958', status: 'paraphrase' },
     { kind: 'gegner', author: 'Kurt Aland', work: 'Die Säuglingstaufe im Neuen Testament und in der alten Kirche', year: '1961', status: 'paraphrase', note: 'Die stärkste wissenschaftliche Gegenposition.' },
     { kind: 'fachliteratur', author: 'Everett Ferguson', work: 'Baptism in the Early Church', year: '2009', status: 'paraphrase', note: 'Umfassende Quellensammlung; Ferguson selbst ist Gläubigentäufer, hält die Taufe aber für heilsnotwendig.' },

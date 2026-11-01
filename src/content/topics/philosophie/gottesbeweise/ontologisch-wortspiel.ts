@@ -244,7 +244,7 @@ const claim: Claim = {
               objection: `„Ob Wissen ‚besser' ist als Unwissen, hängt davon ab, wer bewertet und wozu. Werte sind menschliche Bewertungen, keine Eigenschaften der Wirklichkeit. Ein ‚objektiv größtes Wesen' gibt es so wenig wie die ‚objektiv beste Eissorte'."`,
               objectionBy: "Alex O'Connor",
               answer: `Dann müsstest du auch sagen, dass Wahrheit nicht objektiv besser ist als Irrtum – und damit wäre dein eigenes Bemühen, mich zu korrigieren, nur eine Geschmacksvorliebe. Du behandelst Werte wie Ehrlichkeit, Konsistenz und Erkenntnis in diesem Gespräch ganz selbstverständlich als verbindlich. Wenn sie es sind, gibt es objektive Werte – und dann ist die Frage nach dem Grund dieser Werte die Frage nach Gott.`,
-              detail: `Hier mündet das ontologische Argument in das moralische Argument (siehe „Man kann auch ohne Gott gut sein"). Wer allen Wertrealismus aufgibt, entgeht dem ontologischen Argument, verliert aber auch die Grundlage für jede normative Kritik – einschließlich der Kritik am Glauben als „irrational" oder „schädlich".`,
+              detail: `Hier mündet das ontologische Argument in das moralische Argument (siehe „Man kann auch ohne Gott ein guter Mensch sein"). Wer allen Wertrealismus aufgibt, entgeht dem ontologischen Argument, verliert aber auch die Grundlage für jede normative Kritik – einschließlich der Kritik am Glauben als „irrational" oder „schädlich".`,
               questionsBack: [`Ist es objektiv besser, in diesem Gespräch die Wahrheit zu sagen, als zu lügen – oder nur deine persönliche Vorliebe?`],
             },
           ],

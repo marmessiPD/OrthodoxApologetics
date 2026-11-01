@@ -98,6 +98,22 @@ const claim: Claim = {
               objection: `Aber alaqa heißt „Blutegel" – und der Embryo sieht in der dritten Woche tatsächlich aus wie ein Blutegel. Das ist doch verblüffend!`,
               objectionBy: 'Zakir Naik',
               answer: `Klassische Ausleger übersetzten *ʿalaqa* meist mit „Blutklumpen" – das entspricht Galens Stufe „Blut". Die Deutung „Blutegel" ist vor allem modern. Und Fehlgeburten in frühen Stadien konnten Menschen schon immer sehen. Ein Wort mit mehreren Bedeutungen, von denen man im Nachhinein die passende wählt, ist kein Wunder.`,
+              followUps: [
+                {
+                  id: 'galen-in-arabien-unbekannt',
+                  objection: `Galen war im Arabien des 7. Jahrhunderts völlig unbekannt. Ein Mann in Mekka konnte seine griechischen Schriften nicht kennen.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Galens Lehren waren im Nahen Osten längst verbreitet: Sergius von Reschaina (gest. 536) übersetzte Galen ins Syrische, und die Medizin der Akademie von Gundischapur im Perserreich stand in dieser Tradition. Nach späterer arabischer Überlieferung studierte der Arzt al-Harith ibn Kalada, ein Zeitgenosse Mohammeds, Medizin in Persien. Man braucht keine Bücher, um verbreitetes Wissen zu kennen – wie heute jeder vom Urknall weiß, ohne Fachartikel zu lesen. Und die Grundbilder sind noch älter: Schon Hiob spricht davon, dass Gott ihn „wie Käse gerinnen ließ" und „mit Haut und Fleisch bekleidete, mit Knochen und Sehnen durchflocht" (Hiob 10,10–11).`,
+                  detail: `Die Vorstellung, dass der Embryo aus Samen und Blut entsteht, gerinnt, Fleisch bildet und dann geformt wird, findet sich bei Hippokrates, Aristoteles und Galen in verschiedenen Varianten. Sie gehörte zum Allgemeingut der antiken Welt, in die auch Arabien durch Handel, Juden und Christen eingebunden war. Der Koran beschreibt eine Embryologie, die der antiken entspricht – mit ihren Stärken und ihren Irrtümern. Gerade das spricht gegen „Wunderwissen".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Hiob', ref: '10,10–11', quote: `Hast du mich nicht wie Milch gemolken und wie Käse lassen gerinnen? Du hast mir Haut und Fleisch angezogen; mit Gebeinen und Adern hast du mich zusammengefügt.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Galen von Pergamon', work: 'De semine (Über den Samen)', year: '2. Jh.', quote: `Beschreibt Stufen der Embryonalentwicklung vom Samen über eine blutreiche Phase zur Fleischbildung und Ausformung.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn der Koran dieselben Stufen beschreibt wie die antike Medizin – ist das eher ein Hinweis auf Wunderwissen oder auf das Wissen seiner Zeit?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -123,6 +139,31 @@ const claim: Claim = {
               objection: `Die Bibel hat aber echte wissenschaftliche Fehler – ein festes Himmelsgewölbe, eine flache Erde, die Sonne steht still.`,
               objectionBy: 'Zakir Naik',
               answer: `Die Bibel spricht wie jeder antike Text in der Sprache der Wahrnehmung – auch wir sagen heute „die Sonne geht auf". Der Unterschied: Christen behaupten nicht, die Bibel beweise sich durch Wissenschaftswunder. Schon Basilius und Augustinus warnten davor. Wer dagegen Wunder beansprucht, muss akzeptieren, dass man die Verse genauso streng prüft, die nicht passen.`,
+              followUps: [
+                {
+                  id: 'raqia-festes-gewoelbe',
+                  objection: `Das ist keine bloße Wahrnehmungssprache. Das hebräische *rāqīaʿ* in Genesis 1 bezeichnet ein festes Gewölbe, über dem Wasser lagern. Das ist eine falsche Kosmologie, nicht nur eine Redeweise.`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Über die genaue Bedeutung von *rāqīaʿ* wird gestritten; das Wort hängt mit „ausbreiten, festtreten" zusammen. Aber angenommen, Genesis spricht in der Bildsprache des alten Orients: Dann tut sie das, um *Theologie* zu lehren – Sonne und Mond sind keine Götter, sondern „Lichter", die der eine Gott gemacht hat. Christen behaupten nicht, Genesis sei ein Physikbuch. Und der Koran gebraucht dieselbe antike Bildsprache: Er nennt den Himmel ein „wohlbehütetes Dach" (21:32) und spricht von sieben Himmeln in Schichten (67:3). Mein Punkt ist nicht, dass einer der beiden Texte „falsche Wissenschaft" lehrt – sondern dass man aus keinem von beiden Wissenschaftswunder ableiten sollte.`,
+                  detail: `John Walton hat gezeigt, dass Genesis 1 im Denken des alten Orients vor allem von der *Ordnung und Funktion* der Welt spricht, nicht von ihrer materiellen Zusammensetzung. Die koptische Tradition liest die Schöpfungserzählung mit den Alexandrinern im wörtlichen und geistlichen Sinn zugleich; ein naturwissenschaftliches Weltbild verlangt sie nicht. Christen sind damit methodisch konsequent: Sie erwarten von der Schrift Wahrheit über Gott und den Menschen, nicht moderne Physik. Die „Wissenschaftswunder"-Apologetik dagegen misst den Koran an der Physik – und muss dann auch die Verse aushalten, die nicht passen.`,
+                  voices: [
+                    {
+                      person: 'john-walton',
+                      role: 'als Alttestamentler zum altorientalischen Weltbild',
+                      text: `Walton argumentiert, dass Genesis 1 in der Denkwelt des alten Orients verstanden werden muss: Die Schöpfungstage beschreiben, wie Gott der Welt Ordnung und Funktion gibt und sie als seinen Tempel einweiht. Die Bildsprache vom Himmelsgewölbe ist Teil dieser Denkwelt; die theologische Aussage – ein Gott, der alles geordnet hat und über allem steht – ist unabhängig von ihr gültig.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'John H. Walton', work: 'The Lost World of Genesis One', year: '2009', quote: `Genesis 1 beschreibt funktionale Ursprünge im Rahmen des altorientalischen Weltbildes, nicht eine materielle Kosmologie.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'koran', work: 'Sure 21 (al-Anbiya\')', ref: '21:32', quote: `Und Wir haben den Himmel zu einem wohlbehüteten Dach gemacht.`, original: `wa-jaʿalnā s-samāʾa saqfan maḥfūẓā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/21/32' },
+                  ],
+                  questionsBack: [
+                    `Wenn Genesis in der Sprache ihrer Zeit spricht – warum soll der Koran, der den Himmel ein Dach nennt, dann moderne Physik enthalten?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -153,6 +194,55 @@ const claim: Claim = {
           objection: `Das Niederwerfen der Sonne ist metaphorisch – alles in der Schöpfung unterwirft sich Gott.`,
           objectionBy: 'verbreitete muslimische Erklärung',
           answer: `Auch das ist möglich. Aber dann muss dieselbe Freiheit auch für die „Wunderverse" gelten: Wenn die Sonne im Hadith bildlich spricht, warum soll 21:30 dann wörtlich den Urknall beschreiben? Man kann nicht wörtlich lesen, wenn es passt, und bildlich, wenn es nicht passt – sonst wird jedes Ergebnis möglich.`,
+          followUps: [
+            {
+              id: 'sonne-laeuft-36-38',
+              objection: `36:38–40 sagt: „Die Sonne läuft zu einem Ruheplatz … jedes schwebt in einer Umlaufbahn." Heute wissen wir, dass die Sonne sich durch die Galaxis bewegt. Das ist moderne Astronomie!`,
+              objectionBy: 'Zakir Naik',
+              answer: `Interessanterweise hat Mohammed diesen Vers selbst erklärt – in genau dem Hadith, den ich erwähnt habe: Nach Sahih al-Bukhari 3199 fragte er Abu Dharr, wohin die Sonne nach dem Untergang gehe, erklärte, sie werfe sich unter dem Thron nieder und bitte um Erlaubnis aufzugehen, und zitierte dann 36:38. Der „Ruheplatz" ist nach dieser Erklärung der Ort unter dem Thron, nicht eine Bahn durch die Milchstraße. Und dass Sonne und Mond „in einer Bahn" laufen, entsprach auch dem geozentrischen Weltbild der Antike.`,
+              detail: `Hier zeigt sich das Grundproblem der Wunder-Apologetik: Die moderne Deutung widerspricht der Deutung, die die islamische Überlieferung dem Propheten selbst zuschreibt. Wer der modernen Deutung folgt, stellt sich gegen den Hadith; wer dem Hadith folgt, findet antike Kosmologie. Man kann nicht beides zugleich haben.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 36 (Ya Sin)', ref: '36:38', quote: `Und die Sonne läuft zu einem für sie bestimmten Aufenthaltsort.`, original: `wa-sh-shamsu tajrī li-mustaqarrin lahā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/36/38' },
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3199', quote: `Abu Dharr: Der Prophet sagte, die Sonne gehe nach dem Untergang unter den Thron, werfe sich nieder und bitte um Erlaubnis, wieder aufzugehen; dann rezitierte er 36:38.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3199' },
+              ],
+              questionsBack: [
+                `Wem folgst du bei 36:38 – der modernen Deutung oder der Erklärung, die Bukhari dem Propheten selbst zuschreibt?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'islam-foerderte-wissenschaft',
+      objection: `Während die Kirche Galilei verfolgte, blühte im Islam die Wissenschaft: Algebra, Optik, Medizin. Der Koran ruft ständig zum Nachdenken über die Schöpfung auf. Das zeigt, dass er die Wissenschaft hervorgebracht hat.`,
+      objectionBy: 'Mohammed Hijab',
+      answer: `Die großen Leistungen der islamischen Zivilisation – al-Chwarizmi, Ibn al-Haitham, Ibn Sina – erkenne ich gern an, und dass der Koran zum Nachdenken über die Zeichen der Schöpfung aufruft, ebenso. Das tut die Bibel auch: „Die Himmel erzählen die Ehre Gottes" (Ps 19,2), und Gottes unsichtbares Wesen wird „an den Werken ersehen" (Röm 1,20). Aber zum Nachdenken aufzurufen heißt nicht, moderne Wissenschaft zu enthalten. Und die Übersetzungsbewegung, auf der die arabische Wissenschaft aufbaute, wurde zu einem großen Teil von Christen getragen – etwa von Hunain ibn Ishaq, der Galen ins Syrische und Arabische übertrug.`,
+      detail: `Der Fall Galilei ist komplexer, als die Schlagzeile vermuten lässt: Galilei war gläubiger Katholik, der Konflikt hatte viel mit Kirchenpolitik und persönlichen Spannungen zu tun, und die Mehrheit der großen Begründer der modernen Naturwissenschaft – Kopernikus, Kepler, Boyle, Newton – waren gläubige Christen (siehe Topic „Mythen der Kirchengeschichte"). Wissenschaft ist kein Besitz einer Religion; sie gedeiht, wo man die Schöpfung als vernünftig geordnet versteht – eine Überzeugung, die Juden, Christen und Muslime teilen.`,
+      sources: [
+        { kind: 'bibel', work: 'Psalm', ref: '19,2', quote: `Die Himmel erzählen die Ehre Gottes, und die Feste verkündigt seiner Hände Werk.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Römer', ref: '1,20', quote: `Damit, dass Gottes unsichtbares Wesen, das ist seine ewige Kraft und Gottheit, wird ersehen, so man des wahrnimmt, an den Werken, nämlich an der Schöpfung der Welt.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn der Koran moderne Physik enthält – warum hat kein muslimischer Gelehrter vor dem 20. Jahrhundert den Urknall oder die Ausdehnung des Universums aus ihm abgeleitet?`,
+      ],
+      followUps: [
+        {
+          id: 'christen-nur-uebersetzer',
+          objection: `Die Christen waren nur Übersetzer. Die eigentlichen Entdeckungen haben Muslime gemacht.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Übersetzen war die Grundlage von allem – ohne Hunain ibn Ishaq, Yahya ibn Adi und ihre Schulen kein Zugang zu Aristoteles, Galen und Euklid. Und Christen haben auch selbst gedacht: Der Alexandriner Johannes Philoponos kritisierte schon im 6. Jahrhundert die aristotelische Physik und entwickelte Gedanken zur Bewegungslehre, die später in der arabischen und der europäischen Wissenschaft weiterwirkten. Ich will daraus keinen Wettkampf machen: Die Wissenschaftsgeschichte ist ein gemeinsames Erbe. Nur beweist sie eben nicht, dass der Koran moderne Physik enthält.`,
+          detail: `Philoponos (6. Jh.) war ein alexandrinischer Christ und Philosoph, der gegen die Ewigkeit der Welt argumentierte und die Vorstellung eines der Bewegung mitgegebenen „Impetus" vorwegnahm. Yahya ibn Adi (gest. 974), ein syrisch-orthodoxer Philosoph in Bagdad, verteidigte die Dreieinigkeit mit den Mitteln der Philosophie und war zugleich ein angesehener Logiker im islamischen Bagdad. Solche Namen zeigen: Christen waren nicht nur Zulieferer, sondern Mitgestalter einer gemeinsamen Gelehrtenkultur.`,
+          voices: [
+            {
+              person: 'johannes-philoponos',
+              role: 'als alexandrinischer Naturphilosoph',
+              text: `Philoponos bestritt gegen Aristoteles und Proklos, dass die Welt ewig sei, und argumentierte, dass ein unendlicher Rückgang vergangener Zeit unmöglich ist – ein Gedanke, den später muslimische Theologen (kalām) und christliche Denker aufnahmen. In der Physik kritisierte er die aristotelische Lehre vom Wurf und dachte an eine dem Körper mitgeteilte Bewegungskraft. Er steht für die alexandrinische Überzeugung, dass Glaube an den Schöpfer und Erforschung der Natur zusammengehören.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Johannes Philoponos', work: 'De aeternitate mundi contra Proclum', year: '529', quote: `Argumentiert gegen die Ewigkeit der Welt und für einen zeitlichen Anfang der Schöpfung.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
