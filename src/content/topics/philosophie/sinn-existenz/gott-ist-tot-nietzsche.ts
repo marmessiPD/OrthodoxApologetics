@@ -197,6 +197,22 @@ const claim: Claim = {
               objectionBy: 'Phil Zuckerman (Society without God, 2008)',
               answer: `Skandinavien ist ein faszinierender Fall – aber ein Beleg für meinen Punkt. Sein Sozialstaat, seine Gleichheit, seine Fürsorge für Schwache sind aus tausend Jahren christlich-lutherischer Prägung gewachsen. Die Frage ist, ob diese Werte ohne ihre Wurzel über Generationen tragen. Glücksindizes messen vor allem Wohlstand, Sicherheit und Vertrauen – und Vertrauen ist Kapital, das lange vorhält, bevor man merkt, dass es aufgebraucht wird.`,
               detail: `Zuckermans Studie ist seriös und verdient eine faire Antwort. Ausführlich im Claim „Säkulare Gesellschaften sind glücklicher und moralischer". Dort auch: Innerhalb vieler Länder sind religiös praktizierende Menschen im Durchschnitt zufriedener und sozial engagierter.`,
+              followUps: [
+                {
+                  id: 'stoiker-wuerde',
+                  objection: `Die These, Menschenwürde sei christliches Erbe, ist Triumphalismus. Die Stoiker kannten die Würde aller Menschen längst: Seneca schrieb „Der Mensch ist dem Menschen etwas Heiliges", Cicero sprach vom Weltbürgertum aller Vernunftwesen.`,
+                  objectionBy: 'Altphilologe / säkularer Humanist',
+                  answer: `Die Stoiker haben tatsächlich große Gedanken gehabt, und die Kirchenväter haben sie dankbar aufgenommen. Aber derselbe Seneca schreibt in *Über den Zorn* ganz selbstverständlich: Missgebildete und schwache Kinder ertränken wir – das sei nicht Zorn, sondern Vernunft, das Unbrauchbare vom Gesunden zu trennen. Die stoische Würde hing an der Vernunft und Nützlichkeit. Die christliche Würde hängt am Ebenbild Gottes – sie gilt dem behinderten Säugling genauso wie dem Philosophen. Deshalb haben Christen ausgesetzte Kinder aufgelesen, nicht Stoiker.`,
+                  detail: `Seneca, *Epistulae morales* 95,33: „homo, sacra res homini". Seneca, *De ira* I,15,2: „portentosos fetus exstinguimus, liberos quoque, si debiles monstrosique editi sunt, mergimus; nec ira sed ratio est a sanis inutilia secernere." Beide Sätze stammen vom selben Autor – das zeigt die Grenze der antiken Würdeidee. Die frühchristliche Schrift *Didache* (2,2) verbietet dagegen ausdrücklich die Tötung Neugeborener, und Christen nahmen ausgesetzte Kinder auf. Der Historiker Kyle Harper und Tom Holland (*Dominion*, 2019) beschreiben diese Umwertung ausführlich.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Lucius Annaeus Seneca', work: 'Über den Zorn (De ira)', ref: 'I,15,2', year: 'um 41 n. Chr.', quote: `Missgebildete Geburten löschen wir aus; auch Kinder, wenn sie schwächlich und missgestaltet geboren sind, ertränken wir; und es ist nicht Zorn, sondern Vernunft, das Unbrauchbare vom Gesunden zu trennen.`, original: `portentosos fetus exstinguimus, liberos quoque, si debiles monstrosique editi sunt, mergimus; nec ira sed ratio est a sanis inutilia secernere.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                    { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '2,2', year: 'um 100', quote: `Du sollst ein Kind nicht durch Abtreibung töten und das Neugeborene nicht umbringen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Würde an Vernunft hängt – was ist dann mit dem Säugling, dem Dementen, dem schwer Behinderten?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -229,6 +245,69 @@ const claim: Claim = {
               objectionBy: 'Nietzscheanischer Einwand',
               answer: `Demut ist nicht Selbstverachtung, sondern Wahrheit über sich selbst: weder aufgeblasen noch erniedrigt, sondern so, wie Gott mich sieht – geschaffen, geliebt, begnadigt. Gerade die Demütigsten waren oft die Stärksten: Athanasius wurde fünfmal verbannt und stand allein gegen Kaiser und Mehrheiten – „Athanasius gegen die Welt". Demut befreit vom ständigen Vergleichen, und wer sich nicht mehr vergleichen muss, kann furchtlos sein.`,
               detail: `Nietzsche verwechselt christliche Demut mit dem, was die Väter selbst als Laster bekämpften: Kleinmut und Verzagtheit. Die Wüstenväter warnten ausdrücklich vor falscher Demut, die nur verkleideter Stolz ist. Echte Demut ist die Voraussetzung echter Kühnheit (griechisch *parrhesia*), mit der die Märtyrer vor Kaiser und Richter traten.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'lebensfeindlich',
+      objection: `Das Christentum ist lebensfeindlich. Es verleumdet den Leib, die Sinnlichkeit, diese Erde zugunsten eines erfundenen Jenseits. Im christlichen Gottesbegriff ist Gott zum Widerspruch des Lebens entartet, statt seine Verklärung und sein ewiges Ja zu sein.`,
+      objectionBy: 'Friedrich Nietzsche (Der Antichrist, § 18)',
+      answer: `Nietzsche hatte eine leibfeindliche, pietistische Frömmigkeit vor Augen – sein Vater war lutherischer Pfarrer. Aber das ist nicht der christliche Glaube. Gott nennt die Schöpfung „sehr gut" (Gen 1,31); der ewige Sohn wird Fleisch; der Leib ist Tempel des Heiligen Geistes und wird auferstehen. Die koptische Kirche feiert Gott mit Weihrauch, Gesang, Ikonen, Brot und Wein; die Ehe ist ein Sakrament. Athanasius sagt: Der Logos hat einen Leib angenommen, damit wir vergöttlicht werden – das ist das größte Ja zum Leib, das je gesprochen wurde.`,
+      detail: `Im *Antichrist* (1888, § 18) wirft Nietzsche dem Christentum vor, Gott sei bei ihm „zum Widerspruch des Lebens abgeartet". Die Kirche hat aber von Anfang an gegen leibfeindliche Lehren gekämpft: gegen die Gnostiker, die die Materie für böse hielten (Irenäus, *Gegen die Häresien*), und gegen die Manichäer. Die Lehre von der Auferstehung des Fleisches war für die Griechen gerade deshalb anstößig, weil sie den Leib so ernst nimmt (Apg 17,32).`,
+      sources: [
+        { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Der Antichrist', ref: '§ 18', year: '1888', quote: `Nietzsche wirft dem christlichen Gottesbegriff vor, Gott sei darin zum Widerspruch des Lebens entartet, statt dessen Verklärung und ewiges Ja zu sein.`, status: 'paraphrase' },
+        { kind: 'bibel', work: '1. Mose', ref: '1,31', quote: `Und Gott sah an alles, was er gemacht hatte; und siehe da, es war sehr gut.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '54,3', year: 'ca. 318', quote: `Er wurde Mensch, damit wir vergöttlicht würden.`, status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Welche Weltanschauung sagt ein größeres Ja zum Leib: eine, für die er Zufallsprodukt der Materie ist, oder eine, in der Gott selbst Leib wurde und ihn auferweckt?`,
+      ],
+      followUps: [
+        {
+          id: 'fasten-askese-verneinung',
+          objection: `Und eure Praxis? Zweihundert Fastentage im Jahr, Mönche in der Wüste, Ehelosigkeit, Selbstverleugnung. Das ist gelebte Verneinung des Lebens.`,
+          objectionBy: 'Friedrich Nietzsche (Rezeption)',
+          answer: `Askese ist im orthodoxen Verständnis Training, nicht Verachtung – wie ein Athlet, der verzichtet, um frei und stark zu werden (1 Kor 9,25). Das Fasten befreit von der Herrschaft der Begierden; es endet immer im Fest, und die Fastenzeiten der koptischen Kirche münden in Weihnachten und Ostern. Die Wüstenväter waren keine Lebensverächter: Antonius lebte nach Athanasius bis ins hohe Alter mit klaren Augen und gesunden Zähnen, voller Freundlichkeit und Freude, sodass Fremde ihn unter vielen Mönchen an seinem strahlenden Gesicht erkannten.`,
+          detail: `Athanasius beschreibt in der *Vita Antonii* (Kap. 67 und 93), dass Antonius trotz strenger Askese bis zu seinem Tod mit etwa 105 Jahren gesund blieb und dass seine Freude und Gelassenheit auffielen. Die orthodoxe Askese zielt auf *Apatheia* – nicht Gefühllosigkeit, sondern Freiheit von zwanghaften Leidenschaften, damit die Liebe frei wird. Nietzsche selbst hat Askese im Dienst des „Willens zur Macht" positiv gedeutet; die christliche Askese dient dem Willen zur Liebe.`,
+          sources: [
+            { kind: 'bibel', work: '1. Korinther', ref: '9,25', quote: `Ein jeglicher aber, der da kämpft, enthält sich alles Dinges; jene also, daß sie eine vergängliche Krone empfangen, wir aber eine unvergängliche.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '67; 93', year: 'ca. 357', quote: `Antonius blieb bis ins hohe Alter gesund, seine Augen ungetrübt und seine Zähne erhalten; sein Gesicht strahlte vor Freude, sodass Fremde ihn unter den Brüdern erkannten.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ewige-wiederkunft',
+              objection: `Das echte Ja zum Leben ist die ewige Wiederkunft: Könntest du wollen, dass dein Leben mit jedem Schmerz und jeder Freude unendlich oft wiederkehrt? Wer das bejaht, braucht keinen Himmel. Euer Jenseits ist eine Flucht vor dieser Prüfung.`,
+              objectionBy: 'Friedrich Nietzsche (Die fröhliche Wissenschaft, § 341)',
+              answer: `Die Prüfung ist eindrucksvoll – für jemanden, dem es gut geht. Aber stell sie dem Kind, das in Auschwitz vergast wurde, oder der Frau, die jahrelang missbraucht wurde: Soll sie wollen, dass ihr Leiden in alle Ewigkeit wiederkehrt? Die ewige Wiederkunft verewigt das Grauen. Die christliche Hoffnung ist nicht Wiederholung, sondern Erlösung: „Siehe, ich mache alles neu" (Offb 21,5). Das ist kein Ausweichen vor der Wirklichkeit, sondern die Weigerung, das Böse zu bejahen.`,
+              detail: `Nietzsche führt den Gedanken in *Die fröhliche Wissenschaft* (1882, § 341, „Das größte Schwergewicht") ein und macht ihn im *Zarathustra* zum Zentrum. Er ist eine existenzielle Probe, keine kosmologische These. Sie verlangt, *alles* zu bejahen – auch das, was anderen angetan wurde. Darin liegt ihr moralisches Problem: Wer das Leiden der Opfer ewig wiederholt wissen will, um sein eigenes Leben zu bejahen, hat die Opfer aus dem Blick verloren.`,
+              sources: [
+                { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Die fröhliche Wissenschaft', ref: '§ 341', year: '1882', quote: `Ein Dämon fragt, ob man dieses Leben, wie man es lebt, noch einmal und noch unzählige Male leben wolle – mit jedem Schmerz und jeder Lust; wer das bejahen könne, habe das größte Schwergewicht getragen.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Offenbarung', ref: '21,5', quote: `Und der auf dem Stuhl saß, sprach: Siehe, ich mache alles neu!`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'amor-fati',
+                  objection: `Amor fati – liebe dein Schicksal, auch das Leid. Das ist Stärke. Eure Hoffnung auf Erlösung ist das Eingeständnis, dass ihr die Wirklichkeit nicht ertragt.`,
+                  objectionBy: 'Friedrich Nietzsche (Ecce homo)',
+                  answer: `Christen ertragen die Wirklichkeit nicht weniger – im Kreuz schaut der Glaube dem Leid ins Gesicht, ohne Beschönigung. Aber Christen lieben nicht das Böse, sondern den Menschen, dem es angetan wird, und den Gott, der es überwindet. Dietrich Bonhoeffer ging 1945 im Konzentrationslager Flossenbürg in den Tod – aus Glauben, mit einer Gelassenheit, die selbst der Lagerarzt bezeugte. Das war nicht Schwäche, sondern eine Stärke, die aus Hoffnung kommt. Amor fati verlangt, auch die Gaskammern zu lieben; das Evangelium verlangt, gegen sie aufzustehen.`,
+                  detail: `In *Ecce homo* (1888, „Warum ich so klug bin", Abschnitt 10) nennt Nietzsche seine Formel für die Größe am Menschen *amor fati*: nichts anders haben wollen, nicht vorwärts, nicht rückwärts, in alle Ewigkeit nicht. Bonhoeffer wurde am 9. April 1945 in Flossenbürg hingerichtet; der dortige Lagerarzt schilderte später, er habe kaum je einen Mann so gottergeben sterben sehen. Bonhoeffers Gedicht „Von guten Mächten" (Dezember 1944) zeigt eine Hoffnung, die das Leid nicht leugnet und sich doch nicht von ihm beherrschen lässt.`,
+                  voices: [
+                    {
+                      person: 'dietrich-bonhoeffer',
+                      role: 'als Theologe und Widerstandskämpfer',
+                      text: `Bonhoeffer verstand den christlichen Glauben nicht als Flucht aus der Welt, sondern als Teilnahme am Leiden Gottes in der Welt. Gerade aus diesem Glauben heraus beteiligte er sich am Widerstand gegen Hitler. Für ihn ist der Christ kein Mensch, der das Schicksal liebt, sondern einer, der vor Gott verantwortlich handelt und das Leid trägt, ohne das Böse gutzuheißen – getragen von der Hoffnung auf die Auferstehung.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Dietrich Bonhoeffer', work: 'Widerstand und Ergebung', year: '1951 (postum)', quote: `Bonhoeffer beschreibt den Glauben als Teilnahme am Leiden Gottes in der Welt und als verantwortliches Handeln aus der Hoffnung.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Ecce homo', ref: '„Warum ich so klug bin", Abschnitt 10', year: '1888', quote: `Meine Formel für die Größe am Menschen ist amor fati: dass man nichts anders haben will, vorwärts nicht, rückwärts nicht, in alle Ewigkeit nicht.`, status: 'verbatim' },
+                  ],
+                },
+              ],
             },
           ],
         },

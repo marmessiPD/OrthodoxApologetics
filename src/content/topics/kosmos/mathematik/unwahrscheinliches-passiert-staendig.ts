@@ -142,6 +142,21 @@ const claim: Claim = {
               sources: [
                 { kind: 'wissenschaft', author: 'Douglas D. Axe', work: 'Estimating the Prevalence of Protein Sequences Adopting Functional Enzyme Folds', ref: 'Journal of Molecular Biology 341 (2004), 1295–1315', year: '2004', status: 'paraphrase', note: 'Die Schätzung ist in der Fachwelt umstritten; ehrlich als Schätzung präsentieren.' },
               ],
+              followUps: [
+                {
+                  id: 'keefe-szostak',
+                  objection: `Keefe und Szostak haben 2001 in *Nature* gezeigt, dass etwa eines von 10¹¹ Zufallsproteinen ATP bindet. Funktion ist also gar nicht so selten – Axes Zahl ist ein Ausreißer.`,
+                  objectionBy: 'Jeffrey Shallit / Joe Felsenstein',
+                  answer: `Ein ehrlicher und wichtiger Befund. Aber man vergleicht hier Verschiedenes: Schwaches **Binden** eines kleinen Moleküls ist etwas anderes als eine stabil gefaltete Domäne, die eine bestimmte Reaktion **katalysiert** – darauf bezieht sich Axes Schätzung. Zudem wurden die Keefe-Szostak-Proteine nach der Auswahl über mehrere Runden gezielt verbessert. Und selbst 1 zu 10¹¹ für **eine** schwache Funktion wird schnell astronomisch, wenn eine Zelle Hunderte koordinierter Proteine braucht.`,
+                  detail: `Für die Debatte ist entscheidend, ehrlich zu bleiben: Die Häufigkeit funktionaler Sequenzen ist eine **offene empirische Frage**, und die Schätzungen schwanken je nach Funktion um viele Größenordnungen. Was du festhalten kannst: (1) Das Argument hängt nicht an einer einzigen Zahl. (2) Gerade bei komplexen, voneinander abhängigen Systemen (z. B. Translation, Replikation) multiplizieren sich die Hürden. (3) Wer behauptet „Unwahrscheinliches passiert ständig", muss zeigen, dass die verfügbaren Versuche ausreichen – nicht nur, dass irgendeine Funktion irgendwann vorkommt.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Anthony D. Keefe & Jack W. Szostak', work: 'Functional proteins from a random-sequence library', ref: 'Nature 410 (2001), 715–718', year: '2001', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wie viele aufeinander abgestimmte Proteine braucht die einfachste bekannte Zelle – und was ergibt die Multiplikation?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -149,6 +164,21 @@ const claim: Claim = {
           id: 'lotterie-irgendeiner',
           objection: `In der Lotterie gewinnt immer irgendwer. Der Gewinner staunt – aber zu Unrecht.`,
           answer: `Richtig, denn dass **irgendein** Los gewinnt, ist bei Millionen Losen fast sicher – die Ressourcen sind groß. Wenn aber der Neffe des Lotteriechefs fünfmal hintereinander gewinnt, wird ermittelt. Es kommt darauf an, ob das spezifizierte Ergebnis im Verhältnis zu den verfügbaren Versuchen unwahrscheinlich ist.`,
+          followUps: [
+            {
+              id: 'anthropisch-wir-muessen-staunen',
+              objection: `Bei der Feinabstimmung des Universums ist es genauso: Wir können uns nur in einem lebensfreundlichen Universum wiederfinden. Dass wir es beobachten, ist keine Überraschung, sondern eine Bedingung des Beobachtens.`,
+              objectionBy: 'Michael Shermer / Elliott Sober',
+              answer: `Dass wir **nur** ein lebensfreundliches Universum beobachten **können**, stimmt. Aber das erklärt nicht, **warum** es eines gibt. John Leslies Bild: Du stehst vor einem Erschießungskommando aus fünfzig Scharfschützen – alle verfehlen. Natürlich kannst du nur weiterleben, wenn alle verfehlt haben. Trotzdem wäre es absurd zu sagen: „Kein Grund zu staunen." Du würdest fragen, ob die Verfehlung geplant war.`,
+              detail: `Der Beobachtungsselektionseffekt erklärt nur dann etwas, wenn es viele Versuche gibt, aus denen ausgewählt wird – also ein Multiversum. Ohne Multiversum bleibt das Erschießungskommando-Problem bestehen; mit Multiversum stellen sich die Fragen nach dessen eigener Feinabstimmung und nach den Boltzmann-Gehirnen (siehe Knoten zum Gesetz der großen Zahlen und Themenblock „Feinabstimmung"). Elliott Sober hat gegen Leslie eingewandt, dass der Selektionseffekt die Wahrscheinlichkeitsabwägung verzerre; Philosophen wie Robin Collins und John Leslie haben darauf ausführlich geantwortet.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'John Leslie', work: 'Universes', year: '1989', status: 'paraphrase', note: 'Leslie ist kein klassischer Theist; sein Erschießungskommando-Gleichnis ist dennoch zum Standardbild geworden.' },
+              ],
+              questionsBack: [
+                `Wenn fünfzig Scharfschützen dich verfehlen – staunst du, oder sagst du: „Sonst wäre ich ja nicht hier"?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -176,6 +206,21 @@ const claim: Claim = {
               questionsBack: [
                 `Wenn unendlich viele Versuche alles erklären – womit schließt du dann aus, dass deine Erinnerung an das gestrige Experiment eine Zufallsfluktuation ist?`,
               ],
+              followUps: [
+                {
+                  id: 'mass-unterdrueckt-boltzmann',
+                  objection: `Seriöse Multiversumsmodelle wählen ein Wahrscheinlichkeitsmaß, das Boltzmann-Gehirne unterdrückt. Das Problem ist technisch, nicht grundsätzlich.`,
+                  objectionBy: 'Max Tegmark / Sean Carroll',
+                  answer: `Dann ist das Maß selbst so gewählt, dass es das gewünschte Ergebnis liefert – die Feinabstimmung wandert vom Universum ins Maß. Das „Maßproblem" der ewigen Inflation gilt unter Kosmologen als ungelöst: Verschiedene vernünftige Maße liefern völlig verschiedene Vorhersagen. Eine Theorie, deren Vorhersagen davon abhängen, welches Maß man bevorzugt, kann Unwahrscheinlichkeit nicht wegerklären.`,
+                  detail: `Alan Guth, Alexander Vilenkin und andere haben das Maßproblem offen benannt: In einem ewig inflationierenden Multiversum geschieht alles unendlich oft, und relative Häufigkeiten hängen davon ab, wie man abschneidet. Wer Boltzmann-Gehirne durch die Wahl des Maßes ausschließt, nimmt eine zusätzliche, speziell abgestimmte Annahme – genau das, was man vermeiden wollte. Das ist kein Gottesbeweis, aber es zeigt: „Unendlich viele Versuche" ist keine kostenlose Erklärung.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Alan H. Guth', work: '„Eternal inflation and its implications", Journal of Physics A 40', year: '2007', status: 'paraphrase', note: 'Guth beschreibt das Maßproblem als zentrales ungelöstes Problem der ewigen Inflation.' },
+                  ],
+                  questionsBack: [
+                    `Nach welchem unabhängigen Kriterium wählst du das Maß – außer danach, dass es die richtigen Beobachter liefert?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -195,6 +240,28 @@ const claim: Claim = {
           answer: `Genau – und das ist der Punkt: Das Programm funktionierte, weil der Zielsatz einprogrammiert war. Robert Marks und William Dembski haben gezeigt, dass erfolgreiche evolutionäre Algorithmen allgemein „aktive Information" ihrer Programmierer enthalten. Die Frage verschiebt sich damit in die reale Biologie: Wie dicht liegen funktionale Proteine im Sequenzraum? Das ist eine empirische Frage, die wir offen diskutieren sollten.`,
           sources: [
             { kind: 'fachliteratur', author: 'Robert J. Marks II, William A. Dembski, Winston Ewert', work: 'Introduction to Evolutionary Informatics', year: '2017', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'information-aus-umwelt',
+              objection: `„Aktive Information" ist trivial. In der Natur stammt die Information aus der Fitnesslandschaft – aus Physik, Chemie und Umwelt. Dafür braucht man keinen Programmierer.`,
+              objectionBy: 'Joe Felsenstein / Jeffrey Shallit',
+              answer: `Einverstanden, dass die Information aus der Landschaft kommen kann – genau das sagt das Argument: Suche ist nur so gut wie die Struktur, in der gesucht wird. Dann lautet die Frage aber: Warum hat unsere Physik und Chemie eine Landschaft, in der lebendige, funktionale Strukturen erreichbar sind? Eine beliebige Landschaft wäre für Leben unfruchtbar. Die Information ist nicht verschwunden, sie wurde in die Naturgesetze verschoben.`,
+              detail: `Die „No-Free-Lunch"-Sätze (Wolpert & Macready 1997) zeigen: Über alle möglichen Fitnesslandschaften gemittelt ist kein Suchalgorithmus besser als blinde Suche. Erfolg setzt also eine **passende** Landschaft voraus. Dembski und Marks nennen das „Erhaltung der Information". Ehrlich: Kritiker bestreiten, dass daraus ein Design-Schluss folgt. Aber selbst dann landet man bei der Feinabstimmung der Naturgesetze, die eine solche Landschaft ermöglichen – das Rätsel ist verschoben, nicht gelöst.`,
+              voices: [
+                {
+                  person: 'dembski',
+                  role: 'als Mathematiker und Wahrscheinlichkeitstheoretiker',
+                  text: `Dembski argumentiert, dass evolutionäre Suchprozesse Information nicht aus dem Nichts erzeugen, sondern umverteilen: Ein Suchverfahren, das besser als Zufall ist, setzt bereits Information über das Ziel oder die Landschaft voraus. Die Frage nach dem Ursprung dieser Information lässt sich auf die Ebene der Naturgesetze und Anfangsbedingungen verschieben, aber nicht beseitigen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'William A. Dembski', work: 'Being as Communion: A Metaphysics of Information', year: '2014', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'wissenschaft', author: 'David H. Wolpert & William G. Macready', work: '„No Free Lunch Theorems for Optimization", IEEE Transactions on Evolutionary Computation 1', year: '1997', status: 'paraphrase' },
+              ],
+            },
           ],
         },
       ],

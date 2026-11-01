@@ -149,6 +149,103 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'ein-prosopon-der-einigung',
+      objection: `„Nestorius hat nie zwei Söhne gelehrt. Er bekannte ein ‚Prosopon der Einigung' – einen Christus. Ihr kämpft gegen ein Zerrbild."`,
+      objectionBy: 'Theologe der Assyrischen Kirche des Ostens',
+      answer: `Nestorius sprach tatsächlich von einem Prosopon der Einigung. Aber für ihn war die Einigung eine Verbindung (*synapheia*) zweier Naturen, die je ihr eigenes Prosopon behalten, zusammengehalten durch Gottes Wohlgefallen. Die Probe ist einfach: **Wer** wurde von Maria geboren, **wer** starb am Kreuz? Antwort Kyrills: der Logos selbst in seinem eigenen Fleisch. Antwort des Nestorius: der Mensch, in dem der Logos wohnte. Die Schrift sagt: Sie haben „den Herrn der Herrlichkeit gekreuzigt" (1 Kor 2,8).`,
+      detail: `Darum ist die Weigerung, „Gott wurde geboren" oder „Gott litt im Fleisch" zu sagen, nicht bloß Vorsicht in der Sprache: Sie verrät, dass das Subjekt der menschlichen Erfahrungen Christi nicht der ewige Sohn ist. Kyrills zwölfter Anathematismus fasst das Gegenbekenntnis zusammen: Der Logos Gottes hat im Fleisch gelitten, ist im Fleisch gekreuzigt worden und hat im Fleisch den Tod gekostet. Die koptische Kirche bekennt das in jeder Liturgie – ohne Vermischung der Naturen und ohne ihre Trennung.`,
+      sources: [
+        { kind: 'bibel', work: '1. Korinther', ref: '2,8', quote: `… denn wo sie die erkannt hätten, hätten sie den Herrn der Herrlichkeit nicht gekreuzigt.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Dritter Brief an Nestorius, Anathematismus 12', year: '430', status: 'paraphrase' },
+      ],
+      questionsBack: [`Wer ist am Kreuz gestorben – der ewige Sohn Gottes in seinem Fleisch oder ein Mensch, mit dem er verbunden war?`],
+      followUps: [
+        {
+          id: 'apg-20-28-variante',
+          objection: `„Apg 20,28 – ‚die Gemeinde Gottes, die er durch sein eigen Blut erworben hat' – ist textkritisch unsicher; manche Handschriften lesen ‚Gemeinde des Herrn'. Und ‚sein eigen Blut' kann auch ‚das Blut seines Eigenen' heißen."`,
+          objectionBy: 'Antiochenisch orientierter Exeget',
+          answer: `Die textkritische Unsicherheit gestehe ich zu. Aber die Sprache vom „Blut Gottes" hängt nicht an diesem Vers: Ignatius von Antiochien, Schüler der Apostelzeit, schreibt um 110 von der Gemeinde, die „im Blut Gottes" neu entflammt wurde, und bittet: „Lasst mich ein Nachahmer des Leidens meines Gottes sein." Das ist die ursprüngliche Sprache der Kirche – lange vor Kyrill.`,
+          voices: [
+            {
+              person: 'ignatius-antiochien',
+              role: 'als Zeuge des frühesten christologischen Bekenntnisses',
+              text: `Ignatius spricht ganz selbstverständlich vom „Blut Gottes" und vom „Leiden meines Gottes". Für ihn ist der eine Jesus Christus „Arzt, fleischlich und geistlich, gezeugt und ungezeugt, im Fleisch erschienener Gott, im Tod wahres Leben, aus Maria und aus Gott, erst leidensfähig und dann leidensunfähig". Die Einheit des Subjekts ist das Herz seines Bekenntnisses.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Epheser', ref: '1,1; 7,2', year: 'um 110', status: 'paraphrase' },
+                { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Römer', ref: '6,3', year: 'um 110', status: 'paraphrase', quote: `Lasst mich ein Nachahmer des Leidens meines Gottes sein.` },
+              ],
+            },
+          ],
+          followUps: [
+            {
+              id: 'ignatius-rhetorisch',
+              objection: `„Ignatius redete rhetorisch und ungenau, bevor die Begriffe geklärt waren. Daraus kann man keine Christologie ableiten."`,
+              objectionBy: 'Antiochenischer Theologe',
+              answer: `Gerade das ist der Punkt: Der früheste, unreflektierte Glaube der Kirche spricht vom Blut Gottes und vom Leiden Gottes. Nestorius' „Präzisierung" nahm der Kirche, was sie im Gebet schon immer sagte – *lex orandi, lex credendi*. Das koptische Trishagion bekennt: „Heiliger Unsterblicher, der du für uns gekreuzigt wurdest", und eines der ältesten erhaltenen Mariengebete („Unter deinen Schutz", Papyrus Rylands 470, dessen Datierung zwischen dem 3. und späteren Jahrhunderten diskutiert wird) ruft Maria als „Gottesgebärerin" an.`,
+              sources: [
+                { kind: 'liturgie', work: 'Gebet „Unter deinen Schutz und Schirm" (Sub tuum praesidium), Papyrus Rylands 470', status: 'paraphrase', note: 'Ägyptischer Papyrus; die Datierung ist umstritten (3. Jh. bis frühes Mittelalter vorgeschlagen). Enthält die Anrufung „Gottesgebärerin".' },
+              ],
+              followUps: [
+                {
+                  id: 'idiomenkommunikation-nur-sprache',
+                  objection: `„Die Mitteilung der Eigenschaften ist nur eine Redeweise. Man darf sagen ‚Gott starb', aber in Wahrheit litt nur die menschliche Natur. Gott selbst ist leidensunfähig."`,
+                  objectionBy: 'Reformierter oder antiochenischer Theologe',
+                  answer: `Es ist mehr als eine Redeweise: Der Logos hat das Fleisch wirklich zu seinem eigenen gemacht, darum sind die Leiden dieses Fleisches wirklich seine Leiden. Kyrill sagt: Er „litt leidenslos" – die göttliche Natur als solche leidet nicht, aber die Person des Logos leidet in ihrem eigenen Fleisch. Wäre es nur Sprache, dann hätte am Kreuz nur ein Mensch gelitten – und ein menschlicher Tod kann den Tod nicht besiegen. Nur weil der Sohn Gottes selbst den Tod kostete, hat er dem die Macht genommen, „der des Todes Gewalt hatte" (Hebr 2,14).`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Lehrer der Menschwerdung',
+                      text: `Athanasius betont, dass der Leib, der am Kreuz litt, nicht der Leib eines anderen war, sondern des Logos selbst. Darum konnte der Tod in diesem Leib vernichtet werden: Der Unsterbliche nahm einen sterblichen Leib als seinen eigenen an, um durch dessen Tod den Tod für alle aufzuheben.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Brief an Epiktet', ref: '6', year: 'um 371', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'unionsformel-433',
+      objection: `„Das eigentliche Problem war Kyrills unklare Sprache: ‚Physis' und ‚Hypostase' benutzte er durcheinander. Die Antiochener fürchteten zu Recht eine Vermischung wie bei Apollinaris."`,
+      objectionBy: 'Historiker der antiochenischen Theologie',
+      answer: `Diese Sorge wurde 433 ernst genommen – und gelöst: In der Unionsformel mit Johannes von Antiochien bekannten beide Seiten eine Einigung zweier Naturen ohne Vermischung und dass Maria **Gottesgebärerin** ist, weil der Gott-Logos aus ihr Fleisch annahm. Kyrill nahm die antiochenische Sorge auf, die Antiochener nahmen die Theotokos an. Nur Nestorius selbst hat dieses Bekenntnis nicht mitgetragen.`,
+      sources: [
+        { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Brief 39 an Johannes von Antiochien („Laetentur caeli") mit der Unionsformel', year: '433', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'nestorius-politisch-geopfert',
+          objection: `„Nestorius wurde dem Kirchenfrieden geopfert. Johannes von Antiochien ließ ihn aus politischen Gründen fallen."`,
+          objectionBy: 'Kirchenkritischer Historiker',
+          answer: `Politische Faktoren gab es – auf allen Seiten, das gestehen wir zu. Aber der Inhalt bleibt entscheidend: Das Herz der Unionsformel ist, dass der eine Herr Jesus Christus, der Logos, nach seiner Menschheit aus der Jungfrau geboren wurde. Das konnte Nestorius auch später im „Bazar des Heraklides" nicht vorbehaltlos sagen. Selbst Forscher, die seine Absichten wohlwollend deuten, etwa Aloys Grillmeier, kommen zu dem Ergebnis, dass er die wirkliche Einheit in Christus begrifflich nicht fassen konnte.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Aloys Grillmeier', work: 'Jesus der Christus im Glauben der Kirche, Bd. 1', year: '1979', status: 'paraphrase', note: 'Katholischer Dogmenhistoriker; würdigt Nestorius’ Anliegen, hält seine Einigungslehre aber für unzureichend.' },
+          ],
+          followUps: [
+            {
+              id: 'kirche-des-ostens-heute',
+              objection: `„Die Assyrische Kirche des Ostens bekennt heute Christus als wahren Gott und wahren Menschen. Sind ihre Gläubigen etwa Häretiker, weil sie Nestorius ehren?"`,
+              objectionBy: 'Theologe der Assyrischen Kirche des Ostens',
+              answer: `Wir unterscheiden zwischen Menschen und Lehren: Die Christen der Kirche des Ostens haben ein ehrwürdiges Zeugnis – Mission bis nach China, Martyrium unter vielen Herrschern. Die gemeinsame Erklärung mit Rom von 1994 zeigt Fortschritte. Die koptische Kirche hat jedoch Vorbehalte, solange Nestorius und Theodor von Mopsuestia liturgisch als Heilige verehrt werden. Der Prüfstein bleibt das Bekenntnis, dass Maria den Gott-Logos dem Fleisch nach geboren hat.`,
+              followUps: [
+                {
+                  id: 'warum-noch-verurteilen',
+                  objection: `„Warum besteht ihr nach 1500 Jahren noch auf der Verurteilung eines Toten? Überlasst ihn doch Gott."`,
+                  objectionBy: 'Evangelischer Gesprächspartner',
+                  answer: `Über die Seele des Nestorius urteilt allein Gott – die Kirche urteilt über die Lehre. Die Verurteilung schützt das Herz des Evangeliums: dass der, der für uns gestorben ist, Gott der Logos selbst ist. Athanasius sagt: Nur wenn Gott selbst Mensch wurde, können wir vergöttlicht werden; ein bloß mit Gott verbundener Mensch könnte uns nicht retten. Die Ablehnung einer Lehre ist kein Hass auf eine Person – die koptische Kirche betet in jeder Liturgie für alle Menschen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '54,3', year: 'ca. 318', quote: `Er wurde Mensch, damit wir vergöttlicht würden.`, status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wessen Mutter ist Maria – eines Leibes oder einer Person? Und wer ist diese Person nach Joh 1,14?`,

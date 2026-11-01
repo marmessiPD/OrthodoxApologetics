@@ -131,6 +131,80 @@ const claim: Claim = {
           objectionBy: 'John Van Seters',
           answer: `Einzelne Bräuche datieren tatsächlich wenig – darum argumentiere ich kumulativ. Der Sklavenpreis von 20 Schekel ist ein konkreter Zahlenwert, der sich über die Jahrhunderte nachweislich verändert hat. Zusammen mit Namen und Vertragsformen ergibt sich ein Bild, das zum frühen 2. Jahrtausend passt – und das ein Autor des 1. Jahrtausends kaum zufällig getroffen hätte.`,
           questionsBack: [`Woher sollte ein Autor des 7. Jahrhunderts den Sklavenpreis des 18. Jahrhunderts kennen?`],
+          followUps: [
+            {
+              id: 'zwanzig-schekel-lev-27',
+              objection: `Die 20 Schekel datieren gar nichts. Levitikus 27,5 setzt genau 20 Schekel als Wert für einen Jungen zwischen 5 und 20 Jahren fest – und Josef war 17. Ein Autor des 1. Jahrtausends brauchte nur das Gesetz seiner Zeit zu kennen.`,
+              objectionBy: 'Kritiker Kitchens (BAR-Erwiderung „Where Kitchen Erred")',
+              answer: `Das ist ein guter Einwand, und er schwächt Kitchens Argument tatsächlich. Ich nehme ihn ernst: Levitikus 27 nennt Schätzwerte für Gelübde, keine Marktpreise, aber die Übereinstimmung mit Josefs Alter ist auffällig. Ehrlich gesagt: Die 20 Schekel allein beweisen kein frühes Datum. Ich führe sie deshalb nicht mehr als Hauptargument an, sondern nur noch als einen Baustein unter mehreren.`,
+              detail: `Hier zeigt sich, warum Ehrlichkeit stärker ist als Rechthaben: Wer den Einwand anerkennt, behält Glaubwürdigkeit für die stärkeren Argumente. Kitchens Datenreihe zu den Preisen bleibt interessant (Codex Hammurabi, Mari, Ex 21,32, 2 Kön 15,20), aber sie hat Ausnahmen und hängt von Alter und Geschlecht des Sklaven ab. Ihre Beweiskraft ist begrenzt.`,
+              sources: [
+                { kind: 'bibel', work: 'Levitikus', ref: '27,5', quote: `Von fünf Jahren bis auf zwanzig Jahre sollst du ihn schätzen auf zwanzig Silberlinge, wenn's ein Männlein ist.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'gegner', work: 'Dating the Patriarchal Age: Where Kitchen Erred (Sidebar). Biblical Archaeology Review', year: '1995/96', quote: `Josefs Preis entspreche dem Wert für Jungen im 1. Jahrtausend nach Lev 27,5 und tauge nicht als Beleg für die Mittelbronzezeit.`, status: 'paraphrase', url: 'https://library.biblicalarchaeology.org/sidebar/dating-the-patriarchal-age-where-kitchen-erred/', note: 'Autor und genaues Heft nicht geprüft; Existenz der Erwiderung per Websuche bestätigt.' },
+              ],
+              followUps: [
+                {
+                  id: 'kumulativ-summe-von-nullen',
+                  objection: `Dann bleibt von eurem „kumulativen Argument" nichts übrig. Eine Summe von Nullen ist null.`,
+                  objectionBy: 'Thomas L. Thompson',
+                  answer: `Es bleiben Daten, die ein späterer Autor gerade nicht hätte erfinden wollen: Abraham heiratet seine Halbschwester (Gen 20,12), Jakob zwei Schwestern (Gen 29) – beides verbietet das Gesetz (Lev 18,9.18). Abraham pflanzt einen heiligen Baum (Gen 21,33), Jakob richtet einen Malstein auf und salbt ihn (Gen 28,18) – Deuteronomium verbietet genau das (Dtn 16,21–22). Ein Autor aus der Zeit der deuteronomischen Reform hätte die verehrten Väter kaum als Gesetzesbrecher dargestellt. Das spricht für Überlieferung, die älter ist als das Gesetz, das sie überlagerte.`,
+                  detail: `Dieses Argument stammt nicht von Apologeten allein: Auch R. W. L. Moberly (*The Old Testament of the Old Testament*, 1992) und Gordon Wenham haben die „vor-mosaische" Religion der Genesis herausgearbeitet – die Väter beten Gott als El Schaddai, El Eljon oder El Olam an, und Ex 6,3 sagt ausdrücklich, dass sie den Namen JHWH in seiner Bedeutung noch nicht kannten. Ein späterer Erzähler, der die Väter als Vorbilder des Gesetzes zeichnen wollte, hätte diese Spannungen geglättet.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Deuteronomium', ref: '16,21–22', quote: `Du sollst keinen Hain von Bäumen pflanzen bei dem Altar des HERRN … Du sollst dir keine Säule aufrichten.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Genesis', ref: '28,18', quote: `Jakob nahm den Stein, den er zu seinen Häupten gelegt hatte, und richtete ihn auf zu einem Mal und goss Öl obendrauf.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'R. W. L. Moberly', work: 'The Old Testament of the Old Testament. Patriarchal Narratives and Mosaic Yahwism', year: '1992', quote: `Die Religion der Patriarchen unterscheidet sich deutlich vom mosaischen Jahwismus und wird in der Genesis bewusst als vor-mosaisch dargestellt.`, status: 'paraphrase' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'bewusst-archaisiert',
+                      objection: `Antike Autoren konnten bewusst archaisieren. Gerade ein geschickter Schreiber lässt die Väter vor dem Gesetz leben, um Alter vorzutäuschen.`,
+                      objectionBy: 'John Van Seters',
+                      answer: `Möglich ist das – aber es ist eine teure Annahme. Ein Schreiber hätte damit seine eigenen Nationalväter Bräuche ausüben lassen, die seine Bewegung als Götzendienst bekämpfte, und ihnen Ehen zuschreiben müssen, die sein Gesetz als Schande verurteilt. Archaisierung kennt man aus der Antike, aber meist als Kolorit, nicht als Selbstbelastung. Die einfachere Erklärung ist, dass die Erzählungen Überlieferungen bewahren, die man aus Ehrfurcht nicht korrigierte.`,
+                      questionsBack: [`Kennst du ein antikes Beispiel, in dem ein Autor seine verehrten Gründerväter absichtlich gegen sein eigenes Gesetz verstoßen ließ, nur um alt zu wirken?`],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'ur-der-chaldaeer',
+      objection: `„Ur der Chaldäer" verrät das Datum: Die Chaldäer sind erst ab dem 9. Jahrhundert v. Chr. belegt. Die Abrahamsgeschichte stammt aus der Zeit, als die Chaldäer Babylon beherrschten – also aus dem Exil.`,
+      objectionBy: 'John Van Seters',
+      answer: `Dass „der Chaldäer" eine spätere Erläuterung ist, gebe ich ohne Weiteres zu – genau wie „Dan" in Gen 14,14. Ein Schreiber erklärte seinen Lesern, welches Ur gemeint war. Das datiert den Zusatz, nicht die Überlieferung. Interessant ist eher, was nicht erläutert wird: Die Verwandtschaft Abrahams ist fest mit der Gegend um Harran in Obermesopotamien verbunden – mit Namen, die dort schon im 2. Jahrtausend vorkommen.`,
+      followUps: [
+        {
+          id: 'harran-ortsnamen-spaet',
+          objection: `Die Namen der Verwandten – Nahor, Serug, Terach – sind Ortsnamen um Harran, die in neuassyrischen Texten des 1. Jahrtausends auftauchen. Das zeigt den Horizont des Autors.`,
+          objectionBy: 'Thomas L. Thompson',
+          answer: `Einige davon sind aber viel älter: „Nahur" ist bereits in den Mari-Briefen des 18. Jahrhunderts v. Chr. als Ort in diesem Gebiet belegt. Dass die Orte auch später noch existierten, ist natürlich – Ortsnamen leben lange. Für die Frage nach dem Alter der Überlieferung ist entscheidend, dass sie im 2. Jahrtausend schon da waren. Damit ist das Argument neutral, nicht ein Beleg für Spätentstehung.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'On the Reliability of the Old Testament', ref: 'Kap. 7', year: '2003', quote: `Nahur als Ortsname in den Mari-Texten; Personen- und Ortsnamen der Patriarchenfamilie im obermesopotamischen Raum.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'laban-aramaeer',
+              objection: `Und Laban heißt „der Aramäer". Aramäer gibt es erst ab dem späten 2. Jahrtausend. Wieder ein Anachronismus.`,
+              objectionBy: 'Israel Finkelstein',
+              answer: `Auch hier kann der Volksname eine spätere Bezeichnung für die Bewohner der Region sein – das räume ich ein. Aber bemerkenswert ist etwas anderes: Israels eigenes Glaubensbekenntnis lautet „Ein umherirrender Aramäer war mein Vater" (Dtn 26,5). Ein Volk, das sich einen Ursprung erfindet, wählt kaum fremde, heimatlose Vorfahren und eine Sklavenzeit in Ägypten. Solche Selbstaussagen gegen das eigene Prestige sprechen für eine tief verwurzelte Erinnerung.`,
+              sources: [
+                { kind: 'bibel', work: 'Deuteronomium', ref: '26,5', quote: `Mein Vater war ein umherirrender Aramäer und zog hinab nach Ägypten.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'abraham-als-exilsmodell',
+                  objection: `Gerade das passt ins Exil: Abraham zieht aus Babylonien nach Kanaan – genau wie die Rückkehrer nach 538. Die Abrahamsgeschichte ist ein Gründungsmythos für die Heimkehrer.`,
+                  objectionBy: 'Thomas Römer',
+                  answer: `Die Parallele ist reizvoll, aber das Profil passt schlecht: Abraham hat keinen Tempel, kennt kein Jerusalem als Zentrum, hält kein mosaisches Gesetz, lebt friedlich mit Kanaanäern und betet Gott unter dem Namen El an. Gerade die Themen, die die Rückkehrer bewegten – Tempelbau, Abgrenzung von den „Völkern des Landes", Tora – fehlen. Ein Exilsautor hätte seinen Urvater wohl kaum gegen alle Anliegen seiner eigenen Gemeinde gezeichnet.`,
+                  detail: `Ehrlich: Dass die Genesis in ihrer Endgestalt auch in der Exilszeit gelesen und bearbeitet wurde, bestreitet niemand. Die Frage ist, ob die Erzählungen dort *entstanden*. Die vielen „unpassenden" Züge – vor-mosaische Religion, friedliches Miteinander mit Kanaanäern (Gen 23), Heirat mit Fremden – lassen sich besser als ältere Überlieferung erklären, die man aus Respekt bewahrte.`,
+                  questionsBack: [`Wenn die Abrahamsgeschichte für Heimkehrer geschrieben wurde, warum kauft Abraham sein Grab in Frieden von den Hethitern, statt sich von den Völkern abzugrenzen wie in Esra und Nehemia?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -144,10 +218,12 @@ const claim: Claim = {
   avoid: [
     `Behaupten, die Patriarchen seien archäologisch „bewiesen" – es gibt keine direkte Erwähnung Abrahams außerhalb der Bibel.`,
     `Die Kamelstudie als „Fake News" abtun – sie ist solide; nur ihre populäre Deutung ist überzogen.`,
+    `Josefs 20 Schekel als „Beweis" für die Mittelbronzezeit präsentieren – der Einwand mit Lev 27,5 ist bekannt.`,
   ],
   concessions: [
     `Einige Namen in der Genesis (z. B. „Chaldäer", „Dan") sind sicher spätere Aktualisierungen.`,
     `Manche früher gefeierten Parallelen aus Nuzi wurden überschätzt.`,
+    `Das 20-Schekel-Argument ist angreifbar: Lev 27,5 nennt denselben Wert für Jungen von 5 bis 20 Jahren. Es taugt nur als Baustein, nicht als Beweis.`,
   ],
   furtherReading: [
     { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'On the Reliability of the Old Testament', year: '2003', status: 'paraphrase' },

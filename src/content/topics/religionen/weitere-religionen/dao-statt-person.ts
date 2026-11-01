@@ -134,6 +134,23 @@ const claim: Claim = {
           objection: `Das ist eine christliche Vereinnahmung chinesischer Begriffe.`,
           objectionBy: 'Alan Watts (sinngemäß)',
           answer: `Jede Übersetzung benutzt vorhandene Wörter – sonst könnte man gar nicht übersetzen. Christen in China taten das schon sehr früh: Die Stele von Xi'an aus dem Jahr 781 bezeugt die Mission der Kirche des Ostens seit 635 in chinesischer Sprache. Wir behaupten nicht, Laozi sei Christ gewesen. Wir sagen mit Justin: Wo Wahrheit aufleuchtete, kam sie vom Logos, „der alle Menschen erleuchtet" (Joh 1,9).`,
+          followUps: [
+            {
+              id: 'ritenstreit-unvereinbar',
+              objection: `Die Jesuiten um Matteo Ricci haben das Christentum chinesisch verkleidet – und Rom hat es im Ritenstreit verboten. Das zeigt doch: Christentum und chinesisches Denken passen im Grunde nicht zusammen.`,
+              objectionBy: 'Alan Watts (sinngemäß)',
+              answer: `Der Ritenstreit zeigt vor allem, dass Christen ernsthaft darum gerungen haben, was zum Evangelium gehört und was zur Kultur – eine schwierige, aber ehrliche Frage. Rom hat seine Haltung 1939 übrigens revidiert und die Ahnenehrung als bürgerlichen Brauch erlaubt. Ricci lernte Chinesisch, kleidete sich als Gelehrter und schrieb über die Freundschaft in konfuzianischer Sprache. Und heute leben in China viele Millionen Christen. Das Evangelium ist in keiner Kultur fremd und in keiner einfach zu Hause – es verwandelt jede von innen.`,
+              detail: `Matteo Ricci (1552–1610) verstand den Konfuzianismus vor allem als Ethik und Staatslehre, die mit dem Christentum vereinbar sei, und suchte in den alten chinesischen Klassikern Hinweise auf den „Herrn des Himmels". Dass man über die Grenzen dieser Anpassung streiten kann, ist klar. Aber der Ansatz folgt einem alten christlichen Muster: Schon Paulus knüpfte in Athen an einen griechischen Altar und griechische Dichter an (Apg 17,23.28), und Justin sah in den Philosophen „Samenkörner des Logos".
+
+Die alexandrinische Kirche selbst ist ein Beispiel für Inkulturation: Sie sprach das Evangelium in griechischer, dann in koptischer Sprache aus, mit Melodien und Bildern, die tief in Ägypten verwurzelt sind – ohne den Glauben zu verändern.`,
+              voices: [
+                { person: 'matteo-ricci', role: 'als Missionar und Gelehrter in China', text: `Ricci bemühte sich, das Evangelium in der Sprache der chinesischen Gelehrten zu verkünden. In seiner Schrift über die „wahre Bedeutung des Herrn des Himmels" argumentierte er, dass die alten Klassiker Chinas einen höchsten Herrn kannten, der dem Gott der Bibel entspreche, und dass spätere Philosophien diesen Glauben verdunkelt hätten.`, sources: [
+                  { kind: 'fachliteratur', author: 'Matteo Ricci', work: 'Tianzhu shiyi (Die wahre Bedeutung des Herrn des Himmels)', year: '1603', status: 'paraphrase', quote: `Der „Herr des Himmels" der Christen ist derselbe wie der „Höchste Herr" (Shangdi) der alten chinesischen Klassiker.` },
+                ] },
+              ],
+              questionsBack: [`Wenn das Christentum in Ägypten, Äthiopien, Armenien, Indien und China Wurzeln geschlagen hat – ist es dann wirklich an eine Kultur gebunden?`],
+            },
+          ],
         },
       ],
     },
@@ -148,6 +165,20 @@ const claim: Claim = {
           objection: `Wer gegen das Böse kämpft, wird selbst böse. Nicht-Eingreifen (wu wei) ist weiser.`,
           objectionBy: 'Alan Watts (sinngemäß)',
           answer: `Im Nicht-Erzwingen liegt Weisheit – Jesus lehrt, nicht Böses mit Bösem zu vergelten (Mt 5,39). Aber Passivität gegenüber Völkermord oder Sklaverei ist keine Weisheit. Christus überwindet das Böse nicht durch Gleichgültigkeit, sondern durch hingebende Liebe: „Lass dich nicht das Böse überwinden, sondern überwinde das Böse mit Gutem" (Röm 12,21).`,
+          followUps: [
+            {
+              id: 'weiches-ueberwindet-hartes',
+              objection: `Dann sind Laozi und Jesus doch ganz nah beieinander: Nicht-Widerstand, Sanftheit, das Weiche überwindet das Harte. „Nichts ist weicher als das Wasser, und doch besiegt es das Harte." Warum also Jesus statt Laozi?`,
+              objectionBy: 'Alan Watts (sinngemäß)',
+              answer: `Die Nähe ist wirklich da, und ich freue mich darüber – Jesus sagt: „Selig sind die Sanftmütigen" (Mt 5,5). Aber das Wasser des Laozi ist ein Naturprinzip: Es gibt nach, weil es seiner Natur folgt. Die Sanftmut Jesu ist die freie, hingebende Liebe einer Person, die für ihre Feinde stirbt. Wasser kann nicht vergeben, nicht mitleiden und nicht auferstehen. Laozi zeigt, wie das Weiche wirkt; Jesus zeigt, wer am Ende das Harte – den Tod – überwindet.`,
+              detail: `Daodejing 78 ist ein schöner Text über die Kraft des Nachgebens. Christen können hier mit Justin einen „Samen des Logos" erkennen. Der Unterschied liegt im Ziel und im Grund: Im Daoismus führt das Nachgeben zur Harmonie mit dem Lauf der Natur; im Evangelium wird die Sanftmut zum Weg der Erlösung, weil Gott selbst in Christus das Leid auf sich nimmt. Das Kreuz ist keine Taktik des Weichen, sondern Hingabe aus Liebe – und die Auferstehung ist der Sieg, den kein Naturprinzip erringen kann.`,
+              sources: [
+                { kind: 'oestlich', work: 'Daodejing', ref: 'Kap. 78', original: '天下莫柔弱於水，而攻堅強者莫之能勝', quote: `Nichts unter dem Himmel ist weicher und schwächer als das Wasser, und doch kommt im Angriff auf das Harte und Starke nichts ihm gleich.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'bibel', work: 'Matthäus', ref: '5,5', quote: `Selig sind die Sanftmütigen; denn sie werden das Erdreich besitzen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Kann ein Naturprinzip dir vergeben – oder kann das nur eine Person?`],
+            },
+          ],
         },
       ],
     },
@@ -162,6 +193,27 @@ const claim: Claim = {
           objection: `Aber Beziehungshaftigkeit passt nicht zu eurem Gott. Der ist doch ein statischer, einsamer Herrscher.`,
           objectionBy: 'Fritjof Capra (sinngemäß)',
           answer: `Das Gegenteil ist richtig: Der christliche Gott ist in sich selbst Beziehung – Vater, Sohn und Heiliger Geist in gegenseitiger Durchdringung der Liebe. Für Christen ist Beziehung nicht nur ein Merkmal der Welt, sondern das Innerste der letzten Wirklichkeit. Ein unpersönliches Netz kennt Verbindungen; der dreieinige Gott kennt Liebe.`,
+          followUps: [
+            {
+              id: 'toepfer-modell',
+              objection: `Das westliche Gottesbild ist ein „keramisches Modell": Gott als Töpfer, der die Welt von außen formt wie ein Handwerker. Das Dao ist organisch – die Welt wächst von innen, wie eine Pflanze. Das ist der tiefere Blick.`,
+              objectionBy: 'Alan Watts',
+              answer: `Das ist eine Karikatur des christlichen Schöpfungsglaubens. Gott steht nicht neben der Welt wie ein Handwerker neben seinem Werkstück, sondern ist ihr innerlicher als alles: „In ihm leben, weben und sind wir" (Apg 17,28). Athanasius beschreibt den Logos als den, der die ganze Schöpfung von innen durchdringt, belebt und zusammenhält – und dennoch nicht mit ihr verschmilzt. Das ist mehr als das Bild des Töpfers und mehr als das der Pflanze: Nähe ohne Vermischung, wie bei einer Liebe, die den anderen ganz durchdringt und ihn doch er selbst sein lässt.`,
+              detail: `Augustinus sagte von Gott, er sei „innerlicher als mein Innerstes und höher als mein Höchstes" (Bekenntnisse III,6,11). Die Bibel benutzt das Töpferbild (Jer 18), aber sie benutzt ebenso Bilder des Gebärens, des Atems und des Wachsens – und vor allem das Bild des Wortes, durch das alles ist. Die Schöpfung aus dem Nichts bedeutet gerade nicht Distanz, sondern dass jedes Ding in jedem Augenblick ganz von Gott her ist.
+
+Watts' organisches Modell hat dagegen einen Preis: Wenn die Welt aus dem Dao „wächst" wie eine Pflanze, gibt es keine Freiheit, keinen Bund, kein Gegenüber. Eine Pflanze liebt ihre Blätter nicht. Der Gott der Bibel ist der Welt näher als das Dao und zugleich frei genug, um sie zu lieben.`,
+              voices: [
+                { person: 'athanasius', role: 'als Lehrer des Logos in der Schöpfung', text: `Athanasius beschreibt den Logos wie einen Musiker, der eine Leier stimmt, oder wie die Seele im Leib: Er durchdringt die ganze Schöpfung, hält sie zusammen und ordnet sie zu einer Harmonie, ohne selbst Teil der Schöpfung zu werden. Gott ist der Welt nicht fern, sondern ihr in allem gegenwärtig – und bleibt doch ihr Schöpfer.`, sources: [
+                  { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '41–42', year: 'ca. 318', status: 'paraphrase', quote: `Der Logos durchdringt alles, hält alles zusammen und ordnet die ganze Schöpfung wie ein Musiker die Saiten der Leier zu einer Harmonie.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Alan Watts', work: 'The Book: On the Taboo Against Knowing Who You Are', year: '1966', status: 'paraphrase', quote: `Kritik am „keramischen Modell" des Universums, in dem Gott die Welt wie ein Töpfer von außen formt.` },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,28', quote: `Denn in ihm leben, weben und sind wir.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Liebt eine Pflanze ihre Blätter? Wenn nicht – ist dein organisches Modell wirklich „tiefer" als ein Gott, der liebt?`],
+            },
+          ],
         },
       ],
     },

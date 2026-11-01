@@ -98,6 +98,52 @@ const claim: Claim = {
               objection: `Wenn Glaube vererbt wird, ist er ein biologisches Merkmal wie die Haarfarbe – keine Erkenntnis.`,
               objectionBy: 'Matthew Alper',
               answer: `Auch mathematische Begabung ist teilweise erblich – deshalb ist Mathematik keine Illusion. Ob eine Überzeugung wahr ist, hängt nicht davon ab, ob die Fähigkeit dazu genetisch mitbedingt ist. Und wenn Glaube „nur Biologie" wäre, dann wäre auch Unglaube „nur Biologie" – und dein Argument hätte keinen Wahrheitsanspruch mehr.`,
+              followUps: [
+                {
+                  id: 'mathe-beweisbar',
+                  objection: `Der Vergleich hinkt. Mathematik kann man beweisen, ihre Ergebnisse sind für jeden nachprüfbar. Für Gott gibt es keinen Beweis – deshalb bleibt bei ihm nur die biologische Erklärung übrig.`,
+                  objectionBy: 'Daniel Dennett',
+                  answer: `Damit hast du die Frage verschoben – und zwar an die richtige Stelle. Ob Gott existiert, entscheidet sich an Gründen: an der Existenz des Universums, an seiner Ordnung, an der Moral, an der Auferstehung Jesu. Die Genetik kann dazu nichts beitragen, weder dafür noch dagegen. Wenn du meinst, die Gründe taugen nichts, lass uns über die Gründe reden – aber dann brauchst du das Gottes-Gen nicht mehr.`,
+                  detail: `Das Argument hat eine verborgene Struktur: (1) Für Gott gibt es keine guten Gründe. (2) Also muss man den Glauben anders erklären, etwa genetisch. Die Genetik ist hier nicht die Begründung, sondern nur der Nachtrag zu Prämisse (1). Wer mit dem Gottes-Gen argumentiert, setzt also voraus, was eigentlich zur Debatte steht. Für den Laien heißt das: Nicht über VMAT2 streiten, sondern freundlich zu den eigentlichen Argumenten zurückführen (siehe die Claims zu Kosmologie, Feinabstimmung und Auferstehung).
+
+Außerdem ist auch in der Mathematik nicht alles beweisbar: Gödel zeigte, dass jedes hinreichend starke widerspruchsfreie System wahre Sätze enthält, die es selbst nicht beweisen kann. „Nur was beweisbar ist, ist rational" ist zu eng – auch für Naturwissenschaft, Geschichte und Ethik.`,
+                  voices: [
+                    {
+                      person: 'swinburne',
+                      role: 'als Religionsphilosoph',
+                      text: `Richard Swinburne hat in „The Existence of God" ausführlich dargelegt, dass die Frage nach Gott wie jede große Erklärungsfrage nach Wahrscheinlichkeiten zu beurteilen ist: Welche Hypothese erklärt die Gesamtheit der Daten – dass es überhaupt etwas gibt, dass es geordnet ist, dass es bewusste und moralische Wesen gibt – am einfachsten? Ein solcher kumulativer Fall braucht keinen mathematischen Beweis, um vernünftig zu sein; er wird nach denselben Kriterien geprüft wie wissenschaftliche Theorien.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', year: '2. Aufl. 2004', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Angenommen, es gäbe gute Gründe für Gott – würde das Gottes-Gen dann noch irgendetwas gegen ihn beweisen?`],
+                  followUps: [
+                    {
+                      id: 'gruende-rationalisierung',
+                      objection: `Eure „Gründe" sind nachträgliche Rationalisierungen. Die Leute glauben, weil Gene und Elternhaus sie dazu disponieren – die Argumente suchen sie sich hinterher.`,
+                      objectionBy: 'Robert Sapolsky',
+                      answer: `Bei manchen Menschen mag das so sein – bei manchen Atheisten übrigens auch. Aber die These scheitert an den Fakten: Viele Menschen kommen gegen ihr Elternhaus und gegen ihr Temperament zum Glauben, etwa skeptische Akademiker, frühere Atheisten oder Millionen Erstchristen in China. Und vor allem: Wie jemand zu einer Überzeugung kam, entscheidet nicht, ob sie wahr ist. Das wäre der genetische Fehlschluss.`,
+                      detail: `Die Zwillingsforschung selbst widerspricht einer Determination: Koenig u. a. (2005) fanden, dass in der Jugend das gemeinsame Familienumfeld überwiegt, im Erwachsenenalter genetische Einflüsse zunehmen – das heißt, Menschen entfernen sich von der Prägung ihres Elternhauses und entwickeln eigene Positionen, in beide Richtungen. Erblichkeitswerte um 0,3–0,4 lassen zudem den größten Teil der Unterschiede unerklärt.
+
+Prominente Beispiele für Bekehrungen „gegen die Prägung": C. S. Lewis (atheistischer Oxford-Dozent), Antony Flew (zum Theismus), Francis Collins (Atheist im Medizinstudium). Einzelfälle beweisen nichts Statistisches – aber sie widerlegen die Behauptung, Gründe spielten grundsätzlich keine Rolle.
+
+Wichtig: Die Rationalisierungs-These ist ein zweischneidiges Schwert. Wenn sie Glauben entwertet, entwertet sie auch Unglauben, denn auch Atheismus hat genetische und familiäre Korrelate.`,
+                      voices: [
+                        {
+                          person: 'francis-collins',
+                          role: 'als Genetiker, der selbst als Atheist begann',
+                          text: `Francis Collins beschreibt in „The Language of God", wie er als junger Arzt und überzeugter Atheist von einer sterbenden Patientin nach seinem Glauben gefragt wurde und merkte, dass er die Argumente für Gott nie geprüft hatte. Er las daraufhin C. S. Lewis und kam über Gründe – das moralische Gesetz, die Verständlichkeit der Natur – zum Glauben. Seine eigene Biografie ist das Gegenteil einer genetisch oder familiär vorprogrammierten Bekehrung.`,
+                          sources: [
+                            { kind: 'fachliteratur', author: 'Francis S. Collins', work: 'The Language of God', ref: 'Kap. 1', year: '2006', status: 'paraphrase' },
+                          ],
+                        },
+                      ],
+                      questionsBack: [`Gilt deine Rationalisierungs-These auch für deine eigenen Argumente gegen Gott – oder nur für die der anderen?`],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },

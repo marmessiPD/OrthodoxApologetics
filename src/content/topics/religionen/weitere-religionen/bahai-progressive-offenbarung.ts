@@ -139,6 +139,21 @@ const claim: Claim = {
               objectionBy: 'Baha\'u\'llah (Kitab-i-Iqan)',
               answer: `Das ist geistreich, aber beliebig. Mit dieser Methode könnte jeder Anwärter der wiedergekommene Christus sein – und genau davor hat Jesus gewarnt. Vor allem wäre Baha'u'llah dann nicht „dieser Jesus" (Apg 1,11), sondern eine andere Person. Die christliche Hoffnung ist aber die Wiederbegegnung mit demselben Herrn, der für uns gestorben ist und die Wundmale trägt (Joh 20,27).`,
               questionsBack: [`Nach welchem Kriterium wäre jemand, der sich als wiedergekommener Christus ausgibt, als falscher Christus zu erkennen – wenn alle Zeichen symbolisch sind?`],
+              followUps: [
+                {
+                  id: 'jahr-1844-erfuellt',
+                  objection: `Das Jahr 1844, in dem der Bab auftrat, ist kein Zufall: Es erfüllt die 2300 „Abende und Morgen" aus Daniel 8,14 nach der Tag-Jahr-Rechnung. Auch christliche Bibelforscher wie die Milleriten erwarteten Christus genau 1844. Das ist ein verblüffender Treffer.`,
+                  objectionBy: 'Moojan Momen (sinngemäß)',
+                  answer: `Die Milleriten erwarteten 1844 die sichtbare Wiederkunft Jesu – und als sie ausblieb, nannte man das die „große Enttäuschung". Die Bahai-Deutung übernimmt die Rechnung einer gescheiterten Vorhersage und deutet das Ereignis um. Solche Berechnungen lassen sich je nach Ausgangsjahr fast beliebig verschieben. Vor allem hat Jesus selbst solchen Rechnungen den Boden entzogen: „Von dem Tage aber und der Stunde weiß niemand" (Mt 24,36).`,
+                  detail: `Die Tag-Jahr-Rechnung zu Daniel 8,14 hängt an mehreren unsicheren Annahmen: dem Startpunkt (meist ein Erlass um 457 v. Chr.), der Gleichsetzung eines prophetischen Tages mit einem Jahr und der Deutung von „Abenden und Morgen" (manche Ausleger zählen 1150 volle Tage). Im Zusammenhang spricht Daniel 8 von der Entweihung des Heiligtums durch einen fremden König – die meisten Ausleger, auch die Väter, bezogen das auf die Zeit des Antiochus IV. im 2. Jahrhundert v. Chr.
+
+Für das Gespräch genügt: Wenn eine Rechnung zuerst die sichtbare Wiederkunft Jesu vorhersagt, diese ausbleibt und man das Ereignis dann umdeutet, ist das keine erfüllte Prophetie, sondern eine nachträgliche Anpassung. Jesus warnt ausdrücklich davor, Zeiten und Stunden zu berechnen (Apg 1,7).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '24,36', quote: `Von dem Tage aber und von der Stunde weiß niemand, auch die Engel nicht im Himmel, sondern allein mein Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn dieselbe Rechnung zuerst die sichtbare Wiederkunft Jesu vorhersagte und scheiterte – warum sollte ihre Umdeutung jetzt überzeugen?`],
+                },
+              ],
             },
           ],
         },
@@ -155,6 +170,19 @@ const claim: Claim = {
           objection: `Abdu'l-Baha hat gesagt, der Grund dafür werde in der Zukunft klar werden.`,
           objectionBy: 'Moojan Momen (sinngemäß)',
           answer: `Ich respektiere, dass Bahai ihren Leitern hier vertrauen. Dann beruht aber auch die Aussage „Bahai ist die Religion der Vernunft und der Gleichheit" an diesem Punkt auf Vertrauen in eine Autorität – wie bei anderen Religionen auch. Die entscheidende Frage bleibt ohnehin eine Wahrheitsfrage: Ist Jesus leiblich auferstanden? Und erfüllt Baha'u'llah Jesu eigene Worte über seine Wiederkunft?`,
+          followUps: [
+            {
+              id: 'fruechte-der-bahai',
+              objection: `Schau auf die Früchte: Die Bahai haben im Iran schwere Verfolgung gewaltlos ertragen, sie fördern Bildung für Mädchen und die Einheit der Menschheit. „An ihren Früchten sollt ihr sie erkennen" – das hat Jesus selbst gesagt.`,
+              objectionBy: 'Moojan Momen (sinngemäß)',
+              answer: `Die Bahai im Iran leiden bis heute unter Verfolgung, und ihre gewaltlose Standhaftigkeit verdient große Achtung – Christen sollten an ihrer Seite für Religionsfreiheit eintreten. Aber gute Früchte im Charakter entscheiden nicht allein über eine Lehre; edle Menschen gibt es in vielen Bewegungen. Jesus gab für falsche Propheten auch ein inhaltliches Kriterium, und Johannes formuliert es so: Wer bekennt, dass Jesus Christus im Fleisch gekommen ist, der ist aus Gott (1 Joh 4,2). Die Frage bleibt, wer Jesus ist und wie er wiederkommt.`,
+              detail: `Das Wort von den Früchten (Mt 7,15–20) steht im Zusammenhang einer Warnung vor falschen Propheten, die „in Schafskleidern" kommen – also gerade auf den ersten Blick gut erscheinen. Jesus sagt im selben Abschnitt, dass nicht jeder, der „Herr, Herr" sagt, ins Himmelreich kommt (Mt 7,21–23). Die Früchte sind ein wichtiges Kriterium, aber nicht das einzige. Die koptische Kirche kennt selbst Jahrhunderte der Verfolgung; sie weiß, dass Leidensbereitschaft echte Treue zeigt – aber sie verweist für die Wahrheit ihres Glaubens nicht auf ihr Leiden, sondern auf Christus.`,
+              sources: [
+                { kind: 'bibel', work: '1. Johannes', ref: '4,1–2', status: 'paraphrase', quote: `Glaubet nicht einem jeglichen Geist, sondern prüfet die Geister, ob sie von Gott sind. Ein jeglicher Geist, der da bekennet, dass Jesus Christus ist in das Fleisch gekommen, der ist von Gott.` },
+              ],
+              questionsBack: [`Wenn gute Früchte eine Lehre beweisen – was machst du mit den guten Früchten von Christen, Muslimen und Buddhisten, die einander widersprechen?`],
+            },
+          ],
         },
       ],
     },
@@ -170,8 +198,41 @@ const claim: Claim = {
           objectionBy: 'Shoghi Effendi (Linie)',
           answer: `Wegen dessen, wer Jesus ist: nicht ein Bote unter anderen, sondern der Sohn, Gottes letztes Wort (Hebr 1,1–2). Wenn Gott selbst gekommen ist, welche höhere Offenbarung sollte folgen? Das Schema einer Prophetenkette ist übrigens alt: Mani stellte sich im 3. Jahrhundert als letzten Gesandten nach Buddha, Zarathustra und Jesus vor, und seine Schriften wurden gerade in Ägypten auf Koptisch überliefert. Und nach eurer eigenen Logik wird auch Baha'u'llah einmal überholt sein – warum sollte ich mich ihm endgültig anvertrauen?`,
           questionsBack: [`Wenn nach tausend Jahren eine neue Manifestation kommt – ist dann Baha'u'llahs Botschaft nicht ebenso vorläufig?`],
+          followUps: [
+            {
+              id: 'geist-der-wahrheit-bahaullah',
+              objection: `Jesus hat selbst einen Nachfolger angekündigt: „Wenn aber jener, der Geist der Wahrheit, kommen wird, der wird euch in alle Wahrheit leiten" (Joh 16,13). Baha'u'llah ist dieser Verheißene – die Erfüllung, nicht die Konkurrenz zu Jesus.`,
+              objectionBy: 'Moojan Momen (sinngemäß)',
+              answer: `Lies den Zusammenhang: Der Geist der Wahrheit wird vom Vater in Jesu Namen gesandt (Joh 14,26), die Welt „sieht ihn nicht", aber er wird „bei euch bleiben und in euch sein" (Joh 14,17) – bei den Jüngern, denen Jesus das sagte. Er kommt, sobald Jesus zum Vater geht (Joh 16,7), und Lukas berichtet, wie er wenige Wochen später zu Pfingsten ausgegossen wurde (Apg 2). Ein Mensch, der 1800 Jahre später geboren wird und den alle sehen konnten, passt zu keinem dieser Merkmale.`,
+              detail: `Dieselbe Deutung von Joh 14–16 auf einen späteren Propheten gibt es auch in der islamischen Apologetik (bezogen auf Mohammed). Die Antwort ist in beiden Fällen dieselbe: Der Paraklet ist nach dem Text kein Mensch aus Fleisch und Blut, sondern der Geist, der in den Jüngern wohnt, sie an Jesu Worte erinnert und Jesus verherrlicht: „Derselbe wird mich verklären; denn von dem Meinen wird er's nehmen" (Joh 16,14). Er bringt keine neue Offenbarung, die Jesus überbietet, sondern führt tiefer in Christus hinein.
+
+Für die koptische Kirche ist der Heilige Geist die dritte Hypostase der Dreieinigkeit, der vom Vater ausgeht (Joh 15,26) und in Taufe, Myronsalbung und Eucharistie wirkt.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '14,16–17', quote: `Und ich will den Vater bitten, und er soll euch einen andern Tröster geben, daß er bei euch bleibe ewiglich: den Geist der Wahrheit, welchen die Welt nicht kann empfangen; denn sie sieht ihn nicht und kennt ihn nicht. Ihr aber kennet ihn; denn er bleibt bei euch und wird in euch sein.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Wie kann ein Mensch, den die ganze Welt sehen konnte, der Geist sein, „den die Welt nicht sieht"?`],
+            },
+          ],
         },
       ],
+    },
+    {
+      id: 'auferstehung-geistig-abdulbaha',
+      objection: `Abdu'l-Baha hat es erklärt: Die Auferstehung Christi war geistig. Nach der Kreuzigung waren die Jünger verzweifelt; nach drei Tagen fassten sie neuen Mut, und die Sache Christi lebte wieder auf. Der Leib ist unwichtig – entscheidend ist die geistige Wirklichkeit.`,
+      objectionBy: 'Abdu\'l-Baha (Beantwortete Fragen)',
+      answer: `Die ältesten Quellen sagen etwas anderes: Jesus wurde begraben und am dritten Tag auferweckt (1 Kor 15,4) – die Abfolge „begraben – auferweckt" zielt auf den Leib. Das Grab war leer, und der Auferstandene sagt: „Fühlet mich und sehet; denn ein Geist hat nicht Fleisch und Bein, wie ihr seht, dass ich habe" (Lk 24,39). Und „Auferstehung" bedeutete im Judentum der Zeit immer ein neues leibliches Leben. Neuer Mut braucht außerdem einen Grund: Was hat die verzweifelten Jünger nach drei Tagen verwandelt?`,
+      detail: `Lukas schreibt als sorgfältiger Historiker, der nach eigener Aussage allem „von Anfang an" nachgegangen ist (Lk 1,3). Er betont die Leiblichkeit des Auferstandenen mit Absicht: Jesus isst vor den Jüngern ein Stück Fisch (Lk 24,42–43). Eine bloß geistige Deutung hätte die frühen Christen vor viel Spott bewahrt – Griechen hielten die Auferstehung des Leibes für lächerlich (Apg 17,32). Dass die Apostel trotzdem daran festhielten, spricht dafür, dass sie berichteten, was sie erlebt hatten.
+
+Für die Kirche ist die leibliche Auferstehung zentral: Christus hat unsere ganze Natur angenommen und auch den Leib aus dem Tod befreit. Darum bekennt das Glaubensbekenntnis die „Auferstehung der Toten" – nicht nur das Weiterleben einer Idee.`,
+      voices: [
+        { person: 'lukas', role: 'als Historiker und Evangelist', text: `Lukas berichtet, dass der Auferstandene den erschrockenen Jüngern, die meinten, einen Geist zu sehen, seine Hände und Füße zeigt und vor ihnen isst. Er will damit ausdrücklich ausschließen, dass die Auferstehung als bloße Vision oder geistige Fortexistenz missverstanden wird.`, sources: [
+          { kind: 'bibel', work: 'Lukas', ref: '24,39', quote: `Sehet meine Hände und meine Füße: ich bin's selber. Fühlet mich und sehet; denn ein Geist hat nicht Fleisch und Bein, wie ihr sehet, daß ich habe.`, translation: 'Luther 1912', status: 'verbatim' },
+        ] },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Abdu\'l-Baha', work: 'Some Answered Questions (dt. Beantwortete Fragen)', ref: 'Kap. 23', year: '1908', status: 'paraphrase', quote: `Die Auferstehung Christi als geistige Wirklichkeit: Nach drei Tagen der Verzagtheit lebte die Sache Christi in den Jüngern wieder auf.` },
+      ],
+      questionsBack: [`Was genau hat die verzweifelten Jünger nach drei Tagen so verwandelt, dass sie für ihre Botschaft ihr Leben riskierten?`],
     },
   ],
   questionsToAsk: [
