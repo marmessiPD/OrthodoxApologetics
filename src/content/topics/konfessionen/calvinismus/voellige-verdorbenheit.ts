@@ -157,6 +157,104 @@ const claim: Claim = {
           objection: `„Was du lehrst, ist Pelagianismus oder bestenfalls Semipelagianismus."`,
           objectionBy: 'Reformierter Theologe',
           answer: `Pelagius lehrte, der Mensch könne ohne innere Gnade das Gute tun und sündlos leben. Das lehnt die koptische Kirche ab: Ohne Christus „könnt ihr nichts tun" (Joh 15,5). Wir lehren, dass die Gnade **allem** Guten vorausgeht und es begleitet – aber den Willen nicht ersetzt, sondern heilt. Das ist die gemeinsame Lehre der Väter des Ostens, nicht Pelagius.`,
+          followUps: [
+            {
+              id: 'orange-529-verurteilt-euch',
+              objection: `„Die Synode von Orange (529) hat genau eure Position verurteilt: Schon der Anfang des Glaubens ist Gnade, nicht Mitwirkung des Menschen. Die Kirche hat also Augustinus recht gegeben, nicht Cassian."`,
+              objectionBy: 'Reformierter Kirchenhistoriker',
+              answer: `Orange sagt: Der Anfang des Glaubens ist Gnade – das bekennen wir auch, darum sprechen wir von der zuvorkommenden Gnade. Aber dieselbe Synode verflucht im Schlussbekenntnis ausdrücklich jeden, der lehrt, Gott habe Menschen zum Bösen vorherbestimmt, und sie sagt, alle Getauften **können und sollen** mit Christi Hilfe tun, was zum Heil nötig ist. Das ist keine Lehre der unwiderstehlichen Gnade oder doppelten Prädestination. Zudem war Orange eine regionale Synode in Gallien, kein ökumenisches Konzil.`,
+              detail: `Orange II wird in reformierter Literatur gern als Beleg für die Unfähigkeit des Willens angeführt. Liest man das Ganze, ergibt sich ein differenzierteres Bild: Die Synode lehrt die Notwendigkeit der Gnade von Anfang an, schweigt aber über die Unwiderstehlichkeit und verwirft eine Vorherbestimmung zum Bösen „mit allem Abscheu". Der Osten hat die augustinische Zuspitzung nie übernommen; die griechischen und ägyptischen Väter vor und nach Augustinus lehren übereinstimmend, dass die Gnade vorangeht und der Mensch frei mitwirkt. Johannes Cassian, der lange unter den ägyptischen Mönchen lebte, gibt deren Erfahrung wieder: Manchmal kommt Gott dem guten Willen zuvor, manchmal antwortet er auf einen ersten Funken – immer aber ist es Gnade, die das Gute vollendet.`,
+              voices: [
+                {
+                  person: 'johannes-cassian',
+                  role: 'als Zeuge der ägyptischen Mönchstheologie',
+                  text: `Cassian lässt in der 13. Unterredung den Abba Chairemon erklären, dass Gnade und freier Wille einander nicht ausschließen. Gott ruft und zieht alle, er weckt im Menschen den Anfang des guten Willens, aber er tut dies so, dass der Wille frei bleibt. Wer dies als Selbsterlösung deutet, übersieht, dass Cassian ohne Unterlass von der Notwendigkeit der Gnade spricht – er bestreitet nur, dass sie den Willen ausschaltet.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Johannes Cassian', work: 'Collationes (Unterredungen mit den Vätern)', ref: 'XIII', year: 'um 426', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'konzil', work: 'Synode von Orange (Arausicanum II), Schlussbekenntnis', year: '529', status: 'paraphrase', quote: `Dass aber einige durch göttliche Macht zum Bösen vorherbestimmt seien, glauben wir nicht nur nicht, sondern wenn es welche gibt, die so Böses glauben wollen, sprechen wir mit allem Abscheu das Anathema über sie.` },
+              ],
+              questionsBack: [`Akzeptierst du dann auch den Satz von Orange, dass alle Getauften mit Christi Hilfe tun können, was zum Heil nötig ist?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'roemer-8-unvermoegen',
+      objection: `„Röm 8,7–8: ‚Fleischlich gesinnt sein ist eine Feindschaft wider Gott … denn es vermag's auch nicht. Die aber fleischlich sind, mögen Gott nicht gefallen.' Das ist das Wort ‚vermag nicht' – Unfähigkeit, nicht bloß Unwilligkeit."`,
+      objectionBy: 'R. C. Sproul',
+      answer: `Einverstanden: Der Mensch, der nur aus sich selbst und für sich selbst lebt („Fleisch"), kann Gott nicht gefallen. Darüber streiten wir nicht. Die Frage ist, ob Gott den Menschen in diesem Zustand allein lässt – und die Schrift sagt nein: Christus ist das Licht, „welches alle Menschen erleuchtet" (Joh 1,9), und die heilsame Gnade ist „allen Menschen" erschienen (Tit 2,11). Die Unfähigkeit des Fleisches ist real, aber die Gnade geht jedem Menschen voraus.`,
+      detail: `„Fleisch" (*sarx*) meint bei Paulus in Röm 8 nicht die menschliche Natur als solche (Christus kam „im Fleisch"), sondern die von Gott abgewandte Lebensausrichtung. Paulus stellt zwei Weisen zu leben gegenüber, nicht zwei Klassen von Menschen, von denen eine ohne jede Gnade bleibt. Die orthodoxe Lehre unterscheidet: Der Mensch kann sich nicht selbst retten, nicht einmal den ersten Schritt aus eigener Kraft tun. Aber Gott wirkt in jedem Menschen durch seinen Logos, durch das Gewissen (Röm 2,14–15) und durch die zuvorkommende Gnade. Der calvinistische Schluss „Also wirkt Gott nur in den Erwählten unwiderstehlich" folgt aus Röm 8 nicht.`,
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '1,9', quote: `Das war das wahrhaftige Licht, welches alle Menschen erleuchtet, die in diese Welt kommen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Titus', ref: '2,11', quote: `Denn es ist erschienen die heilsame Gnade Gottes allen Menschen.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'joh-1-9-nur-aeusseres-licht',
+          objection: `„Joh 1,9 meint nur, dass das Licht in die Welt kam und allen äußerlich zugänglich ist – nicht eine innere, befähigende Gnade für jeden einzelnen."`,
+          objectionBy: 'James White',
+          answer: `Der Text sagt nicht „das allen zugänglich ist", sondern „das alle Menschen erleuchtet". Die Väter haben ihn genau so verstanden: Chrysostomus fragt in seiner Auslegung, wie es dann sein kann, dass so viele im Dunkeln bleiben, und antwortet: Das Licht erleuchtet von sich aus alle; wer die Augen seines Geistes verschließt, bleibt im Dunkel – nicht wegen der Natur des Lichts, sondern wegen seiner eigenen Weigerung.`,
+          detail: `Die Frage, ob „kommend in die Welt" sich auf das Licht oder auf jeden Menschen bezieht, ist grammatisch offen. Aber auch wenn man es auf das Licht bezieht, bleibt das Objekt: *panta anthrōpon* – jeden Menschen. Eine reine „Zugänglichkeit" ohne innere Wirkung ist eine theologische Eintragung, die man nur braucht, weil das System eine allgemeine Gnade nicht zulässt.`,
+          voices: [
+            {
+              person: 'chrysostomus',
+              role: 'als Ausleger des Johannesevangeliums',
+              text: `Chrysostomus legt Joh 1,9 so aus, dass Christus seinerseits alle Menschen erleuchtet. Wenn manche dennoch im Dunkel bleiben, dann deshalb, weil sie die Augen ihres Geistes freiwillig verschließen und die Strahlen nicht annehmen wollen. Für ihn liegt die Ursache des Verlorengehens im Menschen, die Ursache des Heils in Gott.`,
+              sources: [{ kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Johannesevangelium', ref: 'Homilie 8 (zu Joh 1,9)', year: 'um 391', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'dann-entscheidet-der-mensch',
+              objection: `„Wenn alle dieselbe Gnade bekommen und einige glauben, andere nicht, dann ist am Ende doch der menschliche Wille das Entscheidende. Du machst den Menschen souverän und Gott zum Bittsteller."`,
+              objectionBy: 'John Piper',
+              answer: `Nein. Die Ursache des Heils ist allein Gott: Er ruft, erleuchtet, gibt Glauben und vollendet. Der Mensch ist nicht Ursache, sondern Empfänger. „Entscheidend" ist der Mensch nur in einem traurigen Sinn – wenn er sich verweigert. Wer die Sonne nicht sieht, weil er die Augen schließt, ist nicht „souverän über die Sonne". Gott hat sich in seiner Liebe selbst begrenzt, weil Liebe ohne Freiheit keine Liebe ist.`,
+              detail: `Der Einwand setzt voraus, dass jedes Mitwirken des Menschen ein Konkurrent zu Gottes Wirken sein muss – als ob es nur ein begrenztes Maß an Ursächlichkeit gäbe, das entweder Gott oder der Mensch ausfüllt. Die Väter denken anders: Gottes Wirken begründet und trägt das menschliche Wirken, statt es zu ersetzen. Gregor von Nyssa: Die menschliche Freiheit ist selbst ein Teil der Gottebenbildlichkeit; sie aufzuheben hieße, das Bild zu zerstören, das Gott erneuern will.`,
+              voices: [
+                {
+                  person: 'gregor-nyssa',
+                  role: 'als Theologe der Gottebenbildlichkeit',
+                  text: `Für Gregor von Nyssa gehört die Selbstbestimmung (*autexousion*) wesentlich zum Bild Gottes im Menschen. Ein Wesen, das nur durch Zwang gut wäre, wäre nicht Bild des freien Gottes. Darum wirkt Gott auf den Menschen nicht wie auf eine Sache, sondern wie auf eine Person – durch Ruf, Erleuchtung und Liebe.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Große Katechese (Oratio catechetica)', ref: '5', year: 'um 385', status: 'paraphrase' }],
+                },
+              ],
+              questionsBack: [`Ist ein Bettler, der ein Geschenk annimmt, „souverän" über den Schenkenden?`],
+              followUps: [
+                {
+                  id: 'phil-2-13-wollen-und-vollbringen',
+                  objection: `„Phil 2,13: ‚Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen.' Sogar dein Wollen ist Gottes Werk – also bleibt für den Menschen nichts."`,
+                  objectionBy: 'R. C. Sproul',
+                  answer: `Lies den Vers davor: „Schaffet, dass ihr selig werdet, mit Furcht und Zittern" (Phil 2,12). Paulus stellt beides nebeneinander – der Mensch soll schaffen, **weil** Gott in ihm wirkt. Das ist genau die Synergie: Gottes Wirken ermöglicht und trägt das menschliche Wollen, es ersetzt es nicht. Wäre der Mensch nur passiv, wäre die Mahnung in Vers 12 sinnlos.`,
+                  detail: `Phil 2,12–13 ist der klassische Synergie-Text der Ostkirche. Paulus sagt nicht: „Ihr braucht nichts zu tun, denn Gott tut alles", sondern: „Arbeitet, denn Gott wirkt." Die Gnade ist die Quelle, die Antwort des Menschen ist echt. Kallistos Ware fasst die orthodoxe Haltung so zusammen, dass Gnade und Freiheit keine Konkurrenten sind; der Mensch kann ohne Gott nichts tun, Gott aber will den Menschen nicht ohne dessen Zustimmung retten.`,
+                  voices: [
+                    {
+                      person: 'kallistos-ware',
+                      role: 'als orthodoxer Theologe',
+                      text: `Ware beschreibt die Synergie als Zusammenwirken, in dem Gottes Anteil unvergleichlich größer ist als der menschliche, der menschliche aber unverzichtbar bleibt. Er verweist auf den oft zitierten Satz, Gott könne den Menschen ohne dessen Mitwirkung erschaffen, aber nicht ohne dessen Mitwirkung retten.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Kallistos Ware', work: 'The Orthodox Way', year: '1979', status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Philipper', ref: '2,12–13', quote: `Schaffet, dass ihr selig werdet, mit Furcht und Zittern. Denn Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen, nach seinem Wohlgefallen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'gen-6-5-nur-boese',
+          objection: `„Gen 6,5 und 8,21: ‚Alles Dichten und Trachten ihres Herzens war nur böse immerdar' – ‚von Jugend auf'. Deutlicher kann die Schrift die völlige Verdorbenheit nicht ausdrücken."`,
+          objectionBy: 'John MacArthur',
+          answer: `Derselbe Abschnitt sagt drei Verse später: „Noah war ein frommer Mann und ohne Tadel" (Gen 6,9). Gen 8,21 beschreibt eine Neigung „von Jugend auf", keine völlige Unfähigkeit – und Gott schließt gleich danach einen Bund mit den Menschen und macht sie für Blutvergießen verantwortlich, „denn Gott hat den Menschen zu seinem Bilde gemacht" (Gen 9,6). Die Verse beschreiben die Generation der Flut und die Neigung zur Sünde, nicht die Zerstörung des Gottesbildes.`,
+          detail: `Auch die jüdische Auslegung liest Gen 8,21 als Beschreibung des „bösen Triebs" (*jezer ha-ra*), dem der Mensch mit Gottes Hilfe widerstehen kann und soll (vgl. Gen 4,7: „du aber herrsche über sie"). Die orthodoxe Lehre sagt dasselbe mit anderen Worten: Die Natur ist verwundet und zur Sünde geneigt, aber nicht in ein Wesen verwandelt, das Gott nicht mehr hören kann.`,
+          sources: [
+            { kind: 'bibel', work: '1. Mose', ref: '6,9', quote: `Noah war ein frommer Mann und ohne Tadel zu seinen Zeiten; er wandelte mit Gott.`, status: 'paraphrase' },
+            { kind: 'bibel', work: '1. Mose', ref: '4,7', quote: `Die Sünde lauert vor der Tür, nach dir hat sie Verlangen; du aber herrsche über sie.`, status: 'paraphrase' },
+          ],
         },
       ],
     },

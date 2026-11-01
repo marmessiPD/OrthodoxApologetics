@@ -167,12 +167,12 @@ const claim: Claim = {
         {
           id: 'sinai-seir-paran-drei-offenbarungen',
           objection: `Dtn 33,2 nennt drei Orte: Sinai für Mose und die Tora, Seir für Jesus und das Evangelium, Paran für Muhammad und den Koran. Das ist die Abfolge der drei großen Offenbarungen – schon frühe muslimische Gelehrte haben das so gelesen.`,
-              objectionBy: 'Zakir Naik',
+          objectionBy: 'Zakir Naik',
           answer: `Seir ist nach der Bibel das Gebirge Edoms, südöstlich des Toten Meeres (Gen 36,8) – nicht Galiläa oder Judäa, wo Jesus wirkte. Die drei Ortsnamen stehen in hebräischer Parallelismus-Poesie und beschreiben ein einziges Ereignis: Gottes Kommen vom Süden her bei der Gesetzgebung. Dieselben Orte erscheinen in anderen alten Liedern für dieselbe Gotteserscheinung: „HERR, da du von Seir auszogst und einhergingst vom Felde Edoms … die Berge zerflossen vor dem HERRN, der Sinai" (Ri 5,4–5; vgl. Ps 68,8–9; Hab 3,3).`,
           detail: `Die Deutung auf drei Offenbarungen findet sich tatsächlich bei muslimischen Autoren des Mittelalters (u. a. in der Polemik von Ibn Qutaiba und später bei Ibn Taimiyya). Sie ist ein Beispiel für typologische Auslegung von außen, nicht für den Wortsinn. Im Hebräischen sind die Verben parallel: „Der HERR **kam** vom Sinai, **strahlte** ihnen auf von Seir, **erschien** vom Berg Paran" – drei Bilder für den einen Aufgang Gottes wie die Sonne. Und der Vers ist Vergangenheit, kein Zukunftsorakel. Für das Gespräch: Zeige auf einer Karte, wo Seir liegt.`,
           sources: [
             { kind: 'bibel', work: 'Richter', ref: '5,4–5', quote: `HERR, da du von Seir auszogst und einhergingst vom Felde Edoms, da erzitterte die Erde, der Himmel troff, und die Wolken troffen von Wasser. Die Berge ergossen sich vor dem HERRN, der Sinai vor dem HERRN, dem Gott Israels.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Wortlaut an Luther 1912 angelehnt.' },
-            { kind: 'bibel', work: 'Genesis', ref: '36,8', quote: `Also wohnte Esau auf dem Gebirge Seir. Und Esau ist der Edom.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Genesis', ref: '36,8', quote: `Also wohnte Esau auf dem Gebirge Seir. Und Esau ist der Edom.`, translation: 'nach Luther 1912', status: 'paraphrase' },
           ],
           questionsBack: [
             `Wo liegt Seir nach Gen 36,8 – und wo hat Jesus gewirkt?`,
@@ -201,7 +201,7 @@ const claim: Claim = {
           detail: `Die Unterscheidung zwischen Segen und Bund ist in Gen 17 zentral: Ismael erhält den Segen der Volkwerdung, Isaak den Bund, durch den „alle Völker auf Erden gesegnet werden" (Gen 22,18). Paulus deutet diesen Samen auf Christus (Gal 3,16). Im Gleichnis vom Weinberg (Mt 21,33–46) übergibt der Herr den Weinberg „anderen Weingärtnern" – den Aposteln, die selbst Juden waren, und der Kirche aus Juden und Heiden. Respektvoll formuliert: Die Bibel spricht mit Wärme über Ismael (Gen 21,17–20: „Gott war mit dem Knaben"), aber sie verbindet die Heilsgeschichte nicht mit seiner Linie.`,
           sources: [
             { kind: 'bibel', work: 'Genesis', ref: '17,20–21', quote: `Dazu um Ismael habe ich dich auch erhört. Siehe, ich habe ihn gesegnet und will ihn fruchtbar machen und mehren gar sehr. Zwölf Fürsten wird er zeugen, und ich will ihn zum großen Volk machen. Aber meinen Bund will ich aufrichten mit Isaak.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
-            { kind: 'bibel', work: 'Matthäus', ref: '21,45', quote: `Und da die Hohenpriester und Pharisäer seine Gleichnisse hörten, verstanden sie, daß er von ihnen redete.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Matthäus', ref: '21,45', quote: `Und da die Hohenpriester und Pharisäer seine Gleichnisse hörten, verstanden sie, daß er von ihnen redete.`, translation: 'nach Luther 1912', status: 'paraphrase' },
           ],
           questionsBack: [
             `Von wem merkten die Hohenpriester und Pharisäer in Mt 21,45, dass Jesus redete?`,
@@ -223,8 +223,8 @@ const claim: Claim = {
           answer: `Die Fragesteller in Joh 1 wollten wissen, ob Johannes der leiblich wiedergekehrte Elia sei – das verneint er zu Recht. Jesus sagt etwas anderes: Johannes erfüllt die Aufgabe, die Maleachi dem kommenden Elia zuschreibt (Mal 3,23–24). Lukas erklärt das schon vor der Geburt des Johannes: Er wird gehen „im Geist und in der Kraft Elias" (Lk 1,17). Und Jesus selbst fügt hinzu: „wenn ihr's annehmen wollt" (Mt 11,14) – also eine Deutung der Rolle, keine Identität der Person.`,
           detail: `Das ist ein gutes Beispiel, wie scheinbare Widersprüche verschwinden, wenn man beide Aussagen im Zusammenhang liest: „Ich bin nicht Elia" (nicht der wiedergekommene Prophet in Person) und „er ist Elia" (er erfüllt Elias angekündigte Rolle) beziehen sich auf verschiedene Hinsichten. Für das Gespräch: Dieselbe Regel – Hinsicht und Zusammenhang beachten – wenden Muslime auch auf scheinbare Spannungen im Koran an. Fairness verlangt, sie auch der Bibel zuzugestehen.`,
           sources: [
-            { kind: 'bibel', work: 'Lukas', ref: '1,17', quote: `Und er wird vor ihm hergehen im Geist und Kraft des Elia …`, translation: 'Luther 1912', status: 'verbatim' },
-            { kind: 'bibel', work: 'Matthäus', ref: '11,14', quote: `Und (so ihr's wollt annehmen) er ist Elia, der da soll zukünftig sein.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Lukas', ref: '1,17', quote: `Und er wird vor ihm hergehen im Geist und Kraft des Elia …`, translation: 'nach Luther 1912', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Matthäus', ref: '11,14', quote: `Und (so ihr's wollt annehmen) er ist Elia, der da soll zukünftig sein.`, translation: 'nach Luther 1912', status: 'paraphrase' },
           ],
           questionsBack: [
             `Wendest du bei scheinbaren Spannungen im Koran auch die Regel „Zusammenhang und Hinsicht beachten" an? Warum nicht bei der Bibel?`,

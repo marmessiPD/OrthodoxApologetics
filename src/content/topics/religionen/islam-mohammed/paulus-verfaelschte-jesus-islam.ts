@@ -96,6 +96,23 @@ const claim: Claim = {
           objection: `Eine private Vision kann jeder behaupten. Muhammad hatte wenigstens den Engel Gabriel.`,
           objectionBy: 'Mohammed Hijab',
           answer: `Auch Muhammads Offenbarung war ein Erlebnis, das niemand sonst sah (Bukhari 3). Der Unterschied ist: Paulus' Botschaft wurde von den Augenzeugen geprüft und bestätigt (Gal 2,1–10), und sie stimmt mit dem überein, was die Gemeinde vor ihm glaubte (Gal 1,23). Muhammads Botschaft dagegen widerspricht dem, was die Augenzeugen Jesu bezeugten. Wenn du Visionen grundsätzlich misstraust, triffst du nicht nur Paulus.`,
+          followUps: [
+            {
+              id: 'bekehrungsberichte-widersprechen-sich',
+              objection: `Selbst die Berichte über Paulus' Bekehrung widersprechen sich: In Apg 9,7 hören seine Begleiter die Stimme, in Apg 22,9 hören sie sie nicht. Wie soll man so einem Zeugen glauben?`,
+              objectionBy: 'Ali Ataie',
+              answer: `Beide Berichte stehen im selben Buch, vom selben Verfasser, wenige Kapitel auseinander – Lukas sah offensichtlich keinen Widerspruch. Und das Griechische erklärt es: In 9,7 hören sie „die Stimme" im Sinn eines Klangs (*phōnē* im Genitiv), in 22,9 hören sie nicht „die Stimme dessen, der mit mir redete" – also nicht die verständlichen Worte (Akkusativ, mit dem Zusatz „der mit mir redete"). Sie nahmen ein Geräusch wahr, verstanden aber nicht, was gesagt wurde. So ist es auch in Joh 12,29: Die einen hören Donner, andere meinen, ein Engel habe geredet.`,
+              detail: `Die Unterscheidung zwischen Hören eines Lautes und Verstehen einer Rede ist im Griechischen gut belegt, auch wenn man die Kasusregel nicht überstrapazieren sollte. Entscheidend ist der Gesamtbefund: In allen drei Berichten (Apg 9; 22; 26) stimmen die Kernpunkte überein – ein Licht vom Himmel, Paulus stürzt, eine Stimme fragt „Saul, Saul, was verfolgst du mich?", „Ich bin Jesus", Erblindung, Sendung zu den Heiden. Unterschiede in Nebenumständen sind bei unabhängigen Nacherzählungen normal und sprechen gegen eine abgesprochene Erfindung. Muslime kennen das von den verschiedenen Fassungen des Berichts über die erste Offenbarung.`,
+              sources: [
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '9,7', quote: `Die Männer aber, die seine Gefährten waren, standen und waren erstarrt; denn sie hörten die Stimme, und sahen niemand.`, original: `ἀκούοντες μὲν τῆς φωνῆς`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '22,9', quote: `Die aber mit mir waren, sahen das Licht und erschraken; die Stimme aber des, der mit mir redete, hörten sie nicht.`, original: `τὴν δὲ φωνὴν οὐκ ἤκουσαν τοῦ λαλοῦντός μοι`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Warum sollte Lukas einen Widerspruch in sein eigenes Buch schreiben, wenige Kapitel nach dem ersten Bericht?`,
+                `Ist es ein Widerspruch, ein Geräusch zu hören, aber die Worte nicht zu verstehen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -110,6 +127,22 @@ const claim: Claim = {
           objection: `Jakobus lehrt: „Der Mensch wird durch Werke gerecht, nicht durch Glauben allein" (Jak 2,24). Paulus: „durch den Glauben, ohne des Gesetzes Werke" (Röm 3,28). Offener Widerspruch!`,
           objectionBy: 'Ahmed Deedat',
           answer: `Beide sprechen von verschiedenen Fragen: Paulus wendet sich gegen die Vorstellung, man könne sich durch Werke des Gesetzes – Beschneidung, Speisegebote – vor Gott Gerechtigkeit verdienen; Jakobus gegen einen toten Glauben ohne Liebe. Paulus selbst spricht vom „Glauben, der durch die Liebe tätig ist" (Gal 5,6). Die koptische Kirche hält beides zusammen: Glaube und Werke als Frucht und Mitwirkung mit der Gnade. Und vor allem: In der Frage nach Kreuz und Auferstehung Jesu besteht zwischen Jakobus und Paulus kein Gegensatz.`,
+          followUps: [
+            {
+              id: 'mein-evangelium',
+              objection: `Paulus spricht selbst von „meinem Evangelium" (Röm 2,16; 16,25). Er hatte also sein eigenes Evangelium, nicht das Evangelium Jesu.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `„Mein Evangelium" heißt: die Botschaft, die mir anvertraut ist und die ich verkündige – so wie ein Prediger von „meiner Predigt" spricht. Paulus hat genau diese Botschaft den Aposteln in Jerusalem vorgelegt, „damit ich nicht vergeblich liefe", und sie haben ihm „nichts hinzugefügt", sondern ihm die rechte Hand der Gemeinschaft gegeben (Gal 2,2.6.9). Und er verflucht ausdrücklich jeden – „auch wenn wir selbst" –, der ein anderes Evangelium verkündigt (Gal 1,8). Das ist das Gegenteil eines Privatevangeliums.`,
+              detail: `Paulus unterscheidet sorgfältig zwischen dem, was er „vom Herrn empfangen" hat, und seiner eigenen Meinung (1 Kor 7,10.12.25) – ein Mann, der eine neue Religion erfindet, würde gerade diese Unterscheidung verwischen. Der Inhalt „seines" Evangeliums ist in 1 Kor 15,3–5 als gemeinsame Überlieferung formuliert, die er „empfangen" hat. Auch Petrus nennt Paulus „unseren lieben Bruder" und zählt seine Briefe zu den „Schriften" (2 Petr 3,15–16).`,
+              sources: [
+                { kind: 'bibel', work: 'Galater', ref: '2,2.9', quote: `Ich zog aber hinauf aus einer Offenbarung und besprach mich mit ihnen über das Evangelium, das ich predige unter den Heiden … damit ich nicht vergeblich liefe … Jakobus und Kephas und Johannes, die für Säulen angesehen waren, gaben mir und Barnabas die rechte Hand und wurden mit uns eins.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                { kind: 'bibel', work: 'Galater', ref: '1,8', quote: `Aber so auch wir oder ein Engel vom Himmel euch würde Evangelium predigen anders, denn das wir euch gepredigt haben, der sei verflucht!`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Warum legt Paulus „sein" Evangelium den Jerusalemer Aposteln zur Prüfung vor, wenn es ein Privatevangelium war?`,
+              ],
+            },
+          ],
         },
       ],
     },

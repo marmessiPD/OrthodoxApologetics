@@ -38,11 +38,11 @@ const claim: Claim = {
   church: {
     summary: `Die koptische Kirche antwortet auf Iwan nicht mit einer Rechnung, sondern mit dem Gekreuzigten. Im Zentrum ihrer Christologie steht das Bekenntnis des hl. Kyrill: Der Logos Gottes hat im Fleisch gelitten, ist im Fleisch gekreuzigt worden und hat im Fleisch den Tod gekostet (12. Anathematismus). Der Gott, nach dem Iwan fragt, steht nicht als Architekt einer fernen Harmonie über der Welt, sondern hat selbst als unschuldig Gefolterter gelitten. Die Kirche gedenkt der unschuldigen Kinder von Bethlehem als Märtyrer und vertraut die Kinder, die sterben, der Barmherzigkeit Gottes an. Ihre Antwort auf das Leid ist liturgisch und praktisch: Sie betet mit den Leidenden, sie pflegt, sie tröstet – und sie hofft auf die Auferstehung, in der Gott selbst die Wunden heilt.`,
     detail: `- **Kyrill, 12. Anathematismus:** „Wenn jemand nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat …" – für die koptische Kirche ist das der Kern der Antwort auf die Frage nach dem Leid: Gott ist nicht Zuschauer, sondern Mitleidender.
-- **Die Kinder von Bethlehem** werden im koptischen Synaxarium als Märtyrer verehrt (Gedenken im Monat Tobi).
+- **Die Kinder von Bethlehem** werden im koptischen Synaxarium als Märtyrer verehrt (Gedenktag 3. Tobi, meist 11. Januar).
 - **Seelsorge:** Die Kirche verbietet, Leidenden Schuld zuzuschieben (Joh 9,3) oder billige Sätze zu sagen („Gott brauchte noch einen Engel"). Sie lehrt, mit den Weinenden zu weinen (Röm 12,15).`,
     sources: [
       { kind: 'konzil', author: 'Kyrill von Alexandrien', work: 'Zwölf Anathematismen', ref: 'Anathematismus 12', year: '430', quote: `Wenn jemand nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat, im Fleisch gekreuzigt wurde und im Fleisch den Tod gekostet hat … der sei ausgeschlossen.`, status: 'verbatim', translation: 'eigene Übersetzung (gekürzt)' },
-      { kind: 'koptisch', work: 'Koptisches Synaxarium', ref: 'Monat Tobi', quote: `Gedenken der unschuldigen Kinder von Bethlehem, die Herodes töten ließ, als Märtyrer.`, status: 'paraphrase', note: 'Genauer Gedenktag vor Verwendung im Synaxarium prüfen.' },
+      { kind: 'koptisch', work: 'Koptisches Synaxarium', ref: '3. Tobi (entspricht dem 29. Dezember jul. bzw. meist dem 11. Januar greg.)', quote: `Gedenken der unschuldigen Kinder von Bethlehem, die Herodes töten ließ, als Märtyrer.`, status: 'paraphrase', note: 'Gedenktag geprüft (Synaxarium zum 3. Tobi: „Martyrdom of the Children of Bethlehem“).' },
     ],
   },
   opposingView: {

@@ -42,7 +42,7 @@ const claim: Claim = {
 - **Zu Papst Schenuda III.:** Der Wahlspruch „Rabbena mawgud – kulluh lil-cheir – mesirha tentehi" (sinngemäß: „Gott ist da – alles ist zum Guten – es wird ein Ende haben") wird ihm in koptischen Medien vielfach zugeschrieben und mit einer Predigt unter dem Titel „Gott ist da" verbunden; eine genaue Erstquelle ist nicht gesichert.`,
     sources: [
       { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Dass niemand geschädigt wird außer von sich selbst (Quod nemo laeditur nisi a seipso)', year: 'um 406', quote: `Wer nicht von sich selbst geschädigt wird, dem kann kein anderer schaden; das wahre Übel ist allein die Sünde.`, status: 'paraphrase' },
-      { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Vielzitierter Wahlspruch (Predigten)', quote: `Gott ist da – alles ist zum Guten – es wird ein Ende haben.`, original: `ربنا موجود – كله للخير – مسيرها تنتهي`, status: 'unverified', note: 'In ägyptischen Medien vielfach als Wort Schenudas III. überliefert; genaue Erstquelle nicht gesichert.' },
+      { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Vielzitierter Wahlspruch (Predigten)', quote: `Gott ist da – alles ist zum Guten – es wird ein Ende haben.`, original: `ربنا موجود – كله للخير – مسيرها تنتهي`, status: 'unverified', note: 'In ägyptischen Medien vielfach als Wort Schenudas III. überliefert; eine Erstquelle (Predigt mit Datum) ließ sich per WebSearch (Nov. 2026) nicht finden.' },
     ],
   },
   opposingView: {
