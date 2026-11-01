@@ -153,7 +153,7 @@ const claim: Claim = {
           followUps: [
             {
               id: 'sektenfuehrer-vergleich',
-          objection: `Dann wäre ja jeder Sektenführer, der sich für Gott hält, nicht verrückt, solange man ihn nicht widerlegen kann.`,
+              objection: `Dann wäre ja jeder Sektenführer, der sich für Gott hält, nicht verrückt, solange man ihn nicht widerlegen kann.`,
               objectionBy: 'Sam Harris',
               answer: `Nein – man prüft ihn an Belegen und Früchten. Sektenführer beuten aus, ihre Prophezeiungen scheitern, sie sterben und bleiben tot. Bei Jesus stehen ein beispielloser Charakter, eine Ethik der Feindesliebe und – vor allem – die historischen Belege für seine Auferstehung. Genau dieser Prüfung stellen sich Christen.`,
               detail: `Zum Trilemma (Lügner, Verrückter oder Herr): A7, ‚liberale-theologie/jesus-nur-morallehrer'.`,
