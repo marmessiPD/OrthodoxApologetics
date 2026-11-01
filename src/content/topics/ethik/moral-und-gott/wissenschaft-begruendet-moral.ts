@@ -97,6 +97,18 @@ const claim: Claim = {
                   objection: `Langfristig verringert Ungerechtigkeit immer das Gesamtwohl. Deshalb ist Gerechtigkeit im Wohlergehen schon enthalten.`,
                   objectionBy: 'Michael Shermer',
                   answer: `Das ist eine empirische Hoffnung, kein Beweis. Stell dir einen Fall vor, in dem es nicht so ist: Ein Arzt tötet heimlich einen gesunden Obdachlosen, um mit seinen Organen fünf Patienten zu retten, und niemand erfährt es je. Das Gesamtwohl steigt – und trotzdem wissen wir, dass es ein Mord ist. Das zeigt: Gerechtigkeit und Würde des Einzelnen sind nicht auf Wohlergehen reduzierbar. Kaiphas hat genau so gerechnet: „Es ist besser, ein Mensch sterbe für das Volk."`,
+                  followUps: [
+                    {
+                      id: 'transplantation-nur-intuition',
+                      objection: `Dein Transplantations-Beispiel ist eine konstruierte Gedankenspielerei. In der echten Welt würde eine solche Praxis das Vertrauen in Ärzte zerstören und das Gesamtwohl senken. Also verbietet auch mein Maßstab sie.`,
+                      objectionBy: 'Sam Harris',
+                      answer: `Dann hängt das Verbot, einen Unschuldigen zu töten, nur davon ab, ob es herauskommt. Wenn absolute Geheimhaltung garantiert wäre, müsste dein Maßstab die Tötung erlauben – ja fordern. Fast jeder Mensch sieht aber, dass die Tat auch dann falsch wäre: nicht wegen der Folgen, sondern weil man einen Menschen nicht als Ersatzteillager für andere benutzen darf. Diese Würde ist keine Funktion des Gesamtwohls – sie begrenzt es.`,
+                      detail: `Gedankenexperimente sind in der Ethik das, was Experimente in der Physik sind: Sie isolieren eine Variable. Hier wird gezeigt, dass unser moralisches Urteil nicht nur von Folgen abhängt, sondern von Rechten der Person. Christlich gesprochen: Jeder Mensch ist um seiner selbst willen gewollt, als Ebenbild Gottes, nicht als Mittel für den Nutzen anderer. Das ist der Kern dessen, was Kant später „Zweck an sich selbst" nannte.`,
+                      questionsBack: [
+                        `Wenn Geheimhaltung garantiert wäre – würdest du dann sagen, der Arzt soll den Gesunden töten?`,
+                      ],
+                    },
+                  ],
                 },
               ],
             },
@@ -115,6 +127,18 @@ const claim: Claim = {
           objection: `Moores „offene Frage" trifft aber auch dich: „Ist Gott gut?" ist ebenfalls eine sinnvolle Frage. Also kannst du das Gute auch nicht mit Gott gleichsetzen.`,
           objectionBy: 'Erik Wielenberg',
           answer: `Nicht jede Identität muss offensichtlich sein: „Ist Wasser H₂O?" war lange eine offene Frage und ist trotzdem eine Identität. Der Theist behauptet keine Definition, sondern eine entdeckte Identität: Das Gute gründet in Gottes Wesen. Harris könnte dasselbe für das Wohlergehen versuchen – dann muss er aber zeigen, dass Wohlergehen auch *Pflichten* erklärt. Das kann es nicht, denn eine Pflicht ist immer eine Pflicht gegenüber jemandem; Gott als Person kann das erklären.`,
+          followUps: [
+            {
+              id: 'gut-gleich-gott-stipuliert',
+              objection: `„Wasser = H₂O" wurde empirisch entdeckt. Wie entdeckst du „das Gute = Gott"? Du setzt es einfach fest. Das ist keine Entdeckung, sondern eine Definition.`,
+              objectionBy: 'Erik Wielenberg',
+              answer: `Theoretische Identitäten werden nicht nur durch Labore gefunden, sondern durch Erklärungskraft: Wir identifizieren Wasser mit H₂O, weil H₂O alles erklärt, was Wasser ausmacht. Ebenso fragt man: Was erfüllt am besten die Rolle des Guten – höchster Maßstab, Gegenstand der Liebe, Grund verbindlicher Pflichten, personal und unveränderlich? Ein vollkommen guter, liebender Gott erfüllt diese Rolle besser als ein abstraktes Prinzip oder ein Nervenzustand. Das ist ein Schluss auf die beste Erklärung, keine bloße Festsetzung.`,
+              detail: `Robert Adams hat diese Analogie ausdrücklich gezogen: So wie die Chemie entdeckt hat, was Wasser **ist**, kann die philosophische Reflexion entdecken, was das Gute **ist** – nämlich das, was am besten die Rolle ausfüllt, die unser Begriff des Guten markiert. Das schließt nicht aus, dass Atheisten den Begriff korrekt verwenden, so wie Menschen vor der Chemie korrekt über Wasser sprachen.`,
+              voices: [
+                { person: 'robert-adams', role: 'als Metaethiker', text: `Adams unterscheidet zwischen der Bedeutung von „gut" (die jeder kompetente Sprecher kennt) und der Natur des Guten (die philosophisch zu entdecken ist). Seine These in *Finite and Infinite Goods*: Das Gute selbst ist Gott, und endliche Dinge sind gut, insofern sie ihm auf je eigene Weise ähneln.` },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -132,6 +156,34 @@ const claim: Claim = {
           objection: `Auch ohne freien Willen können wir Menschen durch Belohnung und Strafe zu besserem Verhalten bringen. Mehr braucht die Gesellschaft nicht.`,
           objectionBy: 'Sam Harris',
           answer: `Das ist Verhaltenssteuerung, keine Moral. Wer entscheidet, was „besser" ist, und mit welchem Recht? Wenn auch die Steuernden nur tun, was ihre Gehirne verursachen, sind sie so wenig moralische Autoritäten wie die Gesteuerten. Das ist genau die Gefahr, die C. S. Lewis in *The Abolition of Man* beschrieb: Am Ende formen die „Konditionierer" die Werte der anderen – und niemand kann sie mehr an einem Maßstab messen.`,
+          followUps: [
+            {
+              id: 'strafe-ohne-schuld',
+              objection: `Vergeltung ist ohnehin barbarisch. Wir sperren gefährliche Menschen weg, wie wir Kranke unter Quarantäne stellen – zum Schutz der Gesellschaft, nicht weil sie Strafe „verdienen". Ohne freien Willen wird das Strafrecht humaner.`,
+              objectionBy: 'Sam Harris',
+              answer: `Ohne Verdienst gibt es aber auch keine **Unschuld**. Wenn Strafe nur Steuerung ist, dann ist es auch zulässig, einen Unschuldigen zu bestrafen, wenn das abschreckt, oder einen Täter unbegrenzt festzuhalten, bis Experten ihn für „geheilt" erklären. Gerade der Gedanke, dass jemand nur die Strafe bekommen darf, die er verdient – nicht mehr –, schützt Menschen vor dem Staat. Wer Schuld abschafft, schafft auch diese Schutzgrenze ab.`,
+              detail: `C. S. Lewis hat in seinem Aufsatz „Die humanitäre Theorie der Strafe" (1949) genau davor gewarnt: Wenn wir Verbrecher nicht mehr als Menschen behandeln, die Strafe verdienen, sondern als Patienten, die „behandelt" werden müssen, wird jede Maßnahme erlaubt, die ein Experte für heilsam hält – ohne Obergrenze, ohne Recht auf Widerspruch. Bestraft zu werden, weil man es verdient hat, heißt, als verantwortliche Person ernst genommen zu werden.`,
+              voices: [
+                { person: 'cs-lewis', role: 'als Kritiker der „humanitären" Strafe', text: `Lewis argumentiert, dass der Begriff des Verdienstes das einzige Bindeglied zwischen Strafe und Gerechtigkeit ist. Eine Strafe kann nur gerecht oder ungerecht sein, wenn sie verdient oder unverdient ist; eine „Heilbehandlung" kann nur erfolgreich oder erfolglos sein. Wer den Verdienst abschafft, entmündigt den Menschen und liefert ihn den Experten aus.` },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'C. S. Lewis', work: '„The Humanitarian Theory of Punishment", in: God in the Dock', year: '1949', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'sapolsky-determiniert',
+                  objection: `Die Neurowissenschaft zeigt: Jedes Verhalten ist das Ergebnis von Genen, Hormonen, Kindheit und Umwelt – Sekunden bis Jahrmillionen vorher. Niemand verdient je Lob oder Tadel. Das zu akzeptieren, macht uns barmherziger, nicht grausamer.`,
+                  objectionBy: 'Robert Sapolsky',
+                  answer: `Der Wunsch nach mehr Barmherzigkeit ist gut – Christen teilen ihn: Die Rache gehört Gott (Röm 12,19), und Jesus hat die Vergebung ins Zentrum gestellt. Aber Barmherzigkeit setzt Schuld voraus: Man kann nur jemandem vergeben, der etwas getan hat. Wenn niemand etwas tut, sondern alles nur geschieht, dann gibt es weder Schuld noch Vergebung, weder Dankbarkeit noch Liebe als freie Antwort. Und auch dein Appell, wir „sollten" barmherziger werden, setzt voraus, dass wir uns entscheiden können.`,
+                  detail: `Sapolsky hat in *Determined* (2023) die vielleicht konsequenteste Leugnung der Willensfreiheit aus neurowissenschaftlicher Sicht vorgelegt. Er gesteht selbst zu, dass er nicht wisse, wie man ohne den Begriff der Verantwortung leben könne. Die christliche Sicht nimmt die biologischen und biografischen Prägungen ernst – sie mildern Schuld, und Gott richtet gerecht, weil er alles weiß (1 Sam 16,7). Aber sie hält daran fest, dass der Mensch Person ist: ein Wesen, das antworten kann. Das Thema Willensfreiheit hat einen eigenen Themenblock.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Robert M. Sapolsky', work: 'Determined: A Science of Life without Free Will', year: '2023', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Römer', ref: '12,19', quote: `Rächet euch selber nicht, meine Liebsten, sondern gebet Raum dem Zorn Gottes; denn es steht geschrieben: „Die Rache ist mein; ich will vergelten, spricht der Herr."`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -140,6 +192,35 @@ const claim: Claim = {
       objection: `Religion hat in der Moral nichts verloren. Wissenschaft ist offen und überprüfbar, Religion ist Dogma – und ihre Dogmen haben Steinigungen und Frauenunterdrückung hervorgebracht.`,
       objectionBy: 'Steven Pinker',
       answer: `Der Satz „Nur die Wissenschaft liefert gültiges Wissen über Moral" ist selbst keine wissenschaftliche Aussage – er widerlegt sich selbst. Und „Wissenschaft" hat im 20. Jahrhundert auch Eugenik und Rassenlehre hervorgebracht, als man sie ohne moralischen Maßstab anwandte. Das zeigt nicht, dass Wissenschaft schlecht ist, sondern dass sie einen Maßstab braucht, den sie nicht selbst erzeugt. Dass Religion missbraucht wurde, gebe ich zu – aber derselbe Einwand trifft jede Quelle menschlicher Werte.`,
+      followUps: [
+        {
+          id: 'aufklaerung-humanismus-reicht',
+          objection: `Die moralischen Fortschritte der Moderne – Menschenrechte, Abschaffung der Folter, Demokratie – verdanken wir der Aufklärung: Vernunft, Wissenschaft und Humanismus. Die Religion hat sich diesen Fortschritten meist widersetzt.`,
+          objectionBy: 'Steven Pinker',
+          answer: `Die Aufklärung hat viel geleistet, aber sie hat ihre Grundwerte nicht aus dem Nichts geschaffen. Die Idee, dass jeder Mensch – der Sklave, das behinderte Kind, der Feind – gleiche Würde hat, war in der Antike keine Selbstverständlichkeit; Aristoteles hielt manche Menschen für Sklaven von Natur. Sie kam aus der jüdisch-christlichen Überzeugung, dass jeder Mensch Gottes Ebenbild ist. Selbst Jürgen Habermas, kein Christ, nennt den egalitären Universalismus der Moderne ein unmittelbares Erbe der jüdischen Gerechtigkeits- und der christlichen Liebesethik.`,
+          detail: `Der Historiker Tom Holland hat in *Herrschaft* (*Dominion*, 2019) die These ausgearbeitet, dass selbst säkulare Humanisten in einer zutiefst christlich geprägten Moral leben: Mitgefühl mit Opfern, Vorrang der Schwachen, Gleichheit aller – all das war in Rom fremd. Glen Scrivener hat dasselbe populär als „die Luft, die wir atmen" beschrieben. Ehrlich bleibt: Kirchen haben sich manchen Reformen widersetzt, und manche Aufklärer haben gegen kirchliche Machtansprüche zu Recht gekämpft. Aber der Maßstab, an dem man die Kirche damals kritisierte, war oft ihr eigenes Evangelium.`,
+          voices: [
+            { person: 'glen-scrivener', role: 'als Kulturapologet', text: `Scrivener argumentiert in *The Air We Breathe* (2022), dass die Werte, die moderne Westler für selbstverständlich halten – Gleichheit, Mitgefühl, Zustimmung, Wissenschaft, Freiheit, Fortschritt –, nicht universal menschlich sind, sondern aus der Geschichte des Christentums stammen. Wer sie für „einfach vernünftig" hält, vergisst, wie fremd sie den meisten Kulturen der Geschichte waren.` },
+          ],
+          sources: [
+            { kind: 'fachliteratur', author: 'Tom Holland', work: 'Dominion: The Making of the Western Mind (dt. Herrschaft)', year: '2019', status: 'paraphrase', note: 'Holland schrieb das Buch als Nichtgläubiger.' },
+            { kind: 'fachliteratur', author: 'Jürgen Habermas', work: 'Zeit der Übergänge (Suhrkamp)', ref: '„Ein Gespräch über Gott und die Welt", S. 174 f.', year: '2001', status: 'paraphrase', note: 'Habermas nennt das jüdische und das christliche Erbe – nicht das Christentum allein.' },
+            { kind: 'gegner', author: 'Steven Pinker', work: 'Enlightenment Now: The Case for Reason, Science, Humanism, and Progress', year: '2018', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'genetischer-fehlschluss-pinker',
+              objection: `Woher eine Idee stammt, ist egal – das ist der genetische Fehlschluss. Selbst wenn die Menschenwürde christliche Wurzeln hat: Jetzt haben wir sie, und die Vernunft kann sie auch ohne Gott tragen.`,
+              objectionBy: 'Steven Pinker',
+              answer: `Mir geht es nicht um die Herkunft, sondern um das Fundament: Kann die Idee ohne ihre Voraussetzung stehen? Ausgerechnet Nietzsche hat davor gewarnt: Wer den christlichen Glauben aufgibt, zieht sich damit das Recht auf die christliche Moral unter den Füßen weg. Er hielt die Engländer, die ohne Gott an der christlichen Moral festhielten, für inkonsequent. Ein Haus kann eine Weile stehen, wenn man das Fundament entfernt – aber man sollte nicht behaupten, es brauche keines.`,
+              detail: `Nietzsche schreibt in der *Götzen-Dämmerung* („Streifzüge eines Unzeitgemässen" 5) über George Eliot: Man sei den christlichen Gott los und glaube nun umso mehr, die christliche Moral festhalten zu müssen – das sei englische Folgerichtigkeit, die Nietzsche verspottet. Die christliche Moral sei ein System, ein Ganzes; breche man den Glauben an Gott heraus, zerbreche man das Ganze. Christen und Nietzsche sind sich in dieser Analyse einig – sie ziehen nur entgegengesetzte Schlüsse.`,
+              sources: [
+                { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Götzen-Dämmerung', ref: '„Streifzüge eines Unzeitgemässen" 5', year: '1889', quote: `Wenn man den christlichen Glauben aufgibt, zieht man sich damit das Recht zur christlichen Moral unter den Füßen weg.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

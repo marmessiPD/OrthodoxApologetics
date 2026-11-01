@@ -130,6 +130,106 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'gen-3-15-feindschaft',
+      objection: `„Gen 3,15: ‚Ich will Feindschaft setzen zwischen dir und dem Weibe.' Eine vollständige Feindschaft bedeutet, dass Maria nie, auch nicht einen Augenblick, unter der Herrschaft Satans stand – also ohne Erbsünde. So argumentiert auch Ineffabilis Deus."`,
+      objectionBy: 'Scott Hahn',
+      answer: `Gen 3,15 spricht zuerst von der Feindschaft zwischen dem Samen der Schlange und dem Samen der Frau – und der Sieg gehört dem Samen: „**Der**selbe soll dir den Kopf zertreten." Die lateinische Vulgata las „*ipsa* conteret" (sie wird zertreten) – eine ungenaue Übersetzung, die die katholische Nova Vulgata selbst zu „*ipsum*" korrigiert hat. Und die Frau, zu der Gott in Gen 3 spricht, ist zuerst Eva, die gesündigt hatte. Feindschaft gegen die Schlange setzt keine Empfängnis ohne Erbsünde voraus.`,
+      sources: [
+        { kind: 'bibel', work: '1. Mose', ref: '3,15', quote: `Und ich will Feindschaft setzen zwischen dir und dem Weibe und zwischen deinem Samen und ihrem Samen; derselbe soll dir den Kopf zertreten, und du wirst ihn in die Ferse stechen.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'offb-12-frau',
+          objection: `„Offb 12: Die Frau, mit der Sonne bekleidet, im Kampf mit dem Drachen – das ist Maria, verherrlicht und von Anfang an siegreich über Satan."`,
+          objectionBy: 'Scott Hahn („Hail, Holy Queen")',
+          answer: `Die Frau in Offb 12 ist vielschichtig: Sie trägt zwölf Sterne, flieht 1260 Tage in die Wüste und hat „übrige Nachkommen", die Gottes Gebote halten (12,17) – das passt auf Israel und die Kirche; Hippolyt deutete sie auf die Kirche. Und wenn man sie streng auf Maria bezieht, dann gilt auch: „Sie schrie in Kindesnöten und hatte große Qual zur Geburt" (12,2) – die Wehen aus dem Fluch von Gen 3,16, die die katholische Tradition Maria gerade abspricht. Der Text beweist also entweder zu viel oder zu wenig.`,
+          voices: [
+            {
+              person: 'hippolyt-rom',
+              role: 'als früher Ausleger der Offenbarung',
+              text: `Hippolyt von Rom deutet in seiner Schrift über Christus und den Antichristen die mit der Sonne bekleidete Frau auf die Kirche, die mit dem Logos des Vaters bekleidet ist und Christus in der Welt immerfort gebiert. Die marianische Deutung ist später hinzugekommen und hat ihr Recht – aber sie ist nicht die einzige der frühen Kirche.`,
+              sources: [{ kind: 'kirchenvater', author: 'Hippolyt von Rom', work: 'Über Christus und den Antichristen (De Antichristo)', ref: '61', year: 'um 200', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'bewahrende-erloesung',
+              objection: `„Maria nennt Gott ‚meinen Heiland' (Lk 1,47) – natürlich! Sie wurde erlöst, aber vorbeugend: wie jemand, den man davor bewahrt, in eine Grube zu fallen, statt ihn herauszuziehen. Das ist das Argument des Duns Scotus."`,
+              objectionBy: 'Tim Staples',
+              answer: `Ein scharfsinniger Gedanke – aber im ersten Jahrtausend findet er sich weder in der Schrift noch bei den Vätern. Die Väter sprechen von einer Reinigung Marias bei der Verkündigung: Gregor der Theologe sagt, Christus sei aus der Jungfrau empfangen worden, „die zuvor an Seele und Leib durch den Geist gereinigt worden war". Genau so lehrt Papst Schenuda III.: Ihre Mutter empfing sie wie alle Menschen; der Heilige Geist heiligte sie, als er über sie kam.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Rede 38 (Auf die Theophanie)', ref: '13', year: '379/380', status: 'paraphrase', original: `προκαθαρθείσης καὶ ψυχὴν καὶ σάρκα τῷ Πνεύματι` },
+                { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Die heilige Jungfrau Maria (engl. Ausgabe: The Holy Virgin St. Mary)', status: 'paraphrase', url: 'https://st-takla.org/Feastes-&-Special-Events/Virgin-Mary-Fast/Saint-Mary-Fast_Virgin-Life-Hymns-mp3s-02-Pope-Shenouda-Virgin-Mary-Book.html' },
+              ],
+              followUps: [
+                {
+                  id: 'gereinigt-heisst-nicht-suendig',
+                  objection: `„‚Gereinigt' bei Gregor heißt nicht, dass Maria Sünde hatte – es meint eine Erhöhung der Heiligkeit, wie man auch Reines noch reinigen kann."`,
+                  objectionBy: 'Katholischer Theologe',
+                  answer: `Das kann sein – auch wir sagen nicht, dass Maria persönliche Sünden begangen habe. Aber entscheidend ist der **Zeitpunkt**: Gregor verortet die besondere Heiligung Marias bei der Verkündigung, nicht bei ihrer Empfängnis im Schoß Annas. Das ist die koptische Lehre. Andere östliche Väter gingen sogar weiter: Chrysostomus traut Maria in seinen Matthäus-Homilien menschliche Schwächen zu – eine Meinung, die die koptische Kirche nicht teilt, die aber zeigt, dass der Gedanke einer Empfängnis ohne Erbsünde im Osten unbekannt war.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Matthäusevangelium', ref: '44 (zu Mt 12,46–50)', year: 'um 390', status: 'paraphrase', note: 'Chrysostomus deutet das Kommen Marias und der Brüder als Zeichen menschlichen Ehrgeizes – eine Einzelmeinung, die die koptische Marienverehrung nicht übernimmt.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'augustinus-nimmt-maria-aus',
+      objection: `„Augustinus schreibt in ‚De natura et gratia', wenn von Sünde die Rede ist, wolle er aus Ehrfurcht vor dem Herrn Maria ganz ausnehmen. Die Lehre ist also alt."`,
+      objectionBy: 'Katholischer Kirchenhistoriker',
+      answer: `Augustinus spricht dort von persönlichen Sünden – Pelagius hatte eine Liste sündloser Gerechter aufgestellt –, nicht von der Erbsünde. Dass Maria keine persönlichen Sünden beging, ehrt auch die koptische Kirche. Eine Empfängnis ohne Erbsünde lehrt Augustinus nicht. Und die großen Lehrer des Westens nach ihm – Bernhard von Clairvaux und Thomas von Aquin – lehnten die Unbefleckte Empfängnis ausdrücklich ab.`,
+      sources: [
+        { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'De natura et gratia', ref: '36,42', year: '415', status: 'paraphrase', note: 'Augustinus nimmt Maria „um der Ehre des Herrn willen" aus, wenn es um Sünden geht – im Kontext der Frage nach persönlicher Sündlosigkeit.' },
+      ],
+      followUps: [
+        {
+          id: 'dogmenentwicklung',
+          objection: `„Lehre entwickelt sich – das hat John Henry Newman gezeigt. Die Unbefleckte Empfängnis war einschlussweise immer da und wurde ausdrücklich, so wie auch das *homoousios* erst 325 formuliert wurde."`,
+          objectionBy: 'Scott Hahn (mit Newman)',
+          answer: `Echte Entfaltung macht ausdrücklich, was die ganze Kirche immer geglaubt und gebetet hat: Das *homoousios* erklärt den Glauben, in dem die Kirche taufte und Christus anbetete. Die Unbefleckte Empfängnis dagegen widerspricht dem, was der Osten und große westliche Lehrer ausdrücklich lehrten – das ist nicht Entfaltung, sondern Neuerung. Zudem wurde sie 1854 vom Papst allein verkündet, nicht von einem ökumenischen Konzil.`,
+          voices: [
+            {
+              person: 'vinzenz-lerin',
+              role: 'als Theoretiker der Glaubensentfaltung',
+              text: `Vinzenz bejaht einen Fortschritt im Glauben, aber er vergleicht ihn mit dem Wachstum eines Körpers vom Kind zum Mann: Die Glieder werden größer, aber es entsteht kein neues Glied. Fortschritt heißt, dass eine Sache in sich wächst; Veränderung hieße, dass sie zu etwas anderem wird.`,
+              sources: [{ kind: 'kirchenvater', author: 'Vinzenz von Lérins', work: 'Commonitorium', ref: '23', year: '434', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'lourdes',
+              objection: `„In Lourdes sagte Maria 1858 selbst: ‚Ich bin die Unbefleckte Empfängnis' – und der Himmel bestätigte es mit Wundern."`,
+              objectionBy: 'Katholischer Pilger',
+              answer: `Wir respektieren die Frömmigkeit der Pilger und spotten nicht. Aber Privatoffenbarungen können keine Dogmen für die ganze Kirche begründen – das sagt auch die katholische Lehre selbst (KKK 67). Auch die koptische Kirche kennt Marienerscheinungen, etwa in Zeitoun (1968–1971); wir bauen darauf aber keine neuen Lehren. Was die Kirche glaubt, muss aus der apostolischen Überlieferung kommen, nicht aus späteren Visionen.`,
+              sources: [
+                { kind: 'gegner', work: 'Katechismus der Katholischen Kirche', ref: 'Nr. 67', year: '1992/1997', status: 'paraphrase', note: 'Privatoffenbarungen gehören nicht zum Glaubensgut; sie sollen die endgültige Offenbarung nicht vervollkommnen.' },
+              ],
+              followUps: [
+                {
+                  id: 'wirklich-kirchentrennend',
+                  objection: `„Ist das wirklich kirchentrennend? Es ist doch eine fromme Überzeugung, die Maria ehrt. Die Orthodoxen könnten sie tolerieren."`,
+                  objectionBy: 'Katholischer Ökumeniker',
+                  answer: `Als fromme Meinung vielleicht. Das Problem ist, dass sie 1854 zum Dogma unter Androhung des Glaubensverlusts erhoben wurde – für alle verbindlich, obwohl die Väter sie nicht lehrten. Außerdem beantwortet sie eine Frage, die sich vor allem im augustinischen Verständnis der Erbsünde als vererbter Schuld stellt. Wo die Erbsünde – wie in der koptischen Tradition – vor allem als Erbe von Sterblichkeit und Neigung zur Sünde verstanden wird, ist die Lehre schlicht nicht nötig, um Marias Heiligkeit zu begründen.`,
+                  voices: [
+                    {
+                      person: 'kallistos-ware',
+                      role: 'als orthodoxer Theologe',
+                      text: `Ware erklärt, dass die Orthodoxie die Lehre von der Unbefleckten Empfängnis vor allem deshalb nicht übernimmt, weil sie ein anderes Verständnis der Erbsünde hat: Ohne die augustinische Vorstellung einer vererbten Schuld erscheint das Dogma überflüssig. Zugleich ehrt die Orthodoxie Maria als „Allheilige" und glaubt, dass sie keine persönliche Sünde beging.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Kallistos Ware', work: 'The Orthodox Church', year: '1963, Neuausgabe 1993', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welcher Kirchenvater vor dem 12. Jahrhundert lehrte ausdrücklich, Maria sei ohne Erbsünde empfangen worden?`,

@@ -157,6 +157,31 @@ const claim: Claim = {
               questionsBack: [
                 `Welche Lösung erklärt Grim Reaper, Thomsons Lampe und die unendliche Lotterie gemeinsam?`,
               ],
+              followUps: [
+                {
+                  id: 'kausaler-finitismus-ad-hoc',
+                  objection: `Kausaler Finitismus ist ad hoc – er wurde erfunden, um Kalam zu retten. Und die Physik arbeitet ständig mit Kontinua: Ein elektromagnetisches Feld hat unendlich viele Punkte, die alle aufeinander wirken.`,
+                  objectionBy: 'Wes Morriston',
+                  targetsPremise: 1,
+                  answer: `Ad hoc wäre er, wenn er nur ein Problem löste. Er löst aber eine ganze Familie unabhängiger Paradoxien, die mit Gott nichts zu tun haben – das ist das Kennzeichen einer guten Erklärung. Und das Kontinuum ist kein Gegenbeispiel: Ein Feldwert an einem Punkt hat keine unendliche Kette **diskreter** Einzelursachen, die nacheinander gewirkt hätten; ob die Raumzeit auf kleinster Skala überhaupt kontinuierlich ist, ist zudem offen (Quantengravitation).`,
+                  detail: `Pruss diskutiert diesen Einwand ausführlich: Kausaler Finitismus verbietet nicht unendlich viele Punkte, sondern unendlich viele Ursachen in der Vorgeschichte eines Ereignisses. Kontinuierliche Felder lassen sich als **eine** Ursache mit kontinuierlicher Struktur beschreiben. Ehrlich: Wie genau Kontinua in die Theorie passen, ist ein offener Forschungspunkt – aber kein Argument für eine reale anfangslose Ereigniskette.
+
+Hinzu kommt der historische Befund: Die Unterscheidung zwischen potenziell und aktual Unendlichem stammt von Aristoteles; Johannes Philoponos benutzte sie im 6. Jahrhundert gegen die Ewigkeit der Welt – lange bevor jemand „Kalam retten" musste.`,
+                  voices: [
+                    {
+                      person: 'johannes-philoponos',
+                      role: 'als alexandrinischer Philosoph des 6. Jahrhunderts',
+                      text: `Philoponos argumentierte gegen Proklos und Aristoteles: Wenn die Welt ewig wäre, wäre bis heute eine aktual unendliche Zahl von Generationen durchlaufen worden – was Aristoteles selbst für unmöglich hielt. Und jede neue Generation würde dieses „Unendliche" noch vergrößern. Das Argument aus der sukzessiven Bildung ist also ein Erbe der alexandrinischen christlichen Philosophie.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Johannes Philoponos', work: 'De aeternitate mundi contra Proclum', year: '529', status: 'paraphrase', note: 'Philoponos war Miaphysit; seine trinitarischen Spekulationen (sog. Tritheismus) wurden von der Kirche nicht übernommen – hier nur als Philosoph zitiert.' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Welche Paradoxie, die mit Gott nichts zu tun hat, löst der kausale Finitismus nicht – und welche Alternative löst sie alle?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -198,6 +223,35 @@ const claim: Claim = {
               objectionBy: 'Alex Malpass',
               answer: `Nein. Eine Strecke ist unendlich **teilbar** (potenziell unendlich), aber sie besteht nicht aus unendlich vielen real abgegrenzten Teilstücken, die man einzeln abarbeitet – die Teile entstehen erst durch unser Einteilen. Vergangene Ereignisse dagegen sind real und diskret: Jeder Tag hat tatsächlich stattgefunden. Diese Unterscheidung geht auf Aristoteles zurück und wurde von Philoponos genutzt.`,
               detail: `Ehrlich: Manche Philosophen meinen, Zenon und Kalam stünden und fielen gemeinsam. Die Unterscheidung zwischen potenziellem und aktualem Unendlichen ist aber seit der Antike etabliert und wird von vielen Mathematikphilosophen geteilt.`,
+              followUps: [
+                {
+                  id: 'supertasks-moeglich',
+                  objection: `Die Philosophie der Supertasks (Benacerraf, Grünbaum) zeigt aber: Unendlich viele Schritte in endlicher Zeit sind logisch widerspruchsfrei. Wenn das in endlicher Zeit geht, dann erst recht in unendlicher Zeit.`,
+                  objectionBy: 'Graham Oppy',
+                  targetsPremise: 2,
+                  answer: `Supertasks sind genau das Gebiet, auf dem die Paradoxien entstehen: Thomsons Lampe ist nach unendlich vielen Schaltvorgängen weder an noch aus – und das System sagt dir nicht, welcher Zustand folgt. Benacerraf hat gezeigt, dass die Beschreibung nicht **logisch** widersprüchlich ist, aber auch, dass der Endzustand völlig unbestimmt bleibt. Eine Welt, in der das Ergebnis vollendeter unendlicher Prozesse beliebig ist, ist keine erklärbare Welt. Das spricht gegen reale Supertasks, nicht für sie.`,
+                  detail: `Wichtig für dich: Du musst nicht behaupten, Supertasks seien formallogisch widersprüchlich. Die stärkere Linie ist die von Alexander Pruss: Wenn man reale unendliche Kausalketten zulässt, folgen Situationen, in denen eine Wirkung ohne bestimmbare Ursache eintritt (Grim Reaper, Thomsons Lampe, die „Little Ball"-Paradoxien). Das Prinzip „keine unendlichen Kausalgeschichten" erklärt diese ganze Familie auf einmal – und impliziert zugleich, dass die Vergangenheit endlich ist.
+
+Außerdem trägt der Schluss „erst recht in unendlicher Zeit" nicht: Ein Supertask hat einen **Anfang** und eine Grenze, auf die er zuläuft. Eine anfangslose Vergangenheit hat keinen ersten Schritt, von dem aus die Reihe „anlaufen" könnte.`,
+                  voices: [
+                    {
+                      person: 'alexander-pruss',
+                      role: 'als Philosoph der Unendlichkeit und Kausalität',
+                      text: `Pruss entwickelt in *Infinity, Causation, and Paradox* den „kausalen Finitismus": Nichts kann unendlich viele Ursachen in seiner kausalen Vorgeschichte haben. Er zeigt, dass diese eine Annahme eine erstaunliche Bandbreite von Paradoxien auflöst, ohne die Mathematik des Unendlichen anzutasten – die Mengenlehre bleibt intakt, nur ihre kausale Realisierung wird ausgeschlossen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Alexander R. Pruss', work: 'Infinity, Causation, and Paradox', year: '2018', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Paul Benacerraf', work: '„Tasks, Super-Tasks, and the Modern Eleatics", Journal of Philosophy 59', year: '1962', status: 'paraphrase', note: 'Benacerraf zeigt, dass Thomsons Lampe keinen logischen Widerspruch enthält, der Endzustand aber unbestimmt bleibt.' },
+                  ],
+                  questionsBack: [
+                    `Ist Thomsons Lampe nach unendlich vielen Schaltvorgängen an oder aus – und was hat das verursacht?`,
+                    `Welcher Schritt war in einer anfangslosen Reihe der erste, von dem aus sie ablaufen konnte?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -228,6 +282,24 @@ const claim: Claim = {
               id: 'gottes-wissen-unendlich',
               objection: `Aber Gottes Wissen ist doch unendlich. Also gibt es auch bei dir ein aktual Unendliches!`,
               answer: `Gottes Wissen ist keine Sammlung konkreter Einzeldinge, die nacheinander zusammengetragen wird. Die Väter sprechen von Gottes Einfachheit: Er erkennt alles in einem Akt. Unendlich bedeutet bei Gott nicht „eine sehr große Menge", sondern „ohne Grenze der Vollkommenheit" – eine qualitative, keine quantitative Unendlichkeit. Cantor selbst stellte Gottes „Absolut-Unendliches" über jede Menge.`,
+              followUps: [
+                {
+                  id: 'ewiges-leben-unendlich',
+                  objection: `Dann ist auch dein Himmel unmöglich: Ewiges Leben bedeutet unendlich viele künftige Ereignisse. Wenn eine unendliche Vergangenheit absurd ist, ist es eine unendliche Zukunft auch.`,
+                  objectionBy: 'Graham Oppy',
+                  answer: `Nein – Zukunft und Vergangenheit sind nicht symmetrisch. Die Zukunft ist nie **vollendet**: Zu jedem Zeitpunkt sind erst endlich viele Ereignisse geschehen, die Reihe wächst ins Unbegrenzte (potenziell unendlich). Die anfangslose Vergangenheit dagegen müsste **heute schon vollständig abgelaufen** sein – eine abgeschlossene unendliche Gesamtheit. Endlos ist nicht dasselbe wie unendlich vollendet.`,
+                  detail: `Diese Asymmetrie ist der Kern des Arguments aus der sukzessiven Bildung (Craig): Man kann eine unendliche Menge nicht durch schrittweises Hinzufügen **erreichen** – weder in die Zukunft noch aus der Vergangenheit. In die Zukunft wird sie nie erreicht; das ist harmlos. Aus der Vergangenheit müsste sie bereits erreicht sein; das ist das Problem.
+
+Morriston und Malpass bestreiten die Asymmetrie (sie halten „endlos" und „anfangslos" für spiegelbildlich). Darauf kannst du sagen: Die Vergangenheit ist real geworden – jeder Tag hat stattgefunden –, die Zukunft ist es noch nicht. Wer das bestreitet, muss eine „Blockuniversum"-Metaphysik annehmen, in der auch die Zukunft schon real existiert – und dann hätte er ein aktual Unendliches künftiger Ereignisse, also genau das Problem, das er vermeiden wollte. Für den Christen ist ewiges Leben zudem Teilhabe am Leben Gottes, nicht bloß eine endlose Strichliste von Tagen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'William Lane Craig & James D. Sinclair', work: 'The Kalam Cosmological Argument', ref: 'in: The Blackwell Companion to Natural Theology', year: '2009', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Wes Morriston', work: '„Beginningless Past, Endless Future, and the Actual Infinite", Faith and Philosophy 27', year: '2010', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wie viele Tage der Zukunft sind heute schon geschehen – und wie viele Tage einer anfangslosen Vergangenheit?`,
+                  ],
+                },
+              ],
             },
           ],
         },

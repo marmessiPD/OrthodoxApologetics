@@ -165,6 +165,52 @@ const claim: Claim = {
           objection: `Dann sind eure theologischen Antworten aber genauso unbeweisbar.`,
           objectionBy: 'Neil deGrasse Tyson',
           answer: `Nicht im Labor beweisbar – aber begründbar. Wir arbeiten mit Schlüssen auf die beste Erklärung: Kontingenz der Welt, Feinabstimmung, Verstehbarkeit, das Moralgesetz und die historische Evidenz für die Auferstehung Christi. Das ist dieselbe Art von Begründung, die Historiker, Juristen und auch Kosmologen bei einmaligen Ereignissen verwenden.`,
+          followUps: [
+            {
+              id: 'beste-erklaerung-beliebig',
+              objection: `„Schluss auf die beste Erklärung" klingt gut, aber bei dir ist die beste Erklärung zufällig immer Gott. Wer legt fest, was „beste" heißt?`,
+              objectionBy: 'Victor Stenger',
+              answer: `Dieselben Kriterien, mit denen Kosmologen die Dunkle Materie erschließen, die niemand je gesehen hat: Erklärungsreichweite, Erklärungskraft, Einfachheit, möglichst wenig Ad-hoc-Annahmen, Stimmigkeit mit dem übrigen Wissen. Du kannst prüfen, ob der Theismus diese Kriterien besser erfüllt als der Naturalismus – Punkt für Punkt: Dasein der Welt, Anfang, Feinabstimmung, Verstehbarkeit, Bewusstsein, Moral. Wenn der Naturalismus besser abschneidet, sag mir, wo.`,
+              detail: `Die Kriterien gehen auf die Wissenschaftstheorie zurück (Peirce, Lipton, *Inference to the Best Explanation*, 2. Aufl. 2004). Entscheidend: Ein einzelnes Phänomen beweist wenig; die Stärke liegt in der *Konvergenz* vieler unabhängiger Phänomene, die unter einer Hypothese erwartbar, unter der anderen überraschend sind. So arbeitet auch die Kosmologie, wenn sie aus Rotationskurven, Gravitationslinsen und dem Mikrowellenhintergrund auf Dunkle Materie schließt.`,
+              questionsBack: [`Welche Kriterien verwendest du, wenn du zwischen kosmologischen Modellen entscheidest, die man nicht direkt beobachten kann?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'zeit-emergent',
+      objection: `In der Quantengravitation ist die Zeit wahrscheinlich gar nicht fundamental. Die Wheeler-DeWitt-Gleichung für das Universum als Ganzes enthält keine Zeitvariable; Zeit „entsteht" erst als Näherung. Wenn Zeit emergent ist, dann gibt es keinen echten Anfang – und deine Frage nach dem Davor oder der Ursache des Anfangs löst sich auf.`,
+      objectionBy: 'Sean Carroll / Carlo Rovelli',
+      answer: `Wenn Zeit emergent ist, dann entsteht sie *aus etwas* – aus einer tieferen, zeitlosen Ebene mit einem bestimmten Zustand und bestimmten Gesetzen. Damit verschwindet die Frage nicht, sie wird nur reiner: Warum gibt es diese zeitlose Ebene, und warum ist sie so beschaffen? Und das ist genau die Frage, die Augustinus und Thomas gestellt haben – nicht „Was war vorher?", sondern „Wovon hängt alles ab?". Eine Welt, in der die Zeit selbst etwas Abgeleitetes ist, passt erstaunlich gut zum christlichen Satz, dass Gott die Zeit mit der Welt geschaffen hat.`,
+      detail: `Das „Problem der Zeit" in der Quantengravitation ist real: In der kanonischen Quantisierung der Allgemeinen Relativitätstheorie taucht in der Grundgleichung keine äußere Zeit auf; Zeit wird über Korrelationen zwischen Teilsystemen rekonstruiert (Page–Wootters-Mechanismus). Rovelli vertritt in *Die Ordnung der Zeit* (2018) eine solche relationale Sicht. Für die Theologie ist das kein Problem, sondern eher eine Bestätigung: Die Väter lehrten nie, dass Gott in einer vorher bestehenden Zeit handelt, sondern dass Zeit, Raum und Materie gemeinsam aus seinem Schöpfungswillen hervorgehen.`,
+      voices: [
+        { person: 'thomas-aquin', role: 'als Philosoph der Seinsabhängigkeit', text: `Thomas unterscheidet zwischen der Frage, ob die Welt einen zeitlichen Anfang hat, und der Frage, ob sie geschaffen ist. Schöpfung bedeutet für ihn die bleibende Abhängigkeit des Seins von Gott; sie wäre auch dann wahr, wenn die Welt keinen zeitlichen Anfang hätte (De aeternitate mundi). Eine emergente Zeit berührt diese Abhängigkeit nicht – sie betrifft nur die Form, in der das Geschöpf existiert.` },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Carlo Rovelli', work: 'Die Ordnung der Zeit (L’ordine del tempo)', year: '2018', quote: `Auf der fundamentalen Ebene gebe es keine Zeitvariable; Zeit sei ein Phänomen, das aus Beziehungen und aus unserer unscharfen Sicht der Welt hervorgehe.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Thomas von Aquin', work: 'De aeternitate mundi', year: 'ca. 1270', quote: `Dass etwas von Gott verursacht ist und dennoch immer existiert hätte, ist kein Widerspruch; Schöpfung bedeutet Abhängigkeit im Sein.`, status: 'paraphrase' },
+      ],
+      questionsBack: [`Woraus emergiert die Zeit – und warum existiert diese tiefere Ebene überhaupt?`],
+      followUps: [
+        {
+          id: 'zeitlose-ebene-ist-grundlage',
+          objection: `Dann ist eben die zeitlose Quantenebene das Fundament. Sie braucht keinen Grund – sie ist einfach die tiefste Schicht der Wirklichkeit.`,
+          objectionBy: 'Sean Carroll',
+          answer: `Diese tiefste Schicht ist aber kein formloses „Sein", sondern etwas sehr Bestimmtes: ein bestimmter Zustandsraum, eine bestimmte Gleichung, ein bestimmter Quantenzustand unter unendlich vielen möglichen. Alles, was so spezifisch ist, hätte auch anders sein können. Ein guter letzter Grund muss etwas sein, das nicht anders sein kann – und eine Gleichung mit beliebig wählbaren Größen ist das gerade nicht.`,
+          detail: `Die Wheeler-DeWitt-Gleichung hat unendlich viele Lösungen; um eine auszuwählen, braucht man eine Randbedingung (Hartle–Hawking, Vilenkin, Linde – die Vorschläge widersprechen sich). Wer also „die" Wellenfunktion des Universums zum Fundament erklärt, hat bereits eine Auswahl getroffen, die nicht aus der Gleichung folgt. Genau die Frage „Warum diese und nicht eine andere?" ist die Frage nach dem Grund.`,
+          questionsBack: [`Hätte die Wellenfunktion des Universums auch anders aussehen können? Wenn ja – warum ist sie so, wie sie ist?`],
+          followUps: [
+            {
+              id: 'warum-frage-unwissenschaftlich',
+              objection: `Die Physik muss nicht jede Warum-Frage beantworten. Vielleicht gibt es auf „Warum gerade diese Gesetze?" schlicht keine Antwort. Zu erwarten, dass alles eine Erklärung hat, ist ein ästhetisches Vorurteil – genau das, was die Physik in die Irre geführt hat.`,
+              objectionBy: 'Sabine Hossenfelder',
+              answer: `Das ist eine ehrliche Position – aber sie ist bescheidener als die Ausgangsbehauptung. „Die Physik kann das nicht beantworten" ist etwas völlig anderes als „Die Frage ist sinnlos". Das Erste ist Agnostizismus und lässt Raum für philosophische und theologische Antworten. Das Zweite wäre eine starke These, für die man ein Argument bräuchte – und das gibt es nicht. Wenn du sagst: „Vielleicht gibt es keine Antwort", sage ich: Vielleicht gibt es eine, und dann prüfen wir, welche Kandidaten am meisten erklären.`,
+              detail: `Hossenfelder kritisiert in *Lost in Math* (2018) zu Recht, dass Physiker Schönheit, Natürlichkeit und Eleganz oft als Wahrheitskriterien missbraucht haben. Daraus folgt aber nicht, dass die Frage nach dem Grund der Gesetze sinnlos ist; es folgt nur, dass die Physik sie nicht mit ihren eigenen Mitteln beantworten kann. Für den Laien ist das der entscheidende Punkt im Gespräch: Aus „Die Physik schweigt" wird oft unbemerkt „Es gibt nichts zu sagen".`,
+              sources: [{ kind: 'gegner', author: 'Sabine Hossenfelder', work: 'Lost in Math: How Beauty Leads Physics Astray', year: '2018', quote: `Ästhetische Kriterien wie Natürlichkeit und Schönheit hätten die Grundlagenphysik in die Irre geführt; nicht jede Zahl in den Gesetzen müsse eine tiefere Erklärung haben.`, status: 'paraphrase' }],
+              questionsBack: [`Sagst du, dass die Frage sinnlos ist – oder nur, dass die Physik sie nicht beantworten kann? Das sind zwei sehr verschiedene Behauptungen.`],
+            },
+          ],
         },
       ],
     },

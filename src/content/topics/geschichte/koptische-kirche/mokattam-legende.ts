@@ -154,6 +154,26 @@ const claim: Claim = {
           objectionBy: 'Bart Ehrman (Argumentationsmuster)',
           answer: `Weil die Quellenlage völlig verschieden ist: Für die Auferstehung haben wir Zeugnisse aus den ersten Jahren nach dem Ereignis (1 Kor 15,3–8), mehrere unabhängige Berichte, das leere Grab, die Bekehrung von Skeptikern wie Jakobus und Paulus und Zeugen, die dafür starben. Beim Mokattam haben wir eine einzige, später redigierte Überlieferung. Wer beide gleich behandelt, ignoriert die Unterschiede, die jeder Historiker machen würde.`,
         },
+        {
+          id: 'wo-wunder-heute',
+          objection: `Wenn Gott damals Berge versetzte – warum sehen wir heute keine solchen Wunder?`,
+          objectionBy: 'Säkularer Kritiker',
+          answer: `Wunder sind nach christlichem Verständnis keine Vorführungen auf Bestellung, sondern freie Zeichen Gottes; Jesus selbst verweigerte Schauwunder (Mt 12,39). Zugleich berichten weltweit Millionen Menschen von Erfahrungen, die sie als göttliches Eingreifen deuten – der Neutestamentler Craig Keener hat viele solcher Berichte gesammelt, manche medizinisch dokumentiert. Jeder Bericht muss einzeln geprüft werden; pauschal ausschließen kann man sie nur aus weltanschaulichen Gründen.`,
+        },
+      ],
+    },
+    {
+      id: 'abraham-selbst-legende',
+      objection: `Vielleicht ist auch Papst Abraham selbst nur eine Legendenfigur – in koptischsprachigen Quellen kommt er gar nicht vor.`,
+      objectionBy: 'Skeptischer Kritiker',
+      answer: `Abraham ist in der Patriarchengeschichte und in den Patriarchenlisten fest verankert, und seine Reformen gegen Ämterkauf und Konkubinat werden dort so konkret und unbequem beschrieben, dass Historiker sie für glaubwürdig halten. Dass er vor allem in arabischen Texten erscheint, ist für das 10. Jahrhundert normal: Die koptische Kirche schrieb damals zunehmend Arabisch, und die Patriarchengeschichte beruht auf koptischen Vorlagen, die ins Arabische übertragen wurden.`,
+      followUps: [
+        {
+          id: 'jude-als-gegenspieler',
+          objection: `In der Erzählung sind ein Jude und ein jüdischstämmiger Wesir die Bösewichte. Ist das nicht ein antijüdisches Klischee?`,
+          objectionBy: 'Kritischer Historiker',
+          answer: `Das ist ein berechtigter Hinweis. Die Erzählung spiegelt Rivalitäten am Fatimidenhof, und mittelalterliche Erzählungen aller Religionen zeichnen Angehörige anderer Gruppen gern als Gegenspieler. Wer die Geschichte heute erzählt, darf sie auf keinen Fall gegen Juden wenden – ihre Botschaft ist Gottes Treue gegenüber einer bedrängten Gemeinde, nicht Feindschaft gegen andere.`,
+        },
       ],
     },
     {
