@@ -109,6 +109,18 @@ const claim: Claim = {
           sources: [
             { kind: 'bibel', work: 'Apostelgeschichte', ref: '8,20', quote: `Petrus aber sprach zu ihm: Daß du verdammt werdest mit deinem Gelde, darum daß du meinst, Gottes Gabe werde durch Geld erlangt!`, translation: 'Luther 1912', status: 'verbatim' },
           ],
+          followUps: [
+            {
+              id: 'anathema-als-drohung',
+              objection: `Auch eure Kirche arbeitet mit Angst: Exkommunikation, Anathema, „wer das nicht glaubt, sei verflucht". Das ist dieselbe Drohkulisse in liturgischem Gewand.`,
+              objectionBy: 'Kirchenkritiker',
+              answer: `Ein Anathema ist keine Höllenandrohung an Einzelne, sondern eine Grenzziehung: Diese Lehre gehört nicht zum Glauben der Kirche. Es richtet sich gegen Lehren, die das Bild Christi verfälschen – etwa, dass er nur ein Mensch gewesen sei. Und die kirchliche Exkommunikation ist nach den Kanones eine heilende Maßnahme mit dem Ziel der Rückkehr, wie Paulus es beschreibt: „auf daß der Geist selig werde am Tage des Herrn" (1 Kor 5,5). Wo Kirchenleute das als Machtinstrument missbraucht haben, war das Sünde.`,
+              detail: `Die orthodoxe Bußpraxis ist medizinisch gedacht: Der Ausschluss von der Kommunion ist eine Zeit der Heilung, die mit der Wiederaufnahme endet. Die Kirche verkündet niemals, dass ein bestimmter Mensch in der Hölle sei. Auch Kyrills Anathematismen (430) betreffen Lehrsätze über Christus – sie sind Schutzmauern um das Geheimnis der Menschwerdung, nicht Drohungen gegen Gewissen.`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '5,5', quote: `… ihn zu übergeben dem Satan zum Verderben des Fleisches, auf daß der Geist selig werde am Tage des Herrn Jesu.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -128,6 +140,40 @@ const claim: Claim = {
           objectionBy: 'Psychotherapeutin',
           answer: `Das nehme ich sehr ernst. Menschen, die in angstbesetzten religiösen Milieus aufgewachsen sind, brauchen Mitgefühl und oft therapeutische Hilfe. Aber dieses Leid ist ein Zeugnis gegen eine missbräuchliche Form von Religion – nicht gegen die Wahrheit des Evangeliums, das gerade Befreiung von Angst verspricht (Röm 8,15: „nicht einen knechtischen Geist … daß ihr euch abermals fürchten müßtet"). Viele finden auch Heilung, wenn sie Gott neu als liebenden Vater kennenlernen.`,
           detail: `Der Begriff „Religious Trauma Syndrome" wurde 2011 von der Psychologin Marlene Winell geprägt; er ist keine offizielle Diagnose, beschreibt aber reale Erfahrungen. Christen sollten hier zuerst zuhören, nicht verteidigen. Siehe auch den Claim „Religion erzeugt krankhafte Schuldgefühle".`,
+          followUps: [
+            {
+              id: 'dawkins-schlimmer-als-missbrauch',
+              objection: `Ich gehe weiter: Einem Kind die Hölle einzureden, kann auf Dauer schlimmer sein als mancher körperliche Missbrauch. Eine Frau hat mir geschrieben, dass sie die Angst vor der Hölle mehr gequält hat als die Übergriffe, die sie erlebt hat.`,
+              objectionBy: 'Richard Dawkins (The God Delusion, Kap. 9)',
+              answer: `Ich will das Leid dieser Frau nicht kleinreden – sie verdient Mitgefühl, keine Debatte. Aber eine allgemeine Rangfolge, die religiöse Erziehung über sexuellen Missbrauch stellt, verletzt die Opfer von Missbrauch und ist empirisch nicht gedeckt. Die große Gesundheitsforschung zeigt im Durchschnitt das Gegenteil: Wer in einer lebendigen Glaubensgemeinschaft aufwächst, hat seltener Depressionen und Suizidgedanken. Das Problem ist nicht die Rede vom Gericht, sondern eine Erziehung ohne Liebe.`,
+              detail: `Dawkins berichtet in *The God Delusion* (2006, Kap. 9), er habe einmal gesagt, der langfristige Schaden einer katholischen Erziehung könne größer sein als der eines Übergriffs, und zitiert den Brief einer Frau, die beides erlebt hatte. Das Einzelschicksal ist ernst zu nehmen. Als allgemeine These widerspricht es aber großen Längsschnittstudien: Tyler VanderWeele und Kollegen (Harvard, *American Journal of Epidemiology* 2018) fanden bei Jugendlichen, die regelmäßig an Gottesdiensten teilnahmen, später u. a. weniger depressive Symptome und weniger riskantes Verhalten.
+
+Seelsorglich gilt: Wer ein solches Trauma erlebt hat, braucht Schutz, Zeit und oft Therapie – und keine Apologetik. Die beste Antwort ist eine Gemeinde, in der er Gott als den Vater des verlorenen Sohnes kennenlernt.`,
+              sources: [
+                { kind: 'gegner', author: 'Richard Dawkins', work: 'The God Delusion', ref: 'Kap. 9', year: '2006', quote: `Dawkins vertritt, die Angst vor der Hölle, die Kindern eingeprägt wird, könne langfristig schwerer wiegen als mancher körperliche Missbrauch.`, status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Ying Chen, Tyler J. VanderWeele', work: 'Associations of Religious Upbringing With Subsequent Health and Well-Being From Adolescence to Young Adulthood', ref: 'American Journal of Epidemiology 187 (11)', year: '2018', quote: `Regelmäßige Teilnahme an Gottesdiensten in der Jugend war mit besserer späterer psychischer Gesundheit verbunden, u. a. mit weniger depressiven Symptomen.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Würdest du das einem Opfer sexuellen Missbrauchs so ins Gesicht sagen?`,
+                `Wenn religiöse Erziehung im Allgemeinen so schädlich ist – warum zeigen die großen Studien im Durchschnitt das Gegenteil?`,
+              ],
+              followUps: [
+                {
+                  id: 'studie-hoellenglaube',
+                  objection: `Es gibt aber Studien speziell zum Höllenglauben: Länder und Menschen, die stärker an die Hölle glauben, berichten weniger Lebenszufriedenheit. Der Himmel macht glücklich, die Hölle macht unglücklich.`,
+                  objectionBy: 'Azim Shariff (Sozialpsychologe)',
+                  answer: `Das stimmt – Shariff und Aknin haben 2014 einen solchen Zusammenhang berichtet, und ich gebe das ehrlich zu. Aber was folgt daraus? Ob eine Warnung angenehm ist, sagt nichts über ihre Wahrheit; auch eine Krebsdiagnose senkt die Lebenszufriedenheit. Die Frage ist, ob es ein Gericht gibt – und wenn ja, ob man davon so sprechen kann, dass Menschen zur Liebe statt in die Angst geführt werden. Genau das will die orthodoxe Verkündigung.`,
+                  detail: `Shariff und Aknin (*PLoS ONE* 2014) fanden länderübergreifend, dass Himmelsglaube mit höherem, Höllenglaube mit niedrigerem Wohlbefinden einhergeht; in Experimenten senkte das Nachdenken über die Hölle kurzfristig die Stimmung. Dieselben Forscher haben an anderer Stelle gezeigt, dass Höllenglaube auf Länderebene mit niedrigeren Kriminalitätsraten verbunden ist – ein Hinweis, dass die Sache komplex ist.
+
+Das Argument „Wohlbefinden entscheidet über Wahrheit" hilft dem Kritiker übrigens nicht: Dann würde der Himmelsglaube, der glücklicher macht, wahr. Beides ist ein Fehlschluss. Bleiben wir bei den Gründen.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Azim F. Shariff, Lara B. Aknin', work: 'The Emotional Toll of Hell: Cross-National and Experimental Evidence for the Negative Well-Being Effects of Hell Beliefs', ref: 'PLoS ONE 9 (1): e85251', year: '2014', quote: `Höllenglaube ging länderübergreifend mit geringerem, Himmelsglaube mit höherem subjektivem Wohlbefinden einher.`, status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Azim F. Shariff, Mijke Rhemtulla', work: 'Divergent Effects of Beliefs in Heaven and Hell on National Crime Rates', ref: 'PLoS ONE 7 (6): e39048', year: '2012', quote: `Auf Länderebene war Höllenglaube mit niedrigeren, Himmelsglaube mit höheren Kriminalitätsraten verbunden.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -147,6 +193,45 @@ const claim: Claim = {
           objectionBy: 'Christopher Hitchens',
           answer: `Es gibt einen Unterschied zwischen einer Drohung und einer Warnung. Ein Tyrann droht, um zu herrschen. Ein Vater warnt, um sein Kind zu bewahren. Jesus warnte nicht von einem Thron herab, sondern auf dem Weg ans Kreuz, wo er selbst das Gericht trug. Wer warnt und dann sein Leben gibt, damit der Gewarnte nicht verloren geht, ist das Gegenteil eines Tyrannen.`,
           detail: `Chrysostomus sagt, Gott habe die Hölle angedroht, damit wir sie fliehen – die Warnung ist selbst ein Werk seiner Menschenliebe. Das Kreuz ist der entscheidende Beweis, dass Gott nicht will, dass jemand verloren geht.`,
+          followUps: [
+            {
+              id: 'nietzsche-rachephantasie',
+              objection: `Die Hölle ist die Rachephantasie der Schwachen. Lies Tertullian: Er freut sich darauf, die Könige und Philosophen im Feuer brüllen zu sehen. Und Thomas von Aquin sagt, die Seligen sehen die Qualen der Verdammten, damit ihnen ihre Seligkeit umso besser gefalle. Das ist das Ressentiment, das unter eurer Liebesrede brodelt.`,
+              objectionBy: 'Friedrich Nietzsche (Zur Genealogie der Moral I,15)',
+              answer: `Nietzsche zitiert echte Texte, und die Tertullian-Stelle ist abstoßend – das gebe ich zu. Aber Tertullian ist für die koptische Kirche keine Lehrautorität, und Thomas auch nicht. Die Tradition, aus der ich spreche, geht in die entgegengesetzte Richtung: Mose bat, lieber selbst aus Gottes Buch getilgt zu werden, als das Volk verloren zu sehen (Ex 32,32); Paulus wünschte sich, für seine Brüder verflucht zu sein (Röm 9,3); Isaak der Syrer beschreibt das Herz des Heiligen als eines, das selbst für die Dämonen betet. Das ist das Gegenteil von Schadenfreude.`,
+              detail: `In *Zur Genealogie der Moral* (1887, Erste Abhandlung, Abschnitt 15) zitiert Nietzsche ausführlich Tertullian, *De spectaculis* 30, und Thomas von Aquin (*Summa theologiae*, Suppl. q. 94 a. 1). Man sollte das nicht wegreden. Bei Thomas ist der Gedanke die Freude an Gottes Gerechtigkeit, nicht an fremdem Leid als solchem – aber auch so ist der Ton der östlichen Tradition fremd.
+
+Für die koptische Kirche ist entscheidend: Sie betet in jeder Liturgie für die ganze Welt und für die Entschlafenen und erklärt niemanden für verdammt. Wer die Hölle mit Genugtuung verkündet, hat das Evangelium nicht verstanden.`,
+              voices: [
+                {
+                  person: 'isaak-syrer',
+                  role: 'als Lehrer des barmherzigen Herzens (mit Vorbehalt)',
+                  text: `Isaak beschreibt das barmherzige Herz als eines, das für die ganze Schöpfung brennt – für Menschen, Tiere, sogar für die Dämonen und die Feinde der Wahrheit – und unablässig unter Tränen für sie betet. Ein solcher Mensch kann sich über keine Qual freuen. Hinweis: Isaak gehörte zur Kirche des Ostens; seine Hoffnung auf ein Ende der Gehenna ist nicht koptische Lehre, sein Bild vom barmherzigen Herzen aber ist in den koptischen Klöstern hoch geschätzt.`,
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Friedrich Nietzsche', work: 'Zur Genealogie der Moral', ref: 'Erste Abhandlung, Abschnitt 15', year: '1887', quote: `Nietzsche deutet die christliche Seligkeit als Rache der Schwachen und belegt das mit Tertullian (De spectaculis 30) und Thomas von Aquin.`, status: 'paraphrase' },
+                { kind: 'bibel', work: '2. Mose', ref: '32,32', quote: `Nun vergib ihnen ihre Sünde; wo nicht, so tilge mich auch aus deinem Buch, das du geschrieben hast.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Römer', ref: '9,3', quote: `Ich habe gewünscht, verbannt zu sein von Christo für meine Brüder, die meine Gefreunde sind nach dem Fleisch …`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'feuerbach-projektion-rache',
+                  objection: `Ob mit oder ohne Schadenfreude – die Hölle ist die Projektion des menschlichen Strafbedürfnisses an den Himmel. Der Mensch macht sich einen Gott nach seinem eigenen Rachedurst.`,
+                  objectionBy: 'Ludwig Feuerbach',
+                  answer: `Wenn die Hölle unsere Projektion wäre, müsste der Richter so aussehen wie wir: wütend, verletzt, auf Vergeltung aus. Aber im Evangelium ist der Richter das Opfer, das für seine Henker betet: „Vater, vergib ihnen" (Lk 23,34). Das hat sich niemand nach seinem Rachedurst ausgedacht. Im Gegenteil: Miroslav Volf zeigt, dass gerade der Glaube an Gottes Gericht Menschen frei macht, auf eigene Rache zu verzichten (Röm 12,19).`,
+                  detail: `Feuerbachs Projektionsthese wird ausführlich im Claim „Gott ist nur eine Projektion menschlicher Wünsche" behandelt. Hier genügt der Hinweis: Projektion erklärt nichts, weil sie in beide Richtungen funktioniert – auch der Wunsch, dass es kein Gericht gebe, ist ein starker Wunsch. Entscheidend ist, ob das Gericht wahr ist.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '23,34', quote: `Jesus aber sprach: Vater, vergib ihnen; denn sie wissen nicht, was sie tun!`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Römer', ref: '12,19', quote: `Rächet euch selber nicht, meine Liebsten, sondern gebet Raum dem Zorn Gottes; denn es steht geschrieben: „Die Rache ist mein; ich will vergelten, spricht der Herr."`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn der Mensch sich einen Richter nach seinem Rachedurst erfindet – warum betet dieser Richter dann für seine Mörder?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -173,6 +258,19 @@ const claim: Claim = {
               sources: [
                 { kind: 'juedisch', work: 'Mischna, Edujot', ref: '2,10', quote: `Das Gericht der Gottlosen in der Gehenna dauert zwölf Monate.`, status: 'paraphrase' },
                 { kind: 'bibel', work: 'Daniel', ref: '12,2', quote: `Und viele, so unter der Erde schlafen liegen, werden aufwachen, etliche zum ewigen Leben, etliche zu ewiger Schmach und Schande.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'apokalyptiker-irrte',
+                  objection: `Jesus war ein apokalyptischer Prophet, der das Ende noch zu Lebzeiten seiner Jünger erwartete – „dieses Geschlecht wird nicht vergehen". Darin hat er sich geirrt. Warum sollte ich ihm dann ausgerechnet beim Gericht glauben?`,
+                  objectionBy: 'Bart D. Ehrman',
+                  answer: `Derselbe Jesus sagt im selben Kapitel: „Von dem Tage aber und der Stunde weiß niemand" (Mk 13,32) – er hat kein Datum genannt. „Dieses Geschlecht" bezieht sich nach vielen Auslegern auf die vorher angekündigten Ereignisse, besonders die Zerstörung des Tempels, die im Jahr 70 tatsächlich eintraf. Und vor allem: Warum ich Jesus beim Gericht glaube, hängt nicht an einem Kalender, sondern daran, dass Gott ihn von den Toten auferweckt hat (Apg 17,31).`,
+                  detail: `Ausführlich in den Claims zur Glaubwürdigkeit Jesu und zur Auferstehung. Paulus verbindet genau diese beiden Punkte: Gott „hat einen Tag gesetzt, auf welchen er richten will den Kreis des Erdbodens mit Gerechtigkeit durch einen Mann, in welchem er's beschlossen hat, und jedermann vorhält den Glauben, nachdem er ihn hat von den Toten auferweckt" (Apg 17,31). Die Frage nach dem Gericht führt also zur historischen Frage nach dem leeren Grab.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '13,32', quote: `Von dem Tage aber und der Stunde weiß niemand, auch die Engel nicht im Himmel, auch der Sohn nicht, sondern allein der Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Jesus: Apocalyptic Prophet of the New Millennium', year: '1999', quote: `Ehrman deutet Jesus als jüdischen Apokalyptiker, der das baldige Kommen des Reiches Gottes erwartete.`, status: 'paraphrase' },
+                  ],
+                },
               ],
             },
           ],

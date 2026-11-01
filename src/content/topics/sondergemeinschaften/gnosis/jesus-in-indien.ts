@@ -147,6 +147,15 @@ const claim: Claim = {
       answer: `Der Name „Yuz Asaf" lässt sich über die mittelalterliche Legende von Barlaam und Josaphat auf die Buddha-Legende zurückführen: Aus „Būdhāsaf" (Bodhisattva) wurde durch einen Schreibfehler „Yūdhāsaf". Die Gleichsetzung mit Jesus stammt aus Schriften um 1900. Und die Voraussetzung – Jesus habe das Kreuz überlebt – widerspricht allen antiken Quellen.`,
       followUps: [
         {
+          id: 'fussabdruecke-wundmale',
+          objection: `Im Roza-Bal-Schrein gibt es in Stein gehauene Fußabdrücke mit Wundmalen an der Stelle der Kreuzesnägel, und das Grab ist nach jüdischer Sitte ost-westlich ausgerichtet. Das ist ein Grab Jesu!`,
+          objectionBy: 'Holger Kersten / Fida Hassnain',
+          answer: `Steinerne Fußabdrücke heiliger Personen sind in Süd- und Zentralasien weit verbreitet – die Verehrung von Buddha-Fußabdrücken (*Buddhapada*) ist uralt, und auch muslimische Heiligenschreine kennen sie. Die „Wundmale" sind eine Deutung der Befürworter; eine unabhängige Datierung oder Untersuchung gibt es nicht. Und eine Grabausrichtung beweist keine Identität. Selbst wenn dort ein Jude bestattet wäre, wäre es noch lange nicht Jesus von Nazareth.`,
+          detail: `Der Schrein ist ein muslimisches Heiligengrab, das die örtliche Überlieferung einem Heiligen namens Yuz Asaf zuschreibt. Die Kaschmir-These verbindet drei Behauptungen, von denen jede einzeln unbelegt ist: dass Jesus die Kreuzigung überlebte, dass er nach Kaschmir reiste und dass er dort begraben ist. Historische Beweisführung braucht frühe, unabhängige Quellen – hier gibt es keine einzige vor dem späten 19. Jahrhundert. Dem steht das einhellige Zeugnis der Quellen des 1. Jahrhunderts gegenüber, christlicher wie nichtchristlicher (Tacitus, Annalen XV,44), dass Jesus unter Pilatus hingerichtet wurde.`,
+          sources: [{ kind: 'fachliteratur', author: 'Tacitus', work: 'Annalen', ref: 'XV,44', quote: `Christus, von dem dieser Name ausgeht, war unter der Regierung des Tiberius vom Prokurator Pontius Pilatus hingerichtet worden.`, status: 'paraphrase' }],
+          questionsBack: [`Gibt es eine Quelle vor 1890, die das Grab in Srinagar mit Jesus von Nazareth verbindet?`],
+        },
+        {
           id: 'scheintod-kaschmir',
           objection: `Er war nur bewusstlos. Nach wenigen Stunden am Kreuz stirbt man nicht, und Pilatus wunderte sich selbst, dass er schon tot war (Mk 15,44).`,
           objectionBy: 'Ahmadiyya-Apologeten',

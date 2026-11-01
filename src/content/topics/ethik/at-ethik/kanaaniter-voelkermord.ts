@@ -148,10 +148,10 @@ Wright betont: Die Schrift selbst beschreibt dieses Ereignis als Ausnahme, nicht
       role: 'als Philosoph und Debattierer',
       text: `William Lane Craig argumentiert auf zwei Ebenen. Erstens: Gott ist kein Akteur unter Akteuren; er ist Geber allen Lebens und hat daher Rechte, die kein Mensch hat. Er nimmt jedem Menschen irgendwann das Leben. Für die getöteten Kinder sieht Craig die Hoffnung, dass sie in Gottes Gegenwart aufgenommen wurden. Zweitens weist er darauf hin, dass der atheistische Einwand selbst objektive moralische Pflichten voraussetzt – etwa die Pflicht, Unschuldige nicht zu töten –, die im Naturalismus keine Grundlage haben.
 
-Craig hat später die Hyperbel-Deutung von Copan und Flannagan ausdrücklich als hilfreich gewürdigt, sodass der härteste Teil seiner frühen Antwort für ihn nur noch eine „Worst-Case"-Verteidigung ist.`,
+Craig hat später das Buch von Copan und Flannagan (*Did God Really Command Genocide?*, 2014), das die Hyperbel-Deutung ausarbeitet, öffentlich empfohlen, sodass der härteste Teil seiner frühen Antwort für ihn nur noch eine „Worst-Case"-Verteidigung ist.`,
       sources: [
         { kind: 'fachliteratur', author: 'William Lane Craig', work: '„Slaughter of the Canaanites", Reasonable Faith Q&A', year: '2007', status: 'paraphrase' },
-        { kind: 'fachliteratur', author: 'William Lane Craig', work: 'Würdigung von Copan/Flannagan in späteren Vorträgen und Q&As', status: 'unverified', note: 'Genaue Fundstelle vor Verwendung prüfen.' },
+        { kind: 'fachliteratur', author: 'William Lane Craig', work: 'Empfehlung (Klappentext) zu Paul Copan; Matthew Flannagan, Did God Really Command Genocide? (Baker Books)', year: '2014', status: 'paraphrase', note: 'Geprüft (WebSearch 11/2026): Craigs Empfehlung steht auf der Verlagsseite (Baker) und würdigt den biblischen, philosophischen, rechtlichen und historischen Zugriff des Buches. Eine ausdrückliche Übernahme der Hyperbel-These in einem eigenen Craig-Text wurde nicht gefunden – daher vorsichtig als „Würdigung" formulieren.' },
       ],
     },
   ],

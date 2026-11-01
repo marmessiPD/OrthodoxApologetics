@@ -163,6 +163,110 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'toepfer-und-ton',
+      objection: `„Röm 9,21–22: ‚Hat nicht ein Töpfer Macht, aus einem Klumpen zu machen ein Fass zu Ehren und das andere zu Unehren?' Gott macht Gefäße des Zorns, ‚zugerichtet zur Verdammnis'. Deutlicher geht es nicht."`,
+      objectionBy: 'James White / R. C. Sproul',
+      answer: `Paulus nimmt das Bild aus Jer 18 – und dort erklärt Gott selbst, was es bedeutet: Wenn ein Volk, über das er Unheil angekündigt hat, sich bekehrt, „so soll mich auch reuen das Unglück" (Jer 18,7–10). Der Töpfer formt den Ton je nach dessen Antwort neu. Und in Röm 9,22–23 unterscheidet Paulus genau: Die Gefäße der Barmherzigkeit hat **Gott** „zuvor bereitet"; von den Gefäßen des Zorns sagt er nur, sie seien „zugerichtet" – ohne Gott als Handelnden – und dass Gott sie „mit großer Geduld getragen" hat.`,
+      detail: `Die Asymmetrie ist beabsichtigt: aktiv „er hat zuvor bereitet" (*proētoimasen*) bei der Barmherzigkeit, passiv bzw. medial „zugerichtet" (*katērtismena*) beim Zorn. Und die „große Geduld" Gottes hat nach Röm 2,4 einen Zweck: „dass dich Gottes Güte zur Buße leitet". Paulus selbst sagt in 2 Tim 2,20–21: „So nun jemand sich reinigt …, der wird ein geheiligtes Fass sein, zu Ehren." Man kann vom Gefäß der Unehre zum Gefäß der Ehre werden.`,
+      sources: [
+        { kind: 'bibel', work: 'Jeremia', ref: '18,6–10', quote: `Siehe, wie der Ton ist in des Töpfers Hand, also seid auch ihr vom Hause Israel in meiner Hand … Wo sich's aber bekehrt von seiner Bosheit, dawider ich rede, so soll mich auch reuen das Unglück, das ich ihm gedachte zu tun.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: '2. Timotheus', ref: '2,20–21', quote: `So nun jemand sich reinigt von solchen Leuten, der wird ein geheiligtes Fass sein zu Ehren, dem Hausherrn bräuchlich.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [`Warum sagt Paulus bei den Gefäßen der Barmherzigkeit „Gott hat sie bereitet", bei den Gefäßen des Zorns aber nicht?`],
+      followUps: [
+        {
+          id: 'goettliches-passiv',
+          objection: `„Das Passiv in 9,22 ist ein *passivum divinum*: Natürlich hat Gott sie zugerichtet – wer sonst?"`,
+          objectionBy: 'Thomas R. Schreiner',
+          answer: `Das ist eine mögliche Deutung, aber keine zwingende – und Chrysostomus, der Griechisch als Muttersprache las, sah es anders: Die Gefäße des Zorns sind durch ihren eigenen Willen dazu geworden. Paulus wechselt bewusst die Konstruktion. Und selbst wenn Gott der Handelnde wäre: Er „trägt sie mit großer Geduld" – man trägt nicht geduldig, was man selbst unwiderruflich zum Verderben bestimmt hat.`,
+          voices: [
+            {
+              person: 'chrysostomus',
+              role: 'als Ausleger des Römerbriefs',
+              text: `Chrysostomus betont in seinen Römerbrief-Homilien, dass Paulus mit dem Töpferbild nicht die Freiheit des Willens aufhebt, sondern einen anmaßenden Fragesteller zum Schweigen bringt. Die Gefäße des Zorns sind solche, die sich durch eigene Bosheit dazu gemacht haben; Gottes Langmut zeigt, dass er ihre Umkehr wollte.`,
+              sources: [{ kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Römerbrief', ref: 'Homilie 16 (zu Röm 9)', year: 'um 390', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'wer-bist-du-mensch',
+              objection: `„Paulus bringt den Fragesteller zum Schweigen: ‚Ja, lieber Mensch, wer bist du denn, dass du mit Gott rechten willst?' (9,20). Genau das tust du, wenn du Gottes Gerechtigkeit nach deinen Maßstäben beurteilst."`,
+              objectionBy: 'R. C. Sproul',
+              answer: `Paulus weist einen Gesprächspartner zurecht, der meint, Gott sei ihm wegen seiner Abstammung etwas schuldig – nicht einen, der nach Gottes Güte fragt. Abraham durfte fragen: „Sollte der Richter aller Welt nicht recht richten?" (Gen 18,25), und Gott antwortete ihm. Wir rechten nicht mit Gott, sondern mit einer Auslegung, die Gott zum Urheber der Verdammnis macht – gegen sein eigenes Wort: „Ich habe keinen Gefallen am Tode des Gottlosen" (Ez 33,11).`,
+              sources: [
+                { kind: 'bibel', work: 'Hesekiel', ref: '33,11', quote: `So wahr als ich lebe, spricht der Herr HERR, ich habe keinen Gefallen am Tode des Gottlosen, sondern dass sich der Gottlose bekehre von seinem Wesen und lebe.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'gottes-gerechtigkeit-anders',
+                  objection: `„Gottes Liebe und Gerechtigkeit sind nicht an menschlichen Begriffen zu messen. Zu seiner Herrlichkeit gehört auch, dass er seinen Zorn an den Gefäßen des Zorns zeigt (9,22)."`,
+                  objectionBy: 'John Piper',
+                  answer: `Wenn „Liebe" und „Gerechtigkeit" bei Gott etwas völlig anderes bedeuten als bei uns, dann verlieren die Worte ihren Sinn – und Offenbarung wird unmöglich. Die Schrift appelliert aber an unser Verständnis von Gerechtigkeit: „Ist mein Weg nicht recht?" (Ez 18,25). Gottes Herrlichkeit zeigt sich nach dem Johannesevangelium vor allem am Kreuz, wo er sich für die Welt hingibt (Joh 12,23–32; 17,1) – nicht in der Verdammnis von Menschen, die nie eine Chance hatten.`,
+                  voices: [
+                    {
+                      person: 'cs-lewis',
+                      role: 'als christlicher Denker zur Güte Gottes',
+                      text: `Lewis argumentiert, dass Gottes Güte zwar unendlich größer, aber nicht völlig anders als unsere sein kann. Wäre sie das Gegenteil dessen, was wir „gut" nennen, hätten wir keinen Grund mehr, Gott gut zu nennen, und kein Motiv, ihm zu gehorchen außer Furcht. Der Unterschied zwischen Gottes und unserer Güte ist wie der zwischen einer vollkommenen Kreiszeichnung und dem ersten Versuch eines Kindes – nicht wie der zwischen Weiß und Schwarz.`,
+                      sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Problem of Pain (Über den Schmerz)', ref: 'Kap. 3 „Divine Goodness"', year: '1940', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Wenn Gottes „Liebe" auch die ewige Vorherbestimmung zur Verdammnis umfassen kann – was meinst du dann, wenn du einem Ungläubigen sagst: „Gott liebt dich"?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nicht-am-wollen-oder-laufen',
+      objection: `„Röm 9,16: ‚So liegt es nun nicht an jemandes Wollen oder Laufen, sondern an Gottes Erbarmen.' Paulus schließt das menschliche Wollen ausdrücklich aus."`,
+      objectionBy: 'Thomas R. Schreiner',
+      answer: `Paulus schließt aus, dass der Mensch die **Bedingungen** des Erbarmens festlegt – Israel meinte, durch Abstammung und Gesetzeswerke Anspruch darauf zu haben. Gott allein bestimmt, wem er sich erbarmt, und er sagt es am Ende des Kapitels: den Glaubenden (9,30–32). Dass das „Laufen" als Antwort nicht verboten ist, zeigt Paulus selbst: „Laufet so, dass ihr es ergreifet" (1 Kor 9,24); „ich jage nach dem vorgesteckten Ziel" (Phil 3,14).`,
+      detail: `Röm 9,16 handelt von Mose (9,15) und Gottes freiem Erbarmen nach dem Goldenen Kalb – Gott war Israel nichts schuldig. Der Vers sagt, wer der Herr des Erbarmens ist, nicht, dass der Mensch nicht antworten könne. Das Ziel von Röm 9–11 steht in 11,32: „Gott hat alle beschlossen unter den Unglauben, auf dass er sich **aller** erbarme."`,
+      sources: [
+        { kind: 'bibel', work: 'Römer', ref: '11,32', quote: `Denn Gott hat alle beschlossen unter den Unglauben, auf dass er sich aller erbarme.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'roemer-11-32-gruppen',
+          objection: `„‚Sich aller erbarmen' in 11,32 heißt: Juden und Heiden als Gruppen – nicht jeder Einzelne."`,
+          objectionBy: 'James White',
+          answer: `Dann muss man konsequent sein: Wenn Röm 11 von Gruppen spricht, dann spricht auch Röm 9 von Gruppen – genau die korporative Lesart, die du vorher abgelehnt hast. Entweder handelt Röm 9–11 von Einzelnen; dann gilt auch 11,32 jedem Einzelnen. Oder es handelt von Völkern; dann lehrt Röm 9 keine individuelle Verwerfung. Beides zugleich – Röm 9 individuell, Röm 11 korporativ – passt nicht zu einem einzigen, zusammenhängenden Argument.`,
+          questionsBack: [`Nach welchem Kriterium liest du „Jakob" und „Esau" in Röm 9 individuell, „alle" in Röm 11,32 aber kollektiv?`],
+          followUps: [
+            {
+              id: 'augustinus-ad-simplicianum',
+              objection: `„Augustinus hat Röm 9 seit ‚Ad Simplicianum' (396) genau so gelesen wie wir – und der Westen ist ihm gefolgt. Unsere Auslegung ist alt."`,
+              objectionBy: 'Reformierter Kirchenhistoriker',
+              answer: `Augustinus selbst bezeugt, dass er Röm 9 vorher anders gelesen hatte – als Vorherwissen des Glaubens – und seine Meinung änderte (Retractationes I,23). Vor ihm lasen Origenes, Chrysostomus, Ambrosiaster und Hieronymus Röm 9 nicht als individuelle Vorherbestimmung zum Verderben. Die Auslegung ist also nicht die älteste, sondern eine Wende rund 350 Jahre nach Paulus, die der Osten nie übernommen hat.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Retractationes', ref: 'I,23', year: '426/427', status: 'paraphrase', note: 'Augustinus korrigiert hier seine frühere Römerbrief-Auslegung (Expositio quarundam propositionum, 394).' },
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Ad Simplicianum', ref: 'I,2', year: '396', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'vaeter-irrelevant-sola-scriptura',
+                  objection: `„Mehrheiten unter den Vätern sind egal. Entscheidend ist allein die Schrift – sola scriptura."`,
+                  objectionBy: 'James White',
+                  answer: `Einverstanden, Mehrheiten entscheiden nicht. Aber die griechischen Väter lasen Paulus in seiner eigenen Sprache und Kultur, im Gottesdienst der Kirche, die er gegründet hatte. Wenn eine Auslegung erst Jahrhunderte später auftaucht und der früheren einmütigen Lesart widerspricht, liegt die Beweislast bei der Neuerung. Vinzenz von Lérins nannte das Kriterium: Was überall, immer und von allen geglaubt wurde.`,
+                  voices: [
+                    {
+                      person: 'vinzenz-lerin',
+                      role: 'als Theoretiker der kirchlichen Überlieferung',
+                      text: `Vinzenz stellt fest, dass die Schrift wegen ihrer Tiefe nicht von allen gleich verstanden wird; deshalb braucht es die Richtschnur der kirchlichen Auslegung. Maßstab ist, was überall, immer und von allen geglaubt worden ist. Eine neue Auslegung, die der gemeinsamen Lesart der Väter widerspricht, ist für ihn gerade dadurch verdächtig.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Vinzenz von Lérins', work: 'Commonitorium', ref: '2', year: '434', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Wenn dein Verständnis von Röm 9 richtig ist – kannst du einen griechischen Vater der ersten vier Jahrhunderte nennen, der es so gelesen hat?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche Frage stellt Paulus in Röm 9,6 – und beantwortet Röm 9 sie, wenn man es ohne Röm 10–11 liest?`,

@@ -220,7 +220,7 @@ const claim: Claim = {
           objectionBy: 'Phil Zuckerman',
           answer: `Es ist keine Ausrede, sondern eine historische These, die auch Nichtchristen vertreten: Jürgen Habermas nennt den egalitären Universalismus der Moderne „unmittelbar ein Erbe der jüdischen Gerechtigkeits- und der christlichen Liebesethik". Der Historiker Tom Holland, der als Fachhistoriker und nicht als Apologet schreibt, zeigt in *Dominion*, wie tief unsere Vorstellungen von Gleichheit und Mitgefühl mit den Schwachen christlich geprägt sind. Die Frage ist, ob eine Gesellschaft dieses Kapital auf Dauer verbrauchen kann, ohne es zu erneuern.`,
           sources: [
-            { kind: 'fachliteratur', author: 'Jürgen Habermas', work: 'Zeit der Übergänge', ref: '„Ein Gespräch über Gott und die Welt"', year: '2001', quote: `Der egalitäre Universalismus, aus dem die Ideen von Freiheit und solidarischem Zusammenleben, von Menschenrechten und Demokratie entsprungen sind, sei unmittelbar ein Erbe der jüdischen Gerechtigkeits- und der christlichen Liebesethik.`, status: 'paraphrase', note: 'Habermas ist kein Christ. Achtung: Im Internet kursiert eine verfälschte englische Fassung („Christianity, and nothing else …") – nicht verwenden.' },
+            { kind: 'fachliteratur', author: 'Jürgen Habermas', work: 'Zeit der Übergänge (Suhrkamp)', ref: '„Ein Gespräch über Gott und die Welt" (Interview mit Eduardo Mendieta, 1999), S. 174 f.', year: '2001', quote: `Der egalitäre Universalismus, aus dem die Ideen von Freiheit und solidarischem Zusammenleben, von Menschenrechten und Demokratie entsprungen sind, sei unmittelbar ein Erbe der jüdischen Gerechtigkeits- und der christlichen Liebesethik.`, status: 'paraphrase', note: 'Habermas ist kein Christ. Achtung: Im Internet kursiert eine verfälschte englische Fassung („Christianity, and nothing else …") – nicht verwenden.' },
             { kind: 'fachliteratur', author: 'Tom Holland', work: 'Dominion: The Making of the Western Mind', year: '2019', status: 'paraphrase' },
           ],
         },
@@ -300,7 +300,7 @@ const claim: Claim = {
     { kind: 'fachliteratur', author: 'David Baggett; Jerry L. Walls', work: 'Good God: The Theistic Foundations of Morality', year: '2011', status: 'paraphrase' },
     { kind: 'fachliteratur', author: 'William Lane Craig', work: 'Reasonable Faith', ref: 'Kap. 2', year: '2008', status: 'paraphrase' },
     { kind: 'gegner', author: 'Erik J. Wielenberg', work: 'Robust Ethics', year: '2014', status: 'paraphrase' },
-    { kind: 'fachliteratur', author: 'Paul Copan', work: '„The Moral Argument for God\'s Existence", in: The Rationality of Theism', year: '2003', status: 'unverified', note: 'Titel und Band vor Verwendung prüfen.' },
+    { kind: 'fachliteratur', author: 'Paul Copan', work: '„The Moral Argument", in: Paul Copan; Paul K. Moser (Hg.), The Rationality of Theism (Routledge)', ref: 'Kap. 8, S. 149 ff.', year: '2003', status: 'paraphrase', note: 'Titel, Band und Seitenbeginn geprüft (Inhaltsverzeichnis, WebSearch 11/2026).' },
   ],
   difficulty: 2,
   tags: ['Moralisches Argument', 'Atheismus', 'Moralrealismus', 'Gewissen', 'Röm 2', 'Nietzsche'],

@@ -97,6 +97,26 @@ const claim: Claim = {
               objectionBy: 'David Frawley (sinngemäß)',
               answer: `Das ist eine Behauptung, die Belege bräuchte. Die Bibel selbst sagt: Am Anfang kannte die ganze Menschheit Gott, und diese Erkenntnis wurde verdunkelt (Röm 1,21–23). Dann sind Wahrheitsspuren in allen alten Überlieferungen zu erwarten – auch in den Veden –, aber ebenso Verfälschungen. „Älter" kann also auch „früher abgewichen" heißen. Weder Alter noch Jugend entscheidet – nur die Prüfung der Wahrheit.`,
               questionsBack: [`Nach welchem Kriterium unterscheidest du in den Veden ursprüngliche Wahrheit von späterer Hinzufügung?`],
+              followUps: [
+                {
+                  id: 'spuren-dann-veden-quelle',
+                  objection: `Du gibst also zu, dass die Veden Spuren einer Ur-Offenbarung tragen. Warum nimmst du dann nicht gleich die Veden als Quelle, statt eines jüngeren Buches aus Palästina?`,
+                  objectionBy: 'David Frawley (sinngemäß)',
+                  answer: `Weil Spuren nicht das Ganze sind. Die Väter haben das schön ausgedrückt: Clemens von Alexandrien sah in der Philosophie der Griechen einen „Erzieher" auf Christus hin, so wie das Gesetz für Israel. Saatkörner der Wahrheit gibt es in vielen Traditionen – ich freue mich über jedes, das ich in den Veden finde. Aber ein Saatkorn ist nicht die Frucht. Die Frage ist, wo Gott sich selbst vollständig gezeigt hat; und das Christentum verweist dafür auf eine Person, nicht auf ein Alter.`,
+                  detail: `Interessant ist, dass indische Christen diese Brücke selbst geschlagen haben. Der bengalische Theologe Krishna Mohan Banerjea (19. Jh.) wies etwa auf den Purusha-Hymnus (Rigveda 10,90) hin, in dem die Welt aus dem Opfer eines kosmischen Urmenschen hervorgeht, und sah darin eine Ahnung dessen, was in Christus Wirklichkeit wurde. Ob man dieser Deutung folgt oder nicht: Sie zeigt eine christliche Haltung, die das Erbe Indiens nicht verachtet, sondern als Sehnsucht ernst nimmt, die in Christus ihre Erfüllung findet.
+
+Entscheidend ist der Maßstab. Spuren erkennt man erst, wenn man weiß, wovon sie Spuren sind. Für Christen ist dieser Maßstab Christus (Hebr 1,1–2): „Nachdem vorzeiten Gott manchmal und mancherleiweise geredet hat … hat er am letzten in diesen Tagen zu uns geredet durch den Sohn."`,
+                  voices: [
+                    { person: 'clemens-alexandrien', role: 'als alexandrinischer Lehrer', text: `Clemens von Alexandrien lehrt, dass Gott die Völker auf verschiedene Weise auf Christus vorbereitet hat: die Hebräer durch das Gesetz, die Griechen durch die Philosophie. Was an Wahrheit bei den Völkern zu finden ist, stammt letztlich vom einen Logos – aber es ist Vorbereitung, nicht Vollendung.`, sources: [
+                      { kind: 'kirchenvater', author: 'Clemens von Alexandrien', work: 'Teppiche (Stromateis)', ref: 'I,5,28', year: 'ca. 200', status: 'paraphrase', quote: `Die Philosophie war für die Griechen ein Erzieher auf Christus hin, wie das Gesetz für die Hebräer; sie bereitete den Weg für den, der in Christus vollendet wird.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'oestlich', work: 'Rigveda', ref: '10,90 (Purusha-Sukta)', status: 'paraphrase', quote: `Die Götter vollziehen das Opfer mit dem Urmenschen (Purusha) als Opfergabe; aus ihm entstehen Welt, Gestirne und Menschenstände.` },
+                    { kind: 'bibel', work: 'Hebräer', ref: '1,1–2', status: 'paraphrase', quote: `Nachdem vorzeiten Gott manchmal und mancherleiweise geredet hat zu den Vätern durch die Propheten, hat er am letzten in diesen Tagen zu uns geredet durch den Sohn.` },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -113,6 +133,40 @@ const claim: Claim = {
           objection: `Bei euch ist es doch dasselbe: Ihr sagt, die Bibel sei von Gott inspiriert. Das kann man genauso wenig prüfen.`,
           objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
           answer: `Ein wichtiger Unterschied: Das Christentum ruht nicht auf dem Anspruch eines zeitlosen Textes, sondern auf einem geschichtlichen Ereignis – der Auferstehung Jesu –, das man mit historischen Mitteln untersuchen kann. Die Bibel ist Gottes Wort in Menschenworten: „Getrieben vom Heiligen Geist haben die heiligen Menschen Gottes geredet" (2 Petr 1,21). Wenn du prüfen willst, ob sie stimmt, fang bei der Auferstehung an.`,
+          followUps: [
+            {
+              id: 'auferstehung-nur-eigene-texte',
+              objection: `Die Auferstehung ist doch auch nur in euren eigenen heiligen Texten bezeugt. Du beweist die Bibel mit der Bibel – das ist ein Zirkelschluss.`,
+              objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+              answer: `Ich setze die Inspiration gar nicht voraus. Historiker behandeln die neutestamentlichen Schriften als antike Quellen wie jede andere – mehrere unabhängige Berichte, darunter Paulus' Briefe aus den 50er-Jahren. Dass Jesus unter Pontius Pilatus gekreuzigt wurde, bestätigen auch nichtchristliche Autoren wie Tacitus und Josephus. Die Frage ist dann: Was erklärt die Überzeugung der Jünger, das leere Grab und die Bekehrung von Gegnern am besten? Das ist historische Arbeit, kein Zirkel.`,
+              detail: `Der Zirkelvorwurf träfe nur, wenn man sagen würde: „Die Bibel ist inspiriert, also ist die Auferstehung wahr." Christliche Apologeten argumentieren umgekehrt: Zuerst werden die Texte als historische Quellen geprüft (Datierung, Augenzeugennähe, Mehrfachbezeugung, peinliche Details wie die Frauen als erste Zeuginnen). Erst wenn die Auferstehung als beste Erklärung gelten kann, folgt daraus, dass Jesu Anspruch bestätigt ist – und von ihm her die Autorität der Schrift.
+
+Richard Bauckham hat gezeigt, dass die Evangelien in großer Nähe zu benannten Augenzeugen stehen. Und Tacitus berichtet unabhängig, dass „Christus" unter Tiberius vom Prokurator Pontius Pilatus hingerichtet wurde (Annalen 15,44).`,
+              voices: [
+                { person: 'bauckham', role: 'als Neutestamentler', text: `Bauckham argumentiert, dass die Evangelien auf benannten Augenzeugen beruhen und dass die Namen in den Erzählungen oft genau die Zeugen kennzeichnen, auf die sich die Überlieferung stützt. Damit sind sie nicht späte Legenden, sondern Zeugnisliteratur.`, sources: [
+                  { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the Eyewitnesses', year: '2006, 2. Aufl. 2017', status: 'paraphrase', quote: `Die Evangelien als Zeugnis, das eng mit benannten Augenzeugen verbunden ist.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'sonstiges', author: 'Tacitus', work: 'Annalen', ref: '15,44', year: 'ca. 116', original: 'auctor nominis eius Christus Tiberio imperitante per procuratorem Pontium Pilatum supplicio adfectus erat', quote: `Der Urheber dieses Namens, Christus, war unter der Herrschaft des Tiberius vom Prokurator Pontius Pilatus hingerichtet worden.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'historiker-keine-wunder',
+                  objection: `Historiker können grundsätzlich keine Wunder feststellen. Die wahrscheinlichste Erklärung ist per Definition immer eine natürliche.`,
+                  objectionBy: 'Sam Harris (sinngemäß, nach David Hume)',
+                  answer: `Historiker können die Fakten feststellen: Tod, Begräbnis, leeres Grab, Erscheinungserlebnisse, Bekehrung von Gegnern. Ob Gott Jesus auferweckt hat, ist dann eine Schlussfolgerung auf die beste Erklärung. Wer Wunder „per Definition" ausschließt, trifft keine historische, sondern eine philosophische Vorentscheidung – den Naturalismus. Wenn es einen Gott gibt, ist eine Auferweckung nicht unwahrscheinlich, sondern genau das, was man erwarten würde, wenn er sich offenbaren will.`,
+                  detail: `Michael Licona hat die Methodenfrage ausführlich untersucht: Historische Methode erlaubt es, Hypothesen nach Erklärungskraft, Erklärungsumfang, Plausibilität und Ad-hoc-Charakter zu vergleichen. Das Ergebnis darf nicht schon vorher feststehen. Das gilt übrigens in beide Richtungen: Ich verlange nicht, dass du die Auferstehung voraussetzt – nur, dass du sie nicht vorab ausschließt. Interessant ist, dass der Vedanta selbst nicht naturalistisch ist; ein Swami, der Humes Argument benutzt, sägt am eigenen Ast.`,
+                  voices: [
+                    { person: 'licona', role: 'als Historiker der Auferstehung', text: `Licona zeigt, dass ein methodischer Ausschluss übernatürlicher Erklärungen keine neutrale historische Regel ist, sondern eine weltanschauliche Vorgabe. Er vergleicht die gängigen naturalistischen Hypothesen mit der Auferstehungshypothese anhand anerkannter Kriterien und kommt zu dem Schluss, dass die Auferstehung die Fakten am besten erklärt.`, sources: [
+                      { kind: 'fachliteratur', author: 'Michael R. Licona', work: 'The Resurrection of Jesus: A New Historiographical Approach', year: '2010', status: 'paraphrase', quote: `Historiker sollten übernatürliche Hypothesen nicht von vornherein ausschließen, sondern alle Hypothesen nach denselben Kriterien prüfen.` },
+                    ] },
+                  ],
+                  questionsBack: [`Wenn es einen Gott gibt – warum sollte eine Auferweckung dann unmöglich sein?`, `Du glaubst an Brahman jenseits der Natur – warum dann ein naturalistisches Kriterium für Geschichte?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -133,6 +187,19 @@ const claim: Claim = {
               objection: `Die Upanishaden sind die Essenz der Veden – darum heißt es Vedanta, „Ende der Veden".`,
               objectionBy: 'Swami Sarvapriyananda',
               answer: `Das ist eine Deutung. Die Mimamsa-Schule, ebenfalls streng orthodox, sah den Kern der Veden in den Opfervorschriften, nicht in den Upanishaden. Ihr streitet also innerhalb der Tradition darüber, was das Wesentliche ist. Das ist legitim – zeigt aber, dass das Alter allein keine Antwort gibt.`,
+              followUps: [
+                {
+                  id: 'shankara-harmonisiert',
+                  objection: `Shankara hat das längst geklärt: Der Ritualteil der Veden (Karma-Kanda) ist für die Unreifen, der Erkenntnisteil (Jnana-Kanda) für die Reifen. Beides gehört zusammen – mit den Upanishaden als Krönung.`,
+                  objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+                  answer: `Das ist eine kluge Deutung – aber eine Deutung aus dem 8. Jahrhundert, also über tausend Jahre nach den Texten. Ramanuja und Madhva lasen dieselben Upanishaden ganz anders: als Zeugnis eines persönlichen Gottes, von dem die Seelen unterschieden bleiben. Wenn dieselben ehrwürdigen Texte so gegensätzliche Lehren tragen, entscheidet nicht ihr Alter, sondern der Schlüssel, mit dem man sie liest. Christen haben einen solchen Schlüssel: Christus selbst, der „die Schrift auslegte" (Lk 24,27) – und seine Autorität ruht auf einem öffentlichen Ereignis.`,
+                  detail: `Das ist kein Vorwurf an die indische Tradition, sondern eine Beobachtung: Jede Schrifttradition braucht eine Auslegungsautorität. Im Vedanta gibt es drei große Schulen (Advaita, Vishishtadvaita, Dvaita), die sich gegenseitig widersprechen und alle auf die Upanishaden, die Brahma-Sutras und die Gita berufen. Im orthodoxen Christentum wird die Schrift in der Kirche, mit den Vätern und der Liturgie gelesen – auf Christus hin. Das Alter der Veden kann den Streit zwischen Shankara und Ramanuja nicht schlichten; also kann es auch den Streit zwischen Veden und Evangelium nicht entscheiden.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '24,27', status: 'paraphrase', quote: `Und er fing an von Mose und allen Propheten und legte ihnen alle Schriften aus, die von ihm gesagt waren.` },
+                  ],
+                  questionsBack: [`Wenn Shankara und Ramanuja dieselben Texte gegensätzlich lesen – nach welchem Kriterium entscheidest du zwischen ihnen?`],
+                },
+              ],
             },
           ],
         },
@@ -151,6 +218,21 @@ const claim: Claim = {
           answer: `Ähnlichkeit allein beweist keine Abhängigkeit – das gilt für beide Seiten. Mit derselben Logik könnte man die Veden von älteren indoeuropäischen oder mesopotamischen Mythen ableiten. Darum schlage ich vor: Lassen wir das Altersargument ganz beiseite und prüfen die Inhalte und, wo möglich, die Geschichte. Siehe dazu auch den Claim „Die Genesis ist von babylonischen Mythen abgeschrieben".`,
         },
       ],
+    },
+    {
+      id: 'rishis-kannten-wissenschaft',
+      objection: `Die Rishis kannten Wahrheiten, die die Wissenschaft erst heute entdeckt: Weltzeitalter von Milliarden Jahren, Atome, ein pulsierendes Universum. Die Bibel spricht von 6000 Jahren. Wer ist hier näher an der Wahrheit?`,
+      objectionBy: 'David Frawley / Deepak Chopra (sinngemäß)',
+      answer: `Ich bewundere die indische Geistesgeschichte – von ihr haben wir etwa das Dezimalsystem mit der Null. Aber nachträglich hineingelesene Parallelen beweisen nichts: Mit derselben Methode „findet" man moderne Physik auch im Koran oder in der Bibel. Zyklen von Milliarden Jahren sind kein Urknall mit einem Anfang, und indische Atomlehren sind Philosophie, keine Experimente. Und die Kirche hat übrigens kein Dogma über das Erdalter.`,
+      detail: `Die koptisch-orthodoxe Kirche legt sich beim Erdalter nicht fest – die Väter lasen die Schöpfungstage unterschiedlich, die alexandrinische Tradition auch geistlich. Der Einwand trifft also einen Strohmann.
+
+Grundsätzlich gilt: Religiöse Texte sind keine naturwissenschaftlichen Lehrbücher, und das „Vorwegnahme"-Argument ist auf allen Seiten schwach. Christen sollten es ebenfalls meiden. Was man fairerweise sagen kann: Die moderne Kosmologie mit einem Anfang des Universums passt besser zur biblischen Schöpfung aus dem Nichts als zu einem anfangslosen Kreislauf – aber auch das ist ein Indiz, kein Beweis. Winfried Corduan rät, die Wahrheit einer Religion an ihren Kernaussagen über Gott, Mensch und Heil zu prüfen, nicht an Randparallelen.`,
+      voices: [
+        { person: 'corduan', role: 'als Religionswissenschaftler', text: `Corduan stellt die indischen Traditionen in ihrer eigenen Logik dar und warnt vor oberflächlichen Vergleichen in beide Richtungen. Für ihn ist entscheidend, was eine Religion über die letzte Wirklichkeit und die Erlösung des Menschen sagt – dort liegen die wirklichen Unterschiede und die eigentliche Wahrheitsfrage.`, sources: [
+          { kind: 'fachliteratur', author: 'Winfried Corduan', work: 'Neighboring Faiths: A Christian Introduction to World Religions', year: '2. Aufl. 2012', status: 'paraphrase', quote: `Religionen sachlich in ihren eigenen Begriffen darstellen und an ihren Kernaussagen prüfen.` },
+        ] },
+      ],
+      questionsBack: [`Wenn ein Muslim dir „wissenschaftliche Wunder" im Koran zeigt – überzeugt dich das? Warum sollte mich die gleiche Methode bei den Veden überzeugen?`],
     },
   ],
   questionsToAsk: [

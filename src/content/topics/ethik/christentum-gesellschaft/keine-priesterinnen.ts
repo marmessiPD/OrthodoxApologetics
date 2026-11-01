@@ -34,7 +34,7 @@ Die interorthodoxe Konsultation von Rhodos (1988) zur Stellung der Frau in der o
     sources: [
       { kind: 'kirchenvater', author: 'Epiphanius von Salamis', work: 'Panarion', ref: '79 (gegen die Kollyridianer)', year: 'um 375', quote: `Wenn Frauen von Gott dazu bestimmt wären, Priesterinnen zu sein oder ein kirchliches Amt auszuüben, dann hätte vor allem Maria den Priesterdienst im Neuen Bund verrichten müssen; doch das hat Gott nicht gewollt.`, status: 'paraphrase' },
       { kind: 'kirchenvater', work: 'Didascalia Apostolorum', ref: 'Kap. 16', year: '3. Jh.', quote: `Einsetzung von Diakoninnen für den Dienst an Frauen, besonders bei der Taufe und beim Besuch kranker Frauen.`, status: 'paraphrase' },
-      { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Wiederbelebung des Standes der geweihten Diakonissen in der koptischen Kirche', status: 'unverified', note: 'Jahr und genaue Form der Einführung vor Verwendung prüfen.' },
+      { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Wiederbelebung des Standes der geweihten Diakonissen in der koptischen Kirche', year: '1981 (Pfingsten)', status: 'paraphrase', note: 'Geprüft (WebSearch 11/2026): Schenuda III. weihte zu Pfingsten 1981 in Kairo die ersten Diakonissen (Berichte nennen 27 Frauen); Hunderte folgten in anderen Diözesen. Es handelt sich um eine Weihe/Segnung (consecration), nicht um eine Ordination mit liturgischer Funktion; vgl. Christine Chaillot, „Deaconesses in the Coptic Orthodox Church", Ecclesia Orans 35 (2018). Vorläufer gab es schon unter Kyrillos VI. (dienende Schwestern bei Bischof Athanasius von Beni Suef).' },
       { kind: 'kirchenvater', author: 'Dionysius von Alexandrien', work: 'Kanonischer Brief an Basilides', ref: 'Kanon 2', year: '3. Jh.', status: 'paraphrase', note: 'Grundlage der koptischen Praxis zur Kommunion während der Menstruation.' },
     ],
   },
@@ -89,7 +89,7 @@ Die interorthodoxe Konsultation von Rhodos (1988) zur Stellung der Frau in der o
       person: 'shenouda-iii',
       role: 'als Patriarch der koptischen Kirche',
       text: `Papst Schenuda III. erneuerte im 20. Jahrhundert den Dienst geweihter Frauen in der koptischen Kirche. Diese Diakonissen widmen ihr Leben dem Dienst an Armen, Kranken, Kindern und Familien, der Katechese und der Seelsorge an Frauen. Schenuda verband damit die altkirchliche Tradition der Diakonissen mit den Bedürfnissen einer modernen Gemeinde – und zeigte, dass die koptische Kirche Frauen nicht vom kirchlichen Dienst ausschließt, sondern ihnen einen eigenen, geweihten Platz gibt, ohne die apostolische Ordnung des Priestertums zu verändern.`,
-      sources: [{ kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Ordnung der geweihten Diakonissen', status: 'unverified', note: 'Jahr und Details vor Verwendung prüfen.' }],
+      sources: [{ kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Ordnung der geweihten Diakonissen', year: '1981', status: 'paraphrase', note: 'Erste Weihe zu Pfingsten 1981 (geprüft per WebSearch 11/2026); Weihe mit Segensgebet, ohne Handauflegung zur Ordination – so Christine Chaillot, Ecclesia Orans 35 (2018).' }],
     },
   ],
   dialog: [
