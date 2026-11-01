@@ -165,6 +165,38 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'konfuzius-himmel-unpersoenlich',
+      objection: `Auch Konfuzius sprach nur vom „Himmel" (Tian) – einer unpersönlichen moralischen Ordnung. Die chinesische Weisheit braucht keinen persönlichen Gott.`,
+      objectionBy: 'Alan Watts (sinngemäß)',
+      answer: `Bei Konfuzius ist der Himmel erstaunlich persönlich: „Wer sich gegen den Himmel versündigt, hat niemanden, zu dem er beten kann" (Gespräche 3,13); „Der Himmel hat die Tugend in mir hervorgebracht" (7,23); „Der mich kennt, ist der Himmel" (14,35). Und die noch älteren Klassiker sprechen von Shangdi, dem „Herrscher in der Höhe", dem die Kaiser jahrhundertelang am Himmelsaltar opferten. Matteo Ricci und James Legge sahen darin eine Erinnerung an den einen Gott.`,
+      sources: [
+        { kind: 'oestlich', author: 'Konfuzius', work: 'Gespräche (Lunyu)', ref: '3,13', original: '獲罪於天，無所禱也。', quote: `Wer sich gegen den Himmel versündigt, hat niemanden, zu dem er beten kann.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+        { kind: 'oestlich', author: 'Konfuzius', work: 'Gespräche (Lunyu)', ref: '7,23', original: '天生德於予，桓魋其如予何？', quote: `Der Himmel hat die Tugend in mir hervorgebracht – was kann mir Huan Tui anhaben?`, translation: 'eigene Übersetzung', status: 'verbatim' },
+        { kind: 'oestlich', author: 'Konfuzius', work: 'Gespräche (Lunyu)', ref: '14,35 (Zählung variiert: 14,37)', original: '知我者其天乎！', quote: `Der mich kennt, das ist wohl der Himmel!`, translation: 'eigene Übersetzung', status: 'verbatim' },
+      ],
+      voices: [
+        {
+          person: 'matteo-ricci',
+          role: 'als Jesuit im Gespräch mit konfuzianischen Gelehrten',
+          text: `Matteo Ricci lernte Chinesisch, studierte die Klassiker und argumentierte in seinem Dialog *Die wahre Bedeutung des Herrn des Himmels*, dass der Shangdi der ältesten Schriften kein unpersönliches Prinzip, sondern der eine, persönliche Schöpfer sei. Erst spätere neokonfuzianische Deutungen hätten den Himmel zu einem abstrakten Prinzip gemacht. Ricci würdigte die konfuzianische Ethik hoch und sah im Evangelium ihre Erfüllung, nicht ihre Zerstörung.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Matteo Ricci', work: 'Tianzhu Shiyi (Die wahre Bedeutung des Herrn des Himmels)', year: '1603', status: 'paraphrase' },
+          ],
+        },
+      ],
+      followUps: [
+        {
+          id: 'himmel-spricht-nicht',
+          objection: `Aber Konfuzius sagt auch: „Spricht denn der Himmel? Die vier Jahreszeiten gehen ihren Gang, alle Dinge entstehen – spricht denn der Himmel?" Das klingt nicht nach einem Gott, der sich offenbart.`,
+          objectionBy: 'Alan Watts (sinngemäß)',
+          answer: `Genau darin liegt die Sehnsucht, die das Evangelium beantwortet. Konfuzius sah den Himmel in der Ordnung der Natur wirken, aber er hörte ihn nicht reden (Gespräche 17,19). Der Hebräerbrief sagt: Gott hat vorzeiten auf vielerlei Weise gesprochen, zuletzt aber durch den Sohn (Hebr 1,1–2). Der Himmel, der zu Konfuzius schwieg, hat in Jesus Christus gesprochen – mit menschlicher Stimme.`,
+          sources: [
+            { kind: 'oestlich', author: 'Konfuzius', work: 'Gespräche (Lunyu)', ref: '17,19', original: '天何言哉？四時行焉，百物生焉，天何言哉？', quote: `Spricht denn der Himmel? Die vier Jahreszeiten gehen ihren Gang, die hundert Dinge entstehen – spricht denn der Himmel?`, translation: 'eigene Übersetzung', status: 'verbatim' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist etwas, das „jenseits der Person" steht, mehr oder weniger als eine Person?`,

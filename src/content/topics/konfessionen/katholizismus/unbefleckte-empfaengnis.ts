@@ -72,11 +72,6 @@ const claim: Claim = {
       text: `Ware erklärt, dass die Orthodoxie Maria als *Panagia*, die Allheilige, verehrt und viele Orthodoxe glauben, dass sie keine persönliche Sünde beging. Die Unbefleckte Empfängnis lehnt sie dennoch ab: Sie sei unnötig, weil die Orthodoxie die Erbsünde nicht als vererbte Schuld versteht, und sie könne Maria von der übrigen Nachkommenschaft Adams trennen. Maria ist die höchste Frucht der Heiligung, die Gott mit der Menschheit vorhat – nicht eine Ausnahme von ihr.`,
       sources: [{ kind: 'fachliteratur', author: 'Kallistos Ware', work: 'The Orthodox Church', year: '1963, überarb. 1993', status: 'paraphrase' }],
     },
-    {
-      person: 'gregorios',
-      role: 'als koptischer Dogmatiker',
-      text: `Bischof Gregorios hat in der akademischen koptischen Theologie die alexandrinische Marienlehre vertreten: Maria ist Theotokos, ihre Heiligkeit ist einzigartig, und die Kirche verehrt sie mit der höchsten Form der Ehre, die einem Geschöpf zukommt. Die Lehrentscheidung von 1854 sieht die koptische Theologie als westliche Entwicklung, die über das Zeugnis der gemeinsamen Väter hinausgeht.`,
-    },
   ],
   dialog: [
     {
