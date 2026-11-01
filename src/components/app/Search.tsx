@@ -33,17 +33,8 @@ export const typeMeta: Record<Hit['type'], { label: string; icon: typeof BookOpe
   person: { label: 'Konzil der Verteidiger', icon: UserRound },
 };
 
-export function SearchCommand() {
-  const { open, q: initial } = useSearchState();
-  const [q, setQ] = useState('');
-  const kb = useKB();
-  const index = useSearchIndex(kb);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (open) setQ(initial);
-  }, [open, initial]);
-
+/** Tastenkürzel ⌘K / Strg+K / „/" – immer aktiv, auch während die Datenbank lädt. */
+export function SearchHotkeys() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement;
@@ -56,6 +47,19 @@ export function SearchCommand() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, []);
+  return null;
+}
+
+export function SearchCommand() {
+  const { open, q: initial } = useSearchState();
+  const [q, setQ] = useState('');
+  const kb = useKB();
+  const index = useSearchIndex(kb);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (open) setQ(initial);
+  }, [open, initial]);
 
   const hits = useMemo(() => runSearch(index, q, { limit: 60 }), [index, q]);
   const groups = useMemo(() => {

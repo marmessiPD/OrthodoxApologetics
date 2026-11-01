@@ -72,7 +72,7 @@ const claim: Claim = {
 Origenes ist in der koptischen Kirche keine Lehrautorität – aber als Historiker seiner eigenen Kirche ist er ein wichtiger Zeuge: Um 240 hielt man die Kindertaufe nicht für eine Neuerung, sondern für apostolisch.`,
     },
     {
-      person: 'hippolyt',
+      person: 'hippolyt-rom',
       role: 'als Zeuge einer frühen Kirchenordnung',
       text: `Die Hippolyt zugeschriebene „Traditio Apostolica" beschreibt den Ablauf der Taufe: Am Morgen beim ersten Hahnenschrei wird über dem Wasser gebetet; dann werden zuerst die Kinder getauft. Wer für sich sprechen kann, antwortet selbst; für die anderen antworten die Eltern oder ein Familienmitglied. Danach die Erwachsenen, zuletzt die Frauen.
 

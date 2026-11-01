@@ -34,17 +34,6 @@ Die Kirchenväter kannten diese Fragen erstaunlich gut: Pantheismus und Seelenwa
   ],
   claims: [christusbewusstsein, allesIstEnergieGott, reinkarnationInDerBibel, astrologieHeilsteine],
   newPeople: [
-    {
-      id: 'ignatius',
-      name: 'Hl. Ignatius von Antiochien',
-      years: 'gest. als Märtyrer in Rom unter Kaiser Trajan (98–117)',
-      era: 'patristisch',
-      tradition: 'ungeteilt',
-      title: 'Bischof von Antiochien, Apostolischer Vater und Märtyrer',
-      fields: ['Christologie', 'Kirche und Bischofsamt', 'Eucharistie', 'Überwindung der Magie'],
-      bio: 'Dritter Bischof von Antiochien, auf dem Weg zu seinem Martyrium in Rom verfasste er sieben Briefe an Gemeinden in Kleinasien und Rom. Sie bezeugen früh die Gottheit und wahre Menschheit Christi, das Bischofsamt und die Eucharistie; im Epheserbrief deutet er den Stern von Betlehem als Ende der Macht der Magie.',
-      keyWorks: ['Brief an die Epheser', 'Brief an die Smyrnäer', 'Brief an die Römer'],
-    },
   ],
 };
 

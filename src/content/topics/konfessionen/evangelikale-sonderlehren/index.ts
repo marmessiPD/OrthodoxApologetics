@@ -60,17 +60,6 @@ Die **koptische Kirche** kann diesen Lehren mit einem besonderen Vorteil begegne
       bio: 'Bischof von Antiochien in Syrien, der unter Kaiser Trajan nach Rom gebracht und dort den wilden Tieren vorgeworfen wurde. Auf dem Weg schrieb er sieben Briefe, die zu den ältesten Zeugnissen der nachapostolischen Kirche gehören: über die Gottheit und wahre Menschheit Christi, die Eucharistie und die Ordnung von Bischof, Presbytern und Diakonen.',
       keyWorks: ['Briefe an die Epheser, Magnesier, Trallianer, Römer, Philadelphier, Smyrnäer und an Polykarp'],
     },
-    {
-      id: 'klemens-rom',
-      name: 'Klemens von Rom',
-      years: 'gest. um 100',
-      era: 'patristisch',
-      tradition: 'ungeteilt',
-      title: 'Bischof von Rom, Apostolischer Vater',
-      fields: ['Kirchenordnung', 'Apostolische Sukzession', 'Frühe Kirche'],
-      bio: 'Nach der altkirchlichen Überlieferung einer der ersten Bischöfe von Rom. Ihm wird der 1. Klemensbrief (um 96) zugeschrieben, in dem die römische Gemeinde die Korinther ermahnt, ihre rechtmäßig eingesetzten Presbyter nicht abzusetzen – eines der ältesten christlichen Schreiben außerhalb des Neuen Testaments.',
-      keyWorks: ['1. Klemensbrief (um 96)'],
-    },
   ],
 };
 

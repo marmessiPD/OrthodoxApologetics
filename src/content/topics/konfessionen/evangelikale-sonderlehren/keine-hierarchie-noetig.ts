@@ -63,7 +63,7 @@ const claim: Claim = {
       sources: [{ kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Briefe an die Smyrnäer, Magnesier, Trallianer und Philadelphier', status: 'paraphrase' }],
     },
     {
-      person: 'klemens-rom',
+      person: 'clemens-rom',
       role: 'als Zeuge der Generation nach den Aposteln',
       text: `Der 1. Klemensbrief entstand, als in Korinth einige junge Leute die rechtmäßig eingesetzten Presbyter absetzten. Die Antwort der römischen Kirche ist ein frühes Zeugnis gegen die Vorstellung, eine Gemeinde könne ihre Leitung nach Belieben bestimmen: Die Apostel haben in den Städten ihre Erstlinge als Bischöfe und Diakone eingesetzt, und sie haben Vorsorge getroffen, dass nach ihrem Tod andere bewährte Männer den Dienst übernehmen. Die Ordnung der Kirche spiegelt die Ordnung Gottes.`,
       sources: [{ kind: 'kirchenvater', author: 'Klemens von Rom', work: '1. Klemensbrief', ref: '40–44', status: 'paraphrase' }],

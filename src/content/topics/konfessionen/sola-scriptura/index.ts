@@ -109,18 +109,6 @@ Dieser Themenblock behandelt die fünf typischen Einwände: Sola Scriptura selbs
       caveat: 'Die Verfasserschaft der Mystagogischen Katechesen ist umstritten (Kyrill oder sein Nachfolger Johannes von Jerusalem); sie spiegeln in jedem Fall die Jerusalemer Praxis des späten 4. Jahrhunderts.',
     },
     {
-      id: 'hippolyt',
-      name: 'Hippolyt von Rom',
-      years: 'ca. 170–235',
-      era: 'patristisch',
-      tradition: 'ungeteilt',
-      title: 'Presbyter in Rom, Märtyrer',
-      fields: ['Liturgie', 'Kirchenordnung', 'Schriftauslegung'],
-      bio: 'Bedeutender Theologe in Rom, Verfasser eines Danielkommentars; starb nach der Verbannung auf Sardinien. Ihm wird die „Traditio Apostolica" zugeschrieben, eine Kirchenordnung mit Gebeten für Taufe, Eucharistie und Weihen, die vor allem in koptischen (sahidischen), arabischen und äthiopischen Fassungen erhalten ist.',
-      keyWorks: ['Traditio Apostolica (zugeschrieben)', 'Danielkommentar'],
-      caveat: 'Verfasserschaft, Datierung und Einheitlichkeit der Traditio Apostolica sind umstritten; viele Forscher sehen darin eine gewachsene Kirchenordnung des 3.–4. Jahrhunderts. Hippolyt stand zeitweise im Konflikt mit dem römischen Bischof.',
-    },
-    {
       id: 'vinzenz-lerin',
       name: 'Hl. Vinzenz von Lérins',
       years: 'gest. vor 450',

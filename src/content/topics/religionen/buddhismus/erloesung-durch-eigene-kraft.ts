@@ -199,7 +199,7 @@ const claim: Claim = {
     'buddhismus/nirvana-hoechstes-ziel',
     'sola-fide/allein-durch-glauben',
     'religionskritik/freud-wunscherfuellung',
-    'sola-fide/schuldgefuehle-schaedlich',
+    'psychologie/schuldgefuehle-schaedlich',
   ],
 };
 

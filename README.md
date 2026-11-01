@@ -17,6 +17,16 @@
 | **Quellen mit Zitierstatus** | Jede Quelle ist als *wörtlich*, *sinngemäß* oder *zu prüfen* markiert. |
 | **Offline & installierbar** | Progressive Web App für Desktop (Chrome/Edge: „Installieren") und Mobil (iOS: „Zum Home-Bildschirm", Android: „App installieren"). |
 
+## Umfang der Wissensdatenbank
+
+| | |
+|---|---|
+| Themenfelder / Themenblöcke | 9 / 71 |
+| Behauptungen der Gegenseite | 321 |
+| Vorausgedachte Gesprächszüge (Dialogknoten) | 3.665 (bis zu 7 Ebenen tief) |
+| Stimmen im Konzil | 1.538 Beiträge von über 250 Verteidigern |
+| Quellen | 7.644 – davon 2.286 wörtlich, 5.279 sinngemäß, 79 „zu prüfen" |
+
 ## Themenfelder
 
 Weltreligionen (Islam, Judentum, Hinduismus, Buddhismus, weitere, Pluralismus) · Christliche Konfessionen (Protestantismus, Calvinismus, Pfingstbewegung, Katholizismus, Chalcedon, liberale Theologie) · Sondergemeinschaften & Esoterik · Philosophie & Weltanschauung · Ethik, Moral & Leid · Kosmos, Physik & Mathematik · Leben, Chemie & Evolution · Mensch, Medizin & Psyche · Geschichte, Bibel & Archäologie.
@@ -32,6 +42,7 @@ npm run build        # Typprüfung + Produktions-Build (PWA) nach dist/
 npm run validate     # Wissensdatenbank prüfen (IDs, Personen, Quellen, Dialogtiefe)
 npm run stats        # Statistik der Wissensdatenbank
 npm run check -- religionen/islam-dilemma   # einzelnen Themenblock prüfen
+npm run verifikation # Prüfliste VERIFIKATION.md aller Quellen mit Status „zu prüfen" erzeugen
 ```
 
 **Technik:** React 19, TypeScript, Vite, Tailwind CSS v4, Komponenten im shadcn/ReUI-Stil (Radix UI, cmdk), MiniSearch (Volltextsuche), vite-plugin-pwa (offline, installierbar).
@@ -48,6 +59,12 @@ Jede Behauptung enthält: Steelman der Gegenseite, biblische Position, koptisch-
 ## Veröffentlichen
 
 Der Workflow `.github/workflows/ci.yml` validiert die Inhalte, baut die App und veröffentlicht sie bei jedem Push auf `main` über GitHub Pages (in den Repository-Einstellungen unter *Pages → Source: GitHub Actions* aktivieren). Danach ist die App unter der Pages-URL auf jedem Gerät installierbar. Für App-Store-Versionen kann der `dist/`-Build später mit Capacitor (iOS/Android) bzw. Tauri (Desktop) verpackt werden.
+
+## Nächste Schritte
+
+1. **Zitate prüfen:** [`VERIFIKATION.md`](VERIFIKATION.md) listet alle 79 Quellen mit Status „zu prüfen". Viele weitere Angaben (Hadith-Nummern, Seitenzahlen) sind ehrlich als „sinngemäß" markiert, weil sunnah.com, quran.com, doi.org u. a. in der Recherche-Umgebung nicht erreichbar waren.
+2. **Theologische Durchsicht** der koptisch-orthodoxen Positionen (z. B. IVF, Sterbehilfe, Diakonissen) durch einen Priester oder Theologen der Kirche.
+3. **Veröffentlichen** über GitHub Pages (siehe unten) und auf den Geräten als App installieren.
 
 ## Hinweis
 

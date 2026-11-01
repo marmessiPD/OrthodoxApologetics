@@ -79,7 +79,7 @@ const claim: Claim = {
       ],
     },
     {
-      person: 'ignatius',
+      person: 'ignatius-antiochien',
       role: 'als Märtyrerbischof über den Stern von Betlehem',
       text: `Ignatius deutet auf dem Weg zum Martyrium in seinem Brief an die Epheser den Stern der Weisen: Ein Stern, heller als alle anderen, erschien, und seitdem wurde alle Zauberei aufgelöst, jede Fessel der Bosheit beseitigt, die Unwissenheit vertrieben. Für ihn markiert die Geburt Christi das Ende der Macht von Magie und Sterndeutung – die Gestirne selbst bilden einen Reigen um den Stern Christi.`,
       sources: [{ kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Epheser', ref: '19', quote: `Mit dem Stern Christi wurde alle Magie aufgelöst.`, status: 'paraphrase' }],
