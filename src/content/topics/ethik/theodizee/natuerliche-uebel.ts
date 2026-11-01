@@ -126,6 +126,25 @@ const claim: Claim = {
               objectionBy: 'Säkularer Kritiker',
               answer: `Dass Sicherheit vom Geld abhängt, hat nicht Gott so eingerichtet, sondern wir Menschen – durch Ungerechtigkeit, Korruption und fehlendes Teilen. Das ist moralisches Übel, und die Bibel klagt es scharf an: „Siehe, der Arbeiter Lohn … schreit" (Jak 5,4). Gott hat der Menschheit genug gegeben, um einander zu schützen. Der Skandal ist, dass wir es nicht tun. Deshalb ist die christliche Antwort auf Katastrophen nicht nur Gebet, sondern Gerechtigkeit und Hilfe.`,
               detail: `Die Kirche hat aus diesem Grund immer auch Hilfswerke getragen. Die Kopten in Ägypten kennen aus eigener Geschichte, wie Armut Leid vervielfacht – und wie Gemeinschaft es lindert.`,
+              followUps: [
+                {
+                  id: 'thema-gewechselt',
+                  objection: `Schön, dass Christen helfen. Aber du wechselst das Thema: von der Frage, warum Gott eine tödliche Natur geschaffen hat, zur Frage, was wir tun sollen. Das theologische Problem bleibt ungelöst.`,
+                  objectionBy: 'Bart D. Ehrman',
+                  answer: `Fair – es sind zwei Fragen, und ich will keine gegen die andere ausspielen. Zur theoretischen: Richard Swinburne argumentiert, dass eine Welt mit verlässlichen Naturgesetzen, die auch schaden können, die Bedingung dafür ist, dass wir überhaupt verantwortlich handeln können – nur wer weiß, was Ursachen bewirken, kann schützen, warnen, helfen oder unterlassen. Eine Welt ohne natürliche Gefahren wäre eine Welt ohne echte Verantwortung füreinander. Das erklärt nicht jedes Einzelereignis, aber es zeigt, dass natürliche Übel nicht sinnlos sein müssen.`,
+                  detail: `Swinburne entwickelt das „Argument aus dem Wissen" in *The Existence of God* (2. Aufl. 2004, Kap. 11) und *Providence and the Problem of Evil* (1998): Wir lernen durch regelmäßige Naturabläufe, welche Handlungen welche Folgen haben; nur so werden ernsthafte Entscheidungen möglich. Kritiker (z. B. Draper) halten den Preis für zu hoch. Ehrlich bleibt: Diese Theodizee ist eine Teilantwort. Die volle christliche Antwort schließt Kreuz, Auferstehung und Neuschöpfung ein.`,
+                  voices: [
+                    {
+                      person: 'swinburne',
+                      role: 'als Religionsphilosoph (Oxford)',
+                      text: `Swinburne hält natürliche Übel für den Preis einer Welt, in der freie Wesen durch Erfahrung lernen und für einander Verantwortung tragen können. Würde Gott jede Gefahr verhindern, gäbe es keine verlässlichen Regeln, aus denen wir lernen, und damit keine echten Entscheidungen über Leben und Tod anderer. Swinburne betont zugleich, dass Gott als Schöpfer das Recht und die Pflicht hat, das Leid im Jenseits auszugleichen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'Providence and the Problem of Evil', year: '1998', quote: `Natürliche Übel liefern das Wissen, ohne das freie Wesen keine ernsthaften Entscheidungen über das Wohl anderer treffen könnten.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -154,6 +173,25 @@ const claim: Claim = {
               sources: [
                 { kind: 'fachliteratur', author: 'William A. Dembski', work: 'The End of Christianity: Finding a Good God in an Evil World', year: '2009', quote: `Die Folgen des Sündenfalls könnten rückwirkend die gesamte Geschichte der Schöpfung betreffen, so wie das Heil Christi auch rückwirkend für die Gerechten vor ihm gilt.`, status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'gefallene-engel-ad-hoc',
+                  objection: `Gefallene Engel, die Tumore verursachen? Das ist eine Ad-hoc-Hypothese ohne jeden Beleg. Mit so etwas kannst du jedes Faktum wegerklären – das ist das Ende ernsthaften Denkens.`,
+                  objectionBy: 'Richard Dawkins / Paul Draper',
+                  answer: `Als naturwissenschaftliche Erklärung wäre sie tatsächlich nutzlos – und so ist sie auch nicht gemeint. Plantinga bringt sie beim *logischen* Problem: Dort genügt der Nachweis, dass Gott und natürliches Übel widerspruchsfrei zusammen denkbar sind. Dafür reicht eine mögliche Erklärung. Beim *evidentiellen* Problem gebe ich zu: Ich muss keine dieser Hypothesen vertreten. Meine Antwort ruht dort nicht auf Spekulation über die Entstehung des Übels, sondern auf den Gründen für Gott insgesamt und auf der Verheißung, dass der Tod besiegt wird.`,
+                  detail: `Plantinga hat in *God, Freedom, and Evil* (1974) den Gedanken erwogen, natürliches Übel könne auf das freie Handeln nichtmenschlicher Personen zurückgehen; Mackie räumte später ein (*The Miracle of Theism*, 1982), das Problem des Übels zeige letztlich nicht, dass die zentralen Lehren des Theismus logisch unvereinbar seien. Die biblische Weltsicht rechnet mit geistigen Mächten (Eph 6,12), lehrt aber keine Mechanik ihres Wirkens in der Natur. Wichtig: Diese Möglichkeit niemals einem Kranken gegenüber als Erklärung seiner Krankheit anbieten.`,
+                  voices: [
+                    {
+                      person: 'plantinga',
+                      role: 'als Analytiker des logischen Problems',
+                      text: `Plantinga unterscheidet zwischen einer *Theodizee*, die Gottes tatsächliche Gründe angeben will, und einer *Verteidigung*, die nur zeigt, dass kein Widerspruch besteht. Für Letztere genügt eine mögliche, in sich stimmige Geschichte. Ob natürliches Übel auf gefallene Geistwesen zurückgeht, muss er nicht behaupten – es genügt, dass es möglich ist und nicht widersprüchlich.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'God, Freedom, and Evil', year: '1974', quote: `Es ist möglich, dass natürliche Übel auf das freie Handeln nichtmenschlicher Personen zurückgehen; diese Möglichkeit genügt für eine Verteidigung gegen den Widerspruchsvorwurf.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -172,6 +210,17 @@ const claim: Claim = {
           objectionBy: 'Bibelkritischer Skeptiker',
           answer: `In bestimmten Fällen deutet die Schrift durch prophetische Offenbarung ein Ereignis als Gericht – das ist etwas anderes, als wenn wir ohne Offenbarung jede beliebige Katastrophe so deuten. Jesus hat das Letztere ausdrücklich verboten. Und auch im Alten Testament gibt es das Buch Hiob, das genau die Theologie widerlegt, dass Leid immer Strafe sei: Gott selbst tadelt Hiobs Freunde dafür.`,
           detail: `Die Erzählungen von Sintflut und Sodom gehören zu einer eigenen Fragestellung (siehe Themenblock „Altes Testament und Ethik"). Für natürliche Übel in unserer Zeit gilt die klare Weisung Jesu aus Lk 13: keine Schuldzuweisung, sondern Umkehr für alle und Hilfe für die Betroffenen.`,
+          followUps: [
+            {
+              id: 'lk13-auch-drohung',
+              objection: `Lies Lk 13 zu Ende: „So ihr euch nicht bessert, werdet ihr alle auch also umkommen." Jesus benutzt die Katastrophe also doch als Drohkulisse.`,
+              objectionBy: 'Bibelkritischer Skeptiker',
+              answer: `Er benutzt sie als Erinnerung an die Sterblichkeit *aller*, nicht als Urteil über die Opfer. Gerade weil die Toten von Siloah nicht schuldiger waren, gilt: Jeder kann plötzlich sterben, und jeder braucht Umkehr. Das ist der Unterschied zwischen „Die da waren schlimmer" (verboten) und „Wir alle sind sterblich und vor Gott verantwortlich" (geboten). Unmittelbar danach erzählt Jesus vom Feigenbaum, dem der Gärtner noch ein Jahr Zeit erbittet (Lk 13,6–9) – das Bild eines geduldigen Gottes.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '13,4–5', quote: `Oder meinet ihr, daß die achtzehn, auf die der Turm in Siloah fiel und erschlug sie, seien schuldig gewesen vor allen Menschen, die zu Jerusalem wohnen? Ich sage: Nein; sondern so ihr euch nicht bessert, werdet ihr alle auch also umkommen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -188,6 +237,39 @@ const claim: Claim = {
           objectionBy: 'Bart Ehrman / Journalistische Frage',
           answer: `Ich kann dir nicht sagen, warum Gott diese Welle nicht aufgehalten hat. Aber ich kann sagen, wo ich ihn sehe: bei denen, die ertranken – denn er hat selbst den Tod erlitten –, und in den Händen derer, die halfen, suchten, trösteten. Und ich sehe in Jesus, der den Sturm stillte und Tote auferweckte, ein Zeichen, dass das Meer und der Tod nicht das letzte Wort haben werden.`,
           detail: `Hart betont in *The Doors of the Sea*, dass der Christ den Tod nicht als Gottes Werkzeug verherrlichen muss, sondern als Feind betrachten darf, den Christus besiegt hat (1 Kor 15,26). Diese Antwort verbindet Ehrlichkeit (wir kennen das Warum nicht) mit Hoffnung (wir kennen das Ende).`,
+          followUps: [
+            {
+              id: 'zulassen-ist-wollen',
+              objection: `„Zulassen" ist ein Wortspiel. Wer allmächtig ist, alles vorher weiß und eine Welle nicht aufhält, der will sie. Ein Bademeister, der zusieht, wie ein Kind ertrinkt, kann sich nicht darauf berufen, er habe es nur „zugelassen".`,
+              objectionBy: 'Alex O\'Connor / J. L. Mackie',
+              answer: `Der Bademeister ist schuldig, weil er keinen guten Grund hat und weil er das Kind nicht später retten kann. Beides trifft auf Gott nicht in derselben Weise zu: Er kann Gründe haben, die wir nicht überblicken, und für ihn ist der Tod nicht das Ende des Kindes. Die orthodoxe Tradition unterscheidet mit Johannes von Damaskus zwischen Gottes vorausgehendem Willen – er will, dass alle leben und gerettet werden – und seiner Zulassung in einer Welt, die er frei und verlässlich geschaffen hat. Das ist kein Wortspiel, sondern dieselbe Unterscheidung, die wir bei jedem Arzt machen, der einen schmerzhaften Eingriff zulässt.`,
+              detail: `Johannes von Damaskus (*Darlegung des orthodoxen Glaubens* II,29) unterscheidet zwischen dem, was Gott „aus Wohlgefallen" will, und dem, was er „zulässt". Die Unterscheidung ist alt und keine Erfindung moderner Apologeten. Sie löst das Problem nicht vollständig auf, aber sie zeigt, dass „zulassen" und „bezwecken" nicht dasselbe sind.
+
+Ehrlich bleibt: Der Vergleich mit dem Arzt hinkt dort, wo wir den Nutzen nicht sehen. Hier ist Vertrauen gefragt – und das christliche Vertrauen beruht darauf, dass dieser Gott selbst ins Wasser gestiegen ist: Er hat sich nicht vom Leid ferngehalten, sondern es am Kreuz getragen.`,
+              voices: [
+                {
+                  person: 'johannes-damaskus',
+                  role: 'als Systematiker der östlichen Tradition',
+                  text: `Johannes von Damaskus fasst die Lehre der Väter zusammen: Gottes vorausgehender Wille ist das Heil und das Leben aller; was in einer gefallenen Welt geschieht, lässt er zu, ohne es um seiner selbst willen zu wollen, und er lenkt auch das Zugelassene auf das Gute hin. Gott ist nicht Urheber des Bösen, aber er ist Herr auch über das, was er zulässt.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Darlegung des orthodoxen Glaubens (Expositio fidei)', ref: 'II,29', year: '8. Jh.', quote: `Man muss wissen, dass Gott das eine vorausgehend und aus Wohlgefallen will, das andere zulässt; und auch das Zugelassene lenkt er zum Heil.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'gruende-ewig-unbekannt',
+                  objection: `„Gründe, die wir nicht überblicken" – damit kannst du alles rechtfertigen. Ein Gott, dessen Güte nie an irgendetwas Erkennbarem gemessen werden kann, ist von einem gleichgültigen Gott nicht zu unterscheiden.`,
+                  objectionBy: 'Paul Draper',
+                  answer: `Nicht alles – sondern das, was zu einem Gott passt, für den wir unabhängige Gründe haben. Und seine Güte ist nicht unerkennbar: Wir sehen sie in der Schöpfung, im Gewissen und vor allem in Jesus Christus, der Kranke heilte, Tote auferweckte und für seine Feinde starb. An diesem erkennbaren Charakter messe ich das Unverständliche – nicht umgekehrt. Ein gleichgültiger Gott hätte nicht geweint am Grab des Lazarus.`,
+                  detail: `Das ist die christliche Form des „skeptischen Theismus": Er ist nicht grenzenlos skeptisch, sondern stützt sich auf eine positive Offenbarung von Gottes Charakter. Wer die Auferstehung Jesu für historisch begründet hält, hat einen erkennbaren Maßstab für Gottes Güte. Siehe den Claim „Das evidentielle Problem des Übels".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '14,9', quote: `Wer mich sieht, der sieht den Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

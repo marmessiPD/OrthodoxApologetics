@@ -150,6 +150,26 @@ const claim: Claim = {
           sources: [
             { kind: 'fachliteratur', author: 'Boethius', work: 'Der Trost der Philosophie (De consolatione philosophiae)', ref: 'V, Prosa 6', year: 'ca. 524', original: 'Aeternitas igitur est interminabilis vitae tota simul et perfecta possessio.', quote: `Die Ewigkeit ist also der ganze, gleichzeitige und vollkommene Besitz unbegrenzbaren Lebens.`, status: 'verbatim', translation: 'eigene Übersetzung' },
           ],
+          followUps: [
+            {
+              id: 'warum-ueberhaupt-schaffen',
+              objection: `Wenn Gott vollkommen ist und nichts braucht – warum schafft er dann überhaupt? Jedes Schaffen verrät einen Mangel, ein Begehren. Ein begehrender Gott ist nach buddhistischer Analyse selbst noch im Leiden gefangen.`,
+              objectionBy: 'Der Dalai Lama (sinngemäß)',
+              answer: `Es gibt ein Schaffen aus Mangel und ein Schaffen aus Fülle. Ein Künstler malt nicht, weil ihm etwas fehlt, sondern weil Schönheit sich mitteilen will. Christen glauben, dass Gott in sich selbst schon Liebe ist – Vater, Sohn und Geist in ewiger Gemeinschaft. Er braucht die Welt nicht, um lieben zu können. Darum ist die Schöpfung reines Geschenk: Gott schafft, weil das Gute sich verschenkt, nicht weil er etwas sucht.`,
+              detail: `Athanasius sagt es am Anfang von *De Incarnatione*: Gott ist gut, ja die Quelle aller Güte, und wer gut ist, missgönnt niemandem das Dasein – darum hat er alles aus dem Nichts ins Sein gerufen. David Bentley Hart nennt die Schöpfung deshalb „grundlos" im besten Sinne: Sie ist nicht notwendig, sondern freie Gabe. Gerade hier zeigt sich, warum die Trinität kein spekulatives Beiwerk ist: Ein einsamer Gott bräuchte vielleicht ein Gegenüber; der dreieinige Gott ist schon in sich selbst Gemeinschaft und schenkt aus Überfluss.
+
+Der buddhistische Einwand trifft also einen Gott, der aus Bedürftigkeit handelt – einen solchen Gott lehnen auch Christen ab.`,
+              voices: [
+                { person: 'athanasius', role: 'als Lehrer der Schöpfung aus dem Nichts', text: `Athanasius begründet die Schöpfung mit Gottes Güte: Weil Gott gut ist und niemandem das Dasein missgönnt, hat er alles durch seinen Logos aus dem Nichts geschaffen und dem Menschen sogar Anteil an seinem Bild gegeben.`, sources: [
+                  { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'De Incarnatione', ref: '3', year: 'ca. 318', status: 'paraphrase', quote: `Gott ist gut, ja die Quelle aller Güte; der Gute aber missgönnt niemandem etwas. Darum missgönnte er niemandem das Dasein und schuf alles aus dem Nichts.` },
+                ] },
+                { person: 'hart', role: 'als orthodoxer Religionsphilosoph', text: `Hart betont, dass der Gott des klassischen Theismus nicht ein Wesen unter Wesen ist, das etwas erwerben will, sondern die unendliche Fülle von Sein, Bewusstsein und Seligkeit. Eine solche Fülle schafft nicht aus Not, sondern als reines Geschenk – die Welt ist für Gott nicht nötig, aber von ihm gewollt.`, sources: [
+                  { kind: 'fachliteratur', author: 'David Bentley Hart', work: 'The Experience of God: Being, Consciousness, Bliss', year: '2013', status: 'paraphrase', quote: `Gott als unendliche Fülle von Sein, Bewusstsein und Seligkeit; die Schöpfung als freie, nicht notwendige Gabe.` },
+                ] },
+              ],
+              questionsBack: [`Schenkt eine Mutter ihrem Kind Leben, weil ihr etwas fehlt – oder weil Liebe sich verschenken will?`],
+            },
+          ],
         },
       ],
     },
@@ -164,6 +184,23 @@ const claim: Claim = {
           objection: `Wenn Gott durch Mittelursachen wirkt, ist er überflüssig. Die Ursachen reichen doch.`,
           objectionBy: 'Dalai Lama (sinngemäß)',
           answer: `Mittelursachen erklären, wie ein Ding aus einem anderen hervorgeht – nicht, warum es überhaupt Ursachen mit dieser Wirkkraft gibt. Die Figuren eines Romans handeln wirklich innerhalb der Geschichte, und doch existiert die ganze Geschichte nur, weil der Autor sie schreibt. Gott ist nicht eine Ursache neben anderen, sondern der Grund, dass es Ursachen überhaupt gibt.`,
+          followUps: [
+            {
+              id: 'physik-erklaert-anfang',
+              objection: `Die Physik braucht keinen Gott mehr: Quantenfluktuationen können ein Universum aus dem Nichts hervorbringen. Gott ist ein Lückenbüßer, und die Lücken schließen sich.`,
+              objectionBy: 'Sam Harris (sinngemäß)',
+              answer: `Das Quantenvakuum ist nicht „nichts", sondern ein Feld mit Energie und Gesetzen. Die Frage ist gerade, warum es solche Felder und Gesetze überhaupt gibt. Der klassische Gottesbegriff füllt keine Lücke in der Physik, sondern beantwortet eine andere Frage: nicht „wie entwickelt sich die Welt?", sondern „warum gibt es überhaupt etwas?". Und hier ist der Buddhismus übrigens auf meiner Seite: Auch er hält Materialismus für unzureichend.`,
+              detail: `Edward Feser unterscheidet sorgfältig zwischen einem „Lückenbüßer-Gott" und dem Gott der klassischen Metaphysik. Ein Lückenbüßer wäre eine Ursache neben anderen, die man irgendwann durch eine Naturerklärung ersetzen könnte. Der klassische Gott ist dagegen der Grund dafür, dass es überhaupt Ursachen, Gesetze und Dinge gibt – keine wissenschaftliche Entdeckung kann ihn ersetzen, weil jede Entdeckung schon etwas Existierendes voraussetzt.
+
+Für das Gespräch mit Buddhisten ist wichtig: Sam Harris argumentiert hier als Naturalist, nicht als Buddhist. Die buddhistische Tradition sieht im Geist etwas, das nicht auf Materie reduzierbar ist. Wer den Naturalismus übernimmt, verliert auch Wiedergeburt, Karma und Nirvana.`,
+              voices: [
+                { person: 'feser', role: 'als Metaphysiker', text: `Feser zeigt, dass die klassischen Gottesbeweise nicht bei einer Lücke im Wissen ansetzen, sondern bei allgemeinen Tatsachen wie Veränderung, Zusammengesetztheit und Kontingenz, die jede wissenschaftliche Erklärung bereits voraussetzt. Darum können Fortschritte der Physik sie nicht verdrängen.`, sources: [
+                  { kind: 'fachliteratur', author: 'Edward Feser', work: 'Five Proofs of the Existence of God', year: '2017', status: 'paraphrase', quote: `Klassische Gottesbeweise beruhen nicht auf Wissenslücken, sondern auf metaphysischen Tatsachen, die jede Naturwissenschaft voraussetzt.` },
+                ] },
+              ],
+              questionsBack: [`Woher kommen die Gesetze, nach denen das Quantenvakuum fluktuiert?`],
+            },
+          ],
         },
       ],
     },
@@ -180,6 +217,29 @@ const claim: Claim = {
           answer: `Karma „erklärt" das Leid, indem es dem Leidenden die Schuld gibt – siehe den Claim zum Hinduismus. Interessant ist: Der Buddha selbst lehnte die Auffassung ab, dass alles, was ein Mensch erlebt, auf früheres Karma zurückgeht. Er nannte daneben körperliche Ursachen, Wetter, Unachtsamkeit und Gewalt anderer (Samyutta-Nikaya 36,21). Auch im Buddhismus bleibt also viel Leid ohne „gerechte" Erklärung.`,
           sources: [
             { kind: 'oestlich', work: 'Samyutta-Nikaya 36,21 (Sivaka-Sutta)', status: 'paraphrase', quote: `Manche Gefühle entstehen durch Galle, Schleim, Wind, deren Zusammenwirken, Jahreszeitenwechsel, unachtsames Verhalten, Angriffe anderer – und manche durch Karma. Wer behauptet, alles Erlebte sei Folge früheren Karmas, geht über das Erkennbare hinaus.` },
+          ],
+          followUps: [
+            {
+              id: 'karma-naturgesetz-des-geistes',
+              objection: `Karma braucht keinen Schöpfer und keinen Richter. Es ist ein natürliches Gesetz von Ursache und Wirkung im Geist: Heilsame Absichten bringen heilsame Früchte. So einfach ist das.`,
+              objectionBy: 'Der Dalai Lama (sinngemäß)',
+              answer: `Ein Naturgesetz, das Absichten moralisch bewertet und jedem eine passende Frucht zuteilt, ist etwas sehr Merkwürdiges. Schwerkraft fragt nicht nach Motiven. Karma soll aber zwischen Mitgefühl und Bosheit unterscheiden und über Leben hinweg gerecht vergelten. Das ist die Arbeitsweise eines Richters – nur ohne Richter. Woher weiß ein unbewusster Mechanismus, was gut ist?`,
+              detail: `Der Buddha definiert Karma als Absicht (*cetana*, AN 6,63). Damit wird Karma zu einem Gesetz, das moralische Qualitäten erkennt und gewichtet. In der Natur kennen wir aber keine Gesetze, die Werte erkennen – Werte setzen Bewusstsein voraus. Die buddhistische Tradition hat diese Spannung selbst gespürt: Der Philosoph Vasubandhu erklärte die Ordnung der Welt als Ergebnis kollektiven Karmas, also letztlich aus Geist. Christen sagen: Genau – die moralische Ordnung der Welt verweist auf einen Geist. Nur ist dieser Geist nicht eine Summe unzähliger Wesen, sondern der eine, gute Schöpfer.`,
+              followUps: [
+                {
+                  id: 'saekulare-ethik-reicht',
+                  objection: `Am Ende braucht Ethik keine Religion. Mitgefühl ist ein menschliches Grundbedürfnis, das jeder in sich trägt – ob Gläubiger oder Atheist. Eine säkulare Ethik reicht völlig.`,
+                  objectionBy: 'Der Dalai Lama (Beyond Religion)',
+                  answer: `Da stimme ich dir zur Hälfte zu: Jeder Mensch kann das Gute erkennen – Paulus sagt, das Gesetz ist den Völkern „ins Herz geschrieben" (Röm 2,15). Christen behaupten nicht, dass Atheisten nicht gut sein können. Die Frage ist nicht, ob wir das Gute **kennen**, sondern warum es **verbindlich** ist. Wenn das Universum keinen Sinn hat, ist Mitgefühl eine nützliche Neigung, aber keine Pflicht. Dass du es als Pflicht empfindest, ist ein Hinweis auf den Gesetzgeber.`,
+                  detail: `Der Dalai Lama verdient Achtung dafür, dass er Ethik über Religionsgrenzen hinweg fördern will. Aber seine eigene Ethik ruht auf buddhistischen Voraussetzungen – auf der Verbundenheit aller Wesen, dem Karma und dem Wert der Befreiung. Ohne diese Voraussetzungen bleibt nur die biologische Neigung zur Kooperation, und die gilt meist der eigenen Gruppe. Die Feindesliebe der Bergpredigt (Mt 5,44) ist kein biologisches Grundbedürfnis – sie ist eine Offenbarung dessen, wie Gott selbst ist.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Der 14. Dalai Lama (Tenzin Gyatso)', work: 'Beyond Religion: Ethics for a Whole World (dt. Rückkehr zur Menschlichkeit)', year: '2011', status: 'paraphrase', quote: `Eine säkulare Ethik, gegründet auf Mitgefühl und gemeinsamer Menschlichkeit, unabhängig von religiösem Glauben.` },
+                    { kind: 'bibel', work: 'Römer', ref: '2,14–15', status: 'paraphrase', quote: `Die Heiden, die das Gesetz nicht haben, tun von Natur des Gesetzes Werk; sie beweisen, dass des Gesetzes Werk in ihren Herzen geschrieben ist, und ihr Gewissen bezeugt es.` },
+                  ],
+                  questionsBack: [`Wenn das Universum keinen Zweck hat – warum ist Mitgefühl dann Pflicht und nicht nur Geschmack?`],
+                },
+              ],
+            },
           ],
         },
       ],

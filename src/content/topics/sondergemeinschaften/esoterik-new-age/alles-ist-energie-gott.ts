@@ -133,6 +133,18 @@ const claim: Claim = {
       answer: `Den „alten Mann im Himmel" glaubt auch die Kirche nicht: Gott ist Geist, unendlich, nicht ein Wesen neben anderen. Einsteins persönliche Haltung ist respektabel, aber kein physikalisches Ergebnis. Und Spinozas Natur-Gott hat ein Problem: Das Universum hatte nach heutiger Kosmologie einen Anfang. Was beginnt und vergeht, ist nicht der ewige Gott.`,
       followUps: [
         {
+          id: 'universum-ewig-zyklisch',
+          objection: `Der Urknall war nicht der Anfang: Roger Penrose vertritt ein zyklisches Universum, das sich ewig erneuert – genau wie die indischen Weltzeitalter. Das Universum ist ewig und braucht keinen Schöpfer.`,
+          objectionBy: 'Roger Penrose (konforme zyklische Kosmologie) / New-Age-Autoren',
+          answer: `Ehrlich gesagt: Was vor dem Urknall war, ist in der Kosmologie eine offene Frage, und Penroses Modell ist ein ernsthafter Vorschlag – allerdings eine Minderheitenposition ohne Bestätigung. Das Borde-Guth-Vilenkin-Theorem (2003) zeigt, dass ein Universum, das sich im Mittel ausdehnt, in der Vergangenheit nicht unbegrenzt sein kann. Vor allem aber: Selbst ein ewiges Universum wäre noch nicht Gott. Es bestünde aus veränderlichen, abhängigen Dingen und bräuchte einen Grund dafür, **dass** es überhaupt etwas gibt.`,
+          detail: `Schon Thomas von Aquin hielt es philosophisch für nicht beweisbar, dass die Welt einen zeitlichen Anfang hat – und argumentierte dennoch, dass auch eine ewige Welt in jedem Augenblick von Gott im Sein gehalten werden müsste. Die Frage nach dem Schöpfer ist also nicht nur die Frage nach dem ersten Moment, sondern nach dem Grund des Seins überhaupt. Die Bibel bekennt beides: einen Anfang (Gen 1,1) und Gottes fortwährendes Tragen der Welt „mit seinem kräftigen Wort" (Hebr 1,3). Ausführlicher: Themenblock Kosmologie.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Arvind Borde / Alan H. Guth / Alexander Vilenkin', work: 'Inflationary Spacetimes Are Incomplete in Past Directions', ref: 'Physical Review Letters 90 (2003), 151301', year: '2003', quote: `Raumzeiten, die sich im Mittel ausdehnen, sind in Richtung Vergangenheit unvollständig.`, status: 'paraphrase', note: 'Ob daraus ein absoluter Anfang folgt, wird unter Kosmologen diskutiert.' },
+            { kind: 'gegner', author: 'Roger Penrose', work: 'Cycles of Time: An Extraordinary New View of the Universe', year: '2010', quote: `Konforme zyklische Kosmologie: eine Abfolge von Äonen.`, status: 'paraphrase' },
+          ],
+          questionsBack: [`Selbst wenn das Universum ewig wäre – warum gibt es überhaupt etwas und nicht nichts?`],
+        },
+        {
           id: 'paulus-in-ihm-leben',
           objection: `Sogar Paulus sagt: „In ihm leben, weben und sind wir" (Apg 17,28). Das ist doch pantheistisch.`,
           objectionBy: 'Esoterische Autoren',
@@ -143,6 +155,20 @@ const claim: Claim = {
               objection: `Dann eben Panentheismus: Gott ist in allem und zugleich mehr als alles. Das klingt doch christlich.`,
               objectionBy: 'Prozesstheologen / progressive Spiritualität',
               answer: `Gottes Wirken durchdringt alles – das lehrt die Kirche (Ps 139). Aber viele panentheistische Modelle machen die Welt zu einem notwendigen Teil Gottes: Gott brauche die Welt, um Gott zu sein, und entwickle sich mit ihr. Die Bibel sagt dagegen, dass Gott frei aus Liebe erschafft und niemandes bedarf (Apg 17,25). Die koptische Liturgie bekennt: Du hast mich erschaffen, nicht weil du meiner bedurftest.`,
+              followUps: [
+                {
+                  id: 'goff-kosmopsychismus',
+                  objection: `Ernsthafte Philosophen wie Philip Goff zeigen: Der Materialismus kann Bewusstsein nicht erklären. Die beste Lösung ist, dass Bewusstsein eine Grundeigenschaft der Wirklichkeit ist – vielleicht ist der Kosmos als Ganzes bewusst. Das ist kein Esoterik-Kitsch, sondern Philosophie.`,
+                  objectionBy: 'Philip Goff (Galileo\'s Error, 2019)',
+                  answer: `Da gebe ich dir recht: Goffs Kritik am Materialismus ist ernst zu nehmen, und das „harte Problem" des Bewusstseins ist real. Aber der Panpsychismus hat selbst ein bekanntes Problem, das Goff offen einräumt: Wie sollen sich unzählige winzige „Bewusstseinsteilchen" zu einem einheitlichen Ich verbinden? Und selbst ein bewusster Kosmos wäre noch nicht der heilige, liebende Gott, der aus dem Nichts schafft. Wenn Geist grundlegend ist, ist die naheliegendere Folgerung ein Geist **hinter** der Welt, nicht die Göttlichkeit der Welt.`,
+                  detail: `Bemerkenswert: Goff selbst ist in seinem Buch „Why? The Purpose of the Universe" (2023) zu der Überzeugung gekommen, dass die Feinabstimmung der Naturkonstanten auf einen kosmischen Zweck hinweist. Den klassischen allmächtigen und vollkommen guten Gott lehnt er wegen des Problems des Bösen ab und denkt stattdessen an begrenzte oder unvollkommene Gestaltungsprinzipien. Das zeigt: Die ehrliche Philosophie des Geistes führt über den Materialismus hinaus – die Frage ist dann, welcher Gott das Universum und unseren Geist am besten erklärt. Die christliche Antwort: ein persönlicher, vernünftiger Gott, der den Menschen nach seinem Bild schuf (Gen 1,27) und das Böse in Christus überwindet.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Philip Goff', work: 'Galileo\'s Error: Foundations for a New Science of Consciousness', year: '2019', quote: `Panpsychismus als Lösung des harten Problems des Bewusstseins; offene Anerkennung des Kombinationsproblems.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Philip Goff', work: 'Why? The Purpose of the Universe', year: '2023', quote: `Feinabstimmung als Hinweis auf kosmischen Zweck; Ablehnung des klassischen Gottesbildes wegen des Problems des Bösen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn Bewusstsein grundlegend für die Wirklichkeit ist – ist es dann nicht naheliegender, dass ein Geist die Welt hervorgebracht hat, als dass die Welt selbst Gott ist?`],
+                },
+              ],
             },
           ],
         },
@@ -167,6 +193,45 @@ const claim: Claim = {
               answer: `Stimmt, der Pantheismus hat kein Theodizee-Problem – weil er das Böse wegdefiniert. Das ist keine Lösung, sondern eine Kapitulation. Das Christentum hat einen Gott, der das Leid nicht leugnet, sondern in Christus selbst erleidet und am Kreuz und in der Auferstehung überwindet: „Gott wird abwischen alle Tränen" (Offb 21,4).`,
               sources: [{ kind: 'bibel', work: 'Offenbarung', ref: '21,4', quote: `Und Gott wird abwischen alle Tränen von ihren Augen, und der Tod wird nicht mehr sein, noch Leid noch Geschrei noch Schmerz wird mehr sein.`, translation: 'Luther 1912', status: 'verbatim' }],
               questionsBack: [`Kann ein Universum, das „Gott" ist, dich trösten, wenn du trauerst?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'gesetz-der-anziehung',
+      objection: `Wenn alles Energie ist, dann sind auch Gedanken Energie mit einer Schwingung – und Gleiches zieht Gleiches an. Das ist das „Gesetz der Anziehung". Sogar Jesus lehrte es: „Alles, was ihr bittet in eurem Gebet, glaubet nur, dass ihr's empfangen werdet, so wird's euch werden" (Mk 11,24).`,
+      objectionBy: 'Rhonda Byrne (The Secret, 2006) / Esther & Jerry Hicks',
+      answer: `Jesus spricht in Mk 11 vom Gebet zu einem Vater, nicht von einer Schwingung, die Dinge anzieht. Und derselbe Jesus betete in Gethsemane: „Doch nicht, was ich will, sondern was du willst" (Mk 14,36) – das genaue Gegenteil davon, das Universum mit Gedanken zu steuern. Gedanken sind auch keine „Energie" im physikalischen Sinn, die man messen und aussenden könnte. Das „Gesetz der Anziehung" leiht sich Worte der Physik und der Bibel, aber nicht ihren Inhalt.`,
+      detail: `Ein ernstes Problem dieser Lehre ist ihre Kehrseite: Wenn ich alles anziehe, was mir begegnet, bin ich auch an Krankheit, Armut und Unglück selbst schuld. Byrne deutet in „The Secret" an, dass auch Unglück durch die eigenen Gedanken angezogen werde. Damit wird dem Kranken, dem Armen und dem Opfer noch die Schuld zugeschoben. Jesus wies genau dieses Denken zurück: Weder der Blindgeborene noch seine Eltern hatten seine Blindheit verschuldet (Joh 9,2–3), und die Opfer des eingestürzten Turms von Siloah waren nicht schuldiger als andere (Lk 13,4).`,
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '14,36', quote: `Abba, mein Vater, es ist dir alles möglich; überhebe mich dieses Kelchs; doch nicht, was ich will, sondern was du willst!`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Johannes', ref: '9,2–3', quote: `Meister, wer hat gesündigt, dieser oder seine Eltern, daß er ist blind geboren? Jesus antwortete: Es hat weder dieser gesündigt noch seine Eltern; sondern daß die Werke Gottes offenbar würden an ihm.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'gegner', author: 'Rhonda Byrne', work: 'The Secret', year: '2006', quote: `Gedanken als Schwingungen, die Entsprechendes anziehen – im Guten wie im Schlechten.`, status: 'paraphrase' },
+      ],
+      questionsBack: [`Wenn jeder anzieht, was ihm geschieht – was sagst du dann einem Kind mit Krebs?`],
+      followUps: [
+        {
+          id: 'positives-denken-wirkt',
+          objection: `Aber es funktioniert! Die Psychologie zeigt, dass Optimisten gesünder und erfolgreicher sind. Positives Denken verändert die Wirklichkeit.`,
+          objectionBy: 'Lebensberater / Rhonda Byrne',
+          answer: `Dass Hoffnung und Zuversicht gut tun, bestreite ich nicht – das sagt auch die Bibel („Ein fröhlich Herz macht das Leben lustig", Spr 17,22). Aber das ist Psychologie, keine Magie: Zuversicht verändert mein Verhalten, nicht die Schwingung des Universums. Die Motivationsforscherin Gabriele Oettingen hat sogar gezeigt, dass bloßes positives Ausmalen von Zielen die Wahrscheinlichkeit senken kann, sie zu erreichen – weil es Energie zum Handeln abzieht. Wirksam ist realistische Hoffnung, die Hindernisse ernst nimmt.`,
+          detail: `Christliche Hoffnung ist kein Wunschdenken, sondern Vertrauen auf eine Person, die treu ist – auch dann, wenn die Umstände dunkel bleiben. Paulus lernte, „mich genügen zu lassen, wie's mir auch geht" (Phil 4,11), und betete dreimal vergeblich um die Wegnahme seines „Pfahls im Fleisch" – bis er hörte: „Lass dir an meiner Gnade genügen" (2 Kor 12,9). Diese Hoffnung trägt gerade dort, wo positives Denken versagt.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Gabriele Oettingen', work: 'Rethinking Positive Thinking: Inside the New Science of Motivation', year: '2014', quote: `Positives Fantasieren allein kann die Zielerreichung schwächen; wirksamer ist das Verbinden von Wunsch und realistischer Hindernisanalyse.`, status: 'paraphrase' },
+            { kind: 'bibel', work: '2. Korinther', ref: '12,9', quote: `Und er hat zu mir gesagt: Laß dir an meiner Gnade genügen; denn meine Kraft ist in den Schwachen mächtig.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'wohlstandsevangelium-auch',
+              objection: `Christen machen doch genau dasselbe: „Sprich es aus und nimm es in Besitz" – das Wohlstandsevangelium mit Fernsehpredigern, die Reichtum durch Glauben versprechen.`,
+              objectionBy: 'Kritiker beider Seiten',
+              answer: `Da hast du völlig recht – und ich verteidige das nicht. Das Wohlstandsevangelium ist im Kern dieselbe Idee in christlicher Verkleidung, und es widerspricht dem Neuen Testament ebenso. Jesus hatte keinen Ort, wo er sein Haupt hinlegte (Mt 8,20), die Apostel starben arm und als Märtyrer, und die koptische Kirche nennt ihre Zeitrechnung bis heute „Jahr der Märtyrer". Der christliche Glaube verspricht nicht, dass ich bekomme, was ich will, sondern dass Gott bei mir ist in allem, was kommt.`,
+              detail: `Die koptische Kirche zählt ihre Jahre seit 284 n. Chr., dem Regierungsantritt Diokletians, als „Anno Martyrum" – eine Kirche, die ihre Identität aus dem Leiden um Christi willen versteht, kann mit einem Evangelium des Erfolgs wenig anfangen. Die Wüstenväter suchten bewusst Armut und Verzicht, nicht weil die Welt schlecht wäre, sondern um frei zu werden für Gott. Wer im Gespräch mit einem Anhänger des „Gesetzes der Anziehung" ehrlich die eigenen Irrwege benennt, gewinnt Glaubwürdigkeit.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '8,20', quote: `Die Füchse haben Gruben, und die Vögel unter dem Himmel haben Nester; aber des Menschen Sohn hat nicht, da er sein Haupt hinlege.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Hätte das „Gesetz der Anziehung" Jesus vor dem Kreuz bewahrt – und hätte er das gewollt?`],
             },
           ],
         },

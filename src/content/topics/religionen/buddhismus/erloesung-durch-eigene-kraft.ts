@@ -132,6 +132,35 @@ const claim: Claim = {
           objection: `Die Zuflucht ist nur symbolisch. Der Buddha greift nicht in dein Leben ein.`,
           objectionBy: 'Walpola Rahula (sinngemäß)',
           answer: `Im Theravada mag das so verstanden werden. Aber der Mahayana hat Bodhisattvas hervorgebracht, die geloben, alle Wesen zu retten und ihnen ihr Verdienst zu schenken. Der Buddhismus hat also selbst eine Gestalt der helfenden Liebe entwickelt. Das menschliche Herz sucht Hilfe. Das Evangelium sagt: Der Helfer ist selbst gekommen.`,
+          followUps: [
+            {
+              id: 'christus-als-bodhisattva',
+              objection: `Dann ist Christus eben ein großer Bodhisattva – einer, der aus Mitgefühl sein Leben für andere hingibt. Buddha und Christus sind Brüder, ihre Botschaft ist dieselbe Liebe.`,
+              objectionBy: 'Thich Nhat Hanh (Living Buddha, Living Christ)',
+              answer: `Thich Nhat Hanhs Achtung vor Jesus berührt mich. Aber ein Bodhisattva ist ein Wesen auf dem Weg zur Erleuchtung, das selbst aus dem Kreislauf kommt und andere lehrt, ihn zu verlassen. Christus ist nach dem Neuen Testament der ewige Sohn, durch den alles geschaffen ist (Joh 1,3), der unsere Schuld trägt und leiblich aufersteht. Und die großen Mahayana-Sutren sagen selbst: Für den Bodhisattva gibt es letztlich keine Wesen, die gerettet werden – sie sind leer. Im Evangelium ist jeder Gerettete eine unvergängliche Person, die Gott beim Namen ruft.`,
+              detail: `Paul Williams, einer der führenden Kenner des Mahayana-Buddhismus, hat genau diesen Punkt beschrieben: Das Bodhisattva-Ideal ist von großer Schönheit, steht aber im Rahmen der Leerheitslehre. Im Diamant-Sutra gelobt der Bodhisattva, alle Wesen ins Nirvana zu führen – und soll zugleich erkennen, dass in Wahrheit kein Wesen ins Nirvana geführt wird. Mitgefühl ist hier eine Haltung gegenüber Prozessen, deren Selbst letztlich leer ist.
+
+Christliche Liebe hat einen anderen Grund: Gott liebt Personen, die er geschaffen hat und nie wieder aufgibt. Christus stirbt nicht, um eine Illusion aufzulösen, sondern um wirkliche Menschen mit wirklicher Schuld zu retten – und er steht leiblich auf. Wer beide „Brüder" nennt, muss diese Unterschiede einebnen.`,
+              voices: [
+                { person: 'paul-williams', role: 'als Mahayana-Forscher und ehemaliger Buddhist', text: `Williams, Autor eines Standardwerks über den Mahayana-Buddhismus, würdigt das Bodhisattva-Ideal, betont aber, dass es in eine Philosophie der Leerheit eingebettet ist, in der es letztlich keine bleibenden Personen gibt. Gerade die Frage nach der Wirklichkeit der Person führte ihn schließlich zum Christentum, das die Person als von Gott geschaffen und geliebt ernst nimmt.`, sources: [
+                  { kind: 'fachliteratur', author: 'Paul Williams', work: 'Mahayana Buddhism: The Doctrinal Foundations', year: '1989, 2. Aufl. 2009', status: 'paraphrase', quote: `Das Bodhisattva-Ideal im Rahmen der Lehre von der Leerheit aller Dinge.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'oestlich', work: 'Diamant-Sutra (Vajracchedika Prajnaparamita)', ref: 'Kap. 3', status: 'paraphrase', quote: `Obwohl unermesslich viele Wesen ins Nirvana geführt werden, wird in Wahrheit kein Wesen ins Nirvana geführt – denn wer die Vorstellung eines Wesens hegt, ist kein Bodhisattva.` },
+                { kind: 'gegner', author: 'Thich Nhat Hanh', work: 'Living Buddha, Living Christ (dt. Lebendiger Buddha, lebendiger Christus)', year: '1995', status: 'paraphrase', quote: `Buddha und Christus als Brüder; Achtsamkeit und Heiliger Geist als verwandte Wirklichkeiten.` },
+              ],
+              followUps: [
+                {
+                  id: 'praxis-statt-titel',
+                  objection: `Titel sind unwichtig. Entscheidend ist, ob wir Liebe und Achtsamkeit praktizieren. Darüber zu streiten, wer Jesus „wirklich" war, trennt nur.`,
+                  objectionBy: 'Thich Nhat Hanh (sinngemäß)',
+                  answer: `Praxis ist wichtig – „an ihren Früchten sollt ihr sie erkennen" (Mt 7,16). Aber christliche Liebe ist Antwort: „Lasset uns ihn lieben; denn er hat uns erst geliebt" (1 Joh 4,19). Wenn ich nicht weiß, wer mich zuerst geliebt hat, wird Liebe zur Technik, die ich aus eigener Kraft erzeugen muss. Und darum geht es in diesem ganzen Gespräch: Kann ich mich selbst erlösen, oder brauche ich einen Erlöser? Die Frage, wer Jesus ist, entscheidet genau das.`,
+                  questionsBack: [`Wenn Liebe nur Praxis ist – woher nimmst du die Kraft an dem Tag, an dem du nicht mehr lieben kannst?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -152,6 +181,26 @@ const claim: Claim = {
               objection: `Aber das Begehren aufzugeben, ist doch der Weg zum Frieden. Darin hat der Buddha recht.`,
               objectionBy: 'Thich Nhat Hanh (sinngemäß)',
               answer: `Das Christentum will das Begehren nicht auslöschen, sondern heilen und auf sein wahres Ziel richten: „Wie der Hirsch schreit nach frischem Wasser, so schreit meine Seele, Gott, zu dir" (Ps 42,2). Auch der buddhistische Weg braucht übrigens einen Willen zur Befreiung – deshalb unterscheidet die Tradition zwischen heilsamem Streben (*chanda*) und Gier (*tanha*). Das Problem ist nicht das Begehren, sondern sein Gegenstand.`,
+              followUps: [
+                {
+                  id: 'apatheia-gleich-nirvana',
+                  objection: `Eure Wüstenväter lehrten doch auch Leidenschaftslosigkeit – *Apatheia*. Das ist dasselbe wie das Erlöschen des Begehrens im Buddhismus. Am Ende kommen wir aufs Gleiche hinaus.`,
+                  objectionBy: 'Stephen Batchelor (sinngemäß)',
+                  answer: `Es gibt eine echte Verwandtschaft in der Praxis – Wachsamkeit über die Gedanken, Loslassen von Gier und Zorn. Aber das Ziel ist ein anderes. Johannes Cassian, der die Lehre der ägyptischen Väter in den Westen brachte, nennt die Reinheit des Herzens das nächste Ziel – und das Reich Gottes das letzte. Apatheia ist bei den Vätern nicht das Erlöschen, sondern die Freiheit von ungeordneten Leidenschaften, damit die Liebe frei wird. Evagrius sagt: Die Tochter der Apatheia ist die Liebe.`,
+                  detail: `In den *Unterredungen mit den Vätern* lässt Cassian Abba Moses erklären, dass jede Kunst ein unmittelbares Ziel (*scopos*) und ein letztes Ziel (*telos*) hat. Für den Mönch ist der Scopos die Reinheit des Herzens, der Telos aber das Reich Gottes. Askese ist also Mittel, nicht Selbstzweck. Das Herz wird nicht leer gemacht, sondern frei für Gott und den Nächsten.
+
+Das ist der Unterschied zum Nirvana: Der buddhistische Weg zielt auf das Erlöschen von Durst und Ich-Vorstellung; der christliche Weg auf die Gemeinschaft der Liebe mit dem dreieinigen Gott. Ähnlich im Mittel, verschieden im Ziel – und das Ziel bestimmt, was man unterwegs wird.`,
+                  voices: [
+                    { person: 'johannes-cassian', role: 'als Überlieferer der ägyptischen Wüstenväter', text: `Cassian gibt die Lehre der ägyptischen Mönche weiter: Das Ziel des Mönchslebens ist nicht Leere, sondern die Liebe zu Gott. Fasten, Wachen und Schriftlesung dienen der Reinheit des Herzens, und die Reinheit des Herzens dient der Schau Gottes und dem Reich Gottes.`, sources: [
+                      { kind: 'kirchenvater', author: 'Johannes Cassian', work: 'Unterredungen mit den Vätern (Collationes)', ref: 'I,4–7', year: 'ca. 426', status: 'paraphrase', quote: `Das Ziel (telos) unseres Berufs ist das Reich Gottes; das nächste Ziel (scopos) aber die Reinheit des Herzens.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Evagrius Ponticus', work: 'Praktikos (Über das tätige Leben)', ref: 'Prolog 8', year: 'ca. 390', status: 'paraphrase', quote: `Die Apatheia hat eine Tochter, die Agape (Liebe).`, note: 'Evagrius lebte als Mönch in der ägyptischen Wüste (Kellia); einzelne seiner Lehren wurden später verurteilt – hier nur als Zeuge für das Ziel der Apatheia zitiert.' },
+                  ],
+                  questionsBack: [`Ist ein Herz, das frei von Gier ist, aber nicht mehr liebt, wirklich am Ziel?`],
+                },
+              ],
             },
           ],
         },
@@ -168,6 +217,26 @@ const claim: Claim = {
           objection: `Aber moralische Reinheit kann man nicht übertragen wie eine Niere.`,
           objectionBy: 'Walpola Rahula (sinngemäß)',
           answer: `Es geht nicht um eine mechanische Übertragung, sondern um Vereinigung mit einer Person. In Taufe und Eucharistie werden wir mit Christus verbunden; sein Leben fließt in uns wie der Saft des Weinstocks in die Reben (Joh 15,4–5). Und der Heilige Geist verwandelt uns – langsam, unter unserer Mitwirkung. Das ist keine Magie, sondern Beziehung.`,
+          followUps: [
+            {
+              id: 'stellvertretung-unmoralisch',
+              objection: `Stellvertretung ist moralisch obszön. Kein Gericht der Welt würde einen Unschuldigen für einen Mörder ins Gefängnis stecken. Meine Schuld kann niemand tragen außer mir.`,
+              objectionBy: 'Sam Harris (sinngemäß)',
+              answer: `Wenn ein Richter einen ahnungslosen Dritten bestrafen würde, wäre das obszön – da hast du recht. Aber Christus ist kein Dritter. Er ist Gott selbst, der Beleidigte, der die Folgen trägt, und zugleich der neue Adam, das Haupt der Menschheit, mit dem wir in der Taufe vereint werden. Er nimmt nicht nur unsere Strafe weg, er gibt uns sein Leben. Es geht nicht um Buchhaltung, sondern um eine Vereinigung, wie in einer Ehe, in der die Schulden des einen die des anderen werden – und der Reichtum des anderen auch.`,
+              detail: `Kyrill von Alexandrien betont immer wieder, dass der Logos die ganze menschliche Natur angenommen hat, um sie in sich zu erneuern: Er ist der „zweite Adam", in dem die Menschheit neu anfängt (1 Kor 15,22.45). Darum ist das Heil im orthodoxen Verständnis nicht ein fremder Betrag, der auf mein Konto überwiesen wird, sondern Teilhabe an Christus selbst – seinem Tod und seiner Auferstehung (Röm 6,3–5).
+
+Der Buddhismus kennt übrigens selbst die Übertragung von Verdienst (*pattidana*): Mönche und Laien widmen ihr Verdienst anderen Wesen, auch Verstorbenen. Die Intuition, dass das Gute des einen dem anderen zugutekommen kann, ist also tief im Menschen verankert.`,
+              voices: [
+                { person: 'kyrill-alexandrien', role: 'als Lehrer der Menschwerdung', text: `Für Kyrill ist der menschgewordene Logos der Anfang einer erneuerten Menschheit. Wie in Adam alle der Verderbnis verfielen, so wird in Christus die menschliche Natur geheiligt und lebendig gemacht. Wer durch Taufe und Eucharistie mit ihm verbunden ist, empfängt Anteil an diesem neuen Leben.`, sources: [
+                  { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium', year: 'ca. 425–428', status: 'paraphrase', quote: `Christus als zweiter Adam, in dem die ganze menschliche Natur erneuert und geheiligt wird.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '15,22', quote: `Denn gleichwie sie in Adam alle sterben, also werden sie in Christus alle lebendig gemacht werden.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Wenn der Richter selbst die Strafe auf sich nimmt – wem gegenüber ist das ungerecht?`],
+            },
+          ],
         },
       ],
     },

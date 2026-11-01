@@ -61,7 +61,7 @@ const claim: Claim = {
       {
         text: 'P1: Ein Text ist in dem wahr oder falsch, was er behauptet – nicht in jedem Bild, das er zur Verständigung benutzt.',
         support: 'Wer „die Sonne geht auf" sagt, behauptet keine geozentrische Astronomie. Auch moderne Wissenschaftler reden so. Wahrheit bemisst sich an der Aussageabsicht (Augustinus; Thomas von Aquin: Der wörtliche Sinn ist das, was der Autor meint, einschließlich bildlicher Rede).',
-        sources: [{ kind: 'kirchenvater', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 1, a. 10, ad 3', year: 'um 1265–1274', quote: `Der wörtliche Sinn ist das, was der Autor meint; zu ihm gehört auch der bildliche (parabolische) Sinn.`, status: 'paraphrase' }],
+        sources: [{ kind: 'fachliteratur', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 1, a. 10, ad 3', year: 'um 1265–1274', quote: `Der wörtliche Sinn ist das, was der Autor meint; zu ihm gehört auch der bildliche (parabolische) Sinn.`, status: 'paraphrase' }],
       },
       {
         text: 'P2: Die Schöpfungstexte wollen aussagen, dass der eine Gott alles geschaffen und geordnet hat – nicht, wie der Kosmos physikalisch gebaut ist.',
@@ -196,7 +196,7 @@ const claim: Claim = {
               id: 'woertlich-heisst-woertlich',
               objection: `Du interpretierst nur, wenn es dir passt. Wörtlich heißt wörtlich.`,
               answer: `„Wörtlich" heißt in der klassischen Auslegung: so, wie der Autor es gemeint hat. Thomas von Aquin erklärt, zum wörtlichen Sinn gehöre auch die bildliche Rede, denn der Autor meint mit dem „Arm Gottes" nicht ein Körperteil, sondern Gottes Macht. Die alexandrinische Tradition, in der die koptische Kirche steht, liest seit Origenes und Kyrill den wörtlichen und den geistlichen Sinn zusammen und fragt immer: Was will der Text sagen? Das ist keine Ausflucht, sondern elementare Lesekompetenz.`,
-              sources: [{ kind: 'kirchenvater', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 1, a. 10, ad 3', year: 'um 1265–1274', status: 'paraphrase' }],
+              sources: [{ kind: 'fachliteratur', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 1, a. 10, ad 3', year: 'um 1265–1274', status: 'paraphrase' }],
             },
           ],
         },

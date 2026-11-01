@@ -167,6 +167,105 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: '3-joh-2-wohlergehen',
+      objection: `„3 Joh 2: ‚Mein Lieber, ich wünsche in allen Stücken, dass dir's wohlgehe und du gesund seist, wie es denn deiner Seele wohl geht.' Gott will, dass es dir finanziell und körperlich so gut geht wie deiner Seele."`,
+      objectionBy: 'Oral Roberts / Kenneth Copeland',
+      answer: `Das ist die übliche Grußformel antiker Briefe – so wie wir heute schreiben: „Ich hoffe, es geht dir gut." Johannes äußert einen Wunsch für einen Freund, keine Verheißung für alle Christen. Der Brief handelt davon, dass Gaius wandernde Missionare gastfreundlich aufnimmt – er lobt seine Freigebigkeit, nicht seinen Wohlstand.`,
+      detail: `Antike Papyrusbriefe beginnen regelmäßig mit dem Wunsch, der Empfänger möge gesund sein und es möge ihm wohlergehen. Aus einer Höflichkeitsformel eine Lehre über Gottes Willen für jeden Christen zu machen, verkennt die Gattung. Oral Roberts hat nach eigener Aussage seine Theologie des Wohlstands wesentlich auf diesen Vers gegründet – das zeigt, wie schmal die Textbasis ist.`,
+      voices: [
+        {
+          person: 'gordon-fee',
+          role: 'als pfingstlicher Neutestamentler',
+          text: `Fee, selbst Pfingstler und Theologe der Assemblies of God, hat das Wohlstandsevangelium als „Krankheit" bezeichnet. Er zeigt, dass 3 Joh 2 eine gewöhnliche Grußformel ist und dass das Neue Testament Besitz durchweg als Gefahr und als Anvertrautes für die Armen behandelt. Seine Kritik wiegt schwer, weil sie aus der eigenen Bewegung kommt.`,
+          sources: [{ kind: 'fachliteratur', author: 'Gordon D. Fee', work: 'The Disease of the Health and Wealth Gospels', year: '1985', status: 'paraphrase' }],
+        },
+      ],
+      followUps: [
+        {
+          id: 'hundertfach-mk-10-30',
+          objection: `„Mk 10,29–30: Wer Haus oder Äcker verlässt, ‚der nicht hundertfältig empfange jetzt in dieser Zeit Häuser und Äcker'. Gib zehn Euro, und Gott gibt dir tausend zurück – das ist sein Versprechen."`,
+          objectionBy: 'Gloria Copeland („God’s Will Is Prosperity")',
+          answer: `Lies den Vers zu Ende: „… Häuser und Brüder und Schwestern und Mütter und Kinder und Äcker **mit Verfolgungen**." Bekommt man auch hundert Mütter zurück? Jesus spricht von der neuen Familie der Kirche, in der Häuser geöffnet und Güter geteilt werden (Apg 2,44–45; 4,32) – und er verheißt Verfolgung gleich mit. Wer daraus eine Investitionsrendite macht, streicht genau das Wort, das nicht ins System passt.`,
+          sources: [
+            { kind: 'bibel', work: 'Markus', ref: '10,29–30', quote: `… der nicht hundertfältig empfange jetzt in dieser Zeit Häuser und Brüder und Schwestern und Mütter und Kinder und Äcker mit Verfolgungen, und in der zukünftigen Welt das ewige Leben.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'gegner', author: 'Gloria Copeland', work: 'God’s Will Is Prosperity', year: '1978', status: 'paraphrase', note: 'Copeland rechnet hier Mk 10,30 als hundertfache finanzielle Rendite auf Spenden vor.' },
+          ],
+          followUps: [
+            {
+              id: 'segen-abrahams-reichtum',
+              objection: `„Abraham war ‚sehr reich an Vieh, Silber und Gold' (Gen 13,2), und wir sind Abrahams Same (Gal 3,29). Also gehört materieller Reichtum zum Segen Abrahams."`,
+              objectionBy: 'Creflo Dollar',
+              answer: `Paulus definiert selbst, was der Segen Abrahams für uns ist: „dass wir den verheißenen Geist empfingen durch den Glauben" (Gal 3,14). Und der Hebräerbrief sagt über Abraham: Er wohnte in Zelten als Fremdling, „denn er wartete auf eine Stadt, die einen Grund hat" – und starb, ohne die Verheißungen empfangen zu haben (Hebr 11,9–13). Abrahams Erbe ist das himmlische Vaterland (11,16), nicht ein Bankkonto.`,
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '11,13.16', quote: `Diese alle sind gestorben im Glauben und haben die Verheißung nicht empfangen … Nun aber begehren sie eines besseren, nämlich eines himmlischen.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'glaube-als-kraft',
+                  objection: `„Glaube ist eine Kraft. Gott hat die Welt durch Glaubensworte geschaffen, und wir sind nach seinem Bild – ‚ihr seid Götter' (Ps 82,6; Joh 10,34). Wer im Glauben spricht, setzt dieselbe Kraft frei."`,
+                  objectionBy: 'Kenneth Copeland',
+                  answer: `Biblischer Glaube ist Vertrauen auf eine Person, keine Kraft, mit der man Gott oder die Welt steuert. Ps 82 ist eine Gerichtsrede gegen ungerechte Richter – der nächste Vers lautet: „Ihr werdet sterben wie Menschen" (82,7). Die Kirche kennt die Vergöttlichung (*theosis*): „Er wurde Mensch, damit wir vergöttlicht würden" (Athanasius). Aber sie geschieht durch Gnade, Demut und Kreuz – als Teilhabe an Gottes Leben, nicht als Verfügung über seine Macht.`,
+                  detail: `Hier liegt der tiefste Unterschied: Bei den Vätern führt der Weg der Vergöttlichung über Selbstentäußerung, Fasten und Liebe zu den Armen – Antonius verschenkte sein Erbe, bevor er in die Wüste ging. Im Wort-des-Glaubens-Denken wird dieselbe Sprache zur Technik der Selbstverwirklichung. Das ist keine kleine Akzentverschiebung, sondern eine Umkehrung der Richtung.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '54,3', year: 'ca. 318', quote: `Er wurde Mensch, damit wir vergöttlicht würden.`, status: 'verbatim' },
+                    { kind: 'bibel', work: 'Psalm', ref: '82,6–7', quote: `Ich habe wohl gesagt: Ihr seid Götter und allzumal Kinder des Höchsten; aber ihr werdet sterben wie Menschen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Glaube eine Kraft ist, die ich einsetze – wer ist dann der Herr: Gott oder ich?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'eure-kirche-ist-reich',
+      objection: `„Ihr kritisiert Wohlstand – aber eure Kirchen haben goldene Kelche, prächtige Gewänder und Paläste für die Bischöfe. Das ist doch Heuchelei."`,
+      objectionBy: 'Wohlstandsprediger',
+      answer: `Gold im Gottesdienst ist Gabe an Gott, nicht Bereicherung eines Predigers – wie bei der Stiftshütte, für die das Volk sein Gold gab (Ex 25,1–8). Die Frau, die kostbares Salböl über Jesus goss, wurde von ihm gelobt (Mk 14,6–9). Die Bischöfe der koptischen Kirche werden aus den Mönchen gewählt, die Armut gelobt haben. Wo kirchliche Amtsträger dennoch Luxus suchen, ist das ein Missstand – den die Kirche selbst verurteilt.`,
+      detail: `Der Unterschied liegt in der Richtung: Schönheit, die im Gottesdienst Gott dargebracht wird und allen – auch den Ärmsten – gehört, ist etwas anderes als Reichtum, den ein Prediger als Beweis seiner Gesalbtheit für sich beansprucht. Gib ehrlich zu, dass es in jeder Kirche Versuchung zu Prunk und Missbrauch gibt; das stärkt deine Glaubwürdigkeit.`,
+      followUps: [
+        {
+          id: 'privatjet-fuer-das-reich',
+          objection: `„Ein Prediger braucht heute einen Privatjet, um das Evangelium effizient zu verbreiten – was zur Zeit Jesu der Esel war, ist heute das Flugzeug."`,
+          objectionBy: 'Kenneth Copeland (sinngemäß, Interview 2015)',
+          answer: `Es geht nicht um das Verkehrsmittel, sondern um die Haltung, vor der Paulus warnt: Menschen, „die da meinen, Gottseligkeit sei ein Gewerbe" (1 Tim 6,5). Paulus arbeitete mit eigenen Händen, um niemandem zur Last zu fallen (Apg 20,33–35; 2 Thess 3,8). Und die älteste Kirchenordnung sagt: Ein Prophet, der Geld für sich verlangt, ist ein falscher Prophet (Didache 11). Jesus ritt auf einem geliehenen Esel – als Zeichen der Demut (Sach 9,9), nicht der Effizienz.`,
+          sources: [
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '20,33–34', quote: `Ich habe euer keines Silber noch Gold noch Kleid begehrt. Denn ihr wisset selbst, dass mir diese Hände zu meiner Notdurft und derer, die mit mir gewesen sind, gedient haben.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'kirchenvater', work: 'Didache (Zwölf-Apostel-Lehre)', ref: '11,12', year: 'um 100', status: 'paraphrase', quote: `Wer im Geist sagt: Gib mir Geld oder sonst etwas, auf den sollt ihr nicht hören.` },
+          ],
+          followUps: [
+            {
+              id: 'zeugnisse-beweisen-es',
+              objection: `„Tausende bezeugen: Sie haben gegeben und sind reich geworden. Diese Zeugnisse kannst du nicht wegdiskutieren."`,
+              objectionBy: 'Wohlstandsprediger',
+              answer: `Man hört die Zeugnisse derer, bei denen es „funktioniert" hat – nicht die der vielen, die ihr Letztes gegeben haben und arm geblieben oder ärmer geworden sind. Das ist ein klassischer Auswahlfehler. Die Historikerin Kate Bowler, die die amerikanische Wohlstandsbewegung erforscht hat, beschreibt, wie schwer diese Theologie für Menschen wird, die trotz Glauben krank oder arm bleiben: Sie müssen sich selbst die Schuld geben.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Kate Bowler', work: 'Blessed: A History of the American Prosperity Gospel', year: '2013', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Kate Bowler', work: 'Everything Happens for a Reason: And Other Lies I’ve Loved', year: '2018', status: 'paraphrase', note: 'Persönlicher Bericht der Forscherin über ihre Krebserkrankung und die Grenzen der Wohlstandstheologie.' },
+              ],
+              followUps: [
+                {
+                  id: 'verherrlicht-ihr-armut',
+                  objection: `„Willst du etwa die Armut verherrlichen? Armut zerstört Leben und Familien. Gott wird durch Elend nicht geehrt."`,
+                  objectionBy: 'Joel Osteen (sinngemäß)',
+                  answer: `Nein. Die Kirche bekämpft die Armut seit den Aposteln: Diakonie, Witwenversorgung, Basilius' Krankenhäuser, die Sozialarbeit der koptischen Kirche heute. Aber freiwillige Armut um Christi willen ist etwas anderes als aufgezwungenes Elend. Chrysostomus sagt: Reichtum ist uns anvertraut, damit wir ihn mit den Armen teilen; wer nicht teilt, beraubt die Armen. Das Ziel ist nicht der arme Christ, sondern der freigebige.`,
+                  voices: [
+                    {
+                      person: 'chrysostomus',
+                      role: 'als Prediger der sozialen Verantwortung',
+                      text: `In seinen Predigten über den reichen Mann und Lazarus erklärt Chrysostomus, dass die Reichen nicht Eigentümer, sondern Verwalter ihrer Güter sind. Den Armen nichts von seinem Besitz abzugeben, ist für ihn Diebstahl an ihnen – denn was wir besitzen, gehört eigentlich ihnen. Reichtum ist nicht an sich böse, aber er wird zur Anklage, wenn er nicht geteilt wird.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Predigten über Lazarus (De Lazaro)', ref: 'Homilie 2', year: 'um 388', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Hatten Paulus, Timotheus und Trophimus zu wenig Glauben?`,

@@ -108,6 +108,23 @@ const claim: Claim = {
               objectionBy: 'Thich Nhat Hanh (sinngemäß)',
               answer: `Metta ist schön, und Christen können viel davon lernen. Aber wen liebt der Buddha nach seinem endgültigen Erlöschen? Die Tradition schweigt. Und wenn die Wesen, denen das Wohlwollen gilt, letztlich keine Personen sind, wem gilt es dann? Im Christentum liebt der ewige Gott von Ewigkeit her, und die Geliebten bleiben, um geliebt zu werden und zu lieben.`,
               questionsBack: [`Gibt es im endgültigen Nirvana noch jemanden, der liebt, und jemanden, der geliebt wird?`],
+              followUps: [
+                {
+                  id: 'personen-sind-konvention',
+                  objection: `Das Wohlwollen gilt dem Leiden, nicht einer ewigen Substanz. Personen sind Konventionen – Ströme von Ereignissen, die ineinander verwoben sind („Intersein"). Liebe braucht kein ewiges Ich, sie braucht nur Achtsamkeit für das, was jetzt leidet.`,
+                  objectionBy: 'Thich Nhat Hanh (sinngemäß)',
+                  answer: `Das ist ehrlich – und genau hier liegt der Unterschied. Wenn mein Kind nur ein Strom von Ereignissen ist, dann gilt meine Liebe am Ende einem Vorgang, der vergeht. Jeder, der wirklich liebt, spürt aber: Ich liebe nicht einen Prozess, sondern dich – dieses unverwechselbare Gesicht. Das Christentum gibt dieser Erfahrung recht: Jede Person ist von Gott gewollt, bei ihrem Namen gerufen (Jes 43,1) und zur ewigen Gemeinschaft bestimmt. Die Liebe hat recht, nicht die Analyse, die sie auflöst.`,
+                  detail: `Matta el-Meskeen (Vater Matta der Arme) beschreibt die Vereinigung mit Gott nie als Auflösung der Person, sondern als Gemeinschaft, in der der Mensch erst ganz er selbst wird. Die Väter unterscheiden darum zwischen der Natur, die wir teilen, und der Person (Hypostase), die unverwechselbar ist – nach dem Vorbild der Dreieinigkeit, in der drei Personen ein Wesen sind, ohne ineinander aufzugehen.
+
+Thich Nhat Hanhs Gedanke des „Interseins" enthält eine tiefe Wahrheit: Wir sind miteinander verbunden, niemand existiert für sich allein. Das Christentum sagt dasselbe – wir sind Glieder eines Leibes (1 Kor 12,26). Aber Glieder sind keine bloßen Ereignisse; sie bleiben sie selbst, gerade in der Verbundenheit.`,
+                  voices: [
+                    { person: 'matta-el-meskeen', role: 'als koptischer Mönchsvater', text: `Vater Matta betont, dass die Vereinigung mit Gott durch Christus geschieht, der die Person nicht auslöscht, sondern heiligt. Das geistliche Leben ist für ihn ein Weg der Liebe, in dem der Mensch sich Gott schenkt und von Gott verwandelt wird – nicht ein Erlöschen, sondern ein Erblühen der Person in der Gemeinschaft mit Gott.`, sources: [
+                      { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Orthodox Prayer Life: The Interior Way', year: '2003 (engl. Ausgabe)', status: 'paraphrase', quote: `Gebet als Gemeinschaft der Liebe mit Gott, in der der Mensch verwandelt und nicht ausgelöscht wird.` },
+                    ] },
+                  ],
+                  questionsBack: [`Wenn du am Grab eines geliebten Menschen stehst – trauerst du um einen Ereignisstrom oder um ihn?`],
+                },
+              ],
             },
           ],
         },
@@ -130,6 +147,22 @@ const claim: Claim = {
               objection: `Unendliches Wachsen heißt unendliches Begehren – also unendliches Leiden!`,
               objectionBy: 'Walpola Rahula (sinngemäß)',
               answer: `Nur wenn Begehren immer Mangel und Frustration bedeutet. In Gott fallen Verlangen und Erfüllung zusammen: Jede Erfüllung macht das Herz weiter, und jede Weite wird erfüllt – wie eine Liebe zwischen Eheleuten, die wächst, ohne an Mangel zu leiden. Das buddhistische Wort für Gier (*tanha*) beschreibt ein Begehren, das nie satt wird, weil es das Falsche sucht. Das Verlangen nach Gott findet, was es sucht.`,
+              followUps: [
+                {
+                  id: 'saekularer-buddhismus-jetzt',
+                  objection: `Ich brauche überhaupt keine Jenseitshoffnung. Der säkulare Buddhismus will nichts glauben, sondern hier und jetzt gut leben: Nirvana ist die Freiheit von Gier, Hass und Verblendung in diesem Leben. Wiedergeburt und Himmel sind Metaphysik, die man nicht braucht.`,
+                  objectionBy: 'Stephen Batchelor',
+                  answer: `Dann hast du mehr aufgegeben als den Himmel: auch Wiedergeburt, Karma über den Tod hinaus und das endgültige Nirvana – den Kern dessen, was der Buddha nach dem Pali-Kanon lehrte. Viele Buddhisten sehen darin eine Verkürzung. Und die Frage bleibt dir trotzdem: Was ist mit denen, die gelitten haben und gestorben sind, ohne je frei zu werden? Eine Hoffnung nur für die Gesunden, Gebildeten und Meditierenden ist keine Hoffnung für die Welt.`,
+                  detail: `Stephen Batchelor ist ein ernsthafter Denker und ehrlicher Gesprächspartner – er war selbst Mönch in tibetischer und koreanischer Tradition. Sein „Buddhismus ohne Glauben" gesteht aber ein, dass der überlieferte Buddhismus sehr wohl metaphysische Aussagen enthält. Damit bestätigt er indirekt: Die Frage nach dem Tod lässt sich nicht wegmeditieren.
+
+Das Christentum nimmt das Hier und Jetzt ebenfalls ernst – das ewige Leben beginnt schon jetzt (Joh 17,3). Aber es endet nicht an der Grenze des Todes. Für das Kind, das mit fünf Jahren an Krebs stirbt, hat der säkulare Buddhismus nichts mehr zu sagen; das Evangelium sagt: „Gott wird abwischen alle Tränen" (Offb 21,4).`,
+                  sources: [
+                    { kind: 'gegner', author: 'Stephen Batchelor', work: 'Buddhism Without Beliefs: A Contemporary Guide to Awakening', year: '1997', status: 'paraphrase', quote: `Der Dharma als Praxis, nicht als Glaubenssystem; Wiedergeburt und Karma als entbehrliche Metaphysik.` },
+                    { kind: 'gegner', author: 'Stephen Batchelor', work: 'After Buddhism: Rethinking the Dharma for a Secular Age', year: '2015', status: 'paraphrase', quote: `Ein säkularer Buddhismus, der sich auf ein gutes Leben in dieser Welt konzentriert.` },
+                  ],
+                  questionsBack: [`Welche Hoffnung hat dein säkularer Buddhismus für die Menschen, die gestorben sind, bevor sie meditieren lernten?`],
+                },
+              ],
             },
           ],
         },
@@ -146,6 +179,21 @@ const claim: Claim = {
           objection: `Die Auferstehung ist ein Mythos. Nirvana dagegen kann jeder durch eigene Praxis überprüfen.`,
           objectionBy: 'Stephen Batchelor',
           answer: `Kann er das wirklich? Wie prüft man, ob jemand das Nirvana erlangt hat – und erst recht das endgültige nach dem Tod, über das der Buddha selbst nichts sagt? Die Auferstehung dagegen ist eine öffentliche, geschichtliche Behauptung mit benannten Zeugen und einem leeren Grab, die man mit historischen Mitteln untersuchen kann (1 Kor 15,3–8).`,
+          followUps: [
+            {
+              id: 'meister-bezeugen-frieden',
+              objection: `Es gibt lebende Meister, deren tiefer Frieden für jeden sichtbar ist. Das ist der Beweis, dass der Weg funktioniert. Wo ist euer vergleichbarer Beweis?`,
+              objectionBy: 'Der Dalai Lama (sinngemäß)',
+              answer: `Ich glaube dir, dass es solche Menschen gibt – und ich achte sie. Aber dieser Frieden zeigt, dass eine Praxis Früchte trägt, nicht, dass ihre Lehre über das Letzte wahr ist. Tiefen Frieden findest du auch bei christlichen Heiligen: bei den Wüstenvätern, bei Vater Matta el-Meskeen, bei Papst Kyrillos VI., der jahrzehntelang in Gebet und Stille lebte. Wenn Frieden der Maßstab ist, haben beide Seiten Zeugen. Die Wahrheitsfrage entscheidet sich anderswo – an der Frage, ob Jesus auferstanden ist.`,
+              detail: `Das Argument aus der Heiligkeit ist wertvoll, aber es beweist zu viel: Es gäbe allen Traditionen recht, die heiligmäßige Menschen hervorgebracht haben – und diese Traditionen widersprechen einander. Darum braucht es zusätzlich eine Wahrheitsprüfung. Das Christentum lädt dazu ein: Die Auferstehung ist ein Ereignis, für das Paulus Zeugen nennt, die man befragen konnte (1 Kor 15,6).
+
+Bemerkenswert: Die christlichen Heiligen selbst verweisen nie auf ihren eigenen Frieden als Beweis, sondern auf Christus. Antonius sagte nach der Überlieferung, er fürchte Gott nicht mehr, sondern liebe ihn – denn „die Liebe treibt die Furcht aus" (1 Joh 4,18).`,
+              voices: [
+                { person: 'kyrillos-vi', role: 'als betender Patriarch der koptischen Kirche', text: `Papst Kyrillos VI. (1902–1971) lebte vor seiner Wahl als Einsiedler und blieb auch als Patriarch ein Mann des täglichen Gebets und der Liturgie. Viele, die ihm begegneten, berichteten von seinem tiefen Frieden. Er selbst verwies nie auf sich, sondern auf Christus und die Fürbitte der Heiligen.` },
+              ],
+              questionsBack: [`Wenn ein christlicher und ein buddhistischer Heiliger beide tiefen Frieden ausstrahlen, aber Gegensätzliches lehren – wer hat recht?`],
+            },
+          ],
         },
       ],
     },
@@ -160,6 +208,48 @@ const claim: Claim = {
           objection: `Sehnsucht beweist gar nichts. Durst beweist nicht, dass es Wasser gibt.`,
           objectionBy: 'Sam Harris',
           answer: `Kein Beweis, aber ein starker Hinweis: Natürliche Bedürfnisse entsprechen wirklichen Gegenständen – Hunger der Nahrung, Durst dem Wasser, Einsamkeit der Freundschaft. C. S. Lewis: Wenn ich ein Verlangen finde, das nichts in dieser Welt stillen kann, ist die wahrscheinlichste Erklärung, dass ich für eine andere Welt gemacht bin. Die Gewissheit aber kommt nicht aus der Sehnsucht, sondern aus der Auferstehung.`,
+          followUps: [
+            {
+              id: 'evolution-erklaert-sehnsucht',
+              objection: `Die Evolution erklärt die Sehnsucht nach Ewigkeit vollständig – ein Nebenprodukt des Überlebenstriebs und der Todesangst. Dafür braucht es weder Gott noch Nirvana.`,
+              objectionBy: 'Sam Harris (sinngemäß)',
+              answer: `Woher eine Überzeugung stammt, entscheidet nicht, ob sie wahr ist – das wäre ein genetischer Fehlschluss. Die Evolution erklärt auch, warum wir rechnen können, und trotzdem ist 2 + 2 = 4. Und das Argument schneidet in beide Richtungen: Wenn unser Denken nur auf Überleben getrimmt ist, warum sollten wir ihm dann bei der Frage nach Wahrheit trauen – auch bei deiner These, dass es keinen Gott gibt?`,
+              detail: `Alvin Plantinga hat dieses Problem zugespitzt: Wenn unsere kognitiven Fähigkeiten durch einen ungelenkten Prozess entstanden sind, der nur Überlebensvorteile belohnt, dann ist die Wahrscheinlichkeit, dass sie zuverlässig wahre Überzeugungen über Metaphysik hervorbringen, gering oder unbestimmbar. Der Naturalist sägt damit am Ast, auf dem er sitzt. Der Theist hat dieses Problem nicht: Wenn wir nach dem Bild eines vernünftigen Gottes geschaffen sind, ist zu erwarten, dass unsere Vernunft auf Wahrheit hin angelegt ist.
+
+Für das Gespräch mit Buddhisten gilt dasselbe wie oben: Harris argumentiert als Naturalist. Ein Buddhist, der dieses Argument übernimmt, verliert auch Wiedergeburt, Karma und Nirvana.`,
+              voices: [
+                { person: 'plantinga', role: 'als Erkenntnistheoretiker', text: `Plantingas „evolutionäres Argument gegen den Naturalismus" zeigt, dass die Verbindung von Naturalismus und Evolution sich selbst untergräbt: Wer beides glaubt, hat einen Grund, an der Zuverlässigkeit seines eigenen Denkens zu zweifeln – und damit auch am Naturalismus.`, sources: [
+                  { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies: Science, Religion, and Naturalism', year: '2011', status: 'paraphrase', quote: `Naturalismus und Evolution zusammen untergraben das Vertrauen in die Zuverlässigkeit unserer kognitiven Fähigkeiten.` },
+                ] },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nirvana-wie-gott-jenseits',
+      objection: `Nirvana ist wie euer Gott jenseits aller Begriffe. Eure Mystiker sagen doch selbst, Gott sei unbeschreiblich. Ihr nennt es Gott, wir nennen es Nirvana – die letzte Dimension ist dieselbe.`,
+      objectionBy: 'Thich Nhat Hanh (sinngemäß)',
+      answer: `Die Väter sagen tatsächlich, dass Gottes Wesen unbegreiflich ist. Aber sie sagen nie, dass er unpersönlich ist. Der unbegreifliche Gott schafft, spricht, liebt, vergibt und ist in Christus Mensch geworden. Nirvana dagegen schafft nicht, spricht nicht und vergibt nicht – das sagt der Buddhismus selbst. Gemeinsame Begriffslosigkeit macht zwei Wirklichkeiten noch nicht gleich: Auch über das Nichts und über die Fülle kann man schweigen.`,
+      detail: `Gregor von Nyssa beschreibt in seinem *Leben des Mose* den Aufstieg in das „göttliche Dunkel": Je näher Mose Gott kommt, desto mehr erkennt er, dass Gott alle Begriffe übersteigt. Aber dieses Dunkel ist kein leeres Erlöschen, sondern die Gegenwart dessen, der mit Mose „von Angesicht zu Angesicht redete, wie ein Mann mit seinem Freunde redet" (Ex 33,11). Die apophatische Theologie schützt das Geheimnis eines persönlichen Gottes – sie hebt es nicht auf.
+
+Der Buddhismus wiederum besteht darauf, dass Nirvana kein Schöpfer und kein Erlöser ist. Wer beides gleichsetzt, muss entweder Gott entpersönlichen oder Nirvana personalisieren – und täte damit beiden Traditionen Unrecht.`,
+      voices: [
+        { person: 'gregor-nyssa', role: 'als Lehrer der mystischen Theologie', text: `Gregor beschreibt die Gotteserkenntnis als unendlichen Aufstieg in ein Licht, das zugleich Dunkel ist, weil Gottes Wesen jedes Begreifen übersteigt. Doch wer aufsteigt, begegnet einem Du: Die Seele ist Braut, Gott der Bräutigam. Unbegreiflichkeit und persönliche Liebe gehören bei ihm zusammen.`, sources: [
+          { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Das Leben des Mose (De vita Moysis)', ref: 'II,162–169', year: 'ca. 390', status: 'paraphrase', quote: `Das wahre Sehen Gottes besteht darin, zu erkennen, dass er unsichtbar ist; Mose tritt in das Dunkel ein, in dem Gott ist.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'bibel', work: '2. Mose (Exodus)', ref: '33,11', quote: `Der HERR aber redete mit Mose von Angesicht zu Angesicht, wie ein Mann mit seinem Freunde redet.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'person-ist-begrenzung',
+          objection: `„Person" ist doch eine Begrenzung – ein Ich, das sich von anderen abgrenzt. Das Letzte muss jenseits davon sein.`,
+          objectionBy: 'Thich Nhat Hanh (sinngemäß)',
+          answer: `Person heißt nicht Abgrenzung, sondern Beziehungsfähigkeit: erkennen, lieben, sich verschenken. Ein Stein ist unpersönlich – ist er deshalb weniger begrenzt als ein Mensch? Das Unpersönliche ist nicht mehr, sondern weniger als das Persönliche. Die Dreieinigkeit zeigt: Am Grund allen Seins steht nicht ein abgeschlossenes Ich, sondern ewige Gemeinschaft – Vater, Sohn und Geist, die einander ganz durchdringen und doch nicht ineinander aufgehen.`,
+          questionsBack: [`Ist das Fähigste, was wir kennen – Erkennen und Lieben – eine Begrenzung oder ein Reichtum?`],
         },
       ],
     },

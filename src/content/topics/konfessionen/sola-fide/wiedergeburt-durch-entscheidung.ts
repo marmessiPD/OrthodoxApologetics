@@ -162,6 +162,113 @@ Bemerkenswert: Für Justin sind persönlicher Glaube und Wiedergeburt in der Tau
         },
       ],
     },
+    {
+      id: 'geist-weht-wo-er-will',
+      objection: `„Ich gebe dir recht: Keine menschliche Entscheidung macht wiedergeboren. Aber die Taufe auch nicht. Wiedergeburt ist das souveräne Werk des Geistes, das dem Glauben vorausgeht – ‚Der Wind bläset, wo er will' (Joh 3,8). Kein äußeres Mittel bindet den Geist."`,
+      objectionBy: 'R. C. Sproul',
+      answer: `Hier sind wir uns in einem wichtigen Punkt einig: Nicht unsere Entscheidung, sondern Gott schafft die neue Geburt. Aber derselbe Abschnitt nennt das Mittel: „Es sei denn, daß jemand geboren werde aus **Wasser** und Geist" (Joh 3,5) – drei Verse vor dem Wind. Gott bindet sich an seine Mittel, ohne selbst gebunden zu sein. Paulus spricht vom „Bad der Wiedergeburt und Erneuerung im heiligen Geist" (Tit 3,5). Und sogar dein Westminster-Bekenntnis sagt, dass durch den rechten Gebrauch der Taufe die verheißene Gnade „nicht nur angeboten, sondern wirklich dargereicht und mitgeteilt" wird.`,
+      detail: `Sproul vertritt die reformierte Lehre, dass die Wiedergeburt dem Glauben vorausgeht (*Chosen by God*, 1986). Damit kritisiert er selbst die evangelikale „Entscheidungstheologie" scharf – ein interessanter Verbündeter in diesem Gespräch.
+
+Die koptische Kirche teilt die Einsicht, dass die neue Geburt Gottes Werk ist. Sie unterscheidet aber nicht zwischen einem „inneren" Wirken des Geistes und einem „bloß äußeren" Zeichen: Christus hat die Wassertaufe eingesetzt (Mt 28,19) und mit der Geburt „aus Wasser und Geist" verbunden. So wie das Wort Fleisch wurde, wirkt der Geist durch geschaffene Dinge – Wasser, Öl, Brot und Wein.
+
+Das Westminster-Bekenntnis (28,6) hält fest, dass die Wirksamkeit der Taufe nicht an den Augenblick ihres Vollzugs gebunden ist, dass aber durch den rechten Gebrauch die verheißene Gnade vom Heiligen Geist wirklich mitgeteilt wird – eine Formulierung, die sakramentaler ist, als viele Evangelikale ahnen.`,
+      voices: [
+        {
+          person: 'kyrill-jerusalem',
+          role: 'als Katechet der Taufbewerber',
+          text: `Kyrill erklärt seinen Täuflingen, dass im Taufwasser nicht bloßes Wasser wirkt, sondern der Geist durch das Wasser: Weil der Mensch aus Leib und Seele besteht, ist auch die Reinigung zweifach – das sichtbare Wasser für den Leib, der unsichtbare Geist für die Seele. Wer das Wasser verachtet, weil er nur den Geist will, verachtet die Ordnung Christi.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Katechesen', ref: '3,4', year: 'um 350', quote: `Weil der Mensch zweifach ist, aus Seele und Leib, ist auch die Reinigung zweifach: unkörperlich für das Unkörperliche und körperlich für den Leib; das Wasser reinigt den Leib, der Geist versiegelt die Seele.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', work: 'Westminster-Bekenntnis', ref: 'Kap. 28,6', year: '1647', quote: `Die Wirksamkeit der Taufe ist nicht an den Augenblick gebunden, in dem sie gespendet wird; dennoch wird durch den rechten Gebrauch dieser Verordnung die verheißene Gnade nicht nur angeboten, sondern vom Heiligen Geist wirklich dargereicht und mitgeteilt …`, original: `… yet, notwithstanding, by the right use of this ordinance, the grace promised is not only offered, but really exhibited, and conferred, by the Holy Ghost …`, translation: 'eigene Übersetzung', status: 'verbatim' },
+        { kind: 'gegner', author: 'R. C. Sproul', work: 'Chosen by God', year: '1986', quote: `Die Wiedergeburt geht dem Glauben voraus; sie ist das souveräne, monergistische Werk des Heiligen Geistes.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Warum nennt Jesus in Joh 3,5 ausdrücklich das Wasser, wenn der Geist kein äußeres Mittel gebraucht?`,
+        `Was meint dein eigenes Bekenntnis, wenn es sagt, die Gnade werde in der Taufe „wirklich mitgeteilt"?`,
+      ],
+      followUps: [
+        {
+          id: 'tit-3-5-metapher',
+          objection: `„‚Bad der Wiedergeburt' in Tit 3,5 ist eine Metapher für die Reinigung durch den Geist, nicht für Wasser. Und Paulus sagt ausdrücklich: ‚Christus hat mich nicht gesandt zu taufen, sondern das Evangelium zu predigen' (1 Kor 1,17)."`,
+          objectionBy: 'James White',
+          answer: `Lies 1 Kor 1,13–17 im Zusammenhang: Die Korinther bildeten Parteien nach dem, der sie getauft hatte („ich bin des Paulus"). Paulus ist froh, nur wenige getauft zu haben, damit niemand sich auf ihn beruft – er relativiert seine Person, nicht die Taufe. Derselbe Paulus schreibt: „Wie viel euer getauft sind, die haben Christum angezogen" (Gal 3,27), „wir sind mit ihm begraben durch die Taufe" (Röm 6,4). Er selbst hörte nach seiner Bekehrung: „Steh auf und laß dich taufen und abwaschen deine Sünden" (Apg 22,16). Und *loutron* („Bad") in Tit 3,5 steht auch in Eph 5,26: „das Wasserbad im Wort".`,
+          detail: `Die Väter lasen Tit 3,5 einmütig als Hinweis auf die Taufe. Justin der Märtyrer beschreibt um 155, wie die Taufbewerber „an einen Ort geführt werden, wo Wasser ist, und auf dieselbe Weise wiedergeboren werden, wie wir wiedergeboren wurden" (*1. Apologie* 61) – und beruft sich dabei auf Joh 3,5.
+
+Die Trennung von „Geist" und „Wasser" ist eine Frucht der Reformationszeit, besonders bei Zwingli und den Täufern. In der Alten Kirche gibt es keinen Vater, der Tit 3,5 als reine Metapher ohne Bezug zur Wassertaufe erklärt.`,
+          voices: [
+            {
+              person: 'justin',
+              role: 'als Zeuge der Taufpraxis um 150',
+              text: `Justin schildert dem Kaiser offen, wie Christen getauft werden: Wer glaubt und gelobt, so zu leben, wird nach Gebet und Fasten zum Wasser geführt und „wiedergeboren" im Namen des Vaters, des Sohnes und des Heiligen Geistes. Er nennt diese Taufe „Erleuchtung" und begründet sie mit dem Wort Christi über die Geburt aus Wasser und Geist.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: '1. Apologie', ref: '61', year: 'um 155', quote: `Dann werden sie von uns an einen Ort geführt, wo Wasser ist, und auf dieselbe Weise wiedergeboren, wie auch wir selbst wiedergeboren wurden.`, translation: 'eigene Übersetzung (nach ANF)', status: 'verbatim' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '22,16', quote: `Und nun, was verziehst du? Stehe auf und laß dich taufen und abwaschen deine Sünden und rufe an den Namen des HERRN!`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Galater', ref: '3,27', quote: `Denn wie viel euer getauft sind, die haben Christum angezogen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'kornelius-geist-vor-taufe',
+              objection: `„Apg 10,44–48: Kornelius und sein Haus empfingen den Heiligen Geist, *bevor* sie getauft wurden. Also waren sie schon wiedergeboren – die Taufe folgte nur als äußeres Zeichen."`,
+              objectionBy: 'John MacArthur',
+              answer: `Kornelius ist die Ausnahme, die die Regel bestätigt. Gott schenkte den Geist hier sichtbar *vor* der Taufe, um Petrus und die Judenchristen zu überzeugen, dass auch Heiden getauft werden dürfen: „Mag auch jemand das Wasser wehren, daß diese nicht getauft werden, die den heiligen Geist empfangen haben gleichwie auch wir?" (Apg 10,47). Und Petrus „befahl, sie zu taufen" – sofort. Der Geist machte die Taufe nicht überflüssig, sondern zwingend. Gott ist frei; wir sind an seine Ordnung gebunden.`,
+              detail: `Petrus erklärt das Ereignis später in Jerusalem genau so (Apg 11,15–18): Der Geist fiel auf die Heiden „gleichwie auf uns am ersten Anfang" – als Zeichen, dass Gott auch den Heiden die Buße zum Leben gegeben hat. Es geht um ein heilsgeschichtliches Signal an die Kirche, nicht um ein Muster, nach dem die Taufe zum bloßen Nachtrag wird.
+
+In der Regel, die Petrus selbst an Pfingsten verkündet, steht die Reihenfolge klar: „Tut Buße, und lasse sich ein jeglicher taufen auf den Namen Jesu Christi zur Vergebung der Sünden, *so werdet ihr empfangen* die Gabe des heiligen Geistes" (Apg 2,38).`,
+              sources: [
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '10,47–48', quote: `Mag auch jemand das Wasser wehren, daß diese nicht getauft werden, die den heiligen Geist empfangen haben gleichwie auch wir? Und befahl, sie zu taufen in dem Namen des HERRN.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn die Taufe nur ein Zeichen ist – warum besteht Petrus darauf, Menschen zu taufen, die den Geist bereits sichtbar empfangen haben?`,
+              ],
+              followUps: [
+                {
+                  id: 'schaecher-ohne-taufe',
+                  objection: `„Der Schächer am Kreuz wurde ohne Taufe gerettet: ‚Heute wirst du mit mir im Paradies sein' (Lk 23,43). Also ist die Taufe nicht heilsnotwendig."`,
+                  objectionBy: 'Wayne Grudem',
+                  answer: `Die Kirche hat nie behauptet, Gott könne ohne Taufe nicht retten – sie sagt: **Wir** sind an die Taufe gebunden, Gott ist es nicht. Der Schächer starb vor Pfingsten und bevor Christus nach der Auferstehung den Taufbefehl gab (Mt 28,19). Die Väter sprechen außerdem von der „Bluttaufe" der Märtyrer, die ungetauft für Christus starben. Aber eine außerordentliche Gnade, die Gott in einer Ausnahmelage schenkt, berechtigt niemanden, den ordentlichen Weg zu verachten, den Christus geboten hat: „Wer da glaubt und getauft wird, der wird selig werden" (Mk 16,16).`,
+                  detail: `Kyrill von Jerusalem lehrt, dass niemand ohne die Taufe ins Himmelreich eingeht – mit der einzigen Ausnahme der Märtyrer, die in ihrem eigenen Blut getauft werden (*Katechesen* 3,10). Cyprian äußert sich ähnlich über Katechumenen, die vor der Taufe das Martyrium erleiden. Die Kirche kennt also die Freiheit Gottes – aber sie leitet daraus keine Gleichgültigkeit gegenüber der Taufe ab.
+
+Ein Vergleich: Das Manna in der Wüste beweist, dass Gott sein Volk auch ohne Ackerbau ernähren kann. Aber im verheißenen Land hörte das Manna auf, und Israel aß von der Frucht des Landes (Jos 5,12). Wer die Ausnahme zur Regel macht, verpasst den Weg, den Gott tatsächlich eröffnet hat.`,
+                  voices: [
+                    {
+                      person: 'kyrill-jerusalem',
+                      role: 'als Lehrer über Taufe und Martyrium',
+                      text: `Kyrill schärft den Täuflingen ein, die Taufe nicht gering zu achten: Wer sie verschmäht, empfängt das Heil nicht. Zugleich nennt er die Märtyrer, die vor der Taufe für Christus sterben, Getaufte in ihrem eigenen Blut – eine Ausnahme, die die Größe der Taufe nicht schmälert, sondern zeigt, dass es um die Teilhabe an Christi Tod geht.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Katechesen', ref: '3,10', year: 'um 350', quote: `Wer die Taufe nicht empfängt, hat kein Heil – ausgenommen allein die Märtyrer, die auch ohne das Wasser das Himmelreich empfangen, getauft in ihrem eigenen Blut.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '16,16', quote: `Wer da glaubet und getauft wird, der wird selig werden; wer aber nicht glaubt, der wird verdammt werden.`, translation: 'Luther 1912', status: 'verbatim', note: 'Markusschluss (16,9–20) textkritisch umstritten, aber altkirchlich breit rezipiert; ergänzend Joh 3,5 und Apg 2,38 anführen.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'erst-mit-16-bekehrt',
+          objection: `„Ich wurde als Baby getauft, aber erst mit 16 habe ich mich bekehrt und Jesus wirklich kennengelernt. Erst da begann mein neues Leben. Wie erklärst du das?"`,
+          objectionBy: 'evangelikale Christen (persönliches Zeugnis)',
+          answer: `Gott sei Dank für dieses Erwachen – das ist echt, und ich freue mich mit dir! Die orthodoxe Kirche nennt so etwas Umkehr und Erneuerung: Die in der Taufe geschenkte Gnade wird lebendig, wo ein Mensch sich ihr öffnet. Denk an den verlorenen Sohn: Er war schon **Sohn**, bevor er wegging, und der Vater sagt bei der Heimkehr nicht „jetzt bist du mein Sohn geworden", sondern: „Dieser mein Sohn war tot und ist wieder lebendig geworden" (Lk 15,24). Deine Bekehrung war die Heimkehr eines Kindes, das schon zum Haus gehörte.`,
+          sources: [
+            { kind: 'bibel', work: 'Lukas', ref: '15,24', quote: `… denn dieser mein Sohn war tot und ist wieder lebendig geworden; er war verloren und ist gefunden worden.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `War der verlorene Sohn während seiner Zeit in der Fremde Sohn oder nicht?`,
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Was bedeutet für dich „nicht vom Willen eines Mannes, sondern von Gott geboren" (Joh 1,13)?`,
