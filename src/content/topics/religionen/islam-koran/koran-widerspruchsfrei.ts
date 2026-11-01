@@ -153,6 +153,67 @@ const claim: Claim = {
       objection: `Alle angeblichen Widersprüche im Koran wurden von unseren Gelehrten längst erklärt. Wer sie anführt, kennt einfach die Tafsir-Literatur nicht.`,
       objectionBy: 'Yasir Qadhi',
       answer: `Ich respektiere die Arbeit eurer Gelehrten. Aber dann haben auch christliche Gelehrte die angeblichen Bibelwidersprüche seit Jahrhunderten erklärt – Julius Africanus, Augustinus, Chrysostomus bis heute. Wenn Erklärungen beim Koran genügen, genügen sie auch bei der Bibel. Dann kann man die Bibel nicht wegen Widersprüchen verwerfen und den Koran wegen Widerspruchsfreiheit loben.`,
+      followUps: [
+        {
+          id: 'christliche-erklaerungen-ad-hoc',
+          objection: `Eure Erklärungen sind nachträgliche Notlösungen. Unsere stammen aus der frühen Überlieferung, von den Gefährten und ihren Schülern.`,
+          objectionBy: 'Yasir Qadhi',
+          answer: `Viele christliche Erklärungen sind ebenfalls sehr alt: Julius Africanus erklärte die Stammbäume Jesu schon im 3. Jahrhundert, Origenes diskutierte Unterschiede der Evangelien, und Augustinus schrieb um 400 ein ganzes Werk über die Übereinstimmung der Evangelisten (*De consensu evangelistarum*). Im Verhältnis zur Entstehung des Textes sind sie so früh wie die frühen Tafsir-Überlieferungen. Und auch die Gefährten waren sich in vielen Deutungen nicht einig – das zeigt jeder große Kommentar, der mehrere Meinungen nebeneinanderstellt.`,
+          detail: `At-Tabari (gest. 923) führt in seinem Kommentar zu fast jedem Vers verschiedene Deutungen von Gefährten und Nachfolgern an und wählt dann begründet eine aus. Das ist redliche Auslegungsarbeit – genau dieselbe Arbeit, die die Kirchenväter an der Bibel geleistet haben. Beide Traditionen ringen ehrlich mit schwierigen Stellen. Unfair wird es nur, wenn man der einen Tradition das Ringen als Schwäche und der anderen als Stärke anrechnet.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'De consensu evangelistarum (Über die Übereinstimmung der Evangelisten)', year: 'um 400', quote: `Ausführliche Untersuchung scheinbarer Widersprüche zwischen den vier Evangelien.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'acht-schoepfungstage',
+      objection: `Du willst sicher mit den „acht Schöpfungstagen" in 41:9–12 kommen: zwei Tage für die Erde, vier für ihre Nahrung, zwei für die Himmel – gegen die sechs Tage in 7:54. Das ist längst gelöst: Die vier Tage schließen die ersten zwei mit ein.`,
+      objectionBy: 'Mohammed Hijab',
+      answer: `Das ist eine vernünftige Lösung, und ich nehme sie an. Aber achte darauf, was du gerade getan hast: Du hast eine Zählung *inklusiv* gelesen, damit zwei Stellen zusammenpassen. Genau so erklären Christen viele Zahlen- und Zeitangaben der Bibel. Wenn diese Methode beim Koran ehrlich ist, ist sie es auch bei der Bibel. Dasselbe gilt für die Reihenfolge: Nach 41:9–11 wird die Erde vor dem Himmel gestaltet, nach 79:27–30 breitet Gott die Erde „danach" aus – auch hier braucht es eine Harmonisierung.`,
+      detail: `Klassische Kommentatoren erklären 79:30 meist so, dass die Erde zuerst erschaffen, aber erst nach dem Himmel „ausgebreitet" (*daḥāhā*) und mit Wasser und Weide versehen wurde. Das ist eine plausible Lesart. Der Punkt ist nicht, dass der Koran hier zwingend falsch ist, sondern dass 4:82 („fänden darin viele Widersprüche") nur unter Voraussetzung wohlwollender Auslegung erfüllt ist – derselben Auslegung, die man der Bibel verweigert.`,
+      sources: [
+        { kind: 'koran', work: 'Sure 41 (Fussilat)', ref: '41:9–12', quote: `… Der die Erde in zwei Tagen erschuf … und darin ihre Nahrung in vier Tagen bemaß … Und Er vollendete sie als sieben Himmel in zwei Tagen.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/41/9-12' },
+        { kind: 'koran', work: 'Sure 79 (an-Nazi\'at)', ref: '79:27–30', quote: `Seid ihr schwerer zu erschaffen oder der Himmel? Er hat ihn gebaut … Und die Erde, danach hat Er sie ausgebreitet.`, original: `wa-l-arḍa baʿda dhālika daḥāhā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/79/27-30' },
+        { kind: 'koran', work: 'Sure 7 (al-A\'raf)', ref: '7:54', quote: `Euer Herr ist Allah, Der die Himmel und die Erde in sechs Tagen erschuf.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/7/54' },
+      ],
+      questionsBack: [
+        `Darf ich bei der Bibel ebenso inklusiv zählen und harmonisieren, wie du es gerade bei 41:9–12 getan hast?`,
+      ],
+      followUps: [
+        {
+          id: 'harmonisierung-nur-beim-koran',
+          objection: `Beim Koran ist wohlwollende Auslegung angebracht, weil er Gottes Wort ist. Bei der Bibel nicht, weil sie verfälscht wurde.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Das ist ein Zirkelschluss: Du setzt voraus, was bewiesen werden soll – dass der Koran Gottes Wort und die Bibel verfälscht ist –, und entscheidest danach, welcher Text wohlwollend gelesen werden darf. Dann beweist 4:82 nichts mehr, denn das Ergebnis steht vorher fest. Ein fairer Test liest beide Bücher mit denselben Regeln.`,
+          questionsBack: [
+            `Woher weißt du, dass der Koran Gottes Wort ist – unabhängig von der wohlwollenden Lesart, die du ihm vorher zugestehst?`,
+          ],
+          followUps: [
+            {
+              id: 'koran-unabhaengig-bewiesen',
+              objection: `Der Koran ist unabhängig bewiesen – durch seine Unnachahmlichkeit. Deshalb darf man ihn wohlwollend lesen.`,
+              objectionBy: 'Hamza Andreas Tzortzis',
+              answer: `Dann ruht die ganze Beweiskette auf der Unnachahmlichkeit – und die ist, wie wir gesehen haben, ein ästhetisches Urteil ohne neutralen Richter (siehe Claim „Niemand kann eine Sure wie den Koran hervorbringen"). Eine Kette ist nur so stark wie ihr schwächstes Glied. Wenn die Herausforderung von 2:23 nicht überprüfbar ist, trägt sie auch nicht die wohlwollende Lesart von 4:82.`,
+              detail: `Hier zeigt sich, wie die Argumente zusammenhängen: Widerspruchsfreiheit (4:82), Unnachahmlichkeit (2:23), Bewahrung (15:9) und Wissenschaftswunder stützen sich gegenseitig. Jedes einzelne ist bei näherem Hinsehen eine Deutungsfrage. Hilf deinem Gesprächspartner freundlich, das Gesamtbild zu sehen – und lenke dann das Gespräch auf das, was sich historisch prüfen lässt: die Person Jesu, seinen Tod und seine Auferstehung.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'iblis-engel-oder-dschinn',
+      objection: `Und die Frage, ob Iblis ein Engel oder ein Dschinn war, ist auch kein Widerspruch: 18:50 sagt klar, er gehörte zu den Dschinn. In 2:34 wird er nur deshalb mit den Engeln genannt, weil er unter ihnen war – eine Ausnahme der anderen Art (*istithnāʾ munqaṭiʿ*).`,
+      objectionBy: 'Yasir Qadhi',
+      answer: `Das ist eine anerkannte grammatische Erklärung, und ich respektiere sie. Aber schon die frühen Ausleger waren uneins: Manche Überlieferungen, die auf Ibn Abbas zurückgeführt werden, machen Iblis zu einem Engel aus einer Gruppe, die „Dschinn" hieß; andere sehen in ihm nie einen Engel. Wenn die eigenen Gelehrten über eine solche Grundfrage streiten, ist „offensichtlich widerspruchsfrei" nicht das richtige Wort – „erklärbar" wäre ehrlicher. Und „erklärbar" sind die Bibelstellen ebenso.`,
+      detail: `Für Christen ist diese Frage kein Kampfplatz, sondern ein Beispiel für faire Maßstäbe. Die Bibel kennt den Fall eines Engels, der sich gegen Gott erhob, aus Andeutungen (Jes 14; Ez 28; Offb 12; Jud 6), und die Väter haben darüber unterschiedlich nachgedacht. Ehrliches Ringen mit dunklen Stellen gehört zu jeder heiligen Schrift.`,
+      sources: [
+        { kind: 'koran', work: 'Sure 18 (al-Kahf)', ref: '18:50', quote: `Und als Wir zu den Engeln sagten: Werft euch vor Adam nieder! Da warfen sie sich nieder, außer Iblis; er gehörte zu den Dschinn.`, original: `illā iblīsa kāna mina l-jinn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/18/50' },
+        { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:34', quote: `Und als Wir zu den Engeln sagten: Werft euch vor Adam nieder! Da warfen sie sich nieder, außer Iblis.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/2/34' },
+      ],
+      questionsBack: [
+        `Wenn die Gefährten selbst uneins waren, ob Iblis ein Engel war – ist der Text dann „offensichtlich" widerspruchsfrei oder „mit Auslegung erklärbar"?`,
+      ],
     },
   ],
   questionsToAsk: [

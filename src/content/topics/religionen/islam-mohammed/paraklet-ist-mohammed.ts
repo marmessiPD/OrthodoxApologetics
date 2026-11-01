@@ -89,6 +89,23 @@ const claim: Claim = {
           objection: `In Joh 20,22 haucht Jesus die Jünger an: „Nehmet hin den Heiligen Geist." Also kam der Geist, bevor Jesus fortging – der Paraklet aber sollte erst danach kommen. Widerspruch!`,
           objectionBy: 'Zakir Naik',
           answer: `Joh 20,22 geschieht nach der Auferstehung, als Jesus bereits „zum Vater auffährt" (20,17) – er ist verherrlicht. Die Gabe in 20,22 ist der Anfang dessen, was an Pfingsten öffentlich und in Fülle geschieht (Apg 2). Und selbst wenn man hier eine Spannung sähe: Sie macht aus dem Geist keinen Menschen, der 600 Jahre später kommt. Johannes nennt den Parakleten ausdrücklich „den Heiligen Geist" (14,26).`,
+          followUps: [
+            {
+              id: 'pfingsten-brachte-keine-wahrheit',
+              objection: `Der Paraklet soll „in alle Wahrheit leiten" (16,13) und „die Welt überführen von der Sünde, der Gerechtigkeit und dem Gericht" (16,8). An Pfingsten gab es Zungenreden und Begeisterung, aber keine neue Wahrheit und kein neues Gesetz. Erst der Koran brachte die vollständige Wahrheit.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `Jesus erklärt selbst, worin das Überführen besteht: „von der Sünde, dass sie nicht an **mich** glauben; von der Gerechtigkeit, dass ich zum Vater gehe; vom Gericht, dass der Fürst dieser Welt gerichtet ist" (16,9–11). Das ist ganz auf Jesus bezogen – und genau das geschah an Pfingsten: Petrus predigt den Gekreuzigten und Auferstandenen, und „es ging ihnen durchs Herz" (Apg 2,37); dreitausend ließen sich taufen. Und „alle Wahrheit" ist den Jüngern verheißen, „euch" – die Frucht ist das apostolische Zeugnis, das wir im Neuen Testament haben.`,
+              detail: `Der Geist bringt nach Joh 16,14 keine Lehre, die Jesus widerspricht: „Er wird mich verherrlichen, denn von dem Meinen wird er nehmen und euch verkündigen." Das Neue Testament ist das sichtbare Ergebnis dieser Verheißung: Die Apostel erinnern sich nach Ostern an Jesu Worte und verstehen sie (Joh 2,22; 12,16; 14,26). Ein Prophet, der sechs Jahrhunderte später die Kreuzigung bestreitet und Jesu Sohnschaft verneint, „nimmt" nicht „von dem Seinen", sondern widerspricht ihm. Für das Gespräch: Lies Joh 16,7–15 vollständig vor – jeder Satz dreht sich um Jesus.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '16,8–11', quote: `Und wenn derselbe kommt, wird er die Welt strafen um die Sünde und um die Gerechtigkeit und um das Gericht: um die Sünde, daß sie nicht glauben an mich; um die Gerechtigkeit aber, daß ich zum Vater gehe und ihr mich hinfort nicht sehet; um das Gericht, daß der Fürst dieser Welt gerichtet ist.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '2,37.41', quote: `Da sie aber das hörten, ging's ihnen durchs Herz … Die nun sein Wort gerne annahmen, ließen sich taufen; und wurden hinzugetan an dem Tage bei dreitausend Seelen.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `Wovon überführt der Paraklet nach Joh 16,9 die Welt – vom Unglauben an wen?`,
+                `Wie kann einer, der die Kreuzigung leugnet, Jesus „verherrlichen", indem er „von dem Seinen nimmt"?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -114,6 +131,22 @@ const claim: Claim = {
                 { kind: 'fachliteratur', author: 'W. Montgomery Watt', work: '„His Name Is Ahmad", The Muslim World 43', year: '1953', status: 'paraphrase', note: 'Watt argumentiert, aḥmad sei in 61:6 ursprünglich adjektivisch zu verstehen.' },
                 { kind: 'koran', work: 'Sure 61 (as-Saff)', ref: '61:6', quote: `Und als Jesus, der Sohn der Maria, sagte: „O Kinder Israels, ich bin Allahs Gesandter an euch, bestätigend, was von der Tora vor mir war, und einen Gesandten verkündend, der nach mir kommen wird: sein Name ist Ahmad."`, original: `wa-mubashshiran bi-rasūlin yaʾtī min baʿdī smuhū aḥmad`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/61/6' },
               ],
+              followUps: [
+                {
+                  id: 'munahhemana-syrische-quelle',
+                  objection: `Gerade Ibn Ishaq zeigt doch: Die frühen Muslime kannten einen syrischen Evangelientext, in dem ein Wort stand, das wie „Muhammad" klang. Die Christen jener Zeit hatten also eine Fassung, die auf ihn hinwies.`,
+                  objectionBy: 'Ali Ataie',
+                  answer: `*Menaḥḥemānā* ist im christlich-palästinischen Aramäisch schlicht die Übersetzung von *paraklētos* – „Tröster", von der Wurzel *n-ḥ-m* („trösten"). „Muhammad" kommt von der Wurzel *ḥ-m-d* („preisen"). Ibn Ishaq verbindet die beiden über einen Gleichklang, nicht über die Bedeutung. Der Text, den er zitiert, ist im Übrigen unser Johannesevangelium (15,23–16,1) – mit denselben Aussagen über den Geist der Wahrheit, der „vom Vater ausgeht". Er bestätigt also den Text, nicht seine Umdeutung.`,
+                  detail: `Alfred Guillaume hat in seiner Übersetzung der Sira die von Ibn Ishaq zitierte Passage untersucht und festgestellt, dass sie dem christlich-palästinisch-aramäischen Lektionar nahesteht. Auch derselbe Ibn Ishaq setzt *menaḥḥemānā* ausdrücklich dem griechischen „Paraklet" gleich – er bestätigt damit indirekt, dass im Evangelium „Paraklet" stand, nicht „periklytos". Die spätere Behauptung, dort habe ursprünglich *periklytos* gestanden, findet bei Ibn Ishaq gerade keine Stütze. Für das Gespräch: Die früheste islamische Quelle zum Thema widerlegt die moderne Fälschungsthese.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Alfred Guillaume', work: 'The Life of Muhammad: A Translation of Ibn Ishaq\'s Sirat Rasul Allah', year: '1955', status: 'paraphrase', note: 'Anmerkungen zur Herkunft des Zitats aus Joh 15,23–16,1 und zum Wort menaḥḥemānā.' },
+                  ],
+                  questionsBack: [
+                    `Aus welcher Wurzel kommt *menaḥḥemānā* – und aus welcher „Muhammad"?`,
+                    `Wenn Ibn Ishaq selbst schreibt, auf Griechisch heiße das Wort „Paraklet" – wo bleibt dann die These vom ursprünglichen „periklytos"?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -133,6 +166,22 @@ const claim: Claim = {
           objection: `Muhammad hat Jesus verherrlicht: Er hat ihn von der Schande der Kreuzigung befreit und von der Lüge, er sei Gott. Das ist die wahre Verherrlichung.`,
           objectionBy: 'Zakir Naik',
           answer: `Im Johannesevangelium ist das Kreuz selbst die Verherrlichung Jesu: „Die Zeit ist gekommen, daß des Menschen Sohn verklärt werde … Wenn das Weizenkorn nicht in die Erde fällt und erstirbt …" (12,23–24; vgl. 17,1). Wer das Kreuz leugnet, nimmt Jesus gerade seine Verherrlichung im Sinn des Evangeliums. Der Paraklet nimmt „von dem Meinen" – er bezeugt das, was Jesus gelehrt und getan hat (15,26), nicht das Gegenteil davon.`,
+          followUps: [
+            {
+              id: 'fuerst-dieser-welt',
+              objection: `Jesus sagt: „Es kommt der Fürst dieser Welt, und hat nichts an mir" (Joh 14,30). Ein „Fürst" der Welt, der nach Jesus kommt – das ist Muhammad, der ein Weltreich begründete.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `Lies, was Johannes sonst über den „Fürsten dieser Welt" sagt: „Nun wird der Fürst dieser Welt ausgestoßen werden" (12,31), und er „ist gerichtet" (16,11). Paulus nennt ihn den „Gott dieser Welt", der die Sinne der Ungläubigen verblendet (2 Kor 4,4). Gemeint ist der Satan, der in der Passion gegen Jesus aufsteht und doch „nichts an ihm hat". Ich glaube nicht, dass ein Muslim Muhammad mit dieser Gestalt gleichsetzen möchte – und ich tue es ausdrücklich nicht.`,
+              detail: `Diese Deutung wurde von Ahmed Deedat popularisiert, wird aber von muslimischen Gelehrten kaum vertreten – aus gutem Grund. Im Johannesevangelium ist der „Fürst dieser Welt" (*ho archōn tou kosmou toutou*) stets der Widersacher, der durch das Kreuz besiegt wird (12,31–32). Im Gespräch ist hier besondere Behutsamkeit geboten: Mach deutlich, dass du Muhammad nicht mit dem Satan gleichsetzt, sondern zeigst, dass die vorgeschlagene Deutung den Text gegen sich hat. So bleibst du hart in der Sache und respektvoll gegenüber der Person.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '12,31', quote: `Jetzt geht das Gericht über die Welt; nun wird der Fürst dieser Welt ausgestoßen werden.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Johannes', ref: '14,30', quote: `Ich werde hinfort nicht mehr viel mit euch reden; denn es kommt der Fürst dieser Welt, und hat nichts an mir.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wer wird nach Joh 12,31 „ausgestoßen" und nach 16,11 „gerichtet"? Willst du Muhammad wirklich mit ihm gleichsetzen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -141,6 +190,38 @@ const claim: Claim = {
       objection: `Im Griechischen ist „pneuma" (Geist) sächlich, aber Johannes verwendet für den Parakleten das männliche „ekeinos" (er). Das zeigt, dass ein Mann gemeint ist.`,
       objectionBy: 'Islamischer Apologet mit Griechischkenntnissen',
       answer: `Das männliche Pronomen zeigt, dass der Paraklet eine **Person** ist, nicht eine bloße Kraft – darin stimmen wir überein. Aber Person heißt nicht Mensch: Auch Gott wird mit männlichen Pronomen bezeichnet. Zudem ist *paraklētos* selbst ein männliches Wort, auf das sich *ekeinos* grammatisch beziehen kann. Und in 14,26 steht ausdrücklich: „der Paraklet, der Heilige Geist".`,
+      followUps: [
+        {
+          id: 'parakletos-menschlicher-anwalt',
+          objection: `*Paraklētos* bezeichnete in der Antike einen menschlichen Anwalt oder Fürsprecher vor Gericht. Auch Philo verwendet das Wort für Menschen. Das Wort selbst verweist also auf einen Menschen.`,
+          objectionBy: 'Ali Ataie',
+          answer: `Das Wort bezeichnet eine Funktion – Beistand, Fürsprecher –, nicht eine Natur. Philo verwendet es übrigens auch für eine überirdische Fürsprache: Der Hohepriester brauche den vollkommenen „Sohn" des Weltschöpfers – bei Philo den Kosmos – als Parakleten zur Vergebung der Sünden. Im Neuen Testament heißt Jesus „Paraklet beim Vater" (1 Joh 2,1) – eine himmlische Fürsprache. Wer der johanneische Paraklet ist, entscheidet nicht die allgemeine Wortbedeutung, sondern die Definition im Text: „der Paraklet, der Heilige Geist, den der Vater senden wird in meinem Namen" (14,26).`,
+          detail: `Philo von Alexandrien beschreibt in „Über das Leben des Mose" (II,134), dass der Hohepriester den vollkommenen „Sohn" des Vaters der Welt – gemeint ist der Kosmos – als Parakleten zur Vergebung der Sünden brauche. Das Wort wird also schon im hellenistischen Judentum für überirdische Fürsprecher verwendet. Für Johannes ist der Paraklet der „Geist der Wahrheit" (14,17; 15,26; 16,13), den der Vater sendet und der in den Glaubenden wohnt. Das passt zu keinem Menschen, aber genau zur Verheißung, dass Gott seinen Geist in die Herzen gibt (Ez 36,27; Joel 3,1).`,
+          sources: [
+            { kind: 'sonstiges', author: 'Philo von Alexandrien', work: 'Über das Leben des Mose (De vita Mosis)', ref: 'II,134', year: '1. Jh.', status: 'paraphrase', note: 'Der Hohepriester braucht den „Sohn" als Parakleten zur Vergebung der Sünden.' },
+            { kind: 'bibel', work: '1. Johannes', ref: '2,1', quote: `… und ob jemand sündigt, so haben wir einen Fürsprecher bei dem Vater, Jesum Christum, der gerecht ist.`, original: `παράκλητον ἔχομεν πρὸς τὸν πατέρα`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Entscheidet die allgemeine Wortbedeutung oder die Definition im Text selbst, wer der Paraklet in Joh 14,26 ist?`,
+          ],
+          followUps: [
+            {
+              id: 'sinaiticus-ohne-heilig',
+              objection: `Die alte syrische Übersetzung im Sinai-Codex liest in Joh 14,26 nur „der Geist, der Paraklet" – ohne „heilig". Das „Heilige Geist" ist also eine spätere Ergänzung.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Das ist eine echte Textvariante, und du darfst sie ehrlich zugestehen: Der altsyrische Sinaiticus hat hier eine kürzere Lesart. Aber selbst dann steht dort „der **Geist**" – nicht ein Mensch, nicht ein Prophet. Alle griechischen Handschriften lesen *to pneuma to hagion*, und an den anderen Stellen nennt Johannes den Parakleten ohne jede Variante „den Geist der Wahrheit" (14,17; 15,26; 16,13), den die Welt nicht sieht und der in den Jüngern wohnt. Die Variante ändert an der Identität des Parakleten nichts.`,
+              detail: `Die altsyrischen Evangelien (Sinaiticus, 4./5. Jh.; Curetonianus) sind wichtige, aber oft freie Übersetzungen mit eigenen Lesarten. Die Textkritik gewichtet die griechischen Handschriften (P66, P75, Sinaiticus, Vaticanus u. a.), die einhellig „der Heilige Geist" lesen. Für das Gespräch lohnt der Hinweis: Wer sich auf eine altsyrische Handschrift beruft, bestätigt damit, dass auch diese Überlieferung vom „Geist" spricht – Jahrhunderte vor Muhammad. Kein einziger Textzeuge liest dort einen Personennamen oder „Prophet".`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '14,26', quote: `Aber der Tröster, der Heilige Geist, welchen mein Vater senden wird in meinem Namen, derselbe wird's euch alles lehren und euch erinnern alles des, das ich euch gesagt habe.`, original: `ὁ δὲ παράκλητος, τὸ πνεῦμα τὸ ἅγιον`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Johannes', ref: '15,26', quote: `Wenn aber der Tröster kommen wird, welchen ich euch senden werde vom Vater, der Geist der Wahrheit, der vom Vater ausgeht, der wird zeugen von mir.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Liest irgendeine Handschrift in Joh 14,26 etwas anderes als „Geist" – etwa einen Namen oder „Prophet"?`,
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'anderer-paraklet-ist-mensch',
@@ -153,6 +234,26 @@ const claim: Claim = {
           objection: `„Ewig bei euch" heißt: durch seine Lehre, den Koran, der bis zum Jüngsten Tag gilt.`,
           objectionBy: 'Zakir Naik',
           answer: `Der Text sagt nicht, dass die Lehre bei ihnen bleibt, sondern **er**: „daß er bei euch bleibe ewiglich … er bleibt bei euch und wird in euch sein" (14,16–17). Und „euch" sind die Jünger am Abschiedsabend, die er an alles erinnern soll, was Jesus „euch gesagt hat" (14,26). Muhammad hat keinen dieser Jünger je getroffen. Man muss den Text umdeuten, um ihn auf Muhammad zu beziehen.`,
+          followUps: [
+            {
+              id: 'welt-erkennt-ihn-nicht',
+              objection: `Jesus sagt, die Welt könne ihn nicht empfangen, „denn sie sieht ihn nicht und kennt ihn nicht" (14,17). Das heißt: Die Welt – Juden und Christen – erkannte Muhammad nicht an, obwohl er kam.`,
+              objectionBy: 'Jamal Badawi',
+              answer: `Lies den ganzen Satz: „… denn sie sieht ihn nicht und kennt ihn nicht. **Ihr aber kennt ihn**, denn er bleibt bei euch und wird in euch sein." Die Jünger kennen ihn schon jetzt, in der Gegenwartsform – und er wird *in* ihnen wohnen. „Nicht sehen" meint Unsichtbarkeit: Die Welt kann den Geist nicht mit Augen wahrnehmen. Muhammad war für jeden in Mekka und Medina sichtbar; Freunde und Gegner haben ihn gesehen und gekannt. Der Satz passt auf den Geist – und auf keinen Menschen.`,
+              detail: `Der Gegensatz in Joh 14,17 ist doppelt: Die Welt sieht ihn nicht – die Jünger kennen ihn; er ist bei ihnen – er wird in ihnen sein. Das ist die Sprache der Einwohnung, die das Neue Testament für den Heiligen Geist verwendet (Röm 8,9.11; 1 Kor 3,16; 6,19). Zwei Verse später sagt Jesus dasselbe über sich: „Die Welt sieht mich nicht mehr, ihr aber sollt mich sehen" (14,19) – durch den Geist ist er selbst gegenwärtig. Didymus der Blinde hat in seiner Schrift über den Heiligen Geist gezeigt, dass diese Eigenschaften – unsichtbar, einwohnend, ewig bleibend – Merkmale Gottes sind, nicht eines Geschöpfes.`,
+              voices: [
+                { person: 'didymus', role: 'als alexandrinischer Lehrer über den Heiligen Geist', text: `Didymus der Blinde, Leiter der Katechetenschule von Alexandrien, argumentiert in „Über den Heiligen Geist", dass der Geist in vielen Menschen zugleich wohnen kann, während ein Geschöpf immer nur an einem Ort ist. Wer in allen Gläubigen zugleich wohnt und sie heiligt, hat göttliche Eigenschaften. So liest er die Verheißung des Parakleten in Joh 14–16.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '14,17', quote: `… den Geist der Wahrheit, welchen die Welt nicht kann empfangen; denn sie sieht ihn nicht und kennt ihn nicht. Ihr aber kennet ihn; denn er bleibt bei euch und wird in euch sein.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Didymus der Blinde', work: 'Über den Heiligen Geist (De Spiritu Sancto)', year: 'ca. 360–375', status: 'paraphrase', note: 'Erhalten in der lateinischen Übersetzung des Hieronymus.' },
+              ],
+              questionsBack: [
+                `Wie kann ein Mensch, der 600 Jahre später geboren wird, schon „bei" den Jüngern sein, sodass sie ihn „kennen"?`,
+                `Haben die Menschen in Mekka Muhammad „nicht gesehen"?`,
+              ],
+            },
+          ],
         },
       ],
     },

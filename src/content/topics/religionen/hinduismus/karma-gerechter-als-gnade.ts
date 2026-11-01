@@ -141,6 +141,26 @@ const claim: Claim = {
               answer: `Interessant: Genau das kann Karma nicht – es vergibt nie, es rechnet nur ab. Du kannst also nicht gleichzeitig Karma für gerechter halten und Gott vorwerfen, dass er Schuld ernst nimmt. Christlich gilt: Vergebung kostet immer den, der vergibt. Gott trägt diese Kosten selbst.`,
               detail: `Wenn jemand dein Auto beschädigt und du „einfach vergibst", verschwindet der Schaden nicht – du bezahlst ihn. Bei moralischer Schuld gegen Gott und Menschen ist es ähnlich: Das Unrecht ist real. Siehe ausführlich den Claim „Gott kann einfach vergeben" im Islam-Block.`,
               questionsBack: [`Wenn Karma niemals vergibt – wie kannst du es dann als Vorbild für Güte nehmen?`],
+              followUps: [
+                {
+                  id: 'menschen-vergeben-ohne-kreuz',
+                  objection: `Menschen vergeben einander doch auch, ohne dass jemand sterben muss. Wenn ich dir verzeihe, braucht es kein Blut. Warum kann Gott das nicht genauso?`,
+                  objectionBy: 'Deepak Chopra (sinngemäß)',
+                  answer: `Auch unter Menschen kostet echte Vergebung etwas: Wer mir 1000 Euro stiehlt und dem ich vergebe, dessen Schaden trage nun ich. Wer verleumdet wurde und vergibt, trägt den Schmerz, statt ihn zurückzugeben. Vergebung ist nie gratis – der Vergebende zahlt. Und Gott ist nicht nur ein gekränkter Einzelner, sondern der Richter der Welt, der den Opfern Gerechtigkeit schuldet. Am Kreuz trägt er die Kosten selbst, statt sie den Opfern oder den Tätern aufzubürden.`,
+                  detail: `Der Einwand setzt voraus, dass menschliche Vergebung kostenlos sei. Tim Keller hat gezeigt, dass das Gegenteil stimmt: Wer vergibt, verzichtet auf Vergeltung und absorbiert damit selbst den Schaden. Die Alternative wäre, das Unrecht kleinzureden – und das wäre gegenüber den Opfern grausam.
+
+Athanasius stellt die Frage in *De Incarnatione* noch tiefer: Hätte Gott nicht einfach Reue verlangen können? Seine Antwort: Reue allein hält den Täter nicht von der Sünde ab und heilt nicht die Verderbnis der menschlichen Natur, die dem Tod verfallen ist. Es ging nicht nur um eine offene Rechnung, sondern um eine kranke Natur. Darum wurde der Logos selbst Mensch, um von innen her zu heilen, was zerbrochen war. Das Kreuz ist also nicht die Zahlung an einen zornigen Gott, sondern Gottes eigener Weg, Gerechtigkeit und Heilung zusammenzubringen.`,
+                  voices: [
+                    { person: 'tim-keller', role: 'als Pastor und Apologet in New York', text: `Keller argumentiert, dass jede echte Vergebung eine Form stellvertretenden Leidens ist: Der Vergebende trägt die Schuld des anderen, statt sie heimzuzahlen. Wenn schon menschliche Vergebung so viel kostet, ist es nicht verwunderlich, dass Gottes Vergebung am Kreuz ihren höchsten Preis hat – den Gott selbst bezahlt.`, sources: [
+                      { kind: 'fachliteratur', author: 'Timothy Keller', work: 'The Reason for God (dt. Warum Gott?)', ref: 'Kap. 12', year: '2008', status: 'paraphrase', quote: `Vergebung bedeutet, die Schuld selbst zu tragen, statt sie den anderen bezahlen zu lassen; sie ist immer eine Form des Leidens.` },
+                    ] },
+                    { person: 'athanasius', role: 'als Lehrer der Menschwerdung', text: `Für Athanasius hätte bloße Reue nicht genügt, weil die Sünde nicht nur eine Tat, sondern eine Verderbnis der Natur hervorgebracht hat, die zum Tod führt. Nur der Schöpfer selbst konnte die Natur erneuern – darum nahm der Logos einen Leib an und gab ihn für alle in den Tod, um den Tod von innen her zu überwinden.`, sources: [
+                      { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'De Incarnatione', ref: '7', year: 'ca. 318', status: 'paraphrase', quote: `Reue hält zwar von weiteren Sünden ab, aber sie ruft den Menschen nicht aus dem, was ihm naturgemäß geworden ist (der Verderbnis), zurück.` },
+                    ] },
+                  ],
+                  questionsBack: [`Hast du schon einmal jemandem wirklich etwas Schweres vergeben? Hat es dich nichts gekostet?`, `Wäre ein Richter gerecht, der einen Kinderschänder einfach so „vergibt", ohne nach den Opfern zu fragen?`],
+                },
+              ],
             },
           ],
         },
@@ -204,6 +224,28 @@ const claim: Claim = {
               objection: `Unendliche Reihen sind kein Problem – die Zahlen haben auch kein Ende.`,
               objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
               answer: `Zahlen sind abstrakt, sie „passieren" nicht. Vergangene Leben sind aber konkrete Ereignisse, die nacheinander tatsächlich durchlaufen wurden. Eine tatsächlich unendliche Reihe abgeschlossener Ereignisse hätte nie bis heute ankommen können. Und selbst wenn: Eine unendliche Kette von Erklärungen, von denen keine aus sich selbst erklärt, ergibt zusammen keine Erklärung.`,
+              followUps: [
+                {
+                  id: 'zyklische-zeit',
+                  objection: `Du denkst linear, wie ein Westler. In indischer Sicht ist die Zeit zyklisch – Weltzeitalter (Kalpas, Yugas) kommen und gehen ohne Anfang und Ende. Deine Frage nach dem ersten Glied ist eine semitische Voraussetzung.`,
+                  objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+                  answer: `Ob linear oder zyklisch – die Frage bleibt: Warum gibt es überhaupt eine moralische Ordnung, die Taten gewichtet und vergilt? Ein Kreis erklärt sich so wenig selbst wie eine Linie. Und der Kreis hat einen hohen Preis: Wenn alles ewig wiederkehrt, gibt es kein Ziel, keine endgültige Heilung – das Leid kommt immer wieder. Die christliche Hoffnung ist, dass die Geschichte auf eine Vollendung zuläuft, in der Gott „abwischen wird alle Tränen" (Offb 21,4).`,
+                  detail: `Schon Augustinus hat sich mit der Lehre von den ewigen Weltkreisläufen (bei griechischen Philosophen) auseinandergesetzt. Sein Haupteinwand war nicht naturwissenschaftlich, sondern existenziell und christologisch: Christus ist „einmal" für unsere Sünden gestorben und stirbt nicht mehr (Röm 6,9–10). Wenn alles wiederkehrt, gibt es keine echte Erlösung, sondern nur eine Pause im Kreislauf.
+
+Bemerkenswert ist, dass die indischen Traditionen selbst den Kreislauf (Samsara) nicht als gut empfinden, sondern als Gefangenschaft, aus der man befreit werden muss. Damit räumen sie ein, dass der ewige Kreis nicht das letzte Wort sein darf. Das Christentum teilt diese Sehnsucht – es sagt nur, dass die Befreiung nicht in der Auflösung der Person, sondern in der Auferstehung und der Gemeinschaft mit Gott liegt.
+
+Wer zusätzlich naturwissenschaftlich argumentieren will, kann vorsichtig darauf hinweisen, dass die heutige Kosmologie (Expansion, Entropie) eher auf einen Anfang des Universums als auf ewige Zyklen hindeutet – aber das ist nicht nötig, um den moralischen Punkt zu machen.`,
+                  voices: [
+                    { person: 'augustinus', role: 'als Philosoph der Geschichte', text: `Augustinus wendet sich in *Vom Gottesstaat* gegen die Lehre von den ewigen Kreisläufen der Zeit. Für ihn widerspricht sie der Einmaligkeit der Menschwerdung und des Kreuzes und raubt dem Menschen die Hoffnung auf eine wirkliche, unverlierbare Seligkeit. Die Geschichte hat bei ihm einen Anfang in Gottes Schöpfung und ein Ziel in Gottes Reich.`, sources: [
+                      { kind: 'kirchenvater', author: 'Augustinus', work: 'Vom Gottesstaat (De civitate Dei)', ref: 'XII,14', year: 'ca. 417', status: 'paraphrase', quote: `Christus ist einmal für unsere Sünden gestorben und stirbt nicht mehr; darum ist die Lehre von den ewig wiederkehrenden Kreisläufen zu verwerfen.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Römer', ref: '6,9–10', quote: `Christus, von den Toten erweckt, hinfort nicht stirbt; der Tod wird hinfort über ihn nicht herrschen. Denn was er gestorben ist, das ist er der Sünde gestorben zu einem Mal.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn der Kreislauf ewig ist – ist dann auch das Leid ewig? Ist das eine gute Nachricht?`],
+                },
+              ],
             },
           ],
         },
@@ -249,6 +291,39 @@ const claim: Claim = {
           objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
           answer: `Nein. Ein Angestellter arbeitet für seinen Lohn; ein Kind hilft seinem Vater, weil es zur Familie gehört. Im orthodoxen Glauben sind Werke Frucht und Mitwirkung mit der Gnade (Synergie), nicht Bezahlung. Das Heil wird geschenkt – aber es ist ein lebendiges Geschenk, das wachsen will, wie eine Ehe, die man nicht „verdient", aber pflegt.`,
           detail: `Die koptische Kirche lehnt sowohl „allein durch den Glauben" im Sinne einer rein forensischen Erklärung als auch jede Selbsterlösung ab (Papst Schenuda III., *Das Heil im orthodoxen Verständnis*). Karma ist ein Verrechnungssystem ohne Vergebung; Synergie ist eine Liebesbeziehung, in der Gott den ersten und entscheidenden Schritt tut (1 Joh 4,19).`,
+          followUps: [
+            {
+              id: 'synergie-wie-bhakti',
+              objection: `„Synergie" klingt nach ein bisschen Gnade und ein bisschen Karma. Genau das lehrt auch die Bhakti: Der Gläubige liebt, und Gott hilft. Wo ist da noch der Unterschied?`,
+              objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+              answer: `Synergie heißt nicht „halb Gott, halb ich", sondern: Gott schenkt alles, und ich nehme es an – wie ein Kranker, der dem Arzt vertraut und die Medizin nimmt. Die Mitwirkung ist Antwort, nicht Bezahlung. Der eigentliche Unterschied zur Bhakti liegt aber nicht in der Frömmigkeit, sondern im Ereignis: Im Christentum ist Gott tatsächlich Mensch geworden, hat unsere Natur angenommen, ist gestorben und auferstanden. Die Gnade hat eine Geschichte und einen Namen.`,
+              detail: `Ich kann den Bhakti-Dichtern mit großer Achtung begegnen – Tulsidas, Ramanuja oder Tukaram sprechen von Hingabe und Gnade in Worten, die einen Christen berühren. Das zeigt, dass der Mensch nach Gnade hungert. Papst Schenuda III. beschreibt das orthodoxe Heil als Weg: Gott schenkt die Gnade in Taufe, Myron und Eucharistie; der Mensch antwortet mit Glauben, Buße und einem Leben der Liebe. Ohne Gott kann er nichts (Joh 15,5), aber Gott erlöst ihn nicht gegen seinen Willen.
+
+Der Unterschied liegt also nicht darin, *dass* Gott hilft, sondern darin, *wer* hilft und *wie*. In der Gita offenbart sich Krishna auf einem mythischen Schlachtfeld; im Evangelium betritt Gott unsere Geschichte, unter einem römischen Statthalter, an einem nachprüfbaren Ort – und trägt am Kreuz unsere Schuld. Gnade ist hier nicht ein Prinzip, sondern eine Person, die für mich gestorben ist.`,
+              voices: [
+                { person: 'shenouda-iii', role: 'als Lehrer der Kirche über das Heil', text: `Papst Schenuda III. betont in seinen Schriften über das Heil, dass der Mensch weder durch eigene Werke noch durch bloßes Für-wahr-Halten gerettet wird, sondern durch die Gnade Gottes, die er im Glauben, in den Sakramenten und im Leben der Buße annimmt. Die Werke sind Frucht und Mitwirkung, nie Kaufpreis.`, sources: [
+                  { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Das Heil im orthodoxen Verständnis (Salvation in the Orthodox Concept)', status: 'paraphrase', quote: `Heil als Gabe Gottes, die der Mensch im Glauben, in Taufe und Sakramenten und in einem Leben der Buße annimmt; die Werke sind Frucht, nicht Verdienst.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Philipper', ref: '2,12–13', quote: `Schaffet, dass ihr selig werdet, mit Furcht und Zittern. Denn Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen, nach seinem Wohlgefallen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'gericht-nach-werken-ist-karma',
+                  objection: `Aber am Ende richtet euer Gott doch nach den Werken – „Was ihr getan habt einem unter diesen meinen geringsten Brüdern" (Mt 25). Das ist Karma mit einem Richter obendrauf.`,
+                  objectionBy: 'Sam Harris (sinngemäß)',
+                  answer: `Das Gericht nach den Werken zeigt, ob der Glaube lebendig war – an den Früchten erkennt man den Baum (Mt 7,16). Aber der entscheidende Unterschied bleibt: Karma kann nicht vergeben, ein Richter, der zugleich Vater ist, kann es. Der Schächer am Kreuz hatte keine guten Werke vorzuweisen und hörte: „Heute wirst du mit mir im Paradiese sein" (Lk 23,43). Kein Karmagesetz der Welt kann diesen Satz sprechen.`,
+                  detail: `In Mt 25 staunen die Gerechten selbst – sie haben nicht gerechnet, sondern geliebt. Das ist das Gegenteil eines Kontos, auf dem man Punkte sammelt. Im Karma-Denken ist jede Tat eine Ursache, die ihre Wirkung unausweichlich nach sich zieht; selbst die besten Werke binden noch an den Kreislauf (darum lehrt die Gita das „Handeln ohne Begehren nach Frucht"). Im Evangelium ist das Gericht dagegen die Begegnung mit einer Person, die das Herz kennt und Buße annimmt. Die koptische Liturgie betet deshalb immer wieder um Erbarmen: „Kyrie eleison" – nicht um eine gerechte Abrechnung.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '23,43', quote: `Wahrlich ich sage dir: Heute wirst du mit mir im Paradiese sein.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'oestlich', work: 'Bhagavad Gita', ref: '2,47', original: 'karmaṇy evādhikāras te mā phaleṣu kadācana', quote: `Dein Anrecht ist allein das Handeln, niemals seine Früchte.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Welches Karma-Gesetz hätte dem Schächer am Kreuz in seiner letzten Stunde das Paradies zusprechen können?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

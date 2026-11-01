@@ -224,6 +224,125 @@ Derselbe Chrysostomus folgert aus 2 Thess 2,15, die Apostel hätten vieles auch 
         },
       ],
     },
+    {
+      id: 'vaeter-proto-protestanten',
+      objection: `„Eure eigenen Väter waren auf unserer Seite: Athanasius schreibt, die heiligen, gottgehauchten Schriften genügen zur Verkündigung der Wahrheit. Kyrill von Jerusalem sagt seinen Täuflingen: Glaubt mir nicht, wenn ich es nicht aus der Schrift beweise. Das ist Sola Scriptura im 4. Jahrhundert."`,
+      objectionBy: 'James White / Gavin Ortlund',
+      answer: `Beide Zitate sind echt – und die Orthodoxie unterschreibt sie: Die Schrift enthält den ganzen rettenden Glauben, und kein Lehrer darf etwas gegen sie lehren. Aber lies weiter: Derselbe Athanasius beruft sich gegen die Arianer auf „die Überlieferung, Lehre und den Glauben der katholischen Kirche von Anfang an, die der Herr gab, die Apostel verkündeten und die Väter bewahrten". Und derselbe Kyrill übergibt seinen Täuflingen das Glaubensbekenntnis zum Auswendiglernen – „nicht auf Papier, sondern ins Herz" – und führt sie danach in die Mysterien ein. Für die Väter waren Schrift und Überlieferung kein Entweder-oder.`,
+      detail: `Protestantische Patristiker zitieren gern Athanasius, *Contra Gentes* 1, und Kyrill von Jerusalem, *Katechesen* 4,17. Beide Stellen betonen die **materiale Suffizienz** der Schrift: Alles, was zum Heil nötig ist, steht in ihr. Das bestreitet die koptische Kirche nicht.
+
+Sola Scriptura behauptet aber mehr: dass die Schrift die **einzige unfehlbare Norm** ist und von jedem Gläubigen ohne verbindliche kirchliche Auslegung hinreichend klar verstanden werden kann (formale Suffizienz). Genau das vertreten die Väter nicht. Athanasius widerlegt die Arianer, die ebenfalls die Schrift zitierten, mit dem **„Skopos"** (Grundsinn) der Schrift, wie ihn die Kirche bekennt, und mit dem Glauben „von Anfang an" (*An Serapion* 1,28). Kyrill erklärt das Glaubensbekenntnis als Zusammenfassung der Schrift, die man im Gedächtnis bewahren soll (*Katechesen* 5,12) – also eine von der Kirche überlieferte Leseregel.
+
+Die Väter-Zitate beweisen also, was wir ohnehin glauben: Die Tradition fügt der Schrift keinen fremden Inhalt hinzu, sondern ist ihre authentische Auslegung in der Kirche.`,
+      voices: [
+        {
+          person: 'athanasius',
+          role: 'als Verteidiger von Nizäa gegen schriftzitierende Arianer',
+          text: `Athanasius hält die Schrift für vollkommen ausreichend zur Verkündigung der Wahrheit – und erlebt zugleich, dass die Arianer mit Bibelversen wie Spr 8,22 oder Joh 14,28 argumentieren. Seine Antwort ist nicht „noch mehr Verse", sondern der Grundsinn (Skopos) der ganzen Schrift, wie ihn die Kirche von den Aposteln her bewahrt. Wer diesen Skopos verlässt, liest die richtigen Worte im falschen Sinn.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Contra Arianos)', ref: 'III,28–29', quote: `Der Skopos und Grundzug der Heiligen Schrift ist ein doppelter Bericht über den Erlöser: dass er immer Gott war und der Sohn ist – und dass er später um unseretwillen Fleisch annahm. Wer dies beachtet, wird nicht in die Irre gehen.`, status: 'paraphrase' },
+          ],
+        },
+        {
+          person: 'kyrill-jerusalem',
+          role: 'als Katechet der Jerusalemer Kirche',
+          text: `Kyrill verlangt, dass jede Glaubensaussage aus der Schrift erwiesen wird – und überreicht im selben Atemzug das Glaubensbekenntnis der Kirche als Summe der Schrift, die die Täuflinge auswendig lernen und im Herzen bewahren sollen. Für ihn ist das kein Widerspruch: Die Kirche überliefert, was die Schrift lehrt, und schützt so den Laien vor willkürlicher Auslegung.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Katechesen', ref: '5,12', year: 'um 350', quote: `Das Glaubensbekenntnis wurde nicht nach menschlichem Gutdünken zusammengestellt, sondern das Wichtigste aus der ganzen Schrift zusammengefasst; bewahrt es, indem ihr es nicht auf Papier schreibt, sondern ins Herz einprägt.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '1', quote: `Die heiligen und gottgehauchten Schriften genügen zwar zur Verkündigung der Wahrheit; doch gibt es auch Schriften seliger Lehrer, die zu ihrem Verständnis hinführen.`, status: 'paraphrase', note: 'Beachte den zweiten Halbsatz: Athanasius verweist selbst auf die Lehrer der Kirche als Auslegungshilfe.' },
+        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Briefe an Serapion', ref: '1,28', quote: `Betrachten wir die Überlieferung, die Lehre und den Glauben der katholischen Kirche von Anfang an, die der Herr gab, die Apostel verkündeten und die Väter bewahrten; auf sie ist die Kirche gegründet.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Katechesen', ref: '4,17', quote: `Glaube mir nicht einfach, wenn ich dir dies sage, es sei denn, du erhältst den Beweis des Verkündeten aus den göttlichen Schriften.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn Athanasius Sola Scriptura lehrte – warum beruft er sich dann gegen die Arianer auf den Glauben der Kirche „von Anfang an"?`,
+        `Hätten die Arianer Kyrills Satz „beweise es aus der Schrift" nicht ebenso unterschrieben?`,
+      ],
+      followUps: [
+        {
+          id: 'materiale-suffizienz-reicht',
+          objection: `„Dann sind wir uns doch einig: Alles Heilsnotwendige steht in der Schrift. Wozu braucht ihr dann noch die Tradition als Autorität? Sie fügt ja angeblich nichts hinzu."`,
+          objectionBy: 'James White',
+          answer: `Weil die Streitfrage nie war, *ob* alles in der Schrift steht, sondern **wer sie verbindlich auslegt**. Arius, Nestorius und die Gnostiker hatten dieselben Texte wie die Kirche. Die Tradition ist kein zweiter Inhalt neben der Bibel, sondern die von den Aposteln her gelebte Lesart der Bibel – sozusagen ihr „Hausrecht". Ohne sie bleibt nur die Mehrheit der Exegeten oder das eigene Urteil – und dann haben wir die heutige Zersplitterung.`,
+          detail: `Georges Florovsky formulierte es so: Die Tradition ist keine zusätzliche Quelle, sondern das ständige Zeugnis des Heiligen Geistes in der Kirche; die Schrift wurde der Kirche gegeben und kann nur in ihr recht verstanden werden. Auch reformierte Theologen wie Keith Mathison (*The Shape of Sola Scriptura*) bestreiten das „Solo Scriptura" des Einzelnen und betonen die *regula fidei* – und geben damit zu, dass ein Auslegungsrahmen nötig ist.
+
+Der Unterschied liegt also nicht im **Inhalt**, sondern im **Ort** der Auslegung: Für die Orthodoxie ist dieser Ort die Kirche mit ihrer ununterbrochenen Glaubens- und Gebetspraxis, für den Protestantismus letztlich das Gewissen des Einzelnen vor dem Text.`,
+          voices: [
+            {
+              person: 'florovsky',
+              role: 'als orthodoxer Patristiker',
+              text: `Florovsky beschreibt die Tradition nicht als Archiv neben der Bibel, sondern als lebendige Kontinuität des Geistes in der Kirche. Die Schrift ist das Buch der Kirche; außerhalb der kirchlichen Erfahrung wird sie zu einem Steinbruch für beliebige Systeme. Darum ist „zurück zu den Vätern" für ihn nicht Archäologie, sondern Treue zum Geist, der die Schrift eingegeben hat.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Georges Florovsky', work: 'Bible, Church, Tradition: An Eastern Orthodox View', year: '1972', quote: `Die Schrift gehört der Kirche; Tradition ist das Zeugnis des Geistes und die rechte Auslegung der Schrift, nicht eine zweite, unabhängige Quelle.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Keith A. Mathison', work: 'The Shape of Sola Scriptura', year: '2001', quote: `Unterscheidung zwischen reformatorischem „Sola Scriptura" (Schrift als höchste Norm innerhalb der kirchlichen Glaubensregel) und modernem individualistischem „Solo Scriptura".`, status: 'paraphrase', note: 'Reformierter Autor – sein Zugeständnis zeigt, dass auch Protestanten einen kirchlichen Auslegungsrahmen brauchen.' },
+          ],
+          followUps: [
+            {
+              id: 'basilius-nur-braeuche',
+              objection: `„Euer Kronzeuge Basilius nennt als ‚ungeschriebene Überlieferungen' nur Bräuche: nach Osten beten, das Kreuzzeichen, dreimaliges Untertauchen, die Segnung des Wassers. Das sind liturgische Gewohnheiten, keine Lehren. Die ‚Tradition' ist dogmatisch leer."`,
+              objectionBy: 'Gavin Ortlund',
+              answer: `Basilius nennt diese Bräuche gerade, um eine **Lehre** zu beweisen: die Gottheit des Heiligen Geistes. Die Art, wie die Kirche betet und tauft, trägt den Glauben – „das Gesetz des Betens ist das Gesetz des Glaubens". Und bemerkenswert: Die koptische Kirche hält bis heute jeden einzelnen dieser Bräuche – Kreuzzeichen, Gebet nach Osten, Epiklese, Segnung von Wasser und Öl, dreimaliges Untertauchen, Absage an den Satan. Basilius warnt, wer diese Überlieferungen als unwichtig verwirft, beschädige das Evangelium in seinem Kern.`,
+              detail: `In *Über den Heiligen Geist* 27,66 unterscheidet Basilius zwischen dem, was in der Schrift geschrieben steht, und dem, was „im Geheimnis" von den Aposteln überliefert wurde – beides habe „dieselbe Kraft für die Frömmigkeit". Sein Ziel ist die Doxologie „mit dem Geist": Die gottesdienstliche Praxis der Kirche, den Geist gemeinsam mit Vater und Sohn anzubeten, belegt, dass der Geist Gott ist – lange bevor das Konzil von Konstantinopel (381) es formulierte.
+
+Das zeigt: Liturgie ist nicht dogmatisch leer, sondern **gelebtes Dogma**. Wer etwa die Taufe nicht mehr als Wiedergeburt feiert, verliert nach einigen Generationen auch die Lehre von der Taufwiedergeburt – die Geschichte des Protestantismus bestätigt das.`,
+              voices: [
+                {
+                  person: 'basilius',
+                  role: 'als Verteidiger der Gottheit des Heiligen Geistes',
+                  text: `Basilius argumentiert, dass niemand die ungeschriebenen Überlieferungen verachten kann, ohne das Evangelium selbst zu verkürzen: Woher hätten wir sonst das Kreuzzeichen, das Gebet nach Osten, die Worte der Epiklese oder das dreimalige Untertauchen? Diese Praxis der ganzen Kirche bezeugt, dass der Geist zusammen mit Vater und Sohn angebetet wird – und damit seine Gottheit.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Über den Heiligen Geist (De Spiritu Sancto)', ref: '27,66', year: 'um 375', quote: `Von den in der Kirche bewahrten Lehren und Verkündigungen haben wir die einen aus der schriftlichen Unterweisung, die anderen aus der Überlieferung der Apostel im Geheimnis empfangen; beide haben dieselbe Kraft für die Frömmigkeit.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn die Taufpraxis „nur ein Brauch" ist – warum streiten Baptisten und Lutheraner seit 500 Jahren über ihren Lehrgehalt?`,
+              ],
+              followUps: [
+                {
+                  id: 'alt-ist-nicht-apostolisch',
+                  objection: `„Das ist ein Zirkel: Basilius beweist die Lehre aus dem Brauch, und der Brauch gilt, weil er alt ist. Alt ist aber nicht apostolisch. Wie prüfst du, ob ein Brauch wirklich von den Aposteln kommt?"`,
+                  objectionBy: 'James White',
+                  answer: `Mit einem öffentlichen, historischen Test: Was Kirchen gemeinsam haben, die sich schon im 5. Jahrhundert getrennt haben – Kopten, Syrer, Armenier, Äthiopier, Byzantiner und Lateiner –, muss älter sein als ihre Trennung. Alle kennen sieben heilige Handlungen, die Epiklese, das Gebet für die Entschlafenen, das Kreuzzeichen, die Kindertaufe. Dazu kommen Schriftgemäßheit und frühe Bezeugung. Das ist kein Zirkel, sondern derselbe Weg, auf dem du selbst den NT-Kanon als apostolisch annimmst.`,
+                  detail: `Vinzenz von Lérins (um 434) formulierte die Regel: festhalten, was „überall, immer und von allen" geglaubt wurde – Universalität, Altertum, Übereinstimmung. Dabei räumt er ein, dass es Lehrentwicklung im Sinn von Entfaltung gibt, nicht aber Veränderung.
+
+Ehrliches Zugeständnis: Nicht jeder alte Brauch ist Dogma, und die koptische Kirche unterscheidet zwischen der einen Heiligen Tradition und vielen kirchlichen Gewohnheiten, die sich ändern dürfen (etwa die Länge mancher Fastenzeiten oder Gottesdienstsprachen). Aber gerade diese Unterscheidung ist mit historischen Mitteln möglich – während Sola Scriptura für den Kanon selbst keine Antwort aus der Schrift hat.`,
+                  voices: [
+                    {
+                      person: 'vinzenz-lerin',
+                      role: 'als Formulierer des altkirchlichen Traditionskriteriums',
+                      text: `Vinzenz fragt, wie man bei gleicher Bibel Wahrheit von Häresie unterscheidet – denn die Häretiker zitieren die Schrift eifrig. Seine Antwort: Die Schrift wird nach der Auslegung der katholischen Kirche gelesen, geprüft an Universalität, Altertum und Übereinstimmung. Fortschritt im Verständnis ist erlaubt, solange es Wachstum desselben Glaubens ist, wie ein Kind zum Mann heranwächst.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Vinzenz von Lérins', work: 'Commonitorium', ref: '2,5–6', year: 'um 434', quote: `In der katholischen Kirche ist sehr darauf zu achten, dass wir festhalten, was überall, was immer, was von allen geglaubt worden ist.`, status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'pelikan',
+                      role: 'als Dogmenhistoriker',
+                      text: `Pelikan hat in seiner Dogmengeschichte gezeigt, dass Lehre in der Alten Kirche wesentlich in Gebet und Liturgie überliefert wurde und dass Kontinuität historisch nachprüfbar ist. Seine Unterscheidung „Tradition ist der lebendige Glaube der Toten, Traditionalismus der tote Glaube der Lebenden" hilft, echte Überlieferung von bloßer Gewohnheit zu trennen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Jaroslav Pelikan', work: 'The Vindication of Tradition', year: '1984', quote: `Tradition ist der lebendige Glaube der Toten; Traditionalismus ist der tote Glaube der Lebenden.`, original: `Tradition is the living faith of the dead; traditionalism is the dead faith of the living.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Woher weißt du, dass der Hebräerbrief apostolisch ist – aus dem Text selbst oder aus der Rezeption der alten Kirchen?`,
+                    `Wie erklärst du, dass Kirchen, die seit 451 getrennt sind und einander nichts abgeschaut haben, in Sakramenten und Liturgie übereinstimmen?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welches konkrete Gebot Gottes hebt die Kindertaufe, das Kreuzzeichen oder das Freitagsfasten auf – so wie die Korban-Regel das vierte Gebot aufhob?`,

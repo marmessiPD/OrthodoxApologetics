@@ -88,7 +88,32 @@ const claim: Claim = {
               objection: `Die im Wissen Gefestigten – die Gelehrten – kennen die Deutung. Man muss eben die Gelehrten fragen.`,
               objectionBy: 'Yasir Qadhi',
               answer: `Dann ist der Koran für den einfachen Gläubigen nicht aus sich heraus klar; er braucht Gelehrte, Tradition und Auslegung. Das ist genau das, was die orthodoxe Kirche über die Bibel sagt – und was Muslime den Kirchen oft vorwerfen. Wir sind uns also einig: Ein heiliger Text wird in einer Gemeinschaft und mit Lehrern verstanden.`,
+              followUps: [
+                {
+                  id: 'ijma-gegen-kirchenspaltung',
+                  objection: `Der Unterschied ist: Unsere Gelehrten haben einen Konsens (*ijmāʿ*). Eure Kirchen widersprechen sich gegenseitig.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Auch der Konsens ist im Islam umstritten: Wessen Konsens zählt – der Gefährten, der Gelehrten einer Generation, der Sunniten oder auch der Schiiten? Ahmad ibn Hanbal wird sogar der Satz zugeschrieben, wer Konsens behaupte, der lüge – weil man ihn kaum nachweisen könne. Und die orthodoxen Kirchen – Kopten, Syrer, Armenier, Äthiopier und die byzantinische Orthodoxie – bekennen bis heute dasselbe Nizänische Glaubensbekenntnis. Den Kern des Glaubens teilen auch die meisten anderen Christen. Einheit im Wesentlichen bei Vielfalt im Einzelnen gibt es in beiden Gemeinschaften.`,
+                  detail: `Die koptische Kirche versteht sich als ununterbrochene Fortsetzung der Kirche des hl. Markus in Alexandrien. Ihr Glaube wird in der Liturgie bewahrt, die seit Jahrhunderten nahezu unverändert gefeiert wird – das ist eine Form der Überlieferung, die dem islamischen *tawātur* durchaus ähnelt. Wer christliche Uneinigkeit anführt, meint meist die Folgen der protestantischen Spaltungen des 16. Jahrhunderts; die alten Kirchen des Ostens kennen dieses Problem in dieser Form nicht.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Ahmad ibn Hanbal (überliefert von seinem Sohn Abdallah)', work: 'Masa\'il al-Imam Ahmad', quote: `Wer Konsens (ijmāʿ) behauptet, der lügt; vielleicht waren die Leute uneins, ohne dass er es weiß.`, status: 'paraphrase', note: 'Vielzitierte Aussage; Wortlaut und genaue Fundstelle je nach Ausgabe – nicht wörtlich verwenden.' },
+                  ],
+                  questionsBack: [
+                    `Wessen Konsens meinst du – und schließt er die Schiiten ein?`,
+                  ],
+                },
+              ],
             },
+          ],
+        },
+        {
+          id: 'muqattaat-sind-zeichen',
+          objection: `Die geheimnisvollen Buchstaben am Anfang der Suren sind gerade ein Zeichen: Aus genau diesen Buchstaben besteht der Koran – und doch könnt ihr nichts Gleiches hervorbringen.`,
+          objectionBy: 'Hamza Andreas Tzortzis',
+          answer: `Das ist eine von mehr als einem Dutzend klassischen Deutungen – andere sehen darin Abkürzungen von Gottesnamen, Namen der Suren, Zahlencodes oder ein Geheimnis, das nur Gott kennt. Genau das ist mein Punkt: Wenn 29 Suren mit Buchstaben beginnen, über deren Bedeutung die Gelehrten seit 1.400 Jahren uneins sind, dann ist der Koran nicht in jeder Hinsicht „ausführlich dargelegt". Das ist kein Vorwurf – jede heilige Schrift hat Geheimnisse. Aber es widerlegt die Behauptung vollkommener Klarheit.`,
+          detail: `Rashad Khalifa baute auf diesen Buchstaben seine Theorie eines „Code 19" auf und erklärte schließlich zwei Verse (9:128–129) für unecht, weil sie nicht in sein Zahlensystem passten – die große Mehrheit der Muslime hat ihn deshalb abgelehnt. Das zeigt, wohin die Suche nach verborgenen Beweisen führen kann. Christen sollten das nicht spöttisch anführen, sondern als Warnung, die auch für christliche Zahlenspekulationen gilt.`,
+          questionsBack: [
+            `Wenn die Bedeutung von „Alif Lam Mim" bis heute umstritten ist – in welchem Sinn ist der Koran dann „eine Darlegung aller Dinge"?`,
           ],
         },
       ],
