@@ -157,8 +157,45 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Ob Muhammad Gott gesehen hat, war schon unter den Gefährten umstritten: Nach einer Überlieferung bei Bukhari sagte Aisha, wer behaupte, Muhammad habe seinen Herrn gesehen, der lüge. Und für die meisten Offenbarungen nennt der Islam selbst einen Vermittler – den Engel Gabriel (2:97). Mose dagegen sprach mit Gott „von Mund zu Mund" ohne Vermittler (Num 12,8). Auch das Wunderkriterium fehlt nach dem Koran: „Uns hat nichts davon abgehalten, die Zeichen zu senden, als dass die Früheren sie für Lüge erklärten" (17:59).`,
           sources: [
-            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: 'Buch des Tafsir, zu Sure 53 (an-Najm)', quote: `Aisha sagte: Wer dir erzählt, dass Muhammad seinen Herrn gesehen hat, der lügt.`, translation: 'sinngemäß', status: 'paraphrase', note: 'Häufig als Bukhari 4855 zitiert (vgl. Muslim 177) – Nummer vor Verwendung prüfen. Andere Gefährten (z. B. Ibn ʿAbbas) vertraten eine Schau mit dem Herzen.' },
+            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4855 (Buch des Tafsir, zu Sure 53 an-Najm; vgl. Muslim 177)', quote: `Aisha sagte: Wer dir erzählt, dass Muhammad seinen Herrn gesehen hat, der lügt.`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/bukhari:4855', note: 'Nummer nach sunnah.com-Zählung geprüft (2026): Bericht des Masruq; Aisha beruft sich auf 6:103 und erklärt, Muhammad habe Gabriel zweimal in seiner wahren Gestalt gesehen. Andere Gefährten (z. B. Ibn ʿAbbas, vgl. Tirmidhi 3279) vertraten eine Schau – nach manchen Berichten mit dem Herzen.' },
             { kind: 'koran', work: 'Sure 17 (al-Isra)', ref: '17:59', quote: `Und nichts hielt Uns davon ab, die Zeichen zu senden, außer dass die Früheren sie für Lüge erklärten.`, original: `wa-mā manaʿanā an nursila bi-l-āyāti illā an kadhdhaba bihā l-awwalūn`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/17/59' },
+          ],
+          followUps: [
+            {
+              id: 'ibn-abbas-schau-mit-dem-herzen',
+              objection: `Aishas Meinung ist nur eine von mehreren. Ibn ʿAbbas überliefert, dass Muhammad seinen Herrn gesehen hat – mit dem Herzen. Das ist eine Gottesbegegnung, die der des Mose gleichkommt.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Eine Schau „mit dem Herzen" ist etwas anderes als das, was die Tora über Mose sagt: „Mündlich rede ich mit ihm, und er sieht den HERRN in seiner Gestalt" (Num 12,8). Und Dtn 34,10–12 nennt ein zweites Merkmal: die Zeichen und Wunder, die Mose „vor den Augen ganz Israels" tat. Gerade hier lässt der Koran Muhammad mehrfach ablehnen: Als man Zeichen forderte, sollte er antworten: „Bin ich denn etwas anderes als ein Mensch, ein Gesandter?" (17:93), und: „Die Zeichen sind allein bei Allah, und ich bin nur ein deutlicher Warner" (29:50).`,
+              detail: `In 17:90–93 verlangen die Mekkaner konkrete Zeichen – eine Quelle aus der Erde, einen Garten, dass der Himmel herabfalle, einen Aufstieg zum Himmel mit einem Buch. Die Antwort lautet: „Preis sei meinem Herrn! Bin ich denn etwas anderes als ein Mensch, ein Gesandter?" Das Deuteronomium dagegen verbindet die Einzigartigkeit des Mose ausdrücklich mit öffentlichen Machttaten vor Pharao und dem ganzen Volk. Jesus erfüllt beides: Er kennt den Vater wie niemand sonst (Mt 11,27; Joh 1,18) und tut öffentlich Zeichen vor dem ganzen Volk – was selbst seine Gegner nicht bestritten, sondern dämonischer Macht zuschrieben (Mk 3,22). Auch der Koran bezeugt Jesu Wunder (3:49; 5:110).`,
+              sources: [
+                { kind: 'hadith', work: 'Sahih Muslim', ref: '176 (Kitab al-Iman)', quote: `Ibn ʿAbbas sagte: Er hat ihn mit seinem Herzen gesehen, zweimal.`, translation: 'sinngemäß', status: 'paraphrase', note: 'Nummer nach gängiger sunnah.com-Zählung; nicht eigens geprüft.' },
+                { kind: 'koran', work: 'Sure 29 (al-ʿAnkabut)', ref: '29:50', quote: `Und sie sagen: „Warum wurden ihm keine Zeichen von seinem Herrn herabgesandt?" Sag: Die Zeichen sind allein bei Allah, und ich bin nur ein deutlicher Warner.`, original: `qul innamā l-āyātu ʿinda llāhi wa-innamā ana nadhīrun mubīn`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/29/50' },
+                { kind: 'bibel', work: 'Deuteronomium (5. Mose)', ref: '34,10–12', quote: `Und es stand hinfort kein Prophet in Israel auf wie Mose, den der HERR erkannt hätte von Angesicht zu Angesicht, zu allerlei Zeichen und Wundern … und zu aller dieser mächtigen Hand und den großen Gesichten, die Mose tat vor den Augen des ganzen Israel.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `Welche Zeichen tat Muhammad nach dem Koran selbst „vor den Augen" seines ganzen Volkes – wie Mose vor Pharao?`,
+              ],
+              followUps: [
+                {
+                  id: 'koran-ist-das-wunder',
+                  objection: `Der Koran selbst ist das größte Wunder – unnachahmlich in Sprache und Inhalt. Und die Hadithe berichten von vielen weiteren Zeichen: der Spaltung des Mondes (54:1), Wasser, das aus seinen Fingern floss, Speise, die sich vermehrte.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Die literarische Schönheit des Korans erkenne ich an – aber sie ist ein anderes Zeichen als das, was Dtn 34 beschreibt: Machttaten vor einem ganzen Volk. Literarische Einzigartigkeit beanspruchen auch andere Werke, und ihr Urteil hängt am Geschmack der Leser. Die Wunderberichte der Hadithe stammen aus Sammlungen, die rund zwei Jahrhunderte nach Muhammad entstanden, und stehen in Spannung zu den koranischen Versen, in denen er Zeichen ablehnt (17:59; 17:93; 29:50). Und 54:1 deuten auch muslimische Ausleger teils endzeitlich: „Die Stunde ist nahegekommen, und der Mond hat sich gespalten."`,
+                  detail: `Die Herausforderung, etwas Gleichwertiges wie den Koran hervorzubringen (*taḥaddī*, z. B. 2:23), ist für Muslime ein starkes Argument. Fair bleiben: Viele Araber haben die Sprache des Korans als überwältigend erlebt. Der Haken ist methodisch: Wer bestimmt, was „gleichwertig" ist, und nach welchen Maßstäben? Das Kriterium der Tora dagegen ist öffentlich und überprüfbar. Bei den Wunderhadithen gilt: Die Berichte sind respektvoll zu behandeln, aber sie sind spät gesammelt und stehen im Widerspruch zur koranischen Linie, nach der Muhammad gerade *kein* Wundertäter sein sollte. Auch die frühe christliche Polemik (etwa Johannes von Damaskus) wies darauf hin, dass Muhammad nach dem Koran keine Zeichen vorweisen wollte.`,
+                  voices: [
+                    { person: 'johannes-damaskus', role: 'als früher christlicher Kenner des Islam', text: `Johannes von Damaskus fragt in seiner Darstellung des Islam, warum Mose seine Sendung durch öffentliche Zeichen am Sinai vor dem ganzen Volk bestätigt bekam, Muhammad aber nach eigener Aussage keine Zeichen bringen sollte. Für ihn ist die öffentliche Bezeugung ein Kennzeichen wahrer Prophetie nach der Ordnung der Schrift.` },
+                  ],
+                  sources: [
+                    { kind: 'koran', work: 'Sure 54 (al-Qamar)', ref: '54:1', quote: `Die Stunde ist nahegekommen, und der Mond hat sich gespalten.`, original: `iqtarabati s-sāʿatu wa-nshaqqa l-qamar`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/54/1' },
+                    { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Über die Häresien, Kap. 100 (101)', year: 'ca. 743', status: 'paraphrase', note: 'Fragt nach Zeugen und Zeichen für Muhammads Sendung im Vergleich zu Mose am Sinai.' },
+                  ],
+                  questionsBack: [
+                    `Warum lehnt Muhammad im Koran mehrfach ab, Zeichen zu wirken, wenn die Hadithe später so viele berichten?`,
+                    `Nach welchem objektiven Maßstab soll ein Außenstehender die Unnachahmlichkeit des Korans prüfen?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -178,6 +215,22 @@ const claim: Claim = {
           objection: `Jesaja 29,12 sagt sogar: „Man gibt das Buch einem, der nicht lesen kann, und spricht: Lies! Er aber spricht: Ich kann nicht lesen." Das ist die erste Offenbarung an Muhammad (Bukhari 3: „Ich kann nicht lesen").`,
           objectionBy: 'Zakir Naik',
           answer: `Lies den Zusammenhang: Jesaja spricht über Jerusalem („Ariel", 29,1) und ihre geistliche Blindheit. Die Offenbarung ist ihnen wie ein versiegeltes Buch: Der Gelehrte sagt „Es ist versiegelt", der Ungelehrte „Ich kann nicht lesen" (29,11–12) – beide versagen. Das ist eine Gerichtsrede über Israels Verstocktheit, keine Ankündigung eines Propheten. Jesus zitiert das Kapitel in diesem Sinn (Mt 15,8–9 nach Jes 29,13).`,
+          followUps: [
+            {
+              id: 'qera-ist-iqra',
+              objection: `Aber das hebräische Wort in Jes 29,12 ist *qᵉrāʾ* – „Lies!" –, genau das arabische *iqraʾ* aus Sure 96,1. Und die Antwort „Ich kann nicht lesen" entspricht wörtlich Muhammads *mā ana bi-qāriʾ*. Das kann kein Zufall sein.`,
+              objectionBy: 'Zakir Naik',
+              answer: `*Qaraʾa* ist im Hebräischen wie im Arabischen das gewöhnliche Wort für „lesen, rufen, vortragen" – es kommt in der Bibel hunderte Male vor. Ein gemeinsames Verb in zwei verwandten Sprachen ist kein Hinweis auf eine Prophezeiung. Entscheidend ist der Zusammenhang: In Jes 29,11–12 geht es um ein *versiegeltes* Buch, das *niemand* versteht – weder der Gelehrte noch der Ungelehrte. Das Bild beschreibt Israels Verstocktheit, und der nächste Vers sagt warum: „Dies Volk naht sich mir mit seinem Munde … aber ihr Herz ist ferne von mir" (29,13).`,
+              detail: `Hinzu kommt: In Jes 29,12 wird dem Ungelehrten ein Buch gereicht, das er lesen soll – in den Berichten von der ersten Offenbarung (Bukhari 3) gibt es kein Buch, sondern der Engel fordert zum Vortragen auf. Wer einzelne Wörter isoliert, kann fast jede Gestalt der Geschichte in der Bibel „finden". Darum ist die Grundregel jeder Auslegung, die auch muslimische Gelehrte für den Koran beanspruchen: Ein Vers wird aus seinem Zusammenhang verstanden (*siyāq*). Für das Gespräch: Lies Jes 29,9–14 gemeinsam vor; der Zusammenhang spricht für sich.`,
+              sources: [
+                { kind: 'bibel', work: 'Jesaja', ref: '29,11–13', quote: `… daß ihr all die Gesichte sein werden wie die Worte eines versiegelten Buches … Oder gleich als wenn man's gäbe dem, der nicht lesen kann, und spräche: Lieber, lies das! und er spräche: Ich kann nicht lesen. Und der HERR spricht: Darum daß dies Volk zu mir naht mit seinem Munde und mit seinen Lippen mich ehrt, aber ihr Herz ferne von mir ist …`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `Über wen spricht Jesaja in 29,13 – „dies Volk, das sich mir mit dem Munde naht"?`,
+                `Wird Muhammad in der Höhle Hira ein versiegeltes Buch gereicht?`,
+              ],
+            },
+          ],
         },
       ],
     },
