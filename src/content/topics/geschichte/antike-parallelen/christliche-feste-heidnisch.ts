@@ -160,7 +160,7 @@ const claim: Claim = {
                 {
                   id: 'natalis-invicti-gleicher-tag',
                   objection: `Aber im selben Kalender von 354 steht am 25. Dezember „Natalis Invicti", der Geburtstag des Unbesiegten. Und die Väter nennen Christus die „Sonne der Gerechtigkeit". Das ist doch Sonnenkult im christlichen Gewand.`,
-                  objectionBy: "Tim O'Neill",
+                  objectionBy: 'Hermann Usener (religionsgeschichtliche Schule)',
                   answer: `Beide Einträge stehen tatsächlich im Chronographen von 354 – aber welche Feier zuerst da war, lässt sich aus dieser Quelle nicht entscheiden; vorher ist ein Sol-Fest am 25. Dezember nicht belegt. Und die Sonnensymbolik ist biblisch, nicht heidnisch: „Euch aber, die ihr meinen Namen fürchtet, soll aufgehen die Sonne der Gerechtigkeit" (Mal 3,20). Christen haben dieses Bild bewusst gegen die Sonnenverehrung gestellt: Augustinus mahnte, nicht die Sonne zu feiern, sondern den, der die Sonne gemacht hat. Ein Bild umzudeuten ist das Gegenteil davon, eine Gottheit zu übernehmen.`,
                   sources: [
                     { kind: 'bibel', work: 'Maleachi', ref: '3,20 (Luther: 4,2)', quote: `Euch aber, die ihr meinen Namen fürchtet, soll aufgehen die Sonne der Gerechtigkeit und Heil unter ihren Flügeln.`, translation: 'Luther 1912', status: 'verbatim' },
@@ -206,7 +206,7 @@ const claim: Claim = {
                   answer: `Christen versammelten sich am „ersten Tag der Woche" (Apg 20,7; 1 Kor 16,2) und nannten ihn „Herrentag" (Offb 1,10) – Jahrhunderte vor Konstantin, als Tag der Auferstehung. Justin erklärt um 155 dem Kaiser, warum Christen sich am „Tag der Sonne", wie ihr ihn nennt, versammeln: weil Gott an diesem Tag die Schöpfung begann und Christus auferstand. Er benutzt den heidnischen Namen, um verstanden zu werden. Im Koptischen, Griechischen und in vielen Sprachen heißt der Tag bis heute „Tag des Herrn" (Kyriakē).`,
                   sources: [
                     { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '67', year: 'ca. 155', quote: `Am Tag, den man Sonntag nennt, versammeln sich alle; denn es ist der erste Tag, an dem Gott die Welt schuf, und an diesem Tag ist Jesus Christus von den Toten auferstanden.`, status: 'paraphrase' },
-                    { kind: 'bibel', work: 'Offenbarung', ref: '1,10', quote: `Ich war im Geist an des Herrn Tag.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Offenbarung', ref: '1,10', quote: `Ich war im Geist an des Herrn Tag.`, translation: 'Luther 1912', status: 'paraphrase' },
                   ],
                 },
               ],
@@ -229,6 +229,18 @@ const claim: Claim = {
           objection: `Das ist Synkretismus – die Vermischung von Religionen.`,
           objectionBy: 'Populäre Religionskritik',
           answer: `Synkretismus vermischt Glaubensinhalte. Inkulturation drückt denselben Glauben in vertrauten Formen aus und lehnt die fremde Verehrung ab. Die frühen Christen – gerade die koptischen Märtyrer – starben lieber, als ein Körnchen Weihrauch vor den Göttern zu streuen. Das ist das Gegenteil von Synkretismus.`,
+          followUps: [
+            {
+              id: 'weihrauch-gewaender',
+              objection: `Ausgerechnet Weihrauch! Eure Kirche räuchert doch selbst, hat Prozessionen, Gewänder und Lichter – genau wie die heidnischen Tempel.`,
+              objectionBy: 'Populäre Religionskritik',
+              answer: `Weihrauch, Lampen und priesterliche Gewänder stammen aus dem Gottesdienst Israels, nicht aus heidnischen Tempeln: Der Räucheraltar stand im Heiligtum (Ex 30,1–8), Zacharias räucherte im Tempel (Lk 1,9), Maleachi sieht Räucherwerk für Gottes Namen unter allen Völkern (Mal 1,11), und die Offenbarung zeigt Weihrauch als Gebet der Heiligen (Offb 8,3–4). Die Märtyrer verweigerten nicht den Weihrauch als Stoff, sondern das Opfer vor dem Kaiser oder einem Götzen. Entscheidend ist, wem man räuchert.`,
+              sources: [
+                { kind: 'bibel', work: 'Maleachi', ref: '1,11', quote: `An allen Orten soll meinem Namen geräuchert und ein reines Speisopfer geopfert werden.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Offenbarung', ref: '8,4', quote: `Und der Rauch des Räuchwerks vom Gebet der Heiligen ging auf von der Hand des Engels vor Gott.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

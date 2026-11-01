@@ -204,6 +204,18 @@ Die Religionswissenschaftlerin Candy Gunther Brown hat genau diese methodische F
           objection: `Dann ist Gott willkürlich: Er heilt den einen und lässt den anderen sterben.`,
           objectionBy: 'Bart Ehrman',
           answer: `Das ist die Frage nach dem Leid, die eine eigene, ernsthafte Antwort verdient. Wunder sind nach christlichem Verständnis Vorzeichen der kommenden Auferstehung, nicht deren Ersatz – auch Lazarus starb später wieder. Die endgültige Heilung aller ist die Auferstehung. Bis dahin betet die Kirche für alle Kranken und pflegt sie, ob Gott sichtbar eingreift oder nicht.`,
+          followUps: [
+            {
+              id: 'gott-verantwortlich-fuer-rest',
+              objection: `Wenn Gott eingreifen kann und es nur bei wenigen tut, ist er für das Leid aller anderen verantwortlich. Ein Arzt, der ein Heilmittel hat und es nur ein paar Patienten gibt, wäre ein Monster.`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Der Vergleich trägt nur, wenn dieses Leben alles ist und Heilung jetzt das höchste Gut. Das Christentum sagt: Jeder wird geheilt – in der Auferstehung. Gott schiebt nicht die Heilung auf, sondern schenkt jetzt schon Zeichen dessen, was er allen verheißen hat. Und er steht nicht außerhalb des Leids: In Christus hat er selbst gelitten. Das löst nicht jedes Rätsel, aber ein Arzt, der selbst die Krankheit auf sich nimmt, um sie zu besiegen, ist das Gegenteil eines Monsters.`,
+              detail: `Die ausführliche Antwort auf das Problem des Leids findet sich im Themenblock Theodizee. Für das Gespräch über Heilungen genügt: Wunder sind nach den Evangelien „Zeichen" (Joh 20,30–31) – Hinweise auf das Reich Gottes, nicht dessen volle Ankunft. Auch die von Jesus Geheilten starben später. Die Kirche hat deshalb nie aufgehört, Kranke medizinisch zu versorgen: Gebet und Pflege gehören zusammen.`,
+              questionsBack: [
+                `Wenn es eine Auferstehung gibt, in der alle geheilt werden – ist Gott dann immer noch der Arzt, der Heilung verweigert?`,
+              ],
+            },
+          ],
         },
       ],
     },

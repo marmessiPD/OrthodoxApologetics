@@ -133,6 +133,34 @@ const claim: Claim = {
           objection: `Dann war der Großteil der kosmischen Geschichte ohne Menschen sinnlos.`,
           objectionBy: 'Gesprächspartner',
           answer: `Nur, wenn Sinn ausschließlich in Bezug auf Menschen existiert. In Gottes Rede an Hiob freut sich Gott an Wildnis, Meer und Tieren, die kein Mensch je sieht (Hiob 38–41). Die Schöpfung hat Sinn, weil Gott sich an ihr freut – vor uns, neben uns und über uns hinaus.`,
+          followUps: [
+            {
+              id: 'band-zurueckspulen',
+              objection: `Spul das Band des Lebens zurück und lass es noch einmal laufen – es käme mit Sicherheit kein Mensch heraus. Die Geschichte des Lebens ist eine Kette unwahrscheinlicher Zufälle: ein Asteroid hier, ein Massenaussterben dort. Wir sind ein kosmischer Unfall, kein Ziel.`,
+              objectionBy: 'Stephen Jay Gould',
+              answer: `Goulds These ist unter Biologen umstritten. Simon Conway Morris hat ihr mit einer Fülle von Beispielen widersprochen: Linsenaugen, Echoortung, Intelligenz und vieles mehr sind mehrfach unabhängig entstanden – die Evolution findet immer wieder dieselben Lösungen. Und selbst wenn der Weg voller Zufälle war: Für den Glauben ist Zufall kein Gegenspieler Gottes. Was für uns unvorhersagbar ist, ist für den Schöpfer nicht unbeabsichtigt.`,
+              detail: `Gould entwickelte das Bild vom „Zurückspulen des Bandes" in *Wonderful Life* (1989) anhand der Fauna des Burgess-Schiefers. Conway Morris, selbst Burgess-Schiefer-Spezialist, kam in *The Crucible of Creation* (1998) und *Life’s Solution* (2003) zum entgegengesetzten Schluss: Konvergenz zeige, dass der Raum möglicher Lebensformen eng begrenzt sei. Die Debatte ist offen; der Christ muss sie nicht entscheiden, um die Würde des Menschen zu begründen – sie hängt an Gottes Willen, nicht an einem biologischen Determinismus.`,
+              voices: [
+                { person: 'conway-morris', role: 'als Paläontologe', text: `Conway Morris argumentiert, dass die Evolution nicht beliebig ist, sondern immer wieder auf ähnliche Lösungen zuläuft, weil die Möglichkeiten durch Physik, Chemie und Funktion stark eingeschränkt sind. Wenn man das Band zurückspult, entstünde wahrscheinlich etwas sehr Ähnliches – einschließlich intelligenter, werkzeuggebrauchender Wesen.` },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Stephen Jay Gould', work: 'Wonderful Life: The Burgess Shale and the Nature of History', year: '1989', quote: `Würde man das Band des Lebens zurückspulen und neu abspielen, wäre es äußerst unwahrscheinlich, dass wieder Menschen entstünden.`, status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Simon Conway Morris', work: 'Life’s Solution: Inevitable Humans in a Lonely Universe', year: '2003', quote: `Konvergenz zeige, dass die Evolution in hohem Maß vorhersagbar sei; menschenähnliche Intelligenz sei eher zu erwarten als ein Zufall.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Wie erklärst du, dass die Evolution Augen, Echoortung und Intelligenz mehrfach unabhängig hervorgebracht hat, wenn alles reiner Zufall ist?`],
+              followUps: [
+                {
+                  id: 'gelenkter-zufall-widerspruch',
+                  objection: `„Gelenkter Zufall" ist ein Widerspruch in sich. Entweder ist etwas zufällig, oder es ist geplant. Du willst beides haben.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `„Zufall" bedeutet in der Wissenschaft: nicht aus den Gesetzen vorhersagbar, nicht auf das Ergebnis hin ausgerichtet *durch die physikalischen Ursachen selbst*. Es bedeutet nicht: ohne jeden Grund. Ein Würfelwurf ist zufällig im Hinblick auf die Physik des Würfels – und kann trotzdem Teil eines Spiels sein, das jemand bewusst gestaltet hat. Die Bibel sagt das schon vor fast dreitausend Jahren: Das Los wird geworfen, aber es fällt, wie der Herr will (Spr 16,33).`,
+                  detail: `Die Unterscheidung zwischen *Erstursache* (Gott, der allem das Sein gibt) und *Zweitursachen* (den Geschöpfen mit ihrer eigenen Wirksamkeit, einschließlich echter Zufallsprozesse) ist klassisch und geht auf Thomas von Aquin zurück. Sie bedeutet nicht, dass Gott hinter jedem Würfelwurf „eingreift", sondern dass die ganze Ordnung – mit ihren gesetzmäßigen und zufälligen Anteilen – von ihm gewollt und getragen ist. Man muss dieser Sicht nicht zustimmen, aber sie ist widerspruchsfrei.`,
+                  sources: [{ kind: 'bibel', work: 'Sprüche', ref: '16,33', quote: `Das Los wird geworfen in den Schoß; aber es fällt, wie der Herr will.`, status: 'paraphrase' }],
+                  questionsBack: [`Ist ein Würfelwurf in einem bewusst gestalteten Spiel „ungeplant", nur weil sein Ergebnis physikalisch zufällig ist?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
