@@ -146,6 +146,99 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'kyrill-lehrte-filioque',
+      objection: `„Euer eigener Kyrill von Alexandrien sagt, der Geist sei dem Sohn ‚eigen' (*idion*), er gehe ‚aus beiden' hervor und ströme vom Sohn aus. Der größte Vater der Kopten lehrt also das Filioque."`,
+      objectionBy: 'Erick Ybarra / Jimmy Akin',
+      answer: `Kyrill betont, dass der Geist dem Sohn wesenhaft eigen ist – nicht fremd, sondern desselben Wesens – und dass er durch den Sohn gesandt und mitgeteilt wird. Als Theodoret ihm vorwarf, er lasse den Geist sein Dasein vom Sohn haben, antwortete Kyrill: Der Geist geht von Gott dem Vater aus, ist aber dem Sohn nicht fremd. Der Vater bleibt der eine Ursprung; Kyrills Formeln sprechen von Wesensgleichheit und Sendung, nicht von einer zweiten Ursache.`,
+      detail: `Gib ehrlich zu: Kyrills Sprache („aus dem Vater und dem Sohn", „vom Sohn ausströmend") steht der lateinischen Ausdrucksweise nahe und wird von katholischen Theologen mit gutem Grund angeführt. Entscheidend ist, wie Kyrill selbst sich erklärte, als er auf die Frage der Ursache angesprochen wurde – und da hält er am Vater als Quelle fest. Kein Satz Kyrills rechtfertigt zudem eine Änderung des gemeinsamen Glaubensbekenntnisses, das er selbst unverändert bekannte.`,
+      voices: [
+        {
+          person: 'kyrill-alexandrien',
+          role: 'als Lehrer der Dreieinigkeit',
+          text: `Kyrill verteidigt gegen die Pneumatomachen und gegen Nestorius, dass der Geist nicht ein Geschöpf und nicht ein fremdes Wesen ist, sondern der Geist des Sohnes, durch den Christus die Seinen heiligt. In seiner Antwort auf Theodorets Kritik am neunten Anathematismus stellt er klar, dass der Geist aus dem Vater hervorgeht und dem Sohn eigen ist, ohne dass damit dem Sohn die Rolle der Ursache des Geistes zugeschrieben wird.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Thesaurus de sancta et consubstantiali Trinitate', ref: '34', year: 'vor 429', status: 'paraphrase' },
+            { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Verteidigung der zwölf Anathematismen gegen Theodoret', ref: 'zum 9. Anathematismus', year: '431', status: 'paraphrase' },
+          ],
+        },
+      ],
+      followUps: [
+        {
+          id: 'florenz-ein-prinzip',
+          objection: `„Das Konzil von Florenz (1439) hat geklärt: Vater und Sohn sind **ein** Prinzip des Geistes, und das griechische ‚durch den Sohn' meint dasselbe wie das lateinische ‚aus dem Sohn'. Die Griechen haben das damals unterschrieben."`,
+          objectionBy: 'Erick Ybarra',
+          answer: `Die Union von Florenz wurde von den Gläubigen und den Synoden des Ostens bald danach verworfen; Markus von Ephesus verweigerte die Unterschrift. Von der koptischen Kirche unterschrieb 1442 nur eine kleine Delegation ohne Auftrag ihres Synods. Inhaltlich löscht die Gleichsetzung von „durch" und „aus" gerade den Unterschied, auf den die Väter Wert legten: Der Vater allein ist Ursprung (*aitia*) von Sohn und Geist.`,
+          followUps: [
+            {
+              id: 'monarchie-gewahrt',
+              objection: `„Die katholische Lehre wahrt die Monarchie des Vaters: Er ist die Quelle ohne Ursprung, und der Sohn empfängt vom Vater selbst, dass der Geist auch aus ihm hervorgeht. Es gibt also keine zwei Ursachen."`,
+              objectionBy: 'Trent Horn / katholische Dogmatik',
+              answer: `Diese Formulierung ist besser als manche frühere, und wir würdigen sie. Aber wenn der Sohn – wenn auch empfangend – Mit-Ursache der Hypostase des Geistes ist, dann teilen Vater und Sohn die Eigenschaft, Ursache zu sein. Gregor der Theologe sagt dagegen: Alles, was der Vater hat, gehört dem Sohn – **außer der Ursächlichkeit**. Die persönlichen Eigenschaften (Ungezeugtsein und Ursprungsein beim Vater, Gezeugtsein beim Sohn, Hervorgehen beim Geist) sind nicht austauschbar.`,
+              voices: [
+                {
+                  person: 'gregor-nazianz',
+                  role: 'als Theologe der Dreieinigkeit',
+                  text: `Gregor von Nazianz betont, dass Vater, Sohn und Geist das eine göttliche Wesen ganz gemeinsam haben, sich aber durch ihre Ursprungsbeziehungen unterscheiden. Der Vater ist der Ursprung, der Sohn gezeugt, der Geist hervorgehend. Alles, was des Vaters ist, ist auch des Sohnes – mit Ausnahme dessen, dass der Vater Ursache ist.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Reden (Orationes)', ref: '34,10', year: 'um 380', status: 'paraphrase', original: `πλὴν τῆς αἰτίας` }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'warum-so-wichtig',
+                  objection: `„Ist das nicht ein rein akademischer Streit? Was hat ein einfacher koptischer Gläubiger davon?"`,
+                  objectionBy: 'Katholischer Ökumeniker',
+                  answer: `Es geht um zwei sehr praktische Dinge. Erstens um das Bild Gottes: Der Vater ist die eine Quelle der Liebe, aus der Sohn und Geist hervorgehen – Gott ist Gemeinschaft von Personen, nicht ein Wesen, das etwas „produziert". Zweitens um das gemeinsame Bekenntnis: Wenn ein Teil der Kirche das Credo der ganzen Kirche einseitig ändert, ist die Frage berührt, wer in der Kirche entscheidet. Deshalb hängt das Filioque eng mit der Frage des Papstprimats zusammen.`,
+                  voices: [
+                    {
+                      person: 'kallistos-ware',
+                      role: 'als orthodoxer Theologe und Ökumeniker',
+                      text: `Ware beschreibt den Filioque-Streit als doppelten Einwand: einen theologischen, weil die Monarchie des Vaters verdunkelt werde, und einen kirchlichen, weil ein Teil der Kirche das gemeinsame Bekenntnis ohne ökumenisches Konzil verändert habe. Er hält eine Verständigung über das „durch den Sohn" für möglich, wenn die Ursprünglichkeit des Vaters klar bleibt.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Kallistos Ware', work: 'The Orthodox Church', year: '1963, Neuausgabe 1993', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'toledo-gegen-arianer',
+      objection: `„Das Filioque wurde in Spanien (Toledo 589) eingefügt, um gegen die Arianer die volle Gottheit des Sohnes zu betonen. Die Absicht war orthodox – warum dann der Streit?"`,
+      objectionBy: 'Katholischer Kirchenhistoriker',
+      answer: `Die gute Absicht erkennen wir an. Aber das Heilmittel schuf ein neues Problem: Das gemeinsame Bekenntnis wurde regional geändert, nicht durch ein ökumenisches Konzil. Und es war unnötig: Das Nizänum bekennt die Gottheit des Sohnes bereits mit dem *homoousios*, und der Osten hat den Arianismus mit Athanasius und den Kappadokiern ohne Filioque überwunden.`,
+      followUps: [
+        {
+          id: 'jede-tradition-eigene-sprache',
+          objection: `„Ihr Kopten verlangt, dass man eure Formel ‚eine Natur' als rechtgläubig anerkennt, obwohl sie anders klingt als Chalcedon. Dann gesteht dem Westen auch seine Sprache zu – das Filioque ist nur die lateinische Ausdrucksweise desselben Glaubens."`,
+          objectionBy: 'Erick Ybarra',
+          answer: `Ein fairer Vergleich, den wir ernst nehmen: Unterschiedliche Terminologie kann denselben Glauben ausdrücken – das haben Kopten und östliche Orthodoxe 1989/1990 für die Christologie festgestellt. Aber es gibt einen Unterschied: Die Kopten haben „eine Natur" nie in das gemeinsame Bekenntnis von Nizäa-Konstantinopel eingefügt. Ob das Filioque als theologische Meinung rechtgläubig verstanden werden kann, ist eine Frage für den Dialog; seine Einfügung in das Credo der ganzen Kirche bleibt ein einseitiger Akt.`,
+          questionsBack: [`Wärst du einverstanden, wenn die Kopten „eine fleischgewordene Natur" in das gemeinsame Glaubensbekenntnis einfügten?`],
+          followUps: [
+            {
+              id: 'lateinische-vaeter-vor-589',
+              objection: `„Schon vor Toledo lehrten Ambrosius und Augustinus, dass der Geist vom Vater und vom Sohn ausgeht. Die westliche Tradition ist alt und ehrwürdig."`,
+              objectionBy: 'Jimmy Akin',
+              answer: `Das stimmt, und wir geben es zu: Die lateinische Theologie kennt diese Ausdrucksweise seit dem 4. Jahrhundert. Aber erstens als theologische Lehre, nicht als Bekenntnistext. Zweitens ist das lateinische *procedere* weiter als das griechische *ekporeuesthai*, das den Ursprung aus dem Vater allein meint (Joh 15,26) – das hat Rom selbst 1995 anerkannt. Drittens hat der Osten diese Lehre nie als gemeinsamen Glauben übernommen.`,
+              followUps: [
+                {
+                  id: 'dann-werdet-katholisch',
+                  objection: `„Wenn du zugibst, dass das Filioque rechtgläubig verstanden werden kann – warum tretet ihr dann nicht in Gemeinschaft mit Rom, wie es die koptisch-katholische Kirche getan hat?"`,
+                  objectionBy: 'Katholischer Apologet',
+                  answer: `Weil das Filioque nicht das Haupthindernis ist. Die tiefere Frage ist die universale Rechtsgewalt und Unfehlbarkeit des Papstes, dazu Lehren wie die Unbefleckte Empfängnis und das Fegefeuer. Die koptisch-katholischen Christen sind unsere Geschwister, aber die Gründung von Unionskirchen ist kein Weg zur Einheit – das haben Katholiken und östliche Orthodoxe in der Erklärung von Balamand (1993) selbst festgestellt. Einheit wächst im Dialog in Wahrheit und Liebe, wie ihn Papst Schenuda III. und Papst Paul VI. 1973 begonnen haben.`,
+                  sources: [
+                    { kind: 'konzil', work: 'Gemeinsame Internationale Kommission für den theologischen Dialog zwischen der römisch-katholischen und der orthodoxen Kirche, Erklärung von Balamand', year: '1993', status: 'paraphrase', note: 'Der „Uniatismus" wird als Methode der Einheitssuche für die Gegenwart abgelehnt.' },
+                    { kind: 'konzil', work: 'Gemeinsame Erklärung von Papst Paul VI. und Papst Schenuda III.', year: '10. Mai 1973', status: 'paraphrase', note: 'Gemeinsames christologisches Bekenntnis und Beginn des offiziellen Dialogs.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum benutzt Jesus in Joh 15,26 für sich selbst das Verb „senden", für den Vater aber „ausgehen"?`,

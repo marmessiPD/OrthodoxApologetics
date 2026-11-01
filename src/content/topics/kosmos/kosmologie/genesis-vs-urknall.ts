@@ -229,6 +229,29 @@ Ausführlich: Claim „Die Kirchenväter lasen die Genesis wörtlich".`,
       answer: `Ausgerechnet bei der Urknall-Frage war es umgekehrt: Begründet hat die Theorie ein Priester, Lemaître; Widerstand kam unter anderem von Eddington, dem ein Anfang „abstoßend" war, und von Hoyle, der den Begriff „Big Bang" als Etikett für das konkurrierende Modell prägte. Der Galilei-Fall ist komplexer, als die Legende sagt – und Galilei selbst war gläubiger Katholik.`,
       detail: `Zum Fall Galilei siehe den Claim „Der Fall Galilei beweist die Wissenschaftsfeindlichkeit der Kirche".`,
       sources: [{ kind: 'wissenschaft', author: 'Arthur S. Eddington', work: '„The End of the World", Nature 127', year: '1931', quote: `Philosophically, the notion of a beginning of the present order of Nature is repugnant to me.`, status: 'verbatim' }],
+      followUps: [
+        {
+          id: 'lemaitre-gegen-vereinnahmung',
+          objection: `Ausgerechnet Lemaître wollte nicht, dass man seine Theorie religiös ausschlachtet. Als Papst Pius XII. 1951 den Urknall als Bestätigung der Schöpfung feierte, war Lemaître darüber alles andere als glücklich. Du machst genau das, was er ablehnte.`,
+          objectionBy: 'Neil deGrasse Tyson',
+          answer: `Richtig – und das ehrt Lemaître. Ich behaupte auch nicht, der Urknall *beweise* die Genesis. Lemaître sah in seiner Theorie eine physikalische Hypothese, die außerhalb jeder metaphysischen Frage steht, und zugleich war er ein frommer Priester. Gerade das ist mein Punkt: Bei ihm gab es keinen Konflikt zwischen Glaube und Kosmologie. Die Kosmologie widerspricht dem Schöpfungsglauben nicht; ob sie ihn stützt, ist eine eigene, philosophische Frage.`,
+          detail: `Pius XII. sprach am 22. November 1951 vor der Päpstlichen Akademie der Wissenschaften und deutete die Expansion des Universums als Hinweis auf einen Schöpfungsakt. Lemaître fürchtete, dass eine solche Verknüpfung sowohl die Physik als auch den Glauben beschädigen könnte, wenn die Theorie später revidiert würde. Bei späteren Ansprachen äußerte sich der Papst zurückhaltender. Lemaître unterschied „zwei Wege zur Wahrheit": den der Wissenschaft und den des Heils. Für Apologetik heißt das: Der Urknall räumt den Einwand „Das Universum ist ewig, also braucht es keinen Schöpfer" aus dem Weg – mehr nicht, aber auch nicht weniger.`,
+          voices: [
+            { person: 'lemaitre', role: 'als Kosmologe und Priester', text: `Lemaître betonte, dass seine Hypothese des „Uratoms" eine rein physikalische Theorie sei, die man an Beobachtungen messen müsse; sie bleibe außerhalb jeder metaphysischen oder religiösen Frage. Zugleich lehnte er den Gedanken ab, Gott sei nur eine Lückenfüllung am Anfang der Zeit: Gott sei verborgen, und auch am Anfang des Universums finde der Physiker keinen „Beweis", sondern Physik. Glaube und Wissenschaft seien zwei Wege, die sich nicht widersprechen.` },
+          ],
+          sources: [{ kind: 'wissenschaft', author: 'Georges Lemaître', work: '„The Primaeval Atom Hypothesis and the Problem of the Clusters of Galaxies", in: La Structure et l’Évolution de l’Univers (11. Solvay-Konferenz)', year: '1958', quote: `Die Hypothese des Uratoms bleibe, soweit er sehen könne, völlig außerhalb jeder metaphysischen oder religiösen Frage.`, status: 'paraphrase' }],
+          followUps: [
+            {
+              id: 'dann-belegt-urknall-nichts',
+              objection: `Dann gib zu: Der Urknall bestätigt an der Bibel gar nichts. Du kannst ihn nicht gleichzeitig als neutral bezeichnen und als Punktsieg für den Glauben verbuchen.`,
+              objectionBy: 'Lawrence Krauss',
+              answer: `Ich unterscheide: Die Physik selbst ist neutral. Aber sie hat eine Frage entschieden, die jahrhundertelang zwischen Glaube und Unglaube umstritten war – ob das Universum ewig ist. Aristoteles, die Materialisten der Aufklärung und noch Fred Hoyle setzten auf ein ewiges Universum, teils ausdrücklich, weil ein Anfang nach Schöpfung klang. Die Bibel sagte: „Im Anfang." Das beweist Gott nicht; aber es zeigt, auf welcher Seite die Daten gelandet sind. Was den Anfang verursachte, ist dann die philosophische Anschlussfrage.`,
+              detail: `Eddingtons Bekenntnis, ein Anfang sei ihm „philosophisch abstoßend", und Hoyles Unbehagen am „Big Bang" zeigen: Der Widerstand gegen den Anfang war zum Teil weltanschaulich motiviert. Christen sollten daraus keinen Triumph machen, aber auch nicht verschweigen, dass die Vorhersage „Die Welt hat einen Anfang" lange als unwissenschaftlich galt und sich dann durchsetzte. Ausführlich: Claim „Das Universum ist ewig oder zyklisch".`,
+              questionsBack: [`Wenn ein ewiges Universum gefunden worden wäre – hättest du dann auch gesagt, das sei für die Gottesfrage irrelevant?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
