@@ -128,6 +128,95 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'tomus-akklamiert',
+      objection: `„Als Leos Tomus in Chalcedon verlesen wurde, riefen die Väter: ‚Petrus hat durch Leo gesprochen! So hat Kyrill gelehrt!' Die Bischöfe haben den Tomus an Kyrill gemessen und Übereinstimmung festgestellt."`,
+      objectionBy: 'Katholischer Patristiker',
+      answer: `Die Akklamationen sind belegt. Aber dieselben Akten zeigen, dass die Bischöfe aus Illyrien und Palästina an drei Stellen des Tomus Anstoß nahmen; sie mussten erst mit Kyrill-Zitaten erklärt werden. Der Tomus war also nicht selbstverständlich kyrillisch. Vor allem der Satz, jede der beiden „Gestalten" wirke, was ihr eigen ist, klang für Alexandriner nach zwei handelnden Subjekten – genau das, was Nestorius gelehrt hatte. Und in derselben Versammlung wurden Theodoret und Ibas wieder eingesetzt, deren Schriften 553 verurteilt wurden.`,
+      detail: `Für die koptische Kirche war nicht entscheidend, ob Leo persönlich Nestorianer war, sondern dass der Tomus ohne Kyrills zwölf Anathematismen nestorianisch gelesen werden konnte – und tatsächlich so gelesen wurde. Severus von Antiochien hat diese Kritik später ausführlich begründet. Dass Konstantinopel 553 die „Drei Kapitel" verurteilen musste, bestätigt im Nachhinein, dass die Sorge der Alexandriner nicht aus der Luft gegriffen war.`,
+      voices: [
+        {
+          person: 'severus-antiochien',
+          role: 'als Theologe der nichtchalcedonensischen Christologie',
+          text: `Severus kritisiert am Tomus und an der Definition vor allem die Formel „in zwei Naturen", weil sie nach seinem Verständnis zwei selbstständig handelnde Wirklichkeiten nahelegt. Mit Kyrill bekennt er eine fleischgewordene Natur des Gott-Logos aus zwei Naturen, wobei die Gottheit und die Menschheit in ihren Eigenschaften unvermischt erhalten bleiben. Er bekämpfte Nestorius und Eutyches gleichermaßen.`,
+          sources: [{ kind: 'kirchenvater', author: 'Severus von Antiochien', work: 'Contra impium Grammaticum', year: 'um 519', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'fachliteratur', author: 'Richard Price / Michael Gaddis (Übers.)', work: 'The Acts of the Council of Chalcedon, Bd. 2 (2. Sitzung)', year: '2005', status: 'paraphrase', note: 'Akklamationen nach der Verlesung des Tomus und Einwände der illyrischen und palästinensischen Bischöfe.' },
+      ],
+      followUps: [
+        {
+          id: 'severus-verurteilt',
+          objection: `„Severus wurde 536 als Häretiker verurteilt. Eure Christologie stützt sich auf einen verurteilten Mann."`,
+          objectionBy: 'Byzantinisch-orthodoxer Theologe',
+          answer: `Severus kämpfte gegen Eutyches ebenso entschieden wie gegen Nestorius: Er widerlegte Sergius den Grammatiker und Julian von Halikarnassos, der Christi Leib schon vor der Auferstehung für unverweslich hielt – Severus verteidigte die wirkliche, leidensfähige, uns wesensgleiche Menschheit Christi. Die Forschung seit Joseph Lebon (1909) bis Iain Torrance hat gezeigt, dass seine Christologie inhaltlich kyrillisch ist. Seine Verurteilung geschah im Rahmen kaiserlicher Kirchenpolitik.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Joseph Lebon', work: 'Le monophysisme sévérien', year: '1909', status: 'paraphrase', note: 'Katholischer Gelehrter; zeigt, dass Severus inhaltlich die Lehre Kyrills vertritt.' },
+            { kind: 'fachliteratur', author: 'Iain R. Torrance', work: 'Christology after Chalcedon: Severus of Antioch and Sergius the Monophysite', year: '1988', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ein-wille-monotheletismus',
+              objection: `„Wer eine Natur bekennt, muss auch einen Willen und eine Energie bekennen – das ist der Monotheletismus, den das sechste Konzil (681) verurteilt hat."`,
+              objectionBy: 'Byzantinisch-orthodoxer Theologe',
+              answer: `Die koptische Kirche bekennt, dass Christus wahrhaft menschlich will und handelt: Er hungert, fürchtet sich, betet in Gethsemane „nicht wie ich will, sondern wie du willst" (Mt 26,39) – und dass er zugleich göttlich will. Wenn wir von „einem Willen" sprechen, meinen wir das eine wollende Subjekt, den fleischgewordenen Logos, nicht die Abschaffung des menschlichen Willens. Die gemeinsame Erklärung von Chambésy (1990) hält fest: Es ist immer die eine Hypostase des fleischgewordenen Logos, die will und wirkt – göttlich und menschlich, ohne Trennung und ohne Vermischung.`,
+              sources: [
+                { kind: 'konzil', work: 'Zweite Gemeinsame Erklärung der Gemischten Kommission (Chambésy)', year: '1990', status: 'paraphrase', note: 'Beide Kirchenfamilien bekennen den göttlichen und den menschlichen Willen und das Wirken Christi und dass der Wollende und Handelnde stets die eine Hypostase des Logos ist.' },
+              ],
+              followUps: [
+                {
+                  id: 'nur-in-gedanken',
+                  objection: `„Ihr sagt, die Naturen seien nach der Einigung ‚nur in Gedanken' unterscheidbar. Damit leugnet ihr ihr reales Fortbestehen – das ist verkappter Eutychianismus."`,
+                  objectionBy: 'Katholischer Theologe',
+                  answer: `„Nur in der Betrachtung unterscheidbar" heißt nicht, dass die Menschheit eingebildet wäre. Es heißt: Gottheit und Menschheit existieren in Christus nicht als zwei getrennte Wirklichkeiten nebeneinander, sondern sind real geeint; jede bleibt mit ihren Eigenschaften erhalten, aber man kann sie nur im Denken unterscheiden, nicht in der Wirklichkeit auseinanderreißen. Kyrill lehrt genau so. Darum bekennt die koptische Liturgie die Einigung „ohne Vermischung, ohne Verwandlung, ohne Trennung" – gegen Eutyches und gegen Nestorius zugleich.`,
+                  voices: [
+                    {
+                      person: 'kyrill-alexandrien',
+                      role: 'als Lehrer der Einigung',
+                      text: `Kyrill erklärt in den Briefen an Succensus, dass wir den Unterschied der Naturen in der Betrachtung erkennen: Das Fleisch ist nicht Gottheit geworden, und die Gottheit nicht Fleisch. Nach der Einigung teilen wir den einen Christus aber nicht in zwei, sondern bekennen eine fleischgewordene Natur des Logos – so wie der Mensch aus Seele und Leib einer ist, ohne dass Seele und Leib ineinander übergehen.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Zweiter Brief an Succensus', year: 'um 433', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'mia-physis-apollinaristisch',
+      objection: `„Kyrills Formel ‚eine fleischgewordene Natur des Gott-Logos' stammt aus einer Schrift des Apollinaris, die Kyrill für ein Werk des Athanasius hielt. Eure Leitformel ist also apollinaristisch belastet."`,
+      objectionBy: 'Byzantinisch-orthodoxer Theologe',
+      answer: `Es stimmt, dass Kyrill die Formel aus einer Schrift übernahm, die unter dem Namen des Athanasius umlief und tatsächlich von Apollinaris stammte – das geben wir ehrlich zu. Aber Kyrill füllte sie mit rechtgläubigem Inhalt: Er besteht ausdrücklich darauf, dass Christus eine vernünftige menschliche Seele hat – gegen Apollinaris. Und das fünfte Konzil (553), das du anerkennst, hat die Formel „eine fleischgewordene Natur des Gott-Logos" im Sinn Kyrills ausdrücklich als rechtgläubig anerkannt.`,
+      sources: [
+        { kind: 'konzil', work: 'Zweites Konzil von Konstantinopel, Anathematismus 8', year: '553', status: 'paraphrase', note: 'Die Formel „eine Natur des Gott-Logos, fleischgeworden" wird anerkannt, wenn sie wie bei den Vätern verstanden wird, und nur bei eutychianischer Deutung verworfen.' },
+      ],
+      followUps: [
+        {
+          id: 'warum-dann-nicht-annehmen',
+          objection: `„Wenn ihr inhaltlich dasselbe glaubt – warum nehmt ihr dann Chalcedon und die späteren Konzilien nicht einfach an?"`,
+          objectionBy: 'Byzantinisch-orthodoxer Theologe',
+          answer: `Weil es nicht nur um Formeln geht, sondern auch um Geschichte und Anathemata: Chalcedon setzte Dioskur ab, den die koptische Kirche als Heiligen verehrt, und die Kopten wurden für ihre Treue zu Kyrills Sprache verfolgt. Versöhnung verlangt die gegenseitige Aufhebung der Verurteilungen, nicht die einseitige Unterwerfung einer Seite. Die gemeinsame Kommission hat 1990 genau das empfohlen: die Anathemata der Vergangenheit aufzuheben und die gemeinsame Rechtgläubigkeit anzuerkennen.`,
+          followUps: [
+            {
+              id: 'heilige-gegenseitig-verurteilt',
+              objection: `„Aber ihr verurteilt Leo und Chalcedon. Wie sollen wir Gemeinschaft haben, wenn ihr unseren Heiligen einen Häretiker nennt – und wir euren?"`,
+              objectionBy: 'Byzantinisch-orthodoxer Gesprächspartner',
+              answer: `Das ist die schwierigste Frage, und sie verdient Demut statt Rechthaberei. Beide Seiten verehren Personen, die die andere verurteilt hat – Dioskur und Severus auf der einen, Leo auf der anderen Seite. Der Weg, den der Dialog vorgeschlagen hat, ist: jede Person nach dem zu beurteilen, was sie tatsächlich bekannt hat, die Anathemata aufzuheben, ohne von der anderen Seite zu verlangen, die eigenen Heiligen zu verehren. Zuerst kommt die Einheit im Glauben, dann die Heilung der Erinnerungen.`,
+              voices: [
+                {
+                  person: 'bishoy',
+                  role: 'als koptischer Ko-Vorsitzender des orthodoxen Dialogs',
+                  text: `Metropolit Bischoi von Damiette vertrat die koptische Kirche im offiziellen Dialog mit den östlich-orthodoxen Kirchen. Er betonte, dass die Einigung auf der Grundlage Kyrills den gemeinsamen Glauben sichtbar mache und dass die Aufhebung der Anathemata ein Akt der Kirchen selbst sein müsse – in gegenseitigem Respekt vor den Vätern beider Seiten.`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum wurde der erste Entwurf der Definition („aus zwei Naturen") geändert?`,

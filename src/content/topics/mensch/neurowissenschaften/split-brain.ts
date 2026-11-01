@@ -40,7 +40,7 @@ const claim: Claim = {
 - **Philosophie:** Tim Bayne (The Unity of Consciousness, 2010) vertritt ein „Wechselmodell", nach dem jeweils ein einziger Bewusstseinsstrom vorliegt, der zwischen den Hemisphären wechselt.`,
     sources: [
       { kind: 'wissenschaft', author: 'Y. Pinto, D. A. Neville, M. Otten u. a.', work: 'Split brain: divided perception but undivided consciousness', ref: 'Brain 140 (2017), 1231–1237', year: '2017', status: 'paraphrase' },
-      { kind: 'wissenschaft', author: 'L. J. Volz, M. S. Gazzaniga', work: 'Interaction in isolation: 50 years of insights from split-brain research', ref: 'Brain 140 (2017), 2051–2060', year: '2017', status: 'unverified', note: 'Kritische Gegendarstellung aus Gazzanigas Arbeitsgruppe; Titel und Seitenzahlen vor Zitierung prüfen.' },
+      { kind: 'wissenschaft', author: 'L. J. Volz, M. S. Gazzaniga', work: 'Interaction in isolation: 50 years of insights from split-brain research', ref: 'Brain 140 (2017), 2051–2060', year: '2017', status: 'unverified', note: 'Kritische Gegendarstellung aus Gazzanigas Arbeitsgruppe. Existenz und Jahr (Übersichtsarbeit 2017 in der Debatte mit Pinto u. a.) durch zitierende Arbeiten bestätigt; Band/Seitenzahlen nicht unabhängig geprüft (Prüfung Nov. 2026).' },
       { kind: 'wissenschaft', author: 'Roger W. Sperry', work: 'Mind-brain interaction: Mentalism, yes; dualism, no', ref: 'Neuroscience 5 (1980), 195–206', year: '1980', status: 'paraphrase' },
       { kind: 'fachliteratur', author: 'Tim Bayne', work: 'The Unity of Consciousness', year: '2010', status: 'paraphrase' },
     ],

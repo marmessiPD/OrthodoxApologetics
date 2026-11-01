@@ -175,6 +175,58 @@ const claim: Claim = {
           objection: `„Hyperbel" ist eine bequeme Ausrede, wenn der Text unbequem wird.`,
           objectionBy: 'Bart Ehrman',
           answer: `Es wäre eine Ausrede, wenn sie nur hier auftauchte. Aber die Hyperbel ist im Text selbst erkennbar – dieselben Völker, die „ausgerottet" wurden, leben wenige Kapitel später weiter – und sie ist in Dutzenden altorientalischer Feldzugsberichte belegt. Das ist philologische Methode, nicht Apologetik.`,
+          followUps: [
+            {
+              id: 'gebot-nicht-bericht',
+              objection: `Aber Deuteronomium 20,16 ist kein Bericht, sondern ein Gebot: „nichts leben lassen, was Odem hat". Hyperbel im Bericht erklärt nicht das Gebot.`,
+              objectionBy: 'Joel Baden',
+              answer: `Das ist der stärkere Einwand, und er gehört zur ethischen Frage, die wir gesondert ehrlich besprechen müssen. Hier nur zwei Beobachtungen: Dieselbe Formelsprache des „Bannes" (*ḥerem*) findet sich auch auf der moabitischen Mescha-Stele – sie ist Kriegsrhetorik der Epoche, im Gebot wie im Bericht. Und die Bibel selbst setzt voraus, dass das Gebot nicht als vollständige Ausrottung umgesetzt wurde (Ri 1–2), ohne dass die Propheten das als Ungehorsam gegen ein Völkermordgebot werten; getadelt wird vor allem die religiöse Vermischung.`,
+              detail: `Die Kirche liest diese Texte seit Origenes auch geistlich und nie als Handlungsanweisung für Christen. Für die archäologische Frage dieses Claims genügt: Der Text beschreibt nach seinem eigenen Zeugnis keine flächendeckende Vernichtung. Die ethische Dimension wird unter „Gott befahl Völkermord" ausführlich behandelt.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Mescha-Stele (Louvre), Z. 14–17', year: 'ca. 840 v. Chr.', quote: `Mescha rühmt sich, Nebo eingenommen und die Bewohner dem Gott Kemosch „gebannt" zu haben.`, status: 'paraphrase', note: 'Gleiche Wurzel ḥrm wie im biblischen Bann.' },
+                { kind: 'fachliteratur', author: 'Paul Copan, Matthew Flannagan', work: 'Did God Really Command Genocide?', year: '2014', quote: `Die Bann-Sprache ist stereotype Kriegsrhetorik; der Text selbst zeigt, dass keine vollständige Vernichtung gemeint war.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'datierung-rosinenpicken',
+      objection: `Ihr pickt euch die Daten heraus: Für Jericho nehmt ihr Woods Datum um 1400, für Hazor die Zerstörung im 13. Jahrhundert. Beides zugleich geht nicht – das ist Rosinenpicken.`,
+      objectionBy: 'Kipp Davis',
+      answer: `Ein berechtigter Punkt, den ich offen zugebe: Es gibt zwei Modelle, und keines fügt sich glatt in alle Befunde. Die Vertreter der Frühdatierung (Wood) sehen in Hazors Brand des 13. Jahrhunderts die Zerstörung unter Debora (Ri 4) und suchen Josuas Hazor früher; die Vertreter der Spätdatierung (Kitchen, Hoffmeier) akzeptieren Hazor im 13. Jahrhundert und müssen dafür bei Jericho ein offenes Problem stehen lassen. Wer ehrlich ist, wählt ein Modell und benennt die Restprobleme – genau das tue ich.`,
+      detail: `Ein Laie sollte nie beide Datierungen gleichzeitig ins Feld führen. Empfehlung: Sag offen, dass du die Spätdatierung (13. Jh.) für plausibler hältst – sie passt zu Hazor, zur Ortschaft „Ramses" (Ex 1,11) und zur Merneptah-Stele –, und gib zu, dass Jericho in diesem Modell ungelöst bleibt. Diese Ehrlichkeit macht dich glaubwürdiger als jede Harmonisierung.`,
+      voices: [
+        {
+          person: 'hoffmeier',
+          role: 'als Ägyptologe',
+          text: `Hoffmeier hält die Spätdatierung des Exodus im 13. Jahrhundert für am besten begründet, weil sie zu den ägyptischen Ortsnamen in Exodus 1,11 und zur Lage im Ostdelta passt. Er räumt ein, dass damit nicht jeder archäologische Befund in Kanaan erklärt ist, und plädiert für ein Modell, das Text und Befund ernst nimmt, ohne Lücken zu überspielen.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'James K. Hoffmeier', work: 'Israel in Egypt. The Evidence for the Authenticity of the Exodus Tradition', year: '1997', quote: `Ägyptische Ortsnamen und Lokalkolorit sprechen für einen Exodus im Neuen Reich.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      followUps: [
+        {
+          id: 'alles-ad-hoc',
+          objection: `Wenn jedes Modell Restprobleme hat, dann ist das ganze Unternehmen ad hoc. Ihr passt die Chronologie an, bis die Bibel überlebt.`,
+          objectionBy: 'Kipp Davis',
+          answer: `Restprobleme hat jede Rekonstruktion der Spätbronzezeit, auch die säkulare. Das Modell der rein inneren, friedlichen Entstehung Israels muss etwa erklären, warum Merneptah um 1208 v. Chr. „Israel" als eigene Gruppe neben den Stadtstaaten nennt, warum diese Gruppe eine Erinnerung an Ägypten zum Gründungsmythos macht – und warum ausgerechnet Hazor brennt. Anomalien sind in der Archäologie normal; entscheidend ist, welches Modell die meisten Daten mit den wenigsten Zusatzannahmen erklärt.`,
+          followUps: [
+            {
+              id: 'merneptah-volk-nicht-heer',
+              objection: `Die Merneptah-Stele zeigt nur, dass es um 1208 eine Gruppe namens Israel in Kanaan gab – nicht, dass sie aus Ägypten kam oder Städte eroberte.`,
+              objectionBy: 'Israel Finkelstein',
+              answer: `Richtig, die Stele beweist keinen Exodus und keine Eroberung. Aber sie setzt einen Rahmen: Israel ist um 1208 bereits eine bekannte, von den Stadtstaaten unterschiedene Größe – geschrieben mit dem Determinativ für ein Volk, nicht für ein Land. Das passt zu einer Gruppe, die noch nicht fest städtisch organisiert war, also zu einer jungen Ansiedlung. Und es schließt jede These aus, Israel sei eine Erfindung des 9. oder 6. Jahrhunderts.`,
+              detail: `Ein Berliner Sockelrelief (ÄM 21687) wurde von Manfred Görg und später Peter van der Veen, Christoffer Theis und Görg als noch älterer Beleg für den Namen Israel gedeutet (Journal of Ancient Egyptian Interconnections 2010). Diese Lesung ist umstritten und sollte nur mit diesem Vorbehalt erwähnt werden.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Merneptah-Stele (Ägyptisches Museum Kairo), Z. 27', year: 'ca. 1208 v. Chr.', quote: `„Israel ist verwüstet, sein Same ist nicht mehr."`, status: 'paraphrase', note: 'Israel mit dem Determinativ für Volk/Fremdvolk geschrieben.' },
+                { kind: 'fachliteratur', author: 'Peter van der Veen, Christoffer Theis, Manfred Görg', work: 'Israel in Canaan (Long) Before Pharaoh Merenptah? A Fresh Look at Berlin Statue Pedestal Relief 21687. Journal of Ancient Egyptian Interconnections 2/4', year: '2010', quote: `Vorschlag, auf dem Berliner Sockelrelief den Namen Israel zu lesen.`, status: 'paraphrase', note: 'Umstrittene Lesung.' },
+              ],
+              questionsBack: [`Wie erklärst du, dass eine Gruppe, die angeblich aus einheimischen Kanaanäern hervorging, ihre gesamte Identität auf eine Sklaverei in Ägypten gründet?`],
+            },
+          ],
         },
       ],
     },

@@ -107,6 +107,35 @@ Im Frühmittelalter hatte die Kirche den Hexenglauben selbst als Aberglauben bek
               objection: `Die Kirche hat die Verfolgung aber theologisch begründet – Augustinus mit „Nötige sie hereinzukommen" (Lk 14,23). Das war keine Entgleisung, sondern Lehre.`,
               objectionBy: 'Karlheinz Deschner',
               answer: `Das ist ein wichtiger und richtiger Punkt: Augustinus' Rechtfertigung staatlichen Zwangs gegen die Donatisten hat im Westen verhängnisvoll nachgewirkt – das ist ein ehrliches Zugeständnis. Aber sie war nicht die Lehre der ganzen Kirche: Tertullian schrieb, es gehöre nicht zur Religion, Religion zu erzwingen; Laktanz forderte, den Glauben durch Sterben, nicht durch Töten zu verteidigen; der koptische Papst Athanasius lehrte, wahre Frömmigkeit zwinge nicht, sondern überzeuge. Die koptische Kirche ist dieser Linie gefolgt.`,
+              followUps: [
+                {
+                  id: 'thomas-ketzer-tod',
+                  objection: `Nicht nur Augustinus: Thomas von Aquin, euer größter Theologe, lehrte ausdrücklich, dass rückfällige Ketzer der weltlichen Gewalt zur Hinrichtung übergeben werden sollen. Die Inquisition war keine Entgleisung, sondern konsequente Theologie.`,
+                  objectionBy: 'Karlheinz Deschner',
+                  answer: `Das stimmt: Thomas verteidigte in der *Summa* (II-II, q. 11, a. 3) die Todesstrafe für hartnäckige Ketzer – das ist ein schwerer Irrtum, und ich beschönige ihn nicht. Aber Thomas ist für die koptische Kirche keine Lehrautorität, und er steht gegen eine ältere Stimme: Johannes Chrysostomus sagte in seiner Auslegung des Gleichnisses vom Unkraut, einen Ketzer zu töten heiße, einen unversöhnlichen Krieg in die Welt zu bringen – man dürfe Irrlehrer zum Schweigen bringen, aber nicht töten. Jesus selbst verbot, das Unkraut auszureißen (Mt 13,29–30).`,
+                  detail: `Thomas argumentierte, wer den Glauben verfälsche, tue Schlimmeres als ein Falschmünzer, der nach damaligem Recht hingerichtet wurde. Das zeigt, wie sehr er in den Rechtsvorstellungen seiner Zeit dachte. Die katholische Kirche selbst hat diese Lehre mit dem Zweiten Vatikanischen Konzil (*Dignitatis humanae*, 1965) aufgegeben, und Johannes Paul II. bat im Jahr 2000 öffentlich um Vergebung für Gewalt im Dienst der Wahrheit. Für dein Gespräch: Gib den Irrtum offen zu – und zeig, dass das Gleichnis Jesu selbst die Alternative ist.`,
+                  voices: [
+                    { person: 'chrysostomus', role: 'als Ausleger des Unkraut-Gleichnisses', text: `Chrysostomus deutet in seiner 46. Matthäus-Homilie das Verbot, das Unkraut auszureißen, als Verbot, Häretiker zu töten. Man dürfe ihre Versammlungen hindern und ihnen widersprechen, aber Blut zu vergießen hieße, dass mit dem Unkraut auch der Weizen ausgerissen werde – denn viele, die heute irren, könnten morgen umkehren.` },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'II-II, q. 11, a. 3', year: '1265–1273', quote: `Ketzer verdienten nicht nur den Ausschluss aus der Kirche, sondern auch durch den Tod aus der Welt ausgeschlossen zu werden.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Matthäusevangelium', ref: 'Homilie 46 (47), zu Mt 13,24–30', year: 'um 390', quote: `Einen Häretiker zu töten hieße, einen unversöhnlichen Krieg in die Welt zu bringen.`, status: 'paraphrase' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'byzanz-bogomilen',
+                      objection: `Und eure östliche Orthodoxie? Kaiser Alexios I. ließ um 1118 den Bogomilen Basilius in Konstantinopel öffentlich verbrennen. Die Ostkirche war nicht besser.`,
+                      objectionBy: 'Christopher Hitchens',
+                      answer: `Das stimmt, Anna Komnene berichtet es selbst, und es war Unrecht. Ich behaupte nicht, dass östliche Christen frei von dieser Sünde waren. Die koptische Kirche kennt allerdings die andere Seite: Sie wurde vom byzantinischen Reich selbst verfolgt, weil sie das Konzil von Chalkedon ablehnte – Patriarchen wurden vertrieben, Gläubige drangsaliert. Die Lehre daraus ist dieselbe wie im Westen: Wo Kirche und Staatsmacht verschmelzen, wird aus dem Zeugnis ein Zwang. Das Evangelium selbst gibt der Kirche kein Schwert.`,
+                      detail: `Die Kopten erinnern an diese Zeit etwa mit dem Patriarchen Benjamin I., der sich im 7. Jahrhundert vor dem byzantinischen Statthalter Kyros jahrelang in der Wüste verbergen musste, während sein Bruder Menas gefoltert und ertränkt wurde (nach der *Geschichte der Patriarchen*). Das gibt der koptischen Stimme in dieser Debatte besondere Glaubwürdigkeit: Sie spricht als Kirche der Verfolgten, nicht der Verfolger.`,
+                      sources: [
+                        { kind: 'sonstiges', author: 'Anna Komnene', work: 'Alexias', ref: 'XV,8–10', year: 'um 1148', status: 'paraphrase', note: 'Bericht über den Prozess und die Verbrennung des Bogomilen Basilius.' },
+                        { kind: 'koptisch', author: 'Severus ibn al-Muqaffa (zugeschrieben)', work: 'Geschichte der Patriarchen der koptischen Kirche von Alexandrien', ref: 'Vita Benjamins I.', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -129,6 +158,20 @@ Im Frühmittelalter hatte die Kirche den Hexenglauben selbst als Aberglauben bek
               objection: `Am Ende waren es trotzdem Christen, die die Scheiterhaufen anzündeten – katholische wie protestantische.`,
               objectionBy: 'Christopher Hitchens',
               answer: `Ja, das ist christliche Schuld, katholische wie protestantische, und ich nenne sie beim Namen. Aber auch die Stimmen, die die Hexenjagd beendeten, waren christlich: der Jesuit Friedrich Spee, der als Beichtvater die Unschuld der Verurteilten erkannte und 1631 die *Cautio Criminalis* schrieb; der protestantische Arzt Johann Weyer; der Jesuit Adam Tanner; der Inquisitor Alonso de Salazar. Sie beriefen sich auf Gerechtigkeit und Nächstenliebe – also auf das Evangelium gegen seine Verfälschung.`,
+              followUps: [
+                {
+                  id: 'federici-hebammen-frauenkrieg',
+                  objection: `Die Hexenjagd war ein Krieg gegen Frauen: gegen Hebammen, Heilerinnen, weibliches Wissen über Körper und Geburt. Eine patriarchale Kirche hat die Kontrolle über Frauenkörper mit Feuer durchgesetzt.`,
+                  objectionBy: 'Silvia Federici',
+                  answer: `Frauenfeindliche Vorurteile spielten eine Rolle – im *Hexenhammer* sind sie unübersehbar, und rund drei Viertel der Opfer waren Frauen. Aber die Forschung zeichnet ein differenzierteres Bild: In manchen Regionen, etwa Island, Estland oder der Normandie, waren die meisten Angeklagten Männer. Hebammen waren unter den Opfern nicht überdurchschnittlich vertreten – der Medizinhistoriker David Harley nennt die „Hebammen-Hexe" einen Mythos. Die meisten Anklagen kamen aus Nachbarschaftskonflikten im Dorf, und die meisten Prozesse führten weltliche Gerichte.`,
+                  detail: `Auffällig ist, dass gerade kirchliche Institutionen mit eigener Gerichtsbarkeit oft bremsten: Die Spanische Inquisition kam nach den Untersuchungen des Inquisitors Alonso de Salazar Frías (1611–1614) zu dem Schluss, es gebe keine Beweise für Hexerei, und verhinderte danach weitgehend Hexenverbrennungen in Spanien. Die schlimmsten Verfolgungen fanden in zersplitterten Territorien des Reiches mit schwacher Zentralgewalt statt. Das entschuldigt nichts – aber wer die Hexenjagd als Plan „der Kirche" gegen „die Frauen" darstellt, vereinfacht eine komplexe Tragödie.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Silvia Federici', work: 'Caliban and the Witch: Women, the Body and Primitive Accumulation', year: '2004', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'David Harley', work: '„Historians as Demonologists: The Myth of the Midwife-Witch", Social History of Medicine 3', year: '1990', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Gustav Henningsen', work: 'The Witches\' Advocate: Basque Witchcraft and the Spanish Inquisition (1609–1614)', year: '1980', status: 'paraphrase', note: 'Zur Rolle des Inquisitors Alonso de Salazar Frías.' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -145,6 +188,20 @@ Im Frühmittelalter hatte die Kirche den Hexenglauben selbst als Aberglauben bek
           objection: `Religionsfreiheit verdanken wir der Aufklärung, nicht der Kirche. Die Kirche hat sie bis ins 20. Jahrhundert bekämpft.`,
           objectionBy: 'Steven Pinker',
           answer: `Die Aufklärung hat Religionsfreiheit politisch durchgesetzt, das ist richtig – und manche Kirchen haben sich lange dagegen gesträubt. Aber die Idee ist älter: Tertullian sprach um 200 von der „Freiheit der Religion", Laktanz verteidigte sie, und in der Neuzeit kämpften Christen wie Roger Williams und William Penn für Gewissensfreiheit, bevor sie zum Programm der Aufklärer wurde. Die Gewissensfreiheit wurzelt in der christlichen Überzeugung, dass Glaube eine freie Antwort auf Gott ist.`,
+          followUps: [
+            {
+              id: 'nur-als-verfolgte',
+              objection: `Tertullian und Laktanz haben Religionsfreiheit gefordert, solange Christen verfolgt wurden. Kaum waren sie an der Macht, machte Theodosius Ketzerei zum Staatsverbrechen. Toleranz war nur die Taktik der Schwachen.`,
+              objectionBy: 'Steven Pinker',
+              answer: `Da hast du einen unbequemen Punkt, den ich zugebe: Mit der Reichskirche kamen Zwangsgesetze, und viele Bischöfe haben sie begrüßt. Aber das Prinzip ging nicht verloren, und es waren wieder Christen, die es gegen die Kirche ihrer Zeit erneuerten: Sebastian Castellio protestierte 1554 nach der Verbrennung Servets in Genf mit dem Satz: „Einen Menschen töten heißt nicht, eine Lehre verteidigen, sondern einen Menschen töten." Roger Williams gründete Rhode Island als Zuflucht der Gewissensfreiheit, mit biblischen Argumenten.`,
+              detail: `Die Täufer und später die Baptisten forderten die Trennung von Kirche und Staat lange vor den meisten Aufklärern – und bezahlten dafür oft mit dem Leben. Auch die Väter, die sich auf der Seite der Macht befanden, kannten die Alternative: Athanasius schrieb, die Wahrheit werde nicht mit Schwertern und Soldaten verkündet, sondern durch Überzeugung. Die Geschichte zeigt also nicht, dass Christen nur aus Schwäche tolerant waren, sondern dass Christen mit Macht ihre eigenen Prinzipien verraten haben – und von anderen Christen daran erinnert wurden.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Sebastian Castellio', work: 'Contra libellum Calvini', year: '1554', quote: `Einen Menschen töten heißt nicht, eine Lehre verteidigen, sondern einen Menschen töten.`, original: 'Hominem occidere, non est doctrinam tueri, sed est hominem occidere.', status: 'verbatim', note: 'Geschrieben nach der Hinrichtung Michael Servets in Genf (1553); erst 1612 gedruckt.' },
+                { kind: 'sonstiges', author: 'Roger Williams', work: 'The Bloudy Tenent of Persecution for Cause of Conscience', year: '1644', status: 'paraphrase' },
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Geschichte der Arianer (Historia Arianorum)', ref: '33', year: 'um 357', quote: `Die Wahrheit wird nicht mit Schwertern und Pfeilen noch durch Soldaten verkündet, sondern durch Überzeugung und Rat.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -153,6 +210,30 @@ Im Frühmittelalter hatte die Kirche den Hexenglauben selbst als Aberglauben bek
       objection: `Und Galilei? Und Giordano Bruno, der verbrannt wurde? Die Inquisition hat die Wissenschaft unterdrückt.`,
       objectionBy: 'Richard Dawkins',
       answer: `Beide Fälle haben eigene Themen, weil sie oft verzerrt dargestellt werden: Bruno wurde 1600 vor allem wegen theologischer Lehren (etwa zur Trinität und zur Gottheit Christi) verurteilt, nicht wegen Astronomie – was seine Hinrichtung nicht weniger falsch macht. Galilei wurde zum Widerruf gezwungen und unter Hausarrest gestellt, aber nicht gefoltert oder hingerichtet; der Konflikt hatte viele politische und persönliche Ursachen. Beide Fälle sind Unrecht, aber sie belegen keinen grundsätzlichen Krieg der Kirche gegen die Wissenschaft.`,
+    },
+    {
+      id: 'limpieza-de-sangre',
+      objection: `Die Spanische Inquisition hat getaufte Juden – die Conversos – jahrhundertelang verdächtigt und verfolgt. Mit den Statuten der „Reinheit des Blutes" erfand das katholische Spanien den rassischen Antisemitismus: Selbst die Taufe half nicht mehr.`,
+      objectionBy: 'Ibram X. Kendi',
+      answer: `Das ist ein schweres und berechtigtes Kapitel. Die Blutreinheits-Statuten (*limpieza de sangre*), erstmals 1449 in Toledo, schlossen Christen jüdischer Herkunft von Ämtern aus – ein Verrat an der Taufe. Aber sie wurden sofort als unchristlich verurteilt: Papst Nikolaus V. erklärte noch im selben Jahr in der Bulle *Humani generis inimicus*, alle Getauften seien ein Leib in Christus, und der Bischof Alonso de Cartagena, selbst jüdischer Herkunft, verteidigte in einer eigenen Schrift die Einheit der Christen. Die Statuten waren kein Ausdruck des Glaubens, sondern seine Leugnung.`,
+      detail: `Theologisch ist der Fall eindeutig: „Hier ist nicht Jude noch Grieche … denn ihr seid allesamt einer in Christo Jesu" (Gal 3,28). Eine Kirche, die Getaufte nach ihrer Abstammung sortiert, widerspricht ihrer eigenen Taufe. Kendi hat recht, dass hier Herkunft zur unauslöschlichen Kategorie gemacht wurde – ein Vorläufer späteren Rassedenkens. Aber er übersieht, dass der Widerspruch dagegen aus der christlichen Theologie selbst kam.`,
+      sources: [
+        { kind: 'sonstiges', author: 'Papst Nikolaus V.', work: 'Bulle „Humani generis inimicus"', year: '1449', quote: `Verurteilung der Toledaner Ausschlussbestimmungen gegen Neuchristen; alle Getauften bildeten einen Leib in Christus.`, status: 'paraphrase' },
+        { kind: 'sonstiges', author: 'Alonso de Cartagena', work: 'Defensorium unitatis christianae', year: '1449/1450', status: 'paraphrase', note: 'Bischof von Burgos, Sohn eines konvertierten Rabbiners.' },
+        { kind: 'bibel', work: 'Galater', ref: '3,28', quote: `Hier ist kein Jude noch Grieche, hier ist kein Knecht noch Freier, hier ist kein Mann noch Weib; denn ihr seid allzumal einer in Christo Jesu.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'bulle-folgenlos',
+          objection: `Die päpstliche Bulle blieb folgenlos: Die Statuten galten in Spanien bis ins 19. Jahrhundert, und die Inquisition hat sie mitgetragen. Papier ist geduldig.`,
+          objectionBy: 'Hector Avalos',
+          answer: `Das stimmt, und es ist beschämend: Die Statuten setzten sich durch, auch in kirchlichen Orden, und Rom hat sie später geduldet. Gegen diesen Verrat gab es aber bis zuletzt Widerstand – Ignatius von Loyola etwa lehnte es ab, Bewerber jüdischer Herkunft auszuschließen, und sein Nachfolger Diego Laínez stammte selbst aus einer Converso-Familie. Ich verteidige nicht, was Christen taten, sondern den Maßstab, an dem sie scheiterten. Und dieser Maßstab ist eindeutig: Taufe vor Abstammung.`,
+          detail: `Die Gesellschaft Jesu führte erst 1593 – nach dem Tod des Ignatius und gegen seinen erklärten Willen – selbst eine Herkunftsbeschränkung ein, die später wieder gelockert wurde. Die Geschichte ist also nicht eine von „der Kirche gegen die Juden", sondern ein Kampf innerhalb der Kirche zwischen dem Evangelium und dem Geist der Zeit, den das Evangelium nicht immer gewann.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Robert Aleksander Maryks', work: 'The Jesuit Order as a Synagogue of Jews: Jesuits of Jewish Ancestry and Purity-of-Blood Laws in the Early Society of Jesus', year: '2010', status: 'paraphrase' },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
