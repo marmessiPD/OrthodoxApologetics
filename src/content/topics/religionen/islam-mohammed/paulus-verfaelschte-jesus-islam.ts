@@ -208,6 +208,60 @@ const claim: Claim = {
       objection: `Paulus hat aus dem jüdischen Propheten Jesus einen Gott gemacht – unter dem Einfluss griechischer Mysterienkulte.`,
       objectionBy: 'Shabir Ally',
       answer: `Paulus war ein streng monotheistischer Pharisäer und schreibt über Jesus mit den Worten des Schma (1 Kor 8,6) und mit Jes 45,23 (Phil 2,10–11) – das ist jüdische, nicht heidnische Sprache. Den Christushymnus in Phil 2 übernimmt er wahrscheinlich aus noch älterer Überlieferung, und das aramäische *Maranatha* zeigt die Anrufung Jesu in der palästinischen Urgemeinde. Die Mysterienkult-These gilt in der Forschung weithin als überholt.`,
+      followUps: [
+        {
+          id: 'sterbende-auferstehende-goetter',
+          objection: `Osiris, Attis, Adonis, Mithras – die Antike war voll von sterbenden und auferstehenden Göttern. Paulus hat dieses Muster auf Jesus übertragen, um Heiden zu gewinnen.`,
+          objectionBy: 'Shabir Ally',
+          answer: `Die Kategorie „sterbende und auferstehende Götter" ist in der Religionswissenschaft stark umstritten: Osiris wird nicht ins irdische Leben auferweckt, sondern herrscht in der Unterwelt; für Attis ist eine Auferstehung erst sehr spät und unsicher belegt; Mithras stirbt in seinem Mythos gar nicht. Vor allem aber: Paulus war Pharisäer und verabscheute heidnische Kulte (1 Kor 10,20–21). Das Bekenntnis von Tod und Auferstehung, das er weitergibt, stammt aus der jüdischen Jerusalemer Urgemeinde (1 Kor 15,3–7) – und spricht von einem Menschen, der vor wenigen Jahren unter Pontius Pilatus gekreuzigt wurde, nicht von einem Mythos der Urzeit.`,
+          detail: `Der Religionshistoriker Jonathan Z. Smith hat die Kategorie der „dying and rising gods" als Konstrukt der älteren Forschung (James Frazer) kritisiert. Die Mysterienkulte sind überwiegend aus Quellen des 2.–4. Jahrhunderts bekannt, also später als das Neue Testament. Die Auferstehung Jesu wird zudem ganz jüdisch gedacht: als leibliche Auferstehung der Toten am Ende der Zeit, die in einem Menschen vorweggenommen wird (Dan 12,2; 1 Kor 15,20). N. T. Wright hat in „The Resurrection of the Son of God" gezeigt, dass die frühchristliche Auferstehungshoffnung eine Mutation innerhalb des jüdischen Glaubens ist, nicht eine Anleihe beim Heidentum.`,
+          voices: [
+            { person: 'nt-wright', role: 'als Historiker des frühen Christentums', text: `Wright zeigt, dass „Auferstehung" in der antiken Welt immer leibliche Rückkehr ins Leben nach dem Tod bedeutete – etwas, das Heiden für unmöglich und unerwünscht hielten und das im Judentum erst für das Ende der Zeit erwartet wurde. Dass die ersten Christen behaupteten, es sei bei einem Menschen mitten in der Geschichte geschehen, lässt sich aus heidnischen Mythen nicht erklären.` },
+          ],
+          sources: [
+            { kind: 'fachliteratur', author: 'Jonathan Z. Smith', work: 'Dying and Rising Gods (Artikel in: The Encyclopedia of Religion, hg. M. Eliade)', year: '1987', status: 'paraphrase', note: 'Smith hält die Kategorie für ein Konstrukt der älteren Religionsgeschichte.' },
+            { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Welcher dieser Götter wurde nach seinem Mythos unter einem bekannten römischen Statthalter in einem bekannten Jahr hingerichtet?`,
+            `Warum sollte ein Pharisäer, der heidnische Opfer „Dämonen" nennt (1 Kor 10,20), seine Botschaft aus heidnischen Kulten borgen?`,
+          ],
+          followUps: [
+            {
+              id: 'mettinger-gibt-es-doch',
+              objection: `Tryggve Mettinger hat 2001 gezeigt, dass es sehr wohl sterbende und auferstehende Gottheiten gab – Dumuzi, Baal, Melqart. Smiths Kritik ist überholt.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Mettinger vertritt das – aber lies seine Schlussfolgerung: Er betont ausdrücklich, dass es keinen Beleg dafür gibt, dass die Auferstehung Jesu aus solchen Mythen konstruiert wurde. Die Gottheiten, die er bespricht, sind mit dem Kreislauf der Jahreszeiten verbunden, sterben und kehren immer wieder; der Tod Jesu dagegen ist ein einmaliges, datierbares Ereignis, und seine Auferstehung wird als einmalig und endgültig verkündet. Selbst der Forscher, auf den du dich berufst, bestätigt also unseren Punkt.`,
+              detail: `Tryggve N. D. Mettinger, „The Riddle of Resurrection: ‚Dying and Rising Gods' in the Ancient Near East" (2001), kommt zu dem Ergebnis, dass einige altorientalische Gottheiten als sterbend und wiederkehrend verstanden wurden, hält aber fest, dass sich der Tod und die Auferstehung Jesu in der Religionsgeschichte als einzigartig behaupten und nicht als mythische Konstruktion aus diesen Vorbildern erklärt werden können. Für das Gespräch: Zitiere Mettinger nicht wörtlich, wenn du den Wortlaut nicht vor dir hast – aber du kannst sinngemäß darauf hinweisen, dass er die Ableitung des christlichen Glaubens aus diesen Mythen ausdrücklich zurückweist.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Tryggve N. D. Mettinger', work: 'The Riddle of Resurrection: „Dying and Rising Gods" in the Ancient Near East', year: '2001', status: 'paraphrase', note: 'Mettinger bejaht die Existenz einiger solcher Gottheiten, lehnt aber eine Ableitung der Auferstehung Jesu aus ihnen ab.' },
+              ],
+              questionsBack: [
+                `Hast du Mettingers Schlusskapitel gelesen – was sagt er über die Auferstehung Jesu?`,
+              ],
+              followUps: [
+                {
+                  id: 'taufe-mahl-mysterien',
+                  objection: `Aber die Riten zeigen es: Taufe als Mitsterben und Mitauferstehen (Röm 6) und ein Mahl mit Leib und Blut des Gottes – das ist die Sprache der Mysterien, etwa des Mithraskults.`,
+                  objectionBy: 'Shabir Ally',
+                  answer: `Die Taufe hat jüdische Wurzeln: rituelle Waschungen, die Proselytentaufe und vor allem die Taufe des Johannes, der Jesus selbst taufte. Das Herrenmahl wurzelt im Paschamahl, bei dem Jesus Brot und Kelch neu deutete – so berichten es Markus und die Überlieferung, die Paulus „empfangen" hat (1 Kor 11,23). Die Mithras-Quellen über ein Kultmahl stammen aus dem 2. Jahrhundert und später. Und Paulus selbst stellt den „Tisch des Herrn" dem „Tisch der Dämonen" schroff gegenüber (1 Kor 10,21) – er übernimmt nichts, er grenzt sich ab.`,
+                  detail: `Schon Justin der Märtyrer (um 150) bemerkte die äußere Ähnlichkeit zwischen dem Mithraskult und der Eucharistie – und deutete sie als Nachahmung des Christlichen, nicht umgekehrt. Das zeigt zumindest, dass die Christen des 2. Jahrhunderts die Mithrasriten als jünger betrachteten. Die Forschung (u. a. Bruce Metzger in seinem Aufsatz über Mysterienreligionen und das frühe Christentum) hat herausgearbeitet, dass sich die Mysterienkulte in der Kaiserzeit eher Elemente anderer Religionen aneigneten und dass eine Abhängigkeit des Neuen Testaments von ihnen nicht nachweisbar ist. Für die koptische Kirche sind Taufe und Eucharistie Sakramente, die Christus selbst eingesetzt hat (Mt 28,19; Lk 22,19).`,
+                  voices: [
+                    { person: 'metzger', role: 'als Neutestamentler', text: `Metzger untersuchte die These, das frühe Christentum habe Riten von den Mysterienreligionen übernommen. Er stellte fest, dass die Quellen der Mysterien meist jünger sind als das Neue Testament, dass die Ähnlichkeiten oft durch christliche Begriffe in moderner Darstellung entstehen und dass das jüdische Umfeld des Urchristentums eine solche Übernahme äußerst unwahrscheinlich macht.` },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Erste Apologie', ref: '66', year: 'ca. 155', status: 'paraphrase', note: 'Justin erwähnt das Mithrasmahl und deutet es als dämonische Nachahmung der Eucharistie.' },
+                    { kind: 'fachliteratur', author: 'Bruce M. Metzger', work: 'Methodology in the Study of the Mystery Religions and Early Christianity (in: Historical and Literary Studies)', year: '1968', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Woher stammt die Taufe Jesu selbst – aus einem Mysterienkult oder von Johannes dem Täufer am Jordan?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

@@ -132,6 +132,45 @@ const claim: Claim = {
           objectionBy: 'Philosophischer Kritiker',
           answer: `Zorn ist in der Bibel nicht das Gegenteil von Liebe, sondern ihre Kehrseite gegenüber dem, was das Geliebte zerstört. Ein Arzt, der den Krebs seines Patienten hasst, liebt den Patienten gerade dadurch. Die orthodoxe Tradition geht noch weiter: Gott ändert sich nicht; er ist immer derselbe Liebende. Ein Wort, das unter dem Namen des hl. Antonius überliefert ist, sagt: Nicht Gott zürnt, sondern unsere Sünden hindern ihn, in uns zu leuchten.`,
           detail: `Die Väter verstehen die Rede vom „Zorn Gottes" als Ausdruck für die Erfahrung des Menschen, der sich von Gott trennt. Gott ist leidenschaftslos (*apathes*) in dem Sinn, dass er nicht von Stimmungen bewegt wird. Diese Sicht schützt vor dem Bild eines launischen, rachsüchtigen Gottes, ohne den Ernst des Gerichts aufzugeben.`,
+          followUps: [
+            {
+              id: 'himmel-trotz-verlorener',
+              objection: `Selbst wenn ich das akzeptiere: Wie soll irgendjemand im Himmel glücklich sein, wenn er weiß, dass sein Kind oder seine Mutter für immer verloren ist? Entweder vergessen die Seligen ihre Liebsten – dann sind sie amputiert –, oder sie leiden mit – dann ist der Himmel kein Himmel.`,
+              objectionBy: 'Alex O\'Connor (Cosmic Skeptic)',
+              answer: `Das ist vielleicht der ernsteste Einwand überhaupt, und ich will ihn nicht mit einer glatten Formel beantworten. Zwei Dinge sagt die Tradition: Erstens beten die Heiligen für alle – auch der Himmel ist nicht Gleichgültigkeit, sondern brennende Liebe (Isaak spricht vom Herzen, das selbst für die Dämonen betet). Zweitens darf die Weigerung eines Menschen, sich lieben zu lassen, die Freude der anderen nicht erpressen. C. S. Lewis: Sonst hätte die Lieblosigkeit ein Vetorecht über das ganze Universum.`,
+              detail: `Lewis lässt in *The Great Divorce* (Kap. 13) den Lehrer George MacDonald sagen, die Forderung, niemand dürfe Freude schmecken, solange ein Einziger sich weigert, sei in Wahrheit die Forderung der Lieblosen, das Universum zu erpressen. Das ist kein kaltes Argument, sondern eine Unterscheidung: Mitleid, das sich vom Unglück eines anderen beherrschen lässt, ist etwas anderes als Liebe, die ihn bis zuletzt sucht.
+
+Wichtig für den Ton: Wer diese Frage stellt, denkt meist an einen konkreten Menschen. Dann gilt: Die Kirche erklärt niemanden für verdammt, sie betet für die Entschlafenen (koptische Liturgie: Gedächtnis der Entschlafenen), und wir wissen nicht, was in der letzten Stunde zwischen Gott und einer Seele geschieht. Das Urteil liegt bei dem, der für diesen Menschen gestorben ist.`,
+              voices: [
+                {
+                  person: 'cs-lewis',
+                  role: 'als Erzähler der „Großen Scheidung"',
+                  text: `Lewis nimmt den Einwand ernst, indem er ihn einer Figur in den Mund legt: Eine selige Frau soll sich um ihren verbitterten Mann sorgen, der nicht hereinkommen will. Die Antwort des Buches ist, dass ihre Liebe ihn bis zuletzt einlädt – aber dass sie sich nicht von seinem Selbstmitleid in die Dunkelheit zurückziehen lassen darf. Die Hölle kann den Himmel nicht als Geisel nehmen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Great Divorce', ref: 'Kap. 13', year: '1945', quote: `Die Forderung, dass niemand Freude schmecken dürfe, solange einer sich weigert, ist die Forderung der Lieblosen und Selbstgefangenen, das Universum zu erpressen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wäre ein Himmel, den ein Einziger durch seine Weigerung für alle verschließen kann, nicht eine Herrschaft der Unversöhnlichen?`,
+                `Woher weißt du, dass der Mensch, an den du denkst, verloren ist? Die Kirche maßt sich das nicht an.`,
+              ],
+              followUps: [
+                {
+                  id: 'dann-tranen-abgewischt',
+                  objection: `„Gott wird abwischen alle Tränen" – das heißt doch: Er löscht die Erinnerung an die Verlorenen. Eine Seligkeit durch Gedächtnisverlust ist Betrug.`,
+                  objectionBy: 'Alex O\'Connor',
+                  answer: `Die Bibel sagt nicht, dass Gott Erinnerungen löscht, sondern dass er Tränen abwischt – das tut man bei jemandem, der geweint hat und getröstet wird, nicht bei jemandem, der vergessen hat. Wie dieser Trost aussieht, wissen wir nicht; das ehrlich zu sagen ist besser als eine Spekulation in beide Richtungen. Was wir wissen: Der Richter ist derselbe, der über Lazarus geweint hat (Joh 11,35) und der im Fleisch für die Welt gelitten hat. Wer ihm die Verlorenen anvertraut, legt sie nicht in kalte Hände.`,
+                  detail: `Die koptische Theologie betont mit dem hl. Kyrill (12. Anathematismus), dass der ewige Logos selbst „im Fleisch gelitten hat". Das bedeutet für diese Frage: Gott steht dem Leiden an verlorener Liebe nicht als unbeteiligter Zuschauer gegenüber. Wie Gericht und Trost am Ende zusammengehen, gehört zu den Dingen, die „kein Auge gesehen hat" (1 Kor 2,9) – hier ist Demut angemessener als Gewissheit, auf beiden Seiten.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Offenbarung', ref: '21,4', quote: `Und Gott wird abwischen alle Tränen von ihren Augen, und der Tod wird nicht mehr sein, noch Leid noch Geschrei noch Schmerz wird mehr sein; denn das Erste ist vergangen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Johannes', ref: '11,35', quote: `Und Jesus gingen die Augen über.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'konzil', author: 'Kyrill von Alexandrien', work: 'Zwölf Anathematismen', ref: 'Anathematismus 12', year: '430', quote: `Wer nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat und im Fleisch gekreuzigt wurde, sei ausgeschlossen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
