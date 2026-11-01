@@ -246,6 +246,31 @@ Zur Frage des „zornigen Gottes" im Alten Testament siehe die Claims zur Gewalt
           objection: `Ich kann mir selbst vergeben. Dafür brauche ich keinen Gott.`,
           objectionBy: 'Sam Harris',
           answer: `Die Forschung unterscheidet echte Selbstvergebung, die Verantwortung übernimmt und Wiedergutmachung sucht, von einer bloßen Selbstentlastung, bei der man die Schuld kleinredet. Die erste ist gesund, die zweite nicht. Aber selbst echte Selbstvergebung hat eine Grenze: Ich kann mich nicht im Namen dessen freisprechen, den ich verletzt habe. Das Christentum bietet eine Vergebung, die vom Verletzten selbst kommt – von Gott, dessen Ordnung jede Sünde verletzt.`,
+          followUps: [
+            {
+              id: 'reach-saekular',
+              objection: `Die Vergebungsforschung zeigt doch, dass es säkular funktioniert: Es gibt evidenzbasierte Programme, die Menschen in wenigen Sitzungen helfen, anderen und sich selbst zu vergeben – ganz ohne Gott.`,
+              objectionBy: 'Sam Harris',
+              answer: `Das stimmt – und bemerkenswerterweise stammt eines der bekanntesten Programme, das REACH-Modell, von Everett Worthington, einem gläubigen Christen. Er hat es bewusst so gestaltet, dass jeder Mensch es nutzen kann; das passt dazu, dass Gott allen Menschen die Fähigkeit zur Vergebung geschenkt hat. Aber Worthington beschreibt auch, wo die Methode an Grenzen kommt: Wer sich selbst vergeben will, braucht die Gewissheit, dass die Schuld wirklich vergeben ist – und das kann nur der Verletzte, letztlich Gott, zusprechen.`,
+              detail: `Worthington entwickelte REACH (Recall the hurt, Empathize, Altruistic gift of forgiveness, Commit, Hold on) als Kurzintervention; Metaanalysen zeigen moderate Effekte von Vergebungsinterventionen auf Vergebung, Hoffnung und Depressivität. In „Moving Forward" (2013) beschreibt er Schritte zur Selbstvergebung, die für Christen in der Annahme der Vergebung Gottes und der Versöhnung mit dem Verletzten verankert sind.
+
+Persönlich wurde Worthington auf eine harte Probe gestellt, als seine Mutter Mitte der 1990er-Jahre bei einem Einbruch ermordet wurde. Er hat beschrieben, wie er – als Vergebungsforscher – selbst um Vergebung ringen musste und sie aus seinem Glauben heraus fand.
+
+Für das Gespräch: Säkulare Vergebungsmethoden sind gut und hilfreich; Christen sollten sie nicht abwerten. Der Unterschied liegt in der Grundlage: Warum *soll* ich vergeben, und wer vergibt mir, wenn ich nicht wiedergutmachen kann?`,
+              voices: [
+                {
+                  person: 'everett-worthington',
+                  role: 'als Psychologe der Vergebungsforschung',
+                  text: `Everett Worthington unterscheidet zwischen einer „Entscheidungsvergebung" (dem Entschluss, nicht zu vergelten) und einer „emotionalen Vergebung" (der allmählichen Ersetzung von Groll durch Wohlwollen). Er zeigt, dass beides erlernbar ist, und hat Programme entwickelt, die weltweit, auch säkular, eingesetzt werden. Für ihn als Christ ist die Vergebung, die Gott in Christus schenkt, Quelle und Vorbild menschlicher Vergebung – sie macht die menschliche Arbeit nicht überflüssig, sondern gibt ihr Grund und Hoffnung.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Everett L. Worthington Jr.', work: 'Forgiving and Reconciling: Bridges to Wholeness and Hope', year: '2003', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Everett L. Worthington Jr.', work: 'Moving Forward: Six Steps to Forgiving Yourself and Breaking Free from the Past', year: '2013', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [`Wenn ich jemandem geschadet habe, der inzwischen gestorben ist – wer kann mir dann noch vergeben?`],
+            },
+          ],
         },
       ],
     },

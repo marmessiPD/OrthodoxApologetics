@@ -247,6 +247,36 @@ Außerdem: Das frühe Christentum wuchs gerade **gegen** sein Milieu – in eine
           objection: `Pew zeigt 2025 aber: Der Anteil der Christen an der Weltbevölkerung ist gesunken, die Konfessionslosen sind gewachsen.`,
           objectionBy: 'Pew Research Center (2025)',
           answer: `Das stimmt, und ich verschweige es nicht: Zwischen 2010 und 2020 ging der christliche Anteil leicht zurück, vor allem durch Austritte in Europa und Amerika. Zugleich stieg die absolute Zahl der Christen, und Subsahara-Afrika hat Europa als Region mit den meisten Christen überholt. Das Bild ist gemischt – genau das widerlegt die Vorstellung eines einheitlichen, unaufhaltsamen Verfalls.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Pew Research Center', work: 'How the Global Religious Landscape Changed From 2010 to 2020', year: '2025', status: 'paraphrase', note: 'Per Websuche geprüft (2026): Christen 2020 rund 2,3 Mrd. (+122 Mio.), Anteil 28,8 % (−1,8 Prozentpunkte); Konfessionslose 24,2 % (2010: 23,3 %); Subsahara-Afrika 30,7 % aller Christen, Europa 22,3 %.' },
+          ],
+          followUps: [
+            {
+              id: 'austritte-ueberwiegen',
+              objection: `Und Pew zeigt auch, warum: Das Christentum verliert durch Religionswechsel mehr Menschen, als es gewinnt – vor allem junge Erwachsene. Das ist kein demografischer Zufall, sondern eine Abstimmung mit den Füßen.`,
+              objectionBy: 'Steve Bruce / Phil Zuckerman',
+              answer: `Das ist richtig für viele Länder in Europa, Amerika und Ostasien, und Kirchen sollten das selbstkritisch hören: Wo der Glaube nur Gewohnheit war, verliert er an Kraft. Aber Austritte sind kein Beweis gegen die Wahrheit – sie zeigen, dass Glaube heute eine bewusste Entscheidung geworden ist. Und in Afrika und Teilen Asiens wächst die Kirche auch durch Erwachsene, die sich bewusst taufen lassen. Die Frage, die bleibt, ist nicht „Wer gewinnt die Statistik?", sondern „Was ist wahr?"`,
+              detail: `Philip Jenkins beschreibt in *The Next Christendom*, wie sich der Schwerpunkt des Christentums nach Süden verlagert hat: Der „typische" Christ des 21. Jahrhunderts ist eher eine junge Frau in Nigeria oder Brasilien als ein älterer Mann in Europa. Diese Kirchen sind oft charismatisch, bibelorientiert und sozial engagiert – und sie wachsen trotz Armut und Verfolgung. Für die koptische Kirche ist diese Lage vertraut: Sie hat seit dem 7. Jahrhundert als Minderheit überlebt und erlebt in der Diaspora (Nordamerika, Australien, Europa) eine bemerkenswerte Ausbreitung.
+
+Ehrlich bleibt: Die Austritte in den reichen Ländern sind real, und keine Statistik tröstet darüber hinweg. Die christliche Antwort ist nicht Marketing, sondern ein Leben, das die Wahrheit des Evangeliums glaubwürdig macht – „dabei wird jedermann erkennen, daß ihr meine Jünger seid, so ihr Liebe untereinander habt" (Joh 13,35).`,
+              voices: [
+                {
+                  person: 'philip-jenkins',
+                  role: 'als Religionshistoriker',
+                  text: `Jenkins zeigt in *The Next Christendom* (3. Aufl. 2011), dass die europäische Erfahrung der Säkularisierung global nicht typisch ist. Er warnt davor, die Zukunft des Christentums aus europäischer Perspektive zu beurteilen, und betont das enorme Wachstum in Afrika südlich der Sahara, wo die Zahl der Christen im 20. Jahrhundert explosionsartig gestiegen ist.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Philip Jenkins', work: 'The Next Christendom: The Coming of Global Christianity', year: '3. Aufl. 2011', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '13,35', quote: `Dabei wird jedermann erkennen, daß ihr meine Jünger seid, so ihr Liebe untereinander habt.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn Afrika wächst und Europa schrumpft – welches von beiden ist nach deiner These „die Zukunft"?`,
+              ],
+            },
+          ],
         },
       ],
     },

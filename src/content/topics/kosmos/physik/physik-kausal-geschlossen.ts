@@ -235,6 +235,20 @@ Die koptisch-orthodoxe Anthropologie versteht den Menschen als von Gott geschaff
       answer: `Libet selbst hielt am bewussten „Veto" fest. Und neuere Arbeiten (Schurger, Sitt und Dehaene, *PNAS* 2012) deuten das Bereitschaftspotenzial als Anhäufung neuronalen Hintergrundrauschens, nicht als unbewusste Entscheidung. Libets Versuche betrafen zudem willkürliche Fingerbewegungen ohne Gründe – nicht das Abwägen von Gründen, um das es bei Freiheit eigentlich geht.`,
       sources: [{ kind: 'wissenschaft', author: 'Aaron Schurger, Jacobo D. Sitt & Stanislas Dehaene', work: '„An Accumulator Model for Spontaneous Neural Activity Prior to Self-Initiated Movement", Proceedings of the National Academy of Sciences 109', year: '2012', quote: `Das Bereitschaftspotenzial lässt sich als Anstieg spontaner neuronaler Fluktuationen erklären, nicht als Ausdruck einer bereits gefallenen unbewussten Entscheidung.`, status: 'paraphrase' }],
       detail: `Ausführlich im Claim „Libets Experimente beweisen, dass der freie Wille eine Illusion ist".`,
+      followUps: [
+        {
+          id: 'soon-haynes-sekunden',
+          objection: `Libet ist alt. Soon, Haynes und Kollegen konnten 2008 mit fMRT eine Entscheidung bis zu zehn Sekunden vorhersagen, bevor die Versuchspersonen sie bewusst trafen. Das Gehirn hat längst entschieden.`,
+          objectionBy: 'Sam Harris',
+          answer: `Schau auf die Zahlen: Die Vorhersage lag bei etwa 60 Prozent – bei einer Wahl zwischen zwei Knöpfen, wo Raten schon 50 Prozent ergibt. Und die Entscheidung war völlig beliebig: linke oder rechte Hand, ohne Grund und ohne Folgen. Gerade bei solchen grundlosen Wahlen erwartet man, dass zufällige Hirnaktivität den Ausschlag gibt. Bei echten, abwägenden Entscheidungen fand eine Studie von 2019 das typische Bereitschaftspotenzial gar nicht.`,
+          detail: `Soon u. a. (*Nature Neuroscience* 2008) erreichten eine Vorhersagegenauigkeit knapp über dem Zufallsniveau. Haynes selbst hat in späteren Arbeiten gezeigt, dass Versuchspersonen eine angebahnte Bewegung bis kurz vor der Ausführung noch abbrechen können. Maoz, Yaffe, Koch und Mudrik (*eLife* 2019) verglichen beliebige mit bedeutsamen Entscheidungen (Spenden an gemeinnützige Organisationen) und fanden das Bereitschaftspotenzial nur bei den beliebigen. Das heißt nicht, dass der freie Wille bewiesen wäre – aber die Neurowissenschaft hat ihn nicht widerlegt.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze & John-Dylan Haynes', work: '„Unconscious determinants of free decisions in the human brain", Nature Neuroscience 11', year: '2008', quote: `Aus der Hirnaktivität ließ sich eine beliebige Links-rechts-Entscheidung mit einer Genauigkeit knapp über dem Zufallsniveau mehrere Sekunden vor der bewussten Entscheidung vorhersagen.`, status: 'paraphrase' },
+            { kind: 'wissenschaft', author: 'Uri Maoz, Gideon Yaffe, Christof Koch & Liad Mudrik', work: '„Neural precursors of decisions that matter – an ERP study of deliberate and arbitrary choice", eLife 8', year: '2019', quote: `Das Bereitschaftspotenzial trat bei beliebigen, nicht aber bei bewussten, bedeutsamen Entscheidungen auf.`, status: 'paraphrase' },
+          ],
+          questionsBack: [`Wie aussagekräftig ist eine Vorhersage von 60 Prozent bei einer Wahl, bei der Raten 50 Prozent ergibt – und bei einer Entscheidung ohne jeden Grund?`],
+        },
+      ],
     },
   ],
   questionsToAsk: [
