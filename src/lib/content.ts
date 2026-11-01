@@ -197,7 +197,11 @@ let kbPromise: Promise<KB> | null = null;
 let kbValue: KB | null = null;
 const kbSubs = new Set<() => void>();
 export function getKB() {
-  return (kbPromise ??= loadKB().then((kb) => {
+  // Erst nach dem ersten Bild laden, damit die Oberfläche sofort erscheint.
+  const afterPaint = new Promise<void>((r) =>
+    typeof requestAnimationFrame === 'function' ? requestAnimationFrame(() => setTimeout(r, 0)) : r(),
+  );
+  return (kbPromise ??= afterPaint.then(loadKB).then((kb) => {
     kbValue = kb;
     kbSubs.forEach((s) => s());
     return kb;
