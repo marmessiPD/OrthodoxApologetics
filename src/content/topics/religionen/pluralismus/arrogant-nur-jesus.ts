@@ -95,6 +95,26 @@ const claim: Claim = {
               objectionBy: 'Deepak Chopra (sinngemäß)',
               answer: `Nicht ganz – du hältst mich für falsch, weil ich sage, Jesus sei der einzige Weg. Und du hältst den Muslim für falsch, der sagt, der Islam sei die einzig wahre Religion. „Alle Religionen gelten gleich" ist selbst eine Position, die keine der großen Religionen teilt und die alle Exklusivisten ausschließt. Auch du ziehst eine Grenze – nur an einer anderen Stelle.`,
               questionsBack: [`Hältst du die Überzeugung eines Muslims, dass nur der Islam wahr ist, für richtig oder für falsch?`],
+              followUps: [
+                {
+                  id: 'nur-eine-hypothese',
+                  objection: `Ich behaupte ja gar nicht, recht zu haben. Ich schlage nur eine Hypothese vor, die die Vielfalt der Religionen am besten erklärt: Alle sind kulturell geprägte Antworten auf dieselbe eine Wirklichkeit, das „Reale".`,
+                  objectionBy: 'John Hick',
+                  answer: `Das ist eine sehr starke Hypothese: Sie erklärt, dass Christen, Muslime, Juden und Buddhisten sich alle über das Zentrum ihres eigenen Glaubens irren – über Inkarnation, Koran, Tora und Nirvana –, und nur der Pluralist sieht, was wirklich dahinter ist. Und dein „Reales an sich" soll völlig unerkennbar sein. Woher weißt du dann, dass es hinter allen Religionen steht und dass es gut ist? Bescheiden ist das nicht – es ist eine neue Religion über allen Religionen.`,
+                  detail: `Harold Netland hat Hicks Modell gründlich geprüft. Sein Haupteinwand: Wenn das Reale jenseits aller menschlichen Begriffe liegt – weder persönlich noch unpersönlich, weder gut noch böse im menschlichen Sinn –, dann gibt es keinen Grund mehr, warum Liebe und Mitgefühl angemessenere Antworten auf es sein sollten als Grausamkeit. Hick selbst nimmt aber genau das an: Er misst Religionen daran, ob sie Menschen vom Ich-Zentriertsein zur Wirklichkeits-Zentriertheit führen. Damit bringt er ein moralisches Kriterium mit, das sein unerkennbares Reales gar nicht begründen kann.
+
+Und: Jede der großen Religionen würde Hicks Deutung ihres eigenen Kerns ablehnen. Eine Theorie über die Religionen, der keine Religion zustimmt, ist nicht neutral.`,
+                  voices: [
+                    { person: 'netland', role: 'als Religionsphilosoph', text: `Netland zeigt, dass Hicks Pluralismus die Wahrheitsansprüche der Religionen nicht ernst nimmt, sondern sie in Mythen umdeutet. Das „Reale" wird so leer, dass es keine Kriterien mehr liefern kann – Hick schmuggelt seine moralischen Maßstäbe von außen ein.`, sources: [
+                      { kind: 'fachliteratur', author: 'Harold A. Netland', work: 'Encountering Religious Pluralism: The Challenge to Christian Faith and Mission', year: '2001', status: 'paraphrase', quote: `Kritik an Hicks Hypothese: Ein völlig unerkennbares Reales kann weder Gemeinsamkeit noch moralische Kriterien begründen.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'John Hick', work: 'An Interpretation of Religion', year: '1989', status: 'paraphrase', quote: `Die großen Religionen als verschiedene, kulturell geprägte Wahrnehmungen und Antworten auf das eine Reale, das an sich jenseits menschlicher Begriffe liegt.` },
+                  ],
+                  questionsBack: [`Wenn das Reale völlig unerkennbar ist – woher weißt du, dass Liebe eine bessere Antwort darauf ist als Hass?`],
+                },
+              ],
             },
           ],
         },
@@ -111,6 +131,22 @@ const claim: Claim = {
           objection: `Agnostische Bescheidenheit ist doch einfach ehrlicher.`,
           objectionBy: 'Karen Armstrong (sinngemäß)',
           answer: `In vielen Einzelfragen bin ich gern agnostisch. Aber wenn Gott sich wirklich gezeigt hat, ist es keine Demut, das zu ignorieren. Bist du auch agnostisch, ob Jesus auferstanden ist? Dann wäre die demütige Konsequenz, sich die Belege anzusehen – nicht, die Frage für unbeantwortbar zu erklären.`,
+          followUps: [
+            {
+              id: 'religion-ist-praxis',
+              objection: `Ihr macht Religion zu einer Sache von Lehrsätzen. Ursprünglich bedeutete Glaube nie das Für-wahr-Halten von Doktrinen, sondern Praxis, Vertrauen, Hingabe. Der Streit um „wahre Sätze" ist eine moderne Verengung.`,
+              objectionBy: 'Karen Armstrong (The Case for God)',
+              answer: `Da steckt viel Wahres: Glaube ist Vertrauen und gelebte Praxis – Liturgie, Fasten, Gebet, Barmherzigkeit. Die koptische Kirche lebt genau so. Aber die ersten Christen starben nicht für eine Praxis, sondern für einen Satz: „Jesus ist der Herr" – und nicht der Kaiser. Paulus überliefert ein Bekenntnis mit Inhalt: „dass Christus gestorben ist für unsere Sünden … und auferstanden" (1 Kor 15,3–4). Vertrauen braucht einen, dem man vertraut. Ohne Inhalt wird Hingabe blind.`,
+              detail: `Karen Armstrong hat recht, dass das Wort „glauben" (griechisch *pisteuein*) vor allem Vertrauen und Treue meint. Aber Vertrauen richtet sich immer auf jemanden, von dem man etwas weiß. Die alte Kirche hat deshalb Glaubensbekenntnisse formuliert – nicht als trockene Theorie, sondern um zu bewahren, wem man vertraut. Athanasius kämpfte sein Leben lang für ein einziges Wort im Bekenntnis von Nizäa, weil davon abhing, ob Christus uns wirklich mit Gott verbinden kann.
+
+Die Märtyrer – von den ersten Jahrhunderten bis zu den 21 in Libyen 2015 – zeigen: Für eine bloße Praxis, die man auch anders benennen könnte, stirbt niemand. Man stirbt für eine Wahrheit, die man nicht verleugnen will.`,
+              sources: [
+                { kind: 'gegner', author: 'Karen Armstrong', work: 'The Case for God', year: '2009', status: 'paraphrase', quote: `Religion als Praxis und Haltung; das moderne Verständnis von „belief" als Zustimmung zu Lehrsätzen sei eine Verengung.` },
+                { kind: 'bibel', work: 'Römer', ref: '10,9', status: 'paraphrase', quote: `Wenn du mit deinem Munde bekennst Jesus, dass er der Herr sei, und glaubst in deinem Herzen, dass ihn Gott von den Toten auferweckt hat, so wirst du selig.` },
+              ],
+              questionsBack: [`Wofür sind die Märtyrer gestorben – für eine Praxis oder für das Bekenntnis „Jesus ist der Herr"?`],
+            },
+          ],
         },
       ],
     },
@@ -142,6 +178,32 @@ const claim: Claim = {
           objection: `Aber warum ausgerechnet Jesus?`,
           objectionBy: 'Deepak Chopra (sinngemäß)',
           answer: `Weil nur in ihm Gott selbst unsere Schuld trägt und den Tod überwindet. Wenn das wahr ist, braucht es keinen anderen Weg; wenn es falsch ist, bricht das Christentum zusammen – das sagt Paulus selbst (1 Kor 15,17). Darum ist die ehrlichste Antwort auf deine Frage: Lass uns gemeinsam prüfen, ob Jesus auferstanden ist.`,
+          followUps: [
+            {
+              id: 'auferstehung-nicht-exklusiv',
+              objection: `Selbst wenn Jesus auferstanden wäre – warum folgt daraus, dass er der einzige Weg ist? Vielleicht war er ein besonders gesegneter Mensch unter vielen.`,
+              objectionBy: 'John Hick (sinngemäß)',
+              answer: `Weil die Auferstehung nicht irgendeinen Menschen betrifft, sondern einen, der etwas Bestimmtes über sich gesagt hat: dass er Sünden vergibt, dass er der Weg zum Vater ist und dass er die Welt richten wird. Wenn Gott einen solchen Menschen von den Toten auferweckt, bestätigt er dessen Anspruch. Paulus sagt: Er ist „kräftig erwiesen als Sohn Gottes … durch die Auferstehung von den Toten" (Röm 1,4). Ein Gotteslästerer wäre nicht auferweckt worden.`,
+              detail: `Die Logik ist einfach: Ein Wunder ist im biblischen Verständnis ein Zeichen, das etwas bestätigt. Die Auferweckung ist Gottes Antwort auf den Prozess, in dem Jesus wegen Gotteslästerung verurteilt wurde (Mk 14,61–64). Entweder hat Gott das Urteil des Hohen Rates bestätigt – dann bliebe Jesus im Grab – oder er hat es aufgehoben. Wer die Auferstehung zugibt, kann Jesu Selbstanspruch nicht mehr einfach beiseiteschieben.`,
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '1,4', status: 'paraphrase', quote: `Und kräftig erwiesen als ein Sohn Gottes nach dem Geist, der da heiligt, seit der Zeit er auferstanden ist von den Toten.` },
+              ],
+              followUps: [
+                {
+                  id: 'joh-14-6-spaete-theologie',
+                  objection: `„Ich bin der Weg, die Wahrheit und das Leben" ist späte Theologie des Johannesevangeliums. Der historische Jesus hat so etwas nie gesagt.`,
+                  objectionBy: 'Karen Armstrong / John Hick (sinngemäß)',
+                  answer: `Der Anspruch steht nicht nur bei Johannes. In einem der ältesten Überlieferungsstücke, das Matthäus und Lukas gemeinsam haben, sagt Jesus: „Niemand kennt den Vater als nur der Sohn und wem es der Sohn will offenbaren" (Mt 11,27; Lk 10,22). Bei Markus macht Jesus das Verhältnis zu ihm selbst zum Maßstab des Gerichts (Mk 8,38). Petrus predigt: „Es ist in keinem andern Heil" (Apg 4,12), Paulus: „ein Mittler zwischen Gott und den Menschen" (1 Tim 2,5). Die Einzigartigkeit Jesu ist kein spätes Sondergut, sondern durchzieht das ganze Neue Testament.`,
+                  detail: `Man kann einzelne Formulierungen unterschiedlich datieren. Aber wer alle Stellen streicht, in denen Jesus einen einzigartigen Anspruch erhebt – Sündenvergebung (Mk 2,5–7), das „Ich aber sage euch" der Bergpredigt, die Anrede Gottes als „Abba", den Menschensohn, der mit den Wolken kommt (Mk 14,62) –, behält keinen historischen Jesus übrig, sondern ein Wunschbild. Dass die frühesten jüdischen Christen Jesus als Herrn anriefen, ist ohne einen solchen Anspruch kaum erklärbar.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '11,27', quote: `Alle Dinge sind mir übergeben von meinem Vater. Und niemand kennet den Sohn denn nur der Vater; und niemand kennet den Vater denn nur der Sohn und wem es der Sohn will offenbaren.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '4,12', quote: `Und ist in keinem andern Heil, ist auch kein anderer Name unter dem Himmel den Menschen gegeben, darin wir sollen selig werden.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Welche Jesusworte bleiben übrig, wenn man alle mit einem einzigartigen Anspruch streicht – und nach welchem Kriterium streichst du sie?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -162,6 +224,19 @@ const claim: Claim = {
           answer: `Das sagt die orthodoxe Kirche so gerade nicht. Sie sagt: Das Heil ist in Christus, und sie weiß, wo die Kirche ist – aber sie maßt sich kein Urteil darüber an, wie Gott jeden einzelnen Menschen richtet. „Der Richter aller Welt" wird gerecht und barmherzig richten (Gen 18,25). Siehe dazu den Claim „Was ist mit denen, die nie von Jesus gehört haben?".`,
         },
       ],
+    },
+    {
+      id: 'bleib-in-deiner-religion',
+      objection: `Der Dalai Lama rät Menschen immer wieder, in ihrer eigenen Religion zu bleiben, statt zu konvertieren. Das ist Weisheit. Euer Anspruch, alle müssten Christen werden, ist das Gegenteil.`,
+      objectionBy: 'Der Dalai Lama (sinngemäß)',
+      answer: `Der Rat zeugt von Respekt und von Sorge um Familien und Gemeinschaften – das achte ich. Aber der Dalai Lama unterscheidet selbst: Für die Gesellschaft gilt „viele Religionen", für den einzelnen Gläubigen ist die Überzeugung „eine Wahrheit, eine Religion" wichtig und legitim. Er ist ja auch nicht Christ geworden. Ich lade niemanden mit Druck ein, sondern erzähle, was ich für wahr halte – und lasse ihm die Freiheit. Das ist dieselbe Ehrlichkeit, die er selbst lebt.`,
+      detail: `In seinem Buch über die Verwandtschaft der Religionen beschreibt der Dalai Lama die Spannung offen: Auf persönlicher Ebene braucht der Gläubige die Gewissheit, dass sein Weg wahr ist; auf gesellschaftlicher Ebene sollen Religionen einander achten und friedlich zusammenleben. Genau diese Unterscheidung vertreten auch Christen: Wahrheitsanspruch im Glauben, Freiheit und Achtung im Zusammenleben.
+
+Zur Fairness gehört auch: Aus buddhistischer Sicht ist die vollständige Befreiung an die Einsicht in die Leerheit gebunden – also an den buddhistischen Weg. Auch der freundlichste Rat, in seiner Religion zu bleiben, beruht auf einer bestimmten Weltanschauung.`,
+      sources: [
+        { kind: 'gegner', author: 'Der 14. Dalai Lama (Tenzin Gyatso)', work: 'Toward a True Kinship of Faiths: How the World\'s Religions Can Come Together', year: '2010', status: 'paraphrase', quote: `Unterscheidung zwischen „eine Wahrheit, eine Religion" auf der Ebene des einzelnen Gläubigen und „viele Wahrheiten, viele Religionen" auf der Ebene der Gesellschaft.` },
+      ],
+      questionsBack: [`Wenn der Dalai Lama für sich am Buddhismus als Wahrheit festhält – warum ist es arrogant, wenn ich am Christentum festhalte?`],
     },
   ],
   questionsToAsk: [

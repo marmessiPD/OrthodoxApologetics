@@ -235,7 +235,7 @@ C. S. Lewis hat das Gegenbild in *Die große Scheidung* gezeichnet: Am Ende gibt
                 { person: 'isaak-syrer', role: 'als Mystiker der Liebe', text: `Isaak der Syrer lehrt in seinen asketischen Homilien, dass die Gequälten in der Hölle von der Liebe Gottes gequält werden: Die Liebe, die den Heiligen Freude ist, ist denen, die sich ihr verschlossen haben, Pein. Die Hölle ist für ihn nicht Abwesenheit Gottes, sondern Abwehr seiner Gegenwart.` },
               ],
               sources: [
-                { kind: 'kirchenvater', author: 'Isaak der Syrer', work: 'Asketische Homilien', ref: 'Homilie 28 (nach der Zählung der griechischen Ausgabe) bzw. I,28', year: '7. Jh.', quote: `Die in der Hölle gepeinigt werden, werden von der Geißel der Liebe gepeinigt.`, status: 'paraphrase', note: 'Homilienzählung unterscheidet sich je nach Ausgabe (syrisch/griechisch).' },
+                { kind: 'kirchenvater', author: 'Isaak der Syrer', work: 'Asketische Homilien', ref: 'Erste Sammlung, Homilie 28 (Zählung nach der engl. Ausgabe des Holy Transfiguration Monastery; andere Ausgaben zählen anders)', year: '7. Jh.', quote: `Die in der Hölle gepeinigt werden, werden von der Geißel der Liebe gepeinigt.`, status: 'paraphrase', note: 'Vielzitiert; Homilienzählung unterscheidet sich je nach Ausgabe (syrisch/griechisch/englisch).' },
               ],
             },
           ],

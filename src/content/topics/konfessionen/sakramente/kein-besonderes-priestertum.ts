@@ -265,6 +265,30 @@ Die koptische Praxis bestätigt diesen Dienstcharakter: Priester werden aus der 
               questionsBack: [
                 `Was ist für dich „die Gabe, die dir gegeben ist durch die Handauflegung" (1 Tim 4,14) – nur ein Auftrag oder eine Gabe Gottes?`,
               ],
+              followUps: [
+                {
+                  id: 'korinth-offene-versammlung',
+                  objection: `„Schau dir den Gottesdienst in Korinth an: ‚Ein jeglicher hat einen Psalm, er hat eine Lehre, er hat eine Offenbarung' (1 Kor 14,26). Eine offene, partizipatorische Versammlung – kein Priester am Altar, der allein handelt."`,
+                  objectionBy: 'Frank Viola',
+                  answer: `1 Kor 14 regelt den Gebrauch der Geistesgaben – und mahnt im selben Kapitel zur Ordnung: „Gott ist nicht ein Gott der Unordnung" (14,33), „lasset alles ehrbar und ordentlich zugehen" (14,40). Das Herrenmahl regelt Paulus gesondert und nach einer Überlieferung, die er „von dem HERRN empfangen" hat (11,23). Und ausgerechnet an diese Gemeinde in Korinth schreibt Clemens von Rom um 96: Es sei keine geringe Sünde, diejenigen aus dem Bischofsamt zu verstoßen, die untadelig „die Gaben dargebracht" haben – die Apostel hätten sie eingesetzt und ihre Nachfolge geordnet.`,
+                  voices: [
+                    {
+                      person: 'clemens-rom',
+                      role: 'als Zeuge der Gemeindeordnung in Korinth um 96',
+                      text: `Clemens schreibt an die Korinther, die einige ihrer Presbyter abgesetzt hatten. Er erinnert sie, dass die Apostel Bischöfe und Diakone einsetzten und Vorsorge trafen, dass nach ihrem Tod andere bewährte Männer ihren Dienst übernehmen. Die Absetzung derer, die die Opfergaben untadelig dargebracht haben, nennt er eine schwere Sünde – ein Zeugnis dafür, dass Korinth eine Generation nach Paulus nicht amtsfrei war.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Clemens von Rom', work: '1. Clemensbrief', ref: '44,1–4', year: 'um 96', quote: `Die Apostel wussten, dass es Streit um das Bischofsamt geben würde; darum setzten sie die Genannten ein und gaben Anweisung, dass nach ihrem Entschlafen andere bewährte Männer ihren Dienst übernehmen. Es ist keine geringe Sünde, diejenigen, die untadelig die Gaben dargebracht haben, aus dem Bischofsamt zu stoßen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '14,33.40', quote: `Denn Gott ist nicht ein Gott der Unordnung, sondern des Friedens … Lasset alles ehrbar und ordentlich zugehen.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Zwei Verse zusammengezogen; daher als sinngemäß markiert.' },
+                  ],
+                  questionsBack: [
+                    `Warum schreibt Clemens um 96 nach Korinth von Presbytern, die „die Gaben darbringen", wenn die Gemeinde dort amtsfrei war?`,
+                  ],
+                },
+              ],
             },
           ],
         },

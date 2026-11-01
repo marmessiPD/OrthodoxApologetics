@@ -212,7 +212,7 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
                   id: 'warum-frage-platonisch',
                   objection: `Die Frage „Warum gibt es diesen Rahmen?" ist ein Überbleibsel des platonischen Denkens – als ob die Gesetze auf einer göttlichen Tafel stünden. Hawking hat diesen „Blick Gottes" am Ende ausdrücklich aufgegeben: Wir beschreiben das Universum von innen, als Beobachter in ihm. Von dort gibt es keinen Standpunkt außerhalb, von dem aus man nach einem Schöpfer fragen könnte.`,
                   objectionBy: 'Thomas Hertog',
-                  answer: `Dass wir das Universum nur von innen *beschreiben* können, ist eine kluge erkenntnistheoretische Bescheidenheit – aber daraus folgt nicht, dass es keinen Grund außerhalb *gibt*. Ein Romanfigur kann den Autor auch nicht von innen vermessen; der Roman hat trotzdem einen. Und die Top-down-Kosmologie setzt immer noch einen quantenmechanischen, holografischen Rahmen voraus, den sie nicht erklärt. Die Frage nach dem Grund ist nicht platonisch, sondern schlicht die älteste Frage der Vernunft.`,
+                  answer: `Dass wir das Universum nur von innen *beschreiben* können, ist eine kluge erkenntnistheoretische Bescheidenheit – aber daraus folgt nicht, dass es keinen Grund außerhalb *gibt*. Eine Romanfigur kann den Autor auch nicht von innen vermessen; der Roman hat trotzdem einen. Und die Top-down-Kosmologie setzt immer noch einen quantenmechanischen, holografischen Rahmen voraus, den sie nicht erklärt. Die Frage nach dem Grund ist nicht platonisch, sondern schlicht die älteste Frage der Vernunft.`,
                   detail: `Hertog schildert in *On the Origin of Time* (2023) Hawkings späte Wende: Statt die Gesetze als zeitlos vorgegeben zu betrachten, sollen sie sich im heißen Frühuniversum wie in einer Art Evolution „herausgebildet" haben; man rekonstruiert sie rückwärts aus Sicht heutiger Beobachter. Das ist ein interessanter physikalischer Ansatz. Theologisch ändert er wenig: Auch eine „Evolution der Gesetze" folgt Regeln (Quantenmechanik, Holografie), und auch ein Beobachterstandpunkt setzt voraus, dass es etwas zu beobachten gibt. Die klassische christliche Lehre hat Gott nie als Teil des Universums oder als „Gesetzestafel" verstanden, sondern als den Schöpfer, der allem – Gesetzen wie Dingen – das Sein gibt.`,
                   voices: [
                     { person: 'athanasius', role: 'als Lehrer der Schöpfung durch den Logos', text: `Für Athanasius ist die Ordnung der Welt kein in sich ruhendes System, sondern Wirkung des Logos, der die Schöpfung zusammenhält, damit sie nicht ins Nichts zurückfällt (Contra Gentes 41–42). Die Frage nach dem Grund der Ordnung ist für ihn daher keine fremde Zutat zur Naturbetrachtung, sondern ihre natürliche Vollendung: Aus der Harmonie der Welt erkennt man den Logos, der sie lenkt.` },
@@ -235,6 +235,34 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
       objectionBy: 'Gesprächspartner',
       answer: `Ich widerspreche nicht seiner Physik, sondern seiner Theologie. Die Frage, ob ein Schöpfer „Platz" hat, ist keine Gleichung, sondern Philosophie. Und auch in der Fachwelt sehen das viele anders – etwa Don Page, sein langjähriger Mitarbeiter, ein überzeugter Christ.`,
       detail: `Hawking selbst war bereit, seine Positionen zu revidieren (etwa zur Informationsfrage bei Schwarzen Löchern). Autorität verdient Respekt, ersetzt aber keine Begründung.`,
+      followUps: [
+        {
+          id: 'philosophie-ist-tot',
+          objection: `Hawking hat doch klar gesagt: Die Philosophie ist tot. Sie hat mit der modernen Physik nicht Schritt gehalten. Die großen Fragen beantworten heute die Naturwissenschaftler.`,
+          objectionBy: 'Stephen Hawking & Leonard Mlodinow',
+          answer: `Der Satz „Die Philosophie ist tot" ist selbst ein philosophischer Satz – keine Messung, keine Gleichung. Und das Buch, in dem er steht, widmet danach ganze Kapitel einer philosophischen Theorie: dem „modellabhängigen Realismus". Die Frage ist also nicht, ob man philosophiert, sondern ob man es gut oder schlecht tut.`,
+          detail: `Lennox hat in *God and Stephen Hawking* (2011) darauf hingewiesen, dass *The Grand Design* auf der ersten Seite die Philosophie für tot erklärt und dann fortlaufend philosophische Thesen vertritt – über Realität, Erklärung, Gesetze und Gott. Das ist kein Vorwurf gegen Hawkings Physik, sondern gegen die stillschweigende Annahme, physikalische Kompetenz mache weltanschauliche Aussagen automatisch zu wissenschaftlichen Ergebnissen.`,
+          voices: [
+            { person: 'lennox', role: 'als Mathematiker und Wissenschaftsphilosoph', text: `Lennox betont, dass Hawkings Aussagen über Gott keine Folgerungen aus der Physik sind, sondern Deutungen. Wer die Philosophie für tot erklärt und im selben Atemzug philosophiert, sägt den Ast ab, auf dem er sitzt. Gute Naturwissenschaft brauche gute Philosophie, gerade an den Grenzen des Messbaren.` },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Stephen Hawking & Leonard Mlodinow', work: 'The Grand Design', ref: 'Kap. 1', year: '2010', quote: `Traditionell sind das Fragen für die Philosophie, aber die Philosophie ist tot. Die Philosophie hat mit den modernen Entwicklungen in der Naturwissenschaft, insbesondere in der Physik, nicht Schritt gehalten.`, original: `Traditionally these are questions for philosophy, but philosophy is dead. Philosophy has not kept up with modern developments in science, particularly physics.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+            { kind: 'fachliteratur', author: 'John C. Lennox', work: 'God and Stephen Hawking: Whose Design Is It Anyway?', year: '2011', quote: `Hawkings Behauptungen über Gott sind keine Ergebnisse der Physik, sondern philosophische Deutungen.`, status: 'paraphrase' },
+          ],
+          questionsBack: [`Ist der Satz „Die Philosophie ist tot" ein Ergebnis der Physik? Mit welchem Experiment wurde er gewonnen?`],
+          followUps: [
+            {
+              id: 'modellabhaengiger-realismus',
+              objection: `Nach dem modellabhängigen Realismus gibt es keinen Begriff von Wirklichkeit unabhängig von unseren Modellen. Ein Modell ist gut, wenn es elegant ist und Vorhersagen macht. „Gott" macht keine Vorhersagen – also ist er kein brauchbares Modell.`,
+              objectionBy: 'Stephen Hawking & Leonard Mlodinow',
+              answer: `Dann gilt das aber auch für die Gegenthese. Wenn es keine modellunabhängige Wirklichkeit gibt, dann ist auch „Das Universum hat sich selbst erschaffen" nur eine Aussage innerhalb eines Modells – nicht über die Wirklichkeit. Hawkings atheistische Schlussfolgerung setzt einen starken Realismus voraus, den seine eigene Erkenntnistheorie gerade bestreitet. Und ob der Theismus „Vorhersagen" macht: Er erwartet eine verstehbare, gesetzmäßige, lebensfreundliche Welt mit einem Anfang – genau das finden wir.`,
+              detail: `Hawking und Mlodinow schreiben in Kapitel 3 (*What Is Reality?*), es gebe keinen bild- oder theorieunabhängigen Begriff von Wirklichkeit. Das ist eine Form des wissenschaftstheoretischen Instrumentalismus. Er hat den Vorteil der Bescheidenheit, aber einen hohen Preis: Aussagen wie „Gott ist überflüssig" werden dann zu Aussagen über die Nützlichkeit von Modellen – und verlieren jede metaphysische Kraft. Man kann nicht gleichzeitig sagen „Wir wissen nicht, wie die Wirklichkeit an sich ist" und „Wir wissen, dass es in der Wirklichkeit keinen Schöpfer gibt".`,
+              sources: [{ kind: 'gegner', author: 'Stephen Hawking & Leonard Mlodinow', work: 'The Grand Design', ref: 'Kap. 3', year: '2010', quote: `Es gebe keinen bild- oder theorieunabhängigen Begriff von Wirklichkeit; ein Modell sei gut, wenn es elegant sei, wenige willkürliche Elemente enthalte und Beobachtungen erkläre und vorhersage.`, status: 'paraphrase' }],
+              questionsBack: [`Wenn es keine modellunabhängige Wirklichkeit gibt – über welche Wirklichkeit sagst du dann, dass in ihr kein Gott existiert?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

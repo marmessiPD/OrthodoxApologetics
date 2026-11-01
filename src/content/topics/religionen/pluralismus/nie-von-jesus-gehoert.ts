@@ -104,6 +104,21 @@ const claim: Claim = {
               objection: `Das ist doch Wortklauberei: gerettet durch Jesus, ohne Jesus zu kennen.`,
               objectionBy: 'John Hick (sinngemäß)',
               answer: `Ein Bild: Ein Ertrinkender wird von einem Rettungsschwimmer gerettet, dessen Namen er nicht kennt – gerettet ist er trotzdem durch ihn. Die Gläubigen des Alten Bundes „sahen die Verheißung von ferne" (Hebr 11,13), ohne den Namen Jesus zu kennen, und wurden doch durch ihn erlöst. Gott sieht das Herz an (1 Sam 16,7). Wie viel ein Mensch wissen muss, entscheidet Gott – wer rettet, steht fest.`,
+              followUps: [
+                {
+                  id: 'anonyme-christen-herablassend',
+                  objection: `Das ist Karl Rahners „anonymer Christ" – und es ist herablassend. Wie fändest du es, wenn ich dich einen „anonymen Buddhisten" nenne? Du vereinnahmst die anderen, statt sie zu respektieren.`,
+                  objectionBy: 'John Hick',
+                  answer: `Der Einwand gegen Etiketten ist berechtigt – deshalb klebt die orthodoxe Kirche niemandem eins auf. Sie sagt nicht, Buddhisten seien heimliche Christen, sondern: Wer gerettet wird, wird durch Christus gerettet, und wie Gott jeden Einzelnen richtet, überlassen wir ihm. Und ehrlich: Jede Sicht deutet die anderen in ihrem eigenen Rahmen. Auch du nennst Christen, Muslime und Buddhisten „Antworten auf das Reale" – eine Bezeichnung, der keiner von ihnen zustimmt. Wenn ein Buddhist mich als jemanden sieht, der auf dem Weg ist, kränkt mich das nicht – es ist ehrlich.`,
+                  detail: `Der Begriff „anonymes Christentum" stammt vom katholischen Theologen Karl Rahner und gehört nicht zur orthodoxen Tradition. Die Orthodoxie ist hier zurückhaltender: Sie bekennt Christus als einzigen Erlöser und die Kirche als den Ort, an dem das Heil sicher geschenkt wird, und schweigt über das, was Gott nicht offenbart hat. Justin der Märtyrer sprach davon, dass Menschen wie Sokrates „mit dem Logos lebten" – das ist keine Vereinnahmung, sondern eine Anerkennung, dass alles Wahre vom einen Logos kommt.
+
+Wichtig für das Gespräch: Der Pluralismus vermeidet die „Vereinnahmung" nicht, er verschiebt sie. Er sagt allen Religionen, dass sie sich über ihren eigenen Kern irren – über Inkarnation, Koran, Nirvana –, und dass erst der Pluralist versteht, was sie eigentlich meinen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'John Hick', work: 'God Has Many Names', year: '1980', status: 'paraphrase', quote: `Kritik am Inklusivismus: Die Rede vom „anonymen Christen" sei eine gönnerhafte Vereinnahmung der anderen Religionen.` },
+                  ],
+                  questionsBack: [`Ist es weniger vereinnahmend, allen Religionen zu sagen, sie seien bloß „Antworten auf das Reale"?`],
+                },
+              ],
             },
           ],
         },
@@ -126,6 +141,21 @@ const claim: Claim = {
           objection: `Dann wären die Menschen ohne Mission doch besser dran – wer nichts weiß, trägt weniger Verantwortung.`,
           objectionBy: 'John Hick (sinngemäß)',
           answer: `Wissen bringt Verantwortung (Lk 12,48), aber vor allem ein unermessliches Geschenk: Vergebung, Freude, Gemeinschaft mit Gott. Wer würde lieber im Dunkeln bleiben? Ein Arzt hält ein Heilmittel nicht zurück, weil der Patient es ablehnen könnte. Liebe will, dass der andere die Wahrheit kennt.`,
+          followUps: [
+            {
+              id: 'warum-nicht-allen-direkt',
+              objection: `Warum offenbart sich Gott dann nicht allen direkt und gleichzeitig? Ein liebender Gott würde seine Botschaft nicht einem kleinen Volk in einer Ecke der Welt anvertrauen und hoffen, dass sie sich herumspricht.`,
+              objectionBy: 'John Hick (sinngemäß)',
+              answer: `Gott spricht tatsächlich zu allen – durch die Schöpfung (Röm 1,20) und durch das Gewissen (Röm 2,15). Aber Liebe offenbart sich nicht durch Lautsprecherdurchsagen, sondern durch Personen. Gott wurde ein konkreter Mensch, in einem konkreten Volk, an einem konkreten Ort – anders geht Menschwerdung gar nicht. Und er hat das Evangelium Menschen anvertraut, die es weitertragen (Röm 10,14–15). Heute ist es die am weitesten über Völker und Kulturen verbreitete Botschaft der Welt.`,
+              detail: `Der Einwand stellt sich Offenbarung wie eine Information vor, die man gleichzeitig an alle senden könnte. Aber das Evangelium ist keine Information, sondern eine Begegnung: Gott wird Mensch, und Menschen bezeugen ihn anderen Menschen in Liebe. Diese „Partikularität" ist der Preis der echten Menschwerdung – ein Gott, der überall gleichzeitig als Mensch erscheint, wäre kein Mensch.
+
+Die Kirche Alexandriens ist selbst ein Beispiel: Nach der Überlieferung brachte der Evangelist Markus das Evangelium nach Ägypten, und von dort ging es nach Äthiopien, Nubien und Libyen. Gott vertraut den Menschen seine Botschaft an – das ist eine Ehre und eine Verantwortung zugleich.`,
+              sources: [
+                { kind: 'bibel', work: 'Römer', ref: '10,14–15', status: 'paraphrase', quote: `Wie sollen sie aber den anrufen, an den sie nicht glauben? Wie sollen sie aber glauben, von dem sie nichts gehört haben? Wie sollen sie aber hören ohne Prediger? Wie lieblich sind die Füße derer, die den Frieden verkündigen!` },
+              ],
+              questionsBack: [`Wie hätte Gott Mensch werden können, ohne in einem bestimmten Volk, zu einer bestimmten Zeit, an einem bestimmten Ort geboren zu werden?`],
+            },
+          ],
         },
       ],
     },
@@ -167,6 +197,19 @@ const claim: Claim = {
           id: 'ausweichantwort',
           objection: `Das ist eine Ausweichantwort.`,
           answer: `Es ist eine ehrliche Antwort. Die Bibel gibt uns keine Listen, wer gerettet wird und wer nicht. Als jemand Jesus fragte „Sind es wenige, die gerettet werden?", gab er keine Zahl, sondern sagte: „Ringet danach, dass ihr durch die enge Pforte eingeht" (Lk 13,23–24). Jesus lenkte die Frage vom Schicksal anderer auf die persönliche Verantwortung – und das tue ich auch, mit großer Hochachtung vor deinen Großeltern.`,
+          followUps: [
+            {
+              id: 'dann-taufe-ueberfluessig',
+              objection: `Wenn Gott auch ohne Taufe und Kirche retten kann, dann sind Taufe und Kirche doch überflüssig. Warum dann der ganze Aufwand?`,
+              objectionBy: 'John Hick (sinngemäß)',
+              answer: `Gott ist frei – aber wir sind an das gebunden, was er uns gegeben hat. Ein Arzt kann in einem Notfall auch ohne Krankenhaus helfen; trotzdem baut niemand die Krankenhäuser ab. Die Taufe ist kein Aufwand, sondern ein Geschenk: neue Geburt, Vereinigung mit Christus, die Gabe des Heiligen Geistes. Wer dieses Geschenk kennt und es ablehnt, ist in einer ganz anderen Lage als jemand, der nie davon hören konnte.`,
+              detail: `Jesus sagt: „Es sei denn, dass jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen" (Joh 3,5). Die Kirche nimmt das sehr ernst – deshalb tauft sie auch Kinder. Gleichzeitig kennt sie seit alter Zeit die „Bluttaufe" der Märtyrer, die vor ihrer Taufe für Christus starben. Das zeigt: Die Sakramente sind die sicheren, von Christus gestifteten Wege, aber Gott selbst bleibt nicht kleiner als seine Gaben. Die Gewissheit, die die Kirche schenkt, ist unermesslich wertvoll – gerade deshalb gibt sie sie weiter.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '3,5', quote: `Jesus antwortete: Wahrlich, wahrlich ich sage dir: Es sei denn, daß jemand geboren werde aus Wasser und Geist, so kann er nicht in das Reich Gottes kommen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Würdest du ein Rettungsboot für überflüssig halten, nur weil manche Schiffbrüchige auch auf andere Weise ans Ufer gelangen?`],
+            },
+          ],
         },
       ],
     },

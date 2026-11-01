@@ -78,8 +78,8 @@ const claim: Claim = {
     {
       person: 'athanasius',
       role: 'als alexandrinischer Theologe der neuen Schöpfung',
-      text: `Athanasius deutet den Übergang vom Sabbat zum Herrentag heilsgeschichtlich: Der Sabbat war das Ende der ersten Schöpfung; der Herrentag ist der Anfang der zweiten, neuen Schöpfung in Christus. Früher wurde der Sabbat geehrt, nun der Herrentag, weil die Erneuerung der Schöpfung vollendet ist. Diese Sicht prägt die alexandrinische und koptische Tradition: Der Sonntag ist der „achte Tag", der Tag der Ewigkeit.`,
-      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien (zugeschrieben)', work: 'De sabbatis et circumcisione', status: 'unverified', note: 'Die Echtheit dieser kleinen Schrift ist in der Forschung umstritten; der Gedanke selbst ist in der alexandrinischen Tradition verbreitet.' }],
+      text: `Die unter dem Namen des Athanasius überlieferte Schrift „Über Sabbat und Beschneidung" (ihre Echtheit ist umstritten) deutet den Übergang vom Sabbat zum Herrentag heilsgeschichtlich: Der Sabbat war das Ende der ersten Schöpfung; der Herrentag ist der Anfang der zweiten, neuen Schöpfung in Christus. Früher wurde der Sabbat geehrt, nun der Herrentag, weil die Erneuerung der Schöpfung vollendet ist. Diese Sicht prägt die alexandrinische und koptische Tradition: Der Sonntag ist der „achte Tag", der Tag der Ewigkeit.`,
+      sources: [{ kind: 'kirchenvater', author: 'Pseudo-Athanasius (unter dem Namen des Athanasius überliefert)', work: 'De sabbatis et circumcisione', ref: 'PG 28, 133–141 (CPG 2244)', year: '4. Jh.?', status: 'paraphrase', note: 'Fundstelle geprüft: Migne druckt die Schrift unter den zweifelhaften Werken; die Mauriner hielten sie für unecht, Karl Holl (1899) trat für die Echtheit ein, Willy Rordorf (1972) widersprach. Daher nicht als sicheres Athanasius-Wort zitieren, sondern als alexandrinische Überlieferung unter seinem Namen.' }],
     },
     {
       person: 'pelikan',

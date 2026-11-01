@@ -110,7 +110,31 @@ Wichtig ist, was Kierkegaard *nicht* sagt: Er leitet daraus keine Erlaubnis für
                   objection: `Die Deutung auf Christus ist eine nachträgliche christliche Umdeutung, um eine peinliche Geschichte zu retten.`,
                   objectionBy: 'Bart Ehrman',
                   answer: `Die Verbindung steht schon im Neuen Testament selbst: Paulus schreibt in Röm 8,32, Gott habe „seines eigenen Sohnes nicht verschont" – mit genau dem Verb, das die Septuaginta in Gen 22,16 verwendet. Auch das Judentum sieht in der Bindung Isaaks ein Grunddatum seiner Geschichte und erinnert an sie in der Liturgie zum Neujahrsfest. Die christliche Lesart ist also keine Notlösung, sondern ein bewusstes Echo, das die Texte selbst anlegen.`,
+                  followUps: [
+                    {
+                      id: 'akeda-juedisch-vorchristlich',
+                      objection: `Paulus und der Hebräerbrief sind christliche Quellen. Natürlich lesen sie Christus hinein. Das beweist nichts über den Text.`,
+                      objectionBy: 'Bart Ehrman',
+                      answer: `Dann schau in jüdische Quellen derselben Zeit: Das 4. Makkabäerbuch (1. Jh.) erinnert daran, dass Isaak sich „um der Frömmigkeit willen opfern ließ" (4 Makk 13,12), und die aramäischen Targume schildern, wie Isaak selbst darum bittet, gut gebunden zu werden, damit das Opfer gültig sei. Das Judentum hat die *Akeda* – die „Bindung Isaaks" – also schon unabhängig vom Christentum als Bild freiwilliger Hingabe und als Grund für Gottes Erbarmen gelesen. Die christliche Deutung greift diese Linie auf und sieht sie in Christus erfüllt.`,
+                      detail: `Bis heute wird im jüdischen Neujahrsgottesdienst (Rosch ha-Schana) Gen 22 gelesen und Gott gebeten, der Bindung Isaaks zu gedenken. Die Verbindung von Gen 22 mit Opfer, Stellvertretung und Erbarmen ist also keine christliche Erfindung, sondern gemeinsames Erbe. Das Neue Testament fügt die entscheidende Pointe hinzu: Was Abraham nicht tun musste, hat Gott selbst getan – „der auch seines eigenen Sohnes nicht hat verschont" (Röm 8,32).`,
+                      sources: [
+                        { kind: 'bibel', work: '4. Makkabäer', ref: '13,12', quote: `Denkt daran, woher ihr stammt und durch welche Vaterhand Isaak sich um der Frömmigkeit willen opfern ließ.`, status: 'paraphrase', note: '4 Makk gehört in einigen orthodoxen Bibeln zum Anhang; jüdische Schrift des 1. Jh.' },
+                        { kind: 'juedisch', work: 'Targum Neofiti / Pseudo-Jonathan zu Genesis 22', ref: '22,10', quote: `Isaak bittet seinen Vater, ihn gut zu binden, damit er sich nicht wehre und das Opfer untauglich werde.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
                 },
+              ],
+            },
+            {
+              id: 'mescha-zorn-2-koen-3',
+              objection: `In 2 Kön 3,27 opfert der König von Moab seinen Sohn auf der Mauer – und sofort kommt „großer Zorn über Israel", die Israeliten ziehen ab. Der Text setzt voraus, dass das Kinderopfer gewirkt hat. So viel zur Abscheu der Bibel vor Kinderopfern.`,
+              objectionBy: 'Hector Avalos',
+              answer: `Der Text sagt nicht, wessen Zorn es war, und die Ausleger sind sich uneins: Es kann der Zorn der entsetzten Moabiter sein, die nun verzweifelt kämpften, oder das Entsetzen in Israel selbst über das, was es mit angesehen hatte. Nirgends behauptet die Bibel, der moabitische Gott Kemosch habe Macht gehabt – an vielen anderen Stellen spottet sie über ihn (1 Kön 11,7: „der Gräuel der Moabiter"). Eine dunkle, knappe Notiz kann die klaren Verbote der Tora nicht aufheben.`,
+              detail: `Für die Debatte: Gib zu, dass der Vers schwierig ist und verschieden gedeutet wird. Aber eine Erzählung, die berichtet, was geschah, ist keine Billigung. Die Bibel erzählt auch Davids Ehebruch und Mord, ohne ihn gutzuheißen. Die normativen Texte sind eindeutig: Kinderopfer ist ein „Gräuel, den der HERR hasst" (Dtn 12,31).`,
+              sources: [
+                { kind: 'bibel', work: '2. Könige', ref: '3,26–27', status: 'paraphrase' },
+                { kind: 'bibel', work: '5. Mose (Deuteronomium)', ref: '12,31', quote: `Denn sie haben ihren Göttern getan alles, was dem HERRN ein Gräuel ist und was er hasst; denn sie haben ihren Göttern auch ihre Söhne und Töchter mit Feuer verbrannt.`, status: 'paraphrase' },
               ],
             },
           ],
@@ -147,12 +171,60 @@ Wichtig ist, was Kierkegaard *nicht* sagt: Er leitet daraus keine Erlaubnis für
       objection: `Was lernt man aus dieser Geschichte? Dass Gott blinden Gehorsam will, auch wenn er Unmoralisches verlangt. Das ist die Moral eines Sekten-Gurus.`,
       objectionBy: 'Christopher Hitchens',
       answer: `Der biblische Glaube ist kein blinder Gehorsam: Derselbe Abraham hat mit Gott um Sodom gefeilscht (Gen 18), Mose hat für Israel Fürbitte eingelegt, Hiob hat Gott herausgefordert, die Psalmen klagen Gott an. Gen 22 zeigt kein Muster, sondern eine einmalige Prüfung innerhalb einer langen Vertrauensgeschichte – und ihr Ergebnis ist, dass Gott selbst sorgt: „Der HERR sieht" (22,14).`,
+      followUps: [
+        {
+          id: 'schweigen-fuer-den-sohn',
+          objection: `Gerade das macht es schlimmer: Für die Fremden in Sodom hat Abraham mit Gott gefeilscht – für seinen eigenen Sohn sagt er kein Wort. Er geht einfach los. Das ist kein Vertrauen, das ist moralische Kapitulation.`,
+          objectionBy: 'Richard Dawkins',
+          answer: `Sein Schweigen ist nicht leer – es ist mit Vertrauen gefüllt, und der Text zeigt das zweimal. Zu den Knechten sagt er: „Wir wollen wieder zu euch kommen" (Gen 22,5), und zu Isaak: „Gott wird sich ersehen ein Schaf zum Brandopfer" (22,8). Der Hebräerbrief deutet es so: Abraham „dachte, Gott kann auch wohl von den Toten erwecken" (Hebr 11,19). Er stand vor einem Widerspruch zwischen Gottes Befehl und Gottes Verheißung, dass durch Isaak die Nachkommenschaft kommen werde (Gen 21,12) – und er vertraute, dass Gott seine Verheißung nicht bricht.`,
+          detail: `Der Unterschied zu Sodom: Dort ging es um ein angekündigtes Gericht über Schuldige, bei dem Abraham für mögliche Gerechte eintrat. Hier steht Gottes eigenes Wort gegen Gottes eigenes Wort. Abraham löst die Spannung nicht durch Ungehorsam und nicht durch Zynismus, sondern durch die Hoffnung auf Auferstehung. Gerade deshalb nennen die Väter ihn den „Vater der Glaubenden": Er glaubte an den Gott, „der die Toten lebendig macht" (Röm 4,17).`,
+          sources: [
+            { kind: 'bibel', work: 'Hebräer', ref: '11,17–19', quote: `Durch den Glauben opferte Abraham den Isaak, da er versucht ward … und dachte, Gott kann auch wohl von den Toten erwecken.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Genesis', ref: '22,8', quote: `Abraham antwortete: Mein Sohn, Gott wird sich ersehen ein Schaf zum Brandopfer.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'auferstehungsglaube-gefaehrlich',
+              objection: `Das ist ja noch beunruhigender: Eltern, die ihre Kinder töteten, weil Gott sie „schon wieder auferwecken" werde, gibt es wirklich – in den Nachrichten. Dein Abraham ist ihr Vorbild.`,
+              objectionBy: 'Sam Harris',
+              answer: `Solche Tragödien sind real, und wer so etwas hört, braucht sofort Schutz für das Kind und medizinische Hilfe – das sage ich ohne Einschränkung. Aber Abraham ist kein Vorbild für ein solches Handeln: Seine Situation war einmalig, Gott selbst hat das Opfer verhindert, und seitdem steht unmissverständlich fest, dass Gott Menschenopfer verabscheut (Dtn 12,31; Jer 7,31). In Christus hat Gott das einzige Opfer, das je nötig war, selbst gebracht. Nach christlicher Lehre ist jede „Stimme", die ein Kind zu töten befiehlt, darum mit Sicherheit nicht Gottes Stimme.`,
+              detail: `Seelsorgerlich ist das wichtig: Die Kirche lehrt, „die Geister zu prüfen" (1 Joh 4,1), und gibt mit der geistlichen Vaterschaft und der Gemeinde eine Prüfinstanz. In der koptischen Tradition wird niemand mit solchen inneren Eingebungen allein gelassen; der Beichtvater würde jemanden mit solchen Gedanken sofort zu ärztlicher Hilfe begleiten. Die Gefahr liegt nicht in der Geschichte Abrahams, sondern in einer Religiosität ohne Schrift, ohne Kirche und ohne Christus als Maßstab.`,
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'aeltere-fassung',
       objection: `Manche Forscher meinen, in einer älteren Fassung habe Abraham Isaak tatsächlich geopfert – in Gen 22,19 kehrt nur Abraham zurück, Isaak wird nicht erwähnt.`,
       objectionBy: 'Hector Avalos',
       answer: `Das ist eine Spekulation ohne Textgrundlage: Es gibt keine Handschrift und keine Tradition mit einer solchen Fassung. Dass Isaak in 22,19 nicht genannt wird, ist erzählerische Verkürzung; er erscheint in Gen 24 und 25 lebendig und heiratet Rebekka. Und selbst wenn man über Vorstufen spekuliert: Der überlieferte Text, den Juden und Christen lesen, sagt das Gegenteil eines Kinderopfers.`,
+      followUps: [
+        {
+          id: 'erstgeburt-ex-22',
+          objection: `Ex 22,28 sagt ohne Einschränkung: „Deinen ersten Sohn sollst du mir geben." Forscher wie Jon Levenson zeigen, dass Kinderopfer dem frühen Israel nicht fremd waren. Gen 22 ist die Spur eines älteren, blutigeren Gottes.`,
+          objectionBy: 'Hector Avalos',
+          answer: `Levenson ist ein ausgezeichneter Gewährsmann – aber er zeigt gerade, wie die Bibel diese Welt **verwandelt**: Das Erstgeburtsrecht Gottes wird durch Auslösung erfüllt. „Alle Erstgeburt deiner Söhne sollst du lösen" (Ex 13,13; 34,20), stellvertretend durch ein Tier oder durch den Dienst der Leviten (Num 3,12). Gen 22 erzählt genau diesen Übergang: Der Sohn gehört Gott – und Gott selbst stellt den Ersatz. Die Linie läuft vom Moloch-Kult über den Widder bis zum Lamm Gottes.`,
+          detail: `Jon D. Levenson (Harvard, selbst jüdisch) argumentiert in *The Death and Resurrection of the Beloved Son* (1993), dass das Motiv der Hingabe des geliebten Sohnes tief in Israels Überlieferung liegt und im Judentum wie im Christentum in Riten der Auslösung und in Erzählungen von Opfer und Rettung verwandelt wurde. Man kann also offen zugeben, dass die Umwelt Israels Kinderopfer kannte. Die Frage ist, wohin der biblische Text führt – und er führt weg vom Kinderopfer, hin zur Stellvertretung, die Gott selbst übernimmt.`,
+          sources: [
+            { kind: 'bibel', work: '2. Mose (Exodus)', ref: '13,13', quote: `Alle Erstgeburt unter deinen Kindern sollst du lösen.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'fachliteratur', author: 'Jon D. Levenson', work: 'The Death and Resurrection of the Beloved Son: The Transformation of Child Sacrifice in Judaism and Christianity', year: '1993', status: 'paraphrase', note: 'Schon der Untertitel benennt die These: Verwandlung, nicht Fortsetzung des Kinderopfers.' },
+          ],
+          followUps: [
+            {
+              id: 'jiftach-tochter',
+              objection: `Und Jiftach in Richter 11? Er opfert seine Tochter für ein Gelübde, und der Text verurteilt ihn mit keinem Wort. Im Hebräerbrief steht er sogar in der Liste der Glaubenshelden.`,
+              objectionBy: 'Hector Avalos',
+              answer: `Das Richterbuch ist eine Erzählung vom moralischen Niedergang, deren Refrain lautet: „Ein jeglicher tat, was ihn recht deuchte" (Ri 21,25). Es erzählt viel, was es nicht billigt. Das Gesetz hatte Kinderopfer ausdrücklich als Gräuel verboten (Lev 18,21; Dtn 12,31) – Jiftach handelt gegen Gottes Gebot, nicht auf Gottes Befehl, und anders als bei Abraham greift Gott hier ein, indem er es **nicht** verlangt. Dass Jiftach in Hebr 11 steht, ehrt seinen Glauben im Kampf, nicht sein Gelübde – in derselben Liste stehen auch Samson und David, deren Sünden die Schrift ungeschönt erzählt.`,
+              detail: `Die Erzählung endet mit der Klage: Die Töchter Israels beweinen jedes Jahr die Tochter Jiftachs (Ri 11,40) – der Text stellt sie als Opfer, nicht als Vorbild dar. Johannes Chrysostomus deutet die Geschichte als Warnung vor unbedachten Gelübden: Gott habe das Geschehen zugelassen, damit spätere Generationen nie wieder so etwas geloben.`,
+              sources: [
+                { kind: 'bibel', work: 'Richter', ref: '21,25', quote: `Zu der Zeit war kein König in Israel; ein jeglicher tat, was ihn recht deuchte.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über die Bildsäulen (De statuis)', ref: 'Homilie 14', year: '387', quote: `Gott ließ das Opfer der Tochter Jiftachs zu, damit niemand nach ihm mehr solche Gelübde ablege.`, status: 'paraphrase', note: 'Sinngemäß; Abschnittsangabe vor wörtlicher Verwendung prüfen.' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
