@@ -102,6 +102,17 @@ const claim: Claim = {
               objection: `Stasis erklärt sich einfach durch stabilisierende Selektion. Wenn die Umwelt stabil ist, bleibt auch die Form stabil.`,
               objectionBy: 'Larry Moran',
               answer: `Das ist eine plausible Erklärung für die Stasis, und ich gestehe sie zu. Offen bleibt dann aber die andere Hälfte des Musters: die großen Umbauten in kurzen Fenstern. Wenn Formen Millionen Jahre stabil sind und sich dann rasch grundlegend ändern, braucht es eine Erklärung dafür, wie so viele koordinierte Neuerungen in kurzer Zeit entstehen konnten.`,
+              followUps: [
+                {
+                  id: 'peripatrische-artbildung',
+                  objection: `Die kurzen Fenster erklären sich durch Artbildung in kleinen, abgelegenen Randpopulationen, wie Mayr sie beschrieben hat: Dort ändert sich viel in kurzer Zeit, und weil diese Populationen klein und örtlich begrenzt sind, hinterlassen sie kaum Fossilien. Danach breitet sich die neue Art aus – und erscheint im Fossilbericht „plötzlich".`,
+                  objectionBy: 'Larry Moran',
+                  answer: `Für die Entstehung neuer **Arten** mit moderaten Unterschieden ist das eine plausible Erklärung, und ich gestehe sie zu. Aber die auffälligsten abrupten Ursprünge betreffen nicht Arten, sondern Baupläne und große Neuerungen – Tierstämme im Kambrium, Wale, Blütenpflanzen. Kleine Randpopulationen machen die genetische Seite eher schwieriger: Weniger Individuen bedeuten weniger Mutationen pro Generation und längere Wartezeiten für koordinierte Änderungen. Die Erklärung löst das Fossilproblem, indem sie das genetische verschärft.`,
+                  questionsBack: [
+                    `Wie viele Generationen und welche Populationsgröße nimmst du für die Randpopulation an, in der ein neuer Bauplan entstanden sein soll?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -118,6 +129,17 @@ const claim: Claim = {
           objection: `Nur ein winziger Bruchteil aller Arten ist überhaupt fossil erhalten. Lücken bei einzelnen Arten sind unvermeidlich.`,
           objectionBy: 'Donald Prothero',
           answer: `Für einzelne Arten stimmt das, und ich erwarte keine lückenlose Artenfolge. Aber das Problem betrifft das systematische Muster über viele Gruppen hinweg – auch bei Meerestieren mit Hartschalen, die den besten Fossilbericht überhaupt haben. Wenn dort ebenfalls abruptes Auftreten und Stasis vorherrschen, ist das kein Zufall der Erhaltung mehr.`,
+          followUps: [
+            {
+              id: 'signor-lipps',
+              objection: `Und abruptes Erscheinen ist teilweise ein Stichprobeneffekt: Nach dem Signor-Lipps-Effekt erscheinen Arten im Fossilbericht später und verschwinden früher, als sie tatsächlich lebten, weil seltene Formen kaum gefunden werden. Die Abruptheit ist zum Teil ein Artefakt.`,
+              objectionBy: 'Donald Prothero',
+              answer: `Der Signor-Lipps-Effekt ist real und wichtig – und gerade weil er bekannt ist, kann man ihn rechnerisch berücksichtigen: Paläontologen berechnen Vertrauensintervalle für die tatsächliche Lebensdauer einer Gruppe aus der Dichte ihrer Funde. Bei gut beprobten Gruppen, etwa Meeresorganismen mit harten Schalen, sind diese Intervalle oft eng. Der Effekt verschiebt erste Auftritte also um eine messbare Spanne nach hinten, löst aber nicht das wiederholte Muster, dass große Neuerungen in geologisch kurzen Fenstern erscheinen.`,
+              questionsBack: [
+                `Wie weit verschiebt der Signor-Lipps-Effekt das erste Auftreten bei gut beprobten Gruppen konkret – um Tausende oder um zig Millionen Jahre?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -132,6 +154,14 @@ const claim: Claim = {
           objection: `Ihr Kreationisten gewinnt doch immer: Findet man ein Fossil zwischen zwei anderen, sagt ihr, jetzt gibt es zwei Lücken statt einer.`,
           objectionBy: 'Richard Dawkins',
           answer: `Das ist eine treffende Satire auf ein schlechtes Argument – und ich verwende es nicht. Jedes neue Fossil mit intermediären Merkmalen ist ein echter Befund. Mein Argument betrifft das Gesamtmuster und vor allem die Frage, ob der vorgeschlagene Mechanismus die beobachteten Umbauten in der verfügbaren Zeit leisten kann.`,
+          followUps: [
+            {
+              id: 'kaninchen-im-praekambrium',
+              objection: `Dann nenne ich dir eine Vorhersage, die hätte scheitern können: J. B. S. Haldane sagte sinngemäß, ein einziges fossiles Kaninchen im Präkambrium würde die Evolution widerlegen. Nach über 150 Jahren Suche: kein einziges. Die Reihenfolge stimmt immer.`,
+              objectionBy: 'Jerry Coyne',
+              answer: `Das gestehe ich zu: Die Reihenfolge der Fossilien ist bemerkenswert stabil, und das spricht für eine reale Geschichte des Lebens über lange Zeiträume. Christen, die ein hohes Erdalter annehmen, und Design-Befürworter erwarten auch keine Kaninchen im Präkambrium. Der Test bestätigt also die Abfolge – er sagt nichts darüber, ob Mutation und Selektion die Übergänge in den verfügbaren Zeitfenstern bewirken konnten. Über die Reihenfolge sind wir uns einig; strittig ist der Mechanismus.`,
+            },
+          ],
         },
       ],
     },
@@ -163,6 +193,17 @@ const claim: Claim = {
           objection: `Die Diskrepanz zwischen Uhren und Fossilien zeigt nur, dass frühe Blütenpflanzen selten und unauffällig waren.`,
           objectionBy: 'Kevin Padian',
           answer: `Das ist eine mögliche Erklärung – dieselbe wie beim Kambrium. Sie ist aber eine Annahme, die die Abwesenheit von Belegen erklärt, kein Beleg selbst. Wenn dieselbe Hilfsannahme bei vielen großen Ursprüngen nötig ist, wird das wiederkehrende Muster selbst zu einer Frage, die eine Antwort verdient.`,
+          followUps: [
+            {
+              id: 'nanjinganthus-jura',
+              objection: `Die Lücke bei den Blütenpflanzen schrumpft: 2018 wurde mit Nanjinganthus eine Blüte aus dem Unterjura Chinas beschrieben, rund 50 Millionen Jahre vor den bisher ältesten sicheren Funden. Fossilien und molekulare Uhren nähern sich an.`,
+              objectionBy: 'Dennis Venema',
+              answer: `Nanjinganthus ist ein interessanter Fund – aber seine Deutung als Bedecktsamer wird von anderen Paläobotanikern ausdrücklich bestritten. Und selbst wenn sie zutrifft, zeigt der Fund eine bereits voll ausgebildete Blüte. Das verschiebt das abrupte Erscheinen der Blütenpflanzen nur weiter nach hinten, statt es durch eine Übergangsreihe aufzulösen. Eine frühere fertige Blüte ist kein Bindeglied.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Qiang Fu u. a.', work: '„An unexpected noncarpellate epigynous flower from the Jurassic of China", eLife 7', year: '2018', status: 'paraphrase', note: 'Die Einordnung als Bedecktsamer ist unter Paläobotanikern umstritten.' },
+              ],
+            },
+          ],
         },
       ],
     },

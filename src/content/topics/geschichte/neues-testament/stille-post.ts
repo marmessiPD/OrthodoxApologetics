@@ -115,8 +115,36 @@ const claim: Claim = {
               objectionBy: 'Bart Ehrman / frühe Kritik Jacob Neusners',
               answer: `Die Kritik hat einen wahren Kern: Formalisierte Rabbinenschulen sind vor allem nach 70 belegt. Aber Lehrer, die ihre Schüler Merksätze auswendig lernen ließen, gab es in der ganzen antiken Welt – bei Philosophenschulen ebenso wie im Judentum. Jesus wurde „Rabbi" genannt, hatte „Schüler", sandte sie mit seiner Botschaft aus (Mk 6,7–13) und lehrte in Formen, die zum Behalten gemacht sind. Bezeichnend: Jacob Neusner, Gerhardssons früher Kritiker, hat seine Ablehnung später ausdrücklich relativiert.`,
               sources: [
-                { kind: 'fachliteratur', author: 'Jacob Neusner', work: 'Vorwort zur Neuausgabe von B. Gerhardsson, Memory and Manuscript (mit Tradition and Transmission in Early Christianity)', year: '1998', quote: `Neusner würdigt Gerhardssons Werk und relativiert seine frühere scharfe Kritik.`, status: 'paraphrase', note: 'Wortlaut und Umfang der Relativierung vor Zitierung prüfen.' },
+                { kind: 'fachliteratur', author: 'Jacob Neusner', work: 'Vorwort zur Neuausgabe von B. Gerhardsson, Memory and Manuscript (mit Tradition and Transmission in Early Christianity), Grand Rapids: Eerdmans', year: '1998', quote: `Neusner würdigt Gerhardssons Werk und relativiert seine frühere scharfe Kritik.`, status: 'paraphrase', note: 'Bestätigt durch S. Byrskogs Nachruf auf Gerhardsson (Svensk Teologisk Kvartalskrift, 2014): Neusner nutzte das Vorwort, um sich für seine früheren Äußerungen zu entschuldigen und Gerhardssons Werk zu würdigen (WebSearch-Prüfung 2026). Wortlaut des Vorworts selbst nicht eingesehen.' },
                 { kind: 'fachliteratur', author: 'Rainer Riesner', work: 'Jesus als Lehrer. Eine Untersuchung zum Ursprung der Evangelien-Überlieferung', year: '1981', quote: `Riesner zeigt Jesu Lehrweise in einprägsamen Formen und die Bedeutung des Memorierens im antiken Judentum.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'oral-performance-kein-original',
+                  objection: `Die Forschung zur Mündlichkeit hat gezeigt: In oralen Kulturen gibt es gar kein „Original". Jeder Vortrag ist eine neue Performance, die Erzähler passen die Geschichte jedes Mal an ihr Publikum an. Die Frage, ob „der ursprüngliche Jesus" bewahrt wurde, ist falsch gestellt.`,
+                  objectionBy: 'Werner Kelber (rezipiert) / Dan McClellan',
+                  answer: `Richtig ist: Mündliche Überlieferung ist Performance, und Variation gehört dazu – das sehen wir in den Evangelien. Aber dieselbe Forschung zeigt auch die andere Seite: Gemeinschaften lassen Variation **innerhalb** fester Grenzen zu; der Kern einer Geschichte, ihre Pointe und ihre Schlüsselworte bleiben stabil. James Dunn hat das „Stabilität und Flexibilität" genannt. Und die Jesusüberlieferung war nicht nur mündlich: Manche Abschnitte bei Matthäus und Lukas stimmen im Griechischen fast Wort für Wort überein – das setzt schriftliche Quellen voraus, und zwar früh.`,
+                  detail: `**Kelbers Anstoß (1983):** Werner Kelber betonte den Bruch zwischen mündlicher und schriftlicher Überlieferung und warnte davor, mündliche Tradition nach dem Modell des Abschreibens zu denken. Diese Einsicht ist wertvoll.
+
+**Dunns Weiterführung:** In „Jesus Remembered" (2003) und einem Aufsatz in New Testament Studies (2003) beschreibt Dunn die Jesusüberlieferung als gemeinschaftliche Performance mit einem stabilen Kern und variablen Details. Er hält gerade diese Mischung für ein Zeichen, dass die Erinnerung an Jesus die Gemeinden **prägte**, nicht umgekehrt.
+
+**Schriftliche Spuren:** Mt 3,7–10 und Lk 3,7–9 (Täuferpredigt) stimmen in über 90 % des griechischen Wortlauts überein. Solche Übereinstimmungen sind nur mit einer gemeinsamen schriftlichen Vorlage zu erklären. Mündlichkeit und Schriftlichkeit liefen also parallel.`,
+                  voices: [
+                    {
+                      person: 'birger-gerhardsson',
+                      role: 'als Erforscher von Gedächtnis und Überlieferung',
+                      text: `Gerhardsson hat schon früh betont, dass die Alternative „starres Auswendiglernen oder freies Erzählen" falsch ist. Antike Lehrer prägten ihren Schülern Kernsätze ein, die dann erklärt, angewandt und in Erzählungen eingebettet wurden. Der Text konnte so in der Formulierung variieren, ohne dass sein Inhalt verloren ging.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Birger Gerhardsson', work: 'The Reliability of the Gospel Tradition', year: '2001', status: 'paraphrase', quote: `Überlieferung als Zusammenspiel von eingeprägtem Kern und erläuternder Weitergabe.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Werner H. Kelber', work: 'The Oral and the Written Gospel', year: '1983', quote: `Kelber betont die Eigenart mündlicher Performance und den Bruch zur schriftlichen Fixierung.`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'James D. G. Dunn', work: 'Altering the Default Setting: Re-envisaging the Early Transmission of the Jesus Tradition. New Testament Studies 49', year: '2003', quote: `Dunn beschreibt die Jesusüberlieferung als mündliche Performance mit stabilem Kern und flexiblen Details.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn jede Performance neu war – warum stimmen Matthäus und Lukas in der Täuferpredigt fast Wort für Wort überein?`,
+                  ],
+                },
               ],
             },
           ],
@@ -139,6 +167,26 @@ const claim: Claim = {
               questionsBack: [
                 `Warum gibt es in den Evangelien kein Jesuswort zur Beschneidungsfrage, wenn die Gemeinden frei erfanden, was sie brauchten?`,
               ],
+              followUps: [
+                {
+                  id: 'missionsbefehl-erfunden',
+                  objection: `Natürlich haben sie erfunden: Der Missionsbefehl an alle Völker (Mt 28,19) rechtfertigt genau die spätere Heidenmission, und das strikte Scheidungsverbot passt zur Gemeindeordnung. Die Gemeinde legte Jesus in den Mund, was sie für ihre Praxis brauchte.`,
+                  objectionBy: 'Bart Ehrman / Jesus Seminar',
+                  answer: `Gerade diese Beispiele zeigen das Gegenteil. Hätte die Gemeinde den Missionsbefehl erfunden, um ihre Praxis zu regeln, hätte sie auch die eigentliche Streitfrage beantwortet: Müssen Heiden beschnitten werden? Darüber stritt man jahrelang (Apg 15; Gal 2) – offenbar, weil es kein Jesuswort dazu gab. Und das Scheidungsverbot ist das am frühesten belegte Jesuswort überhaupt: Paulus zitiert es um 54 ausdrücklich als „Gebot des Herrn" (1 Kor 7,10), Jahre vor Markus und Matthäus – in einer Fassung, die zu Markus passt. Es war für die Gemeinde eher unbequem, wie schon die Reaktion der Jünger zeigt (Mt 19,10).`,
+                  detail: `**Mehrfach und früh bezeugt:** Das Scheidungswort steht bei Paulus (1 Kor 7,10–11), in Markus (10,11–12), in der Logienquelle (Mt 5,32; Lk 16,18) und bei Matthäus (19,9). Es ist damit eines der bestbezeugten Jesusworte.
+
+**Zum Missionsbefehl:** Dass Jesus die Völker im Blick hatte, zeigen auch andere Überlieferungen (Mt 8,11; Mk 13,10; Mk 7,24–30). Die konkrete Form „im Namen des Vaters und des Sohnes und des heiligen Geistes" hält die kritische Forschung oft für gemeindlich geprägt; textkritisch ist sie unbestritten bezeugt.
+
+**Ehrlich:** Die Evangelisten haben Jesusworte geordnet, gedeutet und in ihre Situation hineingesprochen – das ist Teil antiker Überlieferung. Aber die auffälligen **Lücken** (keine Worte zu Beschneidung, Ämtern, Zungenrede) zeigen, dass die Gemeinden ihre Fragen nicht durch neue Herrenworte lösten.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '7,10–11', quote: `Den Ehelichen aber gebiete nicht ich, sondern der HERR, daß das Weib sich nicht scheide von dem Manne; … und daß der Mann das Weib nicht von sich lasse.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Matthäus', ref: '19,10', quote: `Da sprachen die Jünger zu ihm: Steht die Sache eines Mannes mit seinem Weibe also, so ist's nicht gut, ehelich werden.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum stritt die Urkirche jahrelang über die Beschneidung, wenn sie sich passende Jesusworte einfach schaffen konnte?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -158,6 +206,53 @@ const claim: Claim = {
           sources: [
             { kind: 'bibel', work: 'Lukas', ref: '1,63', quote: `Und er forderte ein Täfelein und schrieb also: Er heißt Johannes. Und sie verwunderten sich alle.`, translation: 'Luther 1912', status: 'verbatim' },
             { kind: 'fachliteratur', author: 'William V. Harris', work: 'Ancient Literacy', year: '1989', quote: `Harris schätzt die Lese- und Schreibfähigkeit im Römischen Reich auf etwa 10–15 %.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'matthaeus-notizen-spekulation',
+              objection: `Dass der Zöllner Matthäus Notizen machte, ist reine Spekulation. Und das Matthäusevangelium übernimmt den größten Teil des Markusstoffs, oft wörtlich. Ein Augenzeuge würde doch nicht von jemandem abschreiben, der selbst kein Augenzeuge war.`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Einverstanden – Notizen des Matthäus lassen sich nicht beweisen, ich biete sie nur als Möglichkeit an. Zum Abschreiben: Nach der ältesten Überlieferung geht Markus auf die Predigt des Petrus zurück (Papias). Dass ein Apostel den Bericht des führenden Apostels übernimmt und ergänzt, ist nicht seltsam, sondern naheliegend. Antike Autoren benutzten selbstverständlich Vorlagen, auch wenn sie selbst Zeitzeugen waren. Die Verfasserfrage des Matthäusevangeliums ist offen und wird im Claim „Die Evangelien sind spät und anonym" ausführlich behandelt – für die Frage nach Stille Post ist entscheidend, dass früh geschrieben wurde.`,
+              detail: `**Papias über Markus (bei Eusebius, KG III,39,15):** Markus sei der Dolmetscher des Petrus gewesen und habe genau aufgeschrieben, woran er sich erinnerte, wenn auch nicht in der richtigen Reihenfolge. Diese Notiz geht nach Papias auf „den Ältesten" zurück, also in die Generation der Augenzeugen.
+
+**Antike Praxis:** Historiker wie Josephus verbanden eigenes Erleben mit schriftlichen Quellen. Wer einen gut geordneten Bericht vorfand, übernahm ihn, statt alles neu zu formulieren.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Papias von Hierapolis (bei Eusebius)', work: 'Kirchengeschichte', ref: 'III,39,15', year: 'ca. 110–130', quote: `Markus, der Dolmetscher des Petrus, schrieb genau auf, woran er sich erinnerte, freilich nicht in der Reihenfolge, was vom Herrn gesagt oder getan worden war.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wenn Markus Petrus' Erinnerungen bewahrt – warum sollte ein anderer Apostel diesen Bericht nicht übernehmen?`,
+              ],
+              followUps: [
+                {
+                  id: 'papias-lebendige-stimme',
+                  objection: `Papias schreibt doch selbst, er habe aus Büchern weniger Nutzen gezogen als aus der „lebendigen Stimme". Das beweist, wie mündlich und ungeordnet die Überlieferung noch im 2. Jahrhundert war – und Papias glaubte auch die absurdesten Legenden, etwa über Judas' Tod.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Papias bevorzugt die „lebendige Stimme", weil er **Augenzeugen** oder deren direkte Schüler befragen konnte – das ist die Haltung antiker Historiker wie Polybios, die das Zeugnis eines Lebenden über jedes Buch stellten. Das ist Wertschätzung des Zeugen, nicht Gleichgültigkeit gegenüber Genauigkeit. Dass Papias manches Legendarische weitergab, stimmt; deshalb wiegt man ihn ab, statt ihn zu ignorieren. Aber gerade seine Methode – gezielt nachfragen, was Andreas, Petrus oder Johannes sagten – zeigt, dass man um 100 noch wusste, wer was bezeugen konnte.`,
+                  detail: `**Papias, bei Eusebius KG III,39,3–4:** Er habe sorgfältig gelernt und behalten, was er von den Ältesten hörte, und nachgefragt, was die Herrenjünger gesagt hätten; denn er glaubte, Bücher nützten ihm nicht so viel wie die „lebendige und bleibende Stimme".
+
+**Bauckhams Deutung:** Richard Bauckham zeigt, dass diese Formulierung ein Topos der antiken Geschichtsschreibung ist: Der beste Historiker ist der, der selbst dabei war oder Augenzeugen befragt. Papias stellt sich in diese Tradition.
+
+**Ehrlich:** Papias' Bericht über Judas' grausigen Tod (überliefert bei Apollinaris von Laodicea) ist klar legendarisch ausgeschmückt. Eusebius selbst nannte Papias einen Mann von „sehr geringem Verstand" – vor allem wegen seiner Endzeitvorstellungen. Man sollte ihn daher als wertvollen, aber kritisch zu lesenden Zeugen behandeln.`,
+                  voices: [
+                    {
+                      person: 'papias',
+                      role: 'als Sammler apostolischer Überlieferung',
+                      text: `Papias legt offen, wie er arbeitete: Er fragte Reisende, die den Ältesten gefolgt waren, nach den Worten der Apostel, und er unterschied zwischen dem, was er selbst gehört hatte, und dem, was andere berichteten. Für ihn war entscheidend, aus welcher Quelle eine Überlieferung stammte – ein frühes Zeugnis kritischen Bewusstseins.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Papias von Hierapolis (bei Eusebius)', work: 'Kirchengeschichte', ref: 'III,39,3–4', year: 'ca. 110–130', status: 'paraphrase', quote: `Papias zog die lebendige und bleibende Stimme den Büchern vor und fragte gezielt nach den Worten der Herrenjünger.` }],
+                    },
+                    {
+                      person: 'bauckham',
+                      role: 'als Erforscher der Augenzeugenüberlieferung',
+                      text: `Bauckham liest Papias' Vorliebe für die „lebendige Stimme" im Licht der antiken Historiografie: Polybios und andere stellten das Zeugnis von Augenzeugen über schriftliche Quellen. Papias wollte damit nicht sagen, dass die Überlieferung frei floss, sondern dass er möglichst nahe an die Zeugen herankommen wollte.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the Eyewitnesses', year: '2006; 2. Aufl. 2017', status: 'paraphrase', quote: `Papias' „lebendige Stimme" als historiografischer Topos der Bevorzugung von Augenzeugen.` }],
+                    },
+                  ],
+                  questionsBack: [
+                    `Warum fragt Papias gezielt nach einzelnen Aposteln, wenn ihm die Herkunft der Überlieferung egal war?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -179,6 +274,55 @@ const claim: Claim = {
           answer: `Ich gebe zu, dass wir nicht immer seinen genauen Wortlaut haben – wohl aber seine Stimme, seinen Sinn. Antike Historiker arbeiteten genauso: Thukydides schreibt, er habe die Reden so wiedergegeben, wie die Redner nach seiner Meinung hätten sprechen müssen, sich dabei aber möglichst eng an den Gesamtsinn des tatsächlich Gesagten gehalten. Niemand hält deshalb Perikles' Politik für erfunden. Treue Wiedergabe des Sinns ist keine Verfälschung, sondern Überlieferung – und vier Zeugen, die denselben Sinn in verschiedenen Worten bewahren, sind eine starke Bestätigung.`,
           sources: [
             { kind: 'sonstiges', author: 'Thukydides', work: 'Der Peloponnesische Krieg', ref: '1,22,1', year: 'ca. 400 v. Chr.', quote: `Die Reden habe er so wiedergegeben, wie jeder Redner nach seiner Ansicht das Erforderliche sagen musste, wobei er sich möglichst eng an den Gesamtsinn des wirklich Gesagten hielt.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'formkritik-sitz-im-leben',
+      objection: `Die Formkritik hat seit Bultmann gezeigt: Jede Einzelgeschichte der Evangelien hat ihren „Sitz im Leben" der Gemeinde – Predigt, Taufe, Streitgespräch, Mission. Die Erzählungen sagen uns, was die Gemeinden brauchten, nicht, was Jesus tat. Das Jesus Seminar kam zu dem Schluss, dass rund 82 % der Worte, die die Evangelien Jesus zuschreiben, nicht von ihm stammen.`,
+      objectionBy: 'Rudolf Bultmann (rezipiert) / Jesus Seminar',
+      answer: `Die Formkritik hat wichtige Einsichten gebracht – Überlieferung wurde tatsächlich in der Gemeinde gebraucht und geformt. Aber ihre Grundannahmen gelten heute weithin als überholt: dass die Überlieferung anonym und kollektiv ablief, dass sie über lange Zeit wie Volksmärchen wuchs und dass sie sich nach festen Gesetzen entwickelte. E. P. Sanders hat 1969 gezeigt, dass es solche Gesetze nicht gibt – die Überlieferung wurde mal länger, mal kürzer, mal genauer. Und dass eine Geschichte in der Gemeinde **gebraucht** wurde, beweist nicht, dass sie **erfunden** wurde: Man erzählte von Jesus, weil er etwas getan hatte, das für die Gemeinde wichtig war.`,
+      detail: `**Bultmanns Modell (1921):** Die synoptische Tradition sei in kleinen Einheiten umgelaufen, von der Gemeinde geformt und nach ihren Bedürfnissen erweitert worden; das Interesse habe der Verkündigung gegolten, nicht der Geschichte. Als Analogie dienten Volksüberlieferungen, die sich über Generationen entwickelten.
+
+**Was dagegen spricht:**
+- **Zeitspanne:** Zwischen Jesus und den Evangelien liegen 40–60 Jahre, keine Jahrhunderte.
+- **Benannte Zeugen:** Die Überlieferung war an bekannte Personen gebunden (Bauckham), nicht anonym.
+- **Keine festen Gesetze:** Sanders' Untersuchung der Textüberlieferung und der apokryphen Evangelien zeigte keine einheitliche Entwicklungsrichtung.
+
+**Zum Jesus Seminar (1993):** Die Abstimmungen mit farbigen Perlen gingen von Vorentscheidungen aus – etwa einem nicht-apokalyptischen Jesus und einem frühen Thomasevangelium. Luke Timothy Johnson und andere haben diese Methode scharf kritisiert. Die Ergebnisse spiegeln eher die Ausgangsannahmen als die Quellen.`,
+      voices: [
+        {
+          person: 'blomberg',
+          role: 'als Neutestamentler zur historischen Zuverlässigkeit',
+          text: `Blomberg hat die Methoden der Formkritik und des Jesus Seminars ausführlich geprüft. Er zeigt, dass deren skeptische Ergebnisse vor allem auf methodischen Vorentscheidungen beruhen. Wendet man dieselben Maßstäbe an, die Historiker an andere antike Biografien anlegen, erweisen sich die Evangelien als im Wesentlichen zuverlässig.`,
+          sources: [{ kind: 'fachliteratur', author: 'Craig L. Blomberg', work: 'The Historical Reliability of the Gospels', year: '2. Aufl. 2007', status: 'paraphrase', quote: `Kritische Auseinandersetzung mit Formkritik und Jesus Seminar.` }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Rudolf Bultmann', work: 'Die Geschichte der synoptischen Tradition', year: '1921', quote: `Bultmann ordnet die synoptischen Überlieferungsstücke Formen und ihrem Sitz im Leben der Gemeinde zu und hält viele für Gemeindebildungen.`, status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'E. P. Sanders', work: 'The Tendencies of the Synoptic Tradition', year: '1969', quote: `Sanders zeigt, dass sich keine festen Entwicklungsgesetze der synoptischen Überlieferung nachweisen lassen.`, status: 'paraphrase' },
+        { kind: 'gegner', author: 'Robert W. Funk / Roy W. Hoover / The Jesus Seminar', work: 'The Five Gospels: The Search for the Authentic Words of Jesus', year: '1993', quote: `Das Jesus Seminar urteilte, dass etwa 82 % der Jesus zugeschriebenen Worte nicht von ihm stammen.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn eine Geschichte in der Predigt gebraucht wurde – folgt daraus, dass sie erfunden war? Erzählen wir heute nur Erfundenes, wenn wir predigen?`,
+        `Welche festen Gesetze der Überlieferung hat die Formkritik nachgewiesen, die Sanders' Untersuchung standhalten?`,
+      ],
+      followUps: [
+        {
+          id: 'jesus-seminar-mehrheit',
+          objection: `Das Jesus Seminar waren Dutzende ausgebildete Fachleute. Du kannst ihr Ergebnis nicht einfach als „Vorentscheidung" abtun, nur weil es dir nicht gefällt.`,
+          objectionBy: 'Robert Funk / Jesus Seminar',
+          answer: `Ich tue es nicht ab, weil es mir nicht gefällt, sondern weil Fachleute aller Richtungen die Methode kritisiert haben. Die Teilnehmer bildeten keinen repräsentativen Querschnitt der Forschung; viele führende Neutestamentler waren nicht beteiligt. Die Abstimmungsregeln gingen von einem Jesus aus, der nicht apokalyptisch sprach – genau das, was die Mehrheit der Forschung heute anders sieht, von Ehrman bis Allison. Und das Thomasevangelium wurde als „fünftes Evangelium" gleichrangig behandelt, obwohl die meisten Forscher es für später und abhängig halten. Ein Ergebnis, das auf solchen Annahmen ruht, kann nicht besser sein als diese Annahmen.`,
+          detail: `**Bezeichnend:** Selbst Bart Ehrman, der kein Apologet ist, hält gegen das Jesus Seminar daran fest, dass Jesus ein apokalyptischer Prophet war – und damit, dass viele vom Seminar verworfene Worte über das kommende Reich zu seinem Kern gehören. Die Kritik kommt also nicht nur von konservativer Seite.
+
+**Luke Timothy Johnson (The Real Jesus, 1996)** – ein katholischer, durchaus kritischer Neutestamentler – bemängelte vor allem die Öffentlichkeitsarbeit des Seminars und die Behauptung, für „die Forschung" zu sprechen.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Luke Timothy Johnson', work: 'The Real Jesus: The Misguided Quest for the Historical Jesus and the Truth of the Traditional Gospels', year: '1996', quote: `Johnson kritisiert Methode, Repräsentativität und Öffentlichkeitsarbeit des Jesus Seminar.`, status: 'paraphrase' },
+            { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Jesus: Apocalyptic Prophet of the New Millennium', year: '1999', quote: `Ehrman vertritt gegen das Jesus Seminar einen apokalyptischen Jesus.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Teilst du die Vorentscheidung des Jesus Seminars, dass Jesus nicht apokalyptisch sprach – gegen Ehrman und die Mehrheit der Forschung?`,
           ],
         },
       ],

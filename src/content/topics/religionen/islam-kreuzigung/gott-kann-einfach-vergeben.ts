@@ -90,6 +90,22 @@ const claim: Claim = {
               objection: `Euer Gott dagegen braucht Blut, um besänftigt zu werden. Das ist primitiv.`,
               objectionBy: 'Mohammed Hijab',
               answer: `Gott „braucht" nichts – er **gibt**. In Lev 17,11 sagt Gott: „Ich habe es euch auf den Altar gegeben." Und im Evangelium gibt er nicht das Blut eines anderen, sondern sich selbst: „Also hat Gott die Welt geliebt, daß er seinen eingeborenen Sohn gab" (Joh 3,16). Das ist das Gegenteil eines blutdurstigen Gottes: ein Gott, der lieber sein eigenes Leben hingibt, als uns zu verlieren.`,
+              followUps: [
+                {
+                  id: 'fleisch-und-blut-erreichen-allah-nicht',
+                  objection: `Der Koran sagt über die Opfertiere: „Weder ihr Fleisch noch ihr Blut erreicht Allah, sondern eure Gottesfurcht erreicht Ihn" (22:37). Das ist die reifere Religion: Gott will Hingabe des Herzens, kein Blut.`,
+                  objectionBy: 'Hamza Tzortzis',
+                  answer: `Dem Vers stimmt die Bibel ausdrücklich zu: „Es ist unmöglich, durch Ochsen- und Bocksblut Sünden wegzunehmen" (Hebr 10,4). Die Tieropfer waren nur Schatten. Was Gott erreicht, ist vollkommene, gehorsame Hingabe – und genau so beschreibt der Hebräerbrief das Opfer Christi: „Siehe, ich komme, zu tun, Gott, deinen Willen" (Hebr 10,7.9). Am Kreuz bringt zum ersten Mal ein Mensch Gott die vollkommene Hingabe dar, die wir alle schuldig geblieben sind. 22:37 erklärt das Kreuz also eher, als dass es ihm widerspricht.`,
+                  detail: `Hebr 10,5–10 zitiert Ps 40,7–9: „Opfer und Gaben hast du nicht gewollt; einen Leib aber hast du mir bereitet … Siehe, ich komme, deinen Willen zu tun." Das Opfer Christi ist nicht Blut als Substanz, sondern das ganze Leben des menschgewordenen Sohnes, das sich bis in den Tod dem Vater übergibt. Das „Blut" steht biblisch für das hingegebene Leben (Lev 17,11). Dass der Islam beim Opferfest (*ʿĪd al-Aḍḥā*) an Abrahams Opfer erinnert und Tiere schlachtet, zeigt im Übrigen, wie tief das Motiv des Opfers in der abrahamischen Überlieferung verankert ist.`,
+                  sources: [
+                    { kind: 'koran', work: 'Sure 22 (al-Hajj)', ref: '22:37', quote: `Weder ihr Fleisch noch ihr Blut erreicht Allah, sondern es erreicht Ihn die Gottesfurcht von euch.`, original: `lan yanāla llāha luḥūmuhā wa-lā dimāʾuhā wa-lākin yanāluhu t-taqwā minkum`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/22/37' },
+                    { kind: 'bibel', work: 'Hebräer', ref: '10,4–7', quote: `Denn es ist unmöglich, durch Ochsen- und Bocksblut Sünden wegzunehmen. Darum, da er in die Welt kommt, spricht er: Opfer und Gaben hast du nicht gewollt; den Leib aber hast du mir bereitet … Siehe, ich komme … daß ich tue, Gott, deinen Willen.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                  ],
+                  questionsBack: [
+                    `Wenn Gott vollkommene Gottesfurcht und Hingabe sucht (22:37) – welcher Mensch hat sie ihm je vollkommen gegeben?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -139,7 +155,23 @@ const claim: Claim = {
           answer: `Das ist ehrlich, und es zeigt den Unterschied: Selbst Muhammad sagt im Koran: „Ich weiß nicht, was mit mir und mit euch geschehen wird" (46:9), und nach Bukhari sagte er über einen verstorbenen Gefährten, er wisse trotz seines Prophetentums nicht, was Gott mit ihm tun werde. Das Evangelium dagegen sagt: „Der auch seines eigenen Sohnes nicht hat verschont … wie sollte er uns mit ihm nicht alles schenken?" (Röm 8,32). Die Gewissheit gründet nicht auf unseren Werken, sondern auf dem, was Gott am Kreuz getan hat – angenommen im Glauben und gelebt in der Kirche.`,
           sources: [
             { kind: 'koran', work: 'Sure 46 (al-Ahqaf)', ref: '46:9', quote: `Sag: Ich bin keine Neuheit unter den Gesandten, und ich weiß nicht, was mit mir und was mit euch geschehen wird.`, original: `wa-mā adrī mā yufʿalu bī wa-lā bikum`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/46/9' },
-            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '1243 (Bericht über ʿUthman ibn Mazʿun)', quote: `Bei Allah, obwohl ich der Gesandte Allahs bin, weiß ich nicht, was mit mir geschehen wird.`, translation: 'sinngemäß', status: 'paraphrase', note: 'Nummer nach sunnah.com-Zählung vor Verwendung prüfen.' },
+            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '1243 (Bericht der Umm al-ʿAlaʾ über ʿUthman ibn Mazʿun; Parallelen 2687, 7003)', quote: `Bei Allah, obwohl ich der Gesandte Allahs bin, weiß ich nicht, was mit mir geschehen wird.`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/bukhari:2687', note: 'Geprüft (2026): Der Bericht steht in Bukhari 1243 (Buch der Begräbnisse); der zitierte Satz ist in den Parallelen 2687 und 7003 in dieser Form belegt. Die Parallele 7004 hat die Variante „was mit ihm (ʿUthman) geschehen wird" – im Gespräch fair darauf hinweisen. Der Satz entspricht 46:9.' },
+          ],
+          followUps: [
+            {
+              id: 'furcht-und-hoffnung',
+              objection: `Gewissheit macht stolz und nachlässig. Die richtige Haltung des Gläubigen ist Furcht und Hoffnung (*ḫauf wa-raǧāʾ*) zugleich. Eure „Heilsgewissheit" ist geistlich gefährlich.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Da ist viel Wahres dran – und die koptische Kirche lehrt auch keine selbstsichere „Einmal gerettet, immer gerettet"-Haltung. Wir beten täglich in der Agpeya um Erbarmen, fasten und beichten. Aber unsere Hoffnung hat einen festen Grund: nicht unsere Leistung, sondern das, was Gott am Kreuz bereits gezeigt hat. Wir fürchten die Sünde und unsere Untreue – nicht die Unberechenbarkeit Gottes. „Furcht ist nicht in der Liebe, sondern die völlige Liebe treibt die Furcht aus" (1 Joh 4,18).`,
+              detail: `Die orthodoxe Haltung ist Zuversicht, nicht Selbstsicherheit: Paulus schreibt „Schaffet, dass ihr selig werdet, mit Furcht und Zittern" (Phil 2,12) und im selben Atemzug „Gott ist's, der in euch wirkt" (2,13). Das ist die Synergie von Gnade und Freiheit. Der Unterschied zum Islam liegt nicht darin, dass Christen keine Gottesfurcht kennen, sondern woran sie Gottes Gesinnung ablesen: Im Kreuz hat Gott gezeigt, wie er zu Sündern steht – „Gott aber erweist seine Liebe zu uns darin, dass Christus für uns gestorben ist, als wir noch Sünder waren" (Röm 5,8). Wer das weiß, kann in Furcht vor der Sünde und doch in kindlichem Vertrauen leben. Im Gespräch: Erkenne die Ernsthaftigkeit der islamischen Frömmigkeit an. Frage dann, worauf die Hoffnung letztlich ruht.`,
+              sources: [
+                { kind: 'bibel', work: '1. Johannes', ref: '4,18', quote: `Furcht ist nicht in der Liebe, sondern die völlige Liebe treibt die Furcht aus.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Philipper', ref: '2,12–13', quote: `Schaffet, daß ihr selig werdet, mit Furcht und Zittern. Denn Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen, nach seinem Wohlgefallen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Worauf ruht deine Hoffnung am Jüngsten Tag – auf dem Gewicht deiner Taten oder auf etwas, das Gott getan hat?`,
+              ],
+            },
           ],
         },
       ],

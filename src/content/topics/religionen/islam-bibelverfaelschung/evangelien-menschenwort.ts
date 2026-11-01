@@ -93,6 +93,37 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Auch der Koran wurde nach Mohammeds Tod von anderen gesammelt und unter Uthman in eine Standardfassung gebracht (Bukhari 4986–4987). Und das Wissen über Mohammeds Leben stammt aus Hadithsammlungen und Biografien, die 150 bis 200 Jahre nach ihm entstanden – al-Bukhari starb 870. Die Evangelien liegen viel näher an Jesus als diese Quellen an Mohammed. Wenn du diesen Quellen traust, kannst du den Evangelien nicht wegen „Späte" misstrauen.`,
           detail: `Dieser Vergleich ist kein Angriff auf die islamischen Quellen, sondern eine Bitte um gleiche Maßstäbe. Ibn Ishaqs Prophetenbiografie (gest. 767) ist nur in späteren Bearbeitungen erhalten, vor allem bei Ibn Hisham (gest. um 833).`,
+          followUps: [
+            {
+              id: 'koran-ist-mutawatir',
+              objection: `Du verwechselst Koran und Hadith. Der Koran ist *mutawātir* überliefert – in jeder Generation von so vielen Menschen, dass ein Irrtum ausgeschlossen ist. Das gibt es bei keinem anderen Buch.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Die massenhafte Überlieferung des uthmanischen Textes gestehe ich gern zu – sie ist beeindruckend. Aber sie beginnt *nach* einem Engpass: Zaid sammelte die Verse aus verstreuten Quellen (Sahih al-Bukhari 4986), Uthman ließ die anderen Kodizes verbrennen (4987), und eure eigenen Sammlungen berichten von Versen, die nicht mehr im Mushaf stehen (z. B. Sahih Muslim 1050; Sahih al-Bukhari 6829). Breite Überlieferung ab einem bestimmten Punkt sagt nichts darüber, was vor diesem Punkt verloren ging. Die Evangelien dagegen wurden von Anfang an auf vielen unabhängigen Wegen überliefert, ohne zentrale Vereinheitlichung.`,
+              detail: `Auch beim Neuen Testament gibt es eine „Massenüberlieferung" – in Liturgie, Väterzitaten und Übersetzungen über alle Kirchen hinweg. Der Unterschied ist nicht die Menge, sondern die Geschichte: Beim Koran steht am Anfang eine staatliche Vereinheitlichung, beim Neuen Testament ein Netz voneinander unabhängiger Gemeinden. Für die Frage „Was war ursprünglich?" ist das zweite das bessere Fundament.`,
+              sources: [
+                { kind: 'hadith', work: 'Sahih Muslim', ref: '1050', quote: `Abu Musa al-Asch'ari: Wir pflegten eine Sure zu rezitieren, die an Länge und Strenge der Sure Bara'a glich; ich habe sie vergessen, außer einem Satz.`, status: 'paraphrase', url: 'https://sunnah.com/muslim:1050' },
+              ],
+              questionsBack: [
+                `Wenn Abu Musa eine ganze Sure vergaß, die die Gefährten rezitierten – was genau wurde dann massenhaft überliefert?`,
+              ],
+              followUps: [
+                {
+                  id: 'naskh-at-tilawa',
+                  objection: `Diese Verse wurden von Gott selbst abrogiert – ihre Rezitation wurde aufgehoben (*naskh at-tilāwa*). „Was Wir an Versen aufheben oder in Vergessenheit geraten lassen …" (2:106). Gott hat sie entfernt, nicht die Menschen.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Dann muss die Behauptung „perfekt bewahrt" eingeschränkt werden: Nach eurer eigenen Tradition gab es offenbarte Verse, die nicht mehr im Koran stehen – im Fall der Steinigung sogar mit fortgeltendem Gebot. Umar fürchtete laut Sahih al-Bukhari 6829, man werde einmal sagen: „Wir finden den Steinigungsvers nicht im Buch Allahs." Die Abrogationslehre ist eine nachträgliche Erklärung für einen Befund. Ich respektiere sie als Glaubenslehre – aber dann darfst du der Bibel nicht vorwerfen, dass bei ihr Varianten sichtbar sind.`,
+                  detail: `Die klassische Lehre unterscheidet drei Arten von *naskh*: Aufhebung des Gebots bei bleibendem Text, Aufhebung des Textes bei bleibendem Gebot (Steinigungsvers) und Aufhebung von beidem (etwa die „zehn Stillungen" nach Sahih Muslim 1452). Für Christen ist der Vergleich lehrreich: Was im Islam als göttliche Abrogation gilt, würde bei der Bibel als Beweis für Verlust und Verfälschung gewertet. Gleiche Maßstäbe würden beide Schriften fairer beurteilen.`,
+                  sources: [
+                    { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:106', quote: `Was Wir an Versen aufheben oder in Vergessenheit geraten lassen, dafür bringen Wir einen besseren oder einen gleichwertigen.`, original: `mā nansakh min āyatin aw nunsihā naʾti bi-khayrin minhā aw mithlihā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/2/106' },
+                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '6829', quote: `Umar: Ich fürchte, dass nach langer Zeit jemand sagt: Wir finden die Steinigung nicht im Buch Allahs – und man so durch Unterlassen einer Pflicht, die Allah herabsandte, in die Irre geht.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:6829' },
+                  ],
+                  questionsBack: [
+                    `Wenn ein offenbarter Vers nicht mehr im Koran steht, sein Gebot aber gilt – in welchem Sinn ist der Koran dann vollständig bewahrt?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -108,6 +139,47 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Das ist das islamische Offenbarungsmodell – du setzt es als Maßstab für alle Offenbarung voraus. Aber auch im Koran gibt es Passagen, in denen Menschen sprechen, etwa die Fatiha („Dich allein beten wir an") oder Engel („Wir kommen nur auf Befehl deines Herrn herab", 19:64). Muslime erklären das mit einem gedachten „Sprich!". Gott kann also auch nach islamischem Verständnis durch menschliche Rede sprechen.`,
           detail: `Die christliche Lehre: Die Schrift ist ganz Gottes Wort und ganz menschliches Wort – Gott bedient sich der Persönlichkeit, Sprache und Arbeit der Verfasser. Die Väter verglichen das mit der Menschwerdung: Wie das ewige Wort Fleisch annahm, so nimmt das geschriebene Wort menschliche Sprache an.`,
+          followUps: [
+            {
+              id: 'lukas-recherchierte',
+              objection: `Lukas gibt doch selbst zu, dass er nur recherchiert hat: „nachdem ich alles von Anfang an genau erkundet habe" (Lk 1,3). Kein Wort von Offenbarung – er ist ein Historiker, kein Prophet.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `Genau das macht ihn wertvoll: Lukas beruft sich auf Augenzeugen (*autoptai*, Lk 1,2) und will seinem Leser „Gewissheit" geben (1,4). Ein Bericht, der sich auf überprüfbare Zeugen stützt, ist historisch stärker als einer, der sich nur auf eine private Eingebung beruft. Und Inspiration schließt Forschung nicht aus: Der Geist Gottes kann einen Menschen gerade beim sorgfältigen Prüfen leiten. Lukas' Genauigkeit lässt sich übrigens prüfen – Titel von Beamten, Orte und Personen in der Apostelgeschichte haben sich durch Inschriften immer wieder als zutreffend erwiesen.`,
+              detail: `Beispiele: Die „Politarchen" von Thessaloniki (Apg 17,6) sind durch Inschriften belegt; der Prokonsul Gallio in Korinth (Apg 18,12) durch die Gallio-Inschrift von Delphi, die zugleich eine Datierung des Paulus-Aufenthalts erlaubt. Colin Hemer hat Dutzende solcher Details zusammengetragen. Ein Autor, der im Kleinen so genau ist, verdient auch im Großen Vertrauen.`,
+              voices: [
+                {
+                  person: 'lukas',
+                  role: 'als Historiker des Urchristentums',
+                  text: `Lukas stellt sein Werk bewusst in die Tradition antiker Geschichtsschreibung: Er nennt seinen Adressaten, beschreibt seine Methode, beruft sich auf Augenzeugen und Diener des Wortes und datiert das Auftreten des Täufers nach den Regierungsjahren des Tiberius und den Amtsträgern seiner Zeit (Lk 3,1–2). Er will kein Mythenerzähler sein, sondern ein Zeuge dessen, was „unter uns geschehen ist".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '1,1–4', quote: `Sintemal sich's viele unterwunden haben, Bericht zu geben von den Geschichten, so unter uns ergangen sind, wie uns das gegeben haben, die es von Anfang an selbst gesehen und Diener des Worts gewesen sind: habe ich's auch für gut angesehen, nachdem ich's alles von Anbeginn mit Fleiß erkundet habe, dass ich's dir, mein guter Theophilus, in Ordnung schriebe, auf dass du gewissen Grund erfahrest der Lehre, in welcher du unterrichtet bist.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Colin J. Hemer', work: 'The Book of Acts in the Setting of Hellenistic History', year: '1989', quote: `Zahlreiche Einzelangaben der Apostelgeschichte lassen sich durch Inschriften und andere Quellen bestätigen.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Was ist für einen Historiker glaubwürdiger: ein Bericht, der sich auf benannte Augenzeugen stützt, oder einer, der sich nur auf eine unprüfbare Eingebung beruft?`,
+              ],
+              followUps: [
+                {
+                  id: 'paulus-nicht-der-herr',
+                  objection: `Paulus sagt sogar ausdrücklich: „Den andern aber sage ich, nicht der Herr" (1 Kor 7,12). Er unterscheidet selbst zwischen Gottes Wort und seiner eigenen Meinung!`,
+                  objectionBy: 'Shabir Ally',
+                  answer: `Paulus unterscheidet zwischen einem Wort, das Jesus in seinem Erdenleben gesprochen hat (zur Scheidung, 1 Kor 7,10: „nicht ich, sondern der Herr"), und einer Frage, zu der Jesus nichts gesagt hatte – Ehen mit Ungläubigen. Dort spricht er mit seiner apostolischen Vollmacht und sagt am Ende: „Ich meine aber, ich habe auch den Geist Gottes" (7,40). Gerade diese Sorgfalt zeigt: Paulus legt Jesus keine Worte in den Mund, die er nicht gesagt hat. Ein Fälscher hätte das einfach getan.`,
+                  detail: `An anderer Stelle beansprucht Paulus, dass seine Weisungen „des Herrn Gebote" sind (1 Kor 14,37). Die Unterscheidung in 1 Kor 7 betrifft also die Quelle (Jesuswort oder apostolische Weisung), nicht die Autorität. Für die Debatte ist das ein starkes Argument für die Ehrlichkeit der Überlieferung: Die frühen Christen hielten Jesusworte und eigene Lehre auseinander.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '7,10.12', quote: `Den Ehelichen aber gebiete nicht ich, sondern der Herr … Den andern aber sage ich, nicht der Herr …`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '7,40', quote: `Ich halte aber, ich habe auch den Geist Gottes.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Ist es ein Zeichen von Fälschung oder von Ehrlichkeit, wenn ein Apostel sagt: „Hierzu hat Jesus nichts gesagt"?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
