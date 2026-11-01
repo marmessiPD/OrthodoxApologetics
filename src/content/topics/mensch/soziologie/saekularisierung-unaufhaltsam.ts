@@ -205,6 +205,21 @@ Peter Berger, der die Säkularisierungsthese in den 1960ern selbst vertreten hat
       answer: `Der statistische Zusammenhang ist teilweise real. Aber er sagt etwas über die Funktion, nicht über die Wahrheit von Religion – das wäre ein genetischer Fehlschluss. Zudem breitete sich das frühe Christentum gerade auch unter gebildeten Städtern aus (Rodney Stark), und reiche, sichere Gesellschaften leiden auffällig an Sinnkrisen: Die Global Flourishing Study (2025) fand in wohlhabenden Ländern hohe finanzielle Sicherheit, aber vergleichsweise wenig erlebten Lebenssinn.`,
       followUps: [
         {
+          id: 'sudden-decline-inglehart',
+          objection: `Inglehart hat es 2021 mit den Daten des World Values Survey gezeigt: Seit etwa 2007 ist die Religiosität in der großen Mehrheit der untersuchten Länder gesunken – nicht nur in Europa, auch in Lateinamerika und anderswo. Der Rückgang beschleunigt sich.`,
+          objectionBy: 'Ronald Inglehart (Religion\'s Sudden Decline, 2021)',
+          answer: `Die Daten zeigen in vielen Ländern einen echten Rückgang, das gebe ich zu. Aber achte auf Ingleharts eigene Erklärung: Er führt den Rückgang vor allem auf den Wandel der Normen zu Sexualität, Familie und Fruchtbarkeit zurück – nicht darauf, dass Wissenschaft oder Bildung den Glauben widerlegt hätten. Das ist eine Aussage über veränderte Lebensweisen, nicht über die Wahrheit des Glaubens. Und Pew zählt zugleich mehr Christen als je zuvor in absoluten Zahlen, mit starkem Wachstum in Afrika.`,
+          detail: `Inglehart argumentiert in *Religion's Sudden Decline*, dass Religionen über Jahrtausende Normen förderten, die hohe Geburtenraten sicherten (Ehe, Familie, Ablehnung von Scheidung, Abtreibung und Homosexualität). Mit sinkender Kindersterblichkeit seien diese Normen überflüssig geworden, und mit ihnen verliere Religion an Bindungskraft. Ob man diese Deutung teilt oder nicht – sie ist eine **funktionale** Erklärung. Für die Frage, ob Gott existiert und Christus auferstanden ist, ist sie so belanglos wie die Erklärung, warum jemand aufhört, Klavier zu üben, für die Frage, ob Mozart gut komponiert hat.
+
+Ehrlich bleibt: Der Rückgang in vielen wohlhabenden Gesellschaften ist real und eine Herausforderung für die Kirchen. Er ist aber kein „Gesetz", sondern hängt an kulturellen Entscheidungen, die sich auch wieder ändern können.`,
+          sources: [
+            { kind: 'gegner', author: 'Ronald F. Inglehart', work: 'Religion\'s Sudden Decline: What\'s Causing It, and What Comes Next?', year: '2021', status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Wenn der Rückgang an veränderten Familiennormen liegt – was sagt das über die Wahrheit des Glaubens?`,
+          ],
+        },
+        {
           id: 'nur-trost',
           objection: `Also ist Religion eben doch nur Trost für Unsichere.`,
           objectionBy: 'Karl Marx (sinngemäß)',
