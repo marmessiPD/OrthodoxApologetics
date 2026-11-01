@@ -185,6 +185,91 @@ Bemerkenswert: Clemens schreibt dies zu einer Zeit, in der der Apostel Johannes 
       objectionBy: 'Frank Viola',
       answer: `Alle sind Volk Gottes und haben gleiche Würde – darin stimmen wir überein. In der koptischen Liturgie ist das Volk keineswegs stumm: Es antwortet, singt, und viele Laien dienen als Diakone und Sänger. Aber der Leib hat verschiedene Glieder: „Sind sie alle Apostel? Sind sie alle Propheten? Sind sie alle Lehrer?" (1 Kor 12,29). Das Wort „Laie" gebraucht übrigens schon Clemens von Rom um 96 (1 Clem 40,5). Verschiedene Berufungen bedeuten nicht verschiedenen Wert.`,
     },
+    {
+      id: 'ein-fuer-allemal-geopfert',
+      objection: `„Christus hat sich ‚ein für allemal' geopfert (Hebr 7,27; 10,10–14). Wer einen Priester an einen ‚Altar' stellt, der ein ‚Opfer' darbringt, leugnet die Vollgenügsamkeit des Kreuzes. Ein Opferpriestertum ist mit dem Hebräerbrief unvereinbar."`,
+      objectionBy: 'James White / John MacArthur',
+      answer: `Die koptische Kirche unterschreibt jedes Wort von Hebr 10,14: „Mit *einem* Opfer hat er in Ewigkeit vollendet, die geheiligt werden." Die Eucharistie wiederholt dieses Opfer nicht und fügt ihm nichts hinzu – sie macht das eine Opfer Christi gegenwärtig, „zu meinem Gedächtnis" (*anamnēsis*). Darum nennt die Liturgie sie das „vernünftige und unblutige Opfer". Und schon Maleachi kündigte an: „An allen Orten soll meinem Namen geräuchert und ein reines Speisopfer geopfert werden" (Mal 1,11) – die Didache (um 100) bezieht genau diesen Vers auf die sonntägliche Eucharistie. Der Hebräerbrief selbst sagt: „Wir haben einen Altar" (Hebr 13,10).`,
+      detail: `Der Einwand trifft eine Vorstellung, die die Orthodoxie selbst ablehnt: als werde Christus in jeder Liturgie neu geschlachtet oder als müsse sein Opfer ergänzt werden. *Anamnesis* bedeutet im biblischen Sinn nicht bloßes Erinnern, sondern das Gegenwärtigwerden eines Heilsereignisses, wie Israel im Passa den Auszug als eigenes Erleben feierte (Ex 12,14; 13,8).
+
+Der Priester ist dabei nicht ein zweiter Mittler neben Christus, sondern sein Diener: Christus selbst ist, wie es in den östlichen Liturgien heißt, „der Darbringende und der Dargebrachte". Die Didache (14,1–3) verlangt das Sündenbekenntnis, „damit euer Opfer rein sei", und zitiert Mal 1,11. Justin (*Dialog mit Tryphon* 41) erklärt, Maleachi habe von den Opfern gesprochen, die die Christen an jedem Ort darbringen, nämlich vom Brot und Kelch der Eucharistie.`,
+      voices: [
+        {
+          person: 'justin',
+          role: 'als Ausleger des Alten Testaments gegenüber Juden',
+          text: `Justin argumentiert im Gespräch mit dem Juden Tryphon, dass die Prophetie Maleachis über das reine Opfer unter den Völkern in der Eucharistie der Christen erfüllt ist: Überall auf der Welt bringen sie Gott das Brot und den Kelch der Danksagung dar, zum Gedächtnis des Leidens Christi. Für Justin ist das kein Widerspruch zum einmaligen Opfer am Kreuz, sondern dessen weltweite Vergegenwärtigung.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Dialog mit dem Juden Tryphon', ref: '41', year: 'um 160', quote: `Von den Opfern, die wir Heiden ihm an jedem Ort darbringen, nämlich vom Brot der Eucharistie und ebenso vom Kelch der Eucharistie, spricht Gott durch Maleachi im Voraus.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Maleachi', ref: '1,11', quote: `Aber vom Aufgang der Sonne bis zum Niedergang soll mein Name herrlich werden unter den Heiden, und an allen Orten soll meinem Namen geräuchert und ein reines Speisopfer geopfert werden; denn mein Name soll herrlich werden unter den Heiden, spricht der HERR Zebaoth.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Hebräer', ref: '13,10', quote: `Wir haben einen Altar, davon nicht Macht haben zu essen, die der Hütte pflegen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '14,1–3', year: 'um 100', quote: `Am Herrentag versammelt euch, brecht das Brot und sagt Dank, nachdem ihr eure Übertretungen bekannt habt, damit euer Opfer rein sei … Denn dies ist das vom Herrn gesagte Wort: An jedem Ort und zu jeder Zeit bringt mir ein reines Opfer dar.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wie erklärst du, dass schon die Didache um 100 die Eucharistie „Opfer" nennt und mit Mal 1,11 begründet?`,
+        `Was meint der Hebräerbrief mit „Wir haben einen Altar, davon … zu essen"?`,
+      ],
+      followUps: [
+        {
+          id: 'kein-opfer-mehr-hebr-10-18',
+          objection: `„Hebr 10,18 ist eindeutig: ‚Wo aber derselben Vergebung ist, da ist nicht mehr Opfer für die Sünde.' Jedes weitere ‚Opfer' ist überflüssig."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Richtig: Kein **neues** Sühnopfer für die Sünde ist nötig – das sagen wir auch. Die Eucharistie ist kein neues Opfer, sondern Teilhabe an dem einen. Paulus stellt in 1 Kor 10,16–21 den „Tisch des Herrn" neben die Altäre Israels und die Opfertische der Götzen: Wer isst, hat Gemeinschaft mit dem Altar. Und „Tisch des HERRN" ist bei Maleachi gerade ein Name für den **Altar** im Tempel (Mal 1,7.12). Paulus redet also selbst in Altarsprache über das Herrenmahl.`,
+          sources: [
+            { kind: 'bibel', work: '1. Korinther', ref: '10,18.21', quote: `Sehet an den Israel nach dem Fleisch. Welche die Opfer essen, sind die nicht in der Gemeinschaft des Altars? … Ihr könnt nicht zugleich teilhaftig sein des Tisches des HERRN und des Tisches der Teufel.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Maleachi', ref: '1,7', quote: `Damit, daß ihr opfert auf meinem Altar unreines Brot. So sprecht ihr: „Womit opfern wir dir Unreines?" Damit, daß ihr sagt: „Des HERRN Tisch ist verachtet."`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+        {
+          id: 'luther-aus-der-taufe-gekrochen',
+          objection: `„Luther hatte recht: ‚Was aus der Taufe gekrochen ist, das mag sich rühmen, dass es schon zum Priester, Bischof und Papst geweiht sei.' Das Amt ist nur eine Frage der Ordnung – die Gemeinde beruft jemanden aus ihrer Mitte."`,
+          objectionBy: 'Martin Luther (historisch)',
+          answer: `Im NT werden die Amtsträger nicht von unten durch die Gemeinde ernannt, sondern von oben eingesetzt: Paulus und Barnabas „ordneten ihnen hin und her Älteste" (Apg 14,23); Titus soll „Älteste in den Städten einsetzen" (Tit 1,5); Timotheus erinnert Paulus an „die Gabe Gottes, die in dir ist durch die Auflegung meiner Hände" (2 Tim 1,6). Und Luther selbst lernte im Streit mit den Schwärmern um: Das Augsburger Bekenntnis (Art. XIV) lehrt, dass niemand in der Kirche öffentlich lehren oder Sakramente reichen soll „ohne ordentlichen Beruf".`,
+          detail: `Luthers Satz stammt aus der Kampfschrift *An den christlichen Adel deutscher Nation* (1520), in der er die Mauern der römischen Kirche einreißen wollte. Schon wenige Jahre später erlebte er, wie Täufer und „Schwärmer" sich auf das allgemeine Priestertum beriefen, um ohne Berufung zu predigen. Die Confessio Augustana (1530) betont daher das ordentliche Amt.
+
+Die orthodoxe Kirche bejaht das allgemeine Priestertum aller Getauften (1 Petr 2,9) – jeder Christ bringt geistliche Opfer dar: Gebet, Lobpreis, Liebe, den eigenen Leib (Röm 12,1). Davon unterscheidet sie das besondere Priestertum, das durch Handauflegung in apostolischer Nachfolge übertragen wird. Beides hat es schon in Israel gegeben: ein „priesterliches Königreich" (Ex 19,6) und zugleich das Priestertum Aarons.`,
+          sources: [
+            { kind: 'gegner', author: 'Martin Luther', work: 'An den christlichen Adel deutscher Nation von des christlichen Standes Besserung', year: '1520', quote: `Was aus der Taufe gekrochen ist, das mag sich rühmen, dass es schon zum Priester, Bischof und Papst geweiht sei.`, status: 'verbatim', translation: 'Original (Schreibweise modernisiert)' },
+            { kind: 'gegner', work: 'Augsburger Bekenntnis (Confessio Augustana)', ref: 'Art. XIV', year: '1530', quote: `Vom Kirchenregiment wird gelehrt, daß niemand in der Kirchen öffentlich lehren oder predigen oder Sakrament reichen soll ohn ordentlichen Beruf.`, translation: 'Original (Schreibweise leicht modernisiert)', status: 'verbatim' },
+            { kind: 'bibel', work: '2. Timotheus', ref: '1,6', quote: `Um solcher Ursache willen erinnere ich dich, daß du erweckest die Gabe Gottes, die in dir ist durch die Auflegung meiner Hände.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wenn jeder Getaufte schon Priester im Sinn des Amtes ist – warum verlangt das Augsburger Bekenntnis einen „ordentlichen Beruf"?`,
+            `Wer hat im NT Älteste eingesetzt – die Gemeinde oder die Apostel und ihre Beauftragten?`,
+          ],
+          followUps: [
+            {
+              id: 'keine-heilige-kaste',
+              objection: `„Beauftragung durch Handauflegung – gut. Aber keine Seinsveränderung, kein ‚unauslöschliches Merkmal'. Ihr macht aus Dienern eine heilige Kaste, die über den anderen steht."`,
+              objectionBy: 'Gavin Ortlund',
+              answer: `Die Gefahr des Klerikalismus ist real, und die Väter haben sie schärfer gegeißelt als jeder Reformator. Aber die Schrift spricht bei der Ordination nicht nur von Beauftragung, sondern von einer **Gabe**: „Laß nicht aus der Acht die Gabe, die dir gegeben ist durch die Weissagung mit Handauflegung der Ältesten" (1 Tim 4,14). Diese Gabe ist kein Rang über den anderen, sondern eine Befähigung zum Dienst. Der koptische Priester bekennt in der Liturgie öffentlich seine eigenen Sünden, bittet das Volk um Gebet und wird nach Jak 3,1 strenger gerichtet. Eine Kaste herrscht – ein Priester dient.`,
+              detail: `Chrysostomus schrieb mit *Über das Priestertum* eines der eindringlichsten Bücher über dieses Amt. Er zögerte jahrelang, sich weihen zu lassen, weil er die Größe der Verantwortung fürchtete: Der Priester verwalte Dinge, die selbst den Engeln nicht anvertraut sind – und gerade deshalb brauche er größere Demut, Reinheit und Liebe als alle anderen.
+
+Die koptische Praxis bestätigt diesen Dienstcharakter: Priester werden aus der Gemeinde vorgeschlagen und vom Bischof geweiht, viele sind verheiratete Familienväter mit Beruf, und der Titel „Abuna" („unser Vater") drückt Fürsorge aus, nicht Herrschaft (vgl. 1 Kor 4,15).`,
+              voices: [
+                {
+                  person: 'chrysostomus',
+                  role: 'als Verfasser von „Über das Priestertum"',
+                  text: `Chrysostomus beschreibt das Priestertum als ein Amt, das auf Erden vollzogen wird, aber zu den himmlischen Ordnungen gehört, weil es der Paraklet selbst eingesetzt hat. Gerade deshalb warnt er vor Ehrgeiz und Herrschsucht: Wer dieses Amt begehrt, um geehrt zu werden, stürzt sich ins Verderben; wer es empfängt, muss reiner und demütiger sein als alle, denen er dient.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Über das Priestertum (De sacerdotio)', ref: 'III,4–5', year: 'um 386', quote: `Das Priestertum wird auf Erden vollzogen, hat aber den Rang himmlischer Ordnungen, denn nicht ein Mensch, nicht ein Engel, sondern der Paraklet selbst hat es eingesetzt; darum muss der Priester reiner sein als alle anderen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: '1. Timotheus', ref: '4,14', quote: `Laß nicht aus der Acht die Gabe, die dir gegeben ist durch die Weissagung mit Handauflegung der Ältesten.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Was ist für dich „die Gabe, die dir gegeben ist durch die Handauflegung" (1 Tim 4,14) – nur ein Auftrag oder eine Gabe Gottes?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn 1 Petr 2,9 jedes besondere Priestertum ausschließt – warum hatte Israel, das „priesterliche Königreich" (Ex 19,6), trotzdem Aaron und seine Söhne?`,

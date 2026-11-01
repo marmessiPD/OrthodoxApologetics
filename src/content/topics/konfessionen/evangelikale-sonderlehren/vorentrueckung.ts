@@ -153,6 +153,99 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'daniel-70-wochen',
+      objection: `„Dan 9,24–27: Die siebzigste Jahrwoche – sieben Jahre – steht noch aus. Sie betrifft Israel, nicht die Gemeinde. Das Gemeindezeitalter ist eine Einschaltung zwischen der 69. und 70. Woche; vor der 70. Woche wird die Gemeinde entrückt."`,
+      objectionBy: 'John MacArthur / Thomas Ice',
+      answer: `Der Text kennt keine Lücke von zweitausend Jahren zwischen der 69. und der 70. Woche – sie muss eingefügt werden. Die Kirchenväter lasen die Prophetie als erfüllt in Christus: Der Gesalbte wird „ausgerottet" (9,26), „er wird den Bund stärken für viele" und „Opfer und Speisopfer aufhören lassen" (9,27) – erfüllt im Neuen Bund und im Ende des Tempelkults im Jahr 70.`,
+      detail: `Schon Tertullian (Adversus Iudaeos 8) und Eusebius (Demonstratio evangelica VIII) rechnen die Jahrwochen auf Christus und die Zerstörung Jerusalems hin. Man muss die patristischen Berechnungen nicht im Einzelnen übernehmen, um zu sehen: Die Einschaltungs-These ist eine Konstruktion des 19. Jahrhunderts, die das gesamte dispensationalistische Schema trägt. Fällt die Lücke, fällt auch die siebenjährige Trübsal als eigenständige Epoche nach der Entrückung.`,
+      sources: [
+        { kind: 'bibel', work: 'Daniel', ref: '9,26–27', quote: `Und nach den zweiundsechzig Wochen wird der Gesalbte ausgerottet werden … Er wird aber vielen den Bund stärken eine Woche lang. Und mitten in der Woche wird das Opfer und Speisopfer aufhören.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Tertullian', work: 'Adversus Iudaeos', ref: '8', year: 'um 200', status: 'paraphrase', note: 'Tertullian deutet die siebzig Wochen auf Christus und die Zerstörung Jerusalems (Tertullian nur apologetisch, nicht als Lehrautorität).' },
+      ],
+      followUps: [
+        {
+          id: 'zwei-voelker-gottes',
+          objection: `„Israel und die Gemeinde sind zwei verschiedene Völker Gottes mit zwei Plänen. Die Verheißungen an Israel – Land, Tempel, Königreich – müssen wörtlich erfüllt werden, sonst bricht Gott sein Wort."`,
+          objectionBy: 'John MacArthur',
+          answer: `Paulus sagt das Gegenteil: Christus hat „aus beiden eines gemacht" und „aus zweien einen neuen Menschen geschaffen" (Eph 2,14–15). Es gibt **einen** Ölbaum, in den die Heiden eingepfropft sind (Röm 11,17–24). Und Gott bricht kein Wort: „Alle Gottesverheißungen sind Ja in ihm" (2 Kor 1,20). Wir glauben an Gottes Treue zu Israel und hoffen mit Paulus, dass „ganz Israel gerettet" wird (Röm 11,26) – aber in Christus und seiner einen Kirche, nicht in einem getrennten Heilsplan.`,
+          sources: [
+            { kind: 'bibel', work: 'Epheser', ref: '2,14–15', quote: `Denn er ist unser Friede, der aus beiden eines hat gemacht … auf dass er aus zweien einen neuen Menschen in ihm selber schüfe und Frieden machte.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ersatztheologie',
+              objection: `„Das ist Ersatztheologie – die Lehre, dass die Kirche Israel ersetzt hat. Sie hat jahrhundertelang den christlichen Antisemitismus genährt."`,
+              objectionBy: 'Michael Vlach / dispensationalistische Theologen',
+              answer: `Den christlichen Antisemitismus muss man ehrlich als Schuld benennen – darin hast du recht. Aber Röm 11 lehrt nicht „Ersatz", sondern **Einpfropfung**: Die Heiden werden in Israels Ölbaum aufgenommen; die Kirche ist der treue Rest Israels, erweitert um die Völker – die Apostel waren alle Juden. Paulus warnt die Heidenchristen ausdrücklich vor Hochmut gegenüber Israel (11,18–20). Die Antwort auf Judenhass ist Liebe und Demut, nicht eine Zwei-Völker-Theologie.`,
+              followUps: [
+                {
+                  id: 'israel-1948',
+                  objection: `„Die Neugründung Israels 1948 ist erfüllte Prophetie – der Feigenbaum treibt aus (Mt 24,32). Die Generation, die das sieht, wird die Wiederkunft erleben."`,
+                  objectionBy: 'Hal Lindsey („The Late Great Planet Earth")',
+                  answer: `Hal Lindsey deutete 1970 die „Generation" von Mt 24,34 als etwa vierzig Jahre ab 1948 und legte damit ein Ende um 1988 nahe – das ist nicht eingetreten. Jesus selbst sagt: „Von dem Tage aber und von der Stunde weiß niemand" (Mt 24,36), und: „Es gebührt euch nicht, zu wissen Zeit oder Stunde" (Apg 1,7). Die Kirche deutet politische Ereignisse nicht als prophetischen Fahrplan – sie wacht, betet und bleibt treu.`,
+                  detail: `Respektiere dabei das jüdische Volk und den Staat Israel als historische Wirklichkeit; es geht nicht um Politik, sondern um Hermeneutik. Die Erfahrung des heiligen Dionysius mit Nepos zeigt: Endzeitberechnungen erzeugen Begeisterung, dann Enttäuschung. Die Väter mahnen zur Wachsamkeit ohne Datum.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Hal Lindsey', work: 'The Late Great Planet Earth', year: '1970', status: 'paraphrase', note: 'Lindsey verknüpft Mt 24,32–34 mit der Staatsgründung Israels 1948 und einer Generation von etwa vierzig Jahren.' },
+                    { kind: 'bibel', work: 'Matthäus', ref: '24,36', quote: `Von dem Tage aber und von der Stunde weiß niemand, auch die Engel nicht im Himmel, sondern allein mein Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wie viele Endzeitberechnungen der letzten 150 Jahre haben sich erfüllt?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'einer-wird-angenommen',
+      objection: `„Mt 24,40–41: ‚Dann werden zwei auf dem Felde sein; einer wird angenommen, und der andere wird verlassen werden.' Das ist die Entrückung – die Gläubigen verschwinden, die anderen bleiben zurück."`,
+      objectionBy: 'Tim LaHaye („Left Behind")',
+      answer: `Lies die Verse davor: „Wie es zu der Zeit Noahs war … die Sintflut kam und **nahm sie alle dahin**" (24,37–39). Die „Genommenen" sind in Noahs Zeit die vom Gericht Weggerafften. Bei Lukas fragen die Jünger: „Herr, wo?" – und Jesus antwortet: „Wo das Aas ist, da sammeln sich die Adler" (Lk 17,37). Das „Zurückbleiben" ist hier also eher das Gute – wie Noah, der blieb.`,
+      detail: `Die Deutung ist unter Exegeten umstritten, und das darfst du zugeben. Aber selbst wenn man das „Annehmen" positiv versteht, beschreibt der Abschnitt die sichtbare, plötzliche Wiederkunft des Menschensohns „wie der Blitz" (24,27) – nicht ein geheimes Verschwinden sieben Jahre vorher.`,
+      sources: [
+        { kind: 'bibel', work: 'Matthäus', ref: '24,38–41', quote: `… und sie achteten's nicht, bis die Sintflut kam und nahm sie alle dahin, also wird auch sein die Zukunft des Menschensohnes. Dann werden zwei auf dem Felde sein; einer wird angenommen, und der andere wird verlassen werden.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'entgegen-in-der-luft',
+          objection: `„Aber 1 Thess 4,17 sagt ausdrücklich: Wir werden ‚hingerückt in den Wolken, dem Herrn entgegen in der Luft'. Das ist die Entrückung – schwarz auf weiß."`,
+          objectionBy: 'John F. Walvoord',
+          answer: `Die Entrückung in 1 Thess 4 glauben wir auch – aber bei der **sichtbaren** Wiederkunft, mit Feldgeschrei, Stimme des Erzengels und Posaune (4,16): das Gegenteil von geheim. Das Wort „entgegen" (*apantēsis*) bezeichnet in der Antike den Empfang eines ankommenden Herrschers: Die Bürger ziehen ihm vor die Stadt entgegen und geleiten ihn hinein (vgl. Apg 28,15). Die Gläubigen gehen Christus entgegen und kommen mit ihm zur Erde – sie verschwinden nicht für sieben Jahre in den Himmel.`,
+          voices: [
+            {
+              person: 'nt-wright',
+              role: 'als Neutestamentler',
+              text: `Wright erklärt, dass Paulus in 1 Thess 4 Bilder aus dem Sinai-Geschehen, aus Daniel und aus dem kaiserlichen Staatsbesuch verbindet. Wer dem ankommenden Herrn „entgegengeht", kehrt mit ihm zurück. Der Gedanke einer Entrückung, nach der die Gläubigen dauerhaft im Himmel bleiben, während die Erde der Zerstörung überlassen wird, ist für ihn eine Fehldeutung der Metapher.`,
+              sources: [{ kind: 'fachliteratur', author: 'N. T. Wright', work: 'Surprised by Hope', year: '2008', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'zwei-phasen',
+              objection: `„Es gibt zwei Phasen: Erst kommt Christus **für** seine Heiligen (Entrückung), sieben Jahre später **mit** seinen Heiligen (Sach 14,5; Jud 14)."`,
+              objectionBy: 'Thomas Ice',
+              answer: `Kein einziger Text des Neuen Testaments beschreibt zwei Ankünfte im Abstand von sieben Jahren. Hebr 9,28 spricht davon, dass Christus „zum andernmal" erscheinen wird – ein zweites, nicht ein drittes Mal. „Mit seinen Heiligen" meint die Engel und die Entschlafenen: „Gott wird, die da entschlafen sind durch Jesum, mit ihm führen" (1 Thess 4,14) – im selben Ereignis, in dem die Lebenden entrückt werden.`,
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '9,28', quote: `… zum andernmal aber wird er ohne Sünde erscheinen denen, die auf ihn warten, zur Seligkeit.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'trost-der-entrueckung',
+                  objection: `„Paulus sagt: ‚So tröstet euch mit diesen Worten untereinander' (1 Thess 4,18). Die Vorentrückung tröstet die Gläubigen – deine Lehre macht ihnen Angst."`,
+                  objectionBy: 'Dispensationalistischer Pastor',
+                  answer: `Paulus tröstet über die Verstorbenen: Sie werden bei der Wiederkunft nicht zu kurz kommen (4,13–15). Trost im Neuen Testament ist nicht Flucht vor der Trübsal, sondern Christi Gegenwart in ihr: „In der Welt habt ihr Angst; aber seid getrost, ich habe die Welt überwunden" (Joh 16,33). Für Christen, die heute in Ägypten, im Irak oder in Nigeria verfolgt werden, ist eine Lehre, die Bewahrung **vor** jedem Leiden verspricht, kein Trost, sondern eine Gefahr – sie bereitet nicht auf Treue im Leiden vor.`,
+                  detail: `Die koptische Kirche nennt sich selbst „Kirche der Märtyrer"; ihr Kalender beginnt mit dem Jahr der Diokletianischen Verfolgung (284). Ihr Trost war nie, verschont zu werden, sondern dass nichts „uns scheiden mag von der Liebe Gottes" (Röm 8,35–39). Das ist die tiefere, tragfähigere Hoffnung.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '16,33', quote: `In der Welt habt ihr Angst; aber seid getrost, ich habe die Welt überwunden.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Was geschieht nach Mt 24,29–31 „nach der Trübsal"? Und worin unterscheidet sich das von 1 Thess 4,16–17?`,

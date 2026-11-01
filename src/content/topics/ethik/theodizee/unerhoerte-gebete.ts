@@ -122,6 +122,21 @@ const claim: Claim = {
               objectionBy: 'Populärer Atheismus',
               answer: `Viele Christen berichten von erhörten Gebeten und von Erfahrungen der Nähe Gottes; das ist kein Laborbeweis, aber auch nicht nichts. Und die Bibel kennt das Schweigen Gottes: Psalm 22 und 88, Hiob, Jesus am Kreuz. Eine reife Beziehung zu Gott schließt Zeiten der Dunkelheit ein. Mutter Teresa erlebte nach ihren eigenen Briefen jahrzehntelang eine innere Dunkelheit und diente Gott trotzdem. Das ist nicht die Haltung eines Menschen, der sich einen bequemen Freund ausdenkt.`,
               detail: `Die Briefe Mutter Teresas über ihre geistliche Dunkelheit wurden 2007 unter dem Titel *Come Be My Light* veröffentlicht. Eleonore Stump nennt ihr Buch über das Leid bewusst *Wandering in Darkness*. Die christliche Tradition hat für diese Erfahrung eigene Worte. Gerade sie spricht gegen die Vorstellung, Glaube sei bloße Wunscherfüllung.`,
+              followUps: [
+                {
+                  id: 'zeus-gleiche-quote',
+                  objection: `Muslime, Hindus und Anhänger jeder anderen Religion berichten genauso von erhörten Gebeten und gefühlter Nähe. Würdest du zu Zeus oder zu deinem Toaster beten, wären die Ergebnisse dieselben. Das zeigt: Gebetserfahrungen sagen nur etwas über das menschliche Gehirn, nichts über Gott.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Dass Menschen anderer Religionen Gebetserfahrungen haben, überrascht mich nicht – und es widerlegt Gott nicht. Die Bibel selbst erzählt vom Heiden Kornelius, dessen Gebete „hinaufgekommen sind ins Gedächtnis vor Gott" (Apg 10,4). Gott hört jeden, der ihn aufrichtig sucht. Aber ich habe nie behauptet, dass meine Gebetserfahrungen der Beweis für das Christentum sind. Mein Grund ist ein historischer: die Auferstehung Jesu. Die Gebetserfahrung ist die Folge des Glaubens, nicht sein Fundament.`,
+                  detail: `Harris' Vergleich trifft eine Apologetik, die mit „Gebet wirkt" für die Wahrheit des Christentums argumentiert. Diese Apologetik sollte man nicht betreiben. Christen können gelassen zugeben, dass religiöse Erfahrung über die Religionsgrenzen hinweg ähnlich ist – Paulus spricht in Athen davon, dass Gott „nicht ferne ist von einem jeglichen unter uns" (Apg 17,27). Was das Christentum unterscheidet, ist nicht ein Gefühl, sondern ein Ereignis in der Geschichte.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '10,4', quote: `Er aber sah ihn an, erschrak und sprach: Herr, was ist's? Er aber sprach zu ihm: Deine Gebete und deine Almosen sind hinaufgekommen ins Gedächtnis vor Gott.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Woran soll man die Wahrheit einer Religion prüfen, wenn nicht an Gefühlen – wäre ein historisches Ereignis wie die Auferstehung nicht ein besserer Prüfstein?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -150,6 +165,27 @@ const claim: Claim = {
               objectionBy: 'Skeptischer Mediziner',
               answer: `Viele berichtete Heilungen lassen sich tatsächlich natürlich erklären, und Christen sollten hier kritisch sein. Es gibt aber Fälle, die nach strengen medizinischen Kriterien unerklärt bleiben, etwa die vom Medizinischen Büro in Lourdes geprüften. Ich baue meinen Glauben nicht darauf; aber die pauschale Behauptung, jede Heilung sei erklärbar, ist ebenso eine Vorentscheidung.`,
               detail: `Ausführlich im Claim „Wunderheilungen sind Placebo oder Spontanremission" (Themenblock Medizin und Wunder). Wichtig: keine Einzelfälle übertreiben oder ungeprüfte Geschichten weitergeben – das schadet der Glaubwürdigkeit.`,
+              followUps: [
+                {
+                  id: 'wunder-in-allen-religionen',
+                  objection: `Lourdes ist katholisch, und Wunderberichte gibt es auch bei Hindu-Gurus und muslimischen Heiligen. Wenn Wunder irgendetwas beweisen, beweisen sie alles gleichzeitig – also nichts.`,
+                  objectionBy: 'Sam Harris / David Hume (Rezeption)',
+                  answer: `Wunder sind in der Bibel keine Beweisstücke für eine Konfession, sondern Zeichen der Barmherzigkeit Gottes – und Gott ist frei, sich zu erbarmen, wo er will. Der Neutestamentler Craig Keener hat gezeigt, dass Heilungsberichte weltweit massenhaft vorkommen, viele davon mit medizinischer Dokumentation; das spricht eher gegen den Naturalismus als gegen das Christentum. Für die Wahrheitsfrage verweise ich auf das eine Zeichen, das Jesus selbst angekündigt hat: seine Auferstehung (Mt 12,39–40).`,
+                  detail: `Humes Argument (*Enquiry*, Abschnitt X), konkurrierende Wunderberichte höben sich gegenseitig auf, setzt voraus, dass jedes Wunder die exklusive Wahrheit einer Religion beweisen soll. Das behauptet die Bibel nicht – auch Zauberer Pharaos tun Zeichen (Ex 7,11), und Jesus warnt vor falschen Wundertätern (Mt 24,24). Entscheidend ist, auf wen ein Zeichen hinweist und ob es mit Gottes übriger Offenbarung übereinstimmt.
+
+Keener (*Miracles: The Credibility of the New Testament Accounts*, 2 Bde., 2011) dokumentiert Heilungsberichte aus vielen Kulturen und kritisiert Humes Vorentscheidung gegen Zeugenberichte. Auch die koptische Kirche kennt eine reiche Tradition von Heilungsberichten, besonders an Gräbern von Heiligen; sie behandelt sie als Zeugnisse, nicht als Beweise.`,
+                  voices: [
+                    {
+                      person: 'keener',
+                      role: 'als Neutestamentler und Erforscher von Wunderberichten',
+                      text: `Keener argumentiert, dass die Behauptung, Augenzeugen würden nie glaubwürdig von Wundern berichten, empirisch falsch ist: Millionen Menschen weltweit berichten von Heilungen, und eine Reihe von Fällen ist ärztlich dokumentiert. Daraus folgt nicht, dass jeder Bericht stimmt, aber dass die Frage nur durch Prüfung im Einzelfall entschieden werden kann, nicht durch eine philosophische Vorentscheidung.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Miracles: The Credibility of the New Testament Accounts', year: '2011', quote: `Wunderberichte von Augenzeugen sind weltweit verbreitet; ihre Prüfung muss im Einzelfall erfolgen statt durch eine philosophische Vorentscheidung gegen jede Möglichkeit eines Wunders.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -174,6 +210,37 @@ const claim: Claim = {
           sources: [
             { kind: 'bibel', work: 'Jesus Sirach', ref: '38,1–2', quote: `Ehre den Arzt mit gebührender Verehrung, damit du ihn hast, wenn du ihn brauchst; denn der Herr hat ihn geschaffen, und die Heilung kommt vom Höchsten.`, status: 'paraphrase', note: 'Deuterokanonisch.' },
           ],
+          followUps: [
+            {
+              id: 'bittgebet-sinnlos',
+              objection: `Grundsätzlich: Wenn Gott allwissend und vollkommen gut ist, weiß er schon, was das Beste ist, und tut es ohnehin. Dann ändert Bitten nichts. Entweder ist das Bittgebet sinnlos, oder Gott hält Gutes zurück, bis man ihn anbettelt – dann ist er nicht gut.`,
+              objectionBy: 'Philosophischer Einwand (u. a. bei Alex O\'Connor)',
+              answer: `Das ist ein altes und ernstes Problem, und Eleonore Stump hat eine starke Antwort gegeben: Ein allmächtiger Freund, der uns alles ungebeten gäbe, würde uns überwältigen und verwöhnen; die Beziehung würde einseitig. Indem Gott manche Gaben an unser Bitten bindet, macht er uns zu echten Partnern und bewahrt die Freundschaft. Jakobus sagt es knapp: „Ihr habt nicht, darum daß ihr nicht bittet" (Jak 4,2). Das Bittgebet ist nicht das Anbetteln eines Zögerlichen, sondern die Form, in der Gott uns an seinem Handeln beteiligt.`,
+              detail: `Stump („Petitionary Prayer", *American Philosophical Quarterly* 16, 1979) entwickelt das Argument, dass Bittgebet zwei Gefahren der Gemeinschaft mit einem übermächtigen Gegenüber abwehrt: dass der Mensch verwöhnt wird und dass er in der Beziehung untergeht. Entscheidend ist ihre Einschränkung: Gott macht nicht die grundlegenden Güter vom Gebet abhängig, sondern gibt sie allen – „er lässt seine Sonne aufgehen über die Bösen und über die Guten" (Mt 5,45).`,
+              voices: [
+                {
+                  person: 'stump',
+                  role: 'als Religionsphilosophin',
+                  text: `Stump zeigt, dass das Bittgebet die Freundschaft zwischen Gott und Mensch schützt: Wer bitten darf und gehört wird, bleibt ein eigenständiges Gegenüber und wird nicht zum bloßen Empfänger. Gott bindet daher manche Güter an das Bitten, aber nicht jene, die für das Leben grundlegend sind. So wird das Gebet weder zur Erpressung Gottes noch zur leeren Geste.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Eleonore Stump', work: 'Petitionary Prayer', ref: 'American Philosophical Quarterly 16 (1979), 81–91', year: '1979', quote: `Das Bittgebet bewahrt den Menschen davor, von einem allmächtigen Freund überwältigt oder verwöhnt zu werden, und ermöglicht eine echte Freundschaft mit Gott.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Jakobus', ref: '4,2', quote: `Ihr habt nicht, darum daß ihr nicht bittet.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'stirbt-weil-keiner-bat',
+                  objection: `Dann stirbt also ein Kind, weil niemand genug gebetet hat? Das ist eine monströse Konsequenz: Gott lässt Menschen leiden, damit wir unsere Freundschaftspflege betreiben.`,
+                  objectionBy: 'Alex O\'Connor',
+                  answer: `Nein – und genau das schließt Stump aus. Leben und Grundgüter macht Gott nicht vom Gebet Einzelner abhängig. Niemand stirbt, weil ein anderer zu wenig gebetet hat; diesen Satz sollte kein Christ je einem Trauernden sagen. Außerdem betet die Kirche unablässig für alle Kranken, Leidenden und Sterbenden der ganzen Welt – in jeder Liturgie. Ob und wie Gott Bitten in sein Handeln einbezieht, ist ein Geheimnis der Freundschaft, kein Tarif, nach dem das Schicksal anderer bezahlt wird.`,
+                  detail: `In der koptischen Liturgie werden in den großen Fürbitten (Litaneien) die Kranken, die Reisenden, die Gefangenen, die Entschlafenen und die ganze Welt vor Gott gebracht. Niemand fällt aus diesem Gebet heraus. Die seelsorgliche Konsequenz: Schuldgefühle wegen „zu wenig Gebet" sind ein Missverständnis, das man liebevoll auflösen muss (siehe den Knoten „Zu wenig Glaube").`,
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -190,6 +257,28 @@ const claim: Claim = {
           objectionBy: 'Trauernde Eltern',
           answer: `Das ist falsch, und es tut mir sehr leid, dass man euch das gesagt hat. Das ist keine christliche Lehre, sondern eine schwere Verletzung. Paulus war ein Mann großen Glaubens und wurde nicht geheilt. Jesus hatte vollkommenen Glauben und betete trotzdem vergeblich, dass der Kelch an ihm vorübergehe. Der Tod eures Kindes ist nicht eure Schuld. Gott wirft euch nichts vor – er trauert mit euch.`,
           detail: `Die Vorstellung, mangelnder Glaube verhindere Heilung, stammt aus Strömungen wie dem „Wohlstandsevangelium" und ist mit der orthodoxen Lehre unvereinbar (siehe auch den Themenblock „Evangelikale Sonderlehren"). Wer solche Sätze gehört hat, braucht oft lange seelsorgliche Begleitung. Klarheit ist hier ein Akt der Barmherzigkeit.`,
+          followUps: [
+            {
+              id: 'warum-noch-beten',
+              objection: `Wozu soll ich dann überhaupt noch beten? Wenn es nichts ändert, ist es doch nur Selbstgespräch. Ich kann es nicht mehr.`,
+              objectionBy: 'Trauernde Mutter oder trauernder Vater',
+              answer: `Du musst jetzt nicht beten können. Die Kirche betet für dich, wenn du keine Worte hast – das ist einer der Gründe, warum wir eine Gemeinschaft sind. Und wenn du irgendwann wieder etwas sagen willst, darfst du mit den Psalmen klagen: „Mein Gott, warum hast du mich verlassen?" Beten ist nach der Tradition der Väter nicht zuerst ein Hebel, um Dinge zu ändern, sondern Gemeinschaft mit Gott – auch im Schweigen, auch im Zorn. Gott ist nicht beleidigt über deine Tränen; er sammelt sie (Ps 56,9).`,
+              detail: `Matta el-Meskeen, der große koptische Mönchsvater des 20. Jahrhunderts, beschreibt in *Orthodox Prayer Life* das Gebet als Leben in der Gegenwart Gottes, nicht als Technik der Wunscherfüllung. Die Agpeya, das Stundengebet der koptischen Kirche, gibt Menschen Worte, wenn eigene Worte fehlen: Die Psalmen sprechen für uns, bis wir wieder selbst sprechen können. Seelsorglich: Hier keine Argumente, sondern Angebote – Begleitung, Gebet für den Trauernden, Gedenkgottesdienst, Zeit.`,
+              voices: [
+                {
+                  person: 'matta-el-meskeen',
+                  role: 'als koptischer Lehrer des Gebets',
+                  text: `Für Matta el-Meskeen ist das Gebet zuerst eine Begegnung: Der Mensch tritt in die Gegenwart Gottes und lässt sich von ihm verwandeln. Bitten gehören dazu, aber sie sind nicht der Kern. Gerade in Zeiten der Trockenheit und des Schmerzes wächst das Gebet von der Bitte zur Hingabe – nicht, weil die Not gleichgültig wäre, sondern weil der Beter erfährt, dass Gott selbst bei ihm ist.`,
+                  sources: [
+                    { kind: 'koptisch', author: 'Matta el-Meskeen', work: 'Orthodox Prayer Life: The Interior Way', year: 'engl. 2003 (arab. Original Mitte des 20. Jh.)', quote: `Das Gebet ist nicht in erster Linie ein Mittel, Dinge von Gott zu erlangen, sondern die Gemeinschaft mit ihm selbst, die den Menschen verwandelt.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Psalm', ref: '56,9', quote: `Zähle die Wege meiner Flucht; fasse meine Tränen in deinen Krug. Ohne Zweifel, du zählst sie.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },

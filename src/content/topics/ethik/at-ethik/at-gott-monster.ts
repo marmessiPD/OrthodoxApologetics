@@ -141,6 +141,21 @@ Ussa (2 Sam 6): Die Lade sollte nach Num 4,15 von Leviten an Stangen getragen un
               objection: `„Er ist der Richter" rechtfertigt nicht alles. Auch ein Richter kann ungerecht sein.`,
               objectionBy: 'Bart Ehrman',
               answer: `Richtig – ein menschlicher Richter kann irren, weil er die Herzen nicht kennt. Der christliche Glaube behauptet, dass Gott die Herzen kennt und vollkommen gerecht ist. Ob das stimmt, hängt an der Frage, ob es diesen Gott gibt – und dort hat das Christentum seine stärkste Antwort: Am Kreuz richtet Gott das Böse nicht, indem er andere opfert, sondern indem er selbst das Gericht trägt. Ein Gott, der so handelt, ist kein launischer Tyrann.`,
+              followUps: [
+                {
+                  id: 'herzenskenntnis-unfalsifizierbar',
+                  objection: `„Gott kennt die Herzen" ist eine unfalsifizierbare Ausrede. Damit kann man jede Gräueltat rechtfertigen: Gott wusste halt mehr. Genau so argumentieren Terroristen.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Der Unterschied ist entscheidend: Ein Terrorist beansprucht göttliches Wissen für **sich selbst** und handelt danach. Ich sage das Gegenteil: Weil nur Gott die Herzen kennt, darf **kein Mensch** in seinem Namen töten – Jesus hat seinen Jüngern genau das verwehrt. Und ich messe Gott nicht an nichts: Die Bibel selbst hält ihn an seinem Maßstab fest – Abraham fragt: „Sollte der Richter aller Welt nicht recht richten?" (Gen 18,25). Und in Christus zeigt Gott, wie sein Herz wirklich aussieht.`,
+                  detail: `Die Logik ist also nicht „alles ist erlaubt, wenn Gott es tut", sondern: (1) Gott hat Rechte über Leben und Tod, die kein Mensch hat; (2) er hat sein Wesen endgültig in Christus offenbart, der lieber stirbt als tötet; (3) darum ist jede menschliche Berufung auf Gott zur Rechtfertigung von Gewalt am Kreuz zu prüfen – und scheitert dort. Das ist kein Freibrief, sondern eine Schranke.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Genesis', ref: '18,25', quote: `Sollte der Richter aller Welt nicht recht richten?`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn ein allwissender Gott existierte – wäre es dann nicht vernünftig, dass er Dinge weiß, die wir nicht wissen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -167,6 +182,20 @@ Ussa (2 Sam 6): Die Lade sollte nach Num 4,15 von Leviten an Stangen getragen un
               objection: `Dann ist dein Gott eben ein emotional instabiler Herrscher, der mal zornig, mal gnädig ist – wie ein Psychopath mit Stimmungsschwankungen.`,
               objectionBy: 'Richard Dawkins',
               answer: `Die Kirche lehrt das Gegenteil: Gott ist nicht wechselnden Leidenschaften unterworfen. Wenn die Bibel von Zorn oder Reue spricht, redet sie in menschlichen Bildern. Gemeint ist Gottes unwandelbare Gerechtigkeit, die der Sünder als Zorn und der Umkehrende als Gnade erfährt – wie dieselbe Sonne Wachs schmilzt und Ton härtet. Origenes erklärte schon gegen Kelsos, dass Gottes „Zorn" keine Leidenschaft ist, sondern ein Mittel, Menschen zurechtzubringen.`,
+              followUps: [
+                {
+                  id: 'propheten-gewalt-ehe-metapher',
+                  objection: `Noch schlimmer sind die Propheten: Bei Hosea und Hesekiel 16 und 23 ist Gott der betrogene Ehemann, der seine untreue Frau öffentlich entblößt und demütigen lässt. Das ist die Sprache häuslicher Gewalt – und sie hat Generationen von Männern ein göttliches Vorbild geliefert.`,
+                  objectionBy: 'Renita J. Weems',
+                  answer: `Diese Kritik feministischer Exegetinnen verdient eine ernste Antwort: Die Bilder sind schockierend, und kein Mann darf daraus je ein Recht ableiten, seine Frau zu demütigen. Aber die Texte sind Gerichtsrhetorik an ein ganzes Volk, nicht eine Eheordnung: Das Entblößen beschreibt, was die „Liebhaber" – die Großmächte, mit denen Israel paktierte – ihm antun werden. Und das Ende ist nicht Gewalt, sondern Werbung: „Ich will sie locken und in die Wüste führen und freundlich mit ihr reden" (Hos 2,16), „ich will mich mit dir verloben in Ewigkeit" (Hos 2,21).`,
+                  detail: `Die Metapher funktioniert durch Schock: Die Propheten wollten zeigen, wie tief der Treuebruch gegen Gott ist, der Israel aus dem Elend aufgelesen hatte (Ez 16,4–14). Dass diese Bildsprache in einer patriarchalen Kultur formuliert ist, darf man zugeben. Die Schrift selbst korrigiert jedoch jedes Missverständnis über Ehe: Das Neue Testament verlangt vom Mann, seine Frau zu lieben, „gleichwie Christus die Gemeinde geliebt hat und hat sich selbst für sie gegeben" (Eph 5,25) – Selbsthingabe, nicht Herrschaft. Die Kirche muss klar sagen: Wer häusliche Gewalt mit der Bibel rechtfertigt, versündigt sich doppelt.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Renita J. Weems', work: 'Battered Love: Marriage, Sex, and Violence in the Hebrew Prophets', year: '1995', quote: `Die prophetische Ehe-Metapher verknüpfe göttliche Liebe mit männlicher Gewalt und könne so Gewalt gegen Frauen normalisieren.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Hosea', ref: '2,16.21', quote: `Ich will sie locken und will sie in eine Wüste führen und freundlich mit ihr reden. … Ich will mich mit dir verloben in Ewigkeit.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Epheser', ref: '5,25', quote: `Ihr Männer, liebet eure Weiber, gleichwie Christus geliebt hat die Gemeinde und hat sich selbst für sie gegeben.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -177,6 +206,41 @@ Ussa (2 Sam 6): Die Lade sollte nach Num 4,15 von Leviten an Stangen getragen un
       objection: `Und dann verlangt dieser Gott ständig Anbetung und Lob. Das ist der Charakter eines größenwahnsinnigen Narzissten.`,
       objectionBy: 'Richard Dawkins',
       answer: `C. S. Lewis hatte genau diesen Einwand, bis er bemerkte: Wir loben spontan, was wir lieben – einen Sonnenuntergang, ein Buch, einen Menschen –, und das Lob vollendet unsere Freude erst. Wenn Gott das höchste Gut ist, dann ist es nicht Eitelkeit, wenn er uns zum Lob einlädt, sondern Großzügigkeit: Er lädt uns ein zu der Freude, für die wir geschaffen sind. Gott braucht unser Lob nicht – wir brauchen es.`,
+      followUps: [
+        {
+          id: 'himmlisches-nordkorea',
+          objection: `Euer Himmel ist ein himmlisches Nordkorea: ewiges Lobsingen für einen Herrscher, den man lieben **muss**, unter totaler Überwachung, die nicht einmal nach dem Tod endet. Wenigstens kann man aus Nordkorea durch den Tod entkommen.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Der Vergleich kippt an einer Stelle: Ein Diktator erzwingt Lob für etwas, das nicht wahr ist, und zu seinem eigenen Nutzen. Gott braucht unser Lob nicht – er hat es nicht nötig, so wie die Sonne unser Staunen nicht braucht. Anbetung ist die Freude eines Geschöpfs, das endlich sieht, was wirklich schön und gut ist. Und gezwungen wird niemand: Wer Gott nicht will, dem wird er nicht aufgedrängt.`,
+          detail: `Die christliche Vorstellung vom Himmel ist nicht ein ewiger Pflichtgottesdienst, sondern die Vollendung dessen, wonach der Mensch sich zutiefst sehnt: „Unruhig ist unser Herz, bis es ruht in dir" (Augustinus, *Bekenntnisse* I,1). Die Väter sprechen von *theōsis*, der Teilhabe an Gottes Leben – nicht von Unterwerfung, sondern von Verwandlung in Liebe.
+
+C. S. Lewis hat das Gegenbild in *Die große Scheidung* gezeichnet: Am Ende gibt es nur zwei Arten von Menschen – die, die zu Gott sagen „Dein Wille geschehe", und die, zu denen Gott sagt „Dein Wille geschehe". Das ist das Gegenteil von Totalitarismus: Gott respektiert sogar das Nein.`,
+          voices: [
+            { person: 'cs-lewis', role: 'als Apologet der Freude', text: `Lewis beschreibt in *Gedanken zu den Psalmen*, dass Lob die Vollendung der Freude ist: Wir loben, was wir genießen, weil die Freude erst im Ausdruck vollständig wird. Wenn Gott uns zum Lob ruft, lädt er uns ein, ihn zu genießen – und darin liegt unser Glück, nicht seins.` },
+            { person: 'athanasius', role: 'als Lehrer der Vergöttlichung', text: `Für Athanasius ist das Ziel der Menschwerdung, dass der Mensch an Gottes Leben teilhat: „Er wurde Mensch, damit wir vergöttlicht würden" (*De Incarnatione* 54). Das Ziel ist nicht Unterwerfung unter einen fernen Herrscher, sondern Gemeinschaft mit dem, der sich selbst hingegeben hat.` },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Christopher Hitchens', work: 'God Is Not Great', year: '2007', quote: `Der Himmel sei eine Art „himmlisches Nordkorea", eine Diktatur, die man nicht einmal durch den Tod verlassen könne.`, status: 'paraphrase', note: 'Hitchens benutzte das Bild vielfach in Debatten (u. a. gegen Craig und Wilson).' },
+            { kind: 'kirchenvater', author: 'Augustinus', work: 'Bekenntnisse (Confessiones)', ref: 'I,1', year: 'um 397', quote: `Du hast uns zu dir hin geschaffen, und unruhig ist unser Herz, bis es ruht in dir.`, status: 'verbatim' },
+            { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Die große Scheidung (The Great Divorce)', ref: 'Kap. 9', year: '1945', quote: `Am Ende gebe es nur zwei Arten von Menschen: die zu Gott sagen „Dein Wille geschehe", und die, zu denen Gott schließlich sagt „Dein Wille geschehe".`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'kein-ausgang-hoelle',
+              objection: `„Gott respektiert das Nein" – und bestraft es dann ewig. Ein Angebot, das man unter Androhung ewiger Folter nicht ablehnen darf, ist kein Angebot, sondern Erpressung.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `Die orthodoxe Tradition denkt die Hölle nicht als Folterkammer, die Gott neben dem Himmel betreibt, sondern als das Erleiden derselben göttlichen Liebe durch einen Menschen, der sie hasst. Isaak der Syrer sagt, die Verdammten würden „von der Geißel der Liebe" gepeinigt. Gott droht nicht mit etwas Fremdem; er sagt die Wahrheit darüber, was es bedeutet, die Quelle allen Lebens dauerhaft abzulehnen. Ein Arzt, der vor den Folgen einer Krankheit warnt, erpresst nicht.`,
+              detail: `Die Frage der ewigen Strafe wird eigens behandelt (Themenblock „Hölle"). Für dieses Gespräch reicht: Der Vorwurf der Erpressung setzt voraus, dass Gott ein Fremder ist, der Gehorsam gegen Belohnung tauscht. Das Evangelium sagt, dass Gott selbst das Leben ist (Joh 14,6) – sich von ihm abzuwenden heißt, sich vom Leben abzuwenden.`,
+              voices: [
+                { person: 'isaak-syrer', role: 'als Mystiker der Liebe', text: `Isaak der Syrer lehrt in seinen asketischen Homilien, dass die Gequälten in der Hölle von der Liebe Gottes gequält werden: Die Liebe, die den Heiligen Freude ist, ist denen, die sich ihr verschlossen haben, Pein. Die Hölle ist für ihn nicht Abwesenheit Gottes, sondern Abwehr seiner Gegenwart.` },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Isaak der Syrer', work: 'Asketische Homilien', ref: 'Homilie 28 (nach der Zählung der griechischen Ausgabe) bzw. I,28', year: '7. Jh.', quote: `Die in der Hölle gepeinigt werden, werden von der Geißel der Liebe gepeinigt.`, status: 'paraphrase', note: 'Homilienzählung unterscheidet sich je nach Ausgabe (syrisch/griechisch).' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

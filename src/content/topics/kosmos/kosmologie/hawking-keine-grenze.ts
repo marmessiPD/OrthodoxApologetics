@@ -73,7 +73,7 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
       person: 'don-page',
       role: 'als langjähriger Mitarbeiter Hawkings und Quantenkosmologe',
       text: `Don Page arbeitete eng mit Hawking zusammen und ist überzeugter Christ. Er hat betont, dass die Frage nach Gott in der Quantenkosmologie nicht an einem Anfangszeitpunkt hängt: Gott ist Schöpfer des gesamten Universums und seiner Gesetze, nicht nur seines Beginns. Ein Universum, das durch eine elegante Wellenfunktion beschrieben wird, passt nach Page gut zu einem rationalen Schöpfer, der eine einfache, schöne Ordnung wählt.`,
-      sources: [{ kind: 'fachliteratur', author: 'Don N. Page', work: 'Rezension von „A Brief History of Time" („Hawking’s Timely Story"), Nature 332', year: '1988', quote: `Gott schafft das ganze Universum, nicht nur seinen Anfang; die No-Boundary-Bedingung beseitigt die Frage nach dem Schöpfer nicht.`, status: 'unverified', note: 'Sinngemäß; genauer Wortlaut und Seitenangabe vor Verwendung prüfen.' }],
+      sources: [{ kind: 'fachliteratur', author: 'Don N. Page', work: 'Rezension von „A Brief History of Time" („Hawking’s Timely Story"), Nature 333', ref: 'S. 742–743', year: '1988', quote: `Gott schafft das ganze Universum, nicht nur seinen Anfang; die No-Boundary-Bedingung beseitigt die Frage nach dem Schöpfer nicht.`, status: 'unverified', note: 'Fundstelle per Bibliografie geprüft und korrigiert (Nature 333, nicht 332; S. 742–743). Der Wortlaut der Rezension war nicht einsehbar – die Wiedergabe ist sinngemäß und vor wörtlicher Verwendung zu prüfen. Pages Grundposition (Gott als Schöpfer und Erhalter des ganzen Universums) ist in seinen späteren Aufsätzen gut belegt.' }],
     },
     {
       person: 'athanasius',
@@ -109,6 +109,37 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
               objection: `Das ist Wortklauberei über das Wort „beginnen".`,
               objectionBy: 'Sean Carroll',
               answer: `Nein, das ist Mathematik. Die Frage ist: Reicht die Vergangenheit unendlich weit zurück oder nicht? Im No-Boundary-Modell nicht. Damit ist das Universum nicht ewig und die Frage nach seinem Grund bleibt bestehen.`,
+              followUps: [
+                {
+                  id: 'kausalitaet-nicht-fundamental',
+                  objection: `Dein Argument lebt vom Begriff „Ursache". Aber Ursache und Wirkung kommen in der fundamentalen Physik gar nicht vor. Dort gibt es nur Zustände und Gesetze, die sie verknüpfen. „Was hat das Universum verursacht?" ist deshalb eine Frage, die man der Physik gar nicht stellen kann.`,
+                  objectionBy: 'Sean Carroll',
+                  answer: `Wenn das stimmt, dann kann die Physik die Frage auch nicht *verneinen* – sie fällt dann schlicht aus ihrem Zuständigkeitsbereich, und wir sind bei der Philosophie. Dort aber ist der Satz „Was zu sein beginnt, hat einen Grund" eine der am besten bestätigten Intuitionen überhaupt; ohne ihn könnte kein Experimentator einen Messausschlag einer Ursache zuordnen. Wer ihn ausgerechnet beim größten Ereignis aussetzt, braucht dafür einen besseren Grund als „hier passt er mir nicht".`,
+                  detail: `Carroll hat diesen Punkt in der Debatte mit William Lane Craig (Greer-Heard Forum, New Orleans 2014) stark gemacht: Fundamentale Gesetze seien Muster, keine Ursache-Wirkungs-Ketten; das Universum könne „einfach sein". Das ist eine ernsthafte philosophische Position (in der Tradition Bertrand Russells). Zwei Rückfragen entkräften sie:
+
+- **Selbst ohne „Ursache" bleibt die Frage nach dem Grund.** Die Kontingenzfrage (Leibniz: Warum gibt es überhaupt etwas, und warum gerade dies?) setzt keinen zeitlichen Ursachenbegriff voraus.
+- **Carrolls eigene Physik erklärt ständig.** Den Zeitpfeil erklärt er mit dem extrem geordneten Anfangszustand – und fragt dann folgerichtig, *warum* der Anfangszustand so geordnet war. Wer bei der Entropie nach dem Grund fragt, kann es beim Dasein nicht für sinnlos erklären.`,
+                  voices: [
+                    { person: 'craig', role: 'als Philosoph der Zeit', text: `Craig antwortet in der Debatte, dass das Kausalprinzip keine physikalische Hypothese ist, die durch eine bestimmte Formulierung der Gesetze widerlegt werden könnte, sondern ein metaphysisches Prinzip, das jede Naturwissenschaft bereits voraussetzt. Wenn Dinge ohne jeden Grund aus dem Nichts entstehen könnten, wäre unerklärlich, warum dies nicht ständig und überall geschieht.` },
+                  ],
+                  sources: [{ kind: 'gegner', author: 'Sean Carroll / William Lane Craig', work: 'Debatte „God and Cosmology: The Existence of God in Light of Contemporary Cosmology", Greer-Heard Forum, New Orleans', year: '2014', quote: `Carroll: Ursache-Wirkungs-Beziehungen seien kein Bestandteil der fundamentalen Physik; das Universum brauche keine äußere Erklärung, es könne einfach existieren.`, status: 'paraphrase' }],
+                  questionsBack: [`Wenn Kausalität in der Physik nicht vorkommt – mit welchem Recht schließt du dann von einem Messausschlag auf ein Teilchen?`, `Warum fragst du beim Zeitpfeil nach dem Grund des geordneten Anfangs, beim Dasein des Universums aber nicht?`],
+                  followUps: [
+                    {
+                      id: 'universum-brute-fact',
+                      objection: `Jede Erklärungskette endet irgendwo. Du endest bei Gott, ich ende beim Universum. Es ist eine „brute fact" – einfach da. Warum soll mein Endpunkt schlechter sein als deiner?`,
+                      objectionBy: 'Sean Carroll',
+                      answer: `Weil nicht jeder Endpunkt gleich gut ist. Ein guter Endpunkt ist etwas, das aus sich selbst heraus existieren *kann*. Unser Universum hat eine endliche Vergangenheit, ganz bestimmte Konstanten, einen extrem unwahrscheinlichen Anfangszustand – es trägt alle Merkmale von etwas, das auch anders oder gar nicht sein könnte. Gott wird dagegen gerade als das notwendige, nicht zusammengesetzte Sein verstanden, das keinen weiteren Grund braucht. Bei dir endet die Kette bei der unwahrscheinlichsten Sache, die man sich denken kann; bei mir bei der einzigen, die ihren Grund in sich trägt.`,
+                      detail: `Das ist das Kontingenzargument (Leibniz, *Principes de la nature et de la grâce*, 1714, §7; heute Alexander Pruss, Robert Koons). Es setzt nicht voraus, dass das Universum einen Anfang hat – es funktioniert auch bei einem ewigen Universum. Darum ist es die zweite Verteidigungslinie, falls jemand die endliche Vergangenheit bestreitet.`,
+                      voices: [
+                        { person: 'leibniz', role: 'als Philosoph des zureichenden Grundes', text: `Leibniz unterscheidet zwischen Dingen, die ihren Grund in etwas anderem haben, und einem Wesen, das den Grund seines Daseins in sich selbst trägt. Die ganze Reihe kontingenter Dinge – auch eine unendlich lange – erklärt sich nicht selbst; sie verlangt einen Grund außerhalb der Reihe. Die erste Frage, die man stellen darf, ist daher: Warum gibt es eher etwas als nichts?` },
+                      ],
+                      sources: [{ kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Principes de la nature et de la grâce, fondés en raison', ref: '§7', year: '1714', quote: `Die erste Frage, die man mit Recht stellen kann, lautet: Warum gibt es eher etwas als nichts?`, status: 'paraphrase' }],
+                      questionsBack: [`Wäre das Universum mit anderen Konstanten oder gar nicht denkbar? Wenn ja – was macht es dann zu einem guten letzten Endpunkt?`],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -123,6 +154,20 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
               objection: `Ein Gott, der nur „erhält", aber nirgends eingreift, ist unbeweisbar und unfalsifizierbar – also wissenschaftlich wertlos.`,
               objectionBy: 'Victor Stenger',
               answer: `Er ist eine metaphysische, keine naturwissenschaftliche These – genau wie „das Universum ist einfach da". Beide kann man nicht im Labor testen; beide muss man philosophisch begründen. Für die eine sprechen Kontingenz, Feinabstimmung und Verstehbarkeit der Welt; die andere verzichtet auf jede Begründung.`,
+              followUps: [
+                {
+                  id: 'ockham-schneidet-gott-weg',
+                  objection: `Dann entscheidet Ockhams Rasiermesser. Ein Universum ohne Gott ist die einfachere Hypothese: eine Entität weniger. Wer Gott hinzufügt, erklärt nichts, was nicht auch ohne ihn erklärt wäre.`,
+                  objectionBy: 'Victor Stenger',
+                  answer: `Ockham sagt: Keine Entitäten *über das Notwendige hinaus*. Die Frage ist also gerade, ob Gott etwas erklärt, was sonst unerklärt bleibt – und das sind Dasein, Gesetzmäßigkeit, Feinabstimmung und Verstehbarkeit der Welt. Außerdem ist „einfach" nicht dasselbe wie „wenige Wörter". Ein einziges notwendiges, unendlich vernünftiges Wesen ist begrifflich einfacher als ein Paket aus zufälligen Gesetzen, zwei Dutzend fein eingestellten Konstanten und einem extrem geordneten Anfangszustand, die alle unerklärt nebeneinanderstehen.`,
+                  detail: `Swinburne hat ausführlich begründet, warum die Hypothese eines Gottes mit unbegrenzter Macht, Erkenntnis und Freiheit nach den üblichen Kriterien der Wissenschaftstheorie *besonders einfach* ist: Unbegrenzte Größen sind einfacher als willkürlich begrenzte (so wie eine Teilchenmasse von null einfacher ist als eine von 0,3 Elektronenvolt). Ob man ihm folgt, ist eine philosophische Frage – aber sie zeigt, dass Ockham nicht automatisch für den Naturalismus stimmt.`,
+                  voices: [
+                    { person: 'swinburne', role: 'als Religions- und Wissenschaftsphilosoph', text: `Swinburne argumentiert, dass Erklärungen umso besser sind, je einfacher die postulierte Ursache und je größer ihre Erklärungskraft ist. Ein Gott unbegrenzter Macht und Erkenntnis ist die einfachste Art personaler Ursache, die man postulieren kann; er erklärt mit einem Schlag, warum es ein Universum gibt, warum es gesetzmäßig ist und warum es bewusste Wesen hervorbringt. Der Naturalist muss jede dieser Tatsachen als unerklärtes Rohfaktum hinnehmen.` },
+                  ],
+                  sources: [{ kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', ref: '2. Aufl., Kap. 5', year: '2004', quote: `Die theistische Hypothese ist wegen der Unbegrenztheit der postulierten Eigenschaften eine sehr einfache Hypothese.`, status: 'paraphrase' }],
+                  questionsBack: [`Erklärt deine Hypothese, warum es Gesetze gibt, warum sie mathematisch sind und warum sie Leben zulassen – oder nimmt sie das alles einfach hin?`],
+                },
+              ],
             },
           ],
         },
@@ -162,6 +207,23 @@ Daher würde selbst ein Universum ohne ersten Moment die biblische Lehre nicht b
               objection: `Hawking hat mit Hertog am Ende eine „Top-down-Kosmologie" entwickelt: Selbst die Naturgesetze entstehen mit dem Universum. Dann gibt es nichts mehr, was vorausgesetzt wäre.`,
               objectionBy: 'Thomas Hertog',
               answer: `Auch dann gibt es eine tiefere Ebene: einen quantenmechanischen Rahmen, in dem sich effektive Gesetze herausbilden. Irgendetwas muss fundamental sein, sonst lässt sich nichts berechnen. Die Frage verschiebt sich – sie verschwindet nicht: Warum gibt es diesen Rahmen überhaupt?`,
+              followUps: [
+                {
+                  id: 'warum-frage-platonisch',
+                  objection: `Die Frage „Warum gibt es diesen Rahmen?" ist ein Überbleibsel des platonischen Denkens – als ob die Gesetze auf einer göttlichen Tafel stünden. Hawking hat diesen „Blick Gottes" am Ende ausdrücklich aufgegeben: Wir beschreiben das Universum von innen, als Beobachter in ihm. Von dort gibt es keinen Standpunkt außerhalb, von dem aus man nach einem Schöpfer fragen könnte.`,
+                  objectionBy: 'Thomas Hertog',
+                  answer: `Dass wir das Universum nur von innen *beschreiben* können, ist eine kluge erkenntnistheoretische Bescheidenheit – aber daraus folgt nicht, dass es keinen Grund außerhalb *gibt*. Ein Romanfigur kann den Autor auch nicht von innen vermessen; der Roman hat trotzdem einen. Und die Top-down-Kosmologie setzt immer noch einen quantenmechanischen, holografischen Rahmen voraus, den sie nicht erklärt. Die Frage nach dem Grund ist nicht platonisch, sondern schlicht die älteste Frage der Vernunft.`,
+                  detail: `Hertog schildert in *On the Origin of Time* (2023) Hawkings späte Wende: Statt die Gesetze als zeitlos vorgegeben zu betrachten, sollen sie sich im heißen Frühuniversum wie in einer Art Evolution „herausgebildet" haben; man rekonstruiert sie rückwärts aus Sicht heutiger Beobachter. Das ist ein interessanter physikalischer Ansatz. Theologisch ändert er wenig: Auch eine „Evolution der Gesetze" folgt Regeln (Quantenmechanik, Holografie), und auch ein Beobachterstandpunkt setzt voraus, dass es etwas zu beobachten gibt. Die klassische christliche Lehre hat Gott nie als Teil des Universums oder als „Gesetzestafel" verstanden, sondern als den Schöpfer, der allem – Gesetzen wie Dingen – das Sein gibt.`,
+                  voices: [
+                    { person: 'athanasius', role: 'als Lehrer der Schöpfung durch den Logos', text: `Für Athanasius ist die Ordnung der Welt kein in sich ruhendes System, sondern Wirkung des Logos, der die Schöpfung zusammenhält, damit sie nicht ins Nichts zurückfällt (Contra Gentes 41–42). Die Frage nach dem Grund der Ordnung ist für ihn daher keine fremde Zutat zur Naturbetrachtung, sondern ihre natürliche Vollendung: Aus der Harmonie der Welt erkennt man den Logos, der sie lenkt.` },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Thomas Hertog', work: 'On the Origin of Time: Stephen Hawking’s Final Theory', year: '2023', quote: `Hawking habe am Ende den „Blick Gottes" auf das Universum aufgegeben; die Gesetze der Physik seien nicht zeitlos vorgegeben, sondern hätten sich mit dem Universum herausgebildet.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Contra Gentes', ref: '41–42', year: 'ca. 335', quote: `Der Logos durchwaltet und ordnet das All und hält es im Dasein, damit die Schöpfung nicht ins Nichtsein zurückfällt.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn die Gesetze sich „herausgebildet" haben – nach welchen Regeln? Und woher kommen diese?`],
+                },
+              ],
             },
           ],
         },

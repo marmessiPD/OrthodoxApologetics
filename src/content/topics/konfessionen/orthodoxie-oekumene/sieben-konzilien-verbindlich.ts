@@ -129,7 +129,7 @@ const claim: Claim = {
               id: 'dann-unterschreibt',
               objection: `„Wenn in der Sache kein Unterschied besteht – dann unterschreibt doch einfach die Beschlüsse von 680/81."`,
               objectionBy: 'Byzantinischer Dogmatiker',
-              answer: `Die Konzilsbeschlüsse bauen ausdrücklich auf Chalcedon und seinen Verurteilungen auf, darunter die Absetzung unseres Papstes Dioskur. Ein Konzil „einfach zu unterschreiben" hieße, unsere eigenen Väter zu verurteilen, deren Glauben die Kommission als orthodox anerkannt hat. Deshalb schlug sie einen anderen Weg vor: gegenseitige Interpretation und Aufhebung der Anathemata. Einheit im Glauben ja – Verrat an den Vätern nein.`,
+              answer: `Die Konzilsbeschlüsse bauen ausdrücklich auf Chalcedon auf – auf dem Konzil, das unseren Papst Dioskur absetzte – und stehen in einer Tradition, die unsere Väter als Häretiker verurteilt. Ein Konzil „einfach zu unterschreiben" hieße, unsere eigenen Väter zu verurteilen, deren Glauben die Kommission als orthodox anerkannt hat. Deshalb schlug sie einen anderen Weg vor: gegenseitige Interpretation und Aufhebung der Anathemata. Einheit im Glauben ja – Verrat an den Vätern nein.`,
               followUps: [
                 {
                   id: 'honorius-demut',

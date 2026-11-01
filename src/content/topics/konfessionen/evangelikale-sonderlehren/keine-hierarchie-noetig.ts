@@ -151,6 +151,91 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'allgemeines-priestertum',
+      objection: `„1 Petr 2,9: ‚Ihr seid das königliche Priestertum.' Alle Gläubigen sind Priester. Eine besondere Priesterkaste widerspricht dem Neuen Testament."`,
+      objectionBy: 'Mark Dever / Wayne Grudem',
+      answer: `Petrus zitiert Ex 19,6 – ein Wort, das ganz Israel galt. Und doch hatte Israel innerhalb dieses priesterlichen Volkes ein besonderes Priestertum. Beides schließt sich nicht aus: Das ganze Volk ist priesterlich, weil es Gott Lob und das eigene Leben darbringt (Röm 12,1); der geweihte Dienst steht im Dienst dieses Volkes. In der koptischen Liturgie handelt die ganze Gemeinde mit – sie antwortet, betet und bestätigt sogar die Weihe mit dem Ruf „Axios" (Er ist würdig).`,
+      sources: [
+        { kind: 'bibel', work: '2. Mose', ref: '19,6', quote: `Und ihr sollt mir ein priesterlich Königreich und ein heiliges Volk sein.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'christus-einziger-priester',
+          objection: `„Hebr 7–10 zeigt: Christus ist der einzige Hohepriester, sein Opfer ist ein für alle Mal geschehen. Jeder menschliche Priester stellt das in Frage."`,
+          objectionBy: 'Baptistischer Theologe',
+          answer: `Die Priester der Kirche bringen kein zweites Opfer, sie dienen dem einen Priestertum Christi als „Haushalter über Gottes Geheimnisse" (1 Kor 4,1). Paulus beschreibt seinen eigenen Dienst mit priesterlicher Sprache: Er „dient priesterlich dem Evangelium Gottes", damit die Heiden ein Gott wohlgefälliges Opfer werden (Röm 15,16). Christus ist der Priester; der geweihte Diener leiht ihm Hände und Stimme.`,
+          voices: [
+            {
+              person: 'chrysostomus',
+              role: 'als Verfasser der Schrift über das Priestertum',
+              text: `Chrysostomus beschreibt in „Über das Priestertum" die Würde des Priesteramts gerade darin, dass nicht der Mensch, sondern Christus durch ihn handelt: Was der Priester auf Erden vollzieht, bestätigt Gott im Himmel. Er betont zugleich die erschreckende Verantwortung des Amtes – es ist Dienst, nicht Herrschaft.`,
+              sources: [{ kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Über das Priestertum (De sacerdotio)', ref: 'III,4–5', year: 'um 386', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'hiereus-nie-fuer-amt',
+              objection: `„Das Neue Testament nennt Gemeindeleiter nie *hiereus* (Opferpriester), sondern nur *presbyteros* (Ältester). Das Priesteramt kam erst später."`,
+              objectionBy: 'Wayne Grudem',
+              answer: `Das stimmt sprachlich, und das geben wir zu – das deutsche Wort „Priester" kommt übrigens selbst von *presbyteros*. Aber sehr früh verbindet die Kirche das Amt mit priesterlicher Ordnung: Klemens von Rom vergleicht um 96 die Ordnung der Gemeinde mit der Ordnung von Hohepriester, Priestern und Leviten (1 Clem 40–44), und die Didache nennt die Eucharistie das reine Opfer aus Mal 1,11 (Didache 14). Das ist keine mittelalterliche Erfindung, sondern Auslegung der ersten Generationen.`,
+              sources: [
+                { kind: 'kirchenvater', work: 'Didache (Zwölf-Apostel-Lehre)', ref: '14,3', year: 'um 100', status: 'paraphrase', quote: `Denn dies ist das vom Herrn gesagte Wort: An jedem Ort und zu jeder Zeit soll man mir ein reines Opfer darbringen (Mal 1,11).` },
+                { kind: 'kirchenvater', author: 'Klemens von Rom', work: '1. Klemensbrief', ref: '40–44', year: 'um 96', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'didache-gemeindewahl',
+                  objection: `„Gerade die Didache sagt: ‚Wählt euch Bischöfe und Diakone, würdig des Herrn' (Didache 15,1). Die Gemeinde wählt – nicht ein Bischof setzt ein. Das ist Gemeindeautonomie!"`,
+                  objectionBy: 'Freikirchlicher Pastor',
+                  answer: `Ein guter Punkt – und auch in der koptischen Kirche wirkt das Volk mit: Bei der Wahl des Papstes stimmen Klerus und Laien ab, und jede Weihe wird vom Volk mit „Axios" bestätigt. Aber Wahl ist nicht Weihe. Schon in Apg 6,3–6 wählt die Gemeinde die Sieben aus, und dann legen die Apostel ihnen die Hände auf. Wahl durch das Volk und Handauflegung durch die apostolischen Hirten gehören zusammen – die Didache bestätigt das eine, ohne das andere zu leugnen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '6,3.6', quote: `Darum, ihr lieben Brüder, sehet unter euch nach sieben Männern … Diese stellten sie vor die Apostel und beteten und legten die Hände auf sie.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'zwei-oder-drei',
+      objection: `„Mt 18,20: ‚Wo zwei oder drei versammelt sind in meinem Namen, da bin ich mitten unter ihnen.' Wo Gläubige sich versammeln, ist Kirche – dazu braucht es keinen Bischof."`,
+      objectionBy: 'Ältester der Brüderbewegung',
+      answer: `Christus ist im gemeinsamen Gebet wirklich gegenwärtig – das bestreitet niemand. Aber Mt 18,15–20 handelt von Gemeindezucht: „Hört er die nicht, so sage es der Gemeinde" (18,17), und die Gemeinde hat Vollmacht zu binden und zu lösen (18,18). Der Vers beschreibt eine Kirche mit Ordnung und Autorität, nicht die Selbstgenügsamkeit jeder Kleingruppe. Ignatius sagt wenig später: Wo der Bischof ist, da soll die Gemeinde sein.`,
+      sources: [
+        { kind: 'bibel', work: 'Matthäus', ref: '18,17–18', quote: `Hört er die nicht, so sage es der Gemeinde … Wahrlich ich sage euch: Was ihr auf Erden binden werdet, soll auch im Himmel gebunden sein.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'apg-15-ganze-gemeinde',
+          objection: `„Beim Apostelkonzil (Apg 15) entschied ‚die ganze Gemeinde' mit. Das ist Gemeindeprinzip, keine Hierarchie."`,
+          objectionBy: 'Baptistischer Theologe',
+          answer: `Lies genau: „Die Apostel und die Ältesten kamen zusammen, über diese Rede sich zu beraten" (15,6); Jakobus fällt das Urteil (15,19); die Gemeinde stimmt zu. Dann werden Beschlüsse mit dem Satz „Es gefällt dem heiligen Geist und uns" an die Gemeinden in Antiochia, Syrien und Kilikien geschickt (15,23.28), und Paulus übergibt sie den Städten „zu halten" (16,4). Das ist überörtliche, verbindliche Autorität – das Gegenteil von Gemeindeautonomie.`,
+          sources: [
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '16,4', quote: `Wie sie aber durch die Städte zogen, überantworteten sie ihnen zu halten den Spruch, welcher von den Aposteln und den Ältesten beschlossen war.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'bibel-genuegt-fuer-einheit',
+              objection: `„Für die Einheit brauchen wir keine Bischöfe – die Bibel genügt. Wir sind in der Schrift vereint."`,
+              objectionBy: 'Freikirchlicher Pastor',
+              answer: `Die Erfahrung zeigt etwas anderes: Tausende unabhängiger Gemeinschaften berufen sich auf die Bibel allein und sind über Taufe, Abendmahl, Endzeit und Gemeindeordnung uneins. Die Schrift selbst nennt die Kirche „Pfeiler und Grundfeste der Wahrheit" (1 Tim 3,15). Schon Irenäus stellte fest, dass auch die Gnostiker die Schrift zitierten – entscheidend war die Glaubensregel, die in den apostolischen Kirchen bewahrt wurde.`,
+              followUps: [
+                {
+                  id: 'orthodoxe-auch-gespalten',
+                  objection: `„Aber ihr Orthodoxen seid doch auch gespalten – Kopten, Griechen, Russen, die Spaltung von Chalcedon. Die Hierarchie hat die Trennung nicht verhindert."`,
+                  objectionBy: 'Freikirchlicher Pastor',
+                  answer: `Das ist ein ehrlicher Einwand, und die Spaltung von 451 ist eine Wunde. Aber bemerkenswert ist: Nach rund 1500 Jahren Trennung haben orientalische und östliche Orthodoxe dasselbe Glaubensbekenntnis, dieselben sieben Mysterien, dasselbe Bischofsamt und eine ähnliche Liturgie bewahrt – und die gemeinsamen Erklärungen von 1989 und 1990 stellten denselben christologischen Glauben fest. Die Hierarchie macht niemanden sündlos, aber sie gibt den Rahmen, in dem Glaube bewahrt und Versöhnung möglich wird.`,
+                  questionsBack: [`Welche unabhängige Gemeindebewegung hat über 1500 Jahre hinweg dasselbe Bekenntnis und dieselbe Gottesdienstordnung bewahrt?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wer entschied in Apg 15 über die Beschneidungsfrage – jede Gemeinde für sich oder ein Konzil für alle?`,
