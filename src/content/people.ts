@@ -1230,12 +1230,12 @@ export const people: Person[] = [
   {
     id: 'bechly',
     name: 'Günter Bechly',
-    years: 'geb. 1963',
+    years: '1963–2025',
     era: 'modern',
     tradition: 'christlich',
     title: 'Paläontologe, ehem. Kurator am Staatlichen Museum für Naturkunde Stuttgart',
     fields: ['Paläontologie', 'Fossilbericht', 'Abrupte Entstehung'],
-    bio: 'Deutscher Paläoentomologe mit über 160 Erstbeschreibungen fossiler Arten. Kam als Agnostiker über die Auseinandersetzung mit der Design-Literatur zum christlichen Glauben. Betont das abrupte Auftreten neuer Baupläne im Fossilbericht („Wartezeitproblem").',
+    bio: 'Deutscher Paläoentomologe mit über 160 Erstbeschreibungen fossiler Arten. Kam als Agnostiker über die Auseinandersetzung mit der Design-Literatur zum christlichen Glauben. Betonte das abrupte Auftreten neuer Baupläne im Fossilbericht („Wartezeitproblem"). Starb im Januar 2025.',
     keyWorks: ['Fachpublikationen zur Paläoentomologie (Libellen, Bernstein-Insekten)', 'Beiträge auf evolutionnews.org und scienceandculture.com'],
   },
   {

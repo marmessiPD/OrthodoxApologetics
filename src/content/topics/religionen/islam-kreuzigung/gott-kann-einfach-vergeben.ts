@@ -122,6 +122,38 @@ const claim: Claim = {
           objection: `Wenn Vergebung im Gleichnis ohne Opfer möglich ist, dann ist das Kreuz überflüssig. Du liest das Kreuz nur hinein.`,
           objectionBy: 'Mohammed Hijab',
           answer: `Derselbe Jesus, der das Gleichnis erzählt, sagt beim letzten Abendmahl: „Das ist mein Blut des neuen Testaments, das für viele vergossen wird" (Mk 14,24), und „des Menschen Sohn ist gekommen … zu geben sein Leben zur Bezahlung für viele" (Mk 10,45). Wer das Gleichnis gegen diese Worte ausspielt, liest nicht Jesus, sondern nur einen ausgewählten Teil von ihm.`,
+          followUps: [
+            {
+              id: 'abendmahlsworte-spaeter-zusatz',
+              objection: `Die Abendmahlsworte sind von Paulus beeinflusst (1 Kor 11,23–25). In manchen Handschriften des Lukas fehlen sie sogar teilweise (Lk 22,19b–20). Das „Blut für viele" ist spätere Gemeindetheologie.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Die Abendmahlsworte sind gerade besonders breit bezeugt: bei Markus, Matthäus, Lukas und unabhängig davon bei Paulus, der sie in den 50er-Jahren als bereits „empfangene" Überlieferung zitiert (1 Kor 11,23). Die Lücke in Lk 22,19b–20 findet sich nur in einer kleinen Gruppe westlicher Handschriften; die ältesten Zeugen, darunter Papyrus 75, haben den Langtext, und die wissenschaftlichen Ausgaben drucken ihn. Vier Zeugen, zwei Überlieferungsstränge, alle aus dem 1. Jahrhundert – mehr kann ein Historiker kaum verlangen.`,
+              detail: `Dass Paulus die Worte „empfangen" hat (*parelabon*) und „überliefert" (*paredōka*), sind Fachbegriffe für die Weitergabe fester Tradition – wie bei rabbinischen Schülern. Die Formulierung „für viele" (Mk 14,24) greift Jes 53,11–12 auf („er trug die Sünde der vielen"). Jesus deutet seinen bevorstehenden Tod also selbst im Licht des Gottesknechts. Zur Textkritik: Codex Bezae (D) und einige altlateinische Handschriften lassen 22,19b–20 aus; Metzgers Kommission hat sich für den Langtext entschieden. Ehrlich bleiben: Die Frage wird in der Forschung diskutiert, aber selbst ohne Lukas bleiben Markus, Matthäus und Paulus.`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '11,23–25', quote: `Ich habe es von dem HERRN empfangen, das ich euch gegeben habe … Dieser Kelch ist das neue Testament in meinem Blut.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                { kind: 'fachliteratur', author: 'Bruce M. Metzger', work: 'A Textual Commentary on the Greek New Testament', ref: 'zu Lk 22,19b–20', year: '2. Aufl. 1994', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wie viele unabhängige Quellen aus dem 1. Jahrhundert bräuchtest du, um ein Wort Jesu für gut bezeugt zu halten?`,
+              ],
+              followUps: [
+                {
+                  id: 'lukas-ohne-suehne',
+                  objection: `Lukas hat bewusst keine Sühnetheologie: In der Apostelgeschichte predigen die Apostel Vergebung durch Umkehr, nicht durch das Kreuz. Das zeigt, dass die frühe Verkündigung ohne Sühnetod auskam.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Lukas verbindet beides: Der auferstandene Jesus erklärt, „so musste Christus leiden und auferstehen … und gepredigt werden in seinem Namen Buße zur Vergebung der Sünden" (Lk 24,46–47) – die Vergebung wird in seinem Namen verkündet, *weil* er gelitten hat. In der Apostelgeschichte erklärt Philippus dem Äthiopier Jes 53, den leidenden Gottesknecht, als Evangelium von Jesus (Apg 8,32–35), und Paulus spricht von der Kirche, die Gott „durch sein eigenes Blut erworben hat" (Apg 20,28). Lukas betont andere Akzente, aber er kennt keinen Jesus, dessen Tod bedeutungslos wäre.`,
+                  detail: `Ehrman hat in „The Orthodox Corruption of Scripture" vertreten, Lukas habe keine Sühnetheologie; er stützt sich dabei auch auf den Kurztext von Lk 22. Viele Ausleger widersprechen: Lukas betont zwar die Erhöhung und die Umkehr, aber das „Muss" (*dei*) des Leidens (Lk 9,22; 24,7.26.44–46) zeigt, dass der Tod Jesu zum Heilsplan Gottes gehört. Für das Gespräch mit Muslimen ist wichtig: Selbst ein Lukas mit „schwacher" Sühnetheologie bezeugt ohne jeden Zweifel, dass Jesus gekreuzigt wurde, starb und auferstand – genau das, was der Koran in 4:157 bestreitet.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '24,46–47', quote: `Also ist's geschrieben, und also mußte Christus leiden und auferstehen von den Toten am dritten Tage und predigen lassen in seinem Namen Buße und Vergebung der Sünden unter allen Völkern.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '8,32–35', quote: `Die Stelle aber der Schrift, die er las, war diese: „Er ist wie ein Schaf zur Schlachtung geführt …" … Philippus aber tat seinen Mund auf und fing von dieser Schrift an und predigte ihm das Evangelium von Jesus.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+                  ],
+                  questionsBack: [
+                    `Warum erklärt Philippus dem Äthiopier ausgerechnet Jesaja 53, wenn Lukas den Tod Jesu für heilsunbedeutend hielt?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -138,6 +170,38 @@ const claim: Claim = {
           answer: `Auch der Koran sagt: „Wenn Allah die Menschen für ihr Unrecht belangen würde, ließe Er kein Lebewesen auf der Erde" (16:61) – die Sündhaftigkeit ist allgemein. Und jeder Mensch stirbt (3:185). Die Frage ist nicht nur, wie eine Tat vergeben wird, sondern wie der Tod besiegt und der Mensch erneuert wird. Reue kann eine Tat bereuen, aber sie kann keinen Toten auferwecken. Mehr dazu im Thema Erbsünde.`,
           sources: [
             { kind: 'koran', work: 'Sure 16 (an-Nahl)', ref: '16:61', quote: `Und wenn Allah die Menschen für ihr Unrecht belangen würde, würde Er auf ihr (der Erde) kein Lebewesen lassen.`, original: `wa-law yuʾākhidhu llāhu n-nāsa bi-ẓulmihim mā taraka ʿalaihā min dābbatin`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/16/61' },
+          ],
+          followUps: [
+            {
+              id: 'gute-taten-tilgen-boese',
+              objection: `Der Koran gibt die Lösung: „Die guten Taten vertreiben die bösen" (11:114). Wer bereut und Gutes tut, dessen Sünden werden getilgt. Wozu braucht es da ein Kreuz?`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Stell dir einen Richter vor, der einen Betrüger freispricht, weil er seit der Tat viel gespendet hat. Wir würden sagen: Die Spenden waren gut, aber sie machen den Betrug nicht ungeschehen. Gute Taten schulden wir Gott ohnehin – Jesus sagt: „Wir sind unnütze Knechte; wir haben getan, was wir zu tun schuldig waren" (Lk 17,10). Man kann eine alte Schuld nicht mit Pflichten bezahlen, die man sowieso hat. Und selbst Muhammad sagte, er wisse nicht, was mit ihm geschehen werde (46:9) – die Waage gibt keine Gewissheit.`,
+              detail: `11:114 („inna l-ḥasanāti yudhhibna s-sayyiʾāt") wird in der islamischen Tradition vor allem auf das Gebet und kleinere Verfehlungen bezogen. Das ist eine ernsthafte Frömmigkeit, die wir respektieren sollten. Die christliche Frage geht aber tiefer: Sünde ist nicht nur ein Minus auf einem Konto, sondern ein Bruch der Beziehung zu Gott und eine Krankheit der Natur, die zum Tod führt (Röm 6,23). Ein Mehr an guten Taten heilt keine Krankheit und weckt keine Toten auf. Darum brauchte es nach Athanasius den Arzt selbst – das Wort, das Leben ist.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 11 (Hud)', ref: '11:114', quote: `Gewiss, die guten Taten lassen die bösen Taten vergehen.`, original: `inna l-ḥasanāti yudhhibna s-sayyiʾāt`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/11/114' },
+                { kind: 'bibel', work: 'Lukas', ref: '17,10', quote: `Also auch ihr, wenn ihr alles getan habt, was euch befohlen ist, so sprechet: Wir sind unnütze Knechte; wir haben getan, was wir zu tun schuldig waren.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Würdest du einen Richter gerecht nennen, der einen Mörder freispricht, weil er danach viele gute Taten getan hat?`,
+              ],
+              followUps: [
+                {
+                  id: 'christen-brauchen-auch-reue',
+                  objection: `Euer System hat dasselbe Problem: Christen sündigen nach der Taufe weiter und brauchen Beichte, Buße und gute Werke. Am Ende macht ihr es wie wir – nur mit einem Kreuz als Dekoration.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Richtig ist: Ohne Reue gibt es auch bei uns keine Vergebung – die koptische Kirche kennt das Sakrament der Buße und Beichte, und gute Werke gehören zum christlichen Leben. Der Unterschied liegt im Grund: Unsere Reue kauft keine Vergebung, sie empfängt sie. Der Priester spricht die Lossprechung im Namen Christi aus, dessen Blut uns reinigt (1 Joh 1,7.9). Die Buße ist Heimkehr in die Gnade der Taufe – wie beim verlorenen Sohn, der umkehrt, aber nicht sein Erbe zurückverdient, sondern vom Vater wieder aufgenommen wird.`,
+                  detail: `Die koptisch-orthodoxe Lehre (Papst Schenuda III., „Das Heil im orthodoxen Verständnis") betont die Synergie: Gottes Gnade wirkt, und der Mensch wirkt mit – in Glauben, Taufe, Buße, Eucharistie und einem Leben der Liebe. Gute Werke sind Frucht und Mitwirkung, nicht der Kaufpreis. Das Kreuz ist darum keine Dekoration, sondern die Quelle, aus der jede Vergebung – auch die in der Beichte – fließt. In der Absolution der koptischen Liturgie wird die Vergebung ausdrücklich auf das Leiden Christi zurückgeführt.`,
+                  voices: [
+                    { person: 'shenouda-iii', role: 'als Lehrer der koptischen Heilslehre', text: `Papst Schenuda III. erklärte, dass der Mensch das Heil weder allein durch Glauben ohne Werke noch durch eigene Verdienste erlangt. Das Heil ist ein Geschenk, das durch das Blut Christi erworben wurde; der Mensch empfängt es durch Glauben und Taufe und bewahrt es durch Buße und ein Leben in der Gnade. Die Buße ist dabei kein Lösegeld, sondern die Rückkehr zu Gott, die nur möglich ist, weil Christus den Weg geöffnet hat.` },
+                  ],
+                  sources: [
+                    { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Das Heil im orthodoxen Verständnis (Salvation in the Orthodox Concept)', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Johannes', ref: '1,7.9', quote: `… und das Blut Jesu Christi, seines Sohnes, macht uns rein von aller Sünde. … So wir aber unsre Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

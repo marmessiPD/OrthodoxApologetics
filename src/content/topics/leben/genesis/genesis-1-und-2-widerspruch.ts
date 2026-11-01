@@ -146,6 +146,23 @@ const claim: Claim = {
               id: 'kline-apologet',
               objection: `Kline ist ein evangelikaler Apologet – natürlich findet er eine Lösung.`,
               answer: `Das Argument ist philologisch und überprüfbar. Und auch der jüdische Bibelwissenschaftler Umberto Cassuto, gewiss kein evangelikaler Apologet, las Genesis 1 und 2 als einander ergänzend und kritisierte die Urkundenhypothese grundlegend.`,
+              followUps: [
+                {
+                  id: 'cassuto-veraltet',
+                  objection: `Cassuto schrieb in den 1940er-Jahren. Seitdem hat sich die Forschung weiterentwickelt. Und die Bibel ist nun einmal nicht einstimmig: Sie enthält viele Stimmen, die sich nicht immer decken. Das zu leugnen, ist Apologetik, keine Wissenschaft.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Das Alter eines Arguments widerlegt es nicht – Wellhausen ist noch älter. Und gerade die neuere Forschung hat das klassische Modell, gegen das Cassuto schrieb, selbst erschüttert. Bei der Vielstimmigkeit gebe ich dir recht: Die Bibel spricht mit vielen Stimmen und Perspektiven. Aber verschiedene Perspektiven sind noch kein Widerspruch. Ein Widerspruch liegt erst vor, wenn zwei Texte dasselbe im selben Sinn bejahen und verneinen.`,
+                  detail: `**Die Forschungslage ehrlich:** Rolf Rendtorff (1977) und Erhard Blum (1984) haben die Annahme durchgehender Quellenschriften im Pentateuch grundlegend in Frage gestellt; in der europäischen Forschung dominieren heute andere Modelle. Die „Neo-Documentarians" in Nordamerika (Joel Baden u. a.) halten dagegen an Quellen fest. Es gibt also keinen Konsens, auf den man sich einfach berufen könnte.
+
+**Vielstimmigkeit zugestehen:** McClellan betont zu Recht, dass die Bibel keine einheitliche Stimme hat und dass Leser sie nicht künstlich glätten sollen. Die Kirche hat das nie bestritten – sie hat vier Evangelien, nicht eines, und die Väter sahen in der Vielfalt der Zeugen eine Stärke.
+
+**Der Maßstab:** Genesis 1 sagt, *dass* Gott alles schuf und den Menschen als Mann und Frau; Genesis 2 erzählt, *wie* er den Menschen formte und in den Garten setzte. Wo genau bejaht der eine Text, was der andere im selben Sinn verneint? Diese Frage hilft, zwischen Spannung und Widerspruch zu unterscheiden.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Rolf Rendtorff', work: 'Das überlieferungsgeschichtliche Problem des Pentateuch (BZAW 147)', year: '1977', quote: `Rendtorff stellt die Annahme durchgehender Quellenschriften (J, E) im Pentateuch grundsätzlich in Frage.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wo genau bejaht Genesis 1 etwas, das Genesis 2 im selben Sinn verneint?`],
+                },
+              ],
             },
           ],
         },
@@ -169,6 +186,29 @@ const claim: Claim = {
               id: 'warum-zwei-texte',
               objection: `Selbst wenn – warum stehen dann zwei so verschiedene Texte nebeneinander?`,
               answer: `Weil sie zwei Fragen beantworten: Wie ist die Welt geordnet, und was ist der Mensch in ihr? Überblick und Entfaltung sind ein bekanntes altorientalisches Muster. Und die Gottesnamen zeigen das Programm: Der universale Schöpfer (Elohim) ist kein anderer als der Bundesgott (JHWH).`,
+              followUps: [
+                {
+                  id: 'antike-kein-problem-mit-spannung',
+                  objection: `Genau: Die antiken Redaktoren hatten kein Problem damit, verschiedene Überlieferungen nebeneinanderzustellen, auch wenn sie sich in Details widersprechen. Erst die moderne Irrtumslosigkeitslehre macht daraus ein Problem, das ihr dann wegharmonisieren müsst.`,
+                  objectionBy: 'Peter Enns',
+                  answer: `Da sind wir näher beieinander, als du denkst: Ich stimme zu, dass die antiken Autoren Perspektiven bewusst nebeneinanderstellten und darin keinen Widerspruch sahen – das ist gerade mein Argument. Aber ich verteidige keine moderne, rein chronologische Irrtumslosigkeit. Die orthodoxe Kirche liest die Schrift als inspiriertes Wort Gottes im wörtlichen und im geistlichen Sinn, mit den Vätern. Schon Origenes und Augustinus bemerkten Spannungen im Text und sahen in ihnen Hinweise auf tiefere Bedeutung, nicht auf Fehler.`,
+                  detail: `**Enns' Anliegen:** In *Inspiration and Incarnation* (2005) schlägt Enns vor, die Schrift „inkarnatorisch" zu verstehen: Wie Christus wahrhaft Mensch wurde, so spricht Gottes Wort wahrhaft in menschlicher, antiker Sprache – mit allen Eigenheiten ihrer Zeit. Er kritisiert eine Apologetik, die jede Spannung zwanghaft auflöst.
+
+**Was ein koptischer Christ dazu sagt:** Die alexandrinische Tradition kennt die Analogie zwischen Inkarnation und Schrift seit Origenes. Sie führt aber nicht zur Annahme, die Schrift irre in dem, was sie lehren will. Der Weg der Väter war: Den Wortsinn ernst nehmen, Spannungen nicht verstecken, und den geistlichen Sinn suchen, auf den der Heilige Geist durch die Gestalt des Textes hinweist.
+
+**Für die Debatte:** Du musst keine moderne Harmonisierungsakrobatik verteidigen. Es reicht zu zeigen: Die Texte sind komplementär gemeint (Toledot-Formel, JHWH Elohim), und die frühesten Leser – jüdische wie christliche – lasen sie als Einheit.`,
+                  voices: [
+                    {
+                      person: 'origenes',
+                      role: 'als Bibelwissenschaftler der Schule von Alexandrien',
+                      text: `Origenes lehrt in *De Principiis* IV, dass der Heilige Geist bisweilen „Anstöße" in den Wortsinn gelegt habe – Stellen, die für sich genommen schwierig erscheinen –, um den Leser zur Suche nach dem tieferen Sinn zu führen. Er leugnet den Wortsinn nicht grundsätzlich, sondern hält ihn in den meisten Fällen für wahr; die Spannungen sind für ihn Einladungen, nicht Fehler.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Origenes', work: 'Über die Prinzipien (De Principiis / Peri Archon)', ref: 'IV,2,9', status: 'paraphrase', quote: `Der Geist habe manche Anstöße und Unmöglichkeiten in die Erzählung eingefügt, damit der Leser nicht beim Buchstaben stehen bleibe, sondern zum geistlichen Sinn aufsteige.`, note: 'Origenes ist in der koptischen Kirche nicht als Heiliger anerkannt; hier als Zeuge der alexandrinischen Auslegungsmethode zitiert.' }],
+                    },
+                  ],
+                  sources: [{ kind: 'gegner', author: 'Peter Enns', work: 'Inspiration and Incarnation: Evangelicals and the Problem of the Old Testament', year: '2005', quote: `Enns schlägt ein „inkarnatorisches" Schriftverständnis vor, das die antiken menschlichen Züge der Bibel ernst nimmt.`, status: 'paraphrase' }],
+                  questionsBack: [`Wenn die antiken Redaktoren keinen Widerspruch sahen – warum sollten wir ihnen einen unterstellen, den sie selbst nicht kannten?`],
+                },
+              ],
             },
           ],
         },

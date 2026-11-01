@@ -84,6 +84,25 @@ const claim: Claim = {
       questionsBack: [`Was passiert mit einem Zeugen, der offen sagt, dass er eine aktuelle Lehre der leitenden Körperschaft für falsch hält?`],
       followUps: [
         {
+          id: 'gemeinschaftsentzug-biblisch',
+          objection: `Der Gemeinschaftsentzug ist biblisch: „Mit einem solchen sollt ihr auch nicht essen" (1 Kor 5,11), „nehmt ihn nicht ins Haus und grüßt ihn auch nicht" (2 Joh 10). Wir schützen nur die Reinheit der Versammlung.`,
+          objectionBy: 'Zeugen Jehovas (Organisiert, Jehovas Willen zu tun)',
+          answer: `Kirchenzucht gibt es auch bei uns – die koptische Kirche kennt Exkommunikation. Aber schau, wofür Paulus und Johannes sie vorsehen: für schwere, unbereute Sünde (Unzucht, Raub, Götzendienst, 1 Kor 5,11) und für die Leugnung, dass Christus **im Fleisch gekommen** ist (2 Joh 7–10). Nirgends für die Weigerung, die Auslegung eines Gremiums zu übernehmen, das sich selbst für fehlbar erklärt. Und Kirchenzucht zielt auf Umkehr und Wiederaufnahme (2 Kor 2,6–8), nicht auf lebenslanges Meiden der eigenen Familie.`,
+          detail: `Raymond Franz, selbst neun Jahre Mitglied der leitenden Körperschaft, wurde 1981 ausgeschlossen, nachdem er mit seinem Arbeitgeber, einem aus der Gemeinschaft ausgetretenen Zeugen, zu Mittag gegessen hatte. Der Fall zeigt das Problem: Wenn Zweifel an fehlbaren Lehren wie schwere Sünde behandelt werden, wird die Organisation faktisch unfehlbar gestellt – gleich, was sie über sich selbst sagt. Ironisch: 2 Joh 10 richtet sich gegen Lehrer, die die Menschwerdung des Sohnes leugnen – also gegen eine Christologie, die Jesus zu einem Engelwesen macht.`,
+          voices: [
+            {
+              person: 'raymond-franz',
+              role: 'als Betroffener',
+              text: `Franz schildert, wie die Regeln des Gemeinschaftsentzugs in den Jahren um 1980 verschärft wurden und wie Abweichung in Lehrfragen zunehmend als „Abtrünnigkeit" behandelt wurde. Er hält dagegen, dass Christus seine Jünger zur Prüfung aller Lehre an der Schrift ermutigt habe und dass Gewissensfreiheit ein Kennzeichen echter Christusnachfolge sei.`,
+              sources: [{ kind: 'fachliteratur', author: 'Raymond Franz', work: 'Crisis of Conscience (dt. Der Gewissenskonflikt)', year: '1983', quote: `Bericht über den eigenen Ausschluss und die verschärfte Praxis gegenüber Andersdenkenden.`, status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: '2. Johannes', ref: '7.10', quote: `Denn viele Verführer sind in die Welt gekommen, die nicht bekennen Jesum Christum, daß er in das Fleisch gekommen ist. … So jemand zu euch kommt und bringt diese Lehre nicht, den nehmet nicht ins Haus und grüßet ihn auch nicht.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [`Steht in 1 Kor 5 oder 2 Joh irgendwo, dass man jemanden meiden soll, weil er einer Lehrentscheidung der Gemeindeleitung nicht zustimmt?`],
+        },
+        {
           id: 'auch-apostel-irrten',
           objection: `Auch die Apostel hatten falsche Erwartungen (Apg 1,6), und Petrus irrte in Antiochia (Gal 2).`,
           objectionBy: 'Zeugen Jehovas',
@@ -94,7 +113,17 @@ const claim: Claim = {
               objection: `Dtn 18 gilt für Propheten. Die leitende Körperschaft ist kein Prophet, sondern ein Sklave, der Speise austeilt.`,
               objectionBy: 'Zeugen Jehovas',
               answer: `Wer im Namen Gottes sagt, was in der Zukunft geschehen wird, übt eine prophetische Funktion aus – wie immer er sich nennt. Wachtturm-Veröffentlichungen haben die Organisation selbst mit einem Propheten verglichen, der Gottes Botschaft an die Welt bringt. Und wer verlangt, dass man ihm als Gottes Kanal folgt, muss sich am Maßstab für Gottes Sprecher messen lassen.`,
-              sources: [{ kind: 'gegner', work: 'Der Wachtturm (engl.)', ref: '1. April 1972, Artikel „They Shall Know That a Prophet Was Among Them"', quote: `Die Organisation wird mit einem „Propheten" verglichen, den Gott in der Endzeit gebraucht.`, status: 'unverified', note: 'Fundstelle und Wortlaut vor Verwendung prüfen.' }],
+              sources: [{ kind: 'gegner', work: 'The Watchtower (engl.), Artikel „They Shall Know That a Prophet Was Among Them"', ref: '1. April 1972, S. 197–200', quote: `Auf die Frage, ob Jehova heute einen Propheten habe, der warnt und Kommendes ankündigt, antwortet der Artikel mit Ja: Dieser „Prophet" sei nicht ein einzelner Mann, sondern eine Gruppe von Männern und Frauen – die damaligen Bibelforscher, heute Jehovas christliche Zeugen –, die dem Propheten Hesekiel entspreche.`, status: 'paraphrase', url: 'https://wol.jw.org/en/wol/d/r1/lp-e/1972241', note: 'Fundstelle und Titel bestätigt (Watchtower Online Library). Die im Internet kursierenden englischen Wortlaute vor wörtlichem Zitat am Original prüfen.' }],
+              followUps: [
+                {
+                  id: 'nie-so-spricht-jehova',
+                  objection: `Wir haben nie „So spricht Jehova" geschrieben. Das waren Auslegungen biblischer Prophezeiungen, keine eigenen Prophezeiungen. Wer die Bibel auslegt, ist kein falscher Prophet, wenn er sich irrt.`,
+                  objectionBy: 'Der Wachtturm / jw.org',
+                  answer: `Ein Bibelausleger, der sagt „Ich vermute", ist kein falscher Prophet. Aber wer sich als einzigen Kanal Gottes bezeichnet, seine Deutungen als „Speise zur rechten Zeit" vom Herrn ausgibt und Abweichung mit Ausschluss beantwortet, beansprucht genau die Autorität eines Sprechers Gottes. Man kann nicht beides haben: göttliche Autorität, wenn es um Gehorsam geht, und bloße Menschenmeinung, wenn eine Vorhersage scheitert.`,
+                  detail: `Der Artikel vom 1. April 1972 beantwortet die Frage, ob Jehova heute einen Propheten hat, ausdrücklich mit Ja und identifiziert ihn mit der Gemeinschaft der Bibelforscher. Wer diese Selbstbeschreibung wählt, stellt sich selbst unter den Maßstab von Dtn 18,21–22. Raymond Franz beschreibt in „Der Gewissenskonflikt", wie Mitglieder der leitenden Körperschaft selbst mit dieser Spannung rangen.`,
+                  questionsBack: [`Wenn die Deutungen nur menschliche Auslegungen sind – warum wird dann jemand ausgeschlossen, der eine andere Auslegung vertritt?`],
+                },
+              ],
             },
           ],
         },
@@ -120,6 +149,21 @@ const claim: Claim = {
               detail: `Der schwedische ehemalige Zeuge Jehovas Carl Olof Jonsson legte der Wachtturm-Gesellschaft schon 1977 eine umfangreiche Untersuchung zur Chronologie vor („The Gentile Times Reconsidered", veröffentlicht 1983). Wichtig im Gespräch: Nicht die Archäologie gegen die Bibel ausspielen – die Bibel selbst nennt kein Jahr „607".`,
               sources: [{ kind: 'fachliteratur', author: 'Carl Olof Jonsson', work: 'The Gentile Times Reconsidered', year: '1983 (4. Aufl. 2004)', quote: `Untersuchung der Chronologie der Zerstörung Jerusalems und der 1914-Berechnung.`, status: 'paraphrase' }],
               questionsBack: [`Wo in der Bibel steht die Jahreszahl 607 v. Chr. oder die Zahl 2520?`],
+              followUps: [
+                {
+                  id: '70-jahre-verwuestung',
+                  objection: `Die Bibel sagt klar: Jerusalem lag **70 Jahre** wüst (Jer 25,11; 2 Chr 36,21). Die Juden kehrten 537 v. Chr. zurück – 70 Jahre davor ist 607. Wer 587 sagt, widerspricht der Bibel und vertraut heidnischen Tafeln.`,
+                  objectionBy: 'Der Wachtturm (u. a. Oktober/November 2011, „Wann wurde das alte Jerusalem zerstört?")',
+                  answer: `Lies Jer 25,11–12 genau: „Diese Völker sollen dem König zu Babel dienen siebzig Jahre. Wenn aber die siebzig Jahre um sind, will ich den König zu Babel heimsuchen." Die 70 Jahre beschreiben Babylons **Herrschaft**, und sie enden mit dem Fall Babylons (539 v. Chr.), nicht mit der Rückkehr. Jer 29,10 sagt ausdrücklich: „Wenn **für Babel** siebzig Jahre aus sind." Babylon wurde um 609/605 v. Chr. Vormacht – von dort bis 539 sind es rund 70 Jahre. Kein Widerspruch zu 587.`,
+                  detail: `2 Chr 36,21 verbindet die 70 Jahre mit den „Sabbaten" des Landes – eine theologische Deutung, die Jer 25 aufnimmt, keine genaue Zählung der Jahre ab der Zerstörung. Daniel 9,2 liest Jeremia ebenfalls im ersten Jahr des Darius, also unmittelbar nach dem Fall Babylons. Die babylonischen Quellen (Königslisten, Tausende datierte Wirtschaftstexte, die astronomische Tafel VAT 4956) passen lückenlos zu 587/586 v. Chr. Die Bibel und die Archäologie stehen hier nicht gegeneinander – nur die Wachtturm-Rechnung steht gegen beide.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Jeremia', ref: '25,11–12', quote: `Diese Völker sollen dem Könige zu Babel dienen siebzig Jahre. Wenn aber die siebzig Jahre um sind, will ich heimsuchen den König zu Babel.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Jeremia', ref: '29,10', quote: `Wenn zu Babel siebzig Jahre aus sind, so will ich euch besuchen.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'fachliteratur', author: 'Carl Olof Jonsson', work: 'The Gentile Times Reconsidered', year: '4. Aufl. 2004', quote: `Die 70 Jahre als Zeit der babylonischen Vorherrschaft; Übersicht über die babylonischen Datierungsquellen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Laut Jer 25,12 – was geschieht, „wenn die siebzig Jahre um sind": die Rückkehr der Juden oder die Heimsuchung des Königs von Babel?`],
+                },
+              ],
             },
           ],
         },
@@ -143,6 +187,20 @@ const claim: Claim = {
               objectionBy: 'Zeugen Jehovas',
               answer: `Jesus versprach: „Die Pforten der Hölle sollen sie nicht überwältigen" (Mt 16,18) und „Ich bin bei euch alle Tage bis an der Welt Ende" (Mt 28,20). Ein 1800-jähriger Totalabfall würde beides widerlegen. Und wo waren die Zeugen Jehovas zwischen 100 und 1870? Kein einziger Christ dieser Zeit glaubte die Gesamtheit eurer Lehren.`,
               questionsBack: [`Kannst du mir eine christliche Gemeinde zwischen dem 2. und dem 18. Jahrhundert nennen, die eure Lehren vertrat?`],
+              followUps: [
+                {
+                  id: 'treuer-sklave-mt-24',
+                  objection: `Jesus hat es vorausgesagt: „Wer ist nun der treue und verständige Sklave, den sein Herr über seine Hausknechte gesetzt hat?" (Mt 24,45). Seit 1919 ist das die kleine Gruppe gesalbter Brüder der leitenden Körperschaft. Wer sonst gibt heute weltweit „Speise zur rechten Zeit"?`,
+                  objectionBy: 'Der Wachtturm (15. Juli 2013, Neudeutung des „treuen Sklaven")',
+                  answer: `Jesus stellt eine **Frage** und erzählt dann ein Gleichnis mit zwei möglichen Ausgängen: dem treuen und dem bösen Knecht (Mt 24,48–51). Es ist ein Aufruf zur Treue an jeden, dem Verantwortung anvertraut ist – Lukas schließt es mit dem Satz: „Wem viel gegeben ist, bei dem wird man viel suchen" (Lk 12,48). Von einem Jahr 1919, von einer Gruppe in New York oder von einem Gremium mit Lehrmonopol steht dort nichts.`,
+                  detail: `Bemerkenswert ist die Geschichte der Auslegung selbst: Zu Russells Zeit und bis Ende der 1920er-Jahre galt Russell persönlich als der „treue Sklave"; danach die Gesamtheit der Gesalbten auf der Erde; seit 2013 ausschließlich die leitende Körperschaft, deren Ernennung nun auf 1919 datiert wird. Eine Deutung, die dreimal grundlegend geändert wurde, kann kaum der Beweis dafür sein, dass gerade diese Organisation Gottes einziger Kanal ist. Für die alte Kirche war das Gleichnis eine Mahnung an Bischöfe und Hirten, die Herde treu zu nähren – und eine Warnung vor Hirten, die ihre Mitknechte schlagen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '24,45.48–51', quote: `Welcher ist aber nun ein treuer und kluger Knecht, den der Herr gesetzt hat über sein Gesinde … So aber jener, der böse Knecht, wird in seinem Herzen sagen: Mein Herr kommt noch lange nicht …`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'gegner', work: 'The Watchtower (engl.)', ref: '15. Juli 2013', quote: `Der „treue und verständige Sklave" sei die kleine Gruppe gesalbter Brüder, die die leitende Körperschaft bilden; ernannt 1919.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wer galt bis in die 1920er-Jahre als der „treue und verständige Sklave" – und warum hat sich diese Deutung seitdem zweimal geändert?`],
+                },
+              ],
             },
           ],
         },
