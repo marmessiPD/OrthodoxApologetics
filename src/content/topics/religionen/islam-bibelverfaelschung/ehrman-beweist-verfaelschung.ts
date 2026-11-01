@@ -97,6 +97,40 @@ const claim: Claim = {
               objectionBy: 'Shabir Ally',
               answer: `Das ist keine Frage der Textüberlieferung mehr, sondern der Geschichte – und auch da sagt Ehrman inzwischen, dass Christen Jesus sehr früh nach seinem Tod als göttlich verehrten (*How Jesus Became God*). Für dich als Muslim ist das ein Problem: Dann haben die frühesten Nachfolger Jesu genau das geglaubt, was der Islam ablehnt – siehe das zweite Dilemma (61:14).`,
               detail: `Siehe Claim „Die Jünger Jesu waren Muslime" und Claim „Die Gottheit Jesu wurde erst später erfunden" (Topic „Der historische Jesus").`,
+              followUps: [
+                {
+                  id: 'erhoehungschristologie',
+                  objection: `Ehrman sagt aber, die früheste Christologie war eine Erhöhungschristologie: Jesus wurde erst bei der Auferstehung zum Sohn Gottes *gemacht* (Röm 1,4; Apg 2,36). Er war also nicht von Anfang an Gott – das kommt dem Islam näher als eurer Trinität.`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Schau, was selbst diese „früheste" Christologie voraussetzt: Jesus wurde gekreuzigt, starb, wurde auferweckt und zur Rechten Gottes erhöht – drei Aussagen, die der Koran verneint. Selbst Ehrmans Minimalversion steht also weiter vom Islam entfernt als vom Christentum. Und Ehrman räumt in „How Jesus Became God" ein, dass schon Paulus – in den 50er-Jahren – Jesus als präexistentes himmlisches Wesen sah, das Mensch wurde (Phil 2,6–11).`,
+                  detail: `Röm 1,3–4 spricht davon, dass Jesus „eingesetzt" wurde als Sohn Gottes „in Kraft" – gemeint ist die Offenbarung seiner Würde in der Auferstehung, nicht deren Beginn; derselbe Paulus spricht vom Sohn, den Gott „sandte" (Gal 4,4). Larry Hurtado und Richard Bauckham haben gezeigt, dass die Verehrung Jesu als göttlich keine allmähliche Entwicklung war, sondern ein frühes „Urknall"-Phänomen in jüdischen, streng monotheistischen Gemeinden: Gebet zu Jesus (1 Kor 16,22 *maranatha*), Taufe auf seinen Namen, und in 1 Kor 8,6 wird Jesus in das jüdische Bekenntnis des einen Gottes (Schema Israel) hineingenommen.`,
+                  voices: [
+                    {
+                      person: 'hurtado',
+                      role: 'als Erforscher der frühen Christusverehrung',
+                      text: `Hurtado zeigt in „Lord Jesus Christ", dass Jesus schon in den ersten Jahren nach Ostern in einer Weise verehrt wurde, die im Judentum allein Gott vorbehalten war: Gebet, Anrufung, Hymnen, Taufe in seinem Namen. Diese „binitarische" Frömmigkeit entstand nicht unter heidnischem Einfluss Jahrzehnte später, sondern in jüdisch-christlichen Gemeinden – sie ist so alt wie die Kirche selbst.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', quote: `Die Verehrung Jesu als göttlich erscheint explosionsartig früh in jüdisch geprägten Gemeinden.`, status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'bauckham',
+                      role: 'als Erforscher der frühen Christologie',
+                      text: `Bauckham argumentiert, dass die neutestamentlichen Autoren Jesus in die „göttliche Identität" des einen Gottes Israels einbeziehen – etwa wenn Paulus in 1 Kor 8,6 das Schema Israel auf Vater und Herrn aufteilt. Das ist keine späte Vergöttlichung eines Propheten, sondern von Anfang an die höchste denkbare Christologie in jüdischen Begriffen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the God of Israel', year: '2008', quote: `Die frühen Christen bezogen Jesus in die einzigartige göttliche Identität des Gottes Israels ein.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'How Jesus Became God', year: '2014', quote: `Schon Paulus versteht Christus als präexistentes, engelartiges Wesen, das Mensch wurde und dann erhöht wurde.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '8,6', quote: `So haben wir doch nur einen Gott, den Vater, von welchem alle Dinge sind und wir zu ihm; und einen Herrn, Jesus Christus, durch welchen alle Dinge sind und wir durch ihn.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Selbst nach Ehrmans frühester Christologie wurde Jesus gekreuzigt und auferweckt. Akzeptierst du das?`,
+                  ],
+                },
+              ],
             },
           ],
         },

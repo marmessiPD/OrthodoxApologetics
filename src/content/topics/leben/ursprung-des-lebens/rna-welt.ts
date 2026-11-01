@@ -44,7 +44,8 @@ const koonin2007: Source = {
   year: '2007',
   quote: `Koonin hält die zufällige Entstehung eines gekoppelten Replikations-Translations-Systems in unserem beobachtbaren Universum für extrem unwahrscheinlich und argumentiert, sie werde erst in einem unendlichen Multiversum (ewige Inflation) unvermeidlich.`,
   status: 'paraphrase',
-  note: 'Die in der Sekundärliteratur oft genannte Zahl (Wahrscheinlichkeit kleiner als 10^-1018) vor Verwendung im Original prüfen.',
+  url: 'https://doi.org/10.1186/1745-6150-2-15',
+  note: 'Im Artikel spricht Koonin von einer „verschwindend kleinen" Wahrscheinlichkeit in jeder gegebenen Region. Die konkrete Zahl (P < 10^-1018 für ein gekoppeltes Replikations-Translations-System in einem einzelnen beobachtbaren Universum) nennt er in The Logic of Chance (2011), Anhang B – nach mehreren übereinstimmenden Wiedergaben, u. a. der Rezension von Gert Korthof. Die Zahl daher dem Buch zuordnen.',
 };
 
 const larralde1995: Source = {
@@ -52,9 +53,10 @@ const larralde1995: Source = {
   author: 'Rosa Larralde, Michael P. Robertson, Stanley L. Miller',
   work: '„Rates of decomposition of ribose and other sugars: implications for chemical evolution", PNAS 92, S. 8158–8160',
   year: '1995',
-  quote: `Ribose zerfällt bei neutralem pH rasch: Halbwertszeit etwa 73 Minuten bei 100 °C und einige Jahrzehnte bei 0 °C.`,
+  quote: `Ribose zerfällt bei neutralem pH rasch: Halbwertszeit etwa 73 Minuten bei 100 °C und 44 Jahre bei 0 °C (pH 7,0).`,
   status: 'paraphrase',
-  note: 'Die genauen Zahlen vor Zitierung im Original prüfen; die Größenordnung (sehr instabil) ist unstrittig.',
+  url: 'https://doi.org/10.1073/pnas.92.18.8158',
+  note: 'Zahlen im Abstract bestätigt (PNAS 92 (18), 1995); im Haupttext für pD 7,4 außerdem ca. 300 Tage bei 25 °C. Die Autoren folgern, das erste genetische Material habe wohl keine Ribose enthalten.',
 };
 
 const retraction2017: Source = {

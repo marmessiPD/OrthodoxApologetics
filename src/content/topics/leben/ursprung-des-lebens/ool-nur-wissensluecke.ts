@@ -33,10 +33,12 @@ const tourTimeOut: Source = {
 const tourNotId: Source = {
   kind: 'sonstiges',
   author: 'James M. Tour',
-  work: 'Persönliche Stellungnahme auf seiner Website (Abschnitt zu Evolution/Schöpfung)',
-  quote: `Tour erklärt, er werde oft als ID-Vertreter bezeichnet, sei es aber nicht; er wisse nicht, wie man mit Wissenschaft Design beweisen könne, finde manche Argumente aber bedenkenswert. Sein Glaube gründe auf Christus, nicht auf wissenschaftlichen Lücken.`,
-  status: 'unverified',
-  note: 'Sinngemäß vielfach wiedergegeben; genauen Wortlaut und Datum vor Verwendung auf jmtour.com prüfen.',
+  work: 'Frühere persönliche Stellungnahme auf seiner Website (Abschnitt zu Evolution/Schöpfung)',
+  year: 'vor ca. 2016 (später überarbeitet)',
+  quote: `Tour erklärt, er werde oft als ID-Vertreter bezeichnet, sei es aber nicht; er wisse nicht, wie man mit Wissenschaft Design beweisen könne, auch wenn andere das vielleicht könnten, und finde manche Argumente der ID-Bewegung bedenkenswert. Sein Glaube gründe auf Christus, nicht auf wissenschaftlichen Lücken.`,
+  original: 'I have been labeled as an Intelligent Design (ID) proponent. I am not. I do not know how to use science to prove intelligent design although some others might.',
+  status: 'paraphrase',
+  note: 'Der englische Kernsatz ist in der Fassung belegt, die S. Joshua Swamidass (Peaceful Science) aus der früheren Website zitiert; die Seite wurde später überarbeitet und der Abschnitt entfernt. Darum als frühere Stellungnahme und sinngemäß zitieren. Tour unterzeichnete zugleich die Erklärung „A Scientific Dissent from Darwinism".',
 };
 
 const orgel2008: Source = {

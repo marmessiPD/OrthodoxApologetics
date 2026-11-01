@@ -215,6 +215,23 @@ const claim: Claim = {
           sources: [
             { kind: 'koran', work: 'Sure 22 (al-Hajj)', ref: '22:73', quote: `Gewiss, diejenigen, die ihr neben Allah anruft, werden niemals eine Fliege erschaffen, auch wenn sie sich dafür zusammentäten.`, original: `inna lladhīna tadʿūna min dūni llāhi lan yakhluqū dhubāban`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/22/73' },
           ],
+          followUps: [
+            {
+              id: 'abraham-voegel-2-260',
+              objection: `Auch bei Abraham wurden Vögel wieder lebendig (2:260). Ein Wunder mit Vögeln macht niemanden zu Gott – es ist ein Prophetenwunder wie andere auch.`,
+              objectionBy: 'Zakir Naik',
+              answer: `Lies die beiden Stellen nebeneinander. Bei Abraham ist es Allah, der die zerteilten Vögel lebendig macht; Abraham ruft sie nur, als Antwort auf seine Bitte: „Zeige mir, wie Du die Toten lebendig machst." Bei Jesus sagt der Koran in der Ich-Form: „Ich **erschaffe** … ich **hauche** hinein" (3:49) – mit denselben Verben, mit denen Gott Adam erschuf und ihm seinen Geist einhauchte. Abraham sieht Gottes Schöpfermacht; Jesus übt sie aus.`,
+              detail: `In 2:260 bittet Abraham: „Mein Herr, zeige mir, wie Du die Toten lebendig machst." Allah befiehlt ihm, vier Vögel zu nehmen, sie zu zerteilen und auf Berge zu legen, dann sie zu rufen – „sie werden eilends zu dir kommen". Das Subjekt der Lebendigmachung ist Gott; Abraham ist Zeuge. In 3:49 und 5:110 dagegen ist Jesus grammatisch Subjekt von *khalaqa* (erschaffen) und *nafakha* (einhauchen). Der Zusatz „mit Allahs Erlaubnis" ist für Christen kein Problem: Der Sohn wirkt immer in Einheit mit dem Vater (Joh 5,19). Aber kein anderer Prophet wird im Koran als der beschrieben, der erschafft und Leben einhaucht.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:260', quote: `Und als Abraham sagte: „Mein Herr, zeige mir, wie Du die Toten lebendig machst." … Er sagte: „Nimm vier Vögel … dann rufe sie; sie werden eilends zu dir kommen."`, original: `rabbi arinī kayfa tuḥyī l-mawtā`, translation: 'eigene Übersetzung (gekürzt)', status: 'paraphrase', url: 'https://quran.com/2/260' },
+                { kind: 'koran', work: 'Sure 15 (al-Hijr)', ref: '15:29', quote: `Wenn Ich ihn zurechtgeformt und ihm von Meinem Geist eingehaucht habe, dann fallt vor ihm nieder.`, original: `fa-idhā sawwaytuhū wa-nafakhtu fīhi min rūḥī`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/15/29' },
+              ],
+              questionsBack: [
+                `Wer ist in 2:260 das Subjekt der Lebendigmachung – und wer in 3:49?`,
+                `Welcher andere Prophet sagt im Koran „Ich erschaffe" und „ich hauche hinein"?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -235,6 +252,23 @@ const claim: Claim = {
           objectionBy: 'Yasir Qadhi',
           answer: `Nach dem Koran brachte Muhammad eine Schrift. Nach dem Evangelium ist Jesus selbst das Wort Gottes, das Fleisch wurde – und der Koran nennt ihn „Wort Gottes". Das ist der Unterschied zwischen dem, der ein Buch überbringt, und dem, der das Wort ist. Ich lade dich ein: Lies das Evangelium, das der Koran den Christen als Maßstab bestätigt (5:47), und frage, wer dieser Jesus ist.`,
           questionsBack: [`Wenn der Koran sagt, die Leute des Evangeliums sollen nach dem urteilen, was Gott darin offenbart hat (5:47) – hast du das Evangelium einmal ganz gelesen?`],
+          followUps: [
+            {
+              id: 'jesus-kuendigt-ahmad-an',
+              objection: `Jesus selbst hat Muhammad angekündigt: „… einen Gesandten, der nach mir kommt; sein Name ist Ahmad" (61:6). Der Ankündigende steht unter dem Angekündigten – wie Johannes der Täufer unter Jesus.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Dein Vergleich zeigt das Problem: Johannes der Täufer sagt ausdrücklich, dass nach ihm einer kommt, der größer ist und dem er nicht wert ist, die Schuhriemen zu lösen (Mk 1,7) – das steht in den Evangelien. Eine solche Aussage Jesu über einen späteren Propheten findet sich in keinem Evangelium und keiner Handschrift. Jesus kündigt nach seinem Weggang nicht einen Propheten an, sondern den Heiligen Geist, den Parakleten, der „bei euch bleibt in Ewigkeit" und den die Jünger schon kennen (Joh 14,16–17). Und er warnt ausdrücklich vor späteren Propheten, die in seinem Namen andere Wege lehren (Mt 24,11.24).`,
+              detail: `Die muslimische Deutung von 61:6 stützt sich meist auf Joh 14–16 (Paraklet = Ahmad, über eine vermutete Lesart *periklytos*, „der Gepriesene"). Dafür gibt es keine einzige griechische Handschrift; alle lesen *paraklētos*. Der Paraklet ist nach Joh 14,26 „der Heilige Geist", wird „in euch sein" (14,17) und kommt wenige Tage nach der Himmelfahrt (Apg 1,5; 2,1–4). Ausführlich im Claim „Der Paraklet ist Muhammad". Im Gespräch respektvoll bleiben: Der Wunsch, Muhammad in der Bibel zu finden, folgt aus 7:157 – aber der Text muss für sich sprechen dürfen.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 61 (as-Saff)', ref: '61:6', quote: `… und einen Gesandten zu verkünden, der nach mir kommen wird; sein Name ist Ahmad.`, original: `wa-mubashshiran bi-rasūlin yaʾtī min baʿdī smuhū aḥmad`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/61/6' },
+                { kind: 'bibel', work: 'Johannes', ref: '14,16–17', quote: `Und ich will den Vater bitten, und er soll euch einen andern Tröster geben, daß er bei euch bleibe ewiglich: den Geist der Wahrheit … ihr aber kennet ihn; denn er bleibt bei euch und wird in euch sein.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Gekürzt.' },
+              ],
+              questionsBack: [
+                `In welchem Evangelium oder in welcher Handschrift kündigt Jesus einen Propheten nach sich an?`,
+                `Wie kann der Paraklet „in euch sein" und „bei euch bleiben in Ewigkeit", wenn er sechs Jahrhunderte später in Arabien geboren wird?`,
+              ],
+            },
+          ],
         },
       ],
     },

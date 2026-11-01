@@ -113,6 +113,34 @@ const claim: Claim = {
               objection: `Eusebius war Konstantins Hofbischof und Lobredner. Natürlich hat er im Sinn des Kaisers ausgewählt.`,
               objectionBy: 'Verbreiteter Einwand',
               answer: `Eusebius' Einteilung der Schriften steht in seiner Kirchengeschichte, deren erste Fassung vor 325 entstand – vor seiner Nähe zum Kaiser. Und die erste vollständige 27-Bücher-Liste stammt nicht von ihm, sondern von Athanasius, der unter Konstantins Nachfolgern mehrfach verbannt wurde, weil er sich der kaiserlich geförderten arianischen Richtung widersetzte. Wäre der Kanon ein kaiserliches Produkt, hätte ihn ausgerechnet der größte Gegner der Hofpolitik formuliert.`,
+              followUps: [
+                {
+                  id: 'athanasius-machtpolitik',
+                  objection: `Dann eben nicht Konstantin, sondern Athanasius. Sein Osterfestbrief von 367 war ein Machtinstrument: Er wollte unabhängige Lehrer und Studienzirkel in Ägypten unter bischöfliche Kontrolle bringen. David Brakke hat das gezeigt. Der Kanon ist Kirchenpolitik.`,
+                  objectionBy: 'Bart Ehrman / David Brakke (rezipiert)',
+                  answer: `Brakke hat recht, dass der Brief auch eine pastorale und kirchenpolitische Absicht hatte: Athanasius wollte die Gemeinden vor Schriften schützen, die Irrlehrer verbreiteten. Aber er erfindet keine Liste, sondern sagt ausdrücklich, er zähle auf, was „überliefert und als göttlich geglaubt" sei. Seine 27 Bücher entsprechen dem, was Origenes und die alexandrinische Kirche längst lasen. Und er verbietet nicht alles Übrige: Die Didache und den Hirten des Hermas empfiehlt er ausdrücklich für Taufbewerber – nur eben nicht als kanonische Schrift. Wer Machtpolitik sucht, findet hier einen Bischof, der Bewährtes festhält.`,
+                  detail: `**Der 39. Osterfestbrief (367):** Athanasius nennt die Bücher des Alten und Neuen Testaments und schreibt, dies seien „die Quellen des Heils"; niemand solle etwas hinzufügen oder wegnehmen. Daneben nennt er Schriften, die „nicht kanonisiert" sind, aber von den Vätern für die Unterweisung Neubekehrter bestimmt wurden (u. a. Weisheit Salomos, Sirach, Ester, Judit, Tobit, Didache, Hirt des Hermas). Apokryphen im engeren Sinn – Schriften, die Häretiker unter alten Namen verbreiteten – lehnt er ab.
+
+**Koptisch-orthodoxe Lesart:** Der Brief ist eine Frucht der alexandrinischen Tradition, nicht ihr Anfang. Die Einteilung in kanonische und zur Unterweisung empfohlene Schriften spiegelt den liturgischen Gebrauch der ägyptischen Kirche. (Zur Stellung der deuterokanonischen Bücher in der koptischen Kirche siehe den Themenblock Sola Scriptura.)
+
+**Ehrlich:** Kirchliche Autorität spielte bei der Kanonbildung eine Rolle – die Kirche hat ihre Schriften nicht im luftleeren Raum gelesen. Der Punkt ist, dass sie bestätigte, was sich im Gebrauch der Gemeinden über Generationen durchgesetzt hatte.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Bischof von Alexandrien und Verfasser des 39. Osterfestbriefs',
+                      text: `Athanasius versteht sich nicht als Gesetzgeber, sondern als Zeuge: Er will aufschreiben, was die Kirche von Anfang an empfangen hat, damit die Gläubigen nicht durch Schriften mit erfundenen apostolischen Namen getäuscht werden. Seine Unterscheidung zwischen kanonischen und zur Unterweisung nützlichen Büchern zeigt Augenmaß, nicht Zensur.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', status: 'paraphrase', quote: `Dies sind die Quellen des Heils … Niemand füge etwas hinzu oder nehme etwas davon weg.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'David Brakke', work: `Canon Formation and Social Conflict in Fourth-Century Egypt: Athanasius of Alexandria's Thirty-Ninth Festal Letter. Harvard Theological Review 87`, year: '1994', quote: `Brakke deutet den Osterfestbrief auch als Versuch, unabhängige Lehrerkreise der bischöflichen Autorität zu unterstellen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Welches der 27 Bücher bei Athanasius war vor ihm in Alexandrien unbekannt?`,
+                    `Warum empfiehlt ein angeblicher Zensor ausdrücklich die Didache und den Hirten des Hermas zur Lektüre?`,
+                  ],
+                },
+              ],
             },
           ],
         },

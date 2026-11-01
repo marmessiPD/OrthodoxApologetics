@@ -53,7 +53,7 @@ const claim: Claim = {
       role: 'als Biologin mit Schwerpunkt Populationsgenetik',
       text: `Gauger und andere weisen auf eine populationsgenetische Pointe hin: Ein Mensch, der als Erster eine solche Fusion trägt, hat 45 statt 46 Chromosomen und ist in der Regel gesund, aber in seiner Fruchtbarkeit eingeschränkt. Damit sich die Fusion durchsetzt, ist eine kleine, eng verbundene Population günstig, in der Träger leicht aufeinandertreffen. Ein früher Engpass – bis hin zu einem ersten Menschenpaar – erschwert die Fixierung also nicht, sondern kann sie erleichtern.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Ann Gauger u. a.', work: 'Beiträge zu Chromosom 2 und Populationsengpässen (Science and Human Origins; evolutionnews.org)', status: 'unverified', note: 'Die genetische Grundaussage zu balancierten Translokationsträgern ist medizinisch gesichert; die konkrete Fundstelle bei Gauger vor Zitierung prüfen.' },
+        { kind: 'fachliteratur', author: 'Ann Gauger u. a.', work: 'Beiträge zu Chromosom 2 und Populationsengpässen (Science and Human Origins; evolutionnews.org)', status: 'unverified', note: 'Die genetische Grundaussage zu balancierten Translokationsträgern ist medizinisch gesichert. Bestätigt ist, dass „Science and Human Origins" (2012) in Kap. 4 (Casey Luskin, „Francis Collins, Junk DNA, and Chromosomal Fusion") die Fusionsbelege behandelt; die konkrete Aussage zur Fixierung in kleinen Populationen bei Gauger ist weiterhin nicht am Original geprüft.' },
       ],
     },
     {
@@ -99,6 +99,17 @@ const claim: Claim = {
           objection: `Eine solche Fusion hätte sich bei einem einzigen Menschenpaar nie durchsetzen können.`,
           objectionBy: 'Nathan Lents',
           answer: `Eher umgekehrt: Ein Träger einer neuen Fusion hat 45 Chromosomen und ist meist gesund, aber weniger fruchtbar. Damit die Fusion sich durchsetzt, ist eine kleine, eng verbundene Population günstig, in der Träger leicht aufeinandertreffen und Nachkommen mit zwei fusionierten Chromosomen entstehen. Ein früher Engpass erschwert die Fixierung also nicht – er erleichtert sie.`,
+          followUps: [
+            {
+              id: 'robertson-traeger-gesund',
+              objection: `Robertson-Translokationen kommen bei etwa einem von tausend Menschen vor, die Träger sind meist völlig gesund. Fixierung durch Drift in kleinen Populationen ist Standard-Populationsgenetik. „Klein" heißt aber nicht „zwei" – eine Gruppe von einigen Tausend genügt.`,
+              objectionBy: 'Larry Moran',
+              answer: `Einverstanden – und das ist ein Punkt, an dem wir uns weitgehend einig sind: Die Fusion ist populationsgenetisch kein Problem, weder für dein Modell noch für ein Modell mit sehr kleinem Anfang. Es gibt sogar dokumentierte Fälle gesunder Menschen, die eine solche Translokation von beiden Eltern geerbt haben und nur 44 Chromosomen besitzen – ein Hinweis, wie eine neue Chromosomenzahl in einer eng verbundenen Familie stabil werden kann. Die Fusion entscheidet also nicht zwischen „zwei" und „einigen Tausend"; diese Frage muss mit anderen Daten geklärt werden.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Jianrong Song u. a.', work: '„A family with Robertsonian translocation: a potential mechanism of speciation in humans", Molecular Cytogenetics 9', year: '2016', status: 'paraphrase', quote: `Beschreibung eines gesunden Mannes mit 44 Chromosomen (homozygote Robertson-Translokation) aus einer verwandtschaftlich verbundenen Familie.`, note: 'Autorenangabe und Details vor wörtlicher Verwendung im Original prüfen.' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -119,6 +130,28 @@ const claim: Claim = {
               objection: `Dann gib es doch zu: Der Mensch stammt vom Affen ab.`,
               objectionBy: 'Dennis Venema',
               answer: `Präzise formuliert: Die Daten sprechen für gemeinsame Vorfahren von Mensch und heutigen Menschenaffen, nicht für eine Abstammung „vom Affen". Ich halte die Frage, ob der menschliche Leib so entstand, als Christ für offen; meine Kirche hat sie nicht dogmatisch entschieden, liest Gen 2,7 aber traditionell als unmittelbares Wirken Gottes. Was ich festhalte: Der Mensch ist mehr als sein Leib – er ist nach Gottes Bild geschaffen.`,
+              followUps: [
+                {
+                  id: 'fusion-datiert-denisova',
+                  objection: `Die Fusion lässt sich datieren: Poszewiecka und Kollegen schätzten 2022 rund 900.000 Jahre, und auch Neandertaler und Denisova-Menschen tragen sie. Wenn Adam der Erste mit fusioniertem Chromosom war, müsste er vor fast einer Million Jahren gelebt haben – lange vor allem, was Genesis beschreibt.`,
+                  objectionBy: 'Joshua Swamidass',
+                  answer: `Ein guter Punkt, und er zeigt, dass die Fusion vor der Trennung von Neandertalern, Denisovanern und modernen Menschen stattfand – also bei einem gemeinsamen Vorfahren aller drei. Das ist gut vereinbar mit Modellen, die Adam weit zurück datieren; William Lane Craig etwa hält Adam für einen Vertreter von Homo heidelbergensis vor 750.000 Jahren oder mehr. Die Datierung ist allerdings unsicher – das 95-%-Intervall reicht von etwa 0,4 bis 1,5 Millionen Jahren. Die koptische Kirche hat über das Datum Adams kein Dogma; verbindlich ist, dass er eine reale Person war.`,
+                  detail: `Ehrlich festhalten: Die Datierung beruht auf einer indirekten Methode (Häufung bestimmter Basenaustausche um die Fusionsstelle) und hat große Unsicherheiten; frühere Schätzungen lagen bei 0,74 Millionen Jahren mit einem Intervall von 0 bis 2,8 Millionen Jahren. Für das Gespräch genügt: Die Fusion ist alt und wird von allen bekannten archaischen Menschenformen geteilt. Wer Adam vor wenigen Jahrtausenden ansetzt, braucht ein genealogisches Modell (Swamidass); wer ihn als ersten Menschen im biologischen Sinn versteht, landet bei sehr frühen Datierungen (Craig). Beide Wege werden unter Christen diskutiert – keiner ist Dogma.`,
+                  voices: [
+                    {
+                      person: 'craig',
+                      role: 'als Philosoph und Theologe',
+                      text: `Craig hat in einer ausführlichen Studie argumentiert, dass Gen 1–11 als „mytho-historische" Erzählung über reale Personen und Ereignisse zu lesen ist und dass Adam und Eva wahrscheinlich Vertreter von Homo heidelbergensis waren, die vor rund 750.000 Jahren oder früher lebten. Damit wären Neandertaler und Denisovaner ebenfalls Nachkommen Adams – was zur geteilten Fusion passt.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'William Lane Craig', work: 'In Quest of the Historical Adam: A Biblical and Scientific Exploration', year: '2021', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Kamila Poszewiecka, Krzysztof Gogolewski, Paweł Stankiewicz, Anna Gambin', work: '„Revised time estimation of the ancestral human chromosome 2 fusion", BMC Genomics 23', year: '2022', status: 'paraphrase', quote: `Die Fusion wird auf etwa 0,9 Millionen Jahre datiert (95-%-Konfidenzintervall 0,4–1,5 Millionen Jahre).`, url: 'https://doi.org/10.1186/s12864-022-08828-7' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -135,6 +168,57 @@ const claim: Claim = {
           objection: `Siehst du: Evolution erklärt das. Design erklärt es nicht.`,
           objectionBy: 'Richard Dawkins',
           answer: `Design-Befürworter bestreiten keine historischen Ereignisse wie Fusionen, Mutationen oder Genverluste. Die Frage, die Design stellt, betrifft etwas anderes: den Ursprung der funktionalen Information in den Chromosomen – der Gene, ihrer Regulation, der Maschinerie, die Chromosomen überhaupt teilt. Dass zwei Chromosomen verschmolzen, erklärt nicht, woher ihr Inhalt stammt.`,
+          followUps: [
+            {
+              id: 'design-sagt-fusion-nicht-voraus',
+              objection: `Siehst du den Unterschied? Die Evolutionstheorie sagt die Fusion voraus, Design sagt gar nichts voraus. Nach dem Likelihood-Prinzip gewinnt die Theorie, die die Daten wahrscheinlicher macht.`,
+              objectionBy: 'Dennis Venema',
+              answer: `Für die konkrete Tatsache der Fusion stimmt das: Gemeinsame Abstammung macht sie wahrscheinlicher als ein beliebiges Alternativmodell – das gestehe ich zu. Aber Design ist kein Konkurrent zu historischen Ereignissen wie Fusionen, Mutationen oder Genverlusten. Design konkurriert mit der Behauptung, ungelenkte Prozesse hätten die **funktionale Information** hervorgebracht, die neue Proteine, Regelnetzwerke und Baupläne erfordern. Dort muss man den Likelihood-Vergleich führen – und dort sieht er ganz anders aus.`,
+              questionsBack: [
+                `Erhöht die Fusion von Chromosom 2 die Wahrscheinlichkeit, dass ungelenkte Mutationen neue Proteinfaltungen erzeugen?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'inversionen-stammbaum',
+      objection: `Chromosom 2 steht nicht allein. Zwischen Mensch und Schimpanse gibt es neun große perizentrische Inversionen und weitere Umbauten, und Gorilla, Orang-Utan und Schimpanse tragen 2A und 2B getrennt. Das gesamte Muster der Chromosomenumbauten fügt sich sauber in einen einzigen Stammbaum.`,
+      objectionBy: 'Kenneth Miller',
+      answer: `Das ist richtig, und ich bestreite das Muster nicht: Die Umbauten der Chromosomen lassen sich in einen Stammbaum einordnen, und gemeinsame Abstammung erklärt das elegant. Die koptische Kirche hat über den biologischen Weg der Erschaffung des Leibes kein Dogma. Was die Daten nicht zeigen, ist zweierlei: dass der Prozess ungelenkt war, und dass der Mensch nichts weiter ist als sein Genom. Die Schrift sagt, Gott habe den Menschen aus dem „Staub der Erde" gebildet und ihm den Lebensatem eingehaucht (Gen 2,7) – über den Staub sagen Chromosomen etwas, über den Atem nichts.`,
+      followUps: [
+        {
+          id: 'warum-nicht-ganz-evolution',
+          objection: `Wenn du die Abstammung des Leibes zugibst, warum dann nicht die ganze menschliche Evolution? Du hältst dir nur ein letztes Rückzugsgebiet frei.`,
+          objectionBy: 'Nathan Lents',
+          answer: `Weil es um verschiedene Fragen geht. Ob der menschliche Leib gemeinsame Vorfahren mit den Menschenaffen hat, ist eine historische Frage, über die Christen unterschiedlich urteilen. Ob ungelenkte Mutation und Selektion die nötigen Neuerungen erklären, ist eine Frage nach dem Mechanismus – dort sehe ich ernste offene Probleme (Wartezeiten, neue Proteine). Und ob der Mensch eine geistige Seele hat, ist eine philosophisch-theologische Frage, die kein Chromosom beantwortet. Ich halte mir kein Rückzugsgebiet frei, sondern unterscheide drei Fragen, die oft vermischt werden.`,
+          followUps: [
+            {
+              id: 'seele-lueckenbuesser',
+              objection: `Eine Seele, die in einen evolvierten Körper „eingesetzt" wird, ist ein klassischer Lückenbüßer. Bewusstsein erklärt die Neurowissenschaft.`,
+              objectionBy: 'Jerry Coyne',
+              answer: `Die Seele ist kein Lückenfüller in der Biologie, sondern die Erklärung für etwas, das wir täglich verwenden: Vernunft. Wenn unser Denken nur das Ergebnis von Prozessen ist, die auf Überleben und nicht auf Wahrheit ausgerichtet sind, haben wir keinen Grund, unseren eigenen Schlüssen – auch den naturwissenschaftlichen – zu trauen. Die Neurowissenschaft zeigt, **wie** Geist und Gehirn zusammenhängen; dass Bewusstsein und Wahrheitsfähigkeit **nichts als** Gehirnaktivität seien, ist eine philosophische These, keine Messung.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Kirchenvater',
+                  text: `Kyrill versteht den „Lebensatem" von Gen 2,7 als Gottes Gabe, durch die der Mensch zu einem vernunftbegabten, auf Gott hin geöffneten Wesen wird. Die Gottebenbildlichkeit liegt für ihn nicht in der Gestalt des Leibes, sondern in Vernunft, Freiheit und der Fähigkeit zur Gemeinschaft mit Gott.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium', ref: 'zu Joh 20,22 (Einhauchung des Geistes, mit Rückgriff auf Gen 2,7)', status: 'paraphrase' },
+                  ],
+                },
+                {
+                  person: 'plantinga',
+                  role: 'als Philosoph',
+                  text: `Plantinga argumentiert, dass Naturalismus und ungelenkte Evolution zusammen die Verlässlichkeit unserer kognitiven Fähigkeiten untergraben: Selektion belohnt nützliches Verhalten, nicht wahre Überzeugungen. Wer beides annimmt, hat einen Grund, an seinen eigenen Überzeugungen zu zweifeln – auch an dieser.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies: Science, Religion, and Naturalism', ref: 'Kap. 10', year: '2011', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
