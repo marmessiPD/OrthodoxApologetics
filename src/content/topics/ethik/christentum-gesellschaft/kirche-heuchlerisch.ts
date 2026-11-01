@@ -101,6 +101,27 @@ const claim: Claim = {
           objection: `Dann sollen sie eben alles verkaufen und den Armen geben – wie Jesus es dem reichen Jüngling gesagt hat.`,
           objectionBy: 'Christopher Hitchens',
           answer: `Viele Christen haben genau das getan – vom hl. Antonius bis zu den Mönchen und Nonnen, die heute in Armut leben. Und für jeden Christen bleibt die Frage nach seinem eigenen Besitz unbequem. Aber eine Kathedrale einmal zu verkaufen, speist die Armen einen Tag; eine Kirche, die Schulen, Kliniken und Suppenküchen betreibt, speist sie jahrzehntelang. Entscheidend ist, dass Besitz der Liebe dient, transparent verwaltet wird und nicht der Selbstdarstellung – daran muss sich jede Kirche messen lassen.`,
+          followUps: [
+            {
+              id: 'staatsleistungen-kirchensteuer',
+              objection: `In Deutschland leben die Kirchen vom Staat: Kirchensteuer über die Finanzämter, dazu jährlich über eine halbe Milliarde Euro „Staatsleistungen" – seit 1919 soll das abgelöst werden, und nichts passiert.`,
+              objectionBy: 'Carsten Frerk',
+              answer: `Die deutsche Situation ist ein Sonderfall, und deine Kritik an den Staatsleistungen ist berechtigt: Die Weimarer Verfassung hat ihre Ablösung schon 1919 verlangt (Art. 138 WRV, heute Teil des Grundgesetzes), und die großen Kirchen haben sich zu Verhandlungen bereit erklärt. Historisch sind diese Leistungen ein Ausgleich für die Enteignung kirchlicher Güter von 1803. Die koptische Kirche kennt so etwas übrigens gar nicht: Sie lebt von freiwilligen Gaben ihrer Gläubigen, auch in Deutschland.`,
+              detail: `Die Kirchensteuer ist ein Mitgliedsbeitrag, den der Staat gegen Gebühr einzieht – wer austritt, zahlt nicht. Das System kann man politisch unterschiedlich bewerten. Für die Frage nach der Heuchelei entscheidend ist etwas anderes: Ob eine Kirche mit ihren Mitteln dient oder sich selbst inszeniert. Die frühe Kirche war arm und versorgte trotzdem Witwen, Waisen und Fremde – daran muss sich jede Kirche messen lassen, ob reich oder arm.`,
+              followUps: [
+                {
+                  id: 'caritas-staatsgeld-arbeitsrecht',
+                  objection: `Caritas und Diakonie werden fast vollständig aus Steuer- und Sozialversicherungsgeldern finanziert, aber die Kirchen diskriminieren dort per Sonderarbeitsrecht: Wiederverheiratete und Homosexuelle wurden gekündigt.`,
+                  objectionBy: 'Carsten Frerk',
+                  answer: `Richtig ist: Die Wohlfahrtsverbände werden für ihre Leistungen bezahlt wie jeder andere Träger – Krankenhäuser, Pflegeheime, Kitas –, sie bekommen kein Geschenk. Beim Arbeitsrecht hast du einen wunden Punkt getroffen: Kündigungen wegen der privaten Lebensführung haben Menschen schwer verletzt. Die katholischen Bischöfe in Deutschland haben 2022 ihre Grundordnung geändert; die private Lebensgestaltung ist seitdem grundsätzlich kein Kündigungsgrund mehr. Eine Kirche darf ihr Profil wahren – aber sie muss Menschen dabei mit Würde behandeln.`,
+                  detail: `Hier zeigt sich eine echte Spannung: Eine Glaubensgemeinschaft muss verlangen können, dass Menschen in verkündigenden Ämtern ihren Glauben teilen; zugleich darf sie nicht diejenigen, die in der Küche oder Pflege arbeiten, wegen ihres Privatlebens bestrafen, während sie andere Sünden – Habgier, Lieblosigkeit – nie prüft. Ehrlichkeit über diese Inkonsequenz macht dich glaubwürdiger.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Deutsche Bischofskonferenz', work: 'Grundordnung des kirchlichen Dienstes (Neufassung)', year: '2022', status: 'paraphrase', note: 'Private Lebensgestaltung (z. B. Wiederheirat, gleichgeschlechtliche Partnerschaft) grundsätzlich kein Kündigungsgrund mehr.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -121,6 +142,40 @@ const claim: Claim = {
               objection: `Das ist eine Immunisierungsstrategie: Sind Christen gut, ist es Gottes Gnade; sind sie schlecht, sind sie eben Sünder. So kann man nie falsch liegen.`,
               objectionBy: 'Christopher Hitchens',
               answer: `Das wäre so, wenn ich das Christentum mit dem Verhalten der Christen begründen würde – das tue ich nicht. Seine Wahrheit lässt sich an anderer Stelle prüfen: an der Person Jesu, an den historischen Belegen für die Auferstehung, an der Frage nach Gott. Das Verhalten der Christen ist ein Zeugnis, das gut oder schlecht sein kann, aber es ist nicht das Fundament. Sonst müsste man auch die Medizin für widerlegt halten, weil es Ärzte gibt, die rauchen.`,
+              followUps: [
+                {
+                  id: 'studien-religioese-kinder',
+                  objection: `Es gibt sogar Studien, die zeigen, dass religiöse Kinder weniger großzügig und strafender sind als nichtreligiöse. Religion macht Menschen nicht besser, sondern selbstgerechter.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Du meinst vermutlich die viel zitierte Studie von Jean Decety und Kollegen (2015). Bei ihrer Nachprüfung stellte sich heraus, dass die Auswertung einen Fehler enthielt: Die Herkunftsländer der Kinder waren nicht richtig berücksichtigt; nach der Korrektur verschwand der behauptete Effekt weitgehend. Breitere Daten zeigen eher das Gegenteil: Regelmäßige Gottesdienstbesucher spenden im Durchschnitt mehr – auch für nichtreligiöse Zwecke – und engagieren sich häufiger ehrenamtlich. Das macht Christen nicht automatisch zu besseren Menschen, aber es widerlegt die Behauptung, Religion mache unsozial.`,
+                  detail: `Die Politikwissenschaftler Robert Putnam und David Campbell haben in *American Grace* (2010) gezeigt, dass religiös eingebundene Amerikaner in fast jeder Form bürgerschaftlichen Engagements aktiver sind – entscheidend ist dabei weniger die Theologie als die Einbindung in eine Gemeinde. Für dein Gespräch: Benutze solche Daten bescheiden. Sie zeigen Tendenzen, keine Heiligkeit. Die eigentliche Antwort bleibt, dass das Christentum nicht auf der Güte der Christen ruht, sondern auf der Güte Christi.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Azim F. Shariff; Aiyana K. Willard; Michael Muthukrishna; Stephanie R. Kramer; Joseph Henrich', work: '„What is the association between religious affiliation and children’s altruism?", Current Biology 26(15)', year: '2016', status: 'paraphrase', note: 'Nachprüfung der Studie von Decety u. a. (Current Biology 2015); nach Berücksichtigung der Herkunftsländer verschwand der Effekt weitgehend.' },
+                    { kind: 'wissenschaft', author: 'Robert D. Putnam; David E. Campbell', work: 'American Grace: How Religion Divides and Unites Us', year: '2010', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'vertuschung-systemisch',
+          objection: `Es waren nicht einzelne Täter, sondern ein System: Bischöfe haben Täter versetzt, Opfer zum Schweigen gebracht und erst gehandelt, als Journalisten wie der *Boston Globe* 2002 sie dazu zwangen. Und die orthodoxen Kirchen haben ihre Archive bis heute nicht geöffnet.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Das ist wahr, und es ist das Schlimmste daran: Die Institution hat sich selbst über die Kinder gestellt. Ich sage auch nicht, dass orthodoxe Kirchen davon frei sind – keine Kirche ist es, und Schweigen schützt dort wie überall die Täter. Was das Evangelium verlangt, ist eindeutig: Die Opfer zuerst, Täter vor staatliche Gerichte, Transparenz statt Imageschutz. Jesus hat die schärfsten Worte seines Lebens denen vorbehalten, die Kleinen schaden, und den religiösen Führern, die nach außen fromm erscheinen (Mt 18,6; 23,27).`,
+          detail: `Für dein Gespräch: Verteidige an dieser Stelle nichts und vergleiche nicht mit anderen Institutionen – das wirkt wie Ablenkung, auch wenn Missbrauch in Schulen, Sportvereinen und Familien ebenfalls verbreitet ist. Sag klar, dass dich das als Christ beschämt. Glaubwürdigkeit entsteht hier nur durch Ehrlichkeit. Ein seelsorgerlicher Hinweis: Wenn dein Gegenüber selbst betroffen ist, geht das Zuhören jeder Argumentation vor.`,
+          sources: [
+            { kind: 'bibel', work: 'Matthäus', ref: '18,6', quote: `Wer aber ärgert dieser Geringsten einen, die an mich glauben, dem wäre besser, dass ein Mühlstein an seinen Hals gehängt und er ersäuft würde im Meer, da es am tiefsten ist.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'warum-kirchenmoral-trauen',
+              objection: `Warum sollte ich dann irgendeiner Kirche noch in moralischen Fragen zuhören? Eine Institution, die so versagt hat, hat jedes Recht verwirkt, anderen Moral zu predigen.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `Du sollst einer Kirche nicht blind vertrauen – das verlangt auch die Schrift nicht: „Prüfet aber alles, und das Gute behaltet" (1 Thess 5,21). Prüfe die Lehre an Christus selbst. Und beachte: Gerade das Urteil über den Missbrauch fällst du mit dem Maßstab, den die Kirche verkündet – dass das Kind heilig ist und die Mächtigen den Schwachen dienen sollen. Ein Arzt, der selbst raucht, irrt nicht, wenn er sagt, dass Rauchen tötet. Die Kirche hat ihr Recht nicht verwirkt, die Wahrheit zu sagen, aber sie hat die Pflicht, zuerst über sich selbst die Wahrheit zu sagen.`,
+              sources: [
+                { kind: 'bibel', work: '1. Thessalonicher', ref: '5,21', quote: `Prüfet aber alles, und das Gute behaltet.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
             },
           ],
         },
@@ -145,6 +200,29 @@ const claim: Claim = {
       objection: `Und die Fernsehprediger mit Privatjets, die den Armen versprechen, Gott mache sie reich, wenn sie spenden?`,
       objectionBy: 'Christopher Hitchens',
       answer: `Da sind wir uns völlig einig: Das sogenannte „Wohlstandsevangelium" ist eine Irrlehre. Paulus warnt vor Leuten, „die da meinen, Gottseligkeit sei ein Gewerbe" (1 Tim 6,5), und Jesus sagte: „Ihr könnt nicht Gott dienen und dem Mammon" (Mt 6,24). Die orthodoxe Tradition kennt Christus als den Armen, der für uns arm wurde (2 Kor 8,9). Wer das Evangelium als Geschäftsmodell benutzt, verrät es.`,
+      followUps: [
+        {
+          id: 'mutter-teresa-hitchens',
+          objection: `Selbst eure Heiligen sind Heuchler. Mutter Teresa war eine Freundin der Armut, nicht der Armen: Ihre Häuser boten miserable medizinische Versorgung, während sie Geld von Diktatoren wie Duvalier und vom Betrüger Charles Keating annahm.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Die Kritik an den medizinischen Standards in manchen ihrer Häuser verdient Gehör, und Fragen zur Herkunft von Spenden darf man stellen. Aber man muss wissen, was ihre Häuser waren: keine Krankenhäuser, sondern Orte, an denen Sterbende, die man auf der Straße liegen ließ, mit Würde und Zuwendung sterben konnten. Auch ihre Kritiker bestreiten nicht, dass sie und ihre Schwestern ihr Leben unter den Ärmsten verbracht haben – in eigener Armut. Ein Fehler in der Umsetzung ist nicht dasselbe wie Heuchelei.`,
+          detail: `Hitchens veröffentlichte 1995 *The Missionary Position* und trat im Seligsprechungsverfahren als Kritiker auf. Ein konstruktiver Umgang: Gib zu, dass Heilige keine fehlerlosen Menschen sind und ihre Werke kritisch geprüft werden dürfen. Die koptische Kirche kennt dasselbe Ideal in ihren eigenen Reihen – Mönche, Nonnen und geweihte Diakonissen, die in den Armenvierteln Kairos, etwa bei den Müllsammlern im Mokattam, Schulen und Kliniken betreiben. Die Frage an jeden Kritiker lautet: Wer hat sonst die Sterbenden von Kalkutta aufgehoben?`,
+          sources: [
+            { kind: 'gegner', author: 'Christopher Hitchens', work: 'The Missionary Position: Mother Teresa in Theory and Practice', year: '1995', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'leiden-schoen-teresa',
+              objection: `Sie hat sogar gesagt, das Leiden der Armen sei etwas Schönes. Wer Leid verklärt, hat kein Interesse, es zu beseitigen.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `Solche Aussagen können verklärend klingen, und die christliche Lehre ist hier klar: Leid ist nicht gut an sich. Christus hat Kranke geheilt, Hungrige gespeist, und er wird im Gericht fragen: „Ich bin hungrig gewesen, und ihr habt mich gespeist" (Mt 25,35). Was Christen meinen, wenn sie vom Sinn des Leidens sprechen, ist etwas anderes: dass Gott im Leidenden gegenwärtig ist und dass auch das Leiden mit Christus verbunden werden kann. Das ist ein Trost für die, deren Leid man nicht mehr beseitigen kann – keine Rechtfertigung, Leid hinzunehmen, das man beseitigen könnte.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '25,35–40', quote: `Ich bin hungrig gewesen, und ihr habt mich gespeist … Was ihr getan habt einem unter diesen meinen geringsten Brüdern, das habt ihr mir getan.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

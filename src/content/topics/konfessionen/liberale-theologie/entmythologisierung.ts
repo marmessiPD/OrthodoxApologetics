@@ -159,6 +159,122 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'johannes-entmythologisiert-selbst',
+      objection: `„Das Neue Testament selbst verlangt die existentiale Interpretation. Johannes hat die Endzeit schon entmythologisiert: ‚Wer mein Wort hört …, der hat das ewige Leben und kommt nicht in das Gericht' (Joh 5,24) – jetzt, nicht am Ende der Zeiten."`,
+      objectionBy: 'Rudolf Bultmann',
+      answer: `Im selben Kapitel sagt Jesus: „Es kommt die Stunde, in welcher alle, die in den Gräbern sind, werden seine Stimme hören, und werden hervorgehen" (Joh 5,28–29). Johannes hält Gegenwart und Zukunft zusammen: Das ewige Leben beginnt jetzt **und** vollendet sich in der Auferstehung. Bultmann musste solche Verse einem späteren „kirchlichen Redaktor" zuschreiben – das heißt: Was nicht zur Theorie passt, wird aus dem Text entfernt.`,
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '5,28–29', quote: `Verwundert euch des nicht, denn es kommt die Stunde, in welcher alle, die in den Gräbern sind, werden seine Stimme hören, und werden hervorgehen.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'gegner', author: 'Rudolf Bultmann', work: 'Das Evangelium des Johannes (KEK)', year: '1941', status: 'paraphrase', note: 'Bultmann weist die futurisch-eschatologischen Aussagen einer „kirchlichen Redaktion" zu.' },
+      ],
+      followUps: [
+        {
+          id: 'kirchlicher-redaktor',
+          objection: `„Die kirchliche Redaktion ist eine solide literarkritische Hypothese, keine Willkür."`,
+          objectionBy: 'Exeget der Bultmann-Schule',
+          answer: `Eine Hypothese, die genau das entfernt, was der Theorie widerspricht, ist zirkulär. Keine einzige Handschrift des Johannesevangeliums lässt Joh 5,28–29 oder den viermal wiederholten Satz „ich werde ihn auferwecken am Jüngsten Tage" (Joh 6,39.40.44.54) weg. Viele neuere Johannes-Ausleger lesen das Evangelium wieder als Einheit, die gegenwärtiges und künftiges Heil bewusst zusammenhält.`,
+          sources: [
+            { kind: 'bibel', work: 'Johannes', ref: '6,40', quote: `Das ist aber der Wille des, der mich gesandt hat, dass, wer den Sohn sieht und glaubt an ihn, habe das ewige Leben; und ich werde ihn auferwecken am Jüngsten Tage.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'methode-ist-neutral',
+              objection: `„Die historisch-kritische Methode ist neutral. Du lehnst sie nur ab, weil sie deinen Glauben bedroht."`,
+              objectionBy: 'Liberaler Theologe',
+              answer: `Wir lehnen historische Forschung nicht ab – die alexandrinische Tradition hat Textkritik und Philologie gepflegt, lange bevor es Universitäten gab. Wir lehnen eine philosophische Vorentscheidung ab, die sich als Methode ausgibt: dass Gott in der Geschichte nicht handeln kann. Bultmanns eigene Schülerin Eta Linnemann hat nach ihrer Bekehrung genau das beschrieben: Die Ergebnisse standen durch die Voraussetzungen fest, bevor der Text gelesen wurde.`,
+              voices: [
+                {
+                  person: 'eta-linnemann',
+                  role: 'als ehemalige Bultmann-Schülerin',
+                  text: `Linnemann, die bei Bultmann und Fuchs studiert und selbst historisch-kritisch publiziert hatte, wandte sich nach ihrer Bekehrung gegen die Methode, die sie gelehrt hatte. Sie argumentiert, dass deren Grundannahmen – etwa der Ausschluss göttlichen Handelns – nicht aus der Forschung gewonnen, sondern vorausgesetzt werden und so die Ergebnisse bestimmen.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Eta Linnemann', work: 'Wissenschaft oder Meinung? Anfragen und Alternativen', year: '1986', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'linnemann-konvertitin',
+                  objection: `„Linnemann ist eine Konvertitin, die ins Gegenteil umgeschlagen ist. Ihr Spätwerk nimmt in der Fachwelt niemand ernst."`,
+                  objectionBy: 'Liberaler Theologe',
+                  answer: `Ihr Spätwerk ist teilweise sehr polemisch, und manche ihrer Argumente sind umstritten – das gebe ich zu. Aber ihre Kernbeobachtung teilen auch Forscher, die keine Konvertiten sind: Ob man Wunder von vornherein ausschließt, ist eine philosophische, keine historische Entscheidung. Craig Keener hat in einer umfangreichen Studie gezeigt, dass Wunderberichte von Augenzeugen weltweit zahlreich sind und dass ihre pauschale Ablehnung auf einer Weltanschauung beruht, nicht auf den Daten.`,
+                  voices: [
+                    {
+                      person: 'keener',
+                      role: 'als Neutestamentler und Erforscher von Wunderberichten',
+                      text: `Keener dokumentiert in seiner zweibändigen Studie Hunderte gegenwärtiger Wunderberichte aus vielen Kulturen und zeigt, dass Humes Argument und Bultmanns „moderner Mensch" von einer westlich-akademischen Minderheit ausgehen. Historiker sollten Augenzeugenberichte nicht allein deshalb verwerfen, weil sie Übernatürliches behaupten.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Miracles: The Credibility of the New Testament Accounts, 2 Bde.', year: '2011', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'theismus-ist-tot',
+      objection: `„Der Theismus als Gottesbild ist tot. Gott ist kein übernatürliches Wesen ‚da oben', das in die Welt eingreift, sondern der Grund des Seins. Das Christentum muss sich ändern oder sterben."`,
+      objectionBy: 'John Shelby Spong („Why Christianity Must Change or Die")',
+      answer: `Der „Gott da oben", den Spong verabschiedet, ist ein Zerrbild, das die Väter nie vertreten haben: Für Athanasius und Gregor von Nyssa ist Gott kein Wesen neben anderen an einem Ort, sondern jenseits von Raum und Begriff. Aber derselbe transzendente Gott handelt persönlich in der Geschichte – am deutlichsten in der Menschwerdung. Ein „Grund des Seins", der nicht handeln, sprechen und lieben kann, ist nicht der Gott der Bibel, sondern eine Abstraktion.`,
+      voices: [
+        {
+          person: 'hart',
+          role: 'als Religionsphilosoph des klassischen Theismus',
+          text: `David Bentley Hart unterscheidet den Gott des klassischen Theismus – das unendliche Sein, Bewusstsein und Seligkeit, Quelle aller Dinge – von einem „Demiurgen", einem höchsten Wesen innerhalb der Welt. Die meisten modernen Kritiker des Theismus, so Hart, verwerfen nur diesen Demiurgen, den die großen christlichen, jüdischen und islamischen Denker nie gemeint haben.`,
+          sources: [{ kind: 'fachliteratur', author: 'David Bentley Hart', work: 'The Experience of God: Being, Consciousness, Bliss', year: '2013', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'John Shelby Spong', work: 'Why Christianity Must Change or Die', year: '1998', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'wunder-verletzen-naturgesetze',
+          objection: `„Ein Gott, der Wunder wirkt, würde seine eigenen Naturgesetze brechen – ein launischer Magier, der sein Werk ständig repariert."`,
+          objectionBy: 'Marcus Borg / John Shelby Spong',
+          answer: `Naturgesetze beschreiben, wie die Natur sich verhält, wenn nichts von außen einwirkt. Ein Wunder bricht kein Gesetz, sondern fügt eine neue Ursache hinzu – wie wenn ich einen fallenden Ball auffange, ohne die Schwerkraft aufzuheben. Und Wunder sind nicht launisch: In der Schrift sind sie selten, zielgerichtet und Zeichen innerhalb der Heilsgeschichte – vor allem die Auferstehung, die Gottes Antwort auf den Tod ist.`,
+          voices: [
+            {
+              person: 'cs-lewis',
+              role: 'als Verteidiger der Möglichkeit von Wundern',
+              text: `Lewis erklärt, dass die Naturgesetze nie etwas geschehen lassen, sondern nur das Muster angeben, dem jedes Ereignis folgt, sobald es geschehen ist. Wenn Gott ein neues Ereignis in die Natur einführt, wird es sofort von den Naturgesetzen aufgenommen: Ein wunderbar empfangenes Kind wächst neun Monate im Mutterleib. Das Wunder unterbricht die Natur nicht, es speist ihr etwas Neues ein.`,
+              sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Miracles (Wunder)', ref: 'Kap. 8', year: '1947', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'ernst-aber-nicht-woertlich',
+              objection: `„Man kann die Evangelien ernst nehmen, ohne sie wörtlich zu nehmen. Die Osterberichte sind ‚metaphorisierte Geschichte' – Gleichnisse über eine Erfahrung, nicht Reportagen."`,
+              objectionBy: 'Marcus Borg',
+              answer: `Die Evangelien gehören zur antiken Gattung der Biografie (*bios*) – sie wollen berichten, was geschah, wie Lukas ausdrücklich sagt (Lk 1,1–4). Paulus nennt Zeugen der Erscheinungen, von denen „noch viele leben" (1 Kor 15,6) – so redet man nicht über ein Gleichnis. Und „Auferstehung" (*anastasis*) bedeutete für Juden und Heiden des 1. Jahrhunderts stets etwas Leibliches, nie eine bloße innere Erfahrung.`,
+              voices: [
+                {
+                  person: 'nt-wright',
+                  role: 'als Erforscher der Auferstehungshoffnung',
+                  text: `Wright zeigt in seiner großen Studie, dass „Auferstehung" in der gesamten antiken Welt das Wiederaufleben des Leibes nach dem Tod meinte – Heiden bestritten es, Juden erhofften es für das Ende. Dass die ersten Christen behaupteten, es sei an einem Menschen mitten in der Geschichte geschehen, lässt sich als Metapher für eine Glaubenserfahrung nicht erklären.`,
+                  sources: [{ kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Richard A. Burridge', work: 'What Are the Gospels? A Comparison with Graeco-Roman Biography', year: '1992', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'reifer-glaube-ohne-fakten',
+                  objection: `„Ein Glaube, der historische Fakten braucht, ist unreif. Wahrer Glaube ist existentielles Vertrauen ohne Garantien."`,
+                  objectionBy: 'Liberaler Pfarrer',
+                  answer: `Christlicher Glaube ist Vertrauen auf eine Person, die Gott von den Toten auferweckt hat – nicht Glaube an Fakten, aber Glaube, der auf Gottes Handeln gründet. Ohne dieses Handeln hätte das Vertrauen keinen Gegenstand: „Ist Christus aber nicht auferstanden, so ist euer Glaube eitel" (1 Kor 15,17). Glaube bleibt ein Wagnis – aber das Wagnis, sich einem lebendigen Herrn anzuvertrauen, nicht einem schönen Symbol. Die koptischen Märtyrer sind nicht für ein Symbol gestorben.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,17', quote: `Ist Christus aber nicht auferstanden, so ist euer Glaube eitel, so seid ihr noch in euren Sünden.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist die Unmöglichkeit von Wundern ein Ergebnis der Wissenschaft oder eine Voraussetzung, mit der du arbeitest?`,

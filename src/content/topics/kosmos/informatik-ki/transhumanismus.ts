@@ -140,6 +140,23 @@ const claim: Claim = {
               questionsBack: [
                 `Welche Beobachtung würde deinen Glauben an die technische Überwindung des Todes widerlegen?`,
               ],
+              followUps: [
+                {
+                  id: 'auferstehung-intersubjektive-fiktion',
+                  objection: `Religionen sind intersubjektive Fiktionen – Geschichten, an die viele glauben, wie Geld oder Nationen. Die Auferstehung ist eine solche Geschichte. Sie war nützlich, um Menschen zu verbinden, mehr nicht.`,
+                  objectionBy: 'Yuval Noah Harari (Sapiens; Homo Deus)',
+                  answer: `Harari nennt auch Menschenrechte, Liberalismus und Humanismus „Fiktionen" – er kann also nicht zwischen wahren und falschen Geschichten unterscheiden, ohne die eigene Werteordnung mit aufzulösen. Die Auferstehung ist aber keine zeitlose Moralgeschichte, sondern eine **historische Behauptung** über ein leeres Grab und Begegnungen mit dem Auferstandenen, die Paulus schon um 55 n. Chr. mit Namen von Zeugen überliefert (1 Kor 15,3–8). Solche Behauptungen kann man historisch prüfen – Fiktionen nicht.`,
+                  detail: `Hararis Unterscheidung zwischen „objektiv", „subjektiv" und „intersubjektiv" ist hilfreich für Geld und Firmen. Aber er verwendet sie wie ein Lösungsmittel für alles, was über Biologie hinausgeht – einschließlich der Würde des Menschen. Frage ihn, ob die Würde eines behinderten Kindes „nur eine Fiktion" ist. Für die Auferstehung verweise auf die historischen Argumente (frühe Bekenntnisformel, leeres Grab, Erscheinungen, Entstehung der Kirche) – siehe Themenblock zur Auferstehung.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,3–8', quote: `Denn ich habe euch zuvörderst gegeben, was ich empfangen habe: daß Christus gestorben sei für unsre Sünden nach der Schrift, und daß er begraben sei, und daß er auferstanden sei am dritten Tage nach der Schrift …`, translation: 'Luther 1912', status: 'paraphrase', note: 'Wortlaut Luther 1912 sinngemäß wiedergegeben; vor wörtlicher Verwendung abgleichen.' },
+                    { kind: 'gegner', author: 'Yuval Noah Harari', work: 'Sapiens: A Brief History of Humankind', ref: 'Kap. 2', year: '2011 (engl. 2014)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Ist die Würde eines schwerbehinderten Menschen eine Fiktion – oder eine Wirklichkeit?`,
+                    `Nach welchem Kriterium unterscheidest du eine wahre von einer nützlichen Geschichte?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -164,6 +181,29 @@ const claim: Claim = {
               objection: `Parfit hat gezeigt: Persönliche Identität ist gar nicht das, worauf es ankommt. Psychologische Kontinuität genügt.`,
               objectionBy: 'Derek Parfit',
               answer: `Das ist konsequent – aber dann bricht das transhumanistische Versprechen zusammen. Was weiterlebt, ist „jemand wie du", nicht du. Kaum jemand würde für dieses Versprechen sein Leben einsetzen. Die christliche Hoffnung ist anders: Gott bewahrt die Person – die Seele besteht fort – und erweckt den Leib verwandelt auf. Die Identität wird von Gott verbürgt, nicht von einer Datei.`,
+              followUps: [
+                {
+                  id: 'atome-ausgetauscht',
+                  objection: `Deine Atome werden ohnehin ständig ausgetauscht. Du bist schon jetzt nur ein Muster, das über wechselndes Material läuft. Der Upload ist nur ein schnellerer Materialwechsel.`,
+                  objectionBy: 'Ray Kurzweil',
+                  answer: `Der Stoffwechsel ist ein **kontinuierlicher** Prozess in **einem** lebendigen Organismus – nicht das Anfertigen einer Kopie an einem anderen Ort. Das zeigt der Test: Beim Stoffwechsel entsteht nie ein zweites Ich; beim Upload schon. Wenn du nur ein Muster wärst, wären du und deine Kopie gleichermaßen „du" – und das ist offensichtlich falsch, sobald beide nebeneinandersitzen.`,
+                  detail: `Interessanterweise hat schon Gregor von Nyssa im 4. Jahrhundert über den Stoffwechsel nachgedacht: Der Leib verändert sich ständig, aber die Seele bewahrt die „Gestalt" (eidos), die den Leib zu diesem Leib macht, und erkennt bei der Auferstehung das Ihre wieder. Die Person ist für ihn weder bloß Materie noch bloß Muster, sondern eine von Gott geschaffene, vernunftbegabte Seele in Einheit mit ihrem Leib. Das erklärt, warum Identität den Stoffwechsel überdauert, eine Kopie aber nicht „ich" ist.`,
+                  voices: [
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Kirchenvater und Denker der Auferstehung',
+                      text: `In seinem Dialog *Über die Seele und die Auferstehung* lässt Gregor seine Schwester Makrina erklären, dass die Seele auch nach der Auflösung des Leibes mit dessen Elementen verbunden bleibt und sie bei der Auferstehung wieder sammelt. Die Identität des Auferstandenen beruht nicht auf denselben Atomen, sondern auf der Seele, die ihren Leib „kennt" – eine Antwort auf das Problem des Stoffwechsels lange vor der modernen Philosophie des Geistes.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'De anima et resurrectione (Über die Seele und die Auferstehung)', year: 'um 380', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn beim Upload zwei „Du" entstehen – welches davon bist du?`,
+                    `Hat dein Stoffwechsel jemals einen zweiten von dir hervorgebracht?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -182,6 +222,33 @@ const claim: Claim = {
           answer: `Freiwilligkeit hält dem Wettbewerb nicht stand – wie beim Doping im Sport: Wenn alle anderen sich verbessern, wird der Verzicht zum Nachteil. Harari selbst warnt vor einer Spaltung in eine biotechnisch verbesserte Elite und eine „nutzlose Klasse". C. S. Lewis hat das vorausgesehen: Die Macht über die Natur wird zur Macht einiger über andere.`,
           questionsBack: [
             `Wer legt fest, welche Eigenschaften als „Verbesserung" gelten – und wer bezahlt sie?`,
+          ],
+          followUps: [
+            {
+              id: 'pflicht-zu-besten-kindern',
+              objection: `Eltern haben sogar eine moralische Pflicht, aus möglichen Kindern das mit den besten Lebensaussichten auszuwählen – „procreative beneficence". Wer darauf verzichtet, nimmt seinem Kind Chancen.`,
+              objectionBy: 'Julian Savulescu (Bioethics 15, 2001)',
+              answer: `Hier liegt der Kern des Konflikts: Ein Kind wird vom **Geschenk** zum **Produkt**, das Qualitätsanforderungen erfüllen muss. Wer Kinder nach Eigenschaften auswählt, sagt den Ausgewählten: Du bist da, weil du gepasst hast – und den Menschen mit Behinderung: Dich hätte man besser vermieden. Das 20. Jahrhundert hat gezeigt, wohin die Idee führt, „bessere" Menschen planen zu müssen.`,
+              detail: `Bemerkenswert ist, dass auch säkulare Denker so argumentieren: Michael Sandel (*The Case against Perfection*, 2007) warnt, die Haltung des „Bemeisterns" zerstöre die Offenheit für das Unerwartete, die Elternliebe ausmacht. Behindertenrechtsorganisationen kritisieren die Botschaft, die in der Selektion liegt. Aus christlicher Sicht ist jedes Kind Ebenbild Gottes, ehe es irgendeine Eigenschaft vorweisen kann (Ps 139,13–16). Das heißt nicht, Krankheiten nicht zu heilen – Heilen dient dem Kind, Selektion wählt zwischen Kindern.`,
+              voices: [
+                {
+                  person: 'john-wyatt',
+                  role: 'als Arzt (Neonatologe) und Bioethiker',
+                  text: `John Wyatt, langjähriger Neonatologe in London, beschreibt in *Matters of Life and Death*, wie die Medizin zwischen zwei Haltungen schwankt: dem Menschen als „Kunstwerk Gottes", das man pflegt und heilt, und dem Menschen als Produkt, das man nach Wunsch gestaltet. Er warnt, dass eine Kultur der Auswahl subtil den Wert von Menschen mit Behinderung infrage stellt, und plädiert für eine Medizin des Heilens und Begleitens.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'John Wyatt', work: 'Matters of Life and Death: Human Dilemmas in the Light of the Christian Faith', year: '2. Aufl. 2009', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Julian Savulescu', work: '„Procreative Beneficence: Why We Should Select the Best Children", Bioethics 15', year: '2001', status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Michael J. Sandel', work: 'The Case against Perfection: Ethics in the Age of Genetic Engineering', year: '2007', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Was sagt die Pflicht, „das beste Kind" zu wählen, einem Menschen mit Down-Syndrom über seinen Wert?`,
+                `Liebst du dein Kind, weil es deine Kriterien erfüllt – oder weil es dein Kind ist?`,
+              ],
+            },
           ],
         },
       ],

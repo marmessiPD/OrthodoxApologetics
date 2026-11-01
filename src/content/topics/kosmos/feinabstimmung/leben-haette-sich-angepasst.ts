@@ -176,6 +176,27 @@ const claim: Claim = {
       objection: `Wir kennen nur einen einzigen Datenpunkt für Leben. Wir können gar nicht wissen, was Leben grundsätzlich braucht.`,
       objectionBy: 'Sean Carroll',
       answer: `Wir wissen aus Physik und Informationstheorie sehr wohl, was *jede* Form von Leben mindestens braucht: stabile, komplexe Strukturen, die Information speichern; einen Energiefluss, der Ordnung aufrechterhält; und genügend Zeit. Diese Mindestbedingungen fehlen in den meisten alternativen Universen – unabhängig davon, wie fantasievoll wir uns Leben vorstellen.`,
+      followUps: [
+        {
+          id: 'leben-ist-berechnung',
+          objection: `Leben ist im Kern Informationsverarbeitung, und die ist substratunabhängig. Jede Physik, die Berechnung erlaubt, erlaubt auch Leben. Deine Liste von Mindestanforderungen ist viel zu sehr an unserer Biochemie orientiert.`,
+          objectionBy: 'Max Tegmark',
+          answer: `Einverstanden: Leben ist Informationsverarbeitung. Aber Substratunabhängigkeit heißt nicht Substratlosigkeit. Rechnen braucht einen Speicher, der stabil bleibt, Fehlerkorrektur, einen Energiefluss und sehr lange Zeiträume. Genau das fehlt in den meisten alternativen Universen: keine stabilen Bausteine, keine Energiequellen wie Sterne, keine Zeit. Tegmark selbst hat mit Aguirre, Rees und Wilczek die Bedingungen für Beobachter untersucht – und deutet sie mit einem Multiversum, gerade weil sie eng sind.`,
+          detail: `Schrödinger beschrieb Leben in *Was ist Leben?* (1944) als System, das sich durch Aufnahme von „negativer Entropie" in einem geordneten Zustand hält. Das ist eine physikalische, nicht biologische Definition – und sie verlangt Energiegradienten und stabile Strukturen. In *Life 3.0* (2017) beschreibt Tegmark Leben ebenfalls als informationsverarbeitendes System. Beides bestätigt den Punkt: Was auch immer „Leben" konkret ist, es braucht eine Physik, die stabile, komplexe Informationsträger und lange Zeiträume erlaubt.`,
+          sources: [{ kind: 'wissenschaft', author: 'Max Tegmark, Anthony Aguirre, Martin Rees & Frank Wilczek', work: '„Dimensionless Constants, Cosmology and Other Dark Matters", Physical Review D 73', year: '2006', quote: `Die Autoren untersuchen, welche Werte dimensionsloser Konstanten Beobachter zulassen, und deuten die Einschränkungen im Rahmen eines Multiversums.`, status: 'paraphrase' }],
+          questionsBack: [`Welche Art von Speicher, Energiequelle und Zeitskala soll in einem Universum rechnen, das nach Sekundenbruchteilen kollabiert?`],
+          followUps: [
+            {
+              id: 'dann-eben-multiversum',
+              objection: `Gut, die Bedingungen sind eng. Aber das ist kein Problem, wenn es unzählige Universen mit verschiedenen Konstanten gibt. Dann sind wir eben in einem der wenigen, die funktionieren.`,
+              objectionBy: 'Max Tegmark',
+              answer: `Damit hast du das Thema gewechselt – und mir den wichtigsten Punkt zugestanden: Das Leben hätte sich *nicht* einfach an andere Bedingungen angepasst; die Bedingungen müssen stimmen. Ob ein Multiversum das erklärt, ist eine eigene Frage. Es ist unbeobachtbar, braucht selbst einen fein eingestellten Universen-Generator und führt zum Problem der Boltzmann-Gehirne. Dazu gibt es einen eigenen Abschnitt.`,
+              detail: `Das ist ein typischer Gesprächsverlauf, den du kennen solltest: Wer den Einwand „Leben hätte sich angepasst" nicht halten kann, weicht auf das Multiversum aus. Halte dann fest, was gerade zugestanden wurde – und wechsle zum Claim „Das Multiversum erklärt die Feinabstimmung".`,
+              questionsBack: [`Stimmst du also zu, dass die Feinabstimmung real ist und nur noch ihre Erklärung strittig ist?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

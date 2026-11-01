@@ -165,6 +165,20 @@ Nur Kategorie 1 hat Beweiskraft im strengen Sinn. Wer das offen sagt, gewinnt Gl
           objectionBy: 'Richard Carrier',
           answer: `Gerichtsworte sind in der Bibel oft bedingt (Jer 18,7–10; Jona 3) und bedienen sich prophetischer Hyperbel; Tyrus verlor nach Alexander für immer seine Stellung als unabhängige Seemacht. Man kann darüber streiten, ob das genügt – darum baue ich mein Argument nicht auf Tyrus, sondern auf die Messiasprophetien, die konkret und vorchristlich bezeugt sind.`,
           questionsBack: [`Würdest du Jona auch einen falschen Propheten nennen, weil Ninive nach seiner Predigt nicht unterging?`],
+          followUps: [
+            {
+              id: 'bedingt-unfalsifizierbar',
+              objection: `„Bedingte Prophetie" ist der perfekte Notausgang: Trifft es ein, war es Prophetie; trifft es nicht ein, war es bedingt. So kann Prophetie nie scheitern.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Das wäre so, wenn wir die Bedingung erst nachträglich erfänden. Aber das Prinzip steht vorher im Text selbst (Jer 18,7–10), und es betrifft Gerichtsworte gegen Völker, die umkehren können. Die messianischen Verheißungen sind dagegen unbedingte Zusagen – und sie sind falsifizierbar: Nach Daniel 9,26, Haggai 2,9 und Maleachi 3,1 musste der Gesalbte kommen, solange der zweite Tempel stand. Hätte bis zum Jahr 70 niemand diese Rolle erfüllt, wäre der christliche Anspruch widerlegt.`,
+              detail: `Damit drehst du den Vorwurf um: Du benennst eine klare Prüfbedingung. Der Tempel wurde 70 n. Chr. zerstört; seitdem kann kein Kandidat mehr diese Texte erfüllen. Darum ist es kein Zufall, dass der Talmud (bSanhedrin 97a–b) über das Ausbleiben des Messias zur erwarteten Zeit ringt. Ob man Jesus als Erfüllung anerkennt, ist eine weitere Frage – aber die Behauptung, biblische Prophetie sei grundsätzlich unfalsifizierbar, stimmt nicht.`,
+              sources: [
+                { kind: 'bibel', work: 'Jeremia', ref: '18,7–8', quote: `Plötzlich rede ich wider ein Volk und Königreich, dass ich's ausrotten, zerbrechen und verderben wolle; wo sich's aber bekehrt von seiner Bosheit, dawider ich rede, so soll mich auch reuen das Unglück, das ich ihm gedachte zu tun.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Maleachi', ref: '3,1', quote: `Und bald wird kommen zu seinem Tempel der Herr, den ihr suchet.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              questionsBack: [`Welcher Kandidat außer Jesus hat vor der Zerstörung des Tempels die Rolle erfüllt, die Daniel 9 und Maleachi 3 beschreiben?`],
+            },
+          ],
         },
       ],
     },
@@ -179,6 +193,28 @@ Nur Kategorie 1 hat Beweiskraft im strengen Sinn. Wer das offen sagt, gewinnt Gl
           objection: `Jes 53 ist Teil von Deuterojesaja und handelt vom Leiden der Exilierten. Es geht um das 6. Jahrhundert, nicht um Jesus.`,
           objectionBy: 'Dan McClellan',
           answer: `Selbst dann bleibt die Frage, warum dieser Text – vorchristlich in Qumran bezeugt – so genau auf Jesus passt: ein Unschuldiger, der freiwillig für die Schuld anderer stirbt, wie ein Lamm schweigt, „bei Reichen" begraben wird und nach seinem Tod „Nachkommen sehen" und „lange leben" wird (53,10). Kein Exilierter und kein Kollektiv erfüllt diese Abfolge von stellvertretendem Tod und Rechtfertigung danach so wie Jesus.`,
+          followUps: [
+            {
+              id: 'grab-bei-reichen-erfunden',
+              objection: `Genau umgekehrt: Die Evangelisten haben die Passion nach Jesaja 53 gestaltet. Das Grab „bei einem Reichen" (53,9) – daraus wurde Josef von Arimathäa.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Dann ist auffällig, dass kein einziger Evangelist Jes 53,9 zitiert, wenn er vom Begräbnis erzählt – Matthäus, der sonst jede Erfüllung markiert, schweigt hier. Und wer eine Figur erfindet, gibt ihr nicht Namen, Heimatort und Sitz im Hohen Rat, den jeder Zeitgenosse hätte überprüfen können. Ein erfundener Prophetie-Beleg, den niemand als Beleg benutzt, ist eine merkwürdige Fälschung.`,
+              questionsBack: [`Warum sollte Markus einen prominenten Ratsherrn erfinden und dann versäumen, auf die Prophetie hinzuweisen, die er damit erfüllen wollte?`],
+              followUps: [
+                {
+                  id: 'gekreuzigte-unbestattet',
+                  objection: `Die Römer ließen Gekreuzigte hängen oder warfen sie in Massengräber. Ein ehrenvolles Grab für einen Hingerichteten ist historisch unwahrscheinlich.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Im Normalfall ja – aber nicht in Judäa in Friedenszeiten. Das jüdische Gesetz verlangte die Bestattung vor Sonnenuntergang (Dtn 21,23), und Josephus bezeugt, dass die Juden sogar Gekreuzigte vor Sonnenuntergang abnahmen und begruben. 1968 fand man in Giv'at ha-Mivtar bei Jerusalem das Ossuar eines Gekreuzigten namens Jehochanan, dessen Fersenbein noch den Nagel enthielt – bestattet in einem Familiengrab. Eine Bestattung Jesu durch einen Ratsherrn ist also historisch gut vorstellbar.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Der Jüdische Krieg', ref: '4,317 (4,5,2)', year: 'ca. 75', quote: `Die Juden sorgten so sehr für die Bestattung, dass sie selbst die zur Kreuzigung Verurteilten vor Sonnenuntergang abnahmen und begruben.`, status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Joseph Zias, Eliezer Sekeles', work: 'The Crucified Man from Giv\'at ha-Mivtar: A Reappraisal. Israel Exploration Journal 35', year: '1985', quote: `Neuuntersuchung der Gebeine des gekreuzigten Jehochanan; ein Nagel steckte noch im Fersenbein.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Deuteronomium', ref: '21,23', quote: `So soll sein Leichnam nicht über Nacht an dem Holz bleiben, sondern du sollst ihn desselben Tages begraben.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
