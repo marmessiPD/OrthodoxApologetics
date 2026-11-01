@@ -150,6 +150,34 @@ const claim: Claim = {
               id: 'luecken-keine-milliarden',
               objection: `Selbst mit Lücken kommst du nicht auf Milliarden Jahre.`,
               answer: `Richtig – und das muss ich auch nicht. Die Stammbäume betreffen die Menschheitsgeschichte, nicht das Alter der Erde. Die Frage nach Milliarden Jahren hängt an Gen 1,1 und den Schöpfungstagen, nicht an den Genealogien.`,
+              followUps: [
+                {
+                  id: 'tod-vor-dem-suendenfall',
+                  objection: `Wenn die Erde Milliarden Jahre alt ist, dann gab es Hunderte Millionen Jahre Tod, Raubtiere und Krankheit vor dem Sündenfall. Aber Römer 5,12 sagt: Durch die Sünde kam der Tod in die Welt. Und Gott nannte das alles „sehr gut"? Eine alte Erde zerstört das Evangelium.`,
+                  objectionBy: 'Ken Ham (Junge-Erde-Position)',
+                  answer: `Das ist ein ernster theologischer Einwand, und er verdient eine sorgfältige Antwort. Römer 5,12 spricht ausdrücklich vom Tod, der „zu allen Menschen durchgedrungen" ist – es geht um den Tod des Menschen. Athanasius lehrt, der Mensch sei aus dem Nichts geschaffen und darum von Natur sterblich gewesen; nur die Gnade der Gemeinschaft mit Gott bewahrte ihn vor der Verwesung, und mit der Sünde verlor er sie. Ob Tiere vor dem Fall starben, hat die Kirche nie dogmatisch entschieden.`,
+                  detail: `**Der Text:** Röm 5,12 – „wie durch einen Menschen die Sünde ist gekommen in die Welt und der Tod durch die Sünde, und ist also der Tod zu allen Menschen durchgedrungen, dieweil sie alle gesündigt haben". Der Zusammenhang (Adam – Christus, Sünde – Gerechtigkeit) betrifft die Menschheit. Auch 1 Kor 15,21–22 spricht von Tod und Auferstehung der Menschen.
+
+**Athanasius:** In *De Incarnatione* 4–5 beschreibt er den Menschen als von Natur vergänglich, weil aus dem Nichts geschaffen. Durch die Teilhabe am Logos hätte er seine natürliche Vergänglichkeit überwinden können; durch die Abwendung von Gott fiel er in die Verwesung zurück. Der Tod des Menschen ist also Folge der verlorenen Gnade – ein Gedanke, der nicht voraussetzt, dass es vorher in der ganzen Tierwelt keinen Tod gab.
+
+**„Sehr gut":** Im Hebräischen (*ṭôb meʾōd*) heißt das: der Absicht Gottes vollkommen entsprechend – nicht notwendig „frei von jeder Vergänglichkeit". Ps 104,21 preist Gott dafür, dass er den jungen Löwen ihre Speise gibt.
+
+**Fair bleiben:** Viele Väter (u. a. Basilius) dachten, die Tiere seien vor dem Fall friedlich gewesen. Das ist eine ehrwürdige Meinung, aber keine definierte Lehre. Die koptische Kirche bindet hier nicht – verbindlich sind die Realität von Adam und Eva, des Falls und der Erlösung in Christus.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Lehrer über Schöpfung, Fall und Menschwerdung',
+                      text: `Athanasius erklärt, dass der Mensch, aus dem Nichts geschaffen, von Natur aus vergänglich ist. Gott gab ihm jedoch Anteil an seinem Logos, damit er in der Unvergänglichkeit bleiben könne. Als der Mensch sich von Gott abwandte, verlor er diese Gnade und verfiel der Verwesung und dem Tod. Deshalb wurde der Logos Mensch: um den Tod von innen zu überwinden und den Menschen zur Unvergänglichkeit zurückzuführen.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '4–5', quote: `Der Mensch ist von Natur sterblich, weil er aus dem Nichts geworden ist; aber wegen seiner Ähnlichkeit mit dem Seienden hätte er, wenn er sie bewahrt hätte, die natürliche Vergänglichkeit abgewehrt und unvergänglich geblieben.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Römer', ref: '5,12', quote: `Derhalben, wie durch einen Menschen die Sünde ist gekommen in die Welt und der Tod durch die Sünde, und ist also der Tod zu allen Menschen durchgedrungen, dieweil sie alle gesündigt haben.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Psalmen', ref: '104,21', quote: `Die jungen Löwen, die da brüllen nach dem Raub und ihre Speise suchen von Gott.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Von wessen Tod spricht Römer 5,12 im Zusammenhang – und wo lehrt die Schrift ausdrücklich, dass vor dem Fall kein Tier starb?`],
+                },
+              ],
             },
           ],
         },
@@ -173,6 +201,23 @@ const claim: Claim = {
               objection: `Das ist doch nur eine Umdeutung, seit Darwin und die Geologie euch dazu zwingen.`,
               answer: `Nein: Origenes im 3. und Augustinus im 5. Jahrhundert lasen die Tage nicht als gewöhnliche Tage – über tausend Jahre vor der modernen Geologie, allein aus Gründen des Textes. Augustinus schrieb sogar, es sei schwer oder unmöglich zu denken, welcher Art diese Tage seien.`,
               sources: [augustinusCivDei116],
+              followUps: [
+                {
+                  id: 'vaeter-trotzdem-junge-erde',
+                  objection: `Netter Versuch. Aber Augustinus dachte an eine Schöpfung in einem einzigen Augenblick, nicht an Milliarden Jahre – und er hielt die Welt für keine 6.000 Jahre alt. Die Väter stützen deine alte Erde überhaupt nicht.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `Völlig richtig, und ich sage das selbst: Die Väter lehrten keine Tiefenzeit, und die meisten hielten die Welt für jung. Mein Punkt ist ein anderer: Sie haben die *Dauer* der Schöpfungstage nicht zur Glaubensfrage gemacht und aus dem Text selbst nicht-wörtliche Deutungen begründet. Ihr Weltalter übernahmen sie aus der Chronologie ihrer Zeit – nicht aus einem Dogma. Wenn sich die Datenlage ändert, ändert sich die Zahl, nicht der Glaube.`,
+                  detail: `**Was die Väter belegen – und was nicht:**
+- **Belegen:** Die Schöpfungstage wurden schon früh unterschiedlich gelesen (Basilius und Ephräm eher wörtlich, Origenes und Augustinus nicht als gewöhnliche Tage), ohne dass eine Lesart verurteilt wurde. Die Kirche hat die Frage offen gehalten.
+- **Nicht belegen:** Dass die Väter eine alte Erde lehrten. Augustinus rechnete mit weniger als 6.000 Jahren seit Adam (De Civ. Dei XII,10).
+
+**Warum das trotzdem zählt:** Der Vorwurf lautete, nicht-wörtliche Deutungen seien eine Erfindung *nach* Darwin. Das ist widerlegt. Und die Väter selbst gaben eine Regel, wie mit Naturwissen umzugehen ist: Augustinus warnte, Christen sollten die Schrift nicht für naturkundliche Behauptungen in Anspruch nehmen, die sich als falsch erweisen könnten (De Genesi ad litteram I,19,39).
+
+Dieses Zugeständnis macht dich glaubwürdig. Sag es aktiv, bevor dein Gegenüber es findet.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'De Civitate Dei', ref: 'XII,10', quote: `Seit der Erschaffung des Menschen seien noch nicht ganz 6.000 Jahre vergangen.`, status: 'paraphrase' }],
+                  questionsBack: [`Hat die Kirche je die Dauer der Schöpfungstage zum Glaubenssatz erklärt – oder blieb das eine offene Auslegungsfrage?`],
+                },
+              ],
             },
           ],
         },

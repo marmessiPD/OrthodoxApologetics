@@ -95,6 +95,22 @@ const claim: Claim = {
               sources: [
                 { kind: 'koran', work: 'Sure 4 (an-Nisa\')', ref: '4:78–79', quote: `Sag: Alles ist von Allah … Was dich an Gutem trifft, ist von Allah, und was dich an Bösem trifft, ist von dir selbst.`, original: `qul kullun min ʿindi llāh … wa-mā aṣābaka min sayyiʾatin fa-min nafsik`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/4/78-79' },
               ],
+              followUps: [
+                {
+                  id: 'chronist-aenderte-bewusst',
+                  objection: `Die Bibelwissenschaft sagt doch selbst: Der Chronist hat die Samuel-Stelle bewusst umgeschrieben, weil er Gott nicht mehr als Urheber des Bösen sehen wollte. Das ist eine Textänderung aus theologischen Gründen – also Tahrif.`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Ein späterer Autor, der eine Geschichte mit anderem Akzent neu erzählt, ist kein Fälscher – er hat ja das Samuelbuch nicht verändert. Beide Bücher stehen nebeneinander im Kanon, und Juden wie Christen haben sie über Jahrtausende *unverändert nebeneinander* abgeschrieben, ohne den Unterschied zu glätten. Das ist das Gegenteil von Tahrif: Wer fälscht, beseitigt Spannungen. Und der Koran erzählt ebenfalls Geschichten mehrfach mit anderen Details: Der Stab Moses wird zur „Schlange" (*thuʿbān*, 7:107), zur „gleitenden Schlange" (*ḥayya*, 20:20) und bewegt sich „wie ein *jānn*" (27:10).`,
+                  detail: `Die Chronik ist eine bewusst theologische Nacherzählung der Königsgeschichte für die Gemeinde nach dem Exil. Dass sie den Satan als Werkzeug nennt, wo Samuel den Zorn Gottes betont, ist eine Deutung, die beide Ebenen zusammenhält – so wie Hiob 1–2. Muslimische Gelehrte erklären die unterschiedlichen Schlangenbegriffe des Korans mit verschiedenen Aspekten desselben Ereignisses. Dasselbe Recht steht der Bibel zu.`,
+                  sources: [
+                    { kind: 'koran', work: 'Sure 7 (al-A\'raf)', ref: '7:107', quote: `Da warf er seinen Stock hin, und sogleich war er eine deutliche Schlange.`, original: `fa-idhā hiya thuʿbānun mubīn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/7/107' },
+                    { kind: 'koran', work: 'Sure 27 (an-Naml)', ref: '27:10', quote: `Als er ihn sich regen sah, als wäre er eine flinke Schlange (jānn), wandte er sich ab.`, original: `ka-annahā jānnun`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/27/10' },
+                  ],
+                  questionsBack: [
+                    `Wenn Juden und Christen fälschen wollten – warum haben sie die Spannung zwischen Samuel und Chronik zweitausend Jahre lang stehen lassen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -118,6 +134,28 @@ const claim: Claim = {
               objectionBy: 'Zakir Naik',
               answer: `Auch der Koran wurde von Menschen abgeschrieben, und frühe Koranhandschriften enthalten Korrekturen und abweichende Lesarten (siehe die Forschungen von Keith Small und Daniel Brubaker). Muslime unterscheiden deshalb zwischen dem offenbarten Wort und seiner menschlichen Abschrift. Dieselbe Unterscheidung treffe ich: Inspiriert ist das Wort Gottes, nicht die Hand jedes Kopisten.`,
               detail: `Siehe Claim „Der Koran ist Buchstabe für Buchstabe perfekt bewahrt" im Topic „Der Koran auf dem Prüfstand".`,
+              followUps: [
+                {
+                  id: 'inspiration-nur-original',
+                  objection: `Wenn nur das Original inspiriert ist und ihr das Original nicht habt, dann ist eure Inspiration wertlos. Ihr glaubt an ein Buch, das es nicht gibt.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Ein Original muss man nicht in der Hand halten, um seinen Inhalt zu kennen – es genügt, dass es zuverlässig abgeschrieben wurde und man Fehler erkennen kann. Das gilt für jedes Buch der Antike und auch für den Koran: Die Handschriften in Istanbul und Taschkent, die oft „Uthman-Koran" genannt werden, sind nach der Forschung – auch muslimischer Forscher wie Tayyar Altıkulaç – nicht Uthmans eigene Exemplare. Niemand besitzt Uthmans Kodizes. Trotzdem sagst du zu Recht, dass du weißt, was darin stand – durch die Abschriften.`,
+                  detail: `Der Unterschied zwischen „inspiriertem Original" und „treuer Abschrift" ist keine christliche Ausflucht, sondern eine Unterscheidung, die jede Schriftreligion treffen muss, sobald ein Text kopiert wird. Entscheidend ist die Frage, ob der ursprüngliche Wortlaut durch die Überlieferung erreichbar bleibt. Beim Neuen Testament ist das dank Tausender Handschriften, früher Übersetzungen und Väterzitate in außergewöhnlichem Maß der Fall.`,
+                  voices: [
+                    {
+                      person: 'keith-small',
+                      role: 'als Erforscher der Koranhandschriften',
+                      text: `Small zeigt, dass auch die frühesten erhaltenen Koranhandschriften kein „Autograph" sind, sondern Abschriften mit eigener Orthografie, Korrekturen und Varianten. Die Rede vom „Original" ist beim Koran ebenso eine Rekonstruktion aus Abschriften wie bei der Bibel – nur mit dem Unterschied, dass beim Koran die Vielfalt früh durch Vereinheitlichung verringert wurde.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Keith E. Small', work: 'Textual Criticism and Qur\'an Manuscripts', year: '2011', quote: `Auch für den Koran ist der ursprüngliche Text nur über Abschriften zugänglich.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Besitzt du Uthmans Originalkodex? Und wenn nicht – woher weißt du, was darin stand?`,
+                  ],
+                },
+              ],
             },
           ],
         },

@@ -34,7 +34,7 @@ const claim: Claim = {
     sources: [
       { kind: 'wissenschaft', author: 'The Chimpanzee Sequencing and Analysis Consortium', work: '„Initial sequence of the chimpanzee genome and comparison with the human genome", Nature 437', ref: 'S. 69–87', year: '2005', status: 'paraphrase', quote: `Einzelbasen-Substitutionen betreffen etwa 1,23 % der alignierten Sequenz; Insertionen und Deletionen tragen zusätzlich bei; etwa 29 % der orthologen Proteine sind identisch.` },
       { kind: 'wissenschaft', author: 'Roy J. Britten', work: '„Divergence between samples of chimpanzee and human DNA sequences is 5%, counting indels", PNAS 99 (21)', ref: 'S. 13633–13635', year: '2002', status: 'paraphrase' },
-      { kind: 'wissenschaft', author: 'D. Yoo u. a.', work: '„Complete sequencing of ape genomes", Nature', year: '2025', status: 'unverified', note: 'Vollständige T2T-Genome mehrerer Menschenaffen; konkrete Prozentangaben zu strukturellen Unterschieden vor Verwendung im Original prüfen. Kreationistische Zahlen wie „nur 85 % Ähnlichkeit" beruhen oft auf abweichender Zählweise.' },
+      { kind: 'wissenschaft', author: 'DongAhn Yoo u. a.', work: '„Complete sequencing of ape genomes", Nature', year: '2025', status: 'paraphrase', quote: `Lückenlose (Telomer-zu-Telomer-)Genome von sechs Menschenaffenarten. Im direkt vergleichbaren Bereich liegt die Einzelbasen-Divergenz Mensch–Schimpanse bei rund 1,5 %; zusätzlich ließen sich etwa 12,5–27,3 % eines Affengenoms nicht eins zu eins mit dem menschlichen Genom alignieren („gap divergence", für Mensch–Schimpanse je nach Richtung rund 12,5–14 %).`, url: 'https://doi.org/10.1038/s41586-025-08816-3', note: 'Erschienen am 9. April 2025. Die Prozentwerte stammen aus dem Supplement und sind hier nach übereinstimmenden Sekundärberichten (u. a. Peaceful Science, J. Coyne 2025) wiedergegeben; vor wörtlicher Verwendung im Original prüfen. Einzelbasen- und Lücken-Divergenz sind verschiedene Maße und dürfen nicht einfach zu „85 % Ähnlichkeit" verrechnet werden; die nicht alignierbaren Bereiche bestehen großteils aus Duplikationen und Wiederholungssequenzen.' },
       { kind: 'wissenschaft', author: 'Mary-Claire King, Allan C. Wilson', work: '„Evolution at two levels in humans and chimpanzees", Science 188', ref: 'S. 107–116', year: '1975', status: 'paraphrase', quote: `Die großen organismischen Unterschiede bei geringer Proteinsequenz-Differenz deuten auf die Bedeutung regulatorischer Veränderungen hin.` },
     ],
   },
@@ -102,6 +102,21 @@ const claim: Claim = {
                 { kind: 'wissenschaft', author: 'Megan Y. Dennis u. a.', work: '„Evolution of human-specific neural SRGAP2 genes by incomplete segmental duplication", Cell 149', year: '2012', status: 'paraphrase' },
                 { kind: 'wissenschaft', author: 'Katherine S. Pollard u. a.', work: '„An RNA gene expressed during cortical development evolved rapidly in humans", Nature 443', year: '2006', status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'kleine-genaenderungen-grosses-gehirn',
+                  objection: `Und diese Gene zeigen, wie wenig es braucht: ARHGAP11B entstand durch eine teilweise Genverdopplung und eine einzige Spleiß-Mutation, NOTCH2NL durch Duplikation und Genkonversion – und beide vermehren im Experiment die Vorläuferzellen der Großhirnrinde. Kleine genetische Änderungen, großes Gehirn.`,
+                  objectionBy: 'Nathan Lents',
+                  answer: `Faszinierende Befunde, die ich gern anerkenne. Sie zeigen aber zweierlei, das zu meinem Punkt passt: Erstens gibt es **menschenspezifische** Gene – die „98 %" verdecken also funktional bedeutsame Unterschiede. Zweitens sind es Abwandlungen vorhandener Gene, die eine Zellvermehrung verstärken; sie erklären, warum das Gehirn größer wird, nicht, warum ein Wesen Mathematik treibt, Wahrheit sucht und betet. Neandertaler hatten ein mindestens ebenso großes Gehirn – Größe ist nicht Geist.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Marta Florio u. a.', work: '„Human-specific gene ARHGAP11B promotes basal progenitor amplification and neocortex expansion", Science 347', year: '2015', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Ian T. Fiddes u. a.', work: '„Human-specific NOTCH2NL genes affect Notch signaling and cortical neurogenesis", Cell 173', year: '2018', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn die Gehirngröße das Entscheidende wäre – was folgt dann daraus, dass Neandertaler ein ebenso großes Gehirn hatten wie wir?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -110,6 +125,22 @@ const claim: Claim = {
           objection: `Die angeblichen „85 %" aus den neuen T2T-Genomen sind kreationistische Verzerrungen. Sie zählen nicht-alignierbare Duplikate doppelt.`,
           objectionBy: 'Dennis Venema',
           answer: `Das kann gut sein, und ich vermeide solche Zahlen deshalb. Ich sage nur: Die Prozentzahl hängt von der Methode ab, und der vollständige Genomvergleich zeigt mehr strukturelle Unterschiede als die alte 98,8-%-Schlagzeile vermuten ließ. Mein Argument hängt aber gar nicht an der Prozentzahl – weder an 99 noch an 85.`,
+          followUps: [
+            {
+              id: 't2t-snv-und-luecken',
+              objection: `Das T2T-Paper selbst gibt im vergleichbaren Bereich etwa 1,5 % Einzelbasen-Unterschiede an. Die 12–13 % „gap divergence" sind überwiegend Duplikationen und Wiederholungssequenzen, die sich schlicht nicht eins zu eins zuordnen lassen. Wer das addiert, vergleicht Äpfel mit Birnen.`,
+              objectionBy: 'Dennis Venema',
+              answer: `Einverstanden, und ich will es präzise sagen: Yoo und Kollegen (Nature 2025) berichten die Einzelbasen-Divergenz und die Lücken-Divergenz getrennt; man darf sie nicht zu einer Zahl wie „85 %" verschmelzen und so tun, als sei das dieselbe Messung wie die alten 98,8 %. Was man ehrlich sagen kann: Der vollständige Genomvergleich zeigt mehr strukturelle Unterschiede, als die Schlagzeile „99 %" vermuten lässt. Mein Argument hängt ohnehin nicht an der Prozentzahl, sondern daran, was Ähnlichkeit überhaupt beweisen kann.`,
+              followUps: [
+                {
+                  id: 'luskin-149-prozent',
+                  objection: `Dann sag das deinen Leuten. Discovery-Institute-Autoren verbreiten seit 2025 „mindestens 14,9 % Unterschied", als sei die 99 %-Zahl damit widerlegt.`,
+                  objectionBy: 'Larry Moran',
+                  answer: `Das ist eine berechtigte Kritik, und ich nehme sie auf: Wer Einzelbasen- und Lücken-Divergenz addiert, sollte ausdrücklich sagen, dass es sich um verschiedene Maße handelt, und nicht den Eindruck erwecken, die 1,2 % seien „falsch". Richtig ist die Aussage: **Die Prozentzahl hängt von der Zählweise ab**, und je vollständiger man vergleicht, desto mehr Unterschiede werden sichtbar. Ein Christ sollte keine Zahl verwenden, die er nicht selbst erklären kann – sonst verliert er die Debatte an der Fußnote.`,
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -138,6 +169,27 @@ const claim: Claim = {
           objection: `Die Seele ist eine unbelegte Annahme. Alles am Menschen ist Biologie.`,
           objectionBy: 'Jerry Coyne',
           answer: `Dass alles am Menschen Biologie ist, ist ebenfalls eine Annahme – eine philosophische. Bewusstsein, Intentionalität und die Fähigkeit, Gründe statt bloß Ursachen zu haben, sind bis heute nicht materialistisch erklärt. Und wenn unser Denken nur auf Überleben, nicht auf Wahrheit selektiert wäre, hätten wir keinen Grund, ihm beim Naturalismus zu trauen. Siehe die Claims zum Bewusstsein und zu Vernunft und Evolution.`,
+          followUps: [
+            {
+              id: 'gehirnschaden-veraendert-seele',
+              objection: `Die Neurowissenschaft zeigt das Gegenteil einer Seele: Schädige das Gehirn, und Persönlichkeit, Erinnerung und Moral verändern sich. Phineas Gage, Alzheimer, Tumore – der „Geist" hängt vollständig am Gewebe.`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Abhängigkeit ist nicht Identität. Dass der Geist im irdischen Leben auf ein funktionierendes Gehirn angewiesen ist, bestreitet kein Christ – die christliche Tradition versteht den Menschen gerade nicht als Geist im Körpergefängnis, sondern als Einheit von Leib und Seele. Dann ist zu erwarten, dass eine Schädigung des Leibes das ganze Menschsein beeinträchtigt. Was die Befunde nicht zeigen, ist, dass Bewusstsein, Bedeutung und Wahrheitsfähigkeit **nichts als** Gewebe seien.`,
+              voices: [
+                {
+                  person: 'gregor-nyssa',
+                  role: 'als Kirchenvater und Anthropologe',
+                  text: `Gregor von Nyssa betont in seiner Schrift über die Erschaffung des Menschen, dass die Seele den ganzen Leib durchwirkt und sich der leiblichen Organe bedient; wenn diese geschädigt sind, kann sie ihre Kräfte nicht entfalten – so wie ein Musiker auf einem verstimmten Instrument nicht gut spielen kann. Die Seele ist für ihn dennoch nicht mit den Organen identisch.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Über die Erschaffung des Menschen (De hominis opificio)', ref: 'Kap. 12–15', year: '379', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn ein beschädigtes Instrument schlecht klingt – beweist das, dass es keinen Musiker gibt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -152,6 +204,21 @@ const claim: Claim = {
           objection: `Sechs Millionen Jahre reichen locker – die Mutationsrate liefert genug Unterschiede.`,
           objectionBy: 'Larry Moran',
           answer: `Für die Zahl neutraler Unterschiede: ja, das gestehe ich zu. Die offene Frage betrifft gezielte, koordinierte Veränderungen, die neue Funktionen hervorbringen – für bestimmte Mutationspaare errechneten Durrett & Schmidt in der menschlichen Linie sehr lange Wartezeiten. Wie viele solcher Änderungen der Mensch braucht, ist unbekannt. Siehe das Wartezeitproblem.`,
+          followUps: [
+            {
+              id: 'har1-beschleunigt',
+              objection: `Die entscheidenden Änderungen sind regulatorisch, wie King und Wilson schon 1975 vermuteten. HAR1 ist das Paradebeispiel: 18 Basenaustausche in 118 Basen allein in der menschlichen Linie, in einem Element, das sich zwischen Huhn und Schimpanse kaum verändert hat. Kleine Sequenzänderungen, große Wirkung – und genug Zeit war offensichtlich da.`,
+              objectionBy: 'Dan Stern Cardinale',
+              answer: `HAR1 ist faszinierend – und genau deshalb erklärungsbedürftig. Wenn sich in einem über Hunderte Millionen Jahre fast unveränderten Element in wenigen Millionen Jahren 18 Änderungen häufen, ist das keine Routine, sondern eine Ausnahme, die man erklären muss. Fachleute diskutieren dafür auch nicht-adaptive Ursachen wie GC-verzerrte Genkonversion, die Basen gehäuft austauscht, ohne dass Selektion beteiligt ist. Ob die Austausche koordiniert eine neue Funktion schufen, ist offen – und genau das ist die Wartezeitfrage.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Katherine S. Pollard u. a.', work: '„An RNA gene expressed during cortical development evolved rapidly in humans", Nature 443', year: '2006', status: 'paraphrase', quote: `HAR1 zeigt 18 Substitutionen in der menschlichen Linie, wo bei Neutralität etwa 0,27 zu erwarten wären.` },
+                { kind: 'wissenschaft', author: 'Mary-Claire King, Allan C. Wilson', work: '„Evolution at two levels in humans and chimpanzees", Science 188', year: '1975', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welche Funktion hatten die Zwischenstufen von HAR1 – und wie viele der 18 Austausche waren einzeln vorteilhaft?`,
+              ],
+            },
+          ],
         },
       ],
     },

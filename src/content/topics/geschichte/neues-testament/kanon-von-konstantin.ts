@@ -253,6 +253,65 @@ const claim: Claim = {
         { kind: 'bibel', work: 'Johannes', ref: '16,13', quote: `Wenn aber jener, der Geist der Wahrheit, kommen wird, der wird euch in alle Wahrheit leiten.`, translation: 'Luther 1912', status: 'verbatim' },
       ],
     },
+    {
+      id: 'kriterien-versagt-faelschungen',
+      objection: `Eure Kanonkriterien haben versagt. „Apostolisch" sollte ein Buch sein – und doch stehen im Neuen Testament Briefe, die nach der Mehrheit der kritischen Forschung nicht von den genannten Aposteln stammen: der 2. Petrusbrief, die Pastoralbriefe. Die Kirche hat Fälschungen kanonisiert, weil ihr der Inhalt passte.`,
+      objectionBy: 'Bart Ehrman („Forged")',
+      answer: `Die alte Kirche war in der Echtheitsfrage weit kritischer, als Ehrman sie darstellt: Bischof Serapion von Antiochien verbot um 200 das Petrusevangelium, nachdem er es geprüft hatte; ein Presbyter, der die Paulusakten verfasst hatte, wurde laut Tertullian abgesetzt. Gerade beim 2. Petrusbrief und beim Hebräerbrief sagte die Kirche offen, dass ihre Herkunft umstritten war – Eusebius führt sie unter den „bestrittenen" Schriften. Dass die heutige kritische Forschung manche Zuschreibung bezweifelt, heißt nicht, dass die Frage entschieden ist; für mehrere dieser Briefe gibt es ernsthafte Argumente für die traditionelle Verfasserschaft.`,
+      detail: `**Die alte Kirche prüfte:**
+- **Serapion von Antiochien** (um 200, bei Eusebius KG VI,12): Er erlaubte zunächst die Lesung des Petrusevangeliums, las es dann selbst, fand doketische Zusätze und zog die Erlaubnis zurück – mit der Begründung, Schriften, die fälschlich unter Apostelnamen gingen, weise man zurück.
+- **Tertullian** (De baptismo 17): Der Presbyter in Kleinasien, der die Paulusakten verfasste, „aus Liebe zu Paulus", wurde überführt und abgesetzt.
+- **Origenes** zum Hebräerbrief (bei Eusebius KG VI,25,14): Die Gedanken seien paulinisch, Stil und Ausdruck nicht; wer den Brief geschrieben habe, wisse nur Gott.
+
+**Ehrlich:** Die Mehrheit der kritischen Forschung hält den 2. Petrusbrief für pseudonym; bei den Pastoralbriefen ist die Lage ähnlich, bei Kolosser und 2. Thessalonicher gespalten. Konservative Forscher (z. B. Michael Kruger zum 2. Petrusbrief) halten mit Argumenten an der Echtheit fest – etwa mit Hinweis auf Sekretäre und die frühe Bezeugung. Aus koptisch-orthodoxer Sicht beruht die Autorität dieser Bücher auf ihrer Annahme durch die Kirche als apostolisches Zeugnis; die Verfasserfrage wird ehrlich diskutiert, ohne dass der Glaube daran hängt.`,
+      voices: [
+        {
+          person: 'michael-kruger',
+          role: 'als Kanonforscher',
+          text: `Kruger argumentiert, dass der Kanon nicht allein durch äußere Kriterien wie Apostolizität begründet wird, sondern durch das Zusammenspiel von drei Faktoren: den göttlichen Eigenschaften der Schriften selbst, ihrer apostolischen Herkunft und ihrer gemeinsamen Annahme durch die Kirche. Zum 2. Petrusbrief hat er eigens dargelegt, dass die Argumente gegen die Echtheit weniger zwingend sind, als oft behauptet wird.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Michael J. Kruger', work: 'Canon Revisited: Establishing the Origins and Authority of the New Testament Books', year: '2012', status: 'paraphrase', quote: `Kanon als Zusammenspiel von Eigenschaften der Schrift, apostolischer Herkunft und kirchlicher Annahme.` },
+            { kind: 'fachliteratur', author: 'Michael J. Kruger', work: 'The Authenticity of 2 Peter. Journal of the Evangelical Theological Society 42', year: '1999', status: 'paraphrase', quote: `Verteidigung der petrinischen Verfasserschaft des 2. Petrusbriefs.` },
+          ],
+        },
+        {
+          person: 'origenes',
+          role: 'als kritischer alexandrinischer Gelehrter',
+          text: `Origenes zeigt, wie ehrlich die alexandrinische Tradition mit Verfasserfragen umging: Er bemerkte, dass der Hebräerbrief im Stil von Paulus abweicht, während die Gedanken paulinisch sind, und schloss, wer ihn letztlich niedergeschrieben habe, wisse nur Gott. Die Autorität des Briefes hing für ihn nicht an dieser Frage, sondern an seinem apostolischen Inhalt und seiner Überlieferung in den Kirchen.`,
+          sources: [{ kind: 'kirchenvater', author: 'Origenes (bei Eusebius)', work: 'Kirchengeschichte', ref: 'VI,25,11–14', year: 'ca. 245 (Eusebius ca. 325)', status: 'paraphrase', quote: `Die Gedanken des Hebräerbriefs sind paulinisch, die Ausdrucksweise nicht; wer ihn geschrieben hat, weiß nur Gott.` }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Forged: Writing in the Name of God – Why the Bible’s Authors Are Not Who We Think They Are', year: '2011', quote: `Ehrman hält mehrere neutestamentliche Briefe für Fälschungen, die die Kirche kanonisierte.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Kirchengeschichte', ref: 'VI,12,3–6', year: 'ca. 325', quote: `Serapion weist das Petrusevangelium zurück, nachdem er darin Zusätze gefunden hat, und erklärt, Schriften, die fälschlich unter dem Namen der Apostel gehen, lehne man ab.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Tertullian', work: 'De baptismo', ref: '17', year: 'ca. 200', quote: `Der Presbyter, der die Paulusakten verfasste, wurde überführt, gestand, er habe es aus Liebe zu Paulus getan, und verlor sein Amt.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn der Kirche der Inhalt genügte – warum hat sie das Petrusevangelium und die Paulusakten abgelehnt, obwohl sie fromm klangen?`,
+        `Warum hat die Kirche den 2. Petrusbrief offen als „bestritten" bezeichnet, wenn sie Fälschungen verschleiern wollte?`,
+      ],
+      followUps: [
+        {
+          id: 'pseudepigraphie-ueblich',
+          objection: `Pseudepigraphie war in der Antike nichts Ungewöhnliches – Schüler schrieben im Namen ihres Lehrers, das galt als Ehre, nicht als Betrug. Also hat die Kirche die Bücher eben trotzdem angenommen.`,
+          objectionBy: 'Dan McClellan / Mainstream-Exegese',
+          answer: `Interessanterweise ist es gerade Ehrman, der diese freundliche Deutung bestreitet: Antike Leser hielten Schriften unter falschem Namen für Täuschung, und die alte Kirche lehnte sie ab, sobald sie sie erkannte – Serapion und Tertullian zeigen das. Für mich folgt daraus: Entweder die umstrittenen Briefe sind echt – dafür gibt es ernsthafte Argumente, etwa die Verwendung von Sekretären –, oder die Kirche hat sich in der Verfasserfrage geirrt, nicht im Inhalt. Die Kirche hat diese Bücher angenommen, weil sie in ihnen den apostolischen Glauben erkannte, den sie aus den unbestrittenen Schriften kannte. Ihr Inhalt fügt keine neue Lehre hinzu.`,
+          detail: `**Zwei kritische Lager:** Ein Teil der Forschung sieht in der Pseudepigraphie eine akzeptierte Konvention (Schultradition). Ehrman („Forged", 2011; „Forgery and Counterforgery", 2013) und andere halten dagegen, dass antike Autoren Fälschung durchweg verurteilten. Beide Lager können nicht zugleich recht haben – das zeigt, wie offen die Frage ist.
+
+**Sekretärshypothese:** Paulus diktierte nachweislich (Röm 16,22: „Ich, Tertius, der ich diesen Brief geschrieben habe") und unterschrieb eigenhändig (Gal 6,11; 2 Thess 3,17). Stilunterschiede können auf verschiedene Schreiber zurückgehen – E. Randolph Richards hat diese Praxis eingehend untersucht.
+
+**Für das Gespräch:** Nicht behaupten, jede Verfasserangabe sei unbestritten. Sagen: Die Kirche hat geprüft, offen diskutiert und nichts aufgenommen, was dem apostolischen Glauben widersprach.`,
+          sources: [
+            { kind: 'bibel', work: 'Römer', ref: '16,22', quote: `Ich, Tertius, grüße euch, der ich diesen Brief geschrieben habe, in dem HERRN.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'fachliteratur', author: 'E. Randolph Richards', work: 'Paul and First-Century Letter Writing: Secretaries, Composition and Collection', year: '2004', quote: `Untersuchung der Rolle von Sekretären bei antiken Briefen und bei Paulus.`, status: 'paraphrase' },
+            { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Forgery and Counterforgery: The Use of Literary Deceit in Early Christian Polemics', year: '2013', quote: `Ehrman argumentiert, dass antike Autoren literarische Fälschung als Täuschung verstanden und verurteilten.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Wenn Pseudepigraphie eine anerkannte Ehre war – warum wurde der Verfasser der Paulusakten abgesetzt?`,
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche Quelle berichtet, dass in Nizäa über die Bücher der Bibel abgestimmt wurde?`,

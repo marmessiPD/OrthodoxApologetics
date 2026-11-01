@@ -187,6 +187,101 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'rosenberg-konsequent',
+      objection: `„Ich ziehe die Konsequenzen, vor denen andere Naturalisten zurückschrecken: Die Physik legt alle Tatsachen fest. Also gibt es keinen Zweck, keinen freien Willen, keine moralischen Tatsachen – und streng genommen handeln nicht einmal unsere Gedanken von etwas. ‚Aboutness' ist eine Illusion. Das ist unbequem, aber konsequent."`,
+      objectionBy: "Alex Rosenberg (The Atheist's Guide to Reality, 2011)",
+      answer: `Ich respektiere diese Ehrlichkeit – sie zeigt, was der Materialismus wirklich kostet. Aber die Position hebt sich selbst auf: Ein Buch, das argumentiert, dass Gedanken von nichts handeln, *handelt* von etwas – nämlich von Gedanken. Wer mich überzeugen will, dass es keine Überzeugungen gibt, will eine Überzeugung in mir erzeugen. Wenn ein Weltbild nur um den Preis zu halten ist, dass man das Denken selbst leugnet, ist das kein Beleg für Mut, sondern ein Hinweis, dass das Weltbild falsch ist.`,
+      detail: `Rosenberg vertritt einen konsequenten Szientismus: Wenn nur physikalische Tatsachen existieren und physikalische Zustände nicht von etwas „handeln", dann gibt es keine Intentionalität – kein Gerichtetsein des Geistes auf Gegenstände. Philosophen nennen das Eliminativismus. Die klassische Gegenfrage: Ist der Satz „Es gibt keine Gedanken, die von etwas handeln" selbst wahr? Dann handelt er von etwas. Ist er nicht wahr, braucht man ihn nicht zu glauben.
+
+Athanasius argumentierte schon gegen die Heiden, dass die vernunftbegabte Seele Dinge tut, die kein Körper als solcher vermag: Sie denkt über Abwesendes nach, urteilt über die Sinne und korrigiert sie (siehe Kirchenväter-Abschnitt dieses Claims).`,
+      sources: [
+        { kind: 'gegner', author: 'Alex Rosenberg', work: 'The Atheist\'s Guide to Reality: Enjoying Life without Illusions', year: '2011', status: 'paraphrase', quote: 'Physik legt alle Tatsachen fest; Gedanken handeln strenggenommen von nichts; kein Zweck, kein freier Wille, keine moralischen Tatsachen („nice nihilism").' },
+      ],
+      questionsBack: [
+        `Handelt dein Buch von etwas? Wenn ja, wie passt das zu deiner These?`,
+        `Wenn es keine Überzeugungen gibt – was genau willst du in mir mit deinen Argumenten bewirken?`,
+      ],
+      followUps: [
+        {
+          id: 'gehirn-wie-computer',
+          objection: `„Das Gehirn speichert Informationen wie ein Computer. Ein Computer ‚versteht' nichts, verarbeitet aber Daten erfolgreich. Das Gefühl, dass unsere Gedanken von etwas handeln, ist eine nützliche Täuschung des Systems über sich selbst."`,
+          objectionBy: 'Alex Rosenberg',
+          answer: `Die Zeichen im Computer bedeuten etwas nur, weil *wir* ihnen Bedeutung geben – Programmierer und Nutzer. Ihre Bedeutung ist geliehen. Wenn auch unsere Bedeutung nur geliehen wäre: Von wem? Irgendwo muss es echtes, ursprüngliches Bedeuten geben, sonst bedeutet gar nichts etwas. Und eine „Täuschung" setzt jemanden voraus, der getäuscht wird und etwas für wahr hält – also genau das Gerichtetsein, das geleugnet werden soll.`,
+          detail: `John Searle unterscheidet zwischen *abgeleiteter* Intentionalität (Wörter auf Papier, Bits im Speicher) und *ursprünglicher* Intentionalität (bewusste Gedanken). Abgeleitete Bedeutung gibt es nur, weil es ursprüngliche gibt. Feser argumentiert in derselben Linie: Materielle Zustände sind für sich genommen bedeutungsneutral; die Bestimmtheit eines Gedankens (etwa an die Zahl Pi und nicht an eine Annäherung zu denken) übersteigt jede physikalische Beschreibung.`,
+          voices: [
+            {
+              person: 'feser',
+              role: 'als Philosoph des Geistes in aristotelischer Tradition',
+              text: `Feser verweist darauf, dass Begriffe eine Bestimmtheit und Allgemeinheit besitzen, die keine materielle Konfiguration hat: Ein Bild eines Dreiecks ist immer ein bestimmtes Dreieck, der Begriff „Dreieck" gilt für alle. Daraus folgt für ihn, dass das begriffliche Denken nicht vollständig materiell sein kann, auch wenn es auf das Gehirn angewiesen ist.`,
+              sources: [{ kind: 'fachliteratur', author: 'Edward Feser', work: 'Philosophy of Mind: A Beginner\'s Guide', year: '2006', status: 'paraphrase' }],
+            },
+          ],
+          sources: [{ kind: 'fachliteratur', author: 'John R. Searle', work: 'The Rediscovery of the Mind', year: '1992', status: 'paraphrase', quote: 'Unterscheidung zwischen ursprünglicher (intrinsischer) und abgeleiteter Intentionalität.', note: 'Searle ist selbst kein Theist; seine Kritik richtet sich gegen den Computer-Funktionalismus.' }],
+          followUps: [
+            {
+              id: 'intentionale-haltung',
+              objection: `„Bedeutung ist keine geheimnisvolle innere Eigenschaft, sondern eine Haltung, die wir einnehmen: Wir behandeln Systeme so, *als ob* sie Überzeugungen hätten, weil das ihr Verhalten gut vorhersagt. Darüber hinaus gibt es keine Tatsache."`,
+              objectionBy: 'Daniel Dennett (The Intentional Stance, 1987)',
+              answer: `Eine Haltung „einnehmen", etwas „behandeln als ob", eine Vorhersage „treffen" – das alles sind selbst Akte eines Geistes, der etwas meint. Dennetts Erklärung setzt also voraus, was sie erklären soll: Wer nimmt die Haltung ein, wenn nicht jemand mit echten Gedanken? Ohne einen ursprünglichen Beobachter gibt es keine „Als-ob-Bedeutung".`,
+              detail: `Dennetts „intentionale Einstellung" ist ein origineller Versuch, Bedeutung ohne inneren Geist zu verstehen. Kritiker – auch nichttheistische wie Searle oder Nagel – halten ihn für zirkulär: Die Interpretation eines Systems als bedeutungstragend ist eine Leistung eines bedeutungstragenden Interpreten. Moreland zieht daraus den Schluss, dass sich Bewusstsein und Intentionalität in einem rein materiellen Universum nicht natürlich verorten lassen, wohl aber in einer Welt, deren Grund selbst Geist ist.`,
+              voices: [
+                {
+                  person: 'moreland',
+                  role: 'als Philosoph des Geistes',
+                  text: `Moreland argumentiert, dass Bewusstsein und Intentionalität im naturalistischen Weltbild Fremdkörper sind: Aus rein physikalischen Bausteinen und Gesetzen lässt sich ihr Auftreten nicht ableiten. Im Theismus dagegen ist der Geist ursprünglich – Gott ist Geist –, und endliche Geister sind keine Anomalie, sondern zu erwarten.`,
+                  sources: [{ kind: 'fachliteratur', author: 'J. P. Moreland', work: 'Consciousness and the Existence of God: A Theistic Argument', year: '2008', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'introspektion-unzuverlaessig',
+                  objection: `„Deine Einwände beruhen auf Intuitionen über den eigenen Geist – und die Kognitionswissenschaft zeigt, wie unzuverlässig Introspektion ist. Menschen erfinden nachträglich Gründe für ihr Verhalten und merken es nicht."`,
+                  objectionBy: 'Daniel Dennett',
+                  answer: `Wir irren uns tatsächlich oft über die *Ursachen* unseres Verhaltens – das zeigen die Experimente, und das gestehe ich zu. Aber um sich zu irren, muss man etwas für wahr halten; um nachträglich Gründe zu erfinden, muss man denken. Die Studien über Selbsttäuschung setzen voraus, dass es Menschen gibt, die meinen, glauben und urteilen. Augustinus hat das vor 1600 Jahren auf den Punkt gebracht: „Wenn ich mich täusche, bin ich."`,
+                  detail: `Nisbett und Wilson zeigten 1977, dass Versuchspersonen die Gründe für ihre Entscheidungen oft falsch angeben. Daraus folgt Vorsicht gegenüber Selbstauskünften über *Mechanismen*, nicht der Zweifel daran, *dass* wir denken. Augustinus' Argument gegen die Skeptiker der Akademie („si fallor, sum") zielt genau darauf: Selbst der Irrtum beweist die Existenz eines Irrenden.`,
+                  voices: [
+                    {
+                      person: 'augustinus',
+                      role: 'als Philosoph der Selbstgewissheit',
+                      text: `Gegen die akademischen Skeptiker hält Augustinus fest, dass es Wahrheiten gibt, die kein Zweifel erschüttern kann: dass ich bin, dass ich lebe, dass ich erkenne. Wer zweifelt, lebt, erinnert sich und will wissen – der Zweifel selbst setzt den denkenden Geist voraus.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Vom Gottesstaat (De civitate Dei)', ref: 'XI,26', year: 'ca. 413–426', quote: `Wenn ich mich nämlich täusche, bin ich.`, original: 'Si enim fallor, sum.', translation: 'eigene Übersetzung', status: 'verbatim' }],
+                    },
+                  ],
+                  sources: [{ kind: 'wissenschaft', author: 'Richard E. Nisbett & Timothy D. Wilson', work: '„Telling More Than We Can Know: Verbal Reports on Mental Processes", Psychological Review 84', year: '1977', status: 'paraphrase' }],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'hirnschaden-persoenlichkeit',
+          objection: `„Die Neurowissenschaft zeigt, wie abhängig der Geist vom Gehirn ist: Bei Phineas Gage veränderte eine Eisenstange im Stirnhirn die ganze Persönlichkeit, Alzheimer zerstört das Ich Stück für Stück. Wo bleibt da die Seele?"`,
+          objectionBy: 'Patricia Churchland (Touching a Nerve, 2013)',
+          answer: `Abhängigkeit ist nicht Identität. Ein Pianist auf einem verstimmten Klavier spielt schlecht – daraus folgt nicht, dass er das Klavier *ist*. Dass der Geist in diesem Leben auf ein gesundes Gehirn angewiesen ist, erwartet auch die christliche Sicht vom Menschen als Einheit von Leib und Seele. Bemerkenswert ist umgekehrt: Der Neurochirurg Wilder Penfield konnte durch elektrische Reizung Bewegungen, Erinnerungen und Empfindungen auslösen – aber nie einen Willensentschluss oder ein Urteil.`,
+          detail: `Penfield, einer der Pioniere der Hirnchirurgie, berichtet in *The Mystery of the Mind* (1975), dass Patienten auf gereizte Bewegungen reagierten mit: Das habe nicht *ich* getan, das hätten *Sie* gemacht. Er schloss daraus, dass der Geist sich nicht vollständig auf Hirnmechanismen zurückführen lasse. Für die orthodoxe Anthropologie ist der Mensch weder ein Geist im Körpergefängnis noch bloße Materie, sondern eine Einheit, die Gott aus Erde und Lebensatem geschaffen hat (Gen 2,7) – deshalb leidet der ganze Mensch, wenn das Gehirn leidet.`,
+          voices: [
+            {
+              person: 'penfield',
+              role: 'als Neurochirurg',
+              text: `Penfield reizte bei Hunderten von Operationen bei wachem Bewusstsein die Hirnrinde und konnte Bewegungen, Sinneseindrücke und lebhafte Erinnerungen auslösen. Einen Entschluss, eine Überzeugung oder ein abstraktes Urteil konnte er auf diese Weise nie hervorrufen; die Patienten erlebten das Ausgelöste als etwas, das ihnen geschah, nicht als etwas, das sie selbst taten.`,
+              sources: [{ kind: 'wissenschaft', author: 'Wilder Penfield', work: 'The Mystery of the Mind: A Critical Study of Consciousness and the Human Brain', year: '1975', status: 'paraphrase' }],
+            },
+          ],
+          questionsBack: [`Folgt aus der Tatsache, dass ein Pianist ein intaktes Klavier braucht, dass er das Klavier ist?`],
+          followUps: [
+            {
+              id: 'haynes-entscheidungen-vorhersagbar',
+              objection: `„Penfield ist von 1975. Heute können Hirnforscher Entscheidungen aus dem Hirnscan vorhersagen, bevor die Versuchsperson sich ihrer bewusst ist – Haynes und Kollegen haben das 2008 gezeigt. Der ‚Wille' ist ein Nachzügler des Gehirns."`,
+              objectionBy: 'Patricia Churchland / Sam Harris',
+              answer: `Die Studie ist interessant, aber ihre Reichweite ist klein: Es ging um die bedeutungslose Wahl zwischen linkem und rechtem Knopf, und die Vorhersage lag nur moderat über Zufallsniveau. Entscheidungen, für die man Gründe abwägt – etwa, ob man ein Argument für stichhaltig hält –, wurden gar nicht untersucht. Dass das Gehirn Entscheidungen vorbereitet, bestreitet niemand; dass es sie *ohne* Geist vollständig erklärt, zeigt diese Studie nicht.`,
+              detail: `Soon, Brass, Heinze und Haynes (Nature Neuroscience 11, 2008) konnten aus Hirnaktivität mit einer Trefferquote von rund 60 Prozent vorhersagen, welche von zwei Tasten eine Person drücken würde – bis zu einige Sekunden vor der bewussten Entscheidung. Haynes selbst warnte vor überzogenen Schlüssen. Für die Debatte um Willensfreiheit siehe „Der freie Wille ist eine Illusion".`,
+              sources: [{ kind: 'wissenschaft', author: 'Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze & John-Dylan Haynes', work: '„Unconscious determinants of free decisions in the human brain", Nature Neuroscience 11', year: '2008', status: 'paraphrase', quote: 'Vorhersage einer einfachen Links-rechts-Wahl aus Hirnaktivität mit begrenzter Genauigkeit, teils Sekunden vor der bewussten Entscheidung.' }],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist der Satz „Es gibt nur Materie" selbst etwas Materielles? Wie viel wiegt er?`,

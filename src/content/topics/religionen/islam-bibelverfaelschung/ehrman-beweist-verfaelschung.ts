@@ -150,6 +150,21 @@ const claim: Claim = {
           objection: `Ich benutze Ehrman nur für die Textkritik, nicht für seine Ansichten über Wunder.`,
           objectionBy: 'Shabir Ally',
           answer: `Dann nimm auch sein textkritisches Ergebnis ganz: Keine Kernlehre wird von den Varianten berührt, und die Handschriften vor Mohammed lehren die Kreuzigung. Genau das ist der Ausgangspunkt des Islamischen Dilemmas. Der Textkritiker Ehrman bestätigt Prämisse 4 – die Bibel des 7. Jahrhunderts ist im Wesentlichen unsere Bibel.`,
+          followUps: [
+            {
+              id: 'ehrman-methode-auf-koran',
+              objection: `Ehrmans Methode ist für die Bibel entwickelt. Auf den Koran lässt sie sich nicht übertragen – er wurde ganz anders überliefert, mündlich und massenhaft (*tawātur*).`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Historische Methoden sind nicht für ein bestimmtes Buch gemacht; man wendet sie auf jeden antiken Text an. Und Ehrmans Skepsis gegenüber mündlicher Überlieferung und späten Sammlungen träfe die Hadithe – rund 200 Jahre nach Mohammed gesammelt – viel härter als die Evangelien, die 30 bis 60 Jahre nach Jesus entstanden. Auch die Koransammlung selbst wird in den Hadithen beschrieben: Zaid ibn Thabit sammelte die Verse „von Palmblattstielen, Steinplatten und aus den Herzen der Männer" (Sahih al-Bukhari 4986). Wer Ehrman gegen die Bibel nutzt, muss sich denselben Fragen stellen.`,
+              detail: `Das ist kein Angriff, sondern eine Bitte um gleiche Maßstäbe. Forscher wie Gabriel Said Reynolds, Nicolai Sinai oder Keith Small wenden historisch-kritische und textkritische Methoden längst auch auf den Koran an. Wer die Bibel mit dem schärfsten Skeptiker misst und den Koran mit der frömmsten Überlieferung, vergleicht nicht zwei Schriften, sondern zwei Maßstäbe.`,
+              sources: [
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4986', quote: `Zaid ibn Thabit: Ich suchte den Koran zusammen und sammelte ihn von Palmblattstielen, dünnen Steinplatten und aus den Herzen der Männer.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4986' },
+              ],
+              questionsBack: [
+                `Würdest du Ehrmans Maßstäbe für mündliche Überlieferung auch auf die Hadithsammlungen anwenden?`,
+              ],
+            },
+          ],
         },
       ],
     },
