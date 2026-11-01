@@ -178,6 +178,82 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'rorty-pragmatismus',
+      objection: `„Ich bin kein naiver Relativist. Aber die Vorstellung, Wahrheit sei die Übereinstimmung unserer Sätze mit einer Wirklichkeit ‚da draußen', ist ein überholtes Bild – der Geist als Spiegel der Natur. ‚Wahr' ist ein Lob für Überzeugungen, die sich in unserer Praxis bewähren und vor unseren Gesprächspartnern bestehen. Mehr kann man vernünftigerweise nicht sagen."`,
+      objectionBy: 'Richard Rorty (Philosophy and the Mirror of Nature, 1979)',
+      answer: `Dann müsstest du sagen: Als die Sklaverei in einer Gesellschaft allgemein gebilligt wurde und sich „bewährte", war der Satz „Sklaverei ist gerecht" für diese Gesellschaft wahr – und die wenigen Gegner lagen falsch. Das glaubt aber niemand. Wir beurteilen den Konsens an der Wahrheit, nicht die Wahrheit am Konsens. Und „Diese Überzeugung bewährt sich" ist selbst eine Behauptung, die *wirklich* zutreffen muss – sonst taugt sie nicht als Kriterium.`,
+      detail: `Rorty steht in der Tradition des amerikanischen Pragmatismus (William James: Wahr ist, was sich als gut im Bereich der Überzeugungen erweist). Er wollte den Begriff der Wahrheit nicht abschaffen, aber jeden Anspruch auf eine „Sicht von nirgendwo" aufgeben. Der stärkste Einwand gegen ihn ist moralischer und logischer Art zugleich: Reformer, Propheten und Märtyrer haben oft *gegen* den Konsens ihrer Zeit recht gehabt. Das ist nur verständlich, wenn Wahrheit mehr ist als Zustimmung.`,
+      sources: [
+        { kind: 'gegner', author: 'Richard Rorty', work: 'Philosophy and the Mirror of Nature', year: '1979', status: 'paraphrase', quote: 'Kritik am Bild des Geistes als „Spiegel der Natur"; Rechtfertigung als soziale Praxis.' },
+        { kind: 'gegner', author: 'Richard Rorty', work: 'Consequences of Pragmatism', year: '1982', status: 'paraphrase' },
+      ],
+      questionsBack: [`Hatten die Gegner der Sklaverei recht, *bevor* die Mehrheit ihnen zustimmte?`],
+      followUps: [
+        {
+          id: 'kein-gottesstandpunkt',
+          objection: `„Ich sage ja nicht, dass die Sklaverei gerecht war. Ich sage nur: Wir haben keinen ‚Gottesstandpunkt'. Wir können Überzeugungen immer nur mit anderen Überzeugungen vergleichen, nie mit der nackten Wirklichkeit selbst."`,
+          objectionBy: 'Richard Rorty',
+          answer: `Dass wir die Welt nur durch unsere Begriffe erkennen, heißt nicht, dass wir *nur unsere Begriffe* erkennen. Eine Brille trennt mich nicht von der Welt, sie hilft mir, sie zu sehen. Begrenztes, perspektivisches Wissen ist immer noch Wissen *von etwas*. Und interessanterweise sagt der christliche Glaube gerade, dass es einen Gottesstandpunkt gibt – nur haben nicht *wir* ihn, sondern Gott. Deshalb ist Demut geboten, aber kein Verzicht auf Wahrheit.`,
+          detail: `Augustinus argumentiert, dass Wahrheit allen Denkenden gemeinsam ist: Wenn zwei Menschen einsehen, dass sieben und drei zehn sind, sieht jeder dieselbe Wahrheit, die keinem von beiden gehört. Sie steht über unserem Geist, denn wir urteilen nicht *über* sie, sondern *nach* ihr. Für Augustinus ist dies ein Weg zu Gott, der die Wahrheit selbst ist (Joh 14,6).`,
+          voices: [
+            {
+              person: 'augustinus',
+              role: 'als Philosoph der Wahrheit',
+              text: `Augustinus zeigt im Gespräch mit Evodius, dass mathematische und sittliche Wahrheiten nicht Privatbesitz einzelner Menschen sind, sondern allen gemeinsam vorliegen. Weil der menschliche Geist veränderlich ist, die Wahrheit aber unveränderlich, steht die Wahrheit über dem Geist – und verweist auf den, der die Wahrheit selbst ist.`,
+              sources: [{ kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Vom freien Willen (De libero arbitrio)', ref: 'II,8–12', year: 'ca. 388–395', status: 'paraphrase', quote: 'Die Wahrheit ist allen Denkenden gemeinsam und steht über unserem veränderlichen Geist.' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'kant-ding-an-sich',
+              objection: `„Kant hat gezeigt: Wir erkennen die Dinge nur, wie sie uns *erscheinen*, geformt durch unsere Anschauungsformen und Kategorien – nie, wie sie *an sich* sind. Absolute Wahrheit über die Wirklichkeit ist uns verschlossen."`,
+              objectionBy: "Alex O'Connor (in Anlehnung an Kant)",
+              answer: `Wer sagt „Wir können die Dinge an sich nicht erkennen", behauptet bereits etwas über die Dinge an sich – nämlich, dass sie anders sein könnten, als sie uns erscheinen, und dass sie unser Erkennen übersteigen. Diese Spannung haben schon Kants Nachfolger bemerkt. Zudem zeigt der Erfolg der Naturwissenschaft, dass unsere Begriffe die Wirklichkeit offenbar treffen: Wir sagen Sonnenfinsternisse auf die Minute voraus und landen Sonden auf Kometen. Das spricht für einen *kritischen Realismus*: Unser Erkennen ist vermittelt und begrenzt, aber es erreicht die Welt.`,
+              detail: `Der Physiker und Priester John Polkinghorne verstand die Wissenschaft als kritisch-realistisches Unternehmen: Theorien sind keine bloßen Rechenhilfen, sondern immer bessere, wenn auch nie vollständige Landkarten der Wirklichkeit. Dieselbe Haltung empfahl er für die Theologie: Gotteserkenntnis ist vorläufig und bildhaft, aber sie handelt von einer Wirklichkeit, nicht von bloßen Projektionen.`,
+              voices: [
+                {
+                  person: 'polkinghorne',
+                  role: 'als Physiker und Theologe',
+                  text: `Polkinghorne vertritt einen kritischen Realismus: Die Wissenschaft gewinnt echte, wenn auch korrigierbare Erkenntnis über eine Wirklichkeit, die nicht von uns gemacht ist. Die Widerständigkeit der Natur – sie überrascht uns immer wieder – zeigt, dass wir nicht bloß unsere eigenen Kategorien wiederfinden.`,
+                  sources: [{ kind: 'fachliteratur', author: 'John Polkinghorne', work: 'Belief in God in an Age of Science', year: '1998', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'kuhn-paradigmen',
+                  objection: `„Thomas Kuhn hat doch gezeigt, dass Wissenschaft in Paradigmen arbeitet, die einander ablösen und nicht vergleichbar sind. Was ‚wahr' ist, hängt vom Paradigma ab – auch in der Physik."`,
+                  objectionBy: 'Populärer Einwand (in Anlehnung an Thomas Kuhn)',
+                  answer: `Kuhn selbst hat sich gegen diese Deutung gewehrt: Im Nachwort zur zweiten Auflage (1969) betonte er, dass spätere Theorien frühere in ihrer Fähigkeit, Probleme zu lösen und genau vorherzusagen, übertreffen, und wies den Vorwurf des Relativismus zurück. Paradigmen wechseln ja gerade deshalb, weil die Wirklichkeit sich gegen das alte Paradigma sperrt – Anomalien häufen sich. Das setzt voraus, dass es eine Wirklichkeit gibt, an der Theorien scheitern können.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Thomas S. Kuhn', work: 'The Structure of Scientific Revolutions, 2. Aufl. mit „Postscript – 1969"', year: '1970', status: 'paraphrase', quote: 'Spätere Theorien seien besser im Lösen von Problemen als frühere; Kuhn wies den Vorwurf des Relativismus zurück.' }],
+                  questionsBack: [`Warum wechseln Wissenschaftler überhaupt das Paradigma, wenn nicht deshalb, weil die Wirklichkeit dem alten widerspricht?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'metaerzaehlungen-macht',
+          objection: `„Postmoderne heißt: Misstrauen gegenüber den großen Erzählungen. Jede Metaerzählung, die für alle Menschen gelten will – Marxismus, Fortschrittsglaube, Christentum –, wird früher oder später zum Werkzeug der Unterdrückung."`,
+          objectionBy: 'Jean-François Lyotard (La condition postmoderne, 1979)',
+          answer: `„Alle großen Erzählungen sind Machtinstrumente" ist selbst eine große Erzählung über die ganze Menschheitsgeschichte – mit universalem Anspruch. Und die christliche Erzählung ist eine eigenartige Machtgeschichte: Ihr Zentrum ist ein Gott, der sich entäußert, Knechtsgestalt annimmt und von den Mächtigen gekreuzigt wird (Phil 2,6–8). Sie stellt sich auf die Seite der Opfer, nicht der Herrscher. Drei Jahrhunderte lang breitete sie sich ohne staatliche Macht aus – unter Verfolgung.`,
+          sources: [
+            { kind: 'gegner', author: 'Jean-François Lyotard', work: 'La condition postmoderne: rapport sur le savoir', year: '1979', quote: `Stark vereinfacht gilt als „postmodern" die Ungläubigkeit gegenüber den Metaerzählungen.`, original: 'Simplifiant à l\'extrême, on tient pour « postmoderne » l\'incrédulité à l\'égard des métarécits.', translation: 'eigene Übersetzung', status: 'verbatim' },
+            { kind: 'bibel', work: 'Philipper', ref: '2,6–8', status: 'paraphrase', quote: 'welcher, ob er wohl in göttlicher Gestalt war … entäußerte sich selbst und nahm Knechtsgestalt an … und ward gehorsam bis zum Tode, ja zum Tode am Kreuz.' },
+          ],
+          followUps: [
+            {
+              id: 'konstantin-macht',
+              objection: `„Und doch: Spätestens seit Konstantin wurde das Christentum Staatsreligion und hat seine Wahrheit mit Gewalt durchgesetzt. Die Erzählung vom gekreuzigten Gott hat Imperien legitimiert."`,
+              objectionBy: "Alex O'Connor",
+              answer: `Das ist leider oft geschehen, und ich beschönige es nicht. Aber der Missbrauch einer Wahrheit widerlegt sie nicht – er widerspricht ihr. Die koptische Kirche kennt beide Seiten aus eigener Erfahrung: Nach 451 wurde sie von der byzantinischen Reichskirche verfolgt, später lebte sie jahrhundertelang als Minderheit unter fremder Herrschaft. Gerade diese Geschichte zeigt, dass christliche Wahrheit sich bewähren kann, ohne Macht zu besitzen – getragen von Märtyrern, nicht von Armeen.`,
+              detail: `Der Maßstab für christliches Handeln ist Christus selbst, nicht das Verhalten christlicher Herrscher. Die Propheten Israels und die Heiligen der Kirche haben Mächtige im Namen der Wahrheit kritisiert – das setzt voraus, dass es eine Wahrheit über der Macht gibt. Ohne sie bliebe der Kritik an Unterdrückung nur eine Gegen-Macht, keine Gerechtigkeit.`,
+              questionsBack: [`Wenn es keine Wahrheit über der Macht gibt – mit welchem Recht kritisierst du dann Unterdrückung als *Unrecht*?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist der Satz „Es gibt keine absolute Wahrheit" absolut wahr?`,

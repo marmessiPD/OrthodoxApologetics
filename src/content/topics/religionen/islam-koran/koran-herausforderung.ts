@@ -92,6 +92,29 @@ const claim: Claim = {
               objection: `Die Versuche, etwa von Musaylima, waren lächerlich. Daran sieht man den Unterschied.`,
               objectionBy: 'verbreiteter muslimischer Einwand',
               answer: `Musaylimas Texte kennen wir nur aus den Berichten seiner Gegner, die ihn als „Lügner" überlieferten – kein faires Material für einen Vergleich. Seine Anhänger hielten seine Worte für Offenbarung. Genau das zeigt das Problem: Das Urteil hängt von der Gemeinschaft ab, die urteilt.`,
+              followUps: [
+                {
+                  id: 'arabische-christen-schwiegen',
+                  objection: `Und warum haben dann die arabischen Christen, die die Sprache perfekt beherrschten, die Herausforderung nie angenommen? Ihr Schweigen ist ein Eingeständnis.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Arabische Christen haben großartige arabische Dichtung geschaffen – al-Akhtal, einer der berühmtesten Dichter der Umayyadenzeit, war Christ. Aber sie hielten die Herausforderung nicht für einen sinnvollen Test: Wer einen Text in einem fremden Stil nachahmt, schreibt eine Kopie, und wer seinen eigenen Stil schreibt, wird von den Richtern als „anders" verworfen. Jedes große Werk ist in seiner Art unnachahmlich – Homer, Dante, die Psalmen. Und unter islamischer Herrschaft war es nicht ratsam, öffentlich einen „Gegen-Koran" vorzulegen.`,
+                  detail: `Christliche Theologen im islamischen Raum haben sich durchaus zur Frage geäußert. Der ostsyrische Patriarch Timotheus I. erklärte im Gespräch mit dem Kalifen al-Mahdi (um 781), dass Gott die Sendung seiner Boten durch Zeichen und Wunder bestätigt habe – sprachliche Schönheit allein beweise keine göttliche Herkunft, denn es gebe in vielen Sprachen eindrucksvolle Bücher. Das ist bis heute die stärkste Antwort: Ästhetik ist ein Werturteil, kein Beweis.`,
+                  voices: [
+                    {
+                      person: 'timotheus-i',
+                      role: 'als Patriarch im Gespräch mit dem Kalifen al-Mahdi',
+                      text: `Timotheus antwortet dem Kalifen mit großer Höflichkeit, aber in der Sache klar: Die Propheten und Christus wurden durch Zeichen bestätigt, die Gott vor vielen Zeugen wirkte. Die Schönheit eines Textes ist für ihn kein solches Zeichen, denn eindrucksvolle Rede findet sich auch bei anderen Völkern und in anderen Sprachen. Er würdigt Mohammed als einen, der gegen den Götzendienst kämpfte, ohne ihn als Propheten im biblischen Sinn anzuerkennen.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Timotheus I. (ostsyrischer Patriarch)', work: 'Dialog mit dem Kalifen al-Mahdi', year: 'um 781', quote: `Offenbarung wird durch Zeichen bestätigt; sprachliche Schönheit allein ist kein Beweis göttlicher Herkunft.`, status: 'paraphrase', note: 'Sinngemäße Zusammenfassung; englische Übersetzung bei A. Mingana, Woodbrooke Studies 2 (1928).' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Ist Homers Ilias göttlich, weil niemand etwas „wie die Ilias" geschrieben hat?`,
+                    `Wer hätte im Kalifat entschieden, ob ein christlicher Text der Herausforderung genügt?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -113,6 +136,18 @@ const claim: Claim = {
           answer: `Bewunderung ist kein Beweis göttlicher Herkunft. Und der Koran selbst überliefert, was andere Zeitgenossen sagten: „Fabeln der Früheren, die er sich aufschreiben lässt" (25:5) und „ein Mensch lehrt ihn" (16:103). Die Zeitgenossen waren also gespalten – genau wie heute.`,
           sources: [
             { kind: 'koran', work: 'Sure 25 (al-Furqan)', ref: '25:5', quote: `Und sie sagen: „Fabeln der Früheren, die er sich aufgeschrieben hat; sie werden ihm morgens und abends vorgelesen."`, original: `asāṭīru l-awwalīna ktatabahā`, translation: 'eigene Übersetzung nach dem arabischen Text', status: 'verbatim', url: 'https://quran.com/25/5' },
+          ],
+          followUps: [
+            {
+              id: 'fremde-zunge-16-103',
+              objection: `Der Koran beantwortet den Vorwurf in 16:103 doch selbst: Die Sprache dessen, auf den sie anspielen, ist fremd – der Koran aber ist klares Arabisch. Ein Nichtaraber hätte ihn nicht verfassen können.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Die Antwort betrifft die *Sprache*, nicht den *Inhalt*. Niemand behauptet, ein Fremder habe den arabischen Wortlaut diktiert. Die Frage ist, ob Erzählstoffe – über Abraham, Josef, Maria, die Siebenschläfer – aus jüdischen und christlichen Überlieferungen bekannt waren und in Arabien erzählt wurden. Das lässt sich am Text prüfen, und die Parallelen sind zahlreich. Dass jemand klares Arabisch spricht, schließt nicht aus, dass er Geschichten gehört hat.`,
+              detail: `Siehe ausführlich Claim „Der Koran hat keine menschlichen Quellen". Für die Herausforderung gilt: Wenn der Koran die Einwände seiner Zeitgenossen zitiert, zeigt er, dass die Frage nach seiner Herkunft von Anfang an offen diskutiert wurde. Die Herausforderung von 2:23 ist eine Antwort auf diese Zweifel – nicht deren Widerlegung.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 16 (an-Nahl)', ref: '16:103', quote: `Wir wissen wohl, dass sie sagen: „Es lehrt ihn nur ein Mensch." Die Sprache dessen, auf den sie anspielen, ist eine fremde, dies aber ist eine deutliche arabische Sprache.`, original: `lisānu lladhī yulḥidūna ilayhi aʿjamiyyun wa-hādhā lisānun ʿarabiyyun mubīn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/16/103' },
+              ],
+            },
           ],
         },
       ],
@@ -138,6 +173,18 @@ const claim: Claim = {
               objection: `Die arabische Grammatik wurde ja aus dem Koran und der klassischen Dichtung abgeleitet. Der Koran ist der Maßstab der Grammatik.`,
               objectionBy: 'Hamza Andreas Tzortzis',
               answer: `Genau – und deshalb kann der Koran an dieser Grammatik nicht scheitern. Ein Maßstab, der vom geprüften Gegenstand abgeleitet ist, kann ihn nicht prüfen. Das macht die Herausforderung zirkulär: Der Koran ist unübertroffen, weil er der Maßstab ist, an dem alles gemessen wird.`,
+              followUps: [
+                {
+                  id: 'wirkung-auf-die-herzen',
+                  objection: `Es geht nicht nur um Grammatik. Höre die Rezitation: Menschen weinen, die kein Wort Arabisch verstehen. Diese Wirkung auf die Herzen hat kein menschliches Werk.`,
+                  objectionBy: 'Nouman Ali Khan',
+                  answer: `Diese Erfahrung ist echt, und ich nehme sie ernst. Aber sie beweist nicht, was du daraus folgerst: Hindus weinen bei der Rezitation der Gita auf Sanskrit, Christen bei byzantinischen Hymnen oder beim koptischen Karfreitagsgesang „Golgotha", ohne jedes Wort zu verstehen. Ergreifende Klanggestalt bezeugt Schönheit und Ehrfurcht – nicht, wer den Text verfasst hat. Wäre emotionale Wirkung ein Beweis, müsste man viele Religionen zugleich für wahr halten.`,
+                  detail: `Die Frage nach der Wahrheit einer Offenbarung ist eine Frage nach ihrem Inhalt und ihrer Geschichte: Stimmt, was sie über Gott, Jesus und die früheren Propheten sagt? Stimmen ihre Berichte mit dem überein, was wir sonst wissen? Hier muss der Koran sich messen lassen – an der Kreuzigung, an der Bestätigung der früheren Schriften (5:47), an seiner Überlieferungsgeschichte. Klang kann diese Fragen nicht beantworten.`,
+                  questionsBack: [
+                    `Wenn Ergriffenheit beim Hören ein Beweis wäre – was beweist dann die Ergriffenheit von Hindus bei der Gita?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -151,6 +198,47 @@ const claim: Claim = {
       sources: [
         { kind: 'fachliteratur', author: 'Arthur Jeffery', work: 'The Foreign Vocabulary of the Qur\'an', year: '1938', quote: `Verzeichnis der Lehnwörter im Koran aus dem Aramäisch-Syrischen, Hebräischen, Griechischen, Persischen und Äthiopischen.`, status: 'paraphrase' },
         { kind: 'hadith', author: 'Jalal ad-Din as-Suyuti', work: 'al-Muhadhdhab fima waqa\'a fi l-Qur\'an min al-mu\'arrab', year: '15. Jh.', quote: `Klassische Sammlung von Wörtern nichtarabischer Herkunft im Koran.`, status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'muarrab-ist-arabisch',
+          objection: `Arabisierte Lehnwörter sind Arabisch – so haben es die Gelehrten gelöst: Die Wörter stammen ursprünglich aus anderen Sprachen, waren aber längst Teil des Arabischen. Kein Widerspruch zu „klarem Arabisch".`,
+          objectionBy: 'Yasir Qadhi',
+          answer: `Einverstanden – das ist eine vernünftige Lösung. Aber sie hat eine Folge: Der Koran spricht die Sprache seiner Umwelt, und zu dieser Umwelt gehörte eine christliche und jüdische religiöse Fachsprache. Wörter wie *injīl*, *ṣalāt* oder *zakāt* haben aramäisch-syrische Vorbilder; Arthur Jeffery leitet sogar das Wort *qurʾān* vom syrischen *qeryānā* („Lesung", liturgischer Lesetext) ab. Der Koran ist also in einem Gespräch mit Juden und Christen entstanden – das spricht nicht gegen seine Schönheit, aber gegen die Vorstellung, er sei ohne Bezug zu seiner Umwelt vom Himmel gefallen.`,
+          detail: `Für Christen ist das kein Triumph, sondern eine Einladung: Wenn der Koran die religiöse Sprache der Kirchen aufnimmt, dann setzt er auch voraus, dass seine Hörer wussten, was „Injil", „Tora" und „Messias" bedeuten. Genau darauf baut das Islamische Dilemma auf.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Arthur Jeffery', work: 'The Foreign Vocabulary of the Qur\'an', year: '1938', quote: `Leitet u. a. qur'an vom syrischen qeryānā (Lesung, Lektion) ab und zeigt zahlreiche religiöse Lehnwörter aus dem Syrischen.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bibel-stellt-keine-herausforderung',
+      objection: `Die Bibel stellt nicht einmal eine solche Herausforderung. Sie beansprucht keine sprachliche Einzigartigkeit. Schon das zeigt die Überlegenheit des Korans.`,
+      objectionBy: 'Hamza Andreas Tzortzis',
+      answer: `Die Bibel begründet ihren Anspruch anders – und überprüfbarer: durch Gottes Handeln in der Geschichte vor vielen Zeugen und durch erfüllte Verheißung. Die Tora gibt selbst den Prüfstein: Ein Prophet ist daran zu erkennen, dass eintrifft, was er sagt (Dtn 18,21–22). Jesus sagt: „Glaubt doch den Werken" (Joh 10,38), und Paulus verweist auf über fünfhundert Zeugen des Auferstandenen, „von denen die meisten noch leben" (1 Kor 15,6). Schönheit ist Geschmackssache; ein leeres Grab ist eine Frage der Geschichte.`,
+      detail: `Das ist der Kern des Unterschieds: Die Herausforderung des Korans beruft sich auf ein ästhetisches Urteil, das jede Gemeinschaft für ihren eigenen Text fällen kann. Die Bibel beruft sich auf öffentliche Ereignisse, die Gegner hätten bestreiten können – und deren Spuren der Historiker prüfen kann. Ein Laie kann im Gespräch ruhig sagen: „Ich möchte nicht über Geschmack streiten, sondern über Geschichte."`,
+      sources: [
+        { kind: 'bibel', work: '5. Mose (Deuteronomium)', ref: '18,21–22', quote: `Wenn der Prophet redet in dem Namen des HERRN, und es wird nichts daraus und kommt nicht, das ist das Wort, das der HERR nicht geredet hat.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Johannes', ref: '10,37–38', quote: `Tue ich nicht die Werke meines Vaters, so glaubet mir nicht; tue ich sie aber, glaubet doch den Werken, wollt ihr mir nicht glauben.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Was ist leichter objektiv zu prüfen: ob ein Text schöner ist als alle anderen – oder ob ein Ereignis vor Hunderten Zeugen stattfand?`,
+      ],
+      followUps: [
+        {
+          id: 'roemer-prophezeiung-30-2',
+          objection: `Der Koran hat auch erfüllte Prophezeiungen: „Die Römer sind besiegt worden … aber sie werden nach ihrer Niederlage siegen, in wenigen Jahren" (30:2–4). Genau das geschah, als Herakleios die Perser schlug.`,
+          objectionBy: 'Zakir Naik',
+          answer: `Die Vorhersage ist allgemein: In einem langen Krieg zwischen zwei Großmächten ist ein Wechsel des Kriegsglücks nicht unwahrscheinlich, und Herakleios begann seine Gegenoffensive schon 622. Hinzu kommt ein Textproblem: Das ursprünglich unvokalisierte Konsonantengerüst erlaubt auch die Lesung „Die Römer haben gesiegt … und sie werden besiegt werden" – und klassische Kommentare berichten von dieser Lesart. Eine Prophezeiung, die je nach Vokalisierung Sieg oder Niederlage voraussagt, ist ein schwacher Beweis.`,
+          detail: `Die gängige Lesart (*ghulibati r-rūm … sa-yaghlibūn*) bezieht sich auf die persischen Siege um 614 (Eroberung Jerusalems) und die byzantinische Wende ab 622–628. Die Wendung *biḍʿ sinīn* („einige Jahre") wird klassisch als drei bis neun Jahre verstanden. Muslime sehen darin eine erfüllte Weissagung; Christen müssen das nicht verächtlich machen, sollten aber darauf hinweisen, dass sie mit der Fülle und Genauigkeit der messianischen Verheißungen des Alten Testaments (etwa Jes 53; Mi 5,1; Dan 9) nicht vergleichbar ist.`,
+          sources: [
+            { kind: 'koran', work: 'Sure 30 (ar-Rum)', ref: '30:2–4', quote: `Besiegt worden sind die Römer im nächstgelegenen Land. Sie aber werden nach ihrer Niederlage siegen, in einigen Jahren.`, original: `ghulibati r-rūmu fī adnā l-arḍi wa-hum min baʿdi ghalabihim sa-yaghlibūna fī biḍʿi sinīn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/30/2-4' },
+          ],
+          questionsBack: [
+            `Wenn das Konsonantengerüst auch „sie haben gesiegt … und werden besiegt werden" erlaubt – woher weißt du, welche Lesung die ursprüngliche Vorhersage war?`,
+          ],
+        },
       ],
     },
   ],

@@ -227,6 +227,68 @@ const claim: Claim = {
           id: 'ueberinterpretation',
           objection: `Das ist Überinterpretation.`,
           answer: `Der Kontext stützt sie: Sonnen- und Mondgötter (Schamasch, Sin, Re) gehörten zu den höchsten Gottheiten der Nachbarvölker. Dass Genesis 1 sie als Lampen und Zeitgeber beschreibt, wird in der Fachliteratur weithin als bewusste Polemik verstanden – nicht nur von Hasel, sondern z. B. auch im Genesis-Kommentar von Gordon Wenham.`,
+          followUps: [
+            {
+              id: 'walton-tempelweihe',
+              objection: `Polemik ist nur die halbe Wahrheit. Genesis 1 teilt mit Enuma Elisch ein ganzes Denkmuster: Die Welt wird als Tempel eingerichtet, und am Ende „ruht" die Gottheit, das heißt: Sie nimmt in ihrem Tempel Platz. Genesis 1 spricht von Funktionen und Ordnung, nicht von der materiellen Herstellung der Welt.`,
+              objectionBy: 'John Walton',
+              answer: `Waltons Einsicht ist wertvoll, und ich nehme sie gern auf: Der siebte Tag als Einzug Gottes in seinen Kosmos-Tempel ist ein schönes und biblisch begründetes Bild – Jes 66,1 nennt den Himmel Gottes Thron und die Erde seinen Fußschemel. Aber die funktionale Lesart darf nicht exklusiv werden: Die Schrift bekennt an anderer Stelle klar, dass Gott alles ins Dasein rief, und das Glaubensbekenntnis nennt ihn „Schöpfer des Himmels und der Erde, alles Sichtbaren und Unsichtbaren". Ordnung *und* Ursprung – beides gehört zum biblischen Schöpfungsglauben.`,
+              detail: `**Walton:** In *The Lost World of Genesis One* (2009) argumentiert Walton, dass antike Menschen Existenz vor allem als Funktion innerhalb eines geordneten Systems verstanden. Genesis 1 beschreibe demnach, wie Gott den Kosmos als seinen Tempel einrichtet und ihm Funktionen zuweist; die „Ruhe" am siebten Tag sei die Inthronisation Gottes in seinem Tempel. Damit erklärt er auch Parallelen zu Tempelweihtexten des Alten Orients.
+
+**Was ein koptischer Christ davon übernehmen kann:**
+- Die Tempel-Symbolik passt zur orthodoxen Tradition, die die Kirche als Abbild des Kosmos und den Kosmos als Heiligtum Gottes versteht.
+- Die Betonung der Ordnung entspricht Athanasius' Rede vom Logos, der der Schöpfung Gestalt und Zusammenhang verleiht.
+
+**Wo Vorsicht geboten ist:** Wenn man Genesis 1 *nur* funktional liest, scheint der Text zur materiellen Entstehung nichts zu sagen. Die Kirche hält jedoch daran fest, dass Gott Materie und Ordnung schuf – das bezeugen u. a. 2 Makk 7,28, Joh 1,3 und Hebr 11,3.`,
+              voices: [
+                {
+                  person: 'john-walton',
+                  role: 'als Alttestamentler (altorientalischer Hintergrund)',
+                  text: `Walton betont, dass seine Lesart nicht bestreitet, dass Gott der Urheber der materiellen Welt ist; sie behauptet nur, dass Genesis 1 sich vor allem für Ordnung und Funktion interessiert. Das Bild des Kosmos als Tempel, in dem Gott Wohnung nimmt, verbindet Genesis 1 mit der Stiftshütte und dem Tempel Israels – und mit der Vorstellung, dass die ganze Welt Gottes Heiligtum ist.`,
+                  sources: [{ kind: 'fachliteratur', author: 'John H. Walton', work: 'The Lost World of Genesis One: Ancient Cosmology and the Origins Debate', year: '2009', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Jesaja', ref: '66,1', quote: `So spricht der HERR: Der Himmel ist mein Stuhl und die Erde meine Fußbank; was ist's denn für ein Haus, das ihr mir bauen wollt?`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Hebräer', ref: '11,3', quote: `Durch den Glauben merken wir, daß die Welt durch Gottes Wort fertig ist, daß alles, was man sieht, aus nichts geworden ist.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Wenn Genesis 1 vor allem Ordnung beschreibt – schließt das aus, dass derselbe Gott auch die Materie ins Dasein rief, wie Hebr 11,3 sagt?`],
+              followUps: [
+                {
+                  id: 'creatio-ex-nihilo-spaet',
+                  objection: `Die Schöpfung aus dem Nichts ist eine spätere Lehre, formuliert erst im 2. Jahrhundert nach Christus. Genesis 1,2 setzt eine wüste, wasserbedeckte Urmasse voraus – genau wie die Mythen der Nachbarn. Ihr lest eure Dogmatik in den Text hinein.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Richtig ist: Die ausdrückliche, philosophisch präzise Formulierung „aus dem Nichts" entfaltet sich besonders im 2. Jahrhundert bei Theophilus von Antiochien und Irenäus – im Gespräch mit griechischen Lehren von einer ewigen Materie. Aber die Wurzeln liegen in der Schrift: 2 Makk 7,28 sagt, Gott habe alles „aus nichts" gemacht; Röm 4,17 spricht vom Gott, der „ruft dem, das nicht ist, dass es sei"; und Gen 1,1 kann grammatisch als absoluter Anfang gelesen werden – so verstand es schon die Septuaginta. Die Lehre wurde entfaltet, nicht erfunden.`,
+                  detail: `**Gen 1,1–2 grammatisch:** Gen 1,1 kann als selbständiger Satz („Am Anfang schuf Gott Himmel und Erde") oder als Nebensatz („Als Gott anfing zu schaffen …") gelesen werden. Beide Lesarten haben Vertreter. Die Septuaginta und die frühe jüdische wie christliche Auslegung lasen Gen 1,1 als absoluten Anfang; der Zustand „wüst und leer" in 1,2 ist dann der erste Zustand der geschaffenen Erde.
+
+**Biblische Wurzeln:** 2 Makk 7,28 (deuterokanonisch, in der koptischen Kirche kanonisch); Ps 33,6–9 („So er spricht, so geschieht's"); Joh 1,3 („ohne dasselbe ist nichts gemacht"); Röm 4,17; Hebr 11,3; Offb 4,11.
+
+**Die Väter:** Theophilus von Antiochien (*An Autolykus* II,4 und II,10) und Irenäus (*Adversus Haereses* II,10,4) betonen gegen Platoniker und Gnostiker, dass Gott nicht bloß eine vorhandene Materie formte, sondern auch die Materie selbst hervorbrachte. Für die alexandrinische Tradition ist das grundlegend: Athanasius begründet in *De Incarnatione* 2–3 die Schöpfung aus dem Nichts gegen Epikureer und Platoniker.
+
+**Dogma:** Die Schöpfung aus dem Nichts gehört zum verbindlichen Glauben der Kirche – sie hängt aber nicht an einer einzelnen Lesart von Gen 1,2, sondern am Zeugnis der ganzen Schrift.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Lehrer der Schöpfung aus dem Nichts',
+                      text: `Athanasius weist in *De Incarnatione* sowohl die epikureische Vorstellung zurück, alles sei zufällig entstanden, als auch die platonische, Gott habe nur eine bereits vorhandene, ungeschaffene Materie geformt. Ein Gott, der nur vorgegebenes Material bearbeitet, wäre ein Handwerker, kein Schöpfer. Die Schrift bezeuge dagegen, dass Gott durch seinen Logos alles aus dem Nichtsein ins Dasein rief.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '2–3', quote: `Wäre die Materie ungeschaffen, so wäre Gott nur ein Handwerker und nicht Schöpfer; er hat aber alles aus dem Nichts durch seinen Logos ins Dasein gerufen.`, status: 'paraphrase' }],
+                    },
+                    {
+                      person: 'irenaeus',
+                      role: 'als Theologe gegen die Gnosis',
+                      text: `Irenäus betont gegen gnostische Lehrer, dass Gott nicht wie ein menschlicher Handwerker auf vorhandenes Material angewiesen ist. Er selbst habe die Substanz seiner Schöpfung ins Dasein gerufen, als sie zuvor nicht existierte. Damit wird die Souveränität Gottes über alles Geschaffene gewahrt.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'II,10,4', quote: `Gott hat die Substanz seiner Schöpfung selbst ins Dasein gerufen, als sie vorher nicht war.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Römer', ref: '4,17', quote: `… vor Gott, dem er geglaubt hat, der da lebendig macht die Toten und ruft dem, das nicht ist, daß es sei.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'kirchenvater', author: 'Theophilus von Antiochien', work: 'An Autolykus (Ad Autolycum)', ref: 'II,4 und II,10', quote: `Gott hat alles aus dem Nichts gemacht; wäre die Materie ungeschaffen wie Gott, so wäre Gott nicht der Schöpfer aller Dinge.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn 2 Makk 7,28 und Röm 4,17 schon vor dem 2. Jahrhundert von einer Schöpfung aus dem Nichtsein sprechen – wurde die Lehre dann erfunden oder entfaltet?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -240,6 +302,21 @@ const claim: Claim = {
           id: 'exil-geschrieben',
           objection: `Die Genesis wurde aber erst im babylonischen Exil geschrieben.`,
           answer: `Die Datierung ist umstritten (siehe den Claim zur Urkundenhypothese). Aber selbst bei einer Endredaktion im Exil bleibt der Befund: Die Genesis stellt sich gegen die babylonische Religion, statt sie zu übernehmen – eine Gegenrede an die Sieger, mitten in deren Hauptstadt.`,
+          followUps: [
+            {
+              id: 'exil-erklaert-polemik',
+              objection: `Genau das bestätigt die kritische Forschung: Exilierte Priester schrieben Genesis 1 als Trostschrift gegen Babylon – mit Sabbat als Identitätsmerkmal. Dann ist der Text aber eine menschliche Reaktion auf eine politische Lage, keine Offenbarung über den Ursprung der Welt.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Warum sollte das ein Gegensatz sein? Auch die Briefe des Paulus sind Antworten auf konkrete Krisen in Korinth oder Galatien – und doch Gottes Wort. Inspiration geschieht nicht neben der Geschichte, sondern in ihr. Ob Genesis 1 in seiner Endgestalt aus der Zeit des Mose stammt oder im Exil seine Form fand, ist eine historische Frage, über die man streiten kann. Dass Gott durch seine Propheten mitten in Bedrängnis spricht, ist gerade das Muster der ganzen Bibel.`,
+              detail: `**Zwei Fragen auseinanderhalten:**
+1. **Wann und wie** entstand der Text? Hier gibt es unterschiedliche Modelle: von mosaischer Verfasserschaft mit späterer Bearbeitung bis zur Entstehung im Exil. Die Tradition der Kirche spricht von den Büchern Mose; Jesus selbst bezieht sich auf „Mose" (Mk 10,3–6) und zitiert dabei Genesis.
+2. **Ist der Text Offenbarung?** Das hängt nicht an einem bestimmten Datum. Die Kirche liest die Schrift als vom Heiligen Geist inspiriert, der durch Menschen in ihrer jeweiligen Lage spricht.
+
+**Das Argument umdrehen:** Wenn Genesis 1 im Exil entstand, dann sprachen Besiegte im Land der Sieger einer übermächtigen Religion ab, göttlich zu sein – und erklärten den Gott eines zerstörten Tempels zum Schöpfer aller Dinge. Das ist historisch gesehen eine erstaunliche Glaubensaussage, keine bloße Anpassung.`,
+              sources: [{ kind: 'bibel', work: 'Markus', ref: '10,6', quote: `Aber von Anfang der Kreatur hat sie Gott geschaffen einen Mann und ein Weib.`, translation: 'Luther 1912', status: 'verbatim' }],
+              questionsBack: [`Wenn Paulus' Briefe Antworten auf konkrete Krisen sind und trotzdem Gottes Wort sein können – warum nicht auch Genesis 1?`],
+            },
+          ],
         },
       ],
     },

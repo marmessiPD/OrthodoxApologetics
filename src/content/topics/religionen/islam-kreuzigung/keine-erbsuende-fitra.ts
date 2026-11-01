@@ -128,7 +128,42 @@ const claim: Claim = {
           sources: [
             { kind: 'koran', work: 'Sure 12 (Yusuf)', ref: '12:53', quote: `Gewiss, die Seele gebietet nachdrücklich das Böse, außer wenn mein Herr sich erbarmt.`, original: `inna n-nafsa la-ammāratun bi-s-sūʾi illā mā raḥima rabbī`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/12/53' },
             { kind: 'koran', work: 'Sure 35 (Fatir)', ref: '35:45', quote: `Und wenn Allah die Menschen für das belangen würde, was sie erworben haben, würde Er auf ihrer Oberfläche kein Lebewesen lassen.`, original: `wa-law yuʾākhidhu llāhu n-nāsa bi-mā kasabū mā taraka ʿalā ẓahrihā min dābbatin`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/35/45' },
-            { kind: 'hadith', work: 'Jami\' at-Tirmidhi', ref: 'Kitab at-Tafsir, zu Sure 7 (al-A\'raf)', quote: `Adam leugnete, und so leugneten seine Nachkommen; Adam vergaß, und so vergaßen seine Nachkommen; Adam sündigte, und so sündigten seine Nachkommen.`, translation: 'sinngemäß', status: 'paraphrase', note: 'Häufig als Tirmidhi 3076 zitiert und als hasan sahih eingestuft – Nummer und Einstufung vor Verwendung prüfen.' },
+            { kind: 'hadith', work: 'Jami\' at-Tirmidhi', ref: '3076 (Kitab at-Tafsir, zu Sure 7 al-A\'raf)', quote: `Adam leugnete, und so leugneten seine Nachkommen; Adam vergaß, und so vergaßen seine Nachkommen; Adam sündigte, und so sündigten seine Nachkommen.`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/tirmidhi:3076', note: 'Nummer nach sunnah.com-Zählung geprüft (2026). Tirmidhi stuft ihn als ḥasan ṣaḥīḥ ein; Zubair Ali Zai: Kette ḥasan. Kontext: Adam sieht seine Nachkommen und schenkt David vierzig Jahre seines Lebens, was er später leugnet.' },
+          ],
+          followUps: [
+            {
+              id: 'universal-aber-frei',
+              objection: `Dass alle sündigen, beweist keine vererbte Verderbnis. Jeder Mensch wählt frei – in einer Welt voller Versuchungen, mit dem Satan als Einflüsterer und schlechten Vorbildern. Universal heißt nicht angeboren.`,
+              objectionBy: 'Hamza Tzortzis',
+              answer: `Wenn die Sünde jedes Mal eine völlig freie Wahl aus neutraler Ausgangslage wäre, müsste es unter Milliarden Menschen wenigstens einige geben, die nie sündigen. Es gibt keinen – außer Christus, wie selbst der Koran nahelegt (19:19). Eine Quote von hundert Prozent verlangt eine gemeinsame Ursache. Und der Koran nennt sie selbst als innere Neigung, nicht nur als äußere Versuchung: „Die Seele gebietet nachdrücklich das Böse" (12:53). Das ist genau, was die Väter die Neigung zur Sünde nennen.`,
+              detail: `Die koptische Lehre behauptet nicht, dass der Mensch keinen freien Willen mehr hat – im Gegenteil: Die Väter betonen die Freiheit gegen jeden Fatalismus. Aber der Wille ist geschwächt und neigt zur Sünde; „ich sehe ein anderes Gesetz in meinen Gliedern" (Röm 7,23). Ps 51,7: „Siehe, ich bin in sündlichem Wesen geboren." Fair bleiben: 12:53 wird von manchen Exegeten Josef, von anderen der Frau des ʿAzīz zugeschrieben; in beiden Fällen ist es eine allgemeine Aussage über die menschliche Seele (*an-nafs*). Und der Satan als Einflüsterer erklärt nicht, warum der Mensch auf ihn hört – Adam und Eva hörten im Paradies auf ihn, ohne schlechte Vorbilder.`,
+              sources: [
+                { kind: 'bibel', work: 'Psalm', ref: '51,7', quote: `Siehe, ich bin in sündlichem Wesen geboren, und meine Mutter hat mich in Sünden empfangen.`, translation: 'nach Luther 1912', status: 'paraphrase', note: 'In manchen Zählungen Ps 51,5.' },
+                { kind: 'bibel', work: 'Römer', ref: '3,23', quote: `Denn es ist hier kein Unterschied: sie sind allzumal Sünder und mangeln des Ruhmes, den sie bei Gott haben sollten.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Kennst du einen einzigen Menschen außer Jesus, der nie gesündigt hat? Wenn nicht – warum nicht, wenn jeder frei und neutral beginnt?`,
+              ],
+              followUps: [
+                {
+                  id: 'gott-gab-beides-91-8',
+                  objection: `Der Koran sagt: „Er gab ihr (der Seele) ihre Sittenlosigkeit und ihre Gottesfurcht ein" (91:8). Beides ist von Allah geschaffen – die Neigung zum Bösen gehört zur Prüfung, nicht zu einem Sündenfall.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Dann denk das zu Ende: Wenn Gott die Neigung zum Bösen selbst in die Seele gelegt hat und den Menschen dann für das Böse bestraft, wird Gott zum Urheber der Neigung, für die er straft. Die christliche Lehre schützt Gottes Güte: Gott schuf alles „sehr gut" (Gen 1,31); die Neigung zum Bösen kam durch den Missbrauch der Freiheit in die Welt. Gott ist nicht der Urheber unserer Verderbnis, sondern ihr Arzt.`,
+                  detail: `91:7–10: „Bei der Seele und dem, der sie zurechtgeformt und ihr ihre Sittenlosigkeit und ihre Gottesfurcht eingegeben hat! Wohl ergehen wird es ja jemandem, der sie läutert, und enttäuscht sein wird ja jemand, der sie verkümmern lässt." Muslimische Exegeten deuten „eingeben" (*alhamahā*) unterschiedlich – als Erkenntnis von Gut und Böse oder als erschaffene Neigung. In der ersten Deutung entspricht der Vers dem biblischen Gewissen (Röm 2,15) und ist unproblematisch. In der zweiten entsteht die genannte Spannung. Die Väter sagen: Das Böse ist keine geschaffene Substanz, sondern Abkehr vom Guten (Athanasius, Gegen die Heiden 4–7). Darum kann Gott es heilen, ohne sich selbst zu widersprechen.`,
+                  voices: [
+                    { person: 'athanasius', role: 'als Lehrer über Ursprung des Bösen', text: `Athanasius erklärt in „Gegen die Heiden", dass das Böse nicht von Gott geschaffen ist und keine eigene Substanz hat. Es entstand, als die Menschen sich in ihrer Freiheit von der Betrachtung Gottes abwandten und sich dem Niedrigeren zuwandten. So bleibt Gott der gute Schöpfer, und der Mensch trägt Verantwortung für seine Abkehr.` },
+                  ],
+                  sources: [
+                    { kind: 'koran', work: 'Sure 91 (asch-Schams)', ref: '91:7–8', quote: `Bei der Seele und dem, der sie zurechtgeformt und ihr ihre Sittenlosigkeit und ihre Gottesfurcht eingegeben hat.`, original: `wa-nafsin wa-mā sawwāhā fa-alhamahā fujūrahā wa-taqwāhā`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/91/8' },
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '4–7', year: 'ca. 318–335', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Gott die Neigung zum Bösen geschaffen hat – ist er dann gerecht, wenn er für das Böse straft?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -140,7 +175,7 @@ const claim: Claim = {
       answer: `Vergebung der Schuld und Aufhebung der Folgen sind zweierlei. Adam wurde vergeben – aber er kehrte nicht ins Paradies zurück, sondern Gott sagte: „Geht alle hinab von hier" (2:38). Ebenso vergab Gott David seinen Ehebruch, und doch trug er die Folgen (2 Sam 12,13–14). Nach einer Überlieferung bei Bukhari hielt Mose im Streitgespräch Adam vor, dass sein Fehltritt seine Nachkommen aus dem Paradies gebracht habe.`,
       sources: [
         { kind: 'koran', work: 'Sure 2 (al-Baqara)', ref: '2:36–38', quote: `Da ließ der Satan sie davon straucheln und brachte sie heraus aus dem, worin sie waren … Wir sagten: Geht alle hinab von hier …`, original: `fa-azallahumā sh-shaiṭānu ʿanhā fa-akhrajahumā mimmā kānā fīhi … qulnā hbiṭū minhā jamīʿan`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/2/36-38' },
-        { kind: 'hadith', work: 'Sahih al-Bukhari', ref: 'Buch der Propheten, Streitgespräch zwischen Adam und Mose (vgl. auch Buch des Qadar)', quote: `Mose sagte: „Du bist Adam, dessen Fehltritt dich und deine Nachkommen aus dem Paradies gebracht hat."`, translation: 'sinngemäß', status: 'paraphrase', note: 'Häufig als Bukhari 3409 und 6614 zitiert – Nummern vor Verwendung prüfen.' },
+        { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3409 (Buch der Propheten; vgl. 6614 im Buch des Qadar)', quote: `Mose sagte: „Du bist Adam, dessen Fehltritt dich und deine Nachkommen aus dem Paradies gebracht hat."`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/bukhari:3409', note: 'Nummer 3409 nach sunnah.com-Zählung geprüft (2026). Fairerweise erwähnen: Im Hadith behält Adam im Streit die Oberhand („so besiegte Adam Mose"), weil Gott es vorherbestimmt hatte – der Hadith bestreitet aber nicht, dass Adams Tat die Nachkommen aus dem Paradies brachte.' },
       ],
       followUps: [
         {
@@ -148,6 +183,23 @@ const claim: Claim = {
           objection: `Die Erde war von Anfang an geplant – Allah sagte schon vor der Erschaffung Adams: „Ich werde auf der Erde einen Statthalter einsetzen" (2:30). Das Leben auf der Erde ist keine Strafe.`,
           objectionBy: 'Yasir Qadhi',
           answer: `Ein guter Punkt – Gottes Plan umfasst auch den Fall, den er vorherwusste. Aber der Koran beschreibt den Abstieg dennoch als Folge des „Strauchelns" durch den Satan (2:36), verbunden mit Feindschaft und Mühsal. Und Gottes Vorherwissen hebt die Folgen nicht auf, es zeigt nur, dass Gott einen Heilsplan hatte. Genau das sagt das Evangelium: Gott hat die Erlösung in Christus „vor Grundlegung der Welt" bereitet (1 Petr 1,20).`,
+          followUps: [
+            {
+              id: 'abstieg-war-ehre',
+              objection: `Adams Abstieg war keine Strafe, sondern eine Ehre: Er wurde Statthalter (ḫalīfa) und Prophet. Die islamische Sicht ist optimistisch – der Mensch beginnt nicht mit einem Fluch, sondern mit einer Würde.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Die Würde des Menschen bekennen wir auch: Er ist nach Gottes Bild geschaffen (Gen 1,27). Aber der Koran beschreibt den Abstieg selbst nicht nur als Ehre: „Adam widersetzte sich seinem Herrn und ging in die Irre" (20:121), und Gott sagt: „Steigt hinab, einer des anderen Feind" (2:36). Feindschaft, Mühsal und Tod sind keine Auszeichnungen. Und nach Bukhari hielt Mose Adam vor, sein Fehltritt habe seine Nachkommen aus dem Paradies gebracht – Adam bestreitet das nicht, sondern verweist auf Gottes Vorherbestimmung.`,
+              detail: `Das Gespräch kann hier sehr respektvoll werden, denn beide Traditionen halten Würde und Fall zusammen. Der Unterschied: Im Islam bleibt der Mensch nach Adams Reue im Grunde unversehrt und braucht Rechtleitung (*hudā*). Im christlichen Verständnis ist die Natur verwundet und braucht Heilung – nicht nur Information. Athanasius vergleicht den Menschen mit einem Porträt, das beschmutzt wurde: Um es wiederherzustellen, muss der Abgebildete selbst noch einmal kommen und Modell sitzen (De Incarnatione 14). Das ist die Menschwerdung.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 20 (Ta-Ha)', ref: '20:121', quote: `… und Adam widersetzte sich seinem Herrn, und so ging er in die Irre.`, original: `wa-ʿaṣā ādamu rabbahū fa-ghawā`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/20/121' },
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '14', year: 'ca. 318–335', status: 'paraphrase', note: 'Bild vom beschmutzten Porträt, für dessen Erneuerung der Abgebildete selbst wiederkommen muss.' },
+              ],
+              questionsBack: [
+                `Ist es eine Ehre oder eine Folge, wenn der Koran über Adam sagt, er habe sich seinem Herrn widersetzt und sei in die Irre gegangen (20:121)?`,
+                `Braucht ein verwundeter Mensch nur eine Anleitung – oder einen Arzt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -156,12 +208,64 @@ const claim: Claim = {
       objection: `Die Erbsünde hat Augustinus im 5. Jahrhundert erfunden – auf Grundlage einer falschen lateinischen Übersetzung von Röm 5,12 („in quo omnes peccaverunt").`,
       objectionBy: 'Shabir Ally',
       answer: `Richtig ist: Augustinus hat die westliche Lehre von der vererbten Schuld geprägt, und seine Auslegung von Röm 5,12 stützte sich auf die lateinische Übersetzung. Die koptische Kirche folgt ihm darin nicht. Aber die Lehre, dass durch Adam Tod und Verderben über die Menschheit kamen, ist viel älter: Sie steht bei Paulus selbst (Röm 5; 1 Kor 15,22) und bei Athanasius um 318 (De Incarnatione 3–5) – ein Jahrhundert vor Augustinus und ohne lateinische Übersetzung.`,
+      followUps: [
+        {
+          id: 'nur-sterblichkeit-kein-kreuz-noetig',
+          objection: `Wenn es bei euch nur um Sterblichkeit und Verderbnis geht, nicht um Schuld – dann braucht es kein Kreuz. Allah wird am Jüngsten Tag ohnehin alle auferwecken. Auferstehung ohne Kreuz: Das lehrt der Islam.`,
+          objectionBy: 'Shabir Ally',
+          answer: `Es geht um beides: um persönliche Schuld, die jeder Mensch auf sich lädt, und um die verwundete Natur, die zum Tod führt. Und eine Auferweckung zum Gericht ist nicht dasselbe wie Heilung: Wer mit verwundeter Natur aufersteht, steht als Sünder vor Gott. Athanasius sagt: Reue hält vom weiteren Sündigen ab, aber sie ruft den Menschen nicht aus der Verderbnis zurück. Darum ist das Wort selbst Fleisch geworden, hat den Tod in seinem eigenen Leib getragen und ihn von innen besiegt – damit wir nicht nur auferweckt, sondern unverweslich und Gott ähnlich werden.`,
+          detail: `Athanasius, De Incarnatione 7: Wäre nur ein Vergehen geschehen, ohne dass die Verderbnis folgte, so hätte die Reue genügt. Nun aber war der Mensch der naturgemäßen Verderbnis verfallen; deshalb brauchte es das Wort, das alles aus dem Nichts geschaffen hatte, um das Verderbliche zur Unverderblichkeit zurückzuführen. Kyrill von Alexandrien erklärt zu Röm 5,12, dass die menschliche Natur in Adam an der Sünde „erkrankte"; in Christus, dem zweiten Adam, wird sie geheilt. Das Ziel ist nicht nur Freispruch, sondern Vergöttlichung: „Er wurde Mensch, damit wir vergöttlicht würden" (De Inc. 54).`,
+          voices: [
+            { person: 'kyrill-alexandrien', role: 'als Ausleger des Römerbriefs', text: `Kyrill deutet Röm 5,12 so: Nicht jeder Mensch hat persönlich in Adam gesündigt, aber die menschliche Natur ist in Adam an der Sünde und am Verderben erkrankt. Darum musste der Logos die Natur selbst annehmen und in sich heilen; in Christus wird die Menschheit neu geschaffen.` },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '7', year: 'ca. 318–335', status: 'paraphrase', note: 'Reue würde bei einem bloßen Vergehen genügen, heilt aber nicht die Verderbnis der Natur.' },
+            { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Erklärung des Römerbriefs (Fragmente)', ref: 'zu Röm 5,12', status: 'paraphrase', note: 'Die Natur „erkrankte" in Adam an der Sünde.' },
+          ],
+          questionsBack: [
+            `Wird ein Mensch, der am Jüngsten Tag auferweckt wird, dadurch schon ohne Sünde?`,
+          ],
+        },
+      ],
     },
     {
       id: 'ez-18-gegen-erbsuende',
       objection: `„Der Sohn soll nicht tragen die Missetat des Vaters" (Ez 18,20). Eure eigene Bibel widerlegt die Erbsünde.`,
       objectionBy: 'Ahmed Deedat',
       answer: `Ez 18 spricht von der persönlichen Strafe für persönliche Schuld – und darin stimmt die koptische Lehre zu: Kein Kind wird für die Taten seines Vaters gerichtet. Aber derselbe Gott sagt durch Paulus, dass durch einen Menschen der Tod zu allen kam (Röm 5,12). Auch nach dem Koran sterben alle Menschen, auch die Säuglinge – ohne eigene Schuld. Woher kommt der Tod, wenn nicht aus dem Bruch zwischen Mensch und Gott?`,
+    },
+    {
+      id: 'maria-erbte-auch',
+      objection: `Wenn die Natur seit Adam verdorben ist, dann auch die Natur Marias – und Jesus hat seine Menschheit von ihr geerbt. Die Katholiken erfinden dafür die „unbefleckte Empfängnis". Ihr Kopten lehnt sie ab. Dann hat Jesus eine verdorbene Natur geerbt – oder eure Lehre bricht zusammen.`,
+      objectionBy: 'Mohammed Hijab',
+      answer: `Die koptische Kirche lehrt keine unbefleckte Empfängnis Marias, aber sie bekennt, dass der Heilige Geist bei der Verkündigung über die Jungfrau kam und sie heiligte und reinigte (Lk 1,35: „Der Heilige Geist wird über dich kommen"). Aus ihr nahm das Wort eine wahre Menschheit an und heiligte sie in der Einigung mit seiner Gottheit – ohne Sünde. Christus hat unsere Natur nicht angenommen, um ihre Krankheit zu teilen, sondern um sie zu heilen. Übrigens kennt auch die islamische Überlieferung eine besondere Bewahrung: Nach Bukhari 3431 wurden Maria und ihr Sohn als einzige nicht vom Satan bei der Geburt berührt.`,
+      detail: `Die koptischen Hymnen der Theotokia preisen Maria als Gefäß, das der Geist gereinigt hat, und als die „Tür", durch die der Herr eintrat. Der Kern der Antwort ist christologisch: Die Menschheit Christi ist vom ersten Augenblick an mit dem Logos geeint und dadurch geheiligt (Lk 1,35: „darum wird das Heilige, das geboren wird, Gottes Sohn genannt werden"). Kyrill betont, dass Christus „die Erstlingsfrucht" einer neuen Menschheit ist. Papst Schenuda III. hat in seinen Schriften über die Gottesmutter die römisch-katholische Lehre der unbefleckten Empfängnis ausdrücklich verneint und zugleich die einzigartige Heiligkeit Marias betont.`,
+      voices: [
+        { person: 'shenouda-iii', role: 'als Papst von Alexandrien', text: `Papst Schenuda III. erklärte, dass Maria wie alle Menschen von Adam abstammt und der Erlösung bedurfte – sie selbst nennt Gott „meinen Heiland" (Lk 1,47). Bei der Verkündigung reinigte und heiligte der Heilige Geist sie, damit sie den Sohn Gottes empfangen konnte. Darum lehnt die koptische Kirche die unbefleckte Empfängnis ab, ohne Marias Heiligkeit zu schmälern.` },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Lukas', ref: '1,35', quote: `Der Heilige Geist wird über dich kommen, und die Kraft des Höchsten wird dich überschatten; darum wird auch das Heilige, das von dir geboren wird, Gottes Sohn genannt werden.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+        { kind: 'bibel', work: 'Lukas', ref: '1,47', quote: `… und mein Geist freuet sich Gottes, meines Heilandes.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn Gott nach Bukhari 3431 Maria und ihren Sohn bei der Geburt vor Satan bewahrte – warum soll Gott Maria nicht für die Empfängnis seines Wortes heiligen können?`,
+      ],
+      followUps: [
+        {
+          id: 'gott-kann-alle-reinigen',
+          objection: `Wenn Gott Maria einfach durch den Geist reinigen konnte, dann kann er das auch mit allen Menschen tun – ohne Menschwerdung und ohne Kreuz.`,
+          objectionBy: 'Shabir Ally',
+          answer: `Die Heiligung Marias ist kein Weg *neben* der Menschwerdung, sondern ihr Anfang: Sie geschah, damit das Wort Fleisch werden konnte. Gott reinigt den Menschen nicht von außen wie man einen Gegenstand putzt, sondern indem er selbst in unsere Natur eintritt und sie von innen erneuert. Athanasius sagt: Es war nicht möglich, das Verderbliche zur Unverderblichkeit zurückzuführen, außer durch den Erlöser selbst, der im Anfang alles aus dem Nichts geschaffen hatte. Der Geist, der Maria heiligte, ist derselbe, den der auferstandene Christus allen schenkt (Joh 20,22; Apg 2).`,
+          detail: `Für das Gespräch ist wichtig: Die christliche Heilslehre ist kein Notbehelf, weil Gott „nicht anders konnte", sondern der Weg, den Gottes Liebe gewählt hat – den Weg der Gemeinschaft. Gott will den Menschen nicht nur rein, sondern mit sich vereint. Das geschieht in Christus, in dem Gottheit und Menschheit ungetrennt und unvermischt eins sind; durch Taufe, Myron und Eucharistie erhalten wir Anteil an dieser geheilten Menschheit. Darum ist die Menschwerdung nicht ein Mittel unter vielen, sondern das Ziel selbst: Gott wird Mensch, damit der Mensch an Gottes Leben teilhat (2 Petr 1,4).`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '7 und 54', year: 'ca. 318–335', status: 'paraphrase' },
+            { kind: 'bibel', work: '2. Petrus', ref: '1,4', quote: `… auf daß ihr dadurch teilhaftig werdet der göttlichen Natur.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Will Gott den Menschen nur von Schuld freisprechen – oder mit sich vereinen?`,
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
