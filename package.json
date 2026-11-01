@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Apologia – koptisch-orthodoxe Wissensdatenbank zur Verteidigung des christlichen Glaubens (Desktop & Mobile PWA)",
+  "description": "Apologia \u2013 koptisch-orthodoxe Wissensdatenbank zur Verteidigung des christlichen Glaubens (Desktop & Mobile PWA)",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && tsc -p tsconfig.content.json --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "typecheck:content": "tsc -p tsconfig.content.json --noEmit",
