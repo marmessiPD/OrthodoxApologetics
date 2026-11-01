@@ -1180,7 +1180,7 @@ export const people: Person[] = [
       'Vortragsreihe „Abiogenesis: The Origin of Life" (YouTube, 2023, 13 Teile)',
       '„Animadversions of a Synthetic Chemist", Inference Review 2/2 (2016)',
       '„Time Out", Inference Review 4/4 (2019)',
-      'Debatten mit Lee Cronin (2024) und Dave Farina',
+      'Debatten mit Dave Farina (Rice University, Mai 2023) und Lee Cronin (November 2023)',
     ],
   },
   {
