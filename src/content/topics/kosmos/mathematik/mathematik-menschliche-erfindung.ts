@@ -102,7 +102,7 @@ const claim: Claim = {
       text: `Kepler fand die Ellipsenbahnen der Planeten, indem er voraussetzte, dass die Welt mathematisch geordnet ist. In der *Harmonice Mundi* nennt er die Geometrie gleich ewig mit dem göttlichen Geist; sie habe Gott die Urbilder für die Schöpfung geliefert und sei mit dem Bild Gottes auf den Menschen übergegangen. In einem Brief an Herwart von Hohenburg (1599) schreibt er sinngemäß, Gott habe die Naturgesetze für den menschlichen Geist erkennbar gemacht, indem er uns nach seinem Bild schuf, damit wir an seinen Gedanken teilhaben. Die verbreitete Kurzformel „Gottes Gedanken nachdenken" ist eine spätere Verdichtung dieser Aussagen.`,
       sources: [
         { kind: 'wissenschaft', author: 'Johannes Kepler', work: 'Harmonice Mundi', ref: 'Buch IV, Kap. 1', year: '1619', quote: `Die Geometrie, vor der Entstehung der Dinge dem göttlichen Geist gleich ewig, hat Gott die Vorbilder für die Erschaffung der Welt geliefert und ist mit dem Bild Gottes in den Menschen übergegangen.`, status: 'paraphrase' },
-        { kind: 'wissenschaft', author: 'Johannes Kepler', work: 'Brief an Herwart von Hohenburg', ref: '9./10. April 1599', status: 'unverified', note: 'Häufig als Ursprung von „Gottes Gedanken nachdenken" genannt; die geläufige Kurzform ist in Keplers Werken so nicht belegt. Nicht als wörtliches Zitat verwenden.' },
+        { kind: 'wissenschaft', author: 'Johannes Kepler', work: 'Brief an Herwart von Hohenburg', ref: '9./10. April 1599; engl. Übersetzung in: Carola Baumgardt, Johannes Kepler: Life and Letters (1953), S. 50', quote: `Gott wollte, dass wir die Naturgesetze erkennen, indem er uns nach seinem Bild schuf, damit wir an seinen eigenen Gedanken teilhaben können.`, status: 'paraphrase', note: 'Per Websuche geprüft (2026): Der Gedanke („so that we could share in his own thoughts") ist für diesen Brief belegt (Baumgardt 1953, S. 50). Die Kurzform „Ich denke Gottes Gedanken nach" ist eine spätere Verdichtung und in Keplers Werken nicht wörtlich nachgewiesen – nie als Kepler-Zitat ausgeben.' },
       ],
     },
     {
@@ -241,6 +241,35 @@ Hier setzt das Argument von C. S. Lewis an: Wenn unser Denken nur das Nebenprodu
               questionsBack: [
                 `Kennst du eine Romanfigur, deren Eigenschaften man Jahrzehnte später im Labor nachgemessen hat?`,
               ],
+              followUps: [
+                {
+                  id: 'sozial-objektiv-wie-geld',
+                  objection: `Mathematik ist weder Fiktion noch platonisches Reich, sondern eine sozial-historische Wirklichkeit – wie Geld, Recht oder Sprache. Die sind auch objektiv und zwingend, und trotzdem hat sie der Mensch gemacht.`,
+                  objectionBy: 'Reuben Hersh',
+                  answer: `Der Vergleich zeigt gerade den Unterschied: Den Wert des Geldes kann eine Zentralbank per Beschluss ändern, ein Gesetz kann das Parlament aufheben. Keine Akademie der Welt kann beschließen, dass 91 eine Primzahl ist. Soziale Tatsachen hängen von unserer Übereinkunft ab – mathematische Tatsachen widersetzen sich ihr. Mathematiker erleben, dass sie etwas **finden**, nicht vereinbaren.`,
+                  detail: `Hersh hat recht, dass mathematische **Praxis** sozial ist: Notation, Beweisstandards, Fachzeitschriften, Moden. Aber die Wahrheit eines Satzes wird von dieser Praxis nicht erzeugt, sondern erkannt – sonst wäre ein Beweisfehler, den die Gemeinschaft jahrelang übersieht, bis dahin „wahr" gewesen. Die Mathematikgeschichte ist voll von solchen Korrekturen; sie setzen einen Maßstab jenseits der Gemeinschaft voraus.
+
+Georg Cantor, der Begründer der Mengenlehre, verstand die Mathematik genau so: frei im Bilden von Begriffen, aber gebunden an eine Wirklichkeit, die ihre Begriffe trifft. Für Cantor wurzelte diese Wirklichkeit letztlich im göttlichen Verstand.`,
+                  voices: [
+                    {
+                      person: 'cantor',
+                      role: 'als Begründer der Mengenlehre',
+                      text: `Cantor unterschied die „immanente" Realität mathematischer Begriffe (ihre widerspruchsfreie Stellung im Denken) von ihrer „transienten" Realität (ihrer Entsprechung in der Welt) und war überzeugt, dass beide zusammenfallen, weil derselbe Gott Denken und Welt begründet. Er sah das Transfinite nicht als Erfindung, sondern als Entdeckung, die letztlich auf Gott verweist.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Georg Cantor', work: 'Grundlagen einer allgemeinen Mannichfaltigkeitslehre', ref: '§ 8', year: '1883', status: 'paraphrase' },
+                        { kind: 'fachliteratur', author: 'Joseph W. Dauben', work: 'Georg Cantor: His Mathematics and Philosophy of the Infinite', year: '1979', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Reuben Hersh', work: 'What Is Mathematics, Really?', year: '1997', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Könnte eine Konferenz von Mathematikern beschließen, dass es nur endlich viele Primzahlen gibt?`,
+                    `Wenn ein Beweisfehler zehn Jahre unentdeckt bleibt – war der Satz in dieser Zeit „sozial wahr"?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -264,6 +293,46 @@ Hier setzt das Argument von C. S. Lewis an: Wenn unser Denken nur das Nebenprodu
       ],
       questionsBack: [
         `Wenn alle mathematischen Strukturen existieren – warum leben wir in einer so geordneten?`,
+      ],
+      followUps: [
+        {
+          id: 'notwendiges-braucht-keinen-gott',
+          objection: `Mathematische Wahrheiten sind notwendig – sie könnten nicht anders sein. Was notwendig ist, braucht keine Erklärung und erst recht keinen Gott. Du hängst einen überflüssigen Geist an etwas, das sich selbst trägt.`,
+          objectionBy: 'Max Tegmark / Graham Oppy',
+          answer: `Dass sie notwendig sind, gebe ich gern zu. Die Frage ist aber, **was für Dinge** sie sind: Sätze, Beweise, Strukturen haben die Natur von **Gedachtem** – und Gedanken ohne Denkenden sind schwer zu verstehen. Außerdem erklärt Notwendigkeit nicht, warum eine **kontingente** Welt sich genau an diese Strukturen hält. Das eine ist Mathematik, das andere Physik – die Brücke zwischen beiden ist das Rätsel.`,
+          detail: `Leibniz formulierte die klassische Antwort: Die ewigen Wahrheiten haben ihren Ort im göttlichen Verstand; ohne Gott gäbe es zwar keine anderen Wahrheiten, aber auch nichts, worin die Wahrheiten wirklich wären (Monadologie §§ 43–46). Das ist keine Zusatzhypothese, sondern eine Antwort auf die Frage nach dem ontologischen Status, die Tegmark offen lässt.
+
+Zudem: Tegmark selbst muss annehmen, dass jede mathematische Struktur auch **physikalisch** existiert. Das ist nicht weniger kühn als ein ewiger Geist – nur ohne dessen Erklärungskraft für Bewusstsein, Ordnung und Sinn.`,
+          voices: [
+            {
+              person: 'leibniz',
+              role: 'als Mathematiker und Philosoph',
+              text: `Leibniz, Mitbegründer der Infinitesimalrechnung, lehrte, dass die ewigen und notwendigen Wahrheiten nicht vom Willen Gottes abhängen, sondern in seinem Verstand gründen. Gott ist für ihn die „Region der ewigen Wahrheiten": Ohne ihn hätten die Möglichkeiten keine Wirklichkeit. Die Welt ist mathematisch, weil der Schöpfer sie nach seinen Ideen geordnet hat.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Monadologie', ref: '§§ 43–46', year: '1714', status: 'paraphrase' },
+              ],
+            },
+          ],
+          questionsBack: [
+            `Kann es einen Satz geben, den niemand – auch kein möglicher Geist – je denkt?`,
+            `Warum hält sich eine Welt, die auch anders sein könnte, an notwendige Strukturen?`,
+          ],
+          followUps: [
+            {
+              id: 'gott-macht-2-plus-2-gleich-5',
+              objection: `Dann hängt die Mathematik von Gott ab. Könnte er also beschließen, dass 2 + 2 = 5 ist? Wenn nein, steht die Mathematik über Gott; wenn ja, ist sie willkürlich. Das ist Euthyphron für Mathematiker.`,
+              objectionBy: 'Graham Oppy',
+              answer: `Das Dilemma hat ein drittes Horn: Mathematische Wahrheiten gründen weder in Gottes **Willen** noch stehen sie **über** ihm – sie gründen in seiner **Natur**, in seinem ewigen Verstand. Gott kann nicht beschließen, dass 2 + 2 = 5 ist, so wie er nicht aufhören kann, Gott zu sein. Das ist keine Schwäche, sondern Vollkommenheit: Allmacht heißt, alles Mögliche tun zu können, nicht Widersprüche wahr zu machen.`,
+              detail: `So schon Thomas von Aquin (Summa theologiae I, q. 25, a. 3): Was einen Widerspruch einschließt, fällt nicht unter Gottes Allmacht, weil es gar kein „Etwas" ist. Leibniz hielt gegen Descartes (der die ewigen Wahrheiten an Gottes freien Willen band) fest, dass sie im Verstand Gottes liegen. Die Väter sprechen von Gottes Einfachheit: Sein Wissen und sein Sein sind nicht zweierlei.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 25, a. 3', year: 'um 1265–1274', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Ist es eine Grenze der Mathematik, dass sie keine Widersprüche enthalten kann – oder ihre Vollkommenheit?`,
+              ],
+            },
+          ],
+        },
       ],
     },
   ],

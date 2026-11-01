@@ -93,6 +93,35 @@ const claim: Claim = {
               objection: `Bei nur einem Universum kann man keine Wahrscheinlichkeiten angeben. Wir haben eine Stichprobe von eins.`,
               objectionBy: 'Victor Stenger / Sabine Hossenfelder',
               answer: `Wir beurteilen einmalige Ereignisse ständig: die Entstehung des Lebens, den Urknall selbst, einen Fingerabdruck am Tatort, einen Kriminalfall. Das Likelihood-Prinzip fragt nicht nach Häufigkeiten, sondern danach, unter welcher Hypothese das Beobachtete erwartbarer ist.`,
+              followUps: [
+                {
+                  id: 'kein-wahrscheinlichkeitsmass',
+                  objection: `Für „erwartbarer" brauchst du eine Wahrscheinlichkeitsverteilung über mögliche Konstanten. Die gibt es nicht. Wenn eine Konstante jeden Wert von null bis unendlich annehmen könnte, ist jeder endliche Bereich – ob groß oder klein – „unendlich unwahrscheinlich". Dann beweist die Feinabstimmung gar nichts.`,
+                  objectionBy: 'Victor Stenger / Sabine Hossenfelder',
+                  answer: `Das ist der stärkste technische Einwand, und er wird auch von christlichen Philosophen ernst genommen (McGrew, McGrew und Vestrup 2001). Die Antwort: Wir müssen nicht über unendliche Bereiche reden. Es genügt, die Konstanten innerhalb des Bereichs zu variieren, in dem unsere Physik nachweislich gilt – Collins nennt das den „epistemisch erhellten Bereich". Schon dort ist das lebensfreundliche Fenster winzig. Und Physiker selbst argumentieren genau so: Das „Problem der kosmologischen Konstante" – sie ist rund 120 Größenordnungen kleiner als die natürliche Erwartung – steht in jedem Lehrbuch, ohne dass jemand fragt, welche Wahrscheinlichkeitsverteilung Gott dafür gewählt hat.`,
+                  detail: `Das sogenannte Normierungsproblem lautet: Eine Gleichverteilung über einen unendlichen Bereich lässt sich nicht normieren. Robin Collins antwortet, dass wir uns nur auf den Bereich stützen sollen, über den wir physikalisch begründet urteilen können – etwa bis zur Planck-Skala, oberhalb derer unsere Theorien ohnehin versagen. Luke Barnes zeigt, dass mit allen gängigen „natürlichen" Verteilungen, die Physiker in der Praxis verwenden, die lebensfreundlichen Bereiche klein bleiben. Ehrlich bleibt: Die Wahrscheinlichkeitsbegründung ist ein offener Punkt der Philosophie der Physik – aber er trifft jede Argumentation mit Natürlichkeit, auch die der Physiker selbst.`,
+                  voices: [
+                    { person: 'robin-collins', role: 'als Physiker und Philosoph der Feinabstimmung', text: `Collins schränkt das Argument bewusst auf den „epistemisch erhellten Bereich" ein: den Wertebereich, für den wir mit unserer bestehenden Physik sagen können, ob Leben möglich wäre. Innerhalb dieses endlichen Bereichs ist eine Gleichverteilung normierbar, und das lebensfreundliche Teilintervall bleibt für mehrere Konstanten außerordentlich klein. Damit entgeht das Argument dem Einwand der unendlichen Bereiche.` },
+                    { person: 'luke-barnes', role: 'als Astrophysiker', text: `Barnes betont, dass Physiker im Alltag ständig mit Wahrscheinlichkeiten über Parameter arbeiten – etwa bei der Frage, wie „natürlich" eine Teilchenmasse ist. Wer das Wahrscheinlichkeitsargument bei der Feinabstimmung für bedeutungslos erklärt, müsste es auch beim Hierarchieproblem und beim Problem der kosmologischen Konstante aufgeben.` },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Timothy McGrew, Lydia McGrew & Eric Vestrup', work: '„Probabilities and the Fine-Tuning Argument: A Sceptical View", Mind 110', year: '2001', quote: `Über einen unendlichen Wertebereich lässt sich keine normierbare Gleichverteilung definieren; das Feinabstimmungsargument müsse dieses Problem lösen.`, status: 'paraphrase', note: 'Kritik aus dem christlichen Lager – zeigt, dass der Einwand fair diskutiert wird.' },
+                    { kind: 'fachliteratur', author: 'Robin Collins', work: '„The Teleological Argument: An Exploration of the Fine-Tuning of the Universe", in: The Blackwell Companion to Natural Theology', year: '2009', quote: `Das Argument stützt sich nur auf den epistemisch erhellten Bereich, in dem wir begründet beurteilen können, ob Leben möglich wäre.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn Wahrscheinlichkeiten über Konstanten bedeutungslos sind – warum gilt dann das Problem der kosmologischen Konstante als eines der größten Rätsel der Physik?`],
+                  followUps: [
+                    {
+                      id: 'natuerlichkeit-gescheitert',
+                      objection: `Gerade das Natürlichkeitsdenken ist gescheitert. Man hat am LHC Supersymmetrie erwartet, weil die Higgs-Masse sonst „unnatürlich" sei – gefunden wurde nichts. Die Natur schert sich nicht darum, was wir „unwahrscheinlich" finden. Vielleicht sind die Zahlen einfach, wie sie sind.`,
+                      objectionBy: 'Sabine Hossenfelder',
+                      answer: `Das Scheitern zeigt etwas anderes, als du meinst: Die Hoffnung, dass eine tiefere *Physik* die seltsamen Werte erklärt, hat sich bisher nicht erfüllt. Damit bleibt die Feinabstimmung unerklärt – sie ist nicht weg. Außerdem ist die Feinabstimmung für Leben keine Frage der Ästhetik: Ob Sterne brennen, ob Kohlenstoff entsteht, ob Atome stabil sind, sind harte physikalische Konsequenzen. „Die Zahlen sind einfach so" ist erlaubt – aber das ist keine Erklärung, sondern der Verzicht darauf.`,
+                      detail: `Hossenfelders Kritik richtet sich gegen Natürlichkeit als *Prognosewerkzeug*: Man dürfe aus „Unschönheit" keine neuen Teilchen vorhersagen. Damit hat sie in Bezug auf viele Physikvorhersagen recht. Das Feinabstimmungsargument behauptet aber nicht, dass die Natur „schön" sein müsse, sondern stellt fest, dass die beobachteten Werte in einem schmalen Bereich liegen, außerhalb dessen keine komplexen Strukturen möglich wären. Das ist eine kontrafaktische Berechnung, keine ästhetische Vorliebe.`,
+                      sources: [{ kind: 'gegner', author: 'Sabine Hossenfelder', work: 'Lost in Math: How Beauty Leads Physics Astray', year: '2018', quote: `Natürlichkeit sei ein ästhetisches Kriterium ohne gesicherte Grundlage; aus ihr abgeleitete Vorhersagen (etwa Supersymmetrie am LHC) hätten sich nicht bestätigt.`, status: 'paraphrase' }],
+                      questionsBack: [`Ist „Die Zahlen sind einfach so" eine Erklärung – oder die Entscheidung, keine zu suchen?`],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -111,6 +140,17 @@ const claim: Claim = {
           objection: `Aber du denkst ja tatsächlich, das Universum sei für dich gemacht. Das ist der Gipfel des Anthropozentrismus.`,
           objectionBy: 'Neil deGrasse Tyson',
           answer: `Die christliche Lehre ist nicht, dass das Universum nur für Menschen da ist. „Die Himmel erzählen die Ehre Gottes" (Ps 19,2); die Schöpfung ist „sehr gut", schon bevor der Mensch auftritt. Und das Feinabstimmungsargument betrifft Leben überhaupt, nicht speziell Menschen.`,
+          followUps: [
+            {
+              id: 'kopernikanische-kraenkung',
+              objection: `Die ganze Wissenschaftsgeschichte ist eine Geschichte der Entthronung: Kopernikus nahm uns das Zentrum, Darwin die Sonderstellung, Hubble unsere Galaxie. Das anthropische Denken ist ein Rückfall in die vorkopernikanische Eitelkeit.`,
+              objectionBy: 'Neil deGrasse Tyson',
+              answer: `Die Erzählung ist historisch schief. Im mittelalterlichen Weltbild war das Zentrum nicht der Ehrenplatz, sondern der *niedrigste* Ort – der Bodensatz des Kosmos, nahe der Hölle; die Würde lag oben, in den Himmeln. Kopernikus hat die Erde also eher „befördert". Und vor allem: Das Feinabstimmungsargument hängt nicht an unserem Ort im Raum, sondern an den Gesetzen und Konstanten, die überall gelten. Dass wir nicht im Mittelpunkt wohnen, ändert nichts daran, dass das ganze Universum lebensermöglichend eingestellt ist.`,
+              detail: `Der Wissenschaftshistoriker Dennis Danielson hat gezeigt, dass die Idee einer „Kränkung durch Kopernikus" eine spätere Erfindung ist, die sich erst im 17. und 18. Jahrhundert durchsetzte. Galilei selbst sah es als Erhöhung an, dass die Erde nun ein „Stern" unter Sternen sei, nicht mehr der „Abfallhaufen" der Welt. Für das Gespräch: Christliche Würde des Menschen hing nie an seiner Position im Raum, sondern an seiner Beziehung zu Gott (Ps 8).`,
+              sources: [{ kind: 'fachliteratur', author: 'Dennis R. Danielson', work: '„The Great Copernican Cliché", American Journal of Physics 69', year: '2001', quote: `Im vorkopernikanischen Kosmos galt das Zentrum nicht als Ort der Ehre, sondern als niedrigster Ort; die Rede von der „Entthronung" der Erde ist ein späteres Klischee.`, status: 'paraphrase' }],
+              questionsBack: [`War das Zentrum im mittelalterlichen Weltbild ein Ehrenplatz – oder der niedrigste Ort des Kosmos?`],
+            },
+          ],
         },
       ],
     },

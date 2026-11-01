@@ -91,6 +91,32 @@ const claim: Claim = {
               objection: `Die einfachste Erklärung ist: Die Israeliten sahen die Ruinen und erfanden eine Geschichte, um sie zu erklären – eine Ätiologie.`,
               objectionBy: 'Dan McClellan',
               answer: `Das ist möglich, aber nicht zwingend. Ätiologische Notizen im Josuabuch („bis auf diesen Tag") zeigen, dass der Erzähler Ruinen seiner Zeit kannte – nicht, dass er die Ereignisse erfand. Und die Ätiologie-These erklärt Hazor nicht, wo eine Brandzerstörung im 13. Jahrhundert gut zum Text passt.`,
+              followUps: [
+                {
+                  id: 'hazor-aufstand',
+                  objection: `Auch Hazor ist kein Beweis. Sharon Zuckerman hat gezeigt, dass die Stadt lange im Niedergang war und vermutlich durch einen inneren Aufstand gegen die Elite zerstört wurde – nicht durch Eroberer von außen.`,
+                  objectionBy: 'William Dever',
+                  answer: `Zuckermans Deutung ist eine ernsthafte Alternative, und ich stelle Hazor deshalb nicht als „Beweis" dar. Aber Ben-Tor, der jahrzehntelang dort gegraben hat, hält an fremden Tätern fest: Die gezielte Schändung von Götter- und Königsstatuen, die abgeschlagenen Köpfe und Hände, passen zu Eroberern mit einer anderen Religion. Ehrlich ist: Zwei Ausgräber, zwei Deutungen. Für die Behauptung „die Archäologie widerspricht der Eroberung" reicht ein offener Befund aber gerade nicht.`,
+                  detail: `Zuckerman (Journal of Mediterranean Archaeology 2007) deutete die Zerstörung als Folge einer sozialen Krise und rituell begleiteten „Beendigung" der Palastkultur. Ben-Tor verweist darauf, dass weder Ägypter (die eigene Pharaonenstatuen kaum schänden würden) noch Seevölker (die so weit im Landesinneren nicht belegt sind) gut in Frage kommen. Beide Sichtweisen werden in der Fachwelt vertreten. Das Josuabuch nennt Hazor ausdrücklich als einzige Stadt im Norden, die verbrannt wurde (Jos 11,13) – eine auffällig präzise Angabe.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Sharon Zuckerman', work: 'Anatomy of a Destruction: Crisis Architecture, Termination Rituals and the Fall of Canaanite Hazor. Journal of Mediterranean Archaeology 20', year: '2007', quote: `Die Zerstörung Hazors als Ergebnis innerer sozialer Spannungen und eines langen Niedergangs.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Josua', ref: '11,13', quote: `Doch verbrannte Israel keine Städte, die auf Hügeln standen, sondern nur Hazor verbrannte Josua.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'jabin-zweimal',
+                      objection: `Und dann regiert in Richter 4 wieder ein König Jabin in Hazor – derselbe Name, dieselbe Stadt, die Josua angeblich niedergebrannt hat. Das ist eine Dublette, keine Geschichte.`,
+                      objectionBy: 'Joel Baden',
+                      answer: `Die Spannung ist echt und schon den Vätern aufgefallen. Eine mögliche Lösung: „Jabin" könnte ein Dynastiename gewesen sein – in den Mari-Texten des 18. Jahrhunderts heißt ein König von Hazor bereits Ibni-Addu, was sprachlich zu „Jabin" passt. Dann wäre Jabin in Richter 4 ein späterer Herrscher derselben Linie. Das ist eine Hypothese, kein Beweis; aber auch die Dublette ist nur eine Hypothese. Ein Erzähler, der eine Doppelung bemerkt hätte, hätte sie leicht glätten können – dass er es nicht tat, spricht eher für das Festhalten an überlieferten Daten.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'On the Reliability of the Old Testament', ref: 'Kap. 5', year: '2003', quote: `Der Name eines Königs von Hazor in den Mari-Texten (Ibni-Addu) als Hinweis auf einen wiederkehrenden Herrschernamen.`, status: 'paraphrase' },
+                        { kind: 'bibel', work: 'Richter', ref: '4,2', quote: `Jabin, der König der Kanaaniter, der zu Hazor regierte.`, status: 'paraphrase' },
+                      ],
+                      questionsBack: [`Warum hätte ein Redaktor, der Josua und Richter zusammenstellte, eine so offensichtliche Doppelung stehen lassen, wenn er frei erfand?`],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -107,6 +133,19 @@ const claim: Claim = {
           objection: `Khirbet el-Maqatir wurde von einem apologetischen Verein ausgegraben. Das ist keine unabhängige Wissenschaft.`,
           objectionBy: 'William Dever',
           answer: `Die Motivation der Ausgräber ist kein Gegenargument gegen ihre Befunde – sonst müsste man auch säkulare Archäologen nach ihrer Weltanschauung beurteilen. Entscheidend sind publizierte Daten und ihre Prüfung. Ich stelle Maqatir ausdrücklich als Minderheitsposition dar; mein Punkt ist nur, dass „Ai widerlegt die Bibel" eine ungesicherte Ortsgleichung voraussetzt.`,
+          followUps: [
+            {
+              id: 'ai-zwoelftausend',
+              objection: `Selbst wenn Maqatir Ai wäre: Das war eine winzige Festung. Josua 8 lässt dort 12.000 Menschen sterben. Die Zahlen sind absurd.`,
+              objectionBy: 'Kipp Davis',
+              answer: `Die großen Zahlen des AT sind ein bekanntes Problem, und ich verteidige sie nicht wörtlich. Das hebräische *eleph* kann „tausend" heißen, aber auch eine Sippe oder militärische Einheit – so schlugen es George Mendenhall und später Colin Humphreys vor. Dazu kommt die Konvention der Siegesrhetorik. Das ist ehrlich: Die Zahl ist vermutlich nicht als Volkszählung gemeint. Am Kern – eine kleine Stadt wird nach einer ersten Niederlage eingenommen – ändert das nichts.`,
+              detail: `Die *eleph*-Deutung ist eine Hypothese mit Stärken und Schwächen; manche Texte (z. B. Num 1) lassen sich damit elegant lesen, andere schwerer. Wichtig für den Laien: Nicht jede Zahl verteidigen, sondern zeigen, dass Zahlen in antiken Feldzugsberichten generell rhetorisch überhöht sind – auch in assyrischen Annalen, die niemand deshalb für reine Fiktion hält.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'George E. Mendenhall', work: 'The Census Lists of Numbers 1 and 26. Journal of Biblical Literature 77', year: '1958', quote: `Hebräisch eleph bezeichnet in den Musterungslisten ursprünglich eine Sippen- oder Truppeneinheit, nicht die Zahl Tausend.`, status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Colin J. Humphreys', work: 'The Number of People in the Exodus from Egypt. Vetus Testamentum 48', year: '1998', quote: `Neuberechnung der Exoduszahlen unter der Annahme, dass eleph eine Truppeneinheit meint.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
