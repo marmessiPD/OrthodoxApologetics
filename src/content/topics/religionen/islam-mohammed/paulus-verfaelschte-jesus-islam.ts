@@ -157,6 +157,26 @@ const claim: Claim = {
           objection: `Jesus sagte: „Ich bin nur gesandt zu den verlorenen Schafen des Hauses Israel" (Mt 15,24). Die Heidenmission ist Paulus' Erfindung.`,
           objectionBy: 'Zakir Naik',
           answer: `Derselbe Matthäus endet mit dem Auftrag des Auferstandenen: „Gehet hin und lehret **alle Völker**" (Mt 28,19). Mt 15,24 beschreibt die erste Phase seines irdischen Wirkens – und selbst dort hilft er der kanaanäischen Frau. Die Heidenmission begann in Samaria und mit dem römischen Hauptmann Kornelius durch Philippus und Petrus (Apg 8; 10), nicht durch Paulus.`,
+          followUps: [
+            {
+              id: 'mt-28-19-spaeter-zusatz',
+              objection: `Mt 28,19 mit der trinitarischen Taufformel ist ein späterer Zusatz. Eusebius zitiert den Vers mehrfach nur als „Machet zu Jüngern alle Völker in meinem Namen". Die Trinität wurde nachträglich eingefügt.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Alle erhaltenen Handschriften und alten Übersetzungen von Matthäus enthalten den Vers mit „im Namen des Vaters und des Sohnes und des Heiligen Geistes" – keine einzige hat die Kurzform. Und schon die Didache, eine Gemeindeordnung um das Jahr 100, schreibt: „Tauft auf den Namen des Vaters und des Sohnes und des Heiligen Geistes" (Didache 7,1) – mehr als zweihundert Jahre vor Eusebius. Eusebius zitiert oft frei und verkürzt; in späteren Schriften zitiert er den Vers auch in der vollen Form.`,
+              detail: `Die These, Eusebius bezeuge einen ursprünglichen Kurztext, geht vor allem auf F. C. Conybeare (1901) zurück und hat sich in der Textkritik nicht durchgesetzt. Kirchenväter zitierten aus dem Gedächtnis und passten Zitate dem Zusammenhang an. Für das Gespräch mit Muslimen ist zudem wichtig: Selbst ohne Mt 28,19 bliebe der Missionsbefehl an „alle Völker" stehen – und damit der Punkt, um den es in diesem Einwand eigentlich geht: Die Heidenmission ist kein Werk des Paulus, sondern Auftrag des auferstandenen Jesus. Die trinitarische Taufe bezeugen zudem schon Paulus (2 Kor 13,13) und die Didache.`,
+              voices: [
+                { person: 'metzger', role: 'als Textkritiker', text: `Metzger verweist darauf, dass Mt 28,19 in allen bekannten griechischen Handschriften, Übersetzungen und frühen Zitaten in der trinitarischen Form überliefert ist. Freie oder verkürzte Väterzitate wie bei Eusebius reichen nicht aus, um gegen diesen einhelligen Befund einen anderen Urtext zu rekonstruieren.` },
+              ],
+              sources: [
+                { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '7,1', year: 'ca. 100', quote: `… tauft auf den Namen des Vaters und des Sohnes und des Heiligen Geistes in lebendigem Wasser.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'bibel', work: 'Matthäus', ref: '28,19', quote: `Darum gehet hin und lehret alle Völker und taufet sie im Namen des Vaters und des Sohnes und des heiligen Geistes.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Kannst du eine einzige Handschrift von Matthäus nennen, die die Kurzform enthält?`,
+                `Wie erklärst du, dass die Didache um 100 dieselbe Taufformel verwendet?`,
+              ],
+            },
+          ],
         },
       ],
     },

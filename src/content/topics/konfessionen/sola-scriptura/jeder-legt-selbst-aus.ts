@@ -194,6 +194,95 @@ Aber derselbe Chrysostomus legt die Schrift als Bischof in der Liturgie aus und 
         },
       ],
     },
+    {
+      id: 'laie-mit-schrift',
+      objection: `„Ein einfacher Laie, der die Schrift hat, ist mehr zu glauben als Papst und Konzil ohne die Schrift. Konzilien haben geirrt und einander widersprochen – die Schrift nie."`,
+      objectionBy: 'Martin Luther (historisch, Leipziger Disputation 1519)',
+      answer: `Dem zweiten Teil stimme ich zu: Ein Konzil „ohne die Schrift" hat keine Autorität – die orthodoxen Konzilien verstanden sich ausdrücklich als Ausleger der Schrift. Aber die wirkliche Lage war nie „Laie mit Schrift gegen Konzil ohne Schrift". In Nizäa hatten Arius und Athanasius **dieselbe** Schrift. Und Luther selbst erlebte das zehn Jahre später in Marburg: Zwingli hatte ebenfalls die Schrift – Luther schrieb „Das ist mein Leib" mit Kreide auf den Tisch, und man trennte sich. Wer entscheidet, wenn zwei Laien mit der Schrift einander widersprechen?`,
+      detail: `Der Satz aus der Leipziger Disputation (1519) wird meist sinngemäß zitiert; er drückt Luthers Protest gegen eine Kirchenautorität aus, die sich über die Schrift stellte. Diesen Protest kann ein orthodoxer Christ respektieren: Auch für die koptische Kirche steht kein Konzil über dem Wort Gottes.
+
+Die Schwäche des Prinzips zeigte sich aber schnell. Beim **Marburger Religionsgespräch** (1529) konnten Luther und Zwingli sich über die Abendmahlsworte nicht einigen, obwohl beide „die Schrift hatten" und beide sich auf den Heiligen Geist beriefen. Seitdem haben sich Lutheraner, Reformierte, Täufer, Methodisten, Pfingstler usw. jeweils mit Berufung auf die Schrift getrennt.
+
+Die altkirchliche Lösung lautet nicht „Konzil statt Schrift", sondern: **Schrift, gelesen in der Gemeinschaft der Kirche**, deren Auslegung durch die Väter und die von der ganzen Kirche angenommenen Konzilien öffentlich und überprüfbar ist.`,
+      sources: [
+        { kind: 'gegner', author: 'Martin Luther', work: 'Leipziger Disputation mit Johannes Eck', year: '1519', quote: `Ein einfacher Laie, der die Schrift für sich hat, verdient mehr Glauben als Papst und Konzil ohne die Schrift.`, status: 'paraphrase', note: 'Meist sinngemäß zitiert; der genaue Wortlaut variiert in den Berichten.' },
+        { kind: 'fachliteratur', work: 'Marburger Religionsgespräch', year: '1529', quote: `Luther schrieb die Worte „Hoc est corpus meum" (Das ist mein Leib) mit Kreide auf den Tisch und beharrte auf ihrem Wortsinn; Zwingli deutete „ist" als „bedeutet". Die Einigung in der Abendmahlsfrage scheiterte.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn Luther und Zwingli beide die Schrift hatten – wessen Auslegung war „mehr zu glauben"?`,
+        `Welches Konzil der Alten Kirche hat nach deiner Ansicht „ohne die Schrift" entschieden?`,
+      ],
+      followUps: [
+        {
+          id: 'autoritaet-ohne-unfehlbarkeit',
+          objection: `„Wir sind keine Individualisten. Wir haben Bekenntnisse, Kommentare und Lehrer – wir halten sie nur nicht für unfehlbar. Das ist Autorität ohne Unfehlbarkeit, und die reicht."`,
+          objectionBy: 'R. C. Sproul',
+          answer: `Das ist ein ehrlicher und viel besserer Ansatz als Privatauslegung – und ich schätze ihn. Aber er verschiebt die Frage nur: **Welche** Bekenntnisse und Lehrer? Westminster oder Augsburg, Spurgeon oder Wesley? Wenn sie einander widersprechen, wählt am Ende doch wieder der Einzelne. Die orthodoxe Kirche hält auch keinen einzelnen Bischof für unfehlbar – aber sie hält den gemeinsamen Glauben der Kirche, wie ihn die Väter einmütig bezeugen und die Konzilien formuliert haben, für den vom Geist bewahrten Glauben (Joh 16,13; 1 Tim 3,15).`,
+          detail: `R. C. Sproul betont in *Knowing Scripture*, das Recht auf eigene Auslegung sei keine Lizenz zur Verzerrung; der Gläubige solle Lehrer und Kommentare benutzen. Das entspricht der reformatorischen Unterscheidung zwischen Schrift als *norma normans* (normierende Norm) und Bekenntnis als *norma normata* (normierte Norm).
+
+Die Frage ist aber, **wer** zwischen konkurrierenden *normae normatae* entscheidet. Weil sich protestantische Bekenntnisse in Taufe, Abendmahl, Prädestination und Heilsgewissheit widersprechen, bleibt die letzte Instanz praktisch das Urteil des Einzelnen bzw. der Gemeinde, die sich ihr Bekenntnis wählt. Die Orthodoxie dagegen ist nicht unfehlbar in einzelnen Personen, sondern in der Gesamtheit der Kirche: Was die ganze Kirche in Gebet, Sakrament und Bekenntnis angenommen hat, gilt als vom Geist bewahrt.`,
+          sources: [
+            { kind: 'gegner', author: 'R. C. Sproul', work: 'Knowing Scripture', year: '1977 (überarb. 2009)', quote: `Private Auslegung bedeutet das Recht und die Pflicht jedes Christen, die Schrift selbst zu lesen – nicht die Freiheit, sie nach Belieben zu verdrehen; Lehrer und Kommentare sind dabei unentbehrlich.`, status: 'paraphrase' },
+            { kind: 'bibel', work: '1. Timotheus', ref: '3,15', quote: `… die Gemeinde des lebendigen Gottes, ein Pfeiler und Grundfeste der Wahrheit.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'vaeterkonsens-mythos',
+              objection: `„Der ‚einmütige Konsens der Väter' ist ein Mythos. Die Väter widersprechen einander ständig – Origenes, Augustinus, Hieronymus, Chrysostomus. Ihr pickt euch die passenden Stellen heraus, genau wie wir."`,
+              objectionBy: 'John MacArthur',
+              answer: `In Nebenfragen widersprechen sie einander, ja – in der Auslegung einzelner Verse, in Spekulationen (Origenes!). Aber in den Kernfragen ist ihre Übereinstimmung frappierend: Dreieinigkeit, Gottheit Christi, Taufe als Wiedergeburt, Eucharistie als Leib und Blut, Bischofsamt, Gebet für die Entschlafenen. Selbst der anglikanische Patristiker J. N. D. Kelly stellt fest, dass die frühe Eucharistielehre „im Allgemeinen fraglos realistisch" war. Ein Konsens, der Ägypten, Syrien, Kleinasien, Rom und Gallien umspannt, ist kein Rosinenpicken.`,
+              voices: [
+                {
+                  person: 'jnd-kelly',
+                  role: 'als anglikanischer Dogmenhistoriker',
+                  text: `Kelly zeichnet in *Early Christian Doctrines* die Lehrentwicklung der ersten fünf Jahrhunderte nüchtern nach und benennt Unterschiede zwischen den Vätern offen. Gerade deshalb wiegt sein Befund schwer, dass die Eucharistielehre im Allgemeinen realistisch war und Taufe als Wiedergeburt und Sündenvergebung verstanden wurde – ein Urteil, das nicht aus orthodoxer Parteinahme kommt.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'J. N. D. Kelly', work: 'Early Christian Doctrines', year: '1958 (5. Aufl. 1977)', quote: `Die frühe Eucharistielehre war im Allgemeinen fraglos realistisch; die Taufe galt als Mittel der Wiedergeburt und Sündenvergebung.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Nenne mir einen Vater der ersten drei Jahrhunderte, der das Abendmahl rein symbolisch verstand und die Taufwiedergeburt ablehnte.`,
+              ],
+            },
+          ],
+        },
+        {
+          id: 'kopten-verwerfen-chalcedon',
+          objection: `„Eure ‚einmütige Kirche' gibt es gar nicht: Die Kopten verwerfen das Konzil von Chalcedon, das die Griechen und Lateiner für ökumenisch halten. Auch ihr seid über die Auslegung gespalten – seit 451."`,
+          objectionBy: 'Gavin Ortlund',
+          answer: `Das ist der stärkste Einwand, und ich nehme ihn ernst: 451 ist eine echte Wunde. Aber schau, was diese Spaltung **nicht** bewirkt hat: Kopten und Byzantiner haben 1500 Jahre getrennt gelebt und doch dieselben sieben Mysterien, dieselbe Liturgiestruktur, dieselbe Verehrung der Theotokos, dieselben Väter bis Kyrill. In den offiziellen Dialogen (1989/1990) erklärten beide Seiten, im Glauben an Christus denselben Inhalt in unterschiedlicher Terminologie zu bekennen. Der Protestantismus dagegen hat sich innerhalb einer Generation über den **Inhalt** von Taufe und Abendmahl gespalten.`,
+          detail: `Die koptische Kirche lehnte Chalcedon ab, weil sie in der Formel „in zwei Naturen" eine Nähe zum Nestorianismus fürchtete; sie bekennt mit dem hl. Kyrill „die eine fleischgewordene Natur des Gott-Logos" – ohne Vermischung, ohne Verwandlung, ohne Trennung. Die Gemeinsame Kommission der orthodoxen und orientalisch-orthodoxen Kirchen hielt im Anba-Bischoi-Kloster (1989) und in Chambésy (1990) fest, dass beide Familien denselben orthodoxen Glauben bewahrt haben und die Unterschiede wesentlich terminologisch sind.
+
+Das zeigt den Unterschied: Eine Familie, die über die richtige *Sprache* für ein gemeinsames Bekenntnis streitet, ist etwas anderes als Gemeinschaften, die über die *Sache* selbst uneins sind – ob die Taufe rettet, ob Christus im Abendmahl wahrhaft gegenwärtig ist, ob man das Heil verlieren kann.`,
+          voices: [
+            {
+              person: 'shenouda-iii',
+              role: 'als Patriarch, der die christologischen Dialoge mittrug',
+              text: `Papst Schenuda III. legte großen Wert darauf, dass die koptische Kirche nicht „monophysitisch" ist, sondern mit Kyrill die eine Natur des fleischgewordenen Logos bekennt, in der Gottheit und Menschheit ohne Vermischung und ohne Trennung geeint sind. Er unterstützte die Dialoge, die zeigten, dass die Trennung von 451 mehr auf Begriffen und Missverständnissen als auf einem anderen Christusglauben beruht.`,
+              sources: [
+                { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Die Natur Christi (The Nature of Christ)', quote: `Die koptische Kirche bekennt die eine Natur des fleischgewordenen Logos, ohne Vermischung, ohne Vermengung und ohne Trennung, und verwirft sowohl Nestorius als auch Eutyches.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'konzil', work: 'Gemeinsame Kommission für den theologischen Dialog zwischen der orthodoxen Kirche und den orientalisch-orthodoxen Kirchen – Erste und Zweite Vereinbarte Erklärung', year: '1989 (Anba-Bischoi-Kloster) / 1990 (Chambésy)', quote: `Beide Kirchenfamilien haben stets denselben authentischen orthodoxen christologischen Glauben bewahrt, obwohl sie christologische Begriffe unterschiedlich gebraucht haben.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'auch-ihr-braucht-dialog',
+              objection: `„Dann gebt ihr zu: Auch eure Kirche braucht Auslegung, Kommissionen und Dialoge – genau wie wir. Der Unterschied ist nur graduell."`,
+              objectionBy: 'James White',
+              answer: `Nein, er ist grundsätzlich. Unsere Dialoge suchen, wie man **denselben** überlieferten Glauben gemeinsam ausdrückt – das Glaubensbekenntnis, die Sakramente, die Väter stehen nicht zur Disposition. Im Protestantismus steht der Inhalt selbst zur Debatte, und jede Generation darf die vorige an der eigenen Exegese „reformieren". Ein Familienstreit am gemeinsamen Tisch ist etwas anderes, als bei jeder Meinungsverschiedenheit auszuziehen und ein neues Haus zu bauen.`,
+              questionsBack: [
+                `Welche Instanz könnte heute einen Streit zwischen Baptisten und Lutheranern über die Taufe verbindlich entscheiden?`,
+                `Was bleibt vom Glauben der Alten Kirche übrig, wenn jede Generation das Recht hat, ihn an der eigenen Exegese neu zu prüfen?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn der Heilige Geist jeden Gläubigen in alle Wahrheit führt – warum sind Lutheraner und Baptisten sich über die Taufe uneins?`,
