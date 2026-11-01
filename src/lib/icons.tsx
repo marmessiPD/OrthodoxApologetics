@@ -4,7 +4,7 @@ import {
   CloudLightning, CloudSun, Compass, Copy, Cpu, Cross, Crown, Dna, DoorOpen, Earth, Eye, Feather, Flame, FlameKindling,
   FlaskConical, Flower2, Footprints, GitBranch, GitFork, Globe, Heart, HeartHandshake, HeartPulse, Hexagon, ImageIcon,
   Infinity as InfinityIcon, KeyRound, Landmark, Lightbulb, Lock, Magnet, Megaphone, Merge, Moon, MoonStar, Mountain, MountainSnow,
-  Network, Orbit, Pickaxe, Route, Scale, Scroll, ScrollText, Shield, ShieldAlert, Sigma, SlidersHorizontal, Smile, Sparkle,
+  Network, Orbit, MessageSquare, Hourglass, Leaf, Skull, Languages, Droplets, Bug, Sunset, Pickaxe, Route, Scale, Scroll, ScrollText, Shield, ShieldAlert, Sigma, SlidersHorizontal, Smile, Sparkle,
   Sparkles, Split, Star, Stethoscope, Sunrise, Swords, Telescope, Triangle, UserRound, UserSearch, Users, Wind, Wine,
 } from 'lucide-react';
 
@@ -18,6 +18,7 @@ const map: Record<string, LucideIcon> = {
   'heart-pulse': HeartPulse, hexagon: Hexagon, image: ImageIcon, infinity: InfinityIcon, 'key-round': KeyRound,
   landmark: Landmark, lightbulb: Lightbulb, lock: Lock, magnet: Magnet, megaphone: Megaphone, merge: Merge, moon: Moon,
   'moon-star': MoonStar, mountain: Mountain, 'mountain-snow': MountainSnow, network: Network, orbit: Orbit,
+  'message-square': MessageSquare, hourglass: Hourglass, leaf: Leaf, skull: Skull, languages: Languages, droplets: Droplets, bug: Bug, sunset: Sunset,
   pickaxe: Pickaxe, route: Route, scale: Scale, scroll: Scroll, 'scroll-text': ScrollText, shield: Shield,
   'shield-alert': ShieldAlert, sigma: Sigma, 'sliders-horizontal': SlidersHorizontal, smile: Smile, sparkle: Sparkle,
   sparkles: Sparkles, split: Split, star: Star, stethoscope: Stethoscope, sunrise: Sunrise, swords: Swords,
