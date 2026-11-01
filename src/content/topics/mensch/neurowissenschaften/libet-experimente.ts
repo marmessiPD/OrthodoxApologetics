@@ -208,6 +208,52 @@ const claim: Claim = {
           objection: `Du willst Verantwortung doch nur, weil du an Strafe und Hölle glaubst.`,
           objectionBy: 'Robert Sapolsky',
           answer: `Nein – Verantwortung ist die Voraussetzung für alles, was menschliche Beziehungen ausmacht: Liebe, Treue, Dank, Vergebung, Versöhnung. Lewis warnte, dass ein Strafrecht ohne Schuldbegriff gefährlich wird, weil dann Experten Menschen unbefristet „therapieren" dürfen. Und in der koptischen Tradition ist Verantwortung vor allem der Weg zur Freiheit: Wer Schuld bekennen kann, kann neu anfangen.`,
+          followUps: [
+            {
+              id: 'auto-mit-defekten-bremsen',
+              objection: `Mein Modell ist barmherziger als deins: Einen Gewalttäter sollte man behandeln wie ein Auto mit defekten Bremsen. Man nimmt es aus dem Verkehr, um andere zu schützen – aber man hasst es nicht und will es nicht leiden sehen. Quarantäne statt Vergeltung.`,
+              objectionBy: 'Robert Sapolsky',
+              answer: `Der Impuls gegen Rache ist richtig – die Bibel sagt selbst: „Rächet euch selber nicht" (Röm 12,19). Aber dein Modell hat zwei gefährliche Folgen. Erstens: Ein Auto hat keine Rechte; wenn Menschen nur defekte Maschinen sind, gibt es keine Grenze für ihre „Reparatur" oder unbefristete Verwahrung. Zweitens: Wer nicht schuldig sein kann, kann auch nicht um Vergebung bitten, sich versöhnen und neu anfangen – du nimmst ihm genau das, was ihn als Person ausmacht.`,
+              detail: `Sapolsky entwickelt dieses Bild in „Behave" (2017) und vertieft es in „Determined" (2023); philosophisch knüpft er an Derk Pereboom an, der ein „Quarantänemodell" der Strafe vorgeschlagen hat. Beide wollen Menschen schützen und unnötiges Leid vermeiden – das ist ein ehrenwertes Anliegen.
+
+C. S. Lewis hat 1949 genau diese Logik kritisiert: Sobald Strafe nicht mehr nach *Verdienst* bemessen wird, sondern nach *Heilungsbedarf* und *Gesellschaftsschutz*, fehlt die Grenze, die das Prinzip der Gerechtigkeit setzt. Eine verdiente Strafe hat ein Maß; eine „Behandlung" endet erst, wenn die Experten sie für erfolgreich halten.
+
+Christliche Sicht: Gerechtigkeit und Barmherzigkeit gehören zusammen. Die Kirche kennt seit jeher die Buße als Weg der Heilung – aber eine Heilung, die den Menschen als verantwortliches Gegenüber anspricht, nicht als Gerät.`,
+              sources: [
+                { kind: 'gegner', author: 'Robert M. Sapolsky', work: 'Behave: The Biology of Humans at Our Best and Worst', ref: 'Kap. 16', year: '2017', status: 'paraphrase' },
+                { kind: 'gegner', author: 'Derk Pereboom', work: 'Living Without Free Will', year: '2001', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Römer', ref: '12,19', status: 'paraphrase', quote: `Rächet euch selber nicht, meine Liebsten, sondern gebet Raum dem Zorn Gottes.` },
+              ],
+              questionsBack: [`Wenn ein Mensch nur ein Auto mit defekten Bremsen ist – wer entscheidet dann, wann er „repariert" ist, und welche Rechte hat er gegenüber dem Mechaniker?`],
+              followUps: [
+                {
+                  id: 'gott-weiss-alles-vorher',
+                  objection: `Und dein Gott? Wenn er allwissend ist, weiß er schon heute, was du morgen entscheidest. Dann bist du im Christentum genauso festgelegt wie in meinem Determinismus.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Vorherwissen ist nicht Verursachen. Wenn ich weiß, dass mein Freund morgen pünktlich kommt, weil ich ihn kenne, zwinge ich ihn nicht dazu. Die Kirchenväter haben genau das schon gegen die heidnischen Fatalisten gesagt: Gott weiß etwas, weil es geschehen wird – es geschieht nicht, weil er es weiß. Und für Gott, der außerhalb der Zeit steht, ist unser Morgen kein „vorher", sondern Gegenwart.`,
+                  detail: `Origenes antwortet Kelsos (Contra Celsum II,20) auf den Einwand, Jesu Vorhersage des Verrats habe Judas zum Verrat gezwungen: Der Vorhersagende ist nicht die Ursache des Ereignisses; das Ereignis wäre geschehen, auch wenn es nicht vorhergesagt worden wäre, und gerade deshalb konnte es vorhergesehen werden. Augustinus (De libero arbitrio III) und Boethius (Trost der Philosophie V) vertiefen den Gedanken: Gottes Erkenntnis ist zeitlos, er „sieht" unsere freien Taten, wie wir einen Menschen gehen sehen, ohne ihn zum Gehen zu zwingen.
+
+Fair bleiben: Das Verhältnis von Vorherwissen und Freiheit ist ein klassisches philosophisches Problem mit mehreren Lösungsvorschlägen. Aber es ist ein anderes Problem als der neurowissenschaftliche Determinismus: Dort wird behauptet, dass physikalische Ursachen die Entscheidung *erzwingen*; Gottes Wissen dagegen ist keine Ursache, die neben unserem Willen steht.
+
+Orthodoxe Anthropologie: Die Väter nennen die Selbstbestimmung (griech. *autexousion*) einen Kern der Gottebenbildlichkeit (Gregor von Nyssa, De hominis opificio 16).`,
+                  voices: [
+                    {
+                      person: 'augustinus',
+                      role: 'als Philosoph von Vorherwissen und Freiheit',
+                      text: `Augustinus argumentiert in „Über den freien Willen" (Buch III), dass Gottes Vorherwissen unsere Sünden nicht verursacht: So wie unser Erinnern vergangene Taten nicht erzwungen hat, so erzwingt Gottes Wissen künftige Taten nicht. Der Mensch sündigt mit seinem Willen, und Gott weiß, dass er mit seinem Willen sündigen wird.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Über den freien Willen (De libero arbitrio)', ref: 'III,4', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Origenes', work: 'Gegen Kelsos (Contra Celsum)', ref: 'II,20', status: 'paraphrase', quote: `Nicht weil es vorhergesagt wurde, geschieht etwas; sondern weil es geschehen würde, wurde es vorhergesagt.` },
+                  ],
+                  questionsBack: [`Wenn du weißt, dass die Sonne morgen aufgeht – bist du dann der Grund, warum sie aufgeht?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

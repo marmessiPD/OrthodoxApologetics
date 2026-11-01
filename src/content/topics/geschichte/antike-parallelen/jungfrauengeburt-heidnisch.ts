@@ -97,6 +97,19 @@ const claim: Claim = {
               objection: `Das ist Semantik. In beiden Fällen empfängt eine Jungfrau durch göttliches Eingreifen.`,
               objectionBy: 'Richard Carrier',
               answer: `Nein, der Unterschied liegt im Inhalt: Im Mythos zeugt ein Gott aus Begierde einen Halbgott, der vorher nicht existierte. Im Evangelium nimmt der ewige Sohn, der schon vor aller Zeit ist, durch den Geist aus der Jungfrau die menschliche Natur an. Das eine ist eine Verbindung zweier Wesen, das andere Menschwerdung. Wer beides gleichsetzt, muss die Pointe beider Erzählungen ignorieren.`,
+              followUps: [
+                {
+                  id: 'augustus-propaganda',
+                  objection: `Dann nimm Augustus: Seine Mutter Atia soll im Apollontempel von einer Schlange empfangen haben. Lukas nennt Jesus „Retter", spricht von „Frieden auf Erden" und datiert die Geburt mit einem Erlass des Augustus. Das ist Kaiserpropaganda, christlich umgeschrieben.`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Dass Lukas Jesus bewusst dem Kaiser gegenüberstellt, sehe ich genauso – das betonen auch N. T. Wright und John Dominic Crossan. Aber Gegenüberstellung ist das Gegenteil von Übernahme: Lukas sagt, der wahre Retter liegt nicht im Palast, sondern in einer Krippe. Seine Titel stammen aus Jesaja („ein Kind ist uns geboren … Friedefürst", Jes 9,5). Und die Atia-Geschichte ist eindeutig körperlich: Die Schlange hinterlässt ein Mal auf ihrem Leib, und Atia war verheiratet. Lukas' Erzählung hat damit nur die Bühne gemeinsam.`,
+                  sources: [
+                    { kind: 'sonstiges', author: 'Sueton', work: 'Leben des Augustus (Divus Augustus)', ref: '94,4', year: 'ca. 121', quote: `Nach Asklepiades von Mendes sei Atia im Apollontempel eingeschlafen, eine Schlange sei zu ihr gekommen; danach habe sie ein schlangenförmiges Mal am Körper getragen, und im zehnten Monat sei Augustus geboren worden.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Jesaja', ref: '9,5', quote: `Denn uns ist ein Kind geboren, ein Sohn ist uns gegeben … und er heißt Wunderbar, Rat, Kraft, Held, Ewig-Vater, Friedefürst.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Ist eine Erzählung, die den Kaiser bewusst entthront, eine Kopie seiner Propaganda – oder ihre Widerlegung?`],
+                },
+              ],
             },
           ],
         },
@@ -121,6 +134,41 @@ const claim: Claim = {
               answer: `Interessanterweise bestätigt der Vorwurf, dass Jesu Geburt früh als ungewöhnlich bekannt war – vgl. die spitze Bemerkung „Wir sind nicht unehelich geboren" (Joh 8,41). Die Gegner reagierten auf eine christliche Behauptung, die es also schon gab. Damit bleiben zwei Optionen: Unehelichkeit oder jungfräuliche Empfängnis. Jesu Familie – sein Bruder Jakobus leitete die Jerusalemer Gemeinde – kannte die Umstände; sie hätte eine Vertuschung kaum mitgetragen und dafür ihr Leben riskiert.`,
               sources: [
                 { kind: 'kirchenvater', author: 'Origenes', work: 'Gegen Kelsos', ref: 'I,28; I,32', year: 'ca. 248', quote: `Kelsos lässt einen Juden behaupten, Jesu Mutter sei wegen Ehebruchs mit einem Soldaten namens Panthera verstoßen worden.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'pantera-grabstein',
+                  objection: `Es gibt sogar einen Grabstein: Tiberius Iulius Abdes Pantera, ein Bogenschütze aus Sidon, diente zur Zeit Jesu und starb in Germanien. James Tabor hält es für möglich, dass er Jesu Vater war.`,
+                  objectionBy: 'James Tabor',
+                  answer: `Der Grabstein aus Bingerbrück ist echt – aber er beweist nur, dass ein Soldat namens Pantera existierte. Der Name war unter Soldaten nicht selten, und nichts verbindet diesen Mann mit Nazareth. Die Panthera-Geschichte taucht erst rund 150 Jahre nach Jesu Geburt bei Kelsos auf, als Polemik gegen eine christliche Behauptung. Viele Forscher vermuten in „Panthera" ein spöttisches Wortspiel mit *parthenos*, Jungfrau. Ein Grabstein plus ein später Spottname ergeben keine historische Vaterschaft.`,
+                  detail: `Tabor (*The Jesus Dynasty*, 2006) stellt die Verbindung ausdrücklich als Möglichkeit dar, nicht als Beweis. Für dich wichtig: Selbst diese Hypothese bestätigt, dass Jesu Herkunft schon früh als ungewöhnlich galt – sie bestätigt nicht, dass Christen eine heidnische Göttergeburt übernahmen. Die beiden Einwände („heidnischer Mythos" und „uneheliche Geburt") schließen sich gegenseitig aus.`,
+                  sources: [
+                    { kind: 'gegner', author: 'James D. Tabor', work: 'The Jesus Dynasty', year: '2006', quote: `Der Grabstein des Tiberius Iulius Abdes Pantera als mögliche Spur zur Panthera-Überlieferung.`, status: 'paraphrase' },
+                    { kind: 'sonstiges', work: 'Grabstein des Tiberius Iulius Abdes Pantera (gefunden 1859 in Bingerbrück; Römerhalle Bad Kreuznach)', year: '1. Jh. n. Chr.', quote: `Grabinschrift eines Bogenschützen aus Sidon in römischen Diensten.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Vertrittst du nun, dass die Jungfrauengeburt aus heidnischen Mythen stammt – oder dass sie eine uneheliche Geburt verdecken sollte? Beides zugleich erklärt sich gegenseitig weg.`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'jes-7-ahas-kontext',
+          objection: `Jesaja 7,14 war ein Zeichen für König Ahas im 8. Jahrhundert v. Chr. Das Kind sollte damals geboren werden, bevor die beiden feindlichen Könige fallen (7,16). Mit Jesus hat das nichts zu tun.`,
+          objectionBy: 'Tovia Singer',
+          answer: `Richtig, das Zeichen hatte einen unmittelbaren Horizont – das sagen auch viele christliche Ausleger. Aber Jesaja verknüpft den Immanuel mit dem Kind aus Kapitel 9, das „starker Gott" heißt und auf Davids Thron ewig herrscht (9,5–6), und mit dem Spross aus Isais Stamm (11,1). Die Kapitel 7–11 bilden eine Einheit, die über Ahas hinausweist. Matthäus liest Jes 7,14 in diesem größeren Zusammenhang – und, wie gesagt, er leitet das Ereignis nicht aus dem Vers ab, sondern deutet ein Ereignis mit ihm.`,
+          sources: [
+            { kind: 'bibel', work: 'Jesaja', ref: '7,14', quote: `Darum so wird euch der Herr selbst ein Zeichen geben: Siehe, eine Jungfrau ist schwanger und wird einen Sohn gebären, den wird sie heißen Immanuel.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'betulah-statt-almah',
+              objection: `Hätte Jesaja „Jungfrau" gemeint, hätte er *betulah* geschrieben. *ʿAlmāh* ist schlicht eine junge Frau.`,
+              objectionBy: 'Tovia Singer',
+              answer: `Auch *betulah* ist nicht eindeutig: Gen 24,16 muss eigens hinzufügen „und kein Mann hatte sie erkannt", und in Joël 1,8 trauert eine *betulah* um den Mann ihrer Jugend. Umgekehrt bezeichnet *ʿalmāh* in keiner einzigen Stelle des AT nachweislich eine verheiratete Frau – Rebekka vor der Ehe (Gen 24,43), Mirjam als Mädchen (Ex 2,8). Darum übersetzten jüdische Gelehrte der Septuaginta mit *parthenos*. Ehrlich ist: Das Wort allein beweist keine Jungfrauengeburt; es schließt sie aber auch nicht aus.`,
+              sources: [
+                { kind: 'bibel', work: 'Genesis', ref: '24,16', quote: `Und die Dirne war sehr schön von Angesicht, eine Jungfrau, die noch von keinem Manne wusste.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Hebräisch betulah – das Wort braucht hier eine erläuternde Ergänzung.' },
+                { kind: 'fachliteratur', author: 'Michael L. Brown', work: 'Answering Jewish Objections to Jesus, Bd. 3', year: '2003', quote: `Diskussion von ʿalmāh und betulah; ʿalmāh bezeichnet im AT junge, unverheiratete Frauen.`, status: 'paraphrase' },
               ],
             },
           ],
