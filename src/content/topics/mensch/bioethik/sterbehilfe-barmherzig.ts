@@ -28,19 +28,21 @@ const claim: Claim = {
     summary: `Die koptisch-orthodoxe Kirche lehnt die aktive Tötung von Kranken – auch auf deren Verlangen – und die Beihilfe zur Selbsttötung ab, weil das Leben Gott gehört. Sie verlangt aber **nicht**, Sterbende um jeden Preis künstlich am Leben zu halten: Unverhältnismäßige, nur noch belastende Behandlungen dürfen beendet werden, und Schmerzlinderung ist geboten, selbst wenn sie als Nebenwirkung das Leben verkürzen könnte. Die Kirche begleitet Sterbende mit Gebet, Beichte, Kommunion und der Krankensalbung (Jak 5,14) und betet für die Entschlafenen. Die moderne Hospizbewegung wurde von der überzeugten Christin Cicely Saunders begründet – sie ist die christliche Antwort auf die Angst vor dem Sterben.`,
     detail: `Drei Unterscheidungen sind für Gespräche entscheidend: (1) **Töten** (aktive Sterbehilfe, ärztlich assistierter Suizid) ist etwas anderes als (2) **Sterbenlassen** (Verzicht auf unverhältnismäßige Maßnahmen) und (3) **Leidenslinderung** (Schmerztherapie, palliative Sedierung), bei der der Tod nicht beabsichtigt ist. Die Kirche lehnt nur das Erste ab.`,
     sources: [
-      { kind: 'koptisch', work: 'Lehre der koptisch-orthodoxen Kirche zu Sterbehilfe und Sterbebegleitung', quote: `Aktive Tötung und Beihilfe zur Selbsttötung werden abgelehnt; unverhältnismäßige Behandlungen müssen nicht fortgesetzt werden; Schmerzlinderung und geistliche Begleitung sind geboten.`, status: 'unverified', note: 'Zusammenfassung der verbreiteten orthodoxen Lehre; kein einzelnes offizielles Dokument zitiert.' },
+      { kind: 'koptisch', work: 'Lehre der koptisch-orthodoxen Kirche zu Sterbehilfe und Sterbebegleitung', quote: `Aktive Tötung und Beihilfe zur Selbsttötung werden abgelehnt; unverhältnismäßige Behandlungen müssen nicht fortgesetzt werden; Schmerzlinderung und geistliche Begleitung sind geboten.`, status: 'unverified', note: 'Zusammenfassung der verbreiteten orthodoxen Lehre; kein synodales koptisches Dokument gefunden (Websuche 2026). Der Kern (Ablehnung von Euthanasie und assistiertem Suizid) ist durch die Stellungnahme der koptisch-orthodoxen Kirche im Vereinigten Königreich (2024, siehe nächste Quelle) belegt; die Unterscheidung von unverhältnismäßiger Behandlung entspricht allgemeiner orthodoxer Lehre (z. B. Erklärung der Versammlung der kanonischen orthodoxen Bischöfe der USA, 2022).' },
+      { kind: 'koptisch', author: 'Koptisch-orthodoxe Kirche im Vereinigten Königreich (Erzbischof Angaelos)', work: 'Response to the Terminally Ill Adults (End of Life) Bill', year: 'November 2024', quote: `Die Kirche lehnt Euthanasie und assistierten Suizid ab und erkennt zugleich den Schmerz an, der Menschen dazu bringt, über die Beendigung ihres Lebens nachzudenken.`, status: 'paraphrase', url: 'https://cte.org.uk/app/uploads/2024/11/Terminally-Ill-Adults-End-of-Life-Bill-November-2024-Coptic-Orthodox-Church-UK-Response.pdf', note: 'Per Websuche gefunden (2026); sinngemäße Zusammenfassung, kein Wortlaut.' },
       { kind: 'bibel', work: 'Jakobus', ref: '5,14', quote: `Ist jemand krank, der rufe zu sich die Ältesten von der Gemeinde, daß sie über ihm beten und salben ihn mit Öl in dem Namen des HERRN.`, translation: 'Luther 1912', status: 'verbatim' },
     ],
   },
   opposingView: {
-    summary: `**Rechtslage und Zahlen (gerundet, nach den jeweiligen Jahresberichten):** In den **Niederlanden** (Gesetz seit 2002) wurden 2023 rund 9.000 Fälle gemeldet – gut 5 % aller Todesfälle –, 2024 knapp 10.000; die Zahl der Fälle wegen psychischer Erkrankung und Demenz steigt. **Belgien** (seit 2002) erlaubt seit 2014 Sterbehilfe für Minderjährige ohne Altersgrenze; 2023 über 3.400 Fälle. In **Kanada** (seit 2016) wurde die Sterbehilfe 2021 auf Menschen ausgeweitet, deren Tod nicht absehbar ist; 2023 starben rund 15.300 Menschen durch „Medical Assistance in Dying" (MAID), etwa 4,7 % aller Todesfälle; die Ausweitung auf rein psychische Erkrankungen wurde auf 2027 verschoben. In **Oregon** nennen Betroffene als Hauptgründe Verlust der Autonomie, nachlassende Fähigkeit zu Freude und Aktivität sowie Würdeverlust – Schmerzen oder die Angst davor werden deutlich seltener genannt.`,
+    summary: `**Rechtslage und Zahlen (gerundet, nach den jeweiligen Jahresberichten):** In den **Niederlanden** (Gesetz seit 2002) wurden 2023 9.068 Fälle gemeldet (5,4 % aller Todesfälle), 2024 9.958 (5,8 %); die Fälle wegen psychiatrischer Erkrankung stiegen von 138 auf 219, der Anteil der Demenzfälle von 3,7 % auf 4,3 %. **Belgien** (seit 2002) erlaubt seit 2014 Sterbehilfe für Minderjährige ohne Altersgrenze; 2023 wurden 3.423 Fälle registriert (3,1 % aller Todesfälle, +15 % gegenüber 2022). In **Kanada** (seit 2016) wurde die Sterbehilfe 2021 auf Menschen ausgeweitet, deren Tod nicht absehbar ist; 2023 starben rund 15.300 Menschen durch „Medical Assistance in Dying" (MAID), etwa 4,7 % aller Todesfälle; die Ausweitung auf rein psychische Erkrankungen wurde auf 2027 verschoben. In **Oregon** nennen Betroffene als Hauptgründe Verlust der Autonomie, nachlassende Fähigkeit zu Freude und Aktivität sowie Würdeverlust – Schmerzen oder die Angst davor werden deutlich seltener genannt.`,
     detail: `- **Ärzteschaft:** Der Weltärztebund (WMA) bekräftigte 2019 seine Ablehnung von Euthanasie und ärztlich assistiertem Suizid.
 - **Behindertenrechte:** Säkulare Behindertenorganisationen und UN-Sonderberichterstatter äußerten (etwa zur kanadischen Ausweitung 2021) die Sorge, dass Menschen mit Behinderung unter Druck geraten.
 - **Deutschland:** Das Bundesverfassungsgericht erklärte 2020 das Verbot der geschäftsmäßigen Suizidhilfe für nichtig; die gesetzliche Neuregelung ist umstritten.
 - **Palliativmedizin:** Die meisten Schmerzen lassen sich heute gut lindern; für therapieresistentes Leiden gibt es die palliative Sedierung. Ehrlich: Es bleiben Fälle schweren Leidens, die schwer zu lindern sind.`,
     sources: [
-      { kind: 'sonstiges', work: 'Regionale Kontrollkommissionen für Sterbehilfe (RTE), Niederlande: Jahresberichte 2023/2024', status: 'paraphrase', note: 'Zahlen gerundet.' },
-      { kind: 'sonstiges', work: 'Health Canada: Annual Report on Medical Assistance in Dying in Canada 2023', year: '2024', status: 'paraphrase', note: 'Zahlen gerundet.' },
+      { kind: 'sonstiges', work: 'Regionale Kontrollkommissionen für Sterbehilfe (RTE), Niederlande: Jahresberichte 2023/2024', status: 'paraphrase', note: 'Per Websuche geprüft (2026): 2023 9.068 Meldungen (5,4 %), 2024 9.958 (5,8 %); psychiatrische Erkrankungen 138 → 219; Demenz 3,7 % → 4,3 %.' },
+      { kind: 'sonstiges', work: 'Föderale Kommission für die Kontrolle und Bewertung der Sterbehilfe (Belgien): Zahlen für 2023 (Pressemitteilung)', year: '2024', status: 'paraphrase', note: 'Per Websuche geprüft (2026): 3.423 Fälle (3,1 % aller Todesfälle), +15 % gegenüber 2022; 2023 ein Fall bei Minderjährigen.' },
+      { kind: 'sonstiges', work: 'Health Canada: Fifth Annual Report on Medical Assistance in Dying in Canada, 2023', year: '2024', status: 'paraphrase', note: 'Per Websuche geprüft (2026): 15.343 Fälle, ca. 4,7 % aller Todesfälle.' },
       { kind: 'sonstiges', work: 'Oregon Health Authority: Death with Dignity Act Annual Reports', status: 'paraphrase' },
       { kind: 'sonstiges', work: 'World Medical Association: Declaration on Euthanasia and Physician-Assisted Suicide (Tiflis)', year: '2019', status: 'paraphrase' },
     ],
@@ -239,6 +241,71 @@ Hinzu kommt: Der Wunsch nach Kontrolle ist nach den Oregon-Berichten der häufig
           objection: `Welchen Sinn soll Leiden am Ende des Lebens noch haben?`,
           objectionBy: 'Existenzielle Frage',
           answer: `Christen verherrlichen das Leiden nicht – sie lindern es, wo sie können. Aber auch im Leiden bleibt Leben: Beziehung, Liebe, Gebet, Versöhnung. Christus selbst ist durch das Leiden gegangen und hat es mit Hoffnung erfüllt; Paulus spricht von einer Herrlichkeit, die alles Leid überwiegt (2 Kor 4,17). Die Frage nach dem Sinn beantwortet man am besten nicht mit Worten, sondern mit Gegenwart.`,
+          followUps: [
+            {
+              id: 'sinn-nur-fuer-glaeubige',
+              objection: `Für dich als Christ mag Leiden Sinn haben. Für einen Atheisten hat es keinen. Du kannst deinen Glauben nicht zum Maßstab für sein Sterben machen.`,
+              objectionBy: 'Peter Singer',
+              answer: `Ich will niemandem meinen Glauben aufzwingen – ich biete ihn an, und vor allem biete ich Gegenwart an. Aber die Begleitung Sterbender ist keine Glaubensfrage: Cicely Saunders' Hospize nehmen Menschen jeder Überzeugung auf, und die Erfahrung dort ist, dass viele am Ende Sinn finden – in Beziehungen, Versöhnung, Erinnerung –, wenn Schmerzen gelindert und Ängste ernst genommen werden. Das Gesetz, um das wir streiten, betrifft zudem nicht nur den einen Atheisten, sondern alle Verletzlichen, die sich unter Druck gesetzt fühlen könnten.`,
+              detail: `Auch säkulare Denker bezeugen, dass Leid nicht sinnlos sein muss: Viktor Frankl beschrieb aus der Erfahrung der Konzentrationslager, dass der Mensch selbst unter äußerstem Leid noch die Freiheit hat, eine Haltung zu wählen. Saunders' Konzept des „totalen Schmerzes" nimmt die spirituelle Dimension ernst, ohne eine bestimmte Religion vorauszusetzen. Und die Forschung zur Würde-zentrierten Therapie (Harvey Chochinov) zeigt, dass Sterbende Würde erleben, wenn man ihnen hilft, ihre Lebensgeschichte zu erzählen und Wichtiges weiterzugeben.`,
+              voices: [
+                {
+                  person: 'cicely-saunders',
+                  role: 'als Ärztin und Begründerin der Hospizbewegung',
+                  text: `Saunders, die als junge Frau zum christlichen Glauben fand, verstand ihr Hospiz als Ort für alle. Sie verband modernste Schmerztherapie (regelmäßige, vorbeugende Gabe von Opioiden statt Warten auf den Schmerz) mit Zuwendung zu Familie, Ängsten und spirituellen Fragen. Ihr Ziel war, dass Menschen nicht nur „in Frieden sterben", sondern bis zuletzt leben können.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Cicely Saunders', work: 'Selected Writings 1958–2004', year: '2006', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Shirley du Boulay', work: 'Cicely Saunders: The Founder of the Modern Hospice Movement', year: '1984', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Viktor E. Frankl', work: '… trotzdem Ja zum Leben sagen. Ein Psychologe erlebt das Konzentrationslager', year: '1946', status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Harvey Max Chochinov', work: 'Dignity Therapy: Final Words for Final Days', year: '2012', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Was hat Menschen, die im Hospiz ihren Sterbewunsch aufgegeben haben, umgestimmt – ein Argument oder eine Erfahrung?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'kanada-sicher',
+      objection: `Kanada zeigt, dass Sterbehilfe sicher ist: 2023 erhielten rund 15.300 Menschen MAID, die meisten mit Krebs und Zugang zu Palliativversorgung. Das sind keine armen, ausgegrenzten Opfer, sondern selbstbestimmte Bürger.`,
+      objectionBy: 'Udo Schüklenk',
+      answer: `Es stimmt, dass die meisten Empfänger in Kanada todkrank waren und Palliativversorgung hatten – das soll man fair sagen. Aber gerade bei den Fällen ohne absehbaren Tod (seit 2021) hat das Gutachtergremium des Chefcoroners von Ontario Fälle dokumentiert, in denen Einsamkeit, Armut oder fehlende Unterstützung eine Rolle spielten. Und 4,7 % aller Todesfälle nach nur sieben Jahren zeigen, wie schnell aus der Ausnahme eine Routine wird.`,
+      detail: `Nach dem fünften Jahresbericht von Health Canada (Dezember 2024) erhielten 2023 15.343 Menschen MAID, etwa 4,7 % aller Todesfälle; die Zahl stieg um 15,8 % gegenüber 2022. Die Ausweitung auf rein psychische Erkrankungen wurde auf 2027 verschoben. Health Canada weist selbst darauf hin, dass MAID statistisch nicht als Todesursache geführt wird.
+
+Das Ontario MAID Death Review Committee (beim Chief Coroner) hat 2024 in Berichten Fälle analysiert, in denen Menschen mit Behinderung oder in sozialer Isolation MAID erhielten, und auf Lücken in der Unterstützung hingewiesen. Für dich gilt: Bleib bei den offiziellen Berichten, nenne keine reißerischen Einzelfälle aus zweiter Hand, und sprich mit Mitgefühl über die Betroffenen.`,
+      sources: [
+        { kind: 'sonstiges', work: 'Health Canada: Fifth Annual Report on Medical Assistance in Dying in Canada, 2023', year: '2024', status: 'paraphrase', note: 'Per Websuche geprüft (2026): 15.343 MAID-Fälle, ca. 4,7 % aller Todesfälle, +15,8 % gegenüber 2022.' },
+        { kind: 'sonstiges', work: 'Office of the Chief Coroner for Ontario: MAID Death Review Committee Reports', year: '2024', status: 'paraphrase', note: 'Analysen u. a. zu Track-2-Fällen mit sozialer Vulnerabilität; Einzelheiten vor Verwendung im Original prüfen.' },
+      ],
+      questionsBack: [
+        `Was sagt es über eine Gesellschaft, wenn ein Mensch schneller Sterbehilfe erhält als eine barrierefreie Wohnung?`,
+      ],
+      followUps: [
+        {
+          id: 'sozialhilfe-statt-verbot',
+          objection: `Dann muss man eben die Sozialleistungen verbessern, nicht die Sterbehilfe verbieten. Armut ist das Problem, nicht MAID.`,
+          objectionBy: 'Udo Schüklenk / Befürworter von MAID',
+          answer: `Die Sozialleistungen verbessern – unbedingt, da sind wir uns einig. Aber solange die Unterstützung fehlt, ist die „freie Wahl" eines armen, einsamen oder behinderten Menschen nicht frei. Ein Staat, der den Tod schneller und verlässlicher anbietet als Hilfe zum Leben, sendet eine Botschaft: Dein Leben ist eine Option, über die man reden kann. Barmherzigkeit fängt bei der Hilfe zum Leben an, nicht beim Ausweg aus ihm.`,
+          detail: `Die frühe Kirche war für ihre Fürsorge berühmt: Kaiser Julian beklagte im 4. Jahrhundert, dass die „Galiläer" nicht nur ihre eigenen, sondern auch die heidnischen Armen versorgten. Basilius baute vor Caesarea ein Krankenhaus für Aussätzige. Die koptische Kirche betreibt bis heute Krankenhäuser, Behindertenheime und Sozialdienste in Ägypten. Diese Tradition ist die eigentliche Antwort auf die Frage nach Barmherzigkeit: Wir lassen niemanden allein, damit niemand sich wünschen muss, zu verschwinden.`,
+          voices: [
+            {
+              person: 'tawadros-ii',
+              role: 'als 118. Papst von Alexandrien',
+              text: `Papst Tawadros II. betont in seiner Amtszeit die diakonische Sendung der Kirche: Dienst an Armen, Kranken und Menschen mit Behinderung als Ausdruck des Evangeliums. Die koptisch-orthodoxe Kirche unterhält in Ägypten und der Diaspora Krankenhäuser, Pflegeeinrichtungen und Sozialprogramme – gelebte Barmherzigkeit, die das Leben bis zuletzt begleitet.`,
+              sources: [
+                { kind: 'koptisch', author: 'Koptisch-orthodoxes Patriarchat', work: 'Bischöfliches Amt für Sozialdienste (Bishopric of Public, Ecumenical and Social Services)', status: 'paraphrase', note: 'Allgemeine Darstellung des diakonischen Wirkens; kein einzelnes Dokument zitiert.' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'sonstiges', author: 'Kaiser Julian', work: 'Brief an Arsakios, Oberpriester von Galatien', ref: 'Ep. 22 (Loeb-Zählung)', year: '362', status: 'paraphrase', note: 'Julian war ein Gegner des Christentums – sein Zeugnis wiegt daher schwer.' },
+          ],
         },
       ],
     },

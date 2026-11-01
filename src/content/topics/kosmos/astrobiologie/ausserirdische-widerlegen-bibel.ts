@@ -94,6 +94,38 @@ const claim: Claim = {
               objection: `Dann ist der Mensch doch nicht so besonders, wie ihr immer behauptet.`,
               objectionBy: 'Neil deGrasse Tyson',
               answer: `Der Wert des Menschen beruht nicht darauf, dass er das einzige Vernunftwesen ist, sondern darauf, dass Gott ihn liebt und nach seinem Bild geschaffen hat. Jesus erzählt vom Hirten, der die 99 Schafe zurücklässt, um das eine verlorene zu suchen (Lk 15,4) – Wert entsteht durch Zuwendung, nicht durch Seltenheit.`,
+              followUps: [
+                {
+                  id: 'inkarnation-provinziell',
+                  objection: `Dass der Schöpfer von zwei Billionen Galaxien ausgerechnet als Primat auf einem kleinen Planeten zur Welt gekommen sein soll, ist kosmischer Provinzialismus. Das ist eine Vorstellung aus einer Zeit, in der die Erde die ganze Welt war.`,
+                  objectionBy: 'Paul Davies / Neil deGrasse Tyson',
+                  answer: `Die Kirche hat die Menschwerdung nie für naheliegend gehalten – Paulus nennt sie den Griechen eine Torheit (1 Kor 1,23). Aber jede Menschwerdung müsste irgendwo, in irgendeinem konkreten Geschöpf geschehen; Konkretheit ist kein Einwand, sondern das Wesen der Sache. Und der Logos wird dabei nicht klein: Athanasius betont, dass er im Leib war und zugleich das ganze All erfüllte und lenkte. Gott verlässt den Kosmos nicht, wenn er Mensch wird.`,
+                  detail: `Die koptisch-orthodoxe Christologie bekennt mit dem hl. Kyrill „eine fleischgewordene Natur des Gott-Logos": Gottheit und Menschheit sind geeint ohne Vermischung, ohne Verwandlung, ohne Trennung. Der Logos bleibt unendlich und allgegenwärtig, auch während er in Bethlehem als Kind liegt. Die Größe des Universums macht die Menschwerdung deshalb nicht unwahrscheinlicher, sondern ihre Demut größer: Der, der die Galaxien trägt, macht sich klein – „aus Liebe zum Menschen", wie die koptische Liturgie immer wieder sagt.`,
+                  voices: [
+                    { person: 'athanasius', role: 'als Lehrer der Menschwerdung', text: `Athanasius schreibt, dass der Logos nicht im Leib eingeschlossen war, als hätte er anderswo gefehlt. Während er im menschlichen Leib wirkte, belebte er zugleich das All, war in allem und doch außerhalb von allem (De Incarnatione 17). Die Menschwerdung ist daher keine Verkleinerung Gottes, sondern sein freies Herabsteigen, ohne aufzuhören, der Schöpfer und Erhalter des Ganzen zu sein.` },
+                  ],
+                  sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'De Incarnatione', ref: '17', year: 'ca. 335', quote: `Der Logos war nicht im Leib eingeschlossen; er war im Leib und belebte doch zugleich das All, in allem und außerhalb von allem.`, status: 'paraphrase' }],
+                  questionsBack: [`Wenn Gott Mensch werden wollte – wo und in welchem Geschöpf hätte es geschehen sollen, damit es nicht „provinziell" wirkt?`],
+                  followUps: [
+                    {
+                      id: 'mehrfache-inkarnation',
+                      objection: `Wenn der Logos so unbegrenzt ist, könnte er ja auch auf anderen Planeten Fleisch werden. Dann ist die Einzigartigkeit Christi dahin – und mit ihr der Kern deines Glaubens.`,
+                      objectionBy: 'Paul Davies',
+                      answer: `Hier muss ich ehrlich sagen: Darüber hat die Kirche nichts entschieden, weil Gott darüber nichts offenbart hat. Was wir wissen, ist dies: Der Logos hat die menschliche Natur angenommen, für immer – er ist mit seinem Leib aufgefahren und wird so wiederkommen. Diese Einheit in Christus ist einzigartig und unwiderruflich. Ob und wie Gott sich anderen Geschöpfen zuwendet, ist eine Frage, die wir nicht beantworten können und nicht beantworten müssen. Unser Glaube hängt an dem, was offenbart ist, nicht an dem, was über andere Welten spekuliert wird.`,
+                      detail: `Christliche Denker haben unterschiedliche Spekulationen vorgelegt: C. S. Lewis hielt es für möglich, dass andere Geschöpfe nie gefallen sind oder dass Gott andere Wege mit ihnen geht; Guy Consolmagno (Vatikanische Sternwarte) betont, dass die eine Menschwerdung kosmische Bedeutung haben kann (Kol 1,20: „alles versöhnt … im Himmel und auf Erden"). Aus koptisch-orthodoxer Sicht gilt: Spekulationen dürfen die Einheit der Person Christi nicht antasten – es gibt nicht „mehrere Christusse". Für das Gespräch genügt: Das Christentum ist durch diese Frage nicht widerlegt, sondern vor eine Frage gestellt, die es mit Demut offenlassen darf.`,
+                      voices: [
+                        { person: 'cs-lewis', role: 'als Schriftsteller und Apologet', text: `Lewis zählt in „Religion and Rocketry" (1958) Möglichkeiten auf: Andere vernünftige Geschöpfe könnten nie gefallen sein; sie könnten gefallen und auf andere Weise erlöst worden sein; oder die Erlösung auf der Erde könnte für sie Bedeutung haben. Sein Schluss: Wir wissen zu wenig, um daraus einen Einwand gegen das Christentum zu machen – und die eigentliche Gefahr bei einer Begegnung läge eher in unserer Neigung, andere Geschöpfe auszubeuten.` },
+                        { person: 'guy-consolmagno', role: 'als Astronom der Vatikanischen Sternwarte', text: `Consolmagno betont, dass er einen Außerirdischen gegebenenfalls taufen würde, wenn dieser darum bäte – eine pointierte Art zu sagen, dass Vernunftwesen von Gott geliebt sind, wo immer sie existieren. Ob es sie gibt, sei eine empirische Frage, die der Glaube gelassen offenlassen könne.` },
+                      ],
+                      sources: [
+                        { kind: 'fachliteratur', author: 'C. S. Lewis', work: '„Religion and Rocketry", in: The World’s Last Night and Other Essays', year: '1958/1960', quote: `Ob andere Geschöpfe gefallen und erlöst sind, wissen wir nicht; aus diesem Nichtwissen lässt sich kein Argument gegen das Christentum machen.`, status: 'paraphrase' },
+                        { kind: 'bibel', work: 'Kolosser', ref: '1,19–20', quote: `Es gefiel Gott, durch ihn alles mit sich zu versöhnen, es sei auf Erden oder im Himmel.`, status: 'paraphrase' },
+                      ],
+                      questionsBack: [`Muss ein Glaube auf jede Frage über ferne Welten eine Antwort haben – oder darf er offenlassen, was nicht offenbart ist?`],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -112,6 +144,20 @@ const claim: Claim = {
           objectionBy: 'Neil deGrasse Tyson (Cosmos, 2014)',
           answer: `Brunos Hinrichtung war ein Unrecht. Aber er wurde vor allem wegen theologischer Lehren verurteilt – etwa der Leugnung der Dreieinigkeit und der Gottheit Christi –, nicht wegen seiner Kosmologie allein. Die Lehre von vielen Welten war ein Punkt unter vielen. Er taugt nicht als Beleg, dass das Christentum andere Welten fürchtet.`,
           detail: `Ausführlich im Claim „Giordano Bruno wurde für die Wissenschaft verbrannt".`,
+          followUps: [
+            {
+              id: 'kirche-gegen-andere-welten',
+              objection: `Bruno ist nur das bekannteste Beispiel. Die Kirche hat die Vorstellung anderer Welten grundsätzlich bekämpft, weil sie die Sonderstellung der Erde bedrohte.`,
+              objectionBy: 'Neil deGrasse Tyson',
+              answer: `Historisch war es eher umgekehrt. 1277 verurteilte der Bischof von Paris eine Reihe aristotelischer Thesen – darunter die Behauptung, Gott *könne* nicht mehrere Welten erschaffen. Die Kirche verteidigte also Gottes Freiheit, andere Welten zu schaffen, gegen die Philosophen. Im 15. Jahrhundert spekulierte Kardinal Nikolaus von Kues ohne jede Verurteilung über Bewohner anderer Sterne. Die Frage war lange offen und wurde unter Theologen frei diskutiert.`,
+              detail: `Wissenschaftshistoriker wie Pierre Duhem haben die Verurteilung von 1277 sogar als einen Anstoß für die Befreiung der Naturphilosophie von aristotelischen Denkverboten gedeutet; diese These gilt heute als zugespitzt, aber der Kern stimmt: Die Theologie bestand darauf, dass die Welt nicht notwendig so sein muss, wie Aristoteles sie beschrieb – sie hängt vom freien Willen Gottes ab und muss deshalb beobachtet, nicht nur erdacht werden. Nikolaus von Kues schrieb in *De docta ignorantia* (1440, II,12), man dürfe annehmen, dass auch andere Sternregionen bewohnt seien.`,
+              sources: [
+                { kind: 'konzil', author: 'Étienne Tempier, Bischof von Paris', work: 'Verurteilung von 219 Thesen (Condemnation of 1277)', year: '1277', quote: `Verurteilt wurde unter anderem der Satz, die erste Ursache könne nicht mehrere Welten erschaffen.`, original: `Quod prima causa non posset plures mundos facere.`, status: 'paraphrase', note: 'Lokale Verurteilung durch den Pariser Bischof, keine gesamtkirchliche Entscheidung.' },
+                { kind: 'fachliteratur', author: 'Nikolaus von Kues', work: 'De docta ignorantia', ref: 'II,12', year: '1440', quote: `Es sei anzunehmen, dass keine Sternregion ohne Bewohner sei.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Kennst du die Verurteilung von 1277? Was wurde dort über die Möglichkeit mehrerer Welten entschieden?`],
+            },
+          ],
         },
       ],
     },

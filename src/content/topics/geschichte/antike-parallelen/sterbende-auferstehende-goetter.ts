@@ -121,6 +121,40 @@ const claim: Claim = {
           objection: `Aber Osiris versprach seinen Anhängern ewiges Leben – genau wie Jesus.`,
           objectionBy: 'Acharya S',
           answer: `Hoffnung auf ein Leben nach dem Tod gibt es in fast allen Kulturen; daraus folgt keine Abhängigkeit. Die ägyptische Hoffnung zielte auf das Weiterleben im Jenseits, wofür der Körper mumifiziert wurde. Die christliche Botschaft ist etwas anderes: Ein bestimmter Mensch ist in der Geschichte leiblich und verwandelt auferstanden, vor Zeugen (1 Kor 15,5–8), als Erstling der allgemeinen Auferstehung.`,
+          followUps: [
+            {
+              id: 'plutarch-isis-osiris',
+              objection: `Plutarch beschreibt in „Über Isis und Osiris" einen Mysterienkult, in dem Osiris stirbt und wiederkehrt. Das war die religiöse Luft, die die frühen Christen atmeten.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Plutarch schrieb um 100 n. Chr. – nach Paulus und den meisten Evangelien. Und gerade er warnt davor, die Osiris-Erzählung wörtlich zu nehmen: Er deutet sie philosophisch und allegorisch, als Bild für kosmische Prinzipien. Osiris kehrt auch bei ihm nicht ins irdische Leben zurück, sondern herrscht über die Toten. Ein Mythos, den schon seine gebildeten Anhänger allegorisch lasen, ist das Gegenteil eines Berichts über ein leeres Grab in Jerusalem unter Pontius Pilatus.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Plutarch', work: 'Über Isis und Osiris (De Iside et Osiride)', ref: 'bes. Kap. 11; 20; 78', year: 'ca. 100–120', quote: `Plutarch mahnt, die Mythen nicht wörtlich zu verstehen, sondern ihren philosophischen Sinn zu suchen; Osiris herrscht über die Toten.`, status: 'paraphrase', note: 'Kapitelangaben als Orientierung; Plutarch allegorisiert durchgehend.' },
+              ],
+              followUps: [
+                {
+                  id: 'isis-lactans-theotokos',
+                  objection: `Und eure koptische Kirche hat das ägyptische Erbe nur umetikettiert: Isis mit dem Horuskind an der Brust wurde zur Gottesmutter mit dem Jesuskind. Das sieht man doch auf den Ikonen!`,
+                  objectionBy: "Tim O'Neill",
+                  answer: `Hier muss man ehrlich unterscheiden: Dass frühchristliche Künstler in Ägypten die Bildsprache ihrer Umwelt benutzten – auch das Motiv der stillenden Mutter –, halten viele Kunsthistoriker für plausibel, und ich bestreite es nicht. Aber Bildform ist nicht Glaubensinhalt. Die Kopten sprachen auch weiter die Sprache der Pharaonen, in griechischen Buchstaben geschrieben – und verkündeten darin das Evangelium. Isis ist eine Göttin, die einen Gott gebiert; die Theotokos ist eine menschliche Frau, aus der der ewige Logos Fleisch annimmt. Das Konzil von Ephesus (431) spricht über die Menschwerdung, nicht über eine Muttergöttin.`,
+                  detail: `Für die koptische Kirche ist das kein peinliches Geheimnis, sondern ein Zeichen der Inkulturation: Wie Paulus griechische Begriffe nutzte (Apg 17,28), übernahm die ägyptische Kirche künstlerische Formen ihrer Kultur und füllte sie mit neuem Inhalt. Das Ankh-Zeichen lebte etwa als koptisches Kreuz (*crux ansata*) weiter. Gleichzeitig kämpften Alexandriner wie Athanasius und Schenute entschieden gegen den Kult der alten Götter – die Kirche wusste genau, wo die Grenze verlief. Ehrlich bleibt: Manche Christen der Spätantike haben die Grenze im Volksglauben verwischt; die Lehre der Kirche nie.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Gegner des ägyptischen Götterkults',
+                      text: `Athanasius setzt sich in „Gegen die Heiden" ausführlich mit der ägyptischen Götterverehrung auseinander und hält sie für Verehrung der Schöpfung statt des Schöpfers. Für ihn ist die Menschwerdung des Logos gerade das Gegenteil eines Mythos: Gott selbst tritt in die Geschichte ein, um die Menschen von der Anbetung des Geschaffenen zu befreien.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '9; 23–24', year: 'ca. 335', quote: `Kritik der ägyptischen Tier- und Götterverehrung als Verehrung der Schöpfung statt des Schöpfers.`, status: 'paraphrase', note: 'Kapitelangaben als Orientierung.' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'konzil', work: 'Konzil von Ephesus, Bestätigung des zweiten Briefes Kyrills an Nestorius', year: '431', quote: `Maria ist Theotokos, weil der aus ihr Geborene der menschgewordene Logos selbst ist.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn die Kopten die koptische Sprache von den Pharaonen erbten – macht das ihr Evangelium zu einem altägyptischen Mythos?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

@@ -174,6 +174,48 @@ const claim: Claim = {
           objectionBy: 'Astronom',
           answer: `Richtig, der Mond entfernt sich jedes Jahr um einige Zentimeter. Aber gerade deshalb ist bemerkenswert, dass die Epoche perfekter Sonnenfinsternisse mit der Epoche zusammenfällt, in der es Beobachter gibt. Lawrence Krauss hat zudem selbst gezeigt, dass wir in einer privilegierten kosmischen Epoche leben: In ferner Zukunft könnten Beobachter den Urknall gar nicht mehr nachweisen (Krauss & Scherrer 2007).`,
           sources: [{ kind: 'wissenschaft', author: 'Lawrence M. Krauss & Robert J. Scherrer', work: '„The Return of a Static Universe and the End of Cosmology", General Relativity and Gravitation 39', year: '2007', quote: `In ferner Zukunft werden Beobachter wegen der beschleunigten Expansion keine Belege mehr für den Urknall finden können; wir leben in einer besonderen Epoche.`, status: 'paraphrase', note: 'Krauss ist Atheist; sein Befund stützt dennoch die These einer privilegierten Beobachtungsepoche.' }],
+          followUps: [
+            {
+              id: 'texas-scharfschuetze',
+              objection: `Das ist der Trugschluss des texanischen Scharfschützen: Erst schießen, dann die Zielscheibe um die Einschüsse malen. Bewohner jedes Planeten fänden irgendwelche „besonderen" Zufälle, wenn sie lange genug suchen.`,
+              objectionBy: 'Victor Stenger',
+              answer: `Der Einwand träfe, wenn man sich einzelne Kuriositäten nachträglich herauspickt. Die These ist aber vorher als allgemeine Regel formuliert: Bewohnbarkeit und Messbarkeit fallen zusammen. Und sie wird an vielen unabhängigen Feldern geprüft – Durchsichtigkeit der Atmosphäre gerade im Bereich des Sonnenlichts, Lage in der Galaxie zwischen den Spiralarmen mit freiem Blick, Stabilität der Sonne, Sonnenfinsternisse, geologische Archive des Klimas. Ein Scharfschütze, der seine Zielscheibe vorher an die Wand hängt und dann in vielen Disziplinen trifft, ist kein Glückspilz.`,
+              detail: `Gonzalez und Richards nennen in *The Privileged Planet* ausdrücklich Befunde, die ihre These schwächen würden: bewohnbare Orte mit deutlich schlechteren Beobachtungsbedingungen oder unbewohnbare mit deutlich besseren. Das ist die Form einer prüfbaren Hypothese. Manche ihrer Einzelbeispiele sind diskutabel (etwa wie viel die Finsternisse wirklich zur Wissenschaftsgeschichte beitrugen); entscheidend ist die Konvergenz über viele Bereiche.`,
+              voices: [
+                { person: 'jay-richards', role: 'als Philosoph und Mitautor von „The Privileged Planet"', text: `Richards betont, dass die Korrelation nicht aus einem Auswahleffekt folgt: Damit es Beobachter gibt, muss ihr Ort bewohnbar sein – aber er muss nicht zugleich optimale Bedingungen für Kosmologie, Geologie und Astronomie bieten. Perfekte Sonnenfinsternisse etwa sind für das Leben nicht nötig, für die Wissenschaft aber außerordentlich wertvoll gewesen.` },
+              ],
+              questionsBack: [`Welche der genannten Beobachtungsbedingungen ist für das Leben selbst notwendig – zum Beispiel perfekte Sonnenfinsternisse?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'mittelmaessigkeitsprinzip',
+      objection: `Das Mittelmäßigkeitsprinzip ist ein bewährtes statistisches Werkzeug: Solange du keine gegenteiligen Informationen hast, solltest du annehmen, dass du ein typischer Beobachter an einem typischen Ort bist. Mit dieser Annahme hat die Kosmologie große Erfolge gefeiert – vom Kopernikanischen Prinzip bis zur Homogenität des Kosmos.`,
+      objectionBy: 'Sean Carroll / Alexander Vilenkin',
+      answer: `Als Ausgangsannahme ist das vernünftig – aber eben nur „solange keine gegenteiligen Informationen vorliegen". Die haben wir inzwischen. Die Sonne ist massereicher als die große Mehrheit der Sterne (etwa drei Viertel sind Rote Zwerge), ungewöhnlich reich an schweren Elementen und auffallend ruhig: Eine Untersuchung von 2020 fand, dass ihre Helligkeit weniger schwankt als bei den meisten vergleichbaren Sternen. Sie umkreist das Zentrum der Milchstraße auf einer fast kreisförmigen Bahn in einer ruhigen Zone. Das Prinzip ist ein Startpunkt, kein Ergebnis.`,
+      detail: `Das Kopernikanische Prinzip im großen Maßstab – kein Ort im Universum ist ausgezeichnet, der Kosmos ist im Großen homogen – ist gut bestätigt und für die Kosmologie unverzichtbar. Das ist aber etwas anderes als die These, die Erde sei als Lebensort durchschnittlich. Gegen Letztere sprechen die Eigenschaften unserer Umgebung. Ehrlich bleibt: Ob die Sonne über sehr lange Zeiträume immer so ruhig ist, wird diskutiert; vielleicht durchläuft sie auch aktivere Phasen.`,
+      sources: [{ kind: 'wissenschaft', author: 'Timo Reinhold u. a.', work: '„The Sun is less active than other solar-like stars", Science 368', year: '2020', quote: `Die Helligkeitsschwankungen der Sonne seien deutlich geringer als bei den meisten Sternen mit ähnlicher Temperatur und Rotationsperiode.`, status: 'paraphrase', note: 'Die Autoren lassen offen, ob die Sonne nur gerade eine ruhige Phase durchläuft.' }],
+      questionsBack: [`Gilt das Mittelmäßigkeitsprinzip auch dann noch, wenn wir messen können, dass unser Stern untypisch ist?`],
+      followUps: [
+        {
+          id: 'typische-beobachter-auswahleffekt',
+          objection: `Du verwechselst typische Sterne mit typischen Beobachtern. Natürlich sitzen Beobachter an ungewöhnlichen Orten – nur dort können sie entstehen. Das ist ein Auswahleffekt, keine Bedeutung.`,
+          objectionBy: 'Sean Carroll',
+          answer: `Richtig, und das gestehe ich gern zu: Dass wir an einem bewohnbaren Ort leben, erklärt der Auswahleffekt vollständig. Aber er erklärt zwei Dinge nicht. Erstens, warum es solche Orte überhaupt gibt – das führt zur Feinabstimmung der Naturgesetze. Zweitens, warum der bewohnbare Ort zugleich ein so guter Beobachtungsposten ist. Damit es Beobachter gibt, muss der Ort Leben erlauben – er muss nicht auch noch ideale Bedingungen für Astronomie und Kosmologie bieten.`,
+          detail: `Hier liegt der Kern der These von Gonzalez und Richards: Ein reiner Auswahleffekt sagt Bewohnbarkeit voraus, aber nicht Messbarkeit. Wenn beides zusammenfällt, ist das unter der Hypothese eines Schöpfers, der erkennende Geschöpfe will, erwartbarer als unter der Annahme, dass die Bedingungen für Leben und für Wissenschaft voneinander unabhängig sind.`,
+          questionsBack: [`Erklärt der Auswahleffekt, warum wir Sonnenfinsternisse beobachten können, mit denen Einsteins Theorie bestätigt wurde?`],
+          followUps: [
+            {
+              id: 'messbarkeit-auch-auswahl',
+              objection: `Auch die Messbarkeit ist ein Auswahleffekt: Wissenschaftliche Zivilisationen entstehen nur dort, wo man den Himmel gut sieht. Wo die Atmosphäre undurchsichtig ist, entsteht keine Astronomie – also fragt dort auch niemand.`,
+              objectionBy: 'Sean Carroll',
+              answer: `Das reicht nicht. Ein Auswahleffekt erklärt nur, was nötig ist, damit es *uns* gibt. Für fragende Wesen ist ein durchsichtiger Himmel vielleicht hilfreich – aber perfekte Sonnenfinsternisse, eine Galaxienlage mit freiem Blick auf das ferne Universum, die Hintergrundstrahlung oder Gesteinsarchive, die Milliarden Jahre Erdgeschichte speichern, sind dafür nicht notwendig. Eine Zivilisation könnte entstehen, ohne je den Urknall entdecken zu können. Dass wir es können, ist ein Geschenk, das kein Auswahleffekt verlangt.`,
+              detail: `Man kann es so testen: Für jede Beobachtungsbedingung fragen, ob sie für die Existenz intelligenter Wesen *notwendig* ist. Wo das nicht der Fall ist, kann der Auswahleffekt die Korrelation nicht erklären. Gerade die besten „Fenster" zur Geschichte des Universums sind für das Überleben einer Zivilisation weitgehend überflüssig.`,
+              questionsBack: [`Brauchen intelligente Wesen perfekte Sonnenfinsternisse, um zu entstehen – oder nur, um Einstein zu bestätigen?`],
+            },
+          ],
         },
       ],
     },

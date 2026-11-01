@@ -128,6 +128,31 @@ const claim: Claim = {
               objectionBy: 'Sam Harris',
               answer: `Jetzt hast du die Neurowissenschaft verlassen und betreibst Philosophie – das ist legitim, aber dann beweisen Libet-Experimente nichts mehr. Dein Argument ist ein klassischer Determinismus, und der gilt unabhängig von jedem Hirnscan. Christen sagen auch nicht, wir erschüfen unsere Wünsche aus dem Nichts, sondern dass wir zu ihnen Stellung nehmen, ihnen zustimmen oder widerstehen können. Übrigens setzen deine eigenen Experimente voraus, dass die Probanden die Anweisungen verstehen und sich frei entscheiden, sie zu befolgen.`,
               detail: `Die philosophische Debatte (Kompatibilismus, Libertarismus, Determinismus) gehört zu A9, ‚willensfreiheit/freier-wille-illusion'. Hier genügt es zu zeigen, dass Harris' stärkstes Argument nicht empirisch ist.`,
+              followUps: [
+                {
+                  id: 'stellung-nehmen-auch-determiniert',
+                  objection: `Dein „Stellung nehmen" ist doch auch nur ein weiterer Gedanke, der in deinem Bewusstsein auftaucht – und den du ebenfalls nicht gewählt hast. Du verschiebst das Problem nur eine Ebene nach oben. Am Ende gibt es nur Ursachen, keine Urheber.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Wenn das stimmt, dann ist auch dein Satz „Am Ende gibt es nur Ursachen" nur ein Gedanke, der in dir aufgetaucht ist – nicht ein Urteil, das du aus Gründen gefällt hast. Dann hast du mich nicht *überzeugt*, sondern höchstens *verursacht*, dass ich etwas denke. Jedes Gespräch, auch dieses, setzt voraus, dass wir Gründe prüfen und uns von ihnen leiten lassen können. Genau das nennt die christliche Tradition Freiheit: nicht grundlos handeln, sondern aus Einsicht.`,
+                  detail: `Harris vertritt in „Free Will" (2012), dass Gedanken einfach „auftauchen" und dass das Ich, das sie wählt, eine Illusion sei; er lehnt auch den Kompatibilismus als Wortspiel ab. Die Erwiderung ist kein Gefühlsargument, sondern ein Argument zur Selbstanwendung: Wer behauptet, Überzeugungen hätten nur Ursachen und nie Gründe, kann für diese Behauptung selbst keine Gründe beanspruchen.
+
+Die Väter verstehen Freiheit nicht als Beliebigkeit, sondern als Fähigkeit, sich dem erkannten Guten zuzuwenden. Gregor von Nyssa sieht in dieser Selbstbestimmung einen Kern der Gottebenbildlichkeit: Der Mensch ist nicht von Notwendigkeit beherrscht, sondern kann aus eigenem Entschluss dem Guten folgen. Dass Neigungen, Temperament und Hirnzustände dabei mitwirken, bestreitet die Tradition nicht – sie nennt es den Kampf mit den Leidenschaften.`,
+                  voices: [
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Kirchenvater der Freiheit',
+                      text: `Gregor von Nyssa lehrt in „Über die Erschaffung des Menschen" (Kap. 16), dass der Mensch gerade darin Bild Gottes ist, dass er frei und selbstbestimmt ist und nicht unter der Herrschaft der Notwendigkeit steht. Tugend, die erzwungen wäre, wäre keine Tugend mehr; darum hat Gott dem Menschen die Freiheit gegeben, sich selbst dem Guten zuzuwenden.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Über die Erschaffung des Menschen (De hominis opificio)', ref: 'Kap. 16', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sam Harris', work: 'Free Will', year: '2012', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Willst du mich mit Gründen überzeugen – oder nur verursachen, dass ich deiner Meinung bin? Wenn Ersteres: Woher kommt dann die Fähigkeit, Gründen zu folgen?`],
+                },
+              ],
             },
           ],
         },

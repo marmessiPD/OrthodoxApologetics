@@ -189,6 +189,39 @@ const claim: Claim = {
           sources: [
             { kind: 'juedisch', author: 'Philo von Alexandrien', work: 'Über die Cherubim (De Cherubim)', ref: '40–52', year: '1. Jh. n. Chr.', quote: `Allegorische Deutung: Gott bewirkt in den Tugenden, für die die Frauen der Patriarchen stehen, die Empfängnis.`, status: 'paraphrase' },
           ],
+          followUps: [
+            {
+              id: 'christologie-rueckwaerts',
+              objection: `Man sieht die Entwicklung: Zuerst wurde Jesus bei der Auferstehung Sohn Gottes (Röm 1,4), dann bei der Taufe (Markus), dann bei der Empfängnis (Matthäus, Lukas), schließlich präexistent (Johannes). Die Jungfrauengeburt ist nur eine Stufe dieser Legendenbildung.`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Das Schema scheitert an Paulus: Schon in den 50er-Jahren – vor allen Evangelien – spricht er von Christus, der „in göttlicher Gestalt war" und sich entäußerte (Phil 2,6–7), durch den alles geschaffen ist (1 Kor 8,6), und den Gott „sandte, geboren von einer Frau" (Gal 4,4). Die Präexistenz ist also die *früheste* greifbare Stufe, nicht die späteste. Röm 1,4 spricht von der Einsetzung des Sohnes „in Kraft", nicht von einer Adoption. Larry Hurtado und Richard Bauckham haben gezeigt, wie früh Jesus kultisch verehrt wurde.`,
+              voices: [
+                {
+                  person: 'bauckham',
+                  role: 'als Neutestamentler',
+                  text: `Bauckham argumentiert, dass die frühesten Christen Jesus in die „göttliche Identität" des einen Gottes Israels einbezogen – etwa, wenn Paulus in 1 Kor 8,6 das Schma Israel aufspaltet und Jesus als den „einen Herrn" nennt, durch den alles ist. Diese „hohe Christologie" ist nach ihm kein Endpunkt einer langen Entwicklung, sondern von Anfang an da.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the God of Israel', year: '2008', quote: `Frühe Christologie der göttlichen Identität: Jesus wird in das Schma einbezogen (1 Kor 8,6).`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Galater', ref: '4,4', quote: `Da aber die Zeit erfüllet ward, sandte Gott seinen Sohn, geboren von einem Weibe und unter das Gesetz getan.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'phil-2-adam',
+                  objection: `Philipper 2 spricht nicht von Präexistenz, sondern ist Adam-Christologie: Jesus ist der Mensch, der anders als Adam nicht nach Gottgleichheit griff. James Dunn hat das gezeigt.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Dunns Lesart ist eine Minderheitsposition, und sie erklärt das „Sich-Entäußern" und „Den-Menschen-gleich-Werden" (Phil 2,7) schlecht – wer schon Mensch ist, wird nicht erst Menschen gleich. Bemerkenswert: Selbst Bart Ehrman liest Phil 2 als Aussage über ein präexistentes himmlisches Wesen. Wenn also selbst Kritiker die Präexistenz bei Paulus sehen, ist die These einer späten „Aufwärtsentwicklung" bis zur Jungfrauengeburt nicht haltbar.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'How Jesus Became God', year: '2014', quote: `Paulus verstand Christus als präexistentes, engelgleiches Himmelswesen, das Mensch wurde (Deutung von Phil 2).`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'James D. G. Dunn', work: 'Christology in the Making', year: '1980', quote: `Phil 2,6–11 als Adam-Christologie ohne Präexistenzaussage.`, status: 'paraphrase', note: 'Minderheitsposition, von vielen Exegeten zurückgewiesen.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -197,6 +230,15 @@ const claim: Claim = {
       objection: `Auch Buddha und Krishna wurden von Jungfrauen geboren. Das ist ein universelles Motiv.`,
       objectionBy: 'Esoterische Literatur (z. B. Kersey Graves)',
       answer: `Buddhas Mutter Maya war mit König Suddhodana verheiratet; die Legende vom weißen Elefanten, der im Traum in ihre Seite eingeht, steht in Quellen wie dem Buddhacarita aus dem 1./2. Jahrhundert n. Chr. Krishna ist das achte Kind von Devaki und Vasudeva. Keine dieser Geschichten erzählt von einer Jungfrauengeburt im Sinne der Evangelien – und das Buddhacarita ist jünger als die Evangelien.`,
+      followUps: [
+        {
+          id: 'elefant-ohne-verkehr',
+          objection: `Aber Maya empfing Buddha ohne Geschlechtsverkehr, durch den weißen Elefanten. Eine übernatürliche Empfängnis ist es trotzdem – und die Überlieferung ist älter als die schriftlichen Fassungen.`,
+          objectionBy: 'Esoterische Literatur (z. B. Kersey Graves)',
+          answer: `Die ältesten Pali-Texte über Buddhas Geburt (z. B. das Acchariyabbhuta-Sutta, Majjhima-Nikaya 123) erzählen von Wundern bei der Geburt, nennen Maya aber nicht Jungfrau; sie ist die verheiratete Königin. Der Elefantentraum ist ein Vorzeichen, kein Ersatz für die Ehe. Und selbst wenn man ihn als übernatürliche Empfängnis deutet: Wie hätte eine indische Legende zwei judenchristliche Autoren in Palästina erreichen sollen, die sie nirgends erwähnen und deren Erzählungen ganz aus dem AT gespeist sind?`,
+          questionsBack: [`Welche Quelle zeigt, dass Matthäus oder Lukas buddhistische Texte kannten?`],
+        },
+      ],
     },
   ],
   questionsToAsk: [

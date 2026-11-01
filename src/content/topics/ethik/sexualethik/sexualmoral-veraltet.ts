@@ -103,6 +103,19 @@ const claim: Claim = {
               objection: `Du romantisierst die Geschichte. Die Kirche hat jahrhundertelang Frauen für Sex bestraft und Männern alles durchgehen lassen.`,
               objectionBy: 'Christopher Hitchens',
               answer: `Es gab diese Doppelmoral in christlichen Gesellschaften, und sie war Unrecht. Aber sie widersprach der christlichen Lehre: Gregor von Nazianz und Johannes Chrysostomus haben genau diese Doppelmoral angeprangert und von Männern dieselbe Treue verlangt wie von Frauen. Paulus schreibt, dass auch der Mann über seinen Leib nicht verfügt, sondern seine Frau (1 Kor 7,4). Wo Christen das nicht gelebt haben, haben sie ihre eigene Moral verraten.`,
+              followUps: [
+                {
+                  id: 'purity-culture-scham',
+                  objection: `Ich bin in der „Purity Culture" aufgewachsen: Mädchen wurden mit zerkautem Kaugummi und zerknitterten Rosen verglichen, die niemand mehr will, wenn sie vor der Ehe Sex hatten. Viele Frauen leiden bis heute an Scham und Angst vor ihrem eigenen Körper.`,
+                  objectionBy: 'Linda Kay Klein',
+                  answer: `Was du beschreibst, hat Menschen tief verletzt, und es tut mir leid. Diese Bilder sind nicht christlich, sondern ein Verrat am Evangelium: Kein Mensch ist „benutzte Ware", und Gott wirft niemanden weg. Die orthodoxe Kirche verehrt Maria von Ägypten, die jahrelang als Prostituierte lebte und zu einer der größten Heiligen der Wüste wurde. Keuschheit ist eine Tugend für Männer und Frauen gleichermaßen, und ihr Ziel ist nicht Angst, sondern Freiheit und Liebe – mit der Beichte als Ort, an dem jede Scham Vergebung findet.`,
+                  detail: `Linda Kay Klein hat in *Pure* (2018) die Erfahrungen vieler Frauen aus der evangelikalen Reinheitsbewegung der 1990er-Jahre gesammelt. Ihre Kritik trifft vor allem eine Pädagogik, die mit Scham und Angst arbeitete und Frauen einseitig für die Sexualität der Männer verantwortlich machte. Die orthodoxe Tradition kennt einen anderen Ton: Der geistliche Vater begleitet, statt zu beschämen; die Umkehr ist immer offen; und der Leib ist „Tempel des Heiligen Geistes" (1 Kor 6,19) – zu ehren, nicht zu fürchten. Wichtig für dein Gespräch: Höre zuerst zu. Ein Mensch, der verletzt wurde, braucht zuerst Anerkennung, dann Argumente.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Linda Kay Klein', work: 'Pure: Inside the Evangelical Movement That Shamed a Generation of Young Women and How I Broke Free', year: '2018', status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Sophronius von Jerusalem (zugeschrieben)', work: 'Leben der hl. Maria von Ägypten', year: '7. Jh.', status: 'paraphrase', note: 'In der orthodoxen Fastenzeit gelesen; Vorbild der Umkehr.' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -119,6 +132,30 @@ const claim: Claim = {
           objection: `Trotzdem hat die Kirche vertuscht, um ihren Ruf zu schützen. Das ist systemisch.`,
           objectionBy: 'Christopher Hitchens',
           answer: `Ja, und das ist unentschuldbar. Eine Kirche, die Täter schützt, statt Opfer, stellt sich gegen das Evangelium. Die christliche Antwort ist nicht weniger Moral, sondern mehr Ehrlichkeit: Licht statt Dunkelheit (Eph 5,11), Zusammenarbeit mit den staatlichen Behörden, Schutz und Gehör für die Betroffenen. Jesus hat die Heuchelei religiöser Führer schärfer verurteilt als jede andere Sünde (Mt 23).`,
+          followUps: [
+            {
+              id: 'zoelibat-ursache',
+              objection: `Der Zölibat ist die Ursache: Eine Kirche, die gesunde Sexualität unterdrückt, produziert Täter.`,
+              objectionBy: 'Christopher Hitchens',
+              answer: `So einfach ist es nach der Forschung nicht. Der große Bericht des John Jay College für die US-Bischöfe (2011) fand keinen Beleg, dass der Zölibat an sich Missbrauch verursacht; Missbrauch geschieht auch in Kirchen mit verheirateten Geistlichen, in Schulen, Sportvereinen und vor allem in Familien. Die deutsche MHG-Studie nennt den Zölibat nicht als Ursache, aber als möglichen Risikofaktor im Zusammenspiel mit anderen. Die koptische Kirche hat übrigens überwiegend verheiratete Gemeindepriester – auch sie ist nicht davor gefeit, wenn Macht und Schweigen zusammenkommen.`,
+              detail: `Die Forschung weist immer wieder auf strukturelle Faktoren: Klerikalismus (die Überhöhung des Geistlichen), fehlende Kontrolle, eine Kultur des Schweigens und der Schutz des Rufs der Institution. Das ist für jede Kirche eine Warnung, gleich ob ihre Priester verheiratet sind oder nicht.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'John Jay College of Criminal Justice', work: 'The Causes and Context of Sexual Abuse of Minors by Catholic Priests in the United States, 1950–2010', year: '2011', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'warum-dann-missbrauch',
+                  objection: `Wenn nicht der Zölibat – warum dann? Irgendetwas an eurer Struktur macht es möglich.`,
+                  objectionBy: 'Christopher Hitchens',
+                  answer: `Ja – und zwar etwas, das Jesus selbst angeprangert hat: religiöse Macht ohne Rechenschaft. Wo Geistliche als unantastbar gelten, wo Opfer nicht gehört werden und wo der Ruf der Institution mehr zählt als ein Kind, entsteht ein Raum für Täter. Jesus sagte seinen Jüngern: „Wer unter euch groß sein will, der sei euer Diener" (Mk 10,43), und er stellte ein Kind in die Mitte. Jede Kirche – auch die koptische – muss sich daran messen lassen: unabhängige Anlaufstellen, Zusammenarbeit mit staatlichen Behörden, Schutzkonzepte, Transparenz.`,
+                  detail: `Seelsorgerlicher Hinweis: Wenn dein Gegenüber selbst betroffen ist oder Betroffene kennt, ist dies nicht der Moment für Apologetik, sondern für Zuhören und konkrete Hilfe. Die Glaubwürdigkeit der Kirche wird nicht durch Argumente wiederhergestellt, sondern durch Umkehr und Taten.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '10,42–45', quote: `Wer groß werden will unter euch, der soll euer Diener sein.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -133,6 +170,31 @@ const claim: Claim = {
           objection: `Was ändert ein Stück Papier oder eine Zeremonie? Liebe ist Liebe, ob mit oder ohne Trauschein.`,
           objectionBy: 'Dan Savage',
           answer: `Die Ehe ist kein Stück Papier, sondern ein Versprechen: öffentlich, ausschließlich, lebenslang. Sexualität sagt mit dem Leib „Ich gehöre dir ganz und für immer". Ohne das Versprechen sagt der Leib etwas, das das Leben nicht einlöst. Kierkegaard hat es so gesagt: Erst wenn die Liebe zur Pflicht geworden ist, ist sie gegen Veränderung gesichert. Das Versprechen schützt die Liebe vor unseren eigenen Stimmungen.`,
+          followUps: [
+            {
+              id: 'zusammenleben-testlauf',
+              objection: `Zusammenleben vor der Ehe ist doch ein vernünftiger Testlauf. Wer kauft schon ein Auto ohne Probefahrt? So vermeidet man spätere Scheidungen.`,
+              objectionBy: 'Dan Savage',
+              answer: `Ein Mensch ist kein Auto, und Liebe, die unter Vorbehalt geschenkt wird – „ich behalte dich, wenn du dich bewährst" –, ist etwas anderes als die Hingabe, die sagt: „Ich will dich, so wie du bist und wirst." Auch empirisch ist der Testlauf keine sichere Versicherung: Die Forscher Galena Rhoades und Scott Stanley fanden, dass Paare, die schon vor der Verlobung zusammenzogen, im Durchschnitt eine geringere Ehequalität und ein höheres Trennungsrisiko hatten – viele „rutschen" in eine Ehe hinein, statt sich bewusst zu entscheiden. Die Datenlage ist komplex, aber das Testlauf-Versprechen hält sie nicht.`,
+              detail: `Neuere Studien (etwa Rosenfeld und Roesler, 2019) zeigen ein gemischtes Bild: Wer zusammengelebt hat, hat im ersten Ehejahr ein etwas geringeres, später aber ein höheres Scheidungsrisiko. Für dein Gespräch: Überziehe die Statistik nicht. Die christliche Begründung hängt nicht an Zahlen, sondern an der Bedeutung der Sexualität: Der Leib spricht die Sprache der vollständigen Hingabe; diese Sprache soll nicht lügen.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Galena K. Rhoades; Scott M. Stanley; Howard J. Markman', work: '„The Pre-engagement Cohabitation Effect: A Replication and Extension of Previous Findings", Journal of Family Psychology 23(1)', year: '2009', status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Michael J. Rosenfeld; Katharina Roesler', work: '„Cohabitation Experience and Cohabitation\'s Association With Marital Dissolution", Journal of Marriage and Family 81(1)', year: '2019', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'korrelation-religioese-paare',
+                  objection: `Das ist Korrelation, nicht Kausalität. Religiöse Menschen ziehen seltener zusammen und lassen sich seltener scheiden – nicht wegen des Wartens, sondern weil sie religiös sind.`,
+                  objectionBy: 'Dan Savage',
+                  answer: `Das ist ein berechtigter methodischer Einwand, und deshalb stütze ich mich nicht auf Statistik. Mein eigentliches Argument ist ein anderes: Sexualität ist nicht nur ein Gefühl, sondern eine Sprache des Leibes, die sagt: „Ich gebe mich dir ganz." Die Ehe ist das öffentliche, verbindliche Ja, das dieser Sprache entspricht. Ohne dieses Ja sagt der Leib etwas, das die Person noch nicht versprochen hat. Die christliche Ethik will, dass Leib und Wort übereinstimmen.`,
+                  detail: `Tim Keller beschreibt Sex als „Bundeserneuerungszeremonie": In der Ehe erneuert das Paar mit dem Leib, was es vor Gott und Menschen versprochen hat. Außerhalb der Ehe wird dieselbe Geste von ihrem Sinn getrennt. Das ist kein Urteil über die Liebe zusammenlebender Paare, sondern eine Einladung, diese Liebe in ein ganzes Ja zu führen.`,
+                  voices: [
+                    { person: 'tim-keller', role: 'als Pastor in Manhattan', text: `Keller argumentiert in *The Meaning of Marriage* (2011), dass Sexualität nach christlichem Verständnis ein Zeichen der vollständigen, lebenslangen Selbsthingabe ist. Wer sich mit dem Leib ganz schenkt, aber das Leben zurückhält, lebt einen inneren Widerspruch.` },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -141,6 +203,34 @@ const claim: Claim = {
       objection: `Das Christentum ist von Grund auf leibfeindlich. Augustinus hielt die sexuelle Lust für die Folge der Erbsünde, Mönche flohen in die Wüste, um dem Körper zu entkommen.`,
       objectionBy: 'Christopher Hitchens',
       answer: `Die Bibel beginnt mit einem Leib, den Gott „sehr gut" nennt, und endet mit der Auferstehung des Leibes – leibfeindlicher geht es nicht. Die Kirche hat Gruppen, die die Ehe verachteten, ausdrücklich verurteilt; Klemens von Alexandrien schrieb ein ganzes Buch zu ihrer Verteidigung. Die Wüstenväter flohen nicht vor dem Leib, sondern suchten die Freiheit von Leidenschaften, die den Menschen beherrschen. Augustinus' Sicht der Begierde ist ein westlicher Akzent, den die koptische Tradition nicht in dieser Schärfe teilt; für sie ist die Ehe ein Sakrament.`,
+      followUps: [
+        {
+          id: 'fasten-zoelibat-hoeher',
+          objection: `Und warum fastet eure Kirche dann 200 Tage im Jahr und verehrt zölibatäre Mönche als die eigentlichen Heiligen? Das zeigt doch, was ihr vom Körper und von der Sexualität haltet.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Fasten ist keine Verachtung des Leibes, sondern seine Schulung – so wie ein Sportler nicht seinen Körper hasst, wenn er trainiert. Und die Ehe ist in der koptischen Kirche ein Sakrament: Das Paar wird bei der Trauung gekrönt, als König und Königin eines kleinen Reiches. Die Kirche hat jede Verachtung der Ehe ausdrücklich verurteilt: Die Synode von Gangra (um 340) belegte die mit dem Bann, die die Ehe verwerfen oder aus Verachtung der Ehe jungfräulich leben. Mönchtum und Ehe sind zwei Wege derselben Hingabe, nicht ein höherer und ein niedriger.`,
+          detail: `Klemens von Alexandrien verteidigte im dritten Buch seiner *Stromata* die Ehe gegen die Enkratiten, die sie als unrein ablehnten: Die Ehe sei von Gott gegeben und könne ein Weg der Heiligung sein. Die koptische Kirche verehrt zahlreiche verheiratete Heilige und lebt mit verheirateten Gemeindepriestern. Das Fasten selbst endet immer im Fest – nach der Fastenzeit kommt Ostern, das Fest des auferstandenen Leibes.`,
+          sources: [
+            { kind: 'konzil', work: 'Synode von Gangra', ref: 'Kanones 1, 9 und 10', year: 'um 340', quote: `Wer die Ehe verwirft … wer jungfräulich lebt, nicht um der Schönheit der Jungfräulichkeit willen, sondern aus Abscheu vor der Ehe … der sei ausgeschlossen.`, status: 'paraphrase' },
+            { kind: 'kirchenvater', author: 'Klemens von Alexandrien', work: 'Stromata', ref: 'III', year: 'um 200', status: 'paraphrase', note: 'Verteidigung der Ehe gegen die Enkratiten.' },
+          ],
+          followUps: [
+            {
+              id: 'zoelibat-fuer-homosexuelle-grausam',
+              objection: `Für Mönche mag Zölibat eine Berufung sein. Aber ihr verlangt ihn von jedem schwulen oder lesbischen Menschen, ob er die Berufung hat oder nicht. Das ist grausam.`,
+              objectionBy: 'Matthew Vines',
+              answer: `Das ist der ernsteste Einwand in dieser ganzen Debatte, und ich will ihn nicht kleinreden: Was die Kirche hier verlangt, ist schwer, und es darf nie leichtfertig ausgesprochen werden. Dieselbe Erwartung gilt allerdings für jeden Unverheirateten – für den Witwer, die Frau, die nie den richtigen Mann gefunden hat, den Menschen mit Behinderung. Aber die Kirche hat dann die Pflicht, nicht nur ein Nein zu sagen, sondern ein Ja zu leben: tiefe Freundschaft, Familie im Glauben, Zugehörigkeit. Jesus verspricht denen, die um seinetwillen verzichten, „Häuser und Brüder und Schwestern und Mütter" schon in dieser Zeit (Mk 10,29–30).`,
+              detail: `Sam Allberry, der selbst gleichgeschlechtlich empfindet und zölibatär lebt, schreibt, dass die Einsamkeit, die viele Singles in Gemeinden erleben, nicht ihr Problem ist, sondern das der Gemeinde. Die frühen Christen lebten in Hausgemeinschaften, in denen niemand allein war. Wenn die Kirche von Menschen mit gleichgeschlechtlicher Neigung Enthaltsamkeit erwartet, muss sie ihnen mehr Gemeinschaft schenken als irgendjemandem sonst. Seelsorgerlich gilt: Ein Mensch, der mit diesem Ruf ringt, verdient Geduld, Gebet und Begleitung – keine schnellen Antworten.`,
+              voices: [
+                { person: 'sam-allberry', role: 'als zölibatär lebender Pastor', text: `Allberry beschreibt in *7 Myths about Singleness* (2019), dass das Neue Testament die Ehelosigkeit nicht als Mangel, sondern als Gabe darstellt (1 Kor 7,7) – aber nur, wenn die Gemeinde zur Familie wird. Er widerspricht dem Mythos, ein Leben ohne Sex sei ein Leben ohne Liebe, und erinnert daran, dass Jesus selbst unverheiratet war und das erfüllteste menschliche Leben lebte.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '10,29–30', quote: `Es ist niemand, so er verlässt Haus oder Brüder oder Schwestern oder Vater oder Mutter … um meinetwillen, der nicht hundertfältig empfange: jetzt in dieser Zeit Häuser und Brüder und Schwestern und Mütter.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

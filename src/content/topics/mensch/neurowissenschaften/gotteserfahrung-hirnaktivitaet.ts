@@ -114,6 +114,28 @@ const claim: Claim = {
               objection: `Wenn man es chemisch herstellen kann, ist Gott als Erklärung überflüssig – die Chemie reicht.`,
               objectionBy: 'Michael Shermer',
               answer: `Die Chemie erklärt den *Zustand* der Erfahrung, nicht, ob die Erfahrung etwas Wirkliches erfasst. Man kann auch das Gefühl, berührt zu werden, durch Nervenreizung erzeugen – daraus folgt nicht, dass mich nie jemand berührt hat. Außerdem: Mein Glaube beruht nicht auf einem mystischen Erlebnis, sondern auf einem öffentlichen, historischen Ereignis, der Auferstehung Jesu, die von vielen Zeugen bezeugt wurde.`,
+              followUps: [
+                {
+                  id: 'auferstehung-auch-erlebnis',
+                  objection: `Die „Auferstehung" ist doch selbst nur ein religiöses Erlebnis – Visionen von Jüngern in einem emotionalen Ausnahmezustand. Du verschiebst das Problem nur 2000 Jahre zurück.`,
+                  objectionBy: 'Michael Shermer',
+                  answer: `Der Unterschied ist entscheidend: Ein mystisches Erlebnis ist privat. Die Osterberichte nennen dagegen öffentliche, überprüfbare Elemente – ein leeres Grab in einer Stadt voller Gegner, Begegnungen mit Gruppen an verschiedenen Orten und die Bekehrung erklärter Skeptiker wie Jakobus und des Verfolgers Paulus. Visionen erklären einzelne Elemente schlecht und das Gesamtbild gar nicht. Darüber kann man historisch streiten – aber es ist eine andere Frage als die nach Hirnströmen beim Gebet.`,
+                  detail: `Ausführlich: ‚psychiatrie/auferstehung-trauerhalluzination' (Trauerhalluzinationen, Gruppenerscheinungen, Paulus) und A16 ‚auferstehung/halluzinationen'.
+
+Für das Gespräch: Erkläre den Unterschied zwischen **Erfahrungsargument** (Ich habe Gott erlebt) und **Geschichtsargument** (Es gibt öffentliche Fakten, die eine Erklärung verlangen). Die Neurowissenschaft kann das erste befragen, das zweite muss historisch geprüft werden. N. T. Wright argumentiert, dass das leere Grab und die Erscheinungen nur *zusammen* den Ursprung des Osterglaubens erklären: Ein leeres Grab allein hätte man als Grabraub gedeutet, Visionen allein als Geistererscheinungen – keines von beiden hätte Juden des ersten Jahrhunderts zur Rede von „Auferstehung" gebracht.`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Neutestamentler und Historiker',
+                      text: `N. T. Wright zeigt in „The Resurrection of the Son of God", dass „Auferstehung" im Judentum des ersten Jahrhunderts eine leibliche Rückkehr ins Leben bedeutete, nicht ein geistiges Weiterleben oder eine Vision. Visionen Verstorbener waren in der Antike bekannt und wurden als Erscheinung eines Geistes oder Engels gedeutet – gerade nicht als Auferstehung. Dass die Jünger dennoch von Auferstehung sprachen, erklärt sich nach Wright nur, wenn das Grab leer war *und* sie Jesus begegneten.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', ref: 'Teil V, Kap. 18', year: '2003', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Welche neurowissenschaftliche Studie erklärt ein leeres Grab?`],
+                },
+              ],
             },
           ],
         },
