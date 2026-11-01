@@ -229,7 +229,7 @@ John Polkinghorne, Quantenphysiker und Theologe, beschreibt die Alternative: Die
                 {
                   id: 'china-indien-mathematik',
                   objection: `Indien, China und die islamische Welt hatten große Mathematiker. Die Wissenschaftliche Revolution in Europa hat ökonomische und institutionelle Gründe – Druckerpresse, Universitäten, Handel –, keine theologischen.`,
-                  objectionBy: 'Steven Pinker / Wissenschaftshistoriker (z. B. Toby Huff zur Frage der Institutionen)',
+                  objectionBy: 'Steven Pinker (sinngemäß)',
                   answer: `Völlig richtig ist, dass diese Kulturen herausragende Mathematik hervorbrachten – Null, Algebra, Trigonometrie – und Europa viel von ihnen übernahm. Institutionen spielten eine große Rolle, und die Universitäten waren übrigens kirchliche Gründungen. Mein Punkt ist bescheidener: Die Überzeugung, dass **die Natur selbst** universalen, mathematisch formulierbaren Gesetzen gehorcht, hatte bei den Gründern der Physik eine ausdrücklich theologische Begründung. Das zeigt, dass die Erwartung nicht nachträglich erfunden wurde.`,
                   detail: `Die Frage „Warum Europa?" ist in der Forschung vielschichtig (Huff, Harrison, Hannam, Cohen). Für deine Debatte genügt: Du behauptest nicht, nur Christen könnten Mathematik betreiben. Du behauptest, dass die mathematische Ordnung der Welt im Theismus **erwartet** und im Naturalismus **unerklärt** ist – und dass die Gründer der Physik genau so dachten.`,
                   sources: [
@@ -255,6 +255,73 @@ John Polkinghorne, Quantenphysiker und Theologe, beschreibt die Alternative: Die
           objection: `Wir verstehen die Quantenwelt doch gar nicht wirklich – Feynman sagte, niemand verstehe die Quantenmechanik.`,
           objectionBy: 'Richard Feynman (zitiert)',
           answer: `Feynmans Bonmot betrifft die anschauliche Deutung. Rechnerisch beherrschen wir die Quantenwelt mit atemberaubender Präzision – die Quantenelektrodynamik stimmt auf rund zwölf Stellen mit dem Experiment überein. Genau dieser mathematische Zugriff jenseits aller Anschauung ist das Erstaunliche.`,
+          followUps: [
+            {
+              id: 'gesetze-nur-naeherungen',
+              objection: `Naturgesetze sind ohnehin nur Idealisierungen. Die wirkliche Welt ist schmutzig; „How the Laws of Physics Lie", wie Nancy Cartwright zeigt. Wir pressen die Natur in Gleichungen und nennen das dann Effektivität.`,
+              objectionBy: 'Nancy Cartwright (sinngemäß)',
+              answer: `Dass unsere Gleichungen Näherungen sind, stimmt. Aber die Näherungen werden **systematisch besser**: Newton wird durch Einstein verfeinert, nicht ersetzt, und die Fehler schrumpfen um Größenordnungen. Wenn die Natur nicht mathematisch strukturiert wäre, gäbe es keinen Grund, warum tiefere Gleichungen immer genauer und umfassender werden. Die Konvergenz ist der Befund.`,
+              detail: `Cartwright betont zu Recht, dass Gesetze unter idealen Bedingungen formuliert und in der Praxis durch viele Störfaktoren überlagert werden. Daraus folgt aber nicht, dass die Welt **an sich** ungeordnet ist – die Störfaktoren gehorchen ihrerseits Gesetzen, die man gesondert modellieren kann. Der Weg von Kepler über Newton zu Einstein und zur Quantenfeldtheorie ist eine Geschichte zunehmender Einheit: wenige Gleichungen, enorme Reichweite, wachsende Präzision.`,
+              questionsBack: [
+                `Wenn die Gesetze „lügen" – warum werden die Lügen mit jeder Theoriegeneration genauer?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'jede-welt-mathematisch',
+      objection: `Mathematik ist so allgemein, dass sie zu **jeder** Welt passen würde. Sie ist einfach die Wissenschaft aller möglichen Muster. Dass sie unsere Welt beschreibt, ist so wenig erstaunlich wie dass Sprache Dinge benennen kann.`,
+      objectionBy: 'Richard Hamming (sinngemäß) / Max Tegmark',
+      targetsPremise: 2,
+      answer: `Nein – beschreibbar ist nicht dasselbe wie **komprimierbar**. Auch eine chaotische Welt könnte man Punkt für Punkt in einer endlosen Tabelle auflisten. Unsere Welt aber lässt sich in **wenigen, kurzen Gleichungen** zusammenfassen, aus denen Milliarden Beobachtungen folgen. Die allermeisten denkbaren Datenfolgen sind zufällig und unkomprimierbar – das ist ein Satz der Informationstheorie. Dass unsere Welt extrem komprimierbar ist, ist der eigentliche Befund.`,
+      detail: `Die algorithmische Informationstheorie (Kolmogorov, Chaitin) definiert Zufälligkeit als Unkomprimierbarkeit: Eine Folge ist zufällig, wenn das kürzeste Programm, das sie erzeugt, ungefähr so lang ist wie die Folge selbst. Fast alle möglichen Folgen sind in diesem Sinn zufällig. Die Physik dagegen fasst Planetenbahnen, Gezeiten, fallende Äpfel und Gravitationswellen in einer Handvoll Gleichungen. Wigners „unvernünftige Effektivität" lässt sich so präzise formulieren: Die Welt ist algorithmisch hochgradig komprimierbar – und das ist bei einer zufälligen Welt extrem unwahrscheinlich.`,
+      voices: [
+        {
+          person: 'robert-marks',
+          role: 'als Informationstheoretiker',
+          text: `Marks arbeitet mit Begriffen der algorithmischen Information: Zufällige Daten lassen sich nicht komprimieren, strukturierte schon. Eine Welt, deren Verhalten sich in kurzen Beschreibungen zusammenfassen lässt, trägt nach dieser Logik ein Kennzeichen von Struktur, die nicht aus blindem Zufall stammt.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Robert J. Marks II, William A. Dembski, Winston Ewert', work: 'Introduction to Evolutionary Informatics', year: '2017', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'wissenschaft', author: 'Gregory J. Chaitin', work: 'Meta Math! The Quest for Omega', year: '2005', status: 'paraphrase', note: 'Chaitin (kein Theist) beschreibt Wissenschaft selbst als Datenkompression: Eine Theorie ist nur dann eine Erklärung, wenn sie kürzer ist als die Daten.' },
+      ],
+      questionsBack: [
+        `Wie viele der möglichen Welten ließen sich in vier Gleichungen zusammenfassen – und warum gerade unsere?`,
+      ],
+      followUps: [
+        {
+          id: 'komprimierbarkeit-anthropisch',
+          objection: `Komprimierbarkeit ist Voraussetzung für Leben: Organismen können nur in einer regelmäßigen Welt Vorhersagen treffen und überleben. Also wieder anthropischer Selektionseffekt.`,
+          objectionBy: 'Sean Carroll',
+          answer: `Leben braucht **lokale** Regelmäßigkeit: dass Feuer heiß ist und Wasser nass bleibt. Es braucht nicht, dass dieselben eleganten Gleichungen für Quasare in Milliarden Lichtjahren Entfernung und für Quarks bei 10⁻¹⁸ Metern gelten. Eine Welt mit einem Flickenteppich lokaler Faustregeln wäre genauso bewohnbar – aber nicht wissenschaftlich begreifbar. Die Reichweite der Ordnung übersteigt den Bedarf des Lebens bei Weitem.`,
+          followUps: [
+            {
+              id: 'einfachheit-wahrscheinlicher',
+              objection: `Einfache Gesetze sind a priori wahrscheinlicher – das ist Ockhams Rasiermesser, mathematisch präzisiert durch Solomonoffs universelle Wahrscheinlichkeit. Kein Gott nötig, nur Wahrscheinlichkeitstheorie.`,
+              objectionBy: 'Sean Carroll / Bayesianische Wissenschaftstheorie',
+              answer: `Solomonoffs Maß beschreibt, wie **wir** Hypothesen gewichten sollten – nicht, warum die Wirklichkeit sich an unsere Gewichtung hält. Dass das Einfachheitsprinzip in der Natur immer wieder zum Ziel führt, ist genau das, was erklärt werden muss. Wer sagt „einfache Welten sind wahrscheinlicher", setzt schon voraus, dass Wirklichkeit und Vernunft zueinander passen.`,
+              detail: `Richard Swinburne hat ausführlich argumentiert, dass Einfachheit ein Wahrheitsindiz ist – und dass genau dies im Theismus verständlich wird: Ein vollkommener, einfacher Geist als letzte Erklärung lässt eine einfache, geordnete Welt erwarten. Im Naturalismus bleibt dagegen offen, warum die rohe Tatsache der Welt sich an ein Erkenntnisprinzip halten sollte, das Menschen bevorzugen.`,
+              voices: [
+                {
+                  person: 'swinburne',
+                  role: 'als Religions- und Wissenschaftsphilosoph',
+                  text: `Swinburne verteidigt in *Simplicity as Evidence of Truth* (1997), dass Einfachheit ein objektives Kriterium für Wahrheit ist. In *The Existence of God* argumentiert er, dass die Gesetzmäßigkeit der Natur (die „Ordnung der Abfolge") unter der Annahme eines Schöpfers deutlich wahrscheinlicher ist als ohne ihn.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'Simplicity as Evidence of Truth', year: '1997', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', ref: 'Kap. 8', year: '2. Aufl. 2004', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Warum sollte die Wirklichkeit sich nach einem Prinzip richten, das Menschen für ihre Hypothesenwahl erfunden haben?`,
+              ],
+            },
+          ],
         },
       ],
     },

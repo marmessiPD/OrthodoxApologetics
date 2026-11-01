@@ -126,6 +126,22 @@ const claim: Claim = {
           objection: `Die katholische Kirche hat 1933 sogar ein Konkordat mit Hitler geschlossen, und die evangelischen „Deutschen Christen" jubelten ihm zu.`,
           objectionBy: 'Karlheinz Deschner',
           answer: `Das stimmt, und es gehört zur Schuldgeschichte der Kirchen. Zugleich gab es die Bekennende Kirche mit der Barmer Theologischen Erklärung von 1934, die den Totalitätsanspruch des Staates im Namen Christi zurückwies, und Märtyrer wie Bonhoeffer, Pater Maximilian Kolbe oder die Geschwister Scholl, die aus christlicher Überzeugung Widerstand leisteten. Auch hier gilt: Wo Christen versagten, handelten sie gegen Christus; wo sie widerstanden, beriefen sie sich auf ihn.`,
+          followUps: [
+            {
+              id: 'pius-xii-schweigen',
+              objection: `Und Pius XII. hat zum Holocaust geschwiegen. Der Stellvertreter Christi hat nichts gesagt, während Millionen ermordet wurden.`,
+              objectionBy: 'Karlheinz Deschner',
+              answer: `Ob Pius XII. genug getan hat, ist unter Historikern umstritten, und viele meinen zu Recht, er hätte klarer sprechen müssen. Völlig geschwiegen hat er nicht: In seiner Weihnachtsansprache 1942 sprach er von Hunderttausenden, die ohne eigene Schuld, manchmal nur wegen ihrer Nationalität oder Abstammung, dem Tod oder der Vernichtung preisgegeben seien – die Nazis verstanden das als Angriff. Zugleich versteckten katholische Klöster und Pfarreien, etwa in Rom, Tausende Juden. Seit 2020 sind die vatikanischen Archive dieser Zeit geöffnet; die Forschung ist im Gang.`,
+              detail: `Für dein Gespräch: Verteidige Pius XII. nicht pauschal und greife ihn nicht pauschal an. Die ehrliche Linie ist: Es gab in den Kirchen Versagen, Feigheit und Opportunismus – und es gab Widerstand und Rettung. Dietrich Bonhoeffer, Bernhard Lichtenberg, Clemens August von Galen und Tausende „Gerechte unter den Völkern" handelten aus ihrem Glauben. Die Frage ist nicht, ob Christen versagt haben – das haben sie –, sondern ob sie dabei Christus gefolgt sind oder ihn verraten haben.`,
+              voices: [
+                { person: 'dietrich-bonhoeffer', role: 'als Theologe im Widerstand', text: `Bonhoeffer verstand die Nachfolge Christi als Ruf zur Verantwortung für die Opfer: Die Kirche dürfe nicht nur „die Opfer unter dem Rad verbinden", sondern müsse notfalls „dem Rad selbst in die Speichen fallen" (*Die Kirche vor der Judenfrage*, 1933). Er bezahlte seinen Widerstand 1945 mit dem Leben.` },
+              ],
+              sources: [
+                { kind: 'sonstiges', author: 'Papst Pius XII.', work: 'Weihnachtsansprache (Radiobotschaft)', year: '1942', quote: `Hunderttausende, die ohne eigene Schuld, bisweilen nur um ihrer Volkszugehörigkeit oder Abstammung willen, dem Tod oder fortschreitender Vernichtung preisgegeben sind.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Dietrich Bonhoeffer', work: '„Die Kirche vor der Judenfrage"', year: '1933', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -134,6 +150,19 @@ const claim: Claim = {
       objection: `Die Zahl von 100 Millionen aus dem *Schwarzbuch des Kommunismus* ist übertrieben, und selbst Mitautoren haben sich davon distanziert. Ihr arbeitet mit Propagandazahlen.`,
       objectionBy: 'Michael Shermer',
       answer: `Das ist richtig: Courtois' Gesamtsumme ist umstritten, und Mitautoren wie Nicolas Werth haben sich von seiner Einleitung distanziert; zudem starben viele Opfer in Hungersnöten, die nicht direkt mit Atheismus zu tun haben. Ich brauche diese Zahl nicht. Auch vorsichtige Schätzungen liegen bei vielen Dutzend Millionen Toten, und die gezielte Verfolgung der Gläubigen ist unabhängig davon dokumentiert: In der Sowjetunion sank die Zahl der geöffneten Kirchen von über 50.000 auf wenige Hundert, Zehntausende Geistliche wurden ermordet.`,
+      followUps: [
+        {
+          id: 'hungersnot-nicht-glaubensverfolgung',
+          objection: `Die meisten Todesopfer des Kommunismus starben an Hungersnöten durch katastrophale Wirtschaftspolitik – nicht, weil man Gläubige töten wollte. Das hat mit Atheismus nichts zu tun.`,
+          objectionBy: 'Michael Shermer',
+          answer: `Die Hungersnöte entstanden aus einer Ideologie, die jede Instanz über dem Parteiwillen leugnete – und Kritiker zum Schweigen brachte. Aber es gab auch die gezielte Verfolgung der Gläubigen: Allein im Großen Terror 1937/38 wurden in der Sowjetunion Zehntausende Priester, Mönche und Laien wegen ihres Glaubens verhaftet, viele erschossen. Albanien erklärte sich 1967 zum „ersten atheistischen Staat der Welt" und verbot jede Religionsausübung. Das war nicht Nebenwirkung, sondern Programm.`,
+          detail: `Die russisch-orthodoxe Kirche hat seit den 1990er-Jahren Tausende „Neumärtyrer und Bekenner" heiliggesprochen; die Datenbanken der orthodoxen St.-Tichon-Universität in Moskau verzeichnen Zehntausende Opfer der Verfolgung. In der Sowjetunion gab es mit dem „Bund der kämpferischen Gottlosen" eine staatlich geförderte Organisation zur Bekämpfung der Religion. Es geht dabei nicht darum, dass Atheisten zur Gewalt neigen – das tun sie nicht –, sondern darum, dass eine politische Weltanschauung, die Gott ausdrücklich ausschloss, die Gläubigen als Feinde behandelte.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Dimitry V. Pospielovsky', work: 'A History of Soviet Atheism in Theory and Practice, and the Believer', year: '1987–1988', status: 'paraphrase' },
+            { kind: 'sonstiges', work: 'Verfassung der Sozialistischen Volksrepublik Albanien, Art. 37 (1976); Kampagne von 1967', year: '1967/1976', status: 'paraphrase', note: 'Albanien erklärte 1967 die vollständige Abschaffung der Religion.' },
+          ],
+        },
+      ],
     },
     {
       id: 'skandinavien-friedlich',
@@ -146,6 +175,33 @@ const claim: Claim = {
           objection: `Religiöse Staaten wie der Iran oder Saudi-Arabien unterdrücken aber genauso. Das Problem ist der Staat, der eine Weltanschauung erzwingt.`,
           objectionBy: 'Sam Harris',
           answer: `Da stimme ich dir zu: Jeder Staat, der Glauben oder Unglauben erzwingt, verletzt die Würde des Menschen. Das Christentum lehrt, Gott und Kaiser zu unterscheiden (Mt 22,21), und die frühen Väter forderten Religionsfreiheit. Die Kopten kennen Unterdrückung durch religiös begründete Staatsmacht aus eigener langer Erfahrung. Gerade deshalb: Die Lösung ist nicht Staatsatheismus, sondern Freiheit – und die gründet in der Überzeugung, dass jeder Mensch vor Gott selbst verantwortlich ist.`,
+          followUps: [
+            {
+              id: 'saekularismus-reicht',
+              objection: `Dann sind wir uns ja einig: Die Lösung ist der säkulare Staat. Genau dafür trete ich ein. Religion trägt dazu nichts bei.`,
+              objectionBy: 'Sam Harris',
+              answer: `Einig sind wir beim neutralen Staat, der niemanden zum Glauben oder Unglauben zwingt. Aber die Idee eines begrenzten Staates, der nicht über die Seele herrscht, stammt selbst aus dem Christentum: „Gebt dem Kaiser, was des Kaisers ist, und Gott, was Gottes ist" (Mk 12,17). Damit wurde zum ersten Mal ein Bereich benannt, der dem Herrscher entzogen ist. Ein säkularer Staat braucht Bürger, die an eine Würde glauben, die der Staat nicht verleiht – er kann sie selbst nicht erzeugen.`,
+              detail: `Der Staatsrechtler Ernst-Wolfgang Böckenförde hat das 1964 so formuliert: Der freiheitliche, säkularisierte Staat lebt von Voraussetzungen, die er selbst nicht garantieren kann. Er kann die Würde des Menschen schützen, aber nicht begründen. Die Frage ist, aus welchen Quellen eine Gesellschaft diese Überzeugung dauerhaft schöpft.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Ernst-Wolfgang Böckenförde', work: '„Die Entstehung des Staates als Vorgang der Säkularisation"', year: '1967 (Vortrag 1964)', quote: `Der freiheitliche, säkularisierte Staat lebt von Voraussetzungen, die er selbst nicht garantieren kann.`, status: 'verbatim', note: 'Das sogenannte Böckenförde-Diktum.' },
+              ],
+              followUps: [
+                {
+                  id: 'saekulare-laender-gluecklicher',
+                  objection: `Die Daten sprechen für sich: Die säkularsten Länder haben das höchste Wohlergehen, die geringste Kriminalität und die besten Sozialsysteme. Religion ist für eine gute Gesellschaft offensichtlich nicht nötig.`,
+                  objectionBy: 'Steven Pinker',
+                  answer: `Länderdaten zeigen Korrelationen, keine Ursachen: Die skandinavischen Länder sind reich, stabil und tief vom lutherischen Erbe geprägt – ihr Sozialstaat wuchs aus einer jahrhundertelangen kirchlichen Armenfürsorge. Schaut man dagegen auf Einzelpersonen, ist das Bild anders: Große Langzeitstudien des Epidemiologen Tyler VanderWeele (Harvard) zeigen, dass regelmäßiger Gottesdienstbesuch mit geringerer Sterblichkeit, weniger Depression und deutlich weniger Suiziden verbunden ist.`,
+                  detail: `VanderWeele und Kollegen fanden etwa in der *Nurses' Health Study*, dass Frauen, die mindestens wöchentlich einen Gottesdienst besuchten, ein um ein Vielfaches geringeres Suizidrisiko hatten (*JAMA Psychiatry*, 2016). Solche Befunde beweisen nicht die Wahrheit des Glaubens – aber sie widerlegen die Behauptung, Religion sei für menschliches Gedeihen bedeutungslos oder schädlich. Und ob die säkularen Gesellschaften ihr hohes Vertrauen und ihre Solidarität über Generationen ohne ihre christlichen Wurzeln bewahren, ist eine offene Frage.`,
+                  voices: [
+                    { person: 'vanderweele', role: 'als Epidemiologe', text: `VanderWeele leitet an der Harvard-Universität das *Human Flourishing Program*. Seine Längsschnittstudien zeigen robuste Zusammenhänge zwischen regelmäßiger Teilnahme am Gottesdienst und Gesundheit, Sinnerleben und geringerer Suizidalität – und zwar unter Kontrolle zahlreicher Störfaktoren.` },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Tyler J. VanderWeele; Shanshan Li; Alexander C. Tsai; Ichiro Kawachi', work: '„Association Between Religious Service Attendance and Lower Suicide Rates Among US Women", JAMA Psychiatry 73(8)', year: '2016', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -154,6 +210,21 @@ const claim: Claim = {
       objection: `Die orthodoxe Kirche hat doch selbst mit dem Sowjetstaat kollaboriert. Bischöfe arbeiteten mit dem KGB zusammen.`,
       objectionBy: 'Christopher Hitchens',
       answer: `Es gab Kompromisse und Kollaboration, das ist wahr – etwa die Loyalitätserklärung von Metropolit Sergius 1927 und spätere Verstrickungen mit dem Geheimdienst. Aber man muss den Zusammenhang sehen: eine Kirche, deren Bischöfe und Priester zu Zehntausenden erschossen wurden, die ums nackte Überleben kämpfte. Neben den Kompromissen stehen unzählige Märtyrer, die lieber starben, als ihren Glauben zu verleugnen. Dass Menschen unter Todesdrohung schwach werden, entlastet nicht das Regime, das sie bedrohte.`,
+      followUps: [
+        {
+          id: 'koptische-kirche-staatsnaehe',
+          objection: `Und deine koptische Kirche? Ihre Führung stellt sich seit Jahrzehnten demonstrativ hinter die ägyptischen Machthaber. Wer im Glashaus sitzt …`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Die Kritik gibt es, auch unter Kopten selbst, und man muss sie ernst nehmen: Eine Kirche darf sich nie zum Sprachrohr einer Regierung machen. Man muss aber die Lage verstehen: Die Kopten sind eine Minderheit, die immer wieder Opfer von Anschlägen wurde – im August 2013 wurden in Ägypten Dutzende Kirchen angegriffen und niedergebrannt. Papst Tawadros II. antwortete damals nicht mit Rache, sondern mit dem Satz, wenn man ihre Kirchen verbrenne, würden sie mit ihren muslimischen Nachbarn in Moscheen beten, und wenn man Moscheen verbrenne, gemeinsam auf der Straße. Vorsicht im Umgang mit der Macht ist nicht dasselbe wie die Gewalt eines atheistischen Staates.`,
+          detail: `Der entscheidende Unterschied zur Debatte um atheistische Regime: Hier geht es um die Frage, wie eine verwundbare Minderheit überlebt, nicht um eine Weltanschauung, die Gläubige systematisch auslöschen wollte. Ehrlich bleibt: Auch eine verfolgte Kirche kann der Versuchung erliegen, sich zu sehr an Mächtige anzulehnen. Die Väter erinnern daran, dass die Stärke der Kirche nie im Schutz des Staates lag, sondern im Zeugnis der Märtyrer – die koptische Zeitrechnung beginnt nicht zufällig mit der „Ära der Märtyrer" (284).`,
+          voices: [
+            { person: 'tawadros-ii', role: 'als Patriarch in Zeiten der Verfolgung', text: `Tawadros II. betont seit seiner Wahl 2012 die nationale Einheit von Christen und Muslimen in Ägypten und hat nach Anschlägen wiederholt zur Vergebung und zur Besonnenheit aufgerufen. Sein Leitgedanke: Die Kirche verteidigt sich nicht mit Gewalt, sondern durch Treue, Gebet und Liebe zum Land und zu den Nachbarn.` },
+          ],
+          sources: [
+            { kind: 'koptisch', author: 'Papst Tawadros II.', work: 'Äußerungen nach den Kirchenbrandstiftungen vom August 2013', year: '2013', quote: `Wenn sie unsere Kirchen verbrennen, beten wir mit unseren muslimischen Brüdern in den Moscheen; wenn sie die Moscheen verbrennen, beten wir gemeinsam auf der Straße.`, status: 'paraphrase', note: 'Vielfach berichtet und zitiert; genauer Wortlaut und Anlass vor wörtlicher Verwendung prüfen.' },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

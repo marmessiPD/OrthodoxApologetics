@@ -189,6 +189,89 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'juenger-fasteten-nicht',
+      objection: `„Jesu Jünger fasteten nicht – das fiel sogar den Pharisäern und den Johannesjüngern auf (Mk 2,18). Mit Christus ist der Bräutigam da. Der Neue Bund ist ein Fest, kein Fasten. Fastenkalender gehören in den Alten Bund."`,
+      objectionBy: 'John MacArthur',
+      answer: `Lies Jesu Antwort zu Ende: „Es wird aber die Zeit kommen, daß der Bräutigam von ihnen genommen wird; alsdann werden sie fasten" (Mk 2,20). Diese Zeit begann mit der Himmelfahrt – sie ist jetzt. Und genau so handelt die Urkirche: Die Gemeinde in Antiochien „diente dem Herrn und fastete", als der Geist Paulus und Barnabas aussandte (Apg 13,2–3); bei der Einsetzung der Ältesten beteten sie „mit Fasten" (Apg 14,23); Paulus selbst lebte „in viel Fasten" (2 Kor 11,27). Das Fasten der Kirche ist nicht Rückfall ins Alte, sondern Gehorsam gegenüber dem Wort des Bräutigams.`,
+      detail: `Die koptische Kirche nimmt beides ernst: die Freude des Bräutigams und die Zeit seiner Abwesenheit. Deshalb wird in den fünfzig Tagen nach Ostern nicht gefastet – die Zeit der Auferstehungsfreude –, während die Fastenzeiten auf die großen Feste vorbereiten. Fasten und Fest gehören zusammen wie Karfreitag und Ostern.
+
+Bemerkenswert: Die Apostelgeschichte verbindet das Fasten der Gemeinde mit dem Wirken des Geistes. Nicht der satte, sondern der betende und fastende Leib hört in Antiochien die Stimme des Geistes: „Sondert mir aus Barnabas und Saulus" (Apg 13,2).`,
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '2,19–20', quote: `Und Jesus sprach zu ihnen: Wie können die Hochzeitleute fasten, dieweil der Bräutigam bei ihnen ist? Solange der Bräutigam bei ihnen ist, können sie nicht fasten. Es wird aber die Zeit kommen, daß der Bräutigam von ihnen genommen wird; dann werden sie fasten.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '13,2–3', quote: `Da sie aber dem HERRN dienten und fasteten, sprach der heilige Geist: Sondert mir aus Barnabas und Saulus zu dem Werk, dazu ich sie berufen habe. Da fasteten sie und beteten und legten die Hände auf sie und ließen sie gehen.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wann ist für dich die Zeit, „wenn der Bräutigam von ihnen genommen wird" – und was folgt daraus nach Jesu eigenem Wort?`,
+      ],
+      followUps: [
+        {
+          id: 'freiwillig-nicht-kalender',
+          objection: `„Gut, Fasten ist biblisch – aber freiwillig und persönlich. Der Fehler ist der kirchliche Kalender, der allen dieselben Tage vorschreibt."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Die Schrift kennt beides – persönliches und gemeinsames Fasten. Joel ruft: „Heiliget ein Fasten, rufet die Gemeinde zusammen" (Joel 2,15), die Gemeinde in Antiochien fastete gemeinsam (Apg 13,2), und schon die Didache (um 100) nennt feste Fasttage für alle Christen: Mittwoch und Freitag. Gemeinsames Fasten ist wie ein gemeinsames Familienessen: Man tut es zusammen, weil man zusammengehört. Und es ist keine Heilsbedingung: Niemand wird ausgeschlossen, weil er nicht fasten kann; der Beichtvater passt die Regel jedem an.`,
+          sources: [
+            { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '8,1', year: 'um 100', quote: `Eure Fasten sollen nicht mit den Heuchlern sein; denn sie fasten am zweiten und fünften Tag der Woche; ihr aber sollt am vierten und am Rüsttag fasten.`, status: 'paraphrase', note: 'Vierter Tag = Mittwoch, Rüsttag = Freitag.' },
+            { kind: 'bibel', work: 'Joel', ref: '2,15', quote: `Blaset mit Posaunen zu Zion, heiliget ein Fasten, rufet die Gemeinde zusammen!`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'didache-keine-schrift',
+              objection: `„Die Didache ist kein Schriftwort. Was ein Kirchenhandbuch um 100 vorschreibt, bindet mein Gewissen nicht."`,
+              objectionBy: 'John MacArthur',
+              answer: `Richtig, die Didache ist nicht Schrift – und die koptische Kirche behauptet das auch nicht. Aber sie ist ein **Zeugnis**: So feierten, beteten und fasteten Gemeinden, die noch von Apostelschülern geleitet wurden. Für die Frage „Was ist apostolische Praxis?" ist ein Zeugnis aus der Generation nach den Aposteln wertvoller als jede moderne Rekonstruktion. Du benutzt solche Zeugnisse übrigens selbst, wenn du begründest, warum der Hebräerbrief zur Bibel gehört.`,
+              questionsBack: [
+                `Wem traust du mehr zu, die Praxis der Apostel zu kennen: einer Gemeindeordnung um 100 oder einem Bibelkommentar des 21. Jahrhunderts?`,
+              ],
+            },
+            {
+              id: 'eucharistisches-fasten-bedingung',
+              objection: `„Luther hat es richtig gesagt: Fasten und leiblich sich bereiten ist wohl eine feine äußerliche Zucht – aber würdig zum Sakrament macht allein der Glaube an die Worte ‚für euch gegeben'. Ihr macht das Fasten vor der Kommunion zur Bedingung."`,
+              objectionBy: 'Martin Luther (historisch)',
+              answer: `Dem ersten Teil stimme ich gern zu – und beachte: Luther nennt das Fasten eine *feine* Zucht, er schafft es nicht ab. Würdig macht niemanden ein leerer Magen, sondern Glaube, Buße und Versöhnung: „Der Mensch prüfe sich selbst, und also esse er von diesem Brot" (1 Kor 11,28). Das Fasten vor der Kommunion ist keine Leistung, sondern Ehrfurcht: Der Leib des Herrn soll die erste Speise des Tages sein. Diese Praxis ist alt – Augustinus schreibt um 400, sie werde in der ganzen Welt gehalten.`,
+              detail: `Der Satz stammt aus Luthers *Kleinem Katechismus* (1529), im Abschnitt über das Sakrament des Altars. Er zeigt, dass auch die lutherische Tradition das Fasten als gute Vorbereitung kannte.
+
+Augustinus erklärt in seinem Brief an Januarius (Ep. 54), es habe dem Heiligen Geist gefallen, dass zur Ehre eines so großen Sakraments der Leib des Herrn vor anderen Speisen in den Mund des Christen eingehe; deshalb werde diese Sitte auf der ganzen Welt beachtet. Die koptische Kirche teilt diese Ehrfurcht und passt das eucharistische Fasten seelsorgerlich an – etwa für Kranke und kleine Kinder.`,
+              sources: [
+                { kind: 'gegner', author: 'Martin Luther', work: 'Der Kleine Katechismus (Vom Sakrament des Altars)', year: '1529', quote: `Fasten und leiblich sich bereiten ist wohl eine feine äußerliche Zucht; aber der ist recht würdig und wohl geschickt, wer den Glauben hat an diese Worte: „Für euch gegeben" und „vergossen zur Vergebung der Sünden".`, translation: 'Original (Schreibweise modernisiert)', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Brief 54 (an Januarius)', ref: '6,8', year: 'um 400', quote: `Es hat dem Heiligen Geist gefallen, dass zur Ehre eines so großen Sakraments der Leib des Herrn vor anderen Speisen in den Mund des Christen eingehe; darum wird diese Sitte auf der ganzen Welt beachtet.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wenn Luther das Fasten eine „feine äußerliche Zucht" nennt – warum fasten heute so wenige seiner Erben?`,
+              ],
+              followUps: [
+                {
+                  id: 'vegan-speisegesetz',
+                  objection: `„Euer Fasten ohne alle tierischen Produkte ist doch ein neues Speisegesetz. Paulus sagt: ‚Das Reich Gottes ist nicht Essen und Trinken' (Röm 14,17)."`,
+                  objectionBy: 'R. C. Sproul / Gavin Ortlund',
+                  answer: `Lies Röm 14 weiter: Paulus verbietet, einander wegen des Essens zu richten – und daran hält sich die koptische Kirche: Wir verurteilen niemanden, der nicht fastet. Kein Lebensmittel ist bei uns unrein; nach Ostern essen Kopten alles mit Danksagung (1 Tim 4,4). Der Verzicht auf Fleisch und tierische Produkte hat ein biblisches Vorbild: Daniel fastete drei Wochen: „Ich aß keine leckere Speise, Fleisch und Wein kam nicht in meinen Mund" (Dan 10,3). Nicht weil Fleisch böse wäre, sondern aus Demut und Trauer vor Gott. Und die Väter erinnern: Das erste Gebot im Paradies war ein Fastengebot (Gen 2,17).`,
+                  detail: `Basilius der Große beginnt seine erste Predigt über das Fasten mit dem Hinweis, das Fasten sei so alt wie die Menschheit: Im Paradies gab Gott das Gebot, von einem Baum nicht zu essen – und weil wir nicht gefastet haben, wurden wir aus dem Paradies vertrieben. Das Fasten der Kirche ist für ihn deshalb Heimweg ins Paradies, nicht Gesetzlichkeit.
+
+Die koptischen Fastenzeiten (z. B. die Große Fastenzeit vor Ostern, das Fasten vor Weihnachten, das Apostelfasten, Mittwoch und Freitag) verbinden Verzicht mit vermehrtem Gebet, Liturgie und Barmherzigkeit. Papst Schenuda III. betonte, dass ein Fasten ohne Liebe und Versöhnung wertlos sei (vgl. Jes 58).`,
+                  voices: [
+                    {
+                      person: 'basilius',
+                      role: 'als Prediger über das Fasten',
+                      text: `Basilius erklärt, das Fasten sei im Paradies gesetzt worden: Das Gebot, nicht vom Baum zu essen, war das erste Fastengebot. Weil Adam nicht fastete, verloren wir das Paradies; durch Fasten kehren wir dorthin zurück. Zugleich warnt er davor, sich zwar der Speisen zu enthalten, aber nicht der Sünde – wahres Fasten sei Entfremdung vom Bösen.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Erste Homilie über das Fasten (De ieiunio I)', ref: '3–4; 10', year: 'um 370', quote: `Das Fasten wurde im Paradies gegeben: „Vom Baum der Erkenntnis sollst du nicht essen" war das erste Gebot. Weil wir nicht gefastet haben, wurden wir aus dem Paradies vertrieben; lasst uns also fasten, um dorthin zurückzukehren. Wahres Fasten ist Entfremdung vom Bösen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Daniel', ref: '10,2–3', quote: `Zu der Zeit war ich, Daniel, traurig drei Wochen lang. Ich aß keine leckere Speise, Fleisch und Wein kam nicht in meinen Mund …`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Römer', ref: '14,17', quote: `Denn das Reich Gottes ist nicht Essen und Trinken, sondern Gerechtigkeit und Friede und Freude in dem heiligen Geist.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `War Daniels Verzicht auf Fleisch und Wein (Dan 10,3) Gesetzlichkeit – oder Demut vor Gott?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum sagt Jesus „*wenn* ihr fastet" (Mt 6,16) und nicht „*falls* ihr fastet"?`,
