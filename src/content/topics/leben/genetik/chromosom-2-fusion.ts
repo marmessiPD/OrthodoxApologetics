@@ -106,7 +106,7 @@ const claim: Claim = {
               objectionBy: 'Larry Moran',
               answer: `Einverstanden – und das ist ein Punkt, an dem wir uns weitgehend einig sind: Die Fusion ist populationsgenetisch kein Problem, weder für dein Modell noch für ein Modell mit sehr kleinem Anfang. Es gibt sogar dokumentierte Fälle gesunder Menschen, die eine solche Translokation von beiden Eltern geerbt haben und nur 44 Chromosomen besitzen – ein Hinweis, wie eine neue Chromosomenzahl in einer eng verbundenen Familie stabil werden kann. Die Fusion entscheidet also nicht zwischen „zwei" und „einigen Tausend"; diese Frage muss mit anderen Daten geklärt werden.`,
               sources: [
-                { kind: 'wissenschaft', author: 'Jianrong Song u. a.', work: '„A family with Robertsonian translocation: a potential mechanism of speciation in humans", Molecular Cytogenetics 9', year: '2016', status: 'paraphrase', quote: `Beschreibung eines gesunden Mannes mit 44 Chromosomen (homozygote Robertson-Translokation) aus einer verwandtschaftlich verbundenen Familie.`, note: 'Autorenangabe und Details vor wörtlicher Verwendung im Original prüfen.' },
+                { kind: 'wissenschaft', author: 'Jianrong Song u. a.', work: '„A family with Robertsonian translocation: a potential mechanism of speciation in humans", Molecular Cytogenetics 9', year: '2016', status: 'unverified', quote: `Beschreibung eines gesunden Mannes mit 44 Chromosomen (homozygote Robertson-Translokation) aus einer verwandtschaftlich verbundenen Familie.`, note: 'Aus dem Gedächtnis zitiert, nicht per Websuche geprüft (Suchbudget erschöpft); Autoren, Jahrgang und Details vor Verwendung im Original prüfen.' },
               ],
             },
           ],

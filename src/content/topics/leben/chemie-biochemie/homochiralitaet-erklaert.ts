@@ -272,6 +272,22 @@ James Tour fasst das zusammen: Je mehr Einzelschritte erklärt werden, desto deu
           id: 'd-aminosaeuren-natur',
           objection: `Es gibt in der Natur Peptide mit D-Aminosäuren, etwa in bakteriellen Zellwänden.`,
           answer: `Stimmt – und sie werden von spezialisierten Enzymen gezielt hergestellt (Racemasen, nichtribosomale Synthese). Das bestätigt, dass Leben Chiralität präzise steuert, statt zufällige Gemische zu dulden.`,
+          followUps: [
+            {
+              id: 'spiegelbild-leben',
+              objection: `Die Händigkeit ist ohnehin reine Konvention. Chemiker haben spiegelbildliche Enzyme aus D-Aminosäuren gebaut, die spiegelbildliche DNA kopieren. Man diskutiert sogar ernsthaft über die Risiken von „Spiegel-Bakterien". Links oder rechts – egal.`,
+              objectionBy: 'Dave Farina',
+              answer: `Genau – die Wahl der Seite ist chemisch frei, das gebe ich gern zu. Aber das stärkt mein Argument: Spiegelbildliche Enzyme funktionieren nur, weil sie *vollständig* aus D-Bausteinen bestehen und mit *vollständig* spiegelbildlichen Partnern arbeiten. Das Problem war nie, welche Seite gewählt wird, sondern wie ein System *einheitlich* eine Seite wählt. Und die Spiegel-Enzyme wurden von Chemikern Baustein für Baustein synthetisiert.`,
+              detail: `Forschergruppen haben spiegelbildliche Versionen kleiner Polymerasen chemisch synthetisiert, die spiegelbildliche Nukleinsäuren kopieren. 2024 warnte eine internationale Gruppe von Forschern in *Science* davor, eines Tages vollständige „Spiegel-Bakterien" herzustellen, weil diese von natürlichen Abwehrsystemen schlecht erkannt würden.
+
+**Die Lehre daraus:**
+- Biologie funktioniert in beiden Händigkeiten – aber nie gemischt. Ein Enzym aus L- und D-Bausteinen faltet sich nicht richtig.
+- Die Spiegelsysteme sind das Ergebnis aufwendiger, gezielter Synthese mit reinen D-Bausteinen.
+- Die Frage an die präbiotische Chemie bleibt: Welcher Prozess sorgt dafür, dass *alle* Bausteine eines Systems dieselbe Händigkeit haben – und zwar Aminosäuren und Zucker passend zueinander?`,
+              sources: [{ kind: 'wissenschaft', author: 'Katarzyna P. Adamala u. a. (internationale Autorengruppe)', work: '„Confronting risks of mirror life", Science 386', year: '2024', quote: `Die Autoren warnen davor, spiegelbildliche Bakterien herzustellen, und rufen zu einer Debatte über Risiken auf.`, status: 'paraphrase', note: 'Umfangreiche Autorenliste; Erscheinungsdatum Dezember 2024. Vor genauer Zitierung am Artikel prüfen.' }],
+              questionsBack: [`Wenn beide Händigkeiten funktionieren, aber nie gemischt: Welcher präbiotische Prozess sorgt für die Einheitlichkeit?`],
+            },
+          ],
         },
       ],
     },

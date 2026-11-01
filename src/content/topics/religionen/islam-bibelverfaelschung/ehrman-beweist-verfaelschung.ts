@@ -164,6 +164,44 @@ const claim: Claim = {
           objection: `Der Koran bestätigt ohnehin nur das Injil, nicht die Briefe des Paulus.`,
           objectionBy: 'Ali Ataie',
           answer: `Einverstanden – dann bleiben wir bei den Evangelien. Alle vier berichten ausführlich von der Kreuzigung, dem Tod und der Auferstehung Jesu. Das ist das Injil, das die Christen zur Zeit Mohammeds lasen und auf das der Koran sie verpflichtete (5:47). Die Briefe brauche ich für das Dilemma gar nicht.`,
+          followUps: [
+            {
+              id: 'evangelien-anonym',
+              objection: `Aber Ehrman sagt auch: Die Evangelien sind anonym. Keiner nennt seinen Verfasser, die Namen wurden erst im 2. Jahrhundert hinzugefügt. Es waren keine Augenzeugen.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Für das Dilemma ist die Verfasserfrage gar nicht entscheidend: Der Koran verlangt nicht, dass das Injil von Aposteln stammt – er sagt, die Christen hätten es *bei sich* und sollten danach richten (5:47; 7:157). Und die Zuschreibungen sind auffallend einheitlich: Kein Evangelium kursierte je unter einem anderen Namen, und alle erhaltenen Handschriften mit Überschrift nennen dieselben vier Namen. Echte anonyme Werke der Antike bekommen gewöhnlich wechselnde Zuschreibungen – die Evangelien nicht.`,
+              detail: `Simon Gathercole hat gezeigt, dass die Evangelien im strengen Sinn nicht anonym sind: Die Verfasser waren den ersten Empfängern bekannt, und die Überschriften („Evangelium nach …") sind sehr früh und einheitlich bezeugt. Hinzu kommen Papias (frühes 2. Jh.) und Irenäus (um 180). Zudem: Warum hätte man ein Evangelium Markus und Lukas zuschreiben sollen – zwei Nicht-Apostel –, wenn man nachträglich Autorität erfinden wollte?`,
+              voices: [
+                {
+                  person: 'simon-gathercole',
+                  role: 'als Neutestamentler zur Verfasserschaft der Evangelien',
+                  text: `Gathercole argumentiert, dass die Evangelien zwar ihre Verfasser nicht im Text nennen, aber deshalb nicht im modernen Sinn anonym sind. Die frühe, einheitliche Bezeugung der Titel und das Fehlen konkurrierender Zuschreibungen sprechen dafür, dass die Namen von Anfang an mit den Büchern verbunden waren.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Simon Gathercole', work: 'The Alleged Anonymity of the Canonical Gospels', ref: 'Journal of Theological Studies 69 (2018)', year: '2018', quote: `Die kanonischen Evangelien sind nicht im eigentlichen Sinn anonym; ihre Verfasser waren den ersten Lesern bekannt.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Warum hätte man, um Autorität zu erfinden, zwei Evangelien ausgerechnet Nicht-Aposteln wie Markus und Lukas zuschreiben sollen?`,
+              ],
+              followUps: [
+                {
+                  id: 'papias-unzuverlaessig',
+                  objection: `Papias ist kein ernstzunehmender Zeuge. Ehrman weist darauf hin, dass er auch absurde Legenden erzählt – etwa über den grotesk aufgeschwollenen Judas. Auf so jemanden stützt ihr die Verfasserschaft?`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Papias gibt beides wieder: Legenden, die im Umlauf waren, und Auskünfte, die er ausdrücklich auf einen bestimmten Gewährsmann zurückführt – „den Presbyter", der sagte, Markus sei der Dolmetscher des Petrus gewesen. Ein Historiker wägt solche Angaben einzeln ab. Und die Angabe zu Markus steht nicht allein: Sie passt zur einheitlichen Überlieferung der Titel und zu Irenäus. Auch muslimische Gelehrte unterscheiden in der Hadithkritik zwischen schwachen und starken Berichten desselben Überlieferers.`,
+                  detail: `Papias' Aussage ist bei Eusebius (Kirchengeschichte III,39,15) erhalten. Bauckham zeigt, dass Papias bewusst nach lebenden Zeugen fragte („was Andreas oder Petrus sagte …", III,39,4) – das ist die Haltung eines Sammlers, der Augenzeugen den Vorzug gibt. Wer ihn wegen einer Legende ganz verwirft, müsste mit demselben Maßstab auch viele frühe muslimische Überlieferer verwerfen, die neben glaubwürdigen Berichten auch Legenden weitergaben.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (zitiert Papias)', work: 'Kirchengeschichte', ref: 'III,39,15', year: 'um 325', quote: `Der Presbyter sagte: Markus, der Dolmetscher des Petrus, schrieb genau auf, woran er sich erinnerte, was vom Herrn gesagt oder getan worden war.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (zitiert Papias)', work: 'Kirchengeschichte', ref: 'III,39,4', year: 'um 325', quote: `Papias fragte, was Andreas oder Petrus, Philippus, Thomas, Jakobus, Johannes oder Matthäus gesagt hatten.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Verwirfst du einen Hadith-Überlieferer vollständig, weil er an anderer Stelle eine schwache Überlieferung weitergab?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -174,6 +212,57 @@ const claim: Claim = {
       answer: `Nein. Ehrmans Jesus ist ein apokalyptischer Prophet, der das baldige Weltende erwartete, am Kreuz starb und tot blieb. Der Jesus des Korans wurde von einer Jungfrau geboren, tat Wunder, wurde *nicht* gekreuzigt, sondern lebendig zu Gott erhöht und kommt wieder. Ehrman widerspricht dem Koran an mehr Stellen als dem Neuen Testament.`,
       questionsBack: [
         `Wenn du Ehrmans Jesus übernimmst: Glaubst du dann, dass Jesus am Kreuz gestorben ist?`,
+      ],
+      followUps: [
+        {
+          id: 'nur-gegen-gottheit',
+          objection: `Mir genügt der eine Punkt: Ehrman zeigt, dass Jesus sich selbst nicht für Gott hielt. Seine übrigen Ansichten lehne ich ab.`,
+          objectionBy: 'Shabir Ally',
+          answer: `Dann benutzt du Ehrman selektiv: Wo er dem Christentum widerspricht, ist er Autorität, wo er dem Koran widerspricht, nicht. Das ist keine Methode. Und auch in den ältesten Evangelien beansprucht Jesus göttliche Vorrechte: Er vergibt Sünden, was „niemand als Gott allein" kann (Mk 2,5–10), und antwortet vor dem Hohen Rat mit Dan 7: Man werde den Menschensohn „sitzen sehen zur Rechten der Kraft und kommen mit des Himmels Wolken" (Mk 14,62) – worauf der Hohepriester „Gotteslästerung" ruft.`,
+          detail: `Ehrmans Argument stützt sich vor allem darauf, dass die ausdrücklichsten Ich-Aussagen im Johannesevangelium stehen, das er spät datiert. Aber das Markusevangelium – nach Ehrman das älteste – zeigt Jesus als Herrn über den Sabbat (Mk 2,28), über Wind und Wellen (Mk 4,41, vgl. Ps 107,29) und als den, der auf dem Wasser geht (Mk 6,48–50, vgl. Hi 9,8). Ein jüdischer Hörer verstand diese Anspielungen: Hier handelt Jesus, wie nur Gott handelt.`,
+          sources: [
+            { kind: 'bibel', work: 'Markus', ref: '14,61–64', quote: `Bist du Christus, der Sohn des Hochgelobten? Jesus aber sprach: Ich bin's; und ihr werdet sehen des Menschen Sohn sitzen zur rechten Hand der Kraft und kommen mit des Himmels Wolken. Da zerriss der Hohepriester seinen Rock … Ihr habt gehört die Gotteslästerung.`, translation: 'Luther 1912', status: 'paraphrase' },
+            { kind: 'bibel', work: 'Markus', ref: '2,7', quote: `Wer kann Sünden vergeben denn allein Gott?`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Nach welchem Kriterium entscheidest du, wann Ehrman recht hat – außer danach, ob er dem Koran zustimmt?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'nestle-aland-aendert-sich',
+      objection: `Selbst eure Fachleute geben zu, dass der Text nicht feststeht: Der Nestle-Aland wird ständig überarbeitet, die neueste Auflage hat wieder Stellen geändert. Wie kann ein Buch Gottes Wort sein, dessen Text sich alle paar Jahre ändert?`,
+      objectionBy: 'Mohammed Hijab',
+      answer: `Die Änderungen sind winzig: Die 28. Auflage (2012) änderte den Haupttext an rund drei Dutzend Stellen in den Katholischen Briefen – meist Kleinigkeiten wie Wortstellung oder ein Artikel. Dass Forscher neue Daten einarbeiten und das offenlegen, ist ein Zeichen von Ehrlichkeit, nicht von Unsicherheit. Keine dieser Änderungen berührt eine Lehre. Ein Text, dessen Unsicherheiten man auf so wenige, offen benannte Stellen eingrenzen kann, ist außergewöhnlich gut bewahrt.`,
+      detail: `Auch beim Koran arbeiten heute Forscher mit wissenschaftlichen Methoden an den frühen Handschriften (Corpus Coranicum in Berlin, Studien von Sadeghi, Déroche, Small, Brubaker). Dort zeigen sich ebenfalls Varianten in Orthografie, Wortformen und gelegentlich im Wortlaut. Der Unterschied liegt nicht darin, dass eine Schrift eine Überlieferungsgeschichte hat und die andere nicht, sondern darin, ob man diese Geschichte offen erforscht.`,
+      questionsBack: [
+        `Welche Lehre der Kirche hat sich durch eine Änderung im Nestle-Aland verändert?`,
+      ],
+      followUps: [
+        {
+          id: 'warum-nicht-wortwoertlich-bewahrt',
+          objection: `Wenn Gott eure Bibel inspiriert hat – warum hat er sie dann nicht wortwörtlich bewahrt, wie den Koran? Ein Gott, der sein Wort nicht schützt, ist schwach.`,
+          objectionBy: 'Paul Williams (Blogging Theology)',
+          answer: `Christen verstehen Offenbarung anders als Muslime: Gottes höchste Offenbarung ist nicht ein Buch, sondern eine Person – das fleischgewordene Wort (Joh 1,14). Die Schrift ist das inspirierte Zeugnis von ihm. Gott hat dieses Zeugnis bewahrt, indem er es in Tausenden Abschriften über viele Länder verbreitete, sodass niemand es kontrollieren oder heimlich ändern konnte. Gerade diese Vielfalt macht den ursprünglichen Text überprüfbar. Ein einzelner, zentral kontrollierter Text – wie nach Uthmans Vereinheitlichung – wäre viel leichter zu verändern gewesen.`,
+          detail: `Für die koptische Kirche wird die Schrift in der lebendigen Kirche gelesen – mit den Vätern, der Liturgie und den Konzilien. Die Bewahrung des Glaubens hängt nicht an einer einzelnen Handschrift, sondern an der ununterbrochenen Überlieferung, in der dieselben Evangelien seit dem hl. Markus in Alexandrien gelesen werden. Und Jesu Wort „Himmel und Erde werden vergehen; aber meine Worte werden nicht vergehen" (Mt 24,35) hat sich darin erfüllt, dass seine Lehre in einer Breite überliefert ist wie keine andere aus der Antike.`,
+          voices: [
+            {
+              person: 'athanasius',
+              role: 'als Theologe der Menschwerdung',
+              text: `Für Athanasius ist das Wort Gottes zuerst der ewige Logos, der Mensch wurde, um den Menschen zu erneuern. Die Heiligen Schriften sind „Quellen des Heils", weil sie von ihm zeugen. In seinem 39. Osterfestbrief (367) zählt er als erster genau die 27 Bücher des Neuen Testaments auf – nicht als Erfindung, sondern als Bestätigung dessen, was die Kirchen längst lasen.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', quote: `Zählt die 27 Bücher des Neuen Testaments auf und nennt die Schriften „Quellen des Heils".`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Johannes', ref: '1,14', quote: `Und das Wort ward Fleisch und wohnte unter uns, und wir sahen seine Herrlichkeit, eine Herrlichkeit als des eingeborenen Sohnes vom Vater, voller Gnade und Wahrheit.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Was lässt sich leichter heimlich verändern: ein zentral kontrollierter Einheitstext oder Tausende Abschriften in verschiedenen Ländern und Sprachen?`,
+          ],
+        },
       ],
     },
   ],
