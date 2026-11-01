@@ -102,6 +102,18 @@ const claim: Claim = {
               id: 'licht-ja-maria-nein',
               objection: `Gut, ein Licht. Aber warum ausgerechnet Maria?`,
               answer: `Das ist eine faire Frage: Die Identifizierung ist eine Deutung. Die Kirche stützt sie auf Gestalt, wiederkehrende Begleiterscheinungen, den Ort – eine Marienkirche nahe der Fluchtroute der Heiligen Familie – und die geistlichen Früchte. Man kann das Phänomen anerkennen und über die Deutung weiter nachdenken; beides ist redlicher als „Hysterie".`,
+              followUps: [
+                {
+                  id: 'pareidolie',
+                  objection: `Das ist Pareidolie: Menschen sehen Gesichter in Wolken und Jesus auf Toastbrot. Über einer Marienkirche, mit entsprechender Erwartung, wird aus einem Lichtfleck eben die Jungfrau.`,
+                  objectionBy: 'Michael Shermer',
+                  answer: `Pareidolie erklärt, wie wir **vage Formen deuten** – sie erklärt nicht, warum überhaupt ein leuchtendes Phänomen da war, das stundenlang und an vielen Abenden über derselben Kirche stand. Ich gebe zu: Die Wahrnehmung als Gestalt enthält eine Deutung, und Erwartung spielt dabei eine Rolle. Aber nach den Berichten sprachen auch muslimische Augenzeugen ohne christliche Erwartung von einer Frauengestalt. Pareidolie erklärt also allenfalls einen Teil der Deutung, nicht das Phänomen.`,
+                  detail: `Fairerweise: Bei einem einzelnen unscharfen Foto oder einem einmaligen Eindruck wäre Pareidolie eine sehr gute Erklärung. Die Stärke von Zeitoun liegt nicht in einer bestimmten Bildinterpretation, sondern in der Kombination: physisch leuchtendes Phänomen, Wiederholung über Monate, sehr viele und gemischte Zeugen, Ortsgebundenheit. Wenn du im Gespräch merkst, dass dein Gegenüber an den Bildern hängen bleibt, lenke zurück auf diese Kombination – und betone, dass dein Glaube nicht davon abhängt.`,
+                  questionsBack: [
+                    `Wenn es Pareidolie war – was war das Leuchtende, das gedeutet wurde?`,
+                  ],
+                },
+              ],
             },
           ],
         },

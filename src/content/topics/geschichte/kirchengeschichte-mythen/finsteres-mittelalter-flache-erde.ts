@@ -99,6 +99,18 @@ const claim: Claim = {
           objection: `Warum sollte sich so ein Mythos dann halten, wenn er so leicht zu widerlegen ist?`,
           objectionBy: 'Populäre Darstellung',
           answer: `Weil er eine Erzählung bedient: die vom Fortschritt gegen die Religion. Im 19. Jahrhundert, mitten in den Debatten um Darwin und den Einfluss der Kirchen, verbreiteten Draper und White das Bild in populären Büchern; von dort kam es in Schulbücher. Jeffrey Burton Russell hat diesen Weg nachgezeichnet, und der Agnostiker Stephen Jay Gould kam zum selben Ergebnis.`,
+          followUps: [
+            {
+              id: 'russell-befangen',
+              objection: `Russell ist Christ, Hannam auch. Natürlich finden sie, dass das Mittelalter gar nicht so finster war.`,
+              objectionBy: 'Populäre Religionskritik',
+              answer: `Dann nimm die anderen: Stephen Jay Gould war Agnostiker, Ronald Numbers, Herausgeber von „Galileo Goes to Jail", hat sich vom Glauben seiner Herkunft gelöst und bezeichnet sich als Agnostiker, und die Historikerin Lesley Cormack hat in diesem Band den Flache-Erde-Mythos als ersten von 25 Mythen widerlegt. Auch der atheistische Blogger Tim O'Neill vertritt dasselbe. Wenn Fachleute ganz unterschiedlicher Weltanschauung zum selben Ergebnis kommen, liegt es an den Quellen, nicht am Glauben der Autoren.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Lesley B. Cormack', work: 'That Medieval Christians Taught That the Earth Was Flat. In: Ronald L. Numbers (Hg.), Galileo Goes to Jail and Other Myths about Science and Religion', ref: 'Mythos 1', year: '2009', quote: `Gebildete mittelalterliche Christen gingen nahezu einhellig von der Kugelgestalt der Erde aus.`, status: 'paraphrase' },
+                { kind: 'gegner', author: 'Stephen Jay Gould', work: 'The Late Birth of a Flat Earth. In: Dinosaur in a Haystack', year: '1995', quote: `Der Mythos vom mittelalterlichen Flache-Erde-Glauben sei eine Erfindung des 19. Jahrhunderts im Dienst der Konfliktthese.`, status: 'paraphrase', note: 'Gould war Agnostiker.' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -117,6 +129,24 @@ const claim: Claim = {
           objection: `Kosmas war ausgerechnet ein Alexandriner – aus eurer koptischen Tradition!`,
           objectionBy: 'Andrew Dickson White',
           answer: `Kosmas war ein Kaufmann aus Alexandrien, dessen Kosmologie wohl von der antiochenisch-ostsyrischen Auslegung beeinflusst war. Und es war gerade ein alexandrinischer Zeitgenosse, der christliche Philosoph Johannes Philoponos, der in seiner Schrift über die Erschaffung der Welt solchen buchstäblichen Weltbildern widersprach und die Kugelgestalt verteidigte. Alexandrien zeigt also beides – und die gelehrte Tradition stand auf der richtigen Seite.`,
+          followUps: [
+            {
+              id: 'philoponos-verurteilt',
+              objection: `Und Philoponos wurde später als Häretiker verurteilt. So ging die Kirche mit ihrem besten Naturphilosophen um.`,
+              objectionBy: 'Charles Freeman',
+              answer: `Verurteilt wurde Philoponos für seine Dreifaltigkeitslehre, die man als Tritheismus verstand – das byzantinische Konzil von 680/681 verwarf sie, und auch seine eigene miaphysitische Kirche lehnte diese Lehre ab. Seine Naturphilosophie verurteilte niemand: Seine Kritik an Aristoteles' Bewegungslehre – ein Körper bewegt sich durch eine ihm eingeprägte Kraft – wirkte über arabische und lateinische Gelehrte bis zu Galilei, der ihn ausdrücklich nennt. Eine theologische Streitfrage ist kein Feldzug gegen die Wissenschaft.`,
+              voices: [
+                {
+                  person: 'johannes-philoponos',
+                  role: 'als christlicher Naturphilosoph Alexandriens',
+                  text: `Philoponos verband im 6. Jahrhundert christlichen Schöpfungsglauben mit scharfer Kritik an Aristoteles: Er bestritt die Ewigkeit der Welt, argumentierte, dass Himmel und Erde aus demselben Stoff bestehen und denselben Gesetzen folgen, und entwickelte eine frühe Form der Impetustheorie. Für ihn folgte aus dem Glauben an einen Schöpfer, dass die Natur einheitlich und erforschbar ist.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Johannes Philoponos', work: 'Über die Erschaffung der Welt (De opificio mundi)', year: 'ca. 550', quote: `Kritik an buchstäblich-flachen Weltbildern und Verteidigung der Kugelgestalt im Rahmen einer Auslegung von Genesis 1.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

@@ -151,6 +151,24 @@ const claim: Claim = {
               objection: `Und was ist mit Kindern, die in manchen Ländern als „Hexen" gequält werden – im Namen Jesu?`,
               objectionBy: 'Sam Harris',
               answer: `Das ist grauenhaft und ein Verrat am Evangelium. Jesus hat Besessene nie gequält oder ausgestoßen – er befreite sie und gab sie ihren Familien zurück (Mk 5,19). Kirchenleitungen müssen solche Praktiken klar verurteilen und Kinder schützen. Wer im Namen Christi Kinder misshandelt, handelt gegen Christus.`,
+              followUps: [
+                {
+                  id: 'oeffentliche-gebetsveranstaltungen',
+                  objection: `Und bei euch Kopten? Im Internet kursieren Videos von öffentlichen Gebetsveranstaltungen, bei denen Menschen schreien, sich winden und vor Publikum „befreit" werden. Das ist ein Spektakel, das psychisch kranke Menschen vorführt.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Diese Kritik nehme ich ernst. Es gibt in der Volksfrömmigkeit Formen, die Betroffene bloßstellen, und das ist nicht in Ordnung, egal in welcher Kirche. Jesus hat Besessene nicht vorgeführt; er hat sie geheilt und nach Hause geschickt. Für jeden, der leidet, gilt: zuerst ärztliche und psychiatrische Abklärung, Gebet in Würde und Diskretion, keine Kameras, kein Druck und keine Zurschaustellung. Eine Kirche, die die Ikone Christi ehrt, muss auch das Ebenbild Gottes im Kranken ehren.`,
+                  detail: `Ehrliche Selbstkritik stärkt die Glaubwürdigkeit. Hilfreiche Grundsätze, die ein koptischer Christ vertreten kann:
+- **Würde:** Jeder Mensch ist Bild Gottes; sein Leiden ist kein Schauspiel.
+- **Medizin zuerst:** „Ehre den Arzt" (Sir 38,1). Psychische Erkrankungen sind keine Schande und kein Zeichen mangelnden Glaubens.
+- **Zustimmung und Schutz:** Kein Gebet gegen den Willen des Betroffenen, besondere Sorgfalt bei Kindern und schutzbedürftigen Menschen.
+- **Diskretion:** Gebet für Kranke gehört in den geschützten Raum der Seelsorge, nicht in soziale Medien.
+
+Damit ist nicht die Lehre über geistige Wirklichkeit aufgegeben, sondern ihr Missbrauch zurückgewiesen. Die Kirche spendet für Kranke die Krankensalbung und betet in jeder Liturgie für sie – ein Gebet, das tröstet und nicht bloßstellt.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '5,18–19', status: 'paraphrase', quote: `Gehe hin in dein Haus und zu den Deinen und verkündige ihnen, wie große Wohltat dir der Herr getan hat.` },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -192,6 +210,47 @@ const claim: Claim = {
           answer: `Markus mag das Motiv theologisch gestaltet haben. Aber dass Jesus als Exorzist bekannt war, gehört zu den am besten bezeugten Überlieferungen über ihn – selbst seine Gegner bestritten es nicht, sondern sagten, er treibe die Dämonen „durch Beelzebub" aus (Mk 3,22). Auch kritische Forscher wie E. P. Sanders oder Bart Ehrman halten es für historisch, dass Jesus als Exorzist wirkte. Wie man diese Wirkungen deutet, ist dann eine weltanschauliche Frage.`,
           sources: [
             { kind: 'bibel', work: 'Markus', ref: '3,22', quote: `Die Schriftgelehrten aber, die von Jerusalem herabgekommen waren, sprachen: Er hat den Beelzebub, und durch den Obersten der Teufel treibt er die Teufel aus.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'antike-exorzisten',
+              objection: `Exorzisten gab es in der Antike viele – jüdische Beschwörer, Wundertäter wie Apollonios von Tyana. Jesus war einer unter vielen; das macht ihn historisch plausibel, aber nicht göttlich.`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Richtig, Exorzismus war in der Antike bekannt – und gerade der Vergleich zeigt einen Unterschied. Josephus beschreibt einen jüdischen Exorzisten, der mit einem Ring, einer Wurzel und salomonischen Beschwörungsformeln arbeitete. Jesus dagegen gebietet allein mit seinem Wort und aus eigener Vollmacht, was die Zeitgenossen ausdrücklich erstaunte (Mk 1,27). Und er deutet seine Exorzismen als Zeichen, dass das Reich Gottes angebrochen ist (Lk 11,20). Ob das wahr ist, entscheidet sich an der Auferstehung – aber „einer unter vielen" trifft es historisch nicht.`,
+              detail: `Josephus (Jüdische Altertümer 8,46–49) berichtet von einem Exorzisten namens Eleazar, der vor Vespasian einen Dämon austrieb, indem er dem Besessenen einen Ring mit einer von Salomo vorgeschriebenen Wurzel unter die Nase hielt und Beschwörungen sprach. Apg 19,13–16 erzählt von jüdischen Beschwörern, die den Namen Jesu als Formel benutzten – erfolglos.
+
+Der Neutestamentler Graham Twelftree hat in „Jesus the Exorcist" (1993) die antiken Parallelen systematisch verglichen. Sein Ergebnis: Jesu Exorzismen sind historisch gut bezeugt; charakteristisch ist das Fehlen von Hilfsmitteln und Beschwörungsformeln und die Verbindung mit der Botschaft vom Reich Gottes.
+
+Zu Apollonios von Tyana: Seine Lebensbeschreibung durch Philostrat entstand erst um 220 n. Chr., rund 120 Jahre nach seinem Tod, im Auftrag einer Kaiserin – also deutlich später und mit klarerer Tendenz als die Evangelien.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Jüdische Altertümer (Antiquitates Judaicae)', ref: '8,46–49', year: 'ca. 93/94', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Lukas', ref: '11,20', quote: `So ich aber durch Gottes Finger die Teufel austreibe, so kommt ja das Reich Gottes zu euch.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'fachliteratur', author: 'Graham H. Twelftree', work: 'Jesus the Exorcist: A Contribution to the Study of the Historical Jesus', year: '1993', status: 'paraphrase' },
+              ],
+              questionsBack: [`Welcher antike Exorzist trieb ohne Ring, Wurzel oder Zauberformel aus – allein mit „Ich gebiete dir"?`],
+              followUps: [
+                {
+                  id: 'suggestion-erklaert-alles',
+                  objection: `Bei dissoziativen Zuständen wirkt Suggestion nachweislich stark. Ein charismatischer Heiler mit überwältigender Autorität ist die perfekte Suggestion. Mehr braucht man nicht.`,
+                  objectionBy: 'Michael Shermer',
+                  answer: `Dass Suggestion und Vertrauen bei dissoziativen Beschwerden helfen können, gebe ich zu – das ist auch ein Grund, warum Seelsorge und Therapie zusammengehören. Aber die Erklärung hat Grenzen: Sie deckt nicht alle berichteten Phänomene ab, und sie beantwortet nicht die Frage, ob es zusätzlich eine geistige Wirklichkeit gibt. Sie ist einfacher nur unter der Voraussetzung, dass es keine gibt. Und praktisch ändert sie wenig: Auch ich will, dass Betroffene zuerst medizinisch und psychotherapeutisch versorgt werden.`,
+                  detail: `Craig Keener hat in einer kulturvergleichenden Studie gezeigt, dass Besessenheitserfahrungen in sehr vielen Kulturen vorkommen und von Anthropologen ernsthaft beschrieben werden – auch von solchen, die keine übernatürliche Deutung vertreten. Manche Anthropologen haben eingeräumt, dass sie Phänomene beobachteten, die sie nicht erklären konnten. Keener folgert nicht, dass jeder Fall übernatürlich ist, sondern dass die pauschale Reduktion auf Suggestion der Vielfalt der Berichte nicht gerecht wird.
+
+Ehrliche Linie für das Gespräch: Die meisten Fälle, die im Alltag „Besessenheit" genannt werden, sind sehr wahrscheinlich psychische oder neurologische Erkrankungen und gehören in fachliche Behandlung. Die christliche Lehre über böse Geister hängt nicht davon ab, dass man jeden Einzelfall übernatürlich erklärt, sondern an der Lehre und dem Wirken Christi.`,
+                  voices: [
+                    {
+                      person: 'keener',
+                      role: 'als Neutestamentler mit kulturvergleichender Forschung',
+                      text: `Craig Keener sammelt in seiner Forschung Berichte über Geistbesessenheit aus Afrika, Asien und Lateinamerika, darunter Beobachtungen von Ethnologen. Er zeigt, dass die neutestamentlichen Exorzismusberichte einem in vielen Kulturen beschriebenen Erfahrungsmuster entsprechen, und warnt davor, sie allein aus westlich-säkularer Perspektive als Missverständnis abzutun. Zugleich betont er, dass viele Fälle medizinisch erklärbar sind.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Spirit possession as a cross-cultural experience', ref: 'Bulletin for Biblical Research 20 (2010), 215–236', year: '2010', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Ist „Suggestion" das Ergebnis deiner Untersuchung jedes Falls – oder die Voraussetzung, mit der du jeden Fall betrachtest?`],
+                },
+              ],
+            },
           ],
         },
       ],
