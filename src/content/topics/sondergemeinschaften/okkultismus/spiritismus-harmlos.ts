@@ -188,6 +188,55 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'nahtod-lichtwelt',
+      objection: `Nahtoderfahrungen beweisen es: Die Toten leben in einer Welt aus Licht und Liebe, niemand wird gerichtet, alle werden liebevoll aufgenommen. Warum sollten wir dann nicht mit ihnen sprechen dürfen?`,
+      objectionBy: 'Raymond Moody (Life After Life, 1975) / Eben Alexander (Proof of Heaven, 2012)',
+      answer: `Nahtoderfahrungen sind ein spannendes Feld, und manche gut dokumentierte Fälle sprechen tatsächlich dafür, dass das Bewusstsein mehr ist als Gehirnaktivität – das passt gut zum christlichen Glauben an die Seele. Aber sie zeigen nicht nur Licht: Forscher haben auch beängstigende, höllenähnliche Nahtoderfahrungen dokumentiert. Vor allem: Wer an der Schwelle umkehrt, war nicht beim Gericht, sondern an einer Grenze. Und dass die Toten leben, haben wir nie bestritten – „sie leben ihm alle" (Lk 20,38). Die Frage ist nicht, ob sie leben, sondern ob wir sie herbeirufen sollen.`,
+      detail: `Bruce Greyson und Nancy Evans Bush haben 1992 eine Studie über „belastende Nahtoderfahrungen" veröffentlicht, die bei einem Teil der Betroffenen auftreten und oft verschwiegen werden. Das relativiert das Bild einer allgemeinen Lichtwelt ohne Gericht. Christlich gesehen bleibt die Zeit zwischen Tod und Auferstehung ein Geheimnis, über das die Schrift zurückhaltend spricht. Die Kirche betet für die Entschlafenen und vertraut sie Gott an – sie versucht nicht, mit ihnen Kontakt aufzunehmen. Ausführlicher zu Nahtoderfahrungen: Themenblock Neurowissenschaften.`,
+      sources: [
+        { kind: 'wissenschaft', author: 'Bruce Greyson / Nancy Evans Bush', work: 'Distressing Near-Death Experiences', ref: 'Psychiatry 55 (1992), 95–110', year: '1992', quote: `Dokumentation beängstigender Nahtoderfahrungen neben den bekannten positiven.`, status: 'paraphrase' },
+        { kind: 'bibel', work: 'Lukas', ref: '20,38', quote: `Gott aber ist nicht der Toten, sondern der Lebendigen Gott; denn sie leben ihm alle.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn manche Nahtoderfahrungen beängstigend sind – kann man dann noch sagen, sie beweisen, dass es kein Gericht gibt?`],
+      followUps: [
+        {
+          id: 'medien-wissenschaftlich',
+          objection: `Spiritismus wurde wissenschaftlich erforscht: Der Psychologe William James war überzeugt, dass das Medium Leonora Piper echt war – seine „weiße Krähe". Das waren keine Dummköpfe.`,
+          objectionBy: 'Parapsychologen / Society for Psychical Research',
+          answer: `Das stimmt, und ich respektiere diese Forscher – William James war ein großer Psychologe. Aber die Geschichte des Spiritismus ist auch eine Geschichte entlarvter Tricks: Die Fox-Schwestern, mit denen die Bewegung 1848 begann, führten 1888 öffentlich vor, wie sie die Klopfgeräusche mit den Zehengelenken erzeugten (Margaret Fox widerrief das später wieder), und berühmte Medien wie Eusapia Palladino wurden beim Schummeln ertappt. Selbst wenn bei Mrs. Piper etwas Unerklärliches geschah, bleibt die Frage: **Wer** sprach da? Eine unerklärte Information beweist nicht, dass sie von einem Verstorbenen kommt.`,
+          detail: `Die Bibel bestreitet nicht, dass hinter manchen okkulten Phänomenen reale Mächte stehen können – sie verbietet die Befragung gerade deshalb (Dtn 18,10–12; Jes 8,19). Harry Houdini, selbst Zauberkünstler, enttarnte in den 1920er-Jahren zahlreiche Medien und beschrieb ihre Methoden. Für das Gespräch: Du musst nicht jedes Phänomen erklären können. Es genügt zu zeigen, dass Täuschung häufig ist und dass auch ein echtes Phänomen kein Beweis für eine vertrauenswürdige Quelle ist.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'William James', work: 'Presidential Address, Society for Psychical Research', year: '1896', quote: `Um zu zeigen, dass nicht alle Krähen schwarz sind, genügt eine einzige weiße Krähe; seine weiße Krähe sei Mrs. Piper.`, status: 'paraphrase' },
+            { kind: 'fachliteratur', author: 'Harry Houdini', work: 'A Magician Among the Spirits', year: '1924', quote: `Entlarvung der Methoden zahlreicher Medien.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'traum-verstorbener',
+              objection: `Mein verstorbener Vater ist mir im Traum erschienen und hat mir gesagt, dass es ihm gut geht. Willst du mir sagen, das war Sünde oder ein Dämon?`,
+              objectionBy: 'Trauernde',
+              answer: `Nein, ganz und gar nicht. Träume von geliebten Verstorbenen sind ein ganz natürlicher Teil der Trauer, und viele Menschen erleben sie als tröstlich. Du hast nichts gesucht und niemanden beschworen – das ist etwas völlig anderes als eine spiritistische Sitzung. Nimm den Trost dankbar an, bring ihn ins Gebet, und baue keine Entscheidungen oder Lehren darauf. Die Kirche betet mit dir für deinen Vater; in der koptischen Liturgie werden die Entschlafenen jeden Tag vor Gott genannt.`,
+              detail: `Hier ist pastorale Behutsamkeit entscheidend. Die biblischen Verbote richten sich gegen das aktive Befragen der Toten und den Gebrauch von Medien, nicht gegen Träume, die einem geschenkt werden. Die Wüstenväter rieten allerdings, Träumen keine große Bedeutung beizumessen und sie nicht zu deuten, um nicht in die Irre zu gehen. Die tiefste Gewissheit über deinen Vater kommt nicht aus einem Traum, sondern aus der Verheißung Christi: „Ich bin die Auferstehung und das Leben" (Joh 11,25).`,
+              sources: [{ kind: 'bibel', work: 'Johannes', ref: '11,25–26', quote: `Jesus spricht zu ihr: Ich bin die Auferstehung und das Leben. Wer an mich glaubt, der wird leben, ob er gleich stürbe; und wer da lebet und glaubet an mich, der wird nimmermehr sterben.`, translation: 'Luther 1912', status: 'verbatim' }],
+              followUps: [
+                {
+                  id: 'warum-nicht-durch-medien',
+                  objection: `Wenn Gott Träume und Erscheinungen schenken kann, warum sollte er dann nicht auch durch ein Medium wirken? Er ist doch nicht an eure Regeln gebunden.`,
+                  objectionBy: 'Spiritisten',
+                  answer: `Gott ist frei – aber er hat uns gesagt, was **wir** tun sollen: „Soll nicht ein Volk seinen Gott fragen? Oder soll man die Toten für die Lebendigen fragen?" (Jes 8,19). Jesus selbst erzählt, wie der reiche Mann darum bittet, ein Toter möge seine Brüder warnen – und Abraham antwortet: „Hören sie Mose und die Propheten nicht, so werden sie auch nicht glauben, ob jemand von den Toten aufstünde" (Lk 16,31). Gott hat uns sein Wort und seinen Sohn gegeben – den einen, der wirklich von den Toten zurückkam.`,
+                  detail: `Der entscheidende Unterschied bleibt die Richtung: Im Spiritismus greift der Mensch über die Grenze, um Wissen oder Trost auf eigene Faust zu holen. Im Glauben empfängt der Mensch, was Gott gibt, und vertraut ihm die Verstorbenen an. Christus hat den Tod besiegt und hält „die Schlüssel der Hölle und des Todes" (Offb 1,18) – darum müssen Christen keine Schlüssel bei Medien suchen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Jesaja', ref: '8,19', quote: `Wenn sie aber zu euch sagen: Ihr müßt die Wahrsager und Zeichendeuter fragen, die da flüstern und murmeln, so sprecht: Soll nicht ein Volk seinen Gott fragen? Oder soll man die Toten für die Lebendigen fragen?`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Lukas', ref: '16,31', quote: `Er sprach zu ihm: Hören sie Mose und die Propheten nicht, so werden sie auch nicht glauben, ob jemand von den Toten aufstünde.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wer hält nach Offb 1,18 die Schlüssel des Todes – und warum sollte ich sie bei einem Medium suchen?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Woher weißt du, dass der Geist, der sich meldet, wirklich dein Verstorbener ist?`,

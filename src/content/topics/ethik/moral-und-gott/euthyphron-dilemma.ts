@@ -140,6 +140,22 @@ const claim: Claim = {
                   objection: `Und wenn Gottes Natur anders wäre – grausam statt liebend –, wäre dann Grausamkeit gut?`,
                   objectionBy: 'Walter Sinnott-Armstrong',
                   answer: `Die Frage setzt etwas Unmögliches voraus: Gottes Natur ist notwendig, sie kann nicht anders sein – so wie es keine Welt gibt, in der 2 + 2 = 5 ist. Fragen der Art „Was wäre, wenn das Unmögliche wahr wäre?" führen in der Logik zu keinem sinnvollen Ergebnis. Und übrigens müsste der Atheist dieselbe Frage beantworten: Wäre Grausamkeit gut, wenn die „notwendigen moralischen Tatsachen" anders wären?`,
+                  followUps: [
+                    {
+                      id: 'boeser-gott-herausforderung',
+                      objection: `Du behauptest einfach, Gottes Natur sei notwendig gut. Mit genau denselben Argumenten könnte man einen notwendig **bösen** Gott verteidigen – das Leid in der Welt passt sogar besser zu ihm. Warum ist deine Wahl nicht beliebig?`,
+                      objectionBy: 'Stephen Law',
+                      answer: `Die Symmetrie trägt nicht. In der klassischen Philosophie ist das Böse kein eigenes Seiendes, sondern ein Mangel an Gutem – wie Blindheit ein Mangel an Sehen ist. Ein „maximal böses" Wesen wäre also ein Wesen mit maximalem Mangel, das heißt fast nichts; es könnte nicht zugleich allmächtig und allwissend sein. Vollkommenes Sein und vollkommene Güte gehören zusammen. Dazu kommt: Die Welt ist voller Schönheit, Liebe und Gewissen – und vor allem ist in Christus Gottes Gesicht sichtbar geworden.`,
+                      detail: `Stephen Law hat die „Evil-God Challenge" 2010 in der Zeitschrift *Religious Studies* formuliert: Wenn man die Existenz eines bösen Gottes wegen des Guten in der Welt ablehnt, müsse man aus Gründen der Symmetrie auch einen guten Gott wegen des Bösen ablehnen. Theistische Philosophen antworten unter anderem mit der Privationslehre (Augustinus, Athanasius: das Böse ist Abwendung vom Sein), mit dem Hinweis, dass Moral selbst – unser Gefühl der Verpflichtung zum Guten – auf einen guten Ursprung weist, und mit den historischen Argumenten für die Auferstehung, die einen bestimmten Gott offenbaren. Das Theodizee-Problem selbst wird in einem eigenen Themenblock behandelt.`,
+                      voices: [
+                        { person: 'athanasius', role: 'als Lehrer der Schöpfung', text: `Athanasius beschreibt in *Gegen die Heiden* das Böse als etwas, das kein eigenes Wesen hat: Es entsteht, wenn sich die Seele vom Guten abwendet und dem Nichtseienden zuwendet. Das Böse ist darum immer Parasit am Guten, niemals ein gleichrangiges Prinzip.` },
+                      ],
+                      sources: [
+                        { kind: 'gegner', author: 'Stephen Law', work: '„The Evil-God Challenge", Religious Studies 46', year: '2010', status: 'paraphrase' },
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '4–7', year: 'um 318', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
                 },
               ],
             },
@@ -164,6 +180,18 @@ const claim: Claim = {
           objection: `Dann ist Gott nicht allmächtig, wenn er etwas nicht kann.`,
           objectionBy: 'Sam Harris',
           answer: `Allmacht heißt nicht, Widersprüchliches zu können, sondern alles, was in sich möglich und mit Gottes vollkommenem Wesen vereinbar ist. Anselm hat es so gesagt: Lügen-Können wäre keine Macht, sondern Schwäche – wer lügen kann, kann sich selbst verderben. Gott ist gerade deshalb vollkommen mächtig, weil er nicht zum Bösen fähig ist. Auch du würdest einen Menschen nicht für „mächtiger" halten, weil er zu Grausamkeit fähig ist.`,
+          followUps: [
+            {
+              id: 'natur-als-zweites-horn',
+              objection: `Moment: Wenn Gott durch seine Natur gebunden ist, dann ist diese Natur ein Maßstab, an den sein Wille gebunden ist. Du hast nur das zweite Horn umbenannt: Das Gute ist unabhängig von Gottes Willen.`,
+              objectionBy: 'Sam Harris',
+              answer: `Unabhängig von Gottes **Willen** vielleicht – aber nicht unabhängig von **Gott**. Das zweite Horn behauptet einen Maßstab **außerhalb** Gottes, dem er sich unterwerfen muss. Meine These ist: Der Maßstab ist Gott selbst. Die klassische Theologie lehrt, dass in Gott Wille und Wesen nicht zwei verschiedene Dinge sind; Gott will das Gute, weil er das Gute ist. Ein Wesen, das „an sich selbst gebunden" ist, ist nicht unfrei, sondern vollkommen.`,
+              detail: `Thomas von Aquin spricht von der göttlichen Einfachheit: Gott hat seine Güte nicht wie eine Eigenschaft, die man auch verlieren könnte, sondern **ist** seine Güte. Darum ist es kein Mangel, dass er nicht böse handeln kann, so wie es kein Mangel ist, dass ein Kreis nicht eckig sein kann. Wer frei ist, Böses zu tun, ist nicht freier, sondern noch nicht vollkommen frei – die Väter nennen die wahre Freiheit die ungehinderte Bewegung zum Guten.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Thomas von Aquin', work: 'Summa theologiae', ref: 'I, q. 3, a. 4; q. 6, a. 3', year: '1265–1273', quote: `Gott allein ist durch sein Wesen gut; in ihm sind Sein und Wesen identisch.`, status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -172,6 +200,48 @@ const claim: Claim = {
       objection: `Wenn das Gute in Gottes Wesen gründet, wie können dann Atheisten das Gute erkennen? Sie kennen Gott doch gar nicht.`,
       objectionBy: 'Erik Wielenberg',
       answer: `So wie man Licht sehen kann, ohne Physik studiert zu haben. Jeder Mensch ist nach Gottes Bild geschaffen und hat das Gesetz „in sein Herz geschrieben" (Röm 2,15). Man kann erkennen, *dass* etwas gut ist, ohne zu wissen, *warum* es gut ist. Die Wesens-These ist eine Aussage über die Grundlage der Moral, nicht über den Weg, auf dem wir sie erkennen.`,
+      followUps: [
+        {
+          id: 'brute-ethische-fakten',
+          objection: `Wenn Atheisten das Gute ohne Gott erkennen, ist Gott für die Moral überflüssig. Ich vertrete: Grundlegende ethische Wahrheiten sind notwendig wahr und brauchen kein Fundament – Schmerz zuzufügen, nur um Spaß zu haben, ist einfach falsch. Punkt. Ockhams Rasiermesser schneidet Gott weg.`,
+          objectionBy: 'Erik Wielenberg',
+          answer: `Hier werden zwei Fragen vermischt: wie wir das Gute **erkennen** und worin es **gründet**. Dass ein Atheist erkennt, dass Grausamkeit falsch ist, bestreite ich nicht. Aber deine Sicht hat ein Erklärungsproblem: Es gibt abstrakte, kausal wirkungslose moralische Tatsachen – und Gehirne, die durch blinde Selektion entstanden sind und zufällig genau diese Tatsachen erfassen. Warum sollten beide zueinanderpassen? Im Theismus haben Moral und Geist dieselbe Quelle: Ein guter Gott schuf Wesen, die das Gute erkennen können. Das ist nicht überflüssig, das ist die Erklärung.`,
+          detail: `Wielenberg hat in *Robust Ethics* (2014) die wohl stärkste atheistische Theorie objektiver Moral vorgelegt und versucht, die Passung durch einen „dritten Faktor" zu erklären: Dieselben Eigenschaften, die moralisch relevant sind (z. B. Leidensfähigkeit), hätten auch die Evolution unserer moralischen Überzeugungen beeinflusst. Kritiker wie William Lane Craig halten das für einen bemerkenswerten Zufall, den der Theismus nicht braucht. Wichtig für dein Gespräch: Du musst nicht behaupten, Atheisten könnten nicht gut sein oder nichts Gutes wissen – das wäre falsch und unfair. Deine These betrifft das **Fundament**, nicht die Erkenntnis.`,
+          voices: [
+            { person: 'craig', role: 'als Gesprächspartner Wielenbergs', text: `Craig hat mit Wielenberg 2018 öffentlich debattiert. Er argumentiert, dass Wielenbergs Moralfakten „in der Luft hängen": Pflichten ohne jemanden, dem gegenüber man verpflichtet ist, und eine glückliche Übereinstimmung zwischen evolvierten Überzeugungen und abstrakten Wahrheiten, die ohne einen Schöpfer unerklärt bleibt.` },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'Erik J. Wielenberg', work: 'Robust Ethics: The Metaphysics and Epistemology of Godless Normative Realism', year: '2014', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'ein-brute-fact-gegen-viele',
+              objection: `Auch dein Gott ist ein unerklärter Grundfakt – ein notwendiges Wesen, das einfach gut ist. Du hast ein unerklärtes Fundament, ich habe einige. Warum soll deins besser sein?`,
+              objectionBy: 'Erik Wielenberg',
+              answer: `Weil ein einziges Fundament, das vieles erklärt, besser ist als viele, die nichts weiter erklären. Gott erklärt nicht nur, **dass** es Werte gibt, sondern auch, warum es **Pflichten** gibt – denn Pflichten sind etwas, das man **jemandem schuldet** –, warum wir für unser Handeln Rechenschaft ablegen, warum Personen unbedingten Wert haben und warum unser Geist auf moralische Wahrheit ausgerichtet ist. Deine Grundfakten stehen nebeneinander; im Theismus fließen sie aus einer personalen Quelle.`,
+              detail: `Der Philosoph Robert Adams hat gezeigt, dass Pflicht ein **sozialer** Begriff ist: Wir sind jemandem verpflichtet, wir können jemandem etwas schulden, jemand kann uns zur Rechenschaft ziehen. Werte (das Gute) gründen nach Adams in Gottes Wesen, Pflichten in den Geboten eines liebenden Gottes. Ein unpersönliches Reich abstrakter Tatsachen kann das Gute vielleicht beschreiben, aber es kann niemandem etwas befehlen, und man kann ihm nichts schulden.`,
+              voices: [
+                { person: 'robert-adams', role: 'als Moralphilosoph', text: `Adams vertritt in *Finite and Infinite Goods* (1999) eine modifizierte Gebotstheorie: Das Gute ist Gott selbst als Urbild aller Vortrefflichkeit; moralische Verpflichtung entsteht durch die Gebote eines Gottes, der gut und liebend ist. So entgeht er dem Euthyphron-Dilemma und erklärt zugleich den sozialen, verpflichtenden Charakter der Moral.` },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Robert Merrihew Adams', work: 'Finite and Infinite Goods: A Framework for Ethics', year: '1999', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'pflichten-untereinander',
+                  objection: `Pflichten brauchen keinen göttlichen Befehlshaber. Ich schulde meinen Mitmenschen Respekt, und sie mir. Die moralische Gemeinschaft der Menschen reicht völlig.`,
+                  objectionBy: 'Walter Sinnott-Armstrong',
+                  answer: `Pflichten zwischen Gleichen kann man aushandeln – und auch wieder auflösen, wenn alle zustimmen. Aber manche Pflichten gelten selbst dann, wenn eine ganze Gesellschaft anderer Meinung ist: Die Pflicht, Juden nicht zu ermorden, galt auch 1942 in Deutschland, als die herrschende „moralische Gemeinschaft" das Gegenteil verlangte. Woher kommt eine Pflicht, die **gegen** die Gemeinschaft bindet? Sie braucht eine Autorität, die über jeder menschlichen Mehrheit steht.`,
+                  detail: `Der Punkt ist nicht, dass Atheisten solche Pflichten nicht anerkennen – viele tun es mit großem Ernst. Die Frage ist, ob ihre Weltanschauung erklären kann, **warum** es solche unbedingten, gemeinschaftsübergreifenden Pflichten gibt. Die Antwort „sie sind einfach da" ist möglich, aber sie ist eine Kapitulation der Erklärung, kein Argument.`,
+                  questionsBack: [
+                    `Wenn eine ganze Gesellschaft beschließt, eine Minderheit sei rechtlos – woran misst du dann, dass sie sich irrt?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'kant-autonomie',
