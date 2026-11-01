@@ -4,8 +4,8 @@ import { useEffect, useMemo, useState, useSyncExternalStore } from 'react';
 import { useNavigate } from 'react-router';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { Kbd } from '@/components/ui/misc';
-import { useKB } from '@/lib/content';
-import { runSearch, useSearchIndex, type Hit } from '@/lib/search';
+import { useKBMaybe } from '@/lib/content';
+import { prewarmSearchIndex, useSearch, type Hit } from '@/lib/search';
 import { cn } from '@/lib/utils';
 
 /* globaler Öffnen-Zustand */
@@ -50,18 +50,28 @@ export function SearchHotkeys() {
   return null;
 }
 
+/** Baut den Suchindex im Leerlauf vor, sobald die Datenbank geladen ist – stückweise, ohne die Oberfläche zu blockieren. */
+export function SearchPrewarm() {
+  const kb = useKBMaybe();
+  useEffect(() => {
+    if (kb) prewarmSearchIndex(kb);
+  }, [kb]);
+  return null;
+}
+
 export function SearchCommand() {
   const { open, q: initial } = useSearchState();
   const [q, setQ] = useState('');
-  const kb = useKB();
-  const index = useSearchIndex(kb);
+  const kb = useKBMaybe();
+  // Suchindex erst aufbauen, wenn die Suche tatsächlich geöffnet wird (oder im Leerlauf vorgewärmt wurde).
+  const { hits, ready, pending } = useSearch(kb, q, { limit: 60, enabled: open });
+  const preparing = !ready && q.trim().length >= 2;
   const navigate = useNavigate();
 
   useEffect(() => {
     if (open) setQ(initial);
   }, [open, initial]);
 
-  const hits = useMemo(() => runSearch(index, q, { limit: 60 }), [index, q]);
   const groups = useMemo(() => {
     const order: Hit['type'][] = ['claim', 'node', 'topic', 'person'];
     return order.map((t) => ({ type: t, items: hits.filter((h) => h.type === t).slice(0, t === 'node' ? 12 : 6) })).filter((g) => g.items.length);
@@ -94,9 +104,14 @@ export function SearchCommand() {
                 <p className="font-medium text-foreground">Live-Suche für das Gespräch</p>
                 <p className="mt-1">Tippe ein paar Stichworte des Einwands – z. B. „Bibel verfälscht", „Urknall Nichts", „Paraklet", „Junk DNA".</p>
               </div>
+            ) : preparing ? (
+              <div className="flex items-center justify-center gap-2 px-3 py-8 text-sm text-muted-foreground">
+                <span className="size-3 animate-spin rounded-full border-2 border-primary/30 border-t-primary" />
+                {kb ? 'Suchindex wird vorbereitet …' : 'Wissensdatenbank wird geladen …'}
+              </div>
             ) : (
               <>
-                <Command.Empty className="px-3 py-8 text-center text-sm text-muted-foreground">Keine Treffer für „{q}".</Command.Empty>
+                {!pending && <Command.Empty className="px-3 py-8 text-center text-sm text-muted-foreground">Keine Treffer für „{q}".</Command.Empty>}
                 {groups.map((g) => {
                   const Icon = typeMeta[g.type].icon;
                   return (
@@ -132,7 +147,7 @@ export function SearchCommand() {
           <div className="hidden items-center gap-3 border-t px-4 py-2 text-[11px] text-muted-foreground sm:flex">
             <span className="flex items-center gap-1"><Kbd>↑</Kbd><Kbd>↓</Kbd> wählen</span>
             <span className="flex items-center gap-1"><Kbd>↵</Kbd> öffnen</span>
-            <span className="ml-auto">{kb.stats.nodes.toLocaleString('de-DE')} Gesprächszüge durchsuchbar</span>
+            {kb && <span className="ml-auto">{kb.stats.nodes.toLocaleString('de-DE')} Gesprächszüge durchsuchbar</span>}
           </div>
         </Command>
       </DialogContent>

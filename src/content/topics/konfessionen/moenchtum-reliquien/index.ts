@@ -61,18 +61,6 @@ Die Antwort der Orthodoxie lautet nicht: „Alles war immer gut." Sie lautet: Mi
       bio: 'Begründete um 330 das Mönchsleben in der Sketis, dem heutigen Wadi Natrun, wo das nach ihm benannte Kloster bis heute besteht. Die Apophthegmata Patrum zeichnen ihn als Mann großer Milde und Demut. Die unter seinem Namen überlieferten „Geistlichen Homilien" stammen nach heutiger Forschung wohl aus einem anderen, syrischen Umfeld.',
       caveat: 'Die „Makarius-Homilien" werden heute meist einem anonymen Verfasser („Pseudo-Makarius") zugeschrieben.',
     },
-    {
-      id: 'bonhoeffer',
-      name: 'Dietrich Bonhoeffer',
-      years: '1906–1945',
-      era: 'modern',
-      tradition: 'evangelisch',
-      title: 'Lutherischer Theologe, Leiter des Predigerseminars Finkenwalde, Märtyrer',
-      fields: ['Nachfolge', 'Gemeinschaftsleben', 'Ethik'],
-      bio: 'Evangelischer Theologe der Bekennenden Kirche und Widerstandskämpfer gegen den Nationalsozialismus, am 9. April 1945 im KZ Flossenbürg hingerichtet. In der „Nachfolge" (1937) kritisierte er die „billige Gnade"; im Predigerseminar Finkenwalde gründete er ein Bruderhaus mit gemeinsamem Gebet und Beichte, das er in „Gemeinsames Leben" (1939) beschrieb.',
-      keyWorks: ['Nachfolge (1937)', 'Gemeinsames Leben (1939)', 'Widerstand und Ergebung (postum)'],
-      caveat: 'Bonhoeffer ist lutherischer Theologe; er wird hier als evangelischer Zeuge für das Anliegen des gemeinsamen geistlichen Lebens zitiert, nicht als Lehrautorität.',
-    },
   ],
 };
 

@@ -1,5 +1,5 @@
 import { ArrowRight, History, MessagesSquare, Search, ShieldQuestion, Sparkles, Zap } from 'lucide-react';
-import { Suspense, useMemo, useState } from 'react';
+import { Suspense, useState } from 'react';
 import { Link } from 'react-router';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
@@ -9,7 +9,7 @@ import { openSearch } from '@/components/app/Search';
 import { useKB, useKBMaybe, type KB } from '@/lib/content';
 import { PageSkeleton } from '@/components/app/Loading';
 import { DynIcon } from '@/lib/icons';
-import { runSearch, useSearchIndex } from '@/lib/search';
+import { useSearch } from '@/lib/search';
 import { useRecent } from '@/lib/storage';
 import { cn, plain } from '@/lib/utils';
 
@@ -25,9 +25,10 @@ const FEATURED = [
 ];
 
 function LiveSearch({ kb }: { kb: KB }) {
-  const index = useSearchIndex(kb);
   const [q, setQ] = useState('');
-  const hits = useMemo(() => runSearch(index, q, { types: ['node', 'claim'], limit: 6 }), [index, q]);
+  const [wanted, setWanted] = useState(false);
+  // Index erst bei Fokus/Eingabe aufbauen (oder im Leerlauf vorgewärmt) – die Startseite bleibt sofort bedienbar.
+  const { hits, ready, pending } = useSearch(kb, q, { types: ['node', 'claim'], limit: 6, enabled: wanted || q.length > 0 });
   return (
     <div className="relative">
       <div className="flex items-center gap-2 rounded-2xl border bg-card px-4 shadow-sm ring-primary/10 focus-within:border-primary/40 focus-within:ring-4">
@@ -35,6 +36,8 @@ function LiveSearch({ kb }: { kb: KB }) {
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
+          onFocus={() => setWanted(true)}
+          onPointerEnter={() => setWanted(true)}
           onKeyDown={(e) => e.key === 'Enter' && q.trim() && openSearch(q)}
           placeholder="Was hat dein Gegenüber gerade gesagt?"
           className="h-14 w-full bg-transparent text-[16px] outline-none placeholder:text-muted-foreground"
@@ -43,7 +46,12 @@ function LiveSearch({ kb }: { kb: KB }) {
       </div>
       {q.trim().length >= 2 && (
         <Card className="absolute inset-x-0 top-[calc(100%+6px)] z-10 overflow-hidden p-1.5 shadow-xl">
-          {hits.length === 0 ? (
+          {!ready || (pending && hits.length === 0) ? (
+            <p className="flex items-center gap-2 px-3 py-4 text-sm text-muted-foreground">
+              <span className="size-3 animate-spin rounded-full border-2 border-primary/30 border-t-primary" />
+              {ready ? 'Suche …' : 'Suchindex wird vorbereitet …'}
+            </p>
+          ) : hits.length === 0 ? (
             <p className="px-3 py-4 text-sm text-muted-foreground">Keine Treffer – versuche andere Stichworte.</p>
           ) : (
             hits.map((h) => (

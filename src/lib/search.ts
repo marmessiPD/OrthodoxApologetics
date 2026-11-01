@@ -1,137 +1,149 @@
-import MiniSearch, { type SearchResult } from 'minisearch';
-import { useMemo } from 'react';
-import { plain } from './utils';
+import type MiniSearch from 'minisearch';
+import { useEffect, useMemo, useState } from 'react';
 import type { KB } from './content';
+import { createIndex, docsOf, runSearch, type Hit, type SearchDoc, type SearchOpts } from './search-core';
+import type { FromWorker, ToWorker } from './search.worker';
 
-export type DocType = 'node' | 'claim' | 'topic' | 'person';
+export { fold, normalize, type DocType, type Hit, type SearchOpts } from './search-core';
 
-export interface SearchDoc {
-  id: string;
-  type: DocType;
-  title: string;
-  text: string;
-  by?: string;
-  extra?: string;
-  // gespeicherte Felder für die Anzeige
-  href: string;
-  context: string;
-  snippet: string;
-  category?: string;
+/*
+ * Suchdienst: Der Index wird bevorzugt in einem Web Worker aufgebaut und abgefragt.
+ * Der Hauptthread erzeugt nur die Dokumente – in kleinen Zeitscheiben, damit Scrollen,
+ * Tippen und Navigieren jederzeit flüssig bleiben. Ohne Worker-Unterstützung wird der
+ * Index zeitscheibenweise im Hauptthread aufgebaut.
+ */
+
+const SLICE_MS = 8;
+
+function yieldToMain(): Promise<void> {
+  const sched = (globalThis as { scheduler?: { yield?: () => Promise<void> } }).scheduler;
+  if (sched?.yield) return sched.yield();
+  return new Promise((r) => setTimeout(r, 0));
 }
 
-const STOP = new Set(
-  'der die das den dem des ein eine einer eines einem einen und oder aber doch ist sind war waren wird werden wurde nicht kein keine ich du er sie es wir ihr mit von zu im in am an auf aus bei für fur über uber unter nach vor als wie auch nur noch schon so dass daß was wer wenn weil man sich sein seine ihre ihr hat haben hatte gibt mehr sehr dann denn the of and to a is that it'.split(
-    ' ',
-  ),
-);
-
-/** Kleinschreibung, ohne diakritische Zeichen (ä → a, ß → ss). */
-export function fold(s: string): string {
-  return s
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .replace(/ß/g, 'ss')
-    .replace(/[ʿʾ'’`]/g, '');
+interface Engine {
+  search(q: string, opts?: SearchOpts): Promise<Hit[]>;
 }
 
-export function normalize(term: string): string | null {
-  const t = fold(term);
-  if (t.length < 2 || STOP.has(t)) return null;
-  return t;
-}
-
-export function buildIndex(kb: KB): MiniSearch<SearchDoc> {
-  const ms = new MiniSearch<SearchDoc>({
-    fields: ['title', 'text', 'by', 'extra'],
-    storeFields: ['type', 'title', 'href', 'context', 'snippet', 'by', 'category'],
-    processTerm: (term) => normalize(term),
-    searchOptions: {
-      boost: { title: 4, by: 2, extra: 1.5 },
-      fuzzy: 0.18,
-      prefix: true,
-      combineWith: 'AND',
-    },
+function workerEngine(kb: KB): Promise<Engine> {
+  return new Promise<Engine>((resolve, reject) => {
+    const worker = new Worker(new URL('./search.worker.ts', import.meta.url), { type: 'module', name: 'suche' });
+    const send = (m: ToWorker) => worker.postMessage(m);
+    const waiting = new Map<number, (h: Hit[]) => void>();
+    let seq = 0;
+    const engine: Engine = {
+      search: (q, opts) =>
+        new Promise((res) => {
+          const id = ++seq;
+          waiting.set(id, res);
+          send({ type: 'search', id, q, opts });
+        }),
+    };
+    worker.onmessage = (e: MessageEvent<FromWorker>) => {
+      const m = e.data;
+      if (m.type === 'ready') resolve(engine);
+      else if (m.type === 'result') {
+        waiting.get(m.id)?.(m.hits);
+        waiting.delete(m.id);
+      }
+    };
+    worker.onerror = (e) => {
+      worker.terminate();
+      reject(e);
+    };
+    // Dokumente stückweise erzeugen und übergeben.
+    (async () => {
+      let batch: SearchDoc[] = [];
+      let deadline = performance.now() + SLICE_MS;
+      for (const doc of docsOf(kb)) {
+        batch.push(doc);
+        if (performance.now() > deadline) {
+          send({ type: 'add', docs: batch });
+          batch = [];
+          await yieldToMain();
+          deadline = performance.now() + SLICE_MS;
+        }
+      }
+      if (batch.length) send({ type: 'add', docs: batch });
+      send({ type: 'done' });
+    })().catch(reject);
   });
-  const docs: SearchDoc[] = [];
-
-  for (const t of kb.topics) {
-    docs.push({
-      id: `t:${t.id}`,
-      type: 'topic',
-      title: t.title,
-      text: plain(t.subtitle + ' ' + t.overview),
-      extra: t.group,
-      href: `/thema/${t.id}`,
-      context: t.group,
-      snippet: plain(t.subtitle, 140),
-      category: t.category,
-    });
-  }
-
-  for (const { topic, claim, ref } of kb.claims) {
-    docs.push({
-      id: `c:${ref}`,
-      type: 'claim',
-      title: plain(claim.title),
-      text: plain([claim.quickAnswer, claim.steelman, ...(claim.keyPoints ?? [])].join(' ')),
-      extra: [topic.title, ...(claim.tags ?? []), ...claim.proponents.map((p) => p.name)].join(' '),
-      href: `/thema/${topic.id}/${claim.id}`,
-      context: topic.title,
-      snippet: plain(claim.quickAnswer, 160),
-      category: topic.category,
-    });
-  }
-
-  for (const { topic, claim, node } of kb.nodes) {
-    docs.push({
-      id: `n:${topic.id}/${claim.id}/${node.id}`,
-      type: 'node',
-      title: plain(node.objection),
-      text: plain(node.answer),
-      by: node.objectionBy,
-      extra: plain(claim.title),
-      href: `/thema/${topic.id}/${claim.id}?tab=debatte&knoten=${node.id}`,
-      context: plain(claim.title, 90),
-      snippet: plain(node.answer, 160),
-      category: topic.category,
-    });
-  }
-
-  for (const p of kb.people) {
-    if (!kb.contributions.has(p.id)) continue;
-    docs.push({
-      id: `p:${p.id}`,
-      type: 'person',
-      title: p.name,
-      text: plain(p.bio),
-      extra: [p.title, ...p.fields].join(' '),
-      href: `/konzil/${p.id}`,
-      context: p.title,
-      snippet: plain(p.title, 120),
-    });
-  }
-
-  ms.addAll(docs);
-  return ms;
 }
 
-let cached: { kb: KB; index: MiniSearch<SearchDoc> } | null = null;
-
-export function useSearchIndex(kb: KB) {
-  return useMemo(() => {
-    if (cached?.kb !== kb) cached = { kb, index: buildIndex(kb) };
-    return cached.index;
-  }, [kb]);
+async function mainThreadEngine(kb: KB): Promise<Engine> {
+  const ms: MiniSearch<SearchDoc> = createIndex();
+  let deadline = 0;
+  for (const doc of docsOf(kb)) {
+    if (performance.now() > deadline) {
+      await yieldToMain();
+      deadline = performance.now() + SLICE_MS;
+    }
+    ms.add(doc);
+  }
+  return { search: async (q, opts) => runSearch(ms, q, opts) };
 }
 
-export type Hit = SearchResult & Pick<SearchDoc, 'type' | 'title' | 'href' | 'context' | 'snippet' | 'by' | 'category'>;
+let cached: { kb: KB; promise: Promise<Engine>; ready: boolean } | null = null;
 
-export function runSearch(index: MiniSearch<SearchDoc>, q: string, opts?: { types?: DocType[]; limit?: number }): Hit[] {
+/** Startet (einmalig) den Aufbau des Suchindex für diese Wissensdatenbank. */
+export function loadSearch(kb: KB): Promise<Engine> {
+  if (cached?.kb === kb) return cached.promise;
+  const entry = { kb, ready: false } as NonNullable<typeof cached>;
+  const start = typeof Worker === 'function' ? workerEngine(kb).catch(() => mainThreadEngine(kb)) : mainThreadEngine(kb);
+  entry.promise = start.then((e) => {
+    entry.ready = true;
+    return e;
+  });
+  cached = entry;
+  return entry.promise;
+}
+
+/** Index vorab im Leerlauf aufbauen, sobald die Seite fertig gezeichnet ist. */
+export function prewarmSearchIndex(kb: KB) {
+  if (cached?.kb === kb) return;
+  const ric = (globalThis as { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+  const start = () => void loadSearch(kb);
+  if (ric) ric(start, { timeout: 2500 });
+  else setTimeout(start, 1000);
+}
+
+/**
+ * Live-Suche als Hook. Der Index wird erst aufgebaut, wenn `enabled` wahr ist
+ * (oder er wurde bereits vorgewärmt). Liefert die Treffer, ob der Index bereit ist
+ * und ob für die aktuelle Eingabe noch ein Ergebnis aussteht.
+ */
+export function useSearch(kb: KB | null | undefined, q: string, opts?: SearchOpts & { enabled?: boolean }) {
+  const enabled = opts?.enabled ?? true;
+  const optsKey = JSON.stringify({ t: opts?.types, l: opts?.limit });
+  const [engine, setEngine] = useState<Engine | null>(null);
+  const [result, setResult] = useState<{ q: string; hits: Hit[] }>({ q: '', hits: [] });
   const query = q.trim();
-  if (query.length < 2) return [];
-  let hits = index.search(query) as Hit[];
-  if (!hits.length) hits = index.search(query, { combineWith: 'OR' }) as Hit[];
-  if (opts?.types) hits = hits.filter((h) => opts.types!.includes(h.type));
-  return hits.slice(0, opts?.limit ?? 50);
+
+  useEffect(() => {
+    if (!kb || !enabled) return;
+    let alive = true;
+    loadSearch(kb).then((e) => alive && setEngine(() => e));
+    return () => {
+      alive = false;
+    };
+  }, [kb, enabled]);
+
+  useEffect(() => {
+    if (!engine || query.length < 2) return;
+    let alive = true;
+    const { t, l } = JSON.parse(optsKey) as { t?: SearchOpts['types']; l?: number };
+    engine.search(query, { types: t, limit: l }).then((hits) => alive && setResult({ q: query, hits }));
+    return () => {
+      alive = false;
+    };
+  }, [engine, query, optsKey]);
+
+  return useMemo(() => {
+    const active = query.length >= 2;
+    return {
+      ready: !!engine,
+      hits: active ? result.hits : [],
+      pending: active && result.q !== query,
+    };
+  }, [engine, query, result]);
 }

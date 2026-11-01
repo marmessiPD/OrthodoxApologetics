@@ -110,7 +110,7 @@ const claim: Claim = {
       ],
     },
     {
-      person: 'bonhoeffer',
+      person: 'dietrich-bonhoeffer',
       role: 'als evangelischer Theologe und Märtyrer',
       text: `Dietrich Bonhoeffer, Lutheraner und Widerstandskämpfer, beurteilte das Mönchtum differenziert: In der „Nachfolge" (1937) nennt er es einen lebendigen Protest gegen die Verweltlichung des Christentums und gegen die „billige Gnade" – und kritisiert nur, dass es zur Sonderleistung weniger wurde. 1935 schrieb er seinem Bruder, die Erneuerung der Kirche werde aus einer Art neuen Mönchtums kommen, das mit dem alten die Kompromisslosigkeit eines Lebens nach der Bergpredigt teile. Im Predigerseminar Finkenwalde gründete er ein „Bruderhaus" mit gemeinsamem Gebet und Beichte („Gemeinsames Leben", 1939). Ein evangelischer Zeuge, dass das Anliegen des Mönchtums biblisch ist.`,
       sources: [

@@ -9,7 +9,7 @@ import { DynIcon } from '@/lib/icons';
 import { useTheme } from '@/lib/storage';
 import { cn } from '@/lib/utils';
 import { LogoMark } from './Logo';
-import { openSearch, SearchCommand, SearchHotkeys } from './Search';
+import { openSearch, SearchCommand, SearchHotkeys, SearchPrewarm } from './Search';
 import { PageSkeleton } from './Loading';
 
 function ThemeToggle() {
@@ -159,9 +159,8 @@ export function Shell() {
       </div>
       <BottomNav />
       <SearchHotkeys />
-      <Suspense fallback={null}>
-        <SearchCommand />
-      </Suspense>
+      <SearchPrewarm />
+      <SearchCommand />
       <ScrollRestoration getKey={(l) => l.pathname} />
     </div>
   );
