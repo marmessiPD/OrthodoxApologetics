@@ -156,6 +156,31 @@ const claim: Claim = {
               questionsBack: [
                 `Welcher Selektionsdruck hat unsere Fähigkeit hervorgebracht, über unendliche Mengen zu beweisen?`,
               ],
+              followUps: [
+                {
+                  id: 'nebenprodukt-analogie',
+                  objection: `Höhere Mathematik ist ein Nebenprodukt: Die Evolution hat uns eine allgemeine Fähigkeit zur Analogie- und Mustererkennung gegeben, und Mathematik ist einfach diese Fähigkeit, auf sich selbst angewandt. Kein Wunder, keine Erklärungslücke.`,
+                  objectionBy: 'Douglas Hofstadter (sinngemäß, Surfaces and Essences, 2013)',
+                  answer: `Das erklärt die **Fähigkeit**, Muster zu bilden – nicht, warum die Muster, die wir in reiner Gedankenarbeit finden, **wahr** sind und Jahrzehnte später auf Quarks und Gravitationswellen passen. Ein Nebenprodukt, das für das Überleben irrelevant ist, hätte keinen Grund, zuverlässig zu sein. Genau diese Zuverlässigkeit weit jenseits jedes Nutzens ist der Befund, der erklärt werden muss.`,
+                  detail: `Hofstadter und Sander zeigen eindrucksvoll, wie zentral Analogiebildung für das Denken ist – das kannst du anerkennen. Aber Analogien führen oft in die Irre (Astrologie, Zahlenmystik, falsche Vermutungen). Warum unterscheidet ausgerechnet der mathematische Beweis zuverlässig das Wahre vom bloß Analogen? Ein Beweis ist kein Gefühl der Ähnlichkeit, sondern eine zwingende Kette – und seine Ergebnisse binden jeden, gleich welche Analogien er bevorzugt.
+
+Hier setzt das Argument von C. S. Lewis an: Wenn unser Denken nur das Nebenprodukt nicht-rationaler Ursachen wäre, hätten wir keinen Grund, ihm zu trauen – auch nicht dem Gedanken, dass es ein Nebenprodukt ist. Dass wir ihm in der Mathematik doch völlig vertrauen, passt besser zu einem Geist, der von einem Geist stammt.`,
+                  voices: [
+                    {
+                      person: 'cs-lewis',
+                      role: 'als Philosoph der Vernunft',
+                      text: `Lewis argumentiert in *Miracles* (Kap. 3, „The Cardinal Difficulty of Naturalism"), dass ein vollständig naturalistisch erklärtes Denken seine eigene Gültigkeit untergräbt: Gedanken, die nur durch nicht-rationale Ursachen zustande kommen, hätten keinen Anspruch auf Wahrheit. Die Mathematik ist das klarste Beispiel für Einsicht, die nicht bloß verursacht, sondern **begründet** ist.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Miracles: A Preliminary Study', ref: 'Kap. 3', year: '1947 (überarb. 1960)', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn Analogie die Quelle ist – warum sind mathematische Beweise zuverlässig, Analogien aber so oft falsch?`,
+                    `Vertraust du deinem eigenen Argument, obwohl es nach deiner Theorie nur ein Nebenprodukt ist?`,
+                  ],
+                },
+              ],
             },
           ],
         },
