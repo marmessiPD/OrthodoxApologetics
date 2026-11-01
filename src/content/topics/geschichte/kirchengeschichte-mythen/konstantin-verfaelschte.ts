@@ -96,6 +96,19 @@ const claim: Claim = {
               objection: `Dann ist das Christentum nach Konstantin eben eine andere Religion als die der ersten Christen.`,
               objectionBy: 'Ahmed Deedat',
               answer: `Der Glaubensinhalt ist vor Konstantin gut bezeugt: das älteste Bekenntnis von Tod und Auferstehung (1 Kor 15,3–5), die Gottheit Christi bei Ignatius um 110, die Glaubensregel bei Irenäus um 180, die Theologie des Origenes im 3. Jahrhundert – und Tausende Märtyrer, die vor 313 für genau diesen Glauben starben. Das Nizänum fasst zusammen, was die Kirche glaubte; es erfindet nichts Neues.`,
+              followUps: [
+                {
+                  id: 'staatsmacht-entschied-sieger',
+                  objection: `Vor Konstantin gab es viele Christentümer – Gnostiker, Ebioniten, Marcioniten, später Arianer. Erst die kaiserliche Unterstützung hat einer Richtung zum Sieg verholfen. Die „Orthodoxie" ist die Version der Sieger.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Die Vielfalt gab es, das bestreite ich nicht. Aber die Linie von Irenäus, Tertullian und Origenes war schon vor 313 die breite Mehrheit der Gemeinden – ohne jede Staatsmacht, oft unter Verfolgung. Und der Test der Geschichte spricht gegen deine These: Nach Konstantin unterstützten Kaiser wie Constantius II. und Valens jahrzehntelang die Arianer – und trotzdem setzte sich der Glaube von Nizäa durch. Wenn Staatsmacht über die Lehre entschiede, wären wir heute Arianer.`,
+                  detail: `Die koptische Kirche ist dafür ein lebendiges Beispiel: Nach 451 widersetzte sie sich dem byzantinischen Kaiser in der Christologie, später lebte sie unter islamischer Herrschaft als Minderheit – und hat das Bekenntnis von Nizäa über 1500 Jahre ohne und oft gegen Staatsmacht bewahrt. Ein Glaube, der nur von Kaisern getragen wäre, hätte das nicht überlebt.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Lost Christianities', year: '2003', quote: `Die siegreiche „proto-orthodoxe" Richtung habe die Geschichte geschrieben und andere Formen des Christentums unterdrückt.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn die Kaiser die Lehre bestimmten – warum siegte Nizäa ausgerechnet gegen die arianischen Kaiser?`],
+                },
+              ],
             },
           ],
         },
@@ -125,6 +138,27 @@ const claim: Claim = {
               sources: [
                 { kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Vita Constantini', ref: 'IV,61–64', year: 'ca. 339', quote: `Bericht über Taufe und Tod Konstantins 337 bei Nikomedien.`, status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'kreuzesvision-propaganda',
+                  objection: `Die ganze Bekehrung an der Milvischen Brücke ist Propaganda. Eusebius war ein Hofschmeichler, der seinem Kaiser eine Himmelsvision andichtete.`,
+                  objectionBy: 'Charles Freeman',
+                  answer: `Dass die „Vita Constantini" eine Lobschrift ist, gebe ich offen zu – Eusebius ist hier mit Vorsicht zu lesen. Laktanz, der früher schrieb, berichtet nur von einem Traum, nach dem Konstantin ein Christuszeichen auf die Schilde malen ließ; die große Himmelsvision kennt erst Eusebius Jahrzehnte später. Die Details sind also legendarisch überformt. Aber für unsere Frage ist das gleichgültig: Ob Konstantins Glaube echt war oder nicht, die Lehre der Kirche war vor ihm da und hat ihn überdauert.`,
+                  voices: [
+                    {
+                      person: 'eusebius',
+                      role: 'als Kirchenhistoriker und Biograf Konstantins (mit Vorbehalt)',
+                      text: `Eusebius ist für die konstantinische Zeit eine unverzichtbare, aber parteiische Quelle: Seine Kirchengeschichte bewahrt zahlreiche ältere Dokumente, während seine Lebensbeschreibung Konstantins als Panegyrikus angelegt ist. Zudem stand er im arianischen Streit lange auf der vermittelnden, Arius nahen Seite. Wer ihn zitiert, sollte zwischen den von ihm überlieferten Dokumenten und seinen eigenen Deutungen unterscheiden.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Vita Constantini', ref: 'I,28–31', year: 'ca. 339', quote: `Bericht über die Kreuzeserscheinung am Himmel, die Konstantin selbst ihm unter Eid erzählt habe.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Laktanz', work: 'Über die Todesarten der Verfolger (De mortibus persecutorum)', ref: '44,5', year: 'ca. 315', quote: `Konstantin sei im Traum ermahnt worden, das himmlische Zeichen Gottes auf die Schilde zu setzen.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -144,6 +178,31 @@ const claim: Claim = {
           objection: `Aber Konstantin bestellte bei Eusebius fünfzig Bibeln – also bestimmte er ihren Inhalt.`,
           objectionBy: 'Dan Brown',
           answer: `Er bestellte Abschriften für die neuen Kirchen Konstantinopels; über die Auswahl der Bücher sagt der Bericht nichts. Eusebius beschreibt in seiner Kirchengeschichte, welche Schriften in den Kirchen anerkannt und welche umstritten waren – als Ergebnis langer kirchlicher Überlieferung. Eine Bestellung beim Kopisten ist keine Kanonentscheidung.`,
+          followUps: [
+            {
+              id: 'sinaiticus-kaiserbibel',
+              objection: `Codex Sinaiticus und Vaticanus könnten genau aus diesen fünfzig Bibeln stammen. Dann beruht euer Text auf einer kaiserlichen Auftragsedition.`,
+              objectionBy: 'Dan Brown',
+              answer: `Dass einer der beiden Kodizes zu Konstantins Bestellung gehörte, ist eine alte Vermutung (T. C. Skeat), aber unbewiesen. Selbst wenn: Es wären Abschriften älterer Texte, keine Neuschöpfung. Das lässt sich prüfen – der Papyrus 75 aus der Zeit um 200 stimmt mit dem Text des Codex Vaticanus in Lukas und Johannes so eng überein, dass Textkritiker von einer gemeinsamen, viel älteren Überlieferung sprechen. Ein Text, der schon hundert Jahre vor Konstantin so lautete, wurde nicht von ihm geschaffen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'T. C. Skeat', work: 'The Codex Sinaiticus, the Codex Vaticanus and Constantine. Journal of Theological Studies 50', year: '1999', quote: `Vermutung, die Kodizes könnten mit Konstantins Bestellung bei Eusebius zusammenhängen.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'Bruce M. Metzger, Bart D. Ehrman', work: 'The Text of the New Testament', year: '4. Aufl. 2005', quote: `P75 (um 200) und Codex Vaticanus stehen sich textlich außerordentlich nahe.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'nag-hammadi-versteckt',
+                  objection: `Und die anderen Evangelien wurden unterdrückt: Ägyptische Mönche vergruben die Nag-Hammadi-Bücher, weil Athanasius 367 ihre Lektüre verbot. Eure eigene koptische Kirche hat sie vernichtet.`,
+                  objectionBy: 'Dan Brown',
+                  answer: `Hier ist ein wahrer Kern: Athanasius warnte in seinem 39. Osterfestbrief ausdrücklich vor apokryphen Büchern, und manche Forscher vermuten, dass die Nag-Hammadi-Kodizes daraufhin versteckt wurden – eine Hypothese, kein Beleg. Aber das war eine Entscheidung eines Bischofs darüber, was in der Kirche gelesen wird, nicht ein Befehl Konstantins; und diese Schriften hatte schon Irenäus um 180 abgelehnt. Bemerkenswert ist auch: Wir besitzen sie heute gerade deshalb, weil koptische Schreiber sie kopierten und jemand sie sorgfältig verwahrte.`,
+                  detail: `Fair bleiben: Dass die Kirche bestimmte Schriften aus dem Gottesdienst und der Lektüre ausschloss, ist eine Form der Abgrenzung, die man kritisieren darf. Es war aber keine Fälschung der Evangelien, sondern eine Unterscheidung zwischen den apostolischen Schriften, die seit dem 2. Jahrhundert in den Gemeinden gelesen wurden, und späteren Texten mit gnostischer Theologie. Die Nag-Hammadi-Texte sind zudem fast alle jünger als die vier Evangelien.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', quote: `Aufzählung der kanonischen Bücher; Warnung vor apokryphen Schriften, die unter Namen von Heiligen verbreitet werden.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Welches der Nag-Hammadi-Evangelien ist nachweislich älter als Markus oder Johannes?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -161,6 +220,17 @@ const claim: Claim = {
           objection: `Also gibst du zu, dass Konstantin Heidnisches ins Christentum mischte.`,
           objectionBy: 'Populäre Religionskritik',
           answer: `Ich gebe zu, dass Konstantin persönlich lange zwischen alten und neuen Formen schwankte. Aber seine persönlichen Neigungen sind nicht die Lehre der Kirche: Kein Glaubensbekenntnis, kein Kanon und keine Liturgie der Kirche verehrt die Sonne. Die Kirche bekennt den Schöpfer der Sonne – genau das unterscheidet sie vom Sonnenkult.`,
+          followUps: [
+            {
+              id: 'christus-helios-mosaik',
+              objection: `Unter dem Petersdom gibt es ein Mosaik, das Christus als Sonnengott Helios mit dem Sonnenwagen zeigt. Da habt ihr den Beweis: Christus wurde zum Sol Invictus.`,
+              objectionBy: 'Populäre Religionskritik',
+              answer: `Das Mosaik im Grab der Julier ist echt – und es stammt aus dem 3. Jahrhundert, also *vor* Konstantin. Es kann also nicht seine Erfindung sein. Es zeigt, dass Christen die Bildsprache ihrer Umgebung benutzten, um Christus als die „Sonne der Gerechtigkeit" (Mal 3,20) und das „Licht der Welt" (Joh 8,12) darzustellen. Ein biblisches Bild in der Formensprache der Zeit ist keine Anbetung der Sonne – so wenig wie das Bild vom guten Hirten Schafhirten vergöttlicht.`,
+              sources: [
+                { kind: 'sonstiges', work: 'Mosaik im Mausoleum der Julier (Mausoleum M), Vatikanische Nekropole', year: '3. Jh.', quote: `Darstellung einer Christusgestalt mit Strahlenkranz auf einem Wagen, umgeben von Weinranken.`, status: 'paraphrase', note: 'Die christliche Deutung ist verbreitet, aber nicht unumstritten.' },
+              ],
+            },
+          ],
         },
       ],
     },

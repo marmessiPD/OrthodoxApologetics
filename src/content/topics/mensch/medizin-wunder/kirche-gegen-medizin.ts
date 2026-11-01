@@ -110,6 +110,60 @@ const claim: Claim = {
           id: 'einzelne-geistliche',
           objection: `Aber einzelne Geistliche waren doch dagegen.`,
           answer: `Ja, einzelne – wie auch einzelne Ärzte gegen jede Neuerung waren. Neue Techniken stoßen immer auf Widerstand, oft aus Angst vor Risiken. Entscheidend ist: Die Lehre der Kirche war nie medizinfeindlich, und die Pioniere der modernen Medizin – von Pasteur bis zu den Missionsärzten – waren oft gläubige Christen.`,
+          followUps: [
+            {
+              id: 'religioese-quacksalberei-heute',
+              objection: `Geschichte beiseite: Heute ist das Problem religiöse Quacksalberei. Heilöl, Weihwasser und „Glaubensheiler" statt Chemotherapie – gerade in Teilen Afrikas und in manchen Pfingstkirchen sterben Menschen daran. Religion liefert den Nährboden für Pseudomedizin.`,
+              objectionBy: 'Edzard Ernst',
+              answer: `Ernst hat sein Berufsleben lang wirkungslose Heilmethoden entlarvt – dafür verdient er Respekt, und ich stehe in diesem Punkt an seiner Seite. Wer Kranke von wirksamer Behandlung abhält, versündigt sich an ihnen. Aber die orthodoxe Kirche lehrt gerade nicht „Gebet **statt** Medizin", sondern „Gebet **und** Medizin": Die Krankensalbung begleitet die Behandlung, sie ersetzt sie nicht. Pseudomedizin gibt es übrigens ebenso reichlich in säkularen Wellness-Milieus.`,
+              detail: `Ein guter Prüfstein für jede Gemeinde: Ermutigt sie Kranke, ärztliche Behandlung fortzusetzen? Fragt sie nach Befunden, bevor sie von Heilung spricht? Verlangt sie Geld für Gebete? Die Kirchenväter waren hier eindeutig. Basilius lehrt in seinen ausführlichen Regeln, dass die Heilkunst eine Gabe Gottes ist, die man gebrauchen soll, ohne die Hoffnung allein auf sie zu setzen – und dass es falsch wäre, sie aus Frömmigkeit abzulehnen. Die koptische Kirche betreibt in Ägypten Krankenhäuser und Ambulanzen; Priester besuchen Kranke im Krankenhaus, nicht anstelle davon.`,
+              voices: [
+                {
+                  person: 'basilius',
+                  role: 'als Kirchenvater, der Medizin studiert hatte',
+                  text: `Basilius vergleicht in den *Regulae fusius tractatae* (Frage 55) die Heilkunst mit Ackerbau und Weberei: Gott hat sie den Menschen gegeben, um der Schwäche des Leibes zu helfen. Wer sie gebraucht, handelt nicht gegen den Glauben, solange er erkennt, dass auch die Arznei von Gott kommt. Wer sie aus vermeintlicher Frömmigkeit verwirft, verachtet eine Gabe Gottes.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Regulae fusius tractatae', ref: 'Frage 55', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Simon Singh & Edzard Ernst', work: 'Trick or Treatment? Alternative Medicine on Trial', year: '2008', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Kennst du eine orthodoxe Kirche, die Kranken rät, die Chemotherapie abzubrechen?`,
+              ],
+              followUps: [
+                {
+                  id: 'reliquien-pilgern',
+                  objection: `Aber auch Kopten pilgern zu Heiligengräbern und Reliquien, um Heilung zu suchen. Das ist doch genau dieselbe Magie.`,
+                  objectionBy: 'Edzard Ernst / Michael Shermer',
+                  answer: `Der Unterschied liegt in zwei Dingen: Erstens ist das Gebet am Grab eines Heiligen eine Bitte an Gott in der Gemeinschaft der Heiligen, kein Mechanismus, der „wirkt", wenn man ihn richtig bedient. Zweitens lehrt die Kirche nicht, deshalb auf den Arzt zu verzichten – die meisten Pilger sind zugleich in Behandlung. Magie will Gott zwingen; Gebet vertraut sich ihm an. Und viele dieser Heiligen waren selbst Ärzte.`,
+                  detail: `Die koptische Kirche verehrt besonders die „Anargyroi", die uneigennützigen Ärzte-Heiligen, die Kranke unentgeltlich behandelten – Kosmas und Damian sowie Kyros (Abba Kyr) und Johannes aus Alexandrien. Nach der Überlieferung ließ der hl. Kyrill von Alexandrien ihre Reliquien nach Menouthis bei Abukir überführen, um einen heidnischen Heilkult abzulösen. Das ist bezeichnend: Die Kirche setzte nicht Magie gegen Magie, sondern stellte Ärzte als Vorbilder der Nächstenliebe vor Augen. Missbräuche – Geschäftemacherei, Aberglaube – hat sie selbst immer wieder getadelt.`,
+                  voices: [
+                    {
+                      person: 'kyros-johannes',
+                      role: 'als Ärzte-Märtyrer aus Alexandrien',
+                      text: `Nach der Überlieferung behandelte der Arzt Kyros in Alexandrien Kranke ohne Bezahlung und verband ärztliche Kunst mit Gebet und Verkündigung; der Soldat Johannes schloss sich ihm an, beide starben als Märtyrer. Ihre Verehrung zeigt, dass für die koptische Tradition Heilkunst und Heiligkeit keine Gegensätze sind: Der ideale Heilige kann ein Arzt sein.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Sophronius von Jerusalem', work: 'Thaumata (Wunderberichte) der hll. Kyros und Johannes', year: '7. Jh.', status: 'paraphrase', note: 'Hagiographische Quelle.' },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'chirurgie-verbot-klerus',
+          objection: `Die mittelalterliche Kirche hat Klerikern sogar die Chirurgie verboten – „ecclesia abhorret a sanguine". So wurde die Medizin jahrhundertelang gebremst.`,
+          objectionBy: 'Andrew Dickson White / Christopher Hitchens',
+          answer: `Das IV. Laterankonzil (1215) untersagte Klerikern höherer Weihen, an Operationen mit Schnitt und Brennen mitzuwirken – weil Priester kein Blut vergießen sollten, nicht weil Chirurgie sündhaft wäre. Ärzte und Wundärzte, die keine Kleriker waren, operierten weiter, und an kirchlich gegründeten Universitäten wurde Medizin gelehrt. Außerdem ist das eine Regel der lateinischen Kirche; die koptische Tradition ehrt Ärzte sogar als Heilige.`,
+          detail: `Die Formel „ecclesia abhorret a sanguine" ist als Konzilsbeschluss in dieser Form nicht belegt; sie wurde vermutlich erst im 18. Jahrhundert geprägt. Der eigentliche Kanon (Lateranum IV, Kanon 18) betrifft das Amt des Priesters, nicht die Medizin. Die Medizingeschichte zeigt im Gegenteil eine enge Verbindung von Kirche und Heilkunst: Klosterspitäler, Pflegeorden, im Osten die Hospitäler nach dem Vorbild des Basilius.`,
+          sources: [
+            { kind: 'konzil', work: 'IV. Laterankonzil', ref: 'Kanon 18', year: '1215', status: 'paraphrase', note: 'Verbot für Subdiakone, Diakone und Priester, chirurgische Eingriffe mit Schnitt oder Brennen vorzunehmen; westliches Konzil, für Kopten nicht maßgeblich.' },
+          ],
         },
       ],
     },
@@ -124,12 +178,36 @@ const claim: Claim = {
           objection: `Und Zeugen Jehovas lassen ihre Kinder lieber sterben, als eine Bluttransfusion zu erlauben.`,
           objectionBy: 'Christopher Hitchens',
           answer: `Die Deutung von Apg 15,29 als Transfusionsverbot wird von keiner historischen Kirche geteilt, und die Zeugen Jehovas lehnen auch zentrale christliche Lehren wie die Dreieinigkeit ab. Man kann die Medizinfeindlichkeit einer Sondergruppe nicht „der Religion" oder dem Christentum insgesamt anlasten. Fairerweise: Ihre Haltung hat die Entwicklung blutsparender Operationstechniken gefördert.`,
+          followUps: [
+            {
+              id: 'religioese-ausnahmen-gesetz',
+              objection: `Und in vielen US-Bundesstaaten gab es gesetzliche Ausnahmen, die Eltern bei „Glaubensheilung" vor Strafverfolgung schützten – durchgesetzt von religiösen Lobbys.`,
+              objectionBy: 'Rita Swan',
+              answer: `Das ist wahr und beschämend; diese Ausnahmen gingen vor allem auf die Lobbyarbeit der Christian Science zurück. Aber bezeichnend ist, wer dagegen kämpfte: Rita Swan, selbst ehemalige Christian Scientist, die ihren Sohn verlor, und mit ihr Ärzte, Juristen und viele Christen. Mehrere Staaten haben diese Ausnahmen inzwischen abgeschafft oder eingeschränkt. Kinderschutz ist keine antireligiöse Forderung, sondern eine christliche: „Lasset die Kindlein zu mir kommen" (Mk 10,14).`,
+              detail: `Für das Gespräch gilt: Gib zu, was stimmt, und unterscheide klar. Die Christian Science („Church of Christ, Scientist") lehrt, Krankheit sei eine Illusion des sterblichen Geistes – eine Lehre, die mit der biblischen Schöpfungslehre (die Welt und der Leib sind gut und real) und mit der Menschwerdung Christi unvereinbar ist. Die historischen Kirchen – orthodox, katholisch, evangelisch – haben solche Ausnahmen nicht verlangt. Die Kirche hat das Recht des Kindes auf Leben und Heilung immer über die religiöse Überzeugung der Eltern gestellt.`,
+              sources: [
+                { kind: 'gegner', author: 'Seth M. Asser & Rita Swan', work: '„Child fatalities from religion-motivated medical neglect", Pediatrics 101 (4)', ref: '625–629', year: '1998', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
         {
           id: 'koenig-asa',
           objection: `Die Bibel selbst tadelt König Asa, weil er Ärzte aufsuchte (2 Chr 16,12).`,
           objectionBy: 'Bibelkritiker',
           answer: `Lies genau: Asa „suchte nicht den HERRN, sondern die Ärzte". Getadelt wird das Vertrauen auf Ärzte **anstelle** von Gott, nicht der Arztbesuch. Dieselbe Bibel sagt in Sir 38 ausdrücklich: Bete zum Herrn, und dann lass den Arzt zu dir.`,
+          followUps: [
+            {
+              id: 'jakobus-gebet-statt-arzt',
+              objection: `Aber Jakobus 5 sagt: „Das Gebet des Glaubens wird dem Kranken helfen." Vom Arzt ist da keine Rede.`,
+              objectionBy: 'Bibelkritiker / Glaubensheiler',
+              answer: `Jakobus nennt Gebet **und** Salbung mit Öl (Jak 5,14) – und Öl war in der Antike auch ein Heilmittel: Der barmherzige Samariter goss Öl und Wein auf die Wunden (Lk 10,34). Jakobus stellt den Kranken in die Fürsorge der Gemeinde, er verbietet keine Behandlung. Die Kirche hat daraus das Sakrament der Krankensalbung gemacht, das sie spendet, während der Kranke ärztlich versorgt wird. Ein Brief, der Gebet empfiehlt, ist kein Verbot der Medizin – so wenig wie ein Arzt, der Ruhe verordnet, das Beten verbietet.`,
+              detail: `Die koptische Kirche feiert die Krankensalbung („Qandil", das Öl der Fürbitte) mit sieben Gebeten, Lesungen und Salbungen; oft wird sie in der Kirche für die ganze Gemeinde oder im Krankenhaus am Bett gespendet. Die Gebete bitten um Heilung von Leib und Seele und um Vergebung der Sünden – sie sehen den Menschen als Ganzes. Sir 38 verbindet beides ausdrücklich: Gebet, Umkehr, und dann „lass den Arzt zu dir, denn der HERR hat ihn geschaffen".`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '10,34', quote: `… ging zu ihm, verband ihm seine Wunden und goß darein Öl und Wein …`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -160,6 +238,40 @@ const claim: Claim = {
           answer: `Ein berechtigter Einwand, den die Forscher ernst nehmen: Sie verwenden prospektive Designs, kontrollieren für den früheren Gesundheitszustand und prüfen mit Sensitivitätsanalysen, wie stark ein unbekannter Störfaktor sein müsste, um den Effekt zu erklären. Das beweist nicht Gott – aber es widerlegt die Behauptung, Religion schade der Gesundheit.`,
           sources: [
             { kind: 'wissenschaft', author: 'Shanshan Li, Meir J. Stampfer, David R. Williams, Tyler J. VanderWeele', work: 'Association of Religious Service Attendance With Mortality Among Women', ref: 'JAMA Internal Medicine 176 (2016), 777–785', year: '2016', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'saekulare-laender-gesuender',
+              objection: `Schau auf die Länder: Japan, Schweden, Dänemark – höchst säkular und mit der besten Gesundheit und Lebenserwartung der Welt. Religiöse Länder schneiden schlechter ab.`,
+              objectionBy: 'Phil Zuckerman',
+              answer: `Ländervergleiche messen vor allem Wohlstand, Gesundheitssysteme und Ernährung – nicht den Glauben einzelner Menschen. Das ist der ökologische Fehlschluss: Aus Durchschnittswerten von Ländern kann man nicht auf Individuen schließen. Die entscheidende Frage ist, ob **innerhalb** derselben Gesellschaft religiös Praktizierende gesünder sind als andere – und genau das zeigen die großen Kohortenstudien. Übrigens sind die skandinavischen Gesundheitssysteme historisch aus kirchlicher Armen- und Krankenfürsorge gewachsen.`,
+              detail: `Die Global Flourishing Study (VanderWeele, Johnson u. a., 2025; rund 200.000 Teilnehmer in 22 Ländern) zeigt zudem, dass reiche Länder bei Lebenszufriedenheit und materieller Sicherheit vorne liegen, beim Erleben von Sinn und Bedeutung aber teils deutlich zurückfallen; regelmäßiger Gottesdienstbesuch hing in vielen Ländern mit höherem „Flourishing" zusammen. Mehr dazu im Claim „Säkulare Gesellschaften sind glücklicher".`,
+              voices: [
+                {
+                  person: 'vanderweele',
+                  role: 'als Epidemiologe und Leiter des Human Flourishing Program, Harvard',
+                  text: `VanderWeele betont den Unterschied zwischen Länder- und Individualdaten: Ob religiöse Praxis einem Menschen gesundheitlich nützt, lässt sich nur mit Längsschnittdaten von Individuen klären. In solchen Studien zeigen sich wiederholt Zusammenhänge zwischen Gottesdienstbesuch und geringerer Sterblichkeit, weniger Depression und weniger Suizid.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Tyler J. VanderWeele', work: '„Religion and Health: A Synthesis", in: Spirituality and Religion within the Culture of Medicine (Balboni & Peteet, Hg.)', year: '2017', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Vergleichst du gerade Glauben – oder Bruttoinlandsprodukt und Gesundheitssysteme?`,
+              ],
+              followUps: [
+                {
+                  id: 'religion-gegen-impfung',
+                  objection: `Und religiöse Gemeinschaften sind Brutstätten der Impfgegnerschaft – denk an Masernausbrüche in ultraorthodoxen oder freikirchlichen Gemeinden.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Solche Ausbrüche gab es, und sie sind tragisch. Aber Impfskepsis ist kein religiöses Monopol – sie ist in esoterischen und wohlhabenden säkularen Milieus mindestens ebenso verbreitet. Die historischen Kirchen haben keine Lehre gegen Impfungen; die koptische Kirche setzte zu Beginn der COVID-19-Pandemie 2020 sogar die öffentlichen Gottesdienste zeitweise aus, um Menschen zu schützen. Und historisch kämpfte gerade ein Pfarrer, Cotton Mather, als einer der Ersten für die Pockenimpfung.`,
+                  detail: `Bleib bei dem, was du sicher sagen kannst: Die historischen Kirchen haben keine Lehre gegen Impfungen; die Begründung der Nächstenliebe (andere schützen) spricht eher für sie. Wo Christen impfskeptisch sind, stammen ihre Gründe meist aus allgemeinem Misstrauen gegenüber Institutionen, nicht aus der Lehre der Kirche. Ehrlich: Manche Christen haben ethische Fragen zu Zelllinien aus abgetriebenen Föten gestellt; viele Kirchen halten die Impfung trotzdem für erlaubt, weil keine neue Abtreibung verursacht wird und der Schutz des Lebens überwiegt.`,
+                  questionsBack: [
+                    `Welche Kirche lehrt offiziell, dass Impfungen Sünde sind?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

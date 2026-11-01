@@ -116,6 +116,25 @@ const claim: Claim = {
               objection: `Streich einfach Gott, und das Problem verschwindet. Ohne Gott keine Sünde, ohne Sünde keine Schuldgefühle.`,
               objectionBy: 'Christopher Hitchens',
               answer: `Die Schuld gegenüber Menschen verschwindet nicht – wer einen Freund verraten hat, fühlt sich auch als Atheist schuldig, und zu Recht. Was verschwindet, ist die Möglichkeit einer endgültigen Vergebung. Säkulare Gesellschaften kennen öffentliche Anklage und Ächtung, aber kaum Rituale der Vergebung und des Neuanfangs. Das Christentum bietet beides: Ernst gegenüber der Schuld und eine Gnade, die größer ist als sie.`,
+              followUps: [
+                {
+                  id: 'schuld-als-anpassung',
+                  objection: `Auch die zwischenmenschliche Schuld ist kein Fenster zu einer moralischen Wirklichkeit. Schuldgefühle sind eine evolutionäre Anpassung: Sie bringen uns dazu, Beziehungen zu reparieren, damit andere weiter mit uns kooperieren. Trivers hat das schon 1971 beschrieben.`,
+                  objectionBy: 'Steven Pinker',
+                  answer: `Dass Schuldgefühle eine biologische Funktion haben, glaube ich gern – Gott hat uns als soziale Wesen geschaffen. Aber zu erklären, wozu ein Gefühl nützt, heißt nicht zu zeigen, dass es nichts Wirkliches erfasst; auch die Angst vor einem Abgrund ist nützlich *und* zutreffend. Wenn Schuld nur ein Kooperationssignal wäre, dann wäre die Schuld eines Täters an einem Völkermord letztlich nur ein Signal ohne Wahrheitsgehalt. Das glaubst du selbst nicht – und ich auch nicht.`,
+                  detail: `Robert Trivers beschrieb Schuld als Teil eines Systems emotionaler Anpassungen, das wechselseitigen Altruismus stabilisiert; Pinker greift das in „How the Mind Works" (1997) auf. Diese Erklärung des *Ursprungs* ist mit der christlichen Sicht vereinbar, solange man nicht den Schritt zum „nichts als" macht.
+
+Die christliche Deutung: Das Gewissen ist das in das Herz geschriebene Werk des Gesetzes (Röm 2,15). Es kann verbogen, abgestumpft oder überempfindlich werden – deshalb braucht es Bildung und Heilung –, aber es nimmt im Kern etwas Wirkliches wahr: dass wir einander und Gott etwas schulden.
+
+Gesprächshilfe: Frag, ob dein Gegenüber das Schuldbewusstsein von Tätern schwerer Verbrechen für eine bloße Fehlfunktion des Kooperationsmoduls hält – oder für eine angemessene Wahrnehmung.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Robert L. Trivers', work: 'The evolution of reciprocal altruism', ref: 'Quarterly Review of Biology 46 (1971), 35–57', year: '1971', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Steven Pinker', work: 'How the Mind Works', ref: 'Kap. 7', year: '1997', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Römer', ref: '2,15', status: 'paraphrase', quote: `Sie beweisen, des Gesetzes Werk sei beschrieben in ihren Herzen, sintemal ihr Gewissen sie bezeugt, dazu auch die Gedanken, die sich untereinander verklagen oder entschuldigen.` },
+                  ],
+                  questionsBack: [`Ist das Schuldgefühl eines Täters, der ein Kind verletzt hat, nur ein Signal – oder entspricht es einer Wahrheit über seine Tat?`],
+                },
+              ],
             },
           ],
         },
@@ -139,6 +158,34 @@ const claim: Claim = {
               objection: `Die Betroffenen leiden wirklich. Das kannst du nicht wegdiskutieren.`,
               objectionBy: 'Marlene Winell',
               answer: `Das will ich auch nicht. Wer unter Scham leidet, braucht zuerst Zuhören und oft auch therapeutische Hilfe. Seelsorglich hilft die Unterscheidung: Schuld für konkrete Taten kann bekannt und vergeben werden; diffuse Scham über die eigene Existenz und den eigenen Körper ist kein Werk Gottes, sondern eine Wunde, die Heilung braucht. Jesus hat Beschämte nie beschämt – denk an die Frau am Brunnen (Joh 4) oder die Ehebrecherin (Joh 8).`,
+              followUps: [
+                {
+                  id: 'religioeses-trauma-syndrom',
+                  objection: `Ich nenne es „Religious Trauma Syndrome": Angst, Albträume, Depression, Identitätsverlust nach dem Ausstieg aus einer autoritären Religion. Das ist ein eigenständiges Krankheitsbild, das eure Lehren hervorbringen.`,
+                  objectionBy: 'Marlene Winell',
+                  answer: `Die Erfahrungen, die du beschreibst, sind echt, und Menschen, die geistlichen Missbrauch erlebt haben, brauchen Hilfe – das sage ich ohne Einschränkung. Aber „Religious Trauma Syndrome" ist keine anerkannte Diagnose im DSM-5, sondern eine Beschreibung aus der Praxis, die vor allem auf Menschen aus sehr autoritären Gruppen zurückgeht. Die Forschung zeigt etwas Differenziertes: Belastend ist vor allem ein angstvolles, strafendes Gottesbild und „religiöser Kampf"; ein vertrauensvoller Glaube geht dagegen im Durchschnitt mit besserer seelischer Gesundheit einher.`,
+                  detail: `Kenneth Pargament und Harold Koenig haben gezeigt, dass „negatives religiöses Coping" – etwa das Gefühl, von Gott verlassen oder bestraft zu sein – mit schlechteren Gesundheitsverläufen zusammenhängt, in einer Studie sogar mit erhöhter Sterblichkeit bei schwer kranken älteren Patienten (Pargament u. a. 2001). Positives religiöses Coping (Vertrauen, Gemeinschaft, Sinn) hängt dagegen mit besseren Werten zusammen.
+
+Das heißt für die Seelsorge: Nicht der Glaube an sich, sondern ein verzerrtes, angstbesetztes Gottesbild und missbräuchliche Gemeindestrukturen schaden. Die Antwort ist nicht weniger Glaube, sondern ein Glaube, der Gott so kennt, wie Christus ihn gezeigt hat – als den Vater, der dem verlorenen Sohn entgegenläuft (Lk 15,20).
+
+Ehrlich bleiben: Manche Menschen haben in christlichen Gemeinden tiefe Verletzungen erlitten. Zuhören, Anerkennen und – wo nötig – professionelle Hilfe sind die erste Pflicht, nicht die apologetische Erwiderung.`,
+                  voices: [
+                    {
+                      person: 'koenig',
+                      role: 'als Psychiater und Religionsgesundheitsforscher',
+                      text: `Harold Koenig fasst in seinen Übersichtsarbeiten zusammen, dass Religiosität in der Mehrzahl der Studien mit weniger Depression, mehr Hoffnung und besserem Umgang mit Belastungen verbunden ist. Zugleich dokumentiert er die Schattenseite: Religiöse Kämpfe, Schuldangst und das Gefühl göttlicher Strafe können die Gesundheit belasten. Koenig plädiert dafür, dass Ärzte und Seelsorger diese Unterschiede kennen und negative religiöse Bewältigungsmuster behutsam ansprechen.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Harold G. Koenig', work: 'Religion, Spirituality, and Health: The Research and Clinical Implications', ref: 'ISRN Psychiatry 2012, Artikel 278730', year: '2012', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Marlene Winell', work: 'Leaving the Fold: A Guide for Former Fundamentalists and Others Leaving Their Religion', year: '1993', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'K. I. Pargament, H. G. Koenig, N. Tarakeshwar, J. Hahn', work: 'Religious struggle as a predictor of mortality among medically ill elderly patients', ref: 'Archives of Internal Medicine 161 (2001), 1881–1885', year: '2001', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn vor allem ein strafendes, angstvolles Gottesbild schadet – ist dann der Glaube das Problem oder ein verzerrtes Bild von Gott?`],
+                },
+              ],
             },
           ],
         },
@@ -155,6 +202,36 @@ const claim: Claim = {
           objection: `Ohne religiöse Inhalte hätten diese Menschen trotzdem weniger Leid.`,
           objectionBy: 'Robert Sapolsky',
           answer: `Das ist unwahrscheinlich: Zwangsstörungen suchen sich Inhalte, die einem Menschen wichtig sind; ohne Religion wären es andere. Für viele Betroffene ist ihr Glaube zugleich eine Ressource – die Gewissheit, dass Gott größer ist als ihr verurteilendes Herz (1 Joh 3,20), kann in der Therapie helfen.`,
+          followUps: [
+            {
+              id: 'strafender-gott-depression',
+              objection: `Es geht nicht nur um Zwangskranke. Studien zeigen: Menschen, die an einen strafenden Gott glauben, haben mehr Angst, mehr Depression, mehr Paranoia. Eure Lehre vom Gericht macht krank.`,
+              objectionBy: 'Robert Sapolsky',
+              answer: `Der Befund stimmt: Ein strafendes, zorniges Gottesbild hängt mit schlechterer seelischer Gesundheit zusammen, ein liebendes mit besserer. Aber das spricht nicht gegen den christlichen Glauben, sondern gegen ein Zerrbild davon. Christen glauben an den Gott, der sich in Jesus gezeigt hat: „Wer mich sieht, der sieht den Vater" (Joh 14,9). Die Väter nennen Christus den Arzt der Seelen; Gericht heißt in der Bibel, dass Unrecht nicht das letzte Wort hat – nicht, dass Gott auf unser Scheitern lauert.`,
+              detail: `Silton u. a. (2014) fanden in einer repräsentativen US-Stichprobe, dass der Glaube an einen strafenden Gott mit mehr psychiatrischen Symptomen (u. a. Angst, Paranoia, Zwanghaftigkeit) zusammenhing, der Glaube an einen liebenden Gott mit weniger. Das passt zu den Befunden über negatives und positives religiöses Coping.
+
+Orthodoxe Theologie betont stark das **therapeutische** Verständnis von Heil: Sünde ist vor allem Krankheit und Entfremdung, Christus der Arzt, die Kirche ein Krankenhaus, die Sakramente Heilmittel. Die koptische Liturgie bittet Gott immer wieder als den „Menschenliebenden" um Erbarmen. Das Gericht wird damit nicht geleugnet – es bleibt ernst –, aber es ist das Gericht dessen, der für die Gerichteten gestorben ist.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'N. R. Silton, K. J. Flannelly, K. Galek, C. G. Ellison', work: 'Beliefs about God and mental health among American adults', ref: 'Journal of Religion and Health 53 (2014), 1285–1296', year: '2014', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Johannes', ref: '14,9', status: 'paraphrase', quote: `Wer mich sieht, der sieht den Vater.` },
+              ],
+              followUps: [
+                {
+                  id: 'gesundes-gottesbild-wunschdenken',
+                  objection: `Jetzt suchst du dir einfach das freundlichere Gottesbild aus, weil es gesünder ist. Das ist Wunschdenken – und in eurer Bibel steht der zornige Gott genauso.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Nein – ich wähle das Gottesbild nicht danach, was gesünder ist, sondern danach, was Gott in Christus offenbart hat. Und das ist kein weichgezeichnetes Bild: Die Bibel spricht von Gottes Heiligkeit und seinem Zorn über das Böse, und das nehme ich ernst. Aber dieser Zorn ist die Kehrseite seiner Liebe zu den Opfern, nicht Launenhaftigkeit. Ob dieses Bild gesund ist oder nicht, entscheidet nicht über seine Wahrheit – das gilt für mich genauso wie für dich.`,
+                  detail: `Wichtig für die Redlichkeit: Ein Christ darf nicht argumentieren „Mein Glaube ist wahr, weil er gesund macht". Gesundheit ist kein Wahrheitskriterium. Das Argument ist bescheidener: Der Vorwurf, der christliche Glaube mache *notwendig* krank, trifft nicht zu, weil die schädlichen Muster einem Zerrbild entsprechen, das die Bibel selbst korrigiert („Furcht ist nicht in der Liebe", 1 Joh 4,18).
+
+Zur Frage des „zornigen Gottes" im Alten Testament siehe die Claims zur Gewalt im AT und zum Gottesbild. Die alexandrinische Tradition liest diese Texte im Licht Christi.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Johannes', ref: '4,18', quote: `Furcht ist nicht in der Liebe, sondern die völlige Liebe treibt die Furcht aus; denn die Furcht hat Pein. Wer sich aber fürchtet, der ist nicht völlig in der Liebe.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wenn Gesundheit kein Wahrheitskriterium ist – dürfen wir dann aus Studien über strafende Gottesbilder schließen, dass es keinen Gott gibt?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

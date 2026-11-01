@@ -121,6 +121,33 @@ const claim: Claim = {
               sources: [
                 { kind: 'wissenschaft', author: 'Pew Research Center', work: 'Religious Landscape Study 2023–24', year: '2025', status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'kohortenersatz-motor',
+                  objection: `Eine Stabilisierung ist nur ein Plateau. Der Motor der Säkularisierung ist der Generationenwechsel: Jede jüngere Kohorte ist weniger religiös als ihre Eltern, und religiöse Eltern geben ihren Glauben nur noch mit etwa halber Wahrscheinlichkeit weiter. Das läuft langsam, aber sicher.`,
+                  objectionBy: 'Steve Bruce / David Voas',
+                  answer: `Für Westeuropa beschreibt das die Entwicklung der letzten Jahrzehnte zutreffend – das gebe ich offen zu. Aber es ist eine Beschreibung, kein Naturgesetz: Ob eine Generation den Glauben weitergibt, hängt davon ab, wie er gelebt wird – nicht vom Bruttoinlandsprodukt. Global wirkt zudem die Gegenkraft der Demografie und der Bekehrungen: Die Mehrheit der Christen lebt heute im globalen Süden, wo die Gemeinden jung sind. Und die Soziologie hat schon einmal ein „Gesetz" verkündet und musste es widerrufen.`,
+                  detail: `Voas spricht von „fuzzy fidelity": Viele Menschen in Europa sind weder überzeugt religiös noch entschieden säkular, und diese lose Bindung wird schwächer weitergegeben. Daraus folgt eine ernste Aufgabe für Kirchen: Glauben nicht nur als Herkunft, sondern als gelebte Beziehung weiterzugeben – in der Familie, in der Liturgie, im Unterricht. Die koptische Kirche hat in Ägypten und in der Diaspora mit der Sonntagsschulbewegung (Habib Girgis, 20. Jahrhundert) genau darauf geantwortet und gilt als bemerkenswert lebendige Kirche mit vielen jungen Mitgliedern.
+
+Peter Berger, der die Säkularisierungsthese in den 1960ern selbst vertreten hatte, schloss später: Moderne führt nicht notwendig zu Säkularität, sondern zu **Pluralität** – Glaube wird weniger selbstverständlich und mehr zur bewussten Entscheidung.`,
+                  voices: [
+                    {
+                      person: 'peter-berger',
+                      role: 'als Religionssoziologe',
+                      text: `Berger argumentiert in *The Many Altars of Modernity* (2014), dass Modernisierung nicht zwangsläufig Religion verdrängt, sondern Pluralismus erzeugt: Menschen leben inmitten vieler Weltanschauungen, und Glaube wird zur Wahl statt zum Schicksal. Das schwächt ererbte, unreflektierte Religiosität – kann aber bewussten, persönlichen Glauben stärken.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Peter L. Berger', work: 'The Many Altars of Modernity: Toward a Paradigm for Religion in a Pluralist Age', year: '2014', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'David Voas', work: '„The Rise and Fall of Fuzzy Fidelity in Europe", European Sociological Review 25 (2)', year: '2009', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Ist der Generationenwechsel ein Naturgesetz – oder hängt er davon ab, wie Eltern und Gemeinden den Glauben leben?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -144,6 +171,30 @@ const claim: Claim = {
           sources: [
             { kind: 'wissenschaft', author: 'Edward J. Larson & Larry Witham', work: 'Leading scientists still reject God', ref: 'Nature 394 (1998), 313', year: '1998', status: 'paraphrase' },
           ],
+          followUps: [
+            {
+              id: 'ausnahmen-bestaetigen-regel',
+              objection: `Collins, Polkinghorne und Lemaître sind Ausnahmen, die die Regel bestätigen. Wer wirklich tief in die Wissenschaft eindringt, verliert den Glauben.`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Die Zahlen zeigen etwas anderes. Ecklunds weltweite Befragung fand, dass in mehreren Ländern die Mehrheit der Wissenschaftler religiös ist, und dass die meisten Wissenschaftler – auch nichtreligiöse – keinen grundsätzlichen Konflikt zwischen Wissenschaft und Religion sehen. Und historisch waren die Begründer der modernen Naturwissenschaft – Kopernikus, Kepler, Galilei, Boyle, Newton, Faraday, Maxwell, Mendel – überwiegend gläubige Christen. Das sind keine Ausnahmen, sondern ein großer Teil der Wissenschaftsgeschichte.`,
+              detail: `Ecklund und Kollegen befragten über 20.000 Biologen und Physiker in acht Regionen (u. a. Indien, Italien, Taiwan, Türkei, Hongkong, USA, Großbritannien, Frankreich) und führten zahlreiche Interviews. Ergebnis: Das Bild vom atheistischen Wissenschaftler stimmt vor allem für Teile der angelsächsischen und französischen Eliten; in anderen Ländern sind Wissenschaftler oft ähnlich religiös wie die Gesamtbevölkerung. Wichtig: Selbst wenn alle Wissenschaftler Atheisten wären, wäre das ein Argument aus Autorität – die Frage nach Gott ist keine naturwissenschaftliche Messfrage.`,
+              followUps: [
+                {
+                  id: 'experten-wissen-es-besser',
+                  objection: `Aber wenn die klügsten Köpfe einer Gesellschaft mehrheitlich nicht glauben, sollte dir das zu denken geben. Wir vertrauen Experten doch sonst auch.`,
+                  objectionBy: 'Steven Pinker',
+                  answer: `Wir vertrauen Experten **in ihrem Fach**. Einem Physiker glaube ich, was er über Quarks sagt – aber die Frage, ob es einen Grund des Seins gibt, ist eine philosophische Frage, in der er kein größerer Experte ist als ein Philosoph oder Theologe. Interessant ist: Unter Fachphilosophen, die sich beruflich mit der Gottesfrage beschäftigen (Religionsphilosophen), sind Theisten deutlich häufiger als unter Philosophen insgesamt. Die Kompetenz liegt also nicht eindeutig auf einer Seite.`,
+                  detail: `Nach der PhilPapers-Umfrage (Bourget & Chalmers) sind die meisten Philosophen insgesamt Atheisten, unter den Spezialisten für Religionsphilosophie aber bildet der Theismus eine Mehrheit. Skeptiker erklären das mit Selbstauswahl (Gläubige wählen das Fach), Theisten mit Sachkenntnis (wer die Argumente genau kennt, findet sie stärker). Für dich genügt: Expertenstatistiken entscheiden diese Frage nicht – die Argumente tun es. Darum lohnt es sich, sie kennenzulernen.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'David Bourget & David J. Chalmers', work: '„What Do Philosophers Believe?", Philosophical Studies 170', year: '2014', status: 'paraphrase', note: 'Befragung 2009; eine Folgeumfrage erschien 2023. Zahlen nach Fachgebiet unterscheiden sich deutlich.' },
+                  ],
+                  questionsBack: [
+                    `Ist ein Molekularbiologe automatisch ein Experte für die Frage, warum es überhaupt etwas gibt?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -158,6 +209,30 @@ const claim: Claim = {
           objection: `Also ist Religion eben doch nur Trost für Unsichere.`,
           objectionBy: 'Karl Marx (sinngemäß)',
           answer: `Das Christentum ist ein schlechter Trostspender: Es verlangt Selbstverleugnung, Feindesliebe und Verzicht (Lk 9,23). Und wenn Sicherheit den Glauben schwächt, kann das auch heißen, dass Wohlstand von den großen Fragen ablenkt – Jesus warnt im Gleichnis vom reichen Kornbauern genau davor (Lk 12,16–21). Ob Gott existiert, entscheidet weder Unsicherheit noch Wohlstand.`,
+          followUps: [
+            {
+              id: 'soziale-bedingtheit-gegen-wahrheit',
+              objection: `Die Soziologie zeigt, dass Glaube von Herkunft, Milieu und Lebenslage abhängt. Wer in Kairo geboren wird, wird Kopte oder Muslim, wer in Stockholm aufwächst, wird säkular. Eine Überzeugung, die so offensichtlich sozial bedingt ist, kann keinen Wahrheitsanspruch erheben.`,
+              objectionBy: 'Steve Bruce',
+              answer: `Dann gilt das auch für den Säkularismus: Wer in Stockholm aufwächst, wird eben säkular – ist der Unglaube deshalb falsch? Peter Berger nannte das „die Relativierer relativieren": Die Wissenssoziologie zeigt, wie Überzeugungen entstehen, aber sie gilt für alle Weltanschauungen gleichermaßen und entscheidet nicht, welche wahr ist. Die Wahrheitsfrage muss man mit Gründen prüfen – genau dazu lade ich ein.`,
+              detail: `Berger entwickelte diesen Gedanken in *A Rumor of Angels* (1969): Wenn alle Überzeugungen durch ihre soziale Umgebung „plausibel" gemacht werden, dann auch die moderne säkulare Weltsicht. Die Soziologie befreit uns damit von der Arroganz, die eigene Zeit für den Maßstab aller Wahrheit zu halten. Berger sprach von „Signalen der Transzendenz" im Alltag – Ordnung, Spiel, Hoffnung, Empörung über das Böse, Humor –, die über die rein natürliche Welt hinausweisen.
+
+Außerdem: Das frühe Christentum wuchs gerade **gegen** sein Milieu – in einer feindlichen Umwelt, unter Verfolgung. Die koptische Kirche hat ihren Glauben über Jahrhunderte als Minderheit unter Druck bewahrt; das passt schlecht zu der Vorstellung, Glaube sei bloßes Mitschwimmen in der Umgebung.`,
+              voices: [
+                {
+                  person: 'peter-berger',
+                  role: 'als Wissenssoziologe',
+                  text: `Berger zeigt in *A Rumor of Angels*, dass die Wissenssoziologie ein zweischneidiges Schwert ist: Sie relativiert nicht nur die Religion, sondern auch die Relativierer selbst. Wer die soziale Bedingtheit des Glaubens betont, muss die soziale Bedingtheit seines eigenen Unglaubens zugeben – und dann bleibt nur die ehrliche Prüfung der Gründe.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Peter L. Berger', work: 'A Rumor of Angels: Modern Society and the Rediscovery of the Supernatural', year: '1969', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn soziale Bedingtheit eine Überzeugung widerlegt – was folgt dann für deinen eigenen Säkularismus?`,
+              ],
+            },
+          ],
         },
       ],
     },

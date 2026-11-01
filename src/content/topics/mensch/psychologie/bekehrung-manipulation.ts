@@ -109,6 +109,24 @@ const claim: Claim = {
               objection: `Dann gib zu: Du glaubst nur, weil du zu deiner Gemeinschaft gehören willst.`,
               objectionBy: 'Richard Dawkins',
               answer: `Das ist ein Argument gegen meine Person, nicht gegen meine Gründe – und es lässt sich genauso umdrehen: Viele Atheisten gehören säkularen Milieus an, in denen Glaube peinlich wäre. Ich nenne dir gern meine Gründe: den Anfang des Universums, die Grundlage der Moral, die historischen Fakten um die Auferstehung. Und für viele Kopten bedeutet ihr Glaube eher sozialen Nachteil als Vorteil.`,
+              followUps: [
+                {
+                  id: 'creds-maertyrer',
+                  objection: `Gerade dein Hinweis auf Nachteile bestätigt die Kulturevolution: Menschen übernehmen Überzeugungen von Vorbildern, die kostspielig dafür einstehen – Fasten, Spenden, Martyrium. Das sind „glaubwürdigkeitssteigernde Signale". Eure Märtyrer sind der effektivste Verbreitungsmechanismus, den es gibt – mit Wahrheit hat das nichts zu tun.`,
+                  objectionBy: 'Joseph Henrich',
+                  answer: `Das Modell beschreibt gut, *wie* Überzeugungen weitergegeben werden – und es gilt für jede Überzeugung, auch für wissenschaftliche oder politische. Aber im Fall der ersten Christen standen die Zeugen nicht für eine Idee ein, sondern für etwas, das sie nach eigener Aussage gesehen hatten: den auferstandenen Jesus. Dass Menschen für eine Behauptung über ein selbst erlebtes Ereignis Leiden auf sich nehmen, ist in der Geschichtswissenschaft gerade ein Glaubwürdigkeitsmerkmal – Lügner sterben selten für ihre Lüge.`,
+                  detail: `Henrich (2009) führte das Konzept der „credibility enhancing displays" (CREDs) ein: Wer sieht, dass ein Vorbild kostspielig nach seiner Überzeugung handelt, übernimmt sie eher. Maij u. a. (2017) fanden in großen Stichproben, dass solche Signale in der Kindheit den Glauben an übernatürliche Akteure stark vorhersagen – stärker als Mentalisierungsfähigkeiten.
+
+Wichtig: Das ist ein Befund über **Übertragung**, nicht über **Wahrheit**. Auch Wissenschaftler übernehmen ihr Weltbild großenteils von Lehrern, denen sie vertrauen, die für ihre Sache Opfer gebracht haben. Das macht die Wissenschaft nicht falsch.
+
+Beim Ursprung des Christentums kommt hinzu: Die Apostel waren in einer einzigartigen Lage – sie wussten, ob sie Jesus nach seinem Tod gesehen hatten oder nicht. Ihre Leidensbereitschaft beweist nicht die Auferstehung, aber sie macht die Hypothese bewusster Erfindung sehr unwahrscheinlich. Siehe ‚psychiatrie/auferstehung-trauerhalluzination'.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Joseph Henrich', work: 'The evolution of costly displays, cooperation and religion: Credibility enhancing displays and their implications for cultural evolution', ref: 'Evolution and Human Behavior 30 (2009), 244–260', year: '2009', status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'D. L. R. Maij, F. van Harreveld, W. Gervais, Y. Schrag, C. Mohr, M. van Elk', work: 'Mentalizing skills do not differentiate believers from non-believers, but credibility enhancing displays do', ref: 'PLoS ONE 12 (2017), e0182764', year: '2017', status: 'paraphrase', note: 'Fünf kulturvergleichende Studien mit über 67.000 Teilnehmern (Prüfung Nov. 2026).' },
+                  ],
+                  questionsBack: [`Wenn Opferbereitschaft nichts über Wahrheit sagt – sagt sie dann etwas über Ehrlichkeit? Wofür starben die Apostel: für eine Idee oder für etwas, das sie gesehen zu haben behaupteten?`],
+                },
+              ],
             },
           ],
         },
@@ -135,6 +153,29 @@ const claim: Claim = {
               objection: `Psychischer Druck reicht schon: Wer geht, verliert Familie und Freunde.`,
               objectionBy: 'Darrel Ray',
               answer: `Das kann vorkommen, und Gemeinden dürfen Ausgetretene nicht ächten – das gebe ich zu und halte es für falsch. Aber dieser soziale Preis trifft Konvertiten *zum* Christentum oft noch härter, etwa ehemalige Muslime wie Nabeel Qureshi. Der Test für eine gesunde Gemeinschaft ist, ob sie jemanden in Würde gehen lässt – und ob sie die Tür für ihn offen hält, wie der Vater im Gleichnis vom verlorenen Sohn (Lk 15).`,
+              followUps: [
+                {
+                  id: 'bite-modell',
+                  objection: `Nach dem BITE-Modell erkennt man Gedankenkontrolle an der Kontrolle von Verhalten, Information, Denken und Emotionen. Eure Kirche schreibt vor, wann man fastet, wann man betet, was man isst, und verlangt Beichte beim Priester. Das ist Verhaltenskontrolle.`,
+                  objectionBy: 'Steven Hassan',
+                  answer: `Das Modell ist nützlich, aber es unterscheidet selbst zwischen frei gewählter Disziplin und aufgezwungener Kontrolle. Ein Sportler mit Trainingsplan oder ein Muslim im Ramadan wird nicht kontrolliert, solange er frei ist, einzusteigen, auszusteigen und Fragen zu stellen. Das koptische Fasten ist eine freiwillige Übung, die der Beichtvater an Gesundheit, Alter und Lebenslage anpasst – Kranke, Schwangere und Kinder sind ausgenommen oder erleichtert. Es gibt keine Informationssperre, keine Strafen und kein Verbot, Kritiker zu lesen.`,
+                  detail: `Steven Hassan, selbst ehemaliges Mitglied der Vereinigungskirche, entwickelte das BITE-Modell („Combating Cult Mind Control", 1988; „Freedom of Mind", 2012). Seine Kriterien sind eine echte Hilfe, um missbräuchliche Gruppen zu erkennen – auch christliche. Christen sollten sie nicht abwehren, sondern sich selbst daran messen.
+
+Prüffragen, die eine gesunde Gemeinde bestehen muss:
+- Darf ich kritische Literatur lesen und Fragen stellen, ohne Sanktionen?
+- Werden Zweifel seelsorglich begleitet oder bestraft?
+- Wird das Beichtgeheimnis geschützt oder Wissen zur Kontrolle benutzt?
+- Darf ich gehen, ohne verleumdet oder geächtet zu werden?
+- Sind Leiter rechenschaftspflichtig (1 Petr 5,3)?
+
+Die orthodoxe Tradition sieht in der Askese ein Mittel zur Freiheit: Wer über seine Begierden Herr wird, ist weniger manipulierbar, nicht mehr. Paulus vergleicht das mit dem Training eines Wettkämpfers (1 Kor 9,25–27).`,
+                  sources: [
+                    { kind: 'gegner', author: 'Steven Hassan', work: 'Freedom of Mind: Helping Loved Ones Leave Controlling People, Cults, and Beliefs', year: '2012', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '9,25–27', status: 'paraphrase', quote: `Ein jeglicher aber, der da kämpft, enthält sich alles Dinges … ich betäube meinen Leib und zähme ihn.` },
+                  ],
+                  questionsBack: [`Wenn jemand freiwillig fastet, jederzeit aufhören darf und dafür nicht bestraft wird – worin genau besteht dann die Kontrolle?`],
+                },
+              ],
             },
           ],
         },
@@ -174,6 +215,48 @@ const claim: Claim = {
           objectionBy: 'Richard Dawkins',
           answer: `In Westeuropa, ja. Weltweit wächst das Christentum dagegen, vor allem in Afrika und Asien, oft unter Verfolgung und ohne soziale Vorteile. Wahrheit ist aber keine Frage von Trends – sonst müsste sie sich je nach Kontinent ändern.`,
           detail: `Zur Säkularisierungsdebatte: ‚soziologie/saekularisierung-unaufhaltsam'.`,
+          followUps: [
+            {
+              id: 'existenzielle-sicherheit',
+              objection: `Das Wachstum im Süden erklärt sich durch Armut und Unsicherheit. Norris und Inglehart haben gezeigt: Wo Menschen existenziell sicher sind – Wohlstand, Gesundheit, Sozialstaat –, schwindet die Religion. Glaube ist eine Reaktion auf Not.`,
+              objectionBy: 'Steven Pinker',
+              answer: `Der Zusammenhang zwischen Wohlstand und Säkularisierung ist real, das gebe ich zu. Aber er ist nicht durchgängig: Die USA sind reich und vergleichsweise religiös, und in China wächst das Christentum gerade unter gebildeten Städtern, Unternehmern und Akademikern. Und selbst wenn Not Menschen für Gott öffnet, folgt daraus nicht, dass Gott eine Erfindung der Not ist – Wohlstand kann ebenso von den großen Fragen ablenken.`,
+              detail: `Norris und Inglehart („Sacred and Secular", 2004) zeigen anhand weltweiter Werteumfragen, dass Religiosität mit wachsender existenzieller Sicherheit tendenziell abnimmt. Das ist ein wichtiger soziologischer Befund. Kritiker weisen auf Ausnahmen und auf das Wachstum religiöser Bewegungen in modernisierenden Gesellschaften hin.
+
+Der Religionssoziologe Fenggang Yang beschreibt in „Religion in China" (2012) das starke Wachstum des Christentums in der Volksrepublik trotz staatlicher Einschränkungen, auch unter gut ausgebildeten Stadtbewohnern. Das passt schlecht zu der These, Glaube sei nur ein Produkt von Armut und Unbildung.
+
+Jesus selbst sprach davon, dass Reichtum den Zugang zu Gott erschweren kann (Mk 10,23–25) – die Beobachtung ist also nicht neu, nur ihre Deutung ist umstritten.`,
+              sources: [
+                { kind: 'gegner', author: 'Pippa Norris, Ronald Inglehart', work: 'Sacred and Secular: Religion and Politics Worldwide', year: '2004', status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Fenggang Yang', work: 'Religion in China: Survival and Revival under Communist Rule', year: '2012', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'bewaeltigung-statt-erkenntnis',
+                  objection: `Dann gib wenigstens zu: Wenn Religion vor allem dort blüht, wo Menschen Halt brauchen, ist sie eine Bewältigungsstrategie, keine Erkenntnis.`,
+                  objectionBy: 'Michael Shermer',
+                  answer: `Dass ich etwas brauche, macht es nicht falsch – Durst beweist zwar nicht, dass ich gerade Wasser habe, aber er passt zu einer Welt, in der es Wasser gibt. C. S. Lewis hat das so gesagt: Wenn wir ein Verlangen haben, das nichts in dieser Welt stillen kann, liegt die Erklärung nahe, dass wir für eine andere geschaffen sind. Das ist kein Beweis, aber es zeigt: Das Bedürfnis-Argument schneidet in beide Richtungen. Ob Gott existiert, müssen wir an den Gründen prüfen – nicht an der Frage, wem der Glaube hilft.`,
+                  detail: `Lewis entwickelt das sogenannte **Argument aus der Sehnsucht** in „Mere Christianity" (Buch III, Kap. 10) und in „The Weight of Glory". Es ist ein Plausibilitätsargument, kein strenger Beweis, und sollte auch so vorgetragen werden.
+
+Die Gegenfrage an den Skeptiker: Auch der Wunsch, dass es keinen Gott gibt, der Rechenschaft fordert, kann eine Überzeugung motivieren. Der Philosoph Thomas Nagel hat offen bekannt, er wolle nicht, dass es Gott gebe, und hoffe, dass er nicht existiere („The Last Word", 1997). Wünsche gibt es auf beiden Seiten – deshalb entscheiden sie nichts.`,
+                  voices: [
+                    {
+                      person: 'cs-lewis',
+                      role: 'als Denker über Sehnsucht und Wirklichkeit',
+                      text: `C. S. Lewis argumentiert, dass natürliche Wünsche in der Regel einem wirklichen Gegenstand entsprechen: Hunger dem Essen, Durst dem Wasser, Begehren der Liebe. Der Mensch trägt aber eine Sehnsucht in sich, die keine irdische Erfüllung stillt. Für Lewis ist das ein Hinweis – kein Beweis –, dass der Mensch für eine Wirklichkeit jenseits dieser Welt geschaffen ist; er warnt zugleich davor, diese Sehnsucht mit Ersatzbefriedigungen zu betäuben oder sie für Unsinn zu erklären.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Mere Christianity (Pardon, ich bin Christ)', ref: 'Buch III, Kap. 10 („Hope")', year: '1952', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Thomas Nagel', work: 'The Last Word', ref: 'Kap. 7', year: '1997', status: 'paraphrase', quote: `Ich will nicht, dass es einen Gott gibt; ich will nicht, dass das Universum so ist.`, note: 'Nagel ist Atheist; das Zitat zeigt ehrlich, dass auch Unglaube von Wünschen begleitet sein kann.' },
+                  ],
+                  questionsBack: [`Wenn Wünsche Überzeugungen verdächtig machen – wie steht es dann mit dem Wunsch, dass es keinen Gott gibt?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

@@ -111,6 +111,23 @@ const claim: Claim = {
               objectionBy: 'Victor Stenger',
               answer: `Wunder sind ihrem Wesen nach selten und zielgerichtet; dass man sie im Labor nicht reproduziert, ist genau das, was der Theismus erwartet. Die Belege für Wunder sind historisch und zeugnisbasiert, nicht experimentell. Ob es sie gibt, muss man an den konkreten Berichten prüfen – allen voran an der Auferstehung Christi.`,
               detail: `Siehe die Themenblöcke „Die Auferstehung Jesu" und „Medizin und Wunder".`,
+              followUps: [
+                {
+                  id: 'core-theory-schliesst-aus',
+                  objection: `Es geht nicht um Labore. Die „Core Theory" – Quantenfeldtheorie plus Allgemeine Relativität – beschreibt die Physik des Alltags vollständig. Jede neue Kraft, die auf Atome im Alltagsmaßstab wirkt, hätten wir längst in Experimenten gesehen. Ein Gott, der Moleküle bewegt, ist damit ausgeschlossen.`,
+                  objectionBy: 'Sean Carroll',
+                  answer: `Die Core Theory beschreibt, wie Teilchen sich verhalten, *wenn* nichts außerhalb der Physik auf sie einwirkt – genau das prüfen Experimente. Was sie nicht prüfen und nicht prüfen können, ist, ob ein personaler Schöpfer in seltenen, zielgerichteten Augenblicken handelt. Gott ist kein zusätzliches Feld mit einer Kopplungskonstante, das man in Beschleunigern messen könnte, sondern der Grund aller Felder. Dass er nicht als neue Kraft im Teilchendetektor auftaucht, ist genau das, was der christliche Glaube erwartet.`,
+                  detail: `Carroll formuliert in *The Big Picture* (2016) seine These, die Gesetze der Alltagsphysik seien vollständig bekannt; eine Seele oder ein Gott, der Materie bewegt, würde eine neue, messbare Wechselwirkung erfordern. Plantinga weist darauf hin, dass alle Naturgesetze einen stillschweigenden Vorbehalt enthalten: Sie beschreiben, was geschieht, *sofern das System kausal abgeschlossen ist*. Ob es das immer ist, ist keine Aussage der Physik, sondern der Metaphysik. Experimente zeigen die Verlässlichkeit der Natur im Normalfall – und die bestreitet niemand.`,
+                  voices: [
+                    { person: 'plantinga', role: 'als Wissenschaftsphilosoph', text: `Plantinga argumentiert, dass die klassische wie die Quantenphysik nirgends behaupten, das materielle Universum sei kausal abgeschlossen. Die Gesetze sagen, wie sich Materie verhält, wenn nichts von außen eingreift. Ein göttliches Handeln, das gelegentlich neue Ursachen setzt, verletzt deshalb kein Gesetz; es ändert nur die Ausgangsbedingungen, auf die die Gesetze angewendet werden.` },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sean Carroll', work: 'The Big Picture: On the Origins of Life, Meaning, and the Universe Itself', year: '2016', quote: `Die Gesetze, die der Physik des Alltagslebens zugrunde liegen, seien vollständig bekannt; jede zusätzliche Einwirkung auf Materie wäre experimentell aufgefallen.`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies', ref: 'Kap. 3–4', year: '2011', quote: `Naturgesetze beschreiben, wie sich Systeme verhalten, sofern sie kausal abgeschlossen sind; dass sie es immer sind, ist kein Ergebnis der Physik.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Welches Experiment könnte zeigen, dass ein personaler Schöpfer niemals in seltenen, zielgerichteten Momenten handelt?`],
+                },
+              ],
             },
           ],
         },
@@ -119,6 +136,20 @@ const claim: Claim = {
           objection: `Carrolls Blogbeitrag über das expandierende Universum hat nichts mit Wundern zu tun. Lokal gilt Energieerhaltung exakt.`,
           objectionBy: 'Physiker (Fachdiskussion)',
           answer: `Einverstanden – das gebe ich zu. Mein Punkt ist nur: Energieerhaltung ist keine metaphysische Notwendigkeit, sondern folgt aus einer Symmetrie für abgeschlossene Systeme. Lokal und abgeschlossen gilt sie exakt – und genau das bestreite ich nicht. Ein Wunder betrifft ein System, das in diesem Augenblick nicht abgeschlossen ist.`,
+          followUps: [
+            {
+              id: 'gott-bricht-eigene-gesetze',
+              objection: `Dann bricht Gott eben seine eigenen Gesetze. Ein Gesetzgeber, der seine Ordnung nach Belieben aussetzt, ist ein Willkürherrscher – und sein Gesetz ist nichts wert.`,
+              objectionBy: 'Sean Carroll',
+              answer: `Ein Wunder bricht kein Gesetz, es fügt der Natur ein neues Ereignis hinzu. C. S. Lewis' Beispiel: Wenn ich am Montag sechs Münzen in eine Schublade lege und am Dienstag noch sechs, sagen die Gesetze der Arithmetik, dass zwölf darin sind. Hat ein Dieb zwei herausgenommen, sind es zehn – aber die Arithmetik ist nicht gebrochen; es kam nur ein neuer Faktor hinzu. Und sobald das Neue in der Welt ist, folgt es denselben Gesetzen: Das vermehrte Brot wird verdaut wie jedes andere Brot.`,
+              detail: `Lewis entwickelt diesen Gedanken in *Wunder* (Miracles, 1947, Kap. 8 „Das Wunder und die Naturgesetze"): Die Gesetze sagen, was geschieht, wenn nichts eingreift; sie sind nicht selbst Ursachen und verbieten nichts. Ein Wunder ist deshalb kein Widerspruch gegen die Ordnung, sondern ein Ereignis, das die Natur sofort „aufnimmt" und gesetzmäßig weiterführt. Für die Väter ist das Wunder zudem kein Fremdkörper: Augustinus nannte die gewöhnliche Ordnung der Natur ein beständiges Wunder, das uns nur durch Gewohnheit nicht mehr staunen lässt.`,
+              voices: [
+                { person: 'cs-lewis', role: 'als Philosoph der Wunder', text: `Lewis betont, dass Wunder nicht gegen die Naturgesetze, sondern mit ihnen arbeiten: Gott setzt ein neues Ereignis in die Kette, und die Gesetze übernehmen es augenblicklich. Wunder seien daher keine Unterbrechung der Natur aus Laune, sondern bedeutungsvolle Handlungen, die das Wesen des Schöpfers zeigen – oft im Kleinen und Schnellen, was er im Großen und Langsamen ständig tut, etwa Wasser in Wein verwandeln.` },
+              ],
+              sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Miracles: A Preliminary Study', ref: 'Kap. 8', year: '1947', quote: `Ein Wunder bricht nicht die Gesetze der Natur; es führt ein neues Ereignis ein, das sofort von der Natur aufgenommen und nach ihren Gesetzen weitergeführt wird.`, status: 'paraphrase' }],
+              questionsBack: [`Bricht ein Dieb die Gesetze der Arithmetik, wenn er Münzen aus der Schublade nimmt?`],
+            },
+          ],
         },
       ],
     },
@@ -141,6 +172,20 @@ const claim: Claim = {
               objection: `Selbst dann: Augenzeugen sind unzuverlässig, religiöse erst recht.`,
               objectionBy: 'Richard Dawkins',
               answer: `Darum prüft man Zeugnisse mit historischer Methode: Mehrfachbezeugung, Nähe zum Ereignis, Zeugnisse von Gegnern, Kriterium der Peinlichkeit. Bei der Auferstehung gehören dazu die frühen Bekenntnisformeln (1 Kor 15,3–8), das leere Grab und die Bekehrung von Skeptikern wie Jakobus und Paulus.`,
+              followUps: [
+                {
+                  id: 'historiker-koennen-nicht',
+                  objection: `Historiker können ein Wunder per Definition nie als wahrscheinlichste Erklärung feststellen. Ein Wunder ist das Unwahrscheinlichste, was es gibt – also ist jede natürliche Erklärung, so unwahrscheinlich sie sein mag, immer wahrscheinlicher.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Das ist Humes Argument im Gewand des Historikers – und es entscheidet die Frage, bevor man die Quellen gelesen hat. Ein Wunder ist nur dann „das Unwahrscheinlichste", wenn man voraussetzt, dass es keinen Gott gibt, der handeln will. Ob es einen solchen Gott gibt, ist aber gerade die offene Frage. Eine Methode, die bestimmte Ergebnisse grundsätzlich ausschließt, ist keine neutrale Methode, sondern eine Weltanschauung.`,
+                  detail: `Ehrman vertritt diese Position etwa in seiner Debatte mit William Lane Craig (2006). Michael Licona hat in *The Resurrection of Jesus: A New Historiographical Approach* (2010) argumentiert, dass Historiker den methodischen Naturalismus nicht ungeprüft voraussetzen dürfen. Craig Keener hat in *Miracles* (2011) zudem eine große Zahl moderner, teils medizinisch dokumentierter Augenzeugenberichte gesammelt – nicht um jeden als Wunder zu beweisen, sondern um zu zeigen, dass die Annahme „gleichförmiger Erfahrung gegen Wunder" empirisch nicht stimmt: Hunderte Millionen Menschen berichten von Erfahrungen, die sie als Wunder deuten.`,
+                  voices: [
+                    { person: 'keener', role: 'als Neutestamentler und Historiker', text: `Keener zeigt in seiner zweibändigen Studie, dass Wunderberichte kein Relikt der Antike sind, sondern weltweit von gebildeten wie einfachen Menschen, oft mit ärztlicher Dokumentation, berichtet werden. Wer behauptet, alle diese Berichte seien von vornherein falsch, urteilt nicht historisch, sondern weltanschaulich. Ob ein bestimmtes Ereignis ein Wunder war, muss man im Einzelfall an den Belegen prüfen.` },
+                  ],
+                  sources: [{ kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Miracles: The Credibility of the New Testament Accounts', year: '2011', quote: `Zahlreiche zeitgenössische Augenzeugenberichte über außergewöhnliche Heilungen widerlegen die Annahme, die menschliche Erfahrung spreche einheitlich gegen Wunder.`, status: 'paraphrase' }],
+                  questionsBack: [`Ist eine Methode neutral, die das Ergebnis „Gott hat gehandelt" schon vor jeder Quellenprüfung ausschließt?`],
+                },
+              ],
             },
           ],
         },
@@ -158,6 +203,16 @@ const claim: Claim = {
           objection: `Die Antike war wundergläubig; Wunderberichte wurden leicht erfunden.`,
           objectionBy: 'Bart Ehrman',
           answer: `Es gab Wundergläubigkeit – und Skepsis. Die Evangelien selbst berichten von Zweiflern unter den Jüngern (Mt 28,17; Joh 20,25). Gerade die Auferstehung war für Juden wie Griechen anstößig (Apg 17,32). Ob ein konkreter Bericht glaubwürdig ist, muss man im Einzelfall prüfen, nicht durch ein Pauschalurteil über eine Epoche.`,
+          followUps: [
+            {
+              id: 'wunder-aller-religionen',
+              objection: `Alle Religionen berichten von Wundern – Heilungen bei Hindus, Muslimen, Katholiken, an Gräbern von Heiligen jeder Art. Wenn alle Wunder haben, heben sie sich gegenseitig auf. Keines beweist etwas.`,
+              objectionBy: 'Richard Dawkins (nach David Hume)',
+              answer: `Daraus, dass es viele Berichte gibt, folgt nicht, dass alle gleich gut belegt sind – man muss jeden einzeln prüfen, wie bei Zeugenaussagen vor Gericht. Und das Christentum behauptet nicht, Gott könne nur unter Christen handeln. Mein Glaube stützt sich nicht auf irgendein Heilungswunder, sondern auf ein bestimmtes, öffentlich behauptetes, früh bezeugtes Ereignis: die Auferstehung Jesu. Ob sie geschehen ist, entscheidet sich an den Belegen für genau dieses Ereignis, nicht an Berichten aus anderen Religionen.`,
+              detail: `Humes Argument der „sich widersprechenden Wunder" setzt voraus, dass jedes Wunder eine bestimmte Religion als allein wahr beweisen soll und alle Berichte gleich stark sind. Beides stimmt nicht. Die Auferstehung ist in der Religionsgeschichte einzigartig belegt: durch eine Bekenntnisformel, die wenige Jahre nach dem Ereignis entstand (1 Kor 15,3–8), durch die Bekehrung von Gegnern (Paulus) und Skeptikern (Jakobus) und durch den Umstand, dass die Jünger für ihr Zeugnis Verfolgung auf sich nahmen. Siehe den Themenblock „Die Auferstehung Jesu".`,
+              questionsBack: [`Sind alle Wunderberichte gleich gut bezeugt? Welcher andere Bericht hat Belege, die mit denen für die Auferstehung vergleichbar sind?`],
+            },
+          ],
         },
       ],
     },

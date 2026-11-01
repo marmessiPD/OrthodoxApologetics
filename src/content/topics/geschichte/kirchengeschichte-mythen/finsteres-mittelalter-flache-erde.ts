@@ -134,7 +134,7 @@ const claim: Claim = {
               id: 'philoponos-verurteilt',
               objection: `Und Philoponos wurde später als Häretiker verurteilt. So ging die Kirche mit ihrem besten Naturphilosophen um.`,
               objectionBy: 'Charles Freeman',
-              answer: `Verurteilt wurde Philoponos für seine Dreifaltigkeitslehre, die man als Tritheismus verstand – das byzantinische Konzil von 680/681 verwarf sie, und auch seine eigene miaphysitische Kirche lehnte diese Lehre ab. Seine Naturphilosophie verurteilte niemand: Seine Kritik an Aristoteles' Bewegungslehre – ein Körper bewegt sich durch eine ihm eingeprägte Kraft – wirkte über arabische und lateinische Gelehrte bis zu Galilei, der ihn ausdrücklich nennt. Eine theologische Streitfrage ist kein Feldzug gegen die Wissenschaft.`,
+              answer: `Verurteilt wurde Philoponos für seine Dreifaltigkeitslehre, die man als Tritheismus verstand – das byzantinische Konzil von 680/681 verwarf sie, und auch seine eigene miaphysitische Kirche lehnte diese Lehre ab. Seine Naturphilosophie verurteilte niemand: Seine Kritik an Aristoteles' Bewegungslehre – ein Körper bewegt sich durch eine ihm eingeprägte Kraft – gilt als Vorläufer der Impetustheorie, die über arabische und lateinische Gelehrte wie Buridan bis in die frühe Neuzeit wirkte. Eine theologische Streitfrage ist kein Feldzug gegen die Wissenschaft.`,
               voices: [
                 {
                   person: 'johannes-philoponos',
@@ -167,6 +167,38 @@ const claim: Claim = {
           objection: `Ohne die Kirche wären wir heute tausend Jahre weiter – vielleicht schon auf dem Mars.`,
           objectionBy: 'Carl Sagan',
           answer: `Das ist eine Spekulation, die sich nicht prüfen lässt. Die griechische Wissenschaft erreichte ihren Höhepunkt im 3. und 2. Jahrhundert v. Chr. und stagnierte danach – lange vor der Christianisierung; auch das Römische Reich brachte wenig theoretische Naturwissenschaft hervor. Die interessantere Frage ist, warum die neuzeitliche Wissenschaft gerade im christlichen Europa entstand. Viele Historiker sehen dafür Gründe im Glauben an einen vernünftigen Schöpfer.`,
+          followUps: [
+            {
+              id: 'sagan-bibliothek-hypatia',
+              objection: `In „Cosmos" habe ich gezeigt, wie es geschah: Die Christen zerstörten die Bibliothek von Alexandria und ermordeten Hypatia. Damit erlosch das Licht der antiken Wissenschaft.`,
+              objectionBy: 'Carl Sagan',
+              answer: `Hypatias Ermordung 415 war ein abscheuliches Verbrechen eines christlichen Mobs – das sage ich ohne Abstriche. Aber die große Bibliothek war längst untergegangen: Brände im Krieg Caesars, Kriege des 3. Jahrhunderts, Verfall. Und das Licht erlosch nicht: In Alexandrien lehrten nach Hypatia Ammonios, der Christ Johannes Philoponos und Stephanos von Alexandrien Philosophie und Mathematik bis ins 7. Jahrhundert. Sagans Szene ist großes Kino, aber keine Geschichte.`,
+              detail: `Ausführlich dazu der Claim zu Hypatia und der Bibliothek. Für dich wichtig: Gib das Verbrechen an Hypatia offen zu und korrigiere dann die Chronologie. Sokrates Scholastikos, ein christlicher Historiker, verurteilte die Tat schon im 5. Jahrhundert als unvereinbar mit dem Geist Christi.`,
+              followUps: [
+                {
+                  id: 'theophilus-serapeum',
+                  objection: `Aber 391 ließ euer Patriarch Theophilus das Serapeum zerstören – den großen Tempel mit seiner Tochterbibliothek. Christlicher Vandalismus ist keine Legende.`,
+                  objectionBy: 'Charles Freeman',
+                  answer: `Die Zerstörung des Serapeums war ein Akt religiöser Gewalt gegen ein berühmtes Heiligtum, und ich rechtfertige sie nicht – auch wenn die koptische Kirche Theophilus als Patriarchen ehrt. Ehrlich ist aber auch: Die Quellen schildern einen Aufruhr, in dem Heiden sich im Tempel verschanzten und gefangene Christen töteten; und keiner der Augenzeugen- oder Zeitberichte – Rufinus, Sokrates, Sozomenos, der Heide Eunapios – erwähnt Bücher. Ammianus spricht schon vorher von den Bibliotheken des Serapeums in der Vergangenheitsform. Zerstört wurde ein Tempel, nicht nachweislich eine Bibliothek.`,
+                  detail: `Hier zeigt sich, wie wichtig es ist, Unrecht und Legende auseinanderzuhalten: Die Gewalt gegen das Heiligtum war real und gehört zu den dunklen Kapiteln der alexandrinischen Kirchengeschichte. Der Vorwurf, dabei sei das gesammelte Wissen der Antike verbrannt, ist dagegen nicht belegt. Wer beides vermischt, schadet der historischen Wahrheit – und wer das Erste leugnet, auch.`,
+                  voices: [
+                    {
+                      person: 'sokrates-scholastikos',
+                      role: 'als christlicher Kirchenhistoriker des 5. Jahrhunderts',
+                      text: `Sokrates berichtet über die Zerstörung des Serapeums und die vorausgehenden Unruhen, ohne die Bischöfe zu schonen: Er schildert die Provokation der Heiden durch das öffentliche Zurschaustellen von Kultgegenständen und die anschließenden blutigen Kämpfe. Derselbe Autor nennt später den Mord an Hypatia eine Schande für die Kirche Alexandriens.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Sokrates Scholastikos', work: 'Kirchengeschichte', ref: 'V,16–17; VII,15', year: 'ca. 440', quote: `Bericht über die Unruhen und die Zerstörung des Serapeums unter Theophilus; Verurteilung des Mordes an Hypatia als Schande für die Kirche Alexandriens.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Rufinus von Aquileia', work: 'Kirchengeschichte', ref: 'XI,22–23', year: 'ca. 402', quote: `Augenzeugennaher Bericht über die Kämpfe am Serapeum und die Zerstörung des Kultbildes; Bücher werden nicht erwähnt.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Welche antike Quelle sagt, dass bei der Zerstörung des Serapeums Bücher verbrannt wurden?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -181,6 +213,39 @@ const claim: Claim = {
           objection: `Dann gibst du zu, dass die Bibel wissenschaftlich falsche Vorstellungen enthält.`,
           objectionBy: 'Richard Dawkins',
           answer: `Ich gebe zu, dass die biblischen Autoren die anschaulichen Vorstellungen ihrer Zeit benutzten. Die Väter nannten das Gottes „Herablassung": Gott spricht so, dass Menschen ihn verstehen. Die Inspiration betrifft das, was die Schrift lehren will – wer Gott ist, wer der Mensch ist, wie wir gerettet werden –, nicht die Kosmologie ihrer Bilder. Genau so lasen auch Augustinus, Galilei und die alexandrinische Tradition die Schrift.`,
+          followUps: [
+            {
+              id: 'raqia-festes-gewoelbe',
+              objection: `Das ist mehr als Bildsprache. Das hebräische *rāqîaʿ* in Genesis 1 ist ein festes Gewölbe, über dem Wasser lagert. Die biblischen Autoren glaubten an eine flache Erde unter einer Kuppel – wie alle ihre Nachbarn.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Dass die Bildwelt von Gen 1 dem altorientalischen Weltbild nahesteht, gebe ich zu – viele Alttestamentler, auch gläubige wie John Walton, sehen das so. Walton zeigt aber, dass Genesis 1 nicht den Bauplan der Welt beschreibt, sondern ihre Ordnung und Bestimmung: Gott ist der Herr über alles, was die Nachbarn als Götter verehrten. Schon Augustinus schrieb, der Geist Gottes habe die Menschen nicht über die Gestalt des Himmels belehren wollen, weil das zum Heil nichts beitrage. Die Schrift benutzt das Weltbild ihrer Zeit, sie lehrt es nicht.`,
+              voices: [
+                {
+                  person: 'augustinus',
+                  role: 'als Ausleger der Genesis',
+                  text: `In seinem großen Genesiskommentar warnt Augustinus Christen davor, sich vor Ungläubigen lächerlich zu machen, indem sie aus der Schrift naturkundliche Lehren ableiten, die der Erfahrung widersprechen. Über die Gestalt des Himmels sagt er, die biblischen Autoren hätten davon gewusst, was wahr ist, aber der Geist Gottes habe die Menschen darin nicht unterweisen wollen, weil es für das Heil nicht nützlich sei.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Augustinus', work: 'Über den Wortlaut der Genesis (De Genesi ad litteram)', ref: 'I,19,39; II,9,20', year: 'ca. 401–415', quote: `Der Geist Gottes habe die Menschen nicht über Dinge belehren wollen, die zum Heil nichts beitragen, wie die Gestalt des Himmels.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'John H. Walton', work: 'The Lost World of Genesis One', year: '2009', quote: `Genesis 1 beschreibt funktionale, nicht materielle Ursprünge: Gott ordnet den Kosmos als seinen Tempel.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'auferstehung-auch-bild',
+                  objection: `Wenn du das Weltbild der Bibel als zeitbedingte Verpackung abtust – warum nicht auch die Auferstehung? Die ist doch genauso antike Vorstellungswelt.`,
+                  objectionBy: 'Dan McClellan',
+                  answer: `Weil es auf die Aussageabsicht ankommt. Die Gestalt des Himmels ist der Hintergrund, vor dem erzählt wird; die Auferstehung ist das, was behauptet wird – mit Datum, Ort, Namen und Zeugen. Paulus sagt ausdrücklich: Wenn Christus nicht auferstanden ist, ist euer Glaube nichtig (1 Kor 15,17). Niemand in der Bibel sagt: Wenn das Himmelsgewölbe nicht fest ist, ist euer Glaube nichtig. Das Kriterium ist nicht willkürlich, sondern das, worauf der Text selbst alles setzt.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,17', quote: `Ist Christus aber nicht auferstanden, so ist euer Glaube eitel, so seid ihr noch in euren Sünden.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Wo knüpft die Bibel den Glauben an die Gestalt des Himmels – und wo an die Auferstehung?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

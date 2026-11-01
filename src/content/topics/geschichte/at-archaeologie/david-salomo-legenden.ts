@@ -152,7 +152,7 @@ const claim: Claim = {
                       role: 'als Ägyptologe',
                       text: `Kitchen vergleicht die biblischen Angaben zu Salomos Reichtum mit ägyptischen und mesopotamischen Königsinschriften. Er argumentiert, dass die Größenordnungen für einen Herrscher, der Handelswege zwischen Ägypten, Arabien und Syrien kontrollierte, nicht aus dem Rahmen fallen, und verweist auf die außergewöhnlichen Edelmetallstiftungen Osorkons I. um 920 v. Chr.`,
                       sources: [
-                        { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'Where Did Solomon\'s Gold Go? Biblical Archaeology Review 15/3', year: '1989', quote: `Die Edelmetallstiftungen Osorkons I. zeigen, dass Reichtum in der Größenordnung der salomonischen Angaben in der Region existierte; möglicherweise stammte ein Teil aus Schoschenks Beute.`, status: 'paraphrase' },
+                        { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'Where Did Solomon\'s Gold Go? (Sidebar). Biblical Archaeology Review 15/3 (Mai/Juni 1989)', year: '1989', quote: `Osorkon I. verzeichnete 924–921 v. Chr. auf einem Granitpfeiler in Bubastis Stiftungen von rund 383 Tonnen Gold und Silber an die Götter; möglicherweise stammte ein Teil aus Schoschenks Beute aus Jerusalem.`, status: 'paraphrase', url: 'https://library.biblicalarchaeology.org/sidebar/where-did-solomons-gold-go/', note: 'Heft und Kernaussage per Websuche bestätigt; die Verbindung zu Jerusalem ist Kitchens Folgerung, die Bubastis-Inschrift nur fragmentarisch erhalten.' },
                       ],
                     },
                   ],

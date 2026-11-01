@@ -96,6 +96,25 @@ const claim: Claim = {
               objection: `Hieronymus warf Origenes aber vor, er habe gelehrt, Seelen könnten sogar in Tiere übergehen.`,
               objectionBy: 'Esoterische Literatur',
               answer: `Das ist richtig, Hieronymus erhob diesen Vorwurf – und er ist ein Grund, warum Origenes' Werk „Über die Prinzipien" umstritten ist; es ist großenteils nur in der abmildernden lateinischen Übersetzung Rufins erhalten. Die Forschung diskutiert, wie weit Origenes solche Gedanken nur als Hypothese erwog. Selbst im ungünstigsten Fall wäre es eine Spekulation eines einzelnen Theologen, die die Kirche gerade nicht übernommen hat – kein verdrängter urchristlicher Glaube.`,
+              followUps: [
+                {
+                  id: 'praeexistenz-verboten',
+                  objection: `Mag sein – aber mit der Verurteilung der Präexistenz hat die Kirche 553 die logische Grundlage der Reinkarnation verboten. Ohne ein Vorleben der Seele kein Kreislauf. Das war der eigentliche Schnitt.`,
+                  objectionBy: 'Elizabeth Clare Prophet',
+                  answer: `Präexistenz und Reinkarnation sind verschiedene Lehren: Man kann ein Vorleben der Seele annehmen, ohne viele Erdenleben zu lehren – so Origenes selbst. Und die Ablehnung der Präexistenz war 553 nichts Neues: Gregor von Nyssa hatte schon um 380 beide Ideen zurückgewiesen, die Präexistenz ebenso wie die Seelenwanderung, weil Seele und Leib zusammen ins Dasein treten. Ehrlich ist auch: Ob die bekannten 15 Anathematismen gegen Origenes formell vom Konzil selbst oder in einer Vorversammlung beschlossen wurden, ist unter Historikern umstritten.`,
+                  voices: [
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Theologe der menschlichen Natur',
+                      text: `Gregor von Nyssa widmet in seiner Schrift über die Erschaffung des Menschen ein eigenes Kapitel der Frage, ob die Seelen vor den Leibern existierten. Er lehnt diese Annahme ebenso ab wie die Lehre, Seelen wanderten von einem Körper in andere, sogar in Tiere und Pflanzen: Der Mensch sei als Einheit von Seele und Leib geschaffen, und beide hätten einen gemeinsamen Anfang.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Über die Erschaffung des Menschen (De hominis opificio)', ref: '28–29', year: 'ca. 379', quote: `Zurückweisung sowohl der Präexistenz der Seelen als auch der Seelenwanderung; Seele und Leib haben einen gemeinsamen Ursprung.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [`Wenn die Kirche die Seelenwanderung erst 553 „verboten" hätte – warum lehnte Gregor von Nyssa sie schon 170 Jahre vorher ab?`],
+                },
+              ],
             },
           ],
         },
@@ -112,12 +131,48 @@ const claim: Claim = {
           objection: `Wenn Jesus sagt „Er ist Elia, der da kommen soll" (Mt 11,14), dann ist das doch Wiedergeburt.`,
           objectionBy: 'Elizabeth Clare Prophet',
           answer: `Reinkarnation setzt voraus, dass jemand stirbt und neu geboren wird. Elia ist nach der Bibel nie gestorben, sondern entrückt worden (2 Kön 2,11). Und bei der Verklärung erscheint Elia als er selbst neben Jesus (Mt 17,3) – zu einem Zeitpunkt, als Johannes bereits hingerichtet war. Jesus meint also: Johannes erfüllt die Rolle, die Maleachi für Elia angekündigt hatte (Mal 3,23–24).`,
+          followUps: [
+            {
+              id: 'josephus-pharisaeer-seelen',
+              objection: `Josephus berichtet, die Pharisäer hätten geglaubt, die Seelen der Guten gingen in andere Körper über. Das ist Reinkarnation – mitten im Judentum der Zeit Jesu.`,
+              objectionBy: 'Esoterische Literatur',
+              answer: `Josephus erklärt seinen griechischen Lesern den pharisäischen Glauben in deren philosophischer Sprache. Gemeint ist die Auferstehung: Die Gerechten erhalten einen neuen Leib, die Bösen ewige Strafe – kein Kreislauf vieler Leben. Das Neue Testament bestätigt das: Die Pharisäer glaubten an die Auferstehung (Apg 23,8). Die jüdische Lehre vom *Gilgul*, der Seelenwanderung, taucht erst in der mittelalterlichen Kabbala auf.`,
+              sources: [
+                { kind: 'juedisch', author: 'Flavius Josephus', work: 'Der Jüdische Krieg', ref: '2,163', year: 'ca. 75', quote: `Nach den Pharisäern sei jede Seele unvergänglich; die Seelen der Guten gingen in einen anderen Leib über, die der Bösen würden mit ewiger Strafe belegt.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '23,8', quote: `Denn die Sadduzäer sagen, es sei keine Auferstehung noch Engel noch Geist; die Pharisäer aber bekennen beides.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'herodes-johannes-zurueck',
+                  objection: `Und Herodes hielt Jesus für den wiedergekehrten Johannes; das Volk hielt ihn für Elia oder einen der Propheten (Mk 6,14–15; 8,28). Die Leute glaubten offensichtlich an Wiedergeburt.`,
+                  objectionBy: 'Shirley MacLaine',
+                  answer: `Gerade diese Stelle spricht gegen Reinkarnation: Jesus und Johannes waren Zeitgenossen, ungefähr gleich alt. Herodes meint nicht, Johannes sei als Kind neu geboren worden, sondern er sei „von den Toten auferstanden" – so steht es im Text. Das ist abergläubische Angst vor einer Rückkehr, keine Lehre von vielen Erdenleben. Wer Reinkarnation meint, müsste von einem Neugeborenen sprechen.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '6,14', quote: `Johannes der Täufer ist von den Toten auferstanden; darum tut er solche Taten.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie kann Jesus die Reinkarnation des Johannes sein, wenn beide gleichzeitig lebten?`],
+                },
+              ],
+            },
+          ],
         },
         {
           id: 'wiedergeburt-taufe',
           objection: `„Von neuem geboren werden" – das ist doch wörtlich Wiedergeburt.`,
           objectionBy: 'Esoterische Literatur',
           answer: `So hat es auch Nikodemus missverstanden: „Kann er denn wiederum in seiner Mutter Leib gehen?" (Joh 3,4). Jesus korrigiert ihn: Geburt aus Wasser und Geist, also durch die Taufe. Die koptische Kirche tauft deshalb durch dreimaliges Untertauchen – die neue Geburt geschieht in diesem Leben, durch Gottes Gnade, nicht durch einen Kreislauf von Leben.`,
+          followUps: [
+            {
+              id: 'palingenesia-mt-19',
+              objection: `In Matthäus 19,28 steht *palingenesia* – das Fachwort der Pythagoreer und Stoiker für Wiedergeburt. Da ist der Begriff noch erhalten.`,
+              objectionBy: 'Esoterische Literatur',
+              answer: `Lies den Satz: „in der Wiedergeburt, wenn des Menschen Sohn sitzen wird auf dem Stuhl seiner Herrlichkeit". Gemeint ist die Erneuerung der ganzen Welt am Ende der Zeit, wenn Christus richtet – nicht die Wanderung einer einzelnen Seele. Auch bei den Stoikern bezeichnet *palingenesia* vor allem die Erneuerung des Kosmos, und Josephus verwendet das Wort für die Wiederherstellung Israels nach dem Exil. In Titus 3,5 meint es die Taufe. Ein Wort mit mehreren Bedeutungen beweist keine Lehre.`,
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '19,28', quote: `Ihr, die ihr mir seid nachgefolgt, werdet in der Wiedergeburt, da des Menschen Sohn wird sitzen auf dem Stuhl seiner Herrlichkeit, auch sitzen auf zwölf Stühlen und richten die zwölf Geschlechter Israels.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Titus', ref: '3,5', quote: `Er machte uns selig durch das Bad der Wiedergeburt und Erneuerung des heiligen Geistes.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -149,6 +204,18 @@ const claim: Claim = {
           objection: `Die „Orthodoxen" waren eben die Sieger und haben die Geschichte geschrieben.`,
           objectionBy: 'Bart Ehrman (Lost Christianities)',
           answer: `Die Frage ist nicht, wer siegte, sondern was am Anfang stand. Die Paulusbriefe und Evangelien aus dem 1. Jahrhundert verkünden die leibliche Auferstehung (1 Kor 15; Lk 24,39); die gnostischen Texte mit Seelenwanderung sind deutlich jünger. Wer ältere Quellen durch jüngere ersetzt, um ein „ursprüngliches" Christentum zu finden, stellt die historische Methode auf den Kopf.`,
+          followUps: [
+            {
+              id: 'thomasevangelium-frueh',
+              objection: `Das Thomasevangelium könnte so alt sein wie die kanonischen Evangelien – und dort geht es nicht um Auferstehung, sondern um die Rückkehr der Seele zu ihrem Ursprung.`,
+              objectionBy: 'Elaine Pagels',
+              answer: `Die meisten Forscher datieren das Thomasevangelium ins 2. Jahrhundert, weil es die kanonischen Evangelien vorauszusetzen scheint; eine Frühdatierung ist eine Minderheitsmeinung. Vor allem aber: Auch Thomas lehrt keine Seelenwanderung durch viele Körper. Selbst die Schrift, die man gern als Alternative zum kirchlichen Christentum anführt, liefert also keinen Beleg für die Behauptung, Reinkarnation sei ursprünglich christlich gewesen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Simon Gathercole', work: 'The Gospel of Thomas. Introduction and Commentary', year: '2014', quote: `Das Thomasevangelium ist wahrscheinlich im 2. Jahrhundert entstanden und kennt synoptisches Material.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Welcher Spruch des Thomasevangeliums lehrt ausdrücklich, dass eine Seele in mehreren Körpern auf der Erde lebt?`],
+            },
+          ],
         },
       ],
     },
