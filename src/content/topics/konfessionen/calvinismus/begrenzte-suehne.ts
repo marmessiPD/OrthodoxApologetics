@@ -153,6 +153,109 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'hohepriester-fuerbitte',
+      objection: `„Opfer und Fürbitte des Hohepriesters gehören zusammen. Christus sagt in Joh 17,9: ‚Ich bitte nicht für die Welt, sondern für die, die du mir gegeben hast.' Für wen er nicht betet, für den ist er auch nicht gestorben."`,
+      objectionBy: 'John Owen / James White',
+      answer: `Joh 17,9 handelt von den Jüngern in dieser Stunde – und schon in Vers 20–21 weitet Jesus die Bitte aus, „damit die Welt glaube". Am Kreuz betet er für seine Henker: „Vater, vergib ihnen" (Lk 23,34). Und Paulus verknüpft Fürbitte und Sühne genau umgekehrt: Wir sollen „für alle Menschen" beten, weil Christus sich selbst gegeben hat „für alle zur Erlösung" (1 Tim 2,1–6).`,
+      detail: `Das Argument aus der Einheit von Opfer und Fürbitte ist eine Schlussfolgerung, kein Bibelwort. Der Hohepriester Israels opferte am Versöhnungstag für das ganze Volk – auch für die, die später abfielen. Und die neutestamentliche Fürbitte Christi ist nicht auf die Erwählten beschränkt: Er bittet für die, die ihn kreuzigen, und lehrt die Kirche, für Feinde und Herrscher zu beten. In der koptischen Liturgie betet die Kirche ausdrücklich für die ganze Welt, die Kranken, die Reisenden, die Herrscher – weil Christus „das Leben der Welt" ist (Joh 6,51).`,
+      sources: [
+        { kind: 'bibel', work: 'Lukas', ref: '23,34', quote: `Vater, vergib ihnen; denn sie wissen nicht, was sie tun!`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: '1. Timotheus', ref: '2,1–6', quote: `So ermahne ich nun, dass man vor allen Dingen zuerst tue Bitte, Gebet, Fürbitte und Danksagung für alle Menschen … der sich selbst gegeben hat für alle zur Erlösung.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [`Hat Jesus am Kreuz für Menschen gebetet, für die er nach deiner Lehre nicht gestorben ist?`],
+      followUps: [
+        {
+          id: 'fuer-viele-nicht-fuer-alle',
+          objection: `„Jesus selbst sagt: ‚Sein Leben zu geben zur Erlösung für viele' (Mk 10,45) und ‚mein Blut, vergossen für viele' (Mt 26,28). Er sagt ‚viele', nicht ‚alle'."`,
+          objectionBy: 'James White',
+          answer: `„Viele" (hebräisch *rabbim*) stammt aus Jes 53,11–12 und ist im semitischen Sprachgebrauch inklusiv: die große Menge, der Eine gegenübersteht. Paulus übersetzt Mk 10,45 selbst: Christus gab sich „als Lösegeld für **alle**" (1 Tim 2,6, *antilytron hyper pantōn*). Und in Röm 5,15–19 wechselt er zwischen „die vielen" und „alle Menschen" für dieselbe Gruppe.`,
+          detail: `Der lutherische Neutestamentler Joachim Jeremias hat gezeigt, dass „viele" in den Abendmahlsworten und in Mk 10,45 kein ausschließendes „nicht alle" meint, sondern die unzählbare Gesamtheit im Gegensatz zu dem Einen, der sich hingibt. Röm 5 zeigt das sprachlich eindeutig: „durch eines Ungehorsam sind viele Sünder geworden" (5,19) – das heißt alle (5,12.18).`,
+          voices: [
+            {
+              person: 'joachim-jeremias',
+              role: 'als Erforscher des semitischen Hintergrunds der Jesusworte',
+              text: `Jeremias weist nach, dass das hebräische und aramäische „die Vielen" einen inklusiven Sinn hat – die Gesamtheit, die dem Einzelnen gegenübersteht – und dass die Jesusworte über das Lösegeld und das Blut „für viele" auf Jes 53 zurückgreifen. Die Übersetzung „für alle" in 1 Tim 2,6 ist für ihn die sachgemäße Wiedergabe.`,
+              sources: [{ kind: 'fachliteratur', author: 'Joachim Jeremias', work: 'Die Abendmahlsworte Jesu', year: '1935, 4. Aufl. 1967', status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Römer', ref: '5,18–19', quote: `Wie nun durch eines Sünde die Verdammnis über alle Menschen gekommen ist, so ist auch durch eines Gerechtigkeit die Rechtfertigung des Lebens über alle Menschen gekommen … durch eines Ungehorsam sind viele Sünder geworden.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'alle-arten-von-menschen',
+              objection: `„In 1 Tim 2 bedeutet ‚alle' doch ‚alle Arten von Menschen' – Paulus nennt im selben Atemzug Könige und Obrigkeit. Gemeint ist: nicht nur einfache Leute, sondern Menschen aus allen Ständen."`,
+              objectionBy: 'John Piper',
+              answer: `Paulus sagt zuerst „für **alle Menschen**" und nennt die Könige dann als Beispiel innerhalb dieser Gesamtheit. Die Begründung reicht noch weiter: „Denn es ist **ein** Gott und **ein** Mittler zwischen Gott und den Menschen" (2,5). So universal wie der eine Gott ist, so universal ist der eine Mittler. Und Athanasius sagt schlicht: Der Logos hat seinen Leib „für alle" in den Tod gegeben, damit der Tod für alle aufgehoben werde.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '8–9', year: 'ca. 318', status: 'paraphrase', quote: `Er nahm einen Leib an, der sterben konnte, und gab ihn für alle in den Tod, damit durch seinen Tod alle vom Verderben befreit würden.` },
+              ],
+              followUps: [
+                {
+                  id: 'zwei-willen-in-gott',
+                  objection: `„Gott hat zwei Willen: einen Willen des Wohlgefallens, der alle Menschen gerettet sehen möchte, und einen Willen des Ratschlusses, der nur die Erwählten rettet. 1 Tim 2,4 beschreibt den ersten, die begrenzte Sühne folgt aus dem zweiten."`,
+                  objectionBy: 'John Piper („Are There Two Wills in God?")',
+                  answer: `Auch die Väter unterscheiden zwei Willen – aber anders: Johannes von Damaskus nennt Gottes **vorausgehenden** Willen, dass alle gerettet werden, und seinen **nachfolgenden** Willen, der auf die freie Weigerung des Menschen antwortet. Bei Piper dagegen wünscht Gott das Heil eines Menschen, beschließt aber selbst, ihm das Mittel dazu – den Tod Christi – vorzuenthalten. Dann wäre der Wunsch in 1 Tim 2,4 nicht aufrichtig.`,
+                  detail: `Die Unterscheidung des Damaszeners hält beide Seiten zusammen: Gott will ernsthaft das Heil aller und tut alles dafür; dass manche verloren gehen, liegt nicht an einem verborgenen Gegenbeschluss, sondern an der Ablehnung des Menschen. Die calvinistische Lösung verlegt den Widerspruch in Gott selbst. Frag ruhig: Was ist ein „Wunsch", den Gott jederzeit erfüllen könnte, aber von Ewigkeit her selbst durchkreuzt?`,
+                  voices: [
+                    {
+                      person: 'johannes-damaskus',
+                      role: 'als Systematiker der östlichen Väter',
+                      text: `Johannes von Damaskus unterscheidet in seiner Lehre von der Vorsehung den vorausgehenden Willen Gottes – sein Wohlgefallen, aus dem er alle retten und zum Guten führen will – vom nachfolgenden Willen, der Zulassung und gerechtes Gericht umfasst und durch die Schuld des Menschen veranlasst ist. Gott ist Ursache alles Guten, nicht aber des Bösen und des Verderbens.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Darlegung des orthodoxen Glaubens (Expositio fidei)', ref: 'II,29', year: '8. Jh.', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Wenn Gott das Heil eines Menschen wünscht, warum hat er dann beschlossen, für diesen Menschen kein Opfer bereitzustellen?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: '2-petr-2-1-erkauft',
+      objection: `„Du führst 2 Petr 2,1 an – die Irrlehrer ‚verleugnen den Herrn, der sie erkauft hat'. Aber dort steht *despotēs*, nicht Erlöser: Es geht um Gottes Besitzrecht als Schöpfer, nicht um die Sühne. Oder Petrus gibt nur den Anspruch der Irrlehrer wieder."`,
+      objectionBy: 'James White / reformierte Exegeten',
+      answer: `Das Verb „erkaufen" (*agorazō*) ist im Neuen Testament das Wort für die Erlösung durch Christi Blut: „Ihr seid teuer erkauft" (1 Kor 6,20; 7,23), „du hast uns Gott erkauft mit deinem Blut" (Offb 5,9). Petrus sagt also: Diese Menschen wurden von Christus erkauft – und gehen dennoch verloren, weil sie ihn verleugnen. Genau das schließt die begrenzte Sühne aus.`,
+      detail: `Petrus greift wohl Dtn 32,6 auf („Ist er nicht dein Vater und dein Herr?") – aber im Licht des Kreuzes. Die Deutung als bloßer Anspruch der Irrlehrer steht nicht im Text: Petrus spricht in eigener Stimme. Auch Hebr 10,29 spricht von einem, der „das Blut des Testaments unrein achtet, durch welches er geheiligt ist". Die Schrift rechnet mit Menschen, für die Christus starb und die diese Gabe verwerfen.`,
+      sources: [
+        { kind: 'bibel', work: '2. Petrus', ref: '2,1', quote: `… die da verleugnen den Herrn, der sie erkauft hat, und werden über sich selbst herbeiführen eine schnelle Verdammnis.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Offenbarung', ref: '5,9', quote: `Du bist erwürgt und hast uns Gott erkauft mit deinem Blut.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'verschwendetes-blut',
+          objection: `„Dann wäre Christi Blut für Millionen umsonst vergossen worden. Gott verschwendet das Blut seines Sohnes nicht."`,
+          objectionBy: 'Reformierter Prediger',
+          answer: `Ist die Liebe Gottes „verschwendet", wenn ein Mensch sie zurückweist? Der Vater im Gleichnis läuft dem Sohn entgegen, und der ältere Bruder bleibt draußen – doch die Einladung war echt (Lk 15,28–32). Christi Tod ist nie umsonst: Er offenbart Gottes Liebe zu allen, besiegt den Tod für die ganze menschliche Natur und macht jeden Menschen ohne Ausrede (Joh 3,18–19). „Verschwendung" ist eine Kategorie der Buchhaltung, nicht der Liebe.`,
+          detail: `Die koptische Kirche sieht im Kreuz nicht in erster Linie eine genau abgezählte Zahlung, sondern den Sieg über Tod und Teufel und die Heilung der Natur, die der Logos angenommen hat (Hebr 2,14–15). Weil der Logos die menschliche Natur angenommen hat, die allen gemeinsam ist, betrifft sein Tod und seine Auferstehung grundsätzlich alle: Alle werden auferstehen (1 Kor 15,22). Ob ein Mensch das Leben empfängt, entscheidet sich in der Annahme durch Glauben und Taufe.`,
+          followUps: [
+            {
+              id: 'dann-allversoehnung',
+              objection: `„Wenn Christus wirklich für alle gestorben ist und Gott alle retten will, landest du zwangsläufig bei der Allversöhnung des Origenes – die deine eigene Kirche verworfen hat."`,
+              objectionBy: 'James White',
+              answer: `Nein. Zwischen „nur für einige gestorben" und „alle werden automatisch gerettet" liegt die biblische Lehre: Christus starb für alle, das Heil wird in Freiheit angenommen. Die Allversöhnung leugnet die Freiheit des Menschen zum Nein, die begrenzte Sühne leugnet die Liebe Gottes zu allen – beide Systeme lösen eine Spannung auf, die die Schrift stehen lässt. Die koptische Kirche hält beides: allgemeine Erlösungstat, persönliche Annahme.`,
+              detail: `Die Logik „universal gemeint, also universal wirksam" teilen Calvinisten und Universalisten: Beide setzen voraus, dass Gottes Wille immer unwiderstehlich zum Ziel kommt. Der Calvinist begrenzt deshalb den Willen, der Universalist erweitert das Ergebnis. Die orthodoxe Lehre bestreitet die gemeinsame Voraussetzung: Gott hat sich in der Liebe selbst gebunden, die Freiheit des Geschöpfs zu achten.`,
+              followUps: [
+                {
+                  id: 'gottschalk-augustinus',
+                  objection: `„Die begrenzte Sühne ist nicht neu: Augustinus deutet 1 Tim 2,4 im Enchiridion einschränkend, und im 9. Jahrhundert lehrte Gottschalk von Orbais die doppelte Prädestination und eine Erlösung nur der Erwählten."`,
+                  objectionBy: 'Reformierter Kirchenhistoriker',
+                  answer: `Das stimmt – und lehrreich ist, wie die Kirche reagierte: Gottschalk wurde auf den Synoden von Mainz (848) und Quierzy (849) verurteilt, und Quierzy erklärte 853: Wie es keinen Menschen gibt, dessen Natur Christus nicht angenommen hat, so gibt es keinen Menschen, für den er nicht gelitten hat. Augustinus' einschränkende Deutungen blieben im Westen eine Einzelmeinung, im Osten wurden sie nie übernommen.`,
+                  detail: `Augustinus bietet im Enchiridion (Kap. 103) mehrere Auslegungen von 1 Tim 2,4 an, darunter „alle Arten von Menschen". Für die koptische Kirche ist Augustinus ein geachteter Lehrer mit Vorbehalt; in der Gnadenlehre folgt sie den östlichen Vätern. Bemerkenswert ist, dass selbst die lateinische Kirche des Mittelalters, die Augustinus hoch verehrte, die Konsequenz einer begrenzten Sühne bei Gottschalk zurückwies.`,
+                  sources: [
+                    { kind: 'konzil', work: 'Synode von Quierzy, Kapitel 4', year: '853', status: 'paraphrase', quote: `Wie es keinen Menschen gibt, gab oder geben wird, dessen Natur in ihm nicht angenommen war, so gibt es keinen Menschen, gab oder wird geben, für den er nicht gelitten hat.` },
+                    { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Enchiridion ad Laurentium', ref: '103', year: 'um 421', status: 'paraphrase', note: 'Augustinus deutet „alle" hier u. a. als „alle Arten von Menschen" – eine im Osten nicht übernommene Auslegung.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wen meint 2 Petr 2,1 mit den Irrlehrern, die „den Herrn verleugnen, der sie erkauft hat" – und wie können Erkaufte verloren gehen, wenn Christus nur für die Erwählten starb?`,

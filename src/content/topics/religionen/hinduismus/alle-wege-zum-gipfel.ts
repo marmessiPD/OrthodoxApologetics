@@ -108,6 +108,26 @@ const claim: Claim = {
                 `Hätte Ramakrishna auch eine Erfahrung gelten lassen, nach der Christus der einzige Herr ist?`,
                 `Wer entscheidet, dass die Erfahrungen „dieselben" waren – die Erfahrung selbst oder Ramakrishnas Deutung?`,
               ],
+              followUps: [
+                {
+                  id: 'erfahrung-statt-dogma',
+                  objection: `Religion ist Erfahrung, nicht Dogma. Ramakrishna hat Gott erfahren – du hast nur Bücher und Lehrsätze. Wer erfahren hat, weiß, dass alle Wege ankommen.`,
+                  objectionBy: 'Swami Vivekananda',
+                  answer: `Ich nehme mystische Erfahrung sehr ernst – die Wüstenväter Ägyptens haben das Christentum gerade als gelebte Erfahrung bewahrt. Aber Erfahrungen widersprechen einander: Der christliche Mystiker erfährt liebende Gemeinschaft mit einem Du, der Advaitin die Identität mit Brahman, der Buddhist das Erlöschen ohne Selbst. Wenn alle Erfahrungen gleich gültig sind, widerlegen sie sich gegenseitig. Erfahrung braucht einen Maßstab – und der Maßstab des Christentums ist eine öffentliche Geschichte: Jesus, gekreuzigt und auferstanden.`,
+                  detail: `Der Religionswissenschaftler R. C. Zaehner (Oxford) hat in seiner Untersuchung der Mystik gezeigt, dass sich mystische Erfahrungen nicht auf einen gemeinsamen Kern reduzieren lassen: Er unterschied Naturmystik (Einheit mit der Natur), monistische Mystik (Einheit mit dem eigenen Selbst als Absolutem) und theistische Mystik (liebende Vereinigung mit einem persönlichen Gott, in der die Unterscheidung bleibt). Die Behauptung „alle Mystiker erfahren dasselbe" ist also keine Beobachtung, sondern eine Deutung.
+
+Christlich gilt: Erfahrung und Lehre gehören zusammen. Der hl. Antonius lebte zwanzig Jahre in der Einsamkeit – und kam als Verteidiger des Glaubens von Nizäa wieder heraus. Die Erfahrung der Heiligen bestätigt die Lehre, ersetzt sie aber nicht.`,
+                  voices: [
+                    { person: 'antonius', role: 'als Vater der Mönche', text: `Antonius gilt als Urbild des christlichen Mystikers. Nach dem Bericht des Athanasius verließ er die Wüste, um in Alexandrien die Arianer zu widerlegen und den Glauben zu stärken. Für ihn war die Erfahrung Gottes nie von der Wahrheit über Christus zu trennen.`, sources: [
+                      { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '68–69', year: 'ca. 357', status: 'paraphrase', quote: `Antonius kommt nach Alexandrien, um gegen die Arianer zu zeugen, und lehrt, dass der Sohn Gottes kein Geschöpf ist.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'R. C. Zaehner', work: 'Mysticism Sacred and Profane', year: '1957', status: 'paraphrase', quote: `Unterscheidung zwischen Naturmystik, monistischer und theistischer Mystik; die mystischen Erfahrungen sind nicht alle gleich.` },
+                  ],
+                  questionsBack: [`Wenn ein Buddhist erfährt, dass es kein Selbst gibt, und ein Advaitin, dass das Selbst Brahman ist – welche Erfahrung hat recht?`],
+                },
+              ],
             },
           ],
         },
@@ -134,6 +154,21 @@ const claim: Claim = {
               objection: `Ob Jesus wirklich auferstanden ist, ist doch nebensächlich. Was zählt, ist die Liebe, die er lehrte.`,
               objectionBy: 'Sarvepalli Radhakrishnan (Linie)',
               answer: `Paulus sah das anders: „Ist aber Christus nicht auferstanden, so ist euer Glaube eitel" (1 Kor 15,17). Das Christentum steht und fällt mit einem geschichtlichen Ereignis – es lässt sich nicht auf eine allgemeine Liebesethik verkürzen. Wer Religionen respektieren will, muss ihr Selbstverständnis respektieren; und das Selbstverständnis des Christentums ist die Auferstehung.`,
+              followUps: [
+                {
+                  id: 'geschichte-begruendet-nichts',
+                  objection: `Zufällige Geschichtswahrheiten können nie ewige Wahrheiten begründen. Religion ist zeitlos. Wer sie an ein Ereignis in Palästina bindet, macht das Ewige vom Zufall abhängig.`,
+                  objectionBy: 'Sarvepalli Radhakrishnan (Linie)',
+                  answer: `Das ist selbst eine Lehre – die Lehre, dass Gott nicht in der Geschichte handeln kann oder will. Woher weißt du das? Wenn Gott Liebe ist, liegt es nahe, dass er nicht nur zeitlose Ideen schickt, sondern selbst kommt. Eine Liebe, die nur als Prinzip existiert, hat noch keinen Menschen getröstet. Das Christentum sagt: Das Ewige ist in die Zeit eingetreten. Ob das stimmt, ist eine Frage der Belege, nicht des Geschmacks.`,
+                  detail: `Der Einwand geht auf Lessings „garstigen breiten Graben" zurück und passt gut zur vedantischen Sicht, in der die Welt der Geschichte zur relativen Ebene (Vyavaharika) gehört. Aber er setzt voraus, was er beweisen soll. Lesslie Newbigin, der jahrzehntelang als Bischof in Südindien lebte und den Hinduismus aus nächster Nähe kannte, hat betont: Das Evangelium ist keine Weisheitslehre, die man vom Ereignis ablösen kann, sondern eine Nachricht – „öffentliche Wahrheit" über etwas, das geschehen ist. Wer sie auf zeitlose Prinzipien reduziert, hat sie nicht tolerant gedeutet, sondern ersetzt.`,
+                  voices: [
+                    { person: 'lesslie-newbigin', role: 'als Missionsbischof in Südindien', text: `Newbigin erlebte in Indien, dass Hindus Jesus gern als einen weiteren Ausdruck zeitloser Wahrheit aufnahmen. Er hielt dagegen, dass das Evangelium die Behauptung ist, dass in einer bestimmten Geschichte – Leben, Tod und Auferstehung Jesu – der Sinn der ganzen Weltgeschichte offenbar geworden ist. Diese Behauptung kann man ablehnen, aber nicht in eine zeitlose Idee umwandeln, ohne sie aufzugeben.`, sources: [
+                      { kind: 'fachliteratur', author: 'Lesslie Newbigin', work: 'The Gospel in a Pluralist Society', year: '1989', status: 'paraphrase', quote: `Das Evangelium ist öffentliche Wahrheit über geschichtliches Handeln Gottes, nicht private religiöse Erfahrung oder zeitlose Weisheit.` },
+                    ] },
+                  ],
+                  questionsBack: [`Woher weißt du, dass Gott nicht in der Geschichte handeln kann – aus der Geschichte oder aus einer Lehre?`],
+                },
+              ],
             },
           ],
         },
@@ -157,6 +192,27 @@ const claim: Claim = {
           objection: `Dann sag doch einfach, dass alle Wege gut sind. Das wäre wahre Liebe und würde Frieden stiften.`,
           objectionBy: 'Swami Vivekananda (Linie)',
           answer: `Liebe sagt die Wahrheit. Wenn ich glaube, dass eine Brücke eingestürzt ist, wäre es lieblos, dich nicht zu warnen – Schweigen wäre Gleichgültigkeit. Frieden entsteht nicht dadurch, dass wir so tun, als gäbe es keine Unterschiede, sondern dadurch, dass wir einander trotz der Unterschiede achten. Die Bibel nennt das: „wahrhaftig sein in der Liebe" (Eph 4,15).`,
+          followUps: [
+            {
+              id: 'bekehrung-stoert-frieden',
+              objection: `Gerade eure Mission stört den Frieden zwischen den Religionen. Gandhi hat die Proselytenmacherei scharf abgelehnt. Wer wirklich liebt, versucht niemanden zu bekehren.`,
+              objectionBy: 'Mohandas K. Gandhi (Linie)',
+              answer: `Ich verstehe die Sorge, und jeder Druck, jede Bestechung, jede Verachtung anderer ist Unrecht. Aber Gandhi selbst hat ein Leben lang andere überzeugen wollen – von Gewaltlosigkeit, von der Würde der Unberührbaren, von seiner Sicht der Religionen. Überzeugen ist nicht lieblos, sondern ein Zeichen von Respekt: Ich halte dich für fähig, Gründe zu prüfen. Liebe, die nie sagt, was sie für wahr hält, ist Gleichgültigkeit.`,
+              detail: `Christliches Zeugnis geschieht in Freiheit: „Seid allezeit bereit zur Verantwortung … mit Sanftmütigkeit und Furcht" (1 Petr 3,15). Die koptische Kirche hat über Jahrhunderte unter Druck gelebt und weiß, was erzwungene Bekehrung bedeutet – darum lehnt sie sie entschieden ab. Gleichzeitig ist die Freiheit, seinen Glauben zu teilen und zu wechseln, ein Menschenrecht (Allgemeine Erklärung der Menschenrechte, Art. 18).`,
+              sources: [
+                { kind: 'sonstiges', work: 'Allgemeine Erklärung der Menschenrechte', ref: 'Art. 18', year: '1948', status: 'paraphrase', quote: `Jeder hat das Recht auf Gedanken-, Gewissens- und Religionsfreiheit; dieses Recht schließt die Freiheit ein, seine Religion oder Überzeugung zu wechseln und sie öffentlich oder privat zu bekunden.` },
+              ],
+              followUps: [
+                {
+                  id: 'respekt-heisst-schweigen',
+                  objection: `Respekt heißt: Behalte deinen Glauben für dich. Religion ist Privatsache.`,
+                  objectionBy: 'Deepak Chopra (sinngemäß)',
+                  answer: `Dann müsstest du auch deine Überzeugung, dass alle Wege gleich sind, für dich behalten – du teilst sie gerade mit mir, und das ist völlig in Ordnung. Niemand hält Politik, Wissenschaft oder Ethik für reine Privatsache. Wenn eine Religion Aussagen über Gott, den Tod und das Heil macht, betreffen sie jeden. Respekt heißt nicht schweigen, sondern zuhören, ehrlich antworten und dem anderen seine Freiheit lassen.`,
+                  questionsBack: [`Ist deine Überzeugung, dass Religion Privatsache sei, auch Privatsache – oder willst du mich gerade davon überzeugen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -176,6 +232,25 @@ const claim: Claim = {
           answer: `Dann lautet die ehrliche Frage: Welche Mitte ist wahr? Das lässt sich prüfen – an der Geschichtlichkeit, an der Auferstehung, an der inneren Stimmigkeit der Lehre. Ich lade dich ein: Lies das Markusevangelium und frag dich, wer dieser Jesus ist. Ich bin bereit, die Gita mit dir zu lesen.`,
         },
       ],
+    },
+    {
+      id: 'blinde-und-elefant',
+      objection: `Kennst du das Gleichnis von den Blinden und dem Elefanten? Einer betastet den Rüssel und sagt „Schlange", einer das Bein und sagt „Säule". Jede Religion erfasst nur einen Teil der Wahrheit – keine das Ganze.`,
+      objectionBy: 'Swami Vivekananda / Karen Armstrong (sinngemäß)',
+      answer: `Ein schönes Gleichnis – aber achte auf den Erzähler: Er sieht den ganzen Elefanten. Nur so kann er sagen, dass die Blinden sich irren. Wer das Gleichnis benutzt, beansprucht also genau die Gesamtsicht, die er allen Religionen abspricht. Und übrigens: Im buddhistischen Original erzählt der Buddha es, um zu zeigen, dass die *anderen* Lehrer blind sind – nicht, dass alle recht haben.`,
+      detail: `Lesslie Newbigin hat auf diese Pointe hingewiesen: Das Gleichnis wird meist erzählt, um Bescheidenheit zu lehren, setzt aber einen Standpunkt voraus, der alle anderen überblickt. Die Frage ist dann nicht, *ob* jemand eine Gesamtsicht beansprucht, sondern *wer* einen begründeten Anspruch darauf hat. Christen sagen nicht, dass sie selbst den Elefanten sehen, sondern dass Gott selbst sich gezeigt hat – in Christus, der sagt: „Wer mich sieht, der sieht den Vater" (Joh 14,9).
+
+Im Pali-Kanon (Udana 6,4) streiten sich Asketen und Brahmanen verschiedener Schulen; der Buddha erzählt das Elefanten-Gleichnis, um zu zeigen, dass sie nur einen Teil sehen und darüber in Streit geraten – seine eigene Lehre stellt er dem gegenüber. Das Gleichnis ist also ursprünglich kein Plädoyer für Gleichwertigkeit.`,
+      voices: [
+        { person: 'lesslie-newbigin', role: 'als Kenner Indiens und der Religionen', text: `Newbigin weist darauf hin, dass das Elefantengleichnis nur funktioniert, weil der Erzähler nicht blind ist. Der Anspruch, die begrenzte Sicht aller Religionen zu durchschauen, ist selbst ein umfassender Wahrheitsanspruch – oft mit weniger Bescheidenheit, als den Religionen vorgeworfen wird.`, sources: [
+          { kind: 'fachliteratur', author: 'Lesslie Newbigin', work: 'The Gospel in a Pluralist Society', year: '1989', status: 'paraphrase', quote: `Das Gleichnis wird von jemandem erzählt, der den ganzen Elefanten sieht – und damit genau den Standpunkt beansprucht, den er den anderen abspricht.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'oestlich', work: 'Udana 6,4 (Tittha-Sutta)', status: 'paraphrase', quote: `Blinde betasten jeweils einen Teil eines Elefanten und streiten über seine Gestalt; so streiten die Lehrer anderer Schulen, weil sie nur einen Teil sehen.` },
+        { kind: 'bibel', work: 'Johannes', ref: '14,9', quote: `Wer mich sieht, der sieht den Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn alle blind sind – woher weißt du dann, dass es ein Elefant ist?`],
     },
   ],
   questionsToAsk: [

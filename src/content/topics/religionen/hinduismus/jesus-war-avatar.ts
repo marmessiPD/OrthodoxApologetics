@@ -139,6 +139,24 @@ const claim: Claim = {
               objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
               answer: `Weil Liebe sich erniedrigt. Gott wurde Mensch, um uns dort zu begegnen, wo wir sind – im Leid und im Tod (Phil 2,6–8). Der Gott, der über dem Leiden thront, kann den Leidenden nur von oben trösten; der Gott, der gekreuzigt wurde, ist bei ihm. Die Kirche sagt dabei sorgfältig: Der leidensunfähige Gott hat in seinem eigenen Fleisch gelitten (Kyrill) – nicht seine Gottheit wurde verwandelt, sondern er hat das Leiden wirklich zu seinem eigenen gemacht.`,
               questionsBack: [`Welcher Gott kann einem sterbenden Kind näher sein – einer, der den Tod nie kannte, oder einer, der ihn selbst erlitten hat?`],
+              followUps: [
+                {
+                  id: 'lila-statt-kreuz',
+                  objection: `Bei uns ist das Erscheinen Gottes *Lila* – göttliches Spiel, Freude, Schönheit. Warum musste es bei euch so blutig sein? Das klingt nach einem Gott, der Opfer braucht.`,
+                  objectionBy: 'A. C. Bhaktivedanta Swami Prabhupada (Linie)',
+                  answer: `Weil das Problem der Welt kein Spiel ist. Kinder sterben, Menschen werden gefoltert, der Tod nimmt uns alle. Ein Gott, der in dieser Welt nur spielt, berührt ihre Wunden nicht. Christus ist in den Tod hineingegangen, um ihn von innen zu entmachten – „damit er durch den Tod die Macht nähme dem, der des Todes Gewalt hatte" (Hebr 2,14). Gott brauchte kein Opfer, wir brauchten einen Retter.`,
+                  detail: `Die Schönheit der Krishna-Frömmigkeit – Musik, Tanz, Liebe – verdient Achtung. Aber die Lila-Vorstellung beantwortet nicht die Frage, die das Leid stellt. Athanasius erklärt in *De Incarnatione*, dass der Logos einen sterblichen Leib annahm, damit er sterben konnte, und dass er als der Unsterbliche den Tod in diesem Leib vernichtete. Das Kreuz ist darum kein Zugeständnis an einen blutrünstigen Gott, sondern der Sieg des Lebens über den Tod. Die koptische Liturgie singt in der Karwoche „Dein ist die Kraft und die Herrlichkeit" – am Kreuz, nicht trotz des Kreuzes, offenbart sich Gottes Macht.`,
+                  voices: [
+                    { person: 'athanasius', role: 'als Lehrer der Menschwerdung', text: `Für Athanasius konnte der Logos als Gott nicht sterben; darum nahm er einen Leib an, der sterben konnte, um ihn stellvertretend für alle in den Tod zu geben und durch seine Auferstehung allen die Unverweslichkeit zu schenken. Der Tod wurde nicht umgangen, sondern besiegt.`, sources: [
+                      { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'De Incarnatione', ref: '9', year: 'ca. 318', status: 'paraphrase', quote: `Da der Logos als Unsterblicher nicht sterben konnte, nahm er einen Leib an, der sterben konnte, um ihn für alle darzubringen.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Hebräer', ref: '2,14–15', status: 'paraphrase', quote: `Weil die Kinder Fleisch und Blut haben, hat auch er es angenommen, damit er durch den Tod die Macht nähme dem, der des Todes Gewalt hatte, und die erlöste, die durch Furcht vor dem Tod ihr Leben lang Knechte sein mussten.` },
+                  ],
+                  questionsBack: [`Was sagt die Lila-Vorstellung einer Mutter, deren Kind gestorben ist?`],
+                },
+              ],
             },
           ],
         },
@@ -189,6 +207,26 @@ const claim: Claim = {
               objection: `Die Evangelien haben Jesus nachträglich vergöttlicht. Der historische Jesus war ein Weisheitslehrer – genau wie ein indischer Guru.`,
               objectionBy: 'Deepak Chopra (unter Berufung auf liberale Bibelkritik)',
               answer: `Die frühesten Quellen sprechen dagegen. Schon Paulus – in Briefen etwa 20 Jahre nach Jesus – zitiert Bekenntnisse, die Jesus als Herrn neben dem einen Gott verehren (1 Kor 8,6; Phil 2,6–11), und das aramäische Gebet „Maranatha" („Unser Herr, komm!", 1 Kor 16,22) stammt aus der Jerusalemer Urgemeinde. Die Verehrung Jesu begann bei jüdischen Monotheisten in der ersten Generation, nicht Jahrhunderte später.`,
+              followUps: [
+                {
+                  id: 'paulus-hat-vergoettlicht',
+                  objection: `Dann war es eben Paulus, der Jesus vergöttlicht hat. Er kannte den historischen Jesus gar nicht und machte aus einem jüdischen Weisheitslehrer einen hellenistischen Gott.`,
+                  objectionBy: 'Deepak Chopra (unter Berufung auf liberale Bibelkritik)',
+                  answer: `Paulus sagt ausdrücklich, dass er das Bekenntnis „empfangen" hat (1 Kor 15,3). Er war zwei Wochen bei Petrus in Jerusalem und traf Jakobus, den Bruder des Herrn (Gal 1,18–19); später erkannten die Jerusalemer Säulen sein Evangelium an (Gal 2,9). Und das aramäische „Maranatha" zeigt: Die aramäisch sprechende Urgemeinde rief Jesus schon als Herrn an – lange bevor Paulus Briefe schrieb. Er hat die Verehrung Jesu vorgefunden, nicht erfunden.`,
+                  detail: `Die These vom „hellenistischen" Paulus stammt vor allem aus der religionsgeschichtlichen Schule um 1900 (Wilhelm Bousset). Sie gilt heute weitgehend als überholt. Larry Hurtado hat gezeigt, dass die Verehrung Jesu – Gebet zu ihm, Taufe auf seinen Namen, Anrufung im Gottesdienst – schon in den frühesten, jüdisch-christlichen Gemeinden geschah, und zwar bei Menschen, die streng am einen Gott Israels festhielten. Das ist historisch erklärungsbedürftig: Fromme Juden verehrten keinen Menschen neben Gott – es sei denn, sie waren überzeugt, dass Gott selbst dies verlangt, etwa durch die Auferweckung Jesu.
+
+Paulus selbst wäre der unwahrscheinlichste Erfinder: Er war ein strenger Pharisäer und Verfolger der Gemeinde, bis ihm nach eigenem Zeugnis der Auferstandene begegnete.`,
+                  voices: [
+                    { person: 'hurtado', role: 'als Erforscher der frühchristlichen Jesusverehrung', text: `Hurtado zeigt, dass die gottesdienstliche Verehrung Jesu ein „explosionsartig" frühes Phänomen innerhalb des jüdischen Monotheismus war – kein langsamer Prozess heidnischer Vergöttlichung über Generationen hinweg. Die Verehrung Jesu als Herr ist in den ältesten Texten bereits selbstverständlich vorausgesetzt.`, sources: [
+                      { kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', status: 'paraphrase', quote: `Die Verehrung Jesu entstand sehr früh und innerhalb jüdisch-monotheistischer Kreise, nicht erst durch spätere hellenistische Einflüsse.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Galater', ref: '1,18–19', quote: `Darnach über drei Jahre kam ich gen Jerusalem, Petrus zu schauen, und blieb fünfzehn Tage bei ihm. Der andern Apostel aber sah ich keinen außer Jakobus, des HERRN Bruder.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn Paulus Jesus vergöttlicht hätte – warum widersprechen ihm Petrus und Jakobus in diesem Punkt nirgends, obwohl sie über andere Fragen heftig stritten?`],
+                },
+              ],
             },
           ],
         },
@@ -205,6 +243,58 @@ const claim: Claim = {
           objection: `Trotzdem ist es arrogant zu sagen, nur Jesus sei der Weg.`,
           objectionBy: 'Sarvepalli Radhakrishnan (Linie)',
           answer: `Auch der Vedanta ordnet ein: Vivekananda sah im Dualismus eine Vorstufe, die im Advaita gipfelt – das Christentum steht da auf einer unteren Stufe. Jeder, der eine Wahrheit vertritt, hält Gegenteiliges für falsch. Die Frage ist nicht, ob jemand urteilt, sondern ob er es mit Gründen und in Demut tut. Und der Anspruch „Ich bin der Weg" stammt nicht von mir, sondern von Jesus.`,
+          followUps: [
+            {
+              id: 'mission-zerstoert-kultur',
+              objection: `Und dann kommt ihr mit Mission. Gandhi hat Bekehrungen abgelehnt – sie reißen Menschen aus ihrer Kultur und Familie. Das ist kultureller Imperialismus.`,
+              objectionBy: 'Mohandas K. Gandhi (Linie)',
+              answer: `Gandhis Sorge war berechtigt, wo Bekehrung mit Geld, Druck oder Verachtung der eigenen Kultur verbunden war – das lehne ich ebenso ab. Aber das Christentum ist in Indien nicht westlich: Die Thomaschristen in Kerala leben seit mindestens 1500 Jahren dort – ihre Liturgie ist syrisch, ihre Kultur indisch. Sadhu Sundar Singh blieb ein indischer Sadhu und folgte Christus. Und Indiens Verfassung schützt ausdrücklich das Recht, seinen Glauben zu bekennen, auszuüben und zu verbreiten.`,
+              detail: `Man sollte den Vorwurf nicht abtun: Es gab koloniale Missionsformen, die indische Kultur verachteten. Aber es gab auch das Gegenteil – Christen, die indische Sprachen verschriftlichten, Schulen für Dalits und Mädchen gründeten und die Witwenverbrennung bekämpften. Vishal Mangalwadi hat das ausführlich dargestellt.
+
+Wichtig ist der Unterschied zwischen Zwang und Zeugnis. Die Kirche lehnt jeden Zwang ab; der Glaube muss frei sein. Zeugnis dagegen ist eine Form von Respekt: Ich halte dich für fähig, Wahrheitsfragen selbst zu prüfen. Artikel 25 der indischen Verfassung garantiert jedem das Recht, Religion „frei zu bekennen, auszuüben und zu verbreiten" (*profess, practise and propagate*).`,
+              voices: [
+                { person: 'sundar-singh', role: 'als indischer Christ und Sadhu', text: `Sundar Singh betonte, dass Indien Christus nicht in europäischer Kleidung brauche. Er trug das safranfarbene Gewand des Sadhu, wanderte barfuß und predigte in indischen Bildern – und war gleichzeitig unbeirrbar in seinem Bekenntnis, dass Jesus der lebendige Herr ist. Sein bekanntes Bild: Indien brauche das Wasser des Lebens, aber in einer indischen Schale.`, sources: [
+                  { kind: 'fachliteratur', author: 'B. H. Streeter / A. J. Appasamy', work: 'The Sadhu: A Study in Mysticism and Practical Religion', year: '1921', status: 'paraphrase', quote: `Sundar Singhs Bild vom Wasser des Lebens, das Indien in einer indischen Schale gereicht werden müsse.`, note: 'Vielfach überlieferte Anekdote; als Bild, nicht als wörtliches Zitat verwenden.' },
+                ] },
+                { person: 'mangalwadi', role: 'als indischer Kulturhistoriker', text: `Mangalwadi zeigt, wie stark Bibelübersetzung und christliche Bildungsarbeit die modernen indischen Sprachen, das Schulwesen und die Reformbewegungen gegen Kastenunrecht und Witwenverbrennung geprägt haben. Für ihn hat das Evangelium Indiens Kultur nicht zerstört, sondern viele ihrer Schwächsten befreit.`, sources: [
+                  { kind: 'fachliteratur', author: 'Vishal Mangalwadi', work: 'The Book That Made Your World', year: '2011', status: 'paraphrase', quote: `Die Bibel als Kraft hinter Bildung, Sprachentwicklung und sozialen Reformen, auch in Indien.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'sonstiges', work: 'Verfassung der Republik Indien', ref: 'Art. 25 Abs. 1', year: '1950', original: 'all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion', quote: `Alle Personen haben gleichermaßen Anspruch auf Gewissensfreiheit und das Recht, Religion frei zu bekennen, auszuüben und zu verbreiten.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'theophanien-mehrfach',
+      objection: `Auch in eurer Bibel erscheint Gott mehrfach – Abraham bei Mamre, Mose im Dornbusch, Jakob im Ringkampf. Das sind doch auch Herabkünfte. Warum dann bei Jesus „ein für alle Mal"?`,
+      objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+      answer: `Die Erscheinungen im Alten Testament waren vorübergehend: Gott zeigte sich, sprach und zog sich zurück. Viele Väter, schon Justin, sahen darin den Logos, der seine Menschwerdung vorbereitete. Bei Jesus geschieht etwas anderes: Gott nimmt eine wirkliche menschliche Natur an – und legt sie nie wieder ab. Der Auferstandene fährt mit seinem verklärten Leib auf und wird „so kommen, wie ihr ihn gesehen habt" (Apg 1,11). Ein Avatar verlässt seine Gestalt; Christus bleibt Mensch.`,
+      detail: `Justin der Märtyrer argumentiert im *Dialog mit Tryphon*, dass der „Engel des Herrn", der Abraham, Jakob und Mose erschien, nicht der Vater war, sondern ein „anderer Gott und Herr", der Logos, der später Mensch wurde. Die alttestamentlichen Theophanien sind also Vorboten, keine Konkurrenz der Menschwerdung.
+
+Der entscheidende Unterschied zum Avatar-Gedanken: Nach der Gita bedient sich Krishna seiner Maya, um zu erscheinen (4,6), und kehrt nach getaner Arbeit in seine Welt zurück. In Christus dagegen ist die Menschheit mit der Gottheit „ohne Vermischung, ohne Verwandlung und ohne Trennung" geeint – für immer. Das bekennt die koptische Liturgie am Ende jeder Eucharistiefeier.`,
+      voices: [
+        { person: 'justin', role: 'als Apologet im Gespräch mit dem Judentum', text: `Justin zeigt Tryphon anhand der Theophanien, dass schon das Alte Testament einen von Gott dem Vater unterschiedenen, aber göttlichen Herrn kennt, der den Patriarchen erscheint. Für Justin ist dies der Logos, der in den letzten Tagen aus der Jungfrau Mensch wurde.`, sources: [
+          { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: 'Dialog mit dem Juden Tryphon', ref: '56–62', year: 'ca. 160', status: 'paraphrase', quote: `Der den Patriarchen erschien, ist ein anderer als der Schöpfer aller Dinge – der Zahl nach, nicht dem Willen nach: der Logos, der später Mensch wurde.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '1,11', quote: `Dieser Jesus, welcher von euch ist aufgenommen gen Himmel, wird kommen, wie ihr ihn gesehen habt gen Himmel fahren.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'warum-fuer-immer-mensch',
+          objection: `Warum sollte Gott für immer Mensch bleiben wollen? Ein Leib ist eine Begrenzung. Das Göttliche ist doch frei von jeder Form.`,
+          objectionBy: 'Swami Sarvapriyananda (sinngemäß)',
+          answer: `Weil es Gott nicht um einen Auftritt ging, sondern um Heilung. Gregor von Nazianz sagt: „Was nicht angenommen ist, ist nicht geheilt." Christus hat unsere Natur nicht wie ein Kostüm getragen, sondern sie mit sich vereint, damit sie in Gottes Leben hineingenommen wird. Darum ist der Leib im Christentum kein Gefängnis, das man abstreift, sondern Teil der Person, die auferstehen und verherrlicht werden soll. Das ist keine Begrenzung Gottes, sondern die Erhöhung des Menschen.`,
+          detail: `Hier liegt einer der tiefsten Unterschiede zwischen indischer und christlicher Spiritualität. Wenn die Form Begrenzung ist, dann ist das Ziel des Menschen, die Form – Leib, Individualität, Geschichte – zu überwinden. Wenn Gott selbst aber eine menschliche Natur für immer angenommen hat, dann ist das Ziel nicht die Auflösung, sondern die Verklärung. Athanasius fasst das Heil darin zusammen: „Er wurde Mensch, damit wir vergöttlicht würden" (De Inc. 54) – vergöttlicht durch Gnade, nicht aufgelöst in einem unpersönlichen Absoluten. Die Ikone des verklärten Christus auf dem Tabor zeigt dieses Ziel: menschliches Antlitz, von göttlichem Licht durchdrungen.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Brief 101 an Kledonios', original: 'τὸ γὰρ ἀπρόσληπτον, ἀθεράπευτον', quote: `Denn was nicht angenommen ist, ist nicht geheilt.`, status: 'verbatim', translation: 'eigene Übersetzung' },
+          ],
+          questionsBack: [`Wenn der Leib nur Begrenzung ist – warum fühlt sich die Liebe zwischen zwei konkreten Menschen nicht wie eine Begrenzung an, sondern wie Erfüllung?`],
         },
       ],
     },

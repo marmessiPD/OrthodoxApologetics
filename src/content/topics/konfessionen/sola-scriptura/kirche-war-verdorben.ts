@@ -214,6 +214,129 @@ Bemerkenswert: Calvin selbst greift dieses Bild der Kirche als Mutter auf (Insti
         },
       ],
     },
+    {
+      id: 'reformation-zurueck-zu-vaetern',
+      objection: `„Die Reformation war keine Neuerung, sondern eine Rückkehr zur frühen Kirche. Calvin und Melanchthon zitierten ständig die Väter. Wir sind die eigentlichen Erben der Katholizität – gegen die Verfälschungen des Mittelalters."`,
+      objectionBy: 'Gavin Ortlund',
+      answer: `Dann lass uns die Probe machen – nicht mit dem Mittelalter, sondern mit der frühen Kirche. Ignatius (um 110): Die Eucharistie ist das Fleisch Christi, und ohne den Bischof keine gültige Eucharistie. Justin (um 155): Brot und Wein sind Fleisch und Blut des fleischgewordenen Jesus. Die Didache (um 100): Fasten am Mittwoch und Freitag. Das Martyrium des Polykarp (um 156): Seine Gebeine sind „kostbarer als Edelsteine", sein Todestag wird gefeiert. Das ist nicht das Bild einer evangelikalen Gemeinde, sondern das der orthodoxen Kirche.`,
+      detail: `Gavin Ortlund (*What It Means to Be Protestant*, 2024) argumentiert, die Reformation sei im Kern eine Rückbesinnung auf die frühe Kirche und beanspruche zu Recht Katholizität. Dass die Reformatoren die Väter gut kannten und oft zitierten, stimmt – Calvin war ein exzellenter Patristiker.
+
+Gerade Calvin gibt aber ehrlich zu, wo die Väter gegen ihn stehen: Zum Gebet für die Verstorbenen räumt er in der *Institutio* (III,5,10) ein, dass es schon vor über tausend Jahren üblich war, meint aber, die Alten hätten darin menschlichem Brauch nachgegeben. Ähnlich verfuhren die Reformatoren mit dem Opfercharakter der Eucharistie, mit dem Bischofsamt in apostolischer Nachfolge und mit der Verehrung der Märtyrer. Wer die Väter dort zitiert, wo sie passen, und dort korrigiert, wo sie nicht passen, kehrt nicht zur frühen Kirche zurück – er benutzt sie.`,
+      voices: [
+        {
+          person: 'ignatius-antiochien',
+          role: 'als Bischof und Märtyrer, Schüler der apostolischen Generation',
+          text: `Ignatius schreibt auf dem Weg zum Martyrium an die Gemeinden Kleinasiens. Er warnt vor Doketisten, die sich von der Eucharistie fernhalten, „weil sie nicht bekennen, dass die Eucharistie das Fleisch unseres Erlösers Jesus Christus ist", und mahnt, nur die Eucharistie unter dem Bischof oder seinem Beauftragten sei gültig. Diese Zeugnisse stammen aus einer Zeit, in der noch Menschen lebten, die die Apostel gekannt hatten.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Smyrnäer', ref: '7,1; 8,1', year: 'um 110', quote: `Sie halten sich von Eucharistie und Gebet fern, weil sie nicht bekennen, dass die Eucharistie das Fleisch unseres Erlösers Jesus Christus ist … Jene Eucharistie gelte als zuverlässig, die unter dem Bischof oder einem von ihm Beauftragten stattfindet.`, status: 'paraphrase' },
+          ],
+        },
+        {
+          person: 'peter-gillquist',
+          role: 'als ehemaliger evangelikaler Leiter auf der Suche nach der Kirche des NT',
+          text: `Gillquist und eine Gruppe ehemaliger Mitarbeiter von Campus Crusade wollten in den 1970er-Jahren die Kirche des Neuen Testaments „wiederherstellen" und studierten dazu die frühen Väter. Sie fanden dort nicht die erwartete schlichte Hausgemeinde, sondern Bischöfe, Liturgie und Sakramente – und wurden 1987 in die orthodoxe Kirche aufgenommen. Ihre Erfahrung zeigt: Wer die frühe Kirche ehrlich liest, findet die Orthodoxie.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Peter E. Gillquist', work: 'Becoming Orthodox: A Journey to the Ancient Christian Faith', year: '1989', quote: `Bericht über den Weg evangelikaler Leiter, die beim Studium der frühen Kirche Liturgie, Bischofsamt und Sakramente entdeckten und orthodox wurden.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Gavin Ortlund', work: 'What It Means to Be Protestant: The Case for an Always-Reforming Church', year: '2024', quote: `Die Reformation als Erneuerung innerhalb der einen Kirche und Rückbesinnung auf das Zeugnis der frühen Kirche, nicht als Neugründung.`, status: 'paraphrase' },
+        { kind: 'gegner', author: 'Johannes Calvin', work: 'Institutio Christianae Religionis', ref: 'III,5,10', year: '1559', quote: `Calvin räumt ein, dass das Gebet für die Verstorbenen schon in der Alten Kirche Brauch war, urteilt aber, die Väter hätten darin menschlicher Gewohnheit nachgegeben.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', work: 'Martyrium des Polykarp', ref: '18,2–3', year: 'um 156', quote: `Wir sammelten seine Gebeine, die kostbarer sind als Edelsteine und wertvoller als Gold, und setzten sie bei, wo es sich gehörte; dort wollen wir uns versammeln und den Geburtstag seines Martyriums feiern.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welcher Vater der ersten drei Jahrhunderte lehrte ein rein symbolisches Abendmahl und eine Gemeinde ohne Bischof?`,
+        `Wenn Calvin zugibt, dass die Alte Kirche für die Verstorbenen betete – wer kehrt dann zur frühen Kirche zurück: er oder wir?`,
+      ],
+      followUps: [
+        {
+          id: 'schon-frueh-abgedriftet',
+          objection: `„Dann sind eben schon die frühen Väter abgedriftet. Die Väter sind keine Apostel. Das Abgleiten begann direkt nach dem Tod der Apostel – deshalb gilt nur die Schrift."`,
+          objectionBy: 'John MacArthur',
+          answer: `Dann bedenke den Preis: Dieselben Männer, die angeblich sofort abdrifteten, haben die Schriften des NT gesammelt, abgeschrieben, gegen Markion und die Gnostiker verteidigt und den Kanon erkannt, den du heute benutzt. Wenn die Kirche wenige Jahre nach dem Apostel Johannes in die Irre ging, dann hat Christi Verheißung versagt: „Die Pforten der Hölle sollen sie nicht überwältigen" (Mt 16,18) und „Ich bin bei euch alle Tage" (Mt 28,20). Die These vom frühen Totalabfall ist übrigens das Argument der Mormonen und der Zeugen Jehovas.`,
+          detail: `Irenäus von Lyon (um 180) war Schüler Polykarps, der wiederum den Apostel Johannes gekannt hatte. Er verweist gegen die Gnostiker gerade auf die öffentliche Nachfolge der Bischöfe in den apostolischen Kirchen als Garantie, dass die Lehre der Apostel unverfälscht bewahrt wurde (*Adversus Haereses* III,3,1–4). Ein Abfall „direkt nach den Aposteln" müsste also unter den Augen der Apostelschüler geschehen sein – ohne dass einer protestiert hätte.
+
+Ehrlich bleibt: Die Väter sind nicht unfehlbar, einzelne irrten. Aber dass **alle** Kirchen von Gallien bis Ägypten gleichzeitig und gleichförmig in denselben „Irrtum" (Eucharistie, Taufwiedergeburt, Bischofsamt) gefallen wären, ohne dass es eine Spur von Widerstand gibt, ist historisch unglaubwürdig.`,
+          voices: [
+            {
+              person: 'irenaeus',
+              role: 'als Schüler Polykarps und Zeuge der apostolischen Überlieferung',
+              text: `Irenäus beruft sich darauf, dass jeder, der die Wahrheit sehen will, die Überlieferung der Apostel in allen Kirchen der Welt finden kann; man könne die von den Aposteln eingesetzten Bischöfe und ihre Nachfolger bis in seine Zeit aufzählen. Polykarp, den er als Kind noch gehört hat, habe immer gelehrt, was er von den Aposteln gelernt hatte.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien (Adversus Haereses)', ref: 'III,3,1–4', year: 'um 180', quote: `Die Überlieferung der Apostel ist in der ganzen Welt offenkundig und in jeder Kirche für alle erkennbar, die die Wahrheit sehen wollen; wir können die von den Aposteln eingesetzten Bischöfe und ihre Nachfolger bis auf uns aufzählen.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Matthäus', ref: '28,20', quote: `Und siehe, ich bin bei euch alle Tage bis an der Welt Ende.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wenn die Kirche sofort nach den Aposteln abfiel – warum vertraust du dann dem Kanon, den diese „abgefallene" Kirche erkannt hat?`,
+            `Wodurch unterscheidet sich deine These vom frühen Abfall von der der Mormonen?`,
+          ],
+          followUps: [
+            {
+              id: 'israel-irrte-auch',
+              objection: `„Mt 16,18 verspricht nur, dass die Kirche nicht untergeht – nicht, dass sie nie irrt. Auch Israel fiel jahrhundertelang in Götzendienst, und doch blieb ein treuer Rest. So war es auch mit der Kirche vor der Reformation."`,
+              objectionBy: 'Gavin Ortlund',
+              answer: `Der Vergleich mit Israel ist lehrreich – aber er spricht gegen dich. Wenn Israel abfiel, schickte Gott Propheten, die zum **bestehenden** Bund zurückriefen: zu Tempel, Priestertum, Opfer, Festkalender. Kein Prophet gründete ein neues Israel ohne Priester und Tempel. Und der Neue Bund hat eine stärkere Verheißung: Der Geist bleibt „ewiglich" bei der Kirche (Joh 14,16) und führt sie „in alle Wahrheit" (Joh 16,13); die Kirche ist „Pfeiler und Grundfeste der Wahrheit" (1 Tim 3,15). Einzelne Bischöfe, sogar Patriarchen wie Nestorius, haben geirrt – die Kirche als Ganze nicht.`,
+              detail: `Ortlunds Argument ist ernst zu nehmen: Gott kann sein Volk durch dunkle Zeiten tragen, und Reform ist ein biblisches Motiv (Josia, Esra, Nehemia). Die koptische Kirche kennt solche Erneuerungen selbst – etwa die Sonntagsschulbewegung des hl. Habib Girgis im 20. Jahrhundert, die mit Bibelstudium, Katechese und Liturgie die Kirche erneuerte, ohne ihre Sakramente, ihr Priestertum oder ihren Glauben aufzugeben.
+
+Genau das ist der Unterschied zwischen **Reform** und **Rekonstruktion**: Josia ließ das Gesetzbuch im Tempel finden und erneuerte den Bund im Tempel mit den Priestern (2 Kön 22–23). Die Reformation dagegen schaffte vielerorts Priestertum, Opfercharakter der Eucharistie, Beichte, Krankensalbung und Fürbitte der Heiligen ab – das wäre so, als hätte Josia den Tempel abgerissen, um den Bund zu erneuern.`,
+              voices: [
+                {
+                  person: 'habib-girgis',
+                  role: 'als Erneuerer der koptischen Kirche durch die Sonntagsschulbewegung',
+                  text: `Habib Girgis erneuerte die koptische Kirche zu Beginn des 20. Jahrhunderts von innen: durch Katechese, Bibelunterricht für Kinder und Laien, die Ausbildung von Priestern im Seminar und die Rückbindung an Liturgie und Väter. Sein Weg zeigt, dass echte Reform innerhalb der Kirche geschieht und ihren Glauben vertieft, statt ihn umzubauen.`,
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '14,16', quote: `Und ich will den Vater bitten, und er soll euch einen andern Tröster geben, daß er bei euch bleibe ewiglich.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '2. Könige', ref: '23,2–3', quote: `Josia lässt das im Tempel gefundene Bundesbuch vor dem ganzen Volk, den Priestern und Propheten verlesen und erneuert den Bund im Haus des HERRN.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welcher Prophet Israels hat zur Erneuerung des Bundes das Priestertum und den Tempel abgeschafft?`,
+                `Wenn die Kirche jahrhundertelang irren konnte – woher weißt du, dass die Reformatoren nicht ebenfalls irrten?`,
+              ],
+              followUps: [
+                {
+                  id: 'arianische-krise',
+                  objection: `„Aber auch eure Alte Kirche irrte als Ganze: Im 4. Jahrhundert war die Mehrheit der Bischöfe arianisch. Hieronymus schreibt: ‚Der ganze Erdkreis seufzte und wunderte sich, dass er arianisch geworden war.' Die Wahrheit überlebte bei einer Minderheit – genau wie bei der Reformation."`,
+                  objectionBy: 'James White',
+                  answer: `Die arianische Krise beweist das Gegenteil. Die Wahrheit überlebte nicht bei einer neuen Gemeinschaft, die mit der Kirche brach, sondern **in** der Kirche: bei Athanasius, den Mönchen um den hl. Antonius, dem gläubigen Volk, der trinitarischen Taufformel und der Liturgie, die nie geändert wurde. Und die Kirche selbst stellte den Glauben wieder her – im Konzil von Konstantinopel 381 – durch Rückkehr zu Nizäa, nicht durch eine neue Lehre. Kein Nizäner gründete eine Kirche ohne Bischöfe und Sakramente.`,
+                  detail: `Der Hieronymus-Satz (*Dialog gegen die Luciferianer* 19) bezieht sich auf die Synoden von Rimini und Seleukia (359), wo Bischöfe unter kaiserlichem Druck eine zweideutige Formel unterschrieben. Hieronymus schildert das als Täuschung, nicht als Abfall der Kirche vom Glauben: Viele unterschrieben, ohne den arianischen Sinn zu erkennen, und widerriefen später.
+
+Wichtig ist der Unterschied der Lösungen: Athanasius wurde fünfmal verbannt und blieb dennoch Bischof seiner Kirche, in Gemeinschaft mit den rechtgläubigen Kirchen. Der hl. Antonius kam aus der Wüste nach Alexandria, um öffentlich gegen die Arianer zu zeugen. Die Krise wurde durch die Kirche – Väter, Mönche, Volk und schließlich ein Konzil – überwunden, nicht durch einen Bruch mit ihr. Das ist das Modell der **Reform von innen**, das die Orthodoxie bejaht.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Bekenner in der arianischen Krise',
+                      text: `Athanasius verteidigte das Bekenntnis von Nizäa gegen Kaiser und Synoden, oft fast allein unter den Bischöfen. Doch er berief sich nie auf ein privates Verständnis, sondern auf den Glauben, den die Kirche von den Aposteln empfangen und den die Väter in Nizäa bekannt hatten. Er blieb in der Kirche, litt für sie und sah den Glauben in ihr siegen.`,
+                    },
+                    {
+                      person: 'antonius',
+                      role: 'als Wüstenvater und Zeuge des Volksglaubens',
+                      text: `Nach der Lebensbeschreibung durch Athanasius verließ Antonius im hohen Alter die Wüste, um in Alexandria öffentlich zu bezeugen, dass der Sohn nicht ein Geschöpf, sondern ewig und eines Wesens mit dem Vater ist. Das Volk strömte zu ihm. Die Wahrheit lebte im Gebet und in der Askese der Kirche, auch als viele Bischöfe schwankten.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Leben des Antonius (Vita Antonii)', ref: '69–70', year: 'um 357', quote: `Antonius kommt nach Alexandria und verurteilt öffentlich die Arianer: Der Sohn Gottes ist kein Geschöpf, sondern ewiges Wort und Weisheit aus dem Wesen des Vaters.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Hieronymus', work: 'Dialog gegen die Luciferianer (Altercatio Luciferiani et Orthodoxi)', ref: '19', year: 'um 379', quote: `Der ganze Erdkreis seufzte und wunderte sich, dass er arianisch geworden war.`, original: `Ingemuit totus orbis, et Arianum se esse miratus est.`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Bezieht sich auf die Synoden von Rimini und Seleukia (359), deren Unterzeichner nach Hieronymus getäuscht wurden.' },
+                  ],
+                  questionsBack: [
+                    `Hat Athanasius in der arianischen Krise eine neue Kirche gegründet – oder blieb er Bischof der alten?`,
+                    `Wenn die Wahrheit 381 durch ein Konzil wiederhergestellt wurde: Warum sollte die Kirche später unfähig gewesen sein, sich ebenso von innen zu erneuern?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn die Kirche jahrhundertelang verdorben war – hat Christus dann seine Verheißung „alle Tage" (Mt 28,20) gebrochen?`,

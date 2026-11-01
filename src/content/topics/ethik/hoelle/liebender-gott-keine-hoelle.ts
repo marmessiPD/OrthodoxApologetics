@@ -190,6 +190,115 @@ Wichtig für den Ton: Wer diese Frage stellt, denkt meist an einen konkreten Men
           sources: [
             { kind: 'bibel', work: 'Jakobus', ref: '2,19', quote: `Du glaubst, daß ein einiger Gott ist? Du tust wohl daran; die Teufel glauben's auch und zittern.`, translation: 'Luther 1912', status: 'verbatim' },
           ],
+          followUps: [
+            {
+              id: 'hart-freiheit-zum-guten',
+              objection: `Du hast einen falschen, modernen Freiheitsbegriff. Für die Väter ist Freiheit die Ausrichtung auf das Gute – wer Gott, das Gute selbst, klar sieht und ihn ablehnt, ist nicht frei, sondern krank oder getäuscht. Ein Arzt, der einen Wahnsinnigen nicht heilt, „respektiert" keine Freiheit. Also wird Gott jeden heilen.`,
+              objectionBy: 'David Bentley Hart (That All Shall Be Saved)',
+              answer: `Hart hat recht, dass die Väter Freiheit als Ausrichtung auf das Gute verstehen – darin stimmen wir überein. Aber daraus folgt nicht, dass Gott den Willen von außen umpolen wird. Die Väter, die genau diesen Freiheitsbegriff hatten – Athanasius, Basilius, Kyrill, Chrysostomus –, lehrten trotzdem, dass ein Geschöpf sich endgültig verhärten kann. Heilung der Seele geschieht nach orthodoxem Verständnis synergetisch: Gnade und Wille wirken zusammen. Eine Heilung, bei der der Wille nur noch Objekt ist, wäre eine Neuschöpfung eines anderen Menschen, nicht die Rettung dieses Menschen.`,
+              detail: `Harts Buch ist das stärkste moderne Plädoyer für die Allversöhnung und verdient Respekt. Die koptische Kirche hat diese Hoffnung jedoch nie zur Lehre gemacht. Der Kern der Kontroverse: Hart hält eine endgültige Ablehnung des Guten für logisch unmöglich, weil der Wille von Natur aus das Gute will. Die Tradition antwortet: Der gefallene Wille kann ein Scheingut so lange vorziehen, bis er in dieser Wahl gefestigt ist – das ist die Lehre vom Fall der Engel. Wenn schon reine Geister, die Gott klarer sahen als jeder Mensch, ihn abgelehnt haben, ist die „Unmöglichkeit" einer endgültigen Ablehnung nicht bewiesen.
+
+Ehrlich bleibt: Unter den Vätern haben Gregor von Nyssa und Isaak der Syrer (in seinen späteren Schriften) die Rettung aller erhofft. Die Kirche erlaubt, für alle zu beten und zu hoffen; sie verbietet nur, die Allversöhnung als sicheres Dogma zu lehren.`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als Lehrer der Menschwerdung und der Freiheit',
+                  text: `Für Athanasius ist der Mensch durch den freien Willen von Gott weggegangen und in die Verderbnis gefallen (*De Incarnatione* 4–5). Der Logos wird Mensch, um den Menschen von innen zu erneuern – nicht, um den Willen zu überspringen. Die Erneuerung geschieht, indem der Mensch sich der Gnade öffnet. Athanasius kennt daher beides: die unendliche Menschenliebe des Logos und die Möglichkeit, sich dieser Liebe zu verweigern.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '4–5', year: 'ca. 318', quote: `Die Menschen wandten sich durch eigene Wahl vom Logos ab und fielen in die Verderbnis, die ihnen bei der Abwendung angedroht war.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Wenn ein endgültiges Nein zu Gott unmöglich ist – wie erklärst du den Fall der Engel, die Gott klarer sahen als wir?`,
+                `Ist ein Mensch, dessen Wille ohne seine Zustimmung umgestellt wird, noch derselbe Mensch, der gerettet wird?`,
+              ],
+              followUps: [
+                {
+                  id: 'engel-fall-mythos',
+                  objection: `Der Engelsturz ist ein Mythos und kein Argument. Ohne ihn bleibt: Kein vernünftiger, informierter Mensch wählt ewiges Elend. Wer es „wählt", ist nicht zurechnungsfähig – und Unzurechnungsfähige bestraft man nicht.`,
+                  objectionBy: 'Alex O\'Connor / David Bentley Hart',
+                  answer: `Dann lassen wir die Engel beiseite und schauen auf Menschen. Wir kennen Menschen, die klar wissen, dass ihr Hass sie zerstört, und ihn trotzdem festhalten, weil er ihnen Identität gibt. Das ist nicht Unzurechnungsfähigkeit, sondern das, was die Bibel Verhärtung nennt (Hebr 3,13). Niemand wählt „Elend" als solches – man wählt das eigene Ich auf dem Thron, und das Elend ist die Folge. Lewis' Bild: Die Türen der Hölle sind von innen verschlossen.`,
+                  detail: `Hier ist eine Unterscheidung hilfreich: Ein Mensch kann gleichzeitig wissen, was gut für ihn wäre, und es nicht wollen. Die Väter nennen das die Selbstliebe (*philautia*) als Wurzel aller Leidenschaften. Unser Rechtssystem bestraft auch niemanden nur deshalb nicht, weil seine Tat irrational war – Irrationalität ist nicht dasselbe wie Unfreiheit.
+
+Und: Die orthodoxe Lehre sagt nicht, dass Gott „Unzurechnungsfähige bestraft". Sie sagt, dass die Gegenwart Gottes von dem, der sie nicht lieben will, als Feuer erfahren wird. Das Gericht ist die Offenlegung dessen, was ein Mensch geworden ist.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Hebräer', ref: '3,13', quote: `… sondern ermahnet euch selbst alle Tage, solange es „heute" heißt, daß nicht jemand unter euch verstockt werde durch Betrug der Sünde.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Problem of Pain', ref: 'Kap. 8', year: '1940', quote: `Die Verdammten sind in gewissem Sinn erfolgreiche Rebellen bis zum Ende; die Türen der Hölle sind von innen verschlossen.`, original: `… the doors of hell are locked on the inside.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'ehrman-jesus-vernichtung',
+      objection: `Historisch betrachtet hat Jesus gar keine ewige Folter gelehrt. Er stand in der jüdischen Apokalyptik: Die Gottlosen werden am Ende vernichtet, nicht ewig gequält. Die Hölle als Folterort ist eine spätere Entwicklung – griechische Seelenvorstellungen, Petrus-Apokalypse, Dante. Ihr verteidigt nicht Jesus, sondern die Kirchengeschichte.`,
+      objectionBy: 'Bart D. Ehrman (Heaven and Hell, 2020)',
+      answer: `Ehrman hat recht, dass vieles im populären Höllenbild – Teufel mit Gabeln, Dantes Kreise – spätere Ausmalung ist, und die orthodoxe Kirche verteidigt dieses Bild nicht. Aber die ewige Dimension ist schon in Jesu eigenen Worten da: „Sie werden in die ewige Pein gehen, aber die Gerechten in das ewige Leben" (Mt 25,46) – dasselbe Wort *aiōnios* für beide Seiten. Und Ehrmans These, Jesus habe Vernichtung gelehrt, ist eine Deutung, kein Befund; viele Fachleute sehen das anders.`,
+      detail: `In Mt 25,46 stehen *kolasis aiōnios* („ewige Strafe/Pein") und *zōē aiōnios* („ewiges Leben") parallel. Wer das eine zeitlich begrenzt, muss es auch beim anderen tun. Mk 9,48 zitiert Jes 66,24 („ihr Wurm stirbt nicht, und ihr Feuer verlöscht nicht"), und Lk 16,19–31 setzt bewusstes Erleben nach dem Tod voraus.
+
+Fair ist: Unter evangelischen Theologen vertreten einige (John Stott vorsichtig, Edward Fudge) den Annihilationismus, gerade mit Verweis auf Mt 10,28 („Leib und Seele verderben"). Die koptische Kirche bekennt mit der Tradition die ewige Strafe; sie versteht sie aber nicht als Folterkammer, sondern als die endgültige Erfahrung der Gegenwart Gottes durch den, der diese Liebe zurückweist.`,
+      sources: [
+        { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Heaven and Hell: A History of the Afterlife', year: '2020', quote: `Ehrman argumentiert, Jesus habe eine Vernichtung der Gottlosen erwartet; die Vorstellung ewiger Qual sei erst später, unter griechischem Einfluss, ausgestaltet worden.`, status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '25,46', quote: `Und sie werden in die ewige Pein gehen; aber die Gerechten in das ewige Leben.`, translation: 'Luther 1912', status: 'verbatim', original: `καὶ ἀπελεύσονται οὗτοι εἰς κόλασιν αἰώνιον, οἱ δὲ δίκαιοι εἰς ζωὴν αἰώνιον.` },
+        { kind: 'bibel', work: 'Markus', ref: '9,48', quote: `… da ihr Wurm nicht stirbt und ihr Feuer nicht verlöscht.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn *aiōnios* in Mt 25,46 bei der Strafe „vorübergehend" heißt – warum nicht auch beim Leben im selben Satz?`,
+        `Welches Bild der Hölle lehnst du eigentlich ab – Dantes oder das der Kirche?`,
+      ],
+      followUps: [
+        {
+          id: 'aionios-bedeutet-zeitalter',
+          objection: `*Aiōnios* heißt wörtlich „zum Zeitalter gehörig", nicht „endlos". Und in Mt 25,46 kann „ewige Strafe" eine Strafe mit ewiger Wirkung sein – eine Vernichtung, die nie rückgängig gemacht wird. Dann ist Jesus Annihilationist.`,
+          objectionBy: 'Bart D. Ehrman / David Bentley Hart',
+          answer: `*Aiōnios* bezeichnet das, was zum kommenden Äon, also zu Gottes Welt, gehört – und dieser Äon endet nicht. Darum heißt dasselbe Wort beim Leben „ewig". Die Deutung „Strafe mit ewiger Wirkung" ist möglich und wird von einigen ernsthaften Christen vertreten; aber sie ist nicht die Lesart der Väter, die Griechisch als Muttersprache sprachen. Basilius, Chrysostomus und Kyrill lasen Mt 25,46 als dauernden Zustand.`,
+          detail: `Basilius der Große argumentiert in seiner *Kleineren Regel* (Frage 267) gegen Leute, die meinten, die Strafe sei nicht endlos: Wenn die Strafe einmal ende, müsse auch das ewige Leben enden, denn der Herr gebrauche dasselbe Wort. Hart hält das für einen Fehler der späteren Tradition; aber dann muss er zugeben, dass er die Mehrheit der griechischen Väter gegen sich hat.
+
+Für das Gespräch mit einem Laien genügt: Die Bibel spricht von etwas Endgültigem. Ob man es als bewusstes Getrenntsein oder als Vernichtung ausmalt – in beiden Fällen ist die Frage, wie ein liebender Gott das zulässt, dieselbe, und die Antwort bleibt: Liebe zwingt nicht.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Kürzere Regeln (Regulae brevius tractatae)', ref: 'Frage 267', year: 'um 370', quote: `Wenn es einmal ein Ende der ewigen Strafe gäbe, dann gäbe es zweifellos auch ein Ende des ewigen Lebens; denn der Herr hat dasselbe Wort für beides gebraucht.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'lazarus-nur-gleichnis',
+              objection: `Und Lazarus und der reiche Mann ist ein Gleichnis, keine Landkarte des Jenseits. Jesus benutzt dort eine volkstümliche Vorstellung, um über Reichtum zu reden. Darauf baut man keine Lehre über ewiges Bewusstsein.`,
+              objectionBy: 'Bart D. Ehrman',
+              answer: `Einverstanden: Lk 16 ist keine Landkarte, und die Kirche baut ihre Lehre nicht auf die Details – Abrahams Schoß, die Kluft, den Wassertropfen. Aber Gleichnisse benutzen reale Kategorien, um eine Pointe zu treffen, und die Pointe hier lautet: Nach dem Tod gibt es eine Kluft, die man nicht mehr überschreiten kann, und die Entscheidung fällt jetzt. Genau das ist der Kern der Lehre – nicht die Ausmalung.`,
+              detail: `Die Kirche spricht über die Hölle mit Zurückhaltung. Sie benutzt die biblischen Bilder (Feuer, Finsternis, Wurm, Kluft) als Hinweise auf eine Wirklichkeit, die größer ist als die Bilder. Was feststeht: Es gibt ein Gericht, es gibt eine endgültige Scheidung, und die Zeit der Umkehr ist dieses Leben (Hebr 9,27: „dem Menschen ist gesetzt, einmal zu sterben, danach aber das Gericht").`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '16,26', quote: `Und über das alles ist zwischen uns und euch eine große Kluft befestigt, daß die da wollten von hinnen hinabfahren zu euch, können nicht, und auch nicht von dannen zu uns herüberfahren.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'dann-weisst-du-nichts',
+                  objection: `Dann gib zu: Du weißt gar nicht, wie die Hölle ist. Wie kannst du dann behaupten, sie sei gerecht und mit Liebe vereinbar? Du verteidigst eine Leerstelle.`,
+                  objectionBy: 'Alex O\'Connor',
+                  answer: `Ich weiß nicht, wie sie im Einzelnen ist – das gebe ich gern zu. Aber ich weiß, wer richtet: derselbe, der für seine Feinde gebetet hat und im Fleisch für sie gestorben ist. Mein Vertrauen gründet nicht auf einer Beschreibung der Hölle, sondern auf dem Charakter des Richters. Wenn der Gekreuzigte der Richter ist, dann wird kein Mensch ungerecht behandelt und keiner weniger geliebt, als möglich war.`,
+                  detail: `Das ist kein Ausweichen, sondern die Art, wie wir auch im Leben vertrauen: Ich kenne nicht jede Entscheidung eines gerechten Richters im Voraus, aber ich kann seinen Charakter kennen. Die koptische Christologie gibt diesem Vertrauen ein Fundament: Mit dem hl. Kyrill bekennt die Kirche, dass der ewige Logos „im Fleisch gelitten hat" (12. Anathematismus). Der, dem das Gericht übergeben ist (Joh 5,22.27), ist „des Menschen Sohn" – einer, der Leid, Verrat und Tod von innen kennt.`,
+                  voices: [
+                    {
+                      person: 'kyrill-alexandrien',
+                      role: 'als Lehrer der einen fleischgewordenen Natur des Logos',
+                      text: `Für Kyrill ist entscheidend, dass nicht ein bloßer Mensch neben dem Logos gelitten hat, sondern der Logos selbst in seinem eigenen Fleisch. Daraus folgt für die Frage nach dem Gericht: Der Richter der Welt ist kein ferner Gesetzgeber, sondern der menschgewordene Gott, der die Schuld der Welt am eigenen Leib getragen hat. Wer vor ihm steht, steht vor der Liebe, die bis ans Kreuz gegangen ist.`,
+                      sources: [
+                        { kind: 'konzil', author: 'Kyrill von Alexandrien', work: 'Zwölf Anathematismen (Dritter Brief an Nestorius)', ref: 'Anathematismus 12', year: '430', quote: `Wer nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat, im Fleisch gekreuzigt wurde und im Fleisch den Tod gekostet hat, der sei ausgeschlossen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '5,27', quote: `… und hat ihm Macht gegeben, auch das Gericht zu halten, darum daß er des Menschen Sohn ist.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wem würdest du das Urteil über die Menschheit lieber anvertrauen als jemandem, der für seine Henker gebetet hat?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

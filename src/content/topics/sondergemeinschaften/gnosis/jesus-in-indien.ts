@@ -101,6 +101,17 @@ const claim: Claim = {
               objectionBy: 'Esoterische Autoren',
               answer: `Möglich ist vieles – aber Geschichte braucht Quellen. Für eine Reise Jesu nach Indien gibt es keine einzige antike Quelle, weder christlich noch jüdisch, römisch oder indisch. Alle Behauptungen stammen aus dem späten 19. und dem 20. Jahrhundert. „Er hätte können" ist kein historisches Argument.`,
               questionsBack: [`Welche Quelle aus dem 1. bis 5. Jahrhundert berichtet von einer Reise Jesu nach Indien?`],
+              followUps: [
+                {
+                  id: 'thomasakten-zwilling',
+                  objection: `Es gibt eine antike Quelle: die Thomasakten. Dort ist Thomas in Indien – und Jesus erscheint dort leibhaftig, sogar als „Zwilling" des Thomas, den man mit ihm verwechselt. Das ist die Erinnerung an Jesus in Indien!`,
+                  objectionBy: 'Holger Kersten / esoterische Autoren',
+                  answer: `Die Thomasakten sind ein frommer Roman aus dem 3. Jahrhundert, wohl in Syrien verfasst. Sie erzählen, wie der Apostel Thomas **nach** Ostern nach Indien geht – und Jesus erscheint dort als der Auferstandene in Visionen, nicht als ein Mensch, der dort lebte. Die Akten setzen Kreuzigung und Auferstehung voraus und verkünden sie. Wer sie als Quelle anführt, muss auch ihre Botschaft übernehmen: Jesus starb und lebt als der Erhöhte.`,
+                  detail: `Die Thomasakten sind dennoch ein wertvolles Zeugnis: Sie zeigen, dass syrische Christen im 3. Jahrhundert eine Verbindung des Apostels Thomas mit Indien kannten – eine Überlieferung, die die Thomaschristen in Kerala bis heute bewahren. Das ist eine Mission des Apostels, nicht eine Lehrzeit Jesu. Bezeichnend: Selbst dieser legendenfreudige Text kennt keine Jugendreise Jesu nach Indien – die Idee taucht erst im 19. Jahrhundert auf.`,
+                  sources: [{ kind: 'gegner', work: 'Thomasakten (Acta Thomae)', ref: 'Kap. 1–3; 11', year: '3. Jh.', quote: `Thomas wird nach Indien gesandt; der auferstandene Herr erscheint in der Gestalt des Thomas.`, status: 'paraphrase' }],
+                  questionsBack: [`Setzen die Thomasakten voraus, dass Jesus gekreuzigt wurde und auferstanden ist – oder dass er in Indien lebte?`],
+                },
+              ],
             },
           ],
         },
@@ -146,11 +157,63 @@ const claim: Claim = {
           ],
           followUps: [
             {
+              id: 'schwamm-betaeubung',
+              objection: `Der Schwamm mit „Essig" kurz vor seinem Tod enthielt ein Betäubungsmittel. Jesus hat den Scheintod mit Vertrauten geplant – Hugh Schonfield hat das in „The Passover Plot" gezeigt. Danach pflegte ihn Josef von Arimathäa gesund.`,
+              objectionBy: 'Hugh J. Schonfield (The Passover Plot, 1965) / Ahmadiyya',
+              answer: `Der „Essig" (*oxos*) war Posca, das saure Weingetränk der römischen Soldaten – sie reichten es ihm (Mk 15,36; Joh 19,29), nicht seine Freunde. Den betäubenden Myrrhenwein hatte Jesus vorher ausdrücklich abgelehnt (Mk 15,23). Ein Plan, der davon abhängt, dass römische Soldaten das richtige Mittel reichen, auf die üblichen Beinbrüche verzichten und keinen Lanzenstich setzen, ist kein Plan, sondern ein Wunder. Und Schonfield selbst räumte ein, dass sein Plan scheiterte – der Lanzenstich habe Jesus getötet.`,
+              detail: `Die Scheintodthese muss alle Glieder einer langen Kette erklären: Geißelung, Kreuzigung über Stunden, Lanzenstich, Bestätigung durch den Hauptmann (Mk 15,44–45), Grablegung in Leinen mit rund hundert Pfund Spezereien (Joh 19,39–40), ein verschlossenes Grab – und dann Erscheinungen, die die Jünger von einem Sieg über den Tod überzeugten. Selbst Kritiker der Auferstehung halten die Scheintodthese deshalb heute für erledigt. Ausführlicher: siehe den Claim „Scheintod" im Themenblock Auferstehung.`,
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '15,23', quote: `Und sie gaben ihm Myrrhen im Wein zu trinken; und er nahm's nicht zu sich.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'gegner', author: 'Hugh J. Schonfield', work: 'The Passover Plot', year: '1965', quote: `Jesus habe den Scheintod geplant; der unvorhergesehene Lanzenstich habe den Plan jedoch scheitern lassen.`, status: 'paraphrase' },
+              ],
+              questionsBack: [`Wenn Jesus den Myrrhenwein ablehnte und die Soldaten den Essig reichten – wer hätte dann das Betäubungsmittel verabreicht?`],
+            },
+            {
               id: 'koran-23-50',
               objection: `Der Koran sagt in 23,50, Gott habe Maria und ihrem Sohn Zuflucht auf einer Anhöhe mit Wiesen und Quellen gegeben – das ist Kaschmir.`,
               objectionBy: 'Ahmadiyya-Apologeten',
               answer: `Diese Deutung vertritt nur die Ahmadiyya, eine Bewegung des späten 19. Jahrhunderts; die überwältigende Mehrheit der muslimischen Gelehrten lehnt sie ab und versteht Sure 4,158 so, dass Gott Jesus lebendig zu sich erhob. Für die historische Frage gilt aber unabhängig davon: Ein Text des 7. Jahrhunderts, der Kaschmir nicht nennt, kann eine Reise im 1. Jahrhundert nicht belegen.`,
               sources: [{ kind: 'koran', work: 'Sure 23 (al-Mu\'minun)', ref: '23:50', quote: `Und Wir machten den Sohn Marias und seine Mutter zu einem Zeichen und gaben ihnen Zuflucht auf einer Anhöhe mit festem Grund und Quellwasser.`, original: `wa-āwaynāhumā ilā rabwatin dhāti qarārin wa-maʿīn`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://quran.com/23/50' }],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'wassermann-evangelium',
+      objection: `Das „Wassermann-Evangelium" von Levi Dowling zeigt die verlorenen Jahre genau: Jesus lernte in Indien, Tibet und Persien und wurde in Ägypten, im Tempel von Heliopolis, in die Mysterien eingeweiht. Dowling hat es direkt aus der Akasha-Chronik empfangen, dem kosmischen Gedächtnis.`,
+      objectionBy: 'Levi H. Dowling (The Aquarian Gospel, 1908) / Edgar Cayce',
+      answer: `Gerade als Kopte kann ich dazu etwas sagen: Ägypten kennt eine Reise Jesu – die Flucht der Heiligen Familie, als er ein Kind war (Mt 2,13–15). Von einer Einweihung in Heliopolis weiß weder die Schrift noch die koptische Überlieferung, die jeden Ort dieses Weges liebevoll bewahrt. Und die „Akasha-Chronik" ist keine Quelle, die man prüfen kann, sondern die Behauptung eines Autors des Jahres 1908. Wer so arbeitet, kann über jede Person alles behaupten.`,
+      detail: `Die verschiedenen „geschauten" Jesus-Biografien widersprechen einander: Notovitch lässt Jesus vor allem bei Brahmanen und Buddhisten lernen, Dowling schickt ihn durch Indien, Tibet, Persien, Assyrien, Griechenland und Ägypten, Edgar Cayce wieder anders. Hätten alle aus derselben kosmischen Quelle geschöpft, müssten sie übereinstimmen. Historisch prüfbar sind sie alle nicht – sie spiegeln den Orientalismus und die Esoterik ihrer Zeit, nicht das 1. Jahrhundert.`,
+      sources: [
+        { kind: 'gegner', author: 'Levi H. Dowling', work: 'The Aquarian Gospel of Jesus the Christ', year: '1908', quote: `Jesus auf Reisen durch Indien, Tibet, Persien, Assyrien, Griechenland und Ägypten; Einweihung in Heliopolis; angeblich aus der Akasha-Chronik übertragen.`, status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '2,13', quote: `Stehe auf und nimm das Kindlein und seine Mutter zu dir und fliehe nach Ägyptenland und bleib allda, bis ich dir sage.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Wenn Notovitch, Dowling und Cayce aus derselben geistigen Quelle schöpften – warum widersprechen sich ihre Berichte?`],
+      followUps: [
+        {
+          id: 'jesus-essener',
+          objection: `Gut, vielleicht nicht Indien – aber Jesus war Essener. Er lernte in Qumran die geheimen Lehren, die er dann verkündete. Die Schriftrollen vom Toten Meer beweisen das.`,
+          objectionBy: 'populäre Sachbücher (u. a. im Gefolge der Qumran-Funde)',
+          answer: `Die Qumran-Texte zeigen eine Gemeinschaft, die sich strengster Reinheit verschrieb, den Sabbat noch schärfer hielt als die Pharisäer und lehrte, man solle „alle Söhne des Lichts lieben und alle Söhne der Finsternis hassen" (Gemeinderegel 1QS I,9–10). Jesus dagegen aß mit Zöllnern und Sündern, berührte Aussätzige, heilte am Sabbat und gebot: „Liebet eure Feinde." Die Fachwelt – auch die Herausgeber der Rollen – sieht in Jesus keinen Essener, sondern einen Zeitgenossen, der teils dieselbe Sprache, aber eine ganz andere Botschaft hatte.`,
+          detail: `Die Qumran-Funde sind für das Verständnis Jesu dennoch wertvoll: Sie zeigen, dass Begriffe wie „Sohn Gottes" (4Q246), „Licht und Finsternis" oder messianische Erwartungen im Judentum des 1. Jahrhunderts lebendig waren. Damit bestätigen sie, dass die Evangelien in die jüdische Welt Palästinas gehören – nicht nach Indien. Eine „Geheimlehre" Jesu widerspricht seinem eigenen Wort: „Ich habe nichts im Winkel geredet" (Joh 18,20).`,
+          sources: [
+            { kind: 'juedisch', work: 'Gemeinderegel aus Qumran (1QS)', ref: 'I,9–10', quote: `… alle Söhne des Lichts zu lieben … und alle Söhne der Finsternis zu hassen.`, status: 'paraphrase' },
+            { kind: 'bibel', work: 'Matthäus', ref: '5,44', quote: `Ich aber sage euch: Liebet eure Feinde; segnet, die euch fluchen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [`Passt „hasse die Söhne der Finsternis" zu „liebet eure Feinde"?`],
+          followUps: [
+            {
+              id: 'wunder-als-siddhis',
+              objection: `Jesu Wunder zeigen doch, dass er ein Meister war, der die Siddhis beherrschte – die übernatürlichen Kräfte, die fortgeschrittene Yogis durch Meditation erlangen. Das ist östliches Wissen.`,
+              objectionBy: 'Paramahansa Yogananda / esoterische Autoren',
+              answer: `Die Siddhis gelten im Yoga als Nebenprodukte der eigenen Übung, vor denen klassische Texte sogar warnen, weil sie vom Ziel der Befreiung ablenken. Jesu Wunder sind etwas anderes: Zeichen, dass das Reich Gottes gekommen ist (Mt 12,28), verbunden mit seiner Vollmacht, Sünden zu vergeben (Mk 2,5–12) – etwas, das nach jüdischem Glauben nur Gott kann. Er wirkt sie nicht durch Technik, sondern durch sein Wort: „Ich sage dir, stehe auf!" Und das größte Zeichen ist kein Kunststück, sondern seine eigene Auferstehung.`,
+              detail: `Die Patanjali-Yogasutren (Buch III) zählen außergewöhnliche Kräfte auf und mahnen zugleich, sie seien Hindernisse auf dem Weg zur Versenkung. Jesus dagegen verweigert Schauwunder ausdrücklich (Mt 4,5–7; 12,38–39) und wirkt Heilungen aus Erbarmen, oft an Ausgestoßenen. Die Evangelien deuten seine Taten im Licht der Propheten: „Die Blinden sehen und die Lahmen gehen" (Mt 11,5; Jes 35,5–6). Das ist die Sprache Israels, nicht die des Yoga.`,
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '2,7.10–11', quote: `Wer kann Sünden vergeben denn allein Gott? … Auf daß ihr aber wisset, daß des Menschen Sohn Macht hat, zu vergeben die Sünden auf Erden, sprach er zu dem Gichtbrüchigen: Ich sage dir, stehe auf.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'oestlich', author: 'Patanjali', work: 'Yogasutra', ref: 'III,37–38', quote: `Die außergewöhnlichen Kräfte sind Hindernisse für die Versenkung, auch wenn sie im weltlichen Leben als Vollkommenheiten gelten.`, status: 'paraphrase', note: 'Verszählung je nach Ausgabe leicht abweichend (III,37 oder III,38).' },
+              ],
+              questionsBack: [`Welcher Yogi hat beansprucht, Sünden zu vergeben – und wurde dafür als Gotteslästerer angeklagt?`],
             },
           ],
         },

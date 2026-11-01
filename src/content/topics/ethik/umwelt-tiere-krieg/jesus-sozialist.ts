@@ -83,7 +83,7 @@ const claim: Claim = {
       text: `Rodney Stark zeigt in *The Rise of Christianity* (1996), dass die frühen Christen durch ihre gegenseitige Hilfe – besonders bei Seuchen, für Witwen und Waisen – eine einzigartige Solidargemeinschaft in der antiken Welt bildeten. Selbst Kaiser Julian beklagte, die „Galiläer" versorgten nicht nur ihre eigenen Armen, sondern auch die der Heiden. Diese Solidarität beruhte nicht auf staatlicher Umverteilung, sondern auf der Liebe einer freiwilligen Gemeinschaft.`,
       sources: [
         { kind: 'fachliteratur', author: 'Rodney Stark', work: 'The Rise of Christianity', ref: 'Kap. 4 und 7', year: '1996', status: 'paraphrase' },
-        { kind: 'sonstiges', author: 'Kaiser Julian', work: 'Brief an Arsakios, Oberpriester von Galatien', ref: 'Brief 22 (Zählung nach Bidez)', year: '362', quote: `Die gottlosen Galiläer ernähren nicht nur ihre eigenen Armen, sondern auch die unseren.`, status: 'paraphrase' },
+        { kind: 'sonstiges', author: 'Kaiser Julian', work: 'Brief an Arsakios, Oberpriester von Galatien', ref: 'Brief 22 (Zählung der Loeb-Ausgabe, W. C. Wright)', year: '362', quote: `Die gottlosen Galiläer ernähren nicht nur ihre eigenen Armen, sondern auch die unseren.`, status: 'paraphrase' },
       ],
     },
   ],

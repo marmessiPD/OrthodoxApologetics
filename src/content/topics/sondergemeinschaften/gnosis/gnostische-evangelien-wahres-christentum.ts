@@ -147,6 +147,20 @@ const claim: Claim = {
               objectionBy: 'Elaine Pagels / James M. Robinson',
               answer: `Das ist eine Hypothese, kein Befund. Neuere Forschung (Lundhaug und Jenott) zeigt, dass die Kodizes wohl in Klöstern gelesen und abgeschrieben wurden – offenbar auch kritisch. Und selbst wenn sie vergraben wurden: Dass eine Kirche bestimmte Bücher nicht im Gottesdienst lesen will, macht diese nicht wahr. Athanasius' Brief zeigt vielmehr, dass der Kanon 367 längst in Gebrauch war – er bestätigte ihn, er erfand ihn nicht.`,
               questionsBack: [`Wenn eine Kirche sagt, welche Bücher sie im Gottesdienst liest – ist das schon Unterdrückung?`],
+              followUps: [
+                {
+                  id: 'koptische-moenche-gnostisch',
+                  objection: `Wenn koptische Mönche diese Texte lasen und abschrieben, dann war das ägyptische Mönchtum selbst gnostisch geprägt. Eure Kirche hat ihre gnostischen Wurzeln nur vergessen.`,
+                  objectionBy: 'Hugo Lundhaug / Lance Jenott (zugespitzt), populäre Rezeption',
+                  answer: `Lesen heißt nicht übernehmen. Mönche lasen vieles – auch, um es zu prüfen. Dieselbe Mönchswelt hat uns das Leben des Antonius, die Regeln des Pachomius und die Väterworte hinterlassen, die durchweg den Glauben an den einen Schöpfer, die Menschwerdung und die Auferstehung des Leibes bekennen. Athanasius' 39. Osterfestbrief (367) nennt genau die 27 Bücher des Neuen Testaments und warnt vor Apokryphen, die Häretiker erfunden haben. Und Schenute von Atripe, nur wenige Kilometer von Nag Hammadi entfernt, bekämpfte apokryphe Bücher ausdrücklich.`,
+                  detail: `Lundhaug und Jenott selbst vertreten nicht, dass die Mönche Gnostiker waren, sondern dass die Kodizes in einem monastischen Milieu mit breiten Leseinteressen entstanden. Das zeigt: Die Kirche Ägyptens kannte diese Texte aus erster Hand und hat sie dennoch nicht in ihren Kanon und ihre Liturgie aufgenommen. Die koptische Liturgie – im Kern seit dem 4./5. Jahrhundert – bekennt den Gott, „der Himmel und Erde gemacht hat", und die leibliche Auferstehung. Das ist das Gegenteil des gnostischen Weltbildes.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: '39. Osterfestbrief', year: '367', quote: `Aufzählung der 27 Bücher des Neuen Testaments; Warnung vor den sogenannten Apokryphen, die Häretiker erdacht haben.`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Hugo Lundhaug / Lance Jenott', work: 'The Monastic Origins of the Nag Hammadi Codices', year: '2015', quote: `Die Kodizes stammen wahrscheinlich aus einem monastischen, womöglich pachomianischen Umfeld mit breiten Leseinteressen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Welches Glaubensbekenntnis, welche Liturgie oder welcher Kanon der koptischen Kirche enthält gnostische Lehren?`],
+                },
+              ],
             },
           ],
         },
@@ -164,6 +178,20 @@ const claim: Claim = {
           objectionBy: 'Dan Brown / populäre Darstellungen',
           answer: `An der entscheidenden Stelle hat die Handschrift eine Lücke – „auf den Mund" ist eine Ergänzung. Das Philippusevangelium ist ein Text des 3. Jahrhunderts, in dem der Kuss ein Bild für geistliche Zeugung ist („die Vollkommenen empfangen durch einen Kuss"). Und das 2012 vorgestellte „Evangelium der Frau Jesu" hat sich 2016 als moderne Fälschung erwiesen.`,
           sources: [{ kind: 'gegner', work: 'Philippusevangelium (NHC II,3)', ref: '59; 63–64', quote: `Der Kuss als Bild geistlicher Empfängnis; Lücke in der Handschrift an der Stelle über Maria Magdalena.`, status: 'paraphrase' }],
+          followUps: [
+            {
+              id: 'rabbi-musste-verheiratet-sein',
+              objection: `Ein jüdischer Rabbi im 1. Jahrhundert musste verheiratet sein. Dass die Evangelien keine Frau erwähnen, beweist nur, dass die Kirche sie verschwiegen hat.`,
+              objectionBy: 'populäre Darstellungen (u. a. Dan Brown)',
+              answer: `Es gab keine solche Pflicht. Johannes der Täufer lebte ehelos, ebenso nach Philo und Josephus viele Essener, und schon der Prophet Jeremia blieb auf Gottes Geheiß unverheiratet (Jer 16,2). Jesus spricht selbst von denen, die „um des Himmelreichs willen" ehelos bleiben (Mt 19,12). Und Paulus erwähnt die Frauen der Apostel und der Brüder des Herrn (1 Kor 9,5) – hätte Jesus eine Frau gehabt, wäre sie das stärkste Argument gewesen, und er hätte sie genannt.`,
+              detail: `Auch skeptische Forscher wie Bart Ehrman halten die These einer Ehe Jesu für unbelegt: Kein Text des 1. Jahrhunderts erwähnt eine Ehefrau, und die Texte, die man dafür anführt (Philippusevangelium, das gefälschte „Evangelium der Frau Jesu"), stammen aus viel späterer Zeit oder aus der Gegenwart. Argumente aus dem Schweigen sind schwach – erst recht, wenn die Quellen an anderer Stelle Familienmitglieder Jesu ausdrücklich nennen (Mk 6,3).`,
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '9,5', quote: `Haben wir nicht auch Macht, eine Schwester zum Weibe mit umherzuführen wie die andern Apostel und des HERRN Brüder und Kephas?`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Matthäus', ref: '19,12', quote: `… und sind etliche verschnitten, die sich selbst verschnitten haben um des Himmelreichs willen. Wer es fassen kann, der fasse es!`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Warum erwähnt Paulus die Frauen der Apostel und der Brüder Jesu, aber keine Frau Jesu – wenn es sie gegeben hätte?`],
+            },
+          ],
         },
       ],
     },
@@ -173,6 +201,57 @@ const claim: Claim = {
       objectionBy: 'National Geographic (Erstveröffentlichung 2006)',
       answer: `Irenäus kannte dieses Evangelium schon um 180 und ordnete es einer gnostischen Gruppe zu – es ist also ein Text des 2. Jahrhunderts, kein Bericht eines Augenzeugen. Zudem haben Koptologen wie April DeConick gezeigt, dass die erste Übersetzung verzerrt war: Judas wird darin als „dreizehnter Dämon" bezeichnet. Und die Idee, Jesus müsse von seinem Körper befreit werden, widerspricht der leiblichen Auferstehung (Lk 24,39).`,
       questionsBack: [`Was sagt uns ein Text aus dem 2. Jahrhundert über das, was Judas um das Jahr 30 tatsächlich tat?`],
+      followUps: [
+        {
+          id: 'irenaeus-parteiisch',
+          objection: `Irenäus ist Partei. Bis 1945 kannten wir die Gnostiker fast nur aus der Feder ihrer Gegner – das ist, als würde man die Reformation nur aus den Schriften ihrer Gegner kennen.`,
+          objectionBy: 'Elaine Pagels / Karen L. King',
+          answer: `Ein berechtigter methodischer Einwand – und Nag Hammadi bot die Gelegenheit, ihn zu prüfen. Das Ergebnis spricht für Irenäus: Das Apokryphon des Johannes, das in Nag Hammadi gleich dreimal erhalten ist, entspricht in seinen Grundzügen (Barbelo, die Äonen, der unwissende Schöpfer Jaldabaoth) dem, was Irenäus um 180 im ersten Buch „Gegen die Häresien" beschreibt. Irenäus hat die Gnostiker polemisch beurteilt, aber erstaunlich genau referiert.`,
+          detail: `Die Forschung hat seit 1945 viele Einzelheiten differenziert – die Gnosis war vielfältiger, als die Ketzerkataloge erkennen lassen, und mancher Text ist weniger „gnostisch" als einst angenommen (Michael Williams schlug deshalb vor, den Begriff „Gnostizismus" neu zu überdenken). Aber die Kernlehren, die Irenäus kritisiert – ein niederer Schöpfergott, die Verachtung der Materie, Erlösung durch Erkenntnis für die Pneumatiker –, finden sich in den Originaltexten wieder.`,
+          voices: [
+            {
+              person: 'irenaeus',
+              role: 'als Berichterstatter über die Gnosis',
+              text: `Irenäus schreibt, er habe die Schriften der Valentinianer gelesen und mit einigen von ihnen gesprochen, um ihre Lehre genau darzustellen. Er referiert ausführlich, bevor er widerlegt – eine Methode, die ihm erlaubt, seine Leser vor einer Lehre zu warnen, die sich mit biblischen Worten schmückt. Sein Hauptargument ist historisch: Die Apostel haben öffentlich gelehrt und Nachfolger eingesetzt, deren Reihen man in jeder großen Kirche aufzählen kann.`,
+              sources: [{ kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien', ref: 'I, Vorrede 2; I,29; III,3', quote: `Ausführliche Darstellung gnostischer Systeme vor ihrer Widerlegung; Argument der öffentlichen apostolischen Nachfolge.`, status: 'paraphrase' }],
+            },
+          ],
+          sources: [{ kind: 'gegner', work: 'Apokryphon des Johannes (NHC II,1; III,1; IV,1; BG 2)', quote: `Mythos von Barbelo, den Äonen und dem unwissenden Schöpfer Jaldabaoth – in Grundzügen parallel zu Irenäus, Gegen die Häresien I,29.`, status: 'paraphrase' }],
+          questionsBack: [`An welchem Punkt widerlegen die Nag-Hammadi-Funde Irenäus' Beschreibung der gnostischen Kernlehren?`],
+          followUps: [
+            {
+              id: 'johannes-gegen-thomas',
+              objection: `Auch das Neue Testament ist Parteischrift. Das Johannesevangelium wurde gegen Thomas-Christen geschrieben – deshalb der „ungläubige Thomas". Und 1 Joh polemisiert gegen Christen, die anders dachten. Die Vielfalt war also von Anfang an da, und die Orthodoxen haben sie bekämpft.`,
+              objectionBy: 'Elaine Pagels (Beyond Belief, 2003)',
+              answer: `Dass Johannes Thomas als Gegenspieler zeichnen wollte, ist eine Hypothese – Thomas endet bei Johannes mit dem höchsten Bekenntnis des ganzen Evangeliums: „Mein Herr und mein Gott!" (Joh 20,28). Und 1 Joh 4,2 zeigt in der Tat, dass es schon im 1. Jahrhundert Leute gab, die leugneten, dass Christus „im Fleisch" kam. Aber das beweist gerade: Die Leugnung entstand als Abweichung von einem schon bestehenden Bekenntnis – Paulus hatte Tod und Auferstehung Jesu bereits um 50 als überlieferte Grundlage weitergegeben (1 Kor 15,3–5).`,
+              detail: `Vielfalt am Anfang zu konstatieren ist etwas anderes, als zu behaupten, alle Formen seien gleich ursprünglich. Die frühesten datierbaren Texte – die Paulusbriefe – setzen den einen Gott Israels als Schöpfer, Jesu Tod und leibliche Auferstehung und seine Verehrung als Herr bereits voraus. Doketische und gnostische Lehren erscheinen in den Quellen als spätere Abzweigungen, gegen die man sich auf das „von Anfang an" Gehörte berief (1 Joh 1,1–3; 2,24).`,
+              sources: [
+                { kind: 'bibel', work: '1. Johannes', ref: '4,2–3', quote: `Ein jeglicher Geist, der da bekennt, daß Jesus Christus ist in das Fleisch gekommen, der ist von Gott; und ein jeglicher Geist, der da nicht bekennt, daß Jesus Christus ist in das Fleisch gekommen, der ist nicht von Gott.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'gegner', author: 'Elaine Pagels', work: 'Beyond Belief: The Secret Gospel of Thomas', year: '2003', quote: `These, das Johannesevangelium sei teilweise in Abgrenzung von Thomas-Christen geschrieben.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'geheime-apostolische-tradition',
+                  objection: `Die Gnostiker beriefen sich doch selbst auf apostolische Überlieferung: Valentinus soll Schüler des Theudas gewesen sein, eines Schülers des Paulus; Basilides berief sich auf Glaukias, einen Dolmetscher des Petrus. Ihre geheime Tradition ist ebenso apostolisch wie eure öffentliche.`,
+                  objectionBy: 'gnostische Selbstdarstellung, nach Clemens von Alexandrien referiert',
+                  answer: `Clemens von Alexandrien berichtet diese Behauptungen tatsächlich (Teppiche VII,17). Aber genau hier liegt der Unterschied: Eine geheime Linie mit einem einzigen Glied kann niemand prüfen. Die Apostel dagegen lehrten öffentlich – Jesus sagt: „Ich habe allezeit gelehrt in der Synagoge und im Tempel … und habe nichts im Winkel geredet" (Joh 18,20), und Paulus hat „nichts verhalten" (Apg 20,27). Darum konnte Irenäus die Bischofslisten der großen Kirchen öffentlich aufzählen – auch die von Alexandrien, die bis zum Evangelisten Markus zurückreicht.`,
+                  detail: `Irenäus' Argument ist im Kern historisch und sehr modern: Wenn die Apostel eine geheime Lehre gehabt hätten, hätten sie sie denen anvertraut, denen sie die Gemeinden übergaben – den Bischöfen. Deren Lehre ist bekannt und öffentlich, und sie stimmt in allen großen Kirchen überein. Eine Tradition, die erst im 2. Jahrhundert mit einem unbekannten Mittelsmann auftaucht, hat diese Prüfbarkeit nicht.`,
+                  voices: [
+                    {
+                      person: 'clemens-alexandrien',
+                      role: 'als alexandrinischer Lehrer, der die Gnostiker kannte',
+                      text: `Clemens kannte die Valentinianer und Basilidianer aus nächster Nähe in Alexandrien. Er beanspruchte für den Christen selbst eine „wahre Gnosis" – aber eine, die aus der Schrift und der Überlieferung der Kirche erwächst und mit dem Glauben der einfachen Gläubigen übereinstimmt. Die Berufung der Häretiker auf Theudas und Glaukias führt er an, um zu zeigen, dass ihre Lehrer erst später auftraten als die Kirche.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Clemens von Alexandrien', work: 'Teppiche (Stromateis)', ref: 'VII,17,106–107', quote: `Basilides beruft sich auf Glaukias, Valentinus auf Theudas; ihre Schulen sind jünger als die Kirche.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [{ kind: 'bibel', work: 'Johannes', ref: '18,20', quote: `Ich habe frei öffentlich geredet vor der Welt; ich habe allezeit gelehrt in der Schule und in dem Tempel, da alle Juden zusammenkommen, und habe nichts im Winkel geredet.`, translation: 'Luther 1912', status: 'verbatim' }],
+                  questionsBack: [`Wie kann man eine geheime Überlieferung prüfen, die nur über einen einzigen unbekannten Mittelsmann läuft?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

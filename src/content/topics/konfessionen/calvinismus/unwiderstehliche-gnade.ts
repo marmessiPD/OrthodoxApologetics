@@ -160,6 +160,93 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'joh-6-44-ziehen',
+      objection: `„Joh 6,44: ‚Es kann niemand zu mir kommen, es sei denn, ihn ziehe der Vater … und ich werde ihn auferwecken am Jüngsten Tage.' Jeder, den der Vater zieht, wird auferweckt. Das griechische *helkuō* heißt ‚schleppen' – wie ein Netz voller Fische (Joh 21,6). Das Ziehen ist wirksam."`,
+      objectionBy: 'James White („Drawn by the Father")',
+      answer: `Dasselbe Verb steht in Joh 12,32: „Ich werde **alle** zu mir ziehen." Wenn „ziehen" unwiderstehlich hieße, würden alle gerettet – das glaubst du nicht. Also bedeutet es: Ohne das Ziehen des Vaters kommt niemand; aber wer gezogen wird, ist nicht gezwungen. Der nächste Vers erklärt, wie das Ziehen geschieht: „Wer es nun hört vom Vater und lernt's, der kommt zu mir" (6,45) – durch Hören und Lernen, also personal.`,
+      detail: `Sogar Augustinus, auf den sich die Lehre von der wirksamen Gnade beruft, legt Joh 6,44 so aus, dass der Vater nicht mit Gewalt zieht, sondern durch Freude und Liebe – wie man ein Schaf mit einem grünen Zweig lockt (Tractatus in Iohannem 26,4–5). „Schleppen" ist für Netze und Gefangene das passende Bild, nicht für Personen, die Gott lieben sollen.`,
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '12,32', quote: `Und ich, wenn ich erhöht werde von der Erde, so will ich sie alle zu mir ziehen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Tractatus in Iohannis Evangelium', ref: '26,4–5', year: 'um 414–417', status: 'paraphrase', note: 'Augustinus: Der Vater zieht nicht durch Zwang, sondern durch Lust und Liebe (mit Anspielung auf Vergil: „trahit sua quemque voluptas").' },
+      ],
+      questionsBack: [`Wenn „ziehen" in Joh 6,44 unwiderstehlich ist – warum dann nicht auch in Joh 12,32, wo Jesus alle ziehen will?`],
+      followUps: [
+        {
+          id: 'joh-12-32-alle-arten',
+          objection: `„In Joh 12,32 heißt ‚alle' im Zusammenhang: auch Griechen, nicht nur Juden – die Griechen sind ja gerade gekommen (12,20). Gemeint sind alle Arten von Menschen."`,
+          objectionBy: 'James White',
+          answer: `Selbst wenn man so liest, bleibt das Problem: Dann zieht Christus Juden und Griechen – und viele Juden und Griechen kommen trotzdem nicht. Das Ziehen ist also auch dann nicht unwiderstehlich. Und in Joh 12 folgt unmittelbar die Klage: „Und ob er wohl solche Zeichen vor ihnen tat, glaubten sie doch nicht an ihn" (12,37) und die Mahnung „glaubet an das Licht, dieweil ihr's habt" (12,36). Jesus behandelt seine Hörer als Menschen, die antworten können.`,
+          followUps: [
+            {
+              id: 'apg-13-48-verordnet',
+              objection: `„Apg 13,48: ‚Und es wurden gläubig, wie viele ihrer zum ewigen Leben verordnet waren.' Erst die Verordnung, dann der Glaube – das ist die Reihenfolge der Schrift."`,
+              objectionBy: 'R. C. Sproul',
+              answer: `Lies den Kontrast zwei Verse vorher: Zu den Juden sagt Paulus: „Ihr stoßt es von euch und achtet euch selbst nicht wert des ewigen Lebens" (13,46). Lukas stellt die, die sich selbst für unwürdig erklären, denen gegenüber, die für das Leben „bereitet" sind. Das Partizip *tetagmenoi* kann auch eine innere Ausrichtung beschreiben. Und selbst als göttliche Bestimmung verstanden: Gott bestimmt im Vorauswissen (Röm 8,29; 1 Petr 1,2), nicht unter Ausschaltung der Antwort.`,
+              detail: `Lukas betont in derselben Szene die menschliche Verantwortung ausdrücklich: Die Juden „stoßen von sich", die Heiden „wurden froh und priesen das Wort". Ein ganzes Lehrsystem auf eine einzige mehrdeutige Partizipform zu bauen, während der direkte Kontext die Selbstverantwortung betont, ist methodisch fragwürdig.`,
+              sources: [
+                { kind: 'bibel', work: 'Apostelgeschichte', ref: '13,46', quote: `Nun ihr es aber von euch stoßet und achtet euch selbst nicht wert des ewigen Lebens, siehe, so wenden wir uns zu den Heiden.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'eph-2-8-glaube-geschenk',
+                  objection: `„Eph 2,8: ‚Aus Gnade seid ihr selig geworden durch den Glauben, und dasselbe nicht aus euch: Gottes Gabe ist es.' Selbst der Glaube ist ein Geschenk – und Gott gibt ihn nur den Erwählten, unwiderstehlich."`,
+                  objectionBy: 'John Piper',
+                  answer: `Grammatisch bezieht sich „dasselbe" (*touto*, Neutrum) nicht allein auf „Glaube" (*pistis*, Femininum), sondern auf das ganze Gerettetwerden. Das sieht sogar Calvin in seinem Kommentar so: Paulus meine nicht, dass der Glaube Gottes Gabe sei, sondern dass das Heil uns von Gott geschenkt wird. Und Geschenke kann man zurückweisen: Paulus mahnt, „dass ihr nicht vergeblich die Gnade Gottes empfanget" (2 Kor 6,1).`,
+                  detail: `Wir sagen gern: Alles ist Geschenk – auch die Fähigkeit zu glauben. Aber ein Geschenk wird durch Annahme empfangen, nicht durch Zwang eingeflößt. Röm 2,4 spricht von der Güte Gottes, die zur Buße leitet – und die man „verachten" kann. Die Gnade ist ganz Gabe und doch keine Vergewaltigung des Willens.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Johannes Calvin', work: 'Kommentar zum Epheserbrief', ref: 'zu Eph 2,8', year: '1548', status: 'paraphrase', quote: `Er meint nicht, dass der Glaube Gottes Gabe sei, sondern dass uns das Heil von Gott geschenkt wird.`, note: 'Bemerkenswert, weil Calvin selbst die grammatische Beziehung von „dasselbe" auf das Heil vertritt.' },
+                    { kind: 'bibel', work: '2. Korinther', ref: '6,1', quote: `Wir ermahnen aber euch als Mithelfer, dass ihr nicht vergeblich die Gnade Gottes empfanget.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'paulus-vor-damaskus',
+      objection: `„Denk an Paulus vor Damaskus: Er hat sich nicht entschieden – er wurde niedergeworfen. Christus hat seinen erbittertsten Feind einfach überwältigt. Das ist unwiderstehliche Gnade in Reinform."`,
+      objectionBy: 'R. C. Sproul',
+      answer: `Paulus selbst erzählt es anders: „Daher, König Agrippa, war ich der himmlischen Erscheinung nicht ungehorsam" (Apg 26,19). Man kann nur gehorsam sein, wo man auch hätte ungehorsam sein können. Die Begegnung war überwältigend – aber die Antwort war seine: „Herr, was willst du, dass ich tun soll?" (Apg 9,6 nach vielen Handschriften; 22,10). Und dann wird er getauft, um seine Sünden abzuwaschen (22,16).`,
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '26,19', quote: `Daher, König Agrippa, war ich der himmlischen Erscheinung nicht ungläubig (ungehorsam).`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '22,10.16', quote: `Ich sprach aber: Herr, was soll ich tun? … Und nun, was verziehst du? Stehe auf und lass dich taufen und abwaschen deine Sünden.`, status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'wider-den-stachel',
+          objection: `„Jesus sagt zu ihm: ‚Es wird dir schwer sein, wider den Stachel zu löcken' (Apg 26,14). Widerstand ist zwecklos – das ist doch genau unser Punkt."`,
+          objectionBy: 'Reformierter Theologe',
+          answer: `Das Bild stammt aus der Landwirtschaft: Ein Ochse, der gegen den Treibstachel ausschlägt, **kann** ausschlagen – er verletzt sich nur selbst. „Schwer" heißt: schädlich, nicht unmöglich. Jesus sagt also: Dein Widerstand schadet dir. Genau das setzt voraus, dass Paulus Widerstand leisten konnte – und es bis dahin auch tat.`,
+          followUps: [
+            {
+              id: 'mt-23-37-nur-fuehrer',
+              objection: `„Und wenn du Mt 23,37 anführst – ‚Wie oft habe ich deine Kinder versammeln wollen … und ihr habt nicht gewollt' –, dann beachte: Jesus spricht die Führer Jerusalems an, die ‚deine Kinder' am Kommen hinderten. Die Erwählten wurden trotzdem versammelt."`,
+              objectionBy: 'James White',
+              answer: `Auch dann bleibt: Christus wollte versammeln, und Menschen haben sich seinem Willen widersetzt – „ihr habt nicht gewollt". Dasselbe sagt Stephanus: „Ihr widerstrebt allezeit dem heiligen Geist" (Apg 7,51), und Lukas berichtet, die Pharisäer „verachteten Gottes Rat wider sich selbst" (Lk 7,30). Die Schrift kennt also einen echten, erfolgreichen Widerstand gegen Gottes rettenden Willen.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '7,30', quote: `Aber die Pharisäer und Schriftgelehrten verachteten Gottes Rat wider sich selbst und ließen sich nicht von ihm taufen.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'hebr-6-nie-wiedergeboren',
+                  objection: `„Wer abfällt, war nie wirklich wiedergeboren. Die Leute in Hebr 6 haben nur ‚geschmeckt', nicht gegessen – echte Gnade geht nie verloren."`,
+                  objectionBy: 'Reformierter Pastor',
+                  answer: `Hebr 6,4–5 beschreibt sie als „einmal erleuchtet", „geschmeckt haben die himmlische Gabe" und „teilhaftig geworden des heiligen Geistes". „Teilhaftig" (*metochoi*) ist dasselbe Wort, mit dem Hebr 3,14 die Christen „Christi teilhaftig" nennt. Und „schmecken" ist in Hebr 2,9 das Wort für Jesu wirklichen Tod: Er hat „den Tod geschmeckt" für alle. Der Text beschreibt echte Gnade, die verworfen werden kann.`,
+                  detail: `Die Lehre, dass Abgefallene nie echte Christen waren, ist nicht widerlegbar, weil sie jeden Gegenbeweis umdeutet – aber sie raubt dem Christen gerade die Gewissheit, die sie verspricht: Woher weiß ich, dass mein eigener Glaube nicht nur „geschmeckt" ist? Die Väter mahnen deshalb zur Wachsamkeit und zum Vertrauen zugleich (1 Kor 10,12; Phil 1,6).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Hebräer', ref: '6,4–6', quote: `Denn es ist unmöglich, die, so einmal erleuchtet sind und geschmeckt haben die himmlische Gabe und teilhaftig geworden sind des heiligen Geistes … und wo sie abfallen, wiederum zu erneuern zur Buße.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie kannst du sicher sein, dass dein eigener Glaube nicht nur „geschmeckt" hat?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wem widerstanden die Zuhörer des Stephanus nach Apg 7,51 – einem Prediger oder dem Heiligen Geist?`,

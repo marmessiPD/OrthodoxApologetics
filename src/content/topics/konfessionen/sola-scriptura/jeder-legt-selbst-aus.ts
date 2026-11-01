@@ -244,6 +244,30 @@ Die Frage ist aber, **wer** zwischen konkurrierenden *normae normatae* entscheid
               questionsBack: [
                 `Nenne mir einen Vater der ersten drei Jahrhunderte, der das Abendmahl rein symbolisch verstand und die Taufwiedergeburt ablehnte.`,
               ],
+              followUps: [
+                {
+                  id: 'konsens-nicht-fuer-alles',
+                  objection: `„Schön für Eucharistie und Taufe. Aber für Ikonen, die Anrufung der Heiligen oder die Marienverehrung findest du diesen frühen Konsens nicht – das kam später. Also lehrt ihr eben doch mehr, als die frühen Väter einmütig bezeugen."`,
+                  objectionBy: 'Gavin Ortlund',
+                  answer: `Ein fairer Punkt: Manche Ausdrucksformen sind später voll entfaltet als andere. Aber die Wurzeln sind früh: die Gemeinschaft mit den vollendeten Heiligen (Hebr 12,1.22–23), die Gebete der Heiligen vor Gottes Thron (Offb 5,8), die Feier der Märtyrergedenktage (Martyrium des Polykarp, um 156), Bitten an Märtyrer in Katakombeninschriften, Bilder in Dura-Europos (vor 256). Vinzenz von Lérins nennt das „Fortschritt" (*profectus*), nicht „Veränderung" (*permutatio*) – so wie die Formel „eines Wesens mit dem Vater" erst 325 kam, der Glaube aber von Anfang an da war.`,
+                  detail: `Ehrlich bleibt: Die koptische Kirche behauptet nicht, jede heutige Gestalt der Heiligenverehrung sei im 2. Jahrhundert schon genauso vorhanden gewesen. Sie behauptet, dass sie eine organische Entfaltung dessen ist, was von Anfang an geglaubt wurde – der Gemeinschaft der Heiligen in dem einen Leib Christi, über den Tod hinaus.
+
+Das Gleiche gilt übrigens für Lehren, die auch Protestanten halten: Der Begriff „Dreieinigkeit", die Lehre von zwei Willen bzw. der vollen Menschheit Christi und der abgeschlossene NT-Kanon sind ebenfalls erst im 3. bis 4. Jahrhundert ausformuliert. Wer Entfaltung grundsätzlich als Abfall wertet, muss auch Nizäa aufgeben.`,
+                  voices: [
+                    {
+                      person: 'vinzenz-lerin',
+                      role: 'als Theoretiker der legitimen Lehrentfaltung',
+                      text: `Vinzenz fragt ausdrücklich, ob es in der Kirche Christi keinen Fortschritt der Religion gebe – und bejaht: Es gibt ihn, aber so, dass er wirklich Fortschritt des Glaubens ist und keine Veränderung. Wie die Glieder eines Kindes wachsen und doch dieselben bleiben, so entfaltet sich die Lehre der Kirche, ohne ihren Sinn zu ändern.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Vinzenz von Lérins', work: 'Commonitorium', ref: '23', year: 'um 434', quote: `Es soll Fortschritt geben, aber so, dass er wirklich Fortschritt des Glaubens ist, nicht Veränderung: Beim Fortschritt wächst eine Sache in sich selbst, bei der Veränderung wird sie in etwas anderes verwandelt.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Ist das Wort „Dreieinigkeit" (erst bei Theophilus und Tertullian belegt) eine legitime Entfaltung oder ein Abfall?`,
+                  ],
+                },
+              ],
             },
           ],
         },
