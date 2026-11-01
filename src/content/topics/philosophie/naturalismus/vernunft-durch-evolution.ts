@@ -56,7 +56,7 @@ const claim: Claim = {
         support: `Unter dem Naturalismus ist eine Überzeugung ein neurophysiologischer Zustand. Selektiert wird er wegen seiner Wirkung auf das Verhalten, nicht wegen der Wahrheit seines Inhalts. Plantingas Beispiel: „Paul" möchte gefressen werden, glaubt aber jedes Mal, wenn er einen Tiger sieht, er finde gleich einen besseren – und läuft weg. Sein Verhalten ist überlebensdienlich, seine Überzeugungen sind falsch. Unzählige solcher Kombinationen sind denkbar.`,
         sources: [
           { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Warrant and Proper Function', year: '1993', ref: 'Kap. 12', status: 'paraphrase', quote: 'Erste Fassung des EAAN mit dem Beispiel des Frühmenschen Paul.' },
-          { kind: 'gegner', author: 'Patricia S. Churchland', work: '„Epistemology in the Age of Neuroscience", Journal of Philosophy 84', year: '1987', quote: `Boiled down to essentials, a nervous system enables the organism to succeed in the four F's: feeding, fleeing, fighting, and reproducing. […] Truth, whatever that is, definitely takes the hindmost.`, status: 'paraphrase', note: 'Vielfach zitiert (u. a. von Plantinga); Wortlaut und Seitenzahl vor wörtlicher Verwendung am Original prüfen.' },
+          { kind: 'gegner', author: 'Patricia S. Churchland', work: '„Epistemology in the Age of Neuroscience", Journal of Philosophy 84', year: '1987', quote: `Boiled down to essentials, a nervous system enables the organism to succeed in the four F's: feeding, fleeing, fighting, and reproducing. […] Truth, whatever that is, definitely takes the hindmost.`, status: 'paraphrase', note: 'Fundstelle bibliografisch gesichert (Journal of Philosophy 84, 1987); der Wortlaut wird u. a. von Plantinga zitiert. Bei der Quellenprüfung (Nov. 2026) per Websuche nicht am Original verifizierbar – deshalb nur sinngemäß verwenden, Seitenzahl offen.' },
         ],
       },
       {
@@ -194,6 +194,62 @@ const claim: Claim = {
           objection: `„Der Theismus hat dasselbe Problem: Woher weißt du, dass Gott uns verlässliche Vernunft geben wollte? Vielleicht täuscht er uns."`,
           objectionBy: 'Stephen Law',
           answer: `Ein vollkommen guter Gott, der Personen erschafft, damit sie ihn und die Wahrheit erkennen und lieben, hat einen Grund, ihnen verlässliche Erkenntnisfähigkeiten zu geben – Täuschung widerspräche seiner Güte. Die Bibel bezeichnet Gott ausdrücklich als den, der „nicht lügen kann" (Tit 1,2). Der Theismus macht Verlässlichkeit also wahrscheinlich; der Naturalismus lässt sie offen oder unwahrscheinlich.`,
+        },
+      ],
+    },
+    {
+      id: 'nagel-ohne-gott',
+      objection: `„Selbst Thomas Nagel, der den materialistischen Neodarwinismus für falsch hält, glaubt nicht an Gott. Das Problem der Vernunft – falls es eines gibt – führt also nicht zu deinem Gott, sondern höchstens zu einem erweiterten Naturalismus."`,
+      objectionBy: 'Graham Oppy',
+      answer: `Nagels Fall zeigt vor allem, dass das Problem echt ist: Ein angesehener atheistischer Philosoph hält die materialistische Erklärung von Bewusstsein, Erkenntnis und Werten für „fast sicher falsch". Er sucht eine Alternative ohne Gott und räumt offen ein, dass er keine fertige hat. Der Theismus dagegen hat eine: Die Welt ist verständlich und unser Verstand verlässlich, weil beide demselben Logos entstammen. Die Frage ist also nicht, ob Nagel Christ ist, sondern welche Erklärung die beste ist.`,
+      detail: `Nagels Buch trägt den programmatischen Untertitel *Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False* (2012). Er schlägt eine „natürliche Teleologie" vor – eine Tendenz der Natur zu Leben und Geist – und erwägt panpsychistische Elemente. Den Theismus lehnt er ab, behandelt ihn aber respektvoll als eine Alternative, die das Problem wenigstens erkennt. Für das Gespräch ist das wertvoll: Nicht nur Christen sehen hier eine Erklärungslücke.`,
+      sources: [
+        { kind: 'gegner', author: 'Thomas Nagel', work: 'Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False', year: '2012', status: 'paraphrase', quote: 'Die materialistische Naturauffassung könne Bewusstsein, Erkenntnis und Werte nicht erklären; Nagel sucht eine nichttheistische, teleologische Alternative.' },
+      ],
+      followUps: [
+        {
+          id: 'natuerliche-teleologie',
+          objection: `„Und warum nicht Nagels natürliche Teleologie? Vielleicht hat die Natur einfach eine eingebaute Tendenz zu Geist und Vernunft – ohne dass jemand sie gewollt hat."`,
+          objectionBy: 'Thomas Nagel (sinngemäß)',
+          answer: `Eine Natur, die auf Geist und Wahrheit *ausgerichtet* ist, ist bemerkenswert nah am Theismus: Zielgerichtetheit ohne jemanden, der ein Ziel setzt, ist schwer zu verstehen. Ein Gesetz, das „auf Vernunft hin" wirkt, braucht selbst eine Erklärung – warum gerade dieses Ziel? Der Theismus erklärt, *woher* die Ausrichtung kommt; die natürliche Teleologie stellt sie nur fest.`,
+          followUps: [
+            {
+              id: 'panpsychismus-alternative',
+              objection: `„Dann eben Panpsychismus: Bewusstsein ist eine Grundeigenschaft der Materie selbst, in jedem Elementarteilchen. Dann ist Geist nichts Rätselhaftes mehr, sondern überall – und wir brauchen keinen Gott."`,
+              objectionBy: 'Galen Strawson / Philip Goff',
+              answer: `Der Panpsychismus nimmt das Bewusstsein ernst – das ist ein Fortschritt gegenüber dem Materialismus. Aber er hat zwei offene Probleme: Wie sollen sich Milliarden winziger Erlebnisfunken zu *einem* Ich zusammensetzen (das sogenannte Kombinationsproblem)? Und selbst wenn Teilchen „erleben" – daraus folgt nicht, dass ihr Erleben auf *Wahrheit* ausgerichtet ist. Erleben ist noch nicht Vernunft. Die Verlässlichkeit unseres Denkens bleibt auch hier unerklärt.`,
+              detail: `Strawson (*Realistic Monism*, 2006) und Goff (*Galileo's Error*, 2019) vertreten panpsychistische Positionen; beide sehen sie als Alternative sowohl zum Materialismus als auch zum Dualismus. Ihre Kritik am Materialismus ist für Christen hilfreich. Der Schritt vom Erleben zum logischen Denken, das sich nach Gründen richtet, bleibt aber auch im Panpsychismus eine offene Stelle.`,
+              sources: [
+                { kind: 'gegner', author: 'Galen Strawson', work: '„Realistic Monism: Why Physicalism Entails Panpsychism", Journal of Consciousness Studies 13', year: '2006', status: 'paraphrase' },
+                { kind: 'gegner', author: 'Philip Goff', work: 'Galileo\'s Error: Foundations for a New Science of Consciousness', year: '2019', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'vernunft-einfach-voraussetzen',
+                  objection: `„Am Ende müssen wir die Vernunft ohnehin voraussetzen – du genauso wie ich. Dann ist ihre Verlässlichkeit eben eine Grundannahme, die keiner Erklärung bedarf."`,
+                  objectionBy: 'Graham Oppy',
+                  answer: `Voraussetzen müssen wir sie alle – darin sind wir uns einig. Der Unterschied ist, ob das Weltbild diese Voraussetzung *trägt* oder ob sie in ihm ein Fremdkörper bleibt. Im Christentum ist sie zu Hause: „Im Anfang war der Logos" (Joh 1,1) – die Welt ist aus Vernunft hervorgegangen, und der Mensch ist nach dem Bild dieses Logos geschaffen. Im Naturalismus ist die Verlässlichkeit der Vernunft eine glückliche Zusatzannahme, die das eigene Weltbild nicht erwarten lässt.`,
+                  detail: `C. S. Lewis formulierte es in *Miracles* (Kap. 3) so: Wenn unser Denken nur das Ergebnis nichtrationaler Ursachen wäre, hätten wir keinen Grund, ihm zu trauen – auch nicht dem Gedanken, dass es so ist. Athanasius sah die menschliche Vernunft als Teilhabe am göttlichen Logos: Der Mensch ist „logikos", vernunftbegabt, weil er nach dem Bild des Logos geschaffen ist (De Incarnatione 3). Ein Weltbild, das seine eigenen Grundlagen erklärt, ist einem überlegen, das sie nur borgt.`,
+                  voices: [
+                    {
+                      person: 'cs-lewis',
+                      role: 'als Kritiker des Naturalismus',
+                      text: `Lewis nennt es die „Kardinalschwierigkeit des Naturalismus": Wenn jedes Ereignis, auch jeder Gedanke, vollständig durch nichtrationale Ursachen erklärt wird, dann fällt die Unterscheidung zwischen einem Gedanken, der aus Gründen folgt, und einem, der bloß verursacht ist. Damit untergräbt der Naturalismus das Vertrauen in genau das Denken, mit dem er begründet werden soll.`,
+                      sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Wunder (Miracles)', ref: 'Kap. 3 („The Cardinal Difficulty of Naturalism", 2. Aufl. 1960)', year: '1947/1960', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Lässt dein Weltbild *erwarten*, dass ein Gehirn, das auf Überleben selektiert wurde, die Wahrheit über die Quantenmechanik herausfindet?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'wissenschaft-korrigiert-sozial',
+          objection: `„Einzelne Gehirne sind fehleranfällig, das stimmt. Aber Wissenschaft ist ein soziales Verfahren, das die Fehler Einzelner korrigiert: Begutachtung, Wiederholung, Messinstrumente. Die Institution ist verlässlich, auch wenn das Individuum es nicht ist."`,
+          objectionBy: 'Daniel Dennett',
+          answer: `Das ist ein guter Punkt, und Christen sollten ihn anerkennen: Gemeinsames, sich korrigierendes Forschen ist besser als einsames Grübeln. Aber jedes Glied dieser Kette – das Lesen eines Gutachtens, das Deuten eines Messwerts, das Erkennen eines Fehlers – benutzt wieder dieselben menschlichen Denkfähigkeiten. Instrumente und Institutionen verstärken die Vernunft; sie können ihre Grundzuverlässigkeit nicht ersetzen. Tausend Taschenrechner mit demselben Konstruktionsfehler korrigieren einander nicht.`,
+          questionsBack: [`Womit prüfen die Gutachter ein Gutachten, wenn nicht mit ihrer eigenen Vernunft?`],
         },
       ],
     },

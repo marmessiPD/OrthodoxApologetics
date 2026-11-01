@@ -167,7 +167,8 @@ const claim: Claim = {
               detail: `Bezeichnend ist auch, dass frühe Ausgaben der englischen Neuen-Welt-Übersetzung Hebr 1,6 noch mit „worship" wiedergaben; erst spätere Revisionen wählten „do obeisance". In Offb 5,13–14 empfangen „der auf dem Thron sitzt **und** das Lamm" dieselbe Anbetung aller Geschöpfe.`,
               sources: [
                 { kind: 'bibel', work: 'Matthäus', ref: '4,10', quote: `Du sollst anbeten Gott, deinen HERRN, und ihm allein dienen.`, translation: 'Luther 1912', status: 'verbatim' },
-                { kind: 'gegner', work: 'Neue-Welt-Übersetzung (engl.)', ref: 'Hebr 1,6, Ausgaben 1950/1961 gegenüber 1984/2013', quote: `Frühe Ausgaben: „worship"; spätere: „do obeisance".`, status: 'unverified', note: 'Ausgabenvergleich vor Verwendung am Original prüfen.' },
+                { kind: 'gegner', work: 'New World Translation of the Christian Greek Scriptures (engl.)', ref: 'Hebr 1,6, Ausgaben 1950–1970 gegenüber den Ausgaben ab 1971', quote: `Die Ausgaben 1950, 1961 und 1970 lesen „And let all God's angels worship him"; die späteren Ausgaben „do obeisance to him".`, status: 'paraphrase', note: 'Der Wortlaut der frühen Ausgaben ist auch in Wachtturm-Artikeln von 1954 belegt (siehe nächste Quelle). Das Jahr der Änderung (meist 1971 angegeben) beruht auf Ausgabenvergleichen kritischer Autoren.' },
+                { kind: 'gegner', work: 'The Watchtower (engl.), „Questions From Readers"', ref: '1. Januar 1954, S. 30–31; 15. Mai 1954, S. 317–319', quote: `Die Neue-Welt-Übersetzung sagt: „Und alle Engel Gottes sollen ihn anbeten."`, original: `The New World Translation says: "And let all God's angels worship him."`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://wol.jw.org/en/wol/d/r1/lp-e/1954369', note: 'Der Artikel vom 15. Mai 1954 verteidigt die Wiedergabe „worship" ausdrücklich und bezieht Hebr 1,6 auf den verherrlichten Jesus.' },
               ],
               followUps: [
                 {
@@ -197,6 +198,63 @@ const claim: Claim = {
           answer: `Lies den Zusammenhang: „Siehe, ich komme bald" (22,12) – „Ich bin das A und das O" (22,13) – „Ich, Jesus, habe meinen Engel gesandt" (22,16) – „Ja, ich komme bald. Amen, ja, komm, Herr Jesu!" (22,20). Und schon in 1,17–18 sagt Jesus: „Ich bin der Erste und der Letzte und der Lebendige; ich war tot" – das ist der Titel Jehovas aus Jes 44,6.`,
           sources: [{ kind: 'bibel', work: 'Offenbarung', ref: '1,17–18', quote: `Fürchte dich nicht! Ich bin der Erste und der Letzte und der Lebendige; ich war tot, und siehe, ich bin lebendig von Ewigkeit zu Ewigkeit.`, translation: 'Luther 1912', status: 'verbatim' }],
           questionsBack: [`Wer von beiden – Jehova oder Jesus – „war tot" (Offb 1,18)? Und wer nennt sich in diesem Vers „der Erste und der Letzte"?`],
+          followUps: [
+            {
+              id: 'mein-gott-offb-3-12',
+              objection: `Gerade in der Offenbarung sagt der verherrlichte Jesus viermal „**mein Gott**" (Offb 3,12). Wer einen Gott über sich hat, kann nicht selbst der allmächtige Gott sein. Und Joh 20,17: „Ich fahre auf zu meinem Gott und eurem Gott."`,
+              objectionBy: 'Der Wachtturm / Broschüre „Sollte man an die Dreieinigkeit glauben?"',
+              answer: `Der Sohn hat eine echte, bleibende Menschheit angenommen – und als Mensch betet er, gehorcht und nennt den Vater „mein Gott". Das ist kein Widerspruch, sondern genau das, was die Menschwerdung bedeutet. Beachte Joh 20,17: Jesus sagt nicht „unser Vater", sondern „**mein** Vater und **euer** Vater" – er ist Sohn auf andere Weise als wir. Und dasselbe Buch, das ihn „mein Gott" sagen lässt, gibt ihm den Titel „der Erste und der Letzte" (Offb 1,17) und lässt ihn mit dem Vater gemeinsam angebetet werden (5,13–14).`,
+              detail: `Hebr 1,8–9 zeigt beides in einem Atemzug: Der Sohn wird „Gott" angeredet („Gott, dein Thron währt von Ewigkeit zu Ewigkeit") – und zugleich heißt es: „darum hat dich, o Gott, gesalbt dein Gott". Die Schrift kennt also den, der Gott ist und zugleich einen Gott hat. Für Kyrill von Alexandrien ist das der Schlüssel: Der eine Christus spricht manches gemäß seiner Gottheit („Ich und der Vater sind eins"), manches gemäß der angenommenen Menschheit („mein Gott") – ohne dass er in zwei Personen zerfällt. Wer nur die eine Reihe von Stellen gelten lässt, muss die andere wegerklären.`,
+              voices: [
+                {
+                  person: 'kyrill-alexandrien',
+                  role: 'als Ausleger von Joh 20,17',
+                  text: `Kyrill erklärt Joh 20,17 so: Der Sohn nennt den Vater „mein Gott", weil er unseretwegen Mensch geworden ist und unsere Lage teilt; „euer Gott" ist er uns von Natur als Geschöpfen. Umgekehrt ist Gott „mein Vater" für Christus von Natur, für uns durch Gnade. Gerade die Unterscheidung „mein … euer" zeige, dass Christus nicht einfach einer von uns ist.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Kommentar zum Johannesevangelium', ref: 'zu Joh 20,17', quote: `„Mein Gott" spricht der Sohn wegen der Menschwerdung; „mein Vater" von Natur, „euer Vater" durch Gnade.`, status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '20,17', quote: `Ich fahre auf zu meinem Vater und zu eurem Vater, zu meinem Gott und zu eurem Gott.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Hebräer', ref: '1,8–9', quote: `Gott, dein Stuhl währt von Ewigkeit zu Ewigkeit … darum hat dich, o Gott, gesalbt dein Gott mit dem Öl der Freude.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Sinngemäß nach Luther 1912; Hebr 1,9 zitiert Ps 45,8.' },
+              ],
+              questionsBack: [`Wenn „mein Gott" beweist, dass Jesus nicht Gott ist – beweist dann „Ich bin der Erste und der Letzte" (Offb 1,17), dass er es ist?`],
+              followUps: [
+                {
+                  id: 'nach-himmelfahrt-kein-mensch',
+                  objection: `Nach eurer Lehre redet Jesus da als Mensch. Aber nach der Himmelfahrt ist er doch kein Mensch mehr, sondern wieder Geistgeschöpf – sein Leib wurde aufgelöst. Also spricht in Offb 3,12 ein Engelwesen.`,
+                  objectionBy: 'Wachtturm-Lehre (Auferstehung als Geistgeschöpf)',
+                  answer: `Genau hier liegt der eigentliche Unterschied: Die Bibel lehrt eine **leibliche** Auferstehung. Jesus sagt: „Ein Geist hat nicht Fleisch und Bein, wie ihr seht, dass ich habe" (Lk 24,39), und kündigt an, er werde „diesen Tempel" – seinen Leib – in drei Tagen aufrichten (Joh 2,19–21). Paulus nennt ihn nach der Himmelfahrt „der **Mensch** Christus Jesus" (1 Tim 2,5). Ein verschwundener Leib und ein neu erschaffener Geist wären keine Auferstehung, sondern ein Austausch.`,
+                  detail: `Die Wachtturm-Literatur erklärt das leere Grab damit, dass Gott den Leib beseitigt habe, und die Erscheinungen damit, dass Jesus sich vorübergehend materialisiert habe. Dagegen steht der Wortlaut: Thomas soll seine Hand in die Wunden legen (Joh 20,27) – derselbe Leib, der gekreuzigt wurde. Die koptische Liturgie bekennt am Ende der Basilius-Liturgie, dass die Gottheit sich „nicht einen Augenblick" von der Menschheit getrennt hat. Die angenommene Menschheit bleibt für immer – darum kann der Erhöhte als Mensch „mein Gott" sagen und als Gott angebetet werden.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Lukas', ref: '24,39', quote: `Sehet meine Hände und meine Füße: ich bin's selber. Fühlet mich und sehet; denn ein Geist hat nicht Fleisch und Bein, wie ihr sehet, daß ich habe.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: '1. Timotheus', ref: '2,5', quote: `Denn es ist ein Gott und ein Mittler zwischen Gott und den Menschen, nämlich der Mensch Christus Jesus.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'liturgie', work: 'Basilius-Liturgie (koptisch), Bekenntnis vor der Kommunion', quote: `Die Gottheit hat sich nicht einen Augenblick, nicht einen Wimpernschlag von der Menschheit getrennt.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn der Leib Jesu nicht auferstanden ist – was meint Jesus dann mit „Brecht diesen Tempel ab, und am dritten Tage will ich ihn aufrichten" (Joh 2,19)?`],
+                  followUps: [
+                    {
+                      id: 'fleisch-und-blut-erben-nicht',
+                      objection: `Paulus sagt: „Fleisch und Blut können das Reich Gottes nicht ererben" (1 Kor 15,50), und Jesus wurde „lebendig gemacht im Geist" (1 Petr 3,18). Also ist er als Geist auferstanden.`,
+                      objectionBy: 'Zeugen Jehovas',
+                      answer: `„Fleisch und Blut" ist eine feste jüdische Wendung für den sterblichen, vergänglichen Menschen – der nächste Halbsatz erklärt sie: „auch wird das Verwesliche nicht erben das Unverwesliche". Paulus spricht von einer Verwandlung desselben Leibes: „Dies Verwesliche muss anziehen das Unverwesliche" (15,53) – *dies*, nicht etwas anderes. Und „im Geist lebendig gemacht" heißt: durch den Geist Gottes zu neuem, unvergänglichem Leben erweckt, nicht: in einen Geist umgewandelt.`,
+                      detail: `Ein „geistlicher Leib" (*sōma pneumatikon*, 1 Kor 15,44) ist kein Leib aus Geist, so wie ein „geistlicher Mensch" (1 Kor 2,15) kein Mensch aus Geist ist, sondern einer, der vom Geist bestimmt ist. Murray J. Harris hat in seiner Studie zur Auferstehung gezeigt, dass Paulus Kontinuität und Verwandlung zugleich lehrt. Dazu kommt Röm 8,11: Gott wird „eure sterblichen Leiber lebendig machen" – die Erlösung zielt auf den Leib, nicht auf seinen Ersatz.`,
+                      voices: [
+                        {
+                          person: 'murray-harris',
+                          role: 'als Neutestamentler, Spezialist für die Auferstehung',
+                          text: `Harris zeigt in seinen Studien zur Auferstehung im Neuen Testament, dass *sōma pneumatikon* bei Paulus einen vom Geist Gottes belebten und beherrschten Leib meint und dass das leere Grab in den Evangelien die Identität des Auferstandenen mit dem Gekreuzigten verbürgt. Eine Auferstehung, bei der der Leib beseitigt und ein neues Geistwesen geschaffen wird, sei nach dem Neuen Testament gar keine Auferstehung.`,
+                          sources: [{ kind: 'fachliteratur', author: 'Murray J. Harris', work: 'From Grave to Glory: Resurrection in the New Testament', year: '1990', quote: `Leibliche, verwandelte Auferstehung Jesu gegen die Deutung als bloße Geist-Auferstehung.`, status: 'paraphrase' }],
+                        },
+                      ],
+                      sources: [
+                        { kind: 'bibel', work: '1. Korinther', ref: '15,50.53', quote: `Daß Fleisch und Blut nicht können das Reich Gottes ererben; auch wird das Verwesliche nicht erben das Unverwesliche … Denn dies Verwesliche muß anziehen das Unverwesliche.`, translation: 'Luther 1912', status: 'verbatim' },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

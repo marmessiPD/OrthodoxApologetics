@@ -233,6 +233,24 @@ Dieses Zugeständnis macht dich glaubwürdig. Sag es aktiv, bevor dein Gegenübe
           id: 'rosinenpicken',
           objection: `Das ist willkürliches Rosinenpicken: Was dir passt, ist historisch, der Rest symbolisch.`,
           answer: `Die Kriterien sind nicht willkürlich: Gattung, Signale im Text (Sonne erst am vierten Tag), der Sprachgebrauch der Bibel selbst und die Auslegung der Väter. Und die koptische Kirche hält am historischen Kern fest: Adam und Eva sind reale Personen, der Sündenfall ist real – das Erdalter dagegen ist offen.`,
+          followUps: [
+            {
+              id: 'adam-real-tage-nicht',
+              objection: `Genau da wird es inkonsequent: Adam soll real sein, aber die Tage nicht? Woher nimmst du diese Grenze?`,
+              objectionBy: 'Jerry Coyne',
+              answer: `Aus der Schrift selbst. Adam wird in den Genealogien wie eine historische Person behandelt – bis zu Jesus (Lk 3,38; 1 Chr 1,1) –, und Paulus baut auf ihm die Parallele zu Christus auf (Röm 5; 1 Kor 15). Die Länge der Schöpfungstage wird dagegen nirgends sonst in der Bibel als chronologische Angabe aufgegriffen; Ex 20,11 benutzt die Woche als Vorbild. Die Grenze ziehe nicht ich, sondern die Art, wie die Bibel selbst mit ihren Texten umgeht.`,
+              detail: `**Zwei verschiedene Arten von Aussagen:**
+- **Personen und Ereignisse**, die in späteren Texten als Teil der Heilsgeschichte vorausgesetzt werden (Adam, der Fall, Noah, Abraham), haben für die Kirche historisches Gewicht.
+- **Zeitstruktur** des Schöpfungsberichts (sechs Tage, Abend und Morgen) ist in Gen 1 kunstvoll gestaltet – Siebener-Rhythmus, Entsprechung der Tage 1–3 und 4–6 – und wird in der Schrift nicht als Zeitrechnung weitergeführt.
+
+Die koptische Kirche bekennt die Realität von Adam und Eva und des Sündenfalls, ohne die Dauer der Tage festzulegen. Das ist keine moderne Konstruktion, sondern entspricht der Weite der Väter: Basilius und Augustinus lasen die Tage verschieden – an der Realität Adams zweifelte keiner von beiden.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '3,38', quote: `der war ein Sohn des Enos, der war ein Sohn Seths, der war ein Sohn Adams, der war Gottes.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '1. Korinther', ref: '15,22', quote: `Denn gleichwie sie in Adam alle sterben, also werden sie in Christus alle lebendig gemacht werden.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Wo greift die Bibel außerhalb von Genesis 1 die Länge der Schöpfungstage als Zeitangabe auf – so wie sie Adam als Person aufgreift?`],
+            },
+          ],
         },
       ],
     },
@@ -247,6 +265,52 @@ Dieses Zugeständnis macht dich glaubwürdig. Sag es aktiv, bevor dein Gegenübe
           id: 'staendig-anpassen',
           objection: `Also passt ihr die Bibel ständig an die Wissenschaft an.`,
           answer: `Auslegungen sind revidierbar, der Text nicht – und die Wissenschaft revidiert sich ebenso. Übrigens bestätigte die Wissenschaft einen Kernpunkt der Genesis, den viele Gelehrte lange bestritten: dass das Universum einen Anfang hat. Der Urknall wurde von einem Priester-Physiker, Georges Lemaître, vorgeschlagen.`,
+          followUps: [
+            {
+              id: 'lemaitre-trennte',
+              objection: `Ausgerechnet Lemaître! Der wollte gerade nicht, dass man den Urknall als Schöpfungsbeweis benutzt – er war unglücklich, als Papst Pius XII. das 1951 tat. Du missbrauchst ihn.`,
+              objectionBy: 'Bill Nye',
+              answer: `Du hast recht, und das spricht für Lemaître: Er hielt Physik und Glauben methodisch auseinander und wollte seine Theorie nicht als Gottesbeweis verstanden wissen. Ich benutze ihn auch nicht so. Mein Punkt ist bescheidener: Ein überzeugter katholischer Priester konnte die moderne Kosmologie mitbegründen, ohne einen Konflikt mit der Genesis zu sehen. Das widerlegt die Behauptung, man müsse zwischen Wissenschaft und Bibel wählen.`,
+              detail: `**Die Geschichte:** Pius XII. verwies 1951 in einer Ansprache vor der Päpstlichen Akademie der Wissenschaften auf die Expansion des Universums als Hinweis auf eine Schöpfung. Lemaître war darüber besorgt und soll in der Folge darauf hingewirkt haben, dass der Papst die Kosmologie künftig nicht mehr in dieser Weise in Anspruch nahm. Er vertrat, dass die Bibel nicht Naturwissenschaft lehrt und die Wissenschaft nicht den Glauben beweist.
+
+**Was du daraus machst:** Keine Kosmologie als Gottesbeweis „verkaufen". Stattdessen: Lemaître ist ein lebendiger Beleg, dass Glaube und Forschung in derselben Person zusammengehen können – in der Tradition von Kepler, Boyle, Newton, Faraday und Maxwell.`,
+              voices: [
+                {
+                  person: 'lemaitre',
+                  role: 'als Physiker und Priester',
+                  text: `Lemaître unterschied zwei Wege zur Wahrheit: den der Wissenschaft und den des Heils. Die Bibel wolle nicht Physik lehren, sondern den Weg zu Gott zeigen; die Physik wiederum könne Gott weder beweisen noch widerlegen. Gerade deshalb sah er keinen Konflikt zwischen seiner Theorie eines „Uratoms" und seinem Glauben.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Georges Lemaître', work: 'Interview mit Duncan Aikman, New York Times Magazine („Lemaître Follows Two Paths to Truth")', year: '19. Februar 1933', status: 'paraphrase', quote: `Es gebe zwei Wege zur Wahrheit; er habe sich entschlossen, beiden zu folgen.` }],
+                },
+              ],
+              questionsBack: [`Wenn ein Priester die Urknalltheorie begründen konnte – woher kommt dann die Behauptung, Wissenschaft und Glaube müssten sich widersprechen?`],
+              followUps: [
+                {
+                  id: 'faith-vs-fact',
+                  objection: `Einzelne gläubige Wissenschaftler beweisen gar nichts. Glaube und Wissenschaft sind als Methoden unvereinbar: Die eine prüft, die andere glaubt ohne Belege. Gläubige Forscher halten ihre Arbeit nur vom Glauben getrennt.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `Wenn Glaube „ohne Belege" bedeutete, gäbe ich dir recht – aber das ist nicht der christliche Begriff. Die Schrift ruft dazu auf, Rechenschaft zu geben (1 Petr 3,15), und die Kirche hat immer gelehrt, dass Vernunft und Offenbarung vom selben Gott kommen. Historisch sind gerade die Begründer der modernen Naturwissenschaft von der Überzeugung ausgegangen, dass ein vernünftiger Schöpfer eine erforschbare Welt geschaffen hat. Die These vom ewigen Krieg zwischen Wissenschaft und Religion gilt unter Wissenschaftshistorikern heute als widerlegt.`,
+                  detail: `**Die Konfliktthese:** Sie stammt vor allem aus dem 19. Jahrhundert (John William Draper, Andrew Dickson White). Wissenschaftshistoriker wie Peter Harrison, Ronald Numbers oder John Hedley Brooke haben gezeigt, dass das Verhältnis viel komplexer war – und dass viele „Konflikt"-Erzählungen (die Kirche habe eine flache Erde gelehrt, Galilei sei gefoltert worden) Mythen sind.
+
+**Das Motiv der Gründer:** Kepler wollte „Gottes Gedanken nachdenken", Boyle verstand Naturforschung als Gottesdienst, Maxwell ließ Ps 111,2 über den Eingang des Cavendish-Labors schreiben: „Groß sind die Werke des HERRN; wer ihrer achtet, der hat eitel Lust daran."
+
+**Für dich:** Du musst nicht behaupten, Wissenschaft beweise Gott. Es genügt zu zeigen, dass der Glaube an einen vernünftigen Schöpfer historisch eine Triebfeder der Wissenschaft war – und dass „Glaube ohne Belege" eine Karikatur ist.`,
+                  voices: [
+                    {
+                      person: 'peter-harrison',
+                      role: 'als Wissenschaftshistoriker',
+                      text: `Harrison zeigt in *The Territories of Science and Religion*, dass die Kategorien „Wissenschaft" und „Religion" als getrennte, konkurrierende Bereiche eine moderne Konstruktion sind. Die Behauptung eines dauerhaften Konflikts lasse sich historisch nicht halten; die frühe Naturforschung war vielfach theologisch motiviert.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Territories of Science and Religion', year: '2015', status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Jerry A. Coyne', work: 'Faith vs. Fact: Why Science and Religion Are Incompatible', year: '2015', quote: `Coyne argumentiert, Wissenschaft und Religion seien als Wege zur Erkenntnis grundsätzlich unvereinbar.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Psalmen', ref: '111,2', quote: `Groß sind die Werke des HERRN; wer ihrer achtet, der hat eitel Lust daran.`, translation: 'Luther 1912', status: 'verbatim', note: 'In lateinischer Fassung über dem Eingang des alten Cavendish-Labors in Cambridge.' },
+                  ],
+                  questionsBack: [`Warum entstand die moderne Naturwissenschaft gerade in einer christlich geprägten Kultur – und warum waren ihre Gründer fast alle gläubig?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

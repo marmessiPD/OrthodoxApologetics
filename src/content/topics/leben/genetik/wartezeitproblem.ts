@@ -64,7 +64,8 @@ const claim: Claim = {
       role: 'als Paläontologe',
       text: `Bechly verbindet das Wartezeitproblem mit dem Fossilbericht: Viele große Übergänge erscheinen im Fossilbericht abrupt, in geologisch kurzen Zeitfenstern – die kambrische Explosion, die Entstehung der Blütenpflanzen, der Übergang zu vollständig im Wasser lebenden Walen. Je kürzer das Zeitfenster und je größer der Umbau, desto schärfer stellt sich die Frage, ob die Populationsgenetik genug Zeit für die nötigen koordinierten Änderungen lässt.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Günter Bechly', work: 'Beiträge zum „Wartezeitproblem" und zu abrupten Übergängen im Fossilbericht (evolutionnews.org; Vorträge)', status: 'unverified', note: 'Konkrete Fundstellen vor Zitierung heraussuchen.' },
+        { kind: 'fachliteratur', author: 'Günter Bechly, Stephen C. Meyer', work: '„The Fossil Record and Universal Common Ancestry", in: J. P. Moreland u. a. (Hg.), Theistic Evolution: A Scientific, Philosophical, and Theological Critique', ref: 'Kap. 10 (Zählung je nach Ausgabe abweichend)', year: '2017', status: 'paraphrase', note: 'Kapitel und Herausgeberschaft bestätigt; behandelt abrupte Übergänge im Fossilbericht. Einzelne Beispiele nicht am Original geprüft.' },
+        { kind: 'wissenschaft', author: 'Ola Hössjer, Günter Bechly, Ann Gauger', work: '„On the waiting time until coordinated mutations get fixed in regulatory sequences", Journal of Theoretical Biology 524', ref: 'Artikel 110657', year: '2021', status: 'paraphrase', quote: `Mathematisches Modell der Wartezeit, bis koordinierte Mutationen in regulatorischen Sequenzen mehrerer Gene fixiert sind – abhängig von Mutationsrate, Selektionsvorteil und Populationsgröße.`, url: 'https://doi.org/10.1016/j.jtbi.2021.110657', note: 'In einer etablierten Fachzeitschrift erschienen; Kritiker (z. B. Panda\'s Thumb 2021) bemängeln die Annahme fester Zielsequenzen.' },
       ],
     },
     {
@@ -102,6 +103,20 @@ const claim: Claim = {
               objection: `Solche Merkmale sind polygen: Viele Gene mit kleinen Effekten verschieben sie schrittweise – wie bei der Körpergröße. Da muss nichts koordiniert werden.`,
               objectionBy: 'Dan Stern Cardinale',
               answer: `Für quantitative Merkmale wie Körpergröße stimmt das, und das gestehe ich zu. Aber neue Strukturen oder Funktionen, die präzise Wechselwirkungen mehrerer Bausteine erfordern – etwa eine neue Proteinbindung oder ein neues Regulationsnetz –, sind etwas anderes. Beides kommt vor. Die Frage ist, welcher Typ für die großen Neuerungen bestimmend war.`,
+              followUps: [
+                {
+                  id: 'lynch-tunneling',
+                  objection: `Michael Lynch hat 2010 in PNAS gezeigt, dass komplexe Anpassungen, die mehrere Mutationen brauchen, über neutrale oder leicht schädliche Zwischenstufen „getunnelt" werden können – ohne dass jede Zwischenstufe fixiert werden muss. Die Wartezeiten sind viel kürzer, als Behe behauptet.`,
+                  objectionBy: 'Dan Stern Cardinale',
+                  answer: `Das sogenannte stochastische Tunneln ist ein echter Mechanismus, und Lynchs Arbeit ist ernst zu nehmen. Es wirkt aber vor allem in **großen** Populationen, in denen die zweite Mutation auftritt, solange die erste noch in einer Teilpopulation vorhanden ist. Für Homininen mit einer effektiven Populationsgröße von grob 10.000 ist genau das der ungünstige Bereich – deshalb haben Durrett & Schmidt ihre Rechnung ausdrücklich für menschliche Populationsparameter durchgeführt. Mikroben-Rechnungen lassen sich nicht einfach auf Primaten übertragen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Michael Lynch', work: '„Scaling expectations for the time to establishment of complex adaptations", PNAS 107', year: '2010', status: 'paraphrase', quote: `Die Zeit bis zur Etablierung von Anpassungen, die mehrere Mutationen erfordern, hängt stark von Populationsgröße und Mutationsrate ab; in großen Populationen kann sie durch Tunneln erheblich verkürzt werden.` },
+                  ],
+                  questionsBack: [
+                    `Für welche Populationsgröße gilt der Tunnel-Effekt – und welche effektive Populationsgröße nimmst du für die frühen Homininen an?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -124,6 +139,17 @@ const claim: Claim = {
               objection: `Und Rekombination? Und frühe Homininen-Populationen, die vielleicht größer waren?`,
               objectionBy: 'Joshua Swamidass',
               answer: `Rekombination hilft, getrennt entstandene Varianten zusammenzuführen, wenn beide schon in der Population vorhanden sind – sie ändert aber wenig daran, wie lange es dauert, bis eine allein nutzlose Mutation überhaupt in ausreichender Häufigkeit vorliegt. Und die effektive Populationsgröße der Homininen wird meist auf grob 10.000 geschätzt; selbst eine zehnmal größere Population verkürzt die Wartezeit nicht um Größenordnungen.`,
+              followUps: [
+                {
+                  id: 'viele-ziele',
+                  objection: `Das Grundproblem bleibt die feste Zielsequenz. In der Nähe jedes Gens gibt es Tausende Stellen, an denen eine neue Bindungsstelle nützen könnte, und viele verschiedene Sequenzen, die passen. Durrett & Schmidt haben selbst gezeigt, dass einzelne neue Bindungsstellen schnell entstehen. Auch das Modell von Hössjer, Bechly und Gauger steht und fällt mit vorgegebenen Zielen.`,
+                  objectionBy: 'Joshua Swamidass',
+                  answer: `Der Einwand ist berechtigt, soweit es um **einzelne**, einfache Bindungsstellen geht: Die entstehen tatsächlich relativ schnell, weil es viele mögliche Orte gibt – das zeigen Durrett & Schmidt selbst, und das gestehe ich zu. Das Wartezeitproblem betrifft den Fall, dass zwei oder mehr bestimmte Änderungen **zusammen** nötig sind, bevor ein Vorteil entsteht. Wie häufig dieser Fall ist, ist die eigentliche empirische Frage. Hössjer und Kollegen haben die Abhängigkeit von der Zahl der Ziele und der Selektionsstärke ausdrücklich modelliert; wer behauptet, es gebe fast immer viele leichte Wege, muss das für konkrete Merkmale zeigen.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Rick Durrett, Deena Schmidt', work: '„Waiting for regulatory sequences to appear", Annals of Applied Probability 17 (1)', year: '2007', status: 'paraphrase', note: 'Durrett & Schmidt zeigen hier, dass einzelne neue Bindungsstellen relativ schnell entstehen können; das Problem gekoppelter Mutationen behandeln sie 2008 in Genetics.' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -146,6 +172,20 @@ const claim: Claim = {
               objection: `Du verlangst Unmögliches. Die Evolution ist bewiesen; wir müssen nicht jede Mutation modellieren.`,
               objectionBy: 'Jerry Coyne',
               answer: `Ich verlange nicht jede Mutation, sondern eine plausible Größenordnung. Wenn die Behauptung lautet, ein ungelenkter Prozess habe dies in dieser Zeit bewirkt, dann ist die Frage nach der Zeit eine legitime wissenschaftliche Prüfung. Eine Theorie, die sich dieser Prüfung entzieht, gewinnt nicht an Stärke.`,
+              followUps: [
+                {
+                  id: 'wale-genverluste',
+                  objection: `Bei den Walen weiß man inzwischen, dass viele Anpassungen auf Genverluste zurückgehen – Gene für Speichelbildung, für die Melatonin-gesteuerte Schlafregulation und für bestimmte Blutgerinnungsfaktoren. Hiller und Kollegen haben 2019 Dutzende solcher Verluste dokumentiert. Genverluste geschehen schnell. Dein Zeitproblem löst sich auf.`,
+                  objectionBy: 'Donald Prothero',
+                  answer: `Genau das ist Behes These: Verluste sind schnell und leicht – ein Gen zu zerstören, gelingt auf tausend Wegen. Aber aus Verlusten baut man kein Blasloch, keine Barten, keine Echoortung, keinen Gegenstrom-Wärmetauscher in den Flossen und keine Niere für Salzwasser. Für diese **konstruktiven** Neuerungen braucht es Zugewinne an funktionaler Information, und für sie gilt die Wartezeitfrage unverändert. Die Studie zeigt also, welcher Teil des Umbaus leicht war – und lässt den schweren Teil offen.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Matthias Huelsmann u. a. (Labor M. Hiller)', work: '„Genes lost during the transition from land to water in cetaceans highlight genomic changes associated with aquatic adaptations", Science Advances 5 (9)', year: '2019', status: 'paraphrase', quote: `Beim Übergang der Wale vom Land ins Wasser gingen zahlreiche Gene verloren, deren Verlust mit Anpassungen an das Leben im Wasser in Verbindung gebracht wird.` },
+                  ],
+                  questionsBack: [
+                    `Welche der Neuerungen der Wale – Blasloch, Barten, Echoortung – lässt sich durch Genverlust erklären?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -163,6 +203,16 @@ const claim: Claim = {
           objectionBy: 'Larry Moran',
           answer: `Die These der genetischen Entropie ist in der Fachwelt stark umstritten, und ich brauche sie für mein Argument nicht. Das Wartezeitproblem hängt nicht davon ab, ob Genome langfristig zerfallen, sondern davon, wie lange koordinierte Neuerungen brauchen. Diese Frage bleibt auch ohne Sanford bestehen.`,
         },
+      ],
+    },
+    {
+      id: 'cit-plus-mehrstufig',
+      objection: `Im Lenski-Experiment haben wir einen mehrstufigen Weg direkt beobachtet: Cit+ brauchte vorbereitende Mutationen, dann die entscheidende Umlagerung, dann Verfeinerung. Koordinierte Mutationen sind also kein theoretisches Hindernis – sie passieren vor unseren Augen.`,
+      objectionBy: 'Richard Lenski',
+      answer: `Cit+ ist tatsächlich das beste beobachtete Beispiel für einen mehrstufigen Weg – und gerade deshalb ein guter Maßstab. Er brauchte rund 31.000 Generationen in einer Population von vielen Millionen Zellen pro Tag, trat nur in einer von zwölf Populationen auf und bestand in der Umschaltung eines vorhandenen Transporters unter einen vorhandenen Schalter. Übertragen auf Homininen mit etwa 10.000 Individuen und grob 300.000 Generationen seit der Trennung vom Schimpansen ist das kein Gegenbeispiel zum Wartezeitproblem, sondern eine Illustration seiner Größenordnung.`,
+      detail: `Fair bleiben: Bakterien und Menschen unterscheiden sich in vielem – Rekombination, Genomgröße, Selektionsstärken. Ein direkter Umrechnungsfaktor existiert nicht. Aber die Richtung ist eindeutig: Die Gesamtzahl der Individuen, die im LTEE über die Jahrzehnte gelebt haben, übersteigt die Zahl aller Homininen der letzten sechs Millionen Jahre bei Weitem. Wenn selbst dort eine regulatorische Umschaltung ein seltenes Ereignis war, sollte man bei den viel kleineren Primatenpopulationen vorsichtig sein, wenn man von „reichlich Zeit" spricht.`,
+      questionsBack: [
+        `Wie viele Bakteriengenerationen und Zellen hat es für Cit+ gebraucht – und wie viele Homininen gab es insgesamt seit der Trennung vom Schimpansen?`,
       ],
     },
   ],

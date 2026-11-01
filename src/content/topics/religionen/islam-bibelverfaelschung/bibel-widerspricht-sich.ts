@@ -172,6 +172,21 @@ const claim: Claim = {
           objection: `Solche Harmonisierungen sind unehrlich. Ein Historiker würde einfach sagen: zwei Überlieferungen, die sich widersprechen.`,
           objectionBy: 'Bart D. Ehrman (Methode), aufgegriffen von Muslimen',
           answer: `Historiker harmonisieren ständig, wenn zwei Quellen über dasselbe Ereignis berichten – etwa bei verschiedenen antiken Berichten über den Tod eines Kaisers. Harmonisierung ist unehrlich, wenn sie erzwungen ist, nicht wenn sie naheliegt. Und selbst wenn du zwei unabhängige Überlieferungen annimmst: Sie bestätigen beide, dass Judas tot war – nicht, dass er an Jesu Stelle gekreuzigt wurde.`,
+          followUps: [
+            {
+              id: 'jeremia-statt-sacharja',
+              objection: `Und Matthäus zitiert im selben Abschnitt den „Propheten Jeremia" (Mt 27,9) – aber die Stelle mit den dreißig Silberlingen steht bei Sacharja (11,12–13). Ein klarer Fehler!`,
+              objectionBy: 'Ahmed Deedat, Bart D. Ehrman',
+              answer: `Matthäus verbindet Sacharja 11 mit Motiven aus Jeremia: dem Töpfer (Jer 18–19) und dem Ackerkauf (Jer 32). Bei solchen Mischzitaten nannte man im Judentum oft den bedeutenderen Propheten – genau so beginnt Markus mit „im Propheten Jesaja" und zitiert dann Maleachi 3,1 zusammen mit Jesaja 40,3 (Mk 1,2–3). Das ist eine bekannte Zitierweise, kein Gedächtnisfehler.`,
+              detail: `Der Acker, das Töpferhaus, das „unschuldige Blut" und das Tal Hinnom stammen aus Jer 19,1–13; der Kauf eines Ackers mit Silber aus Jer 32,6–15. Matthäus will zeigen, dass das Schicksal Jerusalems, das Jeremia ankündigte, sich im Verrat am Messias spiegelt. Ob man diese Erklärung überzeugend findet oder nicht: Für die Frage der Verfälschung spielt die Stelle keine Rolle – sie steht so in allen Handschriften, niemand hat sie „korrigiert".`,
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '1,2–3', quote: `Wie geschrieben steht in den Propheten: Siehe, ich sende meinen Engel vor dir her … Es ist eine Stimme eines Predigers in der Wüste.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Viele alte Handschriften lesen „im Propheten Jesaja"; Luther 1912 folgt dem byzantinischen Text („in den Propheten").' },
+              ],
+              questionsBack: [
+                `Wenn Christen fälschen wollten – warum hat niemand „Jeremia" in den Handschriften durch „Sacharja" ersetzt?`,
+              ],
+            },
+          ],
         },
       ],
     },

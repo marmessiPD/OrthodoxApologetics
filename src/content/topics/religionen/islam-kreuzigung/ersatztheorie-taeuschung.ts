@@ -102,6 +102,27 @@ const claim: Claim = {
                 { kind: 'koran', work: 'Sure 61 (as-Saff)', ref: '61:14', quote: `… Da glaubte ein Teil der Kinder Israels, und ein Teil war ungläubig. Wir stärkten nun diejenigen, die glaubten, gegen ihren Feind, und so wurden sie die Oberhand Habenden.`, original: `fa-ayyadnā lladhīna āmanū ʿalā ʿaduwwihim fa-aṣbaḥū ẓāhirīn`, translation: 'eigene Übersetzung', status: 'verbatim', url: 'https://quran.com/61/14' },
               ],
               questionsBack: [`Welche Nachfolger Jesu wurden in der Geschichte „die Oberhand Habenden" – und was glaubten sie über das Kreuz?`],
+              followUps: [
+                {
+                  id: 'paulus-erfand-das-kreuz',
+                  objection: `Die Kreuzestheologie ist eine Erfindung des Paulus. Die Jerusalemer Jünger um Jakobus glaubten etwas anderes; erst Paulus machte den Tod Jesu zum Zentrum.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Paulus selbst sagt, dass er die Kreuzigungsbotschaft „empfangen" hat und weitergibt – ein Bekenntnis, das die Forschung auf wenige Jahre nach dem Kreuz datiert: „dass Christus gestorben ist für unsere Sünden nach der Schrift und begraben wurde und auferweckt worden ist am dritten Tag" (1 Kor 15,3–4). Er nennt Petrus und Jakobus als Zeugen, die er persönlich traf (Gal 1,18–19), und fügt hinzu: „Ob nun ich oder jene – so predigen wir" (1 Kor 15,11). Und dass Jesus gekreuzigt wurde, bezeugen auch Nichtchristen: Tacitus und Josephus.`,
+                  detail: `Die Kreuzigung Jesu gehört zu den am besten gesicherten Fakten der antiken Geschichte. Selbst skeptische Forscher wie John Dominic Crossan und Bart Ehrman halten sie für so sicher, wie ein historisches Ereignis nur sein kann. Unabhängige Quellen: die Paulusbriefe (50er-Jahre), alle vier Evangelien, Tacitus (Annalen 15,44: „von Pontius Pilatus hingerichtet"), Josephus (Antiquitates 18,63–64 – der Kern, dass Pilatus Jesus zum Kreuz verurteilte, gilt auch kritischen Forschern als echt), dazu Mara bar Serapion und Lukian, der Jesus spöttisch den „gekreuzigten Sophisten" nennt. Paulus hatte mit den Jerusalemer Aposteln Konflikte über Beschneidung und Speisegebote (Gal 2) – aber nie über die Frage, ob Jesus gekreuzigt wurde.`,
+                  voices: [
+                    { person: 'habermas', role: 'als Historiker der Auferstehungsforschung', text: `Habermas hat die Fachliteratur der letzten Jahrzehnte ausgewertet und zeigt, dass der Tod Jesu durch Kreuzigung von nahezu allen Forschern – gläubig wie skeptisch – als historische Tatsache anerkannt wird. Das Bekenntnis in 1 Kor 15,3–7 datieren die meisten Forscher in die ersten Jahre nach dem Kreuz; Paulus erhielt es wahrscheinlich bei seinem Besuch in Jerusalem bei Petrus und Jakobus.` },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,3–4.11', quote: `Denn ich habe euch zuvörderst gegeben, was ich empfangen habe: daß Christus gestorben sei für unsre Sünden nach der Schrift, und daß er begraben sei, und daß er auferstanden sei am dritten Tage nach der Schrift … Es sei nun ich oder jene: also predigen wir, und also habt ihr geglaubt.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Jüdische Altertümer (Antiquitates Iudaicae)', ref: '18,63–64', year: 'ca. 93/94', status: 'paraphrase', note: 'Das „Testimonium Flavianum" ist christlich überarbeitet; der Kern (Verurteilung zum Kreuz durch Pilatus) gilt den meisten Forschern als echt.' },
+                    { kind: 'fachliteratur', author: 'Gary R. Habermas / Michael R. Licona', work: 'The Case for the Resurrection of Jesus', year: '2004', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Kennst du eine Quelle aus dem 1. Jahrhundert – christlich, jüdisch oder römisch –, die sagt, Jesus sei nicht gekreuzigt worden?`,
+                    `Worüber stritten Paulus und die Jerusalemer Apostel – und worüber nie?`,
+                  ],
+                },
+              ],
             },
           ],
         },
