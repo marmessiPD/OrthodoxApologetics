@@ -124,6 +124,23 @@ const claim: Claim = {
               objectionBy: 'Iwan Karamasow / philosophischer Kritiker',
               answer: `Die christliche Hoffnung hält beides zusammen, ohne es aufzulösen: Wer wirklich umkehrt, wird ein anderer Mensch – er erkennt sein Unrecht in seiner ganzen Schwere, und erst so wird Vergebung möglich, die das Opfer nicht verhöhnt. Wer nicht umkehrt, bleibt in der Abwendung von Gott, die er gewählt hat. Gerechtigkeit ist nicht Rache, sondern Wahrheit. Wie Gott beides vollendet, wissen wir nicht – aber wir wissen, dass er weder das Opfer vergisst noch das Böse übersieht.`,
               detail: `Siehe die Claims im Themenblock „Hölle und Gericht". Dostojewski lässt Sossima die Hölle als „das Leiden, nicht mehr lieben zu können" beschreiben – nicht als Rache Gottes, sondern als Zustand dessen, der sich der Liebe verweigert.`,
+              followUps: [
+                {
+                  id: 'camus-rieux-weigerung',
+                  objection: `Dann halte ich es mit Doktor Rieux in Camus' „Pest": Ich werde mich bis in den Tod weigern, eine Schöpfung zu lieben, in der Kinder gequält werden. Ich kämpfe gegen die Pest, ohne Gott – und ohne Hoffnung auf eure Harmonie.`,
+                  objectionBy: 'Albert Camus (La Peste, 1947)',
+                  answer: `Rieux' Satz fällt am Bett eines sterbenden Kindes, und ich nehme ihn mit Ehrfurcht ernst. Auch ich liebe keine Welt, in der Kinder gequält werden – das Christentum nennt diesen Zustand gefallen, nicht gut. Aber ich liebe den, der in diese Welt hineingekommen ist, um sie zu heilen, und der selbst unter den Gequälten war. Rieux kämpft gegen die Pest ohne Hoffnung; der Christ kämpft mit derselben Hingabe, aber mit Hoffnung. Die Krankenhäuser, Waisenhäuser und Hospize der Kirchengeschichte zeigen, dass diese Hoffnung nicht lähmt, sondern antreibt.`,
+                  detail: `In *La Peste* (Teil IV) stirbt der Sohn des Untersuchungsrichters Othon qualvoll. Danach sagt Rieux zum Jesuitenpater Paneloux, er habe eine andere Vorstellung von Liebe und werde sich bis zum Tod weigern, diese Schöpfung zu lieben, in der Kinder gefoltert werden. Camus zeichnet Paneloux übrigens nicht als Karikatur: Er bleibt bei den Kranken und stirbt selbst. Beide arbeiten Seite an Seite – „wir arbeiten zusammen für etwas, das uns über Lästerung und Gebet hinaus vereint", sagt Rieux.
+
+Seelsorglich: Wer so spricht, hat oft ein Kind verloren oder sterben sehen. Dann ist das Wichtigste, bei ihm zu bleiben – wie Paneloux bei den Kranken blieb –, nicht, die Debatte zu gewinnen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Albert Camus', work: 'Die Pest (La Peste)', ref: 'Teil IV', year: '1947', quote: `Nein, Pater. Ich habe eine andere Vorstellung von der Liebe. Und ich werde mich bis in den Tod weigern, diese Schöpfung zu lieben, in der Kinder gemartert werden.`, original: `Non, mon Père. Je me fais une autre idée de l'amour. Et je refuserai jusqu'à la mort d'aimer cette création où des enfants sont torturés.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Woher nimmt Rieux die Kraft, weiterzukämpfen, wenn es keine Hoffnung gibt – und was wäre, wenn diese Hoffnung begründet ist?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -149,6 +166,30 @@ const claim: Claim = {
               objectionBy: 'Skeptiker',
               answer: `Es gibt einen Unterschied zwischen „Ich habe keinen Grund zu vertrauen" und „Ich kenne nicht jeden Grund". Wenn ich einem Menschen aus guten Gründen vertraue, kann ich ihm auch dann vertrauen, wenn ich eine einzelne Entscheidung nicht verstehe. Meine Gründe, Gott zu vertrauen, liegen nicht in der Erklärung jedes Leids, sondern in Jesus Christus – in seinem Leben, seinem Kreuz und seiner Auferstehung. Ehrliches Nichtwissen ist keine Ausrede; falsches Wissen wäre eine.`,
               detail: `Stump betont, dass die Erkenntnis einer Person – „ich kenne ihn, ich weiß, dass er mich liebt" – eine eigene Form von Wissen ist, die sich nicht auf Sätze reduzieren lässt. So vertrauen Kinder ihren Eltern. Das Vertrauen in Gott angesichts des Leids ist von dieser Art.`,
+              followUps: [
+                {
+                  id: 'entschaedigung-keine-rechtfertigung',
+                  objection: `Und dein „Gott wird das Leben des Kindes am Ende gut machen" ist Schmerzensgeld. Wenn ich einem Kind die Hand breche und ihm danach ein Eis kaufe, ist der Bruch nicht gerechtfertigt. Nachträgliche Entschädigung macht kein Unrecht gut.`,
+                  objectionBy: 'Alex O\'Connor',
+                  answer: `Der Vergleich ist berechtigt – gegen eine Theodizee der bloßen Entschädigung. Marilyn Adams hat genau deshalb zwischen Entschädigung und *Überwindung* unterschieden: Ein Übel wird nicht durch etwas Angenehmes daneben aufgewogen, sondern in eine Beziehung zu Gott hineingenommen, die so tief ist, dass der Betroffene selbst sein Leben im Rückblick nicht mehr als zerstört ansieht. Das ist kein Eis nach dem Bruch, sondern eher wie bei Menschen, die sagen: Gerade in meiner dunkelsten Stunde habe ich Gott am nächsten erfahren. Und noch einmal: Das Unrecht selbst rechtfertigt Gott nicht – er richtet den, der es tat.`,
+                  detail: `Adams (*Horrendous Evils and the Goodness of God*, 1999) definiert „horrende Übel" als solche, die es fraglich machen, ob das Leben des Betroffenen für ihn insgesamt noch ein Gut sein kann. Gottes Güte zeige sich nur, wenn er solche Übel im Leben jedes einzelnen Betroffenen überwindet – durch die Gemeinschaft mit dem leidenden Gott selbst. Hinweis: Adams war Anglikanerin und hoffte auf die Rettung aller; diese Hoffnung ist nicht Lehre der koptischen Kirche. Ihr Maßstab – Gott muss jedem Opfer *selbst* gerecht werden – ist aber ein wertvoller Beitrag.
+
+Die Bibel kennt dieses Motiv: Josef sagt zu seinen Brüdern: „Ihr gedachtet's böse mit mir zu machen; aber Gott gedachte es gut zu machen" (Gen 50,20) – die Tat bleibt böse, aber sie behält nicht das letzte Wort.`,
+                  voices: [
+                    {
+                      person: 'marilyn-adams',
+                      role: 'als Philosophin der „horrenden Übel" (mit Vorbehalt)',
+                      text: `Adams verlangt mehr als die meisten Theodizeen: Es genügt nicht, dass das Leid irgendeinem Gesamtplan dient. Gott muss jedem einzelnen Opfer so begegnen, dass dessen Leben für es selbst gut wird. Sie sieht den Schlüssel in der Gemeinschaft mit Christus, der selbst Horror erlitten hat – so kann das Leiden eines Menschen zum Ort der Begegnung mit Gott werden. Hinweis: Ihre universalistische Hoffnung teilt die koptische Kirche nicht.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Marilyn McCord Adams', work: 'Horrendous Evils and the Goodness of God', year: '1999', quote: `Gott ist nur dann gut zu einem Menschen, wenn er die horrenden Übel in dessen Leben nicht bloß ausgleicht, sondern innerhalb dieses Lebens überwindet.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '1. Mose', ref: '50,20', quote: `Ihr gedachtet's böse mit mir zu machen; aber Gott gedachte es gut zu machen, daß er täte, wie es jetzt am Tage ist, zu erhalten viel Volks.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -177,6 +218,21 @@ const claim: Claim = {
               sources: [
                 { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Dass Christus einer ist (Quod unus sit Christus)', year: 'um 437', quote: `Der Logos leidet nicht in seiner eigenen Natur, aber er eignet sich das Leiden seines Fleisches zu, weil das Fleisch sein eigenes ist; so litt er leidensunfähig.`, status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'nur-ein-wochenende',
+                  objection: `Ein paar Stunden am Kreuz, drei Tage im Grab, dann Auferstehung und ewige Herrlichkeit – mit Verlaub, das ist ein schlechtes Wochenende. Ein Kind, das monatelang an Krebs stirbt, hat mehr gelitten als Gott.`,
+                  objectionBy: 'Alex O\'Connor (verbreiteter Einwand)',
+                  answer: `Ich verstehe, warum das so wirkt. Aber es geht beim Kreuz nicht um eine Leidensmenge, die mit dem Kind konkurriert. Es geht darum, *wer* leidet und *was* er trägt: Der ewige Sohn erfährt Folter, Verrat, Verlassenheit – „Mein Gott, warum hast du mich verlassen?" – und den Tod selbst, den er als Gott nicht kennen müsste. Er trägt nicht nur seinen eigenen Schmerz, sondern die ganze Gottesferne der Welt. Und der Auferstandene behält seine Wunden (Joh 20,27): Gott vergisst das Leid nicht, er trägt es für immer an sich. Das Kreuz ist nicht kleiner als das Leid des Kindes, sondern der Ort, an dem Gott es in sich aufgenommen hat.`,
+                  detail: `Die Väter betonen, dass Christus nicht ein bestimmtes Quantum Leid absolviert, sondern unsere ganze Natur mit ihrem Tod angenommen hat, um sie von innen zu heilen: „Was nicht angenommen ist, ist nicht geheilt" (Gregor von Nazianz, Brief 101). Mit Kyrills 12. Anathematismus bekennt die koptische Kirche, dass der Logos „im Fleisch gelitten hat" – es ist Gott selbst, der im Kind am Krankenbett nicht fremd ist.
+
+Für den Ton: Diesen Gedanken nie als Relativierung gegenüber Eltern verwenden („Jesus hat mehr gelitten"). Er ist eine Antwort an den Philosophen, nicht ein Trostsatz für Trauernde.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '20,27', quote: `Danach spricht er zu Thomas: Reiche deinen Finger her und siehe meine Hände, und reiche deine Hand her und lege sie in meine Seite, und sei nicht ungläubig, sondern gläubig!`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Brief 101 (an Kledonios)', year: 'um 382', quote: `Was nicht angenommen ist, ist nicht geheilt; was aber mit Gott geeint ist, das wird auch gerettet.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -198,6 +254,18 @@ const claim: Claim = {
           objectionBy: 'Analytischer Philosoph',
           answer: `Richtig – deshalb steht die Liebe nicht allein. Für die intellektuelle Frage gibt es die philosophischen Antworten: Ein logischer Widerspruch ist nicht nachgewiesen, und dass wir Gottes Gründe nicht sehen, ist bei einem allwissenden Gott zu erwarten. Aber eine Antwort, die nur den Verstand befriedigt und das Herz kalt lässt, wäre selbst ein Argument gegen sich. Die christliche Antwort ist vollständig, weil sie beides hat.`,
           detail: `Siehe die Claims zum logischen und zum evidentiellen Problem. Im Gespräch mit Betroffenen gilt die umgekehrte Reihenfolge: zuerst Liebe und Nähe, dann – wenn gewünscht – Gedanken.`,
+          followUps: [
+            {
+              id: 'bibel-gott-toetet-kinder',
+              objection: `Ihr tut so, als sei euer Gott der Anwalt der Kinder. Aber im Alten Testament befiehlt er, die Amalekiter samt Säuglingen zu töten (1 Sam 15,3), und lässt die Erstgeborenen Ägyptens sterben. Wie passt das zu eurem mitleidenden Gott?`,
+              objectionBy: 'Bart D. Ehrman / Richard Dawkins',
+              answer: `Das sind die schwersten Texte der Bibel, und ich will sie nicht wegreden. Christen lesen sie im Licht Christi, in dem Gott sich vollständig gezeigt hat: Er nahm die Kinder in die Arme (Mk 10,16) und ließ sich lieber selbst töten, als zu töten. Die alexandrinischen Väter lasen solche Kriegstexte zudem auch geistlich – als Kampf gegen die Leidenschaften in der eigenen Seele. Das löst nicht jede Frage, aber es zeigt: Der Maßstab, mit dem du diese Texte richtest – Kinder sind unantastbar –, ist selbst ein biblischer Maßstab.`,
+              detail: `Ausführlich im Claim „Der Gott des Alten Testaments ist ein Monster" (Themenblock AT-Ethik), mit den Ansätzen von Paul Copan (Hyperbel altorientalischer Kriegsrhetorik) und der geistlichen Auslegung der Väter (Origenes, *Homilien zu Josua*). Für dieses Gespräch genügt: Wer sich über das Leid von Kindern empört, steht auf der Seite Jesu – und die Frage ist, ob ein Weltbild ohne Gott diese Empörung begründen kann.`,
+              sources: [
+                { kind: 'bibel', work: 'Markus', ref: '10,16', quote: `Und er herzte sie und legte die Hände auf sie und segnete sie.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -235,6 +303,7 @@ const claim: Claim = {
     'hoelle/ewige-strafe-ungerecht',
     'christologie-chalcedon',
     'moral-und-gott/gut-ohne-gott',
+    'at-ethik/at-gott-monster',
   ],
 };
 

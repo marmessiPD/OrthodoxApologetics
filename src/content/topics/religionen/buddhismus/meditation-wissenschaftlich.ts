@@ -110,6 +110,26 @@ const claim: Claim = {
               sources: [
                 { kind: 'wissenschaft', author: 'Antoine Lutz / Lawrence Greischar / Nancy Rawlings / Matthieu Ricard / Richard Davidson', work: 'Long-term meditators self-induce high-amplitude gamma synchrony during mental practice', ref: 'PNAS 101 (46)', year: '2004', status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'empirie-der-ersten-person',
+                  objection: `Die Hirnmessung ist nur die Außenseite. Die eigentliche Wissenschaft ist die Empirie der ersten Person: Jeder kann in der Meditation selbst überprüfen, dass das Ich eine Illusion ist. Schau hin – du findest kein Selbst, nur auftauchende Gedanken.`,
+                  objectionBy: 'Sam Harris (Waking Up)',
+                  answer: `Erfahrung der ersten Person ist wertvoll, aber sie ist immer gedeutet. Christliche Kontemplative berichten nach Jahrzehnten der Stille das Gegenteil: nicht das Verschwinden des Ich, sondern die Begegnung mit einem Du. Und wer bemerkt eigentlich, dass es kein Ich gibt? Augustinus sagte: Selbst wenn ich mich täusche, bin ich – denn wer nicht ist, kann sich auch nicht täuschen. Dass ich das Ich nicht als Gegenstand finde, beweist nicht, dass es fehlt; das Auge sieht sich auch nicht selbst.`,
+                  detail: `Harris hat ein ehrliches Buch über spirituelle Erfahrung ohne Religion geschrieben. Aber seine „Einsicht" ist eine bestimmte Deutung: Wenn ich nach einem Selbst wie nach einem Gegenstand suche, finde ich keinen – weil das Selbst nicht Gegenstand, sondern Subjekt der Erfahrung ist. Die Einheit des Bewusstseins, die Gedanken, Wahrnehmungen und Erinnerungen als *meine* zusammenhält, ist gerade die Voraussetzung jeder Beobachtung.
+
+Wer auf Empirie der ersten Person setzt, muss außerdem alle ersten Personen anhören – auch die christlichen Mystiker, die von persönlicher Gemeinschaft mit Gott berichten. Dann kann die Erfahrung allein nicht entscheiden, und wir sind wieder bei der Frage nach Gründen.`,
+                  voices: [
+                    { person: 'augustinus', role: 'als Philosoph des Selbstbewusstseins', text: `Augustinus antwortete den Skeptikern seiner Zeit mit einer Gewissheit, die keine Täuschung erschüttern kann: Wer sich täuscht, muss sein, um sich täuschen zu können. Die Selbstgegenwart des Geistes ist für ihn der Ausgangspunkt, von dem aus er nach innen und dann nach oben zu Gott fragt.`, sources: [
+                      { kind: 'kirchenvater', author: 'Augustinus', work: 'Vom Gottesstaat (De civitate Dei)', ref: 'XI,26', original: 'Si enim fallor, sum.', quote: `Denn wenn ich mich täusche, bin ich.`, status: 'verbatim', translation: 'eigene Übersetzung' },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sam Harris', work: 'Waking Up: A Guide to Spirituality Without Religion', year: '2014', status: 'paraphrase', quote: `Das Gefühl, ein Selbst zu sein, ist eine Illusion, die man in der Meditation durchschauen kann.` },
+                  ],
+                  questionsBack: [`Wer ist es, der in der Meditation bemerkt, dass da kein Selbst ist?`],
+                },
+              ],
             },
           ],
         },
@@ -126,6 +146,27 @@ const claim: Claim = {
           objection: `Dann nehmen wir eben nur die Technik. Davor müsst ihr Christen doch keine Angst haben.`,
           objectionBy: 'Jon Kabat-Zinn (sinngemäß)',
           answer: `Christen können Aufmerksamkeits- und Atemübungen mit Unterscheidungsvermögen nutzen – Ruhe ist nichts Schlechtes. Aber das Ziel macht den Unterschied: den Geist leeren oder ihn mit Gottes Gegenwart füllen. Und es gibt Risiken: Belastende Erfahrungen wie Angst und Entfremdung sind dokumentiert (Lindahl u. a. 2017). Die Wüstenväter übten Kontemplation aus gutem Grund nur unter Anleitung eines geistlichen Vaters.`,
+          followUps: [
+            {
+              id: 'angst-vor-dem-osten',
+              objection: `Eure Warnungen sind Angst vor dem Fremden. Thomas Merton, ein katholischer Trappist, ging selbst nach Asien, traf den Dalai Lama und schätzte Zen. Offenbar sind die Grenzen nicht so scharf.`,
+              objectionBy: 'Stephen Batchelor (sinngemäß)',
+              answer: `Es geht nicht um Angst, sondern um Unterscheidung. Merton schätzte Zen und blieb doch ein christlicher Mönch, der die Psalmen betete und die Eucharistie feierte. Die orthodoxe Kirche hat ihre eigene, sehr alte Tradition des inneren Gebets: das Jesusgebet der Wüstenväter und Hesychasten. Es zielt nicht darauf, den Geist zu leeren, sondern ihn mit dem Namen und der Gegenwart Christi zu füllen. Wir brauchen also keine fremde Technik – wir haben einen Schatz, den viele Christen nicht kennen.`,
+              detail: `Die koptischen Wüstenväter sind die Väter des christlichen Mönchtums. Bei ihnen findet sich das kurze, wiederholte Gebet, etwa das „Herr, erbarme dich" oder das von Cassian überlieferte „O Gott, komm mir zu Hilfe". Die Agpeya, das Stundengebet der koptischen Kirche, strukturiert bis heute den Tag durch Psalmen und Gebete.
+
+Ein ehrlicher Satz für das Gespräch: Christen können von der Disziplin buddhistischer Meditierender lernen, etwa in Bezug auf Ausdauer und Aufmerksamkeit. Aber das Herz des Gebets ist nicht eine Methode, sondern eine Person, die man anspricht.`,
+              followUps: [
+                {
+                  id: 'jesusgebet-nur-mantra',
+                  objection: `Euer Jesusgebet ist doch nur ein christliches Mantra mit Atemtechnik. Die Wirkung kommt von der Wiederholung, nicht vom Inhalt.`,
+                  objectionBy: 'Stephen Batchelor (sinngemäß)',
+                  answer: `Die Worte haben einen klaren Inhalt: „Herr Jesus Christus, Sohn Gottes, erbarme dich meiner." Das ist eine Anrede, ein Bekenntnis und eine Bitte – an jemanden. Die Väter warnten ausdrücklich davor, die Atemtechnik zum Zweck zu machen; sie ist höchstens eine Hilfe zur Sammlung. Ein Kind, das immer wieder „Papa" ruft, sagt kein Mantra auf – es ruft seinen Vater.`,
+                  detail: `Die philokalische Tradition (gesammelt im 18. Jahrhundert, aber auf die Väter der Wüste zurückgehend) betont Demut, Reue und Liebe als Bedingungen des Gebets. Ohne Umkehr wird das Gebet nach dem Urteil der Väter zur Selbsttäuschung. Darin unterscheidet es sich von einer Technik, die auf jeden gleich wirkt: Es ist ein Beziehungsgeschehen, das den Betenden verändert, weil er sich einem anderen öffnet.`,
+                  questionsBack: [`Ist es dasselbe, ob du einen Klang wiederholst oder jemanden bei seinem Namen rufst?`],
+                },
+              ],
+            },
+          ],
         },
         {
           id: 'achtsamkeit-neutral',
@@ -134,6 +175,19 @@ const claim: Claim = {
           answer: `Gerade weil sie als „neutral" vermarktet wird, kann sie für alles eingesetzt werden – zur Leistungssteigerung im Konzern ebenso wie zur Konzentrationsschulung beim Militär. Der Religionswissenschaftler Ronald Purser hat das als „McMindfulness" kritisiert. Eine Technik ohne Ethik und Ziel ist nicht neutral, sondern richtungslos. Christliches Gebet hat ein Ziel: Gott und den Nächsten zu lieben.`,
           sources: [
             { kind: 'fachliteratur', author: 'Ronald E. Purser', work: 'McMindfulness: How Mindfulness Became the New Capitalist Spirituality', year: '2019', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'mbsr-klinisch-saekular',
+              objection: `MBSR ist klinisch geprüft und völlig säkular. Kliniken empfehlen es bei Stress, Schmerzen und Depression. Was soll daran religiös sein?`,
+              objectionBy: 'Jon Kabat-Zinn (sinngemäß)',
+              answer: `Für bestimmte Anwendungen gibt es gute Belege – etwa achtsamkeitsbasierte kognitive Therapie zur Rückfallvorbeugung bei Depression. Christen können solche geprüften Methoden mit Unterscheidungsvermögen nutzen, wie jede Therapie. Aber Kabat-Zinn selbst hat geschrieben, dass MBSR aus dem buddhistischen Dharma schöpft und dessen Kern ohne buddhistische Sprache vermitteln will. „Säkular" ist hier also teils eine Übersetzung, nicht ein Fehlen von Weltanschauung. Und klinischer Nutzen beweist keine Metaphysik – weder buddhistische noch christliche.`,
+              detail: `Ehrlichkeit verlangt beides: Achtsamkeitsprogramme können Menschen in Krisen helfen, und Christen sollten das nicht kleinreden. Gleichzeitig ist es legitim zu fragen, welches Menschenbild mitgeliefert wird. Das christliche Gegenmodell ist nicht die Ablehnung von Aufmerksamkeit, sondern deren Ausrichtung: „Seid nüchtern und wachet" (1 Petr 5,8) – die Wachsamkeit (griechisch *nepsis*) ist ein Kernbegriff der Wüstenväter.`,
+              sources: [
+                { kind: 'gegner', author: 'Jon Kabat-Zinn', work: 'Some reflections on the origins of MBSR, skillful means, and the trouble with maps, in: Contemporary Buddhism 12 (1)', year: '2011', status: 'paraphrase', quote: `MBSR als Ausdruck des universalen Kerns des Dharma, bewusst ohne buddhistische Begriffe und Rahmen vermittelt.` },
+              ],
+              questionsBack: [`Wenn MBSR den Kern des Dharma ohne buddhistische Begriffe vermitteln will – ist es dann weltanschaulich neutral?`],
+            },
           ],
         },
       ],
@@ -163,6 +217,35 @@ const claim: Claim = {
           objection: `Wenn die Wirkung dieselbe ist – Ruhe, Konzentration, Frieden –, worin liegt dann der Unterschied?`,
           objectionBy: 'Deepak Chopra (sinngemäß)',
           answer: `Der Unterschied ist wie der zwischen einem Gespräch mit deinem Vater und dem Wiederholen eines beruhigenden Klangs. Das Ziel des Gebets ist nicht vor allem innere Ruhe, sondern Gemeinschaft mit Gott, Umkehr und Liebe zum Nächsten. Die Wüstenväter beurteilten Gebet nicht nach angenehmen Zuständen, sondern nach seinen Früchten: „An ihren Früchten sollt ihr sie erkennen" (Mt 7,16).`,
+        },
+      ],
+    },
+    {
+      id: 'buddha-erster-psychologe',
+      objection: `Der Buddha war der erste große Psychologe. Der Abhidharma ist eine präzise Kartographie des Geistes – 2500 Jahre vor der Kognitionswissenschaft. Das Christentum hat nichts Vergleichbares.`,
+      objectionBy: 'Der Dalai Lama (sinngemäß)',
+      answer: `Die buddhistische Analyse des Geistes ist beeindruckend, und ich lerne gern von ihr. Aber das Christentum hat sehr wohl eine eigene, feine Psychologie: Die ägyptischen Wüstenväter beschrieben im 4. Jahrhundert genau, wie Gedanken (*logismoi*) entstehen, wie sie zur Versuchung werden und wie man sie im Ansatz erkennt. Evagrius und Cassian ordneten die acht Hauptlaster – daraus wurden später die „Todsünden" des Westens. Und auch der Abhidharma ist keine Laborwissenschaft, sondern Analyse innerhalb einer Weltanschauung mit Wiedergeburt und Daseinsbereichen.`,
+      detail: `Cassian beschreibt in seinen *Institutiones* acht Hauptlaster – Völlerei, Unzucht, Habsucht, Zorn, Traurigkeit, Überdruss (*akedia*), Ruhmsucht und Stolz – samt ihren Ursachen, Erscheinungsformen und Heilmitteln. Die Väter achteten darauf, wie ein Gedanke zunächst nur auftaucht, dann Zustimmung sucht und schließlich zur Gewohnheit wird. Moderne Psychologen haben Parallelen zur kognitiven Verhaltenstherapie bemerkt, die gezielt mit automatischen Gedanken arbeitet.
+
+Das Ziel ist aber auch hier verschieden: Die Väter wollten das Herz nicht nur beruhigen, sondern für die Liebe zu Gott und dem Nächsten frei machen.`,
+      voices: [
+        { person: 'johannes-cassian', role: 'als Lehrer der monastischen Seelenkunde', text: `Cassian überlieferte dem Westen die Erfahrung der ägyptischen Mönche: eine genaue Lehre von den acht Hauptlastern, ihren Wurzeln und ihren Heilmitteln. Für ihn ist der Kampf gegen die Laster kein Selbstzweck, sondern dient der Reinheit des Herzens, die Gott schauen kann (Mt 5,8).`, sources: [
+          { kind: 'kirchenvater', author: 'Johannes Cassian', work: 'Einrichtungen der Klöster (De institutis coenobiorum)', ref: 'Bücher V–XII', year: 'ca. 420', status: 'paraphrase', quote: `Die acht Hauptlaster und ihre Heilmittel: Völlerei, Unzucht, Habsucht, Zorn, Traurigkeit, Akedia, Ruhmsucht, Stolz.` },
+        ] },
+      ],
+      followUps: [
+        {
+          id: 'psychologie-ohne-suende-gesuender',
+          objection: `Aber die buddhistische Psychologie kommt ohne Schuld und Sünde aus. Sie spricht von heilsamen und unheilsamen Zuständen. Das ist gesünder als euer ständiges Schuldbewusstsein.`,
+          objectionBy: 'Stephen Batchelor (sinngemäß)',
+          answer: `Die Väter verstanden Sünde vor allem als Krankheit der Seele und die Kirche als Krankenhaus – nicht als Gerichtssaal voller Angst. Aber sie sprachen auch von Verantwortung, weil wir anderen wirklich schaden. Und gerade das befreit: Wo es Schuld gibt, gibt es auch Vergebung. Die Forschung bestätigt, dass Vergebung empfangen und gewähren Menschen entlastet. Ein System ohne Schuld kennt auch kein „Dir ist vergeben".`,
+          detail: `Der Psychologe Everett Worthington hat die Wirkungen der Vergebung jahrzehntelang erforscht – und sie nach dem Mord an seiner eigenen Mutter selbst durchlebt. Seine Studien zeigen, dass Vergebung mit weniger Groll, Angst und Depression einhergeht. Die Beichte in der orthodoxen Kirche ist kein Ort der Verurteilung, sondern der Heilung: Der Priester spricht im Namen Christi die Vergebung zu. Krankhafte Schuldgefühle sind ein Missbrauch; ein gesundes Gewissen dagegen ist eine Gabe.`,
+          voices: [
+            { person: 'everett-worthington', role: 'als Vergebungsforscher', text: `Worthington hat Modelle der Vergebung entwickelt und empirisch geprüft. Er unterscheidet zwischen der Entscheidung zu vergeben und der emotionalen Vergebung und zeigt, dass beide mit seelischer und körperlicher Gesundheit verbunden sind.`, sources: [
+              { kind: 'wissenschaft', author: 'Everett L. Worthington Jr.', work: 'Forgiving and Reconciling: Bridges to Wholeness and Hope', year: '2003', status: 'paraphrase', quote: `Vergebung als heilsamer Prozess, der Groll und seelische Belastung mindert.` },
+            ] },
+          ],
+          questionsBack: [`Wenn es keine Schuld gibt – wem gegenüber ist dann ein Opfer berechtigt, Entschuldigung zu erwarten?`],
         },
       ],
     },

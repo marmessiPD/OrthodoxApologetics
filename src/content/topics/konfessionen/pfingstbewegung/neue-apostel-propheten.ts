@@ -155,6 +155,97 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'paulus-kam-spaeter',
+      objection: `„Paulus gehörte nicht zu den Zwölf und wurde erst Jahre später berufen. Das beweist doch: Gott beruft auch nach den Zwölf weiter Apostel."`,
+      objectionBy: 'C. Peter Wagner',
+      answer: `Paulus selbst schließt die Reihe: „Am letzten nach allen ist er auch von mir, als einer unzeitigen Geburt, gesehen worden" (1 Kor 15,8). Sein Apostelamt begründet er damit, dass er den Auferstandenen gesehen hat: „Bin ich nicht ein Apostel? Habe ich nicht unsern Herrn Jesus Christus gesehen?" (1 Kor 9,1). Paulus ist nicht der Beweis für eine offene Reihe, sondern ihr ausdrücklich letztes Glied.`,
+      sources: [
+        { kind: 'bibel', work: '1. Korinther', ref: '15,7–8', quote: `Danach ist er gesehen worden von Jakobus, danach von allen Aposteln. Am letzten nach allen ist er auch von mir, als einer unzeitigen Geburt, gesehen worden.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: '1. Korinther', ref: '9,1', quote: `Bin ich nicht ein Apostel? Bin ich nicht frei? Habe ich nicht unsern Herrn Jesus Christus gesehen?`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'unsere-apostel-sahen-jesus',
+          objection: `„Auch unsere Apostel haben Jesus in Visionen gesehen. Damit erfüllen sie dein Kriterium."`,
+          objectionBy: 'NAR-Prophet',
+          answer: `Paulus unterscheidet die Erscheinungen des Auferstandenen, die mit ihm abgeschlossen sind („am letzten nach allen"), von späteren Visionen, die er auch hatte (2 Kor 12,1–4) – auf diese gründet er sein Apostelamt gerade nicht. Visionen sind möglich, aber sie machen niemanden zum Augenzeugen der Auferstehung. Und Paulus warnt: Selbst wenn „ein Engel vom Himmel" ein anderes Evangelium predigte, sei er verflucht (Gal 1,8).`,
+          followUps: [
+            {
+              id: 'present-truth',
+              objection: `„Wir beanspruchen keine neue Lehre auf der Ebene der Schrift – nur ‚gegenwärtige Wahrheit' (*present truth*), frische strategische Offenbarung für die Kirche heute."`,
+              objectionBy: 'Bill Hamon',
+              answer: `Dann prüfen wir das an den Früchten: In der Praxis trägt diese „gegenwärtige Wahrheit" oft verbindliche Inhalte – etwa über eine neue apostolische Leitungsstruktur oder den Auftrag, die Gesellschaft zu beherrschen – und verlangt Gehorsam. Was die Kirche bindet, muss sich an der apostolischen Überlieferung messen lassen: „Haltet an den Satzungen, darin ihr gelehrt seid, es sei durch unser Wort oder Epistel" (2 Thess 2,15). Ist sie nicht verbindlich, kann sie auch keine Autorität begründen.`,
+              sources: [
+                { kind: 'gegner', author: 'Bill Hamon', work: 'Apostles, Prophets and the Coming Moves of God', year: '1997', status: 'paraphrase', note: 'Hamon entfaltet hier die Lehre von der „Wiederherstellung" der Apostel und Propheten und der „present truth".' },
+              ],
+              followUps: [
+                {
+                  id: 'sieben-berge-mandat',
+                  objection: `„Das Sieben-Berge-Mandat ist biblisch: Christen sollen die sieben Bereiche der Gesellschaft – Regierung, Medien, Bildung, Wirtschaft, Familie, Religion, Kunst – einnehmen. Das ist der Herrschaftsauftrag aus Gen 1,28."`,
+                  objectionBy: 'Lance Wallnau',
+                  answer: `Gen 1,28 gibt allen Menschen den Auftrag, die Schöpfung zu bebauen und zu bewahren – nicht der Kirche den Auftrag, die Gesellschaft zu beherrschen. Christus lehnte die Reiche der Welt ab, als der Versucher sie ihm anbot (Mt 4,8–10), und sagte: „Mein Reich ist nicht von dieser Welt" (Joh 18,36). Die Kirche verändert die Welt als Salz und Licht (Mt 5,13–14) – durch Heiligkeit, Dienst und, wenn nötig, Martyrium.`,
+                  detail: `Die koptische Kirche hat vierzehn Jahrhunderte als Minderheit gelebt, ohne politische Macht – und doch Ägypten geprägt, durch Mönchtum, Schulen, Krankenfürsorge und das Zeugnis ihrer Märtyrer. Diese Erfahrung ist ein stilles, aber starkes Gegenargument gegen jede Theologie, die das Reich Gottes an gesellschaftlicher Kontrolle misst. Bleib im Gespräch sachlich und vermeide tagespolitische Debatten.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '18,36', quote: `Mein Reich ist nicht von dieser Welt.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Hat Jesus seine Jünger je beauftragt, die Regierung oder die Medien „einzunehmen"?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'gaben-bis-zur-wiederkunft',
+      objection: `„1 Kor 13,8–10: Die Gaben hören erst auf, ‚wenn kommen wird das Vollkommene' – also bei der Wiederkunft. Bis dahin gibt es Apostel und Propheten. Wer das bestreitet, ist ein unbiblischer Cessationist."`,
+      objectionBy: 'Charismatischer Theologe (vgl. Sam Storms)',
+      answer: `Wir sind keine Cessationisten: Die koptische Kirche glaubt, dass Gaben und Wunder bis heute geschehen – ihre Heiligen und Mönche bezeugen es. Der Streitpunkt sind nicht die Gaben, sondern das **Fundament**: Die Kirche ist „erbaut auf den Grund der Apostel und Propheten" (Eph 2,20). Gaben wirken weiter, aber das Fundament wird nicht neu gelegt.`,
+      followUps: [
+        {
+          id: 'zeichen-eines-apostels',
+          objection: `„Eure Bischöfe haben eine Amtsnachfolge, aber keine Kraft. Wahre apostolische Autorität zeigt sich in Zeichen und Wundern (2 Kor 12,12)."`,
+          objectionBy: 'NAR-Anhänger',
+          answer: `Lies 2 Kor 12,12 im Zusammenhang: Paulus schreibt gegen die „hohen Apostel" (11,5), die sich ihrer Visionen und Kraft rühmten – und er rühmt sich dagegen seiner Schwachheit (12,9–10). Die Zeichen geschahen „mit aller Geduld". Auch koptische Bischöfe und Heilige hatten Zeichen, aber Kriterium der Autorität ist die Treue zum anvertrauten Glaubensgut (1 Tim 6,20; 2 Tim 1,14). Irenäus prüfte die Gnostiker genau so: Wo ist die Lehre, die die Apostel ihren Nachfolgern übergeben haben?`,
+          voices: [
+            {
+              person: 'irenaeus',
+              role: 'als Theologe der apostolischen Überlieferung',
+              text: `Irenäus argumentiert gegen die Gnostiker, die sich auf geheime Offenbarungen beriefen, mit der öffentlichen Nachfolge der Bischöfe: Hätten die Apostel verborgene Geheimnisse gekannt, hätten sie diese zuerst den Männern anvertraut, denen sie die Kirchen übergaben. Die Wahrheit ist in den Kirchen apostolischen Ursprungs offen zugänglich.`,
+              sources: [{ kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'III,3,1', year: 'um 180', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'sukzession-erfunden',
+              objection: `„Die apostolische Sukzession ist eine spätere Konstruktion. Die Bischofslisten wurden im 2. Jahrhundert nachträglich erstellt."`,
+              objectionBy: 'NAR-Lehrer',
+              answer: `Schon Klemens von Rom schreibt um 96, also zu Lebzeiten von Apostelschülern: Die Apostel setzten Bischöfe und Diakone ein und verfügten, dass nach deren Tod andere bewährte Männer ihren Dienst übernehmen sollten (1 Clem 42; 44). Ignatius von Antiochien setzt um 110 Bischof, Presbyter und Diakone in vielen Gemeinden Kleinasiens selbstverständlich voraus. Einzelne Listen mögen später zusammengestellt sein – das Prinzip ist apostolisch.`,
+              voices: [
+                {
+                  person: 'clemens-rom',
+                  role: 'als ältester nachapostolischer Zeuge',
+                  text: `Klemens erinnert die Korinther daran, dass die Apostel, von Christus gesandt, in Städten und Dörfern ihre Erstlinge nach Prüfung im Geist zu Bischöfen und Diakonen einsetzten. Sie wussten um künftigen Streit und trafen Vorsorge, dass nach deren Entschlafen andere erprobte Männer ihren Dienst übernehmen sollten.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Klemens von Rom', work: '1. Klemensbrief', ref: '42; 44', year: 'um 96', status: 'paraphrase' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'bischof-und-presbyter-gleich',
+                  objection: `„Im Neuen Testament sind ‚Bischof' und ‚Ältester' dasselbe (Tit 1,5–7; Apg 20,17.28). Ein Bischof über den Presbytern ist unbiblisch."`,
+                  objectionBy: 'Reformierter oder freikirchlicher Theologe',
+                  answer: `Die Begriffe sind im Neuen Testament tatsächlich noch fließend – das geben wir zu. Aber das Amt der Aufsicht über die Ältesten gab es: Timotheus und Titus setzen Älteste ein und weisen sie zurecht (Tit 1,5; 1 Tim 5,19–22). Dass sich die Bezeichnungen später festigten, heißt nicht, dass das Amt erfunden wurde. In Alexandrien reicht die Reihe vom Evangelisten Markus über Anianus bis zum heutigen Papst.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Titus', ref: '1,5', quote: `Derhalben ließ ich dich in Kreta, dass du solltest vollends ausrichten, was ich gelassen habe, und besetzen die Städte hin und her mit Ältesten, wie ich dir befohlen habe.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wer hat deine Apostel eingesetzt – und von wem stammt deren Autorität?`,

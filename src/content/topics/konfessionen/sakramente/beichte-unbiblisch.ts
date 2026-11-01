@@ -183,6 +183,97 @@ Für Schenuda widerspricht die Beichte nicht dem direkten Gebet zu Gott – sie 
         },
       ],
     },
+    {
+      id: 'joh-1-9-vor-gott',
+      objection: `„1 Joh 1,9: ‚So wir aber unsre Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt.' Kein Wort von einem Priester. Das Bekenntnis vor Gott genügt."`,
+      objectionBy: 'Johannes Calvin (historisch) / John MacArthur',
+      answer: `Ein kostbarer Vers – und Kopten beten ihn jeden Tag: Gott ist treu und vergibt dem, der bekennt. Aber „bekennen" (*homologein*) heißt im NT „offen aussprechen", und Johannes schreibt im Plural an eine Gemeinschaft. Die frühe Kirche las ihn genau so: Die Didache (um 100) gebietet: „In der Gemeinde sollst du deine Übertretungen bekennen", und vor der sonntäglichen Eucharistie sollen die Gläubigen zuerst ihre Sünden bekennen. Das persönliche Bekenntnis vor Gott und das Bekenntnis in der Kirche schließen sich nicht aus – das zweite ist die von Christus gegebene Form des ersten.`,
+      detail: `Calvin kritisiert in der *Institutio* (III,4) die Ohrenbeichte scharf, empfiehlt aber zugleich, dass bedrückte Gewissen beim Pastor Trost und Zuspruch suchen. Auch er kennt also das Bedürfnis, Sünde vor einem Menschen auszusprechen.
+
+Die Didache, eine der ältesten Kirchenordnungen, kennt bereits das Sündenbekenntnis in der Gemeinde (4,14) und vor der Eucharistie (14,1). Die Form war anfangs stärker öffentlich, später privat – aber immer kirchlich. Jak 5,16 („bekenne einer dem andern") steht im Zusammenhang mit den „Ältesten der Gemeinde" (5,14), die gerufen werden und über dem Kranken beten.`,
+      sources: [
+        { kind: 'bibel', work: '1. Johannes', ref: '1,9', quote: `So wir aber unsre Sünden bekennen, so ist er treu und gerecht, daß er uns die Sünden vergibt und reinigt uns von aller Untugend.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '4,14; 14,1', year: 'um 100', quote: `In der Gemeinde sollst du deine Übertretungen bekennen und nicht mit bösem Gewissen zu deinem Gebet hinzutreten … Am Tag des Herrn kommt zusammen, brecht das Brot und sagt Dank, nachdem ihr zuvor eure Übertretungen bekannt habt, damit euer Opfer rein sei.`, status: 'paraphrase' },
+        { kind: 'gegner', author: 'Johannes Calvin', work: 'Institutio Christianae Religionis', ref: 'III,4,12–14', year: '1559', quote: `Calvin verwirft die Pflicht der Ohrenbeichte, rät aber bedrängten Gewissen, beim Pastor privat Trost und Zuspruch der Vergebung zu suchen.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Warum gebietet die Didache schon um 100 das Sündenbekenntnis „in der Gemeinde", wenn das Bekenntnis allein vor Gott genügt?`,
+      ],
+      followUps: [
+        {
+          id: 'gemeinde-nicht-priester',
+          objection: `„Bekenntnis in der Gemeinde ist aber nicht Bekenntnis vor einem Priester mit Lossprechung. Ihr lest eure spätere Praxis in die Texte zurück."`,
+          objectionBy: 'James White',
+          answer: `Die Gemeinde handelte nie formlos, sondern durch ihre Hirten. Basilius der Große schreibt im 4. Jahrhundert ausdrücklich: Man muss seine Sünden denen bekennen, denen die Verwaltung der Geheimnisse Gottes anvertraut ist – so wie man eine Krankheit nicht jedem, sondern dem Arzt zeigt. Cyprian (um 250) mahnt, die Sünden „bei den Priestern Gottes" zu bekennen, solange noch Zeit ist. Das ist keine mittelalterliche Rückprojektion, sondern das Zeugnis der Väter aus Ost und West.`,
+          voices: [
+            {
+              person: 'basilius',
+              role: 'als Mönchsvater und Bischof von Caesarea',
+              text: `Basilius vergleicht das Bekenntnis der Sünden mit der Offenlegung einer Krankheit: Man zeigt sie nicht jedem, sondern dem, der heilen kann. Deshalb gehört das Bekenntnis zu denen, denen die Verwaltung der Mysterien Gottes anvertraut ist – nach dem Vorbild derer, die bei Johannes dem Täufer und bei den Aposteln ihre Sünden bekannten (Mt 3,6; Apg 19,18).`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Kürzere Regeln (Regulae brevius tractatae)', ref: '288', year: 'um 370', quote: `Es ist notwendig, die Sünden denen zu bekennen, denen die Verwaltung der Geheimnisse Gottes anvertraut ist.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Cyprian von Karthago', work: 'Über die Gefallenen (De lapsis)', ref: '29', year: '251', quote: `Jeder bekenne seine Sünde, solange der Sünder noch in dieser Welt ist, solange sein Bekenntnis angenommen werden kann und die durch die Priester gewirkte Genugtuung und Vergebung vor dem Herrn Gefallen findet.`, status: 'paraphrase' },
+            { kind: 'bibel', work: 'Apostelgeschichte', ref: '19,18', quote: `Es kamen auch viele derer, die gläubig waren geworden, und bekannten und verkündigten, was sie ausgerichtet hatten.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'absolution-anmassung',
+              objection: `„‚Ich spreche dich los' – damit maßt sich der Priester an, was allein Gott tut. Höchstens kann er die Vergebung *verkündigen*, die Gott dem Glaubenden schon geschenkt hat."`,
+              objectionBy: 'R. C. Sproul',
+              answer: `Die koptischen Lossprechungsgebete sind Gebete zu Gott: Der Priester bittet Christus, der den Aposteln den Geist einhauchte und sagte „Welchen ihr die Sünden erlasset, denen sind sie erlassen", diesen Menschen loszusprechen. Nicht der Priester vergibt aus eigener Macht, sondern Gott durch den Dienst, den er selbst eingesetzt hat: Er hat uns „das Amt der Versöhnung" gegeben (2 Kor 5,18). Paulus sagt sogar über einen konkreten Sünder in Korinth: „Denn auch ich, so ich etwas vergebe jemandem, das vergebe ich um euretwillen an Christi Statt" (2 Kor 2,10).`,
+              detail: `In der koptischen Liturgie gibt es die „Absolution an den Sohn" und weitere Lossprechungsgebete, in denen der Priester sich an Christus wendet und um Vergebung für das Volk und für sich selbst bittet – er bekennt sich selbst als Sünder. Das zeigt den Charakter des Amtes: Der Priester steht nicht über dem Sünder, sondern an seiner Seite vor Gott, mit der Vollmacht, die Christus seiner Kirche gegeben hat.
+
+Der Unterschied zwischen „verkündigen" und „lossprechen" ist kleiner, als es scheint: Auch nach Joh 20,23 ist die Vergebung nicht eine Information, sondern eine Wirklichkeit, die Christus durch den Dienst seiner Apostel zuspricht – „denen sind sie erlassen".`,
+              sources: [
+                { kind: 'bibel', work: '2. Korinther', ref: '2,10', quote: `Welchem aber ihr etwas vergebet, dem vergebe ich auch. Denn auch ich, so ich etwas vergebe jemandem, das vergebe ich um euretwillen an Christi Statt.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '2. Korinther', ref: '5,18', quote: `Aber das alles von Gott, der uns mit ihm selber versöhnt hat durch Jesum Christum und das Amt gegeben, das die Versöhnung predigt.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'liturgie', work: 'Koptische Liturgie – Absolution an den Sohn (Basilius-Liturgie)', quote: `Gebet des Priesters an Christus, der den Aposteln den Heiligen Geist einhauchte und ihnen die Vollmacht gab, Sünden zu vergeben und zu behalten, er möge sein Volk und den Priester selbst von allen Sünden lossprechen.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'einsam-auf-der-insel',
+                  objection: `„Dann bekommt ein Christ, der allein irgendwo ohne Priester lebt, keine Vergebung? Das ist absurd und macht Gottes Gnade vom Klerus abhängig."`,
+                  objectionBy: 'John MacArthur',
+                  answer: `Nein. Gott vergibt dem zerknirschten Herzen auch dort, wo kein Priester erreichbar ist: „Ein geängstetes und zerschlagenes Herz wirst du, Gott, nicht verachten" (Ps 51,19). Die Kirche hat das nie bestritten. Die Beichte ist die **ordentliche** Gabe Christi für die, die sie empfangen können – so wie Gott einen Menschen ohne Taufe retten kann und uns trotzdem die Taufe gebietet. Wer aber die Beichte erreichen kann und sie verachtet, verachtet nicht den Priester, sondern das Geschenk, das Christus gegeben hat.`,
+                  detail: `Die koptische Tradition sieht im Beichtvater nicht nur den Spender der Lossprechung, sondern auch den geistlichen Vater, der begleitet, rät und das Fasten und die Gebetsregel an die Lebenslage anpasst. Diese Praxis wurzelt im ägyptischen Mönchtum, wo die Wüstenväter das Offenlegen der Gedanken vor einem erfahrenen Altvater als Weg der Heilung kannten.
+
+Seelsorgerlich ist das die Antwort auf die Frage nach Abhängigkeit: Die Beichte macht nicht vom Klerus abhängig, sondern befreit von der Einsamkeit mit der eigenen Schuld. Viele Protestanten, die in Seelsorge oder Selbsthilfegruppen erleben, wie heilsam das ausgesprochene Bekenntnis ist (vgl. Jak 5,16), entdecken darin etwas, das die Kirche immer wusste.`,
+                  voices: [
+                    {
+                      person: 'shenouda-iii',
+                      role: 'als Lehrer der Buße',
+                      text: `Papst Schenuda III. beschreibt die Buße als inneren Wandel des Herzens, der vor Gott geschieht, und die Beichte als ihre kirchliche Gestalt: Sie verbindet Demut, geistliche Führung und den Frieden der Lossprechung. Die Beichte ersetzt nicht die persönliche Reue, sondern vollendet sie in der Gemeinschaft der Kirche.`,
+                      sources: [
+                        { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Das Leben der Buße und Reinheit', quote: `Buße als Wandel des Herzens vor Gott; die Beichte als Weg der Demut, der geistlichen Führung und des Friedens durch die Lossprechung.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Psalm', ref: '51,19', quote: `Die Opfer, die Gott gefallen, sind ein geängsteter Geist; ein geängstet und zerschlagen Herz wirst du, Gott, nicht verachten.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn ausgesprochene Schuld in der Seelsorge heilsam ist – warum soll sie es nicht mit der Vollmacht von Joh 20,23 noch mehr sein?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'augustinus-was-gehen-mich-menschen-an',
+          objection: `„Selbst Augustinus schreibt in den Bekenntnissen: ‚Was habe ich mit den Menschen zu schaffen, dass sie meine Bekenntnisse hören sollten?' Er bekannte Gott, nicht Menschen."`,
+          objectionBy: 'Wayne Grudem',
+          answer: `Lies den Zusammenhang: Augustinus fragt in Buch X, warum er seine *Bekenntnisse* überhaupt für Leser aufschreibt – für neugierige Menschen, die ihr eigenes Leben nicht bessern wollen. Er spricht über sein Buch, nicht über die kirchliche Buße. Derselbe Augustinus verwaltete als Bischof die Bußdisziplin seiner Gemeinde und versöhnte Büßer mit der Kirche. Ein aus dem Zusammenhang gerissenes Zitat trägt hier nicht.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Bekenntnisse (Confessiones)', ref: 'X,3,3', year: 'um 400', quote: `Was habe ich also mit den Menschen zu schaffen, dass sie meine Bekenntnisse hören sollten, als ob sie alle meine Gebrechen heilen könnten?`, original: `Quid ergo mihi est cum hominibus, ut audiant confessiones meas, quasi ipsi sanaturi sint omnes languores meos?`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Bezieht sich auf die Leser seines Buches, nicht auf die kirchliche Buße.' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Was bedeutet für dich Joh 20,23: „Welchen ihr die Sünden erlasst, denen sind sie erlassen"?`,

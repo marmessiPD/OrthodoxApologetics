@@ -111,6 +111,22 @@ const claim: Claim = {
               objectionBy: 'Stephen Batchelor',
               answer: `Dann hast du eine andere Religion als die des Buddha. In der Erzählung seiner Erleuchtung erinnert er sich an zahllose frühere Leben und schaut, wie die Wesen ihrem Karma gemäß wiedergeboren werden (MN 36). Der Dalai Lama, die Theravada-Mönche und die große Mehrheit der Buddhisten würden dir widersprechen. Du darfst so denken – aber dann ist „der Buddhismus ist keine Religion" eine Aussage über deinen Buddhismus, nicht über den Buddhismus.`,
               questionsBack: [`Wenn man Wiedergeburt weglässt – wovon soll das Nirvana dann eigentlich befreien?`],
+              followUps: [
+                {
+                  id: 'buddha-verweigerte-metaphysik',
+                  objection: `Der Buddha war Pragmatiker. Er hat sich ausdrücklich geweigert, metaphysische Fragen zu beantworten – ob die Welt ewig ist, ob der Vollendete nach dem Tod existiert. Das sind die „unbeantworteten Fragen". Also ist sein Weg metaphysikfrei.`,
+                  objectionBy: 'Stephen Batchelor',
+                  answer: `Er hat bestimmte Spekulationen abgelehnt – etwa über die Ewigkeit der Welt –, weil sie nicht zur Befreiung führen. Aber dieselben Lehrreden lehren ganz klar Wiedergeburt, Karma, Daseinsbereiche und das Nirvana als ungeborene Wirklichkeit. Wer einige Fragen offenlässt, ist noch nicht metaphysikfrei. „Das Leiden hat eine Ursache, die über den Tod hinaus wirkt" ist eine sehr starke metaphysische Behauptung.`,
+                  detail: `Die „unbeantworteten Fragen" (*avyakata*) werden etwa im Cula-Malunkyaputta-Sutta (MN 63) mit dem Gleichnis vom vergifteten Pfeil begründet. Doch im selben Kanon erzählt der Buddha von seiner Erleuchtungsnacht: Er erinnerte sich an zahllose frühere Leben und sah, wie Wesen gemäß ihrem Karma wiedergeboren werden. Die Vier Edlen Wahrheiten setzen voraus, dass das Leiden nicht mit dem Tod endet – sonst wäre der Tod selbst schon die Befreiung.
+
+Das ist kein Vorwurf: Jede Weltanschauung hat metaphysische Grundannahmen, auch der Naturalismus. Ehrlich ist es, sie offenzulegen und zu prüfen.`,
+                  sources: [
+                    { kind: 'oestlich', work: 'Majjhima-Nikaya 63 (Cula-Malunkyaputta-Sutta)', status: 'paraphrase', quote: `Der Buddha lässt Fragen nach der Ewigkeit der Welt und dem Zustand des Vollendeten nach dem Tod unbeantwortet, weil sie nicht zur Befreiung führen (Gleichnis vom vergifteten Pfeil).` },
+                    { kind: 'oestlich', work: 'Majjhima-Nikaya 36 (Maha-Saccaka-Sutta)', status: 'paraphrase', quote: `In der Nacht der Erleuchtung erinnert sich der Buddha an viele frühere Daseinsformen und sieht, wie die Wesen ihren Taten entsprechend wiedergeboren werden.` },
+                  ],
+                  questionsBack: [`Wenn mit dem Tod alles endet – wovon befreit dann der achtfache Pfad, was der Tod nicht ohnehin beendet?`],
+                },
+              ],
             },
           ],
         },
@@ -133,6 +149,26 @@ const claim: Claim = {
               objection: `Das Mahavamsa ist keine kanonische Schrift.`,
               objectionBy: 'Sam Harris (sinngemäß)',
               answer: `Richtig – aber Kreuzzugspredigten sind auch keine Heilige Schrift. Fair ist es, jede Tradition an ihrem Gründer und ihrer Kernlehre zu messen. Dann vergleichen wir den gewaltlosen Buddha mit dem gekreuzigten Christus. Jesus hat Gewaltlosigkeit nicht nur gelehrt, sondern Gewalt am eigenen Leib erlitten, für seine Henker gebetet (Lk 23,34) und sie durch die Auferstehung überwunden. Darin gründet christliche Vergebung.`,
+              followUps: [
+                {
+                  id: 'christentum-mehr-blut',
+                  objection: `Unterm Strich hat das Christentum viel mehr Blut vergossen als der Buddhismus – Kreuzzüge, Inquisition, Religionskriege. Lehren haben Folgen: Ein Jain, der seine Lehre ernst nimmt, tut keiner Fliege etwas zuleide.`,
+                  objectionBy: 'Sam Harris (The End of Faith)',
+                  answer: `Die Schuld von Christen will ich nicht kleinreden – sie widerspricht Christus. Aber du hast selbst den richtigen Maßstab genannt: Was folgt aus der Lehre, wenn man sie ernst nimmt? Wer Jesus ernst nimmt, liebt seine Feinde, steckt das Schwert in die Scheide (Mt 26,52) und betet für seine Mörder. Die koptische Kirche war über Jahrhunderte viel öfter Opfer als Täter. Und das 20. Jahrhundert zeigt, dass gottlose Ideologien nicht friedlicher waren – das Rote Khmer-Regime ermordete auch Tausende buddhistische Mönche.`,
+                  detail: `William Cavanaugh hat gezeigt, dass die Unterscheidung zwischen „religiöser" und „säkularer" Gewalt schwer zu ziehen ist: Die sogenannten Religionskriege der Frühen Neuzeit waren eng mit dem Aufstieg der Nationalstaaten verflochten. Das entschuldigt nichts, verhindert aber falsche Bilanzen.
+
+Fair ist: Jede Tradition an ihrer Kernlehre und an ihrem Gründer zu messen. Dann steht der gewaltlose Buddha neben dem gekreuzigten Christus, der Gewalt nicht nur verboten, sondern am eigenen Leib erlitten und durch die Auferstehung überwunden hat. Der Unterschied liegt nicht in der Friedfertigkeit, sondern in der Frage, ob Gewalt und Tod das letzte Wort behalten.`,
+                  voices: [
+                    { person: 'william-cavanaugh', role: 'als Theologe und Politikwissenschaftler', text: `Cavanaugh kritisiert den „Mythos der religiösen Gewalt": die Vorstellung, Religion sei an sich gewalttätiger als säkulare Ideologien. Er zeigt, dass Nationalismus, Marxismus und andere säkulare Überzeugungen ebenso absolute Loyalität verlangt und Gewalt gerechtfertigt haben.`, sources: [
+                      { kind: 'fachliteratur', author: 'William T. Cavanaugh', work: 'The Myth of Religious Violence', year: '2009', status: 'paraphrase', quote: `Die Trennung zwischen „religiöser" und „säkularer" Gewalt ist ideologisch und historisch nicht haltbar.` },
+                    ] },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sam Harris', work: 'The End of Faith', year: '2004', status: 'paraphrase', quote: `Lehren haben Folgen; die Gewaltbereitschaft einer Religion hängt von ihren Grundtexten ab (Vergleich mit dem Jainismus).` },
+                  ],
+                  questionsBack: [`Wenn Lehren Folgen haben: Was folgt aus der Lehre „Liebet eure Feinde" – und was aus ihrer Missachtung?`],
+                },
+              ],
             },
           ],
         },
@@ -149,6 +185,21 @@ const claim: Claim = {
           objection: `Am Ende ist es doch egal, was wahr ist – Hauptsache, die Menschen leben friedlich.`,
           objectionBy: 'Dalai Lama (sinngemäß)',
           answer: `Gerade für den Frieden ist Wahrheit wichtig. Wenn Personen letztlich Illusionen sind, warum sollte ich sie achten? Wenn alle Unterschiede sich auflösen, worauf gründet Gerechtigkeit? Das Christentum gründet den Frieden auf den unendlichen Wert jedes Menschen, den Gott geschaffen und in Christus erlöst hat. Frieden ohne Wahrheit ist zerbrechlich.`,
+          followUps: [
+            {
+              id: 'leerheit-macht-tolerant',
+              objection: `Gerade die Lehre von der Leerheit macht tolerant. Wer an keinem Dogma festhält, kämpft nicht um Dogmen. Eure festen Wahrheiten sind der Keim des Streits.`,
+              objectionBy: 'Der Dalai Lama (sinngemäß)',
+              answer: `Nicht-Anhaften kann eine echte Tugend sein. Aber die Geschichte zeigt: Auch die Leerheitslehre schützt nicht automatisch vor Gewalt. Japanische Zen-Lehrer begründeten im Zweiten Weltkrieg das Töten gerade damit, dass es kein Selbst gebe, das tötet oder getötet wird. Toleranz braucht keine schwachen Überzeugungen, sondern eine starke: dass jeder Mensch unantastbare Würde hat. Die Feindesliebe Jesu ist eine feste Wahrheit – und gerade sie verbietet den Streit mit Gewalt.`,
+              detail: `Brian Victoria, selbst Zen-Priester, hat in *Zen at War* dokumentiert, wie Lehren von Nicht-Selbst und Leerheit benutzt wurden, um Soldaten ein „selbstloses" Töten nahezulegen. Das ist nicht die Lehre des Buddha, aber es zeigt: Ohne einen festen Begriff von der Würde der Person kann auch die schönste Philosophie umgedeutet werden.
+
+Das Christentum gründet den Frieden auf das Gegenteil von Beliebigkeit: Jeder Mensch ist Ebenbild Gottes (Gen 1,27), für jeden ist Christus gestorben. Wer das glaubt, kann seinen Gegner nicht zum Nichts erklären.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Brian Daizen Victoria', work: 'Zen at War', year: '1997, 2. Aufl. 2006', status: 'paraphrase', quote: `Dokumentation der Unterstützung des japanischen Militarismus durch führende Zen-Institutionen und -Lehrer, teils mit Berufung auf Nicht-Selbst und Leerheit.` },
+              ],
+              questionsBack: [`Wenn es letztlich kein Selbst gibt – was genau verletzt dann ein Mord?`],
+            },
+          ],
         },
       ],
     },
@@ -166,8 +217,43 @@ const claim: Claim = {
           objection: `Das Christentum hat dagegen Galilei verfolgt.`,
           objectionBy: 'Sam Harris (sinngemäß)',
           answer: `Der Fall Galilei ist komplizierter als die Legende – es ging um Kirchenpolitik, Persönlichkeiten und eine damals noch nicht bewiesene Theorie; Galilei selbst blieb gläubiger Katholik. Siehe dazu den Claim „Der Fall Galilei". Und für die koptische Kirche gilt: Sie hat nie ein naturwissenschaftliches Dogma über Erdalter oder Planetenbahnen aufgestellt.`,
+          followUps: [
+            {
+              id: 'quantenphysik-bestaetigt-leerheit',
+              objection: `Die Quantenphysik bestätigt doch die buddhistische Leerheit: Teilchen haben keine feste Existenz, alles hängt vom Beobachter ab. Der Buddha wusste das vor 2500 Jahren.`,
+              objectionBy: 'Deepak Chopra (sinngemäß)',
+              answer: `Das ist eine populäre Fehldeutung. „Beobachter" heißt in der Quantenphysik Messwechselwirkung, nicht menschliches Bewusstsein, und die Physiker streiten über die richtige Deutung. Der Dalai Lama selbst ist in seinem Buch über Wissenschaft vorsichtiger als viele seiner Anhänger. Christen sollten übrigens denselben Fehler vermeiden: Physik bestätigt keine Religion im Detail. Sie beschreibt die Ordnung der Natur – und diese Ordnung wirft die Frage nach ihrem Urheber auf.`,
+              detail: `Der Physiker und anglikanische Priester John Polkinghorne hat davor gewarnt, Quantenphysik für mystische Thesen zu vereinnahmen. Was die Physik tatsächlich zeigt, ist eine erstaunlich mathematisch fassbare Welt. Dass die Wirklichkeit sich in der Sprache der Mathematik beschreiben lässt, passt gut zu einer Welt, die vom Logos geschaffen wurde (Joh 1,1–3) – aber auch das ist ein Hinweis, kein Beweis.`,
+              voices: [
+                { person: 'polkinghorne', role: 'als Quantenphysiker und Theologe', text: `Polkinghorne, früher Professor für mathematische Physik in Cambridge, betont, dass die Quantenphysik eine wirkliche, wenn auch überraschende Welt beschreibt. Er warnt vor Pseudo-Mystik, die physikalische Begriffe aus dem Zusammenhang reißt, und sieht die tiefe Verständlichkeit der Natur als Hinweis auf einen vernünftigen Schöpfer.`, sources: [
+                  { kind: 'fachliteratur', author: 'John Polkinghorne', work: 'Quantum Theory: A Very Short Introduction', year: '2002', status: 'paraphrase', quote: `Nüchterne Darstellung der Quantentheorie und ihrer Deutungsprobleme; Warnung vor vorschnellen metaphysischen Schlüssen.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Der 14. Dalai Lama (Tenzin Gyatso)', work: 'The Universe in a Single Atom (dt. Die Welt in einem einzigen Atom)', year: '2005', status: 'paraphrase', quote: `Dialog zwischen Buddhismus und Wissenschaft; Buddhisten sollen Lehren aufgeben, die eindeutig widerlegt sind.` },
+              ],
+            },
+          ],
         },
       ],
+    },
+    {
+      id: 'ohne-gott-friedlicher',
+      objection: `Religionen mit einem eifersüchtigen Gott sind gefährlich. Der Buddhismus hat keinen Schöpfergott, der Gehorsam verlangt – darum ist er von Natur aus friedlicher.`,
+      objectionBy: 'Sam Harris (sinngemäß)',
+      answer: `Die Abwesenheit eines Gottes ist keine Friedensgarantie – die atheistischen Regime des 20. Jahrhunderts haben das blutig gezeigt, und auch buddhistische Länder kennen Kriege. Entscheidend ist, wie der Gott ist, an den man glaubt. Der christliche Gott übt keine Gewalt aus, um seine Ehre zu retten, sondern erleidet Gewalt, um seine Feinde zu retten. Gerade der eine Gott, vor dem alle Menschen gleich sind, ist historisch die stärkste Begründung der gleichen Würde aller.`,
+      detail: `Tim Keller weist darauf hin, dass im Zentrum des Christentums ein Mann steht, der für seine Feinde stirbt und für seine Henker betet. Wer diese Geschichte ernst nimmt, kann sie nicht als Rechtfertigung für Gewalt benutzen, ohne sie zu verraten. Das biblische „eifersüchtig" (Ex 20,5) meint die Treue eines liebenden Gottes, der sein Volk nicht an Götzen verlieren will – wie ein Ehepartner, dem die Untreue des anderen nicht gleichgültig ist.
+
+Ein Zugeständnis gehört dazu: Auch Christen haben Gewalt im Namen Gottes geübt. Aber sie mussten dafür ihren eigenen Herrn missachten.`,
+      voices: [
+        { person: 'tim-keller', role: 'als Apologet in einer pluralistischen Großstadt', text: `Keller argumentiert, dass das Christentum die Mittel zur Kritik an christlicher Gewalt selbst bereitstellt: Jesus, der Gekreuzigte, ist das Maß, an dem Christen sich messen lassen müssen. Eine Identität, die auf der Gnade für Feinde beruht, ist die stärkste Grundlage für Versöhnung.`, sources: [
+          { kind: 'fachliteratur', author: 'Timothy Keller', work: 'The Reason for God (dt. Warum Gott?)', ref: 'Kap. 4', year: '2008', status: 'paraphrase', quote: `Im Zentrum des Christentums steht ein Mann, der für seine Feinde starb und um ihre Vergebung betete.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Lukas', ref: '23,34', quote: `Jesus aber sprach: Vater, vergib ihnen; denn sie wissen nicht, was sie tun!`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [`Was folgt logisch aus dem Glauben an einen Gott, der für seine Feinde stirbt?`],
     },
   ],
   questionsToAsk: [

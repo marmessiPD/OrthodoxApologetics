@@ -107,6 +107,19 @@ const claim: Claim = {
               objection: `Dein Talmud-Zitat, es habe nie einen solchen Sohn gegeben, stammt aus dem 5. Jahrhundert nach Christus. Das sagt nichts über die biblische Zeit.`,
               objectionBy: 'Hector Avalos',
               answer: `Richtig, der Talmud ist spät, und ich benutze ihn nicht als Beweis für die Eisenzeit. Er zeigt aber, wie die jüdische Tradition das Gesetz verstanden hat – als Grenze, nicht als Auftrag. Für die biblische Zeit selbst gilt: Kein einziger Bericht erzählt von einer solchen Hinrichtung, und die Logik des Gesetzes ist die Begrenzung der väterlichen Willkür durch ein öffentliches Verfahren.`,
+              followUps: [
+                {
+                  id: 'achan-familie',
+                  objection: `Und Achan in Josua 7? Seine Söhne und Töchter werden mit ihm gesteinigt und verbrannt – für den Diebstahl ihres Vaters. Das widerspricht sogar deinem eigenen Dtn 24,16.`,
+                  objectionBy: 'Hector Avalos',
+                  answer: `Das ist ein harter Text, und ich glätte ihn nicht. Zwei Dinge sind wichtig: Erstens hatte Achan die Beute **im Familienzelt** vergraben (Jos 7,21–22) – viele Ausleger sehen darin eine Mitwisserschaft des Haushalts. Zweitens ist Josua 7 eine einmalige Erzählung aus der Eroberungszeit, kein Gesetz. Das Gesetz Israels verbietet ausdrücklich, Kinder für die Schuld der Eltern zu töten (Dtn 24,16), und die Propheten schärfen das ein: „Der Sohn soll nicht tragen die Missetat des Vaters" (Ez 18,20).`,
+                  detail: `Die Erzählung gehört in den Zusammenhang des „Bannes" (*ḥerem*), der in der Eroberungszeit eine Sonderstellung hatte (siehe Claim zum Kanaaniter-Feldzug). Ehrlich bleibt: Der Text lässt nicht eindeutig erkennen, ob die Kinder mitschuldig waren, und das moderne Gewissen stößt sich daran zu Recht. Für die Debatte entscheidend: Die Bibel selbst stellt als **Rechtsgrundsatz** die individuelle Verantwortung auf – und Hesekiel 18 widmet diesem Prinzip ein ganzes Kapitel. Die Kirche liest Josua im Licht dieses Grundsatzes und im Licht Christi, nicht umgekehrt.`,
+                  sources: [
+                    { kind: 'bibel', work: '5. Mose (Deuteronomium)', ref: '24,16', quote: `Die Väter sollen nicht für die Kinder noch die Kinder für die Väter sterben, sondern ein jeglicher soll für seine Sünde sterben.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Hesekiel', ref: '18,20', quote: `Der Sohn soll nicht tragen die Missetat des Vaters, und der Vater soll nicht tragen die Missetat des Sohnes.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +154,19 @@ const claim: Claim = {
               objection: `Aber Jesus sagt doch selbst: Kein Jota und kein Häkchen vom Gesetz wird vergehen (Mt 5,18). Also gilt alles.`,
               objectionBy: 'Dan Savage',
               answer: `Lies den ganzen Satz: „…bis dass es alles geschehe." Jesus sagt im Vers davor, er sei gekommen, das Gesetz zu *erfüllen* (Mt 5,17). Das Gesetz vergeht nicht, sondern kommt in ihm an sein Ziel – der Opferkult in seinem Opfer, die Reinheitsgebote in der Reinigung des Herzens. Deshalb konnte derselbe Jesus alle Speisen für rein erklären.`,
+              followUps: [
+                {
+                  id: 'jesus-zitiert-todesstrafe',
+                  objection: `Jesus hat die Todesstrafe nie abgeschafft. In Mt 15,4 zitiert er sogar zustimmend: „Wer Vater oder Mutter flucht, der soll des Todes sterben." Er wirft den Pharisäern vor, dieses Gesetz zu umgehen!`,
+                  objectionBy: 'Hector Avalos',
+                  answer: `Lies den Zusammenhang: Jesus kritisiert in Mt 15 eine Praxis, mit der man Geld, das den alten Eltern zustand, als „Opfergabe" erklärte und sie so im Stich ließ. Er zitiert Ex 21,17, um zu zeigen, **wie ernst** Gott das Gebot nimmt, die Eltern zu ehren – nicht, um Hinrichtungen anzuordnen. Als man ihm tatsächlich einen Fall zur Vollstreckung vorlegte oder seine Jünger Feuer auf ein ungastliches Dorf herabrufen wollten, lehnte er ab (Lk 9,54–55).`,
+                  detail: `Jesus argumentiert hier innerjüdisch: Ihr beruft euch auf die Tora und hebelt sie zugleich mit euren Überlieferungen aus. Das Zitat dient als Beleg für den Rang des Gebots, nicht als Strafrechtsanweisung. Bezeichnend ist, dass im ganzen Neuen Testament keine einzige Anweisung an die Kirche steht, irgendjemanden für eine Sünde zu töten. Die schärfste Gemeindestrafe ist der Ausschluss aus der Gemeinschaft – mit dem Ziel der Umkehr und Wiederaufnahme (1 Kor 5,5; 2 Kor 2,6–8).`,
+                  sources: [
+                    { kind: 'bibel', work: 'Matthäus', ref: '15,3–6', status: 'paraphrase', note: 'Jesus gegen die Korban-Praxis, die das Elterngebot aushöhlt.' },
+                    { kind: 'bibel', work: 'Lukas', ref: '9,54–55', quote: `Herr, willst du, so wollen wir sagen, dass Feuer vom Himmel falle und verzehre sie … Jesus aber wandte sich um und bedrohte sie.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -167,6 +193,36 @@ const claim: Claim = {
           objectionBy: 'Dan Savage',
           answer: `Ich will ehrlich sein: Die Tora bestimmte für bestimmte sexuelle Handlungen – auch Ehebruch und Inzest – die Höchststrafe im Rahmen eines theokratischen Bundes, mit Verfahrenshürden, die Vollstreckungen sehr selten machten. Gott ist Richter über Leben und Tod. Aber das gilt nicht für uns: Kein Christ darf Gewalt gegen Homosexuelle befürworten oder ausüben, und die Kirche ruft jeden Menschen – mich eingeschlossen – zur Umkehr und bietet allen dieselbe Barmherzigkeit an.`,
           detail: `Wichtig für den Ton: Die Frage ist emotional aufgeladen, oft aus persönlicher Verletzung. Nimm den Menschen ernst. Mache klar, dass das Gericht über jede Sünde – Ehebruch, Habgier, Lüge, Hass – Gott gehört, und dass das Evangelium allen Sündern gilt. Verweise auf das eigene Thema zur Sexualethik.`,
+          followUps: [
+            {
+              id: 'uganda-gesetze-konsequent',
+              objection: `Dann sind Länder, die heute Homosexualität mit dem Tod bestrafen, wie Uganda mit seinem Gesetz von 2023, einfach konsequent biblisch. Christliche Politiker haben es ja unterstützt.`,
+              objectionBy: 'Dan Savage',
+              answer: `Nein. Das Neue Testament gibt weder der Kirche noch dem Staat den Auftrag, Sünden des Fleisches strafrechtlich zu verfolgen. Paulus sagt ausdrücklich, es sei nicht Sache der Gemeinde, „die draußen" zu richten (1 Kor 5,12–13). Gesetze, die Menschen wegen ihrer Neigung oder einvernehmlicher Handlungen ins Gefängnis oder an den Galgen bringen, widersprechen der Würde, die jeder Mensch als Ebenbild Gottes hat. Dass Christen solche Gesetze unterstützt haben, ist Unrecht, und viele Kirchenführer haben das öffentlich kritisiert.`,
+              detail: `Hier musst du klar unterscheiden: Die Kirche hält an ihrer Lehre fest, dass sexuelle Gemeinschaft in die Ehe von Mann und Frau gehört. Daraus folgt aber keine staatliche Strafe für Menschen, die anders leben – sonst müsste man auch Ehebruch, Habgier und Lüge kriminalisieren. Die Verantwortung der Christen ist, verfolgte Menschen zu schützen, nicht sie zu verfolgen. Sam Allberry, der selbst gleichgeschlechtlich empfindet und zölibatär lebt, betont, dass Gemeinden für solche Menschen sichere Orte sein müssen.`,
+              voices: [
+                { person: 'sam-allberry', role: 'als Pastor mit gleichgeschlechtlicher Neigung', text: `Allberry schreibt in *Is God Anti-Gay?*, dass die Kirche gegenüber Menschen mit gleichgeschlechtlicher Neigung oft versagt habe – durch Spott, Schweigen und Härte. Die biblische Sexualethik sei ein Ruf an alle Menschen, nicht eine Waffe gegen eine Gruppe; das Evangelium biete allen dieselbe Gnade und dieselbe Nachfolge an.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '5,12–13', quote: `Denn was gehen mich die draußen an, dass ich sie sollte richten? … Gott aber wird, die draußen sind, richten.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'moral-aendert-sich-mit-bund',
+                  objection: `Damit gibst du zu, dass Gottes Moral sich ändert: Was damals todeswürdig war, ist heute nicht einmal strafbar. Dann ist eure Moral genauso relativ wie meine.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Nein – du verwechselst die moralische Bewertung einer Tat mit der rechtlichen Strafe, die ein bestimmtes Gemeinwesen darauf setzt. Die Bewertung bleibt: Ehebruch etwa ist damals wie heute Treuebruch. Was sich geändert hat, ist das Gemeinwesen: Israel war ein theokratischer Bund mit eigenem Strafrecht, die Kirche ist eine weltweite Gemeinschaft ohne Schwert. Auch in deinem Denken gilt: Dass Diebstahl in verschiedenen Staaten verschieden bestraft wird, macht Diebstahl nicht moralisch relativ.`,
+                  detail: `Christopher Wright beschreibt das Gesetz Israels als „Paradigma": ein konkretes Modell, das zeigt, wie Gottes unveränderlicher Wille in einer bestimmten Gesellschaft Gestalt annahm. Die Prinzipien (Heiligkeit des Lebens, Treue, Schutz der Schwachen) bleiben; die konkrete Rechtsform war an Israels Situation gebunden. Diese Unterscheidung ist keine Ausrede, sondern Grundwissen jeder Rechtsphilosophie: Moralische Normen und positive Strafgesetze sind zweierlei.`,
+                  voices: [
+                    { person: 'christopher-wright', role: 'als Alttestamentler', text: `Wright versteht Israel als Gottes „Paradigma" für die Völker: Seine Gesetze sind nicht ein zeitloses Strafgesetzbuch für alle Staaten, sondern ein Anschauungsmodell, an dem man die Grundwerte göttlicher Gerechtigkeit ablesen und in neue Kontexte übertragen soll (*Old Testament Ethics for the People of God*, 2004).` },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Christopher J. H. Wright', work: 'Old Testament Ethics for the People of God', ref: 'Kap. 2', year: '2004', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -175,6 +231,19 @@ const claim: Claim = {
       objection: `„Auge um Auge, Zahn um Zahn" – das ist die primitive Moral der Rache.`,
       objectionBy: 'Christopher Hitchens',
       answer: `Im Gegenteil: Die Talion ist eine Regel für Richter, keine Erlaubnis zur Privatrache, und sie begrenzt die Strafe – nicht mehr als den Schaden. Revolutionär war, dass sie für alle gleich galt: Bei Hammurabi bekam der Gemeinfreie für sein Auge eine Mine Silber, der Adelige das Auge des Täters. In Israel galt „ein Recht für den Fremden wie für den Einheimischen" (Lev 24,22). Jesus geht noch weiter und ruft zum Verzicht auf Vergeltung (Mt 5,38–39).`,
+      followUps: [
+        {
+          id: 'andere-wange-widerruf',
+          objection: `Wenn Jesus sagt „Ihr habt gehört, dass gesagt ist: Auge um Auge … Ich aber sage euch: Halte die andere Wange hin", dann hat er das Alte Testament doch selbst als moralisch überholt verworfen.`,
+          objectionBy: 'Christopher Hitchens',
+          answer: `Jesus verwirft nicht die Gerechtigkeit des Richters, sondern die Haltung, mit der Einzelne die Talion als Recht auf persönliche Vergeltung missbrauchten. Und schon das Alte Testament verbietet private Rache: „Du sollst nicht rächen noch Zorn halten gegen die Kinder deines Volks" (Lev 19,18) – im selben Vers wie „Liebe deinen Nächsten wie dich selbst". Die Sprüche gebieten, dem hungrigen Feind Brot zu geben (Spr 25,21), was Paulus wörtlich aufnimmt (Röm 12,20). Jesus vertieft eine Linie, die im Alten Testament schon angelegt ist.`,
+          detail: `Das „Ich aber sage euch" in der Bergpredigt ist keine Abrechnung mit der Tora, sondern ihre Auslegung mit messianischer Vollmacht: Jesus zielt auf das Herz – vom Verbot des Mordes zum Verbot des Hasses, vom Verbot des Ehebruchs zum Verbot der Begierde. Die Talion als Rechtsprinzip der Verhältnismäßigkeit lebt übrigens in jedem modernen Strafrecht fort: Die Strafe soll der Tat entsprechen, nicht darüber hinausgehen.`,
+          sources: [
+            { kind: 'bibel', work: '3. Mose (Levitikus)', ref: '19,18', quote: `Du sollst nicht rächen noch Zorn halten gegen die Kinder deines Volks. Du sollst deinen Nächsten lieben wie dich selbst.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: 'Sprüche', ref: '25,21', quote: `Hungert deinen Feind, so speise ihn mit Brot; dürstet ihn, so tränke ihn mit Wasser.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

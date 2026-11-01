@@ -99,6 +99,15 @@ const claim: Claim = {
       answer: `Die Gezeiten entstehen durch Gravitation, und die wirkt auf riesige Wassermassen. Auf einen einzelnen Menschen bei der Geburt wirkt die Schwerkraft der Hebamme stärker als die des Mars. Aber die eigentliche Frage ist einfach: Lässt sich ein Einfluss messen? Astrologen haben das in fairen Tests nicht zeigen können – auch nicht in einem Test, dessen Ablauf sie vorher selbst gebilligt hatten.`,
       followUps: [
         {
+          id: 'gauquelin-mars-effekt',
+          objection: `Michel Gauquelin hat statistisch gezeigt, dass Spitzensportler auffällig oft geboren wurden, wenn der Mars gerade aufging – der „Mars-Effekt". Das ist doch ein wissenschaftlicher Beleg.`,
+          objectionBy: 'Michel Gauquelin / Astrologen',
+          answer: `Gauquelin war ein ernsthafter Statistiker – das gestehe ich zu. Aber seine Ergebnisse waren umstritten: Nachprüfungen in Belgien, Frankreich und den USA kamen zu widersprüchlichen Ergebnissen, und Kritiker wiesen auf Auswahlfehler bei den Sportlerdaten hin. Vor allem: Gauquelin selbst fand **keinen** Einfluss der Tierkreiszeichen, auf denen die übliche Astrologie beruht. Selbst sein umstrittener Befund würde das Horoskop in der Zeitung nicht retten.`,
+          detail: `Das ist ein gutes Beispiel für fairen Umgang mit Daten: Ein einzelner, unsicherer statistischer Effekt beweist kein ganzes System. Shawn Carlsons Doppelblindstudie in *Nature* (1985), deren Ablauf Astrologen vorher gebilligt hatten, fand keine Fähigkeit, Persönlichkeitsprofile den richtigen Horoskopen zuzuordnen. Christlich gesprochen geht es aber um mehr als Statistik: Selbst wenn es messbare Himmelseinflüsse gäbe, bliebe die Frage, ob ich mein Leben den Gestirnen oder dem Schöpfer der Gestirne anvertraue.`,
+          sources: [{ kind: 'wissenschaft', author: 'Shawn Carlson', work: 'A double-blind test of astrology', ref: 'Nature 318 (1985), 419–425', year: '1985', quote: `Astrologen konnten Persönlichkeitsprofile nicht besser als zufällig den passenden Horoskopen zuordnen.`, status: 'paraphrase' }],
+          questionsBack: [`Wenn selbst Gauquelin keinen Einfluss der Sternzeichen fand – worauf beruht dann das Zeitungshoroskop?`],
+        },
+        {
           id: 'horoskop-trifft',
           objection: `Aber mein Horoskop beschreibt mich wirklich genau.`,
           objectionBy: 'Alltagserfahrung',
@@ -134,6 +143,17 @@ const claim: Claim = {
           objection: `Gen 1,14 sagt doch: Die Gestirne sollen „Zeichen" sein.`,
           objectionBy: 'Christliche Esoteriker',
           answer: `Lies weiter: Zeichen „für Zeiten, Tage und Jahre" – also für Kalender, Jahreszeiten und Feste. Bezeichnend ist, dass Gen 1 Sonne und Mond nicht einmal beim Namen nennt, sondern „großes" und „kleines Licht": In Babylon und Ägypten waren sie Götter; die Bibel macht sie zu Lampen. Und Jer 10,2 sagt ausdrücklich: Fürchtet euch nicht vor den Zeichen des Himmels wie die Heiden.`,
+          followUps: [
+            {
+              id: 'mazzaroth-evangelium-sterne',
+              objection: `In Hiob 38,32 steht sogar der Tierkreis: „Kannst du die Mazzaroth hervorbringen zu ihrer Zeit?" Christliche Autoren haben gezeigt, dass Gott das Evangelium in die Sternbilder geschrieben hat – von der Jungfrau bis zum Löwen.`,
+              objectionBy: 'E. W. Bullinger (The Witness of the Stars, 1893) / Frances Rolleston (Mazzaroth, 1862)',
+              answer: `Was *mazzarot* genau bezeichnet, ist unsicher – ein Sternbild oder Sternbilder; die Übersetzungen schwanken. Vor allem aber ist die Aussage von Hiob 38 das Gegenteil von Astrologie: Gott fragt Hiob, ob **er** die Sterne lenken kann – die Sterne gehorchen Gott, sie steuern nicht den Menschen. Das „Evangelium in den Sternen" ist eine fromme Spekulation des 19. Jahrhunderts ohne Grundlage in der Schrift oder bei den Vätern. Ich würde sie nicht verwenden – sie öffnet nur die Tür zu dem, was die Bibel verbietet.`,
+              detail: `Die Väter sahen in den Sternen Gottes Werk, das seine Herrlichkeit verkündet (Ps 19,2), aber keine Botschaft, die man entschlüsseln müsste. Basilius und Augustinus haben die Astrologie ausdrücklich zurückgewiesen. Der biblische Weg zur Erkenntnis Gottes ist sein Wort und sein Sohn (Hebr 1,1–2), nicht eine Geheimschrift am Himmel, die nur Eingeweihte lesen können.`,
+              sources: [{ kind: 'bibel', work: 'Hiob', ref: '38,31–33', quote: `Kannst du die Bande der sieben Sterne zusammenbinden oder das Band des Orion auflösen? Kannst du den Morgenstern hervorbringen zu seiner Zeit oder den Bären am Himmel samt seinen Jungen heraufführen? Weißt du des Himmels Ordnungen?`, translation: 'Luther 1912', status: 'paraphrase', note: 'Luther übersetzt *mazzarot* mit „Morgenstern"; andere Übersetzungen: „Tierkreisbilder", „Sternbilder".' }],
+              questionsBack: [`Fragt Gott in Hiob 38, ob die Sterne Hiob lenken – oder ob Hiob die Sterne lenken kann?`],
+            },
+          ],
         },
       ],
     },
@@ -166,6 +186,41 @@ const claim: Claim = {
       objection: `Ich lese das Horoskop doch nur zum Spaß. Ich glaube nicht wirklich daran.`,
       objectionBy: 'Alltagsgespräch',
       answer: `Das ist ehrlich, und niemand muss sich deshalb schämen. Aber frag dich: Beeinflusst es manchmal doch Entscheidungen, Stimmungen oder den Blick auf andere („typisch Skorpion")? Die Bibel warnt nicht vor Zeitungsspalten, sondern davor, Orientierung bei Zeichen statt bei Gott zu suchen. Es lohnt sich, die eigene Hoffnung bewusst auf den zu setzen, der dich kennt.`,
+      followUps: [
+        {
+          id: 'tarot-intuition',
+          objection: `Und Tarot oder Orakelkarten? Das ist keine Magie, sondern ein Werkzeug für die Intuition – die Karten helfen mir nur, in mich hineinzuhören.`,
+          objectionBy: 'Moderne Tarot-Praxis',
+          answer: `Wenn es wirklich nur Selbstreflexion wäre, bräuchtest du keine Karten, die „zufällig" fallen und etwas „anzeigen". Gerade das Ziehen ist der Kern: Man erwartet, dass sich im Zufall eine verborgene Botschaft zeigt. Die Bibel nennt genau dieses Erfragen verborgener Dinge an Gott vorbei Wahrsagerei und warnt davor (Dtn 18,10–12) – nicht, weil Gott uns Wissen missgönnt, sondern weil er selbst uns führen will: „Befiehl dem HERRN deine Wege" (Ps 37,5).`,
+          detail: `Für das Gespräch hilfreich ist die Unterscheidung: Nachdenken über das eigene Leben, Gespräch, Gebet und geistliche Begleitung sind gut. Die Erwartung, dass Karten, Pendel oder Zeichen eine verborgene Wahrheit enthüllen, verschiebt das Vertrauen auf eine unpersönliche oder unbekannte Quelle. Die koptische Kirche bietet stattdessen den Weg des Beichtvaters – einen erfahrenen Menschen, der im Gebet mit dir unterscheidet.`,
+          sources: [{ kind: 'bibel', work: '5. Mose', ref: '18,10–12', quote: `daß nicht unter dir gefunden werde, der seinen Sohn oder seine Tochter durchs Feuer gehen lasse, oder ein Weissager oder ein Tagewähler oder der auf Vogelgeschrei achte oder ein Zauberer … Denn wer solches tut, der ist dem HERRN ein Greuel.`, translation: 'Luther 1912', status: 'verbatim' }],
+          followUps: [
+            {
+              id: 'karten-sagten-wahres',
+              objection: `Aber die Karten haben mir Dinge gesagt, die genau stimmten – Dinge, die niemand wissen konnte.`,
+              objectionBy: 'Tarot-Anwender',
+              answer: `Vieles erklärt sich durch Deutungsspielraum, selektive Erinnerung und geschicktes Nachfragen der Kartenleger („Cold Reading"). Aber selbst wenn etwas Echtes dahinterstünde – Wahrheit beweist keine gute Quelle. In Philippi lief Paulus eine Magd nach, die einen Wahrsagegeist hatte, und rief etwas völlig Wahres: „Diese Menschen sind Knechte Gottes des Allerhöchsten." Paulus trieb den Geist trotzdem aus (Apg 16,16–18). Die Frage ist nicht nur, **ob** etwas stimmt, sondern **wer** spricht.`,
+              detail: `Apg 16 ist bemerkenswert: Die Magd brachte ihren Herren „viel Gewinn" – die Wahrsagerei war ein Geschäft. Nachdem der Geist ausgetrieben war, konnte sie nicht mehr wahrsagen, und die Herren zerrten Paulus vor Gericht. Das zeigt: Die Bibel rechnet mit realen geistigen Mächten hinter manchen Praktiken, ohne in Panik zu verfallen. Zugleich gilt: Die meisten „Treffer" lassen sich psychologisch erklären – du musst nicht hinter jeder Karte einen Dämon vermuten, um zu sehen, dass sie kein Weg ist, dem man sein Leben anvertraut.`,
+              sources: [{ kind: 'bibel', work: 'Apostelgeschichte', ref: '16,16–18', quote: `Es geschah aber, da wir zu dem Gebet gingen, daß eine Magd uns begegnete, die hatte einen Wahrsagergeist und trug ihren Herren viel Gewinnst zu mit Wahrsagen. Die folgte allenthalben Paulus und uns nach, schrie und sprach: Diese Menschen sind die Knechte Gottes des Allerhöchsten … Paulus aber tat das wehe, und er wandte sich um und sprach zu dem Geist: Ich gebiete dir in dem Namen Jesu Christi, daß du von ihr ausfahrest.`, translation: 'Luther 1912', status: 'paraphrase' }],
+              questionsBack: [`Wenn die Magd in Philippi die Wahrheit sagte – warum trieb Paulus den Geist trotzdem aus?`],
+              followUps: [
+                {
+                  id: 'los-urim-orakel',
+                  objection: `Ihr seid nicht konsequent: Die Apostel haben selbst das Los geworfen, um den Nachfolger des Judas zu bestimmen (Apg 1,26), und Israel hatte Urim und Tummim. Das ist auch Orakel.`,
+                  objectionBy: 'Kritiker / Esoteriker',
+                  answer: `Ein guter Einwand. Aber der Unterschied liegt im Adressaten: Die Apostel beteten zuerst zum Herrn – „Herr, aller Herzen Kündiger, zeige an, welchen du erwählt hast" (Apg 1,24) – und wählten zwischen zwei geprüften Männern. Sie fragten **Gott**, nicht das Schicksal oder Karten. Und bezeichnend: Nach Pfingsten, als der Heilige Geist die Kirche führt, wird nie wieder gelost. Auch Urim und Tummim waren eine Befragung Gottes durch den Priester im Bund, nicht eine Technik, die jeder für sich anwendet: „Das Los wird geworfen in den Schoß; aber es fällt, wie der HERR will" (Spr 16,33).`,
+                  detail: `Die Schrift unterscheidet also nicht zwischen „Zufallsverfahren" und anderen Methoden, sondern zwischen dem Fragen nach Gottes Willen im Gebet und dem Versuch, verborgenes Wissen an Gott vorbei zu erlangen. Die koptische Kirche hat bis heute eine Form der Losentscheidung: Bei der Wahl des Papstes von Alexandrien zieht ein Kind nach Gebet und Liturgie einen der drei Namen vom Altar – so wurde 2012 Papst Tawadros II. bestimmt. Das ist kein Orakel, sondern Ausdruck des Vertrauens, dass Gott selbst wählt, nachdem die Kirche geprüft und gebetet hat.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '1,24–26', quote: `Und sie beteten und sprachen: HERR, aller Herzen Kündiger, zeige an, welchen du erwählt hast unter diesen zweien … Und sie warfen das Los über sie, und das Los fiel auf Matthias.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'bibel', work: 'Sprüche', ref: '16,33', quote: `Das Los wird geworfen in den Schoß; aber es fällt, wie der HERR will.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [`Fragst du beim Kartenlegen Gott im Gebet nach seinem Willen – oder suchst du eine Antwort an ihm vorbei?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
