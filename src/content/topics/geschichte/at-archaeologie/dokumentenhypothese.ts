@@ -126,6 +126,29 @@ const claim: Claim = {
           objection: `Cassuto ist von 1941. Die Forschung ist weitergegangen.`,
           objectionBy: 'Joel Baden',
           answer: `Richtig – und sie ist in eine Richtung gegangen, die Cassutos Kritik am klassischen Modell teilweise bestätigt: Rendtorff, Whybray und der „Abschied vom Jahwisten" haben die durchlaufenden Quellen J und E weitgehend aufgegeben. Die Neo-Documentarians um dich halten dagegen. Wenn die Fachwelt selbst gespalten ist, kann man JEDP nicht als gesichertes Ergebnis präsentieren.`,
+          followUps: [
+            {
+              id: 'flut-getrennt-lesen',
+              objection: `Dann nimm die Flutgeschichte: Trennt man sie in J und P, erhält man zwei fast vollständige, in sich stimmige Erzählungen – ein Paar oder sieben Paare reiner Tiere, 40 Tage oder 150 Tage. Das ist kein Stilmittel, das sind zwei Quellen.`,
+              objectionBy: 'Joel Baden',
+              answer: `Das ist das stärkste Beispiel der Quellenkritik, und ich nehme es ernst. Aber zwei Beobachtungen sprechen für eine bewusst gestaltete Einheit: Gordon Wenham hat gezeigt, dass die Endfassung einen kunstvollen spiegelbildlichen Aufbau hat, der quer über beide „Quellen" läuft. Und das Gilgamesch-Epos enthält Elemente, die man J (die ausgesandten Vögel, das Opfer) und P (Maße des Schiffes, Landung auf einem Berg) zuschreibt – in einer einzigen Erzählung. Die hebräische Endfassung folgt diesem Gesamtablauf; getrennt hätte jede „Quelle" Lücken.`,
+              detail: `Auch die angeblichen Widersprüche lassen sich lesen: Gen 6,19 nennt die Grundregel (je ein Paar), Gen 7,2 präzisiert für reine Tiere (sieben Paare, für Opfer); 40 Tage Regen und 150 Tage Höchststand des Wassers sind keine konkurrierenden Angaben. Ehrlich bleibt: Die Doppelungen sind auffällig, und Christen dürfen annehmen, dass Mose oder spätere Bearbeiter ältere Überlieferungen verarbeiteten – Lukas tat dasselbe (Lk 1,1–4), ohne dass die Inspiration litt.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Gordon J. Wenham', work: 'The Coherence of the Flood Narrative. Vetus Testamentum 28', year: '1978', quote: `Die Flutgeschichte bildet in ihrer Endfassung eine durchlaufende spiegelbildliche Struktur, die die Quellenscheidung in Frage stellt.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Lukas', ref: '1,1–3', quote: `Lukas verweist auf ältere Berichte und Augenzeugen, die er sorgfältig geprüft habe.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'chiasmus-ueberall',
+                  objection: `Chiasmen findet man überall, wenn man sie sucht. Und selbst wenn die Endfassung kunstvoll ist: Dann war eben der Redaktor ein Künstler. Die Quellen darunter bleiben.`,
+                  objectionBy: 'Joel Baden',
+                  answer: `Das ist fair – und es verschiebt die Debatte. Wenn ein Redaktor die Quellen so kunstvoll verwoben hat, dass ein durchlaufender Aufbau entsteht, ist er ein Autor im vollen Sinn. Dann werden aber auch die Kriterien, mit denen man die Quellen wieder herauslöst, unsicherer: Jede „Naht" könnte ebenso gut beabsichtigt sein. Das heißt: Ältere Vorlagen sind möglich, ihre genaue Rekonstruktion bleibt Hypothese.`,
+                  detail: `Joshua Berman (*Inconsistency in the Torah*, 2017) argumentiert, dass altorientalische Rechts- und Erzähltexte Widersprüche und Doppelungen bewusst nebeneinanderstellten – nach anderen Konventionen als moderne Leser erwarten. Für den Laien genügt die Unterscheidung: „Der Pentateuch hat Vorlagen verarbeitet" ist mit dem Glauben vereinbar; „JEDP ist ein gesichertes Ergebnis" ist eine Übertreibung.`,
+                  questionsBack: [`Nach welchem Kriterium unterscheidest du eine Quellennaht von einer bewusst gesetzten Doppelung?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

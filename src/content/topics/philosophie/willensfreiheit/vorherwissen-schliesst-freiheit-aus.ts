@@ -277,6 +277,53 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'blockuniversum',
+      objection: `Vergiss Gott – die Physik selbst hat das Problem. Nach der Relativitätstheorie ist die Zeit ein Block: Vergangenheit, Gegenwart und Zukunft existieren gleichermaßen. Einstein schrieb, die Unterscheidung zwischen ihnen sei nur eine hartnäckige Illusion. Deine Entscheidung von morgen existiert schon. Und dein „zeitloser Gott" ist nur die theologische Version dieses Blocks.`,
+      objectionBy: 'Sabine Hossenfelder (Existential Physics, 2022) / Sean Carroll',
+      answer: `Selbst wenn das Blockuniversum stimmt – was unter Physikern und Philosophen umstritten ist –, folgt daraus kein Zwang. Dass meine Entscheidung von morgen in der Raumzeit „existiert", sagt nur, *dass* sie stattfindet, nicht, *wodurch*. Wenn ich die Ursache meiner Entscheidung bin, dann existiert im Block eben eine von mir frei verursachte Entscheidung. Das ist genau derselbe Punkt wie bei Gottes Vorherwissen: Etwas „steht fest", weil es geschieht, nicht umgekehrt. Ein Ereignis zu verorten heißt nicht, es zu verursachen.`,
+      detail: `Einsteins Satz stammt aus einem Kondolenzbrief an die Familie seines verstorbenen Freundes Michele Besso (März 1955). Ob die Zeit ein „Block" ist (B-Theorie, Eternalismus) oder ob es ein objektives Jetzt gibt (A-Theorie, Präsentismus), ist eine offene Frage der Metaphysik; die Relativitätstheorie legt nahe, entscheidet aber nicht endgültig. Für die Freiheitsfrage ist entscheidend: Eternalismus ist eine These über die Existenz von Ereignissen, Determinismus eine These über ihre Verursachung – das sind zwei verschiedene Fragen.
+
+Zu Gott: Boethius' Bild vom zeitlosen Gott (*Trost der Philosophie* V,6) behauptet nicht, die Zukunft sei „schon da und darum festgelegt", sondern dass Gott alle Zeiten in einem einzigen Gegenwartsblick umfasst – wie ein Mensch, der von einem Berg aus einen Weg überblickt, ohne die Wanderer zu schieben.`,
+      sources: [
+        { kind: 'wissenschaft', author: 'Albert Einstein', work: 'Brief an Vero und Bice Besso', year: '1955', quote: `Für uns gläubige Physiker hat die Scheidung zwischen Vergangenheit, Gegenwart und Zukunft nur die Bedeutung einer wenn auch hartnäckigen Illusion.`, status: 'verbatim', note: 'Kondolenzbrief nach dem Tod Michele Bessos (21. März 1955); in Einstein-Biografien und der Einstein-Besso-Korrespondenz vielfach abgedruckt.' },
+        { kind: 'fachliteratur', author: 'Boethius', work: 'Trost der Philosophie (De consolatione philosophiae)', ref: 'V,6', year: 'um 524', quote: `Gottes Wissen umfasst alles Zeitliche in einer ewigen Gegenwart; wie unser Sehen das Gegenwärtige nicht erzwingt, so zwingt Gottes Schauen das Künftige nicht.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn ein Ereignis in der Raumzeit „existiert" – folgt daraus schon, wer oder was es verursacht hat?`,
+      ],
+      followUps: [
+        {
+          id: 'determiniert-oder-zufall',
+          objection: `Dann bleibt das alte Dilemma: Entweder ist deine Entscheidung durch vorherige Ursachen festgelegt – dann ist sie nicht frei. Oder sie geschieht ohne Ursache, quantenmechanisch zufällig – dann ist sie erst recht nicht frei, sondern Würfeln. Ein Drittes gibt es nicht.`,
+          objectionBy: 'Sam Harris (Free Will, 2012)',
+          answer: `Doch, es gibt ein Drittes, und es ist das, was wir in jeder Entscheidung erleben: Die Ursache ist weder ein früheres Ereignis noch der Zufall, sondern *ich* – eine Person, die aus Gründen handelt. Philosophen nennen das Akteurskausalität. Gründe zwingen nicht wie Billardkugeln, und sie würfeln nicht wie Atome; sie leiten eine Person, die sich für sie entscheidet. Dass dieses Dritte schwer in ein rein physikalisches Bild passt, ist ein Problem des Physikalismus, nicht der Freiheit.`,
+          detail: `Die Akteurskausalität wird u. a. von Roderick Chisholm („Human Freedom and the Self", 1964), Timothy O'Connor (*Persons and Causes*, 2000) und Richard Swinburne vertreten. Peter van Inwagen, einer der einflussreichsten Verteidiger des Inkompatibilismus, räumt ehrlich ein, dass die Freiheit ein „Geheimnis" bleibt – hält aber an ihr fest, weil die Alternative, unsere moralische Verantwortung zu leugnen, noch unglaubwürdiger ist. Diese Ehrlichkeit ist im Gespräch hilfreich: Auch die Gegenseite kann nicht erklären, wie Bewusstsein und Gründe aus bloßer Physik entstehen.`,
+          voices: [
+            {
+              person: 'van-inwagen',
+              role: 'als Metaphysiker der Willensfreiheit',
+              text: `Van Inwagen hat mit dem „Konsequenzargument" gezeigt, dass Determinismus und Freiheit unvereinbar sind. Zugleich gesteht er, dass auch die indeterministische Freiheit rätselhaft bleibt. Sein Schluss ist bemerkenswert: Weil wir mit größerer Gewissheit wissen, dass wir moralisch verantwortlich sind, als irgendeine philosophische Prämisse dagegen gewiss ist, sollten wir an der Freiheit festhalten – auch wenn wir sie nicht vollständig erklären können.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Peter van Inwagen', work: 'An Essay on Free Will', year: '1983', quote: `Wir haben bessere Gründe, an unsere moralische Verantwortung und damit an die Freiheit zu glauben, als für jede Prämisse, aus der folgen würde, dass wir nicht frei sind.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          followUps: [
+            {
+              id: 'akteur-homunkulus',
+              objection: `„Akteurskausalität" ist Magie mit Fachbegriff. Zeig mir das Neuron, an dem dein „Ich" in die Kausalkette eingreift. Es gibt keinen kleinen Mann im Kopf, der an den Hebeln sitzt – es gibt nur Neuronen, Hormone und Gene.`,
+              objectionBy: 'Robert Sapolsky (Determined, 2023)',
+              answer: `Das Ich ist kein kleiner Mann im Kopf, und kein Christ behauptet das. Der Akteur ist die ganze Person – Leib und Seele –, nicht ein Teil des Gehirns. Nach dem Neuron für das Ich zu fragen ist so, als suchte man das Neuron, in dem die Bedeutung eines Satzes steckt. Und ehrlich gesagt: Sapolsky schreibt ein Buch voller Argumente, um Leser zu überzeugen, ihre Meinung zu ändern. Wenn es nur Neuronen und Hormone gibt, die ohnehin ablaufen, wozu dann Argumente? Das Buch widerlegt seine These in dem Moment, in dem es gelesen wird.`,
+              detail: `Sapolsky argumentiert in *Determined: A Science of Life Without Free Will* (2023), dass jedes Verhalten vollständig aus vorausgehenden biologischen und Umweltfaktoren folgt. Ausführlich behandelt im Claim „Der freie Wille ist eine Illusion" (gleicher Themenblock), dort auch die Libet-Experimente und ihre Grenzen. Für das Thema Vorherwissen genügt: Weder Gottes Wissen noch die Struktur der Zeit noch die Neurowissenschaft haben bisher gezeigt, dass Personen nicht Ursache ihrer Handlungen sein können.`,
+              sources: [
+                { kind: 'gegner', author: 'Robert M. Sapolsky', work: 'Determined: A Science of Life Without Free Will', year: '2023', quote: `Sapolsky vertritt, dass menschliches Verhalten vollständig durch vorausgehende biologische und Umweltfaktoren bestimmt ist und es keinen freien Willen gibt.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Zwingt dein Wissen, dass ich gerade sitze, mich zum Sitzen? Wenn nicht – worin unterscheidet sich Gottes Wissen grundsätzlich?`,

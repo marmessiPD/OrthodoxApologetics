@@ -106,6 +106,30 @@ const claim: Claim = {
               objection: `Las Casas ist ein schlechtes Beispiel: Er hat vorgeschlagen, afrikanische Sklaven zu importieren, um die Indios zu schonen. Auch er war ein Rassist.`,
               objectionBy: 'Hector Avalos',
               answer: `Das ist richtig, und ich verschweige es nicht: Las Casas machte diesen Vorschlag – und bereute ihn später zutiefst. In seiner *Geschichte Westindiens* schrieb er, er habe erkannt, dass die Versklavung der Afrikaner ebenso ungerecht sei wie die der Indios. Das zeigt etwas Wichtiges: Derselbe Maßstab – jeder Mensch ist Gottes Ebenbild –, mit dem er für die Indios kämpfte, führte ihn zur Einsicht über seinen eigenen Irrtum. Moralischer Fortschritt kam hier aus der konsequenteren Anwendung christlicher Prinzipien.`,
+              followUps: [
+                {
+                  id: 'kongo-leopold',
+                  objection: `Nimm den Kongo unter Leopold II.: Millionen Tote, abgehackte Hände – und Missionare waren mitten im System, eingeladen vom „christlichen" König, der seine Ausbeutung als Zivilisierungs- und Missionswerk verkaufte.`,
+                  objectionBy: 'Ibram X. Kendi',
+                  answer: `Leopold hat sich mit christlicher Rhetorik getarnt, und manche katholische Missionen arbeiteten eng mit seinem Regime zusammen – das ist wahr. Aber aufgedeckt wurden die Gräuel ganz wesentlich von Missionaren: Der afroamerikanische Presbyterianer William Sheppard berichtete 1899 öffentlich über Massaker und abgehackte Hände; die baptistische Missionarin Alice Seeley Harris machte die Fotos, die Europa erschütterten. Die Congo Reform Association, die Leopold schließlich zur Abgabe des Kongo zwang, lebte von diesem Zeugnis.`,
+                  detail: `Das Beispiel zeigt die Doppelgesichtigkeit der Missionsgeschichte, die du ehrlich benennen solltest: Es gab Missionare, die mit den Mächtigen paktierten, und Missionare, die unter großem persönlichem Risiko die Opfer verteidigten. Bezeichnend ist, auf wessen Maßstab sich die Ankläger beriefen: auf die Würde jedes Menschen als Geschöpf Gottes. Sheppard wurde wegen seiner Berichte von einer belgischen Gesellschaft wegen Verleumdung verklagt – und freigesprochen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Adam Hochschild', work: 'King Leopold\'s Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa', year: '1998', status: 'paraphrase', note: 'Hochschild ist kein christlicher Autor; er würdigt die Rolle Sheppards und der Harris’ ausdrücklich.' },
+                  ],
+                  followUps: [
+                    {
+                      id: 'zivilisierungsmission-rassismus',
+                      objection: `Auch die „guten" Missionare waren durchdrungen vom Rassismus der Zivilisierungsmission: Afrikaner galten als Kinder, die man erziehen musste. Afrikanische Christen durften keine Leitung übernehmen.`,
+                      objectionBy: 'Ibram X. Kendi',
+                      answer: `Paternalismus und Rassismus gab es unter Missionaren, und das muss man klar sagen. Aber es gab auch die Gegenbewegung aus der Mission selbst: Der anglikanische Missionsstratege Henry Venn forderte schon in den 1850er-Jahren, die Kirchen in Afrika und Asien müssten sich selbst leiten, selbst finanzieren und selbst ausbreiten. 1864 wurde Samuel Ajayi Crowther, ein befreiter Sklave aus dem Volk der Yoruba, zum ersten afrikanischen anglikanischen Bischof geweiht. Das Evangelium hat den Rassismus der Missionare nicht bestätigt, sondern immer wieder gesprengt.`,
+                      detail: `Crowther wurde später von jüngeren europäischen Missionaren verdrängt – ein Beispiel dafür, wie Rassismus die eigenen Prinzipien der Mission verriet. Heute leben die meisten Christen der Welt im globalen Süden, und die Kirchen Afrikas werden von Afrikanern geleitet. Ehrlich bleibt: Diese Entwicklung kam langsamer, als das Evangelium es verlangt hätte.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Andrew F. Walls', work: 'The Missionary Movement in Christian History: Studies in the Transmission of Faith', year: '1996', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -122,6 +146,38 @@ const claim: Claim = {
           objection: `Auch Bibelübersetzung ist Kulturimperialismus: Man ersetzt die eigenen Götter und Geschichten durch fremde.`,
           objectionBy: 'R. S. Sugirtharajah',
           answer: `Sanneh, der selbst aus einer muslimischen Familie in Gambia stammte, sah es umgekehrt: Wer Gottes Wort in die eigene Sprache übersetzt, erklärt diese Sprache für würdig, das Höchste zu tragen. Afrikaner haben die übersetzte Bibel schnell gegen die Kolonisatoren gelesen und eigene Kirchen gegründet. Und das Christentum ist in Afrika gerade nach dem Ende der Kolonialzeit am stärksten gewachsen – von einer kleinen Minderheit um 1900 auf fast die Hälfte der Bevölkerung heute. Das lässt sich kaum als Zwang erklären.`,
+          followUps: [
+            {
+              id: 'kanaan-landnahme-buren',
+              objection: `Die Bibel lieferte den Siedlern das Drehbuch: Die Puritaner sahen sich als neues Israel, die Indianer als Kanaaniter; die Buren schlossen einen „Bund" mit Gott und rechtfertigten später die Apartheid biblisch. Das ist kein Missbrauch am Rand – das ist die Bibel als Kolonisationsanleitung.`,
+              objectionBy: 'R. S. Sugirtharajah',
+              answer: `Diese Lesarten gab es, und sie haben furchtbares Unrecht gestützt. Aber sie wurden von der Kirche selbst als Irrlehre verurteilt: Der Reformierte Weltbund erklärte 1982 in Ottawa die theologische Rechtfertigung der Apartheid zur Häresie. Und die stärksten Gegner der Apartheid – Desmond Tutu, Beyers Naudé, die Verfasser des Kairos-Dokuments – argumentierten aus derselben Bibel: Jeder Mensch ist Gottes Ebenbild. Wer sich als „neues Israel" einen Eroberungsauftrag zuspricht, hat das Neue Testament nicht verstanden – dort ist die Kirche ein Volk aus allen Völkern ohne eigenes Land.`,
+              detail: `Die Landnahme Josuas war ein einmaliges, begrenztes Geschehen und nach biblischem Verständnis kein Muster für spätere Völker (siehe Claim zum Kanaaniter-Feldzug). Die Übertragung auf Siedlerkolonien ist eine nationalistische Umdeutung. Bezeichnend ist, dass die Opfer dieser Lesarten – Schwarze Südafrikaner, Native Americans – die Bibel ihrerseits als Buch der Befreiung lasen: Exodus, Propheten, Magnificat.`,
+              voices: [
+                { person: 'desmond-tutu', role: 'als anglikanischer Erzbischof im Kampf gegen die Apartheid', text: `Tutu begründete seinen Widerstand gegen die Apartheid ausdrücklich theologisch: Die Apartheid sei nicht nur ungerecht, sondern Sünde und Häresie, weil sie Menschen nach ihrer Hautfarbe bewerte, obwohl alle nach Gottes Bild geschaffen sind. Nach dem Ende der Apartheid leitete er die Wahrheits- und Versöhnungskommission – ein Versuch, Gerechtigkeit und Vergebung zusammenzubringen.` },
+              ],
+              sources: [
+                { kind: 'sonstiges', work: 'Reformierter Weltbund (WARC), Generalversammlung Ottawa: Erklärung zur Apartheid (status confessionis)', year: '1982', status: 'paraphrase', note: 'Die theologische Rechtfertigung der Apartheid wurde als Häresie verurteilt.' },
+              ],
+              followUps: [
+                {
+                  id: 'afrikanische-christen-uebernommen',
+                  objection: `Aber auch Tutu hatte seinen Glauben von westlichen Missionaren. Die Bibel bleibt das Buch der Kolonisatoren – auch wenn manche Kolonisierte es gegen sie gewendet haben.`,
+                  objectionBy: 'Musa W. Dube',
+                  answer: `Das Christentum war in Afrika, lange bevor Europa es kannte: Die koptische Kirche führt sich auf den Evangelisten Markus zurück, die äthiopische Kirche ist seit dem 4. Jahrhundert Staatskirche, und die Wüstenväter Ägyptens haben das Mönchtum der ganzen Welt geprägt. Der ghanaische Theologe Kwame Bediako hat darum vom Christentum als einer „nicht-westlichen Religion" gesprochen, die in Afrika heimkehrt. Und die am schnellsten wachsenden Kirchen Afrikas sind heute afrikanisch gegründet und geleitet.`,
+                  detail: `Bediako argumentierte in *Christianity in Africa: The Renewal of a Non-Western Religion* (1995), dass afrikanische Christen das Evangelium nicht als fremde Kultur, sondern als Erfüllung ihrer eigenen religiösen Suche angeeignet haben. Philip Jenkins hat in *The Next Christendom* gezeigt, dass das Zentrum des Christentums längst im globalen Süden liegt. Afrikanischen Christen abzusprechen, ihren Glauben wirklich zu besitzen, wäre seinerseits eine Form von Bevormundung.`,
+                  voices: [
+                    { person: 'kwame-bediako', role: 'als afrikanischer Theologe', text: `Bediako sah in der frühen Kirche Nordafrikas – Alexandrien, Karthago – den Beweis, dass afrikanisches Christentum keine koloniale Importware ist. Afrikanische Theologie müsse sich als Fortsetzung dieses Erbes verstehen und das Evangelium in afrikanischen Denkformen ausdrücken.` },
+                    { person: 'philip-jenkins', role: 'als Religionshistoriker', text: `Jenkins zeigt in *The Next Christendom* (2002), dass sich der Schwerpunkt des Weltchristentums nach Afrika, Lateinamerika und Asien verlagert hat. Die typische Christin der Gegenwart ist keine Europäerin, sondern eine Frau in Nigeria oder Brasilien.` },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Kwame Bediako', work: 'Christianity in Africa: The Renewal of a Non-Western Religion', year: '1995', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Philip Jenkins', work: 'The Next Christendom: The Coming of Global Christianity', year: '2002', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -144,6 +200,39 @@ const claim: Claim = {
       objection: `Woodberry ist doch selbst Christ. Seine Studie ist Apologetik im wissenschaftlichen Gewand.`,
       objectionBy: 'Hector Avalos',
       answer: `Seine Studie erschien 2012 in der *American Political Science Review*, der führenden Fachzeitschrift der Politikwissenschaft, nach dem dort üblichen strengen Begutachtungsverfahren. Sie beruht auf umfangreichen, offen gelegten Daten und prüft zahlreiche alternative Erklärungen. Man kann über einzelne Ergebnisse streiten – das ist Wissenschaft –, aber die persönliche Konfession eines Forschers widerlegt keine Daten. Sonst müsste man auch jede Studie eines atheistischen Forschers über Religion verwerfen.`,
+      followUps: [
+        {
+          id: 'woodberry-selektionseffekt',
+          objection: `Das ist eine Korrelation. Vielleicht sind die Missionare einfach dorthin gegangen, wo die Bedingungen ohnehin gut waren – Selektionseffekt. Dann hätten nicht die Missionen die Demokratie gebracht, sondern die Gegend die Missionen angezogen.`,
+          objectionBy: 'Hector Avalos',
+          answer: `Genau diesen Einwand hat Woodberry geprüft: Er kontrollierte für Geografie, Klima, Krankheitslast, Zugang zum Meer, Kolonialmacht und zahlreiche weitere Faktoren und nutzte statistische Verfahren gegen umgekehrte Kausalität. Der Effekt blieb. Zudem kommen andere Ökonomen ohne apologetisches Interesse zu ähnlichen Ergebnissen: Nathan Nunn (Harvard) fand, dass Regionen Afrikas mit früher Missionspräsenz bis heute ein höheres Bildungsniveau haben.`,
+          detail: `Missionare gingen übrigens oft gerade nicht in die günstigsten Gegenden, sondern in schwer zugängliche, krankheitsgeplagte Regionen – die Sterblichkeit unter frühen Missionaren in Westafrika war berüchtigt hoch. Die Forschungslage ist nicht „bewiesen", aber sie ist robust genug, dass die pauschale These „Mission = nur Unterdrückung" nicht mehr haltbar ist.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Robert D. Woodberry', work: '„The Missionary Roots of Liberal Democracy", American Political Science Review 106(2)', year: '2012', status: 'paraphrase' },
+            { kind: 'wissenschaft', author: 'Nathan Nunn', work: '„Religious Conversion in Colonial Africa", American Economic Review: Papers & Proceedings 100(2)', year: '2010', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'bildung-als-bekehrungsmittel',
+              objection: `Die Missionsschulen waren Bekehrungsanstalten. Bildung war nur das Lockmittel, um die traditionellen Religionen zu verdrängen.`,
+              objectionBy: 'Hector Avalos',
+              answer: `Natürlich wollten die Missionare, dass Menschen die Bibel selbst lesen können – das war ihr Motiv. Aber gerade dieses Motiv führte dazu, dass sie Mädchen und Arme unterrichteten, die sonst nie lesen gelernt hätten. Und ihre Schüler nutzten die Bildung für ihre eigenen Ziele: Nelson Mandela etwa besuchte die methodistischen Schulen Clarkebury und Healdtown und die von Missionaren gegründete Universität Fort Hare – wie viele Führer der afrikanischen Unabhängigkeitsbewegungen.`,
+              detail: `Man kann den Missionaren vorwerfen, dass sie ihre Botschaft verbreiten wollten. Aber das tut jede Weltanschauung, die sich für wahr hält – auch der säkulare Humanismus. Entscheidend ist, ob die Bildung den Menschen Freiheit gab oder sie unmündig hielt. Die Geschichte der antikolonialen Bewegungen, die großenteils von Absolventen der Missionsschulen getragen wurden, spricht eine klare Sprache.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'neokolonialismus-kulturkampf',
+      objection: `Heute geht die Kolonisierung weiter: Amerikanische Evangelikale exportieren ihre Kulturkämpfe nach Afrika, finanzieren Kampagnen gegen Homosexuelle und machen afrikanische Kirchen zu Werkzeugen ihrer Agenda.`,
+      objectionBy: 'Kapya Kaoma',
+      answer: `Wo westliche Gruppen Geld und Einfluss nutzen, um Hass oder harte Strafgesetze zu fördern, ist das Unrecht, und Christen sollten es klar verurteilen. Aber die These, afrikanische Christen hätten keine eigenen Überzeugungen und plapperten nur Amerikanern nach, ist selbst bevormundend. Die Kirchen des Südens sind heute oft stärker, wachsender und selbstbewusster als die des Nordens – sie schicken längst Missionare nach Europa. Ihre Positionen zu Ehe und Sexualität wurzeln in ihrer eigenen Lektüre der Schrift und in alten Traditionen, wie bei der koptischen und äthiopischen Kirche, die keine westliche Mission brauchten.`,
+      detail: `Der sambische Anglikaner Kapya Kaoma hat in seinem Bericht *Globalizing the Culture Wars* (2009) dokumentiert, wie US-Gruppen in Afrika Einfluss nahmen – ein wichtiger kritischer Beitrag. Zugleich zeigt etwa die Lambeth-Konferenz 1998, dass gerade afrikanische und asiatische Bischöfe eigenständig an der traditionellen Sexualethik festhielten, gegen die Mehrheit der westlichen Kirchenleitungen. Die ehrliche Linie: Gewalt und Kriminalisierung verurteilen, aber afrikanischen Christen ihre Stimme lassen.`,
+      sources: [
+        { kind: 'gegner', author: 'Kapya Kaoma', work: 'Globalizing the Culture Wars: U.S. Conservatives, African Churches, and Homophobia', year: '2009', status: 'paraphrase', note: 'Bericht für Political Research Associates.' },
+        { kind: 'konzil', work: 'Lambeth-Konferenz der anglikanischen Bischöfe, Resolution I.10', year: '1998', status: 'paraphrase' },
+      ],
     },
   ],
   questionsToAsk: [
