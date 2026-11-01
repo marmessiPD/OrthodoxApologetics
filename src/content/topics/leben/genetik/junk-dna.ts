@@ -71,7 +71,7 @@ const claim: Claim = {
       text: `Collins führte in „The Language of God" (2006) verstümmelte Transposon-Kopien an identischen Stellen im Genom von Mensch und Maus als Indiz für gemeinsame Abstammung an. In späteren Jahren äußerte er sich zurückhaltender über den Begriff „Junk-DNA", weil sich immer mehr Funktionen zeigten. Seine Entwicklung illustriert, wie schnell sich der Kenntnisstand verschiebt – und dass gläubige Wissenschaftler hier unterschiedliche Akzente setzen.`,
       sources: [
         { kind: 'fachliteratur', author: 'Francis S. Collins', work: 'The Language of God', ref: 'Kap. 5', year: '2006', status: 'paraphrase' },
-        { kind: 'sonstiges', author: 'Francis S. Collins', work: 'Spätere öffentliche Äußerungen zum Begriff „Junk-DNA"', status: 'unverified', note: 'Es kursieren Zitate (um 2015), Collins verwende den Begriff nicht mehr; Wortlaut und Anlass vor Verwendung prüfen.' },
+        { kind: 'sonstiges', author: 'Francis S. Collins', work: 'Äußerung auf der 33. J.P. Morgan Healthcare Conference, San Francisco', ref: '13. Januar 2015', year: '2015', status: 'paraphrase', quote: `Man verwende den Begriff „Junk-DNA" nicht mehr; es sei ziemlich vermessen („hubris") gewesen anzunehmen, man könne auf irgendeinen Teil des Genoms verzichten – vieles davon „tut etwas".`, original: `We don't use that term anymore … It was pretty much a case of hubris to imagine that we could dispense with any part of the genome.`, note: 'Anlass und Kernaussage durch mehrere Berichte bestätigt (u. a. vom NIH-Twitterkanal verbreitet); Wortlaut nur aus Sekundärberichten, kein Transkript geprüft. Schon 2007 soll Collins gesagt haben, er verwende den Begriff nicht mehr.' },
       ],
     },
     {
@@ -104,6 +104,24 @@ const claim: Claim = {
               objection: `Nukleotypische Funktion heißt nicht, dass die Sequenz eine Rolle spielt. Das ist Füllmaterial – und genau das meine ich mit Junk.`,
               objectionBy: 'Larry Moran',
               answer: `Dann hat sich die Bedeutung von „Junk" aber verschoben: Von „nutzlose Überbleibsel" zu „DNA, deren Sequenz nicht im Detail zählt, deren Masse aber eine Rolle spielen kann". Für das ursprüngliche Argument – „ein Designer hätte keinen Müll eingebaut, also beweist das Evolution" – ist das ein großer Unterschied. Strukturelles Material ist nicht nutzlos.`,
+              followUps: [
+                {
+                  id: 'collins-hat-eingeknickt',
+                  objection: `Collins hat 2015 behauptet, man verwende den Begriff „Junk" nicht mehr – das war ein Einknicken vor dem ENCODE-Hype. In „The Language of God" hat er die Transposon-Wracks noch zu Recht als Beleg für gemeinsame Abstammung angeführt.`,
+                  objectionBy: 'Larry Moran',
+                  answer: `Mag sein, dass du Collins hier für zu nachgiebig hältst – das ist ein Streit unter Fachleuten, und genau das ist mein Punkt. Wenn der frühere Leiter des Humangenomprojekts, ein überzeugter Anhänger der Evolution, den Begriff als „Hybris" bezeichnet und du ihn verteidigst, dann ist die Frage offensichtlich nicht „entschieden". Ein Laie sollte daraus lernen: Junk-DNA ist kein sicheres Fundament für ein Argument gegen Design – und auch kein sicheres für eines dafür.`,
+                  voices: [
+                    {
+                      person: 'francis-collins',
+                      role: 'als Genetiker (Position der theistischen Evolution)',
+                      text: `Collins hält an der gemeinsamen Abstammung fest, äußerte sich aber 2015 öffentlich zurückhaltend über den Begriff „Junk-DNA": Es sei vermessen gewesen anzunehmen, man könne Teile des Genoms als verzichtbar abtun. Seine Position zeigt, dass man die Abstammungsfrage und die Funktionsfrage getrennt behandeln kann.`,
+                      sources: [
+                        { kind: 'sonstiges', author: 'Francis S. Collins', work: 'Äußerung auf der J.P. Morgan Healthcare Conference, San Francisco', year: '2015', status: 'paraphrase', note: 'Wortlaut nur aus Sekundärberichten.' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -121,6 +139,22 @@ const claim: Claim = {
               questionsBack: [
                 `Wie würdest du eine menschenspezifische Funktion entdecken, wenn dein Kriterium Konservierung über Säugetiere ist?`,
               ],
+              followUps: [
+                {
+                  id: 'mutationslast-obergrenze',
+                  objection: `Artspezifische Funktionen hin oder her – die Mutationslast setzt eine harte Obergrenze. Jedes Kind trägt rund 60 bis 100 neue Mutationen. Wären 80 % des Genoms funktional, wären Dutzende davon schädlich, und die Menschheit wäre längst ausgestorben. Graur hat 2017 berechnet: höchstens ein Viertel kann funktional sein.`,
+                  objectionBy: 'Dan Graur',
+                  answer: `Das Mutationslast-Argument ist das stärkste auf deiner Seite, und ich nehme es ernst. Aber es hängt an Annahmen: Wie viele Mutationen in einer funktionalen Region sind tatsächlich schädlich? Viele Funktionen sind sequenztolerant – Abstandshalter, Bindungsstellen mit Spielraum, Strukturelemente. Dazu kommen Mechanismen, die die Last mindern, etwa synergistische Epistase und weiche Selektion; Alexey Kondrashov hat schon 1995 gefragt, „warum wir nicht hundertmal gestorben sind". Das Argument begrenzt die **streng sequenzabhängige** Funktion – nicht jede Funktion.`,
+                  detail: `Ehrlich festhalten: Aus dem Lastargument folgt plausibel, dass nicht der gesamte Genomanteil Basenpaar für Basenpaar unter starkem Selektionsdruck stehen kann. Das gestehen auch viele Design-Befürworter zu. Strittig ist, wie groß der Anteil von Funktionen ist, bei denen die genaue Sequenz wenig zählt. Für die Debatte reicht es, zu zeigen: Die Zahl „90 % Müll" ist eine Schlussfolgerung aus einem Modell mit umstrittenen Parametern, keine direkte Messung.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Dan Graur', work: '„An upper limit on the functional fraction of the human genome", Genome Biology and Evolution 9 (7)', year: '2017', status: 'paraphrase', quote: `Aus der Mutationslast folgt nach Graurs Modell, dass höchstens etwa ein Viertel des menschlichen Genoms funktional sein kann.` },
+                    { kind: 'wissenschaft', author: 'Alexey S. Kondrashov', work: '„Contamination of the genome by very slightly deleterious mutations: why have we not died 100 times over?", Journal of Theoretical Biology 175', year: '1995', status: 'paraphrase', note: 'Kondrashov ist kein ID-Vertreter; der Artikel zeigt, dass Lastrechnungen stark von Modellannahmen abhängen.' },
+                  ],
+                  questionsBack: [
+                    `Welcher Anteil der Mutationen in einer regulatorischen Region ist in deinem Modell schädlich – und woher stammt diese Zahl?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -137,6 +171,20 @@ const claim: Claim = {
           objection: `Einzelne Beispiele beweisen nichts für die Millionen Kopien. Aus ein paar kooptierten Elementen folgt nicht, dass alle funktional sind.`,
           objectionBy: 'Dennis Venema',
           answer: `Das ist ein fairer Einwand, und ich gebe ihn zu: Einzelfunktionen beweisen nicht, dass alles funktional ist. Aber das Argument „Junk beweist Evolution" lebt davon, dass diese DNA nutzlos ist. Je mehr Funktionen entdeckt werden, desto schwächer wird es. Ein offener Ausgang ist kein Sieg für die Junk-These.`,
+          followUps: [
+            {
+              id: 'transkriptionsrauschen',
+              objection: `Die meisten „neuen Funktionen" sind Transkriptionsrauschen. Viele lange nichtcodierende RNAs liegen in weniger als einer Kopie pro Zelle vor. Dass etwas abgelesen wird, beweist gar nichts – RNA-Polymerase macht eben Fehler.`,
+              objectionBy: 'Larry Moran',
+              answer: `Das gestehe ich teilweise zu: Nicht jedes Transkript ist funktional, und manches ist sicher Rauschen. Aber eine niedrige Kopienzahl im Durchschnitt aller Zellen sagt wenig: Viele RNAs wirken lokal an ihrem eigenen Genort, wie Xist bei der Abschaltung des X-Chromosoms, oder nur in bestimmten Zelltypen und Entwicklungsphasen. Die Beweislast gilt in beide Richtungen: Funktion muss experimentell gezeigt werden – Funktionslosigkeit aber auch. „Wir kennen keine Funktion" ist nicht dasselbe wie „es gibt keine".`,
+              sources: [
+                { kind: 'gegner', author: 'Alexander F. Palazzo, Eliza S. Lee', work: '„Non-coding RNA: what is functional and what is junk?", Frontiers in Genetics 6', year: '2015', status: 'paraphrase', quote: `Ein großer Teil der nichtcodierenden Transkripte dürfte Rauschen sein; Funktion müsse im Einzelfall nachgewiesen werden.` },
+              ],
+              questionsBack: [
+                `Welches Experiment würde für dich zeigen, dass eine bestimmte nichtcodierende RNA funktionslos ist?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -162,6 +210,28 @@ const claim: Claim = {
               objectionBy: 'Dan Graur',
               answer: `Nein. Die Design-Vorhersage lautete „so weit wie möglich funktional" – nicht „perfekt erhalten". Wer ein Design annimmt, das im Lauf der Zeit Mutationen und Verfall unterliegt, erwartet einen hohen, aber nicht vollständigen Anteil an Funktion. Die Frage ist, ob sich der Funktionsanteil langfristig als groß oder als klein erweist – und die ist offen.`,
             },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'megabasen-deletion-maeuse',
+      objection: `Das Experiment wurde gemacht: Nóbrega und Kollegen haben 2004 bei Mäusen Genwüsten von insgesamt über zwei Millionen Basenpaaren gelöscht – die Tiere waren lebensfähig und unauffällig. Wenn man so viel DNA ohne Folgen entfernen kann, war sie Müll.`,
+      objectionBy: 'Dennis Venema',
+      answer: `Ein wichtiges Experiment. Aber schau, was drei Jahre später geschah: Ahituv und Kollegen löschten bei Mäusen sogenannte ultrakonservierte Elemente – Abschnitte, die seit Hunderten Millionen Jahren nahezu unverändert sind und damit nach evolutionärer Logik sicher funktional. Auch diese Mäuse waren lebensfähig und im Labor unauffällig. Der Test „lebt die Maus im Käfig?" ist also zu grob, um Funktion auszuschließen – sonst müsstest du auch die ultrakonservierten Elemente zu Müll erklären.`,
+      detail: `Laborbedingungen sind gnädig: Futter, Wärme, keine Raubtiere, keine Krankheitserreger, keine Konkurrenz um Partner. Funktionen, die erst unter Stress, über Generationen oder in seltenen Zelltypen sichtbar werden, entgehen einem solchen Test. Das ist kein Ausweichen, sondern ein Methodenproblem, das die Autoren der Ultrakonservierungs-Studie selbst diskutierten.`,
+      sources: [
+        { kind: 'wissenschaft', author: 'Marcelo A. Nóbrega, Yiwen Zhu, Ingrid Plajzer-Frick, Veena Afzal, Edward M. Rubin', work: '„Megabase deletions of gene deserts result in viable mice", Nature 431', year: '2004', status: 'paraphrase' },
+        { kind: 'wissenschaft', author: 'Nadav Ahituv u. a.', work: '„Deletion of ultraconserved elements yields viable mice", PLoS Biology 5 (9)', year: '2007', status: 'paraphrase', quote: `Mäuse ohne einzelne ultrakonservierte Elemente waren lebensfähig und zeigten unter Laborbedingungen keine auffälligen Veränderungen.` },
+      ],
+      followUps: [
+        {
+          id: 'funktion-unwiderlegbar',
+          objection: `Das ist eine Ausrede. Mit „Redundanz", „Stress" und „subtilen Effekten" machst du Funktion unwiderlegbar. Jede DNA, die nichts tut, hat dann eben eine verborgene Aufgabe.`,
+          objectionBy: 'Larry Moran',
+          answer: `Einverstanden, dass „verborgene Funktion" kein Joker sein darf. Deshalb schlage ich prüfbare Kriterien vor: Einschränkung der Variation innerhalb der heutigen Menschheit, CRISPR-Tests im passenden Zelltyp, biochemische Aktivität **plus** messbare Folgen bei Ausfall, und Fitnessmessungen über Generationen. Wo eine Sequenz all diese Tests besteht, ohne irgendeinen Effekt zu zeigen, gestehe ich zu: Hier spricht viel für Junk. Aber dann gilt dieser Maßstab für beide Seiten – auch „Junk" muss man zeigen, nicht nur behaupten.`,
+          questionsBack: [
+            `Welchen Anteil des Genoms hat man mit genau diesen Tests als funktionslos nachgewiesen – und welchen schließt man nur aus fehlender Konservierung?`,
           ],
         },
       ],

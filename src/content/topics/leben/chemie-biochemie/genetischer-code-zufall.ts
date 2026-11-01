@@ -119,6 +119,24 @@ const claim: Claim = {
               objection: `Ein Designer hätte einen chemisch notwendigen, eindeutigen Code gewählt – keinen beliebigen.`,
               answer: `Ein chemisch erzwungener Code wäre gar kein Code: Wenn die Chemie festlegte, welche Sequenz entsteht, könnte die Sequenz keine Information tragen. Michael Polanyi hat das schon 1968 in *Science* gezeigt: Gerade die chemische Unbestimmtheit macht Information möglich.`,
               sources: [polanyi1968],
+              followUps: [
+                {
+                  id: 'code-aendert-sich-doch',
+                  objection: `So eingefroren ist er gar nicht. In Mitochondrien und bei manchen Hefen und Bakterien wurden Codons im Lauf der Evolution umbelegt – über Zwischenstufen, in denen ein Codon verschwand oder zeitweise doppeldeutig gelesen wurde. Der Code evolviert, wir sehen es.`,
+                  objectionBy: 'Eugene Koonin',
+                  answer: `Das stimmt, und ich nehme es als ehrliches Zugeständnis auf: Einzelne Codons können umbelegt werden. Aber das geschieht fast nur in sehr kleinen Genomen wie denen der Mitochondrien, betrifft meist Stoppcodons oder seltene Codons und setzt einen voll funktionsfähigen Übersetzungsapparat voraus. Das ist die nachträgliche Umnutzung einzelner Wörter in einer bestehenden Sprache – nicht die Entstehung der Sprache.`,
+                  detail: `**Bekannte Mechanismen:** Die „Codon-Capture"-Hypothese (Osawa und Jukes) beschreibt, wie ein Codon in einem Genom durch Mutationsdruck verschwindet und später mit neuer Bedeutung wieder auftaucht. Die „Ambiguous-Intermediate"-Hypothese beschreibt eine Phase, in der ein Codon doppeldeutig gelesen wird. Beide sind gut begründet.
+
+**Warum das die Frage nicht beantwortet:**
+- Sie setzen tRNAs, Synthetasen und Ribosomen voraus – also den ganzen Decodierapparat.
+- Sie funktionieren dort am besten, wo wenige Gene betroffen sind (Mitochondrien codieren nur wenige Proteine). In großen Genomen ist jede Umbelegung riskant.
+- Sie zeigen gerade, dass die Zuordnung **nicht chemisch notwendig** ist – ein Merkmal echter Codes.
+
+Gestehe das offen zu: Der Code ist kontingent und in Grenzen veränderlich. Genau das macht ihn zu einem Informationssystem und nicht zu einem bloßen Naturgesetz.`,
+                  sources: [{ kind: 'wissenschaft', author: 'Syozo Osawa, Thomas H. Jukes', work: '„Codon reassignment (codon capture) in evolution", Journal of Molecular Evolution 28, S. 271–278', year: '1989', quote: `Codons können durch Mutationsdruck aus einem Genom verschwinden und später mit neuer Bedeutung wieder auftauchen.`, status: 'paraphrase' }],
+                  questionsBack: [`Welche der bekannten Umbelegungen fand ohne einen bereits funktionierenden Übersetzungsapparat statt?`],
+                },
+              ],
             },
           ],
         },
@@ -145,6 +163,24 @@ const claim: Claim = {
               objectionBy: 'Eugene Koonin',
               answer: `Szenarien sind keine Demonstrationen. Welches Experiment hat die Entstehung eines Übersetzungssystems gezeigt? Koonin selbst hielt 2007 ausgerechnet die Entstehung eines gekoppelten Replikations-Translations-Systems für so unwahrscheinlich, dass er ein Multiversum bemühte.`,
               sources: [{ kind: 'gegner', author: 'Eugene V. Koonin', work: 'Biology Direct 2:15', year: '2007', status: 'paraphrase' }],
+              followUps: [
+                {
+                  id: 'urzyme-carter',
+                  objection: `Es gibt mehr als Szenarien. Die zwei Klassen von Synthetasen lassen sich auf winzige „Urzyme" zurückführen, die noch katalytisch aktiv sind – und vermutlich wurden beide Klassen ursprünglich von den zwei komplementären Strängen desselben Gens codiert. So kann ein einfacher Anfang ausgesehen haben.`,
+                  objectionBy: 'Charles W. Carter',
+                  answer: `Die Arbeiten von Charles Carter sind kluge Biochemie, und die Hypothese der zwei Stränge ist faszinierend. Aber die Urzyme werden gewonnen, indem man aus heutigen Enzymen Teile entfernt – sie sind Konstruktionen aus dem Labor, deutlich weniger spezifisch, und sie bestehen immer noch aus über hundert Aminosäuren in bestimmter Abfolge. Vor allem müssen auch sie erst übersetzt werden: Ein Gen, dessen beide Stränge Proteine codieren, setzt den Code voraus, den es erklären soll.`,
+                  detail: `**Was Carter und Kollegen zeigen:** Aus Klasse-I- und Klasse-II-Synthetasen lassen sich stark verkürzte Kernstücke („Urzyme", etwa 120–130 Aminosäuren) herstellen, die Aminosäuren noch aktivieren können. Die von Rodin und Ohno vorgeschlagene Idee, dass die beiden Klassen ursprünglich auf komplementären DNA-Strängen codiert waren, wird damit experimentell untersucht.
+
+**Die drei offenen Punkte:**
+1. **Spezifität:** Die Urzyme unterscheiden Aminosäuren viel schlechter. Ein Code mit 20 Bedeutungen braucht aber genaue Unterscheidung.
+2. **Information:** Auch 120 Aminosäuren in brauchbarer Abfolge sind ein großer Informationsbetrag (siehe die Diskussion zu funktionalen Proteinen im Claim zu Miller-Urey).
+3. **Zirkularität:** Ein Protein ist nur über Übersetzung zugänglich. Wer den Anfang des Codes mit codierten Proteinen erklärt, setzt das Übersetzungssystem bereits voraus.
+
+Das ist der Kern dessen, was Stephen Meyer das „Henne-Ei-Problem" der Information nennt.`,
+                  sources: [{ kind: 'gegner', author: 'Charles W. Carter Jr.', work: 'Arbeiten zu Klasse-I- und Klasse-II-Urzymen der Aminoacyl-tRNA-Synthetasen (u. a. mit Peter R. Wills)', year: '2014–2021', quote: `Stark verkürzte Kernstücke heutiger Synthetasen behalten katalytische Aktivität; beide Synthetase-Klassen könnten ursprünglich von komplementären Strängen eines Gens codiert worden sein.`, status: 'paraphrase', note: 'Sammelverweis auf eine Forschungsreihe; einzelne Artikel vor wörtlichem Zitat heranziehen.' }],
+                  questionsBack: [`Wie wurde das Urzym selbst hergestellt, bevor es einen Code gab, nach dem man es übersetzen konnte?`],
+                },
+              ],
             },
           ],
         },
@@ -166,6 +202,24 @@ const claim: Claim = {
               objection: `Die RNA-Welt löst das: Ribozyme können Aminosäuren an RNA hängen – die ersten Synthetasen.`,
               objectionBy: 'Jack Szostak',
               answer: `Es gibt im Labor selektierte Ribozyme, die Aminosäuren an tRNA koppeln – eine echte chemische Möglichkeit. Aber der Code verlangt einen *Satz* aufeinander abgestimmter, spezifischer Erkennungen für 20 Aminosäuren. Ein einzelnes, im Labor gezüchtetes Ribozym ist davon weit entfernt. Siehe den Claim zur RNA-Welt.`,
+              followUps: [
+                {
+                  id: 'flexizyme-klein',
+                  objection: `Diese Ribozyme sind winzig. Die sogenannten Flexizyme haben nur rund 45 Nukleotide und beladen tRNAs mit Aminosäuren. Wenn so kleine RNA das kann, ist der Schritt zum Code nicht groß.`,
+                  objectionBy: 'Jack Szostak',
+                  answer: `Die Flexizyme aus dem Labor von Hiroaki Suga sind tatsächlich klein und genial – aber ihr Name verrät den Punkt: Sie sind *flexibel*, also bewusst unspezifisch. Sie hängen fast jede aktivierte Aminosäure an fast jede tRNA, und genau deshalb benutzen Forscher sie, um den Code nach eigenem Plan umzuprogrammieren. Das zeigt: Die Kopplung ist chemisch möglich, aber die *Zuordnung* – welche Aminosäure zu welchem Anticodon gehört – muss von außen kommen.`,
+                  detail: `**Was Flexizyme sind:** In vitro selektierte Ribozyme (rund 45 Nukleotide), die tRNAs mit aktivierten Aminosäuren beladen, weitgehend unabhängig von der Art der Aminosäure und der tRNA-Sequenz. Sie sind ein Werkzeug der synthetischen Biologie, um Peptide mit ungewöhnlichen Bausteinen herzustellen.
+
+**Was daraus folgt:**
+- Für einen Code braucht man nicht *eine* Beladungsreaktion, sondern **20 unterscheidende** – jede muss „ihre" Aminosäure erkennen und „ihre" tRNAs, und sie dürfen sich nicht ins Gehege kommen.
+- Bei Flexizymen leistet diese Unterscheidung der Forscher, indem er Aminosäure und tRNA im Reagenzglas zusammenbringt.
+- Damit illustrieren Flexizyme wunderbar Polanyis Punkt: Die Chemie lässt die Zuordnung offen; die Ordnung kommt von einer übergeordneten Instanz.
+
+Für das Gespräch: Bedanke dich für das Beispiel – es ist eines der besten Argumente dafür, dass der Code eine Konvention ist, die gesetzt werden muss.`,
+                  sources: [{ kind: 'wissenschaft', author: 'Hiroshi Murakami, Atsushi Ohta, Hiroshi Ashigai, Hiroaki Suga', work: '„A highly flexible tRNA acylation method for non-natural polypeptide synthesis", Nature Methods 3, S. 357–359', year: '2006', quote: `Flexizyme beladen tRNAs mit einer großen Bandbreite natürlicher und künstlicher Aminosäuren und ermöglichen so die Umprogrammierung des genetischen Codes.`, status: 'paraphrase' }],
+                  questionsBack: [`Wer legt bei der Arbeit mit Flexizymen fest, welche Aminosäure an welche tRNA kommt – das Ribozym oder der Forscher?`],
+                },
+              ],
             },
           ],
         },
@@ -175,6 +229,49 @@ const claim: Claim = {
       id: 'code-metapher',
       objection: `„Code" ist nur eine Metapher. In der Zelle gibt es nur Chemie.`,
       answer: `Nirenberg und Khorana erhielten 1968 den Nobelpreis dafür, den genetischen Code zu „entschlüsseln". Biologen sprechen seither vom Code im strengen Sinn einer Zuordnungstabelle – und Labore erweitern ihn heute sogar gezielt um künstliche Aminosäuren. Ausführlich dazu der Claim „DNA ist nur Chemie".`,
+      followUps: [
+        {
+          id: 'informationsmetaphern-schaedlich',
+          objection: `Wissenschaftsphilosophen haben gezeigt, dass Maschinen- und Informationsmetaphern in der Biologie mehr verwirren als erklären. Sie laden gerade zu Designschlüssen ein, die nicht gedeckt sind. Wer von „Code" spricht, übernimmt ein Bild, keinen Befund.`,
+          objectionBy: 'Massimo Pigliucci',
+          answer: `Bei vielen Bildern – „Bauplan", „Programm" – gebe ich dir recht, man muss vorsichtig sein. Beim genetischen Code aber gibt es harte Kriterien: eine chemisch nicht erzwungene Zuordnung, Adaptermoleküle, Start- und Stoppsignale. Und der beste Beleg: Synthetische Biologen haben 2019 ein Bakterium mit einem umgeschriebenen Genom erzeugt, das nur noch 61 statt 64 Codons verwendet. Man kann einen Code umschreiben; eine Metapher nicht.`,
+          detail: `**Pigliuccis Einwand:** Massimo Pigliucci und Maarten Boudry argumentieren (Science & Education 2011), dass Maschinen- und Informationsmetaphern ein falsches Bild von Organismen vermitteln und Designbefürwortern Argumente liefern. Das ist ein ernstzunehmender wissenschaftsphilosophischer Punkt.
+
+**Warum er beim genetischen Code nicht greift:**
+- **Arbitrarität:** Es gibt keine chemische Notwendigkeit, dass GCU Alanin bedeutet. Darum lässt sich die Zuordnung künstlich ändern.
+- **Adapter:** tRNAs vermitteln zwischen zwei chemisch verschiedenen „Alphabeten" – das ist die Definition eines Codes.
+- **Praxis:** Die Gruppe um Jason Chin (MRC Laboratory of Molecular Biology, Cambridge) synthetisierte ein *E.-coli*-Genom, in dem zwei Serin-Codons und ein Stoppcodon systematisch ersetzt wurden (Fredens et al., Nature 2019). Die freigewordenen Codons lassen sich mit neuen Bedeutungen belegen.
+
+Ein Laie kann sagen: „Wenn Ingenieure einen Code umschreiben können, dann ist es ein Code."`,
+          sources: [
+            { kind: 'gegner', author: 'Massimo Pigliucci, Maarten Boudry', work: '„Why Machine-Information Metaphors are Bad for Science and Science Education", Science & Education 20, S. 453–471', year: '2011', quote: `Maschinen- und Informationsmetaphern führten in der Biologie in die Irre und würden von Designbefürwortern ausgenutzt.`, status: 'paraphrase' },
+            { kind: 'wissenschaft', author: 'Julius Fredens u. a. (Gruppe Jason W. Chin)', work: '„Total synthesis of Escherichia coli with a recoded genome", Nature 569, S. 514–518', year: '2019', quote: `Ein vollständig synthetisches E.-coli-Genom verwendet nur noch 61 Codons; zwei Serin-Codons und ein Stoppcodon wurden ersetzt.`, status: 'paraphrase' },
+          ],
+          questionsBack: [`Wenn man den genetischen Code gezielt umschreiben kann – in welchem Sinn ist er dann nur eine Metapher?`],
+          followUps: [
+            {
+              id: 'zeichensysteme-ohne-designer',
+              objection: `Selbst wenn es ein echter Code ist: Die Natur ist voller Zeichensysteme ohne Designer – der Schwänzeltanz der Bienen, Warnrufe von Affen, Duftsignale. Codes entstehen durch Evolution.`,
+              objectionBy: 'Massimo Pigliucci',
+              answer: `Alle diese Beispiele werden von Lebewesen hervorgebracht, die bereits über den genetischen Code und einen riesigen Informationsbestand verfügen. Sie zeigen, dass Leben neue Zeichen erzeugen kann – nicht, dass ein Zeichensystem *ohne* vorher existierendes Leben entsteht. Für den allerersten Code gibt es keine Biene, die tanzt.`,
+              detail: `Das ist der entscheidende Unterschied zwischen **abgeleiteten** und **ursprünglichen** Codes. Der Bienentanz ist in Nervensystemen umgesetzt, die nach genetischer Information gebaut sind; er setzt Selektion an Organismen voraus. Der genetische Code dagegen ist die Bedingung dafür, dass es überhaupt Organismen gibt, an denen Selektion ansetzen kann.
+
+Stephen Meyer formuliert das so: In unserer gesamten Erfahrung stammen Codes entweder aus intelligenten Akteuren oder aus Lebewesen, deren eigene Information erst erklärt werden muss. Für den Ursprung des ersten Codes bleibt damit nur eine bekannte Ursache.
+
+Die Väter würden ergänzen: Dass es Sprache und Zeichen überhaupt gibt, ist für Athanasius ein Abglanz des Logos, durch den alles geschaffen ist – das Wort vor allen Wörtern.`,
+              voices: [
+                {
+                  person: 'stephen-meyer',
+                  role: 'als Wissenschaftsphilosoph (Information)',
+                  text: `Meyer unterscheidet zwischen Information, die von bereits lebenden Systemen weiterverarbeitet oder neu kombiniert wird, und der Entstehung des ersten informationsverarbeitenden Systems. Für Letzteres kann man nicht auf Selektion zurückgreifen, weil Selektion ein solches System voraussetzt. Die einzige aus Erfahrung bekannte Ursache neuer Codes ist Intelligenz.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Stephen C. Meyer', work: 'Signature in the Cell', ref: 'Kap. 16–17', year: '2009', status: 'paraphrase' }],
+                },
+              ],
+              questionsBack: [`Kennst du ein Zeichensystem, das entstand, bevor es Leben gab, das es hervorbringen konnte?`],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

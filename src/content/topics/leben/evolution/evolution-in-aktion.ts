@@ -109,6 +109,29 @@ const claim: Claim = {
               questionsBack: [
                 `Hat sich im LTEE nach über 75.000 Generationen irgendein neues Protein mit neuer Faltung gebildet?`,
               ],
+              followUps: [
+                {
+                  id: 'kriterium-unerfuellbar',
+                  objection: `Dein Kriterium ist unfair: Kein Laborexperiment kann lange genug laufen, um eine neue Proteinfaltung zu zeigen. Du verlangst etwas, das prinzipiell nicht beobachtbar ist – damit ist deine Position unwiderlegbar.`,
+                  objectionBy: 'Richard Lenski',
+                  answer: `Dann nehmen wir die größten Experimente, die die Natur selbst durchführt. Der Malariaerreger vermehrt sich jedes Jahr in einer Größenordnung von etwa 10^20 Zellen – mehr als alle Säugetiere, die je gelebt haben. Gegen Chloroquin brauchte er mindestens zwei koordinierte Mutationen im Transporter PfCRT, und diese Resistenz entstand in Jahrzehnten nur wenige Male unabhängig. Das ist kein Gedankenexperiment, sondern eine Messung – und sie zeigt, wie eng die Grenze ungelenkter Prozesse selbst bei gigantischen Populationen ist.`,
+                  detail: `Behe hat diese Abschätzung 2007 in „The Edge of Evolution" auf Angaben des Malariaforschers Nicholas White gestützt, der die Häufigkeit spontaner Chloroquinresistenz auf etwa einmal pro 10^20 Parasiten schätzte. Behes Vorhersage, dass mindestens zwei Mutationen gleichzeitig nötig sind, wurde 2014 durch Summers u. a. in PNAS experimentell gestützt. Fair bleiben: Kritiker bestreiten, dass sich Malaria-Zahlen direkt auf andere Organismen übertragen lassen, und weisen darauf hin, dass es mehrere Mutationswege gibt. Der Punkt bleibt aber: Wir haben reale Daten aus riesigen Populationen, und sie zeigen Anpassung durch wenige, mühsam erreichte Schritte.`,
+                  voices: [
+                    {
+                      person: 'michael-behe',
+                      role: 'als Biochemiker',
+                      text: `Behe nennt die Malaria-, HIV- und E.-coli-Daten die besten verfügbaren Langzeitexperimente der Evolution. Für ihn zeigen sie übereinstimmend: Wo eine Anpassung zwei oder mehr gleichzeitig nötige Mutationen verlangt, wird sie selbst in astronomisch großen Populationen selten – und neue Protein-Protein-Bindungsstellen entstehen praktisch nicht.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Michael J. Behe', work: 'The Edge of Evolution', ref: 'Kap. 3', year: '2007', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Nicholas J. White', work: '„Antimalarial drug resistance", Journal of Clinical Investigation 113', year: '2004', status: 'paraphrase', quote: `Spontane Chloroquinresistenz entsteht nach Schätzung nur etwa einmal pro 10^20 Parasiten.` },
+                    { kind: 'wissenschaft', author: 'Robert L. Summers u. a.', work: '„Diverse mutational pathways converge on saturable chloroquine transport via the malaria parasite\'s chloroquine resistance transporter", PNAS 111', year: '2014', status: 'paraphrase', quote: `Für messbaren Chloroquintransport waren mindestens zwei Mutationen in PfCRT nötig.` },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -178,6 +201,41 @@ const claim: Claim = {
           answer: `Sie ist prüfbar: Zellen besitzen nachweislich Mechanismen, die Variation gezielt erzeugen – die SOS-Antwort bei Stress, Phasenvariation bei Krankheitserregern, CRISPR als adaptives Immungedächtnis, die somatische Hypermutation im menschlichen Immunsystem. James Shapiro, kein ID-Vertreter, spricht von „natürlicher genetischer Ingenieurskunst". Das sind geregelte Systeme zur Erzeugung von Vielfalt, nicht bloß Zufallsfehler.`,
           sources: [
             { kind: 'wissenschaft', author: 'James A. Shapiro', work: 'Evolution: A View from the 21st Century', year: '2011', status: 'paraphrase', quote: `Zellen verfügen über aktive, regulierte Systeme zur Umgestaltung ihres Genoms („natural genetic engineering").`, note: 'Shapiro lehnt Intelligent Design ab; er vertritt eine naturalistische „Third Way"-Position.' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'darwin-devolves-rezension',
+      objection: `Behes „Darwin Devolves" haben wir 2019 in Science besprochen: Er pickt sich Funktionsverluste heraus und liest Daten falsch. Beim Eisbären etwa hält er Mutationen im APOB-Gen für „beschädigend", nur weil ein Computerprogramm sie so einstuft – dabei sind sie offenbar adaptiv. Und echte Zugewinne wie neue Gene durch Duplikation ignoriert er.`,
+      objectionBy: 'Nathan Lents',
+      answer: `Die Rezension von Lents, Swamidass und Lenski ist ernst zu nehmen, und in einem Punkt haben sie recht: Eine Software-Vorhersage „schädlich" heißt nicht automatisch „Funktion verloren". Behe hat geantwortet, dass er mit „Degradation" auch abgeschwächte oder veränderte Funktionen meint, die dem Tier nützen. Entscheidend ist aber: Die Rezension nennt kein Gegenbeispiel, in dem ein neues, vielteiliges System entsteht. Sie bestreitet die Deutung einzelner Fälle, nicht das Gesamtmuster, das das LTEE selbst zeigt – etwa den parallelen Verlust der Ribose-Verwertung in allen zwölf Populationen.`,
+      detail: `Für das Gespräch: Gestehe offen zu, dass Behes Eisbären-Beispiel umstritten ist und dass Duplikationen mit anschließender Spezialisierung real sind. Dann lenke auf die Kernfrage zurück: Wie häufig sind in den gut dokumentierten Fällen adaptive Mutationen Funktionsverluste oder -abschwächungen, und wie häufig entstehen neue Bindungsstellen oder Faltungen? Behe hat dazu bereits 2010 in der Quarterly Review of Biology eine Übersicht veröffentlicht – in einer etablierten Fachzeitschrift.`,
+      voices: [
+        {
+          person: 'michael-behe',
+          role: 'als Biochemiker',
+          text: `Behe formuliert eine „erste Regel der adaptiven Evolution": Zerbrich oder schwäche jedes funktionale Gen, dessen Verlust die Zahl der Nachkommen erhöht. Er bestreitet nicht, dass Evolution Arten verändert, sondern dass der Mechanismus aus Mutation und Selektion neue komplexe Strukturen baut; die schnellste Anpassung erfolgt nach seiner Auswertung meist durch Abbau.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Michael J. Behe', work: 'Darwin Devolves', year: '2019', status: 'paraphrase' },
+            { kind: 'wissenschaft', author: 'Michael J. Behe', work: '„Experimental evolution, loss-of-function mutations, and ‚the first rule of adaptive evolution\'", Quarterly Review of Biology 85 (4)', year: '2010', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Nathan H. Lents, S. Joshua Swamidass, Richard E. Lenski', work: '„The end of evolution?", Science 363 (6427)', ref: 'S. 590', year: '2019', status: 'paraphrase', quote: `Rezension von „Darwin Devolves": Behe übersehe adaptive Zugewinne und deute Funktionsveränderungen vorschnell als Verluste.` },
+      ],
+      followUps: [
+        {
+          id: 'fitness-steigt-unbegrenzt',
+          objection: `Und im LTEE steigt die Fitness nach über 75.000 Generationen immer weiter – ohne erkennbare Obergrenze, wie wir 2013 in Science gezeigt haben. Viele nützliche Mutationen betreffen globale Regulatoren, nicht bloß Abbau. Evolution läuft ungebremst weiter.`,
+          objectionBy: 'Richard Lenski',
+          answer: `Ein beeindruckender Befund, den ich anerkenne: Die Fitnesskurve flacht ab, erreicht aber keine feste Grenze. Nur misst Fitness hier die Wachstumsrate in einem bestimmten Medium – nicht das Entstehen neuer Strukturen. Feinabstimmung globaler Regulatoren ist echte Anpassung, aber sie optimiert vorhandene Netzwerke. Ein ständiger Fitnesszuwachs ohne neue molekulare Maschinen ist genau das Bild, das Behe beschreibt: Evolution kann viel, aber vor allem durch Justieren, Umschalten und Abbauen.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'Michael J. Wiser, Noah Ribeck, Richard E. Lenski', work: '„Long-term dynamics of adaptation in asexual populations", Science 342', year: '2013', status: 'paraphrase', quote: `Die Fitnesszunahme im LTEE folgt einem Potenzgesetz ohne erkennbare Obergrenze.` },
+          ],
+          questionsBack: [
+            `Welche der nützlichen Mutationen im LTEE hat eine neue Protein-Protein-Bindungsstelle oder eine neue Faltung hervorgebracht?`,
           ],
         },
       ],

@@ -205,7 +205,7 @@ const claim: Claim = {
               targetsPremise: 2,
               answer: `Dieser Bericht gibt genau das zu, was das Dilemma behauptet: Die „wahren Gläubigen" wurden unterdrückt und verloren – also *nicht* siegreich. Er ist eine spätere Harmonisierung, um den Vers mit der Geschichte zu versöhnen. Und historisch gibt es keine Spur einer „muslimischen" Jesusgruppe zwischen dem 1. und dem 7. Jahrhundert.`,
               sources: [
-                { kind: 'hadith', author: 'Ibn Kathir', work: 'Tafsir al-Qur\'an al-\'Azim', ref: 'zu 61:14', quote: `Überlieferung, nach der sich die Anhänger Jesu in Gruppen spalteten und die Gläubigen bedrängt blieben, bis Gott sie durch Mohammed stärkte.`, status: 'unverified', note: 'Inhalt nach verbreiteter Wiedergabe; Überlieferer und Wortlaut vor Verwendung prüfen.' },
+                { kind: 'hadith', author: 'Ibn Kathir', work: 'Tafsir al-Qur\'an al-\'Azim', ref: 'zu 61:14', quote: `Überlieferung, nach der sich die Anhänger Jesu in Gruppen spalteten und die Gläubigen bedrängt blieben, bis Gott sie durch Mohammed stärkte.`, status: 'paraphrase', note: 'Inhalt im Kommentar Ibn Kathirs zu 61:14 belegt (gekürzte englische Ausgabe: die Anhänger spalteten sich in drei Gruppen, zwei ungläubige Gruppen bedrängten die gläubige, bis Allah Mohammed sandte); Ma\'ariful Qur\'an führt den Bericht über al-Baghawi auf Ibn Abbas zurück. Kette und arabischer Wortlaut vor wörtlicher Verwendung prüfen.' },
               ],
               followUps: [
                 {

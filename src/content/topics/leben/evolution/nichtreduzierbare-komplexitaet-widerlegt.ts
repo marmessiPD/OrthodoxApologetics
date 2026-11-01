@@ -147,6 +147,20 @@ const claim: Claim = {
           objection: `Behes eigenes Beispiel, die Mausefalle, ist widerlegt: Nimm Teile weg, und du hast eine funktionierende Krawattenklammer.`,
           objectionBy: 'Kenneth Miller',
           answer: `Die Krawattenklammer zeigt, dass Teile einer Mausefalle anders genutzt werden können – aber nicht, wie aus der Klammer schrittweise eine Mausefalle wird, ohne dass jemand die Teile gezielt umformt und neu anordnet. Die Analogie illustriert eher, wie viel Planung nötig ist, um ein Teil in ein neues System einzupassen.`,
+          followUps: [
+            {
+              id: 'mcdonald-mausefallen',
+              objection: `John McDonald hat eine Reihe immer einfacherer Mausefallen gezeichnet, bis hinunter zu einem einzigen gebogenen Draht – jede davon fängt Mäuse. Nimmt man ein Teil weg und biegt den Rest um, funktioniert es weiter.`,
+              objectionBy: 'Kenneth Miller',
+              answer: `Das ist eine hübsche Illustration, aber sie bestätigt unfreiwillig den Punkt: Zwischen den Stufen muss jemand den Draht gezielt umbiegen, verlängern und neu anordnen – das ist intelligente Planung, keine blinde Variation. Behe hat geantwortet, dass gerade die Zahl und Präzision der nötigen Umformungen zwischen zwei Stufen das Problem ausmacht. Die Mausefalle war außerdem nur eine Veranschaulichung; das Argument steht und fällt mit den molekularen Systemen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Michael J. Behe', work: '„A Mousetrap Defended: Response to Critics" (Discovery Institute)', year: '2000', status: 'paraphrase', note: 'Antwort auf McDonalds Mausefallen-Reihe; Erscheinungsjahr nach Discovery-Institute-Archiv, nicht am Original geprüft.' },
+              ],
+              questionsBack: [
+                `Wer hat in McDonalds Zeichnungen die Teile zwischen den Stufen umgebogen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -162,7 +176,30 @@ const claim: Claim = {
           objectionBy: 'Kenneth Miller',
           answer: `Doolittles Arbeiten zeigen, dass die Gerinnungsfaktoren verwandt sind und durch Duplikationen entstanden sein könnten – das ist Homologie. Behe kritisierte, dass daraus noch kein gangbarer Weg mit funktionierenden Zwischenstufen folgt. In der öffentlichen Debatte der 1990er-Jahre wurde zudem ein Mausexperiment als Beleg angeführt, dessen Tiere nach Behes Darstellung keine funktionierende Gerinnung, sondern schwere Störungen zeigten. Die Frage nach dem Bauweg bleibt offen.`,
           sources: [
-            { kind: 'gegner', author: 'Russell F. Doolittle', work: '„A Delicate Balance", Boston Review', year: '1997', status: 'unverified', note: 'Rezension von „Darwin\'s Black Box"; Behe antwortete in derselben Debatte. Einzelheiten zur zitierten Knock-out-Studie (Bugge et al. 1996) vor Verwendung prüfen.' },
+            { kind: 'gegner', author: 'Russell F. Doolittle', work: '„A Delicate Balance", Boston Review (Februar/März)', year: '1997', status: 'paraphrase', quote: `Doolittle führte Knock-out-Mäuse, denen sowohl Plasminogen als auch Fibrinogen fehlt, als Hinweis darauf an, dass sich Teile der Kaskade ohne Funktionsverlust entfernen lassen.`, note: 'Rezension von „Darwin\'s Black Box"; Behe wies später darauf hin, dass diesen Mäusen ein funktionierendes Gerinnungssystem fehlt. Kritiker (z. B. Panda\'s Thumb, 2005) halten Behes Lesart von Doolittle für unfair. Den genauen Wortlaut Doolittles nicht am Original geprüft.' },
+            { kind: 'wissenschaft', author: 'Thomas H. Bugge u. a.', work: '„Loss of fibrinogen rescues mice from the pleiotropic effects of plasminogen deficiency", Cell 87', year: '1996', status: 'paraphrase', quote: `Das Fehlen von Fibrinogen verhindert die frühe Erkrankung und den vorzeitigen Tod plasminogendefizienter Mäuse – die doppelt defizienten Tiere können allerdings kein Fibringerinnsel bilden.`, note: 'Die von Doolittle angeführte Studie; Inhalt per Sekundärquellen bestätigt.' },
+          ],
+          followUps: [
+            {
+              id: 'wale-ohne-faktor-zwoelf',
+              objection: `Wale und Delfine haben keinen funktionsfähigen Faktor XII, Kugelfische kommen mit noch weniger Faktoren aus, und Neunaugen haben nach Genomanalysen ein deutlich einfacheres Gerinnungssystem. Die Kaskade funktioniert also mit weniger Teilen – sie ist nicht nichtreduzierbar.`,
+              objectionBy: 'Kenneth Miller',
+              answer: `Behe hat in „Darwin's Black Box" ausdrücklich die Faktoren der Kontaktaktivierung (wie Faktor XII) aus seinem nichtreduzierbaren Kern ausgenommen; dass Wale ohne sie auskommen, bestätigt also eher seine Abgrenzung. Und das einfachere System der Neunaugen ist selbst eine mehrstufige Kaskade aus Gewebefaktor, Faktor X, Prothrombin und Fibrinogen. Ein einfacherer Verwandter ist kein Bauweg – er verschiebt die Frage nur auf ein kleineres, aber immer noch vielteiliges System.`,
+              detail: `Fair bleiben: Doolittle und andere haben mit Genomvergleichen gezeigt, dass die Gerinnungssysteme verschiedener Wirbeltiere unterschiedlich viele Komponenten haben. Das ist ein echter Befund und passt zu der Vorstellung, dass Faktoren durch Duplikation hinzukamen. Entscheidend für Behes Argument ist aber nicht, ob es irgendwo ein kleineres System gibt, sondern ob man eine Folge funktionsfähiger Zwischenstufen mit selektierbarem Vorteil benennen kann – vom Fehlen jeder Kaskade bis zum Kernsystem aus Protease, Aktivator und Substrat. Diese Folge ist bis heute eine Rekonstruktion von Verwandtschaft, nicht ein nachgewiesener Weg.`,
+              voices: [
+                {
+                  person: 'michael-behe',
+                  role: 'als Biochemiker',
+                  text: `Behe unterscheidet zwischen der Feststellung, dass Proteine verwandt sind, und der Erklärung, wie ein voneinander abhängiges System Schritt für Schritt entstand. Für die Gerinnung betont er, dass schon die einfachste denkbare Kaskade mehrere aufeinander abgestimmte Komponenten braucht – und dass eine unregulierte Gerinnung ebenso tödlich ist wie gar keine.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Michael J. Behe', work: "Darwin's Black Box", ref: 'Kap. 4', year: '1996', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Welche Funktion hatte das System, bevor die zweite Protease hinzukam – und wie wurde verhindert, dass es unkontrolliert gerinnt?`,
+              ],
+            },
           ],
         },
       ],
@@ -181,6 +218,65 @@ const claim: Claim = {
           answer: `Die Systembiologie arbeitet ganz selbstverständlich mit Ingenieurskonzepten: Regelkreise, Modularität, Robustheit, Fehlerkorrektur. Uri Alon, kein ID-Vertreter, hat ein Lehrbuch über die „Konstruktionsprinzipien biologischer Schaltkreise" geschrieben. Wer Biologie als Ingenieurswerk betrachtet, stellt fruchtbare Fragen. Man kann das tun, ohne den Designer zu benennen – aber es zeigt, dass die Design-Perspektive Forschung fördert.`,
           sources: [
             { kind: 'wissenschaft', author: 'Uri Alon', work: 'An Introduction to Systems Biology: Design Principles of Biological Circuits', year: '2006 (2. Aufl. 2019)', status: 'paraphrase', note: 'Alon ist kein Vertreter von Intelligent Design; das Buch zeigt aber die Fruchtbarkeit des Ingenieursblicks.' },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'avida-komplexe-merkmale',
+      objection: `Lenski, Ofria, Pennock und Adami haben 2003 in Nature gezeigt, wie im Computerprogramm Avida komplexe Funktionen entstehen, die man Teil für Teil nicht mehr zerlegen kann. Nichtreduzierbare Komplexität entsteht also ganz natürlich – manchmal sogar über zwischenzeitlich schädliche Mutationen.`,
+      objectionBy: 'Dan Stern Cardinale',
+      answer: `Avida ist ein lehrreiches Experiment – aber lies das Kleingedruckte: Die komplexe Funktion EQU entstand nur, wenn die Programmierer einfachere Teilfunktionen gezielt belohnten. Ohne diese Zwischenbelohnungen entstand sie in keinem einzigen Lauf. Das zeigt genau, was Behe sagt: Komplexe Systeme entstehen schrittweise nur, wenn jeder Schritt selbst einen Vorteil bringt. Ob es diese Schritte in der Biochemie gibt, ist die offene Frage – die Simulation setzt sie voraus.`,
+      detail: `Die Autoren berichten selbst, dass EQU in Kontrollumgebungen ohne Belohnung der einfacheren logischen Funktionen nicht auftrat. Die Informatiker Winston Ewert, William Dembski und Robert Marks analysierten Avida später im Detail und argumentierten, dass die Erfolgsrate stark von der vorgegebenen Belohnungsstruktur abhängt – also von Information, die das Programm von außen mitbringt. Außerdem sind Avida-Organismen kurze Befehlsfolgen in einem für Mutationen sehr toleranten Raum; Proteine sind dagegen dreidimensionale Faltungen, bei denen die meisten Sequenzen gar keine stabile Struktur bilden.`,
+      voices: [
+        {
+          person: 'robert-marks',
+          role: 'als Informationstechniker',
+          text: `Marks untersucht evolutionäre Suchalgorithmen und betont, dass jede erfolgreiche Suche nur so gut ist wie die Information, die in Zielvorgabe und Belohnungsstruktur steckt. Avida liefert nach seiner Analyse kein Gegenbeispiel, sondern ein Beispiel dafür, dass „aktive Information" vom Programmierer kommt.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Robert J. Marks II, William A. Dembski, Winston Ewert', work: 'Introduction to Evolutionary Informatics', year: '2017', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'wissenschaft', author: 'Richard E. Lenski, Charles Ofria, Robert T. Pennock, Christoph Adami', work: '„The evolutionary origin of complex features", Nature 423', ref: 'S. 139–144', year: '2003', status: 'paraphrase', quote: `Die komplexe Funktion EQU entstand nur in Umgebungen, die einfachere Teilfunktionen belohnten.` },
+      ],
+      questionsBack: [
+        `Wie oft entstand EQU in den Läufen, in denen die einfacheren Funktionen nicht belohnt wurden?`,
+      ],
+      followUps: [
+        {
+          id: 'v-atpase-thornton',
+          objection: `Dann nimm echte Biochemie: Joe Thorntons Labor hat 2012 in Nature rekonstruiert, wie der Ring der V-ATPase in Pilzen von zwei auf drei unverzichtbare Komponenten anwuchs – durch Genduplikation und wenige Mutationen. Das ist ein Zuwachs an nichtreduzierbarer Komplexität, Schritt für Schritt belegt.`,
+          objectionBy: 'Joshua Swamidass',
+          answer: `Ein elegantes Experiment, das ich ernst nehme. Aber schau auf den Mechanismus: Nach der Duplikation verlor jede Kopie die Fähigkeit, an einer bestimmten Stelle des Rings zu binden – erst dadurch wurden beide unverzichtbar. Die Komplexität wuchs also durch **Verlust** von Bindungsfähigkeiten, nicht durch den Bau neuer Schnittstellen. Das passt genau zu Behes These, dass Abbau leicht ist; die Entstehung des Rings selbst und seiner Rotationsmechanik bleibt unberührt.`,
+          voices: [
+            {
+              person: 'michael-behe',
+              role: 'als Biochemiker',
+              text: `Behe hat die Arbeit von Finnigan, Thornton und Kollegen ausdrücklich gewürdigt und zugleich darauf hingewiesen, dass die neue Abhängigkeit durch den Verlust vorhandener Bindungsflächen entstand. Für ihn ist das ein Beispiel für seine „erste Regel der adaptiven Evolution": Funktionen werden leichter zerstört oder eingeschränkt als neu aufgebaut.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Michael J. Behe', work: 'Darwin Devolves', year: '2019', status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'wissenschaft', author: 'Gregory C. Finnigan, Victor Hanson-Smith, Tom H. Stevens, Joseph W. Thornton', work: '„Evolution of increased complexity in a molecular machine", Nature 481', year: '2012', status: 'paraphrase', quote: `Ein dritter Ringbaustein der V-ATPase wurde unverzichtbar, nachdem duplizierte Kopien komplementär Bindungsflächen verloren hatten.` },
+          ],
+          followUps: [
+            {
+              id: 'konstruktive-neutrale-evolution',
+              objection: `Genau das nennen wir konstruktive neutrale Evolution: Teile werden durch Verluste voneinander abhängig, ganz ohne Selektion. Gray, Lukeš, Doolittle und andere haben 2010 in Science gezeigt, wie leicht so nichtreduzierbare Komplexität entsteht.`,
+              objectionBy: 'Larry Moran',
+              answer: `Konstruktive neutrale Evolution erklärt, wie bereits **vorhandene**, zusammenwirkende Teile voneinander abhängig werden können. Sie erklärt nicht, woher die Teile und ihre gemeinsame Funktion kommen – ein Motor, der sich dreht, eine Pumpe, die Protonen bewegt. Wenn also Abhängigkeit billig ist, aber Funktion teuer, dann ist die eigentliche Frage nicht die Unverzichtbarkeit, sondern der Ursprung der Funktion. Und genau dafür liefert der Mechanismus keine Antwort.`,
+              detail: `Das Science-Essay von 2010 trug bezeichnenderweise den Titel „Irremediable Complexity?" und bezog sich vor allem auf zelluläre Komplexe wie das Spleißosom. Die Autoren argumentieren, dass sich Komplexität durch neutrale Abhängigkeiten wie mit einer Ratsche erhöhen kann. Für den Laien wichtig: Das ist eine ernsthafte Hypothese aus der Fachwelt, kein Strohmann – aber sie setzt funktionierende Maschinen voraus und erklärt ihre Vernetzung, nicht ihre Erfindung.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Michael W. Gray, Julius Lukeš, John M. Archibald, Patrick J. Keeling, W. Ford Doolittle', work: '„Irremediable complexity?", Science 330', ref: 'S. 920–921', year: '2010', status: 'paraphrase', quote: `Zelluläre Komplexität kann durch neutrale Abhängigkeiten zwischen vorhandenen Komponenten ratschenartig zunehmen.` },
+              ],
+              questionsBack: [
+                `Erklärt konstruktive neutrale Evolution, warum ein Flagellum sich dreht – oder nur, warum seine Teile voneinander abhängen?`,
+              ],
+            },
           ],
         },
       ],

@@ -105,6 +105,31 @@ const claim: Claim = {
               objectionBy: 'Bart D. Ehrman (aufgegriffen von Shabir Ally)',
               answer: `Diese Stellen betreffen die Deutung *einer* Passage – etwa ob Lukas Jesu Todesangst schildert –, nicht die Lehre der Kirche insgesamt. Und dass wir diese Änderungen erkennen, liegt gerade daran, dass andere Handschriften den älteren Text bewahren. Ehrman selbst sagt, wesentliche Glaubensinhalte seien nicht betroffen.`,
               detail: `Ausführlich: Claim „Sogar christliche Gelehrte wie Bart Ehrman sagen, die Bibel sei verfälscht".`,
+              followUps: [
+                {
+                  id: 'ehrman-ganze-buecher',
+                  objection: `Ehrman schreibt aber ausdrücklich, dass manche Varianten die Deutung ganzer Bücher beeinflussen. Du spielst das herunter.`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Ehrman sagt, manche Varianten färben das Bild eines einzelnen Evangelisten – etwa, ob Lukas Jesus in Getsemani angstvoll oder gelassen zeichnet. Das ist eine Frage der Akzentsetzung eines Autors, nicht des christlichen Glaubens. Und Ehrman hat in der Taschenbuchausgabe von „Misquoting Jesus" selbst klargestellt, dass seine Position nicht im Widerspruch zu Bruce Metzger steht, wonach die wesentlichen christlichen Glaubensinhalte von den Textvarianten nicht berührt werden.`,
+                  detail: `Der Unterschied ist wichtig: „Diese Variante verändert, wie wir Lukas lesen" ist etwas anderes als „Diese Variante hat die Kreuzigung, die Auferstehung oder die Gottheit Christi in die Bibel gebracht". Das Zweite behauptet kein Textkritiker – auch Ehrman nicht. Für das muslimische Argument wäre aber genau das nötig: eine Variante, durch die eine zentrale christliche Lehre erst entstanden ist.`,
+                  voices: [
+                    {
+                      person: 'metzger',
+                      role: 'als Lehrer Ehrmans und Altmeister der Textkritik',
+                      text: `Metzger, bei dem Ehrman promovierte, hat ein Leben lang die Handschriften des Neuen Testaments erforscht und alle wichtigen Varianten in seinem „Textual Commentary" offen diskutiert. Sein Urteil: Die Varianten sind zahlreich, aber die ursprüngliche Lesart lässt sich in den allermeisten Fällen sicher bestimmen, und kein Lehrstück des Glaubens hängt an einer unsicheren Stelle.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Bruce M. Metzger', work: 'A Textual Commentary on the Greek New Testament', year: '2. Aufl. 1994', quote: `Kommentiert offen alle bedeutenden Varianten und die Gründe für die Entscheidung.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Misquoting Jesus (Taschenbuchausgabe, Anhang mit Interview)', year: '2007', quote: `Seine Position stehe nicht im Widerspruch zu Metzgers Urteil, dass wesentliche christliche Glaubensinhalte von den Textvarianten des Neuen Testaments nicht berührt werden.`, status: 'paraphrase', note: 'Vielzitiertes Zugeständnis; Seitenzahl je nach Ausgabe verschieden.' },
+                  ],
+                  questionsBack: [
+                    `Nenne mir eine Variante, durch die nach Ehrman eine zentrale christliche Lehre überhaupt erst entstanden ist.`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -127,6 +152,19 @@ const claim: Claim = {
               objection: `Also hat jemand in der Kirche bewusst gefälscht. Das gibst du zu.`,
               objectionBy: 'Mohammed Hijab',
               answer: `Es ist wahrscheinlich, dass eine Randbemerkung eines lateinischen Auslegers in den Text geriet – ob bewusst oder unbewusst, ist offen. Aber das ist kein Beweis für eine kirchenweite Verfälschung, sondern das Gegenteil: Ein Zusatz in einem Zweig der Überlieferung ist durch die anderen Zweige sofort erkennbar. Eine Kirche, die ihre Bibel fälschen wollte, hätte ihn überall eingefügt. Das ist nicht geschehen.`,
+              followUps: [
+                {
+                  id: 'erasmus-und-kjv',
+                  objection: `Erasmus hat den Vers trotzdem in seine griechische Ausgabe aufgenommen, und die King-James-Bibel enthält ihn bis heute. Millionen Christen lesen also eine gefälschte Bibel. Und als die Revised Standard Version ihn 1952 entfernte, haben eure eigenen Gelehrten die Fälschung zugegeben!`,
+                  objectionBy: 'Ahmed Deedat, Zakir Naik',
+                  answer: `Gerade die Geschichte zeigt Ehrlichkeit: Erasmus ließ den Vers 1516 und 1519 weg, *weil* er in keiner griechischen Handschrift stand. Erst als eine einzige späte griechische Handschrift auftauchte, nahm er ihn 1522 auf. Christliche Textforscher haben den Zusatz später als solchen nachgewiesen, und moderne Übersetzungen streichen oder kennzeichnen ihn. Dass die RSV ihn entfernte, ist kein „Geständnis einer Fälschung", sondern Selbstkorrektur – so funktioniert ehrliche Wissenschaft.`,
+                  detail: `Ahmed Deedat stützte seine Argumentation in „Is the Bible God's Word?" stark auf das Vorwort der RSV, das von Fehlern der King-James-Übersetzung spricht. Doch die Fehler, die die RSV korrigierte, wurden mit Hilfe älterer Handschriften erkannt, die seit 1611 entdeckt worden waren (z. B. Codex Sinaiticus, 1844). Je mehr alte Handschriften gefunden wurden, desto genauer wurde der Text – und keine dieser Korrekturen hat eine Lehre der Kirche verändert. Die koptische Kirche hat den Vers in ihrer Überlieferung ohnehin nie gekannt.`,
+                  questionsBack: [
+                    `Wenn Christen einen späten Zusatz selbst entdecken und öffentlich entfernen – ist das ein Zeichen von Fälschung oder von Ehrlichkeit?`,
+                    `Welche Lehre der Kirche hat sich geändert, nachdem 1 Joh 5,7 aus den Übersetzungen entfernt wurde?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -144,6 +182,31 @@ const claim: Claim = {
           objectionBy: 'verbreiteter Einwand',
           answer: `Stille Post hat eine einzige Kette, man flüstert, und niemand darf nachfragen. Die Bibelüberlieferung hat Tausende Ketten in vielen Ländern und Sprachen, und frühe Glieder dieser Ketten sind erhalten. Man kann also jederzeit zurückgehen und vergleichen. P75 aus dem späten 2. oder frühen 3. Jahrhundert und Codex Vaticanus aus dem 4. Jahrhundert stimmen so eng überein, dass dazwischen kaum Veränderung stattgefunden haben kann.`,
           detail: `Siehe auch Claim „Mündliche Überlieferung ist wie Stille Post" im Topic „Zuverlässigkeit des Neuen Testaments".`,
+          followUps: [
+            {
+              id: 'dunkle-erste-jahrzehnte',
+              objection: `Zwischen den Originalen und P75 liegen über hundert Jahre. Gerade in diesen ersten Jahrzehnten, als die Schreiber noch keine Profis waren, konnte alles Mögliche passieren – und dafür habt ihr keine Handschriften.`,
+              objectionBy: 'Paul Williams (Blogging Theology), nach Bart Ehrman',
+              answer: `Für diese Zeit haben wir andere Zeugen: Klemens von Rom (um 96), Ignatius von Antiochien (um 110) und Polykarp zitieren oder benutzen bereits Paulusbriefe und Evangelienstoff. Und die Paulusbriefe gingen von Anfang an an verschiedene Städte – Korinth, Rom, Galatien. Eine Änderung hätte gleichzeitig in allen Gemeinden geschehen müssen, bevor sich die Abschriften verzweigten. Die Handschriften aus verschiedenen Regionen laufen aber auf denselben Text zu.`,
+              detail: `Ein schönes Beispiel für die Verlässlichkeit der Methode: Westcott und Hort hielten 1881 den Text des Codex Vaticanus (4. Jh.) für sehr alt. Als 1961 der Papyrus P75 (um 200) veröffentlicht wurde, stimmte er auffallend eng mit Vaticanus überein – Gordon Fee hat gezeigt, dass dieser Text keine späte Bearbeitung ist, sondern auf sehr frühe Vorlagen zurückgeht. Eine Vorhersage der Textkritik wurde also durch einen späteren Fund bestätigt.`,
+              voices: [
+                {
+                  person: 'hurtado',
+                  role: 'als Erforscher der frühesten christlichen Handschriften',
+                  text: `Hurtado hat die frühesten christlichen Papyri als Artefakte untersucht – Format, Schrift, Kürzel wie die *nomina sacra*. Er zeigt, dass schon im 2. Jahrhundert eine bewusste christliche Buchkultur existierte: Christen bevorzugten den Kodex, kürzten heilige Namen einheitlich ab und behandelten ihre Schriften mit Sorgfalt. Das passt nicht zu dem Bild sorgloser Laienabschreiber, die den Text nach Belieben veränderten.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'The Earliest Christian Artifacts: Manuscripts and Christian Origins', year: '2006', quote: `Die frühesten Handschriften zeigen eine bewusste, einheitliche christliche Buchkultur.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'Gordon D. Fee', work: 'P75, P66, and Origen: The Myth of Early Textual Recension in Alexandria', year: '1974', quote: `Die enge Übereinstimmung von P75 und Vaticanus zeigt, dass dieser Text keine späte Rezension ist.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Wie hätte eine Änderung in den ersten Jahrzehnten gleichzeitig alle Gemeinden von Rom bis Ägypten erreichen sollen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -154,6 +217,41 @@ const claim: Claim = {
       answer: `Die Papyri von *vor* Konstantin – P46 mit den Paulusbriefen, P66 und P75 mit Johannes und Lukas – haben denselben Text wie die späteren Kodizes. Und die Kirchen außerhalb des Römischen Reiches, etwa in Persien, übernahmen keine „Staatsbibel". Eine Vereinheitlichung hätte sichtbare Spuren hinterlassen: einen Bruch zwischen vor- und nachkonstantinischen Handschriften. Den gibt es nicht.`,
       questionsBack: [
         `Welche Lehre stand in den Papyri vor Konstantin anders als in den Kodizes danach?`,
+      ],
+      followUps: [
+        {
+          id: 'diokletian-verbrennung',
+          objection: `Unter Diokletian wurden 303 die christlichen Schriften verbrannt. Danach musste neu abgeschrieben werden – die perfekte Gelegenheit, den Text anzupassen.`,
+          objectionBy: 'verbreiteter Einwand',
+          answer: `Die Verfolgung vernichtete viele Bücher, aber längst nicht alle: Christen versteckten ihre Schriften, und die Papyri aus der Zeit *vor* Diokletian – P46, P66, P75 – sind erhalten und zeigen denselben Text wie die Kodizes danach. Außerdem: Wer in dieser Lage gefälscht hätte, wäre von den Überlebenden der Verfolgung sofort entlarvt worden – von Menschen, die lieber starben, als ihre Schriften auszuliefern.`,
+          detail: `Die koptische Kirche hat diese Zeit nie vergessen: Ihr Kalender, die „Ära der Märtyrer" (*Anno Martyrum*), beginnt mit dem Regierungsantritt Diokletians 284. Wer seine Schriften unter Todesgefahr bewahrte, hatte am wenigsten Interesse, sie danach zu verändern. Die nordafrikanische Kirche stritt nach der Verfolgung sogar heftig darüber, ob man Bischöfe anerkennen dürfe, die Schriften ausgeliefert hatten (*traditores*) – so ernst nahm man die Treue zum Text.`,
+          questionsBack: [
+            `Warum sollten Menschen, die für ihre Schriften in den Tod gingen, diese danach selbst verfälschen?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'textkritik-zirkulaer',
+      objection: `Eure Textkritik ist doch zirkulär: Ihr legt selbst die Kriterien fest, nach denen ihr das „Original" rekonstruiert, und erklärt dann, ihr hättet es gefunden. Woher wisst ihr, dass eure Rekonstruktion stimmt?`,
+      objectionBy: 'Mohammed Hijab',
+      answer: `Die Methode ist dieselbe, mit der man Platon, Homer oder Cicero rekonstruiert – und mit der Forscher heute auch Koranhandschriften untersuchen (etwa das Projekt Corpus Coranicum oder die Studien zum Sanaa-Palimpsest). Sie arbeitet mit überprüfbaren Daten: Alter, geografische Verbreitung, Schreibgewohnheiten. Und sie hat Vorhersagen gemacht, die sich bestätigt haben: Der Papyrus P75, 1961 veröffentlicht, bestätigte das hohe Alter des Vaticanus-Textes, das Westcott und Hort 1881 erschlossen hatten.`,
+      detail: `Zirkulär wäre die Methode, wenn sie das Ergebnis voraussetzte. Das tut sie nicht: Textkritiker sind Christen, Juden, Agnostiker und Atheisten, die sich über Einzelfälle streiten – aber über den Gesamtbefund weitgehend einig sind. Wer der Methode grundsätzlich misstraut, kann übrigens auch keine „Verfälschung" der Bibel nachweisen, denn auch dafür bräuchte man einen Vergleich von Handschriften.`,
+      questionsBack: [
+        `Mit welcher Methode würdest du feststellen, dass die Bibel verfälscht ist – wenn nicht durch den Vergleich von Handschriften?`,
+        `Wendest du dieselbe Skepsis auch auf frühe Koranhandschriften an?`,
+      ],
+      followUps: [
+        {
+          id: 'koran-braucht-keine-textkritik',
+          objection: `Der Koran braucht keine Textkritik. Er war immer mündlich vollständig präsent – in den Herzen Tausender Gefährten. Die Handschriften sind nur eine Stütze.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Dann bleibt die Frage, warum Uthman den Koran vereinheitlichen musste. Nach Sahih al-Bukhari 4987 erschrak Hudhaifa ibn al-Yaman über die Unterschiede in der Rezitation zwischen Syrern und Irakern und bat Uthman, zu handeln, „bevor sie über das Buch uneins werden wie Juden und Christen". Die mündliche Präsenz hat Unterschiede also nicht verhindert – sie war der Anlass der Vereinheitlichung.`,
+          detail: `Mündliche Überlieferung ist eine große Leistung, und die Kirche kennt sie ebenfalls – in Liturgie, Psalmen und Gebeten. Aber sie ersetzt nicht den Vergleich der Zeugen. Die ehrliche Position lautet: Beide Schriften haben eine Überlieferungsgeschichte, und beide müssen sich an ihren Handschriften messen lassen.`,
+          sources: [
+            { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4987', quote: `Hudhaifa erschrak über die Unterschiede in der Rezitation und sagte zu Uthman: Rette diese Gemeinde, bevor sie über das Buch uneins wird, wie Juden und Christen es wurden.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4987' },
+          ],
+        },
       ],
     },
   ],

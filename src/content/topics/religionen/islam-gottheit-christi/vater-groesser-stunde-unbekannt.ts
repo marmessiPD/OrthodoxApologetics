@@ -132,6 +132,26 @@ const claim: Claim = {
               objectionBy: 'Hamza Tzortzis',
               answer: `Die koptische Kirche lehrt nicht zwei Personen, sondern einen menschgewordenen Logos, der sich das menschliche Erkennen zu eigen gemacht hat. Wie das innere Leben dieser Einheit aussieht, können wir nicht ausloten – aber „schwer vorstellbar" ist nicht „widersprüchlich". Auch ein Mensch kann etwas „wissen" im Gedächtnis und zugleich in einem Moment nicht darauf zugreifen – er ist trotzdem eine Person.`,
               detail: `Ehrlich bleiben: Die Frage nach dem Wissen Christi ist in der Theologiegeschichte unterschiedlich beantwortet worden; die Väter boten mehrere Deutungen (menschliche Unwissenheit; ökonomisches Nicht-Offenbaren). Gemeinsam ist allen: Es gibt einen Christus, und seine Gottheit wird durch die angenommene Menschheit nicht gemindert.`,
+              followUps: [
+                {
+                  id: 'dann-hat-jesus-gelogen',
+                  objection: `Wenn Jesus als Gott die Stunde kannte, aber sagte „niemand weiß sie, auch der Sohn nicht", dann hat er die Unwahrheit gesagt. Ein Gott, der seine Jünger täuscht, ist schlimmer als ein Prophet, der etwas nicht weiß.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Jesus hat nicht getäuscht, sondern wahr über die Menschheit gesprochen, die er angenommen hat. In seiner menschlichen Seele, als Gesandter, der „in Knechtsgestalt" spricht, gehörte dieses Wissen nicht zu dem, was er empfing und weitergab. Die Väter nennen das die „Ökonomie": Er spricht als einer, der sich für uns begrenzt hat. Und der Vers selbst stellt ihn über die Engel: „weder die Engel im Himmel noch der Sohn" – eine Stufenfolge Mensch – Engel – Sohn – Vater.`,
+                  detail: `Athanasius behandelt Mk 13,32 ausführlich in den Reden gegen die Arianer (Buch III): Der Sohn sage dies „menschlich", um zu zeigen, dass er wirklich Fleisch geworden sei, dem Unwissenheit eigen ist; als Logos aber kenne er alles, auch das Ende, denn „alles, was der Vater hat, ist mein" (Joh 16,15). Kyrill folgt dieser Linie: Der Logos habe die Maße der Menschheit „ökonomisch" angenommen und lasse zu, dass seine menschliche Natur nach ihrem eigenen Maß erscheint. Zu beachten ist auch der Aufbau des Verses: Jesus nennt sich „den Sohn" im absoluten Sinn und stellt sich oberhalb der Engel, direkt neben „den Vater". Gerade der Vers, den Muslime gegen die Gottheit Christi anführen, enthält eine seiner höchsten Selbstbezeichnungen.`,
+                  voices: [
+                    { person: 'athanasius', role: 'als Ausleger von Mk 13,32', text: `Athanasius weist darauf hin, dass derselbe Jesus, der „auch der Sohn nicht" sagt, unmittelbar zuvor alle Zeichen des Endes genau beschreibt. Wer die Zeichen kennt, die dem Ende vorausgehen, kennt auch das Ende. Das Nichtwissen gehört darum zur angenommenen Menschheit, die er um unseretwillen trägt, nicht zum ewigen Logos.` },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'III,42–50', year: 'ca. 339–345', status: 'paraphrase', note: 'Auslegung von Mk 13,32; Kapitelangabe nach der gängigen Einteilung, vor Zitat am Text prüfen.' },
+                    { kind: 'bibel', work: 'Markus', ref: '13,32', quote: `Von dem Tage aber und der Stunde weiß niemand, auch die Engel nicht im Himmel, auch der Sohn nicht, sondern allein der Vater.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wer steht in Mk 13,32 über den Engeln – und welcher Prophet nennt sich selbst „der Sohn" oberhalb der Engel?`,
+                    `Ist ein Arzt, der einem Kind die Diagnose nicht mitteilt, ein Lügner?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -190,6 +210,27 @@ const claim: Claim = {
           objection: `Dann widerspricht sich Johannes, wenn er Jesus auch „Gott" nennt.`,
           objectionBy: 'Shabir Ally',
           answer: `Nur wenn man voraussetzt, dass „der allein wahre Gott" den Sohn ausschließt. Derselbe Johannes schreibt: „Wir sind in dem Wahrhaftigen, in seinem Sohn Jesus Christus. Dieser ist der wahrhaftige Gott und das ewige Leben" (1 Joh 5,20). Johannes sieht im Vater den allein wahren Gott **und** im Sohn den wahrhaftigen Gott – das ist die Trinität in einem Satz.`,
+          followUps: [
+            {
+              id: 'theos-ohne-artikel',
+              objection: `In Joh 1,1 steht „und Gott war das Wort" ohne Artikel: *theos*, nicht *ho theos*. Das heißt „ein Gott" oder „göttlich" – nicht „der Gott". Das Wort ist göttlich, aber nicht Gott selbst.`,
+              objectionBy: 'Ali Ataie',
+              answer: `Das Fehlen des Artikels ist kein Herabstufen, sondern präzise Grammatik. Hätte Johannes *ho theos ēn ho logos* geschrieben, hieße das: Das Wort ist identisch mit dem Gott, von dem gerade die Rede war – also mit dem Vater. Das wäre Modalismus. Ohne Artikel sagt der Satz: Was Gott ist, das war das Wort – gleiches Wesen, verschiedene Person. Und „ein Gott" neben Gott wäre im jüdischen Monotheismus des Johannes ein zweiter Gott – genau das, was weder Johannes noch der Islam annehmen.`,
+              detail: `Im griechischen Satz *kai theos ēn ho logos* steht das Prädikatsnomen *theos* betont vor dem Verb; solche artikellosen Prädikatsnomen sind meist qualitativ – sie beschreiben das Wesen, nicht die Identität. Der Neutestamentler Daniel Wallace erklärt, Johannes habe damit genau zwischen zwei Irrtümern hindurchgesteuert: Mit Artikel wäre es Sabellianismus, als „ein Gott" Polytheismus. Johannes verwendet *theos* ohne Artikel auch in 1,6.12.13.18 für den Vater – niemand übersetzt dort „ein Gott". Dazu kommt der Rahmen des Evangeliums: In 1,18 heißt Jesus nach den ältesten Papyri „der einziggeborene Gott", in 20,28 bekennt Thomas „mein Herr und mein Gott" (*ho theos mou* – mit Artikel!), und Jesus nimmt das Bekenntnis an.`,
+              voices: [
+                { person: 'wallace', role: 'als Grammatiker des neutestamentlichen Griechisch', text: `Wallace zeigt in seiner Grammatik, dass das artikellose *theos* in Joh 1,1c am besten qualitativ zu verstehen ist: Das Wort hat alle Eigenschaften Gottes, ohne mit dem Vater identisch zu sein. Eine Übersetzung „ein Gott" sei grammatisch möglich, aber im Kontext des streng monotheistischen Johannes ausgeschlossen.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '1,1', quote: `Im Anfang war das Wort, und das Wort war bei Gott, und Gott war das Wort.`, original: `Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Johannes', ref: '20,28', quote: `Thomas antwortete und sprach zu ihm: Mein HERR und mein Gott!`, original: `ὁ κύριός μου καὶ ὁ θεός μου`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'fachliteratur', author: 'Daniel B. Wallace', work: 'Greek Grammar Beyond the Basics', year: '1996', status: 'paraphrase', note: 'Abschnitt über artikellose Prädikatsnomen vor dem Verb (Joh 1,1c).' },
+              ],
+              questionsBack: [
+                `Übersetzt du in Joh 1,6 („ein Mensch, von Gott gesandt" – *para theou*) auch „von einem Gott"? Wenn nein, warum in 1,1?`,
+                `Wenn das Wort „ein Gott" neben Gott ist – hast du dann nicht zwei Götter?`,
+              ],
+            },
+          ],
         },
       ],
     },

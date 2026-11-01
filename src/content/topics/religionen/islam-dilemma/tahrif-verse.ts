@@ -93,6 +93,23 @@ Das Verb *ḥarrafa* bedeutet im Kern „zur Seite wenden, ablenken" – es kann
               objection: `Wenn der Text unverändert war – warum erwähnt Gott dann überhaupt Tahrif? Er hätte ja nichts zu tadeln gehabt.`,
               objectionBy: 'Yasir Qadhi',
               answer: `Weil Menschen Gottes Wort immer wieder verdrehen – durch falsche Auslegung, Verschweigen und selbst erfundene Zusätze. Das sagt auch die Bibel: Jesus warf den Schriftgelehrten vor, Gottes Gebot durch ihre Überlieferung aufzuheben (Mk 7,13). Ein Vorwurf gegen Menschen, die den Text missbrauchen, ist kein Beweis, dass der Text selbst verschwunden ist.`,
+              followUps: [
+                {
+                  id: 'vers-5-41-steinigung',
+                  objection: `5:41 ist eindeutig: „Sie verdrehen die Worte nach ihren Stellen und sagen: Wenn euch dies gegeben wird, so nehmt es an." Das bezieht sich auf die Steinigung – sie haben das Gesetz der Tora tatsächlich verändert.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Gerade dieser Fall beweist das Gegenteil. Nach Sahih al-Bukhari 3635 legte einer die Hand auf den Steinigungsvers – aber als er sie hob, *stand der Vers da*. Die Verdrehung bestand im Verbergen und in einer milderen Praxis, nicht in einem geänderten Text. Und zwei Verse später fragt der Koran: „Wie sollten sie dich zum Richter machen, wo sie doch die Tora haben, in der Allahs Urteil ist?" (5:43). Die Tora in Medina *enthielt* Gottes Urteil – Präsens.`,
+                  detail: `5:41–47 ist ein zusammenhängender Abschnitt: Er tadelt Juden, die ein milderes Urteil suchen (V. 41–42), bestätigt, dass die Tora Gottes Urteil enthält (V. 43), lobt die Tora als „Rechtleitung und Licht" (V. 44), zitiert ihr Vergeltungsgesetz (V. 45; vgl. Ex 21,23–25) und befiehlt dann den Christen, nach dem Evangelium zu richten (V. 47). Wer 5:41 als Beleg für einen verderbten Text liest, muss erklären, wie derselbe Abschnitt zwei Verse später sagt, Gottes Urteil stehe in der Tora, die sie haben.`,
+                  sources: [
+                    { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:43', quote: `Wie sollten sie dich zum Richter machen, wo sie doch die Tora haben, in der Allahs Urteil ist?`, original: `wa-kayfa yuḥakkimūnaka wa-ʿindahumu t-tawrātu fīhā ḥukmu llāh`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/43' },
+                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3635', quote: `Einer legt die Hand auf den Steinigungsvers; Abdallah ibn Salam lässt ihn die Hand heben, und der Vers ist sichtbar.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3635', note: 'Parallelen in Sahih al-Bukhari 4556 und 6819.' },
+                  ],
+                  questionsBack: [
+                    `Wenn die Tora in Medina verfälscht war: Warum sagt 5:43, dass in ihr „Allahs Urteil" ist?`,
+                    `Was hat Abdallah ibn Salam unter der Hand gefunden – einen gelöschten oder einen vorhandenen Vers?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -118,10 +135,36 @@ Das Verb *ḥarrafa* bedeutet im Kern „zur Seite wenden, ablenken" – es kann
               objection: `Wer außer al-Bukhari soll denn Sinnverfälschung vertreten haben? Das ist eine Minderheitenmeinung.`,
               objectionBy: 'Mohammed Hijab',
               answer: `Ibn Kathir überliefert in seinem Kommentar zu 3:78 von Wahb ibn Munabbih (gest. um 730), Tora und Evangelium seien so, wie Allah sie herabsandte, kein Buchstabe sei geändert; man führe nur durch Verdrehung und Deutung in die Irre. Fakhr ad-Din ar-Razi (gest. 1210) hielt es für unwahrscheinlich, dass ein in Ost und West weit verbreiteter Text überall gleichzeitig verändert worden sei. Es ist also keine Randmeinung, sondern eine starke Linie der Tradition.`,
-              detail: `Ehrlicherweise: Ibn Kathir selbst fügt eine Einschränkung an – falls Wahb die Exemplare in den Händen der Juden und Christen meine, sei dort Veränderung eingetreten. Das zeigt erneut die Spaltung der Tradition. Für die Debatte genügt: Es gibt keinen islamischen Konsens über Textverfälschung.`,
+              detail: `Ehrlicherweise: Ibn Kathir selbst fügt eine Einschränkung an – falls Wahb die Exemplare in den Händen der Juden und Christen meine, sei dort Veränderung eingetreten. Das zeigt erneut die Spaltung der Tradition. Auch ar-Razi ist nicht eindeutig: Zu 4:46 argumentiert er mit der breiten Überlieferung gegen eine Wortlautänderung, zu 2:75 hält er eine frühere Verfälschung für möglich. Für die Debatte genügt: Es gibt keinen islamischen Konsens über Textverfälschung.`,
               sources: [
                 { kind: 'hadith', author: 'Ibn Kathir', work: 'Tafsir al-Qur\'an al-\'Azim', ref: 'zu 3:78', quote: `Wahb ibn Munabbih: Tora und Evangelium sind, wie Allah sie herabsandte; kein Buchstabe wurde geändert, aber man führt durch Verdrehung und Deutung in die Irre.`, status: 'paraphrase', note: 'Überliefert nach Ibn Abi Hatim; Ibn Kathir kommentiert einschränkend.' },
-                { kind: 'hadith', author: 'Fakhr ad-Din ar-Razi', work: 'Mafatih al-Ghayb (at-Tafsir al-Kabir)', quote: `Eine Veränderung des Wortlauts eines in Ost und West verbreiteten Buches ist kaum möglich; daher ist Tahrif eher als falsche Deutung zu verstehen.`, status: 'unverified', note: 'Sinngemäß nach Sekundärliteratur; genaue Stelle (zu 2:75 bzw. 4:46) vor Verwendung prüfen.' },
+                { kind: 'hadith', author: 'Fakhr ad-Din ar-Razi', work: 'Mafatih al-Ghayb (at-Tafsir al-Kabir)', ref: 'zu 4:46 (vgl. zu 2:174 und 5:13)', quote: `Ein in großer Zahl (mutawatir) überliefertes und weit verbreitetes Buch lässt sich im Wortlaut kaum verändern; daher ist Tahrif eher als falsche Deutung zu verstehen.`, status: 'paraphrase', note: 'Sinngemäß; an anderer Stelle (zu 2:75) hält ar-Razi eine frühere Verfälschung (vor der breiten Überlieferung) für denkbar – muslimische Autoren lesen ihn daher unterschiedlich. Arabischen Wortlaut vor wörtlicher Verwendung prüfen.' },
+              ],
+              followUps: [
+                {
+                  id: 'biqai-und-ibn-taymiyya',
+                  objection: `Die Mehrheit der späteren Gelehrten – Ibn Hazm, Ibn Taymiyya, Ibn Qayyim, al-Juwayni – hat Textverfälschung vertreten. Du pickst dir die Minderheit heraus.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Ich zeige nur, dass es keinen Konsens gibt – und dass die Textverfälschungs-These später ist als die Verse. Selbst Ibn Taymiyya räumte ein, dass der größte Teil des Bibeltextes erhalten sei; und im 15. Jahrhundert verteidigte der Korankommentator al-Biqa'i ausdrücklich, dass man die Bibel zur Auslegung des Korans zitieren darf. Entscheidend ist aber nicht, wie viele Gelehrte etwas glauben, sondern was der Koran sagt: Er bestätigt die Schrift, die „bei ihnen" ist.`,
+                  detail: `Walid Saleh hat al-Biqa'is Traktat zur Verteidigung seiner Bibelzitate ediert: Al-Biqa'i (gest. 1480) zitierte in seinem Korankommentar *Naẓm ad-durar* ausführlich aus Tora und Evangelien und wurde dafür angegriffen; er rechtfertigte das mit Präzedenzfällen aus der frühen Tradition. Das zeigt: Noch im Spätmittelalter galt der Bibeltext unter angesehenen Gelehrten als zitierfähig. Und wenn die Mehrheit späterer Gelehrter Textverfälschung annahm, bleibt die Frage, die keiner von ihnen beantwortete: Wann, wo und durch wen – und warum zeigen die Handschriften von vor 610 denselben Text?`,
+                  voices: [
+                    {
+                      person: 'gordon-nickel',
+                      role: 'als Erforscher der Tahrif-Lehre',
+                      text: `Nickel zeichnet nach, dass die frühesten erhaltenen Korankommentare (Muqatil ibn Sulayman, at-Tabari) die Tahrif-Verse überwiegend auf mündliche Verdrehung, Verschweigen und falsche Deutung beziehen. Die systematische Lehre eines durchgehend verderbten Textes entwickelt sich erst später, besonders mit Ibn Hazm. Die Berufung auf „die Mehrheit der Gelehrten" vertauscht also die Chronologie.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Gordon D. Nickel', work: 'Narratives of Tampering in the Earliest Commentaries on the Qur\'an', year: '2011', quote: `Die frühen Kommentatoren verstehen Tahrif überwiegend nicht als Textverfälschung.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Walid A. Saleh', work: 'In Defense of the Bible: A Critical Edition and an Introduction to al-Biqa\'i\'s Bible Treatise', year: '2008', quote: `Al-Biqa'i rechtfertigte die Verwendung biblischer Texte in seinem Korankommentar gegen zeitgenössische Kritiker.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Kannst du einen Gefährten des Propheten nennen, der sagte, welche Stelle der Bibel genau verändert wurde?`,
+                    `Wenn die Gelehrten uneins sind – ist dann nicht der Koran selbst der Schiedsrichter? Und was sagt er in 5:47 und 10:94?`,
+                  ],
+                },
               ],
             },
           ],
@@ -154,6 +197,73 @@ Das Verb *ḥarrafa* bedeutet im Kern „zur Seite wenden, ablenken" – es kann
           objection: `Dann gilt eben nur der Rest – das, was sie nicht vergessen haben.`,
           objectionBy: 'Ali Ataie',
           answer: `Und zu diesem Rest gehört die Passion Jesu: Sie nimmt in allen vier Evangelien den größten zusammenhängenden Raum ein und steht in jeder Handschrift. Wenn sie zum „Rest" gehört, nach dem die Christen richten sollten, widerspricht ihr der Koran. Wenn sie nicht dazugehört, war das Herzstück des Evangeliums verloren – und 5:47 hätte den Christen ein Buch ohne Herz befohlen.`,
+          followUps: [
+            {
+              id: 'uneins-ueber-kreuzigung',
+              objection: `Die Kreuzigung ist doch genau der Punkt, über den sie uneins waren. Der Koran sagt in 4:157: „Diejenigen, die darüber uneins sind, sind im Zweifel darüber." Also gehörte sie nicht zum sicheren Bestand.`,
+              objectionBy: 'Ali Ataie',
+              answer: `Historisch waren sich Christen über die Kreuzigung gerade *einig*: Alle vier Evangelien, Paulus, die Apostolischen Väter und alle Kirchen des Ostens bekennen sie. Bestritten haben die reale Kreuzigung nur einzelne gnostische Gruppen des 2. Jahrhunderts – Irenäus berichtet etwa, Basilides habe gelehrt, Simon von Kyrene sei an Jesu Stelle gekreuzigt worden. Diese Gruppen lehrten aber auch, der Schöpfergott sei nicht der höchste Gott. Wer den Zweifel von 4:157 auf sie stützt, stützt sich auf Leute, die der Koran selbst als Ungläubige ansehen müsste.`,
+              detail: `Die Kreuzigung Jesu gehört zu den am besten bezeugten Ereignissen der Antike: Neben dem Neuen Testament berichten Tacitus (Annalen 15,44) und Josephus (Antiquitates 18,63–64, im Kern) davon. Selbst der skeptische Forscher Bart Ehrman nennt sie eines der sichersten Fakten über Jesus. Siehe ausführlich das Topic „Kreuzigung im Islam".`,
+              voices: [
+                {
+                  person: 'irenaeus',
+                  role: 'als Zeuge der gnostischen Lehren',
+                  text: `Irenäus beschreibt in seinem Werk gegen die Häresien die Lehre des Basilides: Christus habe nicht gelitten, sondern Simon von Kyrene sei verwandelt und an seiner Stelle gekreuzigt worden, während Christus dabeigestanden und gelacht habe. Für Irenäus ist das der Gipfel einer Lehre, die Leib, Schöpfung und Erlösung verachtet – und er stellt dagegen das einmütige Zeugnis der Kirchen, die von den Aposteln her den gekreuzigten und auferstandenen Herrn bekennen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Adversus Haereses', ref: 'I,24,4', year: 'um 180', quote: `Nach Basilides wurde Simon von Kyrene an Jesu Stelle gekreuzigt, während Jesus dabeistand und lachte.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'koran', work: 'Sure 4 (an-Nisa\')', ref: '4:157', quote: `Diejenigen, die darüber uneins sind, sind wahrlich im Zweifel darüber; sie haben kein Wissen darüber, sondern folgen nur Vermutungen.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/4/157' },
+                { kind: 'fachliteratur', author: 'Tacitus', work: 'Annalen', ref: '15,44', year: 'um 116', quote: `Christus wurde unter Tiberius vom Prokurator Pontius Pilatus hingerichtet.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welche christliche Gruppe vor dem 7. Jahrhundert bestritt die Kreuzigung – und teilst du ihre übrigen Lehren?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'jeremia-8-8',
+      objection: `Eure eigene Bibel gibt die Verfälschung zu! Jeremia 8,8: „Der Lügengriffel der Schreiber hat es zur Lüge gemacht." Der Koran sagt also nichts anderes als euer eigener Prophet.`,
+      objectionBy: 'Zakir Naik, Ahmed Deedat, Shabir Ally',
+      answer: `Jeremia tadelt die Schriftgelehrten seiner Zeit, die sich auf das Gesetz berufen, es aber durch ihre Lehre und Praxis ins Gegenteil verkehren – derselbe Jeremia fordert im selben Buch zur Treue gegenüber diesem Gesetz auf. Vor allem aber: Jeremia lebte um 600 v. Chr. Sechs Jahrhunderte später las Jesus aus den Schriftrollen seiner Zeit vor und sagte: „Die Schrift kann doch nicht gebrochen werden" (Joh 10,35). Und der Koran sagt, Jesus bestätigte „die Tora, die vor ihm war" (5:46). Wenn Jer 8,8 eine verlorene Tora meinte, hätten Jesus und der Koran eine Fälschung bestätigt.`,
+      detail: `Der hebräische Text (*ʾākhēn hinnēh la-sheqer ʿāsāh ʿēṭ sheqer sōferîm*) ist schwierig; viele Ausleger verstehen ihn so, dass die Schreiber das Gesetz „zur Lüge gemacht" haben, indem sie falsche Auslegungen und Weisungen in Umlauf brachten (vgl. Jer 8,9: „sie haben das Wort des HERRN verworfen"). Selbst wenn man ihn auf schriftliche Zusätze bezieht, zeigt der Vers: Die Bibel benennt Missbrauch offen – sie versteckt ihn nicht. Und der Text, den Jesus „die Schrift" nannte, ist durch die Qumranrollen (u. a. die große Jesajarolle, ca. 2. Jh. v. Chr.) in seinem Bestand belegt.`,
+      voices: [
+        {
+          person: 'michael-brown',
+          role: 'als Hebraist',
+          text: `Michael Brown weist bei solchen Einwänden darauf hin, dass die Propheten Israels die Missachtung und Verdrehung der Tora durch Priester und Schreiber scharf kritisieren – aber immer im Namen eben dieser Tora. Prophetische Kritik setzt einen verbindlichen, bekannten Text voraus, an dem man das Fehlverhalten messen kann; sie ist das Gegenteil einer Aussage, der Text sei verloren.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Michael L. Brown', work: 'Answering Jewish Objections to Jesus', year: '2000–2010', quote: `Die prophetische Kritik richtet sich gegen die Untreue Israels gegenüber der Tora, nicht gegen die Tora.`, status: 'paraphrase', note: 'Allgemeine Linie seiner Arbeit, keine Stellungnahme speziell zu Jer 8,8.' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Jeremia', ref: '8,8', quote: `Wie saget ihr: Wir sind weise, und das Gesetz Jehovas ist bei uns? Siehe, fürwahr, zur Lüge hat es gemacht der Lügengriffel der Schriftgelehrten.`, translation: 'Elberfelder 1905', status: 'paraphrase', note: 'Wortlaut nach Elberfelder 1905 wiedergegeben; vor wörtlicher Verwendung prüfen.' },
+        { kind: 'bibel', work: 'Johannes', ref: '10,35', quote: `… und die Schrift kann doch nicht gebrochen werden …`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:46', quote: `Und Wir ließen Jesus, den Sohn Marias, ihren Spuren folgen, das bestätigend, was von der Tora vor ihm war.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/46' },
+      ],
+      questionsBack: [
+        `Wenn die Tora schon zu Jeremias Zeit verloren war – welche Tora bestätigte dann Jesus nach 5:46?`,
+        `Wendest du denselben Maßstab auf den Koran an, wenn er Juden tadelt, die ihn falsch lesen?`,
+      ],
+      followUps: [
+        {
+          id: 'jesus-bestaetigte-nur-das-echte',
+          objection: `Jesus hat eben nur das bestätigt, was in der Tora noch echt war. „Das bestätigend, was vor ihm war" heißt nicht: alles.`,
+          objectionBy: 'Shabir Ally',
+          answer: `Dann lies, wie Jesus mit der Schrift umging: Er zitierte sie als Gottes Wort ohne jede Einschränkung („Es steht geschrieben", Mt 4,4–10), sagte, kein Jota und kein Strichlein vergehe vom Gesetz (Mt 5,18), und stützte seinen Anspruch auf „Mose und alle Propheten" (Lk 24,27). Nie warnt er vor gefälschten Stellen. Wenn die Tora seiner Zeit verderbt gewesen wäre, wäre das der Moment gewesen, es zu sagen – er tat das Gegenteil.`,
+          detail: `Die Tora, die Jesus las, ist dieselbe, die heute in den Synagogen gelesen wird: Die Qumranfunde zeigen, dass der protomasoretische Text schon vor Jesus verbreitet war. Und die Lesart „bestätigen nur, was echt ist" setzt voraus, dass man das Echte unabhängig erkennen kann – sonst ist der Satz leer.`,
+          sources: [
+            { kind: 'bibel', work: 'Matthäus', ref: '5,18', quote: `Denn ich sage euch wahrlich: Bis dass Himmel und Erde zergehe, wird nicht zergehen der kleinste Buchstabe noch ein Tüttel vom Gesetz, bis dass es alles geschehe.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Welche Stelle der Tora hat Jesus als gefälscht bezeichnet?`,
+          ],
         },
       ],
     },

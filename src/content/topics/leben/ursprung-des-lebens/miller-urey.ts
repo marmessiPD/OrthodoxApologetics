@@ -184,7 +184,7 @@ Tour kritisiert deshalb weniger das Experiment selbst als seine Darstellung: Leh
           objection: `Ab einem gewissen Punkt übernimmt chemische Selektion: Stabile, sich vermehrende Moleküle setzen sich durch.`,
           objectionBy: 'Lee Cronin',
           answer: `Selektion setzt Vermehrung mit Vererbung voraus – vorher gibt es nichts, was ausgewählt und weitergegeben wird. Schon der Evolutionsbiologe Theodosius Dobzhansky hielt „präbiologische natürliche Selektion" für einen Widerspruch in sich. Die Frage ist also gerade, wie das erste sich selbst kopierende System entstand.`,
-          sources: [{ kind: 'gegner', author: 'Theodosius Dobzhansky', work: 'Diskussionsbeitrag in: S. W. Fox (Hg.), The Origins of Prebiological Systems and of Their Molecular Matrices', year: '1965', quote: `Präbiologische natürliche Selektion sei ein Widerspruch in sich.`, original: 'prebiological natural selection is a contradiction in terms', status: 'unverified', note: 'Häufig zitiert; Wortlaut und Seitenangabe vor Verwendung prüfen.' }],
+          sources: [{ kind: 'gegner', author: 'Theodosius Dobzhansky', work: 'Diskussionsbeitrag zum Vortrag von G. Schramm, in: S. W. Fox (Hg.), The Origins of Prebiological Systems and of Their Molecular Matrices (New York: Academic Press)', ref: 'S. 309–310', year: '1965 (Konferenz Wakulla Springs, 27.–30. Oktober 1963)', quote: `Präbiologische natürliche Selektion sei ein Widerspruch in sich; Selektion setze Selbstvermehrung und mindestens zwei verschiedene sich selbst vermehrende Einheiten voraus.`, original: 'Prebiological natural selection is a contradiction of terms.', status: 'paraphrase', note: 'Fundstelle (S. 309–310) und Wortlaut nach dem Tagungstranskript, wie es u. a. creation.com wiedergibt; in der Sekundärliteratur meist „contradiction in terms". Dobzhansky war Evolutionsbiologe und orthodoxer Christ – kein Gegner der Evolution; er mahnte nur zu sauberem Gebrauch des Begriffs „Selektion".' }],
           followUps: [
             {
               id: 'assembly-theory-selektion',
@@ -194,6 +194,29 @@ Tour kritisiert deshalb weniger das Experiment selbst als seine Darstellung: Leh
               sources: [
                 { kind: 'gegner', author: 'Abhishek Sharma, Dániel Czégel, Michael Lachmann, Christopher P. Kempes, Sara I. Walker, Leroy Cronin', work: '„Assembly theory explains and quantifies selection and evolution", Nature 622, S. 321–328', year: '2023', status: 'paraphrase', quote: `Komplexe Moleküle in großer Kopienzahl gelten als Signatur von Selektion.` },
                 { kind: 'wissenschaft', author: 'Johannes Jaeger', work: '„Assembly Theory: What It Does and What It Does Not Do", Journal of Molecular Evolution', year: '2024', status: 'paraphrase', quote: `Die Theorie habe interessante Aspekte, sei aber weit weniger neu und revolutionär als behauptet; „Selektion" werde in einem Sinn gebraucht, den Biologen nicht wiedererkennen.`, url: 'https://link.springer.com/article/10.1007/s00239-024-10163-2' },
+              ],
+              followUps: [
+                {
+                  id: 'cronin-labor-test',
+                  objection: `Dann lass uns testen. Mein Labor baut automatisierte Reaktor-Netzwerke, die Chemie über lange Zeit ohne menschliche Auswahl laufen lassen. Wenn dort Selektion von selbst auftaucht, ist dein Argument erledigt.`,
+                  objectionBy: 'Lee Cronin',
+                  answer: `Das ist genau die richtige Haltung – ein Experiment statt eines Versprechens, und ich würde das Ergebnis ehrlich anerkennen. Nur eine Bedingung gehört dazu: Man muss offenlegen, wie viel Vorwissen im Aufbau steckt – welche Ausgangsstoffe, welche Energiezufuhr, welche Rückführung und welche Messung „Erfolg" definiert. Wenn das System Selektion nur zeigt, weil der Aufbau sie hineinkonstruiert hat, ist das Intelligenz im Versuchsdesign, nicht ihr Ersatz.`,
+                  detail: `Cronin ist einer der kreativsten Köpfe des Feldes und hat öffentlich die Hoffnung geäußert, Leben im Labor „von Grund auf" entstehen zu lassen. Das verdient Respekt. Der Einwand der Informatiker Robert Marks und William Dembski betrifft nicht die Ehrlichkeit solcher Versuche, sondern ihre Buchführung: In Suchalgorithmen lässt sich messen, wie viel **„aktive Information"** der Programmierer durch die Wahl von Suchraum, Bewertungsfunktion und Startbedingungen einbringt. Dieselbe Frage stellt sich bei jedem Reaktor, der von Menschen gebaut, befüllt und ausgewertet wird.
+
+Für dich heißt das: Kein Angriff auf das Experiment, sondern eine faire Messlatte. Ein Laie kann sagen: „Wenn ihr Leben ohne jede Auswahl, Reinigung und Nachsteuerung erhaltet, ändere ich meine Meinung. Bis dahin ist der Befund: Je mehr gelingt, desto mehr Planung steckt im Aufbau."`,
+                  voices: [
+                    {
+                      person: 'robert-marks',
+                      role: 'als Informatiker (Suchalgorithmen, Informationstheorie)',
+                      text: `Marks hat zusammen mit Dembski und Winston Ewert gezeigt, dass erfolgreiche evolutionäre Suchalgorithmen fast immer Information über das Ziel enthalten, die der Programmierer eingebracht hat – etwa in der Bewertungsfunktion. Diese „aktive Information" lässt sich quantifizieren. Übertragen auf Laborexperimente zur Lebensentstehung heißt das: Jede Wahl des Experimentators muss in der Informationsbilanz mitgezählt werden.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Robert J. Marks II, William A. Dembski, Winston Ewert', work: 'Introduction to Evolutionary Informatics', year: '2017', quote: `Suchalgorithmen sind nur dann besser als blinde Zufallssuche, wenn ihnen zielbezogene („aktive") Information mitgegeben wird; diese lässt sich messen.`, status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [
+                    `Welche Entscheidungen im Versuchsaufbau würdest du als „Eingriff" zählen – und wie stellst du sicher, dass das Ergebnis nicht schon in ihnen steckt?`,
+                    `Was wäre für dich ein negatives Ergebnis, das die Hypothese schwächt?`,
+                  ],
+                },
               ],
             },
           ],
@@ -206,6 +229,100 @@ Tour kritisiert deshalb weniger das Experiment selbst als seine Darstellung: Leh
       objectionBy: 'Dave Farina',
       answer: `Nein. Mein Punkt hier ist nur, dass Miller weniger zeigt, als oft behauptet wird – das ist eine Korrektur, kein Gottesbeweis. Ob man daraus auf einen Schöpfer schließen darf, ist eine eigene Frage, die ich mit einem positiven Argument beantworte: aus dem, was wir über die Entstehung von Information wissen.`,
       detail: `Siehe den Claim „Gott der Lücken" in diesem Themenblock: zuerst den Forschungsstand ehrlich feststellen (Tour), dann getrennt davon den Schluss auf die beste Erklärung führen (Meyer).`,
+    },
+    {
+      id: 'peptide-nass-trocken',
+      objection: `Auch dein Schritt 3 ist nicht mehr unlösbar. In Nass-Trocken-Zyklen – wie an einem austrocknenden Tümpel – verknüpfen sich Aminosäuren mit Hydroxysäuren zu Ketten. Und die proteinogenen Aminosäuren wie Lysin werden dabei sogar bevorzugt eingebaut gegenüber Verwandten, die das Leben nicht nutzt.`,
+      objectionBy: 'Loren Williams',
+      answer: `Das sind wichtige Arbeiten aus Atlanta, und ich nehme sie ernst: Kurze Ketten entstehen tatsächlich, und es gibt chemische Vorlieben. Aber was entsteht, sind kurze, gemischte Ketten mit zufälliger Abfolge, oft mit Esterbindungen statt reiner Peptidbindungen, aus racemischem Material. Ein funktionsfähiges Enzym braucht rund hundert und mehr Aminosäuren in einer ganz bestimmten Reihenfolge. Chemische Vorlieben erzeugen Muster – keine Bauanleitung.`,
+      detail: `**Was die Arbeiten zeigen:** Die Gruppe um Nicholas Hud und Loren Williams (Center for Chemical Evolution, Georgia Tech) zeigte, dass Gemische aus Hydroxy- und Aminosäuren in wiederholten Trocknungs- und Befeuchtungszyklen „Depsipeptide" bilden: Ketten, in denen sich Ester- und Amidbindungen abwechseln (Forsythe et al. 2015). Eine Folgearbeit fand, dass dabei die proteinogenen basischen Aminosäuren (Lysin, Arginin, Histidin) leichter eingebaut werden als nicht-proteinogene Verwandte wie Ornithin (Frenkel-Pinter et al. 2019). Das ist ein ehrlicher Punkt für die Gegenseite – erwähne ihn, bevor er erwähnt wird.
+
+**Was sie nicht zeigen:**
+- **Keine Sequenzspezifität:** Die Reihenfolge der Bausteine ist statistisch, nicht festgelegt. Eine Vorliebe für Lysin sagt nicht, *an welcher Stelle* Lysin stehen muss.
+- **Kurze Längen, Gemische:** Es entstehen Ensembles kurzer Oligomere, keine einzelnen langen Ketten.
+- **Händigkeit ungelöst:** Die Versuche starten meist mit reinen L-Aminosäuren aus der Flasche – das Racemat-Problem wird vorausgesetzt gelöst.
+- **Kein Kopiermechanismus:** Eine zufällig gute Kette kann nicht weitergegeben werden.
+
+James Tour würde ergänzen: Wer gereinigte, einhändige Ausgangsstoffe einsetzt und die Zyklen steuert, hat bereits Entscheidungen getroffen, die auf der frühen Erde niemand trifft.`,
+      sources: [
+        { kind: 'gegner', author: 'Jay G. Forsythe, Sheng-Sheng Yu, Irena Mamajanov, Martha A. Grover, Ramanarayanan Krishnamurthy, Facundo M. Fernández, Nicholas V. Hud', work: '„Ester-Mediated Amide Bond Formation Driven by Wet–Dry Cycles: A Possible Path to Polypeptides on the Prebiotic Earth", Angewandte Chemie International Edition 54', year: '2015', quote: `In Nass-Trocken-Zyklen bilden Gemische aus Hydroxy- und Aminosäuren Depsipeptide; Esterbindungen erleichtern die Bildung von Amidbindungen.`, status: 'paraphrase' },
+        { kind: 'gegner', author: 'Moran Frenkel-Pinter, Jay W. Haynes u. a. (darunter Nicholas V. Hud und Loren Dean Williams)', work: '„Selective incorporation of proteinaceous over nonproteinaceous cationic amino acids in model prebiotic oligomerization reactions", PNAS 116 (33)', year: '2019', quote: `Proteinogene kationische Aminosäuren werden in Modellreaktionen bevorzugt in Oligomere eingebaut.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welche dieser Ketten hat eine festgelegte Reihenfolge – und wie würde eine gute Abfolge an die nächste „Generation" weitergegeben?`,
+        `Mit welcher Händigkeit der Ausgangsstoffe wurden die Versuche gestartet?`,
+      ],
+      followUps: [
+        {
+          id: 'funktion-in-zufallsbibliotheken',
+          objection: `Funktion ist gar nicht so selten. In einer Bibliothek aus zufälligen Proteinsequenzen haben wir Moleküle gefunden, die ATP binden – etwa eines unter hundert Milliarden. Das ist für eine ganze Erde voller Chemie kein Problem.`,
+          objectionBy: 'Jack Szostak',
+          answer: `Das Experiment von Keefe und Szostak 2001 ist elegant, aber man muss genau sagen, was es zeigt: ATP *binden* ist nicht ATP *umsetzen*, und eine Bindestelle ist kein gefaltetes Enzym mit katalytischer Funktion. Außerdem brauchte das Verfahren die komplette moderne Übersetzungsmaschinerie und mehrere Runden gezielter Anreicherung und Mutation. Auf der frühen Erde gab es weder die Bibliothek noch das Ausleseverfahren.`,
+          detail: `**Der Versuch:** Aus einer Bibliothek von rund 6 × 10^12 zufälligen Sequenzen mit 80 Aminosäuren fischten Keefe und Szostak per mRNA-Display Moleküle heraus, die ATP binden; die Häufigkeit schätzten sie auf etwa 1 zu 10^11. Danach wurden die Kandidaten über mehrere Runden mit Mutation und Selektion verbessert.
+
+**Warum das die Frage nicht löst:**
+1. **Bindung ≠ Katalyse:** Eine schwache Bindestelle ist die niedrigste Stufe von Funktion. Enzyme müssen binden, ausrichten, Übergangszustände stabilisieren und Produkte freigeben.
+2. **Eingebaute Biologie:** mRNA-Display setzt Ribosomen, tRNAs, Enzyme und gereinigte Bausteine voraus – also genau das, was erklärt werden soll.
+3. **Gesteuerte Anreicherung:** Die Auswahl erfolgte durch Forscher, die gezielt nach ATP-Bindung filterten.
+
+Biochemiker **Brian Miller** weist zudem darauf hin, dass eine Zelle nicht *ein* funktionales Protein braucht, sondern Hunderte, die zusammenwirken – die Wahrscheinlichkeiten multiplizieren sich.`,
+          sources: [
+            { kind: 'gegner', author: 'Anthony D. Keefe, Jack W. Szostak', work: '„Functional proteins from a random-sequence library", Nature 410, S. 715–718', year: '2001', quote: `In einer Bibliothek zufälliger 80er-Sequenzen fanden sich ATP-bindende Proteine mit einer geschätzten Häufigkeit von etwa 1 zu 10^11.`, status: 'paraphrase' },
+          ],
+          voices: [
+            {
+              person: 'brian-miller',
+              role: 'als Physiker (Thermodynamik, Systembiologie)',
+              text: `Miller betont, dass die Minimalzelle ein ganzes Netzwerk aufeinander abgestimmter Proteine benötigt – für Energiegewinnung, Kopieren, Übersetzen und Membrantransport. Selbst optimistische Häufigkeiten für einzelne Funktionen ergeben, miteinander multipliziert, Zahlen, die die probabilistischen Ressourcen der frühen Erde übersteigen. Zudem müssen die Teile gleichzeitig und am selben Ort vorhanden sein.`,
+              sources: [{ kind: 'fachliteratur', author: 'Brian Miller', work: 'Beiträge in: The Mystery of Life\'s Origin: The Continuing Controversy', year: '2020', status: 'paraphrase', quote: `Miller argumentiert thermodynamisch und systembiologisch gegen eine schrittweise ungelenkte Entstehung der Minimalzelle.` }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'axe-zahl-umstritten',
+              objection: `Und Douglas Axes berühmte Zahl – eine funktionierende Faltung unter 10^77 Sequenzen – ist längst zerpflückt. Er hat mit einer künstlich geschwächten Enzymvariante gearbeitet, das verfälscht alles.`,
+              objectionBy: 'Dave Farina',
+              answer: `Es stimmt, dass Axes Methode kritisiert wird, und ich behaupte nicht, 10^77 sei eine Naturkonstante. Aber selbst wenn seine Zahl um zwanzig oder dreißig Größenordnungen zu pessimistisch wäre, bliebe der Abstand zu den Möglichkeiten der frühen Erde gewaltig – und das gilt für *ein* Protein, nicht für die Hunderte einer Zelle. Die Grundbeobachtung bestreitet niemand: Funktionale Faltungen sind im Sequenzraum selten, und die meisten Mutationen schaden.`,
+              detail: `**Axe 2004:** Axe untersuchte, wie viele Varianten einer β-Lactamase-Domäne (rund 150 Aminosäuren) noch funktionieren, und schätzte daraus den Anteil funktionaler Faltungen auf etwa 1 zu 10^77. Kritiker wenden ein, er habe eine bewusst destabilisierte Variante verwendet, die empfindlicher auf Mutationen reagiert, und das Ergebnis lasse sich nicht auf alle Proteinfamilien übertragen.
+
+**Fair antworten:**
+- Gestehe zu, dass die genaue Zahl strittig ist.
+- Zeige, dass das Argument keine exakte Zahl braucht: Die Zahl aller Aminosäure-Verknüpfungsereignisse in der Erdgeschichte ist endlich; Schätzungen der „probabilistischen Ressourcen" liegen weit unter dem, was für eine blinde Suche nach einem ganzen Satz von Enzymen nötig wäre.
+- Frage, welche Zahl die Gegenseite stattdessen ansetzt – und für wie viele gleichzeitig nötige Proteine.`,
+              voices: [
+                {
+                  person: 'douglas-axe',
+                  role: 'als Molekularbiologe (Proteinfaltung)',
+                  text: `Axe argumentiert, dass funktionale Proteinfaltungen „Inseln" in einem riesigen Meer nicht-funktionaler Sequenzen sind. Seine Experimente sollten messen, wie klein diese Inseln sind. In *Undeniable* verallgemeinert er die Beobachtung: Funktionale Ganzheiten, die viele aufeinander abgestimmte Teile verlangen, entstehen nach aller Erfahrung nicht durch blinde Suche – eine Intuition, die er für wissenschaftlich begründbar hält.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Douglas D. Axe', work: '„Estimating the prevalence of protein sequences adopting functional enzyme folds", Journal of Molecular Biology 341, S. 1295–1315', year: '2004', quote: `Der Anteil der Sequenzen, die eine funktionale Faltung der untersuchten β-Lactamase-Domäne bilden, wird auf etwa 1 zu 10^77 geschätzt.`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Douglas Axe', work: 'Undeniable: How Biology Confirms Our Intuition That Life Is Designed', year: '2016', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [`Welche Häufigkeit funktionaler Faltungen hältst du für realistisch – und wie viele verschiedene Proteine braucht die einfachste Zelle gleichzeitig?`],
+              followUps: [
+                {
+                  id: 'ribosom-wuchs-schrittweise',
+                  objection: `Ihr denkt zu sehr in fertigen Proteinen. Das Ribosom selbst zeigt, wie es ging: Sein Kern ist uralte RNA, um die herum über lange Zeit Schicht um Schicht angebaut wurde. Proteine und RNA sind gemeinsam gewachsen – keine blinde Suche nach einem fertigen Enzym.`,
+                  objectionBy: 'Loren Williams',
+                  answer: `Das Wachstumsmodell des Ribosoms ist eine faszinierende Rekonstruktion – aber es beschreibt, wie ein *bereits funktionierendes* Ribosom später ausgebaut wurde. Der älteste Kern, das Peptidyltransferase-Zentrum, verknüpft schon Aminosäuren; woher er kam und wie er zu einem *codierten* System mit tRNAs und Code-Tabelle wurde, erklärt das Modell nicht. Man rekonstruiert die Geschichte eines Hauses vom ersten Raum an – der erste Raum muss trotzdem gebaut worden sein.`,
+                  detail: `Williams und Kollegen haben aus der Struktur des Ribosoms verschiedener Organismen eine Abfolge von „Zuwachsschichten" rekonstruiert (Petrov et al. 2014). Das ist ernsthafte Wissenschaft und mit einem Schöpfungsglauben nicht unvereinbar.
+
+Die offene Frage verschiebt sich aber nur: Auch ein „Proto-Ribosom" muss eine bestimmte RNA-Faltung haben, die Peptidbindungen katalysiert – und Peptide *ohne Code* bilden zufällige Abfolgen, die nicht vererbt werden. Der Übergang zu einer codierten Übersetzung, bei der eine Sequenz eine andere festlegt, ist der Kern des Rätsels; siehe die Claims zur RNA-Welt und zum genetischen Code.
+
+Theologisch lohnt der Hinweis: Selbst wenn sich der Bau schrittweise rekonstruieren ließe, bliebe die Frage, warum Materie überhaupt so beschaffen ist, dass solche Bauwerke möglich sind. Basilius sah in den Befehlen „Die Erde bringe hervor" eine von Gott in die Schöpfung gelegte Fruchtbarkeit – nicht eine Konkurrenz zu Gott.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Anton S. Petrov u. a. (darunter Nicholas V. Hud und Loren Dean Williams)', work: '„Evolution of the ribosome at atomic resolution", PNAS 111 (28)', year: '2014', quote: `Das Ribosom sei durch schrittweisen Anbau von RNA-Elementen um einen alten Kern um das Peptidyltransferase-Zentrum gewachsen.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Basilius von Caesarea', work: 'Homilien zum Hexaemeron', ref: '5,10', quote: `Der Befehl Gottes an die Erde wirkt in ihr fort und verleiht ihr die Kraft, hervorzubringen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie entstand nach dem Modell die Zuordnung zwischen Codons und Aminosäuren – also der Schritt von zufälligen Peptiden zu codierten Proteinen?`],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

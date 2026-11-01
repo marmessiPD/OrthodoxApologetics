@@ -72,7 +72,7 @@ Wichtig ist ein Grundsatz der islamischen Rechtstheorie (*uṣūl al-fiqh*): Abr
       objectionBy: 'Yasir Qadhi',
       answer: `Dann wird „bestätigen" zum leeren Wort: Was übereinstimmt, ist echt; was widerspricht, ist falsch – damit kann der Koran nie widerlegt werden. Ein Mormone könnte genau dasselbe über die Bibel und das Buch Mormon sagen. Und Ibn Kathirs Folgerung steht im Widerspruch zu 5:47, das die Christen auf ihr Evangelium verpflichtet, *bevor* sie den Koran annehmen.`,
       sources: [
-        { kind: 'hadith', author: 'Ibn Kathir', work: 'Tafsir al-Qur\'an al-\'Azim', ref: 'zu 5:48', quote: `Der Koran ist Zeuge, Bewahrer und Richter über die früheren Bücher; was mit ihm übereinstimmt, ist wahr, was ihm widerspricht, ist falsch.`, status: 'unverified', note: 'Sinngemäß nach verbreiteten Übersetzungen des Tafsir; Wortlaut vor Verwendung prüfen.' },
+        { kind: 'hadith', author: 'Ibn Kathir', work: 'Tafsir al-Qur\'an al-\'Azim', ref: 'zu 5:48', quote: `Muhaymin vereint die Bedeutungen „vertrauenswürdig" (nach Ibn Abbas), „Zeuge" (Ibn Abbas, Mujahid, Qatada, as-Suddi) und „beherrschend" über die früheren Schriften; mit Ibn Jarir (at-Tabari): Was in den früheren Büchern mit dem Koran übereinstimmt, ist wahr, was ihm widerspricht, ist falsch.`, status: 'paraphrase', note: 'Inhalt in der gekürzten englischen Ausgabe des Tafsir zu 5:48 bestätigt; die Wahr/Falsch-Regel zitiert Ibn Kathir von at-Tabari. Wörtliche Zitate nur nach einer gedruckten Ausgabe.' },
       ],
       questionsBack: [
         `Würdest du einem Mormonen erlauben, die Bibel nur dort gelten zu lassen, wo sie mit dem Buch Mormon übereinstimmt?`,
@@ -93,6 +93,22 @@ Wichtig ist ein Grundsatz der islamischen Rechtstheorie (*uṣūl al-fiqh*): Abr
               questionsBack: [
                 `Kann Gott einen Bericht abrogieren, ohne dass einer der beiden Berichte falsch ist?`,
               ],
+              followUps: [
+                {
+                  id: 'korrigiert-christen-nicht-schrift',
+                  objection: `Der Koran korrigiert ja nicht die Schrift, sondern die Christen – ihre Konzilien, ihre Theologie, ihre Missverständnisse. Die Kreuzigung ist eine Behauptung der Kirche, nicht Gottes Offenbarung.`,
+                  objectionBy: 'Shabir Ally',
+                  answer: `Die Kreuzigung ist keine Erfindung späterer Konzilien – sie steht im Injil selbst: in allen vier Evangelien, in jeder erhaltenen Handschrift, als längster zusammenhängender Bericht. Und Jesus kündigt sie darin selbst an (Mk 8,31; 10,33–34). Wer sie als „Behauptung der Kirche" abtut, korrigiert nicht die Christen, sondern genau das Buch, das 5:47 als Maßstab nennt.`,
+                  detail: `Die Unterscheidung „Schrift vs. Christen" funktioniert bei manchen Fragen (etwa bei späterer Terminologie wie *homoousios*), aber nicht bei der Kreuzigung. Sie gehört zum ältesten Kern: Paulus zitiert sie als empfangene Überlieferung (1 Kor 15,3), Markus erzählt sie als Höhepunkt, und schon die Psalmen und Propheten, die Jesus auf sich bezog, sprechen vom leidenden Gerechten (Ps 22; Jes 53). Damit steht die Kreuzigung in Tora/Propheten-Lesung und Injil zugleich – in beiden Büchern, die der Koran bestätigt.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '10,33–34', quote: `Des Menschen Sohn wird überantwortet werden den Hohenpriestern … und sie werden ihn töten; und am dritten Tage wird er auferstehen.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Jesaja', ref: '53,5', quote: `Aber er ist um unsrer Missetat willen verwundet und um unsrer Sünde willen zerschlagen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `In welcher Handschrift des Evangeliums vor dem 7. Jahrhundert fehlt die Kreuzigung?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -103,6 +119,38 @@ Wichtig ist ein Grundsatz der islamischen Rechtstheorie (*uṣūl al-fiqh*): Abr
       objection: `5:48 sagt: „Folge nicht ihren Neigungen." Das zeigt, dass man den Juden und Christen nicht folgen soll – auch nicht ihrer Schrift.`,
       objectionBy: 'verbreiteter muslimischer Einwand',
       answer: `Der Vers unterscheidet gerade zwischen dem, „was Allah herabgesandt hat", und „ihren Neigungen". Die Neigungen der Menschen sind nicht die Schrift. Der vorangehende Vers sagt ausdrücklich, die Christen sollen nach dem richten, was Allah im Evangelium herabgesandt hat. Die Warnung gilt menschlichen Wünschen, nicht Gottes Offenbarung.`,
+      followUps: [
+        {
+          id: 'shira-und-minhaj',
+          objection: `Lies weiter: „Für jeden von euch haben Wir ein Gesetz und einen Weg bestimmt" (5:48). Das Gesetz der Christen war zeitlich begrenzt – mit dem Koran ist es aufgehoben. Ob euer Buch verfälscht ist oder nicht, es ist für heute nicht mehr maßgeblich.`,
+          objectionBy: 'Yasir Qadhi',
+          answer: `Das ist ein anderes Argument als Tahrif – und es gibt den Kernpunkt zu: Wenn das Injil nur *abgelöst*, aber nicht *verfälscht* ist, dann ist es ein zuverlässiger Bericht dessen, was Gott durch Jesus offenbart hat. Gebote kann man ablösen, Berichte nicht. Dann stehen der Tod Jesu, seine Auferstehung und sein Anspruch, Sünden zu vergeben, als wahrer Bericht fest. Und Jesus selbst sagt in diesem Buch: „Himmel und Erde werden vergehen; aber meine Worte werden nicht vergehen" (Mt 24,35).`,
+          detail: `5:48 setzt sogar voraus, dass die Christen zur Zeit Mohammeds einen von Gott gegebenen „Weg" (*minhāj*) und ein „Gesetz" (*shirʿa*) hatten – und ruft sie auf, „in den guten Dingen zu wetteifern". Das passt schlecht zu einer Gemeinschaft, deren Grundlage angeblich längst verdorben war. Die Ablösungsthese verschiebt die Debatte vom Text auf die Frage, ob Mohammed ein wahrer Prophet ist – und dort muss er an den Aussagen der früheren Schrift gemessen werden (Dtn 18,20–22; Gal 1,8).`,
+          sources: [
+            { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:48', quote: `Für jeden von euch haben Wir ein Gesetz und einen Weg bestimmt … So wetteifert nach den guten Dingen.`, original: `li-kullin jaʿalnā minkum shirʿatan wa-minhājā`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/48' },
+            { kind: 'bibel', work: 'Matthäus', ref: '24,35', quote: `Himmel und Erde werden vergehen; aber meine Worte werden nicht vergehen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+          questionsBack: [
+            `Wenn das Injil nur abgelöst, aber unverfälscht ist – akzeptierst du dann seinen Bericht über Tod und Auferstehung Jesu?`,
+          ],
+          followUps: [
+            {
+              id: 'paraklet-bringt-den-rest',
+              objection: `Jesus sagte selbst: „Ich habe euch noch viel zu sagen, aber ihr könnt es jetzt nicht tragen; wenn aber der Geist der Wahrheit kommt, wird er euch in alle Wahrheit leiten" (Joh 16,12–13). Das ist Mohammed – er bringt den Rest.`,
+              objectionBy: 'Ahmed Deedat, Zakir Naik',
+              answer: `Lies die nächsten Verse: „Derselbe wird mich verklären; denn von dem Meinen wird er's nehmen und euch verkündigen" (Joh 16,14). Der Geist verherrlicht Jesus und nimmt von dem, was Jesus gehört – er widerruft ihn nicht. Jesus sagt außerdem, der Vater sende ihn „in meinem Namen", er werde „bei euch bleiben ewiglich" und „in euch sein" (Joh 14,16–17.26) – und die Jünger sollten in Jerusalem auf ihn warten, „nicht lange nach diesen Tagen" (Apg 1,4–5). Das passt auf Pfingsten, nicht auf einen Propheten sechs Jahrhunderte später.`,
+              detail: `Ausführlich im Claim „Der Paraklet ist Mohammed" (Topic „Mohammed in der Bibel"). Für 5:48 ist entscheidend: Wenn Joh 16,12–14 als Beleg für Mohammed taugen soll, wird der Text des Johannesevangeliums als zuverlässig vorausgesetzt – dann gilt aber auch, was er sonst über Jesus sagt (Joh 1,1.14; 20,28).`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '16,13–14', quote: `Wenn aber jener, der Geist der Wahrheit, kommen wird, der wird euch in alle Wahrheit leiten … Derselbe wird mich verklären; denn von dem Meinen wird er's nehmen und euch verkündigen.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Johannes', ref: '14,26', quote: `Aber der Tröster, der heilige Geist, welchen mein Vater senden wird in meinem Namen, der wird euch alles lehren und euch erinnern alles des, das ich euch gesagt habe.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn du Joh 16 als zuverlässig zitierst – warum nicht auch Joh 20,28, wo Thomas zu Jesus sagt: „Mein Herr und mein Gott"?`,
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'nur-das-original',
@@ -116,6 +164,21 @@ Wichtig ist ein Grundsatz der islamischen Rechtstheorie (*uṣūl al-fiqh*): Abr
           objectionBy: 'Ali Ataie',
           answer: `Dann sag mir, worin dieser Rest bestand, wenn nicht in der Schrift, die sie lasen. 3:93 fordert sie auf: „Bringt die Tora herbei und lest sie vor." 7:157 sagt, sie finden Mohammed „aufgeschrieben bei sich". Das ist kein vages Wissen, sondern ein geschriebenes Buch. Und dieses Buch enthielt – nachweislich – die Kreuzigung.`,
           detail: `Hier schließt sich der Kreis zum Islamischen Dilemma: Jede Deutung von „bestätigen" führt zurück zur Frage, welches Buch die Christen damals hatten.`,
+          followUps: [
+            {
+              id: 'bringt-die-tora-rhetorisch',
+              objection: `3:93 ist eine rhetorische Herausforderung. Mohammed wusste, dass sie die Tora nicht bringen würden, weil sie wussten, dass sie verändert war.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Eine Herausforderung „Bringt die Tora und lest sie vor, wenn ihr wahrhaftig seid" hat nur Sinn, wenn die Tora den Streit *entscheiden* kann – also wenn ihr Text zuverlässig ist. Eine gefälschte Tora wäre als Beweismittel wertlos; jeder Jude hätte sie vorlesen und sagen können: „Seht, es steht anders da." Der Koran beruft sich auf die Tora in Medina als Schiedsrichter. Das geht nur, wenn sie Gottes Wort enthält.`,
+              detail: `Der Kontext von 3:93 sind Speisegebote: „Alle Speise war den Kindern Israels erlaubt, außer was Israel sich selbst verboten hatte, bevor die Tora herabgesandt wurde." Der Koran verweist auf die Tora als Beleg für eine historische Aussage. Genau dasselbe tun Christen, wenn sie auf die Tora und das Evangelium als Zeugen verweisen. Wer die Tora als Schiedsrichter anruft, kann ihr nicht gleichzeitig jede Glaubwürdigkeit absprechen.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 3 (Al \'Imran)', ref: '3:93', quote: `Sag: Bringt doch die Tora herbei und lest sie vor, wenn ihr wahrhaftig seid.`, original: `qul fa-ʾtū bi-t-tawrāti fa-tlūhā in kuntum ṣādiqīn`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/3/93' },
+              ],
+              questionsBack: [
+                `Würde ein Richter eine Akte als Beweismittel anfordern, von der er weiß, dass sie gefälscht ist?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -126,6 +189,71 @@ Wichtig ist ein Grundsatz der islamischen Rechtstheorie (*uṣūl al-fiqh*): Abr
       answer: `Gut – dann deckt der Aufseher Fehler auf. Welche genau? Der Koran nennt keinen einzigen verfälschten Vers der Tora oder des Evangeliums und keine Stelle, an der etwas eingefügt wurde. Ein Aufseher, der nie sagt, *wo* der Fehler liegt, sondern nur, *dass* etwas nicht passt, deckt nichts auf – er widerspricht nur.`,
       questionsBack: [
         `Kannst du mir einen Vers im Koran zeigen, der eine bestimmte Bibelstelle als verfälscht benennt?`,
+      ],
+      followUps: [
+        {
+          id: 'koran-nennt-fehler-lehren',
+          objection: `Der Koran deckt sehr wohl Fehler auf: die Dreieinigkeit (5:73), die Gottessohnschaft (9:30), die Kreuzigung (4:157). Das sind die Fehler – genau benannt.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Das sind keine Textstellen, die der Koran als eingefügt kennzeichnet, sondern Lehren, die er verwirft. Und genau diese Lehren stehen im Text des Evangeliums, den der Koran zugleich bestätigt: Jesus als „Sohn Gottes" (Mk 1,1; 14,61–62), die Taufe „auf den Namen des Vaters und des Sohnes und des heiligen Geistes" (Mt 28,19), die Kreuzigung in allen vier Evangelien. Der Koran bestätigt also ein Buch und verwirft dessen Kernaussagen. Das ist kein Aufdecken von Fehlern, sondern ein Widerspruch zum bestätigten Buch.`,
+          detail: `Ein echter „Aufseher" müsste sagen: „Dieser Satz ist später hinzugefügt" oder „Hier stand ursprünglich etwas anderes". Das tut der Koran nie. Er bietet stattdessen eine andere Erzählung – und lässt offen, warum das von ihm bestätigte Buch sie nicht enthält. Bemerkenswert ist zudem: 5:73 verwirft die Aussage, Gott sei „der Dritte von dreien" (*thālithu thalāthatin*) – eine Formel, die keine Kirche je bekannt hat. Die Kirche bekennt einen Gott in drei Hypostasen, nicht Gott als einen von dreien.`,
+          sources: [
+            { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:73', quote: `Ungläubig sind ja diejenigen, die sagen: Allah ist der Dritte von dreien.`, original: `laqad kafara lladhīna qālū inna llāha thālithu thalāthah`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/73' },
+            { kind: 'bibel', work: 'Markus', ref: '14,61–62', quote: `Bist du Christus, der Sohn des Hochgelobten? Jesus aber sprach: Ich bin's.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'trinitaet-steht-nicht-drin',
+              objection: `Das Wort „Trinität" steht nirgends in der Bibel. Die Lehre ist eine Erfindung von Nizäa (325). Der Koran korrigiert also die Konzilien, nicht das Injil.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Das Wort steht nicht in der Bibel – der Inhalt schon: Das Wort war Gott (Joh 1,1), Thomas nennt Jesus „mein Herr und mein Gott" (Joh 20,28), getauft wird auf *den einen Namen* des Vaters, des Sohnes und des Heiligen Geistes (Mt 28,19). Nizäa hat nichts erfunden, sondern gegen Arius festgehalten, was die Schrift sagt. Auch das Wort *tawḥīd* steht nicht im Koran – und trotzdem lehrt er die Einheit Gottes.`,
+              detail: `Die koptische Kirche hat am Konzil von Nizäa durch den hl. Athanasius, damals Diakon und Sekretär des Papstes Alexander, maßgeblich mitgewirkt. Athanasius argumentiert in seinen Reden gegen die Arianer durchgehend aus der Schrift: Wenn der Sohn ein Geschöpf wäre, könnte er uns nicht mit Gott vereinen. Die Lehre ist also exegetisch begründet, nicht politisch erfunden. Siehe Topic „Trinität im Islam".`,
+              voices: [
+                {
+                  person: 'athanasius',
+                  role: 'als Verteidiger von Nizäa',
+                  text: `Athanasius zeigt in den Reden gegen die Arianer, dass das nizänische *homoousios* nur zusammenfasst, was die Schrift über den Sohn sagt: Er ist das Wort, durch das alles geschaffen ist (Joh 1,3), der Abglanz der Herrlichkeit (Hebr 1,3), eins mit dem Vater (Joh 10,30). Das Konzil wählte ein nicht-biblisches Wort, weil die Arianer jede biblische Formel umdeuteten – nicht, um eine neue Lehre einzuführen.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'De decretis Nicaenae synodi', ref: '19–20', year: 'um 350', quote: `Die Väter von Nizäa wählten das Wort homoousios, weil die Arianer biblische Ausdrücke in ihrem Sinn umdeuteten.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '20,28', quote: `Thomas antwortete und sprach zu ihm: Mein HERR und mein Gott!`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Matthäus', ref: '28,19', quote: `Darum gehet hin und lehret alle Völker und taufet sie im Namen des Vaters und des Sohnes und des heiligen Geistes.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wenn ein Begriff nicht wörtlich in der Schrift stehen darf – wo steht im Koran das Wort tawhid?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'christen-tun-dasselbe',
+      objection: `Ihr Christen tut doch genau dasselbe: Das Neue Testament ist euer „Muhaymin" über das Alte. Ihr erklärt Speisegebote und Opfer für aufgehoben und lest das Alte Testament nur im Licht Christi. Warum darf der Koran das nicht mit eurer Bibel tun?`,
+      objectionBy: 'Paul Williams (Blogging Theology)',
+      answer: `Der Unterschied ist entscheidend: Das Neue Testament erklärt keinen einzigen Bericht des Alten Testaments für falsch. Es bestätigt Schöpfung, Abraham, Mose, Exodus und Propheten als wahre Geschichte und liest sie als Vorbereitung auf Christus. Aufgehoben werden zeremonielle Gebote – nicht Ereignisse. Der Koran dagegen widerspricht einem *Ereignis*, das im bestätigten Buch berichtet wird: der Kreuzigung. Erfüllen ist nicht dasselbe wie Widersprechen.`,
+      detail: `Christen nehmen den ganzen Text des Alten Testaments an, auch die schwierigen Stellen; sie haben nie behauptet, die Juden hätten ihn verfälscht – im Gegenteil, Paulus sagt, den Juden seien „anvertraut, was Gott geredet hat" (Röm 3,2). Die christliche Lesart des Alten Testaments ist eine *Deutung* desselben Textes, und sie beruft sich auf Stellen, die im jüdischen Text stehen (Jes 53; Ps 22; Dan 7,13–14). Das ist methodisch das Gegenteil dessen, was die Tahrif-Lehre verlangt.`,
+      sources: [
+        { kind: 'bibel', work: 'Römer', ref: '3,1–2', quote: `Was haben denn die Juden Vorteils? … Zum ersten: ihnen ist vertraut, was Gott geredet hat.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '5,17', quote: `Ihr sollt nicht wähnen, dass ich gekommen bin, das Gesetz oder die Propheten aufzulösen; ich bin nicht gekommen, aufzulösen, sondern zu erfüllen.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Nenne mir einen Bericht des Alten Testaments, den das Neue Testament für falsch erklärt.`,
+      ],
+      followUps: [
+        {
+          id: 'jesus-aenderte-mose',
+          objection: `Jesus hat Mose sehr wohl korrigiert: „Ihr habt gehört, dass gesagt ist … ich aber sage euch." Und die Scheidungserlaubnis hat er aufgehoben (Mt 19,8). Also gibt es auch bei euch Korrektur.`,
+          objectionBy: 'Paul Williams (Blogging Theology)',
+          answer: `Ja, Jesus spricht mit eigener Vollmacht – das ist übrigens ein Argument für seine Gottheit, nicht für den Islam. Aber schau, *wie* er korrigiert: Bei der Scheidung beruft er sich auf die Tora selbst – „von Anfang an ist's nicht also gewesen" (Mt 19,8 mit Gen 2,24). Er erklärt nicht den Text für gefälscht, sondern zeigt Gottes ursprüngliche Absicht im selben Text. Das ist Auslegung des bestätigten Buches – nicht dessen Widerlegung.`,
+          detail: `In der Bergpredigt verschärft Jesus die Gebote (Zorn statt nur Mord, Begierde statt nur Ehebruch) und weist rabbinische Auslegungen zurück („Du sollst deinen Nächsten lieben und deinen Feind hassen" steht so nicht in der Tora). Kein Satz der Bergpredigt erklärt einen Satz der Tora für unecht. Wer hier einen Präzedenzfall für Tahrif sucht, findet das Gegenteil: Jesus behandelt die Tora als Gottes Wort und beansprucht zugleich, ihr verbindlicher Ausleger zu sein.`,
+          sources: [
+            { kind: 'bibel', work: 'Matthäus', ref: '19,8', quote: `Mose hat euch erlaubt zu scheiden von euren Weibern, von eures Herzens Härtigkeit wegen; von Anbeginn aber ist's nicht also gewesen.`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
       ],
     },
   ],

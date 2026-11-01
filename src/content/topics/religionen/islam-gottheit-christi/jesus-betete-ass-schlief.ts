@@ -102,6 +102,27 @@ const claim: Claim = {
               objection: `Dann ist dieselbe Person zugleich müde und unermüdlich, allwissend und unwissend. Das ist ein glatter Widerspruch.`,
               objectionBy: 'Hamza Tzortzis',
               answer: `Ein Widerspruch läge vor, wenn er in derselben Hinsicht müde und unermüdlich wäre. Er ist es aber in verschiedener Hinsicht: in seiner Menschheit müde, in seiner Gottheit unermüdlich. Auch du sagst über einen Menschen widerspruchsfrei: „Er ist 1,80 Meter groß, und seine Gedanken haben keine Größe" – weil du von verschiedenen Hinsichten derselben Person sprichst.`,
+              followUps: [
+                {
+                  id: 'idiome-taschenspielertrick',
+                  objection: `Das ist ein Taschenspielertrick: Alles Schwache schiebt ihr auf die „Menschheit", alles Starke auf die „Gottheit". Am Ende redet ihr doch von zwei Subjekten – einem, der schläft, und einem, der den Sturm stillt.`,
+                  objectionBy: 'Ali Ataie',
+                  answer: `Genau das tun wir nicht – das tat Nestorius, und die koptische Kirche hat ihn deshalb verworfen. Wir schreiben beides **demselben einen** Subjekt zu: Derselbe, der im Boot schläft, steht auf und gebietet dem Meer. Darum sagt die Schrift ohne Zögern: „Sie haben den Herrn der Herrlichkeit gekreuzigt" (1 Kor 2,8) und „die Kirche Gottes, die er durch sein eigenes Blut erworben hat" (Apg 20,28). Die Unterscheidung der Hinsichten trennt nicht zwei Personen, sie erklärt, wie die eine Person beides wirklich ist.`,
+                  detail: `Die Theologie nennt das die „Mitteilung der Eigenschaften" (*communicatio idiomatum*): Weil Gottheit und Menschheit in der einen Hypostase des Logos geeint sind, darf man göttliche und menschliche Aussagen von derselben Person machen – „Gott wurde geboren", „der Mensch Jesus vergibt Sünden". Kyrill bestand gegen Nestorius darauf, dass man die Aussagen der Evangelien nicht auf „zwei Personen oder Hypostasen" verteilen darf (4. Anathematismus). Die koptische Liturgie bekennt am Ende: Er hat seine Gottheit mit seiner Menschheit geeint „ohne Vermischung, ohne Vermengung, ohne Verwandlung" – und seine Gottheit hat sich „nicht einen Augenblick, nicht einen Wimpernschlag" von seiner Menschheit getrennt. Wer das einen Taschenspielertrick nennt, müsste zeigen, wo hier zwei Subjekte vorkommen.`,
+                  voices: [
+                    { person: 'kyrill-alexandrien', role: 'als Gegner des Nestorius', text: `Kyrill erklärt, dass es ein und derselbe ist, der als Gott vor aller Zeit aus dem Vater gezeugt und als Mensch aus der Jungfrau geboren wurde. Wer die menschlichen Aussagen einem Menschen „neben" dem Logos zuschreibt, zerreißt den einen Christus und macht das Heil unmöglich – denn dann hat nicht Gott selbst den Tod überwunden, sondern ein anderer.` },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Dritter Brief an Nestorius, 4. Anathematismus', year: '430', status: 'paraphrase', note: 'Verurteilt die Aufteilung der Aussagen der Evangelien auf zwei Personen oder Hypostasen.' },
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '20,28', quote: `… die Gemeinde Gottes, welche er durch sein eigen Blut erworben hat.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'liturgie', work: 'Koptische Basilius-Liturgie, Bekenntnis vor der Kommunion', quote: `Er hat sie (die Menschheit) eins gemacht mit seiner Gottheit ohne Vermischung, ohne Vermengung und ohne Verwandlung … Ich glaube, dass seine Gottheit sich nicht einen Augenblick, nicht einen Wimpernschlag von seiner Menschheit getrennt hat.`, translation: 'sinngemäß', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wer wurde nach Apg 20,28 mit „seinem eigenen Blut" – wessen Blut ist es?`,
+                    `Kannst du zeigen, wo wir die Taten Jesu auf zwei verschiedene „Ichs" verteilen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -119,6 +140,26 @@ const claim: Claim = {
           objection: `Wer betet, ist abhängig und untergeordnet. Also ist der Sohn geringer als der Vater – nicht gleich Gott.`,
           objectionBy: 'Shabir Ally',
           answer: `Als Mensch hat er sich freiwillig untergeordnet – das ist die „Knechtsgestalt", die er annahm (Phil 2,7). Die Väter unterscheiden die Unterordnung in der Heilsordnung (Ökonomie) von der Gleichheit im Wesen. Ein Sohn, der seinem Vater gehorcht, ist nicht weniger Mensch als sein Vater. Mehr dazu bei „Der Vater ist größer als ich".`,
+          followUps: [
+            {
+              id: 'getsemani-anderer-wille',
+              objection: `In Getsemani betet Jesus: „Nicht wie ich will, sondern wie du willst" (Mt 26,39). Sein Wille stand also gegen den Willen Gottes. Wie kann jemand Gott sein, dessen Wille dem Willen Gottes widerspricht?`,
+              objectionBy: 'Shabir Ally',
+              answer: `Getsemani zeigt keinen Gegensatz, sondern wahre Menschheit und freien Gehorsam. Als wahrer Mensch schreckte Jesus vor dem Tod zurück – das ist natürlich, nicht sündig. Und dieser menschliche Wille unterwirft sich frei dem Willen des Vaters, der zugleich sein eigener göttlicher Wille ist. Genau darin liegt unser Heil: Wo Adam seinen Willen gegen Gott stellte, stellt der zweite Adam seinen menschlichen Willen ganz in Gottes Willen (Röm 5,19).`,
+              detail: `Die Väter sehen in Getsemani den Beweis, dass der Logos eine vollständige Menschheit angenommen hat – mit Seele und menschlichem Wollen. Gregor von Nazianz: „Was nicht angenommen ist, ist nicht geheilt." Hätte Christus keinen menschlichen Willen gehabt, wäre unser Wille nicht geheilt. Die koptische Kirche spricht mit Kyrill und Severus vom einen Christus und seinem einen, geeinten Wollen, in dem das Menschliche wirklich bleibt und sich ohne Vermischung frei dem Göttlichen fügt; die gemeinsamen Erklärungen mit den östlich-orthodoxen Kirchen (1989/1990) halten fest, dass beide Seiten denselben Glauben an den wahren göttlichen und menschlichen Willen Christi bekennen, nur in verschiedener Terminologie. Für das Gespräch genügt: Das Zurückschrecken vor dem Tod ist Zeichen echter Menschheit, das „Dein Wille geschehe" ist der Gehorsam, der Adams Ungehorsam heilt.`,
+              voices: [
+                { person: 'gregor-nazianz', role: 'als Lehrer der vollständigen Menschheit Christi', text: `Gregor betont gegen Apollinaris, dass der Logos nicht nur einen Leib, sondern eine ganze Menschheit mit Seele und Geist angenommen hat. Was der Sohn nicht angenommen hätte, wäre nicht geheilt. Das menschliche Ringen in Getsemani ist darum kein Einwand gegen seine Gottheit, sondern der Ort, an dem unser Wollen geheilt wird.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Matthäus', ref: '26,39', quote: `Mein Vater, ist's möglich, so gehe dieser Kelch von mir; doch nicht wie ich will, sondern wie du willst!`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: 'Römer', ref: '5,19', quote: `Denn gleichwie durch eines Menschen Ungehorsam viele Sünder geworden sind, also auch durch eines Gehorsam werden viele Gerechte.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Ist es Sünde, als Mensch vor einem grausamen Tod zurückzuschrecken – oder Zeichen echter Menschlichkeit?`,
+                `Wenn Jesus kein echter Mensch mit echtem Willen gewesen wäre – wie hätte er dann für Menschen gehorsam sein können?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -142,6 +183,27 @@ const claim: Claim = {
               objection: `Ihr sagt aber „Gott hat gelitten". Allein dieser Satz ist für Muslime Blasphemie.`,
               objectionBy: 'Mohammed Hijab',
               answer: `Wir sagen genau genommen: Der Logos hat **im Fleisch** gelitten, während seine Gottheit leidensunfähig blieb. Und wir sagen es nicht, um Gott herabzusetzen, sondern weil es das größte Zeichen seiner Liebe ist: Er hat unser Leid und unseren Tod nicht aus der Ferne betrachtet, sondern selbst getragen. Ist eine Liebe, die sich so tief herablässt, Gottes unwürdig – oder gerade seiner würdig?`,
+              followUps: [
+                {
+                  id: 'eine-natur-ist-vermischung',
+                  objection: `Eure koptische Formel „eine Natur" ist doch genau Vermischung: Gott und Mensch zu einem Dritten verschmolzen. Sogar andere Christen nennen euch deshalb „Monophysiten". Ihr seid euch nicht einmal untereinander einig, wer Jesus ist.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Die Formel des hl. Kyrill lautet „eine fleischgewordene Natur des Gott-Logos" – sie meint die eine, untrennbar geeinte Wirklichkeit des menschgewordenen Wortes, nicht eine Mischnatur. Die Kirche bekennt ausdrücklich: geeint „ohne Vermischung, ohne Verwandlung, ohne Vermengung und ohne Trennung". Eutyches, der die Menschheit in der Gottheit aufgehen ließ, wurde auch von uns verurteilt. Und die gemeinsamen Erklärungen mit den östlich-orthodoxen Kirchen (1989/1990) halten fest: Es ist derselbe Glaube in verschiedener Terminologie.`,
+                  detail: `„Miaphysitisch" (von *mia physis*, „eine geeinte Natur") ist nicht „monophysitisch" (nur eine, göttliche Natur). Kyrill verwendet *physis* hier im Sinn von konkreter Wirklichkeit, nahe an „Hypostase"; die Chalcedonier verwendeten „zwei Naturen" für die bleibenden Eigentümlichkeiten von Gottheit und Menschheit. Beide wollen dasselbe sichern: ein Christus, wahrer Gott und wahrer Mensch. Severus von Antiochien betonte, dass in der einen Natur des fleischgewordenen Logos die Eigentümlichkeiten beider Wirklichkeiten unversehrt bleiben. Für das Gespräch mit Muslimen wichtig: Christen aller großen Traditionen – koptisch, östlich-orthodox, katholisch, evangelisch – bekennen gemeinsam, dass Jesus wahrer Gott und wahrer Mensch in einer Person ist. Der Streit von 451 betraf die Begriffe, mit denen man das ausdrückt, nicht die Gottheit Christi.`,
+                  voices: [
+                    { person: 'severus-antiochien', role: 'als Verteidiger der kyrillischen Formel', text: `Severus wies den Vorwurf der Vermischung zurück: Wer von der „einen fleischgewordenen Natur des Gott-Logos" spricht, sagt nicht, dass Gottheit und Menschheit zu etwas Drittem verschmolzen seien. Die Gottheit bleibt Gottheit, die Menschheit bleibt Menschheit, aber beide sind in einer einzigen, ungeteilten Wirklichkeit geeint – so wie Seele und Leib einen Menschen bilden, ohne ineinander überzugehen.` },
+                    { person: 'shenouda-iii', role: 'als Papst von Alexandrien', text: `Papst Schenuda III. erklärte in „Die Natur Christi", dass die koptische Kirche weder Nestorius noch Eutyches folgt. Die eine Natur des fleischgewordenen Logos ist eine Natur aus zwei Naturen, ohne Vermischung und ohne Trennung – vergleichbar mit Eisen, das im Feuer glüht, ohne aufzuhören, Eisen zu sein.` },
+                  ],
+                  sources: [
+                    { kind: 'koptisch', author: 'Papst Schenuda III.', work: 'Die Natur Christi (The Nature of Christ)', status: 'paraphrase' },
+                    { kind: 'konzil', work: 'Zweite gemeinsame Erklärung der Gemischten Kommission der orthodoxen und der orientalisch-orthodoxen Kirchen (Chambésy)', year: '1990', status: 'paraphrase', note: 'Beide Kirchenfamilien verwerfen die Lehren des Nestorius und des Eutyches und erkennen im jeweils anderen denselben christologischen Glauben.' },
+                  ],
+                  questionsBack: [
+                    `Sind sich die islamischen Rechtsschulen und theologischen Schulen in allen Formulierungen über Allah einig – und ist der Islam deshalb widerlegt?`,
+                    `Kennst du eine christliche Kirche, die lehrt, Jesus sei nur ein Mensch gewesen?`,
+                  ],
+                },
+              ],
             },
           ],
         },

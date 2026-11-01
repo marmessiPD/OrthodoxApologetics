@@ -82,7 +82,7 @@ const claim: Claim = {
           objectionBy: 'al-Qurtubi (zu 15:9), heute oft wiederholt',
           answer: `Das ist eine erbauliche Anekdote aus dem 9. Jahrhundert, überliefert im 13. – kein historischer Beleg über den Bibeltext. Christen erkennen Fälschungen genauso: Hieronymus und Origenes verglichen Handschriften und benannten Fehler, und heute vergleichen Textkritiker über 5.000 griechische Handschriften. Ein einzelner Händler, der getäuscht wird, sagt nichts über die Überlieferung in Tausenden Gemeinden.`,
           sources: [
-            { kind: 'hadith', author: 'al-Qurtubi', work: 'al-Jami\' li-ahkam al-Qur\'an', ref: 'zu 15:9', quote: `Anekdote um Yahya ibn Aktham und einen Juden, der gefälschte Abschriften der drei Schriften verkaufte; dazu die Deutung (Sufyan ibn Uyayna zugeschrieben), die Bewahrung der Tora sei Menschen übertragen (5:44), die des Korans habe Gott selbst übernommen (15:9).`, status: 'unverified', note: 'Nach verbreiteter Wiedergabe; Wortlaut und Überlieferer vor Verwendung prüfen.' },
+            { kind: 'hadith', author: 'al-Qurtubi', work: 'al-Jami\' li-ahkam al-Qur\'an', ref: 'zu 15:9', quote: `Anekdote um Yahya ibn Aktham und einen Juden, der gefälschte Abschriften der drei Schriften verkaufte; dazu die Deutung (Sufyan ibn Uyayna zugeschrieben), die Bewahrung der Tora sei Menschen übertragen (5:44), die des Korans habe Gott selbst übernommen (15:9).`, status: 'paraphrase', note: 'Inhalt bestätigt u. a. durch die Wiedergabe bei Mufti Muhammad Shafi\', Ma\'ariful Qur\'an (zu 15:9), der die Geschichte aus Qurtubis Kommentar übernimmt (Hof des Kalifen al-Ma\'mun; Erzähler Yahya ibn Aktham, Deutung durch Sufyan ibn Uyayna). Kein wörtliches Zitat.' },
           ],
           followUps: [
             {
@@ -91,6 +91,32 @@ const claim: Claim = {
               objectionBy: 'Muhammad Mustafa al-Azami',
               answer: `Die Kirche hatte etwas Vergleichbares: Seit dem 2. Jahrhundert wurden die Evangelien jeden Sonntag in jeder Gemeinde laut gelesen (Justin, 1 Apol 67), in Ägypten bald auf Koptisch, in Syrien auf Syrisch. Und mündliche Überlieferung schützt nicht vor Varianten – auch beim Koran gibt es verschiedene anerkannte Lesarten (Hafs, Warsch u. a.) und Berichte über verlorene Verse. Ob ein Text bewahrt ist, entscheiden die Handschriften, nicht die Methode.`,
               detail: `Siehe ausführlich Claim „Der Koran ist Buchstabe für Buchstabe perfekt bewahrt" im Topic „Der Koran auf dem Prüfstand".`,
+              followUps: [
+                {
+                  id: 'qiraat-sind-offenbarung',
+                  objection: `Die Lesarten sind keine Fehler, sondern alle vom Propheten selbst gelehrt. Der Koran wurde in sieben *aḥruf* offenbart (Sahih al-Bukhari 4992). Das ist geplante Vielfalt, keine Verderbnis.`,
+                  objectionBy: 'Yasir Qadhi',
+                  answer: `Dann gibst du zu, dass Textvielfalt und Bewahrung zusammengehen können – genau das sagen Christen über die Bibel. Aber es gibt einen Unterschied: Nach Sahih al-Bukhari 4987 ließ Uthman den Koran im Dialekt der Quraisch schreiben und alles andere verbrennen. Der große Kommentator at-Tabari folgerte daraus, dass von den sieben *aḥruf* nur einer übrig blieb. Wenn sechs von Gott offenbarte Formen verloren sind, ist „Buchstabe für Buchstabe bewahrt" schwer zu halten.`,
+                  detail: `Die heutigen zehn kanonischen Lesarten (*qirāʾāt*) gelten den meisten Gelehrten nicht als identisch mit den sieben *aḥruf*; die Lesarten wurden erst im 10. Jahrhundert durch Ibn Mujahid auf sieben begrenzt. Was die sieben *aḥruf* genau waren, ist unter muslimischen Gelehrten bis heute umstritten. Für die Debatte entscheidend: Die Bibel bewahrt ihre Varianten offen in den Handschriften – man kann sie prüfen. Beim Koran wurde ein Teil der Vielfalt durch Verbrennung beseitigt – man kann ihn nicht mehr prüfen.`,
+                  voices: [
+                    {
+                      person: 'keith-small',
+                      role: 'als Erforscher der Koranhandschriften',
+                      text: `Keith Small hat in „Textual Criticism and Qur'an Manuscripts" frühe Handschriften an ausgewählten Stellen verglichen. Sein Ergebnis: Der heutige Koran geht auf eine bewusst vereinheitlichte Textform zurück; das, was vor dieser Vereinheitlichung existierte, lässt sich nur noch bruchstückhaft rekonstruieren. Er unterscheidet zwischen der beeindruckenden Stabilität *nach* Uthman und der Frage, wie viel des ursprünglichen Bestands *durch* Uthman verloren ging.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Keith E. Small', work: 'Textual Criticism and Qur\'an Manuscripts', year: '2011', quote: `Der Korantext ist das Ergebnis einer bewussten Standardisierung; der ursprüngliche Textbestand lässt sich nicht vollständig wiederherstellen.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4992', quote: `Dieser Koran wurde in sieben Weisen (aḥruf) herabgesandt; so lest, was euch davon leicht fällt.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4992' },
+                    { kind: 'hadith', author: 'at-Tabari', work: 'Jami\' al-bayan (Einleitung)', quote: `Uthman vereinte die Gemeinde auf eine einzige der sieben Weisen; die übrigen wurden aufgegeben.`, status: 'paraphrase', note: 'Sinngemäß nach der Einleitung zu at-Tabaris Kommentar; die Deutung ist unter muslimischen Gelehrten umstritten.' },
+                  ],
+                  questionsBack: [
+                    `Wenn sechs der sieben offenbarten aḥruf nicht mehr gelesen werden – in welchem Sinn ist dann alles Offenbarte bewahrt?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -107,6 +133,28 @@ const claim: Claim = {
           objection: `Gott hätte die Bibel schützen können, aber er wollte es nicht – sie war nur für eine begrenzte Zeit bestimmt.`,
           objectionBy: 'Yasir Qadhi',
           answer: `Dann war sie zur Zeit Mohammeds noch in Kraft: Der Koran befiehlt den Christen, nach ihr zu richten (5:47), und sagt, sie hätten ihn „bei sich aufgeschrieben" (7:157). Ein Verfall kann also frühestens nach 632 eingesetzt haben – und dagegen stehen alle Handschriften vor und nach dieser Zeit, die denselben Inhalt haben.`,
+          followUps: [
+            {
+              id: 'verfaelschung-nach-632',
+              objection: `Dann eben nach 632: In den Jahrhunderten danach hatten Mönche und Kirchenführer genug Zeit, die Texte anzupassen – zum Beispiel, um sich gegen den Islam abzugrenzen.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Wir besitzen vollständige Bibeln aus dem 4. und 5. Jahrhundert – Codex Sinaiticus, Vaticanus und Alexandrinus – sowie die syrische Peschitta und koptische Übersetzungen aus der Zeit vor Mohammed. Man kann den Text nach 632 direkt mit dem vor 610 vergleichen: Er ist in allen Glaubensfragen derselbe. Außerdem war die Christenheit 632 in Kirchen gespalten, die einander als Häretiker betrachteten – Kopten, Byzantiner, Syrer, die Kirche des Ostens, Äthiopier, Armenier. Eine gemeinsame Fälschung über alle Grenzen hinweg ist historisch ausgeschlossen.`,
+              detail: `Die Kirche des Ostens (sog. Nestorianer) und die Kopten verurteilten einander; Byzanz verfolgte zeitweise die Miaphysiten. Hätte eine dieser Kirchen den Text geändert, hätten die anderen es sofort angeprangert – so wie die Kirchenväter jede Textänderung der Häretiker (etwa Markions verkürzte Bibel) öffentlich anprangerten. Stattdessen haben alle diese Kirchen dieselben Evangelien mit Kreuzigung, Auferstehung und Gottessohnschaft.`,
+              voices: [
+                {
+                  person: 'metzger',
+                  role: 'als Textkritiker und Erforscher der frühen Übersetzungen',
+                  text: `Metzger hat die frühen Übersetzungen des Neuen Testaments – syrisch, koptisch, lateinisch, gotisch, armenisch, äthiopisch – systematisch untersucht. Sie entstanden in verschiedenen Kirchen und Sprachen, unabhängig voneinander, und bezeugen denselben Text. Für die Frage einer späten Verfälschung sind sie entscheidend: Sie bilden ein Netz von Zeugen, das keine einzelne Autorität hätte gleichschalten können.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Bruce M. Metzger', work: 'The Early Versions of the New Testament: Their Origin, Transmission, and Limitations', year: '1977', quote: `Die frühen Übersetzungen sind unabhängige Zeugen des neutestamentlichen Textes.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [
+                `Welche Stelle wurde nach 632 geändert – und warum zeigen Codex Sinaiticus und Vaticanus aus dem 4. Jahrhundert denselben Inhalt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -124,6 +172,34 @@ const claim: Claim = {
           sources: [
             { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4987', quote: `Uthman sandte in jede Provinz eine Abschrift und befahl, alles andere Koranmaterial, ob Fragment oder vollständige Abschrift, zu verbrennen.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4987' },
           ],
+          followUps: [
+            {
+              id: 'uthman-nur-dialekte',
+              objection: `Uthman hat nur Dialektunterschiede in der Aussprache vereinheitlicht, nicht den Inhalt. Das ist etwas ganz anderes als eine Textänderung.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Wenn es nur um Aussprache ging – warum mussten dann ganze Abschriften verbrannt werden, auch die von Gefährten, die der Prophet selbst als Lehrer empfohlen hatte? Nach Sahih al-Bukhari 4999 sagte er: „Lernt den Koran von vier", an erster Stelle Abdallah ibn Mas'ud. Dessen Kodex unterschied sich nach frühen Berichten in Wortlaut und Umfang – nach Sahih al-Bukhari 4977 zählte er die beiden Schutzsuren (113 und 114) nicht zum Koran. Das sind keine Dialektfragen.`,
+              detail: `Die Christen haben einen anderen Weg gewählt: Abweichende Handschriften wurden nicht vernichtet, sondern weiter abgeschrieben. Deshalb kann man heute jede Variante prüfen. Beim Koran lässt sich der Inhalt der verbrannten Kodizes nur noch aus späteren Berichten (gesammelt z. B. in Ibn Abi Dawuds *Kitab al-Masahif*) erahnen. Die Vernichtung der Alternativen erklärt die spätere Einheitlichkeit – sie beweist nicht die ursprüngliche.`,
+              sources: [
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4999', quote: `Lernt den Koran von vier: von Abdallah ibn Mas'ud, Salim, Mu'adh und Ubayy ibn Ka'b.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4999' },
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '4977', quote: `Zirr fragte Ubayy ibn Ka'b nach den beiden Schutzsuren, weil Ibn Mas'ud dazu etwas Bestimmtes sagte.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:4977', note: 'Die Einzelheiten (Ibn Mas\'ud habe sie nicht in seinen Kodex geschrieben) überliefert u. a. Musnad Ahmad.' },
+              ],
+              questionsBack: [
+                `Wenn Ibn Mas'ud vom Propheten als Lehrer des Korans empfohlen wurde – warum wurde sein Kodex verbrannt?`,
+              ],
+              followUps: [
+                {
+                  id: 'ibn-masud-stimmte-zu',
+                  objection: `Ibn Mas'ud hat seinen Widerstand später aufgegeben und Uthmans Text akzeptiert. Die Gefährten waren sich am Ende einig – das ist der Konsens (*ijmāʿ*).`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Die Berichte darüber sind uneinheitlich. Sicher belegt ist sein Protest: Nach Jami' at-Tirmidhi 3104 klagte er, man habe ihn von der Abschrift ausgeschlossen und einen Mann damit betraut, der noch „in den Lenden eines Ungläubigen" war, als er selbst schon Muslim war – und az-Zuhri fügt hinzu, dass angesehene Gefährten seine Haltung missbilligten. Seine Lesart wurde in Kufa noch lange überliefert. Doch selbst wenn er zustimmte: Die Frage ist nicht, ob man sich einigte, sondern was in den verbrannten Kodizes stand – und das kann heute niemand mehr prüfen.`,
+                  detail: `Hier liegt der Kern des Vergleichs: Beim Neuen Testament gibt es keinen „Uthman-Moment". Niemand hatte die Macht, alle Handschriften einzusammeln. Deshalb ist die Bibel mit ihren Varianten *überprüfbar*, der uthmanische Koran in seiner Vorgeschichte nur *glaubbar*.`,
+                  sources: [
+                    { kind: 'hadith', work: 'Jami\' at-Tirmidhi', ref: '3104', quote: `Ibn Mas'ud: Ich werde von der Abschrift der Mushafe ausgeschlossen, und damit wird ein Mann betraut, der, bei Gott, noch in den Lenden eines Ungläubigen war, als ich Muslim wurde.`, status: 'paraphrase', url: 'https://sunnah.com/tirmidhi:3104', note: 'Teil eines längeren Berichts über die uthmanische Sammlung; Darussalam stuft ihn als sahih ein.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -133,6 +209,66 @@ const claim: Claim = {
       objectionBy: 'Mohammed Hijab',
       answer: `Gott bewahrt sein Wort *durch* die Fülle der Abschriften – gerade weil es so viele gibt, kann man jeden Fehler erkennen und den ursprünglichen Text mit großer Sicherheit rekonstruieren. Bewahrung heißt nicht, dass kein Schreiber je einen Fehler macht. Auch für den Koran gibt es Handschriften mit Korrekturen und abweichenden Lesarten; der Unterschied ist, dass beim Koran die Vielfalt früh durch Verbrennung beseitigt wurde.`,
       detail: `Siehe die Claims „Die Bibel hat 400.000 Textvarianten" und „Der Koran ist Buchstabe für Buchstabe perfekt bewahrt".`,
+      followUps: [
+        {
+          id: 'birmingham-beweist-bewahrung',
+          objection: `Das Birmingham-Fragment ist nach der Radiokarbonmethode auf 568–645 datiert – also auf die Zeit des Propheten. Sein Text ist mit unserem Koran identisch. Damit ist die Bewahrung bewiesen.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Das Birmingham-Fragment ist ein wichtiger Fund, und ich gestehe gern zu: Es zeigt, dass der uthmanische Konsonantentext sehr früh existierte. Aber es umfasst nur Teile von drei Suren. Und andere frühe Handschriften zeigen etwas anderes: Der untere Text des Sanaa-Palimpsests (Codex Sanaa 1) gehört nach der Analyse von Sadeghi und Goudarzi zu einer *nicht-uthmanischen* Textform – mit abweichenden Wörtern und Wortfolgen. Ein frühes Fragment, das zum heutigen Text passt, beweist nicht, dass es keine anderen Textformen gab.`,
+          detail: `Radiokarbondaten geben das Alter des Pergaments an, nicht den Zeitpunkt der Beschriftung; die große Spanne 568–645 reicht bis in die Zeit vor Mohammeds Berufung. Daniel Brubaker hat außerdem gezeigt, dass frühe Koranhandschriften zahlreiche Korrekturen enthalten – Rasuren, Einfügungen, Überschreibungen –, mit denen ältere Lesungen an den späteren Standardtext angepasst wurden. Christen müssen das nicht abwerten: Auch der Koran hat, wie jedes Buch, eine Überlieferungsgeschichte. Nur ist dann die Behauptung, der Koran sei einzigartig unverändert, die Bibel aber verfälscht, nicht mehr haltbar.`,
+          voices: [
+            {
+              person: 'daniel-brubaker',
+              role: 'als Erforscher von Korrekturen in Koranhandschriften',
+              text: `Brubaker dokumentiert in „Corrections in Early Qur'an Manuscripts" Hunderte Stellen in frühen Handschriften, an denen der Text nachträglich verändert wurde – meist, um ihn an die spätere Standardform anzugleichen. Er zieht daraus kein polemisches Urteil, sondern ein historisches: Der Koran hat wie jeder antike Text eine Geschichte der Überlieferung, und diese Geschichte ist sichtbar.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Daniel Alan Brubaker', work: 'Corrections in Early Qur\'an Manuscripts: Twenty Examples', year: '2019', quote: `Frühe Koranhandschriften enthalten zahlreiche nachträgliche Korrekturen, die oft eine Angleichung an den Standardtext zeigen.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'fachliteratur', author: 'Behnam Sadeghi, Mohsen Goudarzi', work: 'Ṣanʿāʾ 1 and the Origins of the Qurʾān', ref: 'Der Islam 87 (2012), S. 1–129', year: '2012', quote: `Der untere Text des Palimpsests gehört zu einer nicht-uthmanischen Textform (C-1) mit eigenen Varianten.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Wenn das Sanaa-Palimpsest einen nicht-uthmanischen Text hat: Welcher der beiden Texte ist der ursprünglich offenbarte?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'jesaja-40-8-gebrochen',
+      objection: `Eure Bibel verspricht doch selbst: „Das Wort unseres Gottes bleibt ewiglich" (Jes 40,8). Und trotzdem müsst ihr zugeben, dass der Markusschluss und die Ehebrecherin-Geschichte später hinzugefügt wurden. Also hat euer Gott sein Versprechen gebrochen – oder ihr glaubt an einen Text, den es nicht gibt.`,
+      objectionBy: 'Paul Williams (Blogging Theology)',
+      answer: `Das Versprechen ist gehalten – und zwar genau dadurch, dass wir es *wissen*. Mk 16,9–20 und Joh 7,53–8,11 sind keine verlorenen Teile, sondern Stellen, die in den ältesten Handschriften fehlen; dass sie hinzugekommen sind, wissen wir, weil der ursprüngliche Text daneben erhalten blieb. Nichts Ursprüngliches ist verloren, es ist eher zu viel als zu wenig überliefert. Und keine Glaubenslehre hängt an diesen Stellen.`,
+      detail: `Bewahrung im christlichen Sinn heißt: Der ursprüngliche Wortlaut ist in der Gesamtheit der Überlieferung vorhanden und rekonstruierbar. Die Bibeln der Kirche kennzeichnen diese Stellen offen (in vielen Ausgaben durch Klammern oder Anmerkungen). Das ist das Gegenteil von Verfälschung: Eine Kirche, die fälschen wollte, hätte die Spuren beseitigt. Die orthodoxen Kirchen haben beide Abschnitte als alte, ehrwürdige Überlieferung behalten; ihren ursprünglichen Platz im Text diskutiert die Forschung offen.`,
+      sources: [
+        { kind: 'bibel', work: 'Jesaja', ref: '40,8', quote: `Das Gras verdorrt, die Blume verwelkt; aber das Wort unsres Gottes bleibt ewiglich.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Woher weißt du, dass Mk 16,9–20 später ist? – Doch nur, weil die älteren Handschriften erhalten sind. Was sagt das über die Bewahrung?`,
+      ],
+      followUps: [
+        {
+          id: 'woher-weisst-du-nichts-verloren',
+          objection: `Woher willst du wissen, dass nicht etwas Ursprüngliches verloren ging, das in *keiner* erhaltenen Handschrift mehr steht? Wir haben ja keine Originale – das sagt auch Bart Ehrman.`,
+          objectionBy: 'Paul Williams (Blogging Theology), nach Bart Ehrman',
+          answer: `Weil die Überlieferung des Neuen Testaments so breit und früh ist wie bei keinem anderen antiken Buch: über 5.000 griechische Handschriften, frühe Übersetzungen in viele Sprachen und Zehntausende Zitate bei den Kirchenvätern. Textforscher sprechen von der „Zähigkeit" der Überlieferung: Eine einmal entstandene Lesart verschwindet kaum wieder – also auch nicht die ursprüngliche. Selbst Ehrman räumt ein, dass die Forschung bei den allermeisten Stellen den ursprünglichen Text mit großer Sicherheit kennt.`,
+          detail: `Kurt und Barbara Aland haben dieses Prinzip als „Tenazität" der neutestamentlichen Überlieferung beschrieben. In der Praxis muss die neutestamentliche Textkritik fast nie zu reinen Vermutungen (Konjekturen) greifen, weil sich der ursprüngliche Text fast immer in irgendeinem Überlieferungsstrang erhalten hat. Für Werke wie die Tragödien des Sophokles oder die Annalen des Tacitus ist das ganz anders – und niemand hält sie deshalb für „verloren".`,
+          voices: [
+            {
+              person: 'wallace',
+              role: 'als Textkritiker',
+              text: `Wallace betont, dass die Fülle der Varianten ein Zeichen der Fülle der Handschriften ist. Der Textkritiker hat eher zu viel als zu wenig Material; die ursprüngliche Lesart ist in aller Regel unter den erhaltenen Lesarten zu finden. Die echten Unsicherheiten betreffen eine überschaubare Zahl von Stellen, und keine davon stellt eine zentrale Lehre infrage.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Daniel B. Wallace (Hg.)', work: 'Revisiting the Corruption of the New Testament', year: '2011', quote: `Die Varianten spiegeln den Reichtum der Überlieferung; der ursprüngliche Text ist fast immer unter den erhaltenen Lesarten.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'fachliteratur', author: 'Kurt Aland, Barbara Aland', work: 'Der Text des Neuen Testaments', year: '2. Aufl. 1989', quote: `Die Überlieferung des Neuen Testaments zeichnet sich durch große Zähigkeit (Tenazität) aus: Einmal aufgetretene Lesarten halten sich.`, status: 'paraphrase' },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [

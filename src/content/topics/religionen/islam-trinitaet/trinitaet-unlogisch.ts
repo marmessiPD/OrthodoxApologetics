@@ -148,6 +148,19 @@ Der logische Schlüssel liegt darin, dass „ein" und „drei" sich auf **versch
           objection: `Wenn es keine Analogie gibt, dann kann man es auch nicht verstehen. Und was man nicht verstehen kann, kann man nicht glauben.`,
           objectionBy: 'Zakir Naik',
           answer: `Man kann verstehen, **was** behauptet wird – ein Wesen, drei Hypostasen –, ohne zu verstehen, **wie** es in Gott ist. Das gilt für jede Rede über Gott: Du verstehst, was „Allah ist ewig" bedeutet, aber nicht, wie Ewigkeit von innen ist. Glauben setzt Verstehen des Gehalts voraus, nicht Durchschauen des Wesens.`,
+          followUps: [
+            {
+              id: 'christen-uneinig-ueber-modelle',
+              objection: `Eure eigenen Philosophen sind sich nicht einig: soziale Trinität, lateinische Trinität, relative Identität – jeder wirft dem anderen Tritheismus oder Modalismus vor. Wenn nicht einmal eure Experten erklären können, was ihr glaubt, ist das ein Zeichen, dass es inkohärent ist.`,
+              objectionBy: 'Mohammed Hijab',
+              answer: `Über das Dogma ist die Kirche sich einig: ein Wesen, drei Hypostasen – gegen Arius, gegen Sabellius, gegen den Tritheismus. Uneinig sind Philosophen über Modelle, wie man das in moderner analytischer Sprache am besten ausdrückt. Das ist bei euch nicht anders: Athari, Asch'ari und Maturidi streiten seit über tausend Jahren, wie sich Allahs Eigenschaften zu seinem Wesen verhalten – und niemand schließt daraus, der Tauhid sei inkohärent. Ein Streit über Erklärungsmodelle widerlegt nicht die erklärte Sache.`,
+              detail: `Innerislamisch wurde um Fragen wie die „innere Rede" (*kalām nafsī*), Allahs Sitzen auf dem Thron (*istiwāʾ*) oder die Frage, ob die Eigenschaften „zum Wesen hinzukommen", heftig gestritten; die Parteien warfen einander „Vermenschlichung" (*tašbīh*) oder „Entleerung" (*taʿṭīl*) Gottes vor. Das zeigt: Jede ernsthafte Rede über einen transzendenten Gott stößt an die Grenzen menschlicher Begriffe. Die koptische Kirche bindet sich an kein modernes Modell. Sie hält mit Athanasius, den Kappadokiern und Kyrill die Grenzen fest – was man nicht sagen darf (drei Götter; der Vater ist der Sohn; der Sohn ist ein Geschöpf) – und bekennt im Übrigen demütig, dass Gottes Wesen unser Begreifen übersteigt.`,
+              questionsBack: [
+                `Sind Asch'aris und Atharis sich einig, wie Allahs Eigenschaften sich zu seinem Wesen verhalten? Ist der Tauhid deshalb inkohärent?`,
+                `Unterscheidest du zwischen einer Lehre und den Modellen, die sie erklären wollen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -162,6 +175,100 @@ Der logische Schlüssel liegt darin, dass „ein" und „drei" sich auf **versch
           objection: `Begriffe wie „Usia" und „Hypostase" stammen aus der griechischen Philosophie. Das Christentum wurde hellenisiert.`,
           objectionBy: 'Shabir Ally',
           answer: `Die Begriffe wurden benutzt, um eine bereits geglaubte Wirklichkeit gegen Missverständnisse abzugrenzen – die Väter haben sie dabei umgeprägt. Auch die islamische Theologie (Kalam) übernahm griechische Begriffe wie Substanz (*ǧauhar*) und Akzidens (*ʿaraḍ*), ohne dass man deshalb den Islam „hellenisiert" nennt. Die Anbetung Jesu ist zudem viel älter als jede Philosophie: Sie ist schon in den Paulusbriefen der 50er Jahre belegt.`,
+          followUps: [
+            {
+              id: 'konstantin-nizaea-politik',
+              objection: `Die Gottheit Jesu wurde 325 in Nizäa von Kaiser Konstantin durchgesetzt – durch Abstimmung und politischen Druck. Vorher war Jesus für die meisten Christen ein Gesandter Gottes.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `Nizäa hat die Gottheit Christi nicht erfunden, sondern gegen Arius verteidigt. Schon um 110 nennt Ignatius von Antiochien Jesus „unseren Gott" (Eph 18,2), und um 112 berichtet der Heide Plinius, Christen sängen Christus „wie einem Gott" Lieder. Und wäre es Politik gewesen: Kurz nach Nizäa begünstigten Konstantin und sein Sohn Constantius die Arianer; Athanasius wurde fünfmal verbannt. Die nizänische Lehre setzte sich gegen die kaiserliche Macht durch, nicht durch sie.`,
+              detail: `Arius selbst hielt den Sohn für das erste und höchste Geschöpf, durch das Gott die Welt schuf – also für weit mehr als einen Propheten; auch er betete Christus an. Gerade daran setzte Athanasius an: Wenn der Sohn ein Geschöpf ist, dann ist seine Anbetung Götzendienst – die Kirche aber hat ihn immer angebetet und auf seinen Namen getauft. Konstantin ließ sich am Ende seines Lebens (337) von Eusebius von Nikomedien taufen, einem Wortführer der Arianer; unter Constantius beherrschten arianisch gesinnte Synoden die Lage, und Hieronymus spottete später, der Erdkreis habe aufgeseufzt und sich gewundert, dass er arianisch sei. Athanasius, der Papst von Alexandrien, hielt „gegen die Welt" am Nizänum fest. Mehr dazu im Claim „Die Trinität wurde in Nizäa erfunden".`,
+              voices: [
+                { person: 'athanasius', role: 'als Verteidiger von Nizäa', text: `Für Athanasius entscheidet nicht eine Abstimmung, sondern die Praxis der Kirche seit den Aposteln: Christen werden auf den Namen des Vaters, des Sohnes und des Geistes getauft und beten den Sohn an. Wäre der Sohn ein Geschöpf, dann hätte die Kirche von Anfang an ein Geschöpf angebetet und wäre götzendienerisch gewesen. Außerdem kann nur Gott selbst den Menschen mit Gott verbinden – ein geschaffener Mittler könnte das Heil nicht bringen.` },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Ignatius von Antiochien', work: 'Brief an die Epheser', ref: '18,2', year: 'ca. 110', quote: `Denn unser Gott, Jesus der Christus, wurde von Maria im Schoß getragen …`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'Buch I–III', year: 'ca. 339–345', status: 'paraphrase', note: 'Argument aus der Anbetung und der Taufe.' },
+              ],
+              questionsBack: [
+                `Wenn Konstantin die Gottheit Jesu durchgesetzt hat – warum ließ er sich dann von einem Arianer taufen und verbannte Athanasius?`,
+                `Welche Quelle vor 325 kennst du, die einen Jesus bezeugt, den die Christen nicht anbeteten?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'hypostase-leeres-wort',
+      objection: `Ihr sagt „ein Wesen, drei Personen", aber ihr könnt nicht definieren, was eine „Person" in Gott ist. Ist es ein eigenes Bewusstsein? Dann sind es drei Götter. Ist es keines? Dann ist es keine Person. Das Wort ist leer.`,
+      objectionBy: 'Hamza Tzortzis',
+      answer: `Die Kirche definiert Hypostase sehr genau: das konkrete, unterscheidbare Subjekt, das das ganze göttliche Wesen besitzt – unterschieden allein durch die Ursprungsbeziehungen: Der Vater ist ungezeugt, der Sohn gezeugt, der Geist geht vom Vater hervor. Alles andere – Wissen, Macht, Wille, Ewigkeit – haben sie gemeinsam, nicht dreifach. Es gibt also nicht drei göttliche Leben nebeneinander, sondern ein göttliches Leben, das der Vater als Quelle, der Sohn als Gezeugter und der Geist als Hervorgehender besitzt.`,
+      detail: `Gregor von Nazianz erklärt in seinen Theologischen Reden, „Vater" sei weder ein Name des Wesens noch der Tätigkeit, sondern der Beziehung (*schesis*). Johannes von Damaskus fasst die Lehre der Väter zusammen: Die drei Hypostasen sind in allem eins außer im Ungezeugtsein, im Gezeugtsein und im Hervorgehen. Die Kappadokier unterschieden dafür Usia (das Gemeinsame) und Hypostase (das Eigene). Der moderne Begriff „Person" im Sinne eines abgeschlossenen, eigenständigen Bewusstseinszentrums ist jünger als das Dogma; wer ihn in das Nizänum hineinliest und dann „drei Götter" folgert, widerlegt seine eigene Begriffsverschiebung, nicht die Lehre der Kirche. Zugleich sind die Hypostasen keine bloßen Masken: Der Sohn spricht zum Vater, der Vater sendet den Sohn – echte Beziehung in einem Wesen.`,
+      voices: [
+        { person: 'gregor-nazianz', role: 'als „der Theologe" der Trinität', text: `Gregor betont, dass die Namen Vater, Sohn und Geist Beziehungen bezeichnen, nicht drei Wesen. Der Vater ist Vater, weil er den Sohn ewig zeugt; der Sohn ist Sohn, weil er ewig gezeugt wird; der Geist geht ewig vom Vater aus. Was die drei gemeinsam haben, ist die eine Gottheit; was sie unterscheidet, ist allein die Weise ihres Ursprungs.` },
+        { person: 'johannes-damaskus', role: 'als Systematiker der Väterlehre', text: `Johannes von Damaskus, der unter muslimischer Herrschaft schrieb und den Islam kannte, fasst die Trinitätslehre in seiner „Darlegung des orthodoxen Glaubens" präzise zusammen: Die Hypostasen sind ineinander, ohne Vermischung, und unterscheiden sich nur durch ihre Eigentümlichkeiten – Ungezeugtsein, Gezeugtsein, Hervorgang. Alles, was der Vater hat, hat auch der Sohn, außer dem Vatersein.` },
+      ],
+      sources: [
+        { kind: 'kirchenvater', author: 'Gregor von Nazianz', work: 'Theologische Reden (Rede 29 = Dritte theologische Rede)', ref: '29,16', year: '380', status: 'paraphrase', note: '„Vater" als Name der Beziehung, nicht des Wesens oder der Tätigkeit.' },
+        { kind: 'kirchenvater', author: 'Johannes von Damaskus', work: 'Darlegung des orthodoxen Glaubens (Expositio fidei)', ref: 'I,8', year: '8. Jh.', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `In welchem Text der Väter hast du die Definition von Hypostase gelesen, die du für leer hältst?`,
+        `Benutzt du „Person" im modernen Sinn eines abgeschlossenen Bewusstseins – und wenn ja, warum soll das Nizänum diesen Sinn meinen?`,
+      ],
+      followUps: [
+        {
+          id: 'gott-waere-zusammengesetzt',
+          objection: `Dann ist Gott zusammengesetzt: ein Wesen plus drei Unterscheidungsmerkmale. Alles Zusammengesetzte hängt von seinen Teilen ab, und was abhängig ist, ist nicht notwendig – also nicht Gott.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Die Hypostasen sind keine Teile, aus denen Gott zusammengesetzt würde; jede ist das ganze Wesen, nicht ein Drittel davon. Eine Beziehung ist kein Baustein. Und dasselbe Argument trifft die sunnitische Lehre: Wenn Allah ewiges Wissen, ewige Macht und ewige Rede hat, die „weder Er noch etwas anderes als Er" sind, müsstest du nach deiner Logik auch Allah zusammengesetzt und abhängig nennen – genau das warfen die Mu'tazila den Sunniten vor. Ein Argument, das deinen eigenen Glauben mitwiderlegt, kannst du nicht nur gegen uns richten.`,
+          detail: `Das Argument aus der Einfachheit Gottes stammt aus der Philosophie (Ibn Sina) und wurde von den Mu'tazila gegen die sunnitische Eigenschaftslehre gewendet. Die Asch'ariten antworteten: Die Eigenschaften sind keine abtrennbaren Teile und nicht „etwas anderes" im Sinn eines zweiten Seienden. Die arabisch-christlichen Theologen des 9. Jahrhunderts – Abu Ra'ita, Abu Qurra, später Yahya ibn Adi – haben genau diese Parallele in die Debatte eingebracht. Für die koptische Theologie ist zudem wichtig: Die Einheit Gottes gründet nicht in einer Summe, sondern im Vater als der einen Quelle (*archē*), aus der Sohn und Geist ewig hervorgehen. Es gibt einen Willen, eine Wirkung, eine Herrlichkeit.`,
+          voices: [
+            { person: 'abu-raita', role: 'als syrisch-orthodoxer Theologe im Gespräch mit dem Kalam', text: `Abu Ra'ita fragte seine muslimischen Gesprächspartner, wie sie Gottes Leben und Wissen von seinem Wesen unterscheiden, ohne eine Vielheit einzuführen. Ob sie die Eigenschaften mit dem Wesen gleichsetzen oder davon abheben – sie stehen vor derselben Frage wie die Christen. Die Trinitätslehre beantwortet diese Frage nach seiner Darstellung folgerichtig: ein Wesen, in dem reale, ewige Unterscheidungen bestehen, ohne dass es geteilt wird.` },
+          ],
+          sources: [
+            { kind: 'fachliteratur', author: 'Sidney H. Griffith', work: 'The Church in the Shadow of the Mosque', year: '2008', status: 'paraphrase', note: 'Zur Trinitätsapologetik Abu Ra\'itas, Abu Qurras und Ammar al-Basris im Gespräch mit der Eigenschaftslehre des Kalam.' },
+          ],
+          questionsBack: [
+            `Ist Allahs Wissen ein Teil von Allah? Wenn nein – warum sollen die Hypostasen Teile sein?`,
+            `Hältst du die sunnitische Eigenschaftslehre für Zusammensetzung, wie die Mu'tazila es taten?`,
+          ],
+          followUps: [
+            {
+              id: 'sohn-abhaengig-vom-vater',
+              objection: `Wenn der Sohn vom Vater „gezeugt" ist und der Vater die „Quelle" ist, dann ist der Sohn abhängig vom Vater. Ein abhängiges Wesen ist nicht Gott. Ihr habt einen Gott erster und einen Gott zweiter Klasse.`,
+              objectionBy: 'Hamza Tzortzis',
+              answer: `Abhängigkeit im Sinne deines Kontingenzarguments hieße: Der Sohn hätte auch nicht sein können, oder es gab einen Moment ohne ihn. Beides verneint die Kirche. Die Zeugung ist ewig und notwendig – so wie Licht nie ohne seinen Glanz ist (Hebr 1,3). Der Sohn empfängt vom Vater nicht ein geringeres, sondern dasselbe Wesen: „Gott von Gott, Licht vom Licht". Ursprung ohne zeitlichen Anfang und ohne Rangunterschied ist keine Kontingenz.`,
+              detail: `Athanasius argumentiert gegen die Arianer: Gott ist Quelle des Lichts; eine Quelle, die nicht strömt, wäre ausgetrocknet, und ein Licht ohne Glanz wäre kein Licht. Also war der Vater nie ohne sein Wort und seine Weisheit – sonst wäre Gott einmal „wortlos" (*alogos*) gewesen. Kontingent ist, was auch nicht sein könnte; der Sohn aber ist, weil der Vater notwendig und ewig Vater ist. Das „Der Vater ist größer als ich" (Joh 14,28) bezieht sich nach den Vätern auf den Ursprung bzw. auf die angenommene Menschheit, nicht auf ein größeres Wesen (vgl. den Claim „Der Vater ist größer").`,
+              voices: [
+                { person: 'athanasius', role: 'als Verteidiger der ewigen Zeugung', text: `Athanasius zeigt, dass „Vater" und „Sohn" Wechselbegriffe sind: Wenn Gott ewig Vater ist, ist der Sohn ewig Sohn. Ein Gott, der erst später Vater wird, hätte sich verändert – und Veränderung widerspricht Gottes Wesen. Darum ist die ewige Zeugung keine Herabsetzung des Sohnes, sondern Ausdruck der unveränderlichen Fülle Gottes.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '1,3', quote: `Er ist der Abglanz seiner Herrlichkeit und das Abbild seines Wesens.`, original: `ὃς ὢν ἀπαύγασμα τῆς δόξης καὶ χαρακτὴρ τῆς ὑποστάσεως αὐτοῦ`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Orationes contra Arianos)', ref: 'Buch I', year: 'ca. 339–345', status: 'paraphrase', note: 'Bild von Quelle und Strom, Licht und Glanz; der Vater war nie ohne sein Wort.' },
+              ],
+              followUps: [
+                {
+                  id: 'immunisierung-unfalsifizierbar',
+                  objection: `Ihr macht euch unangreifbar: Jedes Mal, wenn man euch einen Widerspruch zeigt, sagt ihr „keine Teile", „kein eigenes Bewusstsein", „keine Abhängigkeit". Eine Lehre, die man gegen alles immunisieren kann, sagt am Ende gar nichts.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Im Gegenteil: Die Trinitätslehre schließt sehr viel aus und wäre leicht zu widerlegen, wenn wir drei Götter lehrten, wenn wir sagten, der Vater sei der Sohn, oder wenn der Sohn ein Geschöpf wäre – genau diese Thesen hat die Kirche ausdrücklich verurteilt. Dass die Lehre deine Vorwürfe übersteht, liegt nicht an Immunisierung, sondern daran, dass die Vorwürfe sie falsch wiedergeben. Wer einen logischen Widerspruch behauptet, muss aus unseren Bekenntnissen „A und nicht-A in derselben Hinsicht" ableiten. Das ist bisher niemandem gelungen.`,
+                  detail: `Die Beweislast liegt beim Kritiker: Er behauptet nicht nur „unwahrscheinlich", sondern „logisch unmöglich". Der Christ muss dafür nicht erklären, *wie* Gott dreieinig ist; er muss nur zeigen, dass die Lehre widerspruchsfrei formulierbar ist. Analytische Religionsphilosophen haben dafür Modelle vorgelegt – etwa Jeffrey Brower und Michael Rea mit der „numerischen Gleichheit ohne Identität", die aus der Metaphysik der materiellen Konstitution bekannt ist, oder Richard Swinburne mit seinem sozialen Modell. Solche Modelle sind Hilfen, kein Dogma – aber sie zeigen: Der Vorwurf des Widerspruchs ist nicht bewiesen. Und Achtung, fair bleiben: Diese Modelle sind auch unter Christen umstritten; benutze sie nur, um die Widerspruchsfreiheit zu zeigen, nicht als Beschreibung von Gottes innerem Wesen.`,
+                  voices: [
+                    { person: 'michael-rea', role: 'als analytischer Religionsphilosoph', text: `Rea hat zusammen mit Jeffrey Brower vorgeschlagen, die Trinität nach dem Muster der „numerischen Gleichheit ohne Identität" zu denken: Eine Bronzestatue und das Stück Bronze, aus dem sie besteht, sind nicht identisch (sie haben verschiedene Bedingungen ihres Fortbestehens), und doch zählt man nicht zwei materielle Dinge. Analog können Vater, Sohn und Geist voneinander verschieden und doch ein Gott sein. Damit, so Rea, ist der Vorwurf eines logischen Widerspruchs zurückgewiesen – auch wenn das Geheimnis bleibt.` },
+                  ],
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Jeffrey E. Brower / Michael C. Rea', work: 'Material Constitution and the Trinity', ref: 'Faith and Philosophy 22', year: '2005', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Christian God', year: '1994', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Kannst du aus dem Nizänum zwei Sätze zitieren, die sich in derselben Hinsicht widersprechen?`,
+                    `Was genau müsste die Kirche lehren, damit du von einem echten Widerspruch sprechen würdest – und lehrt sie das?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

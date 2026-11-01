@@ -98,6 +98,38 @@ const claim: Claim = {
           objectionBy: 'verbreiteter Einwand',
           answer: `Dann gibst du zu, dass das Buch verändert wurde – mit welchem Recht behauptest du dann, ausgerechnet der Rest sei echt? Außerdem ist das Jubeljahr nicht der einzige Fehler: Pilatus bei Jesu Geburt, das Schiff nach Nazareth, die Ablehnung des Messias-Titels. Und es gibt keine einzige ältere Handschrift, die einen „Kern" ohne diese Fehler zeigt.`,
           detail: `Wer bei der Bibel 5.000 Handschriften für „unzuverlässig" erklärt, kann nicht ein Buch mit zwei späten Handschriften und ohne jede frühe Bezeugung für das wahre Evangelium halten.`,
+          followUps: [
+            {
+              id: 'italienisch-nur-uebersetzung',
+              objection: `Die italienische Handschrift ist doch nur eine späte Übersetzung. Das Original kann aramäisch oder hebräisch gewesen sein – die Fehler stammen vom Übersetzer.`,
+              objectionBy: 'Muhammad Ata ur-Rahim',
+              answer: `Für ein aramäisches Original gibt es keine Spur – keine Handschrift, kein Zitat, keine Erwähnung. Der italienische Text dagegen trägt die Handschrift seiner Entstehungszeit: Er enthält Anklänge an Dantes „Göttliche Komödie" (etwa die Wendung von den „falschen und lügnerischen Göttern"), setzt das mittelalterliche Jubeljahr voraus und spiegelt Verhältnisse des spätmittelalterlichen Europa. Ein Übersetzer übersetzt – er dichtet nicht Dante und päpstliche Jubeljahre in einen Text des 1. Jahrhunderts hinein.`,
+              detail: `Die italienische Handschrift liegt heute in der Österreichischen Nationalbibliothek in Wien (aus dem Besitz des Prinzen Eugen von Savoyen); Lonsdale und Laura Ragg haben sie 1907 in Oxford ediert und übersetzt. Eine spanische Fassung, lange verschollen, wurde in den 1970er-Jahren in Sydney wiederentdeckt. Die Forschung datiert das Werk überwiegend ins 14. bis 16. Jahrhundert und sucht seinen Ursprung im Umfeld von Konvertiten oder Morisken. Der Wortlaut „nel tempo de li dèi falsi e bugiardi" steht bei Dante im ersten Gesang des Inferno (Vers 72).`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Lonsdale Ragg, Laura Ragg (Hg.)', work: 'The Gospel of Barnabas, edited and translated from the Italian MS. in the Imperial Library at Vienna', year: '1907', quote: `Die Herausgeber verweisen auf zahlreiche mittelalterliche Züge des Textes, u. a. Anklänge an Dante.`, status: 'paraphrase' },
+                { kind: 'sonstiges', author: 'Dante Alighieri', work: 'Divina Commedia, Inferno', ref: 'I,72', quote: `… zur Zeit der falschen und lügnerischen Götter.`, original: `nel tempo de li dèi falsi e bugiardi`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wie kommen Formulierungen Dantes (gest. 1321) in ein angeblich aramäisches Evangelium des 1. Jahrhunderts?`,
+              ],
+              followUps: [
+                {
+                  id: 'diatessaron-alte-quelle',
+                  objection: `Der Forscher Jan Joosten hat gezeigt, dass das Barnabasevangelium Lesarten des Diatessaron enthält – einer Evangelienharmonie aus dem 2. Jahrhundert. Es hat also doch eine alte Quelle!`,
+                  objectionBy: 'Paul Williams (Blogging Theology)',
+                  answer: `Joosten zeigt, dass der Verfasser eine mittelalterliche italienische Evangelienharmonie benutzte, die in der Überlieferung des Diatessaron steht. Aber schau, was das Diatessaron ist: Tatians Zusammenfassung der *vier kanonischen Evangelien* um 170 – mit Kreuzigung und Auferstehung. Wenn das Barnabasevangelium aus dieser Quelle schöpft, dann schöpft es aus unseren Evangelien und streicht, was nicht passt. Die alte Quelle widerlegt das Buch, statt es zu stützen.`,
+                  detail: `Joosten hat außerdem erwogen, dass einzelne Motive auf ältere, judenchristliche Überlieferungen zurückgehen könnten. Selbst wenn das zuträfe: Auch die judenchristlichen Gruppen der Antike, von denen die Kirchenväter berichten, bekannten die Kreuzigung Jesu. Einzelne alte Motive in einem spätmittelalterlichen Werk machen es nicht zu einem Evangelium des 1. Jahrhunderts – so wenig wie ein moderner Roman mit Bibelzitaten antik wird.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Jan Joosten', work: 'The Gospel of Barnabas and the Diatessaron', ref: 'Harvard Theological Review 95 (2002)', year: '2002', quote: `Der Verfasser benutzte eine mittelalterliche Evangelienharmonie aus der Diatessaron-Überlieferung.`, status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Kirchengeschichte', ref: 'IV,29,6', year: 'um 325', quote: `Tatian stellte aus den vier Evangelien ein zusammenhängendes Werk her, das er „Diatessaron" nannte.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn das Barnabasevangelium aus einer Harmonie der vier Evangelien schöpft – woher stammen dann die Kreuzigung und Auferstehung, die es weglässt?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -112,6 +144,20 @@ const claim: Claim = {
           objection: `Das Wort „Messias" wird im Barnabasevangelium eben anders gebraucht – als Titel für den letzten Propheten.`,
           objectionBy: 'verbreiteter Einwand',
           answer: `Genau das ist der Punkt: Der Verfasser kannte offenbar nicht die Bedeutung des Titels. *Messias* heißt „Gesalbter" und war im Judentum der Titel des erwarteten Königs aus dem Haus Davids – Jesus. Ein Jünger des 1. Jahrhunderts hätte diesen Fehler nie gemacht. Ein europäischer Autor des Spätmittelalters, der den Islam stützen wollte, konnte ihn leicht machen.`,
+          followUps: [
+            {
+              id: 'weitere-widersprueche-zum-koran',
+              objection: `Gut, beim Messias-Titel mag es hapern. Aber im Großen und Ganzen bestätigt das Barnabasevangelium den Koran.`,
+              objectionBy: 'Ahmed Deedat',
+              answer: `Es gibt weitere Widersprüche: Das Barnabasevangelium lässt Maria ohne Schmerzen gebären – der Koran sagt, die Wehen trieben sie zum Stamm der Palme (19:23). Es spricht von neun Himmeln – der Koran von sieben (z. B. 2:29; 67:3). Ein Buch, das an mehreren Stellen dem Koran widerspricht, kann nicht das Injil sein, das der Koran bestätigt. Es stützt den Koran nur dort, wo sein Verfasser den Koran schon kannte.`,
+              detail: `Das ist der entscheidende methodische Punkt: Das Barnabasevangelium verrät, dass es *nach* dem Koran entstanden ist – es übernimmt islamische Motive (z. B. das Glaubensbekenntnis in abgewandelter Form) und bringt zugleich Vorstellungen aus dem christlichen Mittelalter mit. Es ist kein unabhängiger Zeuge, sondern ein Echo.`,
+              sources: [
+                { kind: 'koran', work: 'Sure 19 (Maryam)', ref: '19:23', quote: `Da ließen die Wehen sie zum Stamm der Palme gehen.`, original: `fa-ajāʾahā l-makhāḍu ilā jidhʿi n-nakhla`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/19/23' },
+                { kind: 'koran', work: 'Sure 67 (al-Mulk)', ref: '67:3', quote: `Der sieben Himmel in Schichten erschaffen hat.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/67/3' },
+                { kind: 'fachliteratur', author: 'Lonsdale Ragg, Laura Ragg (Hg.)', work: 'The Gospel of Barnabas', ref: 'Kap. 3 (schmerzlose Geburt); Kap. 178 (neun Himmel)', year: '1907', quote: `Maria gebiert ohne Schmerz; die Himmel sind neun.`, status: 'paraphrase', note: 'Kapitelangaben nach der Ragg-Ausgabe; vor wörtlicher Verwendung prüfen.' },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -129,6 +175,107 @@ const claim: Claim = {
           objection: `Die gnostischen Evangelien wurden auch unterdrückt – und dann in Nag Hammadi gefunden. Warum nicht auch Barnabas?`,
           objectionBy: 'verbreiteter Einwand',
           answer: `Die Nag-Hammadi-Texte sind in Handschriften des 4. Jahrhunderts erhalten und wurden schon von Kirchenvätern wie Irenäus beschrieben – sie haben also eine echte antike Spur. Das Barnabasevangelium hat keine. Außerdem lehren die gnostischen Evangelien Dinge, die ein Muslim ablehnt. Die Funde aus der Antike stützen nirgends ein „islamisches" Evangelium.`,
+        },
+        {
+          id: 'vatikan-fra-marino',
+          objection: `Das Original liegt im Vatikan versteckt. Ein Mönch namens Fra Marino hat es in der Privatbibliothek von Papst Sixtus V. gefunden und ist deshalb Muslim geworden.`,
+          objectionBy: 'Vorworte verbreiteter Ausgaben',
+          answer: `Diese Geschichte stammt aus dem Vorwort der spanischen Handschrift des Barnabasevangeliums selbst – das Buch beglaubigt sich also mit einer Legende, die es selbst erzählt. Es gibt dafür keinen unabhängigen Beleg. Die erhaltene italienische Handschrift liegt nicht im Vatikan, sondern öffentlich zugänglich in Wien, und sie ist seit über hundert Jahren ediert.`,
+          detail: `Sixtus V. war Papst von 1585 bis 1590 – auch das passt zur Entstehung des Textes im 16. Jahrhundert. Das Argument „Es liegt im Vatikan" ist unwiderlegbar, weil es sich jeder Prüfung entzieht. Wer es verwendet, sollte gefragt werden, ob er dieselbe Beweisführung akzeptieren würde, wenn jemand sagte, das „echte" Original des Korans liege in einem geheimen Archiv.`,
+          questionsBack: [
+            `Würdest du ein Buch akzeptieren, dessen einziger Echtheitsbeweis eine Geschichte im eigenen Vorwort ist?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'barnabas-trennte-sich-von-paulus',
+      objection: `Barnabas trennte sich von Paulus (Apg 15,39), weil er dessen neue Lehre ablehnte. Das Barnabasevangelium zeigt, was Barnabas wirklich glaubte.`,
+      objectionBy: 'Muhammad Ata ur-Rahim',
+      answer: `Die Apostelgeschichte nennt den Grund: Es ging um Johannes Markus, den Barnabas mitnehmen wollte und Paulus nicht (Apg 15,37–39) – ein Streit über eine Person, nicht über die Lehre. Barnabas hatte Paulus selbst bei den Aposteln eingeführt (Apg 9,27), und später nennt Paulus ihn wieder als Mitarbeiter (1 Kor 9,6; Kol 4,10). Es gibt kein antikes Zeugnis, dass Barnabas eine andere Botschaft hatte.`,
+      detail: `In Gal 2,13 berichtet Paulus, Barnabas habe sich in Antiochia von der Tischgemeinschaft mit Heidenchristen zurückgezogen – ein Streit über die Praxis, nicht über Jesu Tod oder Gottessohnschaft. Nach koptischer und allgemein kirchlicher Überlieferung wirkte Barnabas auf Zypern und starb dort als Märtyrer; Markus, sein Vetter, wurde der Gründer der Kirche von Alexandrien.`,
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '15,37–39', quote: `Barnabas aber riet, dass sie mit sich nähmen Johannes, mit dem Zunamen Markus. Paulus aber achtete es billig, dass sie nicht mit sich nähmen einen solchen … Und sie kamen scharf aneinander.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '9,27', quote: `Barnabas aber nahm ihn zu sich und führte ihn zu den Aposteln.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wo steht, dass Barnabas und Paulus über die Lehre stritten – und nicht über Johannes Markus?`,
+      ],
+      followUps: [
+        {
+          id: 'barnabasbrief',
+          objection: `Es gibt aber einen alten Barnabasbrief aus dem 2. Jahrhundert. Das zeigt, dass unter Barnabas' Namen eine eigene Tradition existierte.`,
+          objectionBy: 'verbreiteter Einwand',
+          answer: `Richtig – und dieser Brief ist das älteste Schriftstück unter Barnabas' Namen. Was lehrt er? „Dazu nämlich hat der Herr es auf sich genommen, sein Fleisch dem Verderben preiszugeben, damit wir durch die Vergebung der Sünden geheiligt würden" (Barn 5,1). Er nennt Jesus den Sohn Gottes (5,9; 7,2) und deutet die ausgebreiteten Arme des Mose als Bild des Kreuzes (12,2). Die alte Barnabas-Tradition bekennt also genau das, was das Barnabasevangelium bestreitet.`,
+          detail: `Der Barnabasbrief stammt nach den meisten Forschern aus der Zeit zwischen 70 und 135 und ist wohl nicht vom Apostel selbst verfasst; Codex Sinaiticus überliefert ihn im Anschluss an das Neue Testament, und Klemens von Alexandrien zitiert ihn. Für die Debatte entscheidend: Wer eine „Barnabas-Tradition" sucht, findet in der Antike eine Tradition des gekreuzigten Gottessohnes – nicht des Barnabasevangeliums.`,
+          voices: [
+            {
+              person: 'clemens-alexandrien',
+              role: 'als früher Zeuge des Barnabasbriefs',
+              text: `Klemens von Alexandrien, Lehrer der alexandrinischen Katechetenschule, zitiert den Barnabasbrief mehrfach und schreibt ihn dem Apostel Barnabas zu. Damit ist bezeugt, was in Alexandrien um 200 unter dem Namen Barnabas gelesen wurde: ein Brief, der das Kreuz Christi im Alten Testament vorgebildet sieht. Ein Evangelium, das die Kreuzigung leugnet, kennt Klemens nicht.`,
+              sources: [
+                { kind: 'kirchenvater', author: 'Klemens von Alexandrien', work: 'Stromateis', ref: 'II,6–7 u. ö.', year: 'um 200', quote: `Klemens zitiert den Barnabasbrief als Schrift des Apostels Barnabas.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'kirchenvater', work: 'Barnabasbrief', ref: '5,1', year: 'zwischen 70 und 135', quote: `Dazu hat der Herr es auf sich genommen, sein Fleisch dem Verderben hinzugeben, damit wir durch die Vergebung der Sünden geheiligt würden.`, translation: 'eigene Übersetzung', status: 'paraphrase' },
+            { kind: 'kirchenvater', work: 'Barnabasbrief', ref: '12,2', year: 'zwischen 70 und 135', quote: `Mose breitet die Hände aus – ein Bild des Kreuzes und dessen, der leiden sollte.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Wenn die älteste Schrift unter Barnabas' Namen den Tod Christi für unsere Sünden lehrt – warum sollte ein Text aus dem 16. Jahrhundert Barnabas besser kennen?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'kein-gelehrter-stuetzt-sich-darauf',
+      objection: `Ich gebe zu, das Barnabasevangelium ist spät und unzuverlässig. Kein seriöser muslimischer Gelehrter stützt sich heute darauf. Das ändert aber nichts am Koran.`,
+      objectionBy: 'Shabir Ally',
+      answer: `Ich schätze diese Ehrlichkeit sehr. Aber sie hat eine Folge: Wenn das Barnabasevangelium wegfällt, gibt es *keinen einzigen* Text aus den ersten sechs Jahrhunderten, der berichtet, Jesus sei nicht gekreuzigt worden und habe Mohammed angekündigt. Das einzige „Evangelium", das zum Koran passt, ist eine mittelalterliche Fälschung. Alle frühen Quellen – christliche, jüdische, römische – berichten die Kreuzigung.`,
+      detail: `Das ist der ehrliche Ertrag dieses Themas: Nicht der Spott über ein gefälschtes Buch, sondern die Beobachtung, dass die islamische Darstellung Jesu in der historischen Überlieferung vor dem Koran keine Stütze hat. Das Barnabasevangelium ist geradezu der Versuch, diese Lücke nachträglich zu füllen.`,
+      questionsBack: [
+        `Wenn das Barnabasevangelium wegfällt – welche Quelle vor dem 7. Jahrhundert stützt dann die koranische Darstellung, Jesus sei nicht gekreuzigt worden?`,
+      ],
+      followUps: [
+        {
+          id: 'koran-braucht-keine-bestaetigung',
+          objection: `Der Koran braucht keine historische Bestätigung. Er ist Gottes Wort – er ist selbst die Quelle.`,
+          objectionBy: 'Yasir Qadhi',
+          answer: `Dann verlässt du das Feld der Geschichte und bittest mich, einem Bericht aus dem 7. Jahrhundert mehr zu glauben als allen Quellen des 1. Jahrhunderts – nur weil er sich selbst für göttlich erklärt. Und der Koran selbst geht anders vor: Er verweist Zweifelnde an die, „die vor dir die Schrift lasen" (10:94), und sagt: „Fragt die Leute der Ermahnung, wenn ihr es nicht wisst" (16:43). Der Koran beruft sich auf das Zeugnis der früheren Schrift – also darf man ihn auch daran messen.`,
+          detail: `Ein Glaube, der jede Überprüfung ablehnt, kann nicht zugleich behaupten, die Bibel sei *historisch* verfälscht. Wer Tahrif behauptet, macht eine historische Aussage – und muss sie mit historischen Mitteln belegen. Das Barnabasevangelium war genau dieser Versuch, und er ist gescheitert.`,
+          sources: [
+            { kind: 'koran', work: 'Sure 10 (Yunus)', ref: '10:94', quote: `Wenn du über das, was Wir zu dir herabgesandt haben, im Zweifel bist, so frage diejenigen, die vor dir die Schrift lesen.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/10/94' },
+            { kind: 'koran', work: 'Sure 16 (an-Nahl)', ref: '16:43', quote: `So fragt die Leute der Ermahnung, wenn ihr nicht Bescheid wisst.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/16/43' },
+          ],
+          questionsBack: [
+            `Wenn die Tahrif-These eine historische Behauptung ist – mit welchen historischen Belegen stützt du sie?`,
+          ],
+          followUps: [
+            {
+              id: 'historiker-nicht-neutral',
+              objection: `Historiker sind nicht neutral. Sie schließen Wunder methodisch aus – also sind sie für Offenbarungsfragen gar nicht zuständig. Gottes Eingreifen, auch die Rettung Jesu vom Kreuz, kann die Geschichtswissenschaft nicht beurteilen.`,
+              objectionBy: 'Paul Williams (Blogging Theology)',
+              answer: `Über Wunder kann man streiten – aber die Kreuzigung ist kein Wunder. Dass ein jüdischer Wanderprediger unter Pontius Pilatus hingerichtet wurde, ist ein ganz gewöhnliches historisches Ereignis, genau das Feld, auf dem Historiker zuständig sind. Deshalb halten auch nichtchristliche Forscher wie Bart Ehrman, Gerd Lüdemann oder John Dominic Crossan die Kreuzigung für eine der sichersten Tatsachen über Jesus. Wer sie bestreitet, bestreitet nicht ein Wunder, sondern einen gewöhnlichen Befund.`,
+              detail: `Bemerkenswert: Der Koran selbst behauptet in 4:157 ein *Wunder* – „es wurde ihnen ähnlich gemacht" (*shubbiha lahum*). Die Beweislast liegt also bei dem, der ein übernatürliches Täuschungsgeschehen gegen die übereinstimmenden Quellen behauptet. Neben dem Neuen Testament berichten Tacitus (Annalen 15,44) und Josephus (Antiquitates 18,63–64, im Kern) von der Hinrichtung. Kein antiker Gegner des Christentums – weder jüdische Polemik noch Kelsos – hat behauptet, Jesus sei gar nicht gekreuzigt worden.`,
+              voices: [
+                {
+                  person: 'habermas',
+                  role: 'als Erforscher der Forschungslage zu Tod und Auferstehung Jesu',
+                  text: `Habermas hat über Jahrzehnte die Fachliteratur zur Auferstehungsfrage ausgewertet. Sein Ergebnis: Die Kreuzigung Jesu gehört zu den „minimalen Fakten", die nahezu alle Fachleute anerkennen – unabhängig davon, ob sie gläubig, agnostisch oder atheistisch sind. Gerade weil sie so breit anerkannt ist, eignet sie sich als gemeinsamer Ausgangspunkt jeder ehrlichen Debatte.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Gary R. Habermas, Michael R. Licona', work: 'The Case for the Resurrection of Jesus', year: '2004', quote: `Die Kreuzigung Jesu gehört zu den von nahezu allen Fachleuten anerkannten Fakten.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'fachliteratur', author: 'John Dominic Crossan', work: 'Jesus: A Revolutionary Biography', year: '1994', quote: `Dass Jesus gekreuzigt wurde, ist so sicher, wie etwas Historisches nur sein kann.`, status: 'paraphrase', note: 'Crossan ist ein liberaler, nicht an die Auferstehung im kirchlichen Sinn glaubender Forscher – das Zugeständnis wiegt daher schwer.' },
+              ],
+              questionsBack: [
+                `Ist die Hinrichtung eines Menschen durch die Römer ein Wunder – oder ein gewöhnliches historisches Ereignis?`,
+              ],
+            },
+          ],
         },
       ],
     },

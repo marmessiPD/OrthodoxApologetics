@@ -128,6 +128,28 @@ const claim: Claim = {
               objection: `Dann eben andere nichtlineare Effekte – Phasengleichgewichte reichern Aminosäuren in Lösung an.`,
               objectionBy: 'Donna Blackmond',
               answer: `Ein echter Fortschritt für einige Aminosäuren in bestimmten Konzentrationsbereichen. Danach muss der Überschuss aber auf Polymere übertragen, auf Zucker abgestimmt und gegen Racemisierung erhalten werden. Das ist ein Baustein zu einer möglichen Lösung – keine Lösung.`,
+              followUps: [
+                {
+                  id: 'racemisierung-langsam',
+                  objection: `Dein Racemisierungs-Argument ist schwach. Bei kühlen Temperaturen racemisieren Aminosäuren über Jahrtausende bis Jahrmillionen. Ein einmal erreichter Überschuss bleibt also lange genug erhalten.`,
+                  objectionBy: 'Donna Blackmond',
+                  answer: `Dann entsteht eine Spannung im Modell: Die Viedma-Reifung *braucht* schnelle Racemisierung in Lösung, damit sie verstärken kann – und für die Erhaltung braucht man das Gegenteil. Beides zugleich am selben Ort geht nicht. Und das Leben selbst verlässt sich nicht auf langsame Racemisierung: Zellen besitzen eigene Korrekturenzyme, die versehentlich angehängte D-Aminosäuren wieder entfernen. Einhändigkeit wird aktiv verteidigt, nicht passiv bewahrt.`,
+                  detail: `**Die Spannung:** Verstärkungsmechanismen wie die Viedma-Reifung funktionieren nur, wenn die Moleküle in Lösung rasch zwischen links und rechts wechseln; sonst kann die Kristallpopulation nicht „umkippen". Für die Weiterverwendung als Baustein will man dagegen, dass die Händigkeit stabil bleibt. Ein präbiotisches Szenario muss also erklären, wie die Bedingungen zur richtigen Zeit wechseln.
+
+**Das Zeugnis der Zelle:** Die D-Aminoacyl-tRNA-Deacylase ist ein Enzym, das falsch beladene tRNAs mit D-Aminosäuren erkennt und korrigiert. Dass selbst moderne Zellen mit Hochpräzisions-Enzymen eine eigene „Chiralitäts-Qualitätskontrolle" brauchen, zeigt, wie aktiv Homochiralität erhalten werden muss.
+
+Brian Miller fasst es thermodynamisch: Einhändigkeit ist ein Zustand niedriger Entropie; ohne gelenkte Energie strebt das System zum Racemat zurück.`,
+                  voices: [
+                    {
+                      person: 'brian-miller',
+                      role: 'als Physiker (Thermodynamik)',
+                      text: `Miller betont, dass ein Zustand niedriger Entropie – wie vollständige Einhändigkeit – nur durch Mechanismen erhalten wird, die Energie gezielt einsetzen. In Zellen leisten das stereospezifische Enzyme und Korrektursysteme. Vor diesen Systemen fehlt der Erhalter; deshalb muss jedes präbiotische Szenario nicht nur die Entstehung, sondern auch die Erhaltung des Überschusses erklären.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Brian Miller', work: 'Beitrag zur Thermodynamik in: The Mystery of Life\'s Origin: The Continuing Controversy', year: '2020', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Wie kann ein Szenario zugleich schnelle Racemisierung (für die Verstärkung) und langsame Racemisierung (für die Erhaltung) bieten?`],
+                },
+              ],
             },
           ],
         },
@@ -144,6 +166,50 @@ const claim: Claim = {
           id: 'natuerliches-mahlen',
           objection: `Brandung und Strömungen auf der frühen Erde liefern natürliches Mahlen.`,
           answer: `Möglich – aber die meisten proteinogenen Aminosäuren kristallisieren als racemische Verbindungen, nicht als Konglomerate. Und die Kristalle müssten anschließend wieder gelöst und weiterverarbeitet werden, ohne dass der Überschuss durch Racemisierung verloren geht.`,
+          followUps: [
+            {
+              id: 'cpl-photolyse',
+              objection: `Dann liefert eben das All den Anfangsüberschuss: In Sternentstehungsgebieten gibt es zirkular polarisiertes Licht, das eine Händigkeit bevorzugt zerstört. Genau deshalb finden wir L-Überschüsse in Meteoriten.`,
+              objectionBy: 'Dave Farina',
+              answer: `Der Mechanismus ist real – aber er hat einen hohen Preis: Zirkular polarisiertes Licht erzeugt einen Überschuss, indem es den größten Teil des Materials zerstört. In klassischen Versuchen mit Leucin ergab sich ein Überschuss von nur rund zwei Prozent, nachdem schon mehr als die Hälfte der Substanz zersetzt war. Für größere Überschüsse muss fast alles zerstört werden. Und die Meteoritenüberschüsse betreffen vor allem Aminosäuren, die das Leben gar nicht nutzt.`,
+              detail: `**Das Prinzip:** Zirkular polarisiertes UV-Licht wird von den beiden Spiegelbildformen geringfügig unterschiedlich stark absorbiert. Bestrahlt man ein Racemat lange genug, wird eine Form etwas schneller zerstört – es bleibt ein Überschuss der anderen. Weil der Unterschied in der Absorption klein ist, steigt der Überschuss nur langsam, während die Gesamtmenge stark sinkt.
+
+**Klassischer Befund:** Flores, Bonner und Massey (1977) bestrahlten racemisches Leucin mit zirkular polarisiertem UV-Licht und erhielten einen Enantiomerenüberschuss von etwa 2 Prozent bei rund 59 Prozent Zersetzung.
+
+**Weitere Hürden:** Die Richtung hängt von der Polarisationsrichtung ab, die in verschiedenen Himmelsregionen verschieden ist. Bailey und Kollegen (1998) fanden zirkulare Polarisation im Orionnebel – ein interessanter Hinweis, aber kein Nachweis, dass gerade unser Sonnensystem gleichmäßig in einer Richtung bestrahlt wurde.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Joseph J. Flores, William A. Bonner, Gail A. Massey', work: '„Asymmetric photolysis of (RS)-leucine with circularly polarized ultraviolet light", Journal of the American Chemical Society 99, S. 3622–3625', year: '1977', quote: `Bestrahlung von racemischem Leucin mit zirkular polarisiertem UV-Licht ergab einen Enantiomerenüberschuss von etwa 2 Prozent bei rund 59 Prozent Zersetzung.`, status: 'paraphrase' },
+                { kind: 'wissenschaft', author: 'Jeremy Bailey u. a.', work: '„Circular Polarization in Star-Formation Regions: Implications for Biomolecular Homochirality", Science 281, S. 672–674', year: '1998', status: 'paraphrase' },
+              ],
+              questionsBack: [`Wie viel Material bleibt übrig, wenn man per Licht einen Überschuss von 50 Prozent erzeugt – und reicht das für die nächste Synthesestufe?`],
+              followUps: [
+                {
+                  id: 'mechanismen-kombinieren',
+                  objection: `Niemand sagt, ein Mechanismus allein reicht. Man kombiniert: Licht oder Mineralien liefern einen kleinen Überschuss, Kristallisation und Phasengleichgewichte verstärken ihn, und Aminosäuren übertragen ihn auf Zucker. Hein und Blackmond haben gezeigt, dass ein Aminosäure-Überschuss die Händigkeit von Zucker-Vorstufen der RNA lenken kann.`,
+                  objectionBy: 'Donna Blackmond',
+                  answer: `Das ist der stärkste Zug in dieser Debatte, und die Arbeit von Hein und Blackmond ist wirklich elegant: Sie verknüpft die Händigkeit der Aminosäuren mit der der Zucker. Aber sieh dir die Kette an: Jeder Schritt verlangt eigene Moleküle, eigene Bedingungen, eigene Reinigung – und die Verluste multiplizieren sich. Was im Labor in einem Kolben nach dem anderen gelingt, müsste auf der frühen Erde in der richtigen Reihenfolge und ohne Chemiker zusammenkommen.`,
+                  detail: `**Die Arbeit:** Hein, Tse und Blackmond (Nature Chemistry 2011) zeigten, dass in einem Reaktionssystem mit nahezu racemischen Ausgangsstoffen ein kleiner Überschuss einer Aminosäure die Händigkeit einer Ribose-Vorstufe (aus Sutherlands Reaktionsweg) beeinflusst; durch Kristallisation lässt sich die Vorstufe anreichern. Das ist ein bedeutender Hinweis, wie die Händigkeit von Aminosäuren und Zuckern miteinander gekoppelt sein könnte.
+
+**Was offen bleibt:**
+- Die Vorstufen stammen aus einer gelenkten, mehrstufigen Synthese (siehe den Claim zur RNA-Welt).
+- Jede Kristallisation erfordert Konzentration, passende Lösungsmittel und anschließend das Wiederauflösen ohne Verlust des Überschusses.
+- Die Mechanismen müssen in derselben Umgebung zusammenwirken, obwohl sie teils gegensätzliche Bedingungen verlangen (schnelle vs. langsame Racemisierung, nass vs. trocken).
+
+James Tour fasst das zusammen: Je mehr Einzelschritte erklärt werden, desto deutlicher wird, wie viel Steuerung die Gesamtkette braucht. Das ist kein Vorwurf an die Forscher – es ist der Befund ihrer eigenen Arbeiten.`,
+                  voices: [
+                    {
+                      person: 'james-tour',
+                      role: 'als synthetischer Chemiker',
+                      text: `Tour verweist darauf, dass in präbiotischen Studien meist jeder Schritt einzeln mit gereinigten Ausgangsstoffen durchgeführt wird. Die Produkte eines Schrittes werden isoliert, gereinigt und dann im nächsten Schritt eingesetzt. Diese Arbeit des Chemikers – Auswahl, Reinigung, Timing – ist ein Teil der Erklärung, der in der Bilanz gern unter den Tisch fällt.`,
+                      sources: [{ kind: 'wissenschaft', author: 'James M. Tour', work: '„Animadversions of a Synthetic Chemist", Inference: International Review of Science 2/2', year: '2016', status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [{ kind: 'gegner', author: 'Jason E. Hein, Eric Tse, Donna G. Blackmond', work: '„A route to enantiopure RNA precursors from nearly racemic starting materials", Nature Chemistry 3, S. 704–706', year: '2011', quote: `Ein kleiner Aminosäure-Überschuss lenkt die Bildung einer Ribose-Vorstufe; durch Kristallisation lässt sich diese anreichern.`, status: 'paraphrase' }],
+                  questionsBack: [`Welche dieser Stufen wurde schon gemeinsam in einem einzigen, nicht nachgesteuerten Ansatz durchlaufen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -163,6 +229,34 @@ const claim: Claim = {
               id: 'kein-argument-fuer-gott',
               objection: `Also ist Homochiralität doch gar kein Argument für Gott.`,
               answer: `Richtig verstanden: Sie ist kein eigenständiger Gottesbeweis, sondern ein Teil des Gesamtbefunds, dass präbiotische Chemie an vielen Stellen intelligente Steuerung braucht. Der eigentliche Schluss auf einen Urheber stützt sich auf die Information – siehe den Claim „Gott der Lücken".`,
+              followUps: [
+                {
+                  id: 'wunder-unwissenschaftlich',
+                  objection: `Und was ist deine Alternative? Dass Gott jedes Molekül einzeln umgedreht hat? Das ist ein Wunder, und Wunder sind keine Wissenschaft.`,
+                  objectionBy: 'Dave Farina',
+                  answer: `Ich behaupte keinen bestimmten Mechanismus – und das muss ich auch nicht. Ein Brandermittler kann feststellen, dass ein Feuer gelegt wurde, ohne zu wissen, mit welchem Feuerzeug. Der Schluss auf eine intelligente Ursache betrifft die *Art* der Ursache, nicht die Technik. Und die christliche Tradition hat nie behauptet, Gott wirke nur durch Eingriffe: Die Väter sahen ihn auch in den Gesetzen und Kräften der Natur am Werk.`,
+                  detail: `**Ursache vs. Methode:** In der Archäologie, Forensik oder bei SETI ist der Schluss auf Intelligenz legitim, sobald ein Befund Merkmale zeigt, die wir nur von intelligenten Ursachen kennen. Die Frage „Wie genau?" ist eine zweite, spätere Frage.
+
+**Die Väter:** Augustinus spricht von „Keimgründen" (*rationes seminales*), die Gott bei der Schöpfung in die Welt gelegt habe und die sich zur rechten Zeit entfalten. Basilius sieht im Wort „Die Erde bringe hervor" ein bleibendes Gesetz der Natur. Für die Väter sind Gottes unmittelbares Schaffen und sein Wirken durch die Natur keine Gegensätze.
+
+**Was das für dich heißt:** Du musst nicht wählen zwischen „Gott hat die Moleküle umgedreht" und „die Natur hat es allein geschafft". Du kannst sagen: Die Ordnung, die wir finden – ob durch besondere Ursachen oder durch fein angelegte Naturprozesse –, verweist auf einen ordnenden Geist. Dass ungelenkte Chemie es *nicht* zeigt, ist der empirische Teil; der Schluss auf den Logos ist der philosophische Teil.`,
+                  voices: [
+                    {
+                      person: 'augustinus',
+                      role: 'als Ausleger der Genesis',
+                      text: `Augustinus deutet in *De Genesi ad litteram* die Schöpfung so, dass Gott alles zugleich schuf, manches aber in „Keimgründen" angelegt, die sich im Lauf der Zeit entfalten. Damit kann er Gottes Schöpferhandeln und natürliche Entwicklungsprozesse zusammendenken, ohne Gott zu einem bloßen Lückenbüßer zu machen.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'De Genesi ad litteram', ref: 'V,23,44–45 und VI,10,17', status: 'paraphrase', quote: `Gott hat in die Schöpfung Keimgründe gelegt, aus denen sich die Geschöpfe zu ihrer Zeit entfalten.` }],
+                    },
+                    {
+                      person: 'stephen-meyer',
+                      role: 'als Wissenschaftsphilosoph',
+                      text: `Meyer betont, dass der Designschluss in den historischen Wissenschaften eine Aussage über die *Ursache* eines Befunds ist, nicht über den genauen Ablauf. Ebenso wie ein Archäologe aus einer Inschrift auf einen Schreiber schließt, ohne dessen Werkzeuge zu kennen, schließt man aus spezifizierter Information auf Intelligenz.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Stephen C. Meyer', work: 'Signature in the Cell', ref: 'Kap. 15–18', year: '2009', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [`Muss ein Brandermittler das Feuerzeug kennen, um festzustellen, dass ein Feuer gelegt wurde?`],
+                },
+              ],
             },
           ],
         },

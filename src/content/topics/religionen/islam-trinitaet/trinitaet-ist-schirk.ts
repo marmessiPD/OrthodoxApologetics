@@ -211,6 +211,91 @@ const claim: Claim = {
           objection: `Jesus selbst lehrte das Schma: „Der Herr, unser Gott, ist ein Herr" (Mk 12,29). Er war Monotheist wie Muhammad.`,
           objectionBy: 'Shabir Ally',
           answer: `Ja – und wir auch. Derselbe Jesus vergibt aber Sünden, was „allein Gott" kann (Mk 2,7), nennt sich „Herr des Sabbats" (Mk 2,28) und fordert, den Sohn so zu ehren wie den Vater (Joh 5,23). Das Schma schließt andere Götter aus, nicht die Einheit von Vater und Sohn. Paulus zeigt in 1 Kor 8,6, wie das frühe Judenchristentum das Schma auf Vater und Jesus bezog.`,
+          followUps: [
+            {
+              id: 'ein-gott-der-vater-1-kor-8-6',
+              objection: `1 Kor 8,6 beweist das Gegenteil: „Für uns gibt es nur einen Gott, den Vater" – und daneben „einen Herrn, Jesus Christus". Paulus unterscheidet Gott von Jesus. Gott ist allein der Vater.`,
+              objectionBy: 'Ali Ataie',
+              answer: `Paulus nimmt die beiden Schlüsselwörter des Schma aus der griechischen Bibel – „Gott" (theos) und „Herr" (kyrios) – und verteilt sie auf den Vater und Jesus. Wer schließt, Jesus sei nicht Gott, weil nur der Vater „Gott" heißt, müsste ebenso schließen, der Vater sei nicht „Herr", weil nur Jesus „Herr" heißt – das sagt kein Muslim. Dazu schreibt Paulus Jesus die Schöpfungsmittlerschaft zu („durch den alles ist") – die gehört im Judentum allein Gott (Jes 44,24).`,
+              detail: `Das Schma lautet in der Septuaginta (Dtn 6,4): *kyrios ho theos hēmōn kyrios heis estin* – „der Herr, unser Gott, der Herr ist einer". Paulus schreibt: *all' hēmin heis theos ho patēr … kai heis kyrios Iēsous Christos*. Er wiederholt also das Schma Wort für Wort und stellt Jesus mitten hinein. Und er tut das ausgerechnet in einem Abschnitt über Götzenopferfleisch, in dem er gegen die „vielen Götter und vielen Herren" der Heiden argumentiert (1 Kor 8,5). Einen schlechteren Ort, um einen zweiten, geschaffenen „Herrn" neben Gott einzuführen, gäbe es nicht. Richard Bauckham nennt das die „Christologie der göttlichen Identität": Jesus wird nicht als zweiter Gott neben Gott gestellt, sondern in die Identität des einen Gottes Israels einbezogen.`,
+              voices: [
+                { person: 'bauckham', role: 'als Neutestamentler', text: `Bauckham zeigt, dass das Judentum des Zweiten Tempels den einen Gott durch zwei Merkmale von allem anderen abgrenzte: Er allein ist Schöpfer aller Dinge, und er allein herrscht über alles. Genau diese beiden Merkmale schreibt das Neue Testament Jesus zu – in 1 Kor 8,6 die Schöpfungsmittlerschaft, in Phil 2,9–11 die universale Herrschaft. Damit ist Jesus nicht ein Halbgott zwischen Gott und Welt, sondern gehört auf die Seite des Schöpfers.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: '1. Korinther', ref: '8,6', quote: `So haben wir doch nur einen Gott, den Vater, von dem alle Dinge sind und wir zu ihm hin, und einen Herrn, Jesus Christus, durch den alle Dinge sind und wir durch ihn.`, original: `ἀλλ' ἡμῖν εἷς θεὸς ὁ πατήρ … καὶ εἷς κύριος Ἰησοῦς Χριστός, δι' οὗ τὰ πάντα`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the God of Israel: God Crucified and Other Studies on the New Testament\'s Christology of Divine Identity', year: '2008', status: 'paraphrase', note: 'Zum „christologischen Schma" in 1 Kor 8,6.' },
+              ],
+              questionsBack: [
+                `Wenn „ein Gott, der Vater" Jesus vom Gottsein ausschließt – schließt „ein Herr, Jesus Christus" dann den Vater vom Herrsein aus?`,
+                `Durch wen hat Gott nach 1 Kor 8,6 „alle Dinge" geschaffen – und kann ein Geschöpf Mittler der gesamten Schöpfung sein, also auch seiner selbst?`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'anbetung-ist-der-massstab',
+      objection: `Lass die Metaphysik beiseite. Schirk zeigt sich in der Anbetung (ʿibāda): Ihr betet zu Jesus, ruft ihn an, singt ihm Lieder. Jeder Akt der Anbetung, der an jemand anderen als Allah gerichtet ist, ist Schirk – ganz gleich, wie ihr ihn theologisch definiert.`,
+      objectionBy: 'Yasir Qadhi',
+      answer: `Einverstanden: Anbetung gebührt allein Gott – das sagt auch Jesus (Mt 4,10). Deshalb hängt alles an einer einzigen Frage: Wer ist Jesus? Ist er ein Geschöpf, dann ist jede Anbetung Jesu Schirk. Ist er das ewige Wort Gottes, das Fleisch wurde (Joh 1,1.14), dann ist die Anbetung des Sohnes Anbetung des einen Gottes. Dein Einwand setzt also bereits voraus, was er erst beweisen müsste.`,
+      detail: `Der Einwand ist zirkulär: „Anbetung Jesu ist Schirk, weil Jesus nicht Gott ist" – aber genau das ist die strittige Frage. Die Kirche betet den Sohn nicht *neben* Gott an, sondern *mit* dem Vater und dem Geist als den einen Gott; deshalb lautet die Doxologie „Ehre sei dem Vater und dem Sohn und dem Heiligen Geist" – eine einzige Anbetung, nicht drei. Jesus selbst verbindet beides: Er zitiert „Den Herrn, deinen Gott, sollst du anbeten und ihm allein dienen" (Mt 4,10) und fordert zugleich, „dass alle den Sohn ehren, wie sie den Vater ehren" (Joh 5,23). Ein Prophet, der das sagt, ist entweder ein Gotteslästerer – oder er ist, wer die Kirche bekennt. Für das Gespräch hilfreich: Die bekannte Dreiteilung des Tauhid (rubūbiyya, ulūhiyya, asmāʾ wa-ṣifāt) ist eine spätere Systematisierung, die vor allem auf Ibn Taimiyya zurückgeht und auch unter sunnitischen Gelehrten diskutiert wird. Du musst darüber nicht streiten – die Kernfrage bleibt dieselbe: Wer ist Jesus?`,
+      sources: [
+        { kind: 'bibel', work: 'Matthäus', ref: '4,10', quote: `Du sollst anbeten Gott, deinen HERRN, und ihm allein dienen.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Johannes', ref: '5,23', quote: `… damit sie alle den Sohn ehren, wie sie den Vater ehren. Wer den Sohn nicht ehrt, der ehrt den Vater nicht, der ihn gesandt hat.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Wenn Jesus wirklich das ewige Wort Gottes ist – wäre es dann Schirk, ihn anzubeten, oder Ungehorsam, es nicht zu tun?`,
+        `Wie verstehst du Joh 5,23: „dass alle den Sohn ehren, wie sie den Vater ehren"?`,
+      ],
+      followUps: [
+        {
+          id: 'jesus-forderte-keine-anbetung',
+          objection: `Jesus hat nie gesagt: „Betet mich an." Er betete selbst zu Gott. Die Anbetung Jesu ist eine spätere Entwicklung der heidenchristlichen Kirche.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Die frühesten Quellen sagen das Gegenteil. Schon in den 50er-Jahren – rund 20 Jahre nach dem Kreuz – beten Christen zu Jesus („Maranatha", aramäisch: „Unser Herr, komm!", 1 Kor 16,22), rufen seinen Namen an (1 Kor 1,2) und beugen die Knie vor ihm mit einem Wort, das Jesaja allein Gott vorbehält (Phil 2,10–11; Jes 45,23). Das aramäische Gebetswort zeigt: Diese Anbetung begann in der judenchristlichen Urgemeinde, nicht in einer späteren heidnischen Kirche. Und Jesus nahm Anbetung an (Mt 14,33; Joh 20,28), während Engel und Apostel sie zurückwiesen (Offb 19,10; Apg 10,25–26).`,
+          detail: `Larry Hurtado hat die frühchristliche Frömmigkeitspraxis untersucht und ein festes Muster gefunden, das schon in den Paulusbriefen vorausgesetzt wird: Gebet zu Jesus (Apg 7,59; 2 Kor 12,8), Anrufung seines Namens, Taufe auf seinen Namen, das Herrenmahl, Hymnen an Christus (Phil 2,6–11; Kol 1,15–20) und das Bekenntnis „Jesus ist Herr". Diese „binitarische" Verehrung entstand nicht langsam über Generationen, sondern explosionsartig – und zwar unter Juden, die sonst jede Verehrung eines Geschöpfes als Götzendienst ablehnten. Dass die griechischsprachige Gemeinde in Korinth ein aramäisches Gebet an Jesus übernimmt, verrät dessen Ursprung in der palästinischen Urgemeinde.`,
+          voices: [
+            { person: 'hurtado', role: 'als Historiker des frühen Christentums', text: `Hurtado betont, dass die Verehrung Jesu im jüdischen Kontext eine „Mutation" des Monotheismus war, keine Anleihe beim Heidentum: Die ersten Christen verweigerten wie alle frommen Juden jede Verehrung anderer Götter – und schlossen doch Jesus in ihre Anbetung des einen Gottes ein. Das lässt sich nur erklären, wenn sie überzeugt waren, dass Gott selbst diese Verehrung forderte, vor allem durch die Auferweckung Jesu.` },
+          ],
+          sources: [
+            { kind: 'bibel', work: '1. Korinther', ref: '16,22', quote: `Maranatha – Unser Herr, komm!`, original: `μαράνα θά`, translation: 'eigene Übersetzung', status: 'verbatim' },
+            { kind: 'bibel', work: 'Philipper', ref: '2,10–11', quote: `… damit im Namen Jesu sich jedes Knie beuge … und jede Zunge bekenne: Jesus Christus ist der Herr – zur Ehre Gottes, des Vaters.`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Greift Jes 45,23 auf, wo der eine Gott spricht: „Mir soll sich jedes Knie beugen."' },
+            { kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Warum übernimmt eine griechischsprachige Gemeinde ein aramäisches Gebet an Jesus – wenn diese Anbetung erst in der heidnischen Kirche entstanden sein soll?`,
+          ],
+          followUps: [
+            {
+              id: 'proskynese-nur-ehrerbietung',
+              objection: `Das griechische proskyneō bedeutet auch Ehrerbietung vor einem König. Menschen fielen vor Jesus nieder wie vor einem Propheten oder Herrscher. Das ist keine Anbetung im gottesdienstlichen Sinn.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Richtig – das Wort allein beweist nichts, und wir sollten nicht mit einer einzelnen Vokabel argumentieren. Entscheidend ist das Gesamtbild: Gebet zu Jesus, Anrufung seines Namens zur Rettung (Röm 10,13 zitiert Joel 3,5, wo der Gottesname JHWH steht), Lobpreis „ihm sei die Herrlichkeit in Ewigkeit" (2 Petr 3,18). In der Offenbarung empfängt das Lamm dieselbe Anbetung wie der, der auf dem Thron sitzt (Offb 5,13) – während der Engel sie zweimal zurückweist: „Bete Gott an!" (Offb 19,10; 22,9). Der Verfasser zieht die Grenze bewusst – und Jesus steht auf der Seite Gottes.`,
+              detail: `Richard Bauckham hat in seinem Aufsatz über die Anbetung Jesu in der apokalyptischen Literatur gezeigt, dass jüdische Texte jener Zeit ein festes Motiv kennen: Ein Engel weist die Verehrung durch einen Seher zurück, weil Anbetung allein Gott gehört. Die Johannesoffenbarung übernimmt dieses Motiv ausdrücklich – und stellt im selben Buch das Lamm in die himmlische Anbetung hinein. Das ist kein Versehen, sondern eine theologische Aussage. Hinzu kommt der Befund aus der Außenperspektive: Der römische Statthalter Plinius berichtet um 112, Christen sängen „Christus wie einem Gott" Hymnen (Briefe 10,96,7).`,
+              voices: [
+                { person: 'bauckham', role: 'als Neutestamentler', text: `Bauckham weist darauf hin, dass gerade die monotheistisch strengsten Schriften des Neuen Testaments – die Johannesoffenbarung mit ihrem Engelsverbot – Jesus am deutlichsten in die Anbetung einbeziehen. Für ihn ist das ein Beleg, dass die Verehrung Jesu nicht aus einer Aufweichung des jüdischen Monotheismus entstand, sondern innerhalb seiner strengsten Form.` },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Offenbarung', ref: '5,13', quote: `Dem, der auf dem Thron sitzt, und dem Lamm sei Lob und Ehre und Herrlichkeit und Macht von Ewigkeit zu Ewigkeit!`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'bibel', work: 'Offenbarung', ref: '19,10', quote: `Siehe zu, tu es nicht! Ich bin dein Mitknecht … Bete Gott an!`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'The Worship of Jesus in Apocalyptic Christianity', ref: 'New Testament Studies 27', year: '1981', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'nur-was-paulus-glaubte',
+                  objection: `Das zeigt nur, was Paulus und seine Gemeinden glaubten – nicht, was Jesus lehrte. Der Koran korrigiert genau diese Entwicklung: „Habe ich etwa zu den Menschen gesagt: Nehmt mich und meine Mutter neben Allah zu Göttern?" (5:116).`,
+                  objectionBy: 'Ali Ataie',
+                  answer: `Dann vergleichen wir die Quellen ehrlich. Auf der einen Seite stehen Briefe aus den 50er-Jahren, deren Verfasser die Augenzeugen Petrus, Jakobus und Johannes persönlich kannte (Gal 1,18–19; 2,9) und sich mit ihnen in der Verkündigung einig wusste (1 Kor 15,11). Auf der anderen Seite steht ein Text aus dem 7. Jahrhundert, der Christen vorwirft, Maria als Gott anzubeten – was keine Kirche je gelehrt hat. Historisch kann man nicht die Quelle verwerfen, die 20 Jahre nach den Ereignissen schreibt, und die vorziehen, die 600 Jahre später kommt, nur weil sie das gewünschte Ergebnis liefert.`,
+                  detail: `Ein weiteres starkes Indiz: Paulus hatte heftige Konflikte mit judenchristlichen Kreisen – über Beschneidung, Speisegebote und Tischgemeinschaft (Gal 2; Apg 15). Über die Anbetung Jesu gibt es dagegen keinen einzigen Streit. Hätte Paulus die Anbetung eines Menschen eingeführt, wäre das für fromme Juden der denkbar größte Skandal gewesen – größer als jede Speisefrage. Hurtado spricht deshalb vom „Schweigen der Kontroverse": Die Jerusalemer Urgemeinde teilte diese Verehrung bereits. Zudem zeigen schon die Evangelien, dass Jesus göttliche Vorrechte beanspruchte (Mk 2,5–7; 14,61–64). Mehr dazu im Claim „Paulus hat die Lehre Jesu verfälscht".`,
+                  questionsBack: [
+                    `Wenn Paulus die Anbetung eines Menschen eingeführt hätte – warum stritten die Jerusalemer Apostel mit ihm über Beschneidung und Speisegebote, aber nie über die Anbetung Jesu?`,
+                    `Welche Quelle aus dem 1. Jahrhundert kennst du, die einen Jesus bezeugt, der nicht angebetet wurde?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

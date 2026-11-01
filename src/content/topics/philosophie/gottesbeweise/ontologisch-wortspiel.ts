@@ -181,6 +181,76 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 's5-umstritten',
+      objection: `„Das Argument hängt am Axiom des Modalsystems S5: Was möglicherweise notwendig ist, ist notwendig. Warum sollte die Wirklichkeit dieser formalen Logik folgen? Ohne S5 bricht Prämisse 3 zusammen."`,
+      objectionBy: 'Graham Oppy',
+      targetsPremise: 3,
+      answer: `S5 ist kein theologischer Kunstgriff, sondern die Standardlogik für metaphysische Notwendigkeit, die die meisten Modalphilosophen – auch atheistische – verwenden. Ihr Grundgedanke ist einfach: Ob etwas notwendig ist, hängt nicht davon ab, aus welcher möglichen Welt man schaut. Wer S5 aufgibt, um das ontologische Argument loszuwerden, zahlt einen hohen Preis in der gesamten Metaphysik. Ehrlich bleibt: Der eigentliche Streitpunkt ist nicht S5, sondern Prämisse 1.`,
+      detail: `In S5 gilt: Wenn eine Aussage in irgendeiner möglichen Welt notwendig ist, ist sie in allen notwendig. Das passt zum Begriff „metaphysischer Notwendigkeit": Notwendige Wahrheiten wie mathematische Sätze sind nicht von Welt zu Welt verschieden „notwendig". Auch Gödels Beweis nutzt S5. Kritiker wie Oppy greifen deshalb meistens nicht S5 an, sondern betonen die Symmetrie der Möglichkeitsprämisse (siehe den Einwand „Die Möglichkeitsprämisse ist eine verkappte Behauptung der Schlussfolgerung").`,
+      followUps: [
+        {
+          id: 'vorstellbar-nicht-moeglich',
+          objection: `„Du kannst dir ein vollkommenes Wesen vielleicht *vorstellen*. Aber Vorstellbarkeit ist kein verlässlicher Führer zur metaphysischen Möglichkeit – man konnte sich auch vorstellen, dass Wasser nicht H₂O ist."`,
+          objectionBy: 'Graham Oppy',
+          targetsPremise: 1,
+          answer: `Einverstanden – bloße Vorstellbarkeit genügt nicht. Darum stützen Christen die Möglichkeitsprämisse auf weitere Gründe: Leibniz versuchte zu zeigen, dass reine Vollkommenheiten einander nicht widersprechen können, weil sie keine Grenzen enthalten. Und andere Argumente – das Kontingenzargument, das moralische Argument, die religiöse Erfahrung – sind unabhängige Hinweise darauf, dass ein vollkommenes, notwendiges Sein nicht nur möglich, sondern wirklich ist.`,
+          detail: `Leibniz ergänzte Descartes' ontologisches Argument um den Nachweis, dass der Begriff Gottes widerspruchsfrei ist: Vollkommenheiten seien einfache, rein positive Eigenschaften, die einander nicht ausschließen können. Moderne Philosophen halten diesen Nachweis für unvollständig, aber der Gedanke bleibt: Widersprüche entstehen durch Grenzen und Verneinungen; ein Sein ohne Grenzen bietet dafür keine Angriffsfläche. Die Möglichkeitsprämisse ist damit nicht bewiesen, aber begründet.`,
+          voices: [
+            {
+              person: 'leibniz',
+              role: 'als Logiker und Metaphysiker',
+              text: `Leibniz hielt Descartes' Beweis für unvollständig, solange nicht gezeigt sei, dass der Begriff des vollkommensten Wesens möglich ist. Er versuchte diesen Nachweis, indem er Vollkommenheiten als rein positive, unbegrenzte Eigenschaften bestimmte, die sich gegenseitig nicht aufheben können. Damit legte er den Finger genau auf die Prämisse, an der sich das Argument bis heute entscheidet.`,
+              sources: [{ kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Quod ens perfectissimum existit (Notiz, Den Haag)', year: '1676', status: 'paraphrase', quote: 'Nachweis, dass alle Vollkommenheiten miteinander verträglich sind und daher ein vollkommenstes Wesen möglich ist.' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'ontologisch-ueberfluessig',
+              objection: `„Dann ist das ontologische Argument überflüssig. Wenn du die anderen Argumente brauchst, um die Prämisse zu stützen, kannst du gleich bei denen bleiben."`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Es leistet etwas Eigenes: Es zeigt, dass Gottes Existenz entweder notwendig oder unmöglich ist – eine dritte Möglichkeit gibt es nicht. Ein Gott, der zufällig existiert oder zufällig fehlt, wäre nicht Gott. Damit verschiebt sich die Last: Wer Gott ablehnt, kann nicht einfach „keine Belege" sagen, sondern muss zeigen, dass der Gottesbegriff *in sich widersprüchlich* ist – wie ein rundes Quadrat. Das ist eine viel stärkere Behauptung.`,
+              detail: `Diese Einsicht teilen auch Kritiker: Schon J. N. Findlay sah, dass ein Gott im vollen religiösen Sinn notwendig existieren müsste – und versuchte deshalb, seine Unmöglichkeit zu beweisen (siehe nächster Zug). Für das Gespräch heißt das: Agnostiker, die Gott für „möglich, aber unbelegt" halten, haben die Möglichkeitsprämisse bereits zugestanden.`,
+              questionsBack: [`Hältst du Gott für möglich, aber nicht wirklich? Dann erkläre, wie ein notwendiges Wesen möglich sein und doch nicht existieren kann.`],
+              followUps: [
+                {
+                  id: 'findlay-unmoeglichkeit',
+                  objection: `„Gut, dann behaupte ich eben die Unmöglichkeit. Findlay hat 1948 gezeigt: Notwendigkeit gibt es nur bei Aussagen, als Folge unserer sprachlichen Konventionen – nie bei der Existenz von Dingen. Ein ‚notwendig existierendes Wesen' ist darum begrifflich unsinnig."`,
+                  objectionBy: 'J. N. Findlay / Graham Oppy',
+                  answer: `Findlays Argument stand und fiel mit der damals verbreiteten Auffassung, alle Notwendigkeit sei bloß sprachlich oder analytisch – einem Kernstück des logischen Positivismus. Seit Saul Kripke ist anerkannt, dass es *metaphysische* Notwendigkeit gibt, die nicht aus Wortbedeutungen folgt: Dass Wasser H₂O ist, ist notwendig, aber empirisch entdeckt. Mit dem Positivismus ist auch sein „ontologischer Gegenbeweis" weitgehend aufgegeben worden.`,
+                  detail: `J. N. Findlay, „Can God's Existence Be Disproved?" (Mind 57, 1948), argumentierte: Ein anbetungswürdiges Wesen müsste notwendig existieren; notwendige Existenz sei aber unsinnig; also sei Gott unmöglich. Die erste Hälfte ist eine wertvolle Einsicht in den Gottesbegriff. Die zweite Hälfte setzt eine Theorie der Modalität voraus, die heute kaum noch vertreten wird. Wer die Unmöglichkeit Gottes behauptet, muss einen konkreten Widerspruch im Begriff aufzeigen – Allmachts- und Vorherwissens-Paradoxe haben, wie oben gezeigt, kohärente Lösungen.`,
+                  sources: [
+                    { kind: 'gegner', author: 'J. N. Findlay', work: '„Can God\'s Existence Be Disproved?", Mind 57', year: '1948', status: 'paraphrase', quote: 'Ein anbetungswürdiges Wesen müsste notwendig existieren; notwendige Existenz sei aber begrifflich unmöglich.' },
+                    { kind: 'fachliteratur', author: 'Saul A. Kripke', work: 'Naming and Necessity', year: '1980 (Vorlesungen 1970)', status: 'paraphrase', quote: 'Notwendige Wahrheiten a posteriori, z. B. Identitätsaussagen wie „Wasser ist H₂O".' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'groesse-subjektiv',
+          objection: `„‚Größtmögliches Wesen' ist ein Werturteil. Ist Unveränderlichkeit eine Vollkommenheit oder ein Mangel? Sind vollkommene Gerechtigkeit und vollkommene Barmherzigkeit überhaupt vereinbar? Deine ‚Vollkommenheiten' sind kulturell gefärbte Vorlieben."`,
+          objectionBy: "Alex O'Connor",
+          targetsPremise: 1,
+          answer: `Manche Einzelfragen sind tatsächlich umstritten, auch unter Christen. Aber der Kern ist nicht kulturell beliebig: Wissen ist besser als Unwissen, Macht besser als Ohnmacht, Güte besser als Bosheit – das bestreitet auch kein Atheist, der Wissenschaft treibt und Ungerechtigkeit anprangert. Und Gerechtigkeit und Barmherzigkeit widersprechen sich nicht in Gott, sondern begegnen sich – nach christlichem Glauben am Kreuz: „Güte und Treue begegnen einander, Gerechtigkeit und Friede küssen sich" (Ps 85,11).`,
+          detail: `Die Theologie des vollkommenen Wesens (perfect being theology) arbeitet mit Eigenschaften, die *in sich* besser sind als ihr Gegenteil, unabhängig davon, wer urteilt. Strittige Punkte (etwa, ob Unveränderlichkeit heißt, dass Gott nicht mitleiden kann) betreffen die genaue Auslegung, nicht den Grundbegriff. Für die koptische Tradition ist entscheidend: Gottes Leidensunfähigkeit in seinem Wesen schließt nicht aus, dass der fleischgewordene Logos in seinem Fleisch wirklich gelitten hat (Kyrill von Alexandrien).`,
+          sources: [
+            { kind: 'bibel', work: 'Psalm', ref: '85,11', status: 'paraphrase', quote: 'Güte und Treue begegnen einander, Gerechtigkeit und Friede küssen sich.', note: 'Zählung nach Luther (in der Septuaginta Ps 84,11).' },
+          ],
+          followUps: [
+            {
+              id: 'werte-nur-subjektiv',
+              objection: `„Ob Wissen ‚besser' ist als Unwissen, hängt davon ab, wer bewertet und wozu. Werte sind menschliche Bewertungen, keine Eigenschaften der Wirklichkeit. Ein ‚objektiv größtes Wesen' gibt es so wenig wie die ‚objektiv beste Eissorte'."`,
+              objectionBy: "Alex O'Connor",
+              answer: `Dann müsstest du auch sagen, dass Wahrheit nicht objektiv besser ist als Irrtum – und damit wäre dein eigenes Bemühen, mich zu korrigieren, nur eine Geschmacksvorliebe. Du behandelst Werte wie Ehrlichkeit, Konsistenz und Erkenntnis in diesem Gespräch ganz selbstverständlich als verbindlich. Wenn sie es sind, gibt es objektive Werte – und dann ist die Frage nach dem Grund dieser Werte die Frage nach Gott.`,
+              detail: `Hier mündet das ontologische Argument in das moralische Argument (siehe „Man kann auch ohne Gott gut sein"). Wer allen Wertrealismus aufgibt, entgeht dem ontologischen Argument, verliert aber auch die Grundlage für jede normative Kritik – einschließlich der Kritik am Glauben als „irrational" oder „schädlich".`,
+              questionsBack: [`Ist es objektiv besser, in diesem Gespräch die Wahrheit zu sagen, als zu lügen – oder nur deine persönliche Vorliebe?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Enthält der Begriff eines allmächtigen, allwissenden, vollkommen guten Wesens für dich einen logischen Widerspruch? Welchen?`,

@@ -193,6 +193,81 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'kognitive-dissonanz',
+      objection: `„Für den Auferstehungsglauben braucht es kein Wunder, nur Psychologie. Festingers Studie ‚When Prophecy Fails' zeigt: Wenn eine Gruppe enttäuscht wird, gibt sie ihren Glauben nicht auf, sondern verstärkt ihn und deutet die Niederlage um. Die Jünger konnten den Tod ihres Messias nicht ertragen – also wurde aus der Katastrophe ein Triumph."`,
+      objectionBy: "Kris Komarnitsky (Doubting Jesus' Resurrection) / Alex O'Connor",
+      answer: `Kognitive Dissonanz erklärt, warum Menschen eine Enttäuschung *umdeuten* – sie erklärt aber nicht, warum Einzelne und Gruppen berichten, Jesus *gesehen* zu haben, und warum ausgerechnet ein Verfolger wie Paulus und ein Skeptiker wie Jakobus dazukamen. Zudem gab es im Judentum kein Muster, nach dem man einen gescheiterten Messias für auferstanden erklärte. Andere Messiasbewegungen der Zeit endeten mit dem Tod ihres Anführers – oder suchten sich einen neuen.`,
+      detail: `Festinger, Riecken und Schachter beobachteten 1954 eine Gruppe, die den Weltuntergang erwartet hatte; nach dem Ausbleiben verstärkten einige ihre Missionstätigkeit. Die Übertragung auf die Jünger hat drei Schwächen:
+- **Die Gruppe hatte eine Vorhersage, die die Umdeutung lieferte;** die Jünger erwarteten keinen sterbenden und auferstehenden Messias (Lk 24,21: „Wir aber hofften …").
+- **Die Quellen sprechen von Erscheinungen,** nicht nur von einer neuen Deutung – auch vor Gruppen (1 Kor 15,5–7).
+- **Außenstehende wurden überzeugt:** Paulus und Jakobus hatten keine Dissonanz zu bewältigen; sie waren Gegner bzw. Zweifler.
+
+N. T. Wright verweist darauf, dass nach dem Tod anderer jüdischer Messiasprätendenten (etwa Judas des Galiläers oder Simon bar Kochbas) niemand behauptete, sie seien auferstanden.`,
+      voices: [
+        {
+          person: 'nt-wright',
+          role: 'als Historiker des Judentums des Zweiten Tempels',
+          text: `Wright untersucht, was „Auferstehung" im Judentum zur Zeit Jesu bedeutete: eine leibliche Auferweckung aller Gerechten am Ende der Zeit, nicht die Erhöhung eines Einzelnen mitten in der Geschichte. Dass die Jünger genau dies von Jesus behaupteten, ist eine Mutation des jüdischen Glaubens, die durch Umdeutung allein nicht zu erklären ist. Gescheiterte Messiasbewegungen hätten nach Wright entweder aufgegeben oder einen neuen Messias aus der Familie gesucht.`,
+          sources: [{ kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Leon Festinger, Henry W. Riecken & Stanley Schachter', work: 'When Prophecy Fails', year: '1956', status: 'paraphrase' },
+        { kind: 'gegner', author: 'Kris Komarnitsky', work: 'Doubting Jesus\' Resurrection: What Happened in the Black Box?', year: '2. Aufl. 2014', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Lukas', ref: '24,21', status: 'paraphrase', quote: 'Wir aber hofften, er sollte Israel erlösen.' },
+      ],
+      questionsBack: [`Welche andere Messiasbewegung des 1. Jahrhunderts hat nach dem Tod ihres Anführers verkündet, er sei leiblich auferstanden?`],
+      followUps: [
+        {
+          id: 'sabbatai-zwi',
+          objection: `„Doch, es gibt eine Parallele: Sabbatai Zwi. Er trat 1666 sogar zum Islam über – und seine Anhänger glaubten trotzdem weiter an ihn, manche noch nach seinem Tod. Menschen halten an ihrem Messias fest, egal was passiert."`,
+          objectionBy: "Alex O'Connor",
+          answer: `Ein gutes Beispiel – aber es zeigt eher den Unterschied. Sabbatais Anhänger erklärten seine Konversion als verborgenes Geheimnis und sagten später, er sei nicht wirklich gestorben, sondern entrückt. Niemand behauptete, man habe ihn leiblich auferstanden gesehen, mit ihm gegessen und ihn berührt, und die Bewegung schrumpfte zu einer kleinen Gruppe. Die Jesusbewegung dagegen begann mit der Verkündigung der leiblichen Auferstehung in Jerusalem – in der Stadt, in der das Grab lag – und wuchs gerade dort.`,
+          detail: `Zu Sabbatai Zwi (1626–1676) siehe die Standardbiografie von Gershom Scholem. Der Vergleich zeigt, wie Gruppen tatsächlich auf eine Enttäuschung reagieren: durch Spiritualisierung, Geheimlehre oder die Behauptung, der Anführer sei nicht gestorben. Die frühe Kirche behauptet das Gegenteil: Jesus ist wirklich gestorben und begraben (1 Kor 15,3–4) – und wirklich auferweckt.`,
+          sources: [{ kind: 'fachliteratur', author: 'Gershom Scholem', work: 'Sabbatai Sevi: The Mystical Messiah 1626–1676', year: '1973 (hebr. Original 1957)', status: 'paraphrase' }],
+          followUps: [
+            {
+              id: 'trauerhalluzinationen',
+              objection: `„Dann eben Trauerhalluzinationen. Viele Hinterbliebene sehen oder hören ihre Verstorbenen – Studien sprechen von einem großen Teil der Trauernden. Petrus und Maria Magdalena hatten solche Erlebnisse, der Rest war Ansteckung und Legende."`,
+              objectionBy: 'Bart Ehrman (How Jesus Became God, 2014)',
+              answer: `Trauererlebnisse gibt es wirklich, und ich nehme sie ernst. Aber Hinterbliebene schließen daraus, dass der Verstorbene sie besucht hat oder „bei Gott" ist – nicht, dass sein Leichnam auferweckt wurde und das Grab leer ist. Zudem erklären Halluzinationen nicht Erscheinungen vor Gruppen, nicht den Verfolger Paulus, der nicht trauerte, und nicht das leere Grab. Jede dieser Lücken braucht eine eigene Zusatzhypothese.`,
+              detail: `Ehrman hält die Erscheinungserlebnisse selbst für historisch, deutet sie aber als Visionen. Habermas und Licona zeigen, dass die Halluzinationshypothese mehrere Tatsachen zugleich erklären müsste, die sie einzeln kaum erklärt. Siehe ausführlich „Die Jünger hatten Halluzinationen".`,
+              voices: [
+                {
+                  person: 'habermas',
+                  role: 'als Erforscher der Auferstehungsdebatte',
+                  text: `Habermas arbeitet mit den Tatsachen, die eine breite Mehrheit kritischer Forscher anerkennt, und prüft die naturalistischen Alternativen einzeln. Gegen Halluzinationen nennt er vor allem die Gruppenerscheinungen, die Vielfalt der Zeugen und Umstände sowie die Bekehrung von Gegnern wie Paulus.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Gary R. Habermas & Michael R. Licona', work: 'The Case for the Resurrection of Jesus', year: '2004', status: 'paraphrase' }],
+                },
+              ],
+              sources: [{ kind: 'gegner', author: 'Bart D. Ehrman', work: 'How Jesus Became God', year: '2014', status: 'paraphrase', quote: 'Die Jünger hatten Visionen des gestorbenen Jesus; diese erklärten ihren Auferstehungsglauben.' }],
+              followUps: [
+                {
+                  id: 'zeitoun-massensichtung',
+                  objection: `„Massensichtungen beweisen gar nichts. Deine eigene koptische Kirche beruft sich auf die Marienerscheinungen von Zeitoun 1968, die Zehntausende gesehen haben wollen. Entweder du glaubst jede Massensichtung – oder du gibst zu, dass Menschenmengen sich irren können."`,
+                  objectionBy: "Alex O'Connor",
+                  answer: `Ein fairer Punkt, und ich weiche ihm nicht aus: Die koptische Kirche hat die Erscheinungen von Zeitoun anerkannt, und es gibt auch natürliche Deutungsversuche, etwa als seltene Leuchterscheinungen. Aber selbst diese Deutungen erklären ein *Licht über einer Kirche*, das eine Menge sieht. Die Auferstehungsberichte schildern etwas ganz anderes: Gespräche, gemeinsames Essen, Berührung, über Wochen und an verschiedenen Orten. Und mein Argument hängt nicht an Zeitoun – es hängt an Tatsachen, die auch skeptische Historiker anerkennen.`,
+                  detail: `Die Erscheinungen über der Marienkirche in Zeitoun (Kairo) wurden ab April 1968 über mehrere Jahre berichtet, von großen Menschenmengen und in der Presse. Papst Kyrill VI. ließ sie untersuchen, und die koptische Kirche erklärte sie für echt. Kritiker (u. a. Derr und Persinger 1989) deuteten sie als tektonisch bedingte Leuchterscheinungen. Für das Gespräch gilt: Man muss die Frage nach Zeitoun nicht entscheiden, um zu zeigen, dass die Art der Auferstehungsbelege – vielfache Begegnungen mit Interaktion, das leere Grab, die Bekehrung von Gegnern – sich von einer Lichterscheinung grundlegend unterscheidet.`,
+                  sources: [{ kind: 'gegner', author: 'John S. Derr & Michael A. Persinger', work: 'Aufsatz zu den Erscheinungen von Zeitoun als tektonisch bedingte Leuchterscheinungen, Perceptual and Motor Skills 68', year: '1989', status: 'paraphrase', note: 'Natürliche Deutung der Lichterscheinungen; Titel und Seitenzahlen vor Verwendung prüfen.' }],
+                  questionsBack: [`Erklärt die Deutung als Lichterscheinung auch Gespräche, gemeinsames Essen und Berührung über mehrere Wochen?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'auferstehung-metaphorisch',
+          objection: `„Vielleicht meinten die Jünger ‚auferstanden' gar nicht wörtlich – sondern dass Jesus von Gott gerechtfertigt und in den Himmel erhöht wurde, wie die Märtyrer der Makkabäerzeit. Erst später wurde daraus eine Geschichte über ein leeres Grab."`,
+          objectionBy: 'Bart Ehrman / John Dominic Crossan',
+          answer: `Im Judentum des 1. Jahrhunderts bedeutete *anastasis* nie „Erhöhung der Seele", sondern leibliche Wiederherstellung – das zeigt gerade das Makkabäerbuch, wo der Märtyrer hofft, seine Glieder von Gott zurückzubekommen (2 Makk 7,11). Für die Erhöhung eines Gerechten in den Himmel gab es andere Worte. Und das älteste Bekenntnis nennt ausdrücklich „begraben" und „auferweckt am dritten Tag" (1 Kor 15,4) – eine Abfolge, die nur mit einem Leib Sinn ergibt.`,
+          sources: [
+            { kind: 'bibel', work: '2. Makkabäer', ref: '7,11', status: 'paraphrase', quote: 'Der dritte Bruder streckte seine Hände aus und sagte: Vom Himmel habe ich sie empfangen und hoffe, sie von ihm wiederzuerhalten.', note: 'Deuterokanonisch; im koptisch-orthodoxen Kanon enthalten.' },
+            { kind: 'bibel', work: '1. Korinther', ref: '15,3–4', status: 'paraphrase', quote: 'dass Christus gestorben ist für unsere Sünden nach der Schrift, und dass er begraben ist, und dass er auferstanden ist am dritten Tage nach der Schrift.' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Was genau meinst du mit „außergewöhnlich" – selten, naturgesetzlich unmöglich oder unwahrscheinlich im Licht aller Belege?`,

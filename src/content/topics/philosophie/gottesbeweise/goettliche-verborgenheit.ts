@@ -184,6 +184,99 @@ const claim: Claim = {
       objectionBy: 'J. L. Schellenberg (gegen Michael Rea)',
       answer: `Gottes Liebe ist nicht *weniger* als menschliche, sondern größer und anders in der Art, wie sie sich äußert – wie die Liebe eines Vaters zu einem kleinen Kind sich anders zeigt als zwischen Freunden. Und sie ist nicht unerkennbar: Sie zeigt sich am deutlichsten am Kreuz. „Darin steht die Liebe: nicht, daß wir Gott geliebt haben, sondern daß er uns geliebt hat und gesandt seinen Sohn" (1 Joh 4,10). Wer wissen will, wie Gottes Liebe aussieht, kann auf Christus schauen.`,
     },
+    {
+      id: 'verborgenheit-beleg-naturalismus',
+      objection: `„Rechnen wir nüchtern: Unter dem Naturalismus erwarten wir genau, was wir sehen – Menschen, die über Gott uneins sind, Glauben, der sich nach Herkunft verteilt, und keinen eindeutigen Hinweis. Unter dem Theismus erwarten wir einen Gott, dessen Existenz für alle offenkundig ist. Also ist die Verborgenheit ein Beleg für den Naturalismus."`,
+      objectionBy: 'Paul Draper / J. L. Schellenberg',
+      answer: `Das wäre richtig, wenn der christliche Theismus einen offenkundigen Gott *vorhersagen* würde. Er tut aber das Gegenteil: Die Schrift spricht selbst vom „verborgenen Gott" (Jes 45,15) und erwartet eine Welt mit genug Licht für den Suchenden und genug Dunkel für den, der nicht sucht. Der Naturalismus dagegen erwartet nicht, dass die überwältigende Mehrheit aller Menschen zu allen Zeiten nach dem Göttlichen fragt, betet und von Gotteserfahrungen berichtet. Die Datenlage ist gemischt – und genau so beschreibt sie das Christentum.`,
+      detail: `Pascal hat diese „Mischung" zum Kern seiner Apologetik gemacht: Gott wollte sich denen zeigen, die ihn von ganzem Herzen suchen, und sich vor denen verbergen, die ihn fliehen; darum gebe es genug Licht für die einen und genug Dunkel für die anderen. Bayesianisch gesprochen: Eine Hypothese, die genau eine gemischte Beweislage vorhersagt, wird durch eine gemischte Beweislage nicht geschwächt. Draper würde antworten, der *bloße* Theismus sage Offenkundigkeit voraus – aber das Gespräch geht um den christlichen Gott, nicht um einen beliebigen.`,
+      sources: [
+        { kind: 'bibel', work: 'Jesaja', ref: '45,15', status: 'paraphrase', quote: 'Fürwahr, du bist ein verborgener Gott, du Gott Israels, der Heiland.' },
+      ],
+      questionsBack: [`Sagt der Naturalismus voraus, dass fast alle Kulturen der Menschheitsgeschichte beten und nach Gott fragen?`],
+      followUps: [
+        {
+          id: 'pascal-verleumdet-zweifler',
+          objection: `„Pascals ‚genug Dunkel für die mit entgegengesetzter Neigung' heißt im Klartext: Wer nicht glaubt, will nicht glauben. Das ist eine Verleumdung ehrlicher Zweifler – und es gibt nachweislich nicht-widerständige Nichtgläubige."`,
+          objectionBy: 'J. L. Schellenberg',
+          answer: `Pascal beschreibt die Gesamtordnung, kein Urteil über jeden Einzelnen – und die Kirche maßt sich ein solches Urteil nicht an. Eine „Neigung" kann zudem unbewusst sein und steckt in uns allen, auch in Gläubigen. Vor allem aber ist die Geschichte eines Menschen mit Gott nicht nach einem Augenblick abgeschlossen: Augustinus suchte jahrelang vergeblich, C. S. Lewis nannte sich den „widerwilligsten Bekehrten Englands". Dass jemand *heute* nicht glaubt, zeigt nicht, dass Gott sich ihm *nie* zeigt.`,
+          detail: `Schellenbergs Argument braucht die Prämisse, dass es zu irgendeinem Zeitpunkt Menschen gibt, die zu einer Beziehung mit Gott fähig sind und ohne eigenen Widerstand nicht glauben. Christen können diese Prämisse zugestehen und trotzdem bestreiten, dass ein liebender Gott jeden Augenblick die Gottesgewissheit herstellen *müsste*. Die entscheidende Frage ist also, ob Liebe auch warten darf (siehe nächster Zug).`,
+          voices: [
+            {
+              person: 'cs-lewis',
+              role: 'als später Bekehrter und Apologet',
+              text: `Lewis beschreibt in seiner Autobiografie, wie er jahrelang als überzeugter Atheist lebte und sich am Ende gegen seinen Willen dem Gott ergab, den er nicht hatte finden wollen. Seine Erfahrung zeigt, dass der Weg zu Gott Zeit braucht und dass Gott Menschen auch durch lange Phasen des Unglaubens hindurch sucht.`,
+              sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Surprised by Joy (Überrascht von Freude)', year: '1955', ref: 'Kap. 14', status: 'paraphrase', quote: 'Lewis beschreibt sich bei seiner Bekehrung zum Theismus als den wohl niedergeschlagensten und widerwilligsten Bekehrten in ganz England.' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'aufschub-liebesmangel',
+              objection: `„Aber ein vollkommen liebender Gott würde dafür sorgen, dass jeder, der zu einer Beziehung fähig ist, sie *jederzeit* eingehen kann. Schon der Aufschub ist ein Mangel an Liebe."`,
+              objectionBy: 'J. L. Schellenberg',
+              answer: `Menschliche Liebe zeigt das Gegenteil: Gute Eltern und Lehrer schaffen bewusst Abstand, damit ein Kind wachsen, selbst suchen und frei antworten kann. Irenäus von Lyon lehrte, dass der Mensch nicht fertig, sondern wie ein Kind geschaffen wurde und in die Gemeinschaft mit Gott hineinwachsen soll. Eine Liebe, die nur sofortige Gewissheit kennt, ließe keinen Raum für dieses Wachsen.`,
+              detail: `Irenäus beschreibt den Menschen als „Kind", das Gott nicht sofort mit der vollen Vollkommenheit überhäufen konnte, weil es sie noch nicht hätte fassen können; der Mensch soll wachsen und reifen (Adversus Haereses IV,38). Moderne Philosophen sprechen von „epistemischer Distanz": Ein gewisser Abstand ermöglicht eine freie, nicht erzwungene Antwort. Das erklärt nicht jeden Einzelfall, zeigt aber, dass Aufschub mit vollkommener Liebe vereinbar ist.`,
+              voices: [
+                {
+                  person: 'irenaeus',
+                  role: 'als Theologe des Wachstums',
+                  text: `Für Irenäus ist der Mensch von Anfang an zur Gemeinschaft mit Gott bestimmt, aber nicht fertig geschaffen: Er muss wachsen, sich üben und reifen, um Gott zu „fassen". Gott hätte ihm die Vollkommenheit nicht sofort geben können, ohne seine Natur als Geschöpf zu übergehen – wie eine Mutter ihrem Säugling noch keine feste Speise gibt.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien (Adversus Haereses)', ref: 'IV,38,1–2', year: 'um 180', status: 'paraphrase', quote: 'Der Mensch war wie ein Kind; Gott gab ihm nicht sofort die Vollkommenheit, weil er sie noch nicht hätte tragen können.' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'eltern-sind-offensichtlich-da',
+                  objection: `„Deine Eltern-Analogie spricht gegen dich: Gute Eltern verstecken sich nicht vor ihren Kindern. Ein Kind weiß, dass seine Mutter existiert – und ist trotzdem frei. Gott könnte genauso offenkundig da sein, ohne jemanden zu überwältigen."`,
+                  objectionBy: 'J. L. Schellenberg',
+                  answer: `Gott hat genau das getan – in der Weise, die wir ertragen können: Er wurde Mensch. „Wer mich sieht, der sieht den Vater" (Joh 14,9). Athanasius erklärt, dass der Logos einen Leib annahm, weil die Menschen nur noch auf das Sichtbare schauten – er kam ihnen auf ihrer eigenen Ebene entgegen. Und er bleibt gegenwärtig: in der Kirche, im Wort, in der Eucharistie. Dass viele diese Gegenwart nicht als solche erkennen, ist eher wie bei einem Kind, das die Liebe seiner Eltern für selbstverständlich hält, als bei Eltern, die sich verstecken.`,
+                  detail: `Die Analogie hat außerdem eine Grenze: Eltern sind endliche Personen in der Welt; ihre Gegenwart lässt Raum, weil sie begrenzt ist. Die ungeschützte Gegenwart des unendlichen Gottes wäre etwas anderes – „kein Mensch wird leben, der mich sieht" (Ex 33,20). Darum ist die Menschwerdung die Antwort der Kirche auf die Verborgenheit: Gott verbirgt seine Herrlichkeit, um sich in Demut zeigen zu können.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Theologe der Menschwerdung',
+                      text: `Athanasius argumentiert, dass die Menschen sich von der Betrachtung Gottes abgewandt und den Blick auf die sinnlichen Dinge gerichtet hatten. Darum nahm der Logos einen Leib an und begegnete ihnen dort, wo sie suchten: in sichtbaren Werken, damit sie durch das, was der Herr im Leib tat, zur Erkenntnis des Vaters gelangten.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '14–16', year: 'ca. 318–335', status: 'paraphrase', quote: 'Weil die Menschen auf das Sinnliche blickten, kam der Logos ihnen im Leib entgegen.' }],
+                    },
+                  ],
+                  questionsBack: [`Wenn Gott sich in einem Menschen gezeigt hätte – woran würdest du das erkennen, und hast du Jesus daraufhin geprüft?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'schrift-am-himmel',
+          objection: `„Gott könnte jede Nacht ‚Jesus ist der Herr' in Leuchtschrift an den Himmel schreiben, in jeder Sprache. Das würde niemanden zwingen, ihn zu lieben – aber jeder wüsste Bescheid."`,
+          objectionBy: 'Theodore Drange / Richard Dawkins',
+          answer: `Jesus hat diese Erwartung selbst beantwortet: „Hören sie Mose und die Propheten nicht, so werden sie auch nicht glauben, wenn jemand von den Toten aufstünde" (Lk 16,31). Menschen würden die Schrift am Himmel bald als Naturphänomen, Technik oder Massentäuschung erklären. Vor allem aber verändert ein Spektakel das Herz nicht. Und ein Gott, der ununterbrochen mit überwältigender Macht gegenwärtig wäre und zugleich Gericht ankündigt, würde Gehorsam aus Angst erzeugen, nicht Liebe.`,
+          detail: `Michael Murray hat dieses Argument philosophisch ausgearbeitet: Wenn Gottes Existenz und die Folgen von Gut und Böse für jeden überwältigend offenkundig wären, stünde jede Entscheidung unter dem Druck einer übermächtigen Drohung – wie bei einem Menschen, dem jemand eine Pistole an den Kopf hält. Eine echte, freie Hinwendung zum Guten verlangt einen gewissen Spielraum.`,
+          voices: [
+            {
+              person: 'michael-murray',
+              role: 'als Religionsphilosoph',
+              text: `Murray argumentiert, dass eine ständige, überwältigende Gewissheit über Gott und seine Gerichtsandrohung die menschliche Freiheit faktisch aufheben würde, so wie eine massive Drohung eine Handlung erzwingt. Gottes teilweise Verborgenheit schützt den Raum, in dem Menschen den Charakter ausbilden können, den Gott in ihnen wachsen lassen will.`,
+              sources: [{ kind: 'fachliteratur', author: 'Michael J. Murray', work: '„Coercion and the Hiddenness of God", American Philosophical Quarterly 30', year: '1993', status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Lukas', ref: '16,31', status: 'paraphrase', quote: 'Hören sie Mose und die Propheten nicht, so werden sie auch nicht glauben, ob jemand von den Toten aufstünde.' },
+          ],
+          followUps: [
+            {
+              id: 'juenger-bekamen-beweise',
+              objection: `„Aber die Jünger bekamen genau solche Beweise – sie sahen den Auferstandenen und waren trotzdem frei. Warum sie und nicht ich?"`,
+              objectionBy: "Alex O'Connor",
+              answer: `Sie bekamen sie nicht als Privileg, sondern als Auftrag: Sie sollten Zeugen für alle anderen sein (Apg 1,8). Gott handelt in der Geschichte durch Zeugen – so wie du von den meisten historischen Ereignissen durch Zeugen weißt. Jesus sagte zu Thomas: „Selig sind, die nicht sehen und doch glauben!" (Joh 20,29) – nicht als Lob blinden Glaubens, sondern weil das Zeugnis der Augenzeugen ein echter Weg zur Wahrheit ist. Und viele Menschen berichten bis heute, dass Christus ihnen auf eigene Weise begegnet ist.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '20,29', status: 'paraphrase', quote: 'Selig sind, die nicht sehen und doch glauben!' },
+              ],
+              questionsBack: [`Glaubst du anderen historischen Berichten nur, wenn du die Ereignisse selbst gesehen hast?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche Art von Zeichen würde dich überzeugen – und würdest du es morgen nicht vielleicht als Einbildung deuten?`,

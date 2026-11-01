@@ -133,6 +133,21 @@ Das Argument ist kein „Beweis" für die Trinität, sondern zeigt, dass die geo
           objection: `Dann ist euer Gott von Beziehungen abhängig – er braucht die anderen Personen. Das ist auch Bedürftigkeit.`,
           objectionBy: 'Hamza Tzortzis',
           answer: `Nein, denn die drei Personen sind nicht „andere" außerhalb Gottes, sondern das eine göttliche Wesen. Gott braucht nichts außer sich selbst – er ist in sich selbst Fülle der Gemeinschaft. Abhängig wäre ein Gott, der Geschöpfe braucht, um zu lieben. Die Trinität ist gerade die Lehre von Gottes vollkommener Selbstgenügsamkeit.`,
+          followUps: [
+            {
+              id: 'argument-beweist-zu-viel',
+              objection: `Euer Argument beweist zu viel: Wenn Liebe sich notwendig verschenken muss, dann musste Gott auch die Welt erschaffen, um seine Liebe auszudrücken. Dann ist die Schöpfung notwendig – und Gott doch abhängig.`,
+              objectionBy: 'Ali Ataie',
+              answer: `Genau umgekehrt. Weil der Vater den Sohn im Geist von Ewigkeit her vollkommen liebt, fehlt Gott nichts – die Schöpfung ist darum kein Bedürfnis, sondern reines Geschenk. Für einen einpersonalen Gott dagegen wären die Geschöpfe das erste und einzige wirkliche Gegenüber seiner Liebe; dann hinge die Verwirklichung seiner Liebe an der Welt. Die Trinität macht die Schöpfung frei, der Unitarismus macht sie nötig.`,
+              detail: `Die Väter unterscheiden scharf zwischen der ewigen Zeugung des Sohnes, die zum Wesen Gottes gehört, und der Erschaffung der Welt, die aus Gottes freiem Willen geschieht. Athanasius betont gegen die Arianer, dass der Sohn „aus dem Wesen", die Welt aber „aus dem Willen" Gottes ist. Daraus folgt: Gott schuf nicht, um etwas zu bekommen, sondern um zu schenken – die Schöpfung ist ein Überfließen der Liebe, die in Gott schon vollkommen ist. Das stärkt im Gespräch auch die koranische Intuition, Allah sei *al-Ġanī*, der Bedürfnislose: Erst der dreieinige Gott ist in seiner Liebe wirklich bedürfnislos.`,
+              voices: [
+                { person: 'athanasius', role: 'als Lehrer der Unterscheidung von Zeugung und Schöpfung', text: `Athanasius unterscheidet in den Reden gegen die Arianer: Der Sohn ist aus dem Wesen des Vaters gezeugt und darum ewig; die Geschöpfe sind durch den Willen Gottes ins Dasein gerufen und darum zeitlich. Gott war nie ohne seinen Sohn, aber er hätte die Welt auch nicht erschaffen können. So bleibt die Schöpfung Gnade.` },
+              ],
+              questionsBack: [
+                `Wen hätte Allah wirklich – nicht nur in Gedanken – geliebt, wenn er die Welt nie erschaffen hätte?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -150,6 +165,19 @@ Das Argument ist kein „Beweis" für die Trinität, sondern zeigt, dass die geo
           objection: `Rede ist keine Person. Ihr macht aus einer Eigenschaft einen zweiten Gott.`,
           objectionBy: 'Hamza Tzortzis',
           answer: `Wir machen aus dem Wort keinen zweiten Gott, sondern bekennen, dass Gottes Wort so wirklich und lebendig ist wie Gott selbst. Ein Wort Gottes, das nur Eigenschaft wäre, könnte nicht Fleisch werden, nicht zum Vater beten und nicht „Ich" sagen. Die Offenbarung zeigt das Wort als lebendiges Du des Vaters (Joh 17,5.24). Woher weißt du, dass Gottes ewiges Wort keine Hypostase ist?`,
+          followUps: [
+            {
+              id: 'bi-la-kaifa-keine-spekulation',
+              objection: `Wir sagen *bi-lā kaifa*: Allah spricht, wie es seiner Majestät geziemt, und wir fragen nicht nach dem Wie. Ihr dagegen spekuliert mit griechischer Philosophie über Gottes Innenleben.`,
+              objectionBy: 'Yasir Qadhi',
+              answer: `Auch wir sagen, dass wir das Wie nicht begreifen – das ist die apophatische Tradition der Väter. Aber das Was hat Gott offenbart: „Das Wort war bei Gott" und „Verherrliche mich, Vater, mit der Herrlichkeit, die ich bei dir hatte, ehe die Welt war" (Joh 1,1; 17,5). Das ist keine Spekulation, sondern Lesen des Textes. Und auch dein *bi-lā kaifa* setzt Metaphysik voraus: Du bekennst, dass Allahs Rede real, ewig und ungeschaffen ist. Wir gehen nicht weiter als die Offenbarung – wir gehen nur nicht weniger weit.`,
+              detail: `Die Formel *bi-lā kaifa* („ohne nach dem Wie zu fragen") geht auf die frühe sunnitische Abwehr sowohl der Vermenschlichung als auch der rationalistischen Umdeutung zurück; sie wird mit Ahmad ibn Hanbal und al-Asch'ari verbunden. Die Kirche kennt eine ähnliche Haltung: Gregor von Nazianz warnt in den Theologischen Reden vor dem Neugierigen, der Gottes Wesen „ergründen" will, und Kyrill betont, dass die Zeugung des Sohnes unaussprechlich ist. Der Unterschied liegt nicht in mehr oder weniger Demut, sondern in dem, was offenbart ist: Das Johannesevangelium spricht vom Wort als einem, das beim Vater ist, mit ihm Herrlichkeit teilt und von ihm geliebt wird „vor Grundlegung der Welt" (Joh 17,24).`,
+              questionsBack: [
+                `Ist die Aussage „Allahs Rede ist ewig und ungeschaffen" für dich Offenbarung oder Philosophie?`,
+                `Wenn Jesus sagt, der Vater habe ihn „vor Grundlegung der Welt" geliebt (Joh 17,24) – wer hat hier wen geliebt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -168,6 +196,79 @@ Das Argument ist kein „Beweis" für die Trinität, sondern zeigt, dass die geo
           objection: `Allah vergibt allen Sünden (39:53). Seine Barmherzigkeit umfasst alles (7:156).`,
           objectionBy: 'Shabir Ally',
           answer: `Ja, Barmherzigkeit und Vergebung sind koranische Grundworte – das sollten wir anerkennen. Der Unterschied liegt darin, ob Gott seine Liebe selbst eingehend hingibt: Im Evangelium kommt Gott in seinem Sohn zu den Verlorenen und gibt sich selbst. Diese Selbsthingabe ist nur denkbar, wenn in Gott selbst ewige Hingabe ist – Vater, Sohn und Geist.`,
+          followUps: [
+            {
+              id: 'barmherziger-als-eine-mutter',
+              objection: `Der Prophet sagte, Allah sei barmherziger zu seinen Dienern als eine Mutter zu ihrem Kind. Das ist eine vorausgehende, bedingungslose Liebe – ganz ohne Trinität.`,
+              objectionBy: 'Shabir Ally',
+              answer: `Das ist ein schönes Wort, und wir sollten es ehren. Aber denk das Bild zu Ende: Eine Mutter liebt nicht nur aus der Ferne – sie trägt ihr Kind unter Schmerzen, wacht nachts, gibt sich selbst und würde ihr Leben für es geben. Wenn Allah die Seinen mehr liebt als eine Mutter, warum sollte er sich dann nicht selbst schenken können? Genau das bezeugt das Evangelium: Gott kommt im Sohn zu uns und gibt sich hin (Joh 3,16). Die Selbsthingabe, die du am Bild der Mutter bewunderst, ist bei uns das Wesen Gottes selbst.`,
+              detail: `Der Hadith (Sahih al-Bukhari 5999; vgl. Muslim 2754) berichtet, wie der Prophet eine Frau sieht, die nach der Suche ihr Kind an die Brust drückt, und sagt: Allah ist barmherziger zu seinen Dienern als diese Frau zu ihrem Kind. Nabeel Qureshi, selbst als Muslim aufgewachsen, beschreibt den Unterschied, der ihn bewegte: Im Koran wird Allahs Liebe meist an Bedingungen gebunden („Allah liebt die Gutes Tuenden … die Geduldigen …"), während das Neue Testament eine Liebe verkündet, die dem Sünder zuvorkommt (Röm 5,8; 1 Joh 4,10). Fair bleiben: Muslime kennen auch Allahs zuvorkommende Barmherzigkeit (*raḥma*). Der Kern der Differenz ist die Selbsthingabe: Gibt Gott Gaben – oder gibt er sich selbst?`,
+              voices: [
+                { person: 'qureshi', role: 'als ehemaliger Muslim', text: `Qureshi schildert in „No God but One", dass ihn als Muslim die Frage beschäftigte, ob Gott ihn auch dann liebe, wenn er versage. Er stellt fest, dass der Koran Allahs Liebe überwiegend an die Frommen, Gerechten und Geduldigen knüpft, während das Evangelium von einem Gott spricht, der die Feinde liebt und für Sünder stirbt. Für ihn ist das kein Detail, sondern der Unterschied im Wesen Gottes.` },
+              ],
+              sources: [
+                { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '5999', quote: `Allah ist barmherziger zu seinen Dienern als diese Frau zu ihrem Kind.`, translation: 'sinngemäß', status: 'paraphrase', url: 'https://sunnah.com/bukhari:5999' },
+                { kind: 'bibel', work: '1. Johannes', ref: '4,10', quote: `Darin besteht die Liebe: nicht dass wir Gott geliebt haben, sondern dass er uns geliebt und seinen Sohn gesandt hat als Sühnung für unsere Sünden.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+                { kind: 'fachliteratur', author: 'Nabeel Qureshi', work: 'No God but One: Allah or Jesus?', year: '2016', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Was ist größer: eine Liebe, die Gaben schenkt, oder eine Liebe, die sich selbst schenkt?`,
+                `Wenn eine Mutter für ihr Kind leiden würde – warum soll es Gottes unwürdig sein, für seine Geschöpfe zu leiden?`,
+              ],
+              followUps: [
+                {
+                  id: 'gott-kann-nicht-leiden',
+                  objection: `Gott kann nicht leiden – das ist Vermenschlichung. Eure eigenen Kirchenväter lehren doch, dass Gott leidensunfähig und unveränderlich ist. Ein leidender Gott widerspricht eurer eigenen Theologie.`,
+                  objectionBy: 'Mohammed Hijab',
+                  answer: `Richtig: Die göttliche Natur leidet nicht und verändert sich nicht – das lehrt die Kirche ausdrücklich. Aber der ewige Sohn hat sich eine wirkliche Menschheit zu eigen gemacht und in ihr gelitten. Der hl. Kyrill sagt: Der Logos „litt leidensunfähig" – er litt im eigenen Fleisch, das wirklich sein eigenes ist, ohne dass seine Gottheit sich verwandelte. Darum singen wir: „Heiliger Unsterblicher, der für uns gekreuzigt wurde." Gott hat das Leiden nicht erlitten, weil er musste, sondern auf sich genommen, weil er liebt.`,
+                  detail: `Das ist der Kern der koptischen Christologie: „eine fleischgewordene Natur des Gott-Logos", geeint ohne Vermischung, ohne Verwandlung, ohne Trennung. Weil Gottheit und Menschheit in der einen Person des Logos untrennbar geeint sind, kann man sagen „Gott hat gelitten" – im Fleisch –, ohne die Leidensunfähigkeit der göttlichen Natur aufzugeben. Kyrills 12. Anathematismus verurteilt, wer nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat. Das ist keine Vermenschlichung Gottes, sondern die Vergöttlichung des Menschen: Gott nimmt unser Leiden an, um es von innen zu heilen. Das Trisagion der koptischen Liturgie („Heiliger Gott, heiliger Starker, heiliger Unsterblicher, der du gekreuzigt wurdest für uns, erbarme dich unser") sagt genau das.`,
+                  voices: [
+                    { person: 'kyrill-alexandrien', role: 'als Lehrer der Einheit Christi', text: `Kyrill betont gegen Nestorius, dass man das Leiden nicht einem bloßen Menschen neben dem Logos zuschreiben darf: Der eine Christus, der Logos selbst, hat im eigenen Fleisch gelitten. Die Gottheit bleibt dabei leidensunfähig, aber das Leiden des Fleisches gehört wirklich ihm, so wie die Seele die Schmerzen ihres Leibes als ihre eigenen erfährt, ohne selbst verwundet zu werden. Nur so ist das Kreuz Gottes eigene Liebestat und nicht das Opfer eines anderen.` },
+                    { person: 'severus-antiochien', role: 'als miaphysitischer Theologe', text: `Severus von Antiochien verteidigt Kyrills Formel gegen Missverständnisse: Die eine fleischgewordene Natur des Logos bedeutet keine Vermischung, denn Gottheit und Menschheit bleiben in ihren Eigentümlichkeiten unversehrt. Leiden und Tod gehören der Menschheit an, werden aber vom einen Christus ausgesagt, weil er sie sich zu eigen gemacht hat.` },
+                  ],
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Kyrill von Alexandrien', work: 'Dritter Brief an Nestorius, 12. Anathematismus', year: '430', status: 'paraphrase', note: 'Verurteilt, wer nicht bekennt, dass der Logos Gottes im Fleisch gelitten hat, im Fleisch gekreuzigt wurde und den Tod gekostet hat.' },
+                    { kind: 'liturgie', work: 'Koptische Liturgie, Trisagion', quote: `Heiliger Gott, heiliger Starker, heiliger Unsterblicher, der du gekreuzigt wurdest für uns, erbarme dich unser.`, translation: 'sinngemäß', status: 'paraphrase', note: 'In der koptischen Fassung mit christologischen Einschüben (geboren aus der Jungfrau / gekreuzigt / auferstanden).' },
+                  ],
+                  questionsBack: [
+                    `Ist es für dich undenkbar, dass Gott sich aus Liebe eine Menschheit zu eigen macht – oder nur ungewohnt?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'liebe-ist-nur-ein-name',
+      objection: `„Gott ist Liebe" ist eine einseitige Theologie. Allah hat 99 schöne Namen – al-Wadūd ist einer davon, aber er ist auch der Gerechte, der Bezwinger, der Vergelter. Ihr reduziert Gott auf eine einzige Eigenschaft.`,
+      objectionBy: 'Yasir Qadhi',
+      answer: `Die Bibel nennt Gott ebenso heilig, gerecht und Richter – 1 Joh 4,8 reduziert Gott nicht, sondern sagt, was sein innerstes Leben ist. Die Frage ist: Welche Eigenschaften brauchen ein Gegenüber? Gerechtigkeit gegenüber Geschöpfen, Vergebung, Zorn über Sünde – das alles setzt die Schöpfung voraus. Liebe aber ist in der Bibel nicht nur Gottes Verhalten zur Welt, sondern sein ewiges Wesen: Der Vater liebte den Sohn „vor Grundlegung der Welt" (Joh 17,24). Darum ist Gerechtigkeit bei uns nicht der Gegenpol der Liebe, sondern ihr Ernst.`,
+      detail: `Viele der 99 Namen beschreiben Gottes Handeln an der Schöpfung: *al-Ḫāliq* (der Schöpfer), *ar-Razzāq* (der Versorger), *al-Ġafūr* (der Vergebende). Muslimische Theologen unterscheiden deshalb Wesenseigenschaften (*ṣifāt ḏātiyya*) von Tateigenschaften (*ṣifāt fiʿliyya*). Die entscheidende Frage im Gespräch ist, wohin Liebe gehört: Wenn Liebe nur eine Tateigenschaft ist, die sich an Geschöpfen zeigt, dann war Allah vor der Schöpfung nicht liebend im wirklichen Sinn. Wenn sie Wesenseigenschaft ist, braucht sie ein ewiges Gegenüber. Das ist der Punkt, an dem die Trinität eine Antwort hat.`,
+      sources: [
+        { kind: 'bibel', work: '1. Johannes', ref: '4,8', quote: `Wer nicht lieb hat, der kennt Gott nicht; denn Gott ist die Liebe.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Johannes', ref: '17,24', quote: `… denn du hast mich geliebt vor Grundlegung der Welt.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+      ],
+      questionsBack: [
+        `Ist Liebe für dich eine Wesenseigenschaft Allahs oder eine Tateigenschaft, die erst mit der Schöpfung wirklich wird?`,
+      ],
+      followUps: [
+        {
+          id: 'wenn-liebe-warum-hoelle',
+          objection: `Wenn euer Gott wesentlich Liebe ist, wie kann er dann Menschen ewig in die Hölle schicken? Euer „Gott der Liebe" ist am Ende genauso streng wie Allah – nur inkonsequenter.`,
+          objectionBy: 'Mohammed Hijab',
+          answer: `Liebe ist kein Zwang. Gott schuf Menschen, die frei lieben können – und damit auch frei Nein sagen können. Die Hölle ist nach christlichem Verständnis nicht der Ort, an dem Gott seine Liebe zurückzieht, sondern der Zustand dessen, der sie endgültig zurückweist. Und Gott hat alles getan, um das zu verhindern: Er ist selbst Mensch geworden und ans Kreuz gegangen. Ein Gott, der das tut, ist nicht inkonsequent, sondern ernst in seiner Liebe und in deiner Freiheit.`,
+          detail: `Die koptische Kirche lehrt ewiges Leben und ewige Strafe, ohne Allversöhnung als Dogma. Die Väter – besonders Isaak der Syrer – betonen, dass Gottes Liebe niemandem entzogen wird; für den, der sie hasst, wird ihre Gegenwart selbst zur Qual. C. S. Lewis formulierte in „Über den Schmerz" sinngemäß, die Türen der Hölle seien von innen verschlossen. Im Gespräch wichtig: Die Frage nach der Hölle stellt sich jeder monotheistischen Religion, auch dem Islam (der ebenfalls ewige Strafe lehrt). Sie widerlegt nicht das Liebesargument, sondern zeigt, wie ernst Gott die Freiheit nimmt.`,
+          voices: [
+            { person: 'isaak-syrer', role: 'als Lehrer des geistlichen Lebens', text: `Isaak der Syrer lehrt, dass auch die in der Gehenna nicht von der Liebe Gottes ausgeschlossen sind; vielmehr wird die Liebe für die, die gegen sie gesündigt haben, zur Pein, die bitterer ist als jede Strafe. Die Hölle ist so nicht Gottes Abwesenheit, sondern die Weigerung, seine Gegenwart als Liebe anzunehmen.` },
+            { person: 'cs-lewis', role: 'als Apologet', text: `Lewis argumentiert, dass Gott den Menschen nicht zwingen kann, ihn zu lieben, ohne die Liebe selbst zu zerstören. Am Ende gibt es zwei Arten von Menschen: die zu Gott sagen „Dein Wille geschehe", und die, zu denen Gott schließlich sagt „Dein Wille geschehe". Die Hölle ist das Respektieren dieser letzten Wahl.` },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Isaak der Syrer', work: 'Asketische Reden (Erste Sammlung)', ref: 'Rede 28 (Zählung nach Wensinck; je nach Ausgabe abweichend)', year: '7. Jh.', status: 'paraphrase', note: 'Die Liebe als Pein für die, die gegen sie gesündigt haben.' },
+            { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Problem of Pain (dt. Über den Schmerz)', ref: 'Kap. 8', year: '1940', status: 'paraphrase', note: '„Die Türen der Hölle sind von innen verschlossen" – sinngemäß.' },
+            { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Great Divorce (dt. Die große Scheidung)', year: '1945', status: 'paraphrase', note: 'Die zwei Arten von Menschen – „Dein Wille geschehe".' },
+          ],
         },
       ],
     },

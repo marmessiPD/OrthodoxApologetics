@@ -125,6 +125,27 @@ Mehr zur Prophetiefrage: Claim „Jesus kündigte seine Wiederkunft noch zu Lebz
               questionsBack: [
                 `Nach welchem Kriterium entscheidest du, welche Worte Jesu echt sind – und warum gilt das Peinlichkeitskriterium hier nicht?`,
               ],
+              followUps: [
+                {
+                  id: 'mk-9-1-verklaerung-ausrede',
+                  objection: `Und Mk 9,1 auf die Verklärung sechs Tage später zu beziehen, ist absurd: „Etliche, die hier stehen, werden den Tod nicht schmecken" setzt doch voraus, dass die meisten vorher sterben. Niemand sagt so etwas über eine Woche.`,
+                  objectionBy: 'Dale Allison / Bart Ehrman',
+                  answer: `Der Einwand ist berechtigt: Die Formulierung klingt nach einem längeren Zeitraum, und die Verklärungsdeutung ist nicht die einzige. Andere beziehen das „Kommen des Reiches in Kraft" auf Auferstehung und Pfingsten oder auf das Gericht über den Tempel im Jahr 70, das mehrere der Anwesenden – etwa Johannes – erlebten. Entscheidend ist aber: Schon die frühe Kirche las die Verklärung als Vorwegnahme der kommenden Herrlichkeit (2 Petr 1,16–18), und **keine** dieser Deutungen braucht einen Termin für das Weltende. Den hat Jesus ausdrücklich verweigert.`,
+                  detail: `**Drei ernsthafte Deutungen von Mk 9,1:**
+1. **Verklärung:** Alle drei Synoptiker stellen die Verklärung unmittelbar dahinter; Johannes Chrysostomus und viele Väter deuteten das Wort so. 2 Petr 1,16–18 verbindet die Verklärung ausdrücklich mit der „Kraft und Zukunft (Parusie)" Jesu.
+2. **Auferstehung und Pfingsten:** Das Reich „kommt in Kraft" mit der Auferstehung und der Ausgießung des Geistes (Apg 1,8: „ihr werdet die Kraft empfangen").
+3. **Gericht über Jerusalem (70):** In der Linie von Mk 13 – einige der Jünger lebten noch.
+
+**Ehrlich:** Dale Allison hält alle drei für Verlegenheitslösungen und liest Mk 9,1 als enttäuschte Naherwartung. Das ist eine ernsthafte exegetische Position. Aber selbst Allison folgert daraus nicht, dass der christliche Glaube widerlegt sei – er hält an der Auferstehung fest.`,
+                  sources: [
+                    { kind: 'bibel', work: '2. Petrus', ref: '1,16–18', quote: `Denn wir sind nicht klugen Fabeln gefolgt, da wir euch kundgetan haben die Kraft und Zukunft unseres HERRN Jesu Christi; sondern wir haben seine Herrlichkeit selber gesehen … da wir mit ihm waren auf dem heiligen Berge.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                    { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien zum Matthäusevangelium', ref: '56', year: 'ca. 390', quote: `Chrysostomus bezieht das Wort von denen, die den Tod nicht schmecken werden, auf die Verklärung, in der drei Jünger die kommende Herrlichkeit vorab sahen.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Welche der drei Deutungen setzt einen Termin für das Weltende voraus?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -177,6 +198,39 @@ Mehr zur Prophetiefrage: Claim „Jesus kündigte seine Wiederkunft noch zu Lebz
                 { kind: 'bibel', work: 'Lukas', ref: '9,58', quote: `Die Füchse haben Gruben, und die Vögel unter dem Himmel haben Nester; aber des Menschen Sohn hat nicht, da er sein Haupt hin lege.`, translation: 'Luther 1912', status: 'verbatim' },
                 { kind: 'bibel', work: 'Markus', ref: '14,61–62', quote: `Bist du Christus, der Sohn des Hochgelobten? Jesus aber sprach: Ich bin's; und ihr werdet sehen des Menschen Sohn sitzen zur rechten Hand der Kraft und kommen mit des Himmels Wolken.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'fredriksen-kein-messiasanspruch',
+                  objection: `Jesus hat sich nicht einmal selbst als Messias bezeichnet. Die Pilger am Pessach haben ihn dazu gemacht; Pilatus kreuzigte ihn als „König der Juden", um eine aufgeheizte Menge zu beruhigen – deshalb wurden die Jünger gar nicht verfolgt. Die Selbstaussagen in den Evangelien sind nachösterlich.`,
+                  objectionBy: 'Paula Fredriksen',
+                  answer: `Fredriksen erklärt zu Recht, warum nur Jesus und nicht seine Jünger hingerichtet wurden: Pilatus hielt die Bewegung nicht für militärisch gefährlich. Aber dass die Menge Jesus als Messias feierte, fiel nicht vom Himmel: Er zog demonstrativ auf einem Esel in Jerusalem ein (Sach 9,9), griff im Tempel ein und berief zwölf Jünger als Kern des erneuerten Israel – Zeichenhandlungen, die ein Anspruch sind, auch ohne Titel. Die Kreuzesinschrift „König der Juden" ist kein christlicher Titel; sie zeigt, wofür Rom ihn hielt. Und Jesu Zurückhaltung mit dem Messiastitel passt gerade zu einem Anspruch, der über das politische Messiasbild hinausging.`,
+                  detail: `**Fredriksens These (1999):** Jesus habe das baldige Reich Gottes verkündet und sei bei seinem letzten Pessach von Pilgern als Messias begrüßt worden; Pilatus habe ihn – nicht aber seine Anhänger – gekreuzigt, weil es um die Beruhigung der Menge ging. Die These ist scharfsinnig und erklärt einen echten Befund.
+
+**Was sie nicht erklärt:**
+- **Zeichenhandlungen:** Einzug auf dem Esel, Tempelaktion, Zwölferkreis, letztes Mahl mit Bundesworten – Handlungen, mit denen Jesus selbst eine Rolle beansprucht.
+- **Vollmachtsmuster:** Sündenvergebung, „Ich aber sage euch", Gericht nach der Stellung zu ihm (Mk 8,38; Lk 12,8–9) – über alle Quellenschichten verteilt.
+- **Der Titulus:** „König der Juden" (Mk 15,26; Joh 19,19) ist mehrfach bezeugt und kein christliches Bekenntnis – Christen nannten Jesus „Herr" und „Christus", nicht „König der Juden".
+
+**Ehrlich:** Wie offen Jesus den Messiastitel für sich gebrauchte, ist in der Forschung umstritten; das „Messiasgeheimnis" bei Markus zeigt, dass er ihn eher mied. Ein hoher Anspruch zeigt sich bei ihm stärker im Handeln als in Titeln.`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Historiker des Judentums im 1. Jahrhundert',
+                      text: `Wright liest den Einzug in Jerusalem, die Tempelaktion und das letzte Mahl als bewusst gewählte prophetische Zeichenhandlungen: Jesus inszeniert die Rückkehr Gottes zum Zion und beansprucht, dass sich in ihm und seinem Weg das Schicksal Israels entscheidet. Solche Handlungen sagen mehr als jeder Titel.`,
+                      sources: [{ kind: 'fachliteratur', author: 'N. T. Wright', work: 'Jesus and the Victory of God', year: '1996', status: 'paraphrase', quote: `Die Zeichenhandlungen der letzten Woche als messianischer Anspruch.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Paula Fredriksen', work: 'Jesus of Nazareth, King of the Jews: A Jewish Life and the Emergence of Christianity', year: '1999', quote: `Fredriksen erklärt die Kreuzigung Jesu als Reaktion des Pilatus auf die messianische Begeisterung der Pessachpilger, nicht auf Jesu eigenen Messiasanspruch.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Markus', ref: '15,26', quote: `Und es war oben über ihn geschrieben, was man ihm schuld gab, nämlich: Ein König der Juden.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Sacharja', ref: '9,9', quote: `Du Tochter Zion, freue dich sehr … siehe, dein König kommt zu dir, ein Gerechter und ein Helfer, arm und reitet auf einem Esel …`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum reitet Jesus ausgerechnet auf einem Esel nach Jerusalem, wenn er keinen Anspruch erheben wollte?`,
+                    `Wenn nur die Menge ihn zum Messias machte – warum haben seine Jünger nach seinem schmachvollen Tod an diesem Titel festgehalten?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -203,6 +257,24 @@ Mehr zur Prophetiefrage: Claim „Jesus kündigte seine Wiederkunft noch zu Lebz
           questionsBack: [
             `Welche Dissonanz musste Paulus, der Verfolger, abbauen, als er plötzlich Jesus verkündigte?`,
           ],
+          followUps: [
+            {
+              id: 'milleriten-adventisten',
+              objection: `Dann nimm ein besseres Beispiel: Die Milleriten erwarteten Christus am 22. Oktober 1844. Nach der „großen Enttäuschung" entstanden daraus die Siebenten-Tags-Adventisten – heute viele Millionen Mitglieder. Gescheiterte Prophetie kann sehr wohl eine dauerhafte, wachsende Bewegung erzeugen.`,
+              objectionBy: 'Robert M. Price',
+              answer: `Das Beispiel bestätigt meinen Punkt. Die Adventisten deuteten das Datum um: Christus habe 1844 nicht die Erde betreten, sondern im **himmlischen** Heiligtum einen neuen Dienst begonnen – ein unsichtbares, unüberprüfbares Ereignis. Genau so sieht Dissonanzreduktion aus. Die Jünger behaupteten dagegen etwas **Öffentliches und Überprüfbares**: ein leeres Grab in Jerusalem, Begegnungen mit namentlich genannten Zeugen, darunter Skeptiker. Wer Dissonanz reduzieren will, flüchtet ins Unsichtbare – nicht in Behauptungen, die jeder Gegner im Nachbarviertel widerlegen könnte.`,
+              detail: `**Die Milleriten:** William Miller berechnete aus Dan 8,14 die Wiederkunft für 1843/44; nach dem Ausbleiben am 22. Oktober 1844 zerfiel die Bewegung größtenteils. Eine Minderheit um Hiram Edson und Ellen G. White deutete die Prophezeiung auf einen himmlischen Vorgang um. Daraus erwuchs die Adventbewegung.
+
+**Der strukturelle Unterschied:** Festingers Theorie sagt voraus, dass Anhänger eine gescheiterte Vorhersage **reinterpretieren**, typischerweise so, dass sie nicht mehr falsifizierbar ist. Die Osterbotschaft geht den umgekehrten Weg: Sie bindet sich an ein neues, prüfbares Ereignis in Raum und Zeit (1 Kor 15,3–8). Und sie entstand nicht aus einer enttäuschten Datumsberechnung – Jesus hatte kein Datum genannt –, sondern aus der Katastrophe einer Hinrichtung, die nach jüdischer Erwartung jeden Messiasanspruch beendete.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'George R. Knight', work: 'Millennial Fever and the End of the World: A Study of Millerite Adventism', year: '1993', quote: `Darstellung der Millerbewegung, der „großen Enttäuschung" von 1844 und der anschließenden Umdeutungen.`, status: 'paraphrase' },
+                { kind: 'bibel', work: '1. Korinther', ref: '15,5–8', quote: `… und daß er gesehen worden ist von Kephas, darnach von den Zwölfen. Darnach ist er gesehen worden von mehr denn fünfhundert Brüdern auf einmal … Darnach ist er gesehen worden von Jakobus, darnach von allen Aposteln. Am letzten nach allen ist er auch von mir … gesehen worden.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Haben die Adventisten nach 1844 behauptet, Christus sei leiblich in Neuengland erschienen und Dutzende hätten ihn gesehen – oder haben sie das Ereignis in den Himmel verlegt?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -214,6 +286,58 @@ Mehr zur Prophetiefrage: Claim „Jesus kündigte seine Wiederkunft noch zu Lebz
       detail: `**Ein Spiegel für alle Seiten:** Der katholische Modernist George Tyrrell spottete 1909, Harnacks Christus sei nur das Spiegelbild eines liberal-protestantischen Gesichts, gesehen auf dem Grund eines tiefen Brunnens. Diese Gefahr besteht für jeden Forscher – auch für den, der in Jesus einen gescheiterten Propheten sehen möchte.`,
       sources: [
         { kind: 'fachliteratur', author: 'George Tyrrell', work: 'Christianity at the Cross-Roads', year: '1909', quote: `Harnacks Christus sei nur das Spiegelbild eines liberal-protestantischen Gesichts auf dem Grund eines tiefen Brunnens.`, status: 'paraphrase' },
+      ],
+    },
+    {
+      id: 'kriterien-erledigt',
+      objection: `Du argumentierst ständig mit dem „Kriterium der Peinlichkeit" und der „Mehrfachbezeugung". Diese Echtheitskriterien gelten in der Forschung inzwischen als gescheitert – Chris Keith und andere haben gezeigt, dass man mit ihnen keine echten Jesusworte herausfiltern kann. Damit fällt auch deine Verteidigung von Mk 13,32.`,
+      objectionBy: 'Dan McClellan',
+      answer: `Die Kritik an den Kriterien trifft beide Seiten gleich – auch die Rekonstruktion eines bloß apokalyptischen Jesus beruht auf ihnen. Die Alternative, die Forscher wie Dale Allison vorschlagen, ist ein Gedächtnis-Ansatz: Man fragt nach **wiederkehrenden Mustern** in der gesamten Überlieferung, statt einzelne Sätze zu „beglaubigen". Und dieser Ansatz führt zu einem bemerkenswerten Ergebnis: Zu den sichersten Mustern gehört, dass Jesus sich selbst eine zentrale Rolle im kommenden Gottesreich zuschrieb. Der Gedächtnis-Ansatz entzieht also dem Bild vom „bloßen Propheten" eher den Boden, als dass er ihn stützt.`,
+      detail: `**Die Kriteriendebatte:** Der Sammelband von Chris Keith und Anthony Le Donne (2012) hat die klassischen Echtheitskriterien (Unähnlichkeit, Peinlichkeit, Mehrfachbezeugung) grundsätzlich kritisiert: Sie behandeln Jesusworte wie isolierte Bausteine und übersehen, dass jede Überlieferung bereits gedeutete Erinnerung ist. Diese Kritik ist ernst zu nehmen.
+
+**Allisons Alternative:** In „Constructing Jesus" (2010) argumentiert Allison, dass wir den Gesamteindruck, den Jesus hinterließ, verlässlicher erfassen als einzelne Worte. Zu diesem Gesamteindruck gehören für ihn die apokalyptische Erwartung **und** ein außerordentlich hohes Selbstverständnis: Jesus habe sich als die zentrale Gestalt der Endzeit gesehen, über die das Gericht entscheidet.
+
+**Für das Gespräch:** Wer die Kriterien verabschiedet, kann nicht zugleich mit ihnen „unechte" Hoheitsworte aussortieren. Er muss mit dem Gesamtbild arbeiten – und das zeigt einen Jesus, der mehr beanspruchte als ein Prophet.`,
+      voices: [
+        {
+          person: 'keener',
+          role: 'als Neutestamentler und Kenner antiker Biografie',
+          text: `Keener betont, dass die Evangelien antike Biografien sind, deren Verfasser Erinnerungen an eine reale Person bewahren wollten. Statt Satz für Satz zu prüfen, fragt er, was die Gattung und der kurze Abstand zu den Ereignissen an Zuverlässigkeit erwarten lassen. Das Ergebnis: Der Gesamteindruck der Evangelien – Lehrer, Wundertäter, Vollmachtsanspruch, Kreuzigung – ist historisch gut begründet.`,
+          sources: [{ kind: 'fachliteratur', author: 'Craig S. Keener', work: 'Christobiography: Memory, History, and the Reliability of the Gospels', year: '2019', status: 'paraphrase', quote: `Die Evangelien als antike Biografien mit Erinnerungsgehalt.` }],
+        },
+      ],
+      sources: [
+        { kind: 'fachliteratur', author: 'Chris Keith / Anthony Le Donne (Hg.)', work: 'Jesus, Criteria, and the Demise of Authenticity', year: '2012', quote: `Grundsätzliche Kritik an den klassischen Echtheitskriterien der Jesusforschung.`, status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'Dale C. Allison', work: 'Constructing Jesus: Memory, Imagination, and History', year: '2010', quote: `Allison ersetzt die Einzelkriterien durch die Frage nach wiederkehrenden Mustern und findet darunter ein hohes Selbstverständnis Jesu.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn die Kriterien nicht taugen – mit welcher Methode sortierst du dann die Hoheitsworte Jesu als unecht aus?`,
+        `Welches Gesamtbild ergibt sich für dich, wenn du nach wiederkehrenden Mustern in allen Quellen fragst?`,
+      ],
+      followUps: [
+        {
+          id: 'hoher-anspruch-trotzdem-irrtum',
+          objection: `Schön, dann hatte Jesus eben ein hohes Selbstverständnis – er hielt sich für den künftigen König oder Weltenrichter. Das haben viele Endzeitpropheten. Ein hohes Selbstbild macht ihn nicht zu Gott, sondern höchstens zu einem besonders kühnen Propheten, der sich geirrt hat.`,
+          objectionBy: 'Bart Ehrman',
+          answer: `Richtig – ein Anspruch allein beweist nichts; er stellt eine Frage. C. S. Lewis hat sie zugespitzt: Wer so spricht wie Jesus, ist entweder größenwahnsinnig, ein Betrüger oder der, für den er sich hält. Die Antwort hängt dann an dem Ereignis, das die Jünger als Gottes Bestätigung verstanden: der Auferstehung. Ein gescheiterter Prophet wird nicht auferweckt. Deshalb führt jedes ernsthafte Gespräch über den Anspruch Jesu am Ende zur Frage nach Ostern – und dort sind die Belege stark.`,
+          detail: `**Andere Endzeitpropheten:** Josephus berichtet von Theudas und dem „Ägypter", die Zeichen ankündigten und von den Römern getötet wurden (Ant. 20,97–98.169–172). Ihre Bewegungen zerfielen nach ihrem Tod. Bei Jesus ist es umgekehrt: Nach seinem Tod entsteht eine Bewegung, die ihn als Herrn anbetet (Phil 2,6–11) – und zwar unter Juden, die strenge Monotheisten waren.
+
+**Zum Trilemma:** Lewis' Argument ist kein Beweis, sondern eine Klärung der Alternativen; es setzt voraus, dass der Anspruch historisch ist – genau das zeigt der Gedächtnis-Ansatz.`,
+          voices: [
+            {
+              person: 'cs-lewis',
+              role: 'als Apologet',
+              text: `Lewis argumentiert, dass Jesu Anspruch – Sünden zu vergeben, mit Gott eins zu sein, das Gericht zu halten – die bequeme Einordnung als „großer Morallehrer" ausschließt. Wer solche Dinge sagt und bloß ein Mensch ist, ist entweder krank oder ein Betrüger. Man müsse sich entscheiden, statt ihn herablassend zu loben.`,
+              sources: [{ kind: 'fachliteratur', author: 'C. S. Lewis', work: 'Pardon, ich bin Christ (Mere Christianity)', ref: 'Buch II, Kap. 3', year: '1952', status: 'paraphrase', quote: `Das sogenannte Trilemma: Jesus war entweder ein Lügner, ein Wahnsinniger oder der Herr.` }],
+            },
+          ],
+          sources: [
+            { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: '20,97–98; 20,169–172', year: 'ca. 93/94', quote: `Berichte über Theudas und den „Ägypter", die als Propheten Zeichen ankündigten und von den Römern niedergeschlagen wurden.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Welcher andere gescheiterte Endzeitprophet wurde nach seiner Hinrichtung von jüdischen Monotheisten als Herr angebetet?`,
+          ],
+        },
       ],
     },
   ],

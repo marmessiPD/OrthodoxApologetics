@@ -156,6 +156,71 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'gebetsstudie-gott-testbar',
+      objection: `„Lass die Philosophen-Gottheit beiseite. Der Gott, an den normale Gläubige glauben, erhört Gebete und greift ein – das ist eine empirische Hypothese. Man hat sie getestet: Die große Gebetsstudie an Herzpatienten (STEP, 2006) fand keinen Effekt. Dein Gott ist so unauffindbar wie die Teekanne."`,
+      objectionBy: 'Richard Dawkins (The God Delusion, Kap. 2)',
+      answer: `Die Studie war sauber gemacht, und ich bestreite ihr Ergebnis nicht. Aber sie testete eine Vorstellung, die das Christentum gar nicht vertritt: dass Gebet ein Hebel ist, der unter Laborbedingungen zuverlässig wirkt. Gott ist Person, nicht Naturkraft; Jesus selbst lehnte es ab, Gott auf die Probe zu stellen (Mt 4,7). Auch die Liebe deines besten Freundes kannst du nicht mit einer Doppelblindstudie nachweisen – trotzdem weißt du, dass es sie gibt.`,
+      detail: `Die *Study of the Therapeutic Effects of Intercessory Prayer* (Benson u. a., American Heart Journal 151, 2006) verglich Bypass-Patienten, für die gebetet wurde, mit solchen ohne Fürbitte; sie fand keinen positiven Effekt (Patienten, die *wussten*, dass für sie gebetet wurde, hatten sogar etwas mehr Komplikationen). Dawkins wertet das als Beleg gegen Gott.
+
+Ehrlich bleibt: Ein Laie sollte keine Gebetsstatistik „für" Gott ins Feld führen. Die christliche Erwartung ist nicht, dass Gott sich als messbare Variable in einem Experiment zeigt, das ihn testen will, sondern dass er frei handelt – manchmal sichtbar, oft verborgen. Diese Antwort ist nur dann keine Ausrede, wenn der Glaube an anderer Stelle prüfbar bleibt – und das ist er (siehe den nächsten Zug).`,
+      sources: [
+        { kind: 'wissenschaft', author: 'Herbert Benson u. a.', work: '„Study of the Therapeutic Effects of Intercessory Prayer (STEP) in cardiac bypass patients", American Heart Journal 151', year: '2006', status: 'paraphrase', quote: 'Fürbitte durch Fremde hatte keinen messbaren positiven Einfluss auf Komplikationen nach Bypass-Operationen.' },
+        { kind: 'bibel', work: 'Matthäus', ref: '4,7', quote: `Du sollst Gott, deinen Herrn, nicht versuchen.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Jesus zitiert Dtn 6,16 gegen die Versuchung, Gott zu einem Schauwunder zu zwingen.' },
+      ],
+      questionsBack: [`Mit welchem Experiment würdest du nachweisen, dass deine Eltern dich lieben?`],
+      followUps: [
+        {
+          id: 'gott-immunisiert',
+          objection: `„Genau das meine ich: Ihr immunisiert Gott gegen jeden Test. Ein Wesen, das sich bei jeder Prüfung zurückzieht, ist von einem nicht existierenden Wesen nicht zu unterscheiden."`,
+          objectionBy: 'Richard Dawkins',
+          answer: `Nicht im Labor testbar heißt nicht unprüfbar. Das Christentum hat seinen Prüfstein selbst genannt: „Ist Christus aber nicht auferstanden, so ist euer Glaube eitel" (1 Kor 15,17). Das ist eine Behauptung über ein öffentliches Ereignis in Jerusalem um das Jahr 30 – mit Zeugen, Gegnern und einem Grab. Die Teekanne bietet nichts Vergleichbares an.`,
+          sources: [
+            { kind: 'bibel', work: '1. Korinther', ref: '15,17', quote: `Ist Christus aber nicht auferstanden, so ist euer Glaube eitel, so seid ihr noch in euren Sünden.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'historiker-keine-wunder',
+              objection: `„Die Geschichtswissenschaft kann keine Wunder feststellen. Historiker können nur sagen, was wahrscheinlich geschah – und ein Wunder ist per Definition das Unwahrscheinlichste, was es gibt."`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Historiker können sehr wohl die Tatsachen sichern, um die es geht: Jesu Tod am Kreuz, die Erscheinungserfahrungen der Jünger, die Bekehrung des Verfolgers Paulus, die frühe Verkündigung der Auferstehung in Jerusalem. Ehrman selbst hält die meisten dieser Tatsachen für historisch. Die Frage ist dann, welche Erklärung sie am besten erklärt – und diese Frage kann man nicht dadurch beantworten, dass man eine Antwort vorher verbietet.`,
+              detail: `Ehrman hat diese Position u. a. in seiner Debatte mit William Lane Craig (College of the Holy Cross, Worcester, 2006) vertreten. Michael Licona hat sie ausführlich geprüft: Die Regel „Historiker dürfen keine übernatürliche Erklärung erwägen" ist keine Erkenntnis der Geschichtswissenschaft, sondern eine philosophische Vorentscheidung. Ein Historiker kann methodisch offen sein: Er prüft, ob natürliche Hypothesen (Halluzination, Betrug, Legende) die Daten erklären, und benennt ehrlich, wenn sie es nicht tun.`,
+              voices: [
+                {
+                  person: 'licona',
+                  role: 'als Historiker und Methodiker',
+                  text: `Licona analysiert, wie Historiker mit Wunderbehauptungen umgehen sollten, und setzt sich ausführlich mit Ehrmans Einwänden auseinander. Er arbeitet mit einem Minimum an Tatsachen, die auch von skeptischen Forschern anerkannt werden, und vergleicht die Erklärungen nach Kriterien wie Erklärungsumfang, Erklärungskraft und Plausibilität.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Michael R. Licona', work: 'The Resurrection of Jesus: A New Historiographical Approach', year: '2010', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Bart D. Ehrman & William Lane Craig', work: 'Debatte „Is There Historical Evidence for the Resurrection of Jesus?", College of the Holy Cross, Worcester (Massachusetts)', year: '2006', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'wunder-unwahrscheinlichstes',
+                  objection: `„Aber die Wahrscheinlichkeit bleibt: Dass ein Toter aufersteht, ist unwahrscheinlicher als jede natürliche Erklärung – auch eine, die wir noch nicht kennen."`,
+                  objectionBy: 'Bart Ehrman / Richard Carrier',
+                  answer: `Unwahrscheinlich ist, dass ein Toter *von selbst* aufersteht – das behauptet niemand. Ob Gott Jesus auferweckt hat, hängt davon ab, ob es Gott gibt und ob er einen Grund dazu hatte. Wenn es Gründe für Gottes Existenz gibt und Jesus beanspruchte, in Gottes Namen zu sprechen, ist die Auferweckung gerade *keine* beliebige Anomalie. Und „eine natürliche Erklärung, die wir noch nicht kennen" ist keine Erklärung, sondern ein Schuldschein.`,
+                  detail: `Hier zeigt sich, dass die Teekannen-Analogie nicht trägt: Die Wahrscheinlichkeit eines Wunders ist nicht absolut, sondern relativ zum Hintergrundwissen. Wer die Gottesfrage schon verneint hat, setzt sie niedrig an; wer die Argumente für einen Schöpfer ernst nimmt, nicht. Darum gehören natürliche Theologie und historische Argumentation zusammen. Siehe „Außergewöhnliche Behauptungen erfordern außergewöhnliche Belege".`,
+                  questionsBack: [`Wie wahrscheinlich ist eine Auferweckung, *wenn* es einen Gott gibt, der sich offenbaren will?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'dennett-belief-in-belief',
+          objection: `„Ich vermute, viele Gläubige glauben gar nicht wirklich an Gott – sie glauben, dass es gut ist, an Gott zu glauben. Deshalb weichen sie jedem Test aus: Es geht um ‚belief in belief', nicht um Wahrheit."`,
+          objectionBy: 'Daniel Dennett (Breaking the Spell, 2006)',
+          answer: `Für manche mag das zutreffen – auch unter Christen gibt es Gewohnheitsglauben. Aber die Frage, was Gläubige psychologisch tun, entscheidet nicht, ob Gott existiert. Und wer an der Echtheit christlichen Glaubens zweifelt, sollte auf Menschen schauen, die alles dafür gegeben haben: von den Märtyrern der Alten Kirche bis zu den 21 Männern, die 2015 in Libyen ermordet wurden, weil sie Christus nicht verleugneten – 20 von ihnen Kopten. Niemand stirbt für einen nützlichen Glauben an den Glauben.`,
+          detail: `Dennetts These aus *Breaking the Spell* ist eine soziologisch-psychologische Beobachtung über religiöse Praxis, kein Argument gegen die Existenz Gottes. Man kann sie fair aufnehmen („Ja, es gibt bloß kulturelles Christentum") und zugleich zeigen, dass sie die eigentliche Frage verschiebt. Die Märtyrer belegen natürlich nicht die *Wahrheit* des Glaubens, wohl aber seine *Aufrichtigkeit* – und damit, dass Christen ihn als Wahrheitsanspruch verstehen, nicht als nützliche Fiktion.`,
+          sources: [
+            { kind: 'gegner', author: 'Daniel C. Dennett', work: 'Breaking the Spell: Religion as a Natural Phenomenon', year: '2006', status: 'paraphrase', quote: '„Belief in belief": Viele Menschen halten den Glauben an Gott für wertvoll, ohne selbst klar zu glauben.' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Welche Argumente gibt es für die Teekanne – und welche gibt es für Gott? Sind die wirklich gleich?`,

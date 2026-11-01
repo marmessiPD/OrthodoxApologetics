@@ -120,6 +120,24 @@ Die Arabische Fassung bei **Agapius von Hierapolis** (10. Jh.), 1971 von Shlomo 
               questionsBack: [
                 `Kannst du eine einzige nachprüfbare Quelle nennen, bei der Eusebius nachweislich einen Text erfunden hat?`,
               ],
+              followUps: [
+                {
+                  id: 'olson-eusebianischer-stil',
+                  objection: `Ken Olson hat gezeigt, dass das Vokabular des Testimonium eher zu Eusebius passt als zu Josephus. Wendungen wie „bis heute" und die Art, wie Jesu Wirken beschrieben wird, finden sich gerade in Eusebius' „Beweis des Evangeliums". Der „josephische Kern" ist eine Wunschvorstellung.`,
+                  objectionBy: 'Ken Olson',
+                  answer: `Olsons Analyse ist ernst zu nehmen, aber sie ist eine Minderheitsposition. Gerade die Wendungen, die am wenigsten christlich klingen – Jesus als „Vollbringer erstaunlicher Taten" (wie Josephus es von Elisa sagt), die Christen als „Stamm", die Verantwortung der „ersten Männer" statt „der Juden" –, passen schlecht zu einem Kirchenhistoriker, der Jesus als göttlichen Logos verkündet. Und unabhängig vom Testimonium bleibt die Jakobus-Notiz in Ant. 20,200, die Origenes schon zwei Generationen vor Eusebius kannte. Selbst wenn das Testimonium ganz fiele, bliebe Josephus ein Zeuge für Jesus.`,
+                  detail: `**Stand der Debatte:** Olson (1999) argumentiert, das Testimonium sei im Ganzen eine eusebianische Komposition. Alice Whealey und John P. Meier vertreten dagegen einen authentischen Kern mit christlichen Erweiterungen; das ist nach wie vor die Mehrheitsmeinung. Louis Feldman, einer der bedeutendsten Josephus-Forscher, hielt ebenfalls einen echten Kern für wahrscheinlich, wenn auch mit Vorsicht.
+
+**Ehrlich:** Sprachstatistische Argumente sind in beide Richtungen schwach, weil Eusebius Josephus gut kannte und seinen Stil nachahmen konnte – und Josephus umgekehrt Vokabular verwendet, das später christlich wurde. Darum ruht das Argument für den Kern nicht auf einzelnen Wörtern, sondern auf dem **Gesamtbild**: Ein christlicher Verfasser hätte kaum einen so blassen Text geschrieben, und Josephus musste Jesus kennen, wenn er in Buch 20 auf ihn als bekannt verweist.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Ken Olson', work: 'Eusebius and the Testimonium Flavianum', ref: 'Catholic Biblical Quarterly 61', year: '1999', quote: `Olson hält das Testimonium für eine Komposition des Eusebius.`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Alice Whealey', work: 'Josephus on Jesus: The Testimonium Flavianum Controversy from Late Antiquity to Modern Times', year: '2003', quote: `Whealey verteidigt einen authentischen Kern des Testimonium und rekonstruiert eine zurückhaltendere Urfassung.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Selbst wenn das Testimonium ganz von Eusebius stammte – wie erklärst du die Jakobus-Notiz, die Origenes schon um 250 zitiert?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -128,6 +146,43 @@ Die Arabische Fassung bei **Agapius von Hierapolis** (10. Jh.), 1971 von Shlomo 
           objection: `Origenes zitiert das Testimonium nie, obwohl es ihm im Streit mit Kelsos sehr genützt hätte. Also stand es zu seiner Zeit gar nicht im Josephus-Text.`,
           objectionBy: 'Richard Carrier',
           answer: `Origenes schreibt ausdrücklich, Josephus habe nicht geglaubt, dass Jesus der Christus sei. Das ist genau das, was man erwarten würde, wenn er eine **neutrale** Fassung kannte, ohne „Er war der Christus". Ein Text, der Jesus bloß einen „weisen Mann" nennt, war für Origenes' Apologetik schlicht nicht besonders nützlich. Sein Schweigen spricht also eher für einen zurückhaltenden Kern als für dessen völliges Fehlen.`,
+          followUps: [
+            {
+              id: 'jakobus-stelle-interpoliert',
+              objection: `Auch die Jakobus-Stelle in Ant. 20,200 ist verdächtig. Ursprünglich war wohl von Jakobus, dem Bruder des Jesus, Sohn des Damnaios, die Rede – der wird im selben Abschnitt zum Hohepriester gemacht. „Der Christus genannt wird" ist eine christliche Randnotiz, die in den Text geriet.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Für diese These gibt es keine einzige Handschrift, und Origenes zitiert die Wendung „Bruder Jesu, des sogenannten Christus" schon um 250 – an mehreren Stellen. Die Formulierung ist auffallend distanziert: Ein Christ hätte „Bruder des Herrn" geschrieben (Gal 1,19), nicht „des sogenannten Christus". Und Josephus führt Jesus, Sohn des Damnaios, im selben Abschnitt als **neue** Person mit vollem Vatersnamen ein – genau so, wie man es tut, wenn vorher ein **anderer** Jesus genannt wurde. Deshalb halten auch skeptische Forscher die Stelle fast einhellig für echt.`,
+              detail: `**Der Kontext (Ant. 20,197–203):** Nach dem Tod des Statthalters Festus nutzt der Hohepriester Hannas der Jüngere das Machtvakuum, lässt Jakobus und einige andere steinigen und wird deshalb abgesetzt; Nachfolger wird „Jesus, Sohn des Damnaios". Die Episode handelt von innerjüdischer Rechtspolitik, nicht von christlicher Frömmigkeit – nichts daran klingt nach einem christlichen Einschub.
+
+**Warum der Zusatz „genannt Christus" nötig war:** Jesus (Jeschua) war ein sehr häufiger Name; Josephus nennt über ein Dutzend Männer dieses Namens. Um Jakobus zu identifizieren, brauchte er eine Unterscheidung – und verwies auf den Beinamen, unter dem dieser Jesus bekannt war. Das setzt voraus, dass er ihn schon eingeführt hatte (Ant. 18,63–64).`,
+              sources: [
+                { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: '20,200', year: 'ca. 93/94', quote: `… stellte den Bruder Jesu, der Christus genannt wird, mit Namen Jakobus, und einige andere vor Gericht …`, original: `τὸν ἀδελφὸν Ἰησοῦ τοῦ λεγομένου Χριστοῦ, Ἰάκωβος ὄνομα αὐτῷ`, status: 'paraphrase' },
+                { kind: 'kirchenvater', author: 'Origenes', work: 'Contra Celsum', ref: 'I,47', year: 'ca. 248', quote: `Origenes verweist auf Josephus' Bericht über Jakobus, den Bruder Jesu, des sogenannten Christus.`, status: 'paraphrase' },
+                { kind: 'gegner', author: 'Richard Carrier', work: `Origen, Eusebius, and the Accidental Interpolation in Josephus, Jewish Antiquities 20.200. Journal of Early Christian Studies 20`, year: '2012', quote: `Carrier vermutet, „der Christus genannt wird" sei eine versehentlich in den Text geratene Glosse.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welcher christliche Schreiber nennt den Herrenbruder „Bruder Jesu, des sogenannten Christus" statt „Bruder des Herrn"?`,
+              ],
+              followUps: [
+                {
+                  id: 'origenes-verwechselt-hegesipp',
+                  objection: `Origenes ist kein guter Zeuge: Er schreibt Josephus die Aussage zu, Jerusalem sei als Strafe für den Tod des Jakobus zerstört worden. Das steht in keinem Josephus-Text – er verwechselt ihn offenbar mit Hegesipp. Wer so zitiert, kann auch die Jakobus-Wendung aus christlicher Quelle haben.`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Das ist ein guter Punkt, und ich gestehe ihn zu: Origenes hat an dieser Stelle aus dem Gedächtnis zitiert oder Josephus mit einer christlichen Quelle vermischt. Aber daraus folgt nicht, dass auch die Wendung „Bruder Jesu, des sogenannten Christus" fremd ist. Sie steht in **unserem** Josephus-Text in einem durch und durch josephischen Zusammenhang – Hannas' Rechtsbruch, seine Absetzung, die Nachfolge des Jesus, Sohn des Damnaios. Origenes bestätigt nur, dass sie schon im 3. Jahrhundert dort stand. Die Echtheit hängt am Kontext, nicht an Origenes' Zitiertreue.`,
+                  detail: `**Ehrlich:** Origenes (Contra Celsum I,47; II,13; Matthäuskommentar 10,17) verbindet die Zerstörung Jerusalems mit dem Tod des Jakobus und schreibt das Josephus zu. Eine solche Aussage findet sich in den erhaltenen Handschriften nicht, wohl aber bei Hegesipp (bei Eusebius, KG II,23,18). Das ist ein echter Fehler.
+
+**Warum die Wendung trotzdem echt ist:** Die große Mehrheit der Josephus-Forscher – darunter auch solche, die das Testimonium skeptisch beurteilen – hält Ant. 20,200 für authentisch. Selbst Bart Ehrman, der die Mythizisten scharf kritisiert, aber kein Apologet ist, verweist auf diese Stelle als soliden Beleg.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (nach Hegesipp)', work: 'Kirchengeschichte', ref: 'II,23,18', year: 'ca. 325', quote: `Hegesipp verbindet das Martyrium des Jakobus unmittelbar mit der Belagerung Jerusalems durch Vespasian.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Did Jesus Exist? The Historical Argument for Jesus of Nazareth', year: '2012', quote: `Ehrman hält die Jakobus-Notiz in Ant. 20,200 für authentisch und für einen Beleg, dass Josephus Jesus kannte.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Origenes' Fehler die Jakobus-Wendung verdächtig macht – warum steht sie dann in einem Zusammenhang, der ausschließlich von jüdischer Innenpolitik handelt?`,
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -214,6 +269,33 @@ Die Arabische Fassung bei **Agapius von Hierapolis** (10. Jh.), 1971 von Shlomo 
             `Wenn Christen nach Belieben gefälscht haben – warum gibt es dann keine römische „Pilatusakte" in den Handschriften der Historiker?`,
           ],
         },
+      ],
+    },
+    {
+      id: 'talmud-anderer-jeschu',
+      objection: `Die Talmud-Stellen über „Jeschu" sind wertlos: Sie sind Jahrhunderte später redigiert, widersprechen sich und meinen teils ganz andere Leute – einen Jeschu ben Pandera, einen Schüler des Jehoschua ben Perachja, der um 100 v. Chr. gelebt haben soll. Daraus einen Beleg für Jesus von Nazareth zu machen, ist Wunschdenken.`,
+      objectionBy: 'Robert M. Price / Frank Zindler',
+      answer: `Die Stellen sind spät, polemisch und chronologisch verworren – das gestehe ich zu, und ich baue Jesu Existenz nicht auf sie. Aber gerade als Polemik sind sie aufschlussreich: Die jüdische Gegenüberlieferung greift Jesu Geburt an (ein unehelicher Sohn eines Pandera), deutet seine Wunder als Zauberei und rechtfertigt seine Hinrichtung am Vorabend des Pessach. Sie bestreitet alles Mögliche – nur nie, dass er gelebt hat. Und die Pandera-Geschichte ist schon um 175 bezeugt: Kelsos hat sie von einem Juden gehört.`,
+      detail: `**Peter Schäfer („Jesus im Talmud", 2007)** – ein jüdischer Judaist, kein Apologet – deutet die Jeschu-Stellen des Babylonischen Talmud als bewusste Gegenerzählungen zu den Evangelien: Sie setzen die christliche Erzählung voraus und kehren sie um. Das zeigt, dass die rabbinische Welt Jesus als reale, wenn auch verurteilte Person behandelte.
+
+**Kelsos (bei Origenes, Contra Celsum I,28.32):** Ein Jude in Kelsos' Schrift (um 175) behauptet, Jesu Mutter sei von einem Soldaten namens Panthera schwanger geworden, Jesus habe in Ägypten Zauberkünste gelernt. Origenes widerlegt das – aber auch er streitet mit Kelsos nicht über Jesu Existenz, sondern über seine Deutung.
+
+**Ehrlich:** Die Chronologie mancher Stellen (Jehoschua ben Perachja, um 100 v. Chr.) ist unhistorisch; die Talmudtexte sind für Details des Lebens Jesu unbrauchbar. Ihr Wert liegt allein darin, dass auch die schärfsten jüdischen Gegner von einem realen Jesus ausgingen.`,
+      voices: [
+        {
+          person: 'origenes',
+          role: 'als Apologet gegen Kelsos',
+          text: `Origenes setzt sich ausführlich mit der jüdischen Panthera-Erzählung auseinander, die Kelsos überliefert. Er zeigt, dass sie die jungfräuliche Geburt voraussetzt und verleumderisch umdeutet. Für die heutige Debatte zentral: Weder Kelsos noch sein jüdischer Gewährsmann bezweifeln, dass Jesus lebte, lehrte, Wunder wirkte und hingerichtet wurde – sie bestreiten nur deren Sinn.`,
+          sources: [{ kind: 'kirchenvater', author: 'Origenes', work: 'Contra Celsum', ref: 'I,28.32–33', year: 'ca. 248', status: 'paraphrase', quote: `Zurückweisung der Panthera-Erzählung, die Kelsos von einem Juden übernommen hatte.` }],
+        },
+      ],
+      sources: [
+        { kind: 'fachliteratur', author: 'Peter Schäfer', work: 'Jesus im Talmud', year: '2007', quote: `Schäfer deutet die talmudischen Jeschu-Erzählungen als polemische Gegenerzählungen zu den Evangelien.`, status: 'paraphrase' },
+        { kind: 'juedisch', work: 'Babylonischer Talmud, Sanhedrin', ref: '43a', quote: `Am Vorabend des Pessach hängte man Jeschu … weil er Zauberei getrieben und Israel verführt habe.`, status: 'paraphrase', note: 'Unzensierte Handschriften; in vielen Drucken durch Zensur entfernt.' },
+      ],
+      questionsBack: [
+        `Wenn Jesus nie existiert hätte – wäre das für jüdische Polemiker nicht das stärkste Argument gewesen? Warum benutzen sie es nie?`,
+        `Warum sollte man einen Unbekannten für eine uneheliche Geburt und Zauberei angreifen, statt einfach zu sagen, es habe ihn nie gegeben?`,
       ],
     },
   ],

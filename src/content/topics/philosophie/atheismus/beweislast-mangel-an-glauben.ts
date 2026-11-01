@@ -182,6 +182,117 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'oppy-weltbildvergleich',
+      objection: `„Gut, lassen wir die Etiketten. Beide Seiten tragen eine Last – dann vergleichen wir eben die Weltbilder als Ganze. Naturalismus und Theismus müssen dieselben Daten erklären. Der Naturalismus kommt dabei mit weniger aus: keine übernatürlichen Ursachen, nur die natürliche Welt. Bei gleicher Erklärungskraft gewinnt die einfachere Theorie."`,
+      objectionBy: 'Graham Oppy',
+      answer: `Damit sind wir endlich im echten Gespräch – und du hast zugegeben, dass es keine „Standardposition" gibt, die sich nicht rechtfertigen muss. Aber beide Prämissen sind strittig: Der Naturalismus muss die Existenz eines kontingenten Universums, seine Feinabstimmung, das Bewusstsein und die Gültigkeit der Vernunft als unerklärte Grundtatsachen hinnehmen. Der Theismus führt all das auf *eine* Quelle zurück. Einfachheit zählt nur bei gleicher Erklärungskraft – und genau die bestreite ich.`,
+      detail: `Oppy ist der fairste Gegner in dieser Frage: Er lehnt die „lack of belief"-Strategie ab und vertritt den Naturalismus als positive These, die sich am Theismus messen lassen muss (*Arguing about Gods*, 2006; *Atheism: The Basics*, 2019). Sein Kernargument ist ein Theorienvergleich nach theoretischen Tugenden: Einfachheit, Erklärungskraft, Übereinstimmung mit den Daten.
+
+Die christliche Antwort setzt an zwei Stellen an:
+- **Erklärungskraft:** Wer am Ende sagt „Das Universum, seine Gesetze und Anfangsbedingungen sind einfach da", hat diese Tatsachen nicht erklärt, sondern zur Grenze der Erklärung erklärt.
+- **Einfachheit:** Nicht die Zahl der Wesen-*Arten* entscheidet allein, sondern auch, wie viele unerklärte, willkürlich wirkende Einzeltatsachen eine Theorie braucht. Swinburne argumentiert, dass eine Person mit unbegrenzter Macht, unbegrenztem Wissen und vollkommener Freiheit die denkbar einfachste Erklärung ist – unbegrenzte Größen brauchen keine weitere Festlegung.`,
+      voices: [
+        {
+          person: 'swinburne',
+          role: 'als Religionsphilosoph und Theoretiker der Erklärung',
+          text: `Swinburne behandelt den Theismus ausdrücklich wie eine wissenschaftliche Hypothese, die an Einfachheit und Erklärungskraft gemessen wird. Für ihn ist Gott die einfachste denkbare letzte Erklärung: eine einzige Person ohne willkürliche Grenzen. Der Naturalismus müsse dagegen eine Vielzahl einzelner Konstanten, Gesetze und Anfangsbedingungen als rohe Tatsachen hinnehmen.`,
+          sources: [{ kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', year: '2. Aufl. 2004', status: 'paraphrase', quote: 'Theismus als einfachste vollständige Erklärung; Einfachheit als Kriterium der A-priori-Wahrscheinlichkeit.' }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Graham Oppy', work: 'Arguing about Gods', year: '2006', status: 'paraphrase', quote: 'Theismus und Naturalismus als konkurrierende Gesamttheorien; der Naturalismus sei bei gleicher Erklärungskraft ontologisch sparsamer.' },
+        { kind: 'gegner', author: 'Graham Oppy', work: 'Atheism: The Basics', year: '2019', status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welche Tatsachen nimmst du in deinem Weltbild als unerklärt hin – und warum sind das weniger als in meinem?`,
+        `Ist eine Theorie einfacher, wenn sie weniger Arten von Dingen annimmt, aber mehr willkürliche Einzeltatsachen unerklärt lassen muss?`,
+      ],
+      followUps: [
+        {
+          id: 'theismus-auch-brute-fact',
+          objection: `„Auch du hast unerklärte Grundtatsachen: Gottes Existenz und seine Entscheidung zu erschaffen. Jede Erklärungskette endet irgendwo. Der Theismus fügt nur eine zusätzliche Schicht hinzu."`,
+          objectionBy: 'Graham Oppy',
+          answer: `Jede Kette endet irgendwo – aber nicht jedes Ende ist gleich gut. Ein Ende in etwas, das genauso gut hätte anders sein können, ist ein willkürlicher Abbruch. Ein Ende in etwas, das notwendig existiert und nicht anders sein kann, ist ein echter Abschluss. Das Universum mit seinen konkreten Massen, Konstanten und Anfangsbedingungen sieht durch und durch kontingent aus; ein unbegrenztes, notwendiges Sein nicht.`,
+          detail: `Der Punkt ist nicht, dass Theisten *keine* Grundtatsache haben, sondern welche Art: Die klassische Tradition (Leibniz, Thomas von Aquin, heute Pruss und Rasmussen) unterscheidet zwischen kontingenten Dingen, die eine Erklärung außerhalb ihrer selbst brauchen, und einem notwendigen Sein, das den Grund seiner Existenz in seinem Wesen hat. Gottes freie Entscheidung zu erschaffen wird durch seine Gründe (die Güte des Geschaffenen) erklärt – auch wenn sie nicht erzwungen ist. Siehe auch „Das Kontingenzargument ist ein Trugschluss".`,
+          voices: [
+            {
+              person: 'alexander-pruss',
+              role: 'als analytischer Metaphysiker',
+              text: `Pruss verteidigt eine Form des Prinzips vom zureichenden Grund und zeigt, dass seine Leugnung auch die Wissenschaft untergräbt: Wenn kontingente Tatsachen grundlos auftreten könnten, wüssten wir nie, ob ein Messergebnis eine Ursache hat. Freie Entscheidungen sind für ihn durch Gründe erklärt, ohne determiniert zu sein – so lässt sich Gottes Schöpfungsakt erklären, ohne ihn notwendig zu machen.`,
+              sources: [{ kind: 'fachliteratur', author: 'Alexander R. Pruss', work: 'The Principle of Sufficient Reason: A Reassessment', year: '2006', status: 'paraphrase' }],
+            },
+          ],
+          followUps: [
+            {
+              id: 'naturzustand-notwendig',
+              objection: `„Dann sage ich: Der erste Zustand der natürlichen Welt existiert notwendig. Du kannst nicht beweisen, dass er kontingent ist. Damit habe ich dasselbe Ende wie du – nur ohne Gott."`,
+              objectionBy: 'Graham Oppy',
+              answer: `Das ist Oppys ehrlichster Zug – aber er hat einen hohen Preis. Dann wären auch alle Werte dieses Anfangszustands notwendig: die Stärke der Schwerkraft, die extrem niedrige Anfangsentropie, die Massen der Teilchen. Diese Größen wirken gerade nicht notwendig, sondern wie Zahlen, die auch anders hätten ausfallen können – deshalb fragen Physiker ja, *warum* sie so sind. Ein notwendiges Sein ohne willkürliche Grenzen ist weit plausibler als eine notwendige, aber hochspezifische Zahlenreihe.`,
+              detail: `Joshua Rasmussen nennt dies das Problem der **willkürlichen Grenzen**: Alles, was eine bestimmte Größe, Form oder Grenze hat, wirft die Frage auf, warum gerade diese – und lädt damit zur Erklärung ein. Ein Fundament, das notwendig ist, sollte keine solchen Grenzen haben. Der naturalistische Anfangszustand hat sie in Fülle. Zudem passt die Feinabstimmung schlecht zu einer Notwendigkeit, die blind auf genau die schmalen lebensfreundlichen Werte gefallen wäre.`,
+              voices: [
+                {
+                  person: 'joshua-rasmussen',
+                  role: 'als Metaphysiker des notwendigen Seins',
+                  text: `Rasmussen argumentiert, dass ein notwendiges Fundament der Wirklichkeit keine willkürlichen Grenzen haben kann, weil jede solche Grenze eine weitere Erklärung verlangen würde. Ein physikalischer Anfangszustand mit bestimmten Größen und Werten erfüllt diese Bedingung nicht; ein unbegrenztes, geistiges Sein dagegen schon.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Joshua Rasmussen', work: 'How Reason Can Lead to God', year: '2019', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Joshua Rasmussen & Felipe Leon', work: 'Is God the Best Explanation of Things? A Dialogue', year: '2019', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              questionsBack: [`Wenn der Anfangszustand notwendig ist: Warum ist es dann sinnvoll, dass Physiker nach einer tieferen Erklärung seiner Werte suchen?`],
+              followUps: [
+                {
+                  id: 'gott-ebenso-willkuerlich',
+                  objection: `„Gott ist doch genauso willkürlich: Warum gerade dieser Gott mit genau diesen Eigenschaften? ‚Vollkommenes Wesen' ist eine bloße Festsetzung, die du dir zurechtlegst."`,
+                  objectionBy: 'Sean Carroll',
+                  answer: `Gerade nicht: Ein vollkommenes Wesen ist das *einzige* Fundament, bei dem es nichts festzulegen gibt. Unbegrenzte Macht, unbegrenztes Wissen und vollkommene Güte brauchen keinen Zahlenwert und keinen Regler – sie sind keine Auswahl aus vielen Möglichkeiten, sondern das Fehlen jeder Begrenzung. Und der christliche Glaube stützt sich nicht nur darauf: Er verweist zusätzlich auf eine geschichtliche Selbstoffenbarung, die man prüfen kann – die Auferstehung Jesu.`,
+                  detail: `Schon Athanasius argumentierte in *Contra Gentes*, dass das Geordnete und Zusammengesetzte auf einen einen, einfachen Urheber verweist, nicht auf viele konkurrierende Prinzipien. In der analytischen Philosophie formuliert Swinburne denselben Gedanken als Einfachheitsargument: Null und Unendlich sind „einfachere" Werte als beliebige endliche Zahlen. Zugeständnis: Ob der Begriff eines vollkommenen Wesens widerspruchsfrei ist, muss eigens verteidigt werden (siehe „Das ontologische Argument ist ein Wortspiel"). Aber der Vorwurf der Willkür trifft ihn nicht.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Apologet gegen die Heiden',
+                      text: `In *Contra Gentes* schließt Athanasius aus der Ordnung und Harmonie der Welt, deren gegensätzliche Elemente zusammenwirken, auf einen einzigen ordnenden Logos. Viele Götter oder mehrere Urprinzipien würden die Einheit des Kosmos nicht erklären; nur ein einziger Schöpfer, der selbst nicht zusammengesetzt ist, kann ihr Grund sein.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Gegen die Heiden (Contra Gentes)', ref: '35–39', status: 'paraphrase', quote: 'Die Ordnung des Alls zeigt einen einzigen Lenker und Schöpfer, nicht viele.' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'carroll-bayes-prior',
+          objection: `„Rechnen wir es bayesianisch: Die Beweislast ist nichts als Prior mal Likelihood. Ein unsichtbarer, allmächtiger Geist ist eine hochkomplexe Hypothese mit winzigem Prior – und die Daten passen mindestens so gut zum Naturalismus."`,
+          objectionBy: 'Sean Carroll',
+          answer: `Ich nehme das Bayes-Spiel gern an. Aber Priors für ganze Weltbilder lassen sich nicht aus Häufigkeiten ablesen – sie spiegeln, was man für einfach und natürlich hält. Wer Geist von vornherein als späten, komplexen Zufallsbefund der Materie behandelt, hat den Materialismus schon in den Prior gesteckt. Und bei den Likelihoods sieht es für den Theismus gut aus: Ein Universum mit Anfang, Feinabstimmung, Bewusstsein und Moral ist unter Gott erwartbarer als unter blinder Natur.`,
+          detail: `Carroll vertritt seinen „poetischen Naturalismus" ausdrücklich bayesianisch (*The Big Picture*, 2016) und hat in der Debatte mit Craig (Greer-Heard-Forum, New Orleans 2014) argumentiert, der Theismus sei zu vage, um echte Vorhersagen zu machen. Die Antwort: Der Theismus sagt durchaus etwas voraus – eine geordnete, mathematisch verständliche Welt, in der vernünftige, moralische Personen entstehen können. Genau das finden wir.`,
+          sources: [
+            { kind: 'gegner', author: 'Sean Carroll', work: 'The Big Picture: On the Origins of Life, Meaning, and the Universe Itself', year: '2016', status: 'paraphrase', quote: 'Bayesianisches Abwägen von Weltbildern; Naturalismus als besser bestätigte Theorie.' },
+            { kind: 'gegner', author: 'Sean Carroll & William Lane Craig', work: 'Debatte „God and Cosmology", Greer-Heard Point-Counterpoint Forum, New Orleans', year: '2014', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'feinabstimmung-gegen-gott',
+              objection: `„Die Feinabstimmung spricht sogar *gegen* Gott: Ein allmächtiger Gott könnte Leben in jedem beliebigen Universum erschaffen, mit beliebigen Konstanten. Nur unter dem Naturalismus *müssen* wir ein lebensfreundliches Universum beobachten."`,
+              objectionBy: 'Sean Carroll',
+              answer: `Unter dem Naturalismus erklärt der Beobachtereffekt nur, warum wir *kein* lebensfeindliches Universum sehen – nicht, warum es überhaupt ein lebensfreundliches gibt, solange man kein Multiversum annimmt. Und Gott hat einen guten Grund, Leben gerade durch stabile, feinabgestimmte Naturgesetze hervorzubringen: Nur in einer gesetzmäßigen Welt können Geschöpfe die Folgen ihres Handelns vorhersehen, verantwortlich handeln und die Welt erforschen.`,
+              detail: `Carrolls Einwand setzt voraus, ein Gott würde Leben ohne regelmäßige Naturgesetze durch ständige Eingriffe erhalten. Theisten wie Swinburne und Robin Collins argumentieren umgekehrt: Ein Gott, der verantwortliche, forschende Geschöpfe will, hat Grund, eine Welt mit festen, mathematisch erfassbaren Gesetzen zu schaffen. Collins verweist zusätzlich darauf, dass die Konstanten nicht nur Leben, sondern auch die **Entdeckbarkeit** der Welt durch Wissenschaft begünstigen.`,
+              voices: [
+                {
+                  person: 'robin-collins',
+                  role: 'als Philosoph und Physiker',
+                  text: `Collins formuliert das Feinabstimmungsargument als Wahrscheinlichkeitsvergleich: Ein lebensfreundliches Universum ist unter Theismus nicht überraschend, unter einem Einzeluniversum ohne Gott dagegen höchst überraschend. Er antwortet auf den Einwand, Gott brauche keine Feinabstimmung, mit dem Hinweis auf den Wert einer gesetzmäßigen, für verkörperte Wesen erforschbaren Welt.`,
+                  sources: [{ kind: 'fachliteratur', author: 'Robin Collins', work: '„The Teleological Argument: An Exploration of the Fine-Tuning of the Universe", in: W. L. Craig & J. P. Moreland (Hg.), The Blackwell Companion to Natural Theology', year: '2009', status: 'paraphrase' }],
+                },
+              ],
+              questionsBack: [`Warum sollte ein Gott, der verantwortliche Geschöpfe will, eine Welt ohne verlässliche Naturgesetze schaffen?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Glaubst du, dass Gott *nicht* existiert, oder hast du nur keine Meinung? Was genau ist deine Position?`,

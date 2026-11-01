@@ -38,9 +38,9 @@ const claim: Claim = {
     summary: `In der Forschung besteht breiter Konsens, dass das Credo in 1 Kor 15,3–7 eine **vorpaulinische, sehr frühe** Überlieferung ist. Selbst Gerd Lüdemann datierte die Elemente in die ersten zwei Jahre nach der Kreuzigung; James D. G. Dunn meinte, die Überlieferung sei schon wenige Monate nach Jesu Tod formuliert worden. Dass die **Erzählungen** in den Evangelien sich unterscheiden und teils ausgestaltet wurden, ist ebenfalls anerkannt. Strittig ist, ob die frühesten Erscheinungen leiblich verstanden wurden. Robert M. Prices These, 1 Kor 15,3–11 sei eine spätere Einfügung, hat in der Fachwelt kaum Zustimmung gefunden.`,
     detail: `**A. N. Sherwin-White (1963):** Der Oxforder Althistoriker, Spezialist für römisches Recht, untersuchte die Evangelien und die Apostelgeschichte aus der Sicht eines Klassikers. Am Beispiel Herodots argumentierte er, dass selbst zwei Generationen zu kurz seien, um den harten historischen Kern einer mündlichen Überlieferung durch mythische Tendenzen zu verdrängen. **Ehrlich:** Seine „Regel" wurde kritisiert (u. a. von P. A. Brunt und Richard Carrier); sie behauptet nicht, dass alle Details historisch sind, sondern dass der Kern nicht so schnell verloren geht. Man sollte sie als Einschätzung eines erfahrenen Althistorikers anführen, nicht als Naturgesetz.`,
     sources: [
-      { kind: 'gegner', author: 'Gerd Lüdemann', work: 'The Resurrection of Jesus: History, Experience, Theology', year: '1994', quote: `Die Elemente der Überlieferung sind in die ersten zwei Jahre nach der Kreuzigung Jesu zu datieren, nicht später als drei Jahre.`, status: 'paraphrase', note: 'Vielfach in dieser Form zitiert (S. 171–172 der engl. Ausgabe); vor wörtlicher Verwendung im Buch prüfen.' },
+      { kind: 'gegner', author: 'Gerd Lüdemann', work: 'The Resurrection of Jesus: History, Experience, Theology', year: '1994', ref: 'S. 171–172 (engl. Ausgabe, Fortress Press)', quote: `Die Elemente der Überlieferung sind in die ersten zwei Jahre nach der Kreuzigung Jesu zu datieren, nicht später als drei Jahre.`, status: 'paraphrase', note: 'Datierung und Seitenangabe in der Sekundärliteratur übereinstimmend belegt; W. L. Craig bestätigt in seiner Lüdemann-Kritik, dass Lüdemann die Formel auf etwa zwei Jahre nach der Kreuzigung datiert (WebSearch-Prüfung 2026). Wortlaut im Buch nicht eingesehen – daher sinngemäß.' },
       { kind: 'fachliteratur', author: 'James D. G. Dunn', work: 'Jesus Remembered', year: '2003', quote: `Dunn hält es für sicher, dass die Überlieferung von 1 Kor 15,3–7 schon wenige Monate nach Jesu Tod als Tradition formuliert war.`, status: 'paraphrase' },
-      { kind: 'fachliteratur', author: 'A. N. Sherwin-White', work: 'Roman Society and Roman Law in the New Testament', year: '1963', quote: `Auch zwei Generationen seien eine zu kurze Zeitspanne, als dass die mythische Tendenz den harten historischen Kern der mündlichen Überlieferung verdrängen könnte.`, status: 'paraphrase', note: 'Klassiker der Sarum Lectures 1960–61; die „Zwei-Generationen-Regel" ist in der Forschung umstritten.' },
+      { kind: 'fachliteratur', author: 'A. N. Sherwin-White', work: 'Roman Society and Roman Law in the New Testament', year: '1963', ref: 'Kap. „The Historicity of the Gospels and Graeco-Roman Historiography" (meist zitiert: S. 190)', quote: `Herodot erlaubt es uns, das Tempo der Mythenbildung zu prüfen, und die Prüfungen legen nahe, dass selbst zwei Generationen eine zu kurze Zeitspanne sind, als dass die mythische Tendenz über den harten historischen Kern der mündlichen Überlieferung siegen könnte.`, original: `Herodotus enables us to test the tempo of myth-making, and the tests suggest that even two generations are too short a span to allow the mythical tendency to prevail over the hard historic core of the oral tradition.`, translation: 'eigene Übersetzung', status: 'verbatim', note: 'Wortlaut in mehreren unabhängigen Sekundärquellen identisch belegt (WebSearch-Prüfung 2026); die Seitenzahl 190 stammt aus der Sekundärliteratur. Klassiker der Sarum Lectures 1960–61; die „Zwei-Generationen-Regel" ist in der Forschung umstritten (Kritik u. a. von P. A. Brunt, dem Sherwin-White in einer Anmerkung am Buchende antwortet).' },
       { kind: 'gegner', author: 'Robert M. Price', work: 'Apocryphal Apparitions: 1 Corinthians 15:3–11 as a Post-Pauline Interpolation', year: '2005', quote: `Price hält 1 Kor 15,3–11 für eine nachpaulinische Einfügung.`, status: 'paraphrase', note: 'Ohne Handschriftenbeleg; kaum Zustimmung in der Fachwelt.' },
     ],
   },
@@ -112,6 +112,37 @@ const claim: Claim = {
                 { kind: 'bibel', work: '1. Korinther', ref: '15,50.53', quote: `Davon sage ich aber, liebe Brüder, daß Fleisch und Blut nicht können das Reich Gottes ererben; auch wird das Verwesliche nicht erben das Unverwesliche. … Denn dies Verwesliche muß anziehen das Unverwesliche, und dies Sterbliche muß anziehen die Unsterblichkeit.`, translation: 'Luther 1912', status: 'paraphrase' },
                 { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', quote: `Wright zeigt an der Semantik von psychikos und pneumatikos, dass Paulus keinen „Leib aus Geist", sondern einen vom Geist belebten Leib meint.`, status: 'paraphrase' },
               ],
+              followUps: [
+                {
+                  id: 'paulus-vision-gleichgesetzt',
+                  objection: `Paulus stellt seine eigene Erfahrung ausdrücklich in eine Reihe mit denen von Petrus und den anderen. Und seine war eine Vision: ein Licht vom Himmel, eine Stimme; seine Begleiter sahen niemanden (Apg 9,7). Also waren auch die anderen „Erscheinungen" Visionen – der greifbare Jesus kam erst später dazu.`,
+                  objectionBy: 'Bart Ehrman / Gerd Lüdemann',
+                  answer: `Paulus setzt seine Begegnung gleich, was die **Wirklichkeit des Gesehenen** angeht – nicht unbedingt die Form. Er nennt sie ausdrücklich „zuletzt von allen" und die einer „Fehlgeburt" (1 Kor 15,8): eine außergewöhnliche, nachträgliche Begegnung, die die Reihe abschließt. Visionen im üblichen Sinn kennt Paulus auch – „Gesichte und Offenbarungen" (2 Kor 12,1) –, aber diese zählt er nie als Grundlage seines Apostelamts. Dafür beruft er sich allein darauf, „Jesus, unseren Herrn, gesehen" zu haben (1 Kor 9,1). Und selbst Lukas, der die Damaskusszene erzählt, unterscheidet sie klar von den Begegnungen der vierzig Tage.`,
+                  detail: `**Paulus unterscheidet zwei Kategorien:**
+- Die **eine** Christusbegegnung, die ihn zum Apostel macht, zeitlich abgeschlossen („zuletzt von allen", 1 Kor 15,8; vgl. 1 Kor 9,1; Gal 1,15–16).
+- **Wiederholte** Visionen und Offenbarungen (2 Kor 12,1–7; Apg 16,9; 18,9), über die er zurückhaltend spricht und die er nicht als Auferstehungszeugnis anführt.
+
+**Die Begleiter:** Nach Apg 9,7 hören sie die Stimme, nach Apg 22,9 sehen sie das Licht – ein Geschehen mit äußeren Begleiterscheinungen, kein rein inneres Erleben. Man muss die Szene nicht als „leiblich" im Sinn von Lk 24 deuten, um zu sehen, dass sie nicht in das Muster einer privaten Halluzination passt.
+
+**Die Logik des Arguments:** Selbst wenn Paulus' Begegnung visionär war, folgt daraus nicht, dass die älteren Erscheinungen es auch waren. Paulus war Verfolger und begegnete dem Erhöhten **nach** der Himmelfahrt; die Jünger begegneten ihm vorher. Das Credo selbst verankert die Erscheinungen in der Folge „begraben – auferweckt".`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Paulusforscher',
+                      text: `Wright betont, dass Paulus die Damaskusbegegnung als Teil der Ostererscheinungen versteht, aber als ungewöhnlichen Nachzügler. Für Paulus war der Auferstandene nicht eine himmlische Lichtgestalt unter anderen, sondern der Gekreuzigte in einem verwandelten, unvergänglichen Leib – das Modell für die künftige Auferstehung aller (Phil 3,21). Wer Paulus eine reine Visionstheologie zuschreibt, kann sein ganzes Argument in 1 Kor 15 nicht erklären.`,
+                      sources: [{ kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', ref: 'Teil II, Kap. 7–8', year: '2003', status: 'paraphrase', quote: `Paulus versteht den Auferstehungsleib als verwandelten, nicht als nichtleiblichen Leib.` }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '15,8', quote: `Am letzten nach allen ist er auch von mir, als einer unzeitigen Geburt, gesehen worden.`, original: `ἔσχατον δὲ πάντων ὡσπερεὶ τῷ ἐκτρώματι ὤφθη κἀμοί`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '9,1', quote: `Bin ich nicht ein Apostel? … Habe ich nicht unsern Herrn Jesus Christus gesehen?`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                    { kind: 'bibel', work: '2. Korinther', ref: '12,1', quote: `… so will ich doch kommen auf die Gesichte und Offenbarungen des Herrn.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Wenn Paulus' Begegnung eine Vision wie seine späteren war – warum nennt er sie „zuletzt von allen" und stützt sein Apostelamt nur auf sie?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -130,6 +161,45 @@ const claim: Claim = {
           answer: `Selbst im ungünstigsten Fall hat Paulus es vor seiner Gemeindegründung in Korinth (ca. 50) empfangen – also höchstens 20 Jahre nach den Ereignissen, zu Lebzeiten aller Genannten. Wahrscheinlicher ist der Besuch bei Petrus in Jerusalem (ca. 35–37): Genau die beiden namentlich genannten Zeugen, Kephas und Jakobus, traf Paulus dort. Deshalb datieren auch Skeptiker wie Lüdemann die Elemente in die allerersten Jahre. Und selbst wenn es aus den 40ern stammte: Petrus und Jakobus lebten noch und standen für die Botschaft ein.`,
           questionsBack: [
             `Welche Legende entsteht, während die Hauptzeugen – Petrus und Jakobus – noch die Gemeinde in Jerusalem leiten und jederzeit befragt werden können?`,
+          ],
+          followUps: [
+            {
+              id: 'credo-ohne-grab',
+              objection: `Das Credo sagt kein Wort von einem leeren Grab, von Frauen oder von einem berührbaren Körper. „Begraben" gehört einfach zur Todesformel: Er ist wirklich tot. Das ganze Grab-Narrativ ist später dazugekommen.`,
+              objectionBy: 'Richard Carrier / Robert M. Price',
+              answer: `Für einen Juden des 1. Jahrhunderts war die Folge „gestorben – begraben – auferweckt" selbst eine Aussage über das Grab: Auferweckt wird, was begraben wurde. Niemand hätte von „Auferstehung" gesprochen, wenn der Leichnam noch im Grab lag – dafür gab es andere Kategorien (Seele bei Gott, Erhöhung, Erscheinung eines Toten). Dass ein knappes Bekenntnis keine Erzählung enthält, liegt an seiner Gattung; auch das Nizänum erzählt keine Grabgeschichte und setzt das Grab doch voraus.`,
+              detail: `**Jüdische Anthropologie:** „Auferstehung" (anastasis, tĕḥiyyat ha-metim) bedeutete im Judentum der Zeit nie bloß Weiterleben, sondern ein neues leibliches Leben (Dan 12,2; 2 Makk 7). Ein Pharisäer wie Paulus hätte „er wurde begraben … er wurde auferweckt" nicht ohne Grab verstehen können.
+
+**Warum die Frauen fehlen:** Bekenntnisse und offizielle Zeugenlisten nannten in der jüdischen Umwelt bevorzugt Männer; Frauen galten als problematische Zeugen. Dass die Evangelien trotzdem Frauen als erste Zeuginnen nennen, spricht gerade für deren Historizität.
+
+**Ehrlich:** Dass Paulus keine Grabgeschichte erzählt, ist ein echter Befund – das Grab ist bei ihm impliziert, nicht ausgeführt. Selbst der vorsichtige Dale Allison hält es für wahrscheinlich, dass Paulus ein leeres Grab voraussetzte.`,
+              sources: [
+                { kind: 'bibel', work: 'Daniel', ref: '12,2', quote: `Und viele, so unter der Erde schlafen liegen, werden aufwachen, etliche zum ewigen Leben, etliche zu ewiger Schmach und Schande.`, translation: 'Luther 1912', status: 'paraphrase' },
+                { kind: 'gegner', author: 'Dale C. Allison', work: 'Resurrecting Jesus', year: '2005', quote: `Allison hält es für wahrscheinlich, dass Paulus ein leeres Grab voraussetzte, auch wenn er es nicht erzählt.`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'N. T. Wright', work: 'The Resurrection of the Son of God', year: '2003', quote: `„Auferstehung" bezeichnete im Judentum der Zeit stets ein neues leibliches Leben nach dem Tod.`, status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welcher Jude des 1. Jahrhunderts hätte „auferweckt" gesagt, wenn er glaubte, der Leichnam liege noch im Grab?`,
+              ],
+              followUps: [
+                {
+                  id: 'fuenfhundert-unpruefbar',
+                  objection: `Und die „500 Brüder"? Kein anderer Text erwähnt sie, Paulus nennt keinen Namen und keinen Ort. Wie hätte ein Korinther das nachprüfen sollen – nach Judäa reisen und herumfragen? Das ist rhetorischer Schmuck, keine Einladung zur Überprüfung.`,
+                  objectionBy: 'Bart Ehrman / Richard Carrier',
+                  answer: `Die Korinther hatten engen Kontakt zu Jerusalem und zu Petrus: Es gab dort eine „Kephas-Partei" (1 Kor 1,12), Reisende pendelten zwischen den Gemeinden, und Paulus organisierte eine Kollekte für Jerusalem (1 Kor 16,1–4). Er schreibt an eine Gemeinde, in der er Gegner hat – eine erfundene Zeugenschar hätte sie ihm genüsslich vorgehalten. Die Bemerkung „einige sind entschlafen" ist zudem das Gegenteil von Rhetorik: Sie zeigt, dass Paulus die Gruppe über die Jahre im Blick behielt. Einzelbezeugung ist kein Beweis für Erfindung – viele antike Ereignisse kennen wir nur aus einer Quelle.`,
+                  detail: `**Ehrlich:** Die Erscheinung vor den 500 ist nur in 1 Kor 15,6 bezeugt. Manche Forscher verbinden sie vorsichtig mit der Erscheinung auf dem Berg in Galiläa (Mt 28,16–17) – das ist eine Hypothese. Für das Argument genügt, dass Paulus in einem Brief, den seine Gegner lesen konnten, eine große, zum Teil noch lebende Gruppe als Zeugen benennt.
+
+**Wie man es sagen sollte:** Nicht „Paulus forderte die Korinther auf, die 500 zu befragen", sondern: „Paulus verweist auf lebende Zeugen, deren Existenz in der Gemeinde bekannt war oder leicht zu erfragen gewesen wäre – eine riskante Angabe, wenn sie erfunden war."`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Korinther', ref: '1,12', quote: `Ich sage aber davon, daß unter euch einer spricht: Ich bin paulisch, der andere: Ich bin apollisch, der dritte: Ich bin kephisch, der vierte: Ich bin christisch.`, translation: 'Luther 1912', status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '16,1–3', quote: `Von der Steuer aber, die den Heiligen geschieht … so will ich die senden, daß sie hinbringen eure Wohltat gen Jerusalem.`, translation: 'Luther 1912 (gekürzt)', status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum sollte Paulus ausgerechnet gegenüber einer Gemeinde mit einer Petrus-Partei eine Zeugenschar erfinden, die man über Petrus leicht hätte überprüfen können?`,
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
@@ -170,6 +240,83 @@ const claim: Claim = {
             { kind: 'gegner', author: 'John Dominic Crossan', work: 'The Cross That Spoke: The Origins of the Passion Narrative', year: '1988', quote: `Crossan rekonstruiert ein „Kreuzevangelium" als älteste Passionsquelle.`, status: 'paraphrase' },
           ],
         },
+      ],
+    },
+    {
+      id: 'jakobus-bekehrung-legende',
+      objection: `Die angebliche „Bekehrung" des skeptischen Jakobus ist selbst ein Produkt der Legende. 1 Kor 15,7 sagt nur, Jesus sei Jakobus erschienen – nicht, dass Jakobus vorher ungläubig war. Die Geschichten von der ablehnenden Familie bei Markus und Johannes sind Polemik gegen die Jerusalemer Verwandten-Partei.`,
+      objectionBy: 'Robert M. Price / Robert Eisenman',
+      answer: `Das Gegenteil ist plausibler: Dass Jesu eigene Familie ihn für „von Sinnen" hielt (Mk 3,21) und seine Brüder nicht an ihn glaubten (Joh 7,5), ist eine peinliche Überlieferung – ausgerechnet über Jakobus, der später die Jerusalemer Gemeinde leitete. So etwas erfindet man nicht über den angesehensten Mann der Urgemeinde. Paulus kennt Jakobus persönlich und nennt ihn als Empfänger einer eigenen Erscheinung. Und Josephus bezeugt, dass Jakobus, „der Bruder Jesu, der Christus genannt wird", 62 n. Chr. als Anhänger hingerichtet wurde.`,
+      detail: `**Die Bausteine:**
+- **Vor Ostern:** Mk 3,21.31–35 (die Familie will ihn „festhalten"); Joh 7,5 („auch seine Brüder glaubten nicht an ihn"); am Kreuz vertraut Jesus seine Mutter dem Lieblingsjünger an, nicht seinen Brüdern (Joh 19,26–27).
+- **Nach Ostern:** Die Brüder sind in der Gemeinde (Apg 1,14); Jakobus empfängt eine eigene Erscheinung (1 Kor 15,7), wird „Säule" (Gal 2,9) und Leiter in Jerusalem (Apg 15; 21,18).
+- **Sein Ende:** Josephus (Ant. 20,200) berichtet die Steinigung des Jakobus unter dem Hohepriester Hannas dem Jüngeren; Hegesipp (bei Eusebius, KG II,23) erzählt sein Martyrium ausführlicher.
+
+**Warum die Polemik-These schwach ist:** Markus und Johannes schreiben, als die Familie Jesu in der Kirche hoch angesehen war (vgl. die Verwandten Jesu bei Hegesipp). Eine Herabsetzung der Familie hätte keinen erkennbaren Nutzen, wohl aber Kosten. Am einfachsten erklärt sich der Befund so: Die Familie zweifelte – bis Ostern.`,
+      voices: [
+        {
+          person: 'habermas',
+          role: 'als Historiker der Minimal Facts',
+          text: `Habermas führt die Bekehrung des Skeptikers Jakobus als eine der gut belegten Tatsachen an, die viele kritische Forscher akzeptieren. Er verbindet drei Linien: das Kriterium der Peinlichkeit für die vorösterliche Ablehnung, die frühe Erscheinungsnotiz im Credo und die außerbiblisch bezeugte spätere Leitungsrolle und Hinrichtung des Jakobus.`,
+          sources: [{ kind: 'fachliteratur', author: 'Gary R. Habermas / Michael R. Licona', work: 'The Case for the Resurrection of Jesus', year: '2004', status: 'paraphrase', quote: `Die Bekehrung des Jakobus als Indiz für eine reale Erscheinung.` }],
+        },
+        {
+          person: 'eusebius',
+          role: 'als Bewahrer älterer Quellen',
+          text: `Eusebius überliefert den Bericht des Hegesipp aus dem 2. Jahrhundert über Jakobus, den „Gerechten", der wegen seines Christuszeugnisses getötet wurde. Auch wenn Hegesipps Erzählung legendarische Züge trägt, bestätigt sie zusammen mit Josephus den Kern: Der Bruder Jesu starb als Bekenner des Auferstandenen.`,
+          sources: [{ kind: 'kirchenvater', author: 'Eusebius von Caesarea', work: 'Kirchengeschichte', ref: 'II,23', year: 'ca. 325', status: 'paraphrase', quote: `Bericht über das Martyrium des Herrenbruders Jakobus nach Hegesipp und Josephus.` }],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '3,21', quote: `Und da es höreten, die um ihn waren, gingen sie hinaus und wollten ihn halten; denn sie sprachen: Er ist von Sinnen.`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Johannes', ref: '7,5', quote: `Denn auch seine Brüder glaubten nicht an ihn.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'sonstiges', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: '20,200', year: 'ca. 93', quote: `Hannas versammelte den Hohen Rat und stellte den Bruder Jesu, der Christus genannt wird, mit Namen Jakobus, und einige andere vor Gericht und ließ sie steinigen.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Warum sollte die Urkirche ausgerechnet über ihren Leiter Jakobus erzählen, er habe seinen Bruder für verrückt gehalten?`,
+        `Was hat einen frommen Juden, der seinen Bruder für einen Irregeleiteten hielt, dazu gebracht, für dessen Messianität zu sterben?`,
+      ],
+      followUps: [
+        {
+          id: 'jakobus-familienloyalitaet',
+          objection: `Familienloyalität erklärt genug: Nach Jesu Tod übernahm der Bruder die Bewegung, wie es bei dynastischen Bewegungen üblich ist – die Makkabäer, die Söhne des Judas Galiläus. Dafür braucht es keine Erscheinung.`,
+          objectionBy: 'Robert Eisenman / James Tabor',
+          answer: `Dynastische Nachfolge erklärt, warum ein Verwandter eine **bestehende** Bewegung übernimmt – nicht, warum ein Zweifler sich überhaupt einer Bewegung anschließt, deren Anführer gerade schmachvoll als Verfluchter gestorben war. Die Söhne des Judas Galiläus führten dessen Sache weiter, ohne zu behaupten, er sei auferweckt worden. Bei Jakobus aber steht im Zentrum genau diese Behauptung – und er starb für sie, nicht für Familienehre.`,
+          detail: `**Ehrlich:** Die Rolle der Familie Jesu in der Urgemeinde ist real, und Forscher wie James Tabor betonen sie zu Recht („Jesus-Dynastie"). Das ist mit dem christlichen Befund gut vereinbar. Strittig ist nur die Ursache des Umschwungs: Familienloyalität hätte eher zu einer Bewegung des **Gedenkens** an einen Märtyrer geführt, nicht zur Verkündigung, Gott habe ihn auferweckt und zum Herrn gemacht.`,
+          sources: [
+            { kind: 'gegner', author: 'James D. Tabor', work: 'The Jesus Dynasty', year: '2006', quote: `Tabor betont die führende Rolle der Familie Jesu, besonders des Jakobus, in der frühen Bewegung.`, status: 'paraphrase' },
+          ],
+          questionsBack: [
+            `Kennst du eine dynastische jüdische Bewegung, in der der Bruder behauptete, der hingerichtete Anführer sei leiblich auferweckt worden?`,
+          ],
+        },
+      ],
+    },
+    {
+      id: 'gedaechtnis-verzerrt',
+      objection: `Die Gedächtnisforschung zeigt: Selbst Augenzeugen erinnern sich falsch, und zwar schnell. Erinnerungen werden bei jedem Erzählen neu konstruiert, an Gruppenerwartungen angepasst und mit Details angereichert. Die Augenzeugen selbst sind also schon eine Legendenquelle.`,
+      objectionBy: 'Bart Ehrman',
+      answer: `Die Gedächtnisforschung zeigt vor allem zweierlei: Details verzerren sich, der **Kern** – das „Was ist im Wesentlichen geschehen?" – bleibt bei einschneidenden Erlebnissen erstaunlich stabil. Dass jemand Jesus gekreuzigt sah und ihn danach lebend zu sehen meinte, ist kein Detail, sondern der Kern. Unterschiede bei Zahl der Engel oder Uhrzeit passen genau zu dem, was die Forschung erwarten lässt; eine erfundene Auferstehung passt dazu nicht. Außerdem erinnerten sich nicht Einzelne isoliert, sondern eine Gemeinschaft, die ihre Erinnerung gemeinsam pflegte und korrigierte.`,
+      detail: `**Was die Forschung sagt:** Robert McIver hat die Ergebnisse der Gedächtnispsychologie auf die Evangelien angewendet: Augenzeugenerinnerung ist bei Details fehleranfällig, beim Kern („gist") und bei persönlich bedeutsamen, emotionalen Ereignissen aber deutlich verlässlicher. Ehrman selbst gesteht in „Jesus Before the Gospels" zu, dass Erinnerungen den Kern oft bewahren, betont aber stärker die Verzerrungen.
+
+**Kollektives Gedächtnis:** Richard Bauckham und James Dunn betonen, dass die Jesusüberlieferung nicht wie ein Stille-Post-Spiel ablief, sondern in Gemeinden, in denen Augenzeugen lebten und die Überlieferung gemeinsam weitergaben (siehe „Stille Post").
+
+**Die Pointe:** Ehrmans Argument erklärt gut, warum die Evangelien sich in Nebensachen unterscheiden. Es erklärt nicht, wie aus einer Kreuzigung ohne Folgen die gemeinsame Überzeugung von Petrus, Jakobus, den Zwölf und Paulus wird, den Auferstandenen gesehen zu haben – innerhalb weniger Jahre.`,
+      voices: [
+        {
+          person: 'bauckham',
+          role: 'als Erforscher der Augenzeugenüberlieferung',
+          text: `Bauckham argumentiert, dass die Evangelien auf benannte Augenzeugen zurückgehen, die in den Gemeinden als Garanten der Überlieferung bekannt waren. Er setzt sich ausdrücklich mit der Gedächtnisforschung auseinander und kommt zu dem Schluss, dass einschneidende, wiederholt erzählte und persönlich bedeutsame Ereignisse im Kern zuverlässig erinnert werden.`,
+          sources: [{ kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jesus and the Eyewitnesses', year: '2006; 2. Aufl. 2017', status: 'paraphrase', quote: `Auseinandersetzung mit der Gedächtnispsychologie und Augenzeugenerinnerung.` }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Bart D. Ehrman', work: 'Jesus Before the Gospels: How the Earliest Christians Remembered, Changed, and Invented Their Stories of the Savior', year: '2016', quote: `Ehrman wendet Gedächtnisforschung auf die Jesusüberlieferung an und betont, wie stark Erinnerungen verändert und erfunden werden können.`, status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'Robert K. McIver', work: 'Memory, Jesus, and the Synoptic Gospels', year: '2011', quote: `McIver zeigt, dass Augenzeugenerinnerung bei Details fehleranfällig, beim Kern bedeutsamer Ereignisse aber vergleichsweise zuverlässig ist.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welche Studie zeigt, dass Gedächtnisverzerrung aus einem Begräbnis ohne Folgen die gemeinsame Erinnerung mehrerer Gruppen an Begegnungen mit dem Verstorbenen erzeugt?`,
+        `Wenn Details bei Augenzeugen variieren – ist das nicht genau das, was wir in den Evangelien sehen, während der Kern übereinstimmt?`,
       ],
     },
   ],

@@ -92,7 +92,7 @@ const claim: Claim = {
       answer: `Die beiden Zahlen messen verschiedene Dinge. Keefe & Szostak suchten nach irgendeiner schwachen Bindung an ATP und mussten die Kandidaten in mehreren Runden mit Mutagenese verbessern. Axe maß, wie viele Sequenzen eine stabile Faltung mit echter Enzymfunktion tragen. Dass einfache Bindung häufiger ist als präzise Katalyse, ist kein Widerspruch – es zeigt gerade, dass die Anforderungen einer Zelle entscheidend sind.`,
       detail: `Spätere Strukturuntersuchungen des selektierten Proteins zeigten eine ungewöhnliche, von Zink abhängige Faltung, die sich von natürlichen ATP-bindenden Proteinen unterscheidet. Es handelt sich um ein Laborprodukt mit Minimalfunktion – interessant, aber kein Modell für den Ursprung der Enzymfamilien.`,
       sources: [
-        { kind: 'wissenschaft', author: 'P. Lo Surdo, M. A. Walsh, M. Sollazzo', work: '„A novel ADP- and zinc-binding fold from function-directed in vitro evolution", Nature Structural & Molecular Biology 11', year: '2004', status: 'unverified', note: 'Strukturanalyse eines Abkömmlings des Keefe-Szostak-Proteins; Details vor Verwendung prüfen.' },
+        { kind: 'wissenschaft', author: 'P. Lo Surdo, M. A. Walsh, M. Sollazzo', work: '„A novel ADP- and zinc-binding fold from function-directed in vitro evolution", Nature Structural & Molecular Biology 11', ref: 'S. 382', year: '2004', status: 'paraphrase', quote: `Erste Kristallstruktur eines durch In-vitro-Evolution gewonnenen Proteins: eine neuartige, durch ein Zinkion stabilisierte Nukleotid-bindende Faltung.`, url: 'https://doi.org/10.1038/nsmb745', note: 'Bibliografische Angaben und Kernaussage per PDB-Eintrag 1UW1 bestätigt (Strukturanalyse eines Abkömmlings des Keefe-Szostak-Proteins).' },
       ],
       followUps: [
         {
@@ -111,6 +111,31 @@ const claim: Claim = {
               ],
               questionsBack: [
                 `Welche Häufigkeit funktionaler Faltungen hältst du für realistisch – und auf welche Messung stützt du dich?`,
+              ],
+              followUps: [
+                {
+                  id: 'alte-peptid-vokabular',
+                  objection: `Ihr tut so, als müsse die Evolution den Sequenzraum blind durchsuchen. Alva, Söding und Lupas haben 2015 gezeigt, dass viele Faltungen aus einem kleinen „Vokabular" uralter Peptidfragmente zusammengesetzt sind. Proteine entstanden durch Kombination bewährter Bausteine – Axe' Seltenheitszahlen sind irrelevant.`,
+                  objectionBy: 'Joshua Swamidass',
+                  answer: `Die Vokabular-Hypothese ist ernsthafte Forschung und erklärt gut, warum ähnliche Motive in verschiedenen Faltungen wiederkehren. Aber sie verschiebt die Frage: Woher kamen die rund vierzig funktionstüchtigen Urfragmente, und wie wahrscheinlich ist es, dass ihre Kombination eine stabile, katalytisch aktive Faltung ergibt? Experimente, in denen man Fragmente neu kombiniert, liefern meist instabile oder funktionslose Produkte. Wiederverwendung erklärt Verwandtschaft – nicht den ersten Ursprung funktionaler Faltungen.`,
+                  detail: `Die Autoren selbst verorten diese Fragmente in einer hypothetischen RNA-Peptid-Welt vor den ersten gefalteten Proteinen – also genau in dem Bereich, in dem die Ursprungsfrage am offensten ist. Für das Gespräch heißt das: Du kannst die Forschung würdigen und zugleich festhalten, dass sie ein Szenario beschreibt, keinen experimentell nachvollzogenen Weg. Axe' Messung betrifft die Frage, wie dicht funktionale Faltungen im Sequenzraum liegen; eine Hypothese über alte Bausteine ändert an dieser Dichte nichts, solange man nicht zeigt, dass Kombinationen solcher Bausteine häufig funktionieren.`,
+                  voices: [
+                    {
+                      person: 'douglas-axe',
+                      role: 'als Proteinforscher',
+                      text: `Axe betont, dass Proteinfaltung ein Ganzes ist: Ob ein Abschnitt eine stabile Struktur bildet, hängt von seinen Wechselwirkungen mit dem Rest der Kette ab. Deshalb lassen sich Fragmente nicht wie Legosteine beliebig kombinieren; die Zahl der Kombinationen, die eine stabile und funktionstüchtige Faltung ergeben, bleibt nach seinen Experimenten winzig.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Douglas Axe', work: 'Undeniable: How Biology Confirms Our Intuition That Life Is Designed', year: '2016', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Vikram Alva, Johannes Söding, Andrei N. Lupas', work: '„A vocabulary of ancient peptides at the origin of folded proteins", eLife 4', year: '2015', status: 'paraphrase', quote: `Rund 40 Fragmente, die in verschiedenen Faltungsklassen wiederkehren, könnten Überbleibsel einer Peptidwelt vor den ersten gefalteten Proteinen sein.` },
+                  ],
+                  questionsBack: [
+                    `Gibt es ein Experiment, in dem die Kombination solcher Urfragmente zuverlässig ein neues, aktives Enzym ergab?`,
+                  ],
+                },
               ],
             },
           ],
@@ -131,6 +156,18 @@ const claim: Claim = {
           objection: `In der Hefe sieht man den Prozess sogar in Zwischenstufen: Proto-Gene werden translatiert, und die nützlichen werden durch Selektion zu richtigen Genen.`,
           objectionBy: 'Joshua Swamidass',
           answer: `Das ist ein plausibles Modell für kurze Peptide mit einfachen Aufgaben. Der Schritt von einem kurzen, ungeordneten Peptid zu einer komplexen, präzise gefalteten Domäne ist aber genau die Lücke, um die es geht. Auch hier gilt: Ein Weg muss gezeigt, nicht nur postuliert werden.`,
+          followUps: [
+            {
+              id: 'de-novo-gene-essentiell',
+              objection: `Bei Drosophila wurden junge De-novo-Gene beschrieben, die schnell unverzichtbar wurden, und Strukturuntersuchungen zeigen bei einzelnen De-novo-Proteinen geordnete, helikale Abschnitte. Aus nichtkodierender DNA entstehen also echte, gefaltete und wichtige Proteine.`,
+              objectionBy: 'Dennis Venema',
+              answer: `Das ist ein spannendes Feld, und ich verfolge es mit Interesse. Aber zwei Dinge gehören zur Ehrlichkeit: Spätere Untersuchungen mit präziseren Methoden (CRISPR) fanden, dass viele junge Gene **nicht** unverzichtbar sind – frühere RNAi-Ergebnisse waren zum Teil Artefakte. Und die bisher strukturell untersuchten De-novo-Proteine sind kurz, teilweise ungeordnet und tragen keine komplexen katalytischen Zentren. Das ist genau die Grenze, über die wir reden.`,
+              detail: `Fair bleiben: De-novo-Genentstehung ist kein Randphänomen der ID-Debatte, sondern ein etabliertes Forschungsgebiet (Tautz, Carvunis, Bornberg-Bauer, Long u. a.). Die Frage ist nicht, ob neue offene Leseraster entstehen und translatiert werden – das tun sie –, sondern ob auf diesem Weg die Art von Proteinen entsteht, die eine Zelle als Grundausstattung braucht: Enzyme mit tiefen Bindungstaschen, präzise positionierten katalytischen Resten und stabiler Tertiärstruktur. Hierfür gibt es bisher kein dokumentiertes Beispiel.`,
+              questionsBack: [
+                `Kennst du ein De-novo-Gen, das ein Enzym mit stabil gefaltetem aktivem Zentrum codiert?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -170,6 +207,38 @@ const claim: Claim = {
           objection: `Und? Evolution arbeitet immer mit Vorhandenem. Modifikation ist genau der Mechanismus.`,
           objectionBy: 'Jerry Coyne',
           answer: `Einverstanden, Modifikation ist ein realer Mechanismus. Dann sollten wir aber nicht sagen, „neue Proteine entstehen leicht", sondern: „Vorhandene Proteine lassen sich leicht abwandeln." Das ist ein gewaltiger Unterschied – denn irgendwann muss es die ersten Faltungen gegeben haben.`,
+        },
+      ],
+    },
+    {
+      id: 'frostschutzprotein',
+      objection: `Antarktische Eisfische haben ein Frostschutz-Glykoprotein aus einem Trypsinogen-Gen und einem Stück nichtkodierender DNA gebaut, und arktische Dorsche haben ein ähnliches Protein unabhängig – sogar weitgehend aus nichtkodierender Sequenz – entwickelt. Ein völlig neues Protein mit neuer, lebenswichtiger Funktion. Was willst du mehr?`,
+      objectionBy: 'Richard Dawkins',
+      answer: `Ein wunderbares Beispiel – und ein sehr aufschlussreiches. Das Frostschutz-Glykoprotein besteht im Kern aus einer vielfach wiederholten, einfachen Dreiereinheit (Threonin-Alanin-Alanin) mit Zuckerresten; es braucht keine komplexe Faltung und kein aktives Zentrum. Einfache Wiederholungssequenzen lassen sich durch Verdopplung kurzer Abschnitte leicht vervielfältigen. Das liegt genau in dem Bereich, den auch Behe und Axe für erreichbar halten – es sagt nichts über Enzyme mit präzise gefalteten Bindungstaschen.`,
+      sources: [
+        { kind: 'wissenschaft', author: 'Liangbiao Chen, Arthur L. DeVries, Chi-Hing C. Cheng', work: '„Evolution of antifreeze glycoprotein gene from a trypsinogen gene in Antarctic notothenioid fish", PNAS 94', year: '1997', status: 'paraphrase', quote: `Das Frostschutz-Glykoprotein-Gen entstand aus Teilen eines Trypsinogen-Gens und einer vielfach verdoppelten kurzen Sequenz.` },
+      ],
+      followUps: [
+        {
+          id: 'wo-ist-die-grenze',
+          objection: `Damit gibst du zu, dass neue Gene mit neuer Funktion aus nichtkodierender DNA entstehen. Deine Grenze wandert immer genau dorthin, wo es noch kein Beispiel gibt.`,
+          objectionBy: 'Joshua Swamidass',
+          answer: `Die Grenze ist nicht willkürlich, sondern lässt sich benennen: Wie viele bestimmte Bausteine müssen **gleichzeitig** stimmen, damit eine Funktion überhaupt da ist? Bei einer einfachen Wiederholung mit Frostschutzwirkung sind es wenige; bei einem Enzym mit gefaltetem aktivem Zentrum sind es viele, und Zwischenstufen haben oft keinen Vorteil. Das ist seit Jahren dieselbe Linie – Axe hat sie 2004 quantitativ gefasst, Behe 2007 an Malaria-Daten. Bring mir ein Beispiel jenseits dieser Linie, und ich nehme es ernst.`,
+          questionsBack: [
+            `Kannst du ein beobachtetes Beispiel nennen, bei dem eine neue Funktion mehr als zwei oder drei gleichzeitig nötige Mutationen erforderte?`,
+          ],
+          followUps: [
+            {
+              id: 'information-kein-biologiebegriff',
+              objection: `„Funktionale Information" ist kein biologischer Begriff, sondern ein Design-Konstrukt, das ihr in die Biologie schmuggelt.`,
+              objectionBy: 'Larry Moran',
+              answer: `Der Begriff stammt aus der Hauptströmung: Jack Szostak – Nobelpreisträger und selbst Ursprungsforscher – schlug 2003 in Nature vor, „funktionale Information" als Maß für den Anteil der Sequenzen zu definieren, die eine bestimmte Funktion mindestens in einem bestimmten Grad erfüllen. Hazen, Szostak und Kollegen haben das 2007 in PNAS ausgearbeitet. Wir verwenden also ein Maß, das Evolutionsbiologen selbst vorgeschlagen haben – und fragen nur, wie viel davon ungelenkte Prozesse nachweislich erzeugen.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Jack W. Szostak', work: '„Functional information: Molecular messages", Nature 423', year: '2003', status: 'paraphrase', quote: `Funktionale Information misst, wie selten Sequenzen sind, die eine gegebene Funktion in einem bestimmten Grad erfüllen.` },
+                { kind: 'wissenschaft', author: 'Robert M. Hazen, Patrick L. Griffin, James M. Carothers, Jack W. Szostak', work: '„Functional information and the emergence of biocomplexity", PNAS 104 (Suppl. 1)', year: '2007', status: 'paraphrase' },
+              ],
+            },
+          ],
         },
       ],
     },

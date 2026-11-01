@@ -137,6 +137,35 @@ const claim: Claim = {
               objection: `Komm schon. Wer soll der Designer sein, wenn nicht Gott? Ihr meint doch alle Gott.`,
               objectionBy: 'Jerry Coyne',
               answer: `Ehrlich gesagt: Die meisten ID-Vertreter sind Christen und glauben persönlich, dass der Designer Gott ist – ich auch. Aber das ist ein zweiter, philosophisch-theologischer Schritt. Der wissenschaftliche Schluss reicht nur bis zu „Intelligenz". Auch wer die Feinabstimmung des Universums oder den Urknall theistisch deutet, unterscheidet zwischen dem Befund und seiner Deutung.`,
+              followUps: [
+                {
+                  id: 'hume-hat-paley-widerlegt',
+                  objection: `Dann ist ID nur Paleys Uhrmacher-Argument im Laborkittel – und das haben Hume und Darwin längst erledigt. Analogien zwischen Maschinen und Organismen tragen nicht.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `Hume kritisierte einen **Analogieschluss**: Organismen ähneln Uhren, also haben sie einen Uhrmacher. Das Design-Argument heute ist ein **Schluss auf die beste Erklärung** – dieselbe Methode, die Darwin selbst nach Lyell verwendete: Man erklärt vergangene Ereignisse durch Ursachen, deren Wirkkraft wir heute kennen. Wir kennen genau eine Ursache, die codierte, funktionale Information und vielteilige Maschinen hervorbringt: Intelligenz. Gegen diese Schlussform greift Humes Kritik nicht – und Darwin hat Paley nicht widerlegt, sondern eine alternative Ursache vorgeschlagen, deren Reichweite gerade umstritten ist.`,
+                  voices: [
+                    {
+                      person: 'stephen-meyer',
+                      role: 'als Wissenschaftsphilosoph',
+                      text: `Meyer, der über die Methodik der historischen Wissenschaften promoviert hat, rekonstruiert Darwins Vorgehen als Schluss auf die beste Erklärung nach dem Prinzip der „vera causa": Eine historische Erklärung muss eine Ursache anführen, die nachweislich fähig ist, die fragliche Wirkung hervorzubringen. Genau diesen Maßstab wendet er auf die Herkunft biologischer Information an.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Stephen C. Meyer', work: 'Signature in the Cell', ref: 'Kap. 7 und 15', year: '2009', status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'paley',
+                      role: 'als Naturtheologe',
+                      text: `Paley selbst stellte schon klar, dass sein Schluss nicht davon abhängt, dass die Uhr perfekt ist oder dass man den Uhrmacher kennt: Entscheidend ist die Zusammenordnung der Teile zu einem Zweck. Dieser Kern – Funktion aus aufeinander abgestimmten Teilen – ist das, was moderne Design-Argumente mit biochemischen Daten neu prüfen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'William Paley', work: 'Natural Theology', ref: 'Kap. 1', year: '1802', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Welche andere Ursache außer Intelligenz kennst du aus Erfahrung, die einen Code samt Übersetzungsapparat hervorbringt?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -195,6 +224,38 @@ const claim: Claim = {
           objection: `Gerade deshalb ist ID gefährlich: Es bindet den Glauben an wissenschaftliche Lücken. Wenn eine Lücke sich schließt, verlieren junge Christen ihren Glauben.`,
           objectionBy: 'Joshua Swamidass',
           answer: `Das ist eine ernstzunehmende pastorale Sorge. Deshalb sollte man nie sagen: „Wenn ID falsch ist, ist das Christentum falsch." Der Glaube ruht auf der Auferstehung Christi und auf Gottes Offenbarung; die natürliche Theologie – Kosmologie, Vernunft, Moral – ist eine Ergänzung. Ein Argument muss man aber nach seiner Stichhaltigkeit beurteilen, nicht nach seinen möglichen pastoralen Folgen.`,
+        },
+      ],
+    },
+    {
+      id: 'schlechte-wissenschaft-statt-keine',
+      objection: `Ich gebe zu: Die Abgrenzungsfrage ist philosophisch ungelöst, das Etikett „unwissenschaftlich" ist eher ein Totschlagargument. Aber das hilft dir nicht. ID ist dann eben keine Nicht-Wissenschaft, sondern schlechte, widerlegte Wissenschaft.`,
+      objectionBy: 'Joshua Swamidass',
+      answer: `Danke – das ist ein ehrlicher und viel besserer Ausgangspunkt. Der Philosoph Larry Laudan hat schon 1983 gezeigt, dass es kein allgemein anerkanntes Abgrenzungskriterium gibt, und selbst Atheisten wie Thomas Nagel und Bradley Monton haben bestritten, dass ID per Definition unwissenschaftlich sei. Wenn wir uns einig sind, dass ID eine empirische Behauptung ist, dann reden wir endlich über Daten: Proteinfaltungen, Wartezeiten, Ursprung der Information. Genau dieses Gespräch will ich führen.`,
+      voices: [
+        {
+          person: 'plantinga',
+          role: 'als Philosoph',
+          text: `Plantinga argumentiert, dass es keine neutrale Definition von Wissenschaft gibt, die Design-Hypothesen von vornherein ausschließt, ohne dabei auch anerkannte Forschung auszuschließen. Ob eine Hypothese wahr ist, müsse an den Daten entschieden werden, nicht an einer Etikettierung.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'Where the Conflict Really Lies: Science, Religion, and Naturalism', year: '2011', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'fachliteratur', author: 'Larry Laudan', work: '„The demise of the demarcation problem", in: R. S. Cohen, L. Laudan (Hg.), Physics, Philosophy and Psychoanalysis', year: '1983', status: 'paraphrase', quote: `Es gibt kein tragfähiges, allgemein anerkanntes Kriterium, das Wissenschaft von Nicht-Wissenschaft trennt.` },
+        { kind: 'gegner', author: 'Thomas Nagel', work: '„Public education and intelligent design", Philosophy & Public Affairs 36 (2)', year: '2008', status: 'paraphrase', note: 'Nagel ist Atheist; er hält ID nicht für überzeugend, bestreitet aber, dass es per Definition unwissenschaftlich sei.' },
+        { kind: 'gegner', author: 'Bradley Monton', work: 'Seeking God in Science: An Atheist Defends Intelligent Design', year: '2009', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'id-vorhersagen-gescheitert',
+          objection: `Gut, dann reden wir über Daten: Behes Vorhersagen sind gescheitert. Thornton hat die Entstehung voneinander abhängiger Systeme gezeigt, die Junk-DNA ist real, und neue Gene entstehen ständig. Als empirisches Programm ist ID gescheitert.`,
+          objectionBy: 'Larry Moran',
+          answer: `Dann sortieren wir ehrlich: **Bestätigt** wurde Behes Vorhersage, dass Chloroquinresistenz mindestens zwei gleichzeitige Mutationen braucht (Summers u. a. 2014). **Umstritten** ist der funktionale Anteil des Genoms – die Debatte ist offen, nicht entschieden. **Gezeigt** wurde bei Thorntons V-ATPase, dass Abhängigkeit durch den Verlust von Bindungsflächen entstehen kann – nicht, wie die Maschine selbst entstand. Und neue Gene sind bisher kurze, einfache Proteine. Das ist kein Scheitern, sondern ein normaler Forschungsstand mit Treffern, offenen Fragen und Korrekturen – wie bei jedem Programm.`,
+          questionsBack: [
+            `Welche konkrete, quantitative Vorhersage des Neodarwinismus über die Entstehung einer neuen Proteinfaltung wurde experimentell bestätigt?`,
+          ],
         },
       ],
     },

@@ -108,6 +108,27 @@ const claim: Claim = {
               questionsBack: [
                 `Woher weißt du, welche Ziele ein Schöpfer bei der Gestaltung des Auges verfolgt hat?`,
               ],
+              followUps: [
+                {
+                  id: 'theologie-statt-biologie',
+                  objection: `Dann gib zu, dass dein Designer wissenschaftlich unprüfbar ist: Sobald etwas schlecht aussieht, flüchtest du in Theologie über Gottes unerforschliche Absichten.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Das Argument vom schlechten Design war von Anfang an ein theologisches – nicht meines, sondern deines: Darwin, Ayala, Gould und du selbst argumentiert: „Ein guter, weiser Gott hätte das nicht so gemacht." Das ist eine Aussage über Gott, keine Messung. Der Wissenschaftsphilosoph Paul Nelson hat gezeigt, wie oft solche theologischen Prämissen in evolutionären Argumenten stecken. Wenn du theologisch argumentierst, darf ich theologisch antworten – und dann reden wir über Schöpfung, Freiheit und Fall, nicht über Nerven.`,
+                  voices: [
+                    {
+                      person: 'paul-nelson',
+                      role: 'als Wissenschaftsphilosoph',
+                      text: `Nelson hat untersucht, wie Argumente vom Typ „Gott hätte es nicht so gemacht" in der evolutionären Literatur funktionieren. Sein Befund: Sie setzen ein bestimmtes Bild davon voraus, was ein Schöpfer tun würde, und sind damit theologisch, nicht empirisch. Wer sie verwendet, kann der Gegenseite nicht gleichzeitig vorwerfen, Theologie in die Wissenschaft zu tragen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Paul A. Nelson', work: '„The role of theology in current evolutionary reasoning", Biology and Philosophy 11', ref: 'S. 493–517', year: '1996', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Woher weißt du, was ein vollkommener Schöpfer tun würde – ist das eine biologische oder eine theologische Aussage?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -136,6 +157,27 @@ const claim: Claim = {
               objection: `Dann ist Design unfalsifizierbar: Gutes ist Design, Schlechtes ist „Zielkonflikt" oder „unbekannter Grund".`,
               objectionBy: 'Nathan Lents',
               answer: `Nein – Design wird nicht durch Perfektion, sondern durch positive Kennzeichen erkannt: hochspezifische, mehrteilige Funktion, Codes, Steuerlogik. Wenn ein System diese Kennzeichen hat, deutet es auf Design, auch wenn es Mängel aufweist – wie ein altes Auto. Umgekehrt widerlegt ein Mangel kein Design. Das „schlechtes Design"-Argument prüft also gar nicht die Design-Hypothese, sondern eine bestimmte Vorstellung davon, wie Gott bauen müsste.`,
+              followUps: [
+                {
+                  id: 'was-wuerde-design-widerlegen',
+                  objection: `Dann nenne eine Beobachtung, die Design widerlegen würde. Wenn du keine nennen kannst, ist es keine Wissenschaft.`,
+                  objectionBy: 'Jerry Coyne',
+                  answer: `Gern. Behe hat schon 2001 einen konkreten Test vorgeschlagen: Man entferne bei Bakterien die Gene für das Flagellum, setze sie über viele tausend Generationen unter Selektionsdruck für Beweglichkeit und schaue, ob ein vergleichbares, vielteiliges System entsteht. Gelänge das, wäre die Behauptung der Nichtreduzierbarkeit widerlegt. Allgemein gilt: Zeig, dass ein ungelenkter Prozess unter realistischen Bedingungen ein System mit vielen aufeinander abgestimmten, neuen Teilen erzeugt – dann bricht der Designschluss für dieses System zusammen.`,
+                  voices: [
+                    {
+                      person: 'michael-behe',
+                      role: 'als Biochemiker',
+                      text: `Behe hält seine These ausdrücklich für empirisch widerlegbar und hat Kritikern Experimente vorgeschlagen, mit denen sie ihn widerlegen könnten. Er weist darauf hin, dass gerade seine Kritiker zugleich behaupten, die These sei unwiderlegbar und sie sei bereits widerlegt – beides zugleich kann nicht stimmen.`,
+                      sources: [
+                        { kind: 'wissenschaft', author: 'Michael J. Behe', work: '„Reply to my critics: A response to reviews of Darwin\'s Black Box", Biology and Philosophy 16', year: '2001', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn Design unwiderlegbar ist – wie konntest du dann behaupten, die Netzhaut habe es widerlegt?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -181,6 +223,55 @@ const claim: Claim = {
           objection: `Das ist bequem: Alles Gute ist Design, alles Schlechte ist Sündenfall. So kann man nie widerlegt werden.`,
           objectionBy: 'Richard Dawkins',
           answer: `Es ist keine willkürliche Zuordnung, sondern eine prüfbare Erwartung: Wenn Verfall real ist, sollten wir viele Funktionsverluste finden – und das tun wir, im Labor wie im Genom (Behe, Quarterly Review of Biology 2010). Umgekehrt müsste der Materialismus erklären, warum die Grundausstattung so erstaunlich leistungsfähig ist. Und ehrlich gesagt: Die Frage, warum Gott Leid und Verfall zulässt, ist eine echte theologische Frage – aber sie ist eine Frage der Theodizee, nicht der Genetik.`,
+        },
+      ],
+    },
+    {
+      id: 'schlupfwespe-parasiten',
+      objection: `Das schlechte Design ist noch dein kleinstes Problem. Darwin schrieb an Asa Gray, er könne nicht glauben, dass ein gütiger Gott Schlupfwespen erschaffen habe, deren Larven Raupen bei lebendigem Leib fressen. Wenn ihr jede raffinierte Struktur einem Designer zuschreibt, dann hat euer Gott auch die Waffen des Malariaerregers entworfen. Die Evolution entlastet Gott – ID macht ihn zum Urheber des Grauens.`,
+      objectionBy: 'Kenneth Miller',
+      answer: `Das ist eine ernste Frage, und ich nehme sie nicht leicht. Aber sie ist das allgemeine Problem des Leids, kein biologisches Argument – und sie trifft die theistische Evolution genauso: Auch wer sagt, Gott habe durch Evolution geschaffen, glaubt an einen Gott, der wusste, dass dieser Prozess Schlupfwespen hervorbringt. Die Kirche antwortet mit der Lehre vom Fall: Die Schöpfung wurde „gut" geschaffen, und Verderbnis und Tod sind Folgen der Sünde, nicht Gottes ursprüngliche Absicht. Manche Forscher vermuten zudem, dass viele Krankheitserreger aus ursprünglich harmlosen oder nützlichen Organismen hervorgingen – das ist aber eine offene Hypothese.`,
+      detail: `Darwins Brief an Asa Gray vom 22. Mai 1860 ist echt und gehört zu den ehrlichsten Zeugnissen seines Ringens. Kenneth Miller (Katholik) und Francisco Ayala („Darwin's Gift", 2007) argumentieren, die Evolution befreie Gott von der Verantwortung für die Mängel der Natur. Dagegen ist zu fragen: Ein Gott, der einen Prozess in Gang setzt, dessen Ergebnisse er kennt, trägt nicht weniger Verantwortung als ein Gott, der unmittelbar formt. Das Leidproblem ist ein Thema für sich (siehe Theodizee) und wird mit Schrift, Vätern und Philosophie beantwortet – nicht mit Biochemie.`,
+      voices: [
+        {
+          person: 'athanasius',
+          role: 'als Kirchenvater',
+          text: `Athanasius lehrt, dass der Mensch durch die Abwendung von Gott in den Zustand der Verderbnis zurückfiel, aus dem er erschaffen wurde, und dass der Logos Mensch wurde, um die Schöpfung von innen her zu erneuern. Verderbnis ist für ihn keine Schöpfungsabsicht, sondern eine Störung, die Christus heilt.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '4–5', year: 'ca. 318', status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Charles Darwin', work: 'Brief an Asa Gray', ref: '22. Mai 1860', year: '1860', status: 'paraphrase', quote: `Darwin konnte sich nicht überzeugen, dass ein gütiger und allmächtiger Gott die Schlupfwespen absichtlich so erschaffen habe, dass sie sich im lebenden Körper von Raupen ernähren.` },
+      ],
+      followUps: [
+        {
+          id: 'tierleid-vor-dem-menschen',
+          objection: `Der Sündenfall erklärt nichts: Raubtiere, Parasiten und Krankheiten gab es schon Hunderte Millionen Jahre vor dem ersten Menschen. Die Fossilien zeigen Tumore bei Dinosauriern.`,
+          objectionBy: 'Jerry Coyne',
+          answer: `Das ist für Christen, die ein hohes Erdalter annehmen, eine echte Frage, und ich verschweige sie nicht. Die koptische Kirche hat über das Erdalter kein Dogma. Christliche Denker bieten verschiedene Antworten: Dembski schlägt vor, dass die Folgen des Falls auch rückwirkend die Schöpfung prägen, weil Gott den Fall vorhersah; C. S. Lewis erwog einen früheren Fall geistiger Mächte, der die Natur verdorben hat; andere verstehen die Natur mit Irenäus als gute, aber noch nicht vollendete Schöpfung. Keine dieser Antworten ist Dogma – aber sie zeigen, dass die Frage nicht unbeantwortbar ist.`,
+          voices: [
+            {
+              person: 'dembski',
+              role: 'als Philosoph und Mathematiker',
+              text: `Dembski argumentiert, dass Gott, der außerhalb der Zeit steht, die Folgen des menschlichen Falls bereits vorwegnehmend in die Schöpfung hineinwirken lassen konnte – so wie die Erlösung durch Christus auch rückwirkend für die Gerechten des Alten Bundes gilt.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'William A. Dembski', work: 'The End of Christianity: Finding a Good God in an Evil World', year: '2009', status: 'paraphrase' },
+              ],
+            },
+            {
+              person: 'cs-lewis',
+              role: 'als Apologet',
+              text: `Lewis widmet dem Tierleid ein eigenes Kapitel. Er erwägt, dass eine geschaffene geistige Macht schon vor dem Menschen gefallen sein und die Tierwelt verdorben haben könnte, und betont zugleich, dass wir über das Innenleben der Tiere wenig wissen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Problem of Pain (Über den Schmerz)', ref: 'Kap. 9', year: '1940', status: 'paraphrase' },
+              ],
+            },
+          ],
+          questionsBack: [
+            `Wenn Leid ein Argument gegen Gott ist – woher nimmst du in einer rein naturalistischen Welt den Maßstab, dass es „böse" ist?`,
+          ],
         },
       ],
     },

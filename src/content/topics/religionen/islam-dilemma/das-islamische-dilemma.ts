@@ -407,7 +407,7 @@ const claim: Claim = {
                   detail: `Beide Berichte zeigen dasselbe: Für Mohammed war die Tora, die die Juden in Medina besaßen, Grundlage eines göttlichen Urteils. Der Vorwurf in Bukhari 3635 lautet *Verbergen* (die Hand auf den Vers legen), nicht *Verändern* – der Text enthielt Gottes Urteil.`,
                   sources: [
                     { kind: 'hadith', work: 'Sunan Abi Dawud', ref: '4449', quote: `Er nahm das Kissen unter sich weg, legte die Tora darauf und sagte: „Ich glaube an dich und an Den, der dich herabgesandt hat."`, status: 'paraphrase', url: 'https://sunnah.com/abudawud:4449', note: 'Von al-Albani als hasan eingestuft.' },
-                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3635', quote: `Juden kommen wegen eines Ehebruchs zu Mohammed; die Tora wird gebracht, einer legt die Hand auf den Steinigungsvers; Abdallah ibn Salam lässt ihn die Hand heben, und der Vers ist sichtbar.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3635' },
+                    { kind: 'hadith', work: 'Sahih al-Bukhari', ref: '3635', quote: `Juden kommen wegen eines Ehebruchs zu Mohammed; die Tora wird gebracht, einer legt die Hand auf den Steinigungsvers; Abdallah ibn Salam lässt ihn die Hand heben, und der Vers ist sichtbar.`, status: 'paraphrase', url: 'https://sunnah.com/bukhari:3635', note: 'Derselbe Bericht (Abdallah ibn Umar) auch in Sahih al-Bukhari 4556 und 6819.' },
                   ],
                   followUps: [
                     {
@@ -428,7 +428,7 @@ const claim: Claim = {
                           answer: `Dieser Bericht (Musnad Ahmad, in seiner Echtheit umstritten) zeigt höchstens, dass Mohammed nicht wollte, dass seine Anhänger *neben* ihm andere Quellen der Rechtleitung suchten. Er sagt nicht, das Blatt sei gefälscht – im Gegenteil, er beruft sich auf Mose als echten Propheten. Und der sichere Befund bleibt der Koran: 5:43, 5:47 und 10:94.`,
                           detail: `Wichtig für dich: Wenn ein Muslim mit einzelnen Hadithen kommt, führe das Gespräch zum Koran zurück. Ein umstrittener Hadith kann klare Koranverse nicht aufheben – das würde jeder sunnitische Gelehrte bestätigen.`,
                           sources: [
-                            { kind: 'hadith', work: 'Musnad Ahmad (Jabir ibn Abdallah)', quote: `Umar bringt ein Schriftstück der Leute der Schrift; der Prophet wird zornig und sagt sinngemäß: Wenn Mose lebte, bliebe ihm nichts, als mir zu folgen.`, status: 'unverified', note: 'Nummer und Einstufung je nach Ausgabe unterschiedlich; vor Verwendung prüfen.' },
+                            { kind: 'hadith', work: 'Musnad Ahmad (Musnad Jabir ibn Abdallah)', ref: '15156 (Zählung der Risala-Ausgabe; in älterer Zählung 14736)', quote: `Umar bringt ein Schriftstück, das er von Leuten der Schrift erhalten hat; der Prophet wird zornig und sagt sinngemäß: Wenn Mose lebte, bliebe ihm nichts, als mir zu folgen.`, status: 'paraphrase', note: 'Kette über Mujalid ibn Sa\'id (gilt als schwach) von asch-Scha\'bi von Jabir; al-Albani stuft den Bericht wegen weiterer Überlieferungswege als hasan ein (Irwa\' al-Ghalil 6/34). Parallelen u. a. bei ad-Darimi 449. Echtheit also umstritten, Inhalt aber gut bezeugt.' },
                           ],
                         },
                       ],

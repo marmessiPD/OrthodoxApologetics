@@ -202,6 +202,90 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'zeitloser-geist-inkohaerent',
+      objection: `„Ein ungeschaffener, zeitloser Geist ist inkohärent. Denken, Abwägen, Wollen und Handeln sind Vorgänge – sie brauchen Zeit. Ein Geist ohne Zeit könnte nichts beschließen und nichts erschaffen. Dein ‚Unverursachtes' ist ein Wort ohne Inhalt."`,
+      objectionBy: "Sean Carroll / Alex O'Connor",
+      answer: `Menschliches Denken ist schrittweise, weil wir endlich sind: Wir müssen Schlüsse nacheinander ziehen und Wissen erst erwerben. Ein Geist, der alles Wahre auf einmal erfasst, muss nichts erschließen; und ein Wille, der nicht zögert, muss nicht abwägen. Zeitlosigkeit heißt nicht Starre, sondern Fülle: Boethius definierte Ewigkeit als den „ganzen und vollkommenen Besitz grenzenlosen Lebens zugleich". Und manche christliche Philosophen – etwa Craig – halten Gott ohnehin nur „ohne die Schöpfung" für zeitlos und seit der Schöpfung für zeitlich.`,
+      detail: `Es gibt zwei ernsthafte christliche Modelle: (1) die klassische Lehre (Boethius, Augustinus, Thomas): Gott ist schlechthin zeitlos, sein eines ewiges Wollen hat zeitliche Wirkungen; (2) das Modell von William Lane Craig: Gott ist zeitlos ohne die Schöpfung und tritt mit dem ersten Augenblick der Schöpfung in die Zeit ein. Beide zeigen, dass der Vorwurf der Inkohärenz nicht zwingend ist. Wer behauptet, Denken *müsse* zeitlich sein, verallgemeinert von endlichen Gehirnen auf jeden möglichen Geist – das ist genau die Frage, um die es geht.`,
+      voices: [
+        {
+          person: 'boethius',
+          role: 'als Philosoph der Ewigkeit',
+          text: `Boethius unterscheidet zwischen endloser Dauer in der Zeit und echter Ewigkeit: Diese ist das Besitzen des ganzen Lebens in einem einzigen Jetzt, ohne Vergangenheit, die verloren ist, und ohne Zukunft, die noch aussteht. Ein solcher Geist ist nicht weniger lebendig als ein zeitlicher, sondern vollkommener lebendig.`,
+          sources: [{ kind: 'kirchenvater', author: 'Boethius', work: 'Der Trost der Philosophie (De consolatione philosophiae)', ref: 'V, Prosa 6', year: 'ca. 524', status: 'paraphrase', quote: 'Ewigkeit ist der ganze und vollkommene Besitz grenzenlosen Lebens zugleich.', original: 'aeternitas igitur est interminabilis vitae tota simul et perfecta possessio' }],
+        },
+        {
+          person: 'craig',
+          role: 'als Religionsphilosoph der Zeit',
+          text: `Craig hält einen statischen, zeitlosen Zustand Gottes ohne Schöpfung für kohärent und vertritt, dass Gott mit dem freien Schöpfungsakt in Beziehung zur Zeit tritt. So vermeidet er sowohl den Vorwurf eines starren Gottes als auch den eines Gottes, der eine unendliche Zeit vor der Schöpfung „gewartet" hätte.`,
+          sources: [{ kind: 'fachliteratur', author: 'William Lane Craig', work: 'Time and Eternity: Exploring God\'s Relationship to Time', year: '2001', status: 'paraphrase' }],
+        },
+      ],
+      questionsBack: [
+        `Woher weißt du, dass *jeder* mögliche Geist so funktionieren muss wie ein menschliches Gehirn?`,
+        `Ist ein vollkommen wissender Geist, der nichts erst erschließen muss, logisch widersprüchlich – oder nur unvorstellbar für uns?`,
+      ],
+      followUps: [
+        {
+          id: 'ursache-vor-wirkung',
+          objection: `„Ursachen gehen ihren Wirkungen zeitlich voraus. Eine Ursache ‚ohne Zeit' ist ein Widerspruch in sich – so funktioniert Kausalität einfach nicht."`,
+          objectionBy: 'Adolf Grünbaum / Sean Carroll',
+          answer: `Nicht jede Ursache geht ihrer Wirkung zeitlich voraus. Schon Kant nannte das Beispiel einer Kugel, die auf einem Kissen liegt und gleichzeitig eine Mulde verursacht. Eine Ursache muss ihrer Wirkung nicht zeitlich, sondern *seinsmäßig* vorausgehen: Die Wirkung hängt von ihr ab, nicht umgekehrt. Der erste Augenblick der Zeit kann von einer Ursache abhängen, die nicht selbst in einer früheren Zeit liegt.`,
+          detail: `Gleichzeitige Verursachung ist in der Philosophie gut bekannt (Kant, *Kritik der reinen Vernunft*, Zweite Analogie; Thomas von Aquin zur Erhaltung der Welt). Zudem ist das Argument auch physikalisch heikel: Am Anfang der Zeit gibt es kein „Vorher", in dem eine natürliche Ursache stattfinden könnte. Wer „Ursachen müssen vorausgehen" absolut setzt, schließt damit jede Erklärung des Anfangs aus – auch jede naturalistische.`,
+          followUps: [
+            {
+              id: 'warum-nicht-frueher',
+              objection: `„Dann erklär mir: Wenn Gott ewig ist, warum hat er das Universum gerade vor 13,8 Milliarden Jahren erschaffen und nicht schon früher? Was hat er die ganze Ewigkeit davor getan?"`,
+              objectionBy: "Alex O'Connor",
+              answer: `Die Frage setzt eine Zeit *vor* der Zeit voraus, in der Gott gewartet hätte – die gibt es nicht. Schon Augustinus antwortete auf genau diese Frage: Wo keine Zeit war, gab es auch kein „damals". Es gibt also keinen früheren Zeitpunkt, den Gott hätte wählen können; „13,8 Milliarden Jahre" misst nur den Abstand vom Anfang bis heute.`,
+              detail: `Augustinus behandelt den Einwand „Was tat Gott, bevor er Himmel und Erde schuf?" ausdrücklich und lehnt die spöttische Antwort ab, Gott habe für Neugierige die Hölle vorbereitet. Seine eigentliche Antwort: Gott hat die Zeit selbst mit der Welt geschaffen, darum gab es kein „Vorher". Auch Leibniz verwendete dieses Argument gegen Clarke: Eine leere Zeit vor der Welt, in der alle Augenblicke gleich wären, ist eine Fiktion.`,
+              voices: [
+                {
+                  person: 'augustinus',
+                  role: 'als Philosoph der Zeit',
+                  text: `Augustinus erkannte, dass die Frage nach dem „Vorher" der Schöpfung einen Denkfehler enthält: Sie stellt sich Gott als jemanden vor, der in einer schon laufenden Zeit wartet. Gott ist aber Schöpfer auch der Zeit; seine Ewigkeit liegt nicht vor den Zeiten, sondern über ihnen.`,
+                  sources: [{ kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Bekenntnisse (Confessiones)', ref: 'XI,12,14–13,16', year: 'ca. 397–401', status: 'paraphrase', quote: 'Es gab kein „damals", wo es keine Zeit gab; Gott ist der Schöpfer aller Zeiten.' }],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'ewige-ursache-ewige-wirkung',
+                  objection: `„Dann bleibt das Problem trotzdem: Wenn Gottes Wille zu erschaffen ewig und unveränderlich ist, müsste auch seine Wirkung ewig sein. Eine ewige, hinreichende Ursache bringt eine ewige Welt hervor – genau das sagten Aristoteles und Proklos."`,
+                  objectionBy: 'Graham Oppy',
+                  answer: `Das gilt für mechanische Ursachen: Ist die Bedingung erfüllt, folgt die Wirkung automatisch. Ein freier Wille aber kann von Ewigkeit her wollen, dass eine Welt *mit einem Anfang* existiert. Darum schließt die Kombination „zeitlose Ursache, zeitliche Wirkung" gerade auf eine *personale* Ursache. Dieses Argument führte schon der alexandrinische Christ Johannes Philoponos im 6. Jahrhundert gegen Proklos.`,
+                  detail: `Philoponos verfasste 529 seine Schrift *Gegen Proklos über die Ewigkeit der Welt* und argumentierte, dass eine Welt mit unendlicher Vergangenheit unmöglich sei und dass der ewige Schöpfer frei eine Welt mit Anfang hervorbringe. Später griffen al-Ghazali und Bonaventura diese Argumente auf; Craig hat sie im Kalam-Argument erneuert. Ein ewiger Wille, der *eine Welt mit Anfang* will, ist keine Veränderung in Gott – das, was er will, ist von Ewigkeit her dasselbe.`,
+                  voices: [
+                    {
+                      person: 'johannes-philoponos',
+                      role: 'als alexandrinischer Philosoph gegen die Ewigkeit der Welt',
+                      text: `Philoponos, Schüler des Ammonios in Alexandrien, widersprach den Neuplatonikern Proklos und Aristoteles-Kommentatoren: Die Welt sei nicht ewig, sondern habe einen Anfang, weil eine tatsächlich unendliche Reihe vergangener Ereignisse nicht durchlaufen werden könne. Der Schöpfer bringe die Welt frei hervor, nicht wie die Sonne ihr Licht mit Naturnotwendigkeit.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Johannes Philoponos', work: 'De aeternitate mundi contra Proclum', year: '529', status: 'paraphrase', quote: 'Widerlegung der achtzehn Argumente des Proklos für die Ewigkeit der Welt.' }],
+                    },
+                  ],
+                  questionsBack: [`Kann ein freier Wille, der unveränderlich ist, nicht von Ewigkeit her etwas wollen, das einen Anfang hat?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'notwendigkeit-definitionstrick',
+          objection: `„‚Gott existiert notwendig' ist ein Definitionstrick. Man kann nichts in die Existenz hineindefinieren. Ich kann auch ein ‚notwendig existierendes Einhorn' definieren."`,
+          objectionBy: 'Graham Oppy',
+          answer: `Richtig – aus einer Definition folgt keine Existenz, und das behauptet das Argument hier auch nicht. Die Notwendigkeit wird nicht vorausgesetzt, sondern *erschlossen*: Die Welt besteht aus kontingenten Dingen, die eine Erklärung brauchen; die Erklärung kann nicht wieder kontingent sein; also gibt es ein notwendiges Sein. Ein „notwendiges Einhorn" scheitert, weil ein Einhorn körperlich, begrenzt und veränderlich ist – also gerade die Merkmale des Kontingenten trägt.`,
+          detail: `Man muss das kosmologische vom ontologischen Argument unterscheiden. Das ontologische Argument schließt aus dem Begriff Gottes auf seine Existenz (siehe „Das ontologische Argument ist ein Wortspiel"); das Kontingenzargument schließt aus der Existenz der Welt auf einen notwendigen Grund und fragt dann, welche Eigenschaften dieser Grund haben muss. Feser zeigt in *Five Proofs*, wie aus dem Begriff eines reinen, unzusammengesetzten Seins Einheit, Unveränderlichkeit, Ewigkeit und Geistigkeit folgen.`,
+          voices: [
+            {
+              person: 'feser',
+              role: 'als thomistischer Metaphysiker',
+              text: `Feser betont, dass die klassischen Argumente nicht mit dem Begriff Gottes beginnen, sondern mit alltäglichen Tatsachen – Veränderung, Zusammensetzung, Kontingenz – und erst am Ende auf ein Sein schließen, dessen Wesen sein Sein ist. Ein körperliches, begrenztes Ding kann dieses Sein nicht sein, weil es aus Teilen zusammengesetzt ist und daher selbst erklärt werden muss.`,
+              sources: [{ kind: 'fachliteratur', author: 'Edward Feser', work: 'Five Proofs of the Existence of God', year: '2017', status: 'paraphrase' }],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Glaubst du, dass irgendetwas ewig existiert – oder kam alles aus dem absoluten Nichts?`,

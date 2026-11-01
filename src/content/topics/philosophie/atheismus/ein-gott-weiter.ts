@@ -146,11 +146,107 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'jahwe-entwicklung-goetterwelt',
+      objection: `„Die Religionsgeschichte zeigt doch, woher dein Gott kommt: Jahwe war ursprünglich ein Gott unter vielen im kanaanäischen Pantheon, neben El, Baal und Aschera. Der strenge Monotheismus entstand erst spät, etwa im Exil. Dein Gott ist schlicht der Sieger eines Ausscheidungsturniers der Götter."`,
+      objectionBy: "Alex O'Connor (unter Berufung auf Mark S. Smith / Thomas Römer)",
+      answer: `Dass sich das *Verständnis* Gottes in Israel entwickelt hat, bestreite ich nicht – die Bibel verschweigt den Götzendienst im Volk nicht, sie bekämpft ihn durch die Propheten. Aber wie eine Erkenntnis entstanden ist, entscheidet nicht, ob sie wahr ist: Auch die Astronomie hat sich aus der Sterndeutung entwickelt. Und mein Argument für Gott stützt sich nicht auf die Religionsgeschichte Kanaans, sondern auf Gründe, die du selbst prüfen kannst: die Existenz der Welt, ihre Ordnung und die Auferstehung Jesu.`,
+      detail: `Die Forschung (u. a. Mark S. Smith, *The Early History of God*; Thomas Römer, *L'invention de Dieu*) rekonstruiert eine Entwicklung von der Verehrung Jahwes neben anderen Gottheiten zum ausdrücklichen Monotheismus. Datierungen und Details sind stark umstritten. Für das Gespräch entscheidend:
+- **Genetischer Fehlschluss:** Die Herkunft einer Idee widerlegt sie nicht.
+- **Die Bibel als Zeugin gegen den Synkretismus:** Die Texte, aus denen man die frühe Vielgötterei erschließt, sind gerade die prophetischen *Anklagen* dagegen.
+- **Christlicher Ansatz:** Die Kirche versteht Offenbarung als schrittweise Erziehung (Hebr 1,1: „vielfältig und auf vielerlei Weise"), die in Christus ihr Ziel findet.`,
+      sources: [
+        { kind: 'fachliteratur', author: 'Mark S. Smith', work: 'The Early History of God: Yahweh and the Other Deities in Ancient Israel', year: '2. Aufl. 2002', status: 'paraphrase' },
+        { kind: 'fachliteratur', author: 'Thomas Römer', work: 'L\'invention de Dieu (dt. Die Erfindung Gottes, 2018)', year: '2014', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Hebräer', ref: '1,1–2', status: 'paraphrase', quote: 'Nachdem Gott vorzeiten vielfach und auf vielerlei Weise zu den Vätern geredet hat durch die Propheten, hat er am letzten in diesen Tagen zu uns geredet durch den Sohn.' },
+      ],
+      questionsBack: [`Wird die Astronomie dadurch falsch, dass sie aus der Astrologie hervorgegangen ist?`],
+      followUps: [
+        {
+          id: 'philosophengott-griechischer-import',
+          objection: `„Dann ist dein ‚zeitloser Grund allen Seins' eben ein späterer Import aus der griechischen Philosophie. Athen wurde auf Jerusalem gepfropft. Der Gott der Bibel ist ein Stammesgott, kein metaphysisches Prinzip."`,
+          objectionBy: "Alex O'Connor",
+          answer: `Die Kernaussagen stehen in der hebräischen Bibel selbst, lange vor jedem griechischen Einfluss auf Israel: Gott schafft Himmel und Erde durch sein Wort (Gen 1), er ist „von Ewigkeit zu Ewigkeit" (Ps 90,2), er spannt den Himmel „allein" aus (Jes 44,24), außer ihm ist kein Gott (Jes 45,5). Die Väter haben griechische Begriffe benutzt, um diesen Glauben präzise zu sagen – nicht, um ihn zu erfinden.`,
+          detail: `Clemens von Alexandrien sah die griechische Philosophie als „Erzieher" der Griechen auf Christus hin, so wie das Gesetz für die Hebräer – also als Vorbereitung, nicht als Quelle. Die alexandrinische Schule wusste genau zu unterscheiden, wo Platon recht hatte (ein einziger, unkörperlicher Urgrund) und wo nicht (ewige Materie, Seelenwanderung). Dass ein Gedanke in zwei Kulturen vorkommt, spricht eher für ihn als gegen ihn.`,
+          voices: [
+            {
+              person: 'clemens-alexandrien',
+              role: 'als Lehrer der Katechetenschule von Alexandrien',
+              text: `Clemens deutet die Philosophie der Griechen als Gabe der Vorsehung, die – wie das Gesetz bei den Juden – auf Christus hinführen sollte. Sie hat Wahres über den einen, unkörperlichen Gott erkannt, aber nur bruchstückhaft; die volle Wahrheit kommt durch den Logos, der in Christus Mensch wurde.`,
+              sources: [{ kind: 'kirchenvater', author: 'Clemens von Alexandrien', work: 'Teppiche (Stromateis)', ref: 'I,5,28', year: 'um 200', status: 'paraphrase', quote: 'Die Philosophie war für die Griechen ein Erzieher auf Christus hin, wie das Gesetz für die Hebräer.' }],
+            },
+          ],
+          sources: [
+            { kind: 'bibel', work: 'Psalm', ref: '90,2', status: 'paraphrase', quote: 'Ehe denn die Berge wurden und die Erde und die Welt geschaffen wurden, bist du, Gott, von Ewigkeit zu Ewigkeit.' },
+            { kind: 'bibel', work: 'Jesaja', ref: '44,24', status: 'paraphrase', quote: 'Ich bin der HERR, der alles tut, der den Himmel ausbreitet allein und die Erde weit macht ohne Gehilfen.' },
+          ],
+          followUps: [
+            {
+              id: 'eifersuechtiger-stammesgott',
+              objection: `„Aber schau dir an, wie dieser Gott im Alten Testament auftritt: eifersüchtig, zornig, parteiisch für ein Volk. ‚Ich bin ein eifersüchtiger Gott.' Das ist Zeus mit besserem Marketing."`,
+              objectionBy: 'Richard Dawkins (The God Delusion, Kap. 2)',
+              answer: `Die „Eifersucht" Gottes ist Bundessprache aus dem Bild der Ehe – Hosea und Jeremia verwenden es ausdrücklich: Gott liebt sein Volk wie ein Bräutigam und will es nicht mit Götzen teilen. Das ist nicht die Laune eines Olympiers, der auf andere Götter neidisch ist, sondern der Anspruch, dass der Mensch nicht Geschöpfe anbetet. Und die Erwählung Israels war von Anfang an auf alle Völker gerichtet: „In dir sollen gesegnet werden alle Geschlechter auf Erden" (Gen 12,3).`,
+              detail: `Für die schweren Texte des Alten Testaments (Landnahme, Gerichtsworte) siehe „Der Gott des Alten Testaments ist ein Monster". Hier genügt: Der Vergleich mit Zeus trifft nur, wenn man die menschlichen Bilder (Zorn, Eifersucht, Reue) wörtlich als Gefühlsschwankungen eines endlichen Wesens liest. Genau das hat die Kirche nie getan.`,
+              followUps: [
+                {
+                  id: 'metapher-nach-belieben',
+                  objection: `„Praktisch: Immer wenn ein Text peinlich ist, wird er zur Metapher. So kannst du jede Stelle umdeuten – eine Hermeneutik, die sich nie irren kann."`,
+                  objectionBy: "Alex O'Connor",
+                  answer: `Die Bibel liefert das Kriterium selbst: „Gott ist nicht ein Mensch, dass er lüge, noch ein Menschenkind, dass ihn etwas gereue" (Num 23,19), und: „Ich bin Gott und nicht ein Mensch" (Hos 11,9). Wenn derselbe Text Gott „Reue" zuschreibt und zugleich sagt, dass er nicht bereut wie ein Mensch, zwingt er selbst zur Unterscheidung von Bild und Sache. Das ist keine nachträgliche Ausrede, sondern alte, geregelte Auslegung: Schon Origenes legte Regeln dafür fest, wann ein Text wörtlich und wann geistlich zu lesen ist.`,
+                  detail: `Die alexandrinische Exegese liest die Schrift wörtlich **und** geistlich (vgl. Origenes, *De principiis* IV). Bildhafte Rede über Gott (Hand, Auge, Zorn) wird nicht willkürlich umgedeutet, sondern an dem gemessen, was die Schrift ausdrücklich über Gottes Wesen sagt: dass er Geist ist (Joh 4,24), unveränderlich (Mal 3,6; Jak 1,17) und Liebe (1 Joh 4,8). Zugeständnis: Nicht jede Auslegungsfrage ist damit gelöst; aber der Vorwurf der Beliebigkeit trifft eine Methode, die feste Kriterien hat, nicht.`,
+                  voices: [
+                    {
+                      person: 'origenes',
+                      role: 'als alexandrinischer Exeget (mit Vorbehalt)',
+                      text: `Origenes zeigt, dass schon in der Schrift selbst Hinweise liegen, wann ein Text nicht wörtlich zu verstehen ist – etwa wenn eine wörtliche Lesart Gott menschliche Schwächen zuschriebe, die die Schrift an anderer Stelle ausschließt. Für ihn ist die Unterscheidung von Buchstabe und Geist kein Ausweichen, sondern Treue zum Ganzen der Offenbarung.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Origenes', work: 'Über die Grundlehren (De principiis)', ref: 'IV,2–3', year: 'um 220–230', status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: '4. Mose', ref: '23,19', status: 'paraphrase', quote: 'Gott ist nicht ein Mensch, dass er lüge, noch ein Menschenkind, dass ihn etwas gereue.' },
+                    { kind: 'bibel', work: 'Hosea', ref: '11,9', status: 'paraphrase', quote: 'Denn ich bin Gott und nicht ein Mensch.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'hadd-goetter-ueberall',
+          objection: `„Die Kognitionswissenschaft erklärt, warum Menschen überall Götter sehen: Wir haben einen überempfindlichen Agenten-Detektor. Lieber einmal zu oft ‚Da ist jemand!' rufen als vom Löwen gefressen werden. Zeus und Jahwe haben dieselbe Quelle – ein Fehlalarm des Gehirns."`,
+          objectionBy: 'Daniel Dennett / Richard Dawkins',
+          answer: `Die Kognitionswissenschaft erklärt, warum der Glaube an Gott Menschen *leichtfällt* – nicht, ob er wahr ist. Einer ihrer führenden Forscher, Justin Barrett, ist selbst Christ und sieht darin keinen Widerspruch: Wenn es einen Schöpfer gibt, wäre es nicht überraschend, dass er uns empfänglich für ihn gemacht hat. Paulus sagt genau das: Gott ist den Menschen „offenbar" durch seine Werke (Röm 1,19–20).`,
+          detail: `Die Kognitive Religionswissenschaft (Pascal Boyer, Justin Barrett u. a.) beschreibt natürliche Neigungen: Agenten wahrnehmen, Zwecke vermuten, an ein Weiterleben glauben. Daraus folgt aber kein Urteil über die Wahrheit – genauso wenig, wie die Evolution unseres Zahlensinns die Mathematik widerlegt. Tertullian sprach vom „Zeugnis der von Natur aus christlichen Seele": Menschen rufen in der Not spontan „Gott!".`,
+          voices: [
+            {
+              person: 'justin-barrett',
+              role: 'als Kognitionswissenschaftler der Religion',
+              text: `Barrett hat gezeigt, dass schon Kinder intuitiv dazu neigen, die Welt als gemacht und zweckvoll zu deuten. Er betont, dass eine natürliche Erklärung dieser Neigung die Frage nach der Wahrheit des Glaubens offenlässt; eine von Gott gewollte Empfänglichkeit für ihn ist mit den Befunden ebenso vereinbar.`,
+              sources: [{ kind: 'fachliteratur', author: 'Justin L. Barrett', work: 'Why Would Anyone Believe in God?', year: '2004', status: 'paraphrase' }],
+            },
+          ],
+          sources: [
+            { kind: 'kirchenvater', author: 'Tertullian', work: 'Apologeticum', ref: '17,6', year: '197', status: 'paraphrase', quote: 'O Zeugnis der von Natur aus christlichen Seele!', original: 'O testimonium animae naturaliter christianae!' },
+          ],
+          followUps: [
+            {
+              id: 'fehlalarm-unzuverlaessig',
+              objection: `„Aber ein Mechanismus, der ständig Fehlalarme produziert, ist gerade *nicht* zuverlässig. Wenn dein Gottesglaube aus diesem Mechanismus stammt, hast du keinen Grund, ihm zu trauen."`,
+              objectionBy: 'Daniel Dennett',
+              answer: `Der Agenten-Detektor liefert schnelle Vermutungen über Wesen in der Umgebung – das Rascheln im Gebüsch. Der Glaube an einen zeitlosen Schöpfer des Universums entsteht nicht durch Rascheln, sondern durch Nachdenken, Argumente und geschichtliche Zeugnisse. Außerdem verwerfen wir unsere Wahrnehmung von Personen nicht, nur weil sie manchmal irrt. Und wer evolutionäre Herkunft als Grund des Misstrauens nimmt, muss erklären, warum dann seine eigene Vernunft – ebenfalls Produkt der Evolution – vertrauenswürdig sein soll.`,
+              detail: `Hier berührt das Gespräch Plantingas evolutionäres Argument gegen den Naturalismus: Wenn unsere kognitiven Fähigkeiten nur auf Überleben, nicht auf Wahrheit selektiert wären, hätte der Naturalist ein Problem mit allen seinen Überzeugungen – auch mit dem Naturalismus. Siehe „Unsere Vernunft ist durch Evolution entstanden und zuverlässig".`,
+              questionsBack: [`Wenn evolutionäre Herkunft eine Überzeugung entwertet: Warum gilt das nicht für deine eigene Vernunft?`],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum lehnst du Zeus ab – und treffen diese Gründe wirklich auch auf den Schöpfer des Universums zu?`,
     `Ist ein Gott, der Eltern hat und in einem Palast auf dem Olymp wohnt, dieselbe Art von Wesen wie der Grund aller Existenz?`,
     `Was bleibt übrig, wenn man alle mythischen Götter streicht: nichts – oder die Frage nach dem Grund von allem?`,
+    `Wenn die Herkunft einer Überzeugung über ihre Wahrheit entscheidet – was folgt dann für eine Vernunft, die selbst aus der Evolution stammt?`,
   ],
   avoid: [
     `„Zeus ist erfunden, mein Gott ist echt" – ohne Begründung klingt das wie Sonderbehandlung. Erkläre den Kategorienunterschied.`,

@@ -129,6 +129,36 @@ Tour betont zudem, dass selbst die Herstellung einfacher Stoffwechselsäuren wie
               objection: `Modelle sind der erste Schritt. Experimente mit Mineralien liefern bereits Formiat, Acetat und Pyruvat aus H2 und CO2.`,
               objectionBy: 'William Martin',
               answer: `Das sind echte Befunde – die ersten Kohlenstoffbausteine des Stoffwechsels. Aber zwischen Pyruvat und einer Zelle liegen Enzyme, Membranen, genetische Information und ein Code. Tour würde sagen: Man hat den ersten Ziegel und spricht schon über die Kathedrale.`,
+              followUps: [
+                {
+                  id: 'eisen-netzwerke-moran',
+                  objection: `Es ist mehr als ein Ziegel. Eisen und Mineralien treiben ohne Enzyme ein ganzes Reaktionsnetz an, das dem Kern des Zitronensäurezyklus ähnelt; an Greigit und Awaruit entstehen aus H2 und CO2 Formiat, Acetat und Pyruvat in nennenswerten Mengen. Die Grundzüge des Stoffwechsels sind in der Chemie selbst angelegt.`,
+                  objectionBy: 'William Martin',
+                  answer: `Diese Arbeiten aus den Gruppen Moran und Martin sind beeindruckend, und ich nehme den Befund ernst: Einige Kernmoleküle des Stoffwechsels sind chemisch „bevorzugt". Aber die Netzwerke starten mit vom Chemiker gewählten Ausgangsstoffen wie Glyoxylat und Pyruvat in hoher Konzentration, sie bilden keinen sich selbst erhaltenden Zyklus, und sie erzeugen weder Information noch Vererbung. Und dass die Chemie so auffällig auf das Leben zugeschnitten ist, ist für einen Schöpfungsglauben eher ein Argument als ein Problem.`,
+                  detail: `**Die Befunde:** Muchowska, Varma und Moran (Nature 2019) zeigten, dass Fe²⁺ in Wasser aus Glyoxylat und Pyruvat ein Netzwerk von Reaktionen antreibt, das viele Zwischenprodukte des Zitronensäurezyklus enthält. Preiner und Kollegen (Nature Ecology & Evolution 2020) erhielten aus H2 und CO2 an Mineralien wie Greigit, Magnetit und Awaruit Formiat, Acetat und Pyruvat unter quellenähnlichen Bedingungen.
+
+**Die offene Lücke:** Leslie Orgel, einer der Pioniere des Feldes, warnte 2008, ein sich selbst erhaltender Stoffwechselzyklus verlange eine Reihe hochselektiver Katalysatoren, die genau die richtigen Reaktionen beschleunigen und alle Nebenreaktionen unterdrücken; ihre zufällige Verfügbarkeit grenze an ein Wunder. Bis heute wurde kein solcher geschlossener, autokatalytischer Zyklus unter präbiotischen Bedingungen gezeigt.
+
+**Der Perspektivwechsel:** Marcos Eberlin deutet gerade solche „Vorlieben" der Chemie für lebenswichtige Moleküle als Hinweis auf Voraussicht in der Beschaffenheit der Materie. Du musst nicht wählen zwischen „Chemie" und „Gott" – die Frage ist, warum die Chemie so beschaffen ist und woher die Information kommt, die über einfache Säuren hinausgeht.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Kamila B. Muchowska, Sreejith J. Varma, Joseph Moran', work: '„Synthesis and breakdown of universal metabolic precursors promoted by iron", Nature 569, S. 104–107', year: '2019', quote: `Eisen(II) fördert in Wasser ein Reaktionsnetz, das zahlreiche Zwischenprodukte des Zitronensäurezyklus aus Glyoxylat und Pyruvat erzeugt.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Martina Preiner u. a. (Gruppen Joseph Moran und William F. Martin)', work: '„A hydrogen-dependent geochemical analogue of primordial carbon and energy metabolism", Nature Ecology & Evolution 4, S. 534–542', year: '2020', quote: `An Mineralien wie Greigit, Magnetit und Awaruit entstehen aus H2 und CO2 Formiat, Acetat und Pyruvat.`, status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Leslie E. Orgel', work: '„The Implausibility of Metabolic Cycles on the Prebiotic Earth", PLoS Biology 6 (1), e18', year: '2008', quote: `Ein sich selbst erhaltender Zyklus erfordere eine Reihe hochspezifischer Katalysatoren; deren zufällige Verfügbarkeit auf der frühen Erde sei äußerst unwahrscheinlich.`, status: 'paraphrase', note: 'Orgel war kein ID-Vertreter, sondern einer der Begründer der RNA-Welt-Hypothese; sein Artikel erschien postum.' },
+                  ],
+                  voices: [
+                    {
+                      person: 'marcos-eberlin',
+                      role: 'als Chemiker (Massenspektrometrie)',
+                      text: `Eberlin argumentiert in *Foresight*, dass die Chemie des Lebens an vielen Stellen „vorausdenkt": Moleküle und Reaktionen sind so beschaffen, dass sie erst im späteren Gesamtsystem ihren Sinn entfalten. Wenn Mineralien bevorzugt genau die Säuren bilden, die der Stoffwechsel später braucht, ist das für ihn ein weiteres Beispiel für eine auf das Leben hin angelegte Schöpfung.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Marcos Eberlin', work: 'Foresight: How the Chemistry of Life Reveals Planning and Purpose', year: '2019', status: 'paraphrase' }],
+                    },
+                  ],
+                  questionsBack: [
+                    `Welcher dieser Versuche zeigt einen geschlossenen Zyklus, der sich selbst erhält und seine Katalysatoren selbst nachliefert?`,
+                    `Woher stammen Glyoxylat und Pyruvat in der Konzentration, mit der die Netzwerke gestartet wurden?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -159,6 +189,21 @@ Tour betont zudem, dass selbst die Herstellung einfacher Stoffwechselsäuren wie
           id: 'zeigt-die-richtung',
           objection: `Es zeigt immerhin die Richtung.`,
           answer: `Als Hypothese: einverstanden. Aber man darf „wo lebte eine frühe Zelle?" nicht mit „wie entstand Leben?" verwechseln. Die Wärmeliebe könnte auch eine spätere Anpassung sein.`,
+          followUps: [
+            {
+              id: 'luca-sehr-frueh',
+              objection: `Neue Analysen datieren LUCA auf rund 4,2 Milliarden Jahre – nur wenige hundert Millionen Jahre nach der Entstehung der Erde. Das Leben war also da, sobald es konnte. Das spricht für einen natürlichen, fast zwangsläufigen Prozess.`,
+              objectionBy: 'Nick Lane',
+              answer: `Dieselbe Studie beschreibt LUCA als bereits hochkomplexe Zelle mit rund 2600 Proteinen und sogar einem frühen Abwehrsystem gegen Viren. Je früher eine so komplexe Zelle existierte, desto kürzer wird das Zeitfenster für die gesamte präbiotische Chemie davor. Ein früher Beginn ist mit einem Schöpfer genauso vereinbar wie mit einem leichten Naturprozess – nur dem Argument „Wir hatten Milliarden Jahre Zeit" nimmt er die Grundlage.`,
+              detail: `**Die Studie:** Moody und Kollegen (Nature Ecology & Evolution 2024) schätzen das Alter von LUCA mit molekularen Uhren auf etwa 4,2 Milliarden Jahre und rekonstruieren ein Genom von rund 2,5 Millionen Basen mit etwa 2600 Proteinen, einschließlich Hinweisen auf ein CRISPR-ähnliches Abwehrsystem. Die Unsicherheiten solcher Datierungen sind groß, aber die Tendenz der Forschung geht zu einem frühen und komplexen LUCA.
+
+**Warum das wichtig ist:** Zwischen einer abgekühlten Erde mit flüssigem Wasser (ab etwa 4,4 Milliarden Jahren) und einer Zelle mit Ribosomen, Code und Hunderten Enzymen bleibt nach dieser Rechnung wenig Zeit. Wer „genug Zeit" als Erklärung anführt (siehe den Claim „Mit genug Zeit ist alles möglich"), gerät hier in Spannung mit der eigenen Datierung.
+
+**Fair bleiben:** Ein schneller Ursprung *beweist* keinen Schöpfer. Er zeigt nur, dass die Zeit kein Freund des Zufallsarguments ist.`,
+              sources: [{ kind: 'gegner', author: 'Edmund R. R. Moody, Sandra Álvarez-Carretero u. a.', work: '„The nature of the last universal common ancestor and its impact on the early Earth system", Nature Ecology & Evolution 8', year: '2024', quote: `LUCA wird auf etwa 4,2 Milliarden Jahre datiert und als komplexer Organismus mit rund 2600 Proteinen und einem frühen Immunsystem rekonstruiert.`, status: 'paraphrase' }],
+              questionsBack: [`Wie viel Zeit bleibt nach dieser Datierung für den gesamten Weg von einfachen Molekülen bis zu einer Zelle mit Ribosomen und Code?`],
+            },
+          ],
         },
       ],
     },
@@ -173,6 +218,76 @@ Tour betont zudem, dass selbst die Herstellung einfacher Stoffwechselsäuren wie
           id: 'nur-noch-information',
           objection: `Dann bleibt nur noch das Informationsproblem – und das löst die Selektion.`,
           answer: `Selektion braucht Vermehrung mit Vererbung, also schon ein informationstragendes System. Die Frage ist gerade, wie das erste entstand. Siehe die Claims zur RNA-Welt und zur Information in der DNA.`,
+          followUps: [
+            {
+              id: 'stoffwechsel-zuerst-gene-spaeter',
+              objection: `Du denkst „Gene zuerst". Ich denke „Stoffwechsel zuerst": Zuerst gab es sich selbst verstärkende Reaktionsnetze in den Poren, und RNA kam später als Speicher für das, was schon funktionierte. Information ist das Ergebnis, nicht der Anfang.`,
+              objectionBy: 'Nick Lane',
+              answer: `Das ist eine ernsthafte Alternative, aber sie hat ein bekanntes Problem: Reaktionsnetze ohne genetisches Gedächtnis können sich kaum weiterentwickeln. Der Evolutionsbiologe Eörs Szathmáry und Kollegen haben 2010 gezeigt, dass solche Netze wenig vererbbare Variation haben und keine Anpassungen ansammeln. Und selbst wenn sie es könnten, bliebe der entscheidende Schritt offen: der Übergang zu einem Code, in dem eine Abfolge eine andere festlegt.`,
+              detail: `**Vasas, Szathmáry & Santos (PNAS 2010)** untersuchten Modelle „kompositioneller Vererbung", in denen ein Tropfen seine Zusammensetzung an Tochtertropfen weitergibt. Ergebnis: Die Netzwerke konvergieren auf wenige Zustände, Variation wird nicht zuverlässig weitergegeben, und Selektion kann kaum ansetzen. Die Autoren folgern, dass „Stoffwechsel zuerst"-Szenarien deutlich eingeschränkt sind.
+
+**Das Code-Problem:** Selbst ein gut funktionierender Stoffwechsel müsste irgendwann in RNA- oder DNA-Sequenzen „übersetzt" werden. Dafür braucht es Zuordnungsregeln (tRNAs, Synthetasen, Ribosom) – ein Symbol-System. Die Chemie eines Stoffwechselnetzes enthält keine solche Zuordnung.
+
+So wirst du nicht zum Gegner der Forschung: Du zeigst, dass die führenden Hypothesen sich an genau den Stellen gegenseitig in Frage stellen, an denen Information ins Spiel kommt.`,
+              sources: [{ kind: 'wissenschaft', author: 'Vera Vasas, Eörs Szathmáry, Mauro Santos', work: '„Lack of evolvability in self-sustaining autocatalytic networks constraints metabolism-first scenarios for the origin of life", PNAS 107 (4), S. 1470–1475', year: '2010', quote: `Selbsterhaltende autokatalytische Netzwerke zeigen kaum Evolvierbarkeit; das schränkt Szenarien „Stoffwechsel zuerst" ein.`, status: 'paraphrase' }],
+              questionsBack: [`Wie würde ein Reaktionsnetz eine erfolgreiche Variante zuverlässig an die nächste Generation weitergeben – ohne Gene?`],
+              followUps: [
+                {
+                  id: 'kompositionelle-vererbung',
+                  objection: `Auch ohne Gene gibt es Vererbung: Ein Kompartiment, das sich teilt, gibt seine Zusammensetzung an die Tochterkompartimente weiter. Das reicht für den Anfang.`,
+                  objectionBy: 'William Martin',
+                  answer: `Genau dieses Modell haben Szathmáry und Kollegen geprüft – mit dem Ergebnis, dass die Vererbung zu ungenau ist, um Anpassungen anzusammeln. Eine Zusammensetzung „weiterzugeben" ist etwas anderes, als eine Bauanleitung zu kopieren. Und es gibt kein Experiment, in dem ein solches Kompartiment über viele Teilungen hinweg neue Funktionen gewonnen hätte.`,
+                  detail: `Hier lohnt es sich, ruhig auf den Unterschied zwischen **analoger Zusammensetzung** und **digitaler Information** hinzuweisen. Ein Tropfen, der sich teilt, gibt ungefähr die gleiche Mischung weiter – wie eine Suppe, die man auf zwei Teller verteilt. Eine Zelle gibt dagegen eine Sequenz weiter, die präzise festlegt, was gebaut wird. Nur digitale Information erlaubt kumulative Verbesserung über viele Generationen.
+
+Stephen Meyer weist darauf hin, dass gerade dieser Übergang von Chemie zu Code das ist, was in unserer Erfahrung nur Intelligenz leistet. Das ist kein Lückenargument, sondern ein Schluss aus dem, was wir über die Entstehung von Codes wissen.`,
+                  voices: [
+                    {
+                      person: 'stephen-meyer',
+                      role: 'als Wissenschaftsphilosoph',
+                      text: `Meyer unterscheidet zwischen Ordnung, die aus Gesetzmäßigkeiten folgt (wie Kristalle), und spezifizierter Information, die eine bestimmte, nicht durch Chemie erzwungene Abfolge verlangt. Stoffwechselnetze können Ordnung erzeugen; die Entstehung eines Codes, der Sequenzen in Funktionen übersetzt, ist für ihn das eigentliche Rätsel – und die einzige bekannte Ursache dafür ist Intelligenz.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Stephen C. Meyer', work: 'Signature in the Cell', ref: 'Kap. 11–12 (Selbstorganisation, Stoffwechsel-zuerst-Modelle)', year: '2009', status: 'paraphrase' }],
+                    },
+                  ],
+                  sources: [{ kind: 'wissenschaft', author: 'Vera Vasas, Eörs Szathmáry, Mauro Santos', work: '„Lack of evolvability in self-sustaining autocatalytic networks …", PNAS 107 (4)', year: '2010', status: 'paraphrase' }],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'uneinigkeit-ist-gesund',
+      objection: `Dass Forscher über den Ort streiten – Tiefsee, heiße Quellen an Land, UV-beschienene Tümpel –, ist kein Zeichen von Schwäche. So funktioniert Wissenschaft: Mehrere Hypothesen konkurrieren, und die Daten entscheiden.`,
+      objectionBy: 'Bill Nye',
+      answer: `Einverstanden: Wettbewerb von Hypothesen ist gesund. Aber auffällig ist *die Art* des Streits: Jedes Lager hat starke Einwände gegen die anderen – die Tiefsee hat das Wasserproblem, Landtümpel kämpfen mit UV-Zerstörung und fehlenden Gradienten, die Oberflächenchemie braucht wechselnde Spezialbedingungen. Die Argumente *gegen* jede Hypothese sind stark, die Argumente *für* sie bisher schwach. Das spricht nicht für Details, die noch fehlen, sondern für ein ungelöstes Grundproblem.`,
+      detail: `Zeige die Lage so, wie die Forscher selbst sie beschreiben:
+- **Damer und Deamer** halten die Tiefsee für ungeeignet, weil Polymerisation in Meerwasser behindert ist.
+- **Lane und Martin** halten Landtümpel für ungeeignet, weil dort kein natürlicher Protonengradient existiert.
+- **Sutherland** setzt auf UV-Licht und Cyanid-Chemie an der Oberfläche – eine Umgebung, die für die Tiefsee-Hypothese gerade nicht passt.
+
+Ein Laie kann sagen: „Ich nehme jede dieser Gruppen ernst – auch in dem, was sie gegen die anderen sagen."`,
+      sources: [damerDeamer2020, laneMartin2012],
+      questionsBack: [`Welcher Einwand des jeweils anderen Lagers ist deiner Meinung nach falsch – und warum?`],
+      followUps: [
+        {
+          id: 'szenarien-kombinieren',
+          objection: `Dann kombinieren wir eben: Cyanid-Chemie an der Oberfläche liefert die Bausteine, Quellen liefern die Energie, Tümpel die Trocknungsphasen. Die frühe Erde hatte all diese Umgebungen gleichzeitig.`,
+          objectionBy: 'John Sutherland',
+          answer: `Das ist ehrlich gedacht – auch Sutherlands eigene Szenarien sehen Bäche vor, die Stoffe aus verschiedenen Quellen nacheinander zusammenführen. Aber jede Kombination vervielfacht die Logistik: Die Produkte müssen zur richtigen Zeit, in der richtigen Reihenfolge, ausreichend rein und konzentriert von einem Ort zum nächsten gelangen, ohne unterwegs zu zerfallen. Genau das nennt James Tour das Problem des Massentransfers – im Labor erledigt es der Chemiker.`,
+          detail: `Sutherlands Gruppe beschreibt eine „cyanosulfidische Protometabolismus"-Chemie, in der aus Cyanwasserstoff, Schwefelwasserstoff und UV-Licht Vorstufen von Nukleotiden, Aminosäuren und Lipiden entstehen (Patel et al., Nature Chemistry 2015). Das ist eine der eindrucksvollsten Leistungen des Feldes. Die Autoren selbst schlagen ein geologisches Szenario vor, in dem verschiedene Reagenzien nacheinander durch Wasserläufe zusammengeführt werden.
+
+Tour fragt an dieser Stelle konkret: Wer startet und stoppt die Reaktionen, wer entfernt die Nebenprodukte, wer sorgt dafür, dass Reagenz B erst ankommt, wenn Reaktion A abgeschlossen ist? Jede dieser Bedingungen ist für sich plausibel; ihr geordnetes Zusammentreffen ist das, was erklärt werden müsste.`,
+          voices: [
+            {
+              person: 'james-tour',
+              role: 'als synthetischer Chemiker',
+              text: `Tour bezeichnet das Zusammenführen der Zwischenprodukte als einen der am wenigsten beachteten Engpässe: In der Synthese arbeitet man Schritt für Schritt, reinigt nach jedem Schritt und fügt das nächste Reagenz erst zum richtigen Zeitpunkt hinzu. Ein Szenario, das mehrere Umgebungen verbindet, muss erklären, wie diese Choreografie ohne Choreografen zustande kommt.`,
+              sources: [{ kind: 'wissenschaft', author: 'James M. Tour', work: '„Time Out", Inference: International Review of Science 4/4', year: '2019', status: 'paraphrase', quote: `Tour nennt u. a. den Massentransfer der Ausgangsstoffe als ungelöstes Problem.` }],
+            },
+          ],
+          sources: [{ kind: 'gegner', author: 'Bhavesh H. Patel, Claudia Percivalle, Dougal J. Ritson, Colm D. Duffy, John D. Sutherland', work: '„Common origins of RNA, protein and lipid precursors in a cyanosulfidic protometabolism", Nature Chemistry 7, S. 301–307', year: '2015', quote: `Aus Cyanwasserstoff, Schwefelwasserstoff und UV-Licht entstehen Vorstufen von Nukleotiden, Aminosäuren und Lipiden; ein geologisches Szenario mit nacheinander zusammenfließenden Reagenzien wird vorgeschlagen.`, status: 'paraphrase' }],
+          questionsBack: [`Wer oder was sorgt im kombinierten Szenario dafür, dass die Produkte in der richtigen Reihenfolge und rein genug am nächsten Ort ankommen?`],
         },
       ],
     },

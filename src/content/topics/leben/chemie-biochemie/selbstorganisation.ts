@@ -141,6 +141,24 @@ const claim: Claim = {
               id: 'reine-stoffe-normal',
               objection: `Jedes Experiment arbeitet mit reinen Stoffen – das ist normale Methodik.`,
               answer: `Natürlich. Dann darf man aber nicht ohne Nachweis auf schmutzige präbiotische Gemische hochrechnen. Tour nennt das den Massentransfer: Wie kommen die richtigen Stoffe in ausreichender Reinheit und Menge zusammen?`,
+              followUps: [
+                {
+                  id: 'roboter-chemiker-cronin',
+                  objection: `Genau das untersuchen wir: Ein Roboter hat in meinem Labor einfache präbiotische Gemische über Wochen in Nass-Trocken-Zyklen mit Mineralien behandelt – ohne Reinigung. Die Gemische wurden nicht einfach zu Teer, sondern zeigten wiederkehrende, nicht-zufällige Produktmuster. Selbstorganisation in schmutziger Chemie ist messbar.`,
+                  objectionBy: 'Lee Cronin',
+                  answer: `Das ist genau die Art Experiment, die das Feld braucht, und ich nehme das Ergebnis ernst: Komplexe Gemische können strukturierte statt völlig zufällige Produktverteilungen zeigen. Aber was gemessen wurde, sind Muster in Massenspektren – kein Replikator, keine Sequenz, die eine andere festlegt, keine Vererbung. „Nicht ganz zufällig" ist ein weiter Weg von „trägt Information". Und den Takt der Zyklen, die Mineralien und die Ausgangsstoffe hat der Versuchsaufbau festgelegt.`,
+                  detail: `**Die Arbeit:** Asche, Cooper, Keenan, Mathis und Cronin (Nature Communications 2021) beschrieben eine automatisierte Plattform, die Gemische einfacher präbiotischer Moleküle wiederholt mit Mineralien und Wasser behandelte und die Produkte massenspektrometrisch verfolgte. Sie berichteten, dass die Gemische sich wiederholende, nicht-zufällige Strukturen ausbildeten.
+
+**Einordnen:**
+- Ein Gemisch, das nicht sofort zu Teer zerfällt, ist ein **Fortschritt** gegenüber dem pessimistischsten Bild – das kannst du anerkennen.
+- Der Sprung, um den es geht, ist aber der von **Ordnung** zu **Information**: von bevorzugten Produkten zu Sequenzen, die etwas codieren und kopiert werden.
+- Die Frage der **aktiven Information** (Marks, Dembski) stellt sich auch hier: Welche Entscheidungen des Aufbaus bestimmen das Ergebnis mit?
+
+So zeigst du, dass du nicht gegen Experimente argumentierst, sondern präzise fragst, was sie zeigen.`,
+                  sources: [{ kind: 'gegner', author: 'Silke Asche, Geoffrey J. T. Cooper, Graham Keenan, Cole Mathis, Leroy Cronin', work: '„A robotic prebiotic chemist probes long term reactions of complexifying mixtures", Nature Communications 12, Art. 3547', year: '2021', quote: `Eine automatisierte Plattform verfolgte über lange Zeiträume zyklisch behandelte präbiotische Gemische; diese zeigten wiederkehrende, nicht-zufällige Produktmuster.`, status: 'paraphrase' }],
+                  questionsBack: [`Welches Produkt in diesen Gemischen trägt eine Abfolge, die bei der nächsten Runde kopiert wird?`],
+                },
+              ],
             },
           ],
         },
@@ -156,6 +174,36 @@ const claim: Claim = {
           id: 'kenyon-kreationist',
           objection: `Kenyon ist später Kreationist geworden – kein glaubwürdiger Zeuge.`,
           answer: `Es geht um sein Argument, nicht um seine Person – und das ist überprüfbare Chemie: Es gibt keine Bindungsaffinitäten, die festlegen, welche Base oder Aminosäure auf die nächste folgt. Wenn du solche Affinitäten kennst, nenne sie.`,
+          followUps: [
+            {
+              id: 'bindungsvorlieben-existieren',
+              objection: `Die gibt es doch: Aminosäuren verbinden sich nicht völlig gleich häufig miteinander, manche Paare bilden sich bevorzugt. Auch in Nass-Trocken-Versuchen werden bestimmte Bausteine bevorzugt eingebaut. Die Chemie hat also sehr wohl Vorlieben.`,
+              objectionBy: 'Stuart Kauffman',
+              answer: `Richtig, kleine Vorlieben gibt es – auf ihnen baute Kenyon sein Buch *Biochemical Predestination* auf. Aber als man die Abfolgen echter Proteine statistisch mit diesen Vorlieben verglich, fand man keinen Zusammenhang: Die Reihenfolge in funktionierenden Proteinen folgt nicht den chemischen Bindungsvorlieben. Das ist auch logisch – würden Vorlieben die Abfolge bestimmen, gäbe es nur wenige, eintönige Proteine statt Tausender verschiedener.`,
+              detail: `**Geschichte:** Kenyon und Steinman stützten sich in den 1960er-Jahren auf Experimente, die unterschiedliche Bildungsraten von Dipeptiden zeigten. Die Hoffnung war, dass solche Vorlieben die Proteinsequenzen „vorherbestimmen".
+
+**Prüfung:** Kok, Taylor und Bradley (Origins of Life 1988) verglichen die Häufigkeit benachbarter Aminosäurepaare in Proteinen mit den gemessenen Vorlieben und fanden keine Übereinstimmung. Die Sequenzen echter Proteine verhalten sich in dieser Hinsicht nahezu wie zufällig gewählte – gerade deshalb können sie so vielfältige Funktionen tragen.
+
+**Prinzip (Polanyi):** Information setzt Wahlfreiheit voraus. Je stärker die Chemie eine Abfolge erzwingt, desto weniger kann sie mitteilen.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'Randall A. Kok, John A. Taylor, Walter L. Bradley', work: '„A statistical examination of self-ordering of amino acids in proteins", Origins of Life and Evolution of the Biosphere 18, S. 135–142', year: '1988', quote: `Die Abfolge benachbarter Aminosäuren in Proteinen zeigt keine Korrelation mit den in Experimenten gemessenen Dipeptid-Bildungsvorlieben.`, status: 'paraphrase' },
+                { kind: 'gegner', author: 'Dean H. Kenyon, Gary Steinman', work: 'Biochemical Predestination', year: '1969', quote: `Chemische Affinitäten zwischen Aminosäuren könnten die Sequenzen der ersten Proteine weitgehend vorherbestimmt haben.`, status: 'paraphrase', note: 'Kenyon gab diese These später selbst auf.' },
+              ],
+              questionsBack: [`Wenn Bindungsvorlieben die Sequenz bestimmten – wie könnte dann dieselbe Chemie Tausende verschiedener Proteine hervorbringen?`],
+              followUps: [
+                {
+                  id: 'bradley-befangen',
+                  objection: `Walter Bradley war Mitautor von *The Mystery of Life's Origin* – ein Design-Befürworter. Natürlich findet er, was er sucht.`,
+                  objectionBy: 'Dave Farina',
+                  answer: `Dann prüfe die Daten: Es geht um öffentlich zugängliche Proteinsequenzen und eine einfache Statistik, die jeder nachrechnen kann. Und das Ergebnis ist im Mainstream unstrittig – kein heutiger Biochemiker behauptet, Proteinsequenzen würden durch Dipeptid-Vorlieben festgelegt. Selbst Kenyon, der Urheber der These, hat sie aufgegeben. Wer das Argument wegen der Weltanschauung des Autors verwirft, müsste dasselbe mit jedem atheistischen Forscher tun.`,
+                  detail: `Hier hilft die Regel, die auch umgekehrt gilt: Die Herkunft eines Arguments entscheidet nicht über seine Gültigkeit (genetischer Fehlschluss). Wenn Dave Farina Jack Szostak zitiert, frage ich auch nicht zuerst nach Szostaks Weltanschauung, sondern nach den Daten.
+
+Biete einen fairen Test an: „Nenne mir eine Studie, die zeigt, dass Proteinsequenzen durch chemische Bindungsvorlieben bestimmt werden – dann ändere ich meine Meinung." Eine solche Studie gibt es nicht; die moderne Biochemie geht im Gegenteil davon aus, dass die Abfolge durch die Gene festgelegt wird.`,
+                  questionsBack: [`Welcher heutige Biochemiker vertritt, dass Dipeptid-Vorlieben die Proteinsequenzen festlegen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -168,6 +216,54 @@ const claim: Claim = {
           id: 'gott-nur-zuschauer',
           objection: `Dann erklärt die Selbstorganisation am Ende doch alles, und Gott ist nur Zuschauer.`,
           answer: `Selbst dann bliebe die Frage, warum die Naturgesetze und die Chemie überhaupt so beschaffen sind, dass sie Leben ermöglichen. Gesetze erklären, wie Dinge ablaufen, nicht warum es sie gibt. Gott ist in christlicher Sicht nicht Zuschauer, sondern Urheber und Erhalter dieser Ordnung.`,
+          followUps: [
+            {
+              id: 'kauffman-das-heilige',
+              objection: `Ich brauche keinen übernatürlichen Gott. Die schöpferische Kraft des Universums selbst – seine unvorhersagbare Kreativität, aus der Leben, Bewusstsein und Kultur hervorgehen – ist für mich das Heilige. Wir können Gott neu verstehen: als Kreativität der Natur.`,
+              objectionBy: 'Stuart Kauffman',
+              answer: `Das ist ein bemerkenswertes Eingeständnis: Ein führender Theoretiker der Selbstorganisation landet bei religiöser Sprache, weil „Naturgesetz" allein die Kreativität der Welt nicht zu fassen scheint. Aber eine Kreativität ohne Geist ist eine Personifikation – man schreibt einem Prozess zu, was man sonst nur Personen zuschreibt: Erfindungskraft, Neues hervorbringen, Sinn. Die Frage ist, ob diese Kreativität einen Urheber hat oder einfach „da" ist.`,
+              detail: `**Kauffmans Weg:** In *Reinventing the Sacred* (2008) schlägt Kauffman vor, „Gott" als die natürliche Kreativität des Universums zu verstehen – ohne personalen, übernatürlichen Schöpfer. Er wendet sich damit sowohl gegen einen strengen Reduktionismus als auch gegen den klassischen Theismus.
+
+**Boyles alte Warnung:** Robert Boyle kritisierte 1686 die Rede von „der Natur", die plant, will und ordnet, als verdeckte Personifikation. Wer „die Natur" schöpferisch nennt, verwendet Begriffe des Geistes, ohne einen Geist anzunehmen.
+
+**Die christliche Antwort:** Die Kreativität der Schöpfung ist real – Basilius spricht von der der Erde eingeprägten Fruchtbarkeit –, aber sie ist *gegeben*. Der Logos ist nicht die Welt, sondern derjenige, durch den sie wird (Joh 1,3). Das bewahrt die Würde der Natur und die Unterscheidung von Schöpfer und Geschöpf.`,
+              voices: [
+                {
+                  person: 'boyle',
+                  role: 'als Begründer der modernen Chemie',
+                  text: `Boyle hält in seiner Untersuchung über den Begriff „Natur" fest, dass die Natur nicht selbst handelt, plant oder zweckmäßig wählt; sie ist das geordnete Zusammenwirken der Gesetze und Mechanismen, die der Schöpfer eingerichtet hat. Wer der Natur eigenes Wollen zuschreibt, verwechselt das Uhrwerk mit dem Uhrmacher.`,
+                  sources: [{ kind: 'wissenschaft', author: 'Robert Boyle', work: 'A Free Enquiry into the Vulgarly Received Notion of Nature', year: '1686', status: 'paraphrase' }],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Stuart A. Kauffman', work: 'Reinventing the Sacred: A New View of Science, Reason, and Religion', year: '2008', quote: `Kauffman schlägt vor, Gott als die natürliche Kreativität des Universums zu verstehen, ohne übernatürlichen Schöpfer.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Johannes', ref: '1,3', quote: `Alle Dinge sind durch dasselbe gemacht, und ohne dasselbe ist nichts gemacht, was gemacht ist.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Wenn die Kreativität des Universums das Heilige ist – ist sie dann jemand oder etwas? Und kann etwas ohne Geist „kreativ" sein?`],
+              followUps: [
+                {
+                  id: 'gesetze-einfach-da',
+                  objection: `Irgendwo muss jede Erklärung enden. Die Naturgesetze sind eben einfach so – ein nacktes Faktum. Mehr braucht man nicht.`,
+                  objectionBy: 'Sean Carroll',
+                  answer: `Das ist eine ehrliche Position, aber sie beendet das Fragen genau an der Stelle, an der es spannend wird. Die Gesetze sind nicht notwendig – sie könnten logisch auch anders sein; und dass sie ausgerechnet Chemie, Selbstorganisation und Leben ermöglichen, verlangt eher nach Erklärung als weniger. Das Christentum endet ebenfalls bei einem Letzten – aber bei einem notwendigen, geistigen Grund, nicht bei einem zufälligen Satz von Gleichungen.`,
+                  detail: `**Leibniz' Frage:** Warum gibt es überhaupt etwas und nicht nichts – und warum gerade *diese* Welt? Gottfried Wilhelm Leibniz formulierte den Satz vom zureichenden Grund: Für jede Tatsache gibt es einen Grund, warum sie so und nicht anders ist. Wer bei den Naturgesetzen als „nackten Tatsachen" stehen bleibt, setzt diesen Satz an genau einer Stelle außer Kraft.
+
+**Kontingenz vs. Notwendigkeit:** Naturgesetze sind kontingent – Physiker können widerspruchsfrei Universen mit anderen Gesetzen beschreiben. Ein Letztgrund, der die Kette beendet, muss notwendig sein. Der christliche Gott ist nicht „ein weiteres Ding", sondern das notwendige Sein, das alles andere trägt.
+
+**Für dich:** Du musst diesen Punkt nicht gewinnen. Es genügt zu zeigen, dass „die Gesetze sind einfach so" keine wissenschaftliche Erkenntnis, sondern eine philosophische Entscheidung ist – genau wie der Glaube an einen Schöpfer.`,
+                  voices: [
+                    {
+                      person: 'leibniz',
+                      role: 'als Philosoph und Mathematiker',
+                      text: `Leibniz argumentiert, dass die Welt als Ganze kontingent ist und daher einen zureichenden Grund außerhalb ihrer selbst verlangt. Die Kette der Ursachen in der Welt, so lang sie auch sei, erklärt nicht, warum es diese Kette überhaupt gibt. Der letzte Grund müsse ein notwendiges Wesen sein, das den Grund seines Daseins in sich selbst trägt – und das nennt man Gott.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Monadologie', ref: '§§ 32–38', year: '1714', status: 'paraphrase', quote: `Nach dem Satz vom zureichenden Grund muss es einen letzten Grund der Dinge geben, der in einer notwendigen Substanz liegt, die man Gott nennt.` }],
+                    },
+                  ],
+                  questionsBack: [`Ist „die Gesetze sind einfach so" ein Ergebnis der Physik – oder eine philosophische Entscheidung, nicht weiterzufragen?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

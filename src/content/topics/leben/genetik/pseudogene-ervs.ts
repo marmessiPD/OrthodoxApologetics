@@ -65,7 +65,7 @@ const claim: Claim = {
       role: 'als Biologe und Apologet',
       text: `McLatchie gehört zu den Design-Befürwortern, die die ERV-Daten im Detail diskutieren. Er verweist auf zunehmend entdeckte Funktionen von ERV-Abschnitten (Promotoren, Verstärker, RNA-Gene), auf die Bevorzugung bestimmter Integrationsorte und auf Abweichungen vom erwarteten Baummuster. Er räumt ein, dass gemeinsame Abstammung ein naheliegendes Modell ist, hält das Argument aber für weniger zwingend, als es in populären Darstellungen erscheint.`,
       sources: [
-        { kind: 'fachliteratur', author: 'Jonathan McLatchie', work: 'Beiträge auf evolutionnews.org zu ERVs und gemeinsamer Abstammung', status: 'unverified', note: 'Einzelne Artikel vor Zitierung heraussuchen.' },
+        { kind: 'fachliteratur', author: 'Jonathan McLatchie', work: 'Artikel zu ERVs auf evolutionnews.org (heute Science and Culture Today), u. a. „Do Shared ERVs Support Common Ancestry?"', year: '2011', status: 'paraphrase', url: 'https://scienceandculture.com/2011/05/do_shared_ervs_support_common_/', note: 'Artikelreihe vom Mai 2011 bestätigt; McLatchie diskutiert dort u. a. bevorzugte Integrationsorte (mit Verweis auf Daniels & Deininger). Kritiker halten die Argumente für überholt; McLatchies heutige Position vor Verwendung prüfen.' },
       ],
     },
     {
@@ -119,6 +119,32 @@ const claim: Claim = {
               objection: `Unvollständige Liniensortierung ist quantitativ vorhergesagt. Das ist eine Bestätigung der Theorie, kein Problem.`,
               objectionBy: 'Dennis Venema',
               answer: `Einverstanden – das gestehe ich zu. Dann sollten wir aber beim eigentlichen Punkt ankommen: Die Daten sprechen für gemeinsame Abstammung von DNA-Sequenzen. Sie sagen nichts darüber, ob der Prozess ungelenkt war, ob der Mensch eine geistige Seele hat oder ob es ein erstes Menschenpaar gab. Diese Fragen entscheiden andere Argumente.`,
+              followUps: [
+                {
+                  id: 'ils-populationsgroesse',
+                  objection: `Und aus genau dieser Liniensortierung lässt sich die Größe der Vorfahrenpopulationen schätzen: Zehntausende Individuen, nie zwei. Das Muster der ERVs und der unvollständigen Sortierung schließt ein einzelnes Urpaar aus.`,
+                  objectionBy: 'Joshua Swamidass',
+                  answer: `Hier muss man genau sein – und du selbst hast es in deinen Analysen genau genommen: Die genetischen Daten schließen einen Engpass von zwei Menschen in der **jüngeren** Vergangenheit weitgehend aus, aber nach deiner eigenen Auswertung nicht einen Engpass, der weiter als etwa 500.000 Jahre zurückliegt. Hössjer und Gauger haben zudem Modelle vorgelegt, in denen ein einzelnes Paar mit geschaffener genetischer Vielfalt die heutigen Daten erklären soll. Die Frage ist also nicht entschieden – sie hängt am Zeitpunkt und an den Modellannahmen. Mehr dazu unter „Adam und Eva genetisch unmöglich".`,
+                  voices: [
+                    {
+                      person: 'joshua-swamidass',
+                      role: 'als Computerbiologe (theistische Evolution / genealogisches Modell)',
+                      text: `Swamidass hält gemeinsame Abstammung für gut belegt, hat aber öffentlich argumentiert, dass die Daten einen Engpass auf ein einzelnes Paar vor mehr als rund einer halben Million Jahren nicht sicher ausschließen. Unabhängig davon vertritt er ein genealogisches Modell, in dem Adam und Eva vor wenigen Jahrtausenden lebten und genealogische Vorfahren aller Menschen sind.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'S. Joshua Swamidass', work: 'The Genealogical Adam and Eve: The Surprising Science of Universal Ancestry', year: '2019', status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'ann-gauger',
+                      role: 'als Biologin',
+                      text: `Gauger hat mit dem Statistiker Ola Hössjer populationsgenetische Modelle entwickelt, die prüfen, ob ein einzelnes Urpaar mit von Anfang an vorhandener genetischer Vielfalt mit der heutigen Variation vereinbar ist. Die Modelle sind in der Fachwelt umstritten, zeigen aber, dass der Ausschluss eines Urpaars von Annahmen abhängt.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Ola Hössjer, Ann Gauger', work: '„A single-couple human origin is possible", BIO-Complexity', year: '2019', status: 'paraphrase', note: 'Erschienen in einem ID-nahen Journal; offen kennzeichnen.' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -180,6 +206,20 @@ const claim: Claim = {
           objection: `Gut, dass du das Hotspot-Argument nicht bemühst – es ist schwach. Das Muster passt zum Baum.`,
           objectionBy: 'Nathan Lents',
           answer: `Richtig, und ich rate jedem Christen, hier nicht zu übertreiben. Schwache Argumente schaden mehr, als sie nützen. Interessanter ist die Frage, die du nicht beantworten kannst: Warum gibt es überhaupt ein Wesen, das Genome liest, Muster erkennt und nach Wahrheit fragt? Darum geht es beim Gottesbild.`,
+          followUps: [
+            {
+              id: 'vitellogenin-dotter',
+              objection: `Noch ein Beispiel, das kein Hotspot erklärt: Im menschlichen Genom liegen Reste eines Vitellogenin-Gens – das Gen für Eidotter, das Vögel und Reptilien brauchen – genau an der Stelle, an der es bei Hühnern liegt, flankiert von denselben Nachbargenen. Warum sollten Säugetiere mit Plazenta Dotter-Gen-Ruinen tragen?`,
+              objectionBy: 'Dennis Venema',
+              answer: `Das ist ein starkes Argument für gemeinsame Abstammung, und ich will es nicht kleinreden: Die Reste sind über die Nachbarschaft der Gene identifizierbar, und das Muster passt gut zum Stammbaum. Für mich als koptischen Christen ist entscheidend: Die Kirche hat über den biologischen Weg der Erschaffung des Leibes kein Dogma formuliert. Selbst wenn man gemeinsame Abstammung des Leibes annimmt, bleiben die Fragen nach dem Mechanismus der großen Neuerungen, nach der geistigen Seele und nach Adam als realer Person offen – und genau dort liegt das eigentliche Gespräch.`,
+              sources: [
+                { kind: 'wissenschaft', author: 'David Brawand, Walter Wahli, Henrik Kaessmann', work: '„Loss of egg yolk genes in mammals and the origin of lactation and placentation", PLoS Biology 6 (3)', year: '2008', status: 'paraphrase', quote: `Säugetiere besitzen an der erwarteten Genomposition Reste von Vitellogenin-Genen, die bei eierlegenden Wirbeltieren den Dotter liefern.` },
+              ],
+              questionsBack: [
+                `Angenommen, ich gestehe gemeinsame Abstammung zu – was genau folgt daraus für die Frage, ob der Prozess ungelenkt war?`,
+              ],
+            },
+          ],
         },
         {
           id: 'designer-baut-kaputtes-gen',

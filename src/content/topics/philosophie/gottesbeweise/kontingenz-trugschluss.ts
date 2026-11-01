@@ -205,6 +205,62 @@ const claim: Claim = {
       answer: `Weil das notwendige Wesen die *Existenz konkreter Dinge* erklären muss. Zahlen und abstrakte Gegenstände bewirken nichts – die Zahl 7 hat noch nie etwas hervorgebracht. Naturgesetze beschreiben, wie sich existierende Dinge verhalten. Und damit die Welt nicht selbst notwendig wird, muss das notwendige Wesen sie frei hervorbringen – also wählen können. Ein notwendiges, schöpferisches Wesen, das frei wählt, ist das, was wir einen personalen Gott nennen.`,
       detail: `Siehe „Gottesbeweise beweisen höchstens einen Deisten-Gott" für die weitere Ableitung (Einheit, Allmacht, Allwissenheit, Güte).`,
     },
+    {
+      id: 'kompositionsfehlschluss-mutter',
+      objection: `„Das ist ein Kompositionsfehlschluss. Russell hat es Copleston schön gesagt: Jeder Mensch hat eine Mutter – aber daraus folgt nicht, dass die Menschheit als Ganze eine Mutter hat. Dass jedes Ding im Universum kontingent ist, heißt nicht, dass das Universum kontingent ist."`,
+      objectionBy: 'Bertrand Russell (BBC-Debatte 1948) / Graham Oppy',
+      answer: `Nicht jeder Schluss vom Teil aufs Ganze ist ein Fehlschluss: Wenn jeder Legostein einer Mauer rot ist, ist die Mauer rot. Entscheidend ist, um welche Eigenschaft es geht. „Eine Mutter haben" überträgt sich nicht; „auch nicht existieren können" schon: Wenn jedes Teil fehlen könnte, könnten alle fehlen – und dann gäbe es kein Universum. Außerdem braucht das Argument den Teil-Ganzes-Schluss gar nicht: Man kann direkt fragen, ob das Universum mit seinen Gesetzen und Konstanten anders hätte sein können. Die Antwort der Physik lautet offensichtlich: ja.`,
+      detail: `Pruss formuliert das Argument mit der „großen konjunktiven kontingenten Tatsache" – der Gesamtheit aller kontingenten Tatsachen. Diese Gesamtheit ist selbst kontingent, denn eine Konjunktion aus lauter Tatsachen, die anders sein könnten, könnte als Ganze anders sein. Also braucht auch sie eine Erklärung, die nicht in ihr selbst liegen kann. Russells Mutter-Beispiel zeigt nur, dass manche Eigenschaften sich nicht übertragen; dass *Kontingenz* zu ihnen gehört, muss der Kritiker erst zeigen.`,
+      voices: [
+        {
+          person: 'alexander-pruss',
+          role: 'als Verteidiger des Kontingenzarguments',
+          text: `Pruss vermeidet den Kompositionseinwand, indem er nicht von Teilen auf ein Ganzes schließt, sondern von der Gesamtheit aller kontingenten Tatsachen ausgeht. Diese Gesamtheit ist kontingent, und ihre Erklärung kann weder in einer ihrer eigenen Tatsachen liegen noch ausbleiben, wenn das Prinzip vom zureichenden Grund gilt.`,
+          sources: [{ kind: 'fachliteratur', author: 'Alexander R. Pruss', work: '„The Leibnizian Cosmological Argument", in: W. L. Craig & J. P. Moreland (Hg.), The Blackwell Companion to Natural Theology', year: '2009', status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Bertrand Russell & Frederick C. Copleston', work: 'BBC-Rundfunkdebatte über die Existenz Gottes', year: '1948', status: 'paraphrase', quote: 'Jeder existierende Mensch hat eine Mutter; daraus folgt nicht, dass die Menschheit eine Mutter hat – das sei eine andere logische Sphäre.' },
+      ],
+      questionsBack: [`Wenn jedes einzelne Teil des Universums fehlen könnte – warum könnte dann nicht das Ganze fehlen?`],
+      followUps: [
+        {
+          id: 'nichts-vielleicht-unmoeglich',
+          objection: `„Die Frage ‚Warum gibt es etwas und nicht nichts?' setzt voraus, dass Nichts der natürliche Ausgangszustand wäre. Vielleicht ist Nichts gar nicht möglich. Und vielleicht gibt es auf die Frage schlicht keine Antwort – Erklärungen enden irgendwann bei den Naturgesetzen."`,
+          objectionBy: 'Sean Carroll („Why Is There Something, Rather Than Nothing?", 2018)',
+          answer: `Wenn Nichts unmöglich ist, dann existiert *etwas notwendig* – das ist genau die Schlussfolgerung des Kontingenzarguments. Die Frage ist dann nur noch, *was* dieses Notwendige ist; und unser Universum mit seinen veränderlichen Teilen und frei wählbar erscheinenden Konstanten ist ein schlechter Kandidat. Die andere Option – „Es gibt vielleicht keine Antwort" – heißt, die Suche nach Gründen genau an der Stelle abzubrechen, an der sie am wichtigsten wäre.`,
+          detail: `Carroll argumentiert, dass die Frage nach dem Etwas möglicherweise ohne Antwort bleibt und dass dies kein Problem sei: Physik ende bei grundlegenden Gesetzen, die „einfach so" seien. Das ist eine ehrliche Position – aber sie ist ein Verzicht auf Erklärung, keine Erklärung. Und sie ist selektiv: Im Labor würde kein Physiker akzeptieren, dass ein Ergebnis „einfach so" auftritt.`,
+          sources: [{ kind: 'gegner', author: 'Sean M. Carroll', work: '„Why Is There Something, Rather Than Nothing?" (Beitrag für The Routledge Companion to Philosophy of Physics; Preprint)', year: '2018', status: 'paraphrase', quote: 'Die Frage habe möglicherweise keine Antwort; eine Erklärungskette dürfe bei grundlegenden Gesetzen enden.' }],
+          followUps: [
+            {
+              id: 'erklaerung-nur-innerhalb',
+              objection: `„Unser Begriff von ‚Erklärung' stammt aus dem Inneren des Universums: Ereignisse in der Zeit, Ursachen und Wirkungen. Ihn auf das Universum als Ganzes anzuwenden, ist ein unzulässiger Sprung. Außerhalb der Welt hat ‚warum' keinen Sinn."`,
+              objectionBy: 'Sean Carroll',
+              answer: `Das Prinzip „Was auch anders sein könnte, braucht einen Grund" ist keine Beobachtung über bestimmte Dinge, sondern ein Grundsatz der Vernunft – deshalb wenden wir es auf Neues an, das wir noch nie gesehen haben. Seine Gültigkeit hängt nicht von der Größe des Gegenstands ab: Eine kleine leuchtende Kugel braucht eine Erklärung, eine kugelförmige Galaxie auch, und ein Universum ebenso. Wer das Prinzip am Rand der Welt abschaltet, muss sagen, warum es genau dort aufhört.`,
+              detail: `Leibniz nannte den Satz vom zureichenden Grund eines der beiden großen Prinzipien allen Denkens (neben dem Satz vom Widerspruch). Auch die Kosmologie selbst fragt nach Gründen für das Ganze: Warum diese Anfangsentropie, warum diese Konstanten? Wer solche Fragen für sinnlos erklärt, müsste auch einen großen Teil der theoretischen Physik für sinnlos erklären. Der Christ fügt hinzu: Gott ist kein willkürlicher Halt, sondern das, was keinen äußeren Grund braucht, weil er nicht anders sein kann.`,
+              followUps: [
+                {
+                  id: 'eingeschraenktes-psr',
+                  objection: `„Dann vertrete ich eben ein eingeschränktes Prinzip: Dinge *innerhalb* des Universums haben Gründe, das Universum als Ganzes nicht. Das ist vollkommen widerspruchsfrei."`,
+                  objectionBy: 'Graham Oppy',
+                  answer: `Widerspruchsfrei vielleicht – aber willkürlich. Schopenhauer, selbst Atheist, verglich den beliebigen Umgang mit dem Kausalprinzip mit einem Fiaker, einer Mietkutsche, die man nach Hause schickt, sobald man angekommen ist. Diesen Vorwurf richtete er an Theologen; er trifft aber jeden, der das Prinzip nur dort gelten lässt, wo es ihm passt. Der Theist hat einen sachlichen Grund, warum die Kette bei Gott endet: Gott ist nicht kontingent. Das eingeschränkte Prinzip hat keinen solchen Grund für das Universum.`,
+                  detail: `Die Frage ist also nicht, wer zuerst „Stopp" sagt, sondern wer dafür einen Grund angeben kann. Das Universum hat alle Merkmale, die sonst eine Erklärung verlangen: Es besteht aus Teilen, verändert sich, hat bestimmte Größen und Werte, die anders sein könnten. Ein notwendiges Sein hat diese Merkmale nicht. Wer das Universum trotzdem ausnimmt, macht es zur einzigen kontingenten Sache ohne Grund – eine Ausnahme, die dem Theisten sonst als „Special Pleading" vorgeworfen wird.`,
+                  sources: [{ kind: 'gegner', author: 'Arthur Schopenhauer', work: 'Über die vierfache Wurzel des Satzes vom zureichenden Grunde', ref: '§ 20', year: '2. Aufl. 1847', status: 'paraphrase', quote: 'Das Kausalgesetz lasse sich nicht wie ein Fiaker gebrauchen, den man nach Hause schickt, sobald man angekommen ist.', note: 'Schopenhauer richtet das Bild gegen den kosmologischen Beweis; hier wird es umgekehrt auf ein willkürlich eingeschränktes Prinzip angewandt.' }],
+                  questionsBack: [`Welchen sachlichen Grund hast du, das Universum als einzige kontingente Sache von der Erklärungspflicht auszunehmen?`],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'keine-grenze-hartle-hawking',
+          objection: `„Die Physik bietet längst Modelle, in denen das Universum in sich geschlossen ist – etwa den Hartle-Hawking-Vorschlag ohne Anfangsrand. Da gibt es nichts ‚außerhalb', das man erklären müsste."`,
+          objectionBy: 'Sean Carroll / Stephen Hawking',
+          answer: `Solche Modelle beschreiben die *Gestalt* der Raumzeit – etwa, dass sie keinen scharfen Anfangsrand hat. Sie erklären nicht, warum es überhaupt eine Wellenfunktion des Universums gibt, warum die Quantenmechanik gilt und warum gerade diese Gesetze. Hawking stellte die Frage selbst: Was haucht den Gleichungen Feuer ein und schafft ein Universum, das sie beschreiben können? Eine in sich geschlossene Kugel ist immer noch eine Kugel, die auch nicht hätte existieren können.`,
+          detail: `Der Hartle-Hawking-Vorschlag (1983) ist ein spekulatives Modell der Quantenkosmologie; er ist weder bestätigt noch allgemein anerkannt. Selbst wenn er zutrifft, betrifft er die Frage nach dem *zeitlichen* Anfang (Kalam), nicht die nach dem *Grund der Existenz* (Kontingenz). Gerade deshalb ist das Kontingenzargument robuster: Es gilt auch für ein Universum ohne Anfang.`,
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Warum gibt es überhaupt etwas und nicht vielmehr nichts – hast du darauf eine Antwort?`,
