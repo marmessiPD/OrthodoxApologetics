@@ -165,7 +165,7 @@ const claim: Claim = {
           objectionBy: 'Shabir Ally',
           answer: `Eine bekannte, offen ausgewiesene Schreibervariante ist etwas anderes als eine Verfälschung der Offenbarung. Und gerade die Handschriften widerlegen den Vorwurf: Codex Sinaiticus, Codex Vaticanus und die frühen koptischen Übersetzungen entstanden Jahrhunderte vor Mohammed – und sie enthalten dasselbe Evangelium mit Kreuzigung, Auferstehung und Gottessohnschaft, das Christen heute lesen. Wenn der Koran die Schrift der Christen seiner Zeit bestätigt (5:47), bestätigt er diesen Text. Mehr dazu im „Islamischen Dilemma".`,
           sources: [
-            { kind: 'koran', work: 'Sure 5 (al-Ma\'ida)', ref: '5:47', quote: `Und die Leute des Evangeliums sollen nach dem urteilen, was Allah darin herabgesandt hat.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/47' },
+            { kind: 'koran', work: `Sure 5 (al-Ma'ida)`, ref: '5:47', quote: `Und die Leute des Evangeliums sollen nach dem urteilen, was Allah darin herabgesandt hat.`, translation: 'Bubenheim/Elyas (sinngemäß)', status: 'paraphrase', url: 'https://quran.com/5/47' },
           ],
         },
       ],
