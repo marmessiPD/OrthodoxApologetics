@@ -1,0 +1,163 @@
+import type { Claim } from '../../../schema.ts';
+
+const claim: Claim = {
+  id: 'anthropisches-prinzip',
+  title: `„Wir könnten sonst nicht hier sein, um uns zu wundern (Anthropisches Prinzip)."`,
+  proponents: [
+    { name: 'Brandon Carter', role: 'Theoretischer Physiker (Cambridge, später Meudon)', work: '„Large Number Coincidences and the Anthropic Principle in Cosmology", IAU-Symposium 63 (1974)' },
+    { name: 'Richard Dawkins', role: 'Evolutionsbiologe, Oxford', work: 'The God Delusion (2006), Kap. 4' },
+    { name: 'Douglas Adams (†2001)', role: 'Schriftsteller', work: 'Pfützen-Gleichnis, Vortrag 1998, abgedruckt in: The Salmon of Doubt (2002)' },
+    { name: 'Sean Carroll', role: 'Theoretischer Physiker', work: 'The Big Picture (2016)' },
+  ],
+  steelman: `Das schwache anthropische Prinzip (Brandon Carter, 1974) besagt: Was wir beobachten, muss mit unserer Existenz als Beobachter vereinbar sein. In einem lebensfeindlichen Universum gäbe es niemanden, der sich wundert. Darum ist es keine Überraschung, dass wir ein lebensfreundliches Universum vorfinden – es ist eine Bedingung unseres Fragens. Douglas Adams hat das mit einer Pfütze verglichen, die aufwacht und denkt: „Dieses Loch passt so perfekt zu mir, es muss für mich gemacht sein." In Wahrheit hat sich die Pfütze dem Loch angepasst. Wer aus der Lebensfreundlichkeit auf einen Schöpfer schließt, verwechselt eine Auswahlbedingung mit einem Zweck.`,
+  biblical: {
+    summary: `Die Bibel sieht den Menschen nicht als zufälligen Zuschauer, sondern als gewolltes Geschöpf: „Was ist der Mensch, dass du seiner gedenkst?" (Ps 8,5). Paulus sagt auf dem Areopag, Gott habe die Lebensräume der Menschen festgesetzt, „damit sie Gott suchen" (Apg 17,26–27). Die Schrift lehrt also eine Welt, die auf vernünftige Geschöpfe hin angelegt ist – nicht ausschließlich für sie, aber mit ihnen im Blick.`,
+    detail: `- **Ps 8,4–5:** Die Größe des Himmels und die Würde des Menschen stehen nebeneinander.
+- **Apg 17,26–27:** Die Bewohnbarkeit der Erde steht im Dienst der Gottsuche.
+- **Ps 139,14:** Der Mensch als „wunderbar gemacht".
+- **Gen 1,31:** Das Ganze ist „sehr gut" – die Schöpfung hat Eigenwert, nicht nur Nutzwert für den Menschen.`,
+    sources: [
+      { kind: 'bibel', work: 'Psalm', ref: '8,4–5', quote: `Wenn ich sehe die Himmel, deiner Finger Werk, den Mond und die Sterne, die du bereitet hast: was ist der Mensch, daß du seiner gedenkst, und des Menschen Kind, daß du dich seiner annimmst?`, translation: 'Luther 1912', status: 'verbatim' },
+      { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,26–27', quote: `Gott hat das ganze Menschengeschlecht gemacht, auf dem Erdboden zu wohnen, und ihre Zeiten und Grenzen festgesetzt, damit sie ihn suchen und finden möchten.`, translation: 'Luther 1912 (sinngemäß gekürzt)', status: 'paraphrase' },
+      { kind: 'bibel', work: 'Psalm', ref: '139,14', quote: `Ich danke dir darüber, daß ich wunderbar gemacht bin; wunderbar sind deine Werke, und das erkennt meine Seele wohl.`, translation: 'Luther 1912', status: 'verbatim' },
+    ],
+  },
+  church: {
+    summary: `Der hl. Basilius nennt die Welt eine „Schule" (*didaskaleion*) und einen Übungsplatz für vernünftige Seelen, an dem sie Gott erkennen lernen. Für die Väter ist es kein Zufall, dass es im Kosmos Wesen gibt, die ihn verstehen: Der Mensch ist nach dem Bild Gottes geschaffen, Mittler zwischen sichtbarer und geistiger Schöpfung, und kann im Buch der Natur den Logos lesen.`,
+    detail: `Athanasius beginnt *Contra Gentes* mit dem Gedanken, dass der Mensch durch die Ordnung der Schöpfung zur Erkenntnis des Schöpfers geführt werden kann (CG 34–35). Die Fähigkeit, die Welt zu verstehen, ist Teil der Gottebenbildlichkeit.`,
+    sources: [
+      { kind: 'kirchenvater', author: 'Basilius der Große', work: 'Hexaemeron', ref: 'Homilie 1,6', year: 'ca. 370', quote: `Die Welt ist eine Schule vernünftiger Seelen und ein Ort, an dem sie Gott erkennen lernen.`, status: 'paraphrase' },
+      { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Contra Gentes', ref: '34–35', year: 'ca. 318', quote: `Die Schöpfung ist wie Schrift, die durch ihre Ordnung auf ihren Herrn und Schöpfer verweist.`, status: 'paraphrase' },
+    ],
+  },
+  opposingView: {
+    summary: `Das schwache anthropische Prinzip ist als methodische Regel unbestritten richtig: Beobachtungen unterliegen Auswahleffekten. Umstritten ist, ob es etwas *erklärt*. Die Mehrheit der Philosophen und Physiker, die sich damit befassen, sieht es nur dann als Erklärung, wenn es eine Vielzahl von Universen gibt, aus denen ausgewählt wird – dann wird es zum Multiversum-Argument. Das starke anthropische Prinzip (Barrow & Tipler, *The Anthropic Cosmological Principle*, 1986) – das Universum *muss* Leben hervorbringen – ist spekulativ und wird teils teleologisch gedeutet.`,
+    detail: `Carter selbst formulierte 1974 das schwache Prinzip als Korrektiv gegen ein überzogenes „kopernikanisches Prinzip": Wir befinden uns zwangsläufig an einem Ort und zu einer Zeit, die Beobachter zulassen. John Leslie (*Universes*, 1989) entwickelte das Erschießungskommando-Gleichnis, um zu zeigen, dass Auswahleffekte ein auffälliges Ergebnis nicht erklären, solange man keinen Mechanismus vieler Versuche annimmt.`,
+    sources: [
+      { kind: 'wissenschaft', author: 'Brandon Carter', work: '„Large Number Coincidences and the Anthropic Principle in Cosmology", in: M. S. Longair (Hg.), Confrontation of Cosmological Theories with Observational Data (IAU-Symposium 63)', year: '1974', quote: `Was wir erwarten können zu beobachten, muss durch die Bedingungen eingeschränkt sein, die für unsere Anwesenheit als Beobachter notwendig sind.`, status: 'paraphrase' },
+      { kind: 'fachliteratur', author: 'John Leslie', work: 'Universes', year: '1989', quote: `Erschießungskommando: Wer eine Hinrichtung durch fünfzig Scharfschützen überlebt, darf nicht sagen „Natürlich haben alle verfehlt, sonst wäre ich nicht hier"; er muss nach dem Grund fragen.`, status: 'paraphrase', note: 'Leslie ist kein christlicher Apologet; er vertritt eine eigene, neuplatonisch geprägte Position.' },
+      { kind: 'wissenschaft', author: 'John D. Barrow & Frank J. Tipler', work: 'The Anthropic Cosmological Principle', year: '1986', quote: `Unterscheidung von schwachem, starkem und „finalem" anthropischen Prinzip.`, status: 'paraphrase' },
+    ],
+  },
+  quickAnswer: `Das schwache anthropische Prinzip stimmt – aber es erklärt nichts. Es sagt nur, dass wir ein lebensfreundliches Universum beobachten *müssen*, nicht, warum es eines gibt. Stell dir vor, fünfzig Scharfschützen schießen auf dich, und alle verfehlen. Du würdest nicht sagen: „Klar, sonst wäre ich ja nicht hier." Du würdest fragen, warum alle verfehlt haben. Nur wenn es unzählige Hinrichtungen gäbe, würde der Auswahleffekt etwas erklären – und das ist dann die Multiversum-Debatte.`,
+  keyPoints: [
+    `**Bedingung, nicht Erklärung:** Dass wir nur ein lebensfreundliches Universum beobachten können, erklärt nicht, warum es überhaupt eines gibt.`,
+    `**Erschießungskommando (Leslie):** Das Überleben verlangt eine Erklärung – Absicht oder viele Versuche.`,
+    `**Nur mit Multiversum stark:** Ohne viele Universen ist das anthropische Prinzip ein Achselzucken, keine Erklärung.`,
+    `**Pfützen-Gleichnis greift zu kurz:** Die Pfütze passt sich dem Loch an, weil es physikalische Gesetze gibt; an die Gesetze selbst kann sich nichts anpassen.`,
+    `**Gegen Anthropozentrismus-Vorwurf:** Christen behaupten nicht, das Universum sei nur für Menschen da; es dient der Ehre Gottes (Ps 19).`,
+  ],
+  voices: [
+    {
+      person: 'swinburne',
+      role: 'als Religionsphilosoph',
+      text: `Swinburne hat ein bekanntes Gleichnis entwickelt: Ein Entführer setzt sein Opfer vor eine Kartenmischmaschine, die zehn Stapel mischt und je eine Karte zieht. Wenn nicht zehn Herz-Asse gezogen werden, explodiert die Maschine und tötet das Opfer. Die Maschine zieht zehn Herz-Asse. Der Entführer meint, das sei nicht verwunderlich, denn bei jedem anderen Ergebnis könnte das Opfer es ja nicht beobachten. Swinburne: Das Opfer hat völlig recht, sich zu wundern und nach einer Erklärung zu suchen – etwa, dass die Maschine manipuliert war. Dass ein Ergebnis Bedingung unserer Beobachtung ist, macht es nicht weniger erklärungsbedürftig.`,
+      sources: [{ kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', ref: '2. Aufl., Kap. 8', year: '2004', quote: `Kartenmischmaschinen-Gleichnis: Dass man nur ein Ergebnis beobachten kann, das das eigene Überleben erlaubt, macht dieses Ergebnis nicht weniger erklärungsbedürftig.`, status: 'paraphrase' }],
+    },
+    {
+      person: 'robin-collins',
+      role: 'als Philosoph der Feinabstimmung',
+      text: `Collins unterscheidet sauber zwischen der Wahrscheinlichkeit, *dass wir* ein lebensfreundliches Universum beobachten (unter der Bedingung, dass es uns gibt: eins), und der Wahrscheinlichkeit, *dass es überhaupt* ein lebensfreundliches Universum gibt (unter Zufall: winzig). Das anthropische Prinzip betrifft nur die erste. Das Feinabstimmungsargument fragt nach der zweiten. Wer das verwechselt, beantwortet eine Frage, die niemand gestellt hat.`,
+      sources: [{ kind: 'fachliteratur', author: 'Robin Collins', work: '„The Teleological Argument", Blackwell Companion to Natural Theology', year: '2009', quote: `Der Beobachter-Auswahleffekt ändert nichts daran, dass die Existenz eines lebensfreundlichen Universums unter Zufall unwahrscheinlich ist.`, status: 'paraphrase' }],
+    },
+    {
+      person: 'craig',
+      role: 'als Debattenphilosoph',
+      text: `Craig verwendet in Debatten oft Leslies Erschießungskommando, um den logischen Fehler sichtbar zu machen: Aus „Wenn sie getroffen hätten, könnte ich es nicht beobachten" folgt nicht „Es ist nicht erstaunlich, dass sie verfehlt haben". Das schwache anthropische Prinzip ist wahr, aber trivial; es schließt die Frage nach dem Warum nicht ab, sondern stellt sie erst richtig.`,
+      sources: [{ kind: 'fachliteratur', author: 'William Lane Craig', work: 'Reasonable Faith', ref: '3. Aufl., Kap. 4', year: '2008', quote: `Das anthropische Prinzip verwechselt die Bedingung einer Beobachtung mit der Erklärung des Beobachteten.`, status: 'paraphrase' }],
+    },
+    {
+      person: 'basilius',
+      role: 'als Kirchenvater',
+      text: `Basilius sieht in der Tatsache, dass der Kosmos vernünftige Geschöpfe beherbergt, die ihn betrachten und über ihn staunen, keinen Zufall, sondern den Sinn der Schöpfung: Die Welt ist Schule und Übungsplatz der Seelen, die an ihr den Schöpfer erkennen sollen. Das Staunen, das das anthropische Prinzip wegerklären will, ist für ihn gerade die angemessene Antwort auf die Schöpfung.`,
+      sources: [{ kind: 'kirchenvater', author: 'Basilius der Große', work: 'Hexaemeron', ref: 'Homilie 1,6', year: 'ca. 370', quote: `Die Welt wurde als Schule und Lehrstätte für die Gotteserkenntnis vernünftiger Seelen geschaffen.`, status: 'paraphrase' }],
+    },
+  ],
+  dialog: [
+    {
+      id: 'sonst-waeren-wir-nicht-hier',
+      objection: `Natürlich sind die Naturkonstanten lebensfreundlich – sonst wären wir nicht hier, um darüber zu reden. Da gibt es nichts zu erklären.`,
+      objectionBy: 'Richard Dawkins / Sean Carroll',
+      answer: `Stell dir vor, fünfzig Scharfschützen schießen auf dich und alle verfehlen. Würdest du sagen: „Nichts zu erklären, sonst wäre ich ja tot"? Nein – du würdest fragen, warum. Dass wir nur ein lebensfreundliches Universum beobachten können, erklärt nicht, warum es eines gibt.`,
+      sources: [{ kind: 'fachliteratur', author: 'John Leslie', work: 'Universes', year: '1989', quote: `Das Überleben vor dem Erschießungskommando verlangt eine Erklärung: entweder Absicht oder sehr viele Hinrichtungen.`, status: 'paraphrase' }],
+      questionsBack: [`Würdest du als Überlebender eines Erschießungskommandos aufhören, nach dem Grund zu fragen?`],
+      followUps: [
+        {
+          id: 'erschiessungskommando-hinkt',
+          objection: `Das Gleichnis hinkt: Beim Erschießungskommando wissen wir, dass es Schützen gibt, die zielen. Beim Universum wissen wir das nicht.`,
+          objectionBy: 'Victor Stenger',
+          answer: `Das Gleichnis braucht das nicht vorauszusetzen. Es braucht nur ein Ergebnis, das unter Zufall sehr unwahrscheinlich und zugleich bedeutsam ist. Genau so erkennen wir Absicht auch dort, wo wir den Urheber vorher nicht kennen – etwa bei einem Funksignal mit Primzahlen aus dem All (SETI).`,
+          followUps: [
+            {
+              id: 'nur-ein-fall',
+              objection: `Bei nur einem Universum kann man keine Wahrscheinlichkeiten angeben. Wir haben eine Stichprobe von eins.`,
+              objectionBy: 'Victor Stenger / Sabine Hossenfelder',
+              answer: `Wir beurteilen einmalige Ereignisse ständig: die Entstehung des Lebens, den Urknall selbst, einen Fingerabdruck am Tatort, einen Kriminalfall. Das Likelihood-Prinzip fragt nicht nach Häufigkeiten, sondern danach, unter welcher Hypothese das Beobachtete erwartbarer ist.`,
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'pfuetze',
+      objection: `Douglas Adams' Pfütze: Sie denkt, das Loch passe perfekt zu ihr, also sei es für sie gemacht. Dabei hat sie sich dem Loch angepasst. Genauso hat sich das Leben dem Universum angepasst.`,
+      objectionBy: 'Richard Dawkins (nach Douglas Adams)',
+      answer: `Die Pfütze passt sich dem Loch an, *weil* es physikalische Gesetze gibt – Schwerkraft, Flüssigkeit, Oberflächenspannung. An die Gesetze selbst kann sich nichts anpassen. In einem Universum ohne stabile Atome gibt es weder Pfützen noch Löcher noch Leben, das sich anpassen könnte.`,
+      detail: `Das Gleichnis verwechselt Anpassung *innerhalb* eines lebensfreundlichen Rahmens mit der Existenz dieses Rahmens. Ausführlich im Claim „Leben hätte sich auch an andere Bedingungen angepasst".`,
+      sources: [{ kind: 'gegner', author: 'Douglas Adams', work: 'The Salmon of Doubt', year: '2002', quote: `Eine Pfütze wacht auf und denkt: Dieses Loch passt so gut zu mir, es muss eigens für mich gemacht worden sein.`, status: 'paraphrase' }],
+      followUps: [
+        {
+          id: 'anthropozentrismus',
+          objection: `Aber du denkst ja tatsächlich, das Universum sei für dich gemacht. Das ist der Gipfel des Anthropozentrismus.`,
+          objectionBy: 'Neil deGrasse Tyson',
+          answer: `Die christliche Lehre ist nicht, dass das Universum nur für Menschen da ist. „Die Himmel erzählen die Ehre Gottes" (Ps 19,2); die Schöpfung ist „sehr gut", schon bevor der Mensch auftritt. Und das Feinabstimmungsargument betrifft Leben überhaupt, nicht speziell Menschen.`,
+        },
+      ],
+    },
+    {
+      id: 'starkes-anthropisches-prinzip',
+      objection: `Barrow und Tipler sprechen vom starken anthropischen Prinzip: Das Universum muss Leben hervorbringen. Das ist eine naturalistische Teleologie – kein Gott nötig.`,
+      objectionBy: 'Frank Tipler / John Wheeler',
+      answer: `Ein „muss" braucht einen Grund. Entweder ist es eine logische Notwendigkeit – dafür gibt es keinen Beleg –, oder es gibt viele Universen, oder es gibt eine Absicht. Ein Universum, das Leben hervorbringen *muss*, klingt eher nach Zweck als nach Zufall. Das starke Prinzip spricht eher für Teleologie, also für den Theismus.`,
+      followUps: [
+        {
+          id: 'teleologie-ohne-gott',
+          objection: `Es gibt Teleologie ohne Gott. Der Philosoph Thomas Nagel vertritt eine natürliche Zielgerichtetheit in „Mind and Cosmos".`,
+          objectionBy: 'Thomas Nagel',
+          answer: `Bemerkenswert: Nagel ist Atheist und hält den Materialismus trotzdem für unzureichend – das ist ein großes Zugeständnis. Aber eine Zielgerichtetheit ohne Geist ist schwer zu verstehen: Ziele und Zwecke kennen wir nur von Geistern. Ein zielgerichtetes Universum passt am natürlichsten zu einem Schöpfer.`,
+          sources: [{ kind: 'gegner', author: 'Thomas Nagel', work: 'Mind and Cosmos: Why the Materialist Neo-Darwinian Conception of Nature Is Almost Certainly False', year: '2012', quote: `Die materialistische Weltsicht kann Bewusstsein, Erkenntnis und Werte nicht erklären; Nagel erwägt eine natürliche Teleologie ohne Gott.`, status: 'paraphrase', note: 'Nagel ist Atheist – sein Zugeständnis wiegt schwer.' }],
+        },
+      ],
+    },
+  ],
+  questionsToAsk: [
+    `Erklärt das anthropische Prinzip, *warum* es ein lebensfreundliches Universum gibt – oder nur, warum wir eines beobachten?`,
+    `Würdest du als Überlebender eines Erschießungskommandos sagen: „Kein Grund zum Fragen"?`,
+    `Braucht dein Argument nicht doch viele Universen, damit der Auswahleffekt etwas erklärt?`,
+    `Woran kann sich Leben anpassen, wenn es keine stabilen Atome gibt?`,
+  ],
+  avoid: [
+    `Das schwache anthropische Prinzip als „falsch" bezeichnen. Es ist wahr – es erklärt nur nichts.`,
+    `Behaupten, das Universum sei ausschließlich für den Menschen gemacht. Das ist weder biblisch noch nötig.`,
+  ],
+  concessions: [
+    `Das schwache anthropische Prinzip ist als methodische Regel richtig und in der Kosmologie nützlich (etwa für Auswahleffekte bei Beobachtungen).`,
+    `In Kombination mit einem tatsächlich existierenden Multiversum hätte der Auswahleffekt echte Erklärungskraft.`,
+  ],
+  furtherReading: [
+    { kind: 'fachliteratur', author: 'John Leslie', work: 'Universes', year: '1989', status: 'paraphrase' },
+    { kind: 'wissenschaft', author: 'John D. Barrow & Frank J. Tipler', work: 'The Anthropic Cosmological Principle', year: '1986', status: 'paraphrase' },
+    { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Existence of God', year: '2004', status: 'paraphrase' },
+  ],
+  difficulty: 2,
+  tags: ['Anthropisches Prinzip', 'Erschießungskommando', 'Auswahleffekt', 'Pfützen-Gleichnis', 'Teleologie'],
+  related: [
+    'feinabstimmung/multiversum',
+    'feinabstimmung/feinabstimmung-illusion',
+    'feinabstimmung/leben-haette-sich-angepasst',
+    'mathematik/unwahrscheinliches-passiert-staendig',
+    'astrobiologie/mensch-unbedeutend',
+  ],
+};
+
+export default claim;
