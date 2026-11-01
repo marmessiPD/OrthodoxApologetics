@@ -149,6 +149,27 @@ const claim: Claim = {
               objection: `Intuitiver Glaube ist eben Denkfaulheit.`,
               objectionBy: 'Michael Shermer',
               answer: `Viele Gläubige haben ihre Überzeugung jahrzehntelang analytisch geprüft – Plantinga, Swinburne und Lennox sind keine Denkfaulen. Intuition ist auch nicht irrational: Wissenschaftler verlassen sich ständig auf sie, etwa bei der Hypothesenbildung. Und in säkularen Milieus kann Unglaube genauso eine ungeprüfte Intuition sein. Entscheidend ist, ob jemand seine Überzeugung geprüft hat – egal welche.`,
+              followUps: [
+                {
+                  id: 'pennycook-metaanalyse',
+                  objection: `Es gibt eine Metaanalyse: Pennycook und Kollegen fanden 2016, dass Atheisten und Agnostiker im Schnitt reflektierter denken als Gläubige. Rationalität heißt eben, die erste Intuition zu hinterfragen – und das tun Ungläubige häufiger.`,
+                  objectionBy: 'Steven Pinker',
+                  answer: `Die Metaanalyse gibt es, und ich bestreite sie nicht: Sie fand einen kleinen Zusammenhang. Aber gemessen wurde, wie gut man bei Rechenrätseln eine falsche erste Antwort unterdrückt – nicht, ob man über Gott gründlich nachgedacht hat. Der Effekt ist klein, schwankt stark zwischen Ländern, und er sagt nichts darüber, welche Seite recht hat. Wer daraus „Gläubige denken schlechter" macht, überdehnt die Daten – genau die Art Fehlschluss, vor der du in deinem eigenen Buch über Rationalität warnst.`,
+                  detail: `Pennycook u. a. (2016) fassten Studien zum „Cognitive Reflection Test" (CRT) zusammen; der durchschnittliche Zusammenhang zwischen Reflexionswerten und Religiosität war negativ, aber klein. Spätere kulturvergleichende Arbeiten (Gervais u. a. 2018) fanden den Effekt in vielen Ländern nur schwach oder gar nicht.
+
+Wichtige Einordnung:
+- Der CRT misst eine sehr spezifische Fähigkeit (eine naheliegende, falsche Rechenantwort zu korrigieren). Er misst nicht philosophische Urteilskraft oder Belesenheit.
+- Korrelation ist nicht Kausalität: Bildungsmilieu, Fachrichtung und Kultur hängen sowohl mit CRT-Werten als auch mit Religiosität zusammen.
+- Selbst wenn der Effekt robust wäre, wäre er ein Argument *ad hominem* auf Gruppenebene: Die Wahrheit einer Überzeugung hängt nicht vom Durchschnitts-IQ ihrer Anhänger ab.
+
+Pinker selbst betont in „Rationality" (2021), dass man Argumente prüfen soll statt Personen – diesen Maßstab darf man freundlich einfordern.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'G. Pennycook, R. M. Ross, D. J. Koehler, J. A. Fugelsang', work: 'Atheists and agnostics are more reflective than religious believers: Four empirical studies and a meta-analysis', ref: 'PLoS ONE 11 (2016), e0153039', year: '2016', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Steven Pinker', work: 'Rationality: What It Is, Why It Seems Scarce, Why It Matters', year: '2021', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Welche Frage des Cognitive Reflection Test misst, ob jemand die Argumente für und gegen Gott geprüft hat?`],
+                },
+              ],
             },
           ],
         },
@@ -171,6 +192,29 @@ const claim: Claim = {
               objection: `Collins ist ein Einzelfall, und seine Bekehrung beim Anblick eines gefrorenen Wasserfalls ist nicht gerade wissenschaftlich.`,
               objectionBy: 'Richard Dawkins',
               answer: `Der Wasserfall war der Moment der Entscheidung nach jahrelangem Lesen und Nachdenken, nicht ihr Grund. Eine Lebensentscheidung ist kein Laborexperiment – auch deine Entscheidung für den Atheismus war es nicht. Mein Punkt bleibt: Ein Spitzenforscher kam durch rationale Prüfung zum Glauben. Das widerlegt die Gleichung „Glaube = mangelndes Denken".`,
+              followUps: [
+                {
+                  id: 'kompartimentalisierung',
+                  objection: `Collins ist ein Fall von Kompartimentalisierung: Im Labor ist er methodischer Naturalist, am Sonntag glaubt er an Wunder. Das sind zwei Schubladen, die nie miteinander reden.`,
+                  objectionBy: 'Richard Dawkins',
+                  answer: `Collins hat das Gegenteil getan: Er hat ein ganzes Buch und eine Organisation (BioLogos) der Frage gewidmet, wie Wissenschaft und Glaube zusammenpassen. Methodischer Naturalismus im Labor heißt nur, dass man natürliche Ursachen untersucht – das tun gläubige Forscher seit Jahrhunderten, gerade weil sie eine geordnete, verständliche Schöpfung erwarten. Der Historiker Peter Harrison zeigt, dass die strikte Trennung von „Wissenschaft" und „Religion" selbst eine moderne Konstruktion ist.`,
+                  detail: `Für viele Begründer der neuzeitlichen Naturwissenschaft – Kepler, Boyle, Newton, Faraday, Maxwell – war die Erforschung der Natur eine Form, die Weisheit des Schöpfers zu erkennen. Ihre Wissenschaft war von ihrem Glauben nicht getrennt, sondern durch ihn motiviert: Weil ein vernünftiger Gott die Welt geschaffen hat, erwarteten sie eine Ordnung, die der menschliche Verstand erfassen kann.
+
+Peter Harrison argumentiert in „The Territories of Science and Religion" (2015), dass die Begriffe „Wissenschaft" und „Religion" als getrennte, konkurrierende Bereiche erst im 19. Jahrhundert ihre heutige Form erhielten. Die These eines ewigen Konflikts ist unter Wissenschaftshistorikern weitgehend aufgegeben.
+
+Rückfrage: Wenn methodischer Naturalismus im Labor Kompartimentalisierung ist – ist dann auch ein Atheist kompartimentalisiert, der im Alltag an Liebe, Pflicht und Bedeutung glaubt, die seine Weltanschauung nicht begründen kann?`,
+                  voices: [
+                    {
+                      person: 'peter-harrison',
+                      role: 'als Wissenschaftshistoriker',
+                      text: `Peter Harrison zeigt, dass frühneuzeitliche Naturforscher ihre Arbeit oft als religiöse Tätigkeit verstanden: Das „Buch der Natur" zu lesen, war für sie eine Weise, Gott zu ehren und die durch den Sündenfall geschwächte Erkenntnis des Menschen wiederherzustellen. Die heutige Vorstellung zweier getrennter Sphären, die nichts miteinander zu tun haben oder sich bekämpfen, projiziert moderne Kategorien in eine Zeit zurück, die sie nicht kannte.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Territories of Science and Religion', year: '2015', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -188,6 +232,37 @@ const claim: Claim = {
           objection: `Und warum sagt Jesus dann: „Selig sind, die nicht sehen und doch glauben" (Joh 20,29)?`,
           objectionBy: 'Sam Harris',
           answer: `Weil Thomas das Zeugnis von zehn Augenzeugen hatte und trotzdem einen persönlichen Beweis verlangte. Selig sind die, die auf glaubwürdiges Zeugnis hin vertrauen, ohne selbst dabei gewesen zu sein – so funktioniert alles historische Wissen. Du glaubst auch, dass Caesar ermordet wurde, ohne es gesehen zu haben. Direkt danach sagt Johannes, er habe sein Evangelium geschrieben, „damit ihr glaubt" (Joh 20,31) – also mit Belegen.`,
+          followUps: [
+            {
+              id: 'glaube-als-ausrede',
+              objection: `Glaube ist die große Ausrede, um sich vor dem Denken und dem Prüfen von Belegen zu drücken – Überzeugung trotz, vielleicht sogar wegen fehlender Evidenz. Das ist nicht meine Erfindung, das sieht man an jedem Gläubigen, der sagt: „Das musst du einfach glauben."`,
+              objectionBy: 'Richard Dawkins',
+              answer: `Es gibt Christen, die so reden, das gebe ich zu – und sie geben die Bibel schlecht wieder. Der Hebräerbrief nennt den Glauben eine „gewisse Zuversicht" und ein „Überführtsein" von dem, was man nicht sieht (Hebr 11,1); das griechische Wort *elenchos* stammt aus der Sprache des Beweisens. Die alexandrinischen Lehrer wie Clemens verstanden Glauben als Fundament, auf dem Erkenntnis aufbaut, nicht als ihr Ersatz. Deine Definition beschreibt also eine Karikatur, nicht den christlichen Glauben.`,
+              detail: `Dawkins' bekannte Formulierung stammt aus einer Rede beim Edinburgh International Science Festival (1992) und kehrt sinngemäß in „The God Delusion" (2006) wieder. Sie ist eine Definition, keine Beobachtung: Wer „Glaube" so definiert, hat die Debatte durch Wortwahl entschieden.
+
+Der biblische und patristische Gebrauch:
+- **Hebr 11,1:** *hypostasis* (Grundlage, Wirklichkeit) und *elenchos* (Erweis, Überführung).
+- **Joh 20,30–31:** Die Zeichen sind aufgeschrieben, „damit ihr glaubt".
+- **Clemens von Alexandrien** (Stromateis II) beschreibt den Glauben als Zustimmung, die der Erkenntnis vorausgeht und sie trägt, und die wahre „Gnosis" als vertieften, durchdachten Glauben. Er hielt die griechische Philosophie für eine Vorbereitung auf Christus.
+
+Für das Gespräch: Bitte dein Gegenüber, Glauben so zu definieren, wie Christen selbst ihn definieren – das ist eine Frage der Fairness. Danach kann man über die Gründe sprechen.`,
+              voices: [
+                {
+                  person: 'clemens-alexandrien',
+                  role: 'als Lehrer der Katechetenschule von Alexandrien',
+                  text: `Clemens von Alexandrien wendet sich in den „Stromateis" gegen zwei Fronten: gegen Christen, die die Philosophie fürchten und nur „den bloßen Glauben" wollen, und gegen Gnostiker, die den einfachen Glauben verachten. Für ihn ist der Glaube eine vernünftige Zustimmung, die zur Erkenntnis führt; Erkenntnis ist wiederum ein durch Beweis gefestigter Glaube. Glaube und Denken gehören zusammen wie Fundament und Haus.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Clemens von Alexandrien', work: 'Teppiche (Stromateis)', ref: 'II,2–4; VII,10', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Richard Dawkins', work: 'Rede beim Edinburgh International Science Festival', year: '1992', status: 'paraphrase', quote: `Glaube ist die große Ausrede, um sich vor dem Denken und dem Prüfen von Belegen zu drücken.`, note: 'Vielzitierte Rede; englischer Wortlaut verbreitet als „Faith is the great cop-out, the great excuse to evade the need to think and evaluate evidence." Nicht am Originaldokument geprüft.' },
+                { kind: 'bibel', work: 'Hebräer', ref: '11,1', quote: `Es ist aber der Glaube eine gewisse Zuversicht des, das man hofft, und ein Nichtzweifeln an dem, das man nicht sieht.`, original: `ἔστιν δὲ πίστις ἐλπιζομένων ὑπόστασις, πραγμάτων ἔλεγχος οὐ βλεπομένων.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [`Darf ich den christlichen Glauben so definieren, wie Christen selbst ihn verstehen – und dann prüfen wir gemeinsam die Gründe?`],
+            },
+          ],
         },
       ],
     },

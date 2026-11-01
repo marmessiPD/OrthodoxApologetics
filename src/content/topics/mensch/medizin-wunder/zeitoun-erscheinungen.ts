@@ -133,6 +133,21 @@ const claim: Claim = {
           questionsBack: [
             `Kennst du einen anderen Fall, in dem Erdbebenlichter monatelang wiederholt über demselben Gebäude standen?`,
           ],
+          followUps: [
+            {
+              id: 'strassenlicht-reflexion',
+              objection: `Viel einfacher: Lichter von Straßenlaternen, Autos oder Werkstätten wurden in Dunst und Staub an der hellen Kuppel reflektiert. Eine erwartungsvolle Menge macht daraus eine Erscheinung.`,
+              objectionBy: 'Brian Dunning (Skeptoid, sinngemäß)',
+              answer: `Das ist eine prüfbare Hypothese – und genau so wurde damals nach Darstellung kirchlicher und journalistischer Berichte auch geprüft: Die Behörden sollen die Straßenbeleuchtung im Viertel abgeschaltet und die Umgebung abgesucht haben, ohne dass die Erscheinungen aufhörten. Ich lege mich auf diese Einzelheiten nicht fest, weil ich sie nicht in Primärquellen prüfen kann. Aber eine Reflexion müsste sich jeden Abend wiederholen, wenn die Lichtquellen brennen – die Berichte schildern dagegen unregelmäßige Erscheinungen, die kamen und gingen.`,
+              detail: `Wichtig für deine Glaubwürdigkeit: Viele Einzelheiten über Zeitoun stammen aus Darstellungen von Gläubigen (z. B. Pearl Zaki, *Before Our Eyes*, 1977; Francis Johnston, *When Millions Saw Mary*, 1980) und aus ägyptischen Zeitungsberichten von 1968. Sie sind wertvolle Zeugnisse, aber keine unabhängig geprüften wissenschaftlichen Protokolle. Sag deshalb „nach den Berichten" und vermeide Superlative. Die stärkste, sicherste Aussage bleibt: Ein physisch leuchtendes Phänomen wurde von sehr vielen Menschen über lange Zeit beobachtet, und die vorgeschlagenen natürlichen Erklärungen sind bisher nicht überzeugend belegt.`,
+              sources: [
+                { kind: 'sonstiges', author: 'Pearl Zaki', work: 'Before Our Eyes: The Virgin Mary, Zeitun, Egypt 1968 and 1969', year: '1977', status: 'paraphrase', note: 'Darstellung aus gläubiger Sicht; Einzelheiten (z. B. Abschalten der Straßenbeleuchtung) nicht unabhängig geprüft.' },
+              ],
+              questionsBack: [
+                `Warum hätten Reflexionen von Straßenlaternen nur an manchen Abenden und nur über dieser Kirche eine Gestalt erzeugen sollen?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -146,6 +161,25 @@ const claim: Claim = {
           id: 'regime-profitierte',
           objection: `Das Regime profitierte politisch davon. Das ist verdächtig.`,
           answer: `Dass jemand aus einem Ereignis Nutzen zieht, beweist nicht, dass er es erfunden hat – sonst müsste man jedes nationale Ereignis für inszeniert halten. Zudem: Das Christentum hängt nicht an Zeitoun. Selbst wenn sich eine natürliche Erklärung fände, bliebe der Glaube an Christus unberührt.`,
+          followUps: [
+            {
+              id: 'licht-statt-hilfe',
+              objection: `Und selbst wenn es ein Zeichen war: Warum schickt Gott ein Licht über eine Kirche, statt den Krieg zu verhindern oder die Armen in Kairo zu speisen? Ein seltsamer Gott.`,
+              objectionBy: 'Michael Shermer / Bart Ehrman (sinngemäß)',
+              answer: `Ein Zeichen ist kein Ersatz für Hilfe, sondern eine Ermutigung, die zur Hilfe ruft. Die Kirche hat die Armen in Kairo nie mit dem Hinweis auf Zeitoun vertröstet – sie betreibt bis heute Schulen, Krankenhäuser und Sozialdienste. Die tiefere Frage, warum Gott Leid zulässt, verdient eine ernsthafte eigene Antwort. Aber dass Gott einem gedemütigten, trauernden Volk ein Zeichen des Trostes gibt, ist mit seiner Liebe nicht unvereinbar – ebenso wenig wie ein Brief, der einen Trauernden tröstet, obwohl er den Verstorbenen nicht zurückbringt.`,
+              detail: `Bemerkenswert ist, dass viele Berichte über Zeitoun von Frieden zwischen Christen und Muslimen erzählen, die gemeinsam auf den Straßen standen und beteten. Nach dem Maßstab Jesu („An ihren Früchten sollt ihr sie erkennen", Mt 7,16) zählt auch das: Ein Zeichen, das Menschen zu Gebet, Umkehr und Versöhnung führt, steht nicht im Gegensatz zur tätigen Nächstenliebe, sondern nährt sie. Papst Kyrillos VI. ist in Ägypten bis heute als Mann des Gebets und der Barmherzigkeit gegenüber Armen in Erinnerung.`,
+              voices: [
+                {
+                  person: 'kyrillos-vi',
+                  role: 'als Patriarch und Mann des Gebets',
+                  text: `Kyrillos VI. lebte vor seiner Wahl als Einsiedler in einer Windmühle bei Alt-Kairo und blieb auch als Patriarch ein Mann täglicher Liturgie und des Gebets. Die Überlieferung erinnert an seine Zuwendung zu Bedürftigen, die ihn täglich aufsuchten. Für ihn gehörten Gebet und Barmherzigkeit untrennbar zusammen.`,
+                  sources: [
+                    { kind: 'koptisch', work: 'Biographische Überlieferung zu Papst Kyrillos VI. (1902–1971)', status: 'paraphrase', note: 'Hagiographisch geprägte Überlieferung; allgemeine Angaben.' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -159,6 +193,36 @@ const claim: Claim = {
           id: 'glaube-haengt-daran',
           objection: `Wenn Zeitoun sich als natürlich erklärbar herausstellt, bricht euer Glaube zusammen.`,
           answer: `Nein. Erscheinungen sind nach orthodoxer Lehre Zeichen, keine Fundamente. Der Glaube ruht auf Christus, seiner Menschwerdung, seinem Kreuz und seiner Auferstehung – und für diese gibt es eigene, historische Gründe (1 Kor 15). Gerade deshalb kann ich über Zeitoun gelassen und ehrlich sprechen.`,
+        },
+      ],
+    },
+    {
+      id: 'zeugen-unzuverlaessig',
+      objection: `Zeugenaussagen bei religiösen Massenereignissen sind notorisch unzuverlässig. Beim „Sonnenwunder" von Fátima 1917 sahen manche die Sonne tanzen, andere nichts. Menschenmengen steigern sich gegenseitig in Wahrnehmungen hinein.`,
+      objectionBy: 'Joe Nickell / Michael Shermer',
+      answer: `Die Vorsicht ist berechtigt, und ich würde Fátima und Zeitoun nicht gleichsetzen. Zeitoun war kein einmaliger Moment, sondern wiederholte sich nach den Berichten über viele Monate – man konnte also immer wieder hingehen, prüfen, fotografieren, skeptische Beobachter mitbringen. Gerade bei Massenpsychologie würde man erwarten, dass das Phänomen verschwindet, sobald die Erregung nachlässt. Ich behaupte nicht, dass jede Einzelaussage stimmt – nur, dass der Kern breit und wiederholt bezeugt ist.`,
+      detail: `Die Forschung zu Augenzeugen zeigt tatsächlich, dass Einzelheiten oft falsch erinnert werden und Gruppen sich beeinflussen (Elizabeth Loftus). Sie zeigt aber auch, dass der **Kern** eines Ereignisses – dass überhaupt etwas geschah – von vielen unabhängigen Zeugen verlässlich wiedergegeben wird. Historiker gehen mit Zeugnissen nicht anders um: Sie fragen nach Zahl, Vielfalt, Unabhängigkeit und Wiederholbarkeit der Beobachtungen.`,
+      questionsBack: [
+        `Wenn ein Phänomen sich über Monate an vielen Abenden wiederholt – reicht dann Massensuggestion als Erklärung?`,
+      ],
+      followUps: [
+        {
+          id: 'beschreibungen-widerspruechlich',
+          objection: `Die Beschreibungen widersprechen sich: Manche sahen eine Gestalt, andere Tauben aus Licht, andere nur einen Schein. Das spricht für Einbildung.`,
+          objectionBy: 'Robert Todd Carroll (Skeptic\'s Dictionary)',
+          answer: `Abweichungen in Einzelheiten sind typisch für **echte** Augenzeugenberichte. Wenn hunderte Menschen exakt dasselbe sagten, würde man zu Recht Absprache vermuten. Gerichte und Historiker kennen das Muster: Übereinstimmung im Kern, Unterschiede in Details, Blickwinkel und Deutung. Dass manche nur einen Schein sahen und andere eine Gestalt, passt zu einem realen Lichtphänomen, das unterschiedlich gut zu sehen und unterschiedlich gedeutet wurde.`,
+          followUps: [
+            {
+              id: 'keine-wissenschaftliche-messung',
+              objection: `Wenn das so außergewöhnlich war – warum hat kein Wissenschaftlerteam Messungen gemacht? Spektren, Temperatur, Filmaufnahmen aus mehreren Winkeln?`,
+              objectionBy: 'Edzard Ernst / Michael Shermer',
+              answer: `Das ist ein berechtigter Punkt und eine echte Schwäche der Quellenlage: Systematische naturwissenschaftliche Messungen sind nicht dokumentiert. Das liegt auch an den Umständen – Ägypten 1968, kurz nach dem Krieg, ohne Forschungsteams vor Ort. Daraus folgt aber nur, dass wir über die physikalische Natur des Lichts wenig wissen, nicht, dass nichts war. Ehrlich gesagt: Darum mache ich Zeitoun nie zum Fundament meines Glaubens, sondern erwähne es als bemerkenswertes, ernst zu nehmendes Zeugnis.`,
+              detail: `Hier zeigt sich die richtige Haltung für die ganze Debatte: Stärke dort, wo die Belege stark sind (viele Zeugen, physisches Licht, Wiederholung, keine belegte Täuschung), Bescheidenheit dort, wo sie schwach sind (keine Messungen, viele Einzelheiten nur aus gläubigen Darstellungen). Ein Laie, der so spricht, ist für einen Skeptiker viel schwerer anzugreifen als einer, der alles behauptet. Und er kann jederzeit zur Mitte zurücklenken: Der christliche Glaube steht und fällt mit der Auferstehung Jesu, nicht mit Zeitoun.`,
+              questionsBack: [
+                `Wenn wir über die Natur des Lichts wenig wissen – ist „Massenhysterie" dann nicht ebenso unbelegt wie ein Wunder?`,
+              ],
+            },
+          ],
         },
       ],
     },
