@@ -108,6 +108,23 @@ const claim: Claim = {
           objection: `Dann ist auch „Gott vor dem Urknall" sinnlos. Du kannst nicht beides haben.`,
           objectionBy: 'Lawrence Krauss',
           answer: `Richtig, wenn „vor" zeitlich gemeint wäre – deshalb meint die Theologie es nicht so. „Gott ist vor allem" (Kol 1,17) heißt: Er ist Grund von allem, nicht der Erste in einer Zeitreihe. Augustinus hat genau diesen Einwand im 5. Jahrhundert schon beantwortet.`,
+          followUps: [
+            {
+              id: 'was-tat-gott-vorher',
+              objection: `Augustinus hat die Frage „Was tat Gott, bevor er Himmel und Erde schuf?" doch nur mit einem Witz abgewehrt: Er bereitete die Hölle für die, die solche Fragen stellen. Das ist keine Antwort, das ist Einschüchterung.`,
+              objectionBy: 'Lawrence Krauss',
+              answer: `Das ist ein verbreitetes Missverständnis. Augustinus zitiert diesen Witz in den *Bekenntnissen* gerade, um ihn ausdrücklich *abzulehnen* – er will so nicht antworten. Seine eigentliche Antwort ist philosophisch: Es gab kein „Vorher", denn die Zeit selbst ist ein Geschöpf. Die Welt wurde nicht *in* der Zeit, sondern *mit* der Zeit geschaffen. Das ist fast wörtlich, was Hawking 1500 Jahre später über den Urknall sagt.`,
+              detail: `In *Confessiones* XI,12,14 schreibt Augustinus, er antworte nicht so, wie jemand scherzhaft geantwortet haben soll; lieber sage er „Ich weiß es nicht", als jemanden lächerlich zu machen, der Tiefes fragt. In XI,13,15 folgt die Lösung: Da Gott der Schöpfer aller Zeiten ist, gab es keine Zeit, bevor er die Zeit schuf, und damit kein „Damals", in dem er untätig gewesen wäre. In *De civitate Dei* XI,6 fasst er zusammen: Die Welt ist nicht in der Zeit, sondern mit der Zeit gemacht. Wer Augustinus als Einschüchterer zitiert, hat ihn nicht gelesen – und verpasst, dass die moderne Kosmologie seine Pointe bestätigt.`,
+              voices: [
+                { person: 'augustinus', role: 'als Philosoph der Zeit', text: `Augustinus versteht die Zeit als Eigenschaft der veränderlichen Schöpfung. Gott dagegen ist ewig im Sinne eines ganzheitlichen, unveränderlichen Gegenwärtigseins, nicht einer unendlich langen Dauer. Deshalb ist die Frage, was Gott „vorher" tat, ein Kategorienfehler: Sie überträgt die Zeitform des Geschöpfs auf den Schöpfer.` },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'Confessiones', ref: 'XI,12,14–13,15', year: 'ca. 397–401', quote: `Ich antworte nicht, wie einer gescherzt haben soll, um der Schwere der Frage auszuweichen … Es gab kein „Damals", wo es keine Zeit gab.`, status: 'paraphrase' },
+                { kind: 'kirchenvater', author: 'Augustinus von Hippo', work: 'De civitate Dei', ref: 'XI,6', year: 'ca. 417', quote: `Ohne Zweifel ist die Welt nicht in der Zeit, sondern mit der Zeit gemacht worden.`, original: `procul dubio non est mundus factus in tempore, sed cum tempore`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+              questionsBack: [`Hast du die Stelle bei Augustinus selbst gelesen? Er lehnt den Witz ausdrücklich ab – und sagt dann, dass die Zeit mit der Welt beginnt.`],
+            },
+          ],
         },
       ],
     },
