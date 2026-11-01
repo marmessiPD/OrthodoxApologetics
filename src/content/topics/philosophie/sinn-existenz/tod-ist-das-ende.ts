@@ -203,6 +203,18 @@ const claim: Claim = {
               sources: [
                 { kind: 'bibel', work: '1. Korinther', ref: '15,42–44', quote: `Es wird gesät verweslich und wird auferstehen unverweslich. … Es wird gesät ein natürlicher Leib, und wird auferstehen ein geistlicher Leib.`, translation: 'Luther 1912', status: 'verbatim' },
               ],
+              followUps: [
+                {
+                  id: 'hirnschaden-keine-seele',
+                  objection: `Eine Seele? Die Neurologie hat sie längst widerlegt. Eine Verletzung des Stirnhirns verändert die Persönlichkeit – denk an Phineas Gage –, Alzheimer löscht Erinnerungen, Narkose schaltet das Bewusstsein ab. Wenn eine Eisenstange den Charakter ändert, gibt es nichts, was den Tod des Gehirns überlebt.`,
+                  objectionBy: 'Robert Sapolsky / Sean Carroll',
+                  answer: `Dass unser Denken in diesem Leben vom Gehirn abhängt, bestreitet kein vernünftiger Christ – die Kirchenväter wussten, dass Krankheit, Wein und Schlaf den Geist beeinflussen. Aber Abhängigkeit ist nicht Identität: Ein Pianist kann auf einem verstimmten Klavier nicht gut spielen, und doch ist er nicht das Klavier. Und die christliche Hoffnung ist ohnehin nicht die einer körperlosen Seele, sondern die Auferstehung des ganzen Menschen, Leib und Seele. Wer an den Gott glaubt, der den Leib schuf, hat keinen Grund zu bezweifeln, dass er ihn auch neu schaffen kann.`,
+                  detail: `Die orthodoxe Anthropologie ist ganzheitlich: Der Mensch ist nicht eine Seele, die einen Körper „bewohnt", sondern eine Einheit aus Leib und Seele. Der Tod ist eine widernatürliche Trennung, die in der Auferstehung aufgehoben wird. Neurologen wie Wilder Penfield und John Eccles blieben nach lebenslanger Hirnforschung Dualisten; die Frage, wie subjektives Erleben aus Materie hervorgehen soll („das schwere Problem des Bewusstseins", David Chalmers), ist bis heute offen. Siehe die Claims im Themenblock „Geist = Gehirn".`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'David J. Chalmers', work: 'Facing Up to the Problem of Consciousness', ref: 'Journal of Consciousness Studies 2 (3)', year: '1995', quote: `Chalmers unterscheidet die „leichten" Probleme der Hirnfunktionen vom „schweren Problem", warum physische Vorgänge überhaupt von subjektivem Erleben begleitet sind.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -228,6 +240,31 @@ const claim: Claim = {
           sources: [
             { kind: 'bibel', work: 'Hebräer', ref: '9,27', quote: `Und wie den Menschen ist gesetzt, einmal zu sterben, darnach aber das Gericht.`, translation: 'Luther 1912', status: 'verbatim' },
           ],
+          followUps: [
+            {
+              id: 'haegglund-diesseits-zweitrangig',
+              objection: `Mein eigentlicher Punkt: Wer an ein ewiges Leben glaubt, behandelt dieses Leben als Wartesaal. Die Menschen, die du liebst, sind dann nur vorläufig wichtig. Erst der „säkulare Glaube", dass dieses Leben das einzige ist, macht uns fähig, uns wirklich um es zu sorgen.`,
+              objectionBy: 'Martin Hägglund (This Life, 2019)',
+              answer: `Das trifft eine weltflüchtige Frömmigkeit, nicht den christlichen Glauben. Das Christentum glaubt an die Auferstehung des *Leibes* – dieses Leben, dieser Körper, diese Beziehungen sind nicht Wegwerfware, sondern werden verwandelt und vollendet. Gott ist selbst Fleisch geworden; in der koptischen Kirche werden Brot, Wein, Wasser und Öl zu Trägern göttlichen Lebens. Und Jesus sagt, das ewige Leben beginne jetzt: „Das ist aber das ewige Leben, daß sie dich … erkennen" (Joh 17,3). Wer weiß, dass seine Liebe ewige Bedeutung hat, nimmt sie ernster, nicht weniger ernst.`,
+              detail: `Hägglund argumentiert, dass nur das Bewusstsein der Endlichkeit uns Zeit als kostbar erfahren lässt; ein ewiges Leben würde jede Fürsorge entwerten. Die christliche Antwort: Der Wert eines Menschen liegt nicht in seiner Knappheit, sondern darin, dass Gott ihn liebt. Gerade die Christen, die an die Auferstehung glaubten, pflegten in Seuchen die Sterbenden – weil sie in jedem Kranken Christus sahen (Mt 25,40).`,
+              sources: [
+                { kind: 'gegner', author: 'Martin Hägglund', work: 'This Life: Secular Faith and Spiritual Freedom', year: '2019', quote: `Hägglund vertritt, dass nur der „säkulare Glaube" an die Endlichkeit dieses Lebens echte Hingabe an das Leben und die Geliebten ermöglicht.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Johannes', ref: '17,3', quote: `Das ist aber das ewige Leben, daß sie dich, der du allein wahrer Gott bist, und den du gesandt hast, Jesum Christum, erkennen.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'trauer-unecht',
+                  objection: `Und wenn du deine Toten ohnehin wiedersiehst, ist deine Trauer doch nicht echt. Echte Trauer setzt voraus, dass der Verlust endgültig ist.`,
+                  objectionBy: 'Martin Hägglund',
+                  answer: `Jesus stand am Grab des Lazarus, wusste, dass er ihn gleich auferwecken würde – und weinte trotzdem (Joh 11,35). Trauer ist nicht der Zweifel am Wiedersehen, sondern der Schmerz über den Abschied, über den Riss, den der Tod in die Liebe reißt. Paulus verbietet die Trauer nicht, sondern sagt: „daß ihr nicht traurig seid wie die andern, die keine Hoffnung haben" (1 Thess 4,13). Christen trauern mit Hoffnung – das macht die Trauer nicht kleiner, sondern tragbar.`,
+                  detail: `Die koptische Kirche begleitet Trauernde mit Gebeten am dritten und vierzigsten Tag und zum Jahrestag; sie gibt der Trauer Raum und Form. Für das Gespräch mit Trauernden gilt: Nicht mit dem Wiedersehen „trösten", bevor der Schmerz gehört wurde.`,
+                  sources: [
+                    { kind: 'bibel', work: '1. Thessalonicher', ref: '4,13', quote: `Wir wollen euch aber, liebe Brüder, nicht verhalten von denen, die da schlafen, auf daß ihr nicht traurig seid wie die andern, die keine Hoffnung haben.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -249,6 +286,19 @@ const claim: Claim = {
           detail: `C. S. Lewis unterscheidet in *The Weight of Glory* (1941) zwischen „angehängten" und „eigentlichen" Belohnungen: Geld für eine Heirat wäre eine angehängte, käufliche Belohnung; die Ehe selbst ist der eigentliche Lohn der Liebe. So verhält es sich mit dem Himmel. Zugleich gilt: Wer echte Selbstlosigkeit bei Atheisten sieht, sollte sie dankbar anerkennen – sie ist ein Abglanz des Bildes Gottes in jedem Menschen.`,
           sources: [
             { kind: 'fachliteratur', author: 'C. S. Lewis', work: 'The Weight of Glory', year: '1941', quote: `Die eigentlichen Belohnungen sind nicht einfach an die Tätigkeit angehängt, für die sie gegeben werden, sondern sind diese Tätigkeit in ihrer Vollendung.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'pascals-wette-egoistisch',
+              objection: `Pascals Wette zeigt doch, worum es geht: Glaub vorsichtshalber, dann gewinnst du die Ewigkeit. Ein Gott, der das belohnt, würde vorgetäuschten Glauben honorieren – ein ehrlicher Gott würde den ehrlichen Zweifler vorziehen.`,
+              objectionBy: 'Richard Dawkins (The God Delusion, Kap. 3)',
+              answer: `Pascals Wette ist kein Grund, Christ zu werden, und Pascal hat sie auch nicht so gemeint. Sie richtet sich an jemanden, der meint, die Gründe stünden unentschieden, und sagt ihm: Dann ist es vernünftig, die Frage ernsthaft zu verfolgen, statt sie achselzuckend liegen zu lassen. Niemand kann Glauben vortäuschen und damit Gott täuschen – „Gott sieht das Herz an" (1 Sam 16,7). Und Dawkins hat in einem Punkt recht: Gott achtet ehrliches Suchen. Genau deshalb sagt Jesus: „Suchet, so werdet ihr finden" (Mt 7,7).`,
+              detail: `Pascals Fragment über die Wette (Pensées, Brunschvicg 233 / Lafuma 418) gehört zu einer unvollendeten Apologie, in der er vor allem die historischen Gründe für das Christentum, die Erfüllung der Prophetie und die Person Christi darstellen wollte. Die Wette ist ein Appell an den Gleichgültigen, nicht das Fundament. Pascal selbst rät dem, der glauben möchte, aber nicht kann, nicht zur Heuchelei, sondern dazu, seine Leidenschaften zu mindern und sich auf den Weg zu machen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Blaise Pascal', work: 'Pensées', ref: 'Brunschvicg 233 / Lafuma 418', year: '1670 (postum)', quote: `Pascal argumentiert, dass derjenige, der die Gründe für unentschieden hält, auf Gott setzen solle, da er wenig zu verlieren und Unendliches zu gewinnen habe – und rät ihm, sich um eine Verminderung seiner Leidenschaften zu bemühen.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Matthäus', ref: '7,7', quote: `Bittet, so wird euch gegeben; suchet, so werdet ihr finden; klopfet an, so wird euch aufgetan.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+            },
           ],
         },
       ],

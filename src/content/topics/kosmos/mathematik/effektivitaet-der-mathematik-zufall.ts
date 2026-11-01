@@ -145,6 +145,30 @@ const claim: Claim = {
               questionsBack: [
                 `Warum sollte eine Rechenhilfe aus der Renaissance in Laborexperimenten des 21. Jahrhunderts unverzichtbar sein?`,
               ],
+              followUps: [
+                {
+                  id: 'universum-ist-mathematik',
+                  objection: `Dann löst sich das Rätsel ganz auf: Das Universum **ist** eine mathematische Struktur. Dass Mathematik die Welt beschreibt, ist so wenig erstaunlich, wie dass eine Landkarte sich selbst gleicht.`,
+                  objectionBy: 'Max Tegmark',
+                  answer: `Damit gibt Tegmark zu, dass das Passen kein Zufall ist – das ist schon die Hälfte meines Arguments. Aber seine Lösung kostet viel: Er muss annehmen, dass **jede** denkbare mathematische Struktur physikalisch existiert. Dann bleibt unerklärt, warum wir in einer einfachen, gesetzmäßigen Struktur leben statt in einer der unzähligen chaotischen. Und eine Struktur „ist" nichts Bewusstes – woher kommen dann die Mathematiker, die sie erkennen?`,
+                  detail: `Tegmarks „Hypothese des mathematischen Universums" ist unter Physikern eine Außenseiterposition; selbst Sympathisanten nennen sie kaum prüfbar. Sie ersetzt das Staunen über die Passung durch eine viel größere Zusatzannahme (alle Strukturen existieren), ohne zu erklären, warum unsere Welt ausgerechnet **entdeckbar** ist.
+
+John Polkinghorne, Quantenphysiker und Theologe, beschreibt die Alternative: Die Vernünftigkeit der Welt und die Vernünftigkeit unseres Verstandes haben einen gemeinsamen Ursprung im Logos, dem Wort, durch das alles geschaffen ist (Joh 1,3). Das erklärt beides – die Ordnung „draußen" und die Einsicht „drinnen".`,
+                  voices: [
+                    {
+                      person: 'polkinghorne',
+                      role: 'als theoretischer Physiker und Theologe',
+                      text: `Polkinghorne betont, dass die Physik die Welt als „rational transparent" und „rational schön" erfährt. Die Wissenschaft setzt diese Verständlichkeit voraus, kann sie aber nicht selbst begründen. Der Glaube an einen Schöpfer, dessen Geist sich in der Ordnung der Welt spiegelt, bietet dafür eine Erklärung, die über die Physik hinausweist, ohne ihr zu widersprechen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'John Polkinghorne', work: 'Belief in God in an Age of Science', year: '1998', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn alle mathematischen Strukturen existieren – warum ist unsere so einfach, dass Menschen sie aufschreiben können?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -183,6 +207,38 @@ const claim: Claim = {
           ],
           questionsBack: [
             `Welche Beobachtung würde nach deiner Ansicht den Naturalismus gegenüber dem Theismus bestätigen – und warum gerade eine gesetzmäßige Welt?`,
+          ],
+          followUps: [
+            {
+              id: 'theologie-passt-sich-an',
+              objection: `Das ist nachträgliche Anpassung. Hätte die Welt chaotisch ausgesehen, hätten Theologen gesagt: „Gottes Wege sind unergründlich." Eine Theorie, die sich jedem Befund anschmiegt, sagt nichts vorher.`,
+              objectionBy: 'Michael Shermer',
+              answer: `Historisch war es umgekehrt: Die Erwartung kam **vor** dem Befund. Kepler, Galilei, Newton und Boyle suchten mathematische Gesetze, **weil** sie an einen vernünftigen Gesetzgeber glaubten – und fanden sie. Andere Hochkulturen mit großem technischem Können entwickelten keine mathematische Naturwissenschaft dieses Typs. Eine Erwartung, die Jahrhunderte vor ihrer Bestätigung ausgesprochen wurde, ist keine nachträgliche Anpassung.`,
+              detail: `Galilei formulierte das Programm 1623 im *Saggiatore*: Das Buch der Natur sei in der Sprache der Mathematik geschrieben. Kepler sah in der Geometrie das Urbild der Schöpfung im göttlichen Geist. Wissenschaftshistoriker wie Peter Harrison und Stanley Jaki haben herausgearbeitet, wie die Lehre von der Schöpfung durch einen rationalen Gott diese Erwartung stützte. Ehrlich: Das beweist nicht, dass die Erwartung nur theistisch begründbar ist – aber es widerlegt die Behauptung, sie sei nachträglich zurechtgebogen.`,
+              voices: [
+                {
+                  person: 'kepler',
+                  role: 'als Astronom',
+                  text: `Kepler suchte jahrelang nach exakten mathematischen Beziehungen in den Planetenbahnen, weil er überzeugt war, dass der Schöpfer die Welt nach geometrischen Urbildern geordnet hatte. Als die Daten Tycho Brahes nicht zu Kreisbahnen passten, verwarf er seine Lieblingshypothese und fand die Ellipsen – Glaube an Ordnung und Treue zur Beobachtung gingen bei ihm zusammen.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Johannes Kepler', work: 'Astronomia Nova', year: '1609', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              followUps: [
+                {
+                  id: 'china-indien-mathematik',
+                  objection: `Indien, China und die islamische Welt hatten große Mathematiker. Die Wissenschaftliche Revolution in Europa hat ökonomische und institutionelle Gründe – Druckerpresse, Universitäten, Handel –, keine theologischen.`,
+                  objectionBy: 'Steven Pinker / Wissenschaftshistoriker (z. B. Toby Huff zur Frage der Institutionen)',
+                  answer: `Völlig richtig ist, dass diese Kulturen herausragende Mathematik hervorbrachten – Null, Algebra, Trigonometrie – und Europa viel von ihnen übernahm. Institutionen spielten eine große Rolle, und die Universitäten waren übrigens kirchliche Gründungen. Mein Punkt ist bescheidener: Die Überzeugung, dass **die Natur selbst** universalen, mathematisch formulierbaren Gesetzen gehorcht, hatte bei den Gründern der Physik eine ausdrücklich theologische Begründung. Das zeigt, dass die Erwartung nicht nachträglich erfunden wurde.`,
+                  detail: `Die Frage „Warum Europa?" ist in der Forschung vielschichtig (Huff, Harrison, Hannam, Cohen). Für deine Debatte genügt: Du behauptest nicht, nur Christen könnten Mathematik betreiben. Du behauptest, dass die mathematische Ordnung der Welt im Theismus **erwartet** und im Naturalismus **unerklärt** ist – und dass die Gründer der Physik genau so dachten.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Peter Harrison', work: 'The Fall of Man and the Foundations of Science', year: '2007', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Toby E. Huff', work: 'The Rise of Early Modern Science: Islam, China, and the West', year: '1993 (2. Aufl. 2003)', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],

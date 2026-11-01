@@ -105,6 +105,22 @@ const claim: Claim = {
               objection: `Diese Hochgötter sind nur personifizierte Himmelsmächte (Pettazzoni) – das ist kein Monotheismus.`,
               objectionBy: 'Pascal Boyer (sinngemäß, nach Pettazzoni)',
               answer: `Viele dieser Gestalten werden als Schöpfer, als moralischer Gesetzgeber und als ferner Vater beschrieben – das ist mehr als der Himmel. Auffällig ist das verbreitete Motiv, dass der Schöpfer sich zurückzog, nachdem die Menschen ihn beleidigt hatten. Das deckt sich erstaunlich mit Römer 1. Ein Beweis ist das nicht – aber ein ernstes Indiz gegen die Behauptung, der Gedanke eines höchsten Gottes sei ein spätes Kulturprodukt.`,
+              followUps: [
+                {
+                  id: 'deus-otiosus-unwichtig',
+                  objection: `Gerade der ferne Hochgott – der *deus otiosus* – zeigt doch, dass er religiös unwichtig war. Verehrt wurden Ahnen, Geister und lokale Mächte. Der Hochgott ist eine blasse Randfigur, kein Beweis für einen Urmonotheismus.`,
+                  objectionBy: 'Pascal Boyer (sinngemäß)',
+                  answer: `Dass der Schöpfer im Kult oft an den Rand gedrängt wurde, bestreite ich nicht – aber genau das beschreibt die Bibel: Die Menschen kannten Gott, „haben ihn nicht gepriesen als einen Gott" und wandten sich Geschöpfen zu (Röm 1,21–23). Viele dieser Völker erzählen selbst, dass der Schöpfer sich zurückzog, weil die Menschen ihn beleidigt hatten. Der entscheidende Punkt ist nicht, wie oft er verehrt wurde, sondern dass die Vorstellung eines einen Schöpfers schon da ist – nicht erst als Endpunkt einer langen Entwicklung.`,
+                  detail: `Der Religionshistoriker Mircea Eliade hat das Phänomen des „untätigen Gottes" weltweit beschrieben: Ein himmlischer Schöpfer zieht sich zurück und wird durch aktivere, nähere Mächte ersetzt. Für die Evolutionsthese ist das eher unbequem, denn es widerspricht dem Schema „erst Geister, dann Götter, dann ein Gott". Die Entwicklung scheint in vielen Fällen umgekehrt zu verlaufen: vom einen fernen Schöpfer zu vielen nahen Mächten.
+
+Ehrlich bleibt: Ein solcher Befund beweist keine Uroffenbarung. Er zeigt aber, dass die Annahme, der Eingottglaube sei ein spätes Produkt, nicht die einzige und vielleicht nicht die beste Deutung der Daten ist.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Mircea Eliade', work: 'Die Religionen und das Heilige (Traité d\'histoire des religions)', year: '1949', status: 'paraphrase', quote: `Weltweit verbreitetes Motiv des Himmelsgottes, der sich nach der Schöpfung zurückzieht (deus otiosus) und im Kult von anderen Mächten verdrängt wird.` },
+                    { kind: 'bibel', work: 'Römer', ref: '1,21–23', status: 'paraphrase', quote: `Sie wussten, dass ein Gott ist, und haben ihn nicht gepriesen als einen Gott … und haben verwandelt die Herrlichkeit des unvergänglichen Gottes in ein Bild gleich dem vergänglichen Menschen und der Vögel und der vierfüßigen und der kriechenden Tiere.` },
+                  ],
+                  questionsBack: [`Wenn die Entwicklung vom Geisterglauben zum Monotheismus verliefe – warum kennen so viele Völker einen Schöpfer, der sich zurückgezogen hat?`],
+                },
+              ],
             },
           ],
         },
@@ -121,6 +137,39 @@ const claim: Claim = {
           objection: `Die Bibel wurde aber spät redigiert, um einen frühen Monotheismus in die Vergangenheit zurückzuprojizieren.`,
           objectionBy: 'Robert Wright (sinngemäß)',
           answer: `Das ist eine Hypothese, kein gesicherter Befund. Auffällig ist gerade die Ehrlichkeit der Bibel über Israels ständiges Versagen – eine geschönte Rückprojektion würde anders aussehen. Und das ausschließliche Gebot „Du sollst keine anderen Götter haben neben mir" steht im Kern der ältesten Gesetzestexte. Siehe ausführlich den Claim zur Dokumentenhypothese.`,
+          followUps: [
+            {
+              id: 'kuntillet-ajrud',
+              objection: `Die Archäologie zeigt es schwarz auf weiß: Inschriften aus Kuntillet Adschrud nennen „Jahwe und seine Aschera". Israels Volksreligion war polytheistisch, der Monotheismus kam später.`,
+              objectionBy: 'Robert Wright (unter Berufung auf die Inschriften)',
+              answer: `Die Inschriften sind echt und wichtig – und sie bestätigen die Bibel, statt ihr zu widersprechen. Die Propheten klagen genau darüber, dass viele Israeliten neben Jahwe die Aschera verehrten (2 Kön 21,7; 23,4–7). Die Bibel beschreibt also selbst eine Volksreligion, die vom Bund abgewichen war. Dass es Synkretismus gab, ist keine Entdeckung gegen die Bibel, sondern ihr eigenes Thema. Die Frage ist nicht, was viele taten, sondern was als Gottes Wille verkündet wurde.`,
+              detail: `Die Inschriften aus dem 8. Jahrhundert v. Chr. stammen von einer Karawanenstation im Sinai. Ob „Aschera" dort eine Göttin oder ein Kultgegenstand (ein heiliger Pfahl) meint, ist in der Forschung umstritten. Sicher ist: Sie zeigen religiöse Praxis einzelner Gruppen, nicht die offizielle Lehre des Bundes.
+
+Kenneth Kitchen betont, dass die alttestamentlichen Texte gut in ihre altorientalische Umwelt passen und ein ehrliches Bild vom ständigen Kampf zwischen Bundestreue und Anpassung an die Umgebung zeichnen. Eine Religionsgeschichte, die erfunden worden wäre, um einen späteren Monotheismus zu legitimieren, hätte Israels Untreue kaum so schonungslos geschildert.`,
+              voices: [
+                { person: 'kitchen', role: 'als Ägyptologe und Altorientalist', text: `Kitchen zeigt, dass die biblischen Berichte dem altorientalischen Umfeld ihrer Zeit entsprechen und dass archäologische Funde wie die Inschriften von Kuntillet Adschrud gut zur biblischen Darstellung eines Volkes passen, das immer wieder zwischen dem Bund mit Jahwe und den Kulten der Umgebung schwankte.`, sources: [
+                  { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'On the Reliability of the Old Testament', year: '2003', status: 'paraphrase', quote: `Die alttestamentlichen Berichte passen in ihr altorientalisches Umfeld und schildern Israels Religionsgeschichte realistisch.` },
+                ] },
+              ],
+              sources: [
+                { kind: 'bibel', work: '2. Könige', ref: '23,4–7', status: 'paraphrase', quote: `König Josia ließ alle Geräte, die für Baal und die Aschera gemacht waren, aus dem Tempel des HERRN schaffen und verbrennen.` },
+              ],
+              followUps: [
+                {
+                  id: 'monotheismus-erst-im-exil',
+                  objection: `Echter, theoretischer Monotheismus taucht erst im Exil auf – bei Deuterojesaja: „Ich bin der Erste und der Letzte, außer mir ist kein Gott." Vorher war Jahwe nur der höchste Gott unter vielen.`,
+                  objectionBy: 'Robert Wright (unter Berufung auf Mark S. Smith)',
+                  answer: `Dass Jesaja 40–55 den Monotheismus besonders klar und grundsätzlich formuliert, ist richtig. Aber die alleinige Verehrung Jahwes und sein Anspruch, Schöpfer und Herr aller Völker zu sein, stehen schon im Kern älterer Texte: im ersten Gebot (Ex 20,3), im „Höre, Israel" (Dtn 6,4) und bei Propheten wie Elia und Amos. Und selbst wenn die Formulierung reifte: Ein Verständnis, das tiefer wird, ist keine Erfindung. Auch die Physik hat die Schwerkraft erst nach und nach verstanden – deshalb gab es sie doch schon vorher.`,
+                  detail: `Die Datierung einzelner Texte ist in der Forschung umstritten, und ein Laie muss diesen Streit nicht entscheiden. Wichtig ist die logische Unterscheidung: Die Frage, **wann** Menschen eine Wahrheit klar formulierten, ist eine andere als die Frage, **ob** sie wahr ist. Die Bibel selbst versteht sich als fortschreitende Offenbarung, die in Christus ihr Ziel erreicht (Hebr 1,1–2). Die Kirchenväter sahen gerade in der geduldigen Erziehung Israels – weg von den Göttern der Umgebung hin zum einen Gott – Gottes pädagogisches Handeln.`,
+                  sources: [
+                    { kind: 'bibel', work: '5. Mose (Deuteronomium)', ref: '6,4', quote: `Höre, Israel, der HERR, unser Gott, ist ein einiger HERR.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'gegner', author: 'Mark S. Smith', work: 'The Early History of God: Yahweh and the Other Deities in Ancient Israel', year: '1990, 2. Aufl. 2002', status: 'paraphrase', quote: `Israels Monotheismus als Ergebnis einer längeren Entwicklung aus einem kanaanäischen religiösen Umfeld.` },
+                  ],
+                  questionsBack: [`Wenn eine Wahrheit erst später klar formuliert wird – folgt daraus, dass sie erfunden wurde?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -148,6 +197,20 @@ const claim: Claim = {
               ],
             },
           ],
+          followUps: [
+            {
+              id: 'gott-waechst-moralisch',
+              objection: `Gott „wächst" in der Geschichte: vom Stammesgott, der Feinde vernichtet, zum universalen Gott der Liebe. Das spiegelt nur die Ausweitung menschlicher Zusammenarbeit wider – je mehr Handel und Austausch, desto freundlicher wird Gott.`,
+              objectionBy: 'Robert Wright (The Evolution of God)',
+              answer: `Wright beobachtet eine echte Richtung in der Geschichte – hin zu mehr moralischer Weite. Bemerkenswert ist, dass er selbst am Ende fragt, ob diese Richtung nicht auf einen höheren Zweck hindeutet. Christen sagen: Ja – nicht Gott wächst, sondern das menschliche Verständnis Gottes, der sich Schritt für Schritt offenbart. Und eines erklärt die Handelsthese nicht: Die Feindesliebe Jesu und das Kreuz sind kein Ergebnis von Nutzenrechnung. Niemand gewinnt im Tausch, wenn er für seine Feinde stirbt.`,
+              detail: `Wrights These, dass Religionen toleranter werden, wenn Menschen voneinander profitieren („Nicht-Nullsummenspiele"), ist anregend. Sie erklärt aber gerade die radikalsten Züge des Christentums schlecht: die Liebe zu denen, von denen man nichts zu gewinnen hat, und den Tod Jesu, der aus der Sicht des Nutzens ein völliges Scheitern war. Die frühen Christen in Alexandrien pflegten in Seuchenzeiten Kranke, die niemand mehr anrührte – oft auf Kosten ihres eigenen Lebens. Das ist kein Geschäft, sondern Nachfolge.`,
+              sources: [
+                { kind: 'gegner', author: 'Robert Wright', work: 'The Evolution of God', year: '2009', status: 'paraphrase', quote: `Die moralische Entwicklung der Gottesvorstellungen folgt der Ausweitung von Nicht-Nullsummen-Beziehungen; die Richtung der Geschichte könne auf einen höheren Zweck hindeuten.` },
+                { kind: 'kirchenvater', author: 'Dionysius von Alexandrien (bei Eusebius)', work: 'Kirchengeschichte', ref: 'VII,22', year: 'ca. 260', status: 'paraphrase', quote: `In der Seuche pflegten die Christen die Kranken ohne Rücksicht auf die eigene Gefahr, während die Heiden ihre Angehörigen verließen.` },
+              ],
+              questionsBack: [`Welcher Nutzen erklärt, dass jemand für seine Feinde stirbt?`],
+            },
+          ],
         },
       ],
     },
@@ -162,8 +225,41 @@ const claim: Claim = {
           objection: `Aber die Bibel beschreibt doch selbst eine Entwicklung – von Abraham bis Jesus.`,
           objectionBy: 'Robert Wright (sinngemäß)',
           answer: `Ja – eine fortschreitende Offenbarung in einer durchgehenden Linie, die vertieft und nicht widerspricht: „Nachdem Gott vorzeiten manchmal und auf mancherlei Weise geredet hat … hat er zuletzt zu uns geredet durch den Sohn" (Hebr 1,1–2). Das ist etwas anderes als die These, Menschen hätten Gott allmählich erfunden. Ein Lehrer, der Schritt für Schritt erklärt, ist kein Schüler, der sich etwas ausdenkt.`,
+          followUps: [
+            {
+              id: 'fortschreitende-offenbarung-ausrede',
+              objection: `„Fortschreitende Offenbarung" ist eine bequeme Ausrede. Was sich ändert, nennt ihr Offenbarung; was peinlich ist, nennt ihr Vorstufe. So kann man jede Entwicklung schönreden.`,
+              objectionBy: 'Robert Wright (sinngemäß)',
+              answer: `Das wäre eine Ausrede, wenn es kein Kriterium gäbe. Aber es gibt eins: Kontinuität und Erfüllung. Die späteren Stufen widerrufen die früheren nicht, sondern vertiefen sie – und laufen auf ein konkretes Ziel zu, das schon früh angekündigt wird: einen Gesalbten, einen leidenden Knecht (Jes 53), einen neuen Bund (Jer 31,31). Dieses Ziel ist kein Gedanke, sondern eine geschichtliche Person, deren Auferstehung man prüfen kann. Eine Ausrede ließe sich nicht so an der Geschichte überprüfen.`,
+              detail: `Die Kirchenväter haben das Bild der Erziehung gebraucht: Irenäus von Lyon beschreibt, wie Gott die Menschheit Schritt für Schritt an seine Gegenwart gewöhnt hat, bis der Sohn kam. Dieses Bild hat einen klaren Inhalt: Ein Lehrer passt seine Sprache den Schülern an, aber er lehrt nicht heute das Gegenteil von gestern. Die Botschaft vom einen Gott, der gerecht und barmherzig ist und sein Volk erwählt, um alle Völker zu segnen (Gen 12,3), zieht sich von Abraham bis zu Christus durch.`,
+              voices: [
+                { person: 'irenaeus', role: 'als Theologe der Heilsgeschichte', text: `Irenäus sieht die Geschichte Gottes mit den Menschen als geduldige Erziehung: Gott gewöhnt den Menschen an seinen Geist und den Geist an den Menschen, bis in Christus alles „zusammengefasst" wird (Rekapitulation). Die Stufen der Offenbarung sind Teile eines einzigen Plans.`, sources: [
+                  { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien (Adversus Haereses)', ref: 'IV,14,2', year: 'ca. 180', status: 'paraphrase', quote: `Gott hat den Menschen auf vielerlei Weise erzogen und vorbereitet, damit er sich an Gottes Gegenwart gewöhne.` },
+                ] },
+              ],
+              questionsBack: [`Kennst du eine andere religiöse Überlieferung, die Jahrhunderte vorher einen leidenden, für andere sterbenden Gottesknecht ankündigt?`],
+            },
+          ],
         },
       ],
+    },
+    {
+      id: 'aelteste-spuren-schamanisch',
+      objection: `Die Archäologie zeigt: Die ältesten religiösen Spuren sind Bestattungen mit Grabbeigaben, Höhlenmalereien und schamanistische Rituale – nirgends ein Hochgott. Religion beginnt mit Geistern und Trance, nicht mit Monotheismus.`,
+      objectionBy: 'Robert Wright (sinngemäß)',
+      answer: `Knochen und Bilder sagen uns, dass frühe Menschen religiös waren – aber nicht, was sie glaubten. Eine Höhlenmalerei verrät nicht, ob ihr Maler an einen Schöpfer glaubte. Aus dem Fehlen eines archäologischen Belegs für einen Hochgott folgt nicht, dass es den Glauben nicht gab: Glaubensinhalte versteinern nicht. Und selbst wenn Religion mit Geisterglauben begonnen hätte, wäre damit nicht entschieden, ob es Gott gibt – Herkunft entscheidet nicht über Wahrheit.`,
+      detail: `Winfried Corduan hat die Debatte um den „Urmonotheismus" neu aufgerollt. Er gesteht offen zu, dass Wilhelm Schmidts Methode überholt ist, zeigt aber, dass die Befunde zu Hochgöttern bei vielen schriftlosen Völkern weiterhin ernst zu nehmen sind und dass die Evolutionsschemata des 19. Jahrhunderts mindestens ebenso spekulativ waren.
+
+Für den Laien genügt eine einfache Regel: Bei so frühen Epochen ist Bescheidenheit auf beiden Seiten angebracht. Die Bibel behauptet nicht, archäologische Details der Steinzeit zu liefern. Sie sagt, dass Gott sich von Anfang an nicht „unbezeugt gelassen" hat (Apg 14,17) – eine Aussage, die mit der weltweiten Religiosität der Menschheit gut zusammenpasst.`,
+      voices: [
+        { person: 'corduan', role: 'als Religionswissenschaftler', text: `Corduan prüft in seiner Untersuchung zum Urmonotheismus die ethnologischen Befunde neu. Er argumentiert, dass bei vielen Völkern ein Schöpfergott bezeugt ist, der älter scheint als der Ahnen- und Geisterkult, und dass die Abwertung dieser Befunde oft mehr mit Vorannahmen als mit Daten zu tun hatte.`, sources: [
+          { kind: 'fachliteratur', author: 'Winfried Corduan', work: 'In the Beginning God: A Fresh Look at the Case for Original Monotheism', year: '2013', status: 'paraphrase', quote: `Neubewertung der Belege für einen ursprünglichen Glauben an einen Schöpfergott bei schriftlosen Völkern.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '14,17', quote: `Und zwar hat er sich selbst nicht unbezeugt gelassen, hat uns viel Gutes getan und vom Himmel Regen und fruchtbare Zeiten gegeben.`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      questionsBack: [`Welche Höhlenmalerei könnte zeigen, ob ihr Maler an einen Schöpfer glaubte oder nicht?`],
     },
   ],
   questionsToAsk: [

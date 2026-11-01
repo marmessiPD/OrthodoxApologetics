@@ -30,7 +30,7 @@ const claim: Claim = {
 **Bundesformular:** Siehe Claim zur Dokumentenhypothese – Kitchen und Mendenhall sehen die Struktur von Ex–Dtn in den hethitischen Verträgen des 14./13. Jh.`,
     sources: [
       { kind: 'wissenschaft', author: 'Lidar Sapir-Hen, Erez Ben-Yosef', work: 'The Introduction of Domestic Camels to the Southern Levant: Evidence from the Aravah Valley. Tel Aviv 40', year: '2013', quote: `Domestizierte Kamele erscheinen im Aravatal im letzten Drittel des 10. Jh. v. Chr., wohl im Zusammenhang mit der Kupferindustrie.`, status: 'paraphrase' },
-      { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'The Patriarchal Age: Myth or History? Biblical Archaeology Review 21/2', year: '1995', quote: `Der Preis von 20 Schekel für Josef entspricht dem Sklavenpreis im frühen 2. Jahrtausend; später stiegen die Preise deutlich.`, status: 'paraphrase' },
+      { kind: 'fachliteratur', author: 'Kenneth A. Kitchen', work: 'The Patriarchal Age: Myth or History? Biblical Archaeology Review 21/2 (März/April 1995)', year: '1995', quote: `Der Preis von 20 Schekel für Josef entspricht dem Sklavenpreis im 19./18. Jh. v. Chr.; die 30 Schekel in Ex 21,32 dem 14./13. Jh.; später stiegen die Preise weiter.`, status: 'paraphrase', url: 'https://library.biblicalarchaeology.org/sidebar/50-years-flashback-1995-kitchen-saves-the-patriarchs/', note: 'Fundstelle per Websuche bestätigt. BAR veröffentlichte dazu auch eine kritische Erwiderung („Dating the Patriarchal Age: Where Kitchen Erred"), die auf Lev 27,5 verweist – siehe Dialog.' },
       { kind: 'gegner', author: 'Thomas L. Thompson', work: 'The Historicity of the Patriarchal Narratives', year: '1974', quote: `Die angeblichen Parallelen aus Nuzi und Mari tragen keine Datierung der Patriarchen ins 2. Jahrtausend.`, status: 'paraphrase' },
       { kind: 'gegner', author: 'John Van Seters', work: 'Abraham in History and Tradition', year: '1975', quote: `Die Abrahamerzählungen spiegeln das 1. Jahrtausend v. Chr.`, status: 'paraphrase' },
     ],
@@ -103,6 +103,19 @@ const claim: Claim = {
           objection: `Du kannst dich nicht entscheiden: frühe Ägäer oder späterer Name? Das zeigt, dass du keine Antwort hast.`,
           objectionBy: 'Dan McClellan',
           answer: `Ich nenne zwei plausible Erklärungen, weil die Daten keine eindeutig bevorzugen – das ist ehrlich, nicht ausweichend. Wichtig ist: Beide erklären den Befund besser als die Annahme eines Autors, der die Philister seiner Zeit kannte und sie trotzdem völlig untypisch beschreibt.`,
+          followUps: [
+            {
+              id: 'aegaeer-mittelbronzezeit',
+              objection: `Für ägäische Gruppen in Kanaan während der Mittelbronzezeit gibt es keinen Beleg. Deine „frühen Ägäer" sind erfunden, um die Bibel zu retten.`,
+              objectionBy: 'John Van Seters',
+              answer: `Es gibt durchaus Belege für ägäische Kontakte in dieser Zeit: Im mittelbronzezeitlichen Palast von Tel Kabri in Galiläa fand man Wandmalereien im minoischen Stil, ebenso in Tell el-Dabʿa (Auaris) im ägyptischen Ostdelta. Das beweist keine „Philister" in Gerar – aber es zeigt, dass Menschen aus dem ägäischen Raum damals in der Levante und in Ägypten tätig waren. Die Bibel selbst verbindet die Philister mit „Kaphtor", also Kreta (Am 9,7).`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Assaf Yasur-Landau, Eric H. Cline u. a.', work: 'Grabungsberichte Tel Kabri', year: 'seit 2005', quote: `Fragmente von Wand- und Bodenmalereien im ägäischen Stil im mittelbronzezeitlichen Palast.`, status: 'paraphrase' },
+                { kind: 'bibel', work: 'Amos', ref: '9,7', quote: `Habe ich nicht Israel aus Ägyptenland geführt und die Philister aus Kaphthor?`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              questionsBack: [`Warum sollte ein Autor des 7. Jahrhunderts die Philister, die er als Erzfeinde kannte, als freundliche Vertragspartner mit semitischem Königsnamen darstellen?`],
+            },
+          ],
         },
       ],
     },

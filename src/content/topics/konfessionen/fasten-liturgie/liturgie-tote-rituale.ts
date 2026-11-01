@@ -173,6 +173,97 @@ const claim: Claim = {
         { kind: 'bibel', work: 'Offenbarung', ref: '1,13', quote: `… und mitten unter den sieben Leuchtern einen, der war eines Menschen Sohne gleich, der war angetan mit einem langen Gewand und begürtet um die Brust mit einem goldenen Gürtel.`, translation: 'Luther 1912', status: 'verbatim' },
       ],
     },
+    {
+      id: 'heidnisches-hofzeremoniell',
+      objection: `„Eure Liturgie stammt aus dem heidnischen und kaiserlichen Hofzeremoniell: Prozessionen, Gewänder, Kerzen und Weihrauch kamen mit Konstantin in die Kirche. Die Urgemeinde feierte ein schlichtes Mahl im Haus."`,
+      objectionBy: 'Frank Viola / George Barna',
+      answer: `Die **Gestalt** der Liturgie ist älter als Konstantin. Justin beschreibt um 155 – über 150 Jahre vor Konstantin – den Sonntagsgottesdienst: Lesungen aus den Aposteln und Propheten, Predigt des Vorstehers, gemeinsame Fürbitten, Friedenskuss, Darbringung von Brot und Wein, ein langes Dankgebet des Vorstehers, das „Amen" des Volkes, die Austeilung durch die Diakone. Genau das ist bis heute das Gerüst der koptischen Liturgie. Die Didache (um 100) überliefert sogar schon ausformulierte eucharistische Gebete. Kerzen, Gewänder und feierlicher Schmuck kamen später hinzu – das gebe ich zu –, aber das Herz ist apostolisch.`,
+      detail: `Frank Viola und George Barna (*Pagan Christianity?*, 2008) führen viele Elemente des heutigen Gottesdienstes auf heidnische oder konstantinische Einflüsse zurück. Für Äußerlichkeiten wie Prachtgewänder oder Basilikaarchitektur ist das teilweise richtig: Die Kirche übernahm nach 313 Formen der spätantiken Öffentlichkeit, so wie Israel beim Tempelbau phönizische Baumeister beschäftigte (1 Kön 5).
+
+Die Struktur der Eucharistie aber ist in vorkonstantinischen Quellen fest bezeugt: Didache 9–10 und 14 (um 100), Justin, *1. Apologie* 65–67 (um 155), die Traditio Apostolica (3./4. Jh.) mit einem vollständigen Hochgebet. Wer das Kind der Liturgie mit dem Bad der späteren Pracht ausschüttet, verliert den apostolischen Kern.`,
+      voices: [
+        {
+          person: 'justin',
+          role: 'als Zeuge des Sonntagsgottesdienstes um 155',
+          text: `Justin erklärt dem heidnischen Kaiser offen, was Christen am Sonntag tun: Sie versammeln sich, hören die Erinnerungen der Apostel und die Propheten, der Vorsteher ermahnt zur Nachahmung, alle beten gemeinsam, dann werden Brot und Wein mit Wasser gebracht, der Vorsteher spricht Gebete und Danksagungen „so viel er vermag", das Volk stimmt mit „Amen" zu, und die Diakone bringen die eucharistischen Gaben auch den Abwesenden.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Justin der Märtyrer', work: '1. Apologie', ref: '65–67', year: 'um 155', quote: `Beschreibung des sonntäglichen Gottesdienstes: Lesungen, Predigt, gemeinsame Gebete, Friedenskuss, Darbringung von Brot und Wein, Dankgebet des Vorstehers, Amen des Volkes, Austeilung durch die Diakone.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Frank Viola / George Barna', work: 'Pagan Christianity? Exploring the Roots of Our Church Practices', year: '2008', quote: `These: Viele Elemente des institutionellen Gottesdienstes stammen nicht aus dem NT, sondern aus heidnischer Kultur und der konstantinischen Wende.`, status: 'paraphrase' },
+        { kind: 'kirchenvater', work: 'Didache (Lehre der zwölf Apostel)', ref: '9–10', year: 'um 100', quote: `Ausformulierte Dankgebete über Kelch und Brot: „Wir danken dir, unser Vater, für den heiligen Weinstock Davids … Wie dieses Brot zerstreut war auf den Bergen und zusammengebracht eins wurde, so werde deine Kirche zusammengebracht von den Enden der Erde in dein Reich."`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Welche Elemente aus Justins Beschreibung um 155 fehlen in der koptischen Liturgie – und welche fehlen in deinem Gottesdienst?`,
+      ],
+      followUps: [
+        {
+          id: 'justin-schlicht-nicht-drei-stunden',
+          objection: `„Trotzdem: Justin beschreibt einen schlichten Ablauf, und der Vorsteher betete ‚so viel er vermochte' – also frei. Nicht euer dreistündiges, festgeschriebenes Zeremoniell."`,
+          objectionBy: 'Frank Viola',
+          answer: `Das Gerüst ist dasselbe; gewachsen sind Psalmen, Hymnen und Gebete – so wie ein Baum aus dem Samen wächst, ohne eine andere Pflanze zu werden. Paulus selbst ermuntert zu „Psalmen und Lobgesängen und geistlichen Liedern" (Kol 3,16). Und das freie Gebet des Vorstehers wurde bald in bewährten Formen festgehalten, damit die Kirche überall rechtgläubig betet: Ein Papyrusfragment aus Ägypten (Straßburg, 4./5. Jh.) enthält bereits Teile des alexandrinischen Markus-Hochgebets, aus dem die koptische Kyrillus-Liturgie hervorgegangen ist.`,
+          detail: `Die koptische Kirche feiert drei Hochgebete: das des hl. Basilius, das des hl. Gregor des Theologen und das des hl. Kyrill, das auf die alte alexandrinische Markus-Anaphora zurückgeht. Der Straßburger Papyrus Gr. 254 gilt als einer der ältesten Zeugen dieses alexandrinischen Gebetstyps. Dass Gebete schriftlich fixiert wurden, war kein Verlust an Geist, sondern Schutz vor Irrlehre: Gerade im 4. Jahrhundert sorgten sich die Väter, dass Häretiker ihre Lehre über frei formulierte Gebete verbreiten könnten.
+
+Ehrlich: Die Länge der Gottesdienste ist ein pastorales Thema, und auch Kopten ringen damit, wie Familien mit kleinen Kindern teilnehmen können. Aber Länge ist kein Zeichen von Leblosigkeit – Paulus predigte in Troas bis Mitternacht (Apg 20,7).`,
+          sources: [
+            { kind: 'bibel', work: 'Kolosser', ref: '3,16', quote: `Lasset das Wort Christi unter euch reichlich wohnen in aller Weisheit; lehret und vermahnet euch selbst mit Psalmen und Lobgesängen und geistlichen lieblichen Liedern und singet dem HERRN in eurem Herzen.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'liturgie', work: 'Straßburger Papyrus Gr. 254 (Fragment der alexandrinischen Markus-Anaphora)', year: '4./5. Jh.', quote: `Frühes ägyptisches Fragment eines eucharistischen Hochgebets vom alexandrinischen Typ, Vorläufer der koptischen Kyrillus-Liturgie.`, status: 'paraphrase', note: 'Datierung und Umfang in der Forschung diskutiert.' },
+          ],
+          followUps: [
+            {
+              id: 'ritual-verdraengt-predigt',
+              objection: `„Bei so viel Ritual bleibt für das Wort Gottes kaum Platz. Im Zentrum des Gottesdienstes muss die Predigt der Schrift stehen, nicht ein Zeremoniell."`,
+              objectionBy: 'John MacArthur',
+              answer: `Komm einmal in eine koptische Liturgie und zähle mit: Lesung aus den Paulusbriefen, aus den katholischen Briefen, aus der Apostelgeschichte, ein Psalm und das Evangelium – vier neutestamentliche Lesungen in jedem Gottesdienst, dazu die Predigt. Und die Gebete selbst sind aus Schriftworten gewebt. Der Wortgottesdienst geht der Eucharistie voraus – wie in Emmaus: Erst „legte er ihnen die Schrift aus", dann erkannten sie ihn „am Brotbrechen" (Lk 24,27.30–31). Wort und Sakrament gehören zusammen.`,
+              sources: [
+                { kind: 'bibel', work: 'Lukas', ref: '24,30–31', quote: `Und es geschah, da er mit ihnen zu Tische saß, nahm er das Brot, dankte, brach's und gab's ihnen. Da wurden ihre Augen geöffnet, und sie erkannten ihn.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              questionsBack: [
+                `Wie viele Schriftlesungen hat ein durchschnittlicher Sonntagsgottesdienst in deiner Gemeinde?`,
+              ],
+              followUps: [
+                {
+                  id: 'geist-nicht-im-buch',
+                  objection: `„Aber wo bleibt die Freiheit des Geistes, wenn alles vorgeschrieben ist? Der Heilige Geist lässt sich nicht in ein Buch einsperren."`,
+                  objectionBy: 'pfingstliche und charismatische Prediger',
+                  answer: `Der Geist selbst hat Israel und Jesus ein festes Gebetbuch gegeben – die Psalmen. Pfingsten geschah an einem festen Feiertag (Apg 2,1), und danach „blieben sie beständig … im Brotbrechen und im Gebet" – im Griechischen „in den Gebeten", mit Artikel (Apg 2,42). Und das Herz jeder koptischen Liturgie ist die **Epiklese**: die feierliche Bitte, dass der Heilige Geist herabkomme auf uns und auf die Gaben. Eine Liturgie, die in jeder Feier den Geist herabruft, sperrt ihn nicht ein – sie wartet auf ihn.`,
+                  detail: `Alexander Schmemann beschrieb die Liturgie als Weg der Kirche in das Reich Gottes: Die Versammlung „steigt auf" zum himmlischen Altar und kehrt verwandelt in die Welt zurück. Die festen Formen sind dabei wie das Flussbett, das das Wasser nicht hemmt, sondern trägt.
+
+Auch die Erfahrung vieler Charismatiker, die zur Orthodoxie fanden, zeigt: Spontaneität hat ihren eigenen Trott – dieselben Lieder, dieselben Floskeln, dieselben Spannungsbögen. Die Liturgie dagegen führt jede Woche durch die ganze Heilsgeschichte und lässt Raum für das persönliche Gebet des Herzens, das die Väter so hoch schätzten.`,
+                  voices: [
+                    {
+                      person: 'schmemann',
+                      role: 'als orthodoxer Liturgiewissenschaftler',
+                      text: `Schmemann versteht die Eucharistie als „Sakrament des Reiches": Die Kirche versammelt sich, um zu werden, was sie ist – der Leib Christi –, und wird in der Epiklese vom Geist in die Gegenwart des kommenden Reiches hineingenommen. Liturgie ist für ihn nicht Zeremonie, sondern das Leben der Kirche in ihrer dichtesten Form.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Alexander Schmemann', work: 'For the Life of the World', year: '1963', quote: `Die Liturgie als Weg der Kirche in das Reich Gottes und als Rückkehr in die Welt, um Zeugnis zu geben.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '2,42', quote: `Sie blieben aber beständig in der Apostel Lehre und in der Gemeinschaft und im Brotbrechen und im Gebet.`, translation: 'Luther 1912', status: 'verbatim', note: 'Griechisch: „in den Gebeten" (Plural mit Artikel).' },
+                  ],
+                  questionsBack: [
+                    `Wenn Jesus selbst am Kreuz mit Psalmworten betete – war das ein Mangel an Geist?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 'epiklese-erfunden',
+          objection: `„Die Epiklese ist eine spätere Erfindung. Jesus sprach beim Abendmahl nur die Einsetzungsworte – von einer Anrufung des Geistes steht da nichts."`,
+          objectionBy: 'John MacArthur',
+          answer: `Jesus „dankte" (*eucharistēsas*) – er sprach ein Gebet, die jüdische Lobpreisung über Brot und Kelch. Die Kirche hat in ihrem Dankgebet von Anfang an Gott um sein Wirken gebeten: Die Didache betet um die Sammlung der Kirche, und die Jerusalemer Katechesen (4. Jh.) erklären, dass die Kirche Gott bittet, den Heiligen Geist auf die Gaben zu senden, „damit er das Brot zum Leib Christi mache". Wer Christi Werk und das Wirken des Geistes trennt, trennt, was in der Schrift immer zusammengehört (Lk 1,35; Röm 8,11).`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Jerusalem (zugeschrieben)', work: 'Mystagogische Katechesen', ref: '5,7', year: 'spätes 4. Jh.', quote: `Wir rufen den menschenliebenden Gott an, den Heiligen Geist auf die vorliegenden Gaben herabzusenden, damit er das Brot zum Leib Christi und den Wein zum Blut Christi mache; denn was der Heilige Geist berührt, das ist geheiligt und verwandelt.`, status: 'paraphrase', note: 'Verfasserschaft umstritten (Kyrill oder Johannes von Jerusalem).' },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Ist der Gottesdienst im Himmel (Offb 4–5) „im Geist und in der Wahrheit"? Er hat Gewänder, Weihrauch und feste Hymnen.`,

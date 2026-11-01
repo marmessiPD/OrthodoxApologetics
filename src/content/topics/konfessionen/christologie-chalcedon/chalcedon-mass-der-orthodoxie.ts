@@ -212,6 +212,17 @@ const claim: Claim = {
                   text: `Metropolit Bischoi von Damiette vertrat die koptische Kirche im offiziellen Dialog mit den östlich-orthodoxen Kirchen. Er betonte, dass die Einigung auf der Grundlage Kyrills den gemeinsamen Glauben sichtbar mache und dass die Aufhebung der Anathemata ein Akt der Kirchen selbst sein müsse – in gegenseitigem Respekt vor den Vätern beider Seiten.`,
                 },
               ],
+              followUps: [
+                {
+                  id: 'verfolgung-uebertrieben',
+                  objection: `„Die angebliche Verfolgung der Kopten durch Byzanz ist eine Legende späterer koptischer Geschichtsschreibung. Ihr baut eure Identität auf Kränkungen."`,
+                  objectionBy: 'Byzantinischer Kirchenhistoriker',
+                  answer: `Manches in späteren Quellen ist ausgeschmückt – das sollte man zugeben. Aber der Kern ist gut bezeugt: Unter dem von Konstantinopel eingesetzten Patriarchen Kyros (um 631–641) wurde massiver Druck auf die Kopten ausgeübt, und der koptische Papst Benjamin I. musste rund zehn Jahre im Verborgenen leben; die Patriarchengeschichte des Severus ibn al-Muqaffa berichtet davon. Dennoch hast du recht, dass Identität nicht auf Kränkung gebaut werden darf: Die Erinnerung soll geheilt, nicht gepflegt werden.`,
+                  sources: [
+                    { kind: 'koptisch', author: 'Severus ibn al-Muqaffa (Zuschreibung) u. a.', work: 'Geschichte der Patriarchen der koptischen Kirche von Alexandrien', ref: 'Leben Benjamins I.', status: 'paraphrase', note: 'Die Zuschreibung des Werks an Severus ibn al-Muqaffa ist in der Forschung teilweise umstritten.' },
+                  ],
+                },
+              ],
             },
           ],
         },
