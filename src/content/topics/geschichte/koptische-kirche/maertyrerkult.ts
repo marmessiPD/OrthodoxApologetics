@@ -145,7 +145,7 @@ const claim: Claim = {
           id: 'decius-allgemeines-opfer',
           objection: `Das Edikt des Decius verlangte von allen Bürgern ein Opfer. Es richtete sich gar nicht speziell gegen Christen.`,
           objectionBy: 'Candida Moss',
-          answer: `Formal richtete es sich an alle, aber nur Christen (und Juden, die ausgenommen waren) konnten es nicht befolgen, ohne ihren Glauben zu verleugnen. Aus Ägypten sind sogar die Opferbescheinigungen (*libelli*) auf Papyrus erhalten. Wie groß der Druck war, zeigen die Kanones des Petrus von Alexandria (306): Sie regeln ausführlich, wie mit den vielen umzugehen ist, die unter Folter oder Drohung geopfert hatten – solche Regeln braucht keine Kirche, die nur eine „erfundene" Verfolgung erlebt.`,
+          answer: `Formal richtete es sich an alle, aber Christen konnten es nicht befolgen, ohne ihren Glauben zu verleugnen. Aus Ägypten sind sogar die Opferbescheinigungen (*libelli*) auf Papyrus erhalten. Wie groß der Druck war, zeigen die Kanones des Petrus von Alexandria (306): Sie regeln ausführlich, wie mit den vielen umzugehen ist, die unter Folter oder Drohung geopfert hatten – solche Regeln braucht keine Kirche, die nur eine „erfundene" Verfolgung erlebt.`,
         },
       ],
     },

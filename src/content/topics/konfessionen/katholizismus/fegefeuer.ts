@@ -130,6 +130,98 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'mt-12-32-jene-welt',
+      objection: `„Mt 12,32: Die Lästerung gegen den Geist wird nicht vergeben, ‚weder in dieser noch in jener Welt'. Daraus folgt: Manche Sünden werden in der kommenden Welt vergeben. Schon Gregor der Große hat das so gelesen."`,
+      objectionBy: 'Jimmy Akin',
+      answer: `„Weder in dieser noch in jener Welt" ist eine semitische Verstärkung für „niemals" – Markus gibt denselben Satz so wieder: „der hat keine Vergebung ewiglich" (Mk 3,29). Aber selbst wenn man daraus folgert, dass Gott nach dem Tod noch vergeben kann: Vergebung ist nicht dasselbe wie das Abbüßen von Strafen. Auch wir beten für die Vergebung der Entschlafenen – wir vertrauen auf Gottes Erbarmen, nicht auf ein Strafmaß, das abgetragen werden muss.`,
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '3,29', quote: `Wer aber den heiligen Geist lästert, der hat keine Vergebung ewiglich, sondern ist schuldig des ewigen Gerichts.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'gegner', author: 'Gregor der Große', work: 'Dialogi', ref: 'IV,41', year: '593/594', status: 'paraphrase', note: 'Gregor folgert aus Mt 12,32, dass manche leichten Sünden in der kommenden Welt vergeben werden können.' },
+      ],
+      followUps: [
+        {
+          id: 'mt-5-26-letzter-heller',
+          objection: `„Mt 5,25–26: ‚Du wirst nicht von dannen herauskommen, bis du auch den letzten Heller bezahlest.' Ein Gefängnis mit Entlassung nach Bezahlung – das ist das Fegefeuer."`,
+          objectionBy: 'Trent Horn',
+          answer: `Das ist ein Gleichnis, das zur Versöhnung **jetzt** drängt: „Sei willfährig deinem Widersacher bald, dieweil du noch bei ihm auf dem Wege bist." Das Gefängnis allegorisch als Fegefeuer zu deuten, trägt mehr ein, als dasteht. Und gerade katholische Apologeten betonen bei Mt 1,25 („bis sie ihren ersten Sohn gebar"), dass „bis" keine spätere Änderung behauptet. Dieselbe Regel gilt hier: „Bis du bezahlst" beweist keine Entlassung – im verwandten Gleichnis Mt 18,34 kann der Knecht seine zehntausend Talente nie bezahlen.`,
+          questionsBack: [`Wenn „bis" in Mt 1,25 keine Änderung danach einschließt – warum sollte es das in Mt 5,26 tun?`],
+          followUps: [
+            {
+              id: 'david-zeitliche-strafe',
+              objection: `„2 Sam 12,13–14: David wird vergeben, und trotzdem stirbt das Kind. Nach der Vergebung der Schuld bleibt zeitliche Strafe. Wer sie im Leben nicht abträgt, trägt sie nach dem Tod ab."`,
+              objectionBy: 'Jimmy Akin',
+              answer: `Dass Sünde in diesem Leben Folgen hat und Gott seine Kinder erzieht, lehrt die Schrift klar: „Welchen der Herr lieb hat, den züchtigt er" (Hebr 12,6). Aber das geschieht in diesem Leben und dient dem Wachstum, nicht der Bezahlung. Daraus ein System nachtodlicher Genugtuung abzuleiten, ist ein Schluss, den die Schrift nicht zieht – sie sagt im Gegenteil: „Mit einem Opfer hat er in Ewigkeit vollendet, die geheiligt werden" (Hebr 10,14). Auch die Bußauflagen der orthodoxen Beichte (*epitimia*) sind Arznei, keine Zahlung.`,
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '12,6.10', quote: `Denn welchen der Herr lieb hat, den züchtigt er … dieser aber zu Nutz, auf dass wir seine Heiligung erlangen.`, translation: 'Luther 1912', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'zollhaeuser',
+                  objection: `„Ihr Orthodoxen habt doch die ‚Zollhäuser' – Stationen, an denen die Seele nach dem Tod von Dämonen geprüft wird – und das Gedächtnis am 40. Tag. Das ist das Fegefeuer unter anderem Namen!"`,
+                  objectionBy: 'Erick Ybarra',
+                  answer: `Die Vorstellung der „Zollhäuser" ist eine volkstümliche byzantinische Überlieferung, die selbst unter östlich-orthodoxen Theologen umstritten ist – sie ist kein koptisches Dogma. Die koptische Kirche hält Gedächtnisgebete am 3., 7. und 40. Tag und jährlich: Sie bittet um Ruhe und Erbarmen für die Entschlafenen. Es gibt keine Strafzeiten, keinen Schatz der Kirche, keine Ablässe. Zugegeben: Wir teilen mit euch das Gebet für die Toten und die Hoffnung auf Gottes Erbarmen nach dem Tod. Der Unterschied liegt im juristischen Rahmen.`,
+                  voices: [
+                    {
+                      person: 'kallistos-ware',
+                      role: 'als orthodoxer Theologe',
+                      text: `Ware hält fest, dass die Orthodoxie das Gebet für die Verstorbenen kennt und ihnen dadurch helfen will, die Vorstellung eines Fegefeuers im Sinn genugtuender Strafen aber ablehnt. Viele orthodoxe Theologen sprechen zurückhaltend von einem Wachstum oder einer Reinigung in der Liebe Gottes, ohne daraus eine festgelegte Lehre mit Ort, Dauer und Ablass zu machen.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Kallistos Ware', work: 'The Orthodox Church', year: '1963, Neuausgabe 1993', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'fruehe-zeugnisse',
+      objection: `„Die frühe Kirche glaubte an Reinigung nach dem Tod: Perpetua sieht ihren verstorbenen Bruder Dinokrates leiden und betet, bis er erquickt ist (um 203); Tertullian bezeugt Gaben für die Toten an ihrem Todestag."`,
+      objectionBy: 'Katholischer Apologet',
+      answer: `Diese Zeugnisse belegen das **Gebet für die Toten** – und genau das tun wir bis heute. Die Vision der Perpetua ist eine persönliche Schau über ihren kleinen, ungetauften Bruder, keine Lehre über abzubüßende zeitliche Strafen. Tertullian spricht von Opfergaben am Jahrestag – also von Gedächtnis und Fürbitte. Keines dieser Zeugnisse kennt Strafzeiten, einen Schatz der Kirche oder Ablässe. Sie stützen die orthodoxe Praxis ebenso wie die katholische.`,
+      sources: [
+        { kind: 'kirchenvater', work: 'Passio Perpetuae et Felicitatis', ref: '7–8', year: 'um 203', status: 'paraphrase' },
+        { kind: 'kirchenvater', author: 'Tertullian', work: 'De corona militis', ref: '3', year: 'um 211', status: 'paraphrase', note: 'Erwähnt Opfergaben für die Verstorbenen an ihrem Jahrestag als Überlieferung.' },
+      ],
+      followUps: [
+        {
+          id: 'kyrill-jerusalem-opfer',
+          objection: `„Kyrill von Jerusalem sagt, es sei der größte Nutzen für die Seelen, wenn für sie gebetet wird, während das heilige Opfer auf dem Altar liegt. Das eucharistische Opfer hilft den Verstorbenen – das ist die Grundlage des Fegefeuers."`,
+          objectionBy: 'Trent Horn',
+          answer: `Das ist genau, was die koptische Liturgie tut: In der Anaphora gedenkt der Priester der Entschlafenen und bittet, dass Gott ihre Seelen im Schoß Abrahams, Isaaks und Jakobs ruhen lasse. Kyrill spricht vom Nutzen der Fürbitte und von Gottes Erbarmen für Sünder – nicht von einer in Zeit gemessenen Genugtuung. Das ist gemeinsames Erbe; die spätere lateinische Systematisierung ist es nicht.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Kyrill von Jerusalem', work: 'Mystagogische Katechesen', ref: '5,9–10', year: 'um 350 (Zuschreibung z. T. an Johannes von Jerusalem)', status: 'paraphrase' },
+            { kind: 'liturgie', work: 'Koptische Basilius-Liturgie, Gedächtnis der Entschlafenen (Diptychen)', status: 'paraphrase', quote: `Gedenke, o Herr, unserer Väter und Brüder, die im rechten Glauben entschlafen sind; lass ihre Seelen ruhen im Schoß unserer heiligen Väter Abraham, Isaak und Jakob.` },
+          ],
+          followUps: [
+            {
+              id: 'zustand-veraenderbar',
+              objection: `„Wenn das Gebet ihnen nützt, dann verändert sich ihr Zustand. Also gibt es einen Zwischenzustand, der noch nicht endgültig ist – das ist der Sache nach das Fegefeuer."`,
+              objectionBy: 'Trent Horn',
+              answer: `Wir bekennen einen Zwischenzustand vor dem allgemeinen Gericht (Lk 16; Offb 6,9–11) und dass Gottes Erbarmen dort auf die Liebe der Kirche antworten kann – wie, ist Geheimnis. Was wir ablehnen, sind drei Dinge: ein eigener Ort oder Zustand stellvertretender Strafgenugtuung, die Rechnung mit zeitlichen Strafen und Ablässe aus einem Gnadenschatz. Wenn katholische Theologie das Fegefeuer auf „Gottes reinigende Liebe im Zwischenzustand" zurückführt, wird der Abstand kleiner – das sagen wir offen.`,
+              followUps: [
+                {
+                  id: 'mal-3-laeuterfeuer',
+                  objection: `„Mal 3,2–3: Der Herr ist ‚wie das Feuer eines Goldschmieds' und wird die Kinder Levi reinigen. Ein läuterndes Feuer ist biblisch."`,
+                  objectionBy: 'Katholischer Apologet',
+                  answer: `Mal 3 spricht vom Kommen des Herrn – erfüllt im Kommen Christi, dem der Bote (Johannes der Täufer, 3,1) vorausgeht, und vollendet bei seiner Wiederkunft. Das Feuer ist Gottes heilige Gegenwart selbst: „Unser Gott ist ein verzehrendes Feuer" (Hebr 12,29). Die östliche Überlieferung sagt: Dasselbe göttliche Feuer der Liebe ist Freude für die, die Gott lieben, und Qual für die, die ihn zurückweisen – keine eigene Strafanstalt, sondern die Begegnung mit Gott selbst.`,
+                  voices: [
+                    {
+                      person: 'isaak-syrer',
+                      role: 'als Mystiker der göttlichen Liebe',
+                      text: `Isaak der Syrer lehrt, dass die Verdammten nicht von Gottes Liebe ausgeschlossen sind, sondern sie als Qual erfahren: Die Liebe Gottes wirkt auf zweifache Weise – als Bitterkeit für die, die sich gegen sie verschlossen haben, und als Freude für die, die sie annehmen. Das Feuer ist nicht etwas anderes als Gott, sondern seine Liebe, die verschieden empfangen wird.`,
+                      sources: [{ kind: 'kirchenvater', author: 'Isaak der Syrer', work: 'Asketische Homilien', ref: 'Homilie 28 (nach westlicher Zählung)', year: '7. Jh.', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wo spricht die Schrift von „zeitlichen Sündenstrafen", die nach dem Tod abgebüßt werden müssen?`,

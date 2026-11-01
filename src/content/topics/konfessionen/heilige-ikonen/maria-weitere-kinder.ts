@@ -181,6 +181,95 @@ Bauckham zeigt: Die Frage ist wissenschaftlich offen, und die östliche Überlie
         },
       ],
     },
+    {
+      id: 'erstgeborener-lk-2-7',
+      objection: `„Lk 2,7: ‚Sie gebar ihren ersten Sohn.' Wer von einem ‚Erstgeborenen' (prōtotokos) spricht, setzt voraus, dass weitere Kinder folgten. Sonst hätte Lukas ‚ihren einzigen Sohn' geschrieben."`,
+      objectionBy: 'Helvidius (4. Jh.) / James White',
+      answer: `„Erstgeborener" ist in der Bibel ein Rechtstitel, kein Hinweis auf Geschwister: Es ist das Kind, „das die Mutter bricht", also den Mutterschoß zuerst öffnet (Ex 13,2). Dieses Kind wurde nach vierzig Tagen Gott dargestellt und ausgelöst – genau das berichtet Lukas wenige Verse später (Lk 2,22–23), lange bevor jemand wissen konnte, ob noch weitere Kinder kommen. Eine jüdische Grabinschrift aus Ägypten (5 v. Chr.) erzählt von einer jungen Frau, die bei der Geburt ihres „erstgeborenen" Kindes starb – es gab also nie ein zweites, und trotzdem hieß es „erstgeboren".`,
+      detail: `Das Gesetz verlangte, dass jede männliche Erstgeburt Gott geheiligt und ausgelöst wird (Ex 13,2.12–15; 34,19–20; Num 18,15–16). Der Titel „Erstgeborener" haftete am Kind ab dem Moment der Geburt – mit Rechten und Pflichten –, unabhängig davon, ob später Geschwister geboren wurden. Lukas betont genau diesen Rechtsstatus, weil er anschließend die Darstellung im Tempel erzählt.
+
+Die Grabinschrift der Arsinoë aus der jüdischen Nekropole von Tell el-Jahudije (Leontopolis), datiert ins 25. Jahr des Augustus (5 v. Chr.), wird in der Debatte oft angeführt: Die junge Frau starb „in den Wehen bei der Geburt ihres erstgeborenen Kindes". Das zeigt den zeitgenössischen jüdischen Sprachgebrauch. Bitte zitiere sie nur sinngemäß – der genaue Wortlaut sollte in der Edition (Horbury/Noy, *Jewish Inscriptions of Graeco-Roman Egypt*, 1992) nachgeschlagen werden.
+
+Auch Christus selbst heißt „der Erstgeborene vor allen Kreaturen" (Kol 1,15) und „der Erstgeborene von den Toten" (Kol 1,18) – ein Ehrentitel des Vorrangs, kein Zählwort.`,
+      sources: [
+        { kind: 'bibel', work: '2. Mose (Exodus)', ref: '13,2', quote: `Heilige mir alle Erstgeburt bei den Kindern Israel; allerlei, was die Mutter bricht, unter den Menschen und unter dem Vieh; denn sie sind mein.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Lukas', ref: '2,22–23', quote: `… brachten sie ihn gen Jerusalem, auf daß sie ihn darstelleten dem HERRN (wie denn geschrieben steht in dem Gesetz des HERRN: „Allerlei Männliches, das zum ersten die Mutter bricht, soll dem HERRN geheiligt heißen") …`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'sonstiges', work: 'Jüdische Grabinschrift der Arsinoë, Tell el-Jahudije (Leontopolis)', year: '5 v. Chr.', quote: `Die junge Frau starb in den Wehen bei der Geburt ihres erstgeborenen Kindes.`, status: 'paraphrase', note: 'Datum und Inhalt per Websuche (Nov. 2026) über Sekundärquellen bestätigt; Edition: Horbury/Noy 1992.' },
+      ],
+      questionsBack: [
+        `Wenn „Erstgeborener" Geschwister voraussetzt – wie konnten Maria und Josef schon am 40. Tag das Erstgeburtsopfer darbringen?`,
+        `Ist Christus „der Erstgeborene von den Toten", weil nach ihm andere *genauso* auferstanden sind wie er?`,
+      ],
+      followUps: [
+        {
+          id: 'meier-geschwister-wahrscheinlich',
+          objection: `„Lass die Polemik beiseite und frag die Wissenschaft: John P. Meier, ein katholischer Priester, kommt in ‚A Marginal Jew' nach Prüfung aller Belege zu dem Schluss, die wahrscheinlichste Auffassung sei, dass es leibliche Geschwister waren. Paulus kannte Jakobus persönlich und nennt ihn schlicht ‚des Herrn Bruder' (Gal 1,19)."`,
+          objectionBy: 'John P. Meier / James White',
+          answer: `Meiers Urteil ist ernst zu nehmen – und ehrlich: Er spricht von einem historischen Wahrscheinlichkeitsurteil, nicht von einem Beweis, und betont selbst, dass die Frage mit historischen Mitteln nicht sicher zu entscheiden ist. Andere Forscher, etwa Richard Bauckham, halten die alte Auffassung, die „Brüder" seien Söhne Josefs aus einer früheren Ehe, für historisch gut vertretbar. Und die Jerusalemer Urgemeinde unterschied durchaus: Hegesipp (2. Jh.) berichtet, nach Jakobus sei Symeon, Sohn des Klopas, Bischof geworden – ein „Vetter" des Herrn, denn Klopas war Josefs Bruder.`,
+          detail: `„Bruder des Herrn" war in der Urgemeinde offenbar ein **Ehrentitel** für die Familie Jesu, die eine besondere Stellung hatte (1 Kor 9,5). Paulus gebraucht „Bruder" zudem für alle Christen, sodass die Wendung allein die genaue Verwandtschaft nicht festlegt.
+
+Richard Bauckham (*Jude and the Relatives of Jesus in the Early Church*, 1990) untersucht die Verwandten Jesu in der frühen Kirche und hält die „epiphanische" Sicht (Kinder Josefs aus erster Ehe) für eine ernsthafte historische Option, die mit der Rolle Marias und der Familie in den Evangelien vereinbar ist. Hegesipp, überliefert bei Eusebius (*Kirchengeschichte* III,11; IV,22), nennt Symeon, den Sohn des Klopas, einen Vetter (*anepsios*) des Herrn.
+
+Die Kirche stützt sich nicht auf eine Wahrscheinlichkeitsrechnung, sondern auf das, was sie über Maria überliefert. Aber der Laie sollte wissen: Die historische Forschung **widerlegt** die immerwährende Jungfräulichkeit nicht – sie kann die Frage nicht entscheiden.`,
+          voices: [
+            {
+              person: 'bauckham',
+              role: 'als Neutestamentler und Erforscher der Verwandten Jesu',
+              text: `Bauckham hat die Überlieferungen über die Familie Jesu in der frühen Kirche – die „Desposynoi" – gründlich untersucht. Er hält die Auffassung, die Brüder und Schwestern Jesu seien Kinder Josefs aus einer früheren Ehe, für historisch durchaus plausibel und mit den Evangelienberichten vereinbar; sie sei nicht einfach eine späte asketische Erfindung.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Richard Bauckham', work: 'Jude and the Relatives of Jesus in the Early Church', year: '1990', quote: `Die „epiphanische" Sicht – die Geschwister Jesu als Kinder Josefs aus erster Ehe – ist eine ernsthafte historische Möglichkeit.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+          sources: [
+            { kind: 'gegner', author: 'John P. Meier', work: 'A Marginal Jew: Rethinking the Historical Jesus, Bd. 1', year: '1991', quote: `Als bloßes historisches Wahrscheinlichkeitsurteil sei die Auffassung am wahrscheinlichsten, dass die Brüder und Schwestern Jesu leibliche Geschwister waren.`, status: 'paraphrase', note: 'Meier betont den Charakter eines Wahrscheinlichkeitsurteils und klammert die kirchliche Lehre ausdrücklich aus.' },
+            { kind: 'kirchenvater', author: 'Eusebius von Caesarea (nach Hegesipp)', work: 'Kirchengeschichte', ref: 'III,11; IV,22', year: 'um 325', quote: `Nach dem Martyrium des Jakobus wurde Symeon, der Sohn des Klopas, Bischof von Jerusalem – ein Vetter des Herrn, denn Klopas war der Bruder Josefs.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'protoevangelium-apokryph',
+              objection: `„Die Sicht mit Josefs erster Ehe stammt aus dem Protoevangelium des Jakobus – einer apokryphen Legende voller Wundergeschichten. Darauf baut ihr?"`,
+              objectionBy: 'James White',
+              answer: `Nein, wir bauen nicht auf das Protoevangelium – die Kirche hat es nie als Schrift anerkannt, und viele seiner Ausschmückungen sind Legende. Aber als **historisches Zeugnis** zeigt es etwas Wichtiges: Schon um 150 glaubten Christen, dass Maria Jungfrau blieb und die „Brüder" Kinder Josefs waren. Der erste uns bekannte Christ, der ausdrücklich das Gegenteil vertrat, war Helvidius um 380 – und die Kirche widersprach ihm. Welche Überlieferung ist also älter?`,
+              detail: `Zwei altkirchliche Erklärungen bewahren die immerwährende Jungfräulichkeit: die „epiphanische" (Kinder Josefs aus erster Ehe, so auch die alten östlichen Überlieferungen) und die „hieronymianische" (Vettern Jesu). Die koptische Kirche legt sich auf keine der beiden dogmatisch fest; beide sind mit dem Glauben vereinbar. In Ägypten ist auch die *Geschichte von Josef dem Zimmermann* (koptisch und arabisch überliefert, apokryph) verbreitet, die Josef als älteren Witwer mit Kindern schildert – wiederum kein Schriftzeugnis, aber ein Hinweis darauf, wie selbstverständlich diese Sicht in der Kirche Ägyptens war.
+
+Für die Debatte reicht es, festzuhalten: Die Lehre ist älter als ihre Leugnung, und die Leugnung hat keine Stütze in einer frühen kirchlichen Überlieferung.`,
+              questionsBack: [
+                `Kennst du eine christliche Quelle vor Helvidius (um 380), die ausdrücklich lehrt, Maria habe nach Jesus weitere Kinder geboren?`,
+              ],
+              followUps: [
+                {
+                  id: 'nur-fromme-meinung',
+                  objection: `„Dann ist die immerwährende Jungfräulichkeit bestenfalls eine fromme Meinung. Warum macht ihr daraus einen Glaubenssatz, wenn die Schrift die Frage offen lässt?"`,
+                  objectionBy: 'Gavin Ortlund',
+                  answer: `Für die Orthodoxie ist sie Teil des gemeinsamen Bekenntnisses der Kirche: Athanasius nennt Maria „die immerwährende Jungfrau" (*Aeiparthenos*), und jede koptische Liturgie gedenkt „unserer Herrin, der Gottesgebärerin und allzeit Jungfrau Maria". Sie berührt die Christologie: Die Kirche las in der „verschlossenen Pforte", durch die der Herr eingegangen ist und die verschlossen bleiben soll (Ez 44,2), ein Bild Marias. Aber ehrlich: Sie ist nicht die Frage, an der dein Heil hängt, und kein Thema, mit dem man ein Gespräch über Christus beginnen sollte. Es geht um Ehrfurcht vor dem, was Gott an ihr getan hat.`,
+                  detail: `Bemerkenswert ist der ökumenische Befund: Luther, Zwingli und viele frühe Reformatoren hielten an der immerwährenden Jungfräulichkeit fest, ebenso John Wesley. Sie lasen dieselbe Bibel und fanden keinen Grund, die alte Überzeugung aufzugeben. Erst im Lauf der Neuzeit wurde ihre Leugnung im Protestantismus vorherrschend.
+
+Pastoral wichtig: Die koptische Kirche ehrt die Ehe als heiliges Mysterium; die Jungfräulichkeit Marias ist keine Abwertung der ehelichen Liebe, sondern Ausdruck ihrer einzigartigen Hingabe an das Geheimnis, das sie getragen hat.`,
+                  voices: [
+                    {
+                      person: 'athanasius',
+                      role: 'als Verteidiger der Menschwerdung',
+                      text: `Athanasius spricht von Maria als der „immerwährenden Jungfrau" und sieht in ihrer Jungfräulichkeit ein Zeichen dafür, dass der Sohn nicht aus menschlichem Willen, sondern aus Gott in die Welt kam. Ihre bleibende Jungfräulichkeit ist für ihn Ausdruck der Heiligkeit des Ortes, an dem der Logos Fleisch annahm.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Reden gegen die Arianer (Contra Arianos)', ref: 'II,70', year: 'um 340', quote: `Der Logos nahm Fleisch aus Maria, der immerwährenden Jungfrau (Aeiparthenos).`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Hesekiel', ref: '44,2', quote: `Dies Tor soll zugeschlossen bleiben und nicht aufgetan werden, und soll niemand dadurch gehen; denn der HERR, der Gott Israels, ist dadurch eingegangen; darum soll es zugeschlossen bleiben.`, translation: 'Luther 1912', status: 'paraphrase', note: 'Typologische Deutung der Väter, kein wörtlicher Schriftbeweis.' },
+                    { kind: 'liturgie', work: 'Koptische Basilius-Liturgie (Gedächtnis der Heiligen)', quote: `Gedächtnis „unserer Herrin, der allheiligen, ruhmreichen, allzeit jungfräulichen Gottesgebärerin Maria".`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [
+                    `Warum hielten Luther und Zwingli – Männer der Schrift – an der immerwährenden Jungfräulichkeit fest?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Wenn „bis" eine Änderung danach bedeutet – bekam Michal nach ihrem Tod ein Kind (2 Sam 6,23)?`,

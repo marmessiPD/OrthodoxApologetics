@@ -155,6 +155,34 @@ Die Schrift verbietet nicht, dass Gott eine Abfolge von Weltphasen erschaffen k�
           objectionBy: 'Neil deGrasse Tyson',
           answer: `Nein. Mein Argument stützt sich auf das, was wir wissen – BGV, Thermodynamik, das Scheitern konkreter Modelle –, nicht auf das, was wir nicht wissen. Und selbst wenn sich ein ewiges Modell bewähren sollte, bliebe die Frage, warum dieses ewige Universum existiert und diese Gesetze hat. Der christliche Glaube steht nicht und fällt nicht mit einer Singularität.`,
           detail: `Thomas von Aquin hielt es philosophisch sogar für denkbar, dass Gott eine anfangslose Welt erschafft; dass die Welt einen Anfang hat, wusste er aus der Offenbarung. Die Abhängigkeit des Seins von Gott ist unabhängig davon, ob die Zeit einen ersten Moment hat.`,
+          followUps: [
+            {
+              id: 'newton-perimeter-ignoranz',
+              objection: `Genau so hat Newton argumentiert: Die Planetenbahnen seien instabil, also müsse Gott von Zeit zu Zeit nachjustieren. Hundert Jahre später zeigte Laplace, dass das System sich selbst stabilisiert. Gott wohnt immer am Rand unseres Unwissens – und dieser Rand wandert.`,
+              objectionBy: 'Neil deGrasse Tyson',
+              answer: `Der Fall Newton ist eine echte Warnung, und ich nehme sie ernst: Gott darf nicht als Erklärung für eine *Lücke innerhalb* der Physik dienen. Aber mein Argument ist von anderer Art. Ich sage nicht: „Wir verstehen den Mechanismus X nicht, also Gott." Ich frage, warum es überhaupt eine Physik, Gesetze und ein Universum gibt. Das ist keine Lücke im Bild, sondern die Frage nach dem Rahmen. Keine Gleichung kann sie schließen, weil jede Gleichung den Rahmen schon voraussetzt.`,
+              detail: `Newton deutete in den *Opticks* (Query 31) an, dass sich die Unregelmäßigkeiten im Planetensystem mit der Zeit aufsummieren könnten, bis eine „Reformation" nötig werde. Leibniz spottete schon damals über einen Gott, der seine Uhr aufziehen und reparieren müsse. Laplace' berühmte Antwort an Napoleon („Diese Hypothese brauchte ich nicht") ist übrigens nur anekdotisch überliefert. Wichtig: Für die Väter war Gott nie ein Lückenbüßer, sondern der Grund des Seins aller Dinge – auch der gut verstandenen. Genau das unterscheidet das Kontingenz- vom Lückenargument.`,
+              voices: [
+                { person: 'newton', role: 'als warnendes Beispiel und als Naturphilosoph', text: `Newton sah in der Ordnung des Sonnensystems ein Werk eines intelligenten und mächtigen Wesens (Allgemeines Scholium der *Principia*). Sein Fehler lag nicht darin, Gott als Urheber der Ordnung zu sehen, sondern darin, ihn zusätzlich als Korrektor einer vermeintlich fehlerhaften Mechanik einzusetzen. Das Design-Argument im Allgemeinen Scholium hängt nicht an dieser Lücke.` },
+              ],
+              sources: [{ kind: 'gegner', author: 'Neil deGrasse Tyson', work: '„The Perimeter of Ignorance", Natural History', year: '2005', quote: `Wissenschaftler hätten sich in der Geschichte immer dann auf Gott berufen, wenn sie an die Grenze ihres Verständnisses stießen – Newton eingeschlossen.`, status: 'paraphrase' }],
+              questionsBack: [`Welche Gleichung könnte erklären, warum es überhaupt Gleichungen gibt, die etwas beschreiben?`],
+              followUps: [
+                {
+                  id: 'trend-geht-gegen-gott',
+                  objection: `Aber der historische Trend ist eindeutig: Blitz, Krankheiten, Planetenbahnen, Artenvielfalt – alles, was einmal Gott zugeschrieben wurde, hat die Wissenschaft natürlich erklärt. Warum sollte es beim Ursprung des Universums anders sein?`,
+                  objectionBy: 'Lawrence Krauss',
+                  answer: `Der Trend ist nicht so eindeutig. Im 20. Jahrhundert hat die Wissenschaft zwei Dinge entdeckt, die das Argument für einen Schöpfer gestärkt haben: dass das Universum einen Anfang hat – gegen den Widerstand vieler Physiker – und dass seine Gesetze und Konstanten auf Leben fein abgestimmt sind. Und der Trend beweist weniger, als du denkst: Dass wir den Blitz verstehen, zeigt, dass Gott nicht Zeus ist. Die Christen haben aber nie geglaubt, dass Gott Blitze wirft, sondern dass er der Grund ist, warum es eine verstehbare Natur gibt – und genau dieser Glaube hat Kepler, Newton und Maxwell zur Wissenschaft motiviert.`,
+                  detail: `Man kann die Geschichte auch anders erzählen: Je tiefer die Physik vordrang, desto mehr staunten ihre Pioniere über die mathematische Ordnung. Kepler wollte „Gottes Gedanken nachdenken"; Maxwell ließ Ps 111,2 („Groß sind die Werke des Herrn …") über das Tor des Cavendish-Labors in Cambridge meißeln. Der Fortschritt hat nicht die Ordnung wegerklärt, sondern sie immer klarer sichtbar gemacht. Was der Naturalismus erklären müsste – warum es eine solche Ordnung gibt –, ist durch keinen Fortschritt kleiner geworden.`,
+                  voices: [
+                    { person: 'maxwell', role: 'als Begründer der Elektrodynamik', text: `Maxwell sah die exakte Gleichheit aller Moleküle einer Sorte als Hinweis darauf, dass sie nicht durch einen langen Entwicklungsprozess entstanden, sondern „hergestellte Artikel" seien. Unabhängig davon, wie man dieses konkrete Argument heute bewertet: Für ihn war die gesetzmäßige Natur Ausdruck des Schöpfers, nicht dessen Konkurrent.` },
+                  ],
+                  sources: [{ kind: 'bibel', work: 'Psalm', ref: '111,2', quote: `Groß sind die Werke des HERRN; wer ihrer achtet, der hat eitel Lust daran.`, translation: 'Luther 1912', status: 'verbatim', note: 'Lateinisch („Magna opera Domini") über dem Eingang des alten Cavendish-Laboratoriums in Cambridge, auf Maxwells Veranlassung.' }],
+                  questionsBack: [`Hat die Entdeckung des Urknalls und der Feinabstimmung das Argument für einen Schöpfer geschwächt oder gestärkt?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -177,6 +205,17 @@ Die Schrift verbietet nicht, dass Gott eine Abfolge von Weltphasen erschaffen k�
           objection: `In CCC wird die Entropie durch die konforme Umskalierung praktisch „zurückgesetzt" – das Entropieproblem ist gelöst.`,
           objectionBy: 'Roger Penrose (Verteidiger)',
           answer: `Genau das ist der umstrittenste Punkt. Viele Physiker halten es für unklar, wie eine geometrische Umskalierung den zweiten Hauptsatz aushebeln soll, ohne Information zu vernichten. Penrose' Vorschlag hängt unter anderem daran, dass Information in Schwarzen Löchern verloren geht – eine These, die die Mehrheit der Fachleute heute eher ablehnt.`,
+          followUps: [
+            {
+              id: 'weyl-hypothese-gesetz',
+              objection: `Penrose hat das Problem des extrem geordneten Anfangs selbst am klarsten formuliert – und eine physikalische Antwort gegeben: die Weyl-Krümmungs-Hypothese. Am Urknall ist die Weyl-Krümmung null; das ist ein Naturgesetz, kein Wunder. Wozu dann Gott?`,
+              objectionBy: 'Roger Penrose (Verteidiger)',
+              answer: `Die Weyl-Krümmungs-Hypothese *beschreibt* den besonderen Anfangszustand – sie *erklärt* ihn nicht. Penrose hat selbst berechnet, wie besonders er ist: Die Wahrscheinlichkeit, zufällig einen so geordneten Anfang zu treffen, liegt bei etwa 1 zu 10 hoch 10 hoch 123 – eine Zahl mit mehr Nullen, als es Teilchen im beobachtbaren Universum gibt. Ein Gesetz, das genau diese Ausnahme vorschreibt, ist selbst erklärungsbedürftig: Warum gilt ein Gesetz, das auf Leben und Zeitpfeil zugeschnitten ist?`,
+              detail: `Penrose diskutiert diese Abschätzung in *The Emperor’s New Mind* (1989, Kap. 7) und *The Road to Reality* (2004). Er stellt sich das so vor: Ein Schöpfer müsste mit einer Nadel einen winzigen Punkt im Raum aller möglichen Anfangszustände treffen. Penrose selbst ist kein Theist und erwartet eine physikalische Erklärung – das ist sein gutes Recht. Aber die Zahl zeigt, dass der zweite Hauptsatz, auf dem jeder Zeitpfeil, jede Erinnerung und jede Messung beruht, auf einem außerordentlich unwahrscheinlichen Anfang aufsitzt. Den „Gesetz" zu nennen, verschiebt das Staunen nur.`,
+              sources: [{ kind: 'gegner', author: 'Roger Penrose', work: 'The Emperor’s New Mind', ref: 'Kap. 7', year: '1989', quote: `Die Präzision, mit der der Anfangszustand des Universums gewählt sein musste, entspricht einer Genauigkeit von etwa 1 zu 10 hoch 10 hoch 123.`, status: 'paraphrase', note: 'Penrose ist kein Theist; er sieht hier ein ungelöstes Problem der Physik.' }],
+              questionsBack: [`Wenn ein Naturgesetz genau den einen Anfangszustand von 10 hoch 10 hoch 123 Möglichkeiten vorschreibt, der Zeit, Sterne und Leben ermöglicht – ist das eine Erklärung oder nur eine neue Beschreibung des Rätsels?`],
+            },
+          ],
         },
       ],
     },
@@ -216,6 +255,20 @@ Die Schrift verbietet nicht, dass Gott eine Abfolge von Weltphasen erschaffen k�
           objection: `Das ist reine Philosophie, keine Physik.`,
           objectionBy: 'Sean Carroll',
           answer: `Ja – und die Behauptung „ein ewiges Quantenfeld ist genauso gut" ist ebenfalls Philosophie. Wir sind jetzt auf derselben Ebene und müssen Gründe abwägen. Die Physik liefert Daten (BGV, Entropie); die Deutung ist auf beiden Seiten philosophisch.`,
+          followUps: [
+            {
+              id: 'wille-erklaert-nichts',
+              objection: `„Gott hat es gewollt" erklärt gar nichts. Ein allmächtiger Wille hätte jedes beliebige Universum wollen können – also sagt er nichts voraus und erklärt nichts. Ein Quantenfeld mit festen Gleichungen ist dagegen eine echte Erklärung.`,
+              objectionBy: 'Sean Carroll',
+              answer: `Personale Erklärungen sind eine eigene, völlig legitime Erklärungsart. Warum steht dieser Text auf dem Papier? Die chemische Antwort (Tinte, Faser) ist richtig, aber unvollständig; die vollständige lautet: Jemand wollte etwas mitteilen. Und eine personale Ursache löst genau das Rätsel, an dem mechanische scheitern: Wie kann aus einer zeitlosen Ursache eine zeitliche Wirkung hervorgehen? Ein ewiges Feld müsste ewig wirken; ein freier Wille kann zeitlos beschließen, dass eine Welt mit Anfang sei.`,
+              detail: `Craig nennt das die Frage nach dem „zeitlichen Effekt einer ewigen Ursache": Wenn die hinreichenden Bedingungen für ein Universum von Ewigkeit her erfüllt wären, müsste das Universum von Ewigkeit her existieren. Dass es einen Anfang hat, passt deshalb besser zu einem Akteur, der frei wählt, als zu einem Mechanismus. Swinburne ergänzt: Der Theismus macht durchaus Erwartungen – ein guter Gott hat Gründe, eine geordnete, verstehbare Welt mit freien, erkennenden Geschöpfen zu schaffen. Das ist keine exakte Vorhersage, aber auch die Erklärung eines Romans durch seinen Autor sagt nicht jedes Wort voraus.`,
+              voices: [
+                { person: 'craig', role: 'als Philosoph der Kosmologie', text: `Craig argumentiert, dass eine Ursache, die das Universum ohne vorherige Bedingungen hervorbringt und dennoch einen Anfang setzt, am besten als personaler Akteur mit freiem Willen verstanden wird. Nur ein freier Akteur kann zeitlos beschließen, eine Wirkung mit Anfang hervorzubringen, ohne dass vorher neue Bedingungen eintreten müssten.` },
+              ],
+              sources: [{ kind: 'fachliteratur', author: 'William Lane Craig & James D. Sinclair', work: '„The Kalam Cosmological Argument", in: The Blackwell Companion to Natural Theology', year: '2009', quote: `Eine zeitlose Ursache, deren Wirkung einen zeitlichen Anfang hat, ist am plausibelsten als personaler Akteur zu deuten, der frei handelt.`, status: 'paraphrase' }],
+              questionsBack: [`Wenn die Ursache des Universums ewig und mechanisch wäre – warum hat das Universum dann nicht ewig existiert?`],
+            },
+          ],
         },
       ],
     },
