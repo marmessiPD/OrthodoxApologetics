@@ -276,7 +276,7 @@ const claim: Claim = {
   tags: ['Zoroastrismus', 'Parsen', 'Engel', 'Satan', 'Auferstehung', 'Religionsgeschichte', 'Perserzeit'],
   related: [
     'antike-parallelen/jesus-kopie-horus-mithras',
-    'erdalter/genesis-von-babylon-kopiert',
+    'genesis/genesis-von-babylon-kopiert',
     'prophetie/daniel-spaetdatierung',
     'weitere-religionen/religion-aus-animismus',
     'tod-seele-auferstehung/leibliche-auferstehung-unmoeglich',

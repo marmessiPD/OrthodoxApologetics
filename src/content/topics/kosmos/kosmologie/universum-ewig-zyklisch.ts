@@ -132,6 +132,20 @@ Die Schrift verbietet nicht, dass Gott eine Abfolge von Weltphasen erschaffen k�
               objectionBy: 'Kosmologe (Fachdiskussion)',
               answer: `Solche Konstruktionen gibt es. Sie erkaufen Vollständigkeit aber gerade dadurch, dass die mittlere Expansion in der Vergangenheit nicht positiv ist – also genau durch die Ausnahme, die das Theorem selbst benennt – oder durch besondere Annahmen über die ferne Vergangenheit. Ob diese physikalisch realistisch sind und wie sie das Entropieproblem lösen, ist offen. Ein Gegenmodell zu haben heißt noch nicht, dass es zutrifft.`,
               questionsBack: [`Wie geht dieses Modell mit dem zweiten Hauptsatz um – warum ist die Entropie nach unendlich langer Vergangenheit so niedrig?`],
+              followUps: [
+                {
+                  id: 'emergentes-universum',
+                  objection: `Dann nimm das „emergente Universum" von Ellis und Maartens: Das Universum verharrte unendlich lange in einem statischen Zustand – einem kleinen Einstein-Universum – und begann dann zu expandieren. Keine mittlere Expansion in der Vergangenheit, also greift BGV nicht. Ewig und ohne Anfang.`,
+                  objectionBy: 'Kosmologe (Emergent-Universe-Modell nach Ellis & Maartens 2004)',
+                  answer: `Das Modell ist elegant, hat aber zwei bekannte Probleme. Erstens ist ein statisches Einstein-Universum instabil – das hat Eddington schon 1930 gezeigt; die kleinste Störung bringt es zum Kollaps oder zur Expansion. Unendlich lange stabil zu bleiben, ist wie eine Nadel, die ewig auf ihrer Spitze steht. Zweitens haben Mithani und Vilenkin 2012 gezeigt: Auch wenn man es klassisch stabilisiert, kann es quantenmechanisch in endlicher Zeit kollabieren. Es kann also nicht ewig existiert haben. Und drittens: Warum hätte es nach unendlich langer Ruhe gerade „vor 13,8 Milliarden Jahren" losgehen sollen?`,
+                  detail: `Ellis und Maartens schlugen das Modell ausdrücklich vor, um eine Singularität zu vermeiden, nicht als Gegenargument zum Glauben – Ellis selbst ist Christ (Quäker). Die physikalische Schwierigkeit bleibt dennoch: Ein Zustand, der für eine unendliche Vergangenheit unverändert bleiben soll, darf keinerlei Zerfallswahrscheinlichkeit haben; jede endliche Wahrscheinlichkeit pro Zeiteinheit führt über eine unendliche Zeit sicher zum Zerfall. Daher ist die Fachliteratur hier weitgehend einig, dass emergente Modelle den Anfang nur hinausschieben.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'George F. R. Ellis & Roy Maartens', work: '„The Emergent Universe: Inflationary Cosmology with No Singularity", Classical and Quantum Gravity 21', year: '2004', quote: `Ein geschlossenes Universum, das in der unendlichen Vergangenheit asymptotisch einem statischen Einstein-Zustand entspricht und dann in eine inflationäre Phase übergeht.`, status: 'paraphrase' },
+                    { kind: 'wissenschaft', author: 'Audrey Mithani & Alexander Vilenkin', work: '„Collapse of Simple Harmonic Universe", Journal of Cosmology and Astroparticle Physics', year: '2012', quote: `Ein klassisch stabiles, oszillierendes bzw. statisches Universum kann quantenmechanisch durch Tunneln kollabieren und daher nicht ewig bestanden haben.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie bleibt ein instabiler Zustand eine unendliche Zeit lang unverändert – und warum endete er dann gerade zu einem bestimmten Zeitpunkt?`],
+                },
+              ],
             },
           ],
         },

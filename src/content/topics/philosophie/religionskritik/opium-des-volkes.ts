@@ -129,6 +129,18 @@ const claim: Claim = {
                 { kind: 'bibel', work: 'Galater', ref: '3,28', quote: `Hier ist kein Jude noch Grieche, hier ist kein Knecht noch Freier, hier ist kein Mann noch Weib; denn ihr seid allzumal einer in Christo Jesu.`, translation: 'Luther 1912', status: 'verbatim' },
               ],
             },
+            {
+              id: 'koptische-kirche-regime',
+              objection: `Auch die koptische Kirche hat sich mit den Machthabern arrangiert – mit Mubarak, mit Sisi. Patriarchen, die Präsidenten loben, bestätigen genau Marx' These: Religion stützt die Herrschenden.`,
+              objectionBy: 'Politikwissenschaftler / ägyptischer Oppositioneller',
+              answer: `Kirchenführer haben in Ägypten pragmatische politische Entscheidungen getroffen, um eine verwundbare Minderheit zu schützen – darüber kann man streiten, und viele Kopten tun das selbst. Aber Marx' These beschreibt eine Religion der herrschenden Klasse. Die Kopten sind seit Jahrhunderten keine herrschende, sondern eine bedrängte Minderheit. Und ihr Patriarch Schenuda III. wurde 1981 von Präsident Sadat abgesetzt und für über drei Jahre in ein Wüstenkloster verbannt, weil er sich nicht fügte. Das ist nicht das Bild einer Kirche im Dienst der Macht.`,
+              detail: `Sadat entzog Schenuda III. im September 1981 die staatliche Anerkennung und verwies ihn in das Kloster des hl. Bischoi im Wadi Natrun; erst Mubarak hob die Verbannung im Januar 1985 auf. Schenuda untersagte zudem nach dem Camp-David-Abkommen den Kopten Pilgerreisen nach Jerusalem – gegen die Linie der Regierung.
+
+Fair bleibt: Auch die koptische Kirche ist nicht frei von der Versuchung, Nähe zur Macht mit Schutz zu verwechseln. Der Maßstab ist Christus, nicht die Kirchenpolitik. Aber die Geschichte der Märtyrer – bis zu den 21 Männern, die 2015 in Libyen ermordet wurden – zeigt eine Kirche, deren Glaube nicht von der Gunst der Mächtigen lebt.`,
+              questionsBack: [
+                `Welche Klasse hätte ein Interesse daran, dass eine verfolgte Minderheit an ihrem Glauben festhält, für den sie diskriminiert und getötet wird?`,
+              ],
+            },
           ],
         },
       ],
@@ -156,6 +168,30 @@ const claim: Claim = {
               objectionBy: 'Historischer Kritiker',
               answer: `Das stimmt, und ich verteidige keine dieser Taten. Der Unterschied ist: Sie widersprechen dem ausdrücklichen Gebot Christi – „Liebet eure Feinde", „Stecke dein Schwert an seinen Ort". Christen können sich für ihre Verbrechen an Christus selbst messen lassen und werden verurteilt. Die Frage ist, ob eine Weltanschauung in sich die Mittel hat, ihre eigenen Verbrechen zu verurteilen.`,
               detail: `Siehe den Themenblock „Religion und Gewalt" für eine faire Darstellung der Zahlen und Zusammenhänge (Kreuzzüge, Inquisition, Hexenverfolgung). Die koptische Kirche hat übrigens keine Kreuzzüge geführt – sie hat unter den Kreuzfahrern sogar gelitten, die die orientalischen Christen oft als Häretiker behandelten.`,
+              followUps: [
+                {
+                  id: 'soziale-prinzipien-christentum',
+                  objection: `Es geht nicht um Einzeltaten. Die sozialen Prinzipien des Christentums selbst haben die antike Sklaverei gerechtfertigt, die mittelalterliche Leibeigenschaft verherrlicht und predigen dem Proletariat Demut. Das ist die Struktur, nicht der Ausrutscher.`,
+                  objectionBy: 'Karl Marx (1847)',
+                  answer: `Christen haben ihre Prinzipien oft so missbraucht – das gebe ich zu. Aber dieselben Prinzipien haben die antike Sklaverei auch zum ersten Mal grundsätzlich in Frage gestellt: Gregor von Nyssa predigte um 379 als erster bekannter Autor der Antike, dass kein Mensch Eigentum eines anderen sein kann, weil er Gottes Ebenbild ist. Basilius baute für Arme und Kranke eine ganze Stadt der Fürsorge. Die Frage ist, ob Missbrauch oder Kern das Christentum bestimmt – und der Kern lautet: „Hier ist kein Knecht noch Freier."`,
+                  detail: `Marx' Satz steht in seinem Artikel „Der Kommunismus des ‚Rheinischen Beobachters'" (*Deutsche-Brüsseler-Zeitung*, 1847). Gregor von Nyssa, *4. Homilie über den Prediger* (zu Koh 2,7), fragt seine Zuhörer, zu welchem Preis sie das Ebenbild Gottes gekauft hätten – Gott selbst habe den Menschen frei geschaffen. Diese Predigt gilt in der Forschung als die radikalste Kritik an der Sklaverei, die aus der Antike überliefert ist.
+
+Fair bleiben: Die Alte Kirche hat die Sklaverei nicht abgeschafft; das geschah erst viel später, getragen von christlichen Abolitionisten. Aber die Wurzel der Abschaffung lag in der christlichen Lehre vom Menschen als Ebenbild Gottes – nicht im historischen Materialismus.`,
+                  voices: [
+                    {
+                      person: 'gregor-nyssa',
+                      role: 'als Prediger gegen die Sklaverei',
+                      text: `Gregor von Nyssa fragt in seiner Predigt über den Prediger Salomo, wie ein Mensch, der nach Gottes Bild geschaffen ist und dem Gott die Herrschaft über die Erde gegeben hat, von einem anderen Menschen gekauft werden könne. Kein Preis der Welt reiche an den Wert eines Menschen heran. Damit stellt er nicht nur die Härte der Sklaverei, sondern ihr Prinzip in Frage.`,
+                      sources: [
+                        { kind: 'kirchenvater', author: 'Gregor von Nyssa', work: 'Homilien über den Prediger (In Ecclesiasten homiliae)', ref: 'Homilie 4 (zu Koh 2,7)', year: 'um 379', quote: `Wie viele Obolen hast du für das Ebenbild Gottes bezahlt? Gott selbst hat den Menschen frei gemacht – wer könnte ihn verkaufen?`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Karl Marx', work: 'Der Kommunismus des „Rheinischen Beobachters" (Deutsche-Brüsseler-Zeitung)', ref: 'MEW 4', year: '1847', quote: `Die sozialen Prinzipien des Christentums hätten die antike Sklaverei gerechtfertigt, die mittelalterliche Leibeigenschaft verherrlicht und predigten dem Proletariat Demut.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -177,6 +213,81 @@ const claim: Claim = {
           objectionBy: 'Sozialwissenschaftler',
           answer: `Die Daten sind gemischt. Religiöse Menschen sind in manchen Ländern politisch konservativer – aber zugleich engagieren sie sich mehr ehrenamtlich, spenden mehr und sind in Hilfsorganisationen überrepräsentiert, auch bei säkularen Anliegen. Das ist nicht das Bild betäubter Menschen. Und „konservativ" heißt nicht „passiv gegenüber Unrecht": Die Bürgerrechtsbewegung kam aus den Kirchen.`,
           detail: `Putnam/Campbell (*American Grace*, 2010) und Arthur Brooks (*Who Really Cares*, 2006) belegen die höhere Spenden- und Ehrenamtsbereitschaft religiös aktiver Amerikaner. Für Europa ist die Datenlage weniger eindeutig. Fair bleiben: Engagement beweist keine Wahrheit, widerlegt aber die Betäubungsthese.`,
+          followUps: [
+            {
+              id: 'skandinavien-ohne-gott',
+              objection: `Schau nach Dänemark und Schweden: die säkularsten Gesellschaften der Welt – und zugleich die gerechtesten, wohlhabendsten und glücklichsten. Wenn der Mensch das Opium absetzt, geht es ihm besser.`,
+              objectionBy: 'Phil Zuckerman (Society without God, 2008)',
+              answer: `Skandinavien ist tatsächlich eindrucksvoll, und ich freue mich über jede gerechte Gesellschaft. Aber ihr Fundament wurde in Jahrhunderten lutherischer Prägung gelegt: Armenfürsorge, Bildung für alle, Arbeitsethos, Gewissensernst – Zuckerman selbst spricht vom „kulturellen Christentum" der Skandinavier. Man lebt dort noch vom Kapital, das der Glaube angesammelt hat. Ob es ohne diese Wurzel auf Dauer trägt, ist offen. Und ob eine Gesellschaft glücklich ist, entscheidet nicht, ob Gott existiert.`,
+              detail: `Zuckerman beschreibt in *Society without God* (2008) Dänen und Schweden, die kaum an Gott glauben, aber getauft, konfirmiert und kirchlich verheiratet werden und Kirchensteuer zahlen. Er selbst nennt das „cultural religion". Der Historiker Tom Holland (*Dominion*, 2019) argumentiert, dass gerade die säkularen Werte Westeuropas – Gleichheit, Menschenrechte, Fürsorge für Schwache – christlichen Ursprungs sind. Für das Gespräch: Nicht Skandinavien schlechtreden, sondern die Herkunft seiner Werte erzählen.`,
+              sources: [
+                { kind: 'gegner', author: 'Phil Zuckerman', work: 'Society without God: What the Least Religious Nations Can Tell Us About Contentment', year: '2008', quote: `Zuckerman zeigt, dass Dänemark und Schweden trotz geringer Religiosität stabile, wohlhabende und zufriedene Gesellschaften sind; zugleich beschreibt er ein fortbestehendes „kulturelles" Christentum.`, status: 'paraphrase' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'basis-ueberbau',
+      objection: `Religion ist Überbau. Nicht das Bewusstsein der Menschen bestimmt ihr Sein, sondern ihr gesellschaftliches Sein bestimmt ihr Bewusstsein. Ändere die Produktionsverhältnisse, und die Religion verschwindet von selbst – wie ein Schatten, wenn das Licht wechselt.`,
+      objectionBy: 'Karl Marx (Zur Kritik der politischen Ökonomie, Vorwort, 1859)',
+      answer: `Dann wende die These auf sie selbst an: Wenn das Sein das Bewusstsein bestimmt, ist auch der Marxismus nur der Überbau eines bürgerlichen Intellektuellen im 19. Jahrhundert, finanziert aus den Fabrikgewinnen von Engels. Damit hätte er keinen Anspruch auf Wahrheit. Außerdem hat die Geschichte die Vorhersage widerlegt: Das Christentum entstand unter Armen, verbreitete sich in Sklavengesellschaften, im Feudalismus, im Kapitalismus und im Sozialismus – und überlebte siebzig Jahre staatlicher Verfolgung in der Sowjetunion. Ein bloßer Schatten der Produktionsverhältnisse hätte das nicht getan.`,
+      detail: `Max Weber hat in *Die protestantische Ethik und der Geist des Kapitalismus* (1904/05) sogar die umgekehrte Wirkrichtung gezeigt: Religiöse Überzeugungen prägen wirtschaftliches Handeln. Seriöse Soziologie sieht heute Wechselwirkungen, keine Einbahnstraße.
+
+Für das Gespräch ist die Selbstanwendung entscheidend: Jede Theorie, die alle Überzeugungen auf nichtrationale Ursachen zurückführt, untergräbt auch sich selbst. Das ist dieselbe Struktur wie beim Projektionsargument (siehe Claim zu Feuerbach).`,
+      sources: [
+        { kind: 'gegner', author: 'Karl Marx', work: 'Zur Kritik der politischen Ökonomie, Vorwort', ref: 'MEW 13, S. 9', year: '1859', quote: `Es ist nicht das Bewußtsein der Menschen, das ihr Sein, sondern umgekehrt ihr gesellschaftliches Sein, das ihr Bewußtsein bestimmt.`, status: 'verbatim' },
+        { kind: 'fachliteratur', author: 'Max Weber', work: 'Die protestantische Ethik und der Geist des Kapitalismus', year: '1904/05', quote: `Weber zeigt, wie religiöse Überzeugungen die Entstehung wirtschaftlicher Lebensformen mitprägten – also eine Wirkung vom Bewusstsein auf das Sein.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn das Sein das Bewusstsein bestimmt – welches gesellschaftliche Sein hat dann die Überzeugung hervorgebracht, dass das Sein das Bewusstsein bestimmt? Und ist sie dann noch wahr?`,
+      ],
+      followUps: [
+        {
+          id: 'saekularisierung-unaufhaltsam',
+          objection: `Die Empirie gibt Marx recht: Je höher Wohlstand und soziale Sicherheit, desto schneller schwindet die Religion. Europa zeigt die Zukunft der Welt.`,
+          objectionBy: 'Pippa Norris / Ronald Inglehart (Sacred and Secular, 2004)',
+          answer: `Für Westeuropa stimmt der Trend – das gebe ich zu. Aber Europa ist nicht die Welt, sondern eher der Sonderfall. Weltweit wächst der Anteil religiöser Menschen; in China ist das Christentum ausgerechnet während des größten Wirtschaftsbooms der Geschichte von wenigen Millionen auf viele Millionen gewachsen, gerade unter gebildeten Städtern. Der Soziologe Peter Berger, einst ein Hauptvertreter der Säkularisierungsthese, hat sie später ausdrücklich widerrufen: Die Welt sei heute so „leidenschaftlich religiös" wie eh und je.`,
+          detail: `Norris und Inglehart erklären Säkularisierung mit „existenzieller Sicherheit": Wo Menschen sich sicher fühlen, sinkt die Religiosität. Das hat empirische Stützen, aber auch Ausnahmen (USA, Südkorea, Singapur, das städtische China). Berger schrieb 1999 in *The Desecularization of the World*, die Annahme, wir lebten in einer säkularisierten Welt, sei falsch.`,
+          voices: [
+            {
+              person: 'peter-berger',
+              role: 'als Religionssoziologe',
+              text: `Berger hatte in den 1960er-Jahren selbst vorausgesagt, dass die Moderne die Religion zurückdrängen werde. Dreißig Jahre später revidierte er diese Sicht: Mit wenigen Ausnahmen – vor allem Westeuropa und einer internationalen akademischen Elite – sei die Welt so religiös wie zuvor. Die Moderne erzeuge nicht notwendig Säkularisierung, sondern Pluralismus: Menschen müssen ihren Glauben bewusster wählen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Peter L. Berger (Hg.)', work: 'The Desecularization of the World: Resurgence of Religion and World Politics', year: '1999', quote: `Die Welt von heute ist, mit einigen Ausnahmen, ebenso leidenschaftlich religiös, wie sie es immer war, an manchen Orten sogar mehr denn je.`, original: `The world today, with some exceptions to which I will come presently, is as furiously religious as it ever was, and in some places more so than ever.`, translation: 'eigene Übersetzung', status: 'verbatim' },
+              ],
+            },
+          ],
+          followUps: [
+            {
+              id: 'nur-demografie',
+              objection: `Das Wachstum der Religion ist bloß Demografie: Religiöse Menschen in armen Ländern bekommen mehr Kinder. Das sagt nichts über die Überzeugungskraft des Glaubens.`,
+              objectionBy: 'Religionssoziologischer Kritiker',
+              answer: `Demografie spielt eine große Rolle – zugestanden. Aber sie erklärt nicht alles: In China, im Iran oder in Algerien wachsen christliche Gemeinden durch Bekehrung, oft unter Verfolgung und bei Menschen, die nichts zu gewinnen haben. Und vor allem: Ich habe nie gesagt, dass Zahlen die Wahrheit beweisen. Mein Punkt ist bescheidener: Die Vorhersage, Religion verschwinde mit dem Wohlstand von selbst, hat sich nicht erfüllt. Die Wahrheitsfrage muss man mit Gründen klären, nicht mit Statistik.`,
+              detail: `Der Soziologe Fenggang Yang (Purdue University) schätzt, dass China bis 2030 eines der Länder mit den meisten Christen weltweit sein könnte; solche Prognosen sind unsicher und sollten vorsichtig zitiert werden. Für das Gespräch genügt die nüchterne Feststellung: Weder Wachstum noch Rückgang einer Religion entscheiden über ihre Wahrheit.`,
+              followUps: [
+                {
+                  id: 'russland-staatskirche',
+                  objection: `Und wo die Religion nach dem Kommunismus zurückkam, wie in Russland, ist sie sofort wieder Staatsideologie geworden – Patriarch und Präsident Seite an Seite. Marx hatte recht: Religion ist das Werkzeug der Herrschenden.`,
+                  objectionBy: 'Politischer Beobachter (marxistische Rezeption)',
+                  answer: `Die enge Verbindung von Moskauer Patriarchat und Staat ist ein echtes Problem, und viele orthodoxe Christen weltweit kritisieren sie offen. Aber sie zeigt, was geschieht, wenn Kirche sich an Macht bindet – nicht, was Glaube ist. Der Prüfstein liegt davor: In den Jahrzehnten der Verfolgung starben Hunderttausende Gläubige in Lagern, ohne etwas zu gewinnen. Solschenizyn hat ihren Glauben im Gulag bezeugt. Ein Glaube, für den Menschen gegen die Herrschenden sterben, ist nicht das Werkzeug der Herrschenden.`,
+                  detail: `Die Russische Orthodoxe Kirche hat nach 1991 die „Neumärtyrer und Bekenner" der Sowjetzeit heiliggesprochen. Alexander Solschenizyn (*Der Archipel GULAG*) beschreibt Gläubige im Lager als die Menschen, die innerlich frei blieben. Die koptische Kirche kennt das umgekehrte Verhältnis: Sie war nie Staatskirche und hat ihren Glauben unter wechselnden Herrschern bewahrt. Wer Religion nach ihren Märtyrern statt nach ihren Hofpredigern beurteilt, sieht ein anderes Bild als Marx.`,
+                  voices: [
+                    {
+                      person: 'solschenizyn',
+                      role: 'als Zeuge des Gulag',
+                      text: `Solschenizyn, selbst acht Jahre in Lagern, beschreibt im *Archipel GULAG* gläubige Häftlinge, die sich nicht brechen ließen, und deutet die Katastrophe des 20. Jahrhunderts mit einem Satz, den er von älteren Russen hörte: Die Menschen hätten Gott vergessen, darum sei all das geschehen. Er sah im Glauben nicht ein Opium, sondern die Quelle des Widerstands gegen die totalitäre Lüge.`,
+                      sources: [
+                        { kind: 'sonstiges', author: 'Alexander Solschenizyn', work: 'Templeton-Rede („Men Have Forgotten God")', year: '1983', quote: `Ältere Menschen hätten ihm als Kind erklärt, die großen Katastrophen seien über Russland gekommen, weil die Menschen Gott vergessen hätten.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

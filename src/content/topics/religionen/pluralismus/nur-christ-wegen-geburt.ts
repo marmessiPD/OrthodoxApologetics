@@ -95,6 +95,23 @@ const claim: Claim = {
               objectionBy: 'John W. Loftus',
               answer: `Gut – dann folgen wir der Evidenz gemeinsam: den historischen Belegen für Jesu Tod und Auferstehung, der Frage, warum es überhaupt etwas gibt, der Existenz von Bewusstsein und Moral. Ich bin bereit, meinen Glauben mit derselben Sorgfalt zu prüfen wie andere – die Bibel selbst verlangt das (1 Thess 5,21). Aber dann prüfen wir den Naturalismus mit demselben Maßstab.`,
               questionsBack: [`Hast du deinen eigenen Naturalismus schon einmal mit derselben Skepsis geprüft, die du auf Religionen anwendest?`],
+              followUps: [
+                {
+                  id: 'aussergewoehnliche-belege',
+                  objection: `Außergewöhnliche Behauptungen erfordern außergewöhnliche Belege. Ein paar antike Berichte von Anhängern reichen für eine Totenauferweckung einfach nicht aus.`,
+                  objectionBy: 'Sam Harris (sinngemäß)',
+                  answer: `Der Satz klingt gut, ist aber unklar. Was eine Behauptung „außergewöhnlich" macht, hängt von deinem Hintergrundwissen ab: Wenn es keinen Gott gibt, ist eine Auferweckung extrem unwahrscheinlich; wenn es einen Gott gibt, der sich offenbaren will, ist sie genau das, was man erwarten könnte. Darum gehören die Gottesfrage und die historische Frage zusammen. Und die Belege sind nicht „ein paar Berichte von Anhängern": Darunter sind ein früherer Verfolger, ein skeptischer Bruder und ein Bekenntnis aus den ersten Jahren.`,
+                  detail: `Richard Swinburne hat das Problem mit Wahrscheinlichkeitsrechnung durchdacht: Die Wahrscheinlichkeit der Auferstehung hängt einerseits von den historischen Belegen ab, andererseits von der Vorwahrscheinlichkeit, dass Gott existiert und Mensch wird. Wer diese Vorwahrscheinlichkeit nicht von vornherein auf null setzt, kommt bei den bekannten Fakten zu einer erstaunlich hohen Gesamtwahrscheinlichkeit.
+
+Auch im Alltag akzeptieren wir einmalige, unwahrscheinliche Ereignisse auf gute Zeugnisse hin – einen Lottogewinn, eine extrem seltene Genesung. Seltenheit allein ist kein Gegenargument. Entscheidend ist, welche Erklärung die Gesamtheit der Fakten am besten erfasst.`,
+                  voices: [
+                    { person: 'swinburne', role: 'als Religionsphilosoph', text: `Swinburne argumentiert, dass die Hintergrundwahrscheinlichkeit für die Existenz Gottes und für eine Menschwerdung in die Bewertung der historischen Belege einfließen muss. Kombiniert mit den Zeugnissen über das leere Grab und die Erscheinungen ergibt sich für ihn eine hohe Wahrscheinlichkeit der Auferstehung.`, sources: [
+                      { kind: 'fachliteratur', author: 'Richard Swinburne', work: 'The Resurrection of God Incarnate', year: '2003', status: 'paraphrase', quote: `Die Auferstehung ist unter Berücksichtigung der Hintergrundwahrscheinlichkeit, dass Gott existiert und Mensch wird, hochwahrscheinlich.` },
+                    ] },
+                  ],
+                  questionsBack: [`Wie hoch ist für dich die Wahrscheinlichkeit, dass es einen Gott gibt – und hast du sie vor oder nach der Prüfung der Belege festgelegt?`],
+                },
+              ],
             },
           ],
         },
@@ -122,6 +139,21 @@ const claim: Claim = {
               objection: `Auch die Kopten bleiben doch aus Familientradition und Gruppenidentität Christen.`,
               objectionBy: 'Richard Dawkins (sinngemäß)',
               answer: `Teilweise – Identität spielt eine Rolle. Aber die Entscheidung, unter Benachteiligung, Anschlägen und Lebensgefahr Christ zu bleiben, wird persönlich immer neu getroffen. Die Märtyrer von Libyen bekannten 2015 im Angesicht des Todes Christus. Ererbter Glaube kann zu eigenem Glauben werden. Und noch einmal: Das Motiv entscheidet nicht über die Wahrheit.`,
+              followUps: [
+                {
+                  id: 'maertyrer-gibt-es-ueberall',
+                  objection: `Märtyrer gibt es in jeder Religion. Auch Selbstmordattentäter sterben für ihren Glauben. Die Bereitschaft zu sterben beweist nur Überzeugung, nicht Wahrheit.`,
+                  objectionBy: 'Sam Harris (sinngemäß)',
+                  answer: `Da hast du recht: Sterben beweist nicht, dass der Glaube wahr ist. Aber zwei Unterschiede sind wichtig. Erstens: Ein christlicher Märtyrer tötet nicht, sondern stirbt und betet für seine Mörder – das ist das Gegenteil eines Attentäters. Zweitens: Die Apostel starben nicht für etwas, das sie von anderen gehört hatten, sondern für das, was sie nach eigenem Zeugnis selbst gesehen hatten. Menschen sterben für Lügen, die sie für wahr halten – aber kaum für eine Lüge, von der sie wissen, dass sie eine ist.`,
+                  detail: `Für unser Thema – „Du bist nur Christ wegen deiner Geburt" – geht es um etwas anderes: Die Treue unter Druck zeigt, dass ererbter Glaube zu persönlich verantwortetem Glauben werden kann. Die 21 Männer, die 2015 in Libyen ermordet wurden, hätten durch Verleugnung ihr Leben retten können. Ihre Familien haben öffentlich vergeben. Das beweist nicht die Wahrheit des Christentums, aber es widerlegt die Unterstellung, ihr Glaube sei bloße Gewohnheit gewesen.
+
+Was die Wahrheitsfrage betrifft, verweist das Christentum nicht auf die Opferbereitschaft, sondern auf die Auferstehung. Die Bereitschaft der ersten Zeugen zu leiden ist dabei ein Indiz für ihre Aufrichtigkeit – nicht mehr, aber auch nicht weniger.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '7,59–60', status: 'paraphrase', quote: `Stephanus betete, während sie ihn steinigten: Herr Jesus, nimm meinen Geist auf! Herr, behalte ihnen diese Sünde nicht!` },
+                  ],
+                  questionsBack: [`Siehst du einen Unterschied zwischen jemandem, der tötet, um für seinen Glauben zu sterben, und jemandem, der stirbt und für seine Mörder betet?`],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +173,23 @@ const claim: Claim = {
           objection: `Jede Religion glaubt doch, dass sie den Test besteht.`,
           objectionBy: 'John W. Loftus',
           answer: `Mag sein – dann lass uns den Test tatsächlich durchführen, statt ihn nur zu behaupten. Das Christentum hat dabei einen Vorteil: Es gründet auf öffentlichen, geschichtlichen Ereignissen, nicht nur auf privater Offenbarung. Gerade das macht es überprüfbar. Wenn Jesus nicht auferstanden ist, ist unser Glaube vergeblich (1 Kor 15,17) – das ist ein ehrliches Angebot zur Falsifikation.`,
+          followUps: [
+            {
+              id: 'epistemische-paritaet',
+              objection: `Gläubige anderer Religionen haben ebenso Gründe, Erfahrungen und kluge Denker wie du. Wenn gleich intelligente, gleich aufrichtige Menschen zu entgegengesetzten Ergebnissen kommen, ist die einzig redliche Haltung, sich des Urteils zu enthalten.`,
+              objectionBy: 'John Hick (sinngemäß)',
+              answer: `Wenn das gälte, müsstest du dich auch beim Pluralismus enthalten – denn gleich kluge Christen, Muslime und Buddhisten lehnen ihn ab. Uneinigkeit unter klugen Menschen gibt es in jeder großen Frage: in der Politik, in der Ethik, in der Philosophie. Daraus folgt nicht, dass niemand mehr urteilen darf, sondern dass man sorgfältig und demütig urteilen soll. Und man kann Gründe vergleichen: Ein öffentliches Ereignis mit Zeugen wiegt anders als eine private Erleuchtung.`,
+              detail: `Alvin Plantinga hat gezeigt, dass das Wissen um Andersdenkende einen nicht zwingt, die eigene Überzeugung aufzugeben. Wer nach gründlicher Überlegung zu dem Schluss kommt, dass seine Gründe überzeugen, und die anderen Positionen ernsthaft geprüft hat, handelt nicht willkürlich, wenn er bei seiner Sicht bleibt. Der Pluralist tut übrigens genau dasselbe: Er kennt die Einwände der Exklusivisten und bleibt trotzdem Pluralist.
+
+Die Urteilsenthaltung, die Hick empfiehlt, wäre außerdem selbst eine weitreichende Position – eine Art Agnostizismus, den die meisten Menschen der Welt nicht teilen.`,
+              voices: [
+                { person: 'plantinga', role: 'als Erkenntnistheoretiker', text: `Plantinga prüft den Vorwurf, Exklusivismus sei angesichts religiöser Vielfalt intellektuell unredlich. Er zeigt, dass der Vorwurf sich selbst trifft: Auch die Enthaltung oder der Pluralismus ist eine Position, die andere ablehnen. Es gibt keinen neutralen Ort außerhalb aller Überzeugungen.`, sources: [
+                  { kind: 'fachliteratur', author: 'Alvin Plantinga', work: 'A Defense of Religious Exclusivism, in: T. Senor (Hg.), The Rationality of Belief and the Plurality of Faith', year: '1995', status: 'paraphrase', quote: `Exklusivismus ist nicht notwendig irrational oder arrogant; auch Pluralismus und Enthaltung sind Positionen mit Ausschlusscharakter.` },
+                ] },
+              ],
+              questionsBack: [`Kluge Menschen widersprechen deinem Pluralismus – enthältst du dich deshalb auch in dieser Frage?`],
+            },
+          ],
         },
       ],
     },
@@ -158,6 +207,32 @@ const claim: Claim = {
           objection: `Die Kindertaufe zeigt doch, dass ihr die Entscheidung vorwegnehmt.`,
           objectionBy: 'Richard Dawkins (sinngemäß)',
           answer: `Die Taufe ist Gottes Geschenk und ein Anfang, kein Ende. Das Kind wächst im Glauben, lernt ihn kennen und eignet ihn sich an – in Katechese, Beichte, Eucharistie und eigenem Gebet. Eltern treffen auch sonst unzählige Entscheidungen für ihre Kinder: Sprache, Medizin, Bildung. Die Freiheit bleibt: Jeder kann gehen. In Ägypten hätten viele gute weltliche Gründe gehabt, es zu tun – und sind geblieben.`,
+        },
+      ],
+    },
+    {
+      id: 'religion-kognitives-nebenprodukt',
+      objection: `Die kognitive Religionswissenschaft erklärt längst, warum Menschen überall glauben: Unser Gehirn erkennt hyperaktiv Absichten hinter Ereignissen und sieht überall Planer. Religion ist ein Nebenprodukt dieser Mechanismen – darum glauben Kinder in jeder Kultur „von selbst".`,
+      objectionBy: 'Sam Harris (nach Pascal Boyer)',
+      answer: `Interessant: Einer der Begründer dieses Forschungsfelds, Justin Barrett, ist selbst Christ – und sagt, dass seine Forschung den Glauben nicht widerlegt. Wenn Gott Menschen so geschaffen hat, dass sie natürlicherweise nach ihm fragen, dann würde man genau diese Befunde erwarten. Paulus sagt, dass das Wissen um Gott allen Menschen ins Herz gelegt ist (Röm 1,19–20). Zu erklären, **wie** ein Glaube entsteht, entscheidet nicht, **ob** er wahr ist.`,
+      detail: `Die kognitive Religionswissenschaft zeigt, dass Kinder früh dazu neigen, die Welt als geplant und zweckvoll zu sehen, und dass sie an unsichtbare handelnde Wesen glauben. Justin Barrett spricht von „geborenen Gläubigen". Für das Argument „du bist nur Christ wegen deiner Geburt" ist das ein zweischneidiges Schwert: Wenn der Glaube an Gott natürlich ist, dann ist eher der Atheismus erklärungsbedürftig, der gegen diese Neigung ankämpfen muss.
+
+Der Mechanismus erklärt außerdem nur eine allgemeine Offenheit für Übernatürliches, nicht die konkreten Inhalte einer Religion – etwa, dass ein bestimmter Jude unter Pontius Pilatus gekreuzigt wurde und auferstand. Diese Inhalte muss man historisch prüfen.`,
+      voices: [
+        { person: 'justin-barrett', role: 'als kognitiver Religionswissenschaftler', text: `Barrett hat gezeigt, dass Kinder in verschiedenen Kulturen eine natürliche Neigung zu religiösen Vorstellungen haben. Er betont, dass diese Befunde nichts über die Wahrheit des Glaubens entscheiden: Auch unsere Fähigkeit zu rechnen oder andere Personen zu erkennen hat natürliche Grundlagen, ohne dass Mathematik oder Mitmenschen deshalb Illusionen wären.`, sources: [
+          { kind: 'wissenschaft', author: 'Justin L. Barrett', work: 'Born Believers: The Science of Children\'s Religious Belief', year: '2012', status: 'paraphrase', quote: `Kinder sind von Natur aus für religiöse Vorstellungen offen; das widerlegt den Glauben nicht.` },
+        ] },
+      ],
+      sources: [
+        { kind: 'gegner', author: 'Pascal Boyer', work: 'Religion Explained: The Evolutionary Origins of Religious Thought', year: '2001', status: 'paraphrase', quote: `Religiöse Vorstellungen als Nebenprodukt allgemeiner kognitiver Mechanismen.` },
+      ],
+      followUps: [
+        {
+          id: 'mechanismus-falsch-positiv',
+          objection: `Aber der Mechanismus erzeugt nachweislich systematisch falsche Treffer: Geister im Rascheln der Blätter, Götter hinter dem Donner. Ein so unzuverlässiger Detektor kann keinen Glauben rechtfertigen.`,
+          objectionBy: 'Sam Harris (sinngemäß)',
+          answer: `Ein Rauchmelder, der manchmal beim Toasten piept, ist nicht wertlos – er schlägt auch an, wenn es wirklich brennt. Dass ein Detektor Fehlalarme gibt, beweist nicht, dass es kein Feuer gibt. Außerdem gilt: Wenn alle unsere Denkfähigkeiten nur Produkte ungelenkter Evolution wären, die auf Überleben statt auf Wahrheit zielen, dann hätten wir auch keinen Grund, unserem Urteil „es gibt keinen Gott" zu trauen. Das Argument sägt am eigenen Ast.`,
+          questionsBack: [`Wenn ein Detektor manchmal falsch anschlägt – folgt daraus, dass er nie richtig anschlägt?`],
         },
       ],
     },

@@ -128,6 +128,21 @@ const claim: Claim = {
           objection: `Dann ist „Sollen" eben nur ein Gefühl. Das ist unbequem, aber wahr.`,
           objectionBy: 'Michael Ruse',
           answer: `Wenn das wahr ist, dann ist auch dein Satz „Man soll die Wahrheit sagen, auch wenn sie unbequem ist" nur ein Gefühl. Und wenn jemand den Völkermord befürwortet, hast du nur ein anderes Gefühl als er – keinen Grund, der für alle gilt. Fast niemand lebt so; selbst der überzeugteste Naturalist empört sich über Unrecht, als wäre es wirklich Unrecht. Diese gelebte Überzeugung ist ein starker Hinweis, dass Moral mehr ist als ein Gefühl.`,
+          followUps: [
+            {
+              id: 'nuetzliche-illusion',
+              objection: `Die Evolution hat uns eben so gebaut, dass wir Moral für objektiv **halten** – sonst würden wir sie nicht ernst nehmen. Das Gefühl der Objektivität ist Teil des Tricks. Eine nützliche Illusion.`,
+              objectionBy: 'Michael Ruse',
+              answer: `Dann gilt das auch für deine eigenen Urteile: Dass Rassismus falsch ist, wäre dann ebenfalls nur eine nützliche Illusion. Und das Argument greift weiter: Auch erkenntnistheoretische Normen sind Sollens-Sätze – „Man soll Überzeugungen nach den Belegen richten", „Man soll Widersprüche vermeiden". Wenn alle Sollens-Sätze Illusionen sind, dann auch die Regeln, nach denen du mich gerade überzeugen willst. Wer Moral entlarvt, entlarvt die Vernunft gleich mit.`,
+              detail: `Der Philosoph Terence Cuneo hat dieses „Partner-in-Schuld"-Argument in *The Normative Web* (2007) ausgearbeitet: Moralische und epistemische Normen stehen und fallen gemeinsam. Wer moralische Tatsachen leugnet, muss konsequent auch epistemische Gründe leugnen – und kann dann nicht mehr behaupten, man **sollte** seine Theorie glauben. Ruse selbst ist hier ehrlich: Er nennt die Objektivität der Moral eine von den Genen erzeugte Illusion. Frage ihn freundlich, ob er bereit ist, diese Konsequenz auch beim Holocaust auszusprechen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Terence Cuneo', work: 'The Normative Web: An Argument for Moral Realism', year: '2007', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Ist der Satz „Man soll Überzeugungen nur nach Belegen bilden" für dich auch nur eine nützliche Illusion?`,
+              ],
+            },
+          ],
         },
       ],
     },
@@ -136,6 +151,43 @@ const claim: Claim = {
       objection: `Mit derselben Logik ist auch dein Gottesglaube ein Produkt der Evolution – ein Nebenprodukt unserer Neigung, überall Absichten zu sehen. Dein Argument fällt auf dich zurück.`,
       objectionBy: 'Daniel Dennett',
       answer: `Das Argument fällt nur auf den Naturalisten zurück, nicht auf den Theisten. Wenn Gott existiert und die Evolution als Werkzeug gebraucht hat, dann ist es zu erwarten, dass er uns sowohl die Fähigkeit gegeben hat, ihn zu erkennen, als auch die, das Gute zu erkennen. Wenn aber nur blinde Selektion am Werk war, gibt es für keine unserer Überzeugungen eine Wahrheitsgarantie – auch nicht für den Naturalismus selbst. Das hat Plantinga gezeigt.`,
+      followUps: [
+        {
+          id: 'street-darwinsches-dilemma',
+          objection: `Dein Argument beweist zu viel. Genau deshalb sollten wir den moralischen Realismus aufgeben: Wenn unsere Werturteile durch Selektion geformt sind, wäre es ein riesiger Zufall, wenn sie mit unabhängigen moralischen Wahrheiten übereinstimmten. Werte sind keine Fakten da draußen, sondern Konstruktionen aus unseren eigenen Wertungen.`,
+          objectionBy: 'Sharon Street',
+          answer: `Ich stimme dir in der ersten Hälfte zu: Ohne eine Verbindung zwischen der Evolution unserer Urteile und der moralischen Wahrheit wäre die Übereinstimmung ein unerklärlicher Zufall. Du ziehst daraus den Schluss, die objektive Wahrheit fallen zu lassen. Ich ziehe den anderen: Es gibt eine Verbindung – einen Schöpfer, der den Prozess so gelenkt hat, dass Wesen entstehen, die das Gute erkennen. Und der Preis deiner Lösung ist hoch: Wenn Werte nur aus unseren Wertungen konstruiert sind, dann ist Grausamkeit für jemanden, dessen Wertungen in sich stimmig auf Grausamkeit ausgerichtet sind, nicht falsch.`,
+          detail: `Sharon Street hat 2006 in *Philosophical Studies* („A Darwinian Dilemma for Realist Theories of Value") eines der einflussreichsten Argumente der Metaethik vorgelegt. Bemerkenswert: Sie räumt selbst ein, dass ihr Konstruktivismus die Möglichkeit eines „ideal kohärenten Caligula" zulässt – eines Menschen, für den Folter aus seinen eigenen, in sich stimmigen Wertungen heraus gut wäre, und dem man keinen Fehler nachweisen kann. Viele Philosophen halten das für eine Widerlegung durch Absurdität. Der Theismus bietet hier einen dritten Weg: Realismus **und** eine Erklärung, warum unsere Fähigkeiten ihn erfassen.`,
+          sources: [
+            { kind: 'gegner', author: 'Sharon Street', work: '„A Darwinian Dilemma for Realist Theories of Value", Philosophical Studies 127', year: '2006', status: 'paraphrase' },
+            { kind: 'gegner', author: 'Sharon Street', work: '„In Defense of Future Tuesday Indifference: Ideally Coherent Eccentrics and the Contingency of What Matters", Philosophical Issues 19', year: '2009', status: 'paraphrase', note: 'Hier diskutiert Street die Konsequenz „ideal kohärenter" Exzentriker offen.' },
+          ],
+          followUps: [
+            {
+              id: 'gott-als-verbindung-ad-hoc',
+              objection: `Einen Schöpfer als „Verbindung" einzuführen, ist ad hoc. Du erfindest eine Lösung, nur weil du das Problem sonst nicht lösen kannst.`,
+              objectionBy: 'Michael Ruse',
+              answer: `Ad hoc wäre es, wenn ich Gott nur für dieses Problem erfände. Aber der Theismus ist eine eigenständige Weltsicht mit eigenen Argumenten – vom Ursprung des Universums bis zur Auferstehung Jesu. Und er **sagt voraus**, was wir vorfinden: dass Wesen entstehen, die Wahrheit, Schönheit und Güte erkennen können. Der Naturalismus dagegen muss dieselbe Passung entweder als Glücksfall hinnehmen oder die objektive Moral aufgeben – und mit ihr, wie Plantinga zeigt, möglicherweise auch das Vertrauen in die Wahrheitsfähigkeit unseres Denkens überhaupt.`,
+              voices: [
+                { person: 'plantinga', role: 'als Erkenntnistheoretiker', text: `Plantingas „evolutionäres Argument gegen den Naturalismus" (*Where the Conflict Really Lies*, 2011) überträgt dieselbe Logik auf das Denken insgesamt: Wenn Selektion nur auf Überlebensverhalten, nicht auf Wahrheit achtet, hat der Naturalist keinen Grund, seinen eigenen Überzeugungen – einschließlich des Naturalismus – zu trauen. Im Theismus dagegen sind wir nach dem Bild eines erkennenden Gottes geschaffen.` },
+              ],
+              followUps: [
+                {
+                  id: 'moral-aelter-als-religion',
+                  objection: `Moral ist älter als jede Religion. Bonobos und Schimpansen zeigen Empathie, Fairness und Versöhnung. Religion kam viel später – sie hat die Moral nur übernommen und mit Strafandrohungen versehen.`,
+                  objectionBy: 'Frans de Waal',
+                  answer: `Dem stimme ich in einem wichtigen Punkt zu: Moralisches Empfinden geht organisierter Religion voraus. Genau das sagt Paulus: Auch Menschen ohne das Gesetz tun „von Natur des Gesetzes Werk", weil es „in ihr Herz geschrieben" ist (Röm 2,14–15). Mein Argument war nie, dass man ohne Religion nicht moralisch empfinden kann. Es geht darum, ob dieses Empfinden auf etwas Wirkliches antwortet – oder nur ein nützliches Gefühl ist. Die Chronologie entscheidet diese Frage nicht.`,
+                  detail: `Frans de Waal (*The Bonobo and the Atheist*, 2013) hat mit großer Sorgfalt die Bausteine der Moral bei Primaten beschrieben – Trost, Gegenseitigkeit, Fairness-Empfinden. Christen können das dankbar aufnehmen: Die Schöpfung ist auf Gemeinschaft hin angelegt. Aber de Waal selbst unterscheidet zwischen diesen Bausteinen und einer ausgebildeten menschlichen Moral mit universalen Prinzipien. Diese Lücke – vom Mitgefühl mit der eigenen Gruppe zur Pflicht gegenüber jedem Fremden, ja dem Feind – ist genau die Stelle, an der die Frage nach dem Fundament neu aufbricht.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Frans de Waal', work: 'The Bonobo and the Atheist: In Search of Humanism Among the Primates', year: '2013', status: 'paraphrase' },
+                    { kind: 'bibel', work: 'Römer', ref: '2,14–15', quote: `Denn so die Heiden, die das Gesetz nicht haben, doch von Natur tun des Gesetzes Werk … beweisen sie, des Gesetzes Werk sei beschrieben in ihrem Herzen.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'fehlzuendung-altruismus',
@@ -150,6 +202,31 @@ const claim: Claim = {
           answer: `Ein schöner Satz – aber wer ist „wir", wenn wir nur Genmaschinen sind? Und nach welchem Maßstab wäre die Auflehnung *besser* als der Gehorsam gegenüber den Genen? Du setzt stillschweigend zwei Dinge voraus, die dein Weltbild nicht hergibt: eine Freiheit, die über die Natur hinausreicht, und einen Maßstab des Guten, der über dem Überlebensnutzen steht. Genau diese beiden Dinge begründet der christliche Glaube.`,
           sources: [
             { kind: 'gegner', author: 'Richard Dawkins', work: 'The Selfish Gene', ref: 'Kap. 11', year: '1976', quote: `Wir allein auf der Erde können uns gegen die Tyrannei der egoistischen Replikatoren auflehnen.`, original: 'We, alone on earth, can rebel against the tyranny of the selfish replicators.', translation: 'eigene Übersetzung', status: 'verbatim' },
+          ],
+          followUps: [
+            {
+              id: 'singer-expandierender-kreis',
+              objection: `Wir brauchen keinen Gott, um über die Gene hinauszukommen – wir haben die Vernunft. Sie erweitert den moralischen Kreis Schritt für Schritt: von der Familie zum Stamm, zur Nation, zur ganzen Menschheit und darüber hinaus zu allen leidensfähigen Wesen. Das ist der „expandierende Kreis".`,
+              objectionBy: 'Peter Singer',
+              answer: `Der expandierende Kreis setzt voraus, dass die Vernunft eine **objektive** Wahrheit erfasst: dass die Interessen jedes Wesens gleich zählen, egal ob es mit mir verwandt ist. Bemerkenswert ist, dass du selbst später genau zu dieser Auffassung gekommen bist: In *The Point of View of the Universe* (2014) vertreten du und Katarzyna de Lazari-Radek einen objektiven Moralrealismus und argumentieren, dass das Prinzip der unparteiischen Güte gerade **nicht** durch Evolution erklärbar ist. Damit stehst du vor der Frage, wo eine solche Wahrheit im Naturalismus wohnen soll.`,
+              detail: `Das ist ein wichtiges Zugeständnis eines führenden säkularen Ethikers: Wenn Evolution nur Verwandten- und Gruppenmoral erklärt, dann muss eine universale Moral aus einer anderen Quelle stammen. Singer und de Lazari-Radek setzen auf eine Vernunft, die unabhängige normative Wahrheiten intuitiv erfasst – eine Position, die Henry Sidgwick vertrat. Christen antworten: Diese Vernunft und diese Wahrheiten passen hervorragend zum Theismus, schlecht zu einem Universum aus blinder Materie. Die Bibel fordert den expandierenden Kreis übrigens längst: Der barmherzige Samariter (Lk 10) sprengt jede Gruppengrenze, und Jesus gebietet die Feindesliebe (Mt 5,44).`,
+              sources: [
+                { kind: 'gegner', author: 'Peter Singer', work: 'The Expanding Circle: Ethics, Evolution, and Moral Progress', year: '1981', status: 'paraphrase' },
+                { kind: 'gegner', author: 'Katarzyna de Lazari-Radek; Peter Singer', work: 'The Point of View of the Universe: Sidgwick and Contemporary Ethics', year: '2014', quote: `Das Prinzip universeller Güte lasse sich nicht als Produkt evolutionären Drucks erklären und überstehe darum evolutionäre Entlarvungsargumente.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'singer-heiligkeit-speziesismus',
+                  objection: `Und deine „Heiligkeit jedes Menschenlebens" ist Speziesismus. Konsequent zu Ende gedacht zählt nicht die Gattung, sondern die Fähigkeit: Ein Schimpanse kann mehr Interessen haben als ein Neugeborenes ohne Bewusstsein seiner Zukunft.`,
+                  objectionBy: 'Peter Singer',
+                  answer: `Genau hier zeigt sich, warum das Fundament wichtig ist. Wenn der Wert eines Menschen an seinen Fähigkeiten hängt, dann haben Menschen **verschieden viel** Wert – und die Schwächsten, Neugeborene, Schwerbehinderte, Demenzkranke, am wenigsten. Du hast diese Konsequenz in *Praktische Ethik* ehrlich gezogen und die Tötung schwerstbehinderter Neugeborener unter Umständen für vertretbar erklärt. Der christliche Gedanke der Gottebenbildlichkeit begründet dagegen gleiche Würde, die nicht verdient und nicht verloren werden kann.`,
+                  detail: `Das ist keine Polemik gegen Singer, der seine Positionen mit großer Konsequenz und persönlicher Großzügigkeit vertritt (etwa beim Engagement gegen extreme Armut). Es zeigt aber, dass „Vernunft allein" nicht automatisch zur Menschenwürde führt, wie wir sie kennen. Die Gleichheit aller Menschen ist keine empirische Beobachtung – empirisch sind Menschen höchst ungleich –, sondern eine Überzeugung über ihren Ursprung. Siehe auch Claim „Speziesismus".`,
+                  sources: [
+                    { kind: 'gegner', author: 'Peter Singer', work: 'Practical Ethics', ref: 'Kap. 7', year: '1979; 3. Aufl. 2011', status: 'paraphrase', note: 'Singer argumentiert, dass Neugeborene noch keine Personen im vollen Sinn seien; die deutsche Ausgabe heißt „Praktische Ethik".' },
+                  ],
+                },
+              ],
+            },
           ],
         },
       ],
