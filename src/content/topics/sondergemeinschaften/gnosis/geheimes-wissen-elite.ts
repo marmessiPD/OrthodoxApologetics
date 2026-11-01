@@ -131,6 +131,20 @@ const claim: Claim = {
               objectionBy: 'Esoterische Autoren',
               answer: `Ihre Ursprünge sind gut bekannt – und modern: Die Rosenkreuzer-Manifeste erschienen 1614–1616 in Kassel, die erste Großloge der spekulativen Freimaurerei wurde 1717 in London gegründet, die Theosophische Gesellschaft 1875 in New York. Eine nachweisbare Kette zu Jesus oder den Aposteln gibt es nicht. Die Kirche dagegen kann ihre Bischöfe bis zu den Aposteln aufzählen.`,
               questionsBack: [`Kannst du eine historische Quelle nennen, die eine Verbindung deiner Schule zu Jesus vor dem 17. Jahrhundert belegt?`],
+              followUps: [
+                {
+                  id: 'hermes-trismegistos',
+                  objection: `Die Wurzel ist viel älter: die Weisheit des Hermes Trismegistos, des ägyptischen Thot. Das Corpus Hermeticum ist uraltes ägyptisches Mysterienwissen, älter als Mose – Jesus und Paulus haben daraus geschöpft.`,
+                  objectionBy: 'Hermetische und theosophische Autoren',
+                  answer: `Genau das glaubte man in der Renaissance – bis der Philologe Isaac Casaubon 1614 nachwies, dass die Sprache und die Gedanken des Corpus Hermeticum aus der römischen Kaiserzeit stammen, also aus dem 2. bis 3. Jahrhundert **nach** Christus. Die Texte setzen griechische Philosophie, teils auch jüdische und christliche Motive voraus. Sie können Jesus nicht beeinflusst haben, weil sie nach ihm entstanden.`,
+                  detail: `Interessant für Kopten: Einige hermetische Schriften sind in koptischer Übersetzung im Nag-Hammadi-Kodex VI erhalten – sie gehören in dieselbe spätantike Welt wie die gnostischen Texte. Die ägyptische Kirche kannte diese Strömungen, setzte sich mit ihnen auseinander und hielt an der öffentlichen apostolischen Lehre fest. Die moderne Forschung bestätigt Casaubons Datierung im Grundsatz, auch wenn sie in den Texten Elemente älterer ägyptischer Religiosität wiedererkennt.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Isaac Casaubon', work: 'De rebus sacris et ecclesiasticis exercitationes XVI', year: '1614', quote: `Philologischer Nachweis, dass das Corpus Hermeticum nicht aus mosaischer Zeit, sondern aus der nachchristlichen Kaiserzeit stammt.`, status: 'paraphrase' },
+                    { kind: 'gegner', work: 'Nag-Hammadi-Kodex VI (u. a. Asclepius, Über die Achtheit und Neunheit)', quote: `Hermetische Texte in koptischer Übersetzung, 4. Jh.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn das Corpus Hermeticum aus dem 2. oder 3. Jahrhundert nach Christus stammt – wie soll Jesus daraus geschöpft haben?`],
+                },
+              ],
             },
           ],
         },
@@ -148,6 +162,86 @@ const claim: Claim = {
           objectionBy: 'New-Age-Autoren',
           answer: `Dann bleibt das Prinzip: Rettung durch Erkenntnis oder Technik – durch das, was ich weiß oder übe. Das Evangelium sagt: „Aus Gnade seid ihr selig geworden durch den Glauben, und das nicht aus euch: Gottes Gabe ist es" (Eph 2,8). Christus ist nicht der Lehrer eines Geheimnisses, sondern selbst „das Geheimnis Gottes …, in welchem verborgen liegen alle Schätze der Weisheit und der Erkenntnis" (Kol 2,2–3).`,
           sources: [{ kind: 'bibel', work: 'Kolosser', ref: '2,3', quote: `in welchem verborgen liegen alle Schätze der Weisheit und der Erkenntnis.`, translation: 'Luther 1912', status: 'verbatim' }],
+          followUps: [
+            {
+              id: 'gnade-zu-billig',
+              objection: `„Aus Gnade" klingt bequem. Erwachen verlangt Arbeit an sich selbst: Meditation, Disziplin, Läuterung. Ein Gott, der einfach schenkt, macht den Menschen passiv.`,
+              objectionBy: 'Esoterische und gnostische Lehrer',
+              answer: `Die koptische Kirche ist das Gegenteil von bequem: rund 200 Fastentage im Jahr, das Stundengebet der Agpeya, Wachen, Beichte, die Wüstenväter mit ihrem lebenslangen Kampf. Aber diese Mühe ist **Antwort** auf Gottes Gnade, nicht Technik zur Selbsterlösung. Wir sprechen von Synergie: Gott schenkt, und der Mensch wirkt in Freiheit mit. Der Unterschied zur Esoterik liegt nicht zwischen Mühe und Bequemlichkeit, sondern darin, ob ich mich selbst erlöse oder vom lebendigen Gott erlöst und verwandelt werde.`,
+              detail: `Die Wüstenväter warnten gerade vor dem Hochmut des Fortgeschrittenen, der sich für erleuchtet hält. Ein bekanntes Wort aus den Vätersprüchen: Antonius sah die Schlingen des Feindes über die ganze Erde ausgebreitet und fragte seufzend, wer ihnen entkommen könne – und hörte die Antwort: die Demut. Erkenntnis ohne Demut bläht auf (1 Kor 8,1). Darum ist der Weg der Kirche nicht der eines inneren Aufstiegs aus eigener Kraft, sondern der Weg der Liebe, die Gott zuerst geschenkt hat (1 Joh 4,19).`,
+              voices: [
+                {
+                  person: 'antonius',
+                  role: 'als Vater des Mönchtums',
+                  text: `Antonius lebte Jahrzehnte in äußerster Askese – und lehrte doch, dass nicht die Übung rettet, sondern Christus. In den Vätersprüchen erscheint er als der, der die Fallen des Feindes überall sieht und als einzigen Ausweg die Demut erkennt. Die Askese der Wüste war Antwort auf die Liebe Gottes und Kampf gegen den eigenen Stolz – nicht ein Weg, durch Technik ein göttliches Selbst zu entdecken.`,
+                  sources: [{ kind: 'kirchenvater', work: 'Apophthegmata Patrum (Vätersprüche), Antonius', ref: '7', quote: `Antonius sah die Schlingen des Feindes über die Erde gebreitet und fragte, wer ihnen entgehen könne; eine Stimme antwortete: die Demut.`, status: 'paraphrase', note: 'Zählung nach der alphabetischen Sammlung.' }],
+                },
+              ],
+              sources: [{ kind: 'bibel', work: 'Philipper', ref: '2,12–13', quote: `Schaffet, daß ihr selig werdet, mit Furcht und Zittern. Denn Gott ist's, der in euch wirkt beides, das Wollen und das Vollbringen, nach seinem Wohlgefallen.`, translation: 'Luther 1912', status: 'verbatim' }],
+              questionsBack: [`Wenn ich mich durch eigene Übung erlöse – wofür brauche ich dann Christus?`],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'christentum-mysterienreligion',
+      objection: `Das Christentum war selbst eine Mysterienreligion: Einweihung durch Taufe, heiliges Mahl, ein sterbender und auferstehender Gott – wie bei Isis, Osiris und Mithras. Paulus spricht die Sprache der Mysterien: *mystērion*, die „Vollkommenen". Die äußere Kirche hat nur die Hülle bewahrt, die innere Gnosis war das eigentliche Christentum.`,
+      objectionBy: 'Timothy Freke / Peter Gandy (The Jesus Mysteries, 1999)',
+      answer: `Die Mysterienkulte verpflichteten ihre Eingeweihten zu strengem Schweigen – Apuleius weigert sich ausdrücklich, die Isis-Weihe zu beschreiben. Die Christen dagegen predigten ihre „Mysterien" auf Straßen und Plätzen, und die Taufe stand jedem offen, auch Sklaven, ohne Weihegebühr. Und Paulus' Wort *mystērion* kommt nicht aus den Kulten, sondern aus der jüdischen Bibel: In Daniel 2 offenbart Gott „verborgene Dinge" (*mystēria*) – ein Geheimnis, das Gott enthüllt, nicht eines, das Menschen hüten.`,
+      detail: `Die Forschung hat die These der Abhängigkeit des Christentums von den Mysterienkulten weitgehend aufgegeben: Die meisten Belege für die Kulte stammen aus dem 2. bis 4. Jahrhundert, also aus der Zeit nach dem Neuen Testament; manche Parallelen (etwa das Taurobolium als „Wiedergeburt") sind erst spät bezeugt und womöglich vom Christentum beeinflusst. Osiris „aufersteht" nicht in einen verwandelten Leib, sondern wird Herrscher der Unterwelt. Ronald Nash und andere haben die Parallelen Punkt für Punkt geprüft. Ausführlich: Themenblock „Antike Parallelen".`,
+      voices: [
+        {
+          person: 'ronald-nash',
+          role: 'als Philosoph und Kenner der hellenistischen Religionen',
+          text: `Nash untersucht in „The Gospel and the Greeks" die Behauptung, Paulus habe aus den Mysterienkulten geschöpft. Er zeigt, dass die Quellen zu den Kulten überwiegend jünger sind als das Neue Testament, dass die angeblichen Parallelen oft erst durch christliche Begriffe in die Beschreibung der Kulte hineingetragen wurden und dass Paulus' Sprache aus dem Alten Testament und dem Judentum verständlich ist. Ein Glaube, der sich auf ein geschichtliches Ereignis unter Pontius Pilatus beruft, unterscheidet sich grundlegend von zyklischen Naturmythen.`,
+          sources: [{ kind: 'fachliteratur', author: 'Ronald H. Nash', work: 'The Gospel and the Greeks: Did the New Testament Borrow from Pagan Thought?', year: '2. Aufl. 2003', quote: `Prüfung der Abhängigkeitsthese; späte Quellenlage der Mysterienkulte; jüdischer Hintergrund der paulinischen Sprache.`, status: 'paraphrase' }],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Daniel', ref: '2,28', quote: `Aber es ist ein Gott im Himmel, der kann verborgene Dinge offenbaren.`, translation: 'Luther 1912', status: 'verbatim', note: 'Die Septuaginta gebraucht hier *mystēria*.' },
+        { kind: 'gegner', author: 'Apuleius', work: 'Metamorphosen (Der goldene Esel)', ref: 'XI,23', year: '2. Jh.', quote: `Der Erzähler weigert sich, die Einzelheiten der Isis-Weihe preiszugeben – Schweigepflicht der Eingeweihten.`, status: 'paraphrase' },
+      ],
+      questionsBack: [`Welche Mysterienreligion hat ihre heiligsten Handlungen öffentlich gepredigt und jedem Sklaven ohne Gebühr geöffnet?`],
+      followUps: [
+        {
+          id: 'isis-horus-maria',
+          objection: `Gerade eure koptische Kunst verrät die Herkunft: Maria, die den kleinen Jesus stillt, ist das alte Bild der Isis, die Horus stillt. Eure Gottesmutter ist Isis im christlichen Gewand.`,
+          objectionBy: 'Religionsvergleichende und esoterische Autoren',
+          answer: `Dass koptische Künstler eine vertraute Bildform der Mutter mit dem stillenden Kind aufgriffen, ist gut möglich – das gestehe ich ehrlich zu. Aber eine Bildform ist keine Lehre. Was die Kirche über Maria glaubt, stammt aus dem Lukasevangelium – Verkündigung, Jungfrauengeburt, „Mutter meines Herrn" (Lk 1,43) – und aus dem Konzil von Ephesus (431), das sie *Theotokos* nannte, um die Gottheit Christi zu schützen. Isis ist eine Göttin; Maria ist ein Mensch, eine Magd des Herrn, die wir ehren, aber nicht anbeten.`,
+          detail: `Die Kirche Ägyptens hat aus ihrer Umwelt Formen übernommen und mit neuem Inhalt gefüllt – auch das Anch-Zeichen wurde zum koptischen Kreuz. Das ist ein Zeichen von Inkulturation, nicht von Abhängigkeit in der Sache. Entscheidend ist die Frage: Woher stammt der Glaube? Die Mariologie der Kirche wurzelt in der jüdischen Welt Palästinas (Lk 1–2) und in der Christologie: Weil der Sohn wahrer Gott ist, ist seine Mutter Gottesgebärerin. Der hl. Kyrill hat genau das in Ephesus verteidigt.`,
+          sources: [
+            { kind: 'bibel', work: 'Lukas', ref: '1,38.43', quote: `Maria aber sprach: Siehe, ich bin des HERRN Magd … (Elisabeth:) Und woher kommt mir das, daß die Mutter meines HERRN zu mir kommt?`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'konzil', work: 'Konzil von Ephesus', year: '431', quote: `Bestätigung des Titels Theotokos (Gottesgebärerin) gegen Nestorius.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'joh-17-3-erkenntnis',
+              objection: `Selbst das Johannesevangelium sagt: „Das ist das ewige Leben, dass sie dich erkennen" (Joh 17,3). Erlösung durch Erkenntnis – das ist Gnosis pur!`,
+              objectionBy: 'Gnostische und esoterische Ausleger',
+              answer: `Lies den ganzen Vers: „… dass sie dich, der du allein wahrer Gott bist, und den du gesandt hast, Jesus Christus, erkennen." Gemeint ist nicht die Erkenntnis des göttlichen Funkens in mir, sondern die persönliche Gemeinschaft mit dem einen Gott und mit dem geschichtlichen Jesus. „Erkennen" heißt in der Bibel wie im Hebräischen (*jada'*) vertraute Beziehung. Und Johannes sagt, woran man diese Erkenntnis prüft: „Wer da sagt: Ich kenne ihn, und hält seine Gebote nicht, der ist ein Lügner" (1 Joh 2,4).`,
+              detail: `In der Gnosis rettet die Erkenntnis, dass das wahre Selbst göttlichen Ursprungs ist und dem Gefängnis der Materie entfliehen kann. Im Johannesevangelium dagegen wird das Wort Fleisch (1,14), stirbt am Kreuz und steht leiblich auf (20,27). Die Erkenntnis Gottes führt nicht aus der Welt heraus, sondern in die Liebe zu den Brüdern (1 Joh 4,7–8). Gerade Johannes ist der schärfste Gegner des Doketismus im Neuen Testament.`,
+              sources: [
+                { kind: 'bibel', work: 'Johannes', ref: '17,3', quote: `Das ist aber das ewige Leben, daß sie dich, der du allein wahrer Gott bist, und den du gesandt hast, Jesum Christum, erkennen.`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '1. Johannes', ref: '2,4', quote: `Wer da sagt: Ich kenne ihn, und hält seine Gebote nicht, der ist ein Lügner, und in solchem ist keine Wahrheit.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'pneumatiker-nur-reife',
+                  objection: `Auch Paulus unterscheidet „pneumatische" und „psychische" Menschen (1 Kor 2,14–15). Die Valentinianer haben das nur systematisiert – Pneumatiker, Psychiker, Hyliker sind Stufen der Reife, nicht Klassen. Das zeigt Elaine Pagels in „The Gnostic Paul".`,
+                  objectionBy: 'Elaine Pagels (The Gnostic Paul, 1975)',
+                  answer: `Bei Paulus wird man „geistlich", indem man den Geist Gottes empfängt – und das ist allen Glaubenden verheißen (1 Kor 2,12; 12,13: „wir sind alle durch einen Geist zu einem Leibe getauft"). Nach dem Bericht des Irenäus lehrten die Valentinianer dagegen, die Pneumatiker würden **von Natur** gerettet, unabhängig von ihrem Wandel, die Hyliker gingen von Natur zugrunde. Das ist keine Stufe der Reife, sondern ein Unterschied des Wesens. Paulus kennt nur eine Menschheit, die gefallen ist und durch Christus erlöst wird.`,
+                  detail: `Pagels' Studie zeigt, wie die Valentinianer Paulus gelesen haben – das ist historisch aufschlussreich. Aber dass eine Gruppe des 2. Jahrhunderts Paulus für sich beanspruchte, beweist nicht, dass Paulus ihre Lehre teilte. Im selben Brief verkündet Paulus die leibliche Auferstehung (1 Kor 15) und den einen Gott, „von dem alle Dinge sind" (8,6) – den Schöpfer, den die Valentinianer unter den höchsten Gott stellten. Irenäus berichtet die valentinianische Dreiteilung ausführlich in Gegen die Häresien I,6–7.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Irenäus von Lyon', work: 'Gegen die Häresien', ref: 'I,6,1–2; I,7,5', quote: `Nach valentinianischer Lehre wird das Pneumatische von Natur gerettet, gleich wie es handelt; das Hylische geht von Natur zugrunde.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Korinther', ref: '12,13', quote: `Denn wir sind durch einen Geist alle zu einem Leibe getauft, wir seien Juden oder Griechen, Knechte oder Freie, und sind alle zu einem Geist getränkt.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'gegner', author: 'Elaine Pagels', work: 'The Gnostic Paul: Gnostic Exegesis of the Pauline Letters', year: '1975', quote: `Untersuchung der valentinianischen Paulusauslegung.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn manche Menschen „von Natur" gerettet werden und andere „von Natur" verloren sind – wozu dann die Predigt an alle?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

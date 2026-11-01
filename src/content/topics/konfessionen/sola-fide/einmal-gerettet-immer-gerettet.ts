@@ -216,6 +216,97 @@ Das ist die Erfahrung der frühen Kirche: Abfall ist real, nicht hypothetisch �
         },
       ],
     },
+    {
+      id: 'joh-6-nichts-verlieren',
+      objection: `„Joh 6,37–39: ‚Alles, was mir mein Vater gibt, das kommt zu mir … das ist der Wille des Vaters, daß ich nichts verliere von allem, was er mir gegeben hat.' Wenn auch nur ein Erwählter verloren ginge, wäre Christus an seinem Auftrag gescheitert."`,
+      objectionBy: 'James White',
+      answer: `Eine wunderbare Verheißung: Christus verliert niemanden aus Schwäche oder Nachlässigkeit – bei ihm ist kein Versagen. Aber lies das Kapitel zu Ende: V. 40 spricht von dem, der den Sohn sieht „und glaubt" – im Griechischen ein fortdauerndes Glauben. Und V. 66–67: „Von dem an gingen seiner Jünger viele hinter sich", und Jesus fragt die Zwölf: „Wollt ihr auch weggehen?" Diese Frage ist nur sinnvoll, wenn Weggehen möglich ist. Christus lässt keinen los – aber er zwingt auch keinen zu bleiben.`,
+      detail: `James White (*The Potter's Freedom*, 2000) macht Joh 6,37–45 zum Herzstück der reformierten Gnadenlehre: Der Vater gibt, der Sohn bewahrt, keiner geht verloren. Die orthodoxe Auslegung bestreitet nicht die Treue Christi, sondern liest den Text im Zusammenhang mit der menschlichen Antwort, die Johannes selbst durchgehend betont.
+
+- Die Partizipien in Joh 6,35.40.47.54 („der da glaubt", „der da isst") stehen im Präsens: Sie beschreiben ein andauerndes Verhältnis, keinen einmaligen Akt.
+- Joh 6,66 zeigt Jünger (*mathētai*), die Jesus wirklich gefolgt waren und sich abwenden.
+- Joh 17,12 sagt Jesus: „Keiner von ihnen ist verloren außer dem verlorenen Kind" – Judas war einer der Gegebenen, wenn auch die Schrift erfüllt werden sollte.
+
+Chrysostomus betont zu dieser Stelle, dass der Vater niemanden gegen seinen Willen zieht; die Verheißung gilt denen, die kommen und bleiben.`,
+      voices: [
+        {
+          person: 'chrysostomus',
+          role: 'als Ausleger des Johannesevangeliums',
+          text: `Chrysostomus liest Joh 6 als Ruf zur Mitwirkung: Christus verheißt, niemanden hinauszustoßen und niemanden zu verlieren – von seiner Seite her. Doch das Ziehen des Vaters hebt den freien Willen nicht auf; wer sich selbst entzieht, wird nicht gezwungen. Darum mahnt er seine Hörer, die empfangene Gnade durch ein Leben im Glauben zu bewahren.`,
+          sources: [
+            { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über das Johannesevangelium', ref: '45–46 (zu Joh 6)', year: 'um 391', quote: `Das Ziehen des Vaters zwingt den Willen nicht; Christus verliert von sich aus niemanden, doch wer sich selbst abwendet, wird nicht mit Gewalt gehalten.`, status: 'paraphrase' },
+          ],
+        },
+      ],
+      sources: [
+        { kind: 'bibel', work: 'Johannes', ref: '6,66–67', quote: `Von dem an gingen seiner Jünger viele hinter sich und wandelten hinfort nicht mehr mit ihm. Da sprach Jesus zu den Zwölfen: Wollt ihr auch weggehen?`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'gegner', author: 'James R. White', work: 'The Potter’s Freedom', year: '2000', quote: `Joh 6,37–39 als Beleg, dass alle vom Vater Gegebenen sicher zum Sohn kommen und von ihm bis zur Auferstehung bewahrt werden.`, status: 'paraphrase' },
+      ],
+      questionsBack: [
+        `Wenn Weggehen unmöglich ist – warum fragt Jesus die Zwölf: „Wollt ihr auch weggehen?"`,
+        `Waren die Jünger in Joh 6,66 echte Jünger oder nicht? Woran erkennst du das?`,
+      ],
+      followUps: [
+        {
+          id: 'goldene-kette-roem-8',
+          objection: `„Röm 8,29–30 ist eine goldene Kette: ‚Welche er hat gerecht gemacht, die hat er auch herrlich gemacht.' Alles im Aorist, als wäre es schon geschehen. Zwischen Rechtfertigung und Verherrlichung fällt niemand heraus."`,
+          objectionBy: 'R. C. Sproul',
+          answer: `Paulus beschreibt hier Gottes Heilsplan von seinem ewigen Standpunkt aus – für die, „die Gott lieben" (8,28) und die er „zuvor ersehen" hat. Gott sieht das Ende, er weiß, wer bleibt. Aber derselbe Paulus warnt drei Kapitel später die gläubigen Heidenchristen in Rom: „Schaue die Güte und den Ernst Gottes … die Güte aber an dir, *sofern du an der Güte bleibst*; sonst wirst du auch abgehauen werden" (Röm 11,22). Und von sich selbst sagt er, er bezwinge seinen Leib, um nicht selbst „verwerflich" zu werden (1 Kor 9,27).`,
+          detail: `Die Väter lesen Röm 8,29–30 im Licht des göttlichen Vorherwissens: Gott erkennt im Voraus, wer seinem Ruf frei folgt und darin verharrt, und auf diese hin ist der ganze Weg von der Berufung bis zur Herrlichkeit geordnet. Chrysostomus erklärt das „nach dem Vorsatz Berufen" so, dass nicht der Ruf allein, sondern auch die Bereitschaft der Gerufenen zählt.
+
+Die Aoriste der Kette zeigen die Gewissheit von Gottes Seite – so wie die Propheten künftige Ereignisse im Perfekt verkünden. Sie heben aber die vielen Mahnungen an dieselben Leser nicht auf (Röm 8,13: „Wenn ihr nach dem Fleisch lebt, so werdet ihr sterben müssen"). Gottes Treue ist unerschütterlich; die Frage ist, ob wir in ihr bleiben.`,
+          sources: [
+            { kind: 'bibel', work: 'Römer', ref: '11,22', quote: `Darum schaue die Güte und den Ernst Gottes: den Ernst an denen, die gefallen sind, die Güte aber an dir, sofern du an der Güte bleibst; sonst wirst du auch abgehauen werden.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'bibel', work: '1. Korinther', ref: '9,27', quote: `… sondern ich betäube meinen Leib und zähme ihn, daß ich nicht den andern predige und selbst verwerflich werde.`, translation: 'Luther 1912', status: 'verbatim' },
+            { kind: 'kirchenvater', author: 'Johannes Chrysostomus', work: 'Homilien über den Römerbrief', ref: '15 (zu Röm 8,28–30)', quote: `„Nach dem Vorsatz berufen": Nicht der Ruf allein rettet, sondern auch der Vorsatz der Gerufenen; Gott zwingt niemanden.`, status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'keine-heilsgewissheit',
+              objection: `„Dann habt ihr keine Heilsgewissheit, sondern nur eine vage Hoffnung. Johannes schreibt aber, ‚auf daß ihr wisset, daß ihr das ewige Leben habt' (1 Joh 5,13). Gott will, dass wir es *wissen*."`,
+              objectionBy: 'John MacArthur',
+              answer: `Wir haben Gewissheit – über Christus: seine Liebe, sein Erbarmen, seine Treue. Und wir wissen, dass wir **jetzt** das ewige Leben haben, wenn wir in ihm bleiben – genau so begründet Johannes es: „Daran merken wir, daß wir ihn kennen, so wir seine Gebote halten" (1 Joh 2,3), „wir wissen, daß wir aus dem Tode in das Leben gekommen sind; denn wir lieben die Brüder" (3,14). Biblische Hoffnung ist keine Ungewissheit, sondern ein „sicherer und fester Anker der Seele" (Hebr 6,19). Was wir ablehnen, ist nicht Gewissheit, sondern Vermessenheit über die Zukunft – unabhängig davon, wie man lebt.`,
+              detail: `Metropolit Kallistos Ware fasst die orthodoxe Haltung so zusammen: Auf die Frage „Bist du gerettet?" antwortet der orthodoxe Christ: Ich bin gerettet, ich werde gerettet, und ich hoffe, gerettet zu werden. Das Heil ist Geschenk und Weg zugleich.
+
+Diese Gewissheit ruht auf Gottes Treue, die im Leben der Kirche erfahrbar ist: in der Taufe, die uns mit Christus begraben und auferweckt hat; in der Eucharistie, in der wir ihn empfangen; in der Lossprechung, die uns nach jedem Fall neu aufrichtet. Ein Kind, das in den Armen des Vaters liegt, ist gewiss – nicht weil es nicht weglaufen *könnte*, sondern weil es dem Vater vertraut.`,
+              voices: [
+                {
+                  person: 'kallistos-ware',
+                  role: 'als orthodoxer Theologe und Bischof',
+                  text: `Ware beschreibt das Heil in der orthodoxen Tradition als Prozess der Teilhabe am Leben Gottes: begonnen in Taufe und Glauben, fortgesetzt in Gebet, Sakramenten und Buße, vollendet am Jüngsten Tag. Gewissheit heißt für ihn Vertrauen in die Liebe Gottes, nicht die Behauptung, man könne vom Weg nicht mehr abkommen.`,
+                  sources: [
+                    { kind: 'fachliteratur', author: 'Kallistos Ware', work: 'How Are We Saved? The Understanding of Salvation in the Orthodox Tradition', year: '1996', quote: `Das Heil als Weg: Ich bin gerettet, ich werde gerettet, ich hoffe, gerettet zu werden.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'bibel', work: 'Hebräer', ref: '6,19', quote: `… welche wir haben als einen sicheren und festen Anker unsrer Seele …`, translation: 'Luther 1912', status: 'verbatim' },
+                { kind: 'bibel', work: '1. Johannes', ref: '2,3', quote: `Und an dem merken wir, daß wir ihn kennen, so wir seine Gebote halten.`, translation: 'Luther 1912', status: 'verbatim' },
+              ],
+              followUps: [
+                {
+                  id: 'zeitweiliger-glaube',
+                  objection: `„Unsere Gewissheit gründet darin, dass Gott seine Erwählten bewahrt. Wer abfällt, hatte nur einen zeitweiligen Glauben, wie ihn auch Verworfene erfahren können."`,
+                  objectionBy: 'Johannes Calvin (historisch)',
+                  answer: `Gerade dieser Gedanke untergräbt die Gewissheit, die du verteidigen willst. Calvin lehrt, dass Gott auch Verworfenen eine Art Glauben und Geschmack seiner Güte schenken kann, der dem echten sehr ähnlich ist (*Institutio* III,2,11). Dann kann aber niemand an seinem gegenwärtigen Glauben erkennen, ob er echt oder „zeitweilig" ist – das zeigt erst das Ende. So landet die reformierte Lehre am selben Punkt wie wir: Ob jemand beharrt, weiß man am Ende. Nur kommt bei ihr die Sorge hinzu, vielleicht gar nicht erwählt zu sein. Die Orthodoxie sagt dagegen: Gott „will, daß allen Menschen geholfen werde" (1 Tim 2,4). Die einzige Gefahr ist meine Abkehr – und gegen sie gibt es Buße und Gnade.`,
+                  detail: `In der *Institutio* (III,2,11–12) bespricht Calvin, dass die Schrift auch Verworfenen eine Erleuchtung und einen „Vorgeschmack" der Gnade zuschreibt (mit Verweis auf Hebr 6,4–6). Er nennt das einen zeitweiligen Glauben, der sich vom Glauben der Erwählten unterscheide, auch wenn er ihm ähnlich sei. Spätere Puritaner rangen seelsorgerlich intensiv mit der Frage, woran man den echten Glauben erkennt – ein Zeichen dafür, dass die Lehre von der unverlierbaren Erwählung die Heilsgewissheit nicht einfacher macht.
+
+Die koptische Kirche lädt dagegen dazu ein, nicht in die verborgenen Ratschlüsse Gottes zu spähen, sondern auf das offenbarte Erbarmen in Christus zu schauen und täglich in der Buße zu leben.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Johannes Calvin', work: 'Institutio Christianae Religionis', ref: 'III,2,11', year: '1559', quote: `Auch Verworfene können eine Erleuchtung und einen Geschmack der Güte Gottes erfahren, die dem Glauben der Erwählten ähnlich sind – ein zeitweiliger Glaube, der nicht bis zum Ende währt.`, status: 'paraphrase' },
+                    { kind: 'bibel', work: '1. Timotheus', ref: '2,4', quote: `… welcher will, daß allen Menschen geholfen werde und sie zur Erkenntnis der Wahrheit kommen.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn ein Verworfener einen Glauben erleben kann, der dem echten ähnlich ist – woran erkennst du heute, dass deiner nicht „zeitweilig" ist?`,
+                    `Gründet deine Gewissheit letztlich auf einem verborgenen Ratschluss oder auf dem offenbarten Erbarmen Christi?`,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Vertrittst du die Sicht von Charles Stanley (gerettet auch bei späterem Unglauben) oder die reformierte (wahre Gläubige beharren)? Das macht einen großen Unterschied.`,
