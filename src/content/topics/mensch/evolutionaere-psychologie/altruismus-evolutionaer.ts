@@ -134,6 +134,34 @@ const claim: Claim = {
                   objectionBy: 'Michael Ruse',
                   answer: `Das ist ehrlich und konsequent – und ich respektiere die Konsequenz. Aber dann ist der Satz „Es ist falsch, ein Kind zum Vergnügen zu quälen" nicht wirklich wahr, sondern nur ein nützliches Gefühl. Die allermeisten Menschen, auch Atheisten, wissen mit größerer Sicherheit, dass dieser Satz wahr ist, als sie irgendeiner Theorie über seine Herkunft trauen. C. S. Lewis nannte das Moralgesetz einen Hinweis auf den Sinn des Universums – wer es ernst nimmt, braucht eine Quelle der Moral jenseits der Gene.`,
                   detail: `Ausführlich: A10, ‚moral-und-gott/moral-durch-evolution' und ‚moral-und-gott/gut-ohne-gott'.`,
+                  followUps: [
+                    {
+                      id: 'fuenf-regeln-kooperation',
+                      objection: `Ihr braucht keinen Gott für Kooperation. Martin Nowak hat mathematisch gezeigt, dass fünf Mechanismen – Verwandtenselektion, direkte und indirekte Reziprozität, Netzwerk- und Gruppenselektion – Kooperation vollständig erklären.`,
+                      objectionBy: 'Steven Pinker',
+                      answer: `Ausgerechnet Nowak ist ein gutes Beispiel – denn er ist gläubiger Christ und sieht in seinen Modellen keinen Widerspruch zu Gott. Seine Mathematik beschreibt, unter welchen Bedingungen sich Kooperation *langfristig auszahlt*. Sie beschreibt nicht, warum ich jemandem helfen soll, der mir nie etwas zurückgeben kann, oder warum ein Märtyrer für seinen Feind betet. Und die Tatsache, dass die Naturgesetze Kooperation überhaupt ermöglichen, deutet Nowak gerade als Hinweis auf einen Schöpfer.`,
+                      detail: `Nowak („Five rules for the evolution of cooperation", Science 2006) zeigt, dass Kooperation in der Evolution nur unter bestimmten Bedingungen stabil ist, z. B. wenn der Nutzen für den Empfänger die Kosten für den Helfer im Verhältnis zur Wahrscheinlichkeit einer Wiederbegegnung übersteigt. Er nennt Kooperation neben Mutation und Selektion ein drittes Grundprinzip der Evolution.
+
+In dem gemeinsam mit der Theologin Sarah Coakley herausgegebenen Band „Evolution, Games, and God" (2013) wird diskutiert, ob und wie sich daraus eine theologische Deutung ergibt. Nowak vertritt, dass die Evolution Gottes Art sein kann, Leben zu schaffen, und dass die Mathematik der Kooperation die Schönheit dieser Schöpfung zeigt.
+
+Für das Gespräch entscheidend: Erklärung der *Entstehung* einer Fähigkeit ≠ Begründung einer *Pflicht*. Nowaks fünf Regeln beschreiben Bedingungen für sich auszahlende Kooperation; die Feindesliebe der Bergpredigt fordert gerade die Liebe, die sich nicht auszahlt (Lk 6,32–35).`,
+                      voices: [
+                        {
+                          person: 'martin-nowak',
+                          role: 'als mathematischer Biologe',
+                          text: `Martin Nowak beschreibt Kooperation als „Architekten der Kreativität" in der Evolution: Ohne sie gäbe es weder Zellen noch Organismen noch menschliche Gesellschaften. Als gläubiger Katholik sieht er darin keine Konkurrenz zur Schöpfung, sondern deutet die mathematischen Gesetze, die Kooperation ermöglichen, als Teil von Gottes schöpferischem Handeln. Zugleich betont er, dass Mathematik beschreiben kann, wie Kooperation entsteht, aber nicht, was letztlich gut ist.`,
+                          sources: [
+                            { kind: 'wissenschaft', author: 'Martin A. Nowak', work: 'Five rules for the evolution of cooperation', ref: 'Science 314 (2006), 1560–1563', year: '2006', status: 'paraphrase' },
+                            { kind: 'fachliteratur', author: 'Martin A. Nowak, Sarah Coakley (Hg.)', work: 'Evolution, Games, and God: The Principle of Cooperation', year: '2013', status: 'paraphrase' },
+                          ],
+                        },
+                      ],
+                      sources: [
+                        { kind: 'bibel', work: 'Lukas', ref: '6,32–35', status: 'paraphrase', quote: `Wenn ihr liebt, die euch lieben, was für Dank habt ihr davon? … Liebet eure Feinde, tut wohl und leihet, dass ihr nichts dafür hoffet.` },
+                      ],
+                      questionsBack: [`Welche von Nowaks fünf Regeln erklärt, warum jemand für einen Feind stirbt, von dem er nie etwas zurückbekommt?`],
+                    },
+                  ],
                   sources: [
                     { kind: 'gegner', author: 'Michael Ruse, Edward O. Wilson', work: 'Moral philosophy as applied science', ref: 'Philosophy 61 (1986), 173–192', year: '1986', status: 'paraphrase', quote: `Ethik, verstanden als rational begründbares System von Aussagen über etwas Objektives, ist illusorisch – eine Anpassung, die uns zur Kooperation bringt.` },
                   ],
@@ -185,6 +213,55 @@ const claim: Claim = {
           objectionBy: 'Robert Sapolsky',
           answer: `Ohne Augen gäbe es kein Sehen – und doch ist das Gesehene nicht eingebildet. Dass Liebe ein körperliches Instrument hat, beweist nicht, dass sie nichts weiter ist als dieses Instrument. Das ist dieselbe Verwechslung von Abhängigkeit und Identität, die man auch beim Verhältnis von Geist und Gehirn findet.`,
           detail: `Siehe ‚neurowissenschaften/geist-gleich-gehirn'.`,
+          followUps: [
+            {
+              id: 'parochiale-empathie',
+              objection: `Schau dir an, was die Biologie wirklich zeigt: Unser Mitgefühl ist parochial. Das Gehirn teilt Menschen in Sekundenbruchteilen in „wir" und „die anderen" ein, und dieselben Hormone, die uns an die eigene Gruppe binden, machen uns gegenüber Fremden misstrauisch. Universale Feindesliebe widerspricht unserer Natur – sie ist schlicht unrealistisch.`,
+              objectionBy: 'Robert Sapolsky',
+              answer: `Da stimme ich dir weitgehend zu – und genau das ist mein Punkt. Wenn unsere Biologie auf Wir-gegen-die angelegt ist, dann ist Feindesliebe gerade *nicht* aus ihr erklärbar. Das Neue Testament sagt das selbst: Diese Liebe ist nicht natürliche Ausstattung, sondern „ausgegossen in unser Herz durch den Heiligen Geist" (Röm 5,5). Und sie ist nicht unrealistisch, sondern historisch belegt – von den Christen, die in der Seuche Fremde pflegten, bis zu den koptischen Familien, die 2015 den Mördern ihrer Söhne öffentlich vergaben.`,
+              detail: `Sapolsky beschreibt in „Behave" (2017) ausführlich die Biologie der Wir-Die-Unterscheidung. Die christliche Anthropologie widerspricht dem nicht, sie nennt es nur anders: Der gefallene Mensch neigt zur Selbstsucht und zur Feindschaft; die Erlösung bedeutet Heilung und Verwandlung dieser Natur.
+
+Historische Beispiele, die man nennen kann:
+- **Dionysius von Alexandrien** beschreibt in einem Osterbrief während einer Seuche (um 260), wie Christen Kranke pflegten, ohne auf die Ansteckungsgefahr zu achten, und dabei selbst starben, während Heiden ihre Angehörigen auf die Straße warfen (überliefert bei Eusebius).
+- **Die 21 Märtyrer von Libyen (2015):** Angehörige der ermordeten koptischen Arbeiter erklärten öffentlich, sie vergäben den Tätern und beteten für sie.
+
+Beides ist kein Beweis für Gott im strengen Sinn. Aber es ist ein Datum, das eine rein parochiale Biologie schlecht erklärt – und das die Christen selbst mit der Gegenwart Christi erklären.`,
+              voices: [
+                {
+                  person: 'dionysius-alexandrien',
+                  role: 'als Bischof von Alexandrien in Seuchenzeiten',
+                  text: `Dionysius von Alexandrien berichtet in seinem Osterbrief, dass die meisten Brüder aus übergroßer Liebe sich selbst nicht schonten, die Kranken besuchten, ihnen dienten und mit ihnen starben – während die Heiden die Erkrankten mieden und Sterbende auf die Straße warfen. Er deutet diese Hingabe nicht als Heldentum, sondern als Frucht des Glaubens an Christus, der den Tod überwunden hat.`,
+                  sources: [
+                    { kind: 'kirchenvater', author: 'Eusebius von Caesarea (Brief des Dionysius von Alexandrien)', work: 'Kirchengeschichte (Historia ecclesiastica)', ref: 'VII,22', year: 'um 260 (Brief)', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Robert M. Sapolsky', work: 'Behave: The Biology of Humans at Our Best and Worst', ref: 'Kap. 11 (Us versus Them)', year: '2017', status: 'paraphrase' },
+                { kind: 'bibel', work: 'Römer', ref: '5,5', status: 'paraphrase', quote: `Die Liebe Gottes ist ausgegossen in unser Herz durch den Heiligen Geist, welcher uns gegeben ist.` },
+              ],
+              questionsBack: [`Wenn Feindesliebe gegen unsere Biologie geht – wie erklärst du dann Menschen, die sie tatsächlich leben?`],
+              followUps: [
+                {
+                  id: 'aufklaerung-erweiterter-kreis',
+                  objection: `Den moralischen Fortschritt verdanken wir nicht der Religion, sondern Vernunft, Aufklärung, Handel und Lesen. Peter Singer nennt es den „sich erweiternden Kreis": Durch Vernunft dehnen wir unser Mitgefühl Schritt für Schritt auf alle Menschen aus. Gewalt ist historisch gesunken, seit die Aufklärung kam.`,
+                  objectionBy: 'Steven Pinker',
+                  answer: `Die Aufklärung hat viel Gutes bewirkt, das gebe ich gern zu. Aber die Idee, dass jeder Mensch – auch der Sklave, das Kind, der Fremde, der Kranke – gleiche Würde hat, war älter als die Aufklärung; sie wurzelt in der Lehre von der Gottebenbildlichkeit und im Gebot der Feindesliebe. Krankenhäuser, Armenfürsorge und die Bewegung gegen den Sklavenhandel kamen wesentlich aus christlichen Motiven. Und Vernunft allein sagt dir, *wie* du den Kreis erweitern kannst – nicht, *warum* du es sollst.`,
+                  detail: `Der Historiker Tom Holland, der selbst lange kein praktizierender Christ war, argumentiert in „Dominion" (2019), dass gerade die säkularen westlichen Werte – Menschenrechte, Sorge um die Schwachen, Gleichheit – christliche Wurzeln haben, die man vergessen hat. Das 20. Jahrhundert zeigt zudem, dass „Vernunft" ohne diese Wurzeln auch Ideologien hervorbringen konnte, die den Kreis wieder verengten.
+
+Fair bleiben: Pinkers Daten zum langfristigen Rückgang der Gewalt sind ernst zu nehmen, wenn auch unter Historikern umstritten. Christen müssen nicht bestreiten, dass Aufklärer Fortschritte erzielten – oft auch gegen kirchliche Autoritäten ihrer Zeit. Der Streitpunkt ist die Begründung: Warum hat der Fremde überhaupt einen Anspruch auf mein Mitgefühl?
+
+Wilberforce, die Quäker und viele andere Abolitionisten begründeten ihren Kampf ausdrücklich mit dem Glauben – siehe auch die Claims zur Sklaverei.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Steven Pinker', work: 'The Better Angels of Our Nature: Why Violence Has Declined', year: '2011', status: 'paraphrase' },
+                    { kind: 'gegner', author: 'Peter Singer', work: 'The Expanding Circle: Ethics, Evolution, and Moral Progress', year: '1981', status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Tom Holland', work: 'Dominion: The Making of the Western Mind', year: '2019', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn die Vernunft dir sagt, wie du deinen eigenen Vorteil maximierst – woher kommt dann die Pflicht, ihn für Fremde zu opfern?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -210,6 +287,33 @@ const claim: Claim = {
               objectionBy: 'Richard Dawkins',
               answer: `Dass das Wohlergehen *anderer* – auch Fremder und Feinde – objektiv zählt und mich verpflichtet, ist genau die moralische Voraussetzung, nach deren Begründung ich frage. Aus der Biologie folgt sie nicht; die Evolution „interessiert" sich nur für Fortpflanzungserfolg. Wenn du sie trotzdem für objektiv gültig hältst, stimmst du mir zu, dass es eine Moral jenseits der Gene gibt – und dann ist die Frage nach ihrer Quelle offen.`,
               detail: `Siehe A10, ‚moral-und-gott/wissenschaft-begruendet-moral'.`,
+              followUps: [
+                {
+                  id: 'moralische-landschaft',
+                  objection: `Wohlergehen bewusster Wesen ist eine Tatsache über Gehirne und Erleben. Moral ist darum eine Frage der Wissenschaft – so wie die Medizin Gesundheit voraussetzt, ohne sie philosophisch „begründen" zu müssen.`,
+                  objectionBy: 'Sam Harris',
+                  answer: `Die Medizin setzt Gesundheit voraus – aber niemand behauptet, dass ich *moralisch verpflichtet* bin, gesund zu sein. Moral sagt mir dagegen, dass ich mein eigenes Wohlergehen für das eines anderen opfern *soll*, notfalls bis zum Tod. Diese Verpflichtung kann man nicht messen; man muss sie voraussetzen. Genau das tust du – und genau nach dieser Voraussetzung frage ich.`,
+                  detail: `Harris räumt in „The Moral Landscape" (2010) selbst ein, dass er den Wert des Wohlergehens nicht wissenschaftlich herleitet, sondern als Ausgangspunkt annimmt – vergleichbar mit der Annahme, dass Logik gilt oder dass Gesundheit erstrebenswert ist. Die Wissenschaft kann dann sagen, was Wohlergehen fördert. Aber die Frage *warum* das Wohlergehen eines Fremden mich verpflichtet, wird nicht beantwortet, sondern übersprungen.
+
+In der Debatte zwischen William Lane Craig und Sam Harris (Notre Dame, 2011) war genau dies der Kernstreit: Craig unterschied zwischen moralischen **Werten** (was ist gut?) und moralischen **Pflichten** (was soll ich tun?) und argumentierte, dass Harris für Letztere keine Grundlage nenne. Christen sagen: Pflichten sind Gebote einer Person – des guten Gottes, dessen Wesen der Maßstab des Guten ist.
+
+Ehrlich bleiben: Harris hat recht, dass Wohlergehen moralisch zentral ist; die Bibel sagt ebenfalls, dass die Liebe „dem Nächsten nichts Böses" tut (Röm 13,10). Der Streit geht nicht um den Inhalt, sondern um das Fundament.`,
+                  voices: [
+                    {
+                      person: 'craig',
+                      role: 'als Philosoph in der Debatte mit Sam Harris',
+                      text: `William Lane Craig argumentiert, dass auf naturalistischer Grundlage zwar beschrieben werden kann, was das Gedeihen von Lebewesen fördert, nicht aber, warum es objektiv verpflichtend wäre, es zu fördern – besonders dort, wo das eigene Wohl dagegen steht. Er wirft Harris vor, durch eine Neudefinition („gut" heißt „förderlich für das Wohlergehen") das Problem zu umgehen statt es zu lösen.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'William Lane Craig, Sam Harris', work: 'Debatte „Is the Foundation of Morality Natural or Supernatural?" (University of Notre Dame)', year: '2011', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'gegner', author: 'Sam Harris', work: 'The Moral Landscape: How Science Can Determine Human Values', year: '2010', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Kannst du mir ein Experiment nennen, das zeigt, dass ich das Wohlergehen eines Fremden über mein eigenes stellen *soll*?`],
+                },
+              ],
             },
           ],
         },

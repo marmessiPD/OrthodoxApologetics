@@ -97,6 +97,19 @@ const claim: Claim = {
               objectionBy: 'Hugh J. Schonfield',
               answer: `Verbündete können keine römischen Soldaten steuern, keine Lanze umlenken und nicht festlegen, dass die Hohepriester genau dreißig Silberlinge zahlen. Und eine Verschwörung macht das Verhalten der Jünger unerklärlich: Sie hätten gewusst, dass alles Betrug war – und sind trotzdem für die Verkündigung der Auferstehung in Verfolgung und Tod gegangen.`,
               questionsBack: [`Wer stirbt für eine Auferstehung, von der er weiß, dass sie inszeniert war?`],
+              followUps: [
+                {
+                  id: 'nur-innerer-kreis',
+                  objection: `Die Zwölf wussten nichts. Nur ein kleiner innerer Kreis – Josef, Lazarus, ein paar Helfer – war eingeweiht. Die Jünger glaubten ehrlich, weil sie getäuscht wurden.`,
+                  objectionBy: 'Hugh J. Schonfield',
+                  answer: `Dann lies Schonfields eigenes Buch zu Ende: Nach seiner Rekonstruktion scheiterte der Plan – der Lanzenstich durchkreuzte ihn, Jesus starb kurz nach der Abnahme, und der „Auferstandene" war ein Helfer, den man verwechselte. Damit erklärt die Theorie gerade das nicht, was sie erklären sollte: Eine Verwechslung mit einem Fremden erzeugt keine wiederholten Begegnungen mit Gruppen, gemeinsamen Mahlzeiten und Gesprächen, und sie bekehrt keine Gegner wie Jakobus und Paulus.`,
+                  detail: `Die Passover-Plot-These war 1965 ein Bestseller, wird aber in der Fachwissenschaft nicht vertreten. Wichtig für dich: Auch Kritiker wie Ehrman und Crossan halten die Kreuzigung und den Tod Jesu für gesichert. Die eigentliche historische Frage ist nicht „überlebte er?", sondern „wie entstand der Glaube an seine Auferstehung?" – dazu der Themenblock Auferstehung.`,
+                  sources: [
+                    { kind: 'gegner', author: 'Hugh J. Schonfield', work: 'The Passover Plot', year: '1965', quote: `Jesus habe sein Überleben geplant; der Plan sei durch den Lanzenstich gescheitert, und die Erscheinungen beruhten auf einer Verwechslung mit einem Helfer.`, status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wie erklärt eine Verwechslung, dass Paulus, ein Verfolger, und Jakobus, ein Skeptiker, zu Zeugen wurden?`],
+                },
+              ],
             },
           ],
         },
@@ -114,7 +127,7 @@ const claim: Claim = {
           objectionBy: 'Bart Ehrman',
           answer: `Dass die Henker die Kleider der Hingerichteten unter sich aufteilten, war römische Praxis; das römische Recht regelte später ausdrücklich, was mit diesen Kleidern geschehen durfte. Alle vier Evangelien berichten die Aufteilung, Markus sogar ohne ausdrückliches Psalmzitat (Mk 15,24). Ein historisch plausibler Vorgang, der erst nachträglich als Erfüllung erkannt wurde – das ist die einfachere Erklärung.`,
           sources: [
-            { kind: 'sonstiges', work: 'Digesten Justinians', ref: '48,20,6', year: '533 (zitiert ältere Rechtsquellen)', quote: `Regelung über die Kleider (pannicularia) der Verurteilten, auf die die Vollstrecker Anspruch erhoben.`, status: 'unverified', note: 'Fundstelle vor Verwendung prüfen; der Sachverhalt der Kleideraufteilung als römische Praxis ist in der Forschung anerkannt.' },
+            { kind: 'sonstiges', work: 'Digesten Justinians', ref: '48,20,6', year: '533 (zitiert ältere Rechtsquellen)', quote: `Regelung über die Kleider (pannicularia) der Verurteilten, auf die die Vollstrecker Anspruch erhoben.`, status: 'unverified', note: 'Fundstelle vor Verwendung prüfen (drei Websuchen im Nov. 2026 ohne Bestätigung; bitte in einer Digestenausgabe nachschlagen, z. B. Mommsen/Krüger oder engl. Übers. Watson 1985). Der Sachverhalt der Kleideraufteilung als römische Praxis ist in der Forschung anerkannt – im Gespräch genügt dieser Hinweis ohne genaue Digestenstelle.' },
           ],
           followUps: [
             {
@@ -122,6 +135,18 @@ const claim: Claim = {
               objection: `Ps 22,17 heißt im Hebräischen „wie ein Löwe meine Hände und Füße" – nicht „durchbohrt". Das ist eine christliche Fehlübersetzung.`,
               objectionBy: 'Tovia Singer',
               answer: `Der masoretische Text liest kaʾarî („wie ein Löwe"), aber die vorchristliche jüdische Septuaginta übersetzt „sie haben durchgraben", und eine Psalmenhandschrift aus Nahal Hever bezeugt eine verbale Form. Es ist also eine echte textkritische Frage mit jüdischen Zeugen auf beiden Seiten, keine christliche Erfindung. Und selbst ohne diesen Vers bildet Psalm 22 die Passion ab: Gottverlassenheit, Spott, Durst, Losen um die Kleider.`,
+              followUps: [
+                {
+                  id: 'graben-nicht-durchbohren',
+                  objection: `Die Septuaginta sagt *ōryxan* – „sie gruben", nicht „sie durchbohrten". Und die Lesung der Nahal-Hever-Rolle ist unsicher. Ihr baut auf Sand.`,
+                  objectionBy: 'Tovia Singer',
+                  answer: `„Graben" an Händen und Füßen ist dem „Durchbohren" näher als dem „Löwen" – und es ist eine Verbform, wie sie die ältesten jüdischen Zeugen voraussetzen. Umgekehrt hat auch die masoretische Lesart ein Problem: „wie ein Löwe meine Hände und Füße" ist ein Satz ohne Verb, dem man erst ein „zerfleischen" hinzufügen muss. Ehrlich ist: Die Stelle ist umstritten, und ich mache sie nicht zum Hauptargument. Aber von einer christlichen „Fälschung" kann keine Rede sein, wenn vorchristliche Juden den Vers verbal übersetzten.`,
+                  sources: [
+                    { kind: 'bibel', work: 'Psalm 22 (Septuaginta: Ps 21)', ref: '22,17 (LXX 21,17)', quote: `Sie haben meine Hände und Füße durchgraben.`, original: `ὤρυξαν χεῖράς μου καὶ πόδας`, status: 'paraphrase' },
+                    { kind: 'fachliteratur', author: 'Michael L. Brown', work: 'Answering Jewish Objections to Jesus, Bd. 3', year: '2003', quote: `Ausführliche Diskussion von Ps 22,17 mit masoretischem Text, Septuaginta und Nahal-Hever-Fragment.`, status: 'paraphrase' },
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -141,6 +166,39 @@ const claim: Claim = {
           objection: `Ein leidender Messias war im Judentum durchaus bekannt. Jesus konnte bewusst diese Rolle wählen.`,
           objectionBy: 'Dan McClellan',
           answer: `Wenn das so selbstverständlich gewesen wäre, hätten die Jünger es erwartet. Stattdessen widerspricht Petrus heftig (Mk 8,32), und die Emmausjünger sagen enttäuscht: „Wir hofften, er sei es, der Israel erlösen sollte" (Lk 24,21). Der Targum deutet die Leiden in Jes 53 von der Messiasgestalt weg. Ein gekreuzigter Messias war für die meisten Juden ein Widerspruch in sich – Paulus nennt ihn ein „Ärgernis".`,
+          followUps: [
+            {
+              id: 'knohl-vorchristlicher-messias',
+              objection: `Israel Knohl hat gezeigt, dass es schon vor Jesus die Vorstellung eines getöteten und nach drei Tagen auferweckten Messias gab – Qumran-Hymnen, die „Gabriel-Offenbarung". Jesus konnte also ein fertiges Drehbuch übernehmen.`,
+              objectionBy: 'Dan McClellan',
+              answer: `Knohls Thesen sind interessant, aber stark umstritten: Gerade die entscheidende Lesung auf dem Gabriel-Stein („in drei Tagen lebe") beruht auf einer kaum lesbaren Zeile, die viele Epigraphiker anders oder gar nicht lesen. Und selbst wenn eine Randgruppe so etwas erwartete, zeigt das nur, dass die Idee denkbar war – nicht, wie ein Mensch dafür sorgt, dass ihn die Römer kreuzigen, man ihn begräbt und Hunderte ihm danach lebendig begegnen.`,
+              sources: [
+                { kind: 'gegner', author: 'Israel Knohl', work: 'The Messiah before Jesus. The Suffering Servant of the Dead Sea Scrolls', year: '2000', quote: `Vorchristliche Vorstellung eines leidenden und erhöhten Messias in Qumran-Texten.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'jesus-provozierte-tod',
+                  objection: `Er brauchte nichts zu steuern: Wer im Tempel die Tische umwirft, wird hingerichtet. Jesus hat seinen Tod provoziert – das ist vorhersehbar, nicht prophetisch.`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Dass Jesus bewusst nach Jerusalem ging und seinen Tod in Kauf nahm, sehe ich genauso – N. T. Wright hat das ausführlich gezeigt. Aber eine Provokation bestimmt nicht die Art der Hinrichtung: Die jüdische Obrigkeit steinigte (Apg 7), die Römer kreuzigten – Johannes merkt ausdrücklich an, dass die Art des Todes eine Ankündigung Jesu erfüllte (Joh 18,31–32). Sie bestimmt nicht das Passafest als Zeitpunkt, nicht die Bestattung in einem fremden Grab und schon gar nicht das, was danach kam. Man kann seinen Tod provozieren, nicht seine Auferstehung.`,
+                  voices: [
+                    {
+                      person: 'nt-wright',
+                      role: 'als Jesusforscher',
+                      text: `Wright argumentiert, dass Jesus seinen Weg nach Jerusalem als bewusste Verkörperung der Rückkehr JHWHs zum Zion verstand und seinen Tod als Teil seiner Berufung deutete – etwa im letzten Mahl. Gerade weil Jesus diese Rolle bewusst annahm, bleibt die historische Frage, warum seine Anhänger nach der Katastrophe des Kreuzes nicht – wie bei anderen Messiasbewegungen – aufgaben oder einen neuen Messias suchten, sondern seine Auferstehung verkündeten.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'N. T. Wright', work: 'Jesus and the Victory of God', ref: 'Kap. 12–13', year: '1996', quote: `Jesus ging bewusst nach Jerusalem und deutete seinen bevorstehenden Tod im Licht der Schrift.`, status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  sources: [
+                    { kind: 'bibel', work: 'Johannes', ref: '18,31–32', quote: `Die Juden sprachen zu ihm: Wir dürfen niemand töten. Auf dass erfüllet würde das Wort Jesu, welches er sagte, da er deutete, welches Todes er sterben würde.`, translation: 'Luther 1912', status: 'paraphrase' },
+                  ],
+                  questionsBack: [`Wenn der Tod nur die vorhersehbare Folge einer Provokation war – warum brach die Bewegung danach nicht zusammen wie die des Theudas?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },
@@ -159,6 +217,28 @@ const claim: Claim = {
           objection: `Tacitus wiederholt nur, was Christen erzählten.`,
           objectionBy: 'Richard Carrier',
           answer: `Tacitus war den Christen feindlich gesinnt und nennt ihren Glauben einen „verderblichen Aberglauben" – kaum jemand, der christliche Behauptungen ungeprüft übernimmt. Aber selbst wenn man das offenlässt: Die Kreuzigung Jesu unter Pilatus wird auch von sehr kritischen Forschern wie Crossan und Ehrman als gesichert betrachtet. Gerade dieser Tod war kein Element, das man sich als Messias selbst aussucht.`,
+          followUps: [
+            {
+              id: 'testimonium-gefaelscht',
+              objection: `Und Josephus? Das Testimonium Flavianum ist eine christliche Fälschung. Ein frommer Jude hätte nie „er war der Christus" geschrieben.`,
+              objectionBy: 'Richard Carrier',
+              answer: `Dass christliche Abschreiber den Text überarbeitet haben, ist Konsens – „er war der Christus" stammt kaum von Josephus. Die Mehrheit der Fachleute hält aber einen echten Kern für wahrscheinlich: Josephus berichtete von Jesus, einem weisen Mann, den Pilatus kreuzigen ließ. Dazu kommt eine zweite, kaum bestrittene Stelle: In Altertümer 20,200 nennt Josephus Jakobus „den Bruder Jesu, der Christus genannt wird". Die völlige Fälschungsthese ist eine Minderheitsposition.`,
+              sources: [
+                { kind: 'juedisch', author: 'Flavius Josephus', work: 'Jüdische Altertümer', ref: '18,63–64; 20,200', year: 'ca. 93 n. Chr.', quote: `18,63–64: Bericht über Jesus und seine Kreuzigung unter Pilatus (christlich überarbeitet); 20,200: Jakobus, „der Bruder Jesu, der Christus genannt wird".`, status: 'paraphrase' },
+                { kind: 'fachliteratur', author: 'John P. Meier', work: 'A Marginal Jew, Bd. 1', ref: 'Kap. 3', year: '1991', quote: `Rekonstruktion eines echten Kerns des Testimonium Flavianum nach Entfernung christlicher Zusätze.`, status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'agapius-abhaengig',
+                  objection: `Die arabische Fassung bei Agapius, auf die sich alle berufen, hängt vermutlich selbst von christlichen Quellen ab. Und wer sagt, dass 20,200 nicht auch bearbeitet ist?`,
+                  objectionBy: 'Richard Carrier',
+                  answer: `Möglich ist vieles, aber die Fachwelt urteilt anders: Die Jakobus-Stelle steht in einem Bericht über den Hohepriester Ananus, ist nüchtern formuliert und nennt Jesus nur beiläufig zur Identifikation – genau so schreibt ein jüdischer Historiker, nicht ein christlicher Fälscher. Und selbst wenn man Josephus ganz streicht, bleiben Tacitus und die Paulusbriefe, die 20 bis 25 Jahre nach dem Ereignis die Kreuzigung als bekannte Tatsache voraussetzen.`,
+                  detail: `Shlomo Pines machte 1971 auf die arabische Fassung im Geschichtswerk des Agapius (10. Jh.) aufmerksam, die ohne die typisch christlichen Bekenntnisformeln auskommt. Ob sie unabhängig von Eusebius ist, wird diskutiert – das räumst du offen ein. Dein Argument hängt aber nicht daran.`,
+                  questionsBack: [`Welcher Althistoriker mit Lehrstuhl vertritt, dass Jesus nicht unter Pilatus gekreuzigt wurde?`],
+                },
+              ],
+            },
+          ],
         },
       ],
     },

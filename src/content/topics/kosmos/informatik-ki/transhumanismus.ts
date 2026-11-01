@@ -264,6 +264,34 @@ const claim: Claim = {
           objection: `Es gibt aber keine Seele, die den Tod überdauert. Das ist reine Behauptung.`,
           objectionBy: 'Materialist',
           answer: `Das ist die Kernfrage, und sie wird an anderer Stelle ausführlich diskutiert (Bewusstsein, Nahtoderfahrungen). Hier genügt: Auch die These, die Person sei nur ein Datenmuster, ist eine unbewiesene Behauptung – und zwar eine, die das transhumanistische Versprechen selbst untergräbt. Der Christ hat zusätzlich einen historischen Anker: die Auferstehung Jesu.`,
+          followUps: [
+            {
+              id: 'organismen-sind-algorithmen',
+              objection: `Die Lebenswissenschaften haben längst gezeigt: Organismen sind Algorithmen, Gefühle sind biochemische Berechnungen. Für Seele und freien Willen ist kein Platz – und Algorithmen kann man verbessern, kopieren und verlängern.`,
+              objectionBy: 'Yuval Noah Harari (Homo Deus)',
+              answer: `„Organismen sind Algorithmen" ist keine Messung, sondern eine Weltanschauung – Harari selbst beschreibt den „Dataismus" als neue Religion. Kein Experiment zeigt, dass Erleben **nichts anderes** ist als Datenverarbeitung; wir wissen nur, dass beides zusammenhängt. Und wenn dein Urteil nur das Ergebnis eines biochemischen Algorithmus wäre, hättest du keinen Grund, es für wahr zu halten – auch nicht dieses.`,
+              detail: `Rosalind Picard, die am MIT das Feld „Affective Computing" begründet hat, baut Maschinen, die menschliche Gefühle erkennen und darauf reagieren. Gerade sie betont, dass das Erkennen eines Gefühls etwas anderes ist als das **Haben** eines Gefühls: Kein Mensch weiß, wie man einer Maschine Erleben gibt. Ihre Arbeit zeigt, wie viel man mit Algorithmen modellieren kann – und wo die Grenze liegt.
+
+Hararis Diagnose ist zudem ehrlich in ihren Folgen: Wenn Menschen nur Algorithmen sind, verlieren Humanismus, Menschenwürde und Liberalismus ihre Grundlage – er schreibt das selbst. Das ist kein Argument gegen seine These, aber ein Grund, ihre Beweislage sehr genau zu prüfen.`,
+              voices: [
+                {
+                  person: 'rosalind-picard',
+                  role: 'als Informatikerin (MIT Media Lab), Begründerin des Affective Computing',
+                  text: `Picard hat Systeme entwickelt, die Emotionen an Gesichtsausdruck, Stimme und Hautleitfähigkeit erkennen, und sie in der Medizin (z. B. zur Erkennung epileptischer Anfälle) eingesetzt. Sie unterscheidet klar zwischen der Simulation emotionaler Reaktionen und echtem Erleben und hält die Frage, wie subjektives Bewusstsein entsteht, für wissenschaftlich ungelöst. Ihr Weg vom Atheismus zum christlichen Glauben hat sie nicht vom Forschen abgehalten, sondern ihre Neugier vertieft.`,
+                  sources: [
+                    { kind: 'wissenschaft', author: 'Rosalind W. Picard', work: 'Affective Computing', year: '1997', status: 'paraphrase' },
+                  ],
+                },
+              ],
+              sources: [
+                { kind: 'gegner', author: 'Yuval Noah Harari', work: 'Homo Deus: A Brief History of Tomorrow', ref: 'bes. Kap. 3 und 11 („Dataismus")', year: '2015 (engl. 2016)', status: 'paraphrase' },
+              ],
+              questionsBack: [
+                `Welches Experiment hat gezeigt, dass Erleben nichts anderes ist als Rechnen?`,
+                `Wenn dein Urteil nur ein Algorithmus ist – warum sollte ich ihm mehr trauen als meinem?`,
+              ],
+            },
+          ],
         },
       ],
     },

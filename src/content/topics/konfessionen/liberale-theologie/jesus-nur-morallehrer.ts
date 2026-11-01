@@ -171,6 +171,97 @@ const claim: Claim = {
         },
       ],
     },
+    {
+      id: 'nie-ich-bin-gott',
+      objection: `„In den ersten drei Evangelien sagt Jesus nie: ‚Ich bin Gott.' Die hohe Christologie steht erst bei Johannes, um 90–100. Der historische Jesus predigte das Reich Gottes, nicht sich selbst."`,
+      objectionBy: 'Bart Ehrman / Marcus Borg',
+      answer: `Jesus sagt es bei Markus nicht als Formel, aber er tut, was nur Gott tut: Er vergibt Sünden – und die Schriftgelehrten fragen zu Recht: „Wer kann Sünden vergeben denn allein Gott?" (Mk 2,7). Er ist „Herr auch des Sabbats" (2,28), geht auf dem Meer und sagt „Ich bin's" (*egō eimi*, 6,50) – wie Gott, der „auf den Wogen des Meeres geht" (Hi 9,8). Und vor dem Hohen Rat beansprucht er, zur Rechten Gottes zu sitzen und auf den Wolken des Himmels zu kommen (14,62).`,
+      sources: [
+        { kind: 'bibel', work: 'Markus', ref: '2,5–7', quote: `Da aber Jesus ihren Glauben sah, sprach er zu dem Gichtbrüchigen: Mein Sohn, deine Sünden sind dir vergeben … Wie redet dieser solche Gotteslästerung? Wer kann Sünden vergeben denn allein Gott?`, translation: 'Luther 1912', status: 'paraphrase' },
+        { kind: 'bibel', work: 'Matthäus', ref: '11,27', quote: `Alle Dinge sind mir übergeben von meinem Vater. Und niemand kennt den Sohn denn nur der Vater; und niemand kennt den Vater denn nur der Sohn und wem es der Sohn will offenbaren.`, translation: 'Luther 1912', status: 'verbatim' },
+      ],
+      followUps: [
+        {
+          id: 'menschensohn-nur-mensch',
+          objection: `„‚Menschensohn' heißt auf Aramäisch einfach ‚ein Mensch' oder ‚ich' (*bar enascha*). Das hat Geza Vermes gezeigt. Darin liegt kein göttlicher Anspruch."`,
+          objectionBy: 'Geza Vermes („Jesus the Jew")',
+          answer: `In manchen Worten kann der Ausdruck tatsächlich eine bescheidene Selbstbezeichnung sein. Aber Mk 14,62 spielt eindeutig auf Dan 7,13–14 an: Einer „wie eines Menschen Sohn" kommt mit den Wolken des Himmels, erhält ewige Herrschaft, und alle Völker sollen ihm dienen. Das ist eine himmlische Gestalt neben Gott. Die Reaktion des Hohenpriesters – er zerreißt sein Gewand und spricht von Gotteslästerung – zeigt, wie der Anspruch verstanden wurde.`,
+          sources: [
+            { kind: 'bibel', work: 'Daniel', ref: '7,13–14', quote: `Ich sah in diesem Gesicht des Nachts, und siehe, es kam einer in des Himmels Wolken wie eines Menschen Sohn … Der gab ihm Gewalt, Ehre und Reich, dass ihm alle Völker, Leute und Zungen dienen sollten. Seine Gewalt ist ewig.`, translation: 'Luther 1912', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'anklage-wegen-tempel',
+              objection: `„Verurteilt wurde Jesus wegen seiner Drohung gegen den Tempel und als politischer Messiasanwärter – nicht, weil er Gott sein wollte."`,
+              objectionBy: 'Bart Ehrman',
+              answer: `Markus verbindet das Urteil ausdrücklich mit Jesu Antwort über den Menschensohn: „Ihr habt gehört die Gotteslästerung" (Mk 14,63–64). Sich als Messias auszugeben, war nach jüdischem Recht keine Gotteslästerung – Rabbi Akiba feierte später Bar Kochba als Messias, ohne dass ihn jemand der Lästerung bezichtigte. Anstößig war der Anspruch, Gottes Thron zu teilen. Der Neutestamentler Darrell Bock hat das in einer eigenen Untersuchung zur jüdischen Blasphemie-Vorstellung herausgearbeitet.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Darrell L. Bock', work: 'Blasphemy and Exaltation in Judaism and the Final Examination of Jesus', year: '1998', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'markus-anonym-spaet',
+                  objection: `„Markus wurde um 70 von einem anonymen Autor geschrieben, Jahrzehnte später. Was Jesus beim Verhör wirklich sagte, kann niemand wissen."`,
+                  objectionBy: 'Bart Ehrman',
+                  answer: `Dann schau auf die noch früheren Quellen: Paulus schreibt in den 50er-Jahren und zitiert schon ältere Bekenntnisse. Der Philipperhymnus (Phil 2,6–11) überträgt Jes 45,23 – „mir sollen sich alle Knie beugen" – auf Jesus, und 1 Kor 8,6 nimmt Jesus in das jüdische Grundbekenntnis, das Schema, hinein. Larry Hurtado hat gezeigt, dass die Anbetung Jesu innerhalb weniger Jahre nach Ostern unter jüdischen Monotheisten entstand – zu früh für eine allmähliche Legendenbildung.`,
+                  voices: [
+                    {
+                      person: 'hurtado',
+                      role: 'als Erforscher der frühesten Christusverehrung',
+                      text: `Hurtado beschreibt die Verehrung Jesu als „Explosion", nicht als langsame Entwicklung: Schon in den frühesten Quellen wird Jesus angerufen, angebetet und mit Gott in einem Atemzug genannt – und das von Juden, die streng an einem Gott festhielten. Diese „binitarische" Frömmigkeit ist für ihn ohne die Überzeugung der ersten Zeugen, Gott selbst habe Jesus erhöht, nicht erklärbar.`,
+                      sources: [{ kind: 'fachliteratur', author: 'Larry W. Hurtado', work: 'Lord Jesus Christ: Devotion to Jesus in Earliest Christianity', year: '2003', status: 'paraphrase' }],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'bergpredigt-reine-ethik',
+      objection: `„Die Bergpredigt ist reine Ethik – keine Metaphysik, kein Dogma. Tolstoi hat das richtig gesehen: Das ist das Christentum Jesu."`,
+      objectionBy: 'Liberaler Pfarrer (in der Linie Tolstois)',
+      answer: `Gerade in der Bergpredigt erhebt Jesus einen unerhörten Anspruch: „Ihr habt gehört, dass zu den Alten gesagt ist … **ich aber sage euch**" (Mt 5,21–22) – er stellt sein Wort neben und über das Wort vom Sinai. Er preist selig, wer „um meinetwillen" verfolgt wird (5,11). Und am Ende tritt er als Richter des Jüngsten Tages auf: „Es werden viele zu mir sagen an jenem Tage: Herr, Herr! … Dann werde ich ihnen bekennen: Ich habe euch noch nie erkannt" (7,22–23).`,
+      sources: [
+        { kind: 'bibel', work: 'Matthäus', ref: '7,22–23', quote: `Es werden viele zu mir sagen an jenem Tage: Herr, Herr! haben wir nicht in deinem Namen geweissagt? … Dann werde ich ihnen bekennen: Ich habe euch noch nie erkannt; weichet alle von mir, ihr Übeltäter!`, translation: 'Luther 1912', status: 'paraphrase' },
+      ],
+      followUps: [
+        {
+          id: 'ich-aber-sage-prophetisch',
+          objection: `„Auch die Propheten sprachen mit Vollmacht. ‚Ich aber sage euch' ist prophetische Autorität, kein göttlicher Anspruch."`,
+          objectionBy: 'Liberaler Exeget',
+          answer: `Die Propheten sagten: „So spricht der HERR." Jesus sagt das nie – er sagt: „Wahrlich, **ich** sage euch." Der jüdische Gelehrte Jacob Neusner hat sich in einem Gedankenexperiment unter die Hörer der Bergpredigt gestellt und kam zu dem Schluss: Dieser Lehrer beansprucht, an der Stelle der Tora, ja an der Stelle Gottes zu sprechen – und gerade deshalb könne er ihm als Jude nicht folgen. Neusner verstand Jesus besser als mancher liberale Christ.`,
+          sources: [
+            { kind: 'fachliteratur', author: 'Jacob Neusner', work: 'A Rabbi Talks with Jesus', year: '1993', status: 'paraphrase', note: 'Jüdischer Religionswissenschaftler; Benedikt XVI. greift Neusners Analyse in „Jesus von Nazareth" (Bd. 1, 2007) ausführlich auf.' },
+          ],
+          followUps: [
+            {
+              id: 'ethik-ohne-metaphysik',
+              objection: `„Wir können die Ethik Jesu übernehmen und seine Metaphysik beiseitelassen. Moral braucht keinen Gott."`,
+              objectionBy: 'Humanistischer Gesprächspartner',
+              answer: `Bei Jesus ist das erste Gebot: „Du sollst Gott, deinen Herrn, lieben von ganzem Herzen" (Mk 12,30) – das zweite folgt daraus. Die Feindesliebe begründet er mit Gott: „auf dass ihr Kinder seid eures Vaters im Himmel" (Mt 5,45), und die Pflicht zu vergeben mit Gottes Vergebung (Mt 18,32–33). Nimmt man Gott heraus, bleiben Bruchstücke. Selbst der nichtchristliche Historiker Tom Holland beschreibt, wie tief westliche Werte wie die Würde der Schwachen aus dem christlichen Glauben stammen.`,
+              sources: [
+                { kind: 'fachliteratur', author: 'Tom Holland', work: 'Dominion: The Making of the Western Mind (dt.: Herrschaft)', year: '2019', status: 'paraphrase' },
+              ],
+              followUps: [
+                {
+                  id: 'kreuz-nur-martyrium',
+                  objection: `„Das Kreuz als Sühneopfer ist eine archaische Opfervorstellung. Jesus starb als Märtyrer für seine Ideale – mehr nicht."`,
+                  objectionBy: 'Liberaler Pfarrer (in der Linie Harnacks)',
+                  answer: `Jesus selbst deutet seinen Tod: Er gibt sein Leben „zur Bezahlung für viele" (Mk 10,45), und beim letzten Abendmahl spricht er von seinem „Blut des neuen Testaments, das für viele vergossen wird" (Mk 14,24). Ein bloßer Märtyrer stiftet kein Mahl, in dem man seinen Leib und sein Blut empfängt. Die koptische Kirche versteht das Kreuz nicht nur als Bezahlung, sondern als Sieg: Der Unsterbliche nahm den Tod auf sich, um ihn von innen zu zerstören – „durch den Tod hat er den Tod zertreten".`,
+                  sources: [
+                    { kind: 'bibel', work: 'Markus', ref: '14,24', quote: `Das ist mein Blut des neuen Testaments, das für viele vergossen wird.`, translation: 'Luther 1912', status: 'verbatim' },
+                    { kind: 'kirchenvater', author: 'Athanasius von Alexandrien', work: 'Über die Menschwerdung des Logos (De Incarnatione)', ref: '9', year: 'ca. 318', status: 'paraphrase', note: 'Der Logos nimmt einen sterblichen Leib an, damit durch seinen Tod der Tod für alle aufgehoben werde.' },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   questionsToAsk: [
     `Würdest du einen Menschen, der behauptet, Sünden gegen andere zu vergeben und vor Abraham gelebt zu haben, einen „guten Lehrer" nennen?`,

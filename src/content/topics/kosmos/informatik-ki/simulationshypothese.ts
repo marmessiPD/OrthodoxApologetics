@@ -131,6 +131,22 @@ const claim: Claim = {
               id: 'nur-arbeitshypothese',
               objection: `Bostrom sagt ja nur: Wenn man sie annimmt, folgt das Trilemma.`,
               answer: `Dann ist das Ergebnis nur so stark wie diese Annahme – und die Schlagzeile „Wir leben wahrscheinlich in einer Simulation" ist übertrieben. Korrekt wäre: „Falls Bewusstsein berechenbar ist und falls posthumane Zivilisationen Ahnen simulieren, dann …" Das klingt deutlich weniger spektakulär.`,
+              followUps: [
+                {
+                  id: 'simulation-ist-real',
+                  objection: `Selbst wenn wir simuliert sind, ist das kein Skeptizismus: Tische, Bäume und Menschen wären dann eben digitale Objekte – aber real. Virtuelle Realität ist echte Realität. Nichts von Bedeutung geht verloren.`,
+                  objectionBy: 'David Chalmers (Reality+, 2022)',
+                  answer: `Chalmers' Antwort ist klug – und sie hat eine bemerkenswerte Folge, die er selbst ausspricht: Der Simulator wäre für uns so etwas wie ein **Schöpfer**. Damit ist die Simulationshypothese keine Alternative zur Gottesfrage, sondern stellt sie neu: Wer hat die Welt des Simulators hervorgebracht? Ein endlicher Programmierer verschiebt die Frage nur – erst ein notwendiges, nicht geschaffenes Sein beantwortet sie.`,
+                  detail: `In *Reality+* widmet Chalmers ein ganzes Kapitel der Frage, ob ein Simulator ein Gott wäre. Er unterscheidet zwischen einem „Simulationsgott" (mächtig und wissend in Bezug auf unsere Welt, aber selbst ein Geschöpf in einer höheren Welt) und dem Gott der klassischen Theologie. Genau diese Unterscheidung brauchst du: Der Gott der Bibel ist nicht der mächtigste Bewohner der Wirklichkeit, sondern ihr Grund – „In ihm leben, weben und sind wir" (Apg 17,28).`,
+                  sources: [
+                    { kind: 'gegner', author: 'David J. Chalmers', work: 'Reality+: Virtual Worlds and the Problems of Philosophy', year: '2022', status: 'paraphrase', note: 'Chalmers ist Agnostiker; er diskutiert den Simulator ausdrücklich als möglichen „Gott" unserer Welt.' },
+                    { kind: 'bibel', work: 'Apostelgeschichte', ref: '17,28', quote: `Denn in ihm leben, weben und sind wir.`, translation: 'Luther 1912', status: 'verbatim' },
+                  ],
+                  questionsBack: [
+                    `Wenn der Simulator unser Schöpfer wäre – wer hat dann seine Welt erschaffen?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -151,6 +167,36 @@ const claim: Claim = {
               id: 'unendlicher-regress',
               objection: `Vielleicht ist es eben ein unendlicher Regress von Simulationen – ohne oberste Ebene.`,
               answer: `Ein unendlicher Regress abhängiger Dinge erklärt nichts – wie eine unendliche Kette von Waggons ohne Lokomotive. Außerdem bräuchte jede höhere Ebene mehr Rechenleistung als die darunterliegende; eine unendliche Hierarchie wachsender Ressourcen ist kaum denkbar. Und gegen eine aktual unendliche Kette von Ursachen sprechen eigene Argumente (siehe „Eine unendliche Vergangenheit ist mathematisch möglich").`,
+              followUps: [
+                {
+                  id: 'oberste-ebene-rohe-tatsache',
+                  objection: `Dann gibt es eben eine oberste physikalische Ebene, die einfach existiert – eine rohe Tatsache. Warum sollte die eine Erklärung brauchen?`,
+                  objectionBy: 'Sean Carroll / Graham Oppy',
+                  answer: `Weil sie, wie jede physikalische Welt, auch **nicht** hätte existieren oder anders hätte sein können – sie ist kontingent. Und hier liegt eine Ironie: Das ganze Simulationsargument lebt davon, dass wir nach **Erklärungen** für unsere Welt suchen. Wer an der obersten Ebene plötzlich sagt „gibt es halt einfach", hätte das gleich bei unserer Welt sagen können – dann bräuchte man keine Simulation.`,
+                  detail: `Leibniz formulierte das Prinzip vom zureichenden Grund: Für jede kontingente Tatsache gibt es einen Grund, warum sie so ist und nicht anders. Alexander Pruss hat es ausführlich verteidigt: Wer es aufgibt, verliert die Grundlage für Wissenschaft – denn wenn Dinge ohne Grund geschehen können, kann man keiner Beobachtung trauen, dass sie eine Ursache hat. Die letzte Erklärung muss etwas sein, das nicht kontingent ist: ein notwendiges Sein. Das ist der Gott der klassischen Theologie, kein Programmierer.`,
+                  voices: [
+                    {
+                      person: 'leibniz',
+                      role: 'als Philosoph des zureichenden Grundes',
+                      text: `Leibniz fragt in *Die Vernunftprinzipien der Natur und der Gnade* (§ 7): „Warum gibt es eher etwas als nichts?" Die Antwort kann nicht in der Reihe der kontingenten Dinge selbst liegen, wie lang man sie auch denkt, sondern nur in einem Wesen, das den Grund seines Daseins in sich selbst trägt.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Gottfried Wilhelm Leibniz', work: 'Principes de la nature et de la grâce, fondés en raison', ref: '§§ 7–8', year: '1714', status: 'paraphrase' },
+                      ],
+                    },
+                    {
+                      person: 'alexander-pruss',
+                      role: 'als Verteidiger des Prinzips vom zureichenden Grund',
+                      text: `Pruss argumentiert in *The Principle of Sufficient Reason: A Reassessment* (2006), dass ohne dieses Prinzip unser alltägliches und wissenschaftliches Schließen auf Ursachen grundlos würde: Wenn kontingente Ereignisse einfach so geschehen könnten, wüssten wir nicht, warum sie das nicht ständig tun.`,
+                      sources: [
+                        { kind: 'fachliteratur', author: 'Alexander R. Pruss', work: 'The Principle of Sufficient Reason: A Reassessment', year: '2006', status: 'paraphrase' },
+                      ],
+                    },
+                  ],
+                  questionsBack: [
+                    `Wenn die oberste Ebene keinen Grund braucht – warum braucht dann unsere Welt einen Simulator als Grund?`,
+                  ],
+                },
+              ],
             },
           ],
         },
@@ -166,6 +212,24 @@ const claim: Claim = {
           id: 'simulation-treu',
           objection: `Eine Ahnensimulation würde die Basisrealität aber treu nachbilden – also stimmen die Daten.`,
           answer: `Dann schließt du von innen auf außen und setzt voraus, was du nicht wissen kannst – welcher Art von Simulation du angehörst. Der Astronom David Kipping hat das bayesianisch durchgerechnet: Selbst unter Bostroms Annahmen kommt man auf höchstens etwa 50 %, leicht zugunsten der Basisrealität. „Wahrscheinlich simuliert" ist also nicht gedeckt.`,
+          sources: [
+            { kind: 'wissenschaft', author: 'David Kipping', work: '„A Bayesian Approach to the Simulation Argument", Universe 6 (8), 109', year: '2020', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'kipping-nur-priors',
+              objection: `Kippings Ergebnis hängt an seinen Annahmen. Mit anderen Ausgangswahrscheinlichkeiten kommt man auf 99 % Simulation.`,
+              objectionBy: 'Nick Bostrom',
+              answer: `Genau – und das ist der Punkt. Wenn das Ergebnis vollständig davon abhängt, welche unbeweisbaren Ausgangswahrscheinlichkeiten man wählt, dann ist „wir leben wahrscheinlich in einer Simulation" kein Ergebnis, sondern eine Projektion der eigenen Annahmen. Bostrom selbst ist hier vorsichtiger als seine Fans: Er hält jedes der drei Hörner seines Trilemmas für ernsthaft möglich.`,
+              detail: `Bostrom hat in Interviews betont, dass er nicht behauptet, wir seien wahrscheinlich simuliert, sondern nur, dass mindestens eine der drei Möglichkeiten zutrifft (Aussterben, Desinteresse an Simulationen oder Simulation). Diese Zurückhaltung kannst du würdigen – sie entzieht den Schlagzeilen von Musk und anderen den Boden.`,
+              sources: [
+                { kind: 'gegner', author: 'Nick Bostrom', work: '„Are You Living in a Computer Simulation?", Philosophical Quarterly 53', ref: '243–255', year: '2003', status: 'paraphrase', note: 'Schlussfolgerung des Aufsatzes ist eine Disjunktion, keine Wahrscheinlichkeitsaussage für die Simulation allein.' },
+              ],
+              questionsBack: [
+                `Woher nimmst du die Ausgangswahrscheinlichkeit, dass posthumane Zivilisationen Ahnen simulieren wollen?`,
+              ],
+            },
+          ],
         },
       ],
     },

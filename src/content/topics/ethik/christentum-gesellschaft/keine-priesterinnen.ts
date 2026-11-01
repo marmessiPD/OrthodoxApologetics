@@ -132,18 +132,117 @@ Die interorthodoxe Konsultation von Rhodos (1988) zur Stellung der Frau in der o
       objection: `Junia war Apostelin, Phöbe Diakonin, Priszilla Lehrerin. In der Urkirche gab es Frauen in Leitungsämtern – erst später wurden sie verdrängt.`,
       objectionBy: 'Elisabeth Schüssler Fiorenza',
       answer: `Frauen hatten in der Urkirche tatsächlich wichtige Dienste, und das sollte man nicht kleinreden: Phöbe war Diakonin – und die koptische Kirche kennt bis heute Diakonissen; Junia war wohl eine angesehene Missionarin, Priszilla lehrte Apollos. Aber es gibt keinen Beleg, dass Frauen in den apostolischen Gemeinden der Eucharistie als Priesterin oder Bischöfin vorstanden. Gruppen, die später Priesterinnen einführten, wie die Kollyridianer, wurden von der Kirche abgelehnt.`,
+      followUps: [
+        {
+          id: 'diakoninnen-handauflegung',
+          objection: `In Byzanz wurden Diakoninnen mit Handauflegung am Altar geweiht – das Konzil von Chalkedon regelt ihr Mindestalter, die Apostolischen Konstitutionen überliefern das Weihegebet. Frauen haben also sakramentale Weihen empfangen. Eure Kirche hält sie heute sogar unter diesem alten Stand.`,
+          objectionBy: 'Elisabeth Schüssler Fiorenza',
+          answer: `Das ist historisch richtig, und ich gebe zu, dass die heutige koptische Praxis bescheidener ist als die byzantinische des 4. bis 11. Jahrhunderts: Schenuda III. hat die Diakonissen 1981 mit einem Weihegebet eingesetzt, nicht mit einer Ordination für den Altardienst. Die orthodoxe Welt diskutiert diese Frage offen; das griechisch-orthodoxe Patriarchat von Alexandrien hat 2017 im Kongo wieder Diakoninnen geweiht. Aber dieselben alten Quellen unterscheiden die Diakonin klar vom Priester: Sie segnet nicht und vollzieht nichts von dem, was Priester tun.`,
+          detail: `Die Apostolischen Konstitutionen (um 380) überliefern in Buch VIII,19–20 ein Gebet zur Einsetzung der Diakonin unter Handauflegung des Bischofs und halten zugleich fest (VIII,28), dass die Diakonin weder segnet noch etwas von dem tut, was Presbyter oder Diakone tun, sondern den Dienst an den Frauen versieht – etwa bei der Taufe. Kanon 15 von Chalkedon (451) setzt das Mindestalter für die Weihe einer Diakonin auf 40 Jahre. Die Kirche hat also zwischen einem geweihten Dienst von Frauen und dem Priestertum unterschieden – nicht aus Verachtung, sondern weil sie verschiedene Ämter sah.`,
+          sources: [
+            { kind: 'kirchenvater', work: 'Apostolische Konstitutionen', ref: 'VIII,19–20; VIII,28', year: 'um 380', quote: `Gebet zur Einsetzung der Diakonin durch Handauflegung des Bischofs; die Diakonin segnet nicht und tut nichts von dem, was Presbyter oder Diakone tun.`, status: 'paraphrase' },
+            { kind: 'konzil', work: 'Konzil von Chalkedon, Kanon 15', year: '451', quote: `Eine Frau soll nicht vor dem vierzigsten Lebensjahr als Diakonin geweiht werden, und nur nach sorgfältiger Prüfung.`, status: 'paraphrase', note: 'Chalkedon wird von der koptischen Kirche nicht als ökumenisches Konzil anerkannt; hier nur als historischer Beleg für die byzantinische Praxis.' },
+            { kind: 'sonstiges', work: 'Griechisch-orthodoxes Patriarchat von Alexandrien: Einsetzung von Diakoninnen in Kolwezi (DR Kongo)', year: '2017', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'naechster-schritt-priesterin',
+              objection: `Wenn Frauen einmal geweiht wurden, ist das Priestertum nur der nächste, logische Schritt. Eure Grenze ist willkürlich.`,
+              objectionBy: 'Rosemary Radford Ruether',
+              answer: `Die alte Kirche hat diese Grenze über ein Jahrtausend lang bewusst gezogen, obwohl es geweihte Diakoninnen gab – sie war also kein Versehen, sondern Überzeugung. Epiphanius, der die Diakoninnen ausdrücklich anerkennt, sagt im selben Zusammenhang, sie seien nicht zum Priesterdienst eingesetzt. Die orthodoxe Begründung ist sakramental: Der Priester steht in der Eucharistie für Christus als den Bräutigam der Kirche (Eph 5,25–32). Diese bräutliche Symbolik gehört zum Sakrament selbst – darum ist das Geschlecht hier nicht gleichgültig, die Herkunft oder Hautfarbe dagegen schon.`,
+              detail: `Man sollte ehrlich hinzufügen: Orthodoxe Theologen begründen das unterschiedlich, und manche halten die Frage für theologisch noch nicht abschließend geklärt – Metropolit Kallistos Ware hat seine frühere, entschiedenere Position später als „offene Frage" beschrieben. Die gemeinsame Praxis aller orthodoxen und orientalischen Kirchen bleibt jedoch einheitlich. Für die koptische Kirche gilt: Was alle apostolischen Kirchen gemeinsam überliefert haben, kann keine von ihnen allein ändern.`,
+              voices: [
+                { person: 'kallistos-ware', role: 'als orthodoxer Theologe', text: `Ware bekannte in einer überarbeiteten Fassung seines Aufsatzes „Man, Woman and the Priesthood of Christ" (1999), dass er die Frage der Frauenordination inzwischen für eine offene Frage halte, die der weiteren Klärung bedürfe – bei gleichzeitiger Treue zur Praxis seiner Kirche. Sein ehrliches Ringen zeigt, dass die orthodoxe Position aus Überzeugung, nicht aus Gedankenlosigkeit gehalten wird.` },
+              ],
+              followUps: [
+                {
+                  id: 'ikone-juedischer-mann',
+                  objection: `Das „Ikonen-Argument" ist absurd: Wenn der Priester Christus körperlich darstellen muss, warum dann nur das Geschlecht? Dann müsste er auch ein jüdischer Mann mit Bart aus dem ersten Jahrhundert sein.`,
+                  objectionBy: 'Rosemary Radford Ruether',
+                  answer: `Das Argument behauptet keine äußere Ähnlichkeit, sondern eine sakramentale Symbolik. Die Schrift beschreibt das Verhältnis Christi zur Kirche durchgehend als Ehe: Christus der Bräutigam, die Kirche die Braut (Eph 5; Offb 19,7; Joh 3,29). In der Ehe ist das Geschlecht konstitutiv – Alter, Herkunft oder Bart sind es nicht. Darum ist die Analogie mit der Hautfarbe oder Volkszugehörigkeit nicht tragfähig. Und die bräutliche Symbolik sagt nichts über den Wert aus: Alle Christen, Männer wie Frauen, sind gemeinsam die Braut.`,
+                  detail: `Für das Gespräch ist wichtig: Du musst nicht behaupten, dass dieses Argument jeden überzeugen muss. Es zeigt aber, dass die orthodoxe Position eine theologische Logik hat, die nicht auf Geringschätzung der Frau beruht. In der Liturgie ist die höchste Ehre einem Menschen vorbehalten, der nie Priester war: der Theotokos, die „höher als die Cherubim und herrlicher als die Seraphim" besungen wird.`,
+                },
+              ],
+            },
+          ],
+        },
+      ],
     },
     {
       id: 'andere-kirchen',
       objection: `Anglikaner und Lutheraner ordinieren seit Jahrzehnten Frauen, und es funktioniert hervorragend. Ihr klammert euch an Vergangenes.`,
       objectionBy: 'Maria 2.0',
       answer: `Ich respektiere diese Kirchen und den Dienst vieler Pfarrerinnen. Aber für die orthodoxe Kirche ist das Priestertum keine Funktion, die man daran misst, ob sie „funktioniert", sondern ein Sakrament, das an die apostolische Überlieferung gebunden ist. Eine einzelne Kirche kann nicht allein verändern, was alle apostolischen Kirchen gemeinsam empfangen haben. Und viele Christen weltweit – auch in den wachsenden Kirchen des Südens – teilen diese Sicht.`,
+      followUps: [
+        {
+          id: 'junge-frauen-gehen',
+          objection: `Ihr verliert die jungen Frauen. Gerade in der Diaspora sehen gebildete Koptinnen, dass sie in jedem Beruf leiten können – nur nicht in ihrer Kirche. Sie gehen.`,
+          objectionBy: 'Maria 2.0',
+          answer: `Diese Sorge nehme ich ernst, und sie ist eine Anfrage an die Kirche, nicht nur an die Frauen. Die Wahrheit eines Sakraments entscheidet sich nicht an Mitgliederzahlen. Aber die Kirche muss ehrlich prüfen, ob sie Frauen den Raum gibt, den die Tradition selbst ihnen eröffnet: als geweihte Diakonissen, als Lehrerinnen und Theologinnen, in der Sonntagsschule – die in der koptischen Erneuerung des 20. Jahrhunderts maßgeblich von Frauen getragen wurde –, in der Seelsorge an Frauen, im Dienst an Armen und Kranken. Wo Frauen nur aus Gewohnheit, nicht aus theologischen Gründen ausgeschlossen werden, muss sich etwas ändern.`,
+          detail: `Ein guter Gesprächsweg ist, Frauen nach ihrer Erfahrung zu fragen, statt sie zu belehren. Viele Koptinnen erleben die Kirche als Ort der Würde und Stärke; andere fühlen sich übersehen. Beides verdient Gehör. Papst Schenuda III. hat mit der Erneuerung der Diakonissen gezeigt, dass Tradition kein Stillstand ist, sondern lebendige Treue. Die Kirche braucht die Gaben der Frauen – nicht als Zugeständnis, sondern weil der Leib Christi ohne sie verarmt (1 Kor 12,21).`,
+          voices: [
+            { person: 'shenouda-iii', role: 'als Erneuerer des Diakonissenstandes', text: `Schenuda III., selbst aus der Sonntagsschulbewegung hervorgegangen, weihte 1981 die ersten Diakonissen der neueren koptischen Geschichte und förderte den Dienst geweihter Frauen in Katechese, Diakonie und Seelsorge. Für ihn war das keine Annäherung an westliche Modelle, sondern die Wiederbelebung eines altkirchlichen Standes.` },
+          ],
+        },
+      ],
     },
     {
       id: 'frauen-unrein',
       objection: `In Wahrheit steckt hinter all dem die alte Vorstellung, Frauen seien unrein. In der koptischen Kirche dürfen Frauen während der Menstruation nicht einmal zur Kommunion gehen.`,
       objectionBy: 'Rosemary Radford Ruether',
       answer: `Es stimmt, dass es diese Praxis gibt; sie stützt sich auf alte Kanones des hl. Dionysius von Alexandrien und wird heute unterschiedlich erklärt und auch innerkirchlich diskutiert. Wo sie als Aussage über einen geringeren Wert oder eine moralische Unreinheit der Frau verstanden würde, widerspräche sie Gen 1,27 und Gal 3,28 – das hat die Kirche nie gelehrt. Die Begründung des männlichen Priestertums liegt nicht in der Leiblichkeit der Frau, sondern in der Gestalt Christi und der apostolischen Überlieferung. Und die Kirche, die die Theotokos über alle Engel stellt, hält Frauen nicht für „unrein".`,
+      followUps: [
+        {
+          id: 'dionysius-kanon-reinheitstabu',
+          objection: `Der Kanon des Dionysius ist ein Reinheitstabu aus dem Alten Testament, das Jesus längst überwunden hat. Eine Kirche, die so etwas beibehält, verrät, was sie über Frauenkörper denkt.`,
+          objectionBy: 'Rosemary Radford Ruether',
+          answer: `Hier hast du einen ernsten Punkt, und die Tradition selbst ist darin nicht einstimmig. Jesus ließ sich von der blutflüssigen Frau berühren, nannte sie „Tochter" und lobte ihren Glauben (Mk 5,25–34). Die syrische *Didascalia Apostolorum* (3. Jh.) ermahnte Frauen sogar ausdrücklich, sich in diesen Tagen nicht für unrein zu halten und der Eucharistie nicht fernzubleiben. Es handelt sich also um eine Frage der kirchlichen Disziplin, nicht des Dogmas – und sie wird in der koptischen Seelsorge heute differenziert gehandhabt.`,
+          detail: `Ehrlich formuliert: Der Kanon des Dionysius (3. Jh.) spiegelt antike Vorstellungen von Ehrfurcht vor dem Heiligen, die in der Kirche bis heute nachwirken. Manche erklären ihn als Ausdruck der Ehrfurcht vor dem Mysterium, das mit Blut und Leben zu tun hat, nicht als Urteil über die Frau. Du musst ihn nicht verteidigen, um die orthodoxe Lehre über das Priestertum zu vertreten – die beiden Fragen sind voneinander unabhängig. Wo jemand verletzt wurde, ist Zuhören wichtiger als Erklären.`,
+          sources: [
+            { kind: 'bibel', work: 'Markus', ref: '5,25–34', quote: `Meine Tochter, dein Glaube hat dich gesund gemacht; gehe hin mit Frieden.`, status: 'paraphrase' },
+            { kind: 'kirchenvater', work: 'Didascalia Apostolorum', ref: 'Kap. 26', year: '3. Jh.', quote: `Frauen sollen sich während ihrer Reinigung nicht für unrein halten und sich nicht vom Gebet und von der Eucharistie fernhalten.`, status: 'paraphrase' },
+            { kind: 'kirchenvater', author: 'Dionysius von Alexandrien', work: 'Brief an Basilides', ref: 'Kanon 2', year: 'um 260', status: 'paraphrase' },
+          ],
+          followUps: [
+            {
+              id: 'kanon-gegen-eigene-tradition',
+              objection: `Dann folgt eure Kirche einem Kanon, dem ihre eigene ältere Tradition widerspricht. Woher soll ich wissen, dass euer „Nein" zur Priesterin nicht genauso ein Überbleibsel ist?`,
+              objectionBy: 'Elisabeth Schüssler Fiorenza',
+              answer: `Weil die beiden Fragen ein unterschiedliches Gewicht haben. Bei der Kommunionpraxis gab es von Anfang an verschiedene Stimmen und örtliche Gewohnheiten – das zeigt, dass es eine Disziplinfrage ist. Beim Priestertum gibt es diese Vielstimmigkeit in den apostolischen Kirchen nicht: Von Rom bis Äthiopien, von Antiochien bis Armenien haben alle Kirchen, die auf die Apostel zurückgehen, übereinstimmend nur Männer zu Priestern geweiht, und die wenigen Gruppen, die es anders hielten, wurden einhellig abgelehnt. Der Unterschied zwischen Gewohnheit und Überlieferung liegt genau in dieser Einmütigkeit.`,
+              detail: `Vinzenz von Lérins formulierte im 5. Jahrhundert den klassischen Prüfstein: Festzuhalten ist, was „überall, immer und von allen" geglaubt wurde. Er ist kein mechanischer Test, aber er hilft, Wandelbares von Unwandelbarem zu unterscheiden. Für die Diakonissen gilt übrigens dasselbe in umgekehrter Richtung: Weil sie zur alten Überlieferung gehören, konnte die koptische Kirche sie wiederbeleben.`,
+              voices: [
+                { person: 'vinzenz-lerin', role: 'als Lehrer der Überlieferung', text: `Vinzenz von Lérins unterscheidet im *Commonitorium* (434) zwischen legitimer Entwicklung, bei der der Glaube wächst wie ein Körper vom Kind zum Mann und doch derselbe bleibt, und Veränderung, bei der etwas anderes an seine Stelle tritt. Maßstab ist, was überall, immer und von allen geglaubt wurde.` },
+              ],
+              sources: [
+                { kind: 'kirchenvater', author: 'Vinzenz von Lérins', work: 'Commonitorium', ref: '2,6', year: '434', quote: `Man halte fest, was überall, was immer, was von allen geglaubt worden ist.`, original: 'quod ubique, quod semper, quod ab omnibus creditum est', status: 'verbatim' },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'frauen-lehren-verboten',
+      objection: `Paulus sagt: „Einem Weibe aber gestatte ich nicht, dass sie lehre" (1 Tim 2,12). Dann seid wenigstens konsequent: Eure Sonntagsschullehrerinnen und Theologinnen müssten auch schweigen. Ihr pickt euch heraus, was euch passt.`,
+      objectionBy: 'Christopher Hitchens',
+      answer: `Paulus kann nicht jedes Lehren von Frauen gemeint haben, denn er lobt selbst Frauen, die lehren: Priszilla unterweist mit Aquila den gelehrten Apollos (Apg 18,26), ältere Frauen sollen jüngere lehren (Tit 2,3–4), und Timotheus verdankt seinen Glauben der Unterweisung seiner Mutter und Großmutter (2 Tim 1,5). Die Kirche hat 1 Tim 2,12 darum immer auf das autoritative Lehramt in der gottesdienstlichen Versammlung bezogen, das mit dem Bischofs- und Priesteramt verbunden ist – nicht auf das Lehren überhaupt.`,
+      detail: `Das ist keine nachträgliche Ausrede, sondern die durchgehende Praxis der Kirche: Die Wüstenmütter wie Amma Synkletika wurden als geistliche Lehrerinnen verehrt, deren Worte in den *Apophthegmata* überliefert sind, und die koptische Kirche feiert gelehrte Frauen wie die heilige Katharina von Alexandrien. Heute lehren Koptinnen in Sonntagsschulen, Katechese und theologischen Instituten.`,
+      sources: [
+        { kind: 'bibel', work: 'Apostelgeschichte', ref: '18,26', quote: `Da ihn aber Aquila und Priscilla hörten, nahmen sie ihn zu sich und legten ihm den Weg Gottes noch fleißiger aus.`, translation: 'Luther 1912', status: 'verbatim' },
+        { kind: 'bibel', work: 'Titus', ref: '2,3–4', status: 'paraphrase', note: 'Die alten Frauen sollen „Gutes lehren" und die jungen Frauen unterweisen.' },
+      ],
+      followUps: [
+        {
+          id: 'eva-zuerst-verfuehrt',
+          objection: `Und die Begründung? „Adam wurde nicht verführt, das Weib aber" (1 Tim 2,14). Frauen sind also leichter zu täuschen. Das ist Frauenfeindlichkeit in Reinform.`,
+          objectionBy: 'Rosemary Radford Ruether',
+          answer: `So kann der Satz nicht gemeint sein, denn derselbe Paulus macht im Römerbrief nicht Eva, sondern **Adam** für den Fall verantwortlich: „durch einen Menschen ist die Sünde in die Welt gekommen" (Röm 5,12). Viele Ausleger sehen in 1 Tim 2 eine konkrete Lage in Ephesus, wo Irrlehrer gezielt Frauen ansprachen (2 Tim 3,6; 1 Tim 5,13), und lesen den Verweis auf Eva als typologische Warnung, nicht als Aussage über die Intelligenz von Frauen. Ich gebe zu, dass der Abschnitt schwierig ist und unterschiedlich ausgelegt wird.`,
+          detail: `Auch hier gilt: Die Kirche liest einen schwierigen Vers im Licht der ganzen Schrift. Wenn Paulus Frauen für weniger urteilsfähig gehalten hätte, hätte er Phöbe nicht seinen wichtigsten Brief anvertraut (Röm 16,1–2), Frauen nicht als „Mitarbeiterinnen" gegrüßt (Röm 16,3.12) und nicht vorausgesetzt, dass Frauen im Gottesdienst prophetisch reden (1 Kor 11,5). Die koptische Tradition sieht in Maria, der „neuen Eva", die Antwort auf jeden Versuch, Frauen auf Evas Fall festzulegen.`,
+          sources: [
+            { kind: 'bibel', work: 'Römer', ref: '5,12', quote: `Derhalben, wie durch einen Menschen die Sünde ist gekommen in die Welt und der Tod durch die Sünde …`, translation: 'Luther 1912', status: 'verbatim' },
+          ],
+        },
+      ],
     },
   ],
   questionsToAsk: [
